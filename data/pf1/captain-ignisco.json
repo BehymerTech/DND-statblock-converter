@@ -1,0 +1,100 @@
+{
+  "name": "Captain Ignisco",
+  "sourceSystem": "pf1",
+  "source": "Darklands Revisited",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "munavri",
+  "alignment": "CG",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "armor +4, dex +3, dodge +2",
+    "touch": 15,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 55,
+    "formula": "2d6+4d10+22"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 16,
+    "con": 16,
+    "int": 12,
+    "wis": 10,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +4, Ref +7, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Bluff +8, Diplomacy +8, Perception +7, Profession (sailor) +7, Sense Motive +5, Sleight of Hand +8, Spellcraft +7, Swim +7",
+    "list": {
+      "Acrobatics": "+10",
+      "Bluff": "+8",
+      "Diplomacy": "+8",
+      "Perception": "+7",
+      "Sense Motive": "+5",
+      "Sleight of Hand": "+8",
+      "Spellcraft": "+7",
+      "Swim": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Munavri",
+    "Undercommon",
+    "telepathy 60 ft."
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 5,
+  "feats": [
+    "Combat Expertise",
+    "Dodge",
+    "Mobility",
+    "Weapon Focus (rapier)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 rapier +10 (1d6+2/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "silver dagger +8 (1d4/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This alabaster-skinned man holds a rapier made of intricately carved crystal and wears armor made of the same material.",
+  "meta": {
+    "race": "Male",
+    "class": "munavri psychic 2, swashbuckler 4 (Pathfinder Campaign Setting: Occult Bestiary 34, Pathfinder RPG Occult Adventures 60, Pathfinder RPG Advanced Class Guide 56)",
+    "cmb": "+6",
+    "cmd": 21
+  }
+}

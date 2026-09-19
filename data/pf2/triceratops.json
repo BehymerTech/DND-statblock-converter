@@ -1,0 +1,103 @@
+{
+  "name": "Triceratops",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 99.",
+  "size": "Huge",
+  "type": "Dinosaur",
+  "subtype": "Animal",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 26,
+    "notes": ""
+  },
+  "hp": {
+    "average": 140,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 10,
+    "con": 18,
+    "int": 2,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +18, Ref +12, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +21 (1d20+21); ",
+    "list": {
+      "Athletics": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 26,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Frill Defense",
+      "text": "⬲ Trigger The rider is targeted with an attack. Effect Requirements A creature must be mounted on the triceratops. The triceratops intercepts the attack with its bony frill. The rider gains a +2 circumstance bonus to its AC against the triggering attack."
+    },
+    {
+      "name": "Lumbering Charge",
+      "text": "⬻ The triceratops Strides up to 10 feet and then makes a Strike."
+    },
+    {
+      "name": "Trample",
+      "text": "⬽ Large or smaller, foot, DC 26."
+    },
+    {
+      "name": "Vicious Gore",
+      "text": "A triceratops deals 2d6 (2d6) extra persistent bleed damage to prone targets it hits with its horns."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ horns +19 (reach 15 feet); Damage 2d8+9 (2d8+9) piercing plus Knockdown"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ foot +19 (reach 10 feet); Damage 2d6+9 (2d6+9) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      0,
+      4,
+      -4,
+      2,
+      -1
+    ]
+  }
+}

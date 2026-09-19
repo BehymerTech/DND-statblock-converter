@@ -1,0 +1,129 @@
+{
+  "name": "Talmandor",
+  "sourceSystem": "pf1",
+  "source": "Andoran, Birthplace of Freedom",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "agathion, extraplanar, good",
+  "alignment": "NG",
+  "cr": "23",
+  "level": null,
+  "xp": 819200,
+  "ac": {
+    "value": 40,
+    "notes": "dex +13, natural +18, size -1",
+    "touch": 22,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 472,
+    "formula": "27d10+324"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 180 ft. (good)"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 36,
+    "con": 35,
+    "int": 19,
+    "wis": 23,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +27, Ref +22, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +40, Bluff +20, Diplomacy +30, Fly +45, Handle Animal +30, Intimidate +30, Knowledge (history) +10, Knowledge (local) +10, Knowledge (nobility) +10, Knowledge (planes) +10, Perception +44, Perform (oratory) +10, Sense Motive +36, Spellcraft +10, Stealth +38, Use Magic Device +34",
+    "list": {
+      "Acrobatics": "+40",
+      "Bluff": "+20",
+      "Diplomacy": "+30",
+      "Fly": "+45",
+      "Handle Animal": "+30",
+      "Intimidate": "+30",
+      "Perception": "+44",
+      "Sense Motive": "+36",
+      "Spellcraft": "+10",
+      "Stealth": "+38",
+      "Use Magic Device": "+34"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see invisibility",
+    "true seeing"
+  ],
+  "passivePerception": 54,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "speak with animals",
+    "truespeech"
+  ],
+  "initiative": "+13",
+  "babOrProficiency": 27,
+  "feats": [
+    "Bleeding Critical",
+    "Dimensional Agility",
+    "Dimensional Assault",
+    "Dimensional Dervish",
+    "Critical Focus",
+    "Empower Spell-Like Ability (chain lightning)",
+    "Flyby Attack",
+    "Multiattack",
+    "Power Attack",
+    "Quicken Spell-Like Ability (chain lightning)",
+    "Staggering Critical",
+    "Stunning Critical",
+    "Weapon Finesse",
+    "Weapon Focus (claws)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +40 (3d6+12/18-20/×3), 2 wings +37 (3d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This gloriously plumed anthropomorphic eagle has feathers tipped with shimmering gold, and claws with sharp black talons.",
+  "meta": {
+    "cmb": "+36",
+    "cmd": 59,
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any air (Nirvana)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or flight (Talmandor and 3-6 advanced avorals)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

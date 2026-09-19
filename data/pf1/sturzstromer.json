@@ -1,0 +1,116 @@
+{
+  "name": "Sturzstromer",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 138: Rise of New Thassilon",
+  "size": "Tiny",
+  "type": "outsider",
+  "subtype": "earth, elemental, extraplanar, swarm",
+  "alignment": "CN",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 34,
+    "notes": "dex +1, dodge +1, natural +20, size +2",
+    "touch": 14,
+    "flatFooted": 32
+  },
+  "hp": {
+    "average": 324,
+    "formula": "24d10+192"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 13,
+    "con": 27,
+    "int": 10,
+    "wis": 22,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +22, Ref +17, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +27, Climb +31, Knowledge (geography) +27, Knowledge (planes) +27, Perception +33, Stealth +36",
+    "list": {
+      "Appraise": "+27",
+      "Climb": "+31",
+      "Perception": "+33",
+      "Stealth": "+36"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 43,
+  "languages": [
+    "Terran",
+    "stone tell"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 24,
+  "feats": [
+    "Blind-Fight",
+    "Dodge",
+    "Greater Blind-Fight",
+    "Improved Blind-Fight",
+    "Improved Iron Will",
+    "Improved Lightning Reflexes",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Mobility",
+    "Quick Draw",
+    "Run",
+    "Weapon Focus (rock)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "swarm (6d6+6 plus distraction)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +29/+24/+19/+14 (6d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Stones jump and roll as if moved by an earthquake that affects nothing else around it. A wave of disturbed earth and rock follows behind them.",
+  "meta": {
+    "cmb": "None",
+    "cmd": "None",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any mountains (Plane of Earth)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

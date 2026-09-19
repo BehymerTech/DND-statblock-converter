@@ -1,0 +1,108 @@
+{
+  "name": "NPC Toothy Transmuter",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, orc",
+  "alignment": "CE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 15,
+    "notes": "armor +4, deflection +1",
+    "touch": 11,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 102,
+    "formula": "12d6+58"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 10,
+    "con": 16,
+    "int": 22,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +9, Ref +6, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +8, Fly +8, Handle Animal +4, Intimidate +11, Knowledge (arcana) +19, Knowledge (dungeoneering) +14, Knowledge (geography) +14, Knowledge (history) +14, Knowledge (local) +14, Knowledge (nature) +14, Perception +11, Sense Motive +6, Spellcraft +19, Stealth +3, Survival +6, Swim +8",
+    "list": {
+      "Climb": "+8",
+      "Fly": "+8",
+      "Handle Animal": "+4",
+      "Intimidate": "+11",
+      "Perception": "+11",
+      "Sense Motive": "+6",
+      "Spellcraft": "+19",
+      "Stealth": "+3",
+      "Survival": "+6",
+      "Swim": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see invisibility"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Draconic",
+    "Giant",
+    "Goblin",
+    "Infernal",
+    "Orc"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 6,
+  "feats": [
+    "Brew Potion",
+    "Combat Casting",
+    "Craft Wondrous Item",
+    "Improved Initiative",
+    "Power Attack",
+    "Scribe Scroll",
+    "Toughness",
+    "Vital Strike",
+    "Weapon Focus (greataxe)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 greataxe +11/+6 (1d12+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-orc",
+    "class": "transmuter 12",
+    "cmb": "+9",
+    "cmd": 20
+  }
+}

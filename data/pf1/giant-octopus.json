@@ -1,0 +1,107 @@
+{
+  "name": "Giant Octopus",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 18,
+    "notes": "dex +2, natural +7, size -1",
+    "touch": 11,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 90,
+    "formula": "12d8+36"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 30 ft., jet 200 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 15,
+    "con": 17,
+    "int": 2,
+    "wis": 12,
+    "cha": 3
+  },
+  "saves": {
+    "text": "Fort +11, Ref +12, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Escape Artist +18, Perception +8, Stealth +18, Swim +13",
+    "list": {
+      "Escape Artist": "+18",
+      "Perception": "+8",
+      "Stealth": "+18",
+      "Swim": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 18,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Multiattack",
+    "Skill Focus (Stealth)",
+    "Stealthy"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (1d8+5 plus poison), 8 tentacles +11 (1d4+2 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A storm of tentacles, each twenty feet in length, flails with deadly precision from the leathery body of this gigantic octopus.",
+  "meta": {
+    "cmb": "15 (+19 grapple)",
+    "cmd": "27 (can’t be tripped)",
+    "racialModifiers": [
+      "Escape Artist 10",
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any ocean"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

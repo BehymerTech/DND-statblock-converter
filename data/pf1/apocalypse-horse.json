@@ -1,0 +1,119 @@
+{
+  "name": "Apocalypse Horse",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "evil, extraplanar",
+  "alignment": "NE",
+  "cr": "25",
+  "level": null,
+  "xp": 1638400,
+  "ac": {
+    "value": 43,
+    "notes": "deflection +4, dex +9, dodge +1, natural +20, size -1",
+    "touch": 23,
+    "flatFooted": 33
+  },
+  "hp": {
+    "average": 555,
+    "formula": "30d10+390"
+  },
+  "speed": {
+    "walk": 90,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "90 ft., other_semicolon air walk ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 28,
+    "con": 36,
+    "int": 13,
+    "wis": 21,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +27, Ref +30, Will +28",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +42, Intimidate +40, Knowledge (planes) +34, Perception +38, Sense Motive +38, Stealth +38, Survival +38",
+    "list": {
+      "Acrobatics": "+42",
+      "Intimidate": "+40",
+      "Perception": "+38",
+      "Sense Motive": "+38",
+      "Stealth": "+38",
+      "Survival": "+38"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent",
+    "true seeing"
+  ],
+  "passivePerception": 48,
+  "languages": [
+    "Abyssal",
+    "Infernal",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+13",
+  "babOrProficiency": 30,
+  "feats": [
+    "Combat Casting",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dodge",
+    "Greater Bull Rush",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Critical (hoof)",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Iron Will",
+    "Mobility",
+    "Power Attack",
+    "Spring Attack",
+    "Staggering Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +39 (6d10+10/19-20 plus energy drain), 2 hooves +39 (8d8+15/19-20 plus energy drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Little more than a walking corpse, this frightful horse’s hide stretches tight over its bones.",
+  "meta": {
+    "cmb": "41 (+45 bull rush)",
+    "cmd": "65 (67 vs. bull rush, 69 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique), group (all four apocalypse horses), or with associated Horseman"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

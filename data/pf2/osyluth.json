@@ -1,0 +1,123 @@
+{
+  "name": "Osyluth",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 74.",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "Devil",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 9",
+  "xp": null,
+  "ac": {
+    "value": 28,
+    "notes": ""
+  },
+  "hp": {
+    "average": 135,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet, fly 30 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 20,
+    "con": 18,
+    "int": 16,
+    "wis": 18,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +17, Ref +18, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +18 (1d20+18); __Deception__: +19 (1d20+19); __Intimidation__: +21 (1d20+21); __Religion__: +17 (1d20+17); __Stealth__: +20 (1d20+20); ",
+    "list": {
+      "Arcana": "+18",
+      "Deception": "+19",
+      "Intimidation": "+21",
+      "Religion": "+17",
+      "Stealth": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Osyluth Venom",
+      "text": "(poison); Saving Throw DC 25 Fortitude. Maximum Duration 6 rounds Stage 1 2d6 (2d6) poison damage, enfeebled 1 (1 round) Stage 2 3d6 (3d6) poison damage and enfeebled 1 (1 round) Stage 3 3d6 (3d6) poison damage and enfeebled 2. (1 round)"
+    },
+    {
+      "name": "Quick Invisibility",
+      "text": "The osyluth can cast innate invisibility using only 1 action."
+    },
+    {
+      "name": "Sadistic Strike",
+      "text": "An osyluth deals an extra 2d6 (2d6) damage whenever they Strike an enfeebled, frightened, or prone creature."
+    },
+    {
+      "name": "Stygian Inquisitor",
+      "text": "⬻ (linguistic, mental); The osyluth telepathically questions a creature affected by zone of truth. After 1 round, if the creature intentionally refuses to answer the question, it takes 2d6 (2d6) mental damage."
+    },
+    {
+      "name": "Tail Sweep",
+      "text": "⬻ The osyluth sweeps their tail in a 15-foot cone. Each creature in the cone must succeed at a DC 26 Reflex save or be knocked prone."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +21 (evil, magical); Damage 2d10+11 (2d10+11) piercing plus 1d6 (1d6) evil"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +21 (agile, evil, magical, reach 10 feet); Damage 2d6+11 (2d6+11) slashing plus 1d6 (1d6) evil"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ stinger +21 (evil, magical, reach 15 feet); Damage 1d10+11 (1d10+11) piercing plus 1d6 (1d6) evil and osyluth venom"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ bone shard +21 (evil, magical, range increment 30 feet); Damage 2d6+8 (2d6+8) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      5,
+      4,
+      3,
+      4,
+      4
+    ]
+  }
+}

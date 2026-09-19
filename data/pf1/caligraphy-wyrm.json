@@ -1,0 +1,106 @@
+{
+  "name": "Caligraphy Wyrm",
+  "sourceSystem": "pf1",
+  "source": "Legacy of Dragons",
+  "size": "Diminutive",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 17,
+    "notes": "dex +3, size +4",
+    "touch": 17,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d12"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 80 ft. (average)"
+  },
+  "abilities": {
+    "str": 4,
+    "dex": 17,
+    "con": 10,
+    "int": 13,
+    "wis": 12,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +3, Ref +6, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +7, Craft (calligraphy) +7, Fly +15, Knowledge (arcana) +7, Linguistics +7, Perception +7, Spellcraft +7",
+    "list": {
+      "Bluff": "+7",
+      "Fly": "+15",
+      "Linguistics": "+7",
+      "Perception": "+7",
+      "Spellcraft": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision",
+    "low-light vision."
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +10 (1d2-3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The feet and tongue of this minuscule gold-scaled dragon are stained with ink.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": "9 (13 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any urban"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

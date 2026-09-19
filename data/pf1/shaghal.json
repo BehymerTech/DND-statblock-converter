@@ -1,0 +1,105 @@
+{
+  "name": "Shaghal",
+  "sourceSystem": "pf1",
+  "source": "Feast of Dust",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "evil, extraplanar",
+  "alignment": "NE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "dex +3, natural +8",
+    "touch": 13,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 105,
+    "formula": "10d10+50"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 16,
+    "con": 20,
+    "int": 6,
+    "wis": 15,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +12, Ref +10, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +16, Perception +19, Sense Motive +4, Stealth +16, Survival +15",
+    "list": {
+      "Acrobatics": "+16",
+      "Perception": "+19",
+      "Sense Motive": "+4",
+      "Stealth": "+16",
+      "Survival": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Abyssal (can’t speak)",
+    "Infernal (can’t speak)"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 10,
+  "feats": [
+    "Alertness",
+    "Combat Reflexes",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +17 (1d8+10/19-20 plus disease, hunger, and trip)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This predator resembles a brawny jackal with a dark, red-andgray mottled coat covered in ash and dust.",
+  "meta": {
+    "cmb": "+17",
+    "cmd": "30 (34 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

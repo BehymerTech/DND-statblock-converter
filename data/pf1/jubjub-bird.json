@@ -1,0 +1,111 @@
+{
+  "name": "Jubjub Bird",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 31,
+    "notes": "dex +2, dodge +1, natural +20, size -2",
+    "touch": 11,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 230,
+    "formula": "20d10+120"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 20 ft. (poor)"
+  },
+  "abilities": {
+    "str": 37,
+    "dex": 15,
+    "con": 22,
+    "int": 2,
+    "wis": 16,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +18, Ref +14, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +14, Fly +7, Perception +24",
+    "list": {
+      "Acrobatics": "+14",
+      "Fly": "+7",
+      "Perception": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 34,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 20,
+  "feats": [
+    "Blind-Fight",
+    "Cleave",
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Critical (bite)",
+    "Iron Will",
+    "Mobility",
+    "Power Attack",
+    "Run",
+    "Spring Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +31 (3d6+19/19-20/×3 plus grab), 2 talons +31 (1d8+13)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous bird has a lizardlike tail and bright purple feathers on its back and wings; the rest of its body is bare and scaly.",
+  "meta": {
+    "cmb": "35 (+39 grapple)",
+    "cmd": 48,
+    "racialModifiers": [
+      "Acrobatics 12",
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

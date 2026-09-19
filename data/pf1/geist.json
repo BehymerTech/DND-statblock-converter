@@ -1,0 +1,107 @@
+{
+  "name": "Geist",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "incorporeal",
+  "alignment": "CE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 20,
+    "notes": "deflection +5, dex +5",
+    "touch": 20,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 114,
+    "formula": "12d8+60"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 40 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 20,
+    "con": "None",
+    "int": 15,
+    "wis": 15,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +9, Ref +9, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +17, Fly +18, Intimidate +20, Knowledge (religion) +15, Perception +17, Sense Motive +17, Stealth +26",
+    "list": {
+      "Bluff": "+17",
+      "Fly": "+18",
+      "Intimidate": "+20",
+      "Perception": "+17",
+      "Sense Motive": "+17",
+      "Stealth": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Abyssal",
+    "Common"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 9,
+  "feats": [
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Skill Focus (Stealth)",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "incorporeal bite +14 (1d6 negative energy plus 1d4 Con)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This disembodied phantom wears black robes that swirl around a maw of sharp teeth.",
+  "meta": {
+    "cmb": "+14",
+    "cmd": 29,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (haunted sites or ruins)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or haunting (2-7)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

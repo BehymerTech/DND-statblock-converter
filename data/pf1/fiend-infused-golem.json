@@ -1,0 +1,105 @@
+{
+  "name": "Fiend-Infused Golem",
+  "sourceSystem": "pf1",
+  "source": "Cheliax, the Infernal Empire",
+  "size": "Large",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 26,
+    "notes": "dex -1, natural +18, size -1",
+    "touch": 8,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 121,
+    "formula": "14d10+44"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 9,
+    "con": "None",
+    "int": 4,
+    "wis": 11,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +4, Ref +3, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +29, Perception +0",
+    "list": {
+      "Intimidate": "+29",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 10,
+  "languages": [
+    "Abyssal",
+    "Infernal (can’t speak)"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 14,
+  "feats": [
+    "Blind-Fight",
+    "Improved Initiative",
+    "Intimidating Prowess",
+    "Power Attack",
+    "Skill Focus (Intimidate)",
+    "Toughness",
+    "Weapon Focus (slam)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slam +23 (2d10+9 plus hellfire touch)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The fists of this stone statue radiate flames that flicker in red and black and reek of brimstone. Its chiseled face bears a feral, wicked grin.",
+  "meta": {
+    "cmb": "+24",
+    "cmd": 33,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or gang (2-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

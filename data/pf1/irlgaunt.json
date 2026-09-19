@@ -1,0 +1,119 @@
+{
+  "name": "Irlgaunt",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 35: War of the River Kings",
+  "size": "Large",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 29,
+    "notes": "dex +9, natural +11, size -1",
+    "touch": 18,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 133,
+    "formula": "14d8+70"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 40 ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 29,
+    "con": 20,
+    "int": 16,
+    "wis": 18,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +9, Ref +15, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +26, Climb +33, Disguise +18, Fly +0, Perception +21, Stealth +22, Survival +21, Swim +25",
+    "list": {
+      "Acrobatics": "+26",
+      "Climb": "+33",
+      "Disguise": "+18",
+      "Fly": "+0",
+      "Perception": "+21",
+      "Stealth": "+22",
+      "Survival": "+21",
+      "Swim": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Giant",
+    "Terran"
+  ],
+  "initiative": "+13",
+  "babOrProficiency": 10,
+  "feats": [
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Deadly Aim",
+    "Improved Initiative",
+    "Improved Lightning Reflexes",
+    "Lightning Reflexes",
+    "Run"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +17 (1d8+8 plus 1d6 acid), bite +17 (1d8+8)"
+    },
+    {
+      "name": "Ranged",
+      "text": "1 gastrolith +18 (2d6+8 plus 2d6 acid)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "An unwholesome abomination scuttles fluidly forth, its shape combining features of both spider and squid under an armor of rugged rock. While stone protuberances gird its upper portions, below it is a thing of angry red flesh and soft pink tendrils. Two gaping orifices full of tiny barbs split its lower body-a mouthlike slit surrounded by numerous narrow red eyes and, above that, an oozing alien aperture.",
+  "meta": {
+    "cmb": "+19",
+    "cmd": "38 (42 vs. trip)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any mountains or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, swarm (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

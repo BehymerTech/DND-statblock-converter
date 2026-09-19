@@ -1,0 +1,120 @@
+{
+  "name": "Barghest",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "",
+  "subtype": "",
+  "alignment": "Always lawful evil Always lawful evil",
+  "cr": "4 5",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": "+2 Dex, +6 natural",
+    "touch": 12,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 33,
+    "formula": "6d8+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares) 40 ft. (8 squares)"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 15,
+    "con": 16,
+    "int": 18,
+    "wis": 18,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +6, Ref +7, Will +7 Fort +9, Ref +8, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +11, Diplomacy +6, Disguise +2 (+4 Acting), Hide +11\\*, Intimidate +13, Jump +12, Listen +11, Move Silently +10, Search +11, Sense Motive +11, Spot +11, Survival +11 (+13 Following Tracks); Bluff +16, Climb +17, Concentration +15, Diplomacy +8, Disguise +4 (+6 Acting), Hide +10\\*, Intimidate +18, Jump +21, Listen +16, Move Silently +14, Sense Motive +16, Spot +16 Survival +16 (+18 Following Tracks), Tumble +16;",
+    "list": {
+      "Bluff": "+16",
+      "Diplomacy": "+8",
+      "Disguise": "+4",
+      "Hide": "+10",
+      "Intimidate": "+18",
+      "Jump": "+21",
+      "Listen": "+16",
+      "Move Silently": "+14",
+      "Search": "+11",
+      "Sense Motive": "+16",
+      "Spot": "+16",
+      "Survival": "+16",
+      "Climb": "+17",
+      "Concentration": "+15",
+      "Tumble": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft.",
+    "scent Change shape"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+6 +6",
+  "babOrProficiency": 6,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Track",
+    "Combat Casting",
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Track"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Spell-like abilities, feed Spell-like abilities, feed"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Change shape, damage reduction 5/magic, darkvision 60 ft., scent Change shape, damage reduction 10/magic, darkvision 60 ft., scent"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Bite +9 melee (1d6+3)) Bite +13 melee (1d8+5"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +9 melee (1d6+3) and 2 claws +4 melee (1d4+1) Bite +13 melee (1d8+5) and 2 claws +8 melee (1d6+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A barghest is a lupine fiend that can take the shape of a wolf or a goblin. In its natural form, it resembles a goblin--wolf hybrid with terrible jaws and sharp claws. As whelps, barghests are nearly indistinguishable from wolves, except for their size and claws. As they grow larger and stronger, their skin darkens to bluishred and eventually becomes blue altogether.",
+    "grapple": "+9 +9",
+    "spaceReach": "5 ft./5 ft. 10 ft./5 ft.",
+    "environment": "An evil-aligned plane An evil-aligned plane",
+    "organization": "Solitary or pack (3-6) Solitary or pack (3-6)",
+    "treasure": "Double standard Double standard",
+    "advancement": "Special (see below) Special (see below)",
+    "leveladjustment": "--- ---"
+  }
+}

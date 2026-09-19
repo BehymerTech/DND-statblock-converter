@@ -1,0 +1,108 @@
+{
+  "name": "Mammoth",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 154.",
+  "size": "Huge",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 29,
+    "notes": ""
+  },
+  "hp": {
+    "average": 190,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 45,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "45 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 12,
+    "con": 20,
+    "int": 2,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +21, Ref +15, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +22 (1d20+22); __Survival__: +19 (1d20+19); ",
+    "list": {
+      "Athletics": "+22",
+      "Survival": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 28,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Cold Adaptation",
+      "text": "The mammoth reduces the effects it suffers from cold environments by one step."
+    },
+    {
+      "name": "Dual Tusks",
+      "text": "⬻ The mammoth makes two tusk Strikes, each against a different creature. This counts as one attack for the mammoth's multiple attack penalty, and the penalty doesn't increase until after both attacks."
+    },
+    {
+      "name": "Grabbing Trunk",
+      "text": "A Medium or smaller creature hit by the elephant's trunk is grabbed. If the elephant moves, it can bring the grabbed creature along with it."
+    },
+    {
+      "name": "Trample",
+      "text": "⬽ Large or smaller, foot, DC 28."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ tusk +22 (reach 15 feet); Damage 3d8+12 (3d8+12) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ trunk +22 (reach 15 feet); Damage grabbing trunk"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ foot +22 (reach 10 feet); Damage 2d10+12 (2d10+12) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      1,
+      5,
+      -4,
+      1,
+      -2
+    ]
+  }
+}

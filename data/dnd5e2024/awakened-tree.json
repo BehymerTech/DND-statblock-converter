@@ -1,0 +1,71 @@
+{
+  "name": "Awakened Tree",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Huge",
+  "type": "Plant",
+  "subtype": "",
+  "alignment": "Neutral",
+  "cr": "2",
+  "level": null,
+  "xp": 450,
+  "ac": {
+    "value": 13,
+    "notes": ""
+  },
+  "hp": {
+    "average": 59,
+    "formula": "7d12 + 14"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 6,
+    "con": 15,
+    "int": 10,
+    "wis": 10,
+    "cha": 7
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 10,
+  "languages": [
+    "Common plus one other language"
+  ],
+  "initiative": "-2 (8)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Slam",
+      "text": "_Melee Attack Roll:_ +6, reach 10 ft. _Hit:_ 14 (3d6 + 4) Bludgeoning damage. ## Axe Beak"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

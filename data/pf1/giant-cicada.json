@@ -1,0 +1,98 @@
+{
+  "name": "Giant Cicada",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 116: Fangs of War",
+  "size": "Small",
+  "type": "vermin",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 15,
+    "notes": "dex +1, natural +3, size +1",
+    "touch": 12,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 15,
+    "formula": "2d8+6"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 50 ft. (average), climb 20 ft."
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 13,
+    "con": 16,
+    "int": "None",
+    "wis": 11,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +6, Ref +1, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +0, Climb +8, Fly +3, Perception +0",
+    "list": {
+      "Acrobatics": "+0",
+      "Climb": "+8",
+      "Fly": "+3",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 10,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 1,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +2 (1d4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Trim wings fold along the back of this oblong, iridescent insect.",
+  "meta": {
+    "cmb": "+0",
+    "cmd": "11 (19 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any temperate or tropical land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or brood (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

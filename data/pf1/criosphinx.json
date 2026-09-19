@@ -1,0 +1,106 @@
+{
+  "name": "Criosphinx",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "natural +11, size -1",
+    "touch": 9,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 85,
+    "formula": "10d10+30"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (poor)"
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 10,
+    "con": 17,
+    "int": 12,
+    "wis": 12,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +10, Ref +7, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +10, Fly +1, Intimidate +16, Perception +10",
+    "list": {
+      "Bluff": "+10",
+      "Fly": "+1",
+      "Intimidate": "+16",
+      "Perception": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Sphinx",
+    "speak with animals"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 10,
+  "feats": [
+    "Improved Bull Rush",
+    "Improved Critical (gore)",
+    "Power Attack",
+    "Skill Focus (Intimidate)",
+    "Weapon Focus (gore)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +15 (1d6+6), gore +16 (2d4+6/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature has the wings of a bird, the body of a lion, and the head of a ram with sad, wise eyes.",
+  "meta": {
+    "cmb": "+17",
+    "cmd": "27 (31 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts or hills"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "name": "Raktavarna",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Pathfinder No. 7: Edge of Anarchy",
+  "size": "Tiny",
+  "type": "outsider",
+  "subtype": "native, rakshasa, shapechanger",
+  "alignment": "LE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 17,
+    "notes": "dex +3, natural +2, size +2",
+    "touch": 15,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 22,
+    "formula": "3d10+6"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., climb 20 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 7,
+    "dex": 16,
+    "con": 15,
+    "int": 12,
+    "wis": 13,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +3, Ref +6, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +12, Climb +14, Disguise +16, Escape Artist +6, Perception +9, Sense Motive +9, Stealth +17, Swim +11",
+    "list": {
+      "Bluff": "+12",
+      "Climb": "+14",
+      "Disguise": "+16",
+      "Escape Artist": "+6",
+      "Perception": "+9",
+      "Sense Motive": "+9",
+      "Stealth": "+17",
+      "Swim": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect magic"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Common",
+    "Infernal",
+    "Undercommon",
+    "comprehend languages"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 3,
+  "feats": [
+    "Alertness",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d4-2 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "What at first appears to be a bejeweled blade shimmers and writhes, transforming into a hideous, red-eyed serpent.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": "12 (can’t be tripped)",
+    "racialModifiers": [
+      "Bluff 4",
+      "Disguise 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or rack (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

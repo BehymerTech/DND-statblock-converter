@@ -1,0 +1,117 @@
+{
+  "name": "Stringy Demodand",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Pathfinder No. 77: Herald of the Ivory Labyrinth",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "chaotic, demodand, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 30,
+    "notes": "dex +8, natural +12",
+    "touch": 18,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 230,
+    "formula": "20d10+120"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 40 ft. (average)"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 27,
+    "con": 23,
+    "int": 12,
+    "wis": 13,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +18, Ref +14, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +26, Bluff +27, Climb +22, Fly +21, Intimidate +36, Knowledge (planes) +14, Perception +24, Sense Motive +14, Stealth +26, Survival +14",
+    "list": {
+      "Acrobatics": "+26",
+      "Bluff": "+27",
+      "Climb": "+22",
+      "Fly": "+21",
+      "Intimidate": "+36",
+      "Perception": "+24",
+      "Sense Motive": "+14",
+      "Stealth": "+26",
+      "Survival": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "detect magic"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 20,
+  "feats": [
+    "Blind-Fight",
+    "Cleave",
+    "Combat Reflexes",
+    "Flyby Attack",
+    "Improved Critical (bite)",
+    "Improved Critical (claw)",
+    "Improved Vital Strike",
+    "Intimidating Prowess",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +29 (2d6+9 plus 2d6 nonlethal/19-20), 2 claws +29 (1d10+9 plus 2d6 nonlethal/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This lanky, winged humanoid is covered in layers of long, ropy skin growths.",
+  "meta": {
+    "cmb": "+29",
+    "cmd": 47,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or tangle (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

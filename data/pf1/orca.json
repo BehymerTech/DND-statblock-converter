@@ -1,0 +1,103 @@
+{
+  "name": "Orca",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Huge",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 16,
+    "notes": "dex +2, natural +6, size -2",
+    "touch": 10,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 67,
+    "formula": "9d8+27"
+  },
+  "speed": {
+    "walk": 80,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 80 ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 15,
+    "con": 16,
+    "int": 2,
+    "wis": 15,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +9, Ref +8, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +19, Swim +28",
+    "list": {
+      "Perception": "+19",
+      "Swim": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "low-light vision"
+  ],
+  "passivePerception": 29,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 6,
+  "feats": [
+    "Endurance",
+    "Improved Initiative",
+    "Skill Focus (Perception)",
+    "Skill Focus (Swim)",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (2d6+12)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This sleek black whale has a distinctive white patch near each eye and a mouth filled with sharp teeth.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": 28,
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pod (3-20)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

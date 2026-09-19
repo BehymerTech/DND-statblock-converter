@@ -1,0 +1,91 @@
+{
+  "name": "Treant",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Huge",
+  "type": "Plant",
+  "subtype": "",
+  "alignment": "Chaotic Good",
+  "cr": "9",
+  "level": null,
+  "xp": 5000,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 138,
+    "formula": "12d12 + 60"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 8,
+    "con": 21,
+    "int": 12,
+    "wis": 16,
+    "cha": 12
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 13,
+  "languages": [
+    "Common",
+    "Druidic",
+    "Elvish",
+    "Sylvan"
+  ],
+  "initiative": "+3 (13)",
+  "babOrProficiency": 4,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Siege Monster",
+      "text": "The treant deals double damage to objects and structures."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The treant makes two Slam attacks."
+    },
+    {
+      "name": "Slam",
+      "text": "_Melee Attack Roll:_ +10, reach 5 ft. _Hit:_ 16 (3d6 + 6) Bludgeoning damage."
+    },
+    {
+      "name": "Hail of Bark",
+      "text": "_Ranged Attack Roll:_ +10, range 180 ft. _Hit:_ 28 (4d10 + 6) Piercing damage."
+    },
+    {
+      "name": "Animate Trees (1/Day)",
+      "text": "The treant magically animates up to two trees it can see within 60 feet of itself. Each tree uses the Treant stat block, except it has Intelligence and Charisma scores of 1, it can't speak, and it lacks this action. The tree takes its turn immediately after the treant on the same Initiative count, and it obeys the treant. A tree remains animate for 1 day or until it dies, the treant dies, or it is more than 120 feet from the treant. The tree then takes root if possible. ## Troll"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

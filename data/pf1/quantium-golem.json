@@ -1,0 +1,94 @@
+{
+  "name": "Quantium Golem",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Bestiary",
+  "size": "Gargantuan",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 37,
+    "notes": "dex -2, natural +33, size -4",
+    "touch": 4,
+    "flatFooted": 37
+  },
+  "hp": {
+    "average": 375,
+    "formula": "30d10+210"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 40,
+    "dex": 7,
+    "con": "None",
+    "int": "None",
+    "wis": 11,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +10, Ref +8, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "link",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "-2",
+  "babOrProficiency": 30,
+  "feats": [
+    "Whirlwind Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+5 bastard sword +46/+41/+36/+31 (4d8+20/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering metal construct crackles with eldritch energy and wields an immense sword in its hands.",
+  "meta": {
+    "cmb": "+49",
+    "cmd": 57,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Quantium)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+5 bastard sword, other treasure)"
+      }
+    ]
+  }
+}

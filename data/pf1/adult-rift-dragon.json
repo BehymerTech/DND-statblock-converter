@@ -1,0 +1,100 @@
+{
+  "name": "Adult Rift Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "chaotic, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 31,
+    "notes": "natural +23, size -2",
+    "touch": 8,
+    "flatFooted": 31
+  },
+  "hp": {
+    "average": 270,
+    "formula": "20d12+140"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 200 ft. (poor), burrow 30 ft."
+  },
+  "abilities": {
+    "str": 33,
+    "dex": 10,
+    "con": 25,
+    "int": 18,
+    "wis": 21,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +19, Ref +14, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +29, Fly +15, Intimidate +40, Knowledge (arcana) +27, Knowledge (planes) +27, Perception +28, Sense Motive +28, Spellcraft +27, Stealth +15, Use Magic Device +29",
+    "list": {
+      "Bluff": "+29",
+      "Fly": "+15",
+      "Intimidate": "+40",
+      "Perception": "+28",
+      "Sense Motive": "+28",
+      "Spellcraft": "+27",
+      "Stealth": "+15",
+      "Use Magic Device": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 20,
+  "feats": [
+    "Critical Focus",
+    "Improved Critical (bite)",
+    "Improved Critical (tail slap)",
+    "Improved Initiative",
+    "Intimidating Prowess",
+    "Lightning Reflexes",
+    "Multiattack",
+    "Power Attack",
+    "Staggering Critical",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +30 (2d8+16/19-20 plus bleed), 2 claws +29 (2d6+11 plus bleed), tail slap +27 (2d6+16/19-20), 2 wings +27 (1d8+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This dark-scaled dragon has massive claws, and foul-smelling acid drips from its saber teeth.",
+  "meta": {
+    "cmb": "+33",
+    "cmd": "43 (47 vs. trip)"
+  }
+}

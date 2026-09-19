@@ -1,0 +1,84 @@
+{
+  "name": "Giant Badger",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Medium",
+  "type": "beast",
+  "subtype": "",
+  "alignment": "unaligned",
+  "cr": "1/4",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 10,
+    "notes": ""
+  },
+  "hp": {
+    "average": 13,
+    "formula": "2d8 + 4"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": 10,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 10,
+    "con": 15,
+    "int": 2,
+    "wis": 12,
+    "cha": 5
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 30 ft."
+  ],
+  "passivePerception": 11,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Keen Smell",
+      "text": "The badger has advantage on Wisdom (Perception) checks that rely on smell."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The badger makes two attacks: one with its bite and one with its claws."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage."
+    },
+    {
+      "name": "Claws",
+      "text": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) slashing damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

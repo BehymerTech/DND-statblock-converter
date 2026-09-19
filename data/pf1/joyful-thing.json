@@ -1,0 +1,105 @@
+{
+  "name": "Joyful Thing",
+  "sourceSystem": "pf1",
+  "source": "Nidal, Land of Shadows",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "native",
+  "alignment": "LE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex -2, natural +8, profane +3",
+    "touch": 11,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 68,
+    "formula": "8d10+24"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 6,
+    "con": 15,
+    "int": 16,
+    "wis": 11,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +11, Ref +5, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +14, Intimidate +14, Knowledge (local) +11, Knowledge (nobility) +11, Knowledge (planes) +14, Knowledge (religion) +14, Perception +11, Sense Motive +11, Spellcraft +14",
+    "list": {
+      "Diplomacy": "+14",
+      "Intimidate": "+14",
+      "Perception": "+11",
+      "Sense Motive": "+11",
+      "Spellcraft": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common",
+    "Hallit",
+    "Shadowtongue"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 8,
+  "feats": [
+    "Improved Grapple",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "spiked chain +11/+6 (2d4+3 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This sluglike humanoid has neither arms nor legs and is covered in spiked, rusted chains. Its lolling tongue drips with thick saliva.",
+  "meta": {
+    "cmb": "8 (+10 grapple)",
+    "cmd": "19 (21 vs. grapple, can't be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or coven (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

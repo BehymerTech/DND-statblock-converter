@@ -1,0 +1,104 @@
+{
+  "name": "Remorhaz",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Huge",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Usually neutral",
+  "cr": "7",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": "-2 size, +1 Dex, +11 natural",
+    "touch": 9,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 73,
+    "formula": "7d10+35"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": 20,
+    "notes": "30 ft. (6 squares), burrow 20 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 13,
+    "con": 21,
+    "int": 5,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +10, Ref +6, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Listen +8, Spot +8;",
+    "list": {
+      "Listen": "+8",
+      "Spot": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "low-light vision",
+    "tremorsense 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 7,
+  "feats": [
+    "Awesome Blow",
+    "Improved Bull Rush",
+    "Power Attack"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Improved grab, swallow whole"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., heat, low-light vision, tremorsense 60 ft."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Bite +13 melee (2d8+12)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +13 melee (2d8+12)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A remorhaz is whitish-blue in color but pulses with a reddish glow from the heat its body produces. The creature is a little more than 20 feet long, with a body about 5 feet wide. It weighs about 10,000 pounds.",
+    "grapple": "+23",
+    "spaceReach": "15 ft./10 ft.",
+    "environment": "Cold desert",
+    "organization": "Solitary",
+    "treasure": "None",
+    "advancement": "8-14 HD (Huge); 15-21 HD (Gargantuan)",
+    "leveladjustment": "---"
+  }
+}

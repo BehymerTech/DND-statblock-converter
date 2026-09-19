@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>D&amp;D Stat Block Converter</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<header class="app-header">
+		<h1>Stat Block Converter</h1>
+		<p class="tagline">Convert monster stat blocks between D&amp;D 3.5, Pathfinder 1E, D&amp;D 5E (2014 &amp; 2024).</p>
+		<button id="theme-toggle" class="icon-button" type="button" aria-label="Toggle light/dark theme" title="Toggle theme">🌓</button>
+	</header>
+
+	<main class="converter">
+		<section class="panel" aria-labelledby="from-heading">
+			<h2 id="from-heading">From</h2>
+
+			<label class="field">
+				<span>System</span>
+				<div class="combobox" data-combobox="from-system"></div>
+			</label>
+
+			<div class="mode-toggle" role="tablist" aria-label="Source input mode">
+				<button type="button" class="mode-tab active" data-mode="search" role="tab" aria-selected="true">Search SRD</button>
+				<button type="button" class="mode-tab" data-mode="paste" role="tab" aria-selected="false">Paste stat block</button>
+			</div>
+
+			<div class="mode-panel" data-panel="search">
+				<label class="field">
+					<span>Monster</span>
+					<div class="combobox" data-combobox="monster-search"></div>
+				</label>
+				<p class="hint" id="source-summary"></p>
+			</div>
+
+			<div class="mode-panel" data-panel="paste" hidden>
+				<label class="field">
+					<span>Pasted stat block text</span>
+					<textarea id="paste-input" rows="14" placeholder="Paste a stat block in the source system's usual SRD format..."></textarea>
+				</label>
+			</div>
+		</section>
+
+		<div class="convert-arrow" aria-hidden="true">
+			<button id="convert-btn" type="button" class="primary-button">Convert →</button>
+		</div>
+
+		<section class="panel" aria-labelledby="to-heading">
+			<h2 id="to-heading">To</h2>
+
+			<label class="field">
+				<span>System</span>
+				<div class="combobox" data-combobox="to-system"></div>
+			</label>
+
+			<div class="output-controls">
+				<div class="view-toggle" role="tablist" aria-label="Output view">
+					<button type="button" class="mode-tab active" data-view="preview" role="tab" aria-selected="true">Preview</button>
+					<button type="button" class="mode-tab" data-view="markdown" role="tab" aria-selected="false">Markdown</button>
+				</div>
+				<button id="copy-btn" type="button" class="secondary-button" disabled>Copy</button>
+			</div>
+
+			<div id="warnings" class="warnings" hidden></div>
+
+			<div id="output-preview" class="statblock-preview" data-view-panel="preview"></div>
+			<textarea id="output-markdown" class="statblock-markdown" data-view-panel="markdown" readonly hidden placeholder="Converted Markdown will appear here."></textarea>
+		</section>
+	</main>
+
+	<footer class="app-footer">
+		<p>Stat block templates live in <code>/templates</code> as plain Markdown — edit them to change the output layout. Conversions are a best-effort starting point; review the numbers, especially for actions and special abilities.</p>
+	</footer>
+
+	<script type="module" src="js/app.js"></script>
+
+</body>
+</html>

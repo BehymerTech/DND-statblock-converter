@@ -1,0 +1,107 @@
+{
+  "name": "Troglodyte Tyrant",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "reptilian",
+  "alignment": "CE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 24,
+    "notes": "armor +8, natural +6",
+    "touch": 10,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 135,
+    "formula": "9d8+2d10+84"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 15,
+    "con": 22,
+    "int": 14,
+    "wis": 20,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +17, Ref +6, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +13, Knowledge (planes) +11, Knowledge (religion) +13, Perception +13, Sense Motive +16, Spellcraft +11, Stealth +0",
+    "list": {
+      "Intimidate": "+13",
+      "Perception": "+13",
+      "Sense Motive": "+16",
+      "Spellcraft": "+11",
+      "Stealth": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Abyssal",
+    "Draconic",
+    "Undercommon"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 8,
+  "feats": [
+    "Ability Focus (stench)",
+    "Combat Casting",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Quick Draw",
+    "Selective Channeling",
+    "Toughness",
+    "Weapon Focus (battleaxe)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 battleaxe +15/+10 (1d8+6/×3), bite +8 (1d4+2), claw +8 (1d4+2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "javelin +10/+5 (1d6+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Enlightened",
+    "class": "troglodyte cleric 7, fighter 2 (see page 212)",
+    "cmb": "+13",
+    "cmd": 25,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      }
+    ]
+  }
+}

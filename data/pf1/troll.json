@@ -1,0 +1,101 @@
+{
+  "name": "Troll",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "CE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 16,
+    "notes": "dex +2, natural +5, size -1",
+    "touch": 11,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 63,
+    "formula": "6d8+36"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 14,
+    "con": 23,
+    "int": 6,
+    "wis": 9,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +11, Ref +4, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +9, Perception +8",
+    "list": {
+      "Intimidate": "+9",
+      "Perception": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Giant"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 4,
+  "feats": [
+    "Intimidating Prowess",
+    "Iron Will",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d8+5), 2 claws +8 (1d6+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This tall creature has rough, green hide. Its hands end in claws, and its bestial face has a hideous, tusked underbite.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": 22,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or gang (2-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

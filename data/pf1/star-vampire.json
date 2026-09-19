@@ -1,0 +1,104 @@
+{
+  "name": "Star Vampire",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 110: The Thrushmoor Terror",
+  "size": "Large",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex -1, natural +11, size -1",
+    "touch": 8,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 67,
+    "formula": "9d8+27"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 40 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 8,
+    "con": 16,
+    "int": 9,
+    "wis": 16,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +6, Ref +4, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +17, Perception +18, Stealth +7",
+    "list": {
+      "Fly": "+17",
+      "Perception": "+18",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent blood"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 6,
+  "feats": [
+    "Flyby Attack",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "3 talons +9 (1d4+4 plus bleed), bite +9 (1d6+4 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "An unnatural tittering issues forth from the fanged maw of this floating mass of talon-tipped tentacles, all as red as freshly spilled blood.",
+  "meta": {
+    "cmb": "+11",
+    "cmd": 20,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any air"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or clot (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

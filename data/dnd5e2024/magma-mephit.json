@@ -1,0 +1,85 @@
+{
+  "name": "Magma Mephit",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Small",
+  "type": "Elemental",
+  "subtype": "",
+  "alignment": "Neutral Evil",
+  "cr": "1/2",
+  "level": null,
+  "xp": 100,
+  "ac": {
+    "value": 11,
+    "notes": ""
+  },
+  "hp": {
+    "average": 18,
+    "formula": "4d6 + 4"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 30,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., Fly 30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 12,
+    "con": 12,
+    "int": 7,
+    "wis": 10,
+    "cha": 10
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Stealth +3",
+    "list": {
+      "Stealth": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 10,
+  "languages": [
+    "Primordial (Ignan",
+    "Terran)"
+  ],
+  "initiative": "+1 (11)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Death Burst",
+      "text": "The mephit explodes when it dies. _Dexterity Saving Throw:_ DC 11, each creature in a 5-foot Emanation originating from the mephit. _Failure:_ 7 (2d6) Fire damage. _Success:_ Half damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Claw",
+      "text": "_Melee Attack Roll:_ +3, reach 5 ft. _Hit:_ 3 (1d4 + 1) Slashing damage plus 3 (1d6) Fire damage."
+    },
+    {
+      "name": "Fire Breath (Recharge 6)",
+      "text": "_Dexterity Saving Throw:_ DC 11, each creature in a 15-foot Cone. _Failure:_ 7 (2d6) Fire damage. _Success:_ Half damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

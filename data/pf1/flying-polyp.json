@@ -1,0 +1,108 @@
+{
+  "name": "Flying Polyp",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 65: Into the Nightmare Rift",
+  "size": "Huge",
+  "type": "aberration",
+  "subtype": "air",
+  "alignment": "CE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 29,
+    "notes": "deflection +5, dex +2, dodge +1, natural +13, size -2",
+    "touch": 16,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 207,
+    "formula": "18d8+126"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 15,
+    "con": 24,
+    "int": 19,
+    "wis": 20,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +13, Ref +12, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +27, Knowledge (engineering) +22, Knowledge (history) +22, Knowledge (nature) +22, Perception +26, Spellcraft +25, Stealth +15, Use Magic Device +23",
+    "list": {
+      "Fly": "+27",
+      "Perception": "+26",
+      "Spellcraft": "+25",
+      "Stealth": "+15",
+      "Use Magic Device": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 13,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Flyby Attack",
+    "Improved Critical (tentacle)",
+    "Improved Initiative",
+    "Mobility",
+    "Power Attack",
+    "Vital Strike",
+    "Weapon Focus (tentacle)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 tentacles +21 (1d8+9/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This nauseating, tapered tower of flesh, eyes, and tendrils writhes midair, surrounded by a strange vortex of sucking wind.",
+  "meta": {
+    "cmb": "24 (+28 grapple)",
+    "cmd": "42 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or storm (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

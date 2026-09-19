@@ -1,0 +1,111 @@
+{
+  "name": "Bushyasta",
+  "sourceSystem": "pf1",
+  "source": "Book of the Damned",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "div, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex +5, natural +4",
+    "touch": 15,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 68,
+    "formula": "8d10+24"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 21,
+    "con": 16,
+    "int": 18,
+    "wis": 17,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +9, Ref +7, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +15, Climb +19, Knowledge (arcana) +15, Knowledge (planes) +15, Knowledge (religion) +15, Knowledge (local) +12, Perception +14, Sense Motive +14, Spellcraft +15, Stealth +16, Use Magic Device +15",
+    "list": {
+      "Bluff": "+15",
+      "Climb": "+19",
+      "Perception": "+14",
+      "Sense Motive": "+14",
+      "Spellcraft": "+15",
+      "Stealth": "+16",
+      "Use Magic Device": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "detect magic",
+    "see in darkness"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 8,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Vital Strike",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (1d8+3), 2 claws +13 (1d6+3 plus 1d6 nonlethal)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This gaunt figure has ashy yellow skin and a strange, feathered mask covering most of her face, save for her wide, fang-filled mouth.",
+  "meta": {
+    "cmb": "+11",
+    "cmd": 26,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abbadon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gathering (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Giant Flea",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Small",
+  "type": "vermin",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 13,
+    "notes": "dex +2, size +1",
+    "touch": 13,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 5,
+    "formula": "1d8+1"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 15,
+    "con": 13,
+    "int": "None",
+    "wis": 11,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +3, Ref +2, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +0, Perception +0",
+    "list": {
+      "Acrobatics": "+0",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 10,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 0,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +2 (1d4+1 plus disease)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A hideous, dog-sized flea leaps about on long, gangly legs. The sharp, jagged edges of its jaws greedily clatter for blood.",
+  "meta": {
+    "cmb": "+0",
+    "cmd": 12,
+    "racialModifiers": [
+      "Acrobatics 20"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, cluster (2-6), or colony (7-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

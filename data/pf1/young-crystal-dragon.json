@@ -1,0 +1,107 @@
+{
+  "name": "Young Crystal Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "dragon",
+  "subtype": "earth, extraplanar",
+  "alignment": "CG",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 20,
+    "notes": "dex +2, natural +8",
+    "touch": 12,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 66,
+    "formula": "7d12+21"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 150 ft. (average), burrow 30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 14,
+    "con": 17,
+    "int": 12,
+    "wis": 13,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +10, Ref +9, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +16, Climb +21, Disguise +6, Fly +12, Intimidate +14, Knowledge (dungeoneering) +11, Perception +11, Stealth +12",
+    "list": {
+      "Bluff": "+16",
+      "Climb": "+21",
+      "Disguise": "+6",
+      "Fly": "+12",
+      "Intimidate": "+14",
+      "Perception": "+11",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "tremorsense"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Draconic",
+    "Undercommon"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 7,
+  "feats": [
+    "Deceitful",
+    "Great Fortitude",
+    "Lightning Reflexes",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +10 (1d8+4), 2 claws +10 (1d6+3), 2 wings +5 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This brilliantly colored dragon has scales, teeth, and claws made of multicolored crystal, and its wings are sheets of flexible glass.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": "22 (26 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground (Plane of Earth)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

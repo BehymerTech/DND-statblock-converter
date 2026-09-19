@@ -1,0 +1,135 @@
+{
+  "name": "Ancient Copper Dragon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 122.",
+  "size": "Huge",
+  "type": "Earth",
+  "subtype": "Dragon",
+  "alignment": "CG",
+  "cr": null,
+  "level": "Creature 17",
+  "xp": null,
+  "ac": {
+    "value": 41,
+    "notes": ""
+  },
+  "hp": {
+    "average": 345,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 feet, fly 200 feet; climb stone 50 feet,;"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 20,
+    "con": 20,
+    "int": 22,
+    "wis": 20,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +30, Ref +32, Will +32",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +30 (1d20+30); __Athletics__: +31 (1d20+31); __Crafting__: +31 (1d20+31); __Deception__: +29 (1d20+29); __Performance__: +31 (1d20+31); __Society__: +29 (1d20+29); __Stealth__: +30 (1d20+30); ",
+    "list": {
+      "Acrobatics": "+30",
+      "Athletics": "+31",
+      "Crafting": "+31",
+      "Deception": "+29",
+      "Performance": "+31",
+      "Society": "+29",
+      "Stealth": "+30"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Elven",
+    "Gnomish"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 90 feet, DC 35."
+    },
+    {
+      "name": "Slow Aura",
+      "text": "(arcane, aura, enchantment); 10 feet. Each creature that ends its turn in the aura must succeed at a DC 37 Will saving throw or be slowed 1 for 1 round (or slowed 2 on a critical failure). The copper dragon can turn this aura on or off with a single action, which has the concentrate trait, and can choose not to affect allies within the aura."
+    },
+    {
+      "name": "Twisting Tail",
+      "text": "⬲ Trigger A creature within reach of the copper dragon's tail uses a move action or leaves a square during a move action it's using. Effect The dragon makes a tail Strike at the creature with a –2 penalty. If it hits, the dragon disrupts the triggering action."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ The copper dragon breathes in one of two ways. The dragon can't use Breath Weapon again for 1d4 (1d4) rounds.<ul class='inner-bullet-list'><li>Acid (acid, arcane, evocation); The dragon breathes acid in a 100-foot line that deals 18d6 (18d6) acid damage (DC 38 basic Fortitude save).</li><li>Slowing Gas (arcane, transmutation); The dragon breathes a 100-foot line of slowing gas. Each creature in the area must succeed at a DC 38 Fortitude save or be slowed 1 for 1 round (or slowed 2 on a critical failure).</li></ul>"
+    },
+    {
+      "name": "Climb Stone",
+      "text": "The dragon's climb speed functions only when climbing stone surfaces."
+    },
+    {
+      "name": "Draconic Frenzy",
+      "text": "⬺ The dragon makes two claw Strikes and one tail Strike in any order."
+    },
+    {
+      "name": "Draconic Momentum",
+      "text": "When the dragon scores a critical hit with a Strike, it recharges Breath Weapon."
+    },
+    {
+      "name": "Mass Laughter",
+      "text": "⬺ (arcane, emotion, enchantment, mental); Frequency once per day Effect The copper dragon tells a fantastic joke. Each creature in a 100-foot emanation must succeed at a DC 39 Will save or suffer the effects of a 9th-level hideous laughter spell for 1 minute."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +33 (acid, magical, reach 15 feet); Damage 3d10+16 (3d10+16) piercing plus 3d8 (3d8) acid"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +33 (agile, magical, reach 10 feet); Damage 3d10+16 (3d10+16) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +31 (magical, reach 20 feet); Damage 2d10+14 (2d10+14) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      5,
+      5,
+      6,
+      5,
+      6
+    ]
+  }
+}

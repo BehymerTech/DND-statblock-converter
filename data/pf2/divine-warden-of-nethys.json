@@ -1,0 +1,103 @@
+{
+  "name": "Divine Warden Of Nethys",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 73.",
+  "size": "Large",
+  "type": "Mindless",
+  "subtype": "Construct",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 5",
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 60,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 6,
+    "con": 18,
+    "int": 0,
+    "wis": 10,
+    "cha": 0
+  },
+  "saves": {
+    "text": "Fort +15, Ref +9, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +14 (1d20+14); ",
+    "list": {
+      "Athletics": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Divine Destruction",
+      "text": "(divine, necromancy); 5d6 (5d6) negative, DC 19."
+    },
+    {
+      "name": "Faith Bound",
+      "text": "A divine warden can't attack a creature that openly wears or displays the religious symbol of the divine warden's patron deity unless that creature uses a hostile action against the divine warden first. If the divine warden is intelligent, it can also attack a creature it believes isn't faithful to its deity or who wears the religious symbol as a ruse (typically after succeeding at a Perception check to Sense Motive)"
+    },
+    {
+      "name": "Faithful Weapon",
+      "text": "staff, striking rune."
+    },
+    {
+      "name": "Instrument of Faith",
+      "text": "The divine warden is a beacon for its deity's faith. A cleric of the divine warden's patron deity can channel a heal spell through a divine warden they can see within 60 feet. The cleric determines any targets or area for the spell as if they were standing in the divine warden's space."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +14 (magical, reach 10 feet); Damage 2d8+7 (2d8+7) bludgeoning plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ staff +14 (magical, reach 10 feet, two-hand d8); Damage 2d4+7 (2d4+7) bludgeoning plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      -2,
+      4,
+      -5,
+      0,
+      -5
+    ]
+  }
+}

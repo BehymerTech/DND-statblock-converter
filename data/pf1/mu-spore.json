@@ -1,0 +1,117 @@
+{
+  "name": "Mu Spore",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Colossal",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": "21",
+  "level": null,
+  "xp": 409600,
+  "ac": {
+    "value": 37,
+    "notes": "dex -1, natural +36, size -8",
+    "touch": 1,
+    "flatFooted": 37
+  },
+  "hp": {
+    "average": 418,
+    "formula": "31d8+279"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 30 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 42,
+    "dex": 9,
+    "con": 29,
+    "int": 18,
+    "wis": 28,
+    "cha": 29
+  },
+  "saves": {
+    "text": "Fort +26, Ref +11, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +33, Knowledge (dungeoneering) +35, Knowledge (geography) +35, Knowledge (nature) +35, Perception +43, Sense Motive +40",
+    "list": {
+      "Fly": "+33",
+      "Perception": "+43",
+      "Sense Motive": "+40"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "low-light vision"
+  ],
+  "passivePerception": 53,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Terran",
+    "Undercommon"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 23,
+  "feats": [
+    "Awesome Blow",
+    "Critical Focus",
+    "Greater Bull Rush",
+    "Greater Vital Strike",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Critical (tentacles)",
+    "Improved Initiative",
+    "Improved Lightning Reflexes",
+    "Improved Vital Strike",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Staggering Critical",
+    "Vital Strike",
+    "Weapon Focus (bite)",
+    "Weapon Focus (tentacles)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +32 (6d6+16/19-20 plus grab), 4 tentacles +27 (3d8+8/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Tentacles and eyes cover this floating, fungoid monster, and its vast mouth opens like a toothy cavern.",
+  "meta": {
+    "cmb": "47 (+51 grapple)",
+    "cmd": "56 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "name": "Guard",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "any race",
+  "alignment": "any alignment",
+  "cr": "1/8",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": "chain shirt, shield"
+  },
+  "hp": {
+    "average": 11,
+    "formula": "2d8 + 2"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 10,
+    "wis": 11,
+    "cha": 10
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +2",
+    "list": {
+      "perception": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 12,
+  "languages": [
+    "any one language (usually Common)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Spear",
+      "text": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Dretch",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Small",
+  "type": "fiend",
+  "subtype": "demon",
+  "alignment": "chaotic evil",
+  "cr": "1/4",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 11,
+    "notes": "natural armor"
+  },
+  "hp": {
+    "average": 18,
+    "formula": "4d6 + 4"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 11,
+    "con": 12,
+    "int": 5,
+    "wis": 8,
+    "cha": 3
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [
+    "cold",
+    "fire",
+    "lightning"
+  ],
+  "immunities": [
+    "poison"
+  ],
+  "conditionImmunities": [
+    "poisoned"
+  ],
+  "senses": [
+    "darkvision 60 ft."
+  ],
+  "passivePerception": 9,
+  "languages": [
+    "Abyssal",
+    "telepathy 60 ft. (works only with creatures that understand Abyssal)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dretch makes two attacks: one with its bite and one with its claws."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage."
+    },
+    {
+      "name": "Claws",
+      "text": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4) slashing damage."
+    },
+    {
+      "name": "Fetid Cloud (1/Day)",
+      "text": "A 10-foot radius of disgusting green gas extends out from the dretch. The gas spreads around corners, and its area is lightly obscured. It lasts for 1 minute or until a strong wind disperses it. Any creature that starts its turn in that area must succeed on a DC 11 Constitution saving throw or be poisoned until the start of its next turn. While poisoned in this way, the target can take either an action or a bonus action on its turn, not both, and can't take reactions."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

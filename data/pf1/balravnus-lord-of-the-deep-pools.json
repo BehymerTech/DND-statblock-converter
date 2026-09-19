@@ -1,0 +1,100 @@
+{
+  "name": "Balravnus, Lord of the Deep Pools",
+  "sourceSystem": "pf1",
+  "source": "Demons Revisited",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "aquatic, chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 33,
+    "notes": "armor +8, dex +2, natural +16, rage -2, size -1",
+    "touch": 9,
+    "flatFooted": 31
+  },
+  "hp": {
+    "average": 300,
+    "formula": "10d10+7d12+194"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 33,
+    "dex": 15,
+    "con": 32,
+    "int": 14,
+    "wis": 16,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +23, Ref +9, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +31, Intimidate +26, Knowledge (arcana) +15, Knowledge (religion) +15, Perception +31, Spellcraft +19, Stealth +18, Swim +39",
+    "list": {
+      "Climb": "+31",
+      "Intimidate": "+26",
+      "Perception": "+31",
+      "Spellcraft": "+19",
+      "Stealth": "+18",
+      "Swim": "+39"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 41,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Draconic",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 17,
+  "feats": [
+    "Bleeding Critical",
+    "Blind-Fight",
+    "Critical Focus",
+    "Improved Critical (halberd)",
+    "Improved Initiative",
+    "Improved Lightning Reflexes",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 wounding halberd +29/+24/+19/+14 (2d8+18/19-20/×3), bite +22 (4d4+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This lumbering toadlike demon wields a blood-soaked halberd in its powerful hands-one of those hands is clad in a rusting jagged gauntlet, while on the beast’s misshapen head perches a leering helm made of greasy green metal.",
+  "meta": {
+    "race": "Male",
+    "class": "hezrou barbarian 7 (Pathfinder RPG Bestiary 62)",
+    "cmb": "+29",
+    "cmd": 39
+  }
+}

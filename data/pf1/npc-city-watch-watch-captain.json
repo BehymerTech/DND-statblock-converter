@@ -1,0 +1,100 @@
+{
+  "name": "NPC City Watch (Watch Captain)",
+  "sourceSystem": "pf1",
+  "source": "GameMastery Guide",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "LN",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 20,
+    "notes": "armor +9, dex +1",
+    "touch": 11,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 57,
+    "formula": "7d10+19"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 14,
+    "int": 13,
+    "wis": 8,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +4, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +5, Handle Animal +4, Intimidate +12, Knowledge (engineering) +5, Perception +6, Profession (soldier) +5, Ride +2, Sense Motive +8",
+    "list": {
+      "Diplomacy": "+5",
+      "Handle Animal": "+4",
+      "Intimidate": "+12",
+      "Perception": "+6",
+      "Ride": "+2",
+      "Sense Motive": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 16,
+  "languages": [
+    "Common",
+    "Halfling"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 7,
+  "feats": [
+    "Alertness",
+    "Combat Expertise",
+    "Dazzling Display",
+    "Greater Trip",
+    "Improved Trip",
+    "Iron Will",
+    "Persuasive",
+    "Weapon Focus (halberd)",
+    "Weapon Specialization (halberd)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 halberd +14/+9 (1d10+10/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "composite longbow +8/+3 (1d8+4/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "fighter 7",
+    "cmb": "11 (+15 trip)",
+    "cmd": "22 (24 vs. trip)"
+  }
+}

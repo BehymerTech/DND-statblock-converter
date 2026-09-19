@@ -1,0 +1,101 @@
+{
+  "name": "Skeletal Champion",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 21,
+    "notes": "armor +6, dex +1, natural +2, shield +2",
+    "touch": 12,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 17,
+    "formula": "2d8+1d10+3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 13,
+    "con": "None",
+    "int": 9,
+    "wis": 10,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +3, Ref +1, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +7, Perception +6, Stealth -1",
+    "list": {
+      "Intimidate": "+7",
+      "Perception": "+6",
+      "Stealth": "-1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 2,
+  "feats": [
+    "Cleave",
+    "Improved Initiative",
+    "Power Attack",
+    "Weapon Focus (longsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk longsword +7 (1d8+3/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This armored skeleton stands in a battle-ready pose, its weapon held high as cold blue light shines in its eye sockets.",
+  "meta": {
+    "race": "Human",
+    "class": "skeletal champion warrior 1",
+    "cmb": "+5",
+    "cmd": 16,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or platoon (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (breastplate, heavy steel shield, masterwork longsword, other treasure)"
+      }
+    ]
+  }
+}

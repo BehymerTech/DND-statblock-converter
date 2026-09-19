@@ -1,0 +1,132 @@
+{
+  "name": "Contract Devil (Phistophilus)",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Pathfinder No. 12: Crown of Fangs",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 25,
+    "notes": "dex +7, dodge +1, natural +7",
+    "touch": 18,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 136,
+    "formula": "13d10+65"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 25,
+    "con": 20,
+    "int": 24,
+    "wis": 23,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +9, Ref +15, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +26, Diplomacy +26, Disguise +8, Intimidate +26, Knowledge (arcana) +23, Knowledge (nobility) +20, Knowledge (planes) +23, Knowledge (religion) +23, Linguistics +20, Perception +26, Profession (scribe) +19, Sense Motive +26, Sleight of Hand +20, Spellcraft +20",
+    "list": {
+      "Bluff": "+26",
+      "Diplomacy": "+26",
+      "Disguise": "+8",
+      "Intimidate": "+26",
+      "Linguistics": "+20",
+      "Perception": "+26",
+      "Sense Motive": "+26",
+      "Sleight of Hand": "+20",
+      "Spellcraft": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Aquan",
+    "Auran",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Elven",
+    "Giant",
+    "Gnome",
+    "Goblin",
+    "Gnoll",
+    "Halfling",
+    "Ignan",
+    "Infernal",
+    "Orc",
+    "Sylvan",
+    "Terran",
+    "Undercommon",
+    "telepathy 100 ft.",
+    "tongues"
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 13,
+  "feats": [
+    "Alertness",
+    "Deceitful",
+    "Dodge",
+    "Improved Initiative",
+    "Iron Will",
+    "Mobility",
+    "Persuasive"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "binding contract (whip) +20/+15/+10 (1d4+7 plus bleed and grab), gore +11 (2d6+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "With rust-colored skin and a jutting crown of ridge-like horns, this muscular devil is draped in lengthy contracts.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": 34,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or court (2-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Dramofir",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 86.",
+  "size": "Large",
+  "type": "Dream",
+  "subtype": "Aberration",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 14",
+  "xp": null,
+  "ac": {
+    "value": 35,
+    "notes": ""
+  },
+  "hp": {
+    "average": 290,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 25 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 22,
+    "con": 18,
+    "int": 12,
+    "wis": 26,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +22, Ref +26, Will +30",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +26 (1d20+26); __Diplomacy__: +27 (1d20+27); __Stealth__: +28 (1d20+28); __Dreamlands lore__: +23 (1d20+23); ",
+    "list": {
+      "Acrobatics": "+26",
+      "Diplomacy": "+27",
+      "Stealth": "+28",
+      "Dreamlands lore": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "tongues",
+    "[[telepathy]] 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Surreal Anatomy",
+      "text": "A dramofir has resistance 10 to precision damage and the extra damage from critical hits. If the resistance is greater than the extra damage, it reduces the extra damage to 0 but doesn't reduce the attack's normal damage."
+    },
+    {
+      "name": "Bittersweet Dreams",
+      "text": "⬺ (emotion, enchantment, mental, occult, visual); The dramofir swishes their robes in a mesmerizing display that brings the dreams in the robes to life before the viewer's very eyes. Each creature within 30 feet must attempt a DC 34 Will save or be filled with ennui. Critical Success The creature is unaffected and temporarily immune for 24 hours. Success For 1 round, the creature takes a –1 status penalty to attack rolls, saving throws, and skill checks, and all other emotion effects on it are suppressed. Failure As success, but the creature is also slowed 1 and the duration is 1d4 (1d4) rounds. Critical Failure As success, but the creature is also slowed 1, the status penalty is –2, and the duration is 1 minute."
+    },
+    {
+      "name": "Pluck Dream",
+      "text": "⬽ (enchantment, mental, occult); Requirements The dramofir is adjacent to an unconscious or sleeping creature Effect The dramofir licks the creature's forehead, places their hand in the same spot, and siphons the creature's dreams to incorporate into their robes. If the target is affected by any mental effect altering their dreams, such as an animate dream's curse of endless nightmares or a nightmare spell, the dramofir attempts to counteract that effect (counteract modifier +26). Otherwise, the dramofir plucks a benign dream from the creature, and the target must attempt a DC 36 Will save. Success The creature is unaffected. Failure The creature is stupefied 1 until the next time it gets a full night's rest. Critical Failure As failure, but stupefied 2, and the dramofir casts a 6th-level modify memory spell on the target."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ needle +27 (agile, finesse, reach 10 feet); Damage 3d6+9 (3d6+9) piercing plus 2d6 (2d6) mental"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ needle +27 (agile, thrown 20 feet); Damage 3d6+9 (3d6+9) piercing plus 2d6 (2d6) mental"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      6,
+      4,
+      1,
+      8,
+      7
+    ]
+  }
+}

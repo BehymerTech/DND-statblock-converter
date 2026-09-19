@@ -1,0 +1,109 @@
+{
+  "name": "Catrina",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "extraplanar, psychopomp",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 19,
+    "notes": "dex +3, natural +6",
+    "touch": 13,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 51,
+    "formula": "6d10+18"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 17,
+    "con": 16,
+    "int": 13,
+    "wis": 14,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +5, Ref +8, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +13, Heal +8, Knowledge (planes) +10, Knowledge (religion) +10, Perception +11, Stealth +12, Use Magic Device +10",
+    "list": {
+      "Diplomacy": "+13",
+      "Heal": "+8",
+      "Perception": "+11",
+      "Stealth": "+12",
+      "Use Magic Device": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "spiritsense"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Infernal",
+    "tongues",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 6,
+  "feats": [
+    "Combat Expertise",
+    "Improved Initiative",
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +6 (1d8)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "With lengthy curling hair, a dancer’s dress, and a bouquet of flowers, this woman remains beautiful, despite having no flesh.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 19,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Purgatory)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or reception (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

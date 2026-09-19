@@ -1,0 +1,99 @@
+{
+  "name": "Skirk Nettle",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 36: Sound of a Thousand Screams",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "extraplanar",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 20,
+    "notes": "dex +3, natural +8, size -1",
+    "touch": 12,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 68,
+    "formula": "8d10+24"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 30 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 17,
+    "con": 16,
+    "int": 2,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +9, Ref +11, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +9, Perception +12, Stealth +0",
+    "list": {
+      "Fly": "+9",
+      "Perception": "+12",
+      "Stealth": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": 22,
+  "languages": [],
+  "initiative": "+7",
+  "babOrProficiency": 8,
+  "feats": [
+    "Combat Reflexes",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "3 bites +11 (1d6+4 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A delicate-looking creature floats silently in midair. Resembling a large jellyfish, it has a fringe of bird’s feathers around its quivering central mass and long tentacles trailing from its center, with each tentacle ending in a snapping beak. It sings to itself as it flies, each beak making a different note in an eerie harmony.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": "26 (30 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any tropical (First World)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or shoal (6-24)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

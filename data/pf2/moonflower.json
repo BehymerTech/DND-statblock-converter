@@ -1,0 +1,106 @@
+{
+  "name": "Moonflower",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 173.",
+  "size": "Huge",
+  "type": "Plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 120,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 10,
+    "con": 18,
+    "int": 6,
+    "wis": 18,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +18, Ref +10, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +19 (1d20+19); __Stealth__: +14 (1d20+14), (Stealth: +18 (1d20+18) in thick vegetation); ",
+    "list": {
+      "Athletics": "+19",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "telepathy 1 mile (other moonflowers only)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Light Pulse",
+      "text": "⬺ (evocation, light, primal, visual); 50 feet. The moonflower releases a pulse of bright light. Each non-moonflower creature in the emanation must attempt a DC 23 Fortitude save. The moonflower can't use Light Pulse again for 1d4 (1d4) rounds. Success The creature is unaffected. Failure The creature is dazzled for 1d4 (1d4) rounds. Critical Failure The creature is blinded for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Pod Prison",
+      "text": "⬲ Trigger The moonflower has swallowed a creature Effect The swallowed creature is wrapped in a tight cocoon and extruded from the moonflower's body into an adjacent square. The creature continues to be Swallowed Whole. It can't use Acrobatics to Escape a pod, but other creatures can attempt to Rupture the pod. The cocooned creature takes half damage from any damage dealt to the cocoon. Once the cocoon is Ruptured, it deflates and decays."
+    },
+    {
+      "name": "Pod Spawn",
+      "text": "Should a Small or larger creature die within a pod prison, the pod transforms into an adult moonflower with full Hit Points after 1d4 (1d4) hours of growth. The newly formed moonflower has its own consciousness, but some aspect of its trunk or blossoms resembles the creature that died within. The dead creature's equipment remains inside the new moonflower and can be retrieved if the moonflower is slain."
+    },
+    {
+      "name": "Swallow Whole",
+      "text": "⬻ (attack); Large, 2d10+10 (2d10+10) bludgeoning and 2d6 (2d6) acid, Rupture 21."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ bite +20 (reach 15 feet); Damage 2d10+10 (2d10+10) piercing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ root +20 (agile, reach 15 feet); Damage 2d8+10 (2d8+10) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      0,
+      4,
+      -2,
+      4,
+      3
+    ]
+  }
+}

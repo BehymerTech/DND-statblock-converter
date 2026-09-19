@@ -1,0 +1,114 @@
+{
+  "name": "Peluda",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 196.",
+  "size": "Large",
+  "type": "Fire",
+  "subtype": "Dragon",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 30,
+    "notes": ""
+  },
+  "hp": {
+    "average": 170,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, swim 30 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 16,
+    "con": 20,
+    "int": 6,
+    "wis": 20,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +21, Ref +17, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +23 (1d20+23); __Intimidation__: +19 (1d20+19); ",
+    "list": {
+      "Athletics": "+23",
+      "Intimidation": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Vulnerable Tail",
+      "text": "If the peluda takes 30 or more slashing damage from a critical hit, the attacker severs the peluda's tail. The peluda takes 2d6 (2d6) persistent bleed damage and can't make tail attacks until their tail grows back (in about 1 week)."
+    },
+    {
+      "name": "Quill Thrust",
+      "text": "⬲ Trigger A creature within 10 feet attempts a melee Strike against the peluda Effect The peluda shifts their position and makes a quill Strike against the attacking creature. This Strike doesn't count toward the peluda's multiple attack penalty, and the peluda's multiple attack penalty doesn't apply to this Strike."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (evocation, fire, primal); The peluda breathes a torrent of flames that deals 7d10 (7d10) fire damage in a 60-foot line (DC 29 basic Reflex save). They can't use their Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Peluda Venom",
+      "text": "(poison); Saving Throw DC 29 Fortitude. Maximum Duration 6 rounds Stage 1 2d6 (2d6) poison and flat-footed (1 round) Stage 2 2d6 (2d6) poison, enfeebled 1, and flat-footed (1 round) Stage 3 2d6 (2d6) poison, enfeebled 2, and flat-footed (1 round)"
+    },
+    {
+      "name": "Quill Barrage",
+      "text": "⬺ The peluda bristles their quills and shakes, sending dozens of spear-like barbs in every direction. All creatures within 30 feet take 11d6 (11d6) piercing damage (DC 29 basic Reflex save) and are exposed to peluda venom if they take any damage. The peluda can't use Quill Barrage again for 1 minute."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +23 (reach 10 feet); Damage 2d12+13 (2d12+13) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ quill +23 (agile, reach 10 feet); Damage 2d6 (2d6) piercing plus peluda venom"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +23 (reach 15 feet, versatile piercing); Damage 2d6+13 (2d6+13) bludgeoning plus Improved Knockdown"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      3,
+      5,
+      -2,
+      5,
+      3
+    ]
+  }
+}

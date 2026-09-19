@@ -1,0 +1,125 @@
+{
+  "name": "NPC Fatal Axe",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "alignment": "NE",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 24,
+    "notes": "armor +9, deflection +2, insight +1, natural +2",
+    "touch": 13,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 183,
+    "formula": "10d8+10d8+90"
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 10,
+    "con": 19,
+    "int": 22,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +12, Ref +14, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +12, Bluff +21, Climb +16, Diplomacy +6, Disable Device +12, Disguise +11, Heal +7, Knowledge (dungeoneering) +14, Knowledge (engineering) +11, Knowledge (geography) +11, Knowledge (history) +11, Knowledge (nature) +11, Knowledge (nobility) +11, Knowledge (religion) +11, Knowledge (local) +19, Linguistics +14, Perception +25, Sense Motive +25, Sleight of Hand +22, Stealth +22, Survival +12, Swim +16, Use Magic Device +21",
+    "list": {
+      "Acrobatics": "+12",
+      "Bluff": "+21",
+      "Climb": "+16",
+      "Diplomacy": "+6",
+      "Disable Device": "+12",
+      "Disguise": "+11",
+      "Heal": "+7",
+      "Linguistics": "+14",
+      "Perception": "+25",
+      "Sense Motive": "+25",
+      "Sleight of Hand": "+22",
+      "Stealth": "+22",
+      "Survival": "+12",
+      "Swim": "+16",
+      "Use Magic Device": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Elven",
+    "Gnome",
+    "Goblin",
+    "Ignan",
+    "Infernal",
+    "Orc",
+    "Terran"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 14,
+  "feats": [
+    "Cleave",
+    "Combat Expertise",
+    "Fleet",
+    "Improved Critical (handaxe)",
+    "Improved Feint",
+    "Improved Iron Will",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Vital Strike",
+    "Weapon Focus (handaxe)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 flaming frost shock handaxe +20/+15/+10 (1d6+5/19-20/×3 plus 1d6 cold and 1d6 electricity and 1d6 fire)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 returning shock throwing axe +15 (1d6+5/×3 plus 1d6 electricity)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Dwarf",
+    "class": "rogue 10, assassin 10",
+    "cmb": "+18",
+    "cmd": "31 (35 vs. bull rush or trip)"
+  }
+}

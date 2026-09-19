@@ -1,0 +1,115 @@
+{
+  "name": "Arboreal Regent",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 25.",
+  "size": "Huge",
+  "type": "Plant",
+  "subtype": "",
+  "alignment": "NG",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 26,
+    "notes": ""
+  },
+  "hp": {
+    "average": 150,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 8,
+    "con": 22,
+    "int": 12,
+    "wis": 18,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +20, Ref +11, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +19 (1d20+19); __Diplomacy__: +16 (1d20+16); __Intimidation__: +16 (1d20+16); __Nature__: +18 (1d20+18); __Stealth__: +11 (1d20+11), (Stealth: +21 (1d20+21) in forests); ",
+    "list": {
+      "Athletics": "+19",
+      "Diplomacy": "+16",
+      "Intimidation": "+16",
+      "Nature": "+18",
+      "Stealth": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Arboreal",
+    "Common",
+    "Sylvan; speak with plants"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Axe Vulnerability",
+      "text": "The arboreal regent takes 5 additional damage from axes."
+    },
+    {
+      "name": "Awaken Tree",
+      "text": "⬺ (concentrate, primal); The arboreal regent causes a tree within 180 feet to uproot itself and fight as a minion using the statistics for an awakened tree. The arboreal regent can control up to two awakened trees at a time, and it can issue commands to both trees as a single action, which has the concentrate and auditory traits."
+    },
+    {
+      "name": "Sunder Objects",
+      "text": "When an arboreal regent damages an item or structure, it deals an additional 2d10 (2d10) damage to that item or structure."
+    },
+    {
+      "name": "Throw Rock",
+      "text": "⬻"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ branch +19 (reach 15 feet); Damage 2d12+7 (2d12+7) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ root +19 (trip); Damage 2d8+7 (2d8+7) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ rock +19 (brutal, range increment 120 feet); Damage 2d10+7 (2d10+7) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      -1,
+      6,
+      1,
+      4,
+      2
+    ]
+  }
+}

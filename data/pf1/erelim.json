@@ -1,0 +1,113 @@
+{
+  "name": "Erelim",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 104: Wrath of Thrune",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "angel, extraplanar, good",
+  "alignment": "NG",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 18,
+    "notes": "dex +3, natural +5",
+    "touch": 13,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 68,
+    "formula": "8d10+24"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 30 ft. (good)"
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 17,
+    "con": 16,
+    "int": 11,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +9, Ref +5, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +7, Handle Animal +12, Heal +11, Knowledge (planes) +7, Perception +13, Profession (soldier) +13, Ride +14, Sense Motive +11",
+    "list": {
+      "Fly": "+7",
+      "Handle Animal": "+12",
+      "Heal": "+11",
+      "Perception": "+13",
+      "Ride": "+14",
+      "Sense Motive": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "detect evil"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 8,
+  "feats": [
+    "Cavalry Formation",
+    "Mounted Combat",
+    "Ride-By Attack",
+    "Spirited Charge"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 lance +11/+6 (1d8+4/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk longbow +12/+7 (1d8/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This athletic, winged humanoid has handsome features and wields a shining lance.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": 23,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any good-aligned plane"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, formation (3-10), or host (5-12 formations)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+1 lance, mwk greatsword, mwk longbow, other treasure)"
+      }
+    ]
+  }
+}

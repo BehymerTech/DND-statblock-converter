@@ -1,0 +1,123 @@
+{
+  "name": "Jinushigami",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Gargantuan",
+  "type": "outsider",
+  "subtype": "earth, kami, native",
+  "alignment": "N",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 34,
+    "notes": "dex +7, dodge +1, natural +20, size -4",
+    "touch": 14,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 348,
+    "formula": "24d10+216"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., other_semicolon earth glide ft., burrow 40 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 25,
+    "con": 28,
+    "int": 23,
+    "wis": 24,
+    "cha": 31
+  },
+  "saves": {
+    "text": "Fort +25, Ref +17, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +31, Bluff +37, Diplomacy +34, Heal +34, Intimidate +34, Knowledge (geography) +33, Knowledge (nature) +33, Perception +38, Sense Motive +38, Spellcraft +33, Stealth +22, Survival +31",
+    "list": {
+      "Acrobatics": "+31",
+      "Bluff": "+37",
+      "Diplomacy": "+34",
+      "Heal": "+34",
+      "Intimidate": "+34",
+      "Perception": "+38",
+      "Sense Motive": "+38",
+      "Spellcraft": "+33",
+      "Stealth": "+22",
+      "Survival": "+31"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense",
+    "true seeing"
+  ],
+  "passivePerception": 48,
+  "languages": [
+    "Common",
+    "Terran",
+    "speak with animals",
+    "speak with plants",
+    "stone tell",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 24,
+  "feats": [
+    "Alertness",
+    "Combat Casting",
+    "Combat Reflexes",
+    "Dodge",
+    "Great Fortitude",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Improved Overrun",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Two-Weapon Fighting"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+5 quarterstaff +32/+27/+22/+17 (3d6+14), +5 quarterstaff +32 (3d6+9)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous amalgamation of stone and plant matter takes the shape of an old man leaning on an equally huge staff.",
+  "meta": {
+    "cmb": "37 (+39 bull rush and overrun)",
+    "cmd": "55 (57 vs. bull rush and overrun)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

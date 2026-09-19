@@ -1,0 +1,103 @@
+{
+  "name": "NPC Besmaran Priest",
+  "sourceSystem": "pf1",
+  "source": "Isles of the Shackles",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "CN",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "armor +5, dex +1, dodge +1",
+    "touch": 12,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 33,
+    "formula": "5d8+7"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 13,
+    "con": 12,
+    "int": 10,
+    "wis": 16,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +5, Ref +2, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +10, Knowledge (religion) +8, Sense Motive +9, Spellcraft +6, Swim +1, Perception +3",
+    "list": {
+      "Diplomacy": "+10",
+      "Sense Motive": "+9",
+      "Spellcraft": "+6",
+      "Swim": "+1",
+      "Perception": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 13,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 3,
+  "feats": [
+    "Combat Casting",
+    "Dodge",
+    "Improved Initiative",
+    "Mobility"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk rapier +4 (1d6/18-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Clad in black silk and a chain shirt, this bold woman has a strong stance and wields a masterfully crafted rapier; the tricorne hat atop her head depicts a skull and crossbones.",
+  "meta": {
+    "race": "Female",
+    "class": "cleric of Besmara 5",
+    "cmb": "+3",
+    "cmd": 15,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans or coastlines"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or clergy (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (+1 chain shirt, masterwork rapier, sap, potions of cure light wounds [5], wand of cure moderate wounds [9 charges], wand of bull’s strength [8 charges], holy water [2 flasks], other treasure)"
+      }
+    ]
+  }
+}

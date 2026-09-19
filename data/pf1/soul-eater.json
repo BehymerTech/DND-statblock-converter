@@ -1,0 +1,108 @@
+{
+  "name": "Soul Eater",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "evil, extraplanar",
+  "alignment": "NE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 21,
+    "notes": "dex +6, dodge +1, natural +4",
+    "touch": 17,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 82,
+    "formula": "11d10+22"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 100 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 22,
+    "con": 14,
+    "int": 12,
+    "wis": 11,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +5, Ref +13, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +20, Escape Artist +20, Fly +28, Intimidate +14, Knowledge (planes) +15, Perception +14, Stealth +20",
+    "list": {
+      "Acrobatics": "+20",
+      "Escape Artist": "+20",
+      "Fly": "+28",
+      "Intimidate": "+14",
+      "Perception": "+14",
+      "Stealth": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "all-around vision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Abyssal",
+    "Infernal"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 11,
+  "feats": [
+    "Dodge",
+    "Flyby Attack",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Weapon Finesse",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +18 (1d6+1/19-20 plus 1d6 Wisdom damage)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Two elongated and deathly pallid arms protrude from this creature’s smoky body as it slithers silently through the air.",
+  "meta": {
+    "cmb": "+12",
+    "cmd": "29 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any Outer Plane (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

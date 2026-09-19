@@ -1,0 +1,88 @@
+{
+  "name": "Riding Dog",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 102.",
+  "size": "Medium",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 14,
+    "int": 2,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +7, Ref +5, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +5 (1d20+5); __Athletics__: +7 (1d20+7); __Survival__: +5 (1d20+5); ",
+    "list": {
+      "Acrobatics": "+5",
+      "Athletics": "+7",
+      "Survival": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Buck",
+      "text": "⬲ DC 17."
+    },
+    {
+      "name": "Pack Attack",
+      "text": "The dog's Strikes deal 1d4 (1d4) extra damage to creatures within the reach of at least two of the dog's allies."
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      2,
+      2,
+      -4,
+      2,
+      -1
+    ]
+  }
+}

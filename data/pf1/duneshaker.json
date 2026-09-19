@@ -1,0 +1,98 @@
+{
+  "name": "Duneshaker",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Colossal",
+  "type": "vermin",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 33,
+    "notes": "dex +8, natural +23, size -8",
+    "touch": 10,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 290,
+    "formula": "20d8+200"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., burrow 30 ft."
+  },
+  "abilities": {
+    "str": 48,
+    "dex": 27,
+    "con": 31,
+    "int": "None",
+    "wis": 26,
+    "cha": 3
+  },
+  "saves": {
+    "text": "Fort +22, Ref +14, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +16, Stealth +4",
+    "list": {
+      "Perception": "+16",
+      "Stealth": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 26,
+  "languages": [],
+  "initiative": "+8",
+  "babOrProficiency": 15,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +26 (4d6+19), 2 claws +26 (2d8+19)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous spiderlike creature has a tremendous pair of jagged fangs as menacing as its oversized claws.",
+  "meta": {
+    "cmb": "+42",
+    "cmd": "60 (72 vs. trip)",
+    "racialModifiers": [
+      "Perception 8",
+      "Stealth 12"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

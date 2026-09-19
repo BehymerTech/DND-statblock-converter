@@ -1,0 +1,112 @@
+{
+  "name": "Verdurous Ooze",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 194.",
+  "size": "Medium",
+  "type": "Ooze",
+  "subtype": "Mindless",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 12,
+    "notes": ""
+  },
+  "hp": {
+    "average": 157,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 2,
+    "con": 20,
+    "int": 0,
+    "wis": 10,
+    "cha": 0
+  },
+  "saves": {
+    "text": "Fort +17, Ref +8, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +15 (1d20+15); __Stealth__: +4 (1d20+4), (Stealth: +10 (1d20+10) in tall grass or undergrowth); ",
+    "list": {
+      "Athletics": "+15",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "motion sense 60, no vision"
+  ],
+  "passivePerception": 18,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Motion Sense",
+      "text": "An amoeba swarm can sense nearby creatures through vibration and air or water movement."
+    },
+    {
+      "name": "Corrosive Surface",
+      "text": "A creature that hits a verdurous ooze with a metal weapon or unarmed attack must attempt a DC 21 Reflex save. On a failure, the weapon or creature takes 2d4 (2d4) acid damage (after dealing damage to the ooze as normal). Thrown weapons take this damage automatically with no save."
+    },
+    {
+      "name": "Enliven Foliage",
+      "text": "(aura, primal, transmutation); 20 feet. The verdurous ooze constantly emits supernatural vapors that cause nearby plants to grow rapidly and writhe and grasp at anything and everything within the emanation. This area becomes difficult terrain for non–verdurous ooze creatures. When a creature starts its turn in this aura, it must succeed at a DC 21 Reflex save or take a –10-foot circumstance penalty to its Speeds until it leaves the emanation."
+    },
+    {
+      "name": "Split",
+      "text": "When a verdurous ooze that has 10 or more HP is hit by an attack that would deal piercing or slashing damage, it splits into two identical oozes, each with half the original's HP. One ooze is in the same space as the original, and the other is in an adjacent, unoccupied space. If no adjacent space is unoccupied, it automatically pushes creatures and objects out of the way to fill a space (the GM decides if an object or creature is too big or heavy to push)."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 2d6 (2d6) bludgeoning plus 1d6 (1d6) acid, DC 24."
+    },
+    {
+      "name": "Sleep Gas",
+      "text": "⬺ (incapacitation, mental, poison, sleep); The verdurous ooze adjusts its aura of supernatural vapors to affect living creatures within a 20-foot emanation, forcing them to attempt a DC 24 Will save. Critical Success The creature is unaffected and becomes temporarily immune to Sleep Gas for 24 hours. Success The creature is stupefied 1 for 1 round. Failure The creature falls unconscious. If it's still unconscious after 1 minute, it wakes up automatically. Critical Failure The creature falls unconscious. If it's still unconscious after 1 hour, it wakes up automatically."
+    },
+    {
+      "name": "Verdurous Ooze Acid",
+      "text": "A verdurous ooze's acid damages only metal and flesh—not bone, stone, or other materials."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ pseudopod +15 Damage 2d6+7 (2d6+7) bludgeoning plus 1d6 (1d6) acid and Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      -4,
+      5,
+      -5,
+      0,
+      -5
+    ]
+  }
+}

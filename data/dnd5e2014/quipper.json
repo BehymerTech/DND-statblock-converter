@@ -1,0 +1,80 @@
+{
+  "name": "Quipper",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Tiny",
+  "type": "beast",
+  "subtype": "",
+  "alignment": "unaligned",
+  "cr": "0",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 13,
+    "notes": ""
+  },
+  "hp": {
+    "average": 1,
+    "formula": "1d4 - 1"
+  },
+  "speed": {
+    "walk": 0,
+    "fly": null,
+    "swim": 40,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 2,
+    "dex": 16,
+    "con": 9,
+    "int": 1,
+    "wis": 7,
+    "cha": 2
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft."
+  ],
+  "passivePerception": 8,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Blood Frenzy",
+      "text": "The quipper has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+    },
+    {
+      "name": "Water Breathing",
+      "text": "The quipper can breathe only underwater."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

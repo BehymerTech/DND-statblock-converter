@@ -1,0 +1,113 @@
+{
+  "name": "Quetzutrhul",
+  "sourceSystem": "pf1",
+  "source": "Darklands Revisited",
+  "size": "Small",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 28,
+    "notes": "dex +11, dodge +1, natural +5, size +1",
+    "touch": 23,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 107,
+    "formula": "9d8+63"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 32,
+    "con": 22,
+    "int": 20,
+    "wis": 10,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +9, Ref +14, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +22, Bluff +17, Climb +11, Disguise +9, Escape Artist +22, Knowledge (local) +16, Perception +19, Sense Motive +8, Stealth +34, Use Magic Device +10",
+    "list": {
+      "Acrobatics": "+22",
+      "Bluff": "+17",
+      "Climb": "+11",
+      "Disguise": "+9",
+      "Escape Artist": "+22",
+      "Perception": "+19",
+      "Sense Motive": "+8",
+      "Stealth": "+34",
+      "Use Magic Device": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "detect magic"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Common",
+    "Elven",
+    "Orc",
+    "Terran",
+    "Undercommon",
+    "Varisian (can’t speak)",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+17",
+  "babOrProficiency": 6,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Iron Will",
+    "Multiattack",
+    "Toughness",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 returning dagger +19/+14 (1d3+1/19-20), 4 claws +16 (1d4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 returning dagger +19 (1d3+1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This brainlike creature has two clawed legs emerging from its fore and rear and a serpentine proboscis clutching a dagger.",
+  "meta": {
+    "race": "Rogue",
+    "class": "mutant intellect devourer (Pathfinder RPG Monster Codex 248, Pathfinder RPG Bestiary 5 180, Pathfinder RPG Bestiary 180)",
+    "cmb": "+5",
+    "cmd": "27 (31 vs. trip)",
+    "racialModifiers": [
+      "Bluff 8",
+      "Perception 8",
+      "Stealth 8"
+    ]
+  }
+}

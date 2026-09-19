@@ -1,0 +1,106 @@
+{
+  "name": "Arboreal Reaper",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 20.",
+  "size": "Large",
+  "type": "Plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 130,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 14,
+    "con": 18,
+    "int": 14,
+    "wis": 14,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +17, Ref +13, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +17 (1d20+17); __Intimidation__: +17 (1d20+17); __Nature__: +15 (1d20+15); __Stealth__: +14 (1d20+14), (Stealth: +18 (1d20+18) in forests); ",
+    "list": {
+      "Athletics": "+17",
+      "Intimidation": "+17",
+      "Nature": "+15",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Arboreal",
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Axe Vulnerability",
+      "text": "An arboreal reaper takes 5 additional damage from axes."
+    },
+    {
+      "name": "Leech Moisture",
+      "text": "⬺ The arboreal reaper grows still and focuses intently on a single foe within 50 feet, draining moisture from the target's body. This deals 10d6 (10d6) negative damage (DC 25 basic Fortitude save). The arboreal reaper can't Leech Moisture again for 1d4 (1d4) rounds."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ branch +18 (reach 10 feet); Damage 2d10+8 (2d10+8) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ root +18 (agile); Damage 2d6+8 (2d6+8) bludgeoning plus Knockdown"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ thorns +16 Damage 2d8+5 (2d8+5) piercing plus 1d4 (1d4) persistent bleed"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      2,
+      4,
+      2,
+      2,
+      4
+    ]
+  }
+}

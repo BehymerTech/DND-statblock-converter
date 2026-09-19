@@ -1,0 +1,102 @@
+{
+  "name": "Gargiya",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 60: From Hell's Heart",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 24,
+    "notes": "dex +1, natural +15, size -2",
+    "touch": 9,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 138,
+    "formula": "12d10+72"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 50 ft."
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 13,
+    "con": 23,
+    "int": 2,
+    "wis": 10,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +14, Ref +11, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +6, Stealth +4, Swim +22",
+    "list": {
+      "Perception": "+6",
+      "Stealth": "+4",
+      "Swim": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 12,
+  "feats": [
+    "Awesome Blow",
+    "Critical Focus",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Lightning Reflexes",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +20 (3d6+10/19-20 plus grab), tail slap +15 (2d6+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "With burning eyes and a snapping maw, this blood-red serpent rises from the ocean’s depths. Sweltering heat radiates from its rippling scales.",
+  "meta": {
+    "cmb": "24 (+28 grapple)",
+    "cmd": "35 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or shoal (2-3)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

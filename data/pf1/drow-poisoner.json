@@ -1,0 +1,110 @@
+{
+  "name": "Drow Poisoner",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "alignment": "CE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 23,
+    "notes": "armor +6, deflection +1, dex +5, natural +1",
+    "touch": 16,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 81,
+    "formula": "12d8+24"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 21,
+    "con": 12,
+    "int": 20,
+    "wis": 10,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +10, Ref +14, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (alchemy) +20, Disable Device +19, Fly +13, Heal +9, Knowledge (arcana) +20, Knowledge (nature) +14, Perception +17, Spellcraft +20, Stealth +16, Survival +9, Use Magic Device +15",
+    "list": {
+      "Disable Device": "+19",
+      "Fly": "+13",
+      "Heal": "+9",
+      "Perception": "+17",
+      "Spellcraft": "+20",
+      "Stealth": "+16",
+      "Survival": "+9",
+      "Use Magic Device": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Elven",
+    "Undercommon"
+  ],
+  "initiative": "+14",
+  "babOrProficiency": 9,
+  "feats": [
+    "Brew Potion",
+    "Extra Bombs",
+    "Improved Initiative",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Quick Draw",
+    "Rapid Shot",
+    "Throw Anything"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk rapier +10/+5 (1d6/18-20 plus poison)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk hand crossbow +15 (1d4/19-20 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Drow",
+    "class": "alchemist 12 (Pathfinder RPG Advanced Player's Guide 26)",
+    "cmb": "+9",
+    "cmd": 25,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "underground"
+      }
+    ]
+  }
+}

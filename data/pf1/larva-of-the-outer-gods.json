@@ -1,0 +1,108 @@
+{
+  "name": "Larva of the Outer Gods",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 114: Black Stars Beckon",
+  "size": "Large",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 32,
+    "notes": "dex +8, natural +15, size -1",
+    "touch": 17,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 207,
+    "formula": "18d8+126"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 26,
+    "con": 23,
+    "int": 11,
+    "wis": 20,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +14, Ref +14, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +26, Knowledge (planes) +18, Perception +17, Perform (wind instruments) +33, Spellcraft +21",
+    "list": {
+      "Fly": "+26",
+      "Perception": "+17",
+      "Spellcraft": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Aklo",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 13,
+  "feats": [
+    "Combat Reflexes",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Iron Will",
+    "Multiattack",
+    "Skill Focus (Perform [wind])",
+    "Toughness",
+    "Weapon Finesse",
+    "Weapon Focus (tentacle)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "8 tentacles +19 (1d6+2 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature is a terrifying amalgamation of chitinous scales, bloated flesh, unblinking eyes, and writhing tentacles.",
+  "meta": {
+    "cmb": "+19",
+    "cmd": "37 (49 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or choir (4-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

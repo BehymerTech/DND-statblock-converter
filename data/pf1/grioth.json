@@ -1,0 +1,105 @@
+{
+  "name": "Grioth",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, The Dragon's Demand",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 14,
+    "notes": "dex +4",
+    "touch": 14,
+    "flatFooted": 10
+  },
+  "hp": {
+    "average": 13,
+    "formula": "2d10+2"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 40 ft. (average)"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 12,
+    "int": 13,
+    "wis": 13,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +1, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +9, Knowledge (geography) +3, Perception +6, Sense Motive +3, Stealth +9",
+    "list": {
+      "Fly": "+9",
+      "Perception": "+6",
+      "Sense Motive": "+3",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "see in darkness"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Aklo",
+    "Grioth",
+    "telepathy 30 ft."
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 2,
+  "feats": [
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk kukri +3 (1d4+1/18-20 plus 1d4 nonlethal), bite -3 (1d6 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This silent batlike humanoid has a long, ratlike tail and four narrow eyes.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": 16,
+    "racialModifiers": [
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, gathering (3-6 plus 1 cleric of 3rd level), or cult (7-20 plus 2-6 clerics of 3rd level, 2-4 barbarians of 3rd level, and 1 cleric of 7th level)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (masterwork kukri, other treasure)"
+      }
+    ]
+  }
+}

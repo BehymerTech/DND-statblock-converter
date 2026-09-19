@@ -1,0 +1,141 @@
+{
+  "name": "Hag",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Monstrous Humanoid",
+  "subtype": "Aquatic",
+  "alignment": "Usually chaotic evil",
+  "cr": "4",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 14,
+    "notes": "+1 Dex, +3 natural",
+    "touch": 11,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d8+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": 40,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares), swim 40 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 12,
+    "con": 12,
+    "int": 10,
+    "wis": 13,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +2, Ref +4, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft Or Knowledge (any One) +3, Hide +4, Listen +6, Spot +6, Swim +12;",
+    "list": {
+      "Bluff": "+8",
+      "Diplomacy": "+2",
+      "Disguise": "+0",
+      "Hide": "+4",
+      "Intimidate": "+2",
+      "Listen": "+6",
+      "Spot": "+6",
+      "Concentration": "+7",
+      "Swim": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft.",
+    "Darkvision 90 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 3,
+  "feats": [
+    "Alertness",
+    "Toughness"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Improved grab, rake 1d6+7, rend 2d6+10, spell-like abilities"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 2/bludgeoning, darkvision 60 ft., spell resistance 19"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Spell-like abilities, weakness, mimicry"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 90 ft., spell resistance 18"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Horrific appearance, evil eye"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Amphibious, spell resistance 14"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Claw +13 melee (1d6+7)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +13 melee (1d6+7) and bite +8 melee (1d6+3)"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +13 melee (1d4+4)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +13 melee (1d4+4)"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +7 melee (1d4+4)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +7 melee (1d4+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Although different hags are unique in appearance and mannerism, they have many aspects in common. All take the form of crones whose bent shapes belie their fierce power and swiftness.",
+    "grapple": "+7",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Temperate aquatic",
+    "organization": "Solitary or covey (3 hags of any kind plus 1-8 ogres and 1-4 evil giants)",
+    "treasure": "Standard",
+    "advancement": "By character class",
+    "leveladjustment": "---"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "name": "Adult Tumult Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 138: Rise of New Thassilon",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "chaotic, extraplanar",
+  "alignment": "CN",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 31,
+    "notes": "natural +23, size -2",
+    "touch": 8,
+    "flatFooted": 31
+  },
+  "hp": {
+    "average": 290,
+    "formula": "20d12+160"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 200 ft. (poor), climb 60 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 10,
+    "con": 27,
+    "int": 18,
+    "wis": 21,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +20, Ref +12, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +20, Bluff +28, Climb +18, Fly +15, Knowledge (local) +27, Knowledge (nature) +27, Knowledge (planes) +27, Perception +28, Perform (dance) +25, Spellcraft +27, Swim +18, Use Magic Device +28",
+    "list": {
+      "Acrobatics": "+20",
+      "Bluff": "+28",
+      "Climb": "+18",
+      "Fly": "+15",
+      "Perception": "+28",
+      "Spellcraft": "+27",
+      "Swim": "+18",
+      "Use Magic Device": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Protean"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 20,
+  "feats": [
+    "Blind-Fight",
+    "Combat Expertise",
+    "Critical Focus",
+    "Greater Dirty Trick",
+    "Hover",
+    "Improved Dirty Trick",
+    "Improved Initiative",
+    "Multiattack",
+    "Weapon Focus (bite)",
+    "Weapon Focus (wing)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +29 (2d8+15), 2 claws +28 (2d6+10), tail slap +26 (2d6+15), 2 wings +27 (1d8+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This dragon seems to be made of parts from different creatures.",
+  "meta": {
+    "cmb": "32 (+36 dirty trick)",
+    "cmd": "42 (44 vs. dirty trick, 46 vs. trip)"
+  }
+}

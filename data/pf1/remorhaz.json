@@ -1,0 +1,102 @@
+{
+  "name": "Remorhaz",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "dex +1, natural +11, size -2",
+    "touch": 9,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 94,
+    "formula": "9d10+45"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 20 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 13,
+    "con": 21,
+    "int": 5,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +11, Ref +7, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +16",
+    "list": {
+      "Perception": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Giant (cannot speak)"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 9,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Improved Bull Rush",
+    "Power Attack",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (3d6+9 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "An immense centipede-like beast erupts from the snow, rows of chitinous plates on its back glowing red-hot.",
+  "meta": {
+    "cmb": "17 (+21 grapple)",
+    "cmd": "28 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold deserts and glaciers"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

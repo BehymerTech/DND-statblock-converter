@@ -1,0 +1,105 @@
+{
+  "name": "Sabosan",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Pathfinder No. 40: Vaults of Madness",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +4, natural +4",
+    "touch": 14,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 52,
+    "formula": "7d10+14"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 40 ft. (good)"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 18,
+    "con": 15,
+    "int": 9,
+    "wis": 13,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +4, Ref +9, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +11, Fly +8, Perception +14, Stealth +14",
+    "list": {
+      "Acrobatics": "+11",
+      "Fly": "+8",
+      "Perception": "+14",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Abyssal"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 7,
+  "feats": [
+    "Flyby Attack",
+    "Hover",
+    "Improved Initiative",
+    "Power Attack",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +10 (1d6+3 plus bleed), 2 claws +10 (1d6+3 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This batlike humanoid has a lean, muscular body covered with fur and two large, leathery wings.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": 24,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forests or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, hunting party (2-6), or clan (7-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

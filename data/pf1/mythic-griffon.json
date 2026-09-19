@@ -1,0 +1,107 @@
+{
+  "name": "Mythic Griffon",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "mythic",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 19,
+    "notes": "dex +2, natural +8, size -1",
+    "touch": 11,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 62,
+    "formula": "5d10+35"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 100 ft. (average)"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 15,
+    "con": 16,
+    "int": 5,
+    "wis": 13,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +7, Ref +6, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Fly +6, Perception +12",
+    "list": {
+      "Acrobatics": "+10",
+      "Fly": "+6",
+      "Perception": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Common (cannot speak)"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 5,
+  "feats": [
+    "Flyby Attack",
+    "Iron Will",
+    "Skill Focus (Perception)",
+    "Weapon Focus (talons)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d6+4 plus grab), 2 talons +10 (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This majestic beast combines the features of a sleek black eagle and the strong, lean musculature of a panther.",
+  "meta": {
+    "cmb": "10 (+14 grapple)",
+    "cmd": "22 (26 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics 4",
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate hills"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pride (6-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "name": "Great Cyclops",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 69.",
+  "size": "Huge",
+  "type": "Mutant",
+  "subtype": "Giant, Humanoid",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 12",
+  "xp": null,
+  "ac": {
+    "value": 32,
+    "notes": ""
+  },
+  "hp": {
+    "average": 235,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 12,
+    "con": 22,
+    "int": 6,
+    "wis": 18,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +25, Ref +19, Will +22",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +25 (1d20+25); __Survival__: +22 (1d20+22); __Any one lore__: +18 (1d20+18); ",
+    "list": {
+      "Athletics": "+25",
+      "Survival": "+22",
+      "Any one lore": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Common",
+    "Cyclops",
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Catch Rock",
+      "text": "⬲"
+    },
+    {
+      "name": "Ferocity",
+      "text": "⬲"
+    },
+    {
+      "name": "Flash of Brutality",
+      "text": "⭓ (divination, fortune, occult); Frequency times per Trigger The great cyclops succeeds at an attack roll. Effect The attack becomes a critical success."
+    },
+    {
+      "name": "Items",
+      "text": "greatclub, hide armor;"
+    },
+    {
+      "name": "Powerful Charge",
+      "text": "⬺ The great cyclops Strides twice and makes a horn Strike. If it moved at least 20 feet away from its starting position, the Strike's damage is increased to 3d10+20 (3d10+20)."
+    },
+    {
+      "name": "Throw Rock",
+      "text": "⬻"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ greatclub +25 (backswing, reach 15 feet, shove); Damage 3d10+13 (3d10+13) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ horn +25 (reach 15 feet); Damage 2d10+13 (2d10+13) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +25 (agile, reach 15 feet); Damage 3d4+13 (3d4+13) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ rock +23 (brutal, range increment 120 feet); Damage 4d6+7 (4d6+7) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      1,
+      6,
+      -2,
+      4,
+      -1
+    ],
+    "items": "greatclub, hide armor;"
+  }
+}

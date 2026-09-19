@@ -1,0 +1,96 @@
+{
+  "name": "King Ragworm",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 124: City in the Deep",
+  "size": "Gargantuan",
+  "type": "vermin",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 28,
+    "notes": "dex +9, natural +13, size -4",
+    "touch": 15,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 187,
+    "formula": "15d8+120"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 20 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 37,
+    "dex": 28,
+    "con": 27,
+    "int": "None",
+    "wis": 17,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +17, Ref +14, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Swim +21, Perception +3",
+    "list": {
+      "Swim": "+21",
+      "Perception": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 13,
+  "languages": [],
+  "initiative": "+9",
+  "babOrProficiency": 11,
+  "feats": [
+    "Improved Critical (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +20 (2d8+13/19-20 plus grab), slam +20 (2d6+13 plus poison), tail slap +15 (2d8+6 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous segmented worm shimmers with iridescent colors, and large bristles run along its sides.",
+  "meta": {
+    "cmb": "+28",
+    "cmd": "47 (can't be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Goblin War Chanter",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 181.",
+  "size": "Small",
+  "type": "Humanoid",
+  "subtype": "Goblin",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 16,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 16,
+    "con": 14,
+    "int": 12,
+    "wis": 10,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +7, Ref +8, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +6 (1d20+6); __Deception__: +7 (1d20+7); __Occultism__: +4 (1d20+4); __Performance__: +7 (1d20+7); __Stealth__: +6 (1d20+6); ",
+    "list": {
+      "Acrobatics": "+6",
+      "Deception": "+7",
+      "Occultism": "+4",
+      "Performance": "+7",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Common",
+    "Goblin"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Goblin Scuttle",
+      "text": "⬲ Trigger A goblin ally ends a move action adjacent to the warrior. Effect The goblin warrior Steps."
+    },
+    {
+      "name": "Items",
+      "text": "dogslicer, leather armor, shortbow (10 arrows);"
+    },
+    {
+      "name": "Goblin Song",
+      "text": "⬻ The war chanter sings annoying goblin songs, distracting foes with silly and repetitive lyrics. The chanter attempts a Performance check against the Will DCs of up to two enemies within 30 feet. This has the usual traits and restrictions for a Performance check. Critical Success The target takes a –1 status penalty to Perception checks and Will saves for 1 minute. Success As critical success, but the target is affected for only 1 round. Critical Failure The target is temporarily immune to Goblin Song for 1 hour."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ dogslicer +8 (agile, backstabber, finesse); Damage 1d6+2 (1d6+2) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ shortbow +8 (deadly 1d10, range increment 60 feet, reload 0); Damage 1d6 (1d6) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      3,
+      2,
+      1,
+      0,
+      4
+    ],
+    "items": "dogslicer, leather armor, shortbow (10 arrows);"
+  }
+}

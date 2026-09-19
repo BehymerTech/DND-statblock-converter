@@ -1,0 +1,104 @@
+{
+  "name": "Ancient Paradise Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Gargantuan",
+  "type": "dragon",
+  "subtype": "extraplanar, good, lawful",
+  "alignment": "LG",
+  "cr": "21",
+  "level": null,
+  "xp": 409600,
+  "ac": {
+    "value": 40,
+    "notes": "dex -1, natural +35, size -4",
+    "touch": 5,
+    "flatFooted": 40
+  },
+  "hp": {
+    "average": 434,
+    "formula": "28d12+252"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 250 ft. (poor)"
+  },
+  "abilities": {
+    "str": 39,
+    "dex": 8,
+    "con": 29,
+    "int": 24,
+    "wis": 25,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +25, Ref +15, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +42, Fly +20, Heal +38, Intimidate +42, Knowledge (arcana) +38, Knowledge (history) +38, Knowledge (nobility) +38, Knowledge (planes) +38, Knowledge (religion) +38, Perception +42, Sense Motive +42, Spellcraft +38, Survival +38",
+    "list": {
+      "Diplomacy": "+42",
+      "Fly": "+20",
+      "Heal": "+38",
+      "Intimidate": "+42",
+      "Perception": "+42",
+      "Sense Motive": "+42",
+      "Spellcraft": "+38",
+      "Survival": "+38"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 52,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 28,
+  "feats": [
+    "Alertness",
+    "Blinding Critical",
+    "Critical Focus",
+    "Extend Spell",
+    "Hover",
+    "Improved Critical (bite)",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Multiattack",
+    "Persuasive",
+    "Power Attack",
+    "Quicken Spell",
+    "Weapon Focus (bite)",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +39 (4d6+21/19-20), 2 claws +39 (2d8+14/19-20), tail slap +36 (2d8+21), 2 wings +36 (2d6+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This sleek dragon carries itself with regal dignity. Its eyes glow with heavenly light.",
+  "meta": {
+    "cmb": "+46",
+    "cmd": "55 (59 vs. trip)"
+  }
+}

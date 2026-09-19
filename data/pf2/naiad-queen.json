@@ -1,0 +1,122 @@
+{
+  "name": "Naiad Queen",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 248.",
+  "size": "Medium",
+  "type": "Water",
+  "subtype": "Amphibious, Fey, Nymph",
+  "alignment": "CG",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 26,
+    "notes": ""
+  },
+  "hp": {
+    "average": 100,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, swim 25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 20,
+    "con": 18,
+    "int": 16,
+    "wis": 18,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +15, Ref +18, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +16 (1d20+16); __Athletics__: +9 (1d20+9), (Athletics: +13 (1d20+13) to Swim); __Diplomacy__: +20 (1d20+20); __Medicine__: +15 (1d20+15); __Nature__: +15 (1d20+15); __Performance__: +20 (1d20+20); __Stealth__: +14 (1d20+14); __Survival__: +15 (1d20+15); ",
+    "list": {
+      "Acrobatics": "+16",
+      "Athletics": "+13",
+      "Diplomacy": "+20",
+      "Medicine": "+15",
+      "Nature": "+15",
+      "Performance": "+20",
+      "Stealth": "+14",
+      "Survival": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, speak with animals"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Common",
+    "Elven",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Tied to the Land",
+      "text": ""
+    },
+    {
+      "name": "Wild Empathy",
+      "text": "The naiad can use Diplomacy to Make an Impression on and make very simple Requests of animals."
+    },
+    {
+      "name": "Nymph's Beauty",
+      "text": "(aura, emotion, enchantment, mental, primal, visual); 30 feet. DC 23. On a failed save, the target is stunned 1 for this turn and whenever it begins its turn within 30 feet of the naiad queen for the next 24 hours, even if it can't see her on subsequent turns."
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (polymorph, primal, transmutation);"
+    },
+    {
+      "name": "Focus Beauty",
+      "text": "⬻ (emotion, enchantment, incapacitation, mental, primal, visual); On a failed save, if the target was already affected by the naiad queen's beauty, the image of the queen sears into the creature's mind, allowing no further sight and effectively blinding the creature until restored via restore senses or a similar effect, or until the naiad queen chooses to remove the effect using a single action, which has the concentrate trait."
+    },
+    {
+      "name": "Inspiration",
+      "text": "⬽ (emotion, enchantment, mental, primal);"
+    },
+    {
+      "name": "Water Healing",
+      "text": "⬺ (concentrate, healing, necromancy, primal); As naiad, but the naiad queen can heal in any body of water in her domain and regains 28 HP."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ aqueous fist +17 (agile, finesse, magical, water); Damage 2d6+6 (2d6+6) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      5,
+      4,
+      3,
+      4,
+      7
+    ]
+  }
+}

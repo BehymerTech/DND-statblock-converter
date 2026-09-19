@@ -1,0 +1,114 @@
+{
+  "name": "Ratfolk",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "ratfolk",
+  "alignment": "N",
+  "cr": "1/3",
+  "level": null,
+  "xp": 135,
+  "ac": {
+    "value": 15,
+    "notes": "armor +2, dex +2, size +1",
+    "touch": 13,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 4,
+    "formula": "1d8"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 15,
+    "con": 11,
+    "int": 14,
+    "wis": 10,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +0, Ref +2, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +6, Craft (alchemy) +8, Diplomacy +3, Handle Animal +3, Perception +9, Sense Motive +4, Survival +4, Use Magic Device +5",
+    "list": {
+      "Appraise": "+6",
+      "Diplomacy": "+3",
+      "Handle Animal": "+3",
+      "Perception": "+9",
+      "Sense Motive": "+4",
+      "Survival": "+4",
+      "Use Magic Device": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 0,
+  "feats": [
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger -1 (1d3-2/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "light crossbow +3 (1d6/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail.",
+  "meta": {
+    "race": "Ratfolk",
+    "class": "expert 1",
+    "cmb": "-3",
+    "cmd": 9,
+    "racialModifiers": [
+      "Craft (alchemy) 2",
+      "Handle Animal 4",
+      "Perception 2",
+      "Use Magic Device 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts or urban"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, pack (3-12), or colony (13-100)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (leather armor, light crossbow with 20 bolts, dagger, other treasure)"
+      }
+    ]
+  }
+}

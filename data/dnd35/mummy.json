@@ -1,0 +1,111 @@
+{
+  "name": "Mummy",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "",
+  "subtype": "",
+  "alignment": "Usually lawful evil Usually lawful evil",
+  "cr": "5 15",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": "+10 natural",
+    "touch": 10,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 55,
+    "formula": "8d12+3"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft. (4 squares) 15 ft. in half-plate armor (3 squares); base speed 20 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 12,
+    "con": null,
+    "int": 8,
+    "wis": 20,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +4, Ref +2, Will +8 Fort +13, Ref +8, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Hide +7, Listen +8, Move Silently +7, Spot +8; Concentration +8, Knowledge (religion) +4, Listen +18, Move Silently +5, Spot +18;",
+    "list": {
+      "Hide": "+7",
+      "Listen": "+18",
+      "Move Silently": "+5",
+      "Spot": "+18",
+      "Concentration": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+0 +5",
+  "babOrProficiency": 4,
+  "feats": [
+    "Alertness",
+    "Great Fortitude",
+    "Toughness",
+    "Alertness",
+    "Combat Casting",
+    "Great Fortitude",
+    "Improved Critical (slam)",
+    "Improved Initiative",
+    "Weapon Focus (slam)"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Despair, mummy rot Despair, mummy rot, rebuke undead, spells"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 5/--, darkvision 60 ft., undead traits, vulnerability to fire Damage reduction 5/--, darkvision 60 ft., resistance to fire 10, undead traits, vulnerability to fire"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Slam +11 melee (1d6+10 plus mummy rot) Slam +20 melee (1d6+12/19-20 plus mummy rot)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Slam +11 melee (1d6+10 plus mummy rot) Slam +20 melee (1d6+12/19-20 plus mummy rot)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Mummies are preserved corpses animated through the auspices of dark desert gods best forgotten.",
+    "grapple": "+11 +11",
+    "spaceReach": "5 ft./5 ft. 5 ft./5 ft.",
+    "environment": "Any Any",
+    "organization": "Solitary, warden squad (2-4), or guardian detail (6-10) Solitary or tomb guard (1 mummy lord and 6-10 mummies)",
+    "treasure": "Standard Standard plus possessions noted below",
+    "advancement": "9-16 HD (Medium); 17-24 HD (Large) By character class",
+    "leveladjustment": "--- ---"
+  }
+}

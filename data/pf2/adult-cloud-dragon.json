@@ -1,0 +1,138 @@
+{
+  "name": "Adult Cloud Dragon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 90.",
+  "size": "Huge",
+  "type": "Elemental",
+  "subtype": "Air, Dragon",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 14",
+  "xp": null,
+  "ac": {
+    "value": 36,
+    "notes": ""
+  },
+  "hp": {
+    "average": 254,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 feet, fly 160 feet; cloud walk;"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 16,
+    "con": 20,
+    "int": 18,
+    "wis": 22,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +26, Ref +23, Will +26",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +23 (1d20+23); __Athletics__: +28 (1d20+28); __Deception__: +26 (1d20+26); __Diplomacy__: +26 (1d20+26); __Intimidation__: +28 (1d20+28); __Nature__: +24 (1d20+24); __Survival__: +26 (1d20+26); ",
+    "list": {
+      "Acrobatics": "+23",
+      "Athletics": "+28",
+      "Deception": "+26",
+      "Diplomacy": "+26",
+      "Intimidation": "+28",
+      "Nature": "+24",
+      "Survival": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, mist vision, imprecise scent 60"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Auran",
+    "Common",
+    "Draconic",
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Mist Vision",
+      "text": "Fog and mist don't impair a cloud dragon's vision; they ignore the concealed condition from fog and mist."
+    },
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 90 feet, DC 32."
+    },
+    {
+      "name": "Deflecting Cloud",
+      "text": "⬲ Requirements The dragon is aware of the attack and has a free wing Trigger The dragon is the target of a ranged attack Effect The cloud dragon flexes a wing and creates a billowing cloud of mist. The dragon is treated as if they were hidden for the purposes of resolving the triggering attack, so normally the attacker must succeed at a DC 11 flat check to target them. The dragon also gains a +4 circumstance bonus to AC against the triggering attack."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (electricity, evocation, primal); The dragon breathes a thundercloud that deals 15d6 (15d6) electricity damage in a 50-foot cone (DC 35 basic Reflex save). They can't use Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Cloud Form",
+      "text": "⬻ (polymorph, primal, transmutation); The cloud dragon's body becomes vaporous and misty. They gain the effects of gaseous form, except their fly Speed remains unchanged. The cloud dragon can use this action again to return to physical form."
+    },
+    {
+      "name": "Cloud Walk",
+      "text": "The cloud dragon can tread on clouds or fog as though on solid ground."
+    },
+    {
+      "name": "Draconic Frenzy",
+      "text": "⬺ The dragon makes two claw Strikes and one horn Strike in any order."
+    },
+    {
+      "name": "Draconic Momentum",
+      "text": "The dragon recharges their Breath Weapon whenever they score a critical hit with a Strike."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +29 (electricity, magical, reach 15 feet); Damage 3d10+15 (3d10+15) piercing plus 2d12 (2d12) electricity"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +29 (agile, magical, reach 10 feet); Damage 3d10+15 (3d10+15) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +27 (magical, reach 20 feet); Damage 3d12+15 (3d12+15) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ horn +27 (deadly d10, magical, reach 15 feet); Damage 2d12+13 (2d12+13) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      3,
+      5,
+      4,
+      6,
+      6
+    ]
+  }
+}

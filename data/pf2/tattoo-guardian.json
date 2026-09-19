@@ -1,0 +1,95 @@
+{
+  "name": "Tattoo Guardian",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 262.",
+  "size": "Small",
+  "type": "Mindless",
+  "subtype": "Construct",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 50,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 10 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 18,
+    "con": 12,
+    "int": 0,
+    "wis": 12,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +8, Ref +11, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +11 (1d20+11); ",
+    "list": {
+      "Acrobatics": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Retaliate",
+      "text": "⬲ Trigger A creature within the tattoo guardian's reach attacks the guardian's ward Effect The tattoo guardian makes an ink blade Strike against the triggering creature."
+    },
+    {
+      "name": "Fly Free",
+      "text": "⬻ (concentrate, move); Requirements The tattoo guardian is Bonded with its Ward Effect The tattoo guardian removes itself from the ward and enters an adjacent space."
+    },
+    {
+      "name": "Interpose",
+      "text": "⬻ Requirements The tattoo guardian is Bonded with or adjacent to its ward Effect The tattoo guardian interposes itself between the ward and its foes, granting its ward a +2 circumstance bonus to AC until the start of the guardian's next turn. a +1 weapon potency rune and a striking rune, but more powerful."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ ink blade +10 Damage 1d12+5 (1d12+5) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      4,
+      1,
+      -5,
+      1,
+      2
+    ]
+  }
+}

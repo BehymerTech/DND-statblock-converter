@@ -1,0 +1,107 @@
+{
+  "name": "NPC Chaos Arrow",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "gnome",
+  "alignment": "CE",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 31,
+    "notes": "armor +7, deflection +3, dex +6, dodge +1, natural +3, size +1",
+    "touch": 21,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 140,
+    "formula": "6d8+4d6+10d10+40"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 24,
+    "con": 14,
+    "int": 10,
+    "wis": 13,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +13, Ref +21, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +27, Craft (bows) +8, Disguise +13, Knowledge (local) +8, Knowledge (nature) +8, Perception +26, Spellcraft +8, Stealth +34, Swim +8, Use Magic Device +12",
+    "list": {
+      "Bluff": "+27",
+      "Disguise": "+13",
+      "Perception": "+26",
+      "Spellcraft": "+8",
+      "Stealth": "+34",
+      "Swim": "+8",
+      "Use Magic Device": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "see invisibility"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Common",
+    "Gnome"
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 16,
+  "feats": [
+    "Deadly Aim",
+    "Dodge",
+    "Eschew Materials",
+    "Improved Initiative",
+    "Mobility",
+    "Pinpoint Targeting",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Rapid Shot",
+    "Shot on the Run",
+    "Vital Strike",
+    "Weapon Focus (shortbow)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +17/+12/+7/+2 (1d3/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+2 frost shock shortbow +27/+22/+17/+12 (1d4+2/×3 plus 1d6 cold and 1d6 electricity)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Gnome",
+    "class": "rogue 6, sorcerer 4, arcane archer 10",
+    "cmb": "+15",
+    "cmd": 36
+  }
+}

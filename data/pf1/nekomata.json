@@ -1,0 +1,105 @@
+{
+  "name": "Nekomata",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "magical beast",
+  "subtype": "shapechanger",
+  "alignment": "NE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex +4, natural +5",
+    "touch": 14,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 68,
+    "formula": "8d10+24"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 19,
+    "con": 16,
+    "int": 19,
+    "wis": 16,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +9, Ref +10, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Bluff +12, Disguise +12, Knowledge (religion) +12, Perception +14, Stealth +15",
+    "list": {
+      "Acrobatics": "+15",
+      "Bluff": "+12",
+      "Disguise": "+12",
+      "Perception": "+14",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 8,
+  "feats": [
+    "Combat Casting",
+    "Combat Expertise",
+    "Improved Initiative",
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +12 (1d8+4 plus disease), 2 claws +12 (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This oversized house cat has two twitching tails and a malevolent gleam in its eyes.",
+  "meta": {
+    "cmb": "+12",
+    "cmd": 26,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pride (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

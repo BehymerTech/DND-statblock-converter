@@ -1,0 +1,115 @@
+{
+  "name": "Phylacator",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 132: The Six-Legend Soul",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "evil, extraplanar, kyton, lawful",
+  "alignment": "LE",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 32,
+    "notes": "armor +6, dex +2, natural +14",
+    "touch": 12,
+    "flatFooted": 30
+  },
+  "hp": {
+    "average": 297,
+    "formula": "18d10+198"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft.,  30 ft. without armor"
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 18,
+    "con": 32,
+    "int": 15,
+    "wis": 21,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +19, Ref +15, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +28, Intimidate +28, Knowledge (local) +23, Knowledge (planes) +23, Knowledge (religion) +23, Perception +26, Sense Motive +26, Stealth +21",
+    "list": {
+      "Bluff": "+28",
+      "Intimidate": "+28",
+      "Perception": "+26",
+      "Sense Motive": "+26",
+      "Stealth": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Languages Common",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 18,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "EnforcerAPG",
+    "Great Fortitude",
+    "Greater Trip",
+    "Improved Trip",
+    "Improved Two- Weapon Fighting",
+    "Two-Weapon Fighting",
+    "Weapon Focus (dire flail)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 vicious dire flail +28/+23/+18/+13 (1d8+16 plus 2d6), +1 vicious dire flail +28/+23 (1d8+6 plus 2d6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk manacles +23 (1d4+11 nonlethal plus trip)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This imposing humanoid is clad in black chainmail with a featureless helm. It clutches a serrated dire flail in its gauntlets, and several pairs of manacles on its belt writhe of their own accord.",
+  "meta": {
+    "cmb": "28 (+32 trip)",
+    "cmd": "32 (44 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Shadow)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (mwk chain mail, +1 vicious/+1 vicious dire flail, 4 mwk manacles, other treasure)"
+      }
+    ]
+  }
+}

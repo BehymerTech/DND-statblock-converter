@@ -1,0 +1,116 @@
+{
+  "name": "Dvorovoi",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Pathfinder No. 67: The Snows of Summer",
+  "size": "Small",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +3, natural +3, size +1",
+    "touch": 14,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 38,
+    "formula": "7d6+14"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 16,
+    "con": 14,
+    "int": 9,
+    "wis": 13,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +4, Ref +8, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Bluff +10, Diplomacy +9, Handle Animal +13, Knowledge (nature) +5, Perception +9, Sense Motive +6, Stealth +16, Survival +3",
+    "list": {
+      "Acrobatics": "+10",
+      "Bluff": "+10",
+      "Diplomacy": "+9",
+      "Handle Animal": "+13",
+      "Perception": "+9",
+      "Sense Motive": "+6",
+      "Stealth": "+16",
+      "Survival": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Common",
+    "Sylvan",
+    "speak with animals"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 3,
+  "feats": [
+    "Catch Off-Guard",
+    "Combat Reflexes",
+    "Throw Anything",
+    "Two-Handed Thrower"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "pitchfork +8 (1d8+6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "pitchfork +7 (1d8+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A wild mop of hair tops this small humanoid creature’s head. It has prominent gleaming eyes and a toothy grin.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": 17,
+    "racialModifiers": [
+      "Handle Animal 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or gathering (2-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "name": "Star Archon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "archon, extraplanar, good, lawful",
+  "alignment": "LG",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 34,
+    "notes": "armor +9, dex +1, dodge +1, natural +12, shield +2, size -1",
+    "touch": 11,
+    "flatFooted": 32
+  },
+  "hp": {
+    "average": 294,
+    "formula": "19d10+190"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 120 ft. (good), other_semicolon 30 ft. (fly 90 ft.) in armor ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 19,
+    "con": 31,
+    "int": 20,
+    "wis": 24,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +21, Ref +17, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +28, Fly +20, Heal +16, Intimidate +28, Knowledge (arcana) +14, Knowledge (engineering) +14, Knowledge (history) +18, Knowledge (nature) +18, Knowledge (religion) +24, Perception +29, Sense Motive +29, Spellcraft +24, Stealth +14, Survival +17",
+    "list": {
+      "Diplomacy": "+28",
+      "Fly": "+20",
+      "Heal": "+16",
+      "Intimidate": "+28",
+      "Perception": "+29",
+      "Sense Motive": "+29",
+      "Spellcraft": "+24",
+      "Stealth": "+14",
+      "Survival": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "detect evil",
+    "true seeing"
+  ],
+  "passivePerception": 39,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 19,
+  "feats": [
+    "Blind-Fight",
+    "Cleave",
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Mobility",
+    "Power Attack",
+    "Stand Still"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+5 holy starknife +29/+24/+19/+14 (1d6+12/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This powerful humanoid floats in the air on a nimbus of pearly light. He grips a golden starknife in one hand.",
+  "meta": {
+    "cmb": "+27",
+    "cmd": 42,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Heaven)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (full plate, heavy steel shield, +5 holy starknife)"
+      }
+    ]
+  }
+}

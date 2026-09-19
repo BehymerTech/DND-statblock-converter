@@ -1,0 +1,138 @@
+{
+  "name": "Werebear",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 331.",
+  "size": "Large",
+  "type": "Werecreature",
+  "subtype": "Beast, Human, Humanoid",
+  "alignment": "LG",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 23,
+    "notes": ""
+  },
+  "hp": {
+    "average": 75,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": 18,
+    "int": 12,
+    "wis": 16,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +12, Ref +10, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +12 (1d20+12); __Medicine__: +9 (1d20+9); __Nature__: +11 (1d20+11); __Stealth__: +11 (1d20+11); __Survival__: +11 (1d20+11); ",
+    "list": {
+      "Athletics": "+12",
+      "Medicine": "+9",
+      "Nature": "+11",
+      "Stealth": "+11",
+      "Survival": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common; bear empathy"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Bear Empathy",
+      "text": "(divination, primal); The werebear can communicate with ursines."
+    },
+    {
+      "name": "Items",
+      "text": "chain shirt, greataxe, hatchet (8);"
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, polymorph, primal, transmutation); Medium human with fist +13 for 1d4+7 (1d4+7) bludgeoning, or grizzly bear with Speed 35 feet."
+    },
+    {
+      "name": "Curse of the Werebear",
+      "text": "(curse, necromancy, primal); Saving Throw 22 Fortitude."
+    },
+    {
+      "name": "Hunt Prey",
+      "text": "⬻ (concentrate); Requirements The werebear can see or hear the target or is Tracking it in exploration mode. Effect The werebear gains a +2 circumstance bonus to Perception checks when it Seeks its prey and a +2 circumstance bonus to Survival checks when it Tracks its prey. The werebear also ignores the penalty for making ranged attacks within its second range increment against the prey it's hunting. The werebear can designate only one creature as its hunted prey at a time. If it uses Hunt Prey against a different creature, the prior creature loses the designation and the new prey gains the designation. In any case, this designation lasts until the werebear's next daily preparation."
+    },
+    {
+      "name": "Mauler",
+      "text": "The werebear gains a +2 circumstance bonus to damage rolls against creatures it has grabbed."
+    },
+    {
+      "name": "Moon Frenzy",
+      "text": "(polymorph, primal, transmutation);"
+    },
+    {
+      "name": "Precision Edge",
+      "text": "The werebear deals 1d8 (1d8) additional precision damage on its first successful Strike against its hunted target on each of its turns."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +13 (agile, reach 10 feet); Damage 1d10+7 (1d10+7) slashing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ greataxe +13 (reach 10 feet, sweep); Damage 1d12+7 (1d12+7) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ hatchet +13 (agile, sweep); Damage 1d6+7 (1d6+7) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +13 (reach 10 feet); Damage 1d12+7 (1d12+7) piercing plus curse of the werebear"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ hatchet +10 (agile, sweep, thrown 10 feet); Damage 1d6+7 (1d6+7) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      2,
+      4,
+      1,
+      3,
+      -1
+    ],
+    "items": "chain shirt, greataxe, hatchet (8);"
+  }
+}

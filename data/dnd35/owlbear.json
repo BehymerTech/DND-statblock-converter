@@ -1,0 +1,101 @@
+{
+  "name": "Owlbear",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Always neutral",
+  "cr": "4",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "-1 size, +1 Dex, +5 natural",
+    "touch": 10,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 52,
+    "formula": "5d10+25"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares)"
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 12,
+    "con": 21,
+    "int": 2,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +5, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Listen +8, Spot +8;",
+    "list": {
+      "Listen": "+8",
+      "Spot": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Scent"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 5,
+  "feats": [
+    "Alertness",
+    "Track"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Improved grab"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Scent"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Claw +9 melee (1d6+5)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +9 melee (1d6+5) and bite +4 melee (1d8+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "An owlbear's coat ranges in color from brown-black to yellowish brown; its beak is a dull ivory color. A full-grown male can stand as tall as 8 feet and weigh up to 1,500 pounds. Adventurers who have survived encounters with the creature often speak of the bestial madness they glimpsed in its red-rimmed eyes.",
+    "grapple": "+14",
+    "spaceReach": "10 ft./5 ft.",
+    "environment": "Temperate forests",
+    "organization": "Solitary, pair, or pack (3-8)",
+    "treasure": "None",
+    "advancement": "6-8 HD (Large); 9-15 HD (Huge)",
+    "leveladjustment": "---"
+  }
+}

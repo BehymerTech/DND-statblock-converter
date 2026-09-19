@@ -1,0 +1,111 @@
+{
+  "name": "Winter Hag",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 129.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Cold, Hag",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 145,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet; ice climb 25 feet;"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 16,
+    "int": 18,
+    "wis": 16,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +14, Ref +13, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +13 (1d20+13); __Deception__: +17 (1d20+17); __Diplomacy__: +15 (1d20+15); __Occultism__: +15 (1d20+15); __Survival__: +14 (1d20+14); ",
+    "list": {
+      "Athletics": "+13",
+      "Deception": "+17",
+      "Diplomacy": "+15",
+      "Occultism": "+15",
+      "Survival": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, see invisibility, snow vision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Coven",
+      "text": "A winter hag adds cone of cold, solid fog, and wall of ice to her coven's spells (page 304)."
+    },
+    {
+      "name": "Snow Vision",
+      "text": "Snow doesn't impair a winter hag's vision; she ignores concealment from snowfall."
+    },
+    {
+      "name": "Craft Ice Staff",
+      "text": "(cold, downtime, evocation, occult); A winter hag can spend 1 day performing a specific ritual to create a +1 striking staff of black ice. Once per day, she can use the staff to cast cone of cold. The staff's magic functions only in the hands of the hag who created it; for anyone else, it is a mundane staff. If the hag dies or if the staff remains in another creature's possession for 24 hours, the staff melts into a puddle of foul-smelling water."
+    },
+    {
+      "name": "Ice Climb",
+      "text": "A winter hag can Climb at the listed Speed, but only on ice. She ignores difficult terrain from ice and snow, and she doesn't risk falling when crossing ice."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ ice staff +17 (magical, two-hand d8); Damage 2d4+7 (2d4+7) bludgeoning plus 1d6 (1d6) cold"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +16 (agile); Damage 2d6+7 (2d6+7) slashing plus 1d6 (1d6) cold"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      3,
+      4,
+      3,
+      6
+    ]
+  }
+}

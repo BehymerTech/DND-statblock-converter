@@ -1,0 +1,116 @@
+{
+  "name": "Medusa",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 234.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 105,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 20,
+    "con": 18,
+    "int": 14,
+    "wis": 12,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +15, Ref +16, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Deception__: +16 (1d20+16); __Diplomacy__: +14 (1d20+14); __Stealth__: +16 (1d20+16); ",
+    "list": {
+      "Deception": "+16",
+      "Diplomacy": "+14",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Petrifying Gaze",
+      "text": "(arcane, aura, transmutation, visual); 30 feet. When a creature ends its turn in the aura, it must attempt a DC 25 Fortitude save. If the creature fails, it becomes slowed 1 for 1 minute. The medusa can deactivate or activate this aura by using a single action, which has the concentrate trait."
+    },
+    {
+      "name": "Biting Snakes",
+      "text": "⬲ Trigger A creature ends its turn adjacent to the medusa. Effect The medusa makes a snake fangs Strike against the creature."
+    },
+    {
+      "name": "Items",
+      "text": "+1 composite shortbow (60 arrows), shortsword;"
+    },
+    {
+      "name": "Focus Gaze",
+      "text": "⬻ (arcane, concentrate, incapacitation, transmutation, visual); The medusa fixes their glare at a creature they can see within 30 feet. The target must immediately attempt a Fortitude save against the medusa's petrifying gaze. If the creature was already slowed by petrifying gaze before attempting its save, a failed save causes it to be petrified permanently. After attempting its save, the creature is then temporarily immune until the start of the medusa's next turn."
+    },
+    {
+      "name": "Serpent Venom",
+      "text": "(poison); Saving Throw DC 25 Fortitude. Maximum Duration 6 rounds Stage 1 1d6 (1d6) poison damage and enfeebled 1 (1 round) Stage 2 2d6 (2d6) poison damage and enfeebled 2 (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ shortsword +18 (agile, finesse, versatile s); Damage 1d6+8 (1d6+8) piercing plus serpent venom"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ snake fangs +16 (agile, finesse); Damage 1d4+8 (1d4+8) piercing plus serpent venom"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ composite shortbow +19 (deadly 1d10, magical, propulsive, range increment 60 feet, reload 0); Damage 1d6+7 (1d6+7) piercing plus serpent venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      5,
+      4,
+      2,
+      1,
+      2
+    ],
+    "items": "+1 composite shortbow (60 arrows), [[shortsword]];"
+  }
+}

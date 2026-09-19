@@ -1,0 +1,106 @@
+{
+  "name": "Hill Giant",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "CE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 21,
+    "notes": "armor +4, dex -1, natural +9, size -1",
+    "touch": 8,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 85,
+    "formula": "10d8+40"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft.,  30 ft. in armor"
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 8,
+    "con": 19,
+    "int": 6,
+    "wis": 10,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +11, Ref +2, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +10, Intimidate +12, Perception +6",
+    "list": {
+      "Climb": "+10",
+      "Intimidate": "+12",
+      "Perception": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Giant"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 7,
+  "feats": [
+    "Cleave",
+    "Intimidating Prowess",
+    "Martial Weapon Proficiency (greatclub)",
+    "Power Attack",
+    "Weapon Focus (greatclub)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "greatclub +14/+9 (2d8+10)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +6 (1d8+10)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hunched giant exudes power and a crude, stupid anger, its filthy fur clothing bespeaking a brutish and backwoods lifestyle.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": 24,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate hills"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, gang (2-5), band (6-8), raiding party (9-12 plus 1d4 dire wolves), or tribe (13-30 plus 35% noncombatants plus 1 barbarian or fighter chief of 4th-6th level, 11-16 dire wolves, 1-4 ogres, and 13-20 orc slaves)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (hide armor, greatclub, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "name": "Deskari",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 78: City of Locusts",
+  "size": "Gargantuan",
+  "type": "outsider",
+  "subtype": "chaotic, demon, earth, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "29",
+  "level": null,
+  "xp": 6553600,
+  "ac": {
+    "value": 47,
+    "notes": "deflection +4, dex +10, natural +15, profane +12, size -4",
+    "touch": 32,
+    "flatFooted": 37
+  },
+  "hp": {
+    "average": 742,
+    "formula": "33d10+561"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 90 ft. (good), climb 60 ft."
+  },
+  "abilities": {
+    "str": 44,
+    "dex": 30,
+    "con": 42,
+    "int": 29,
+    "wis": 31,
+    "cha": 31
+  },
+  "saves": {
+    "text": "Fort +31, Ref +32, Will +32",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +46, Bluff +46, Climb +74, Disable Device +46, Fly +44, Intimidate +43, Knowledge (arcana) +42, Knowledge (dungeoneering) +42, Knowledge (engineering) +42, Knowledge (planes) +42, Perception +54, Sense Motive +46, Spellcraft +45, Stealth +34, Use Magic Device +46",
+    "list": {
+      "Acrobatics": "+46",
+      "Bluff": "+46",
+      "Climb": "+74",
+      "Disable Device": "+46",
+      "Fly": "+44",
+      "Intimidate": "+43",
+      "Perception": "+54",
+      "Sense Motive": "+46",
+      "Spellcraft": "+45",
+      "Stealth": "+34",
+      "Use Magic Device": "+46"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "detect law",
+    "swarmsight",
+    "true seeing"
+  ],
+  "passivePerception": 64,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Terran",
+    "Undercommon",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+14",
+  "babOrProficiency": 33,
+  "feats": [
+    "Awesome Blow",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Craft Construct",
+    "Craft Magic Arms and Armor",
+    "Craft Wondrous Item",
+    "Critical Focus",
+    "Flyby Attack",
+    "Greater Sunder",
+    "Hover",
+    "Improved Bull Rush",
+    "Improved Critical (scythe)",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Power Attack",
+    "Staggering Critical",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "Riftcarver +51/+46/+41/+36 (4d6+30/19-20/×4 plus poison), bite +41 (2d8+8 plus poison), sting +41 (2d6+8 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Larger than an elephant, this towering insectile nightmare wields a scythe made of bone. Its wings are swarms of biting flies, and its inhuman eyes glitter with cruel intelligence.",
+  "meta": {
+    "cmb": "54 (+56 bull rush, +58 sunder)",
+    "cmd": "92 (94 vs. bull rush, 94 vs. sunder, 100 vs. trip)",
+    "racialModifiers": [
+      "Climb 16",
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple (Riftcarver, other treasure)"
+      }
+    ]
+  }
+}

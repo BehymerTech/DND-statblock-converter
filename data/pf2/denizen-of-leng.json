@@ -1,0 +1,116 @@
+{
+  "name": "Denizen Of Leng",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 70.",
+  "size": "Medium",
+  "type": "Dream",
+  "subtype": "Aberration",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 100,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 18,
+    "int": 22,
+    "wis": 16,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +16, Ref +19, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +15 (1d20+15); __Athletics__: +15 (1d20+15); __Deception__: +19 (1d20+19); __Occultism__: +18 (1d20+18); __Stealth__: +17 (1d20+17); __Thievery__: +17 (1d20+17); __Sailing lore__: +20 (1d20+20); ",
+    "list": {
+      "Acrobatics": "+15",
+      "Athletics": "+15",
+      "Deception": "+19",
+      "Occultism": "+18",
+      "Stealth": "+17",
+      "Thievery": "+17",
+      "Sailing lore": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Aklo; tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "No Breath",
+      "text": "Denizens of Leng don't need to breathe."
+    },
+    {
+      "name": "Planar Fast Healing",
+      "text": "A denizen of Leng maintains a connection to Leng at all times, and when away from Leng, they have fast healing 5. They lose this ability on Leng or in areas where planar connections do not function. If killed, their body dissolves into nothingness in 1d4 (1d4) rounds, leaving behind their equipment. A slain denizen reforms in Leng; they can be permanently killed only when their planar fast healing doesn't function."
+    },
+    {
+      "name": "Items",
+      "text": "+1 striking kukri, Leng ruby worth 30 gp (2);"
+    },
+    {
+      "name": "Debilitating Bite",
+      "text": "(curse, occult); A creature that takes damage from a denizen's bite must succeed at a DC 27 Fortitude save or become clumsy 1. Each time a target fails an additional save against this ability, the condition value increases by 1 (to a maximum of clumsy 4). This condition value decreases by 1 every 24 hours."
+    },
+    {
+      "name": "Leng Ruby",
+      "text": "(enchantment, occult); Many denizens of Leng carry strange rubies mined from quarries in Leng. As long as a creature holds a Leng ruby that it willingly accepted as a gift or payment from a denizen of Leng, any denizen of Leng can target that creature with outcast's curse, phantom pain, or mind reading at a range of 1 mile, and the bearer uses an outcome one degree of success worse than the result of its saving throw against outcast's curse."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ kukri +18 (agile, finesse, magical, trip); Damage 2d6+6 (2d6+6) slashing plus 1d6 (1d6) persistent bleed"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +17 (agile, finesse); Damage 2d10+6 (2d10+6) piercing plus debilitating bite"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      3,
+      4,
+      6,
+      3,
+      5
+    ],
+    "items": "+1 striking kukri, Leng ruby worth 30 gp (2);"
+  }
+}

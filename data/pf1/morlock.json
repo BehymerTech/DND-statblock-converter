@@ -1,0 +1,106 @@
+{
+  "name": "Morlock",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary, Into the Darklands",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 15,
+    "notes": "dex +4, natural +1",
+    "touch": 14,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 22,
+    "formula": "3d10+6"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 19,
+    "con": 15,
+    "int": 5,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +3, Ref +9, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +13, Climb +22, Stealth +8, Perception +2",
+    "list": {
+      "Acrobatics": "+13",
+      "Climb": "+22",
+      "Stealth": "+8",
+      "Perception": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Undercommon"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "club +5 (1d6+2), bite +0 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Skin pale as a slug’s belly, eyes huge and bulging, this thing crawls down the wall like a spider, but its shape is hideously humanoid.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": 19,
+    "racialModifiers": [
+      "Stealth 4",
+      "Acrobatics 8",
+      "Climb 16"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, band (3-6), or tribe (7-18)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

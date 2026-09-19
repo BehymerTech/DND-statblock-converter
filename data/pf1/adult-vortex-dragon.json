@@ -1,0 +1,116 @@
+{
+  "name": "Adult Vortex Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "fire",
+  "alignment": "LN",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 30,
+    "notes": "dex +1, natural +21, size -2",
+    "touch": 9,
+    "flatFooted": 29
+  },
+  "hp": {
+    "average": 195,
+    "formula": "17d12+85"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 200 ft. (good)"
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 12,
+    "con": 21,
+    "int": 20,
+    "wis": 19,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +17, Ref +13, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +25, Diplomacy +25, Fly +21, Intimidate +25, Knowledge (arcana) +25, Knowledge (geography) +25, Knowledge (planes) +25, Knowledge (religion) +25, Perception +24, Sense Motive +24, Spellcraft +25",
+    "list": {
+      "Bluff": "+25",
+      "Diplomacy": "+25",
+      "Fly": "+21",
+      "Intimidate": "+25",
+      "Perception": "+24",
+      "Sense Motive": "+24",
+      "Spellcraft": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "see in darkness"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Abyssal",
+    "Auran",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 17,
+  "feats": [
+    "Flyby Attack",
+    "Great Fortitude",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Multiattack",
+    "Power Attack",
+    "Snatch",
+    "Wingover"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +23 (2d8+12/19-20), 2 claws +23 (2d6+8), 2 wings +21 (1d8+4), tail slap +21 (2d6+12)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+27",
+    "cmd": "38 (42 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "vacuum"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

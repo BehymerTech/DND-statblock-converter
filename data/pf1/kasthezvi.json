@@ -1,0 +1,113 @@
+{
+  "name": "Kasthezvi",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 135: Runeplague",
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": "shapechanger",
+  "alignment": "LE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 27,
+    "notes": "dex +4, dodge +1, natural +12",
+    "touch": 15,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 152,
+    "formula": "16d8+80"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 19,
+    "con": 20,
+    "int": 17,
+    "wis": 16,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +10, Ref +9, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +21, Knowledge (arcana) +22, Knowledge (dungeoneering) +19, Perception +22, Spellcraft +22, Stealth +31, Survival +22",
+    "list": {
+      "Climb": "+21",
+      "Perception": "+22",
+      "Spellcraft": "+22",
+      "Stealth": "+31",
+      "Survival": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Common",
+    "Kasthezvi",
+    "Thassilonian (can’t speak)"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 12,
+  "feats": [
+    "Blind-Fight",
+    "Dodge",
+    "Improved Initiative",
+    "Iron Will",
+    "Lunge",
+    "Mobility",
+    "Nimble Moves",
+    "Spring Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "subsonic touch +14 (1d8 plus 12d6 sonic)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Cracked skin stretches across the body of this gangly humanoid creature. A crown of bone floats above its grotesque, misshapen head and its mouth is open in a silent scream.",
+  "meta": {
+    "cmb": "+14",
+    "cmd": 29,
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground (Kaer Maga)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cabal (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

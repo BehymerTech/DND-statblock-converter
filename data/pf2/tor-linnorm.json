@@ -1,0 +1,125 @@
+{
+  "name": "Tor Linnorm",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 227.",
+  "size": "Gargantuan",
+  "type": "Fire",
+  "subtype": "Dragon",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 21",
+  "xp": null,
+  "ac": {
+    "value": 47,
+    "notes": ""
+  },
+  "hp": {
+    "average": 440,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet, climb 35 feet, fly 100 feet, swim 60 feet; freedom of movement;"
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 26,
+    "con": 28,
+    "int": 8,
+    "wis": 26,
+    "cha": 28
+  },
+  "saves": {
+    "text": "Fort +38, Ref +35, Will +33",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +35 (1d20+35); __Athletics__: +40 (1d20+40); __Stealth__: +37 (1d20+37); ",
+    "list": {
+      "Acrobatics": "+35",
+      "Athletics": "+40",
+      "Stealth": "+37"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60, true seeing"
+  ],
+  "passivePerception": 47,
+  "languages": [
+    "Aklo",
+    "Draconic",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Curse of Boiling Blood",
+      "text": "(curse, fire, primal); When a creature slays a tor linnorm, it must succeed at a DC 48 Will save or permanently gain weakness to fire 20 and slowed 1 from the agonizing pain it now endures at all times. As long as a character continues to suffer this curse, its slowed condition can never be reduced below slowed 1."
+    },
+    {
+      "name": "Lava Affinity",
+      "text": "A tor linnorm can breathe and swim freely while submerged in lava and magma."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲ Tail only."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (evocation, fire, primal); The tor linnorm expels a 60-foot cone of flame and ash dealing 20d6 (20d6) fire damage to creatures within the area (DC 46 basic Reflex save). At the start of the tor linnorm's next turn, the area affected by the breath weapon is covered in thick, scorching smoke that burns both the lungs and eyes, dealing an additional 10d6 (10d6) fire damage to all creatures in the area (DC 46 basic Reflex save). A creature that spends an entire round in the smoke with open eyes must succeed at a DC 44 Fortitude save or is blinded for 1 minute. The smoke dissipates after 1 minute; in strong winds, the smoke dissipates in 5 rounds, and in more powerful winds, it may clear even more quickly. The tor linnorm can't use Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 3d6+21 (3d6+21) bludgeoning, DC 46."
+    },
+    {
+      "name": "Slashing Claws",
+      "text": "⬻ A tor linnorm makes four Strikes with its claws, each against a different target. These attacks count toward the tor linnorm's multiple attack penalty, but the multiple attack penalty doesn't increase until after the tor linnorm makes all its attacks."
+    },
+    {
+      "name": "Tor Linnorm Venom",
+      "text": "(fire, injury, poison); Saving Throw DC 44 Fortitude. Maximum Duration 10 rounds Stage 1 8d6 (8d6) fire damage and drained 1 (null) Stage 2 12d6 (12d6) fire damage and drained 2. (null)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +40 (reach 30 feet, magical); Damage 4d12+19 (4d12+19) piercing plus tor linnorm venom"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +40 (reach 30 feet, agile, magical); Damage 4d8+19 (4d8+19) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +40 (reach 30 feet, agile, magical); Damage 4d6+19 (4d6+19) bludgeoning plus Improved Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      11,
+      8,
+      9,
+      -1,
+      8,
+      9
+    ]
+  }
+}

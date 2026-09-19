@@ -1,0 +1,106 @@
+{
+  "name": "Ghoul Stalker",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 18,
+    "notes": "armor +1, dex +5, natural +2",
+    "touch": 15,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 74,
+    "formula": "8d8+38"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 20,
+    "con": "None",
+    "int": 13,
+    "wis": 16,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +5, Ref +10, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +16, Bluff +10, Climb +14, Disable Device +8, Escape Artist +16, Intimidate +10, Knowledge (dungeoneering) +12, Perception +14, Sense Motive +14, Stealth +16",
+    "list": {
+      "Acrobatics": "+16",
+      "Bluff": "+10",
+      "Climb": "+14",
+      "Disable Device": "+8",
+      "Escape Artist": "+16",
+      "Intimidate": "+10",
+      "Perception": "+14",
+      "Sense Motive": "+14",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 5,
+  "feats": [
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Rapid Shot",
+    "Toughness",
+    "Weapon Focus (composite shortbow)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d6+3 plus disease and paralysis), 2 claws +8 (1d6+3 plus paralysis)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 composite shortbow +10/+10 (1d6+4/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Ghoul",
+    "class": "rogue 6",
+    "cmb": "+8",
+    "cmd": 23,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Young Tumult Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 138: Rise of New Thassilon",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "chaotic, extraplanar",
+  "alignment": "CN",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 24,
+    "notes": "dex +1, natural +14, size -1",
+    "touch": 10,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 175,
+    "formula": "14d12+84"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 200 ft. (poor), climb 60 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 12,
+    "con": 23,
+    "int": 14,
+    "wis": 17,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +15, Ref +10, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Bluff +20, Climb +15, Fly +12, Know. (local) +19, Know. (nature) +19, Know. (planes) +19, Perception +20, Spellcraft +19, Swim +15",
+    "list": {
+      "Acrobatics": "+15",
+      "Bluff": "+20",
+      "Climb": "+15",
+      "Fly": "+12",
+      "Perception": "+20",
+      "Spellcraft": "+19",
+      "Swim": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Protean"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 14,
+  "feats": [
+    "Blind-Fight",
+    "Combat Expertise",
+    "Hover",
+    "Improved Dirty Trick",
+    "Improved Initiative",
+    "Multiattack",
+    "Weapon Focus (wing)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +20 (2d6+10), 2 claws +20 (1d8+7), tail slap +18 (1d8+10), 2 wings +19 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This dragon seems to be made of parts from different creatures.",
+  "meta": {
+    "cmb": "22 (+24 dirty trick)",
+    "cmd": "33 (35 vs. dirty trick, 37 vs. trip)"
+  }
+}

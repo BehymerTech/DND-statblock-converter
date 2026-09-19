@@ -1,0 +1,119 @@
+{
+  "name": "Manitou",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "native",
+  "alignment": "NG",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 29,
+    "notes": "deflection +3, dex +6, dodge +1, natural +11, size -2",
+    "touch": 18,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 237,
+    "formula": "19d10+133"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 23,
+    "con": 24,
+    "int": 19,
+    "wis": 22,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +18, Ref +12, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +22, Diplomacy +20, Heal +16, Intimidate +10, Knowledge (arcana) +14, Knowledge (geography) +14, Knowledge (history) +14, Knowledge (religion) +14, Knowledge (local) +17, Knowledge (planes) +17, Knowledge (nature) +26, Perception +34, Sense Motive +19, Spellcraft +14, Stealth +17, Survival +28, Swim +22",
+    "list": {
+      "Climb": "+22",
+      "Diplomacy": "+20",
+      "Heal": "+16",
+      "Intimidate": "+10",
+      "Perception": "+34",
+      "Sense Motive": "+19",
+      "Spellcraft": "+14",
+      "Stealth": "+17",
+      "Survival": "+28",
+      "Swim": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect evil",
+    "true seeing"
+  ],
+  "passivePerception": 44,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Sylvan",
+    "speak with animals"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 19,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Power Attack",
+    "Skill Focus (Perception)",
+    "Skill Focus (Stealth)",
+    "Weapon Focus (slam)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +30 (4d10+12)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "An invisible presence suggests the shape of a giant-sized person, surrounded by a rhythm of subtle noises from the natural world.",
+  "meta": {
+    "cmb": "33 (+35 bull rush)",
+    "cmd": "53 (55 vs. bull rush)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any plains or forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

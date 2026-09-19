@@ -1,0 +1,110 @@
+{
+  "name": "Vescavor Queen",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Pathfinder No. 74: Sword of Valor",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "chaotic, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 22,
+    "notes": "dex +3, dodge +1, natural +9, size -1",
+    "touch": 13,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 114,
+    "formula": "12d10+48"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 50 ft. (good)"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 16,
+    "con": 18,
+    "int": 11,
+    "wis": 14,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +8, Ref +11, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +12, Climb +14, Fly +20, Knowledge (dungeoneering) +10, Knowledge (planes) +10, Perception +17, Stealth +14, Survival +15",
+    "list": {
+      "Acrobatics": "+12",
+      "Climb": "+14",
+      "Fly": "+20",
+      "Perception": "+17",
+      "Stealth": "+14",
+      "Survival": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Abyssal"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 12,
+  "feats": [
+    "Blind-Fight",
+    "Dodge",
+    "Flyby Attack",
+    "Hover",
+    "Power Attack",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +17 (1d8+5 plus 3d6 acid), 2 claws +16 (1d6+5)"
+    },
+    {
+      "name": "Ranged",
+      "text": "spit acid +14 ranged touch (5d6 acid)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This verminlike creature has iridescent, membranous wings and its many sharp teeth drip with noxious slime.",
+  "meta": {
+    "cmb": "+18",
+    "cmd": 32,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or hive (1 plus 2-20 vescavor swarms)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

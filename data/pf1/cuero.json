@@ -1,0 +1,105 @@
+{
+  "name": "Cuero",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Large",
+  "type": "aberration",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 19,
+    "notes": "dex +2, natural +8, size -1",
+    "touch": 11,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 59,
+    "formula": "7d8+28"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 15,
+    "con": 18,
+    "int": 6,
+    "wis": 15,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +6, Ref +4, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +12, Stealth +11, Swim +14",
+    "list": {
+      "Perception": "+12",
+      "Stealth": "+11",
+      "Swim": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 5,
+  "feats": [
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Skill Focus (Stealth)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +10 (1d6+9 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The pink, fleshy underside of this flat, aquatic creature features a large circular maw of fangs.",
+  "meta": {
+    "cmb": "12 (+16 grapple)",
+    "cmd": 24,
+    "racialModifiers": [
+      "Stealth 10"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate lakes or rivers"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

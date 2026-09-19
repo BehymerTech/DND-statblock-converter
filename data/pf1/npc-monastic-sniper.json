@@ -1,0 +1,110 @@
+{
+  "name": "NPC Monastic Sniper",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "alignment": "LN",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 24,
+    "notes": "armor +2, deflection +1, dex +3, dodge +1, monk +3, wis +4",
+    "touch": 22,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 85,
+    "formula": "13d8+23"
+  },
+  "speed": {
+    "walk": 70,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "70 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 16,
+    "con": 12,
+    "int": 11,
+    "wis": 18,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +11, Ref +13, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Bluff +5, Climb +8, Diplomacy +10, Knowledge (history) +5, Knowledge (religion) +5, Linguistics +2, Perception +19, Sense Motive +15, Stealth +15",
+    "list": {
+      "Acrobatics": "+15",
+      "Bluff": "+5",
+      "Climb": "+8",
+      "Diplomacy": "+10",
+      "Linguistics": "+2",
+      "Perception": "+19",
+      "Sense Motive": "+15",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Elven",
+    "Sylvan"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Reflexes",
+    "Deadly Aim",
+    "Dodge",
+    "Improved Critical (rapier)",
+    "Improved Disarm",
+    "Improved Unarmed Strike",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Precise Shot",
+    "Quick Draw",
+    "Spring Attack",
+    "Stunning Fist",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 rapier +12/+7 (1d6+3/15-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite longbow +13/+8 (1d8+2/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Elf",
+    "class": "monk 13",
+    "cmb": "15 (+17 disarm)",
+    "cmd": "33 (35 vs. disarm)"
+  }
+}

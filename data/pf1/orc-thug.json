@@ -1,0 +1,105 @@
+{
+  "name": "Orc Thug",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "orc",
+  "alignment": "CE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 16,
+    "notes": "armor +3, dex +3",
+    "touch": 13,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 25,
+    "formula": "4d8+4"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 16,
+    "con": 8,
+    "int": 12,
+    "wis": 8,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +0, Ref +7, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +8, Bluff +7, Climb +10, Escape Artist +10, Intimidate +7, Perception +6, Sense Motive +6, Sleight of Hand +10, Stealth +10",
+    "list": {
+      "Appraise": "+8",
+      "Bluff": "+7",
+      "Climb": "+10",
+      "Escape Artist": "+10",
+      "Intimidate": "+7",
+      "Perception": "+6",
+      "Sense Motive": "+6",
+      "Sleight of Hand": "+10",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Common",
+    "Goblin",
+    "Orc"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk short sword +7 (1d6+3/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +6 (1d4+3/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Orc",
+    "class": "rogue 4",
+    "cmb": "+6",
+    "cmd": 19,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate hills, mountains, or underground"
+      }
+    ]
+  }
+}

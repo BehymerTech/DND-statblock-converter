@@ -1,0 +1,114 @@
+{
+  "name": "Sea Bonze",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Gargantuan",
+  "type": "undead",
+  "subtype": "aquatic",
+  "alignment": "NE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 30,
+    "notes": "natural +24, size -4",
+    "touch": 6,
+    "flatFooted": 30
+  },
+  "hp": {
+    "average": 231,
+    "formula": "22d8+132"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., swim 80 ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 11,
+    "con": "None",
+    "int": 13,
+    "wis": 18,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +13, Ref +9, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +41, Perception +33, Sense Motive +33, Stealth +13, Swim +47",
+    "list": {
+      "Intimidate": "+41",
+      "Perception": "+33",
+      "Sense Motive": "+33",
+      "Stealth": "+13",
+      "Swim": "+47"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": 43,
+  "languages": [
+    "Aquan",
+    "Common"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 16,
+  "feats": [
+    "Alertness",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Intimidating Prowess",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Stand Still",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +22 (4d10+10)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Massive and blacker than the darkest depths of the sea, this colossal watery form glares with two immense, hate-filled eyes.",
+  "meta": {
+    "cmb": "+30",
+    "cmd": "40 (can’t be tripped)",
+    "racialModifiers": [
+      "Swim 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

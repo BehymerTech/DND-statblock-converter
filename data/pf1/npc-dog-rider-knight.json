@@ -1,0 +1,91 @@
+{
+  "name": "NPC Dog Rider Knight",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "halfling",
+  "alignment": "LG",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 23,
+    "notes": "armor +7, dex +2, shield +3, size +1",
+    "touch": 13,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 60,
+    "formula": "7d10+17"
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 13,
+    "int": 10,
+    "wis": 8,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +10, Ref +8, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +0, Climb +2, Heal +7, Perception +5, Ride +8, Survival +1",
+    "list": {
+      "Acrobatics": "+0",
+      "Climb": "+2",
+      "Heal": "+7",
+      "Perception": "+5",
+      "Ride": "+8",
+      "Survival": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 15,
+  "languages": [
+    "Common",
+    "Halfling"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 7,
+  "feats": [
+    "Mounted Combat",
+    "Ride-By Attack",
+    "Toughness",
+    "Weapon Focus (lance)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 lance +14/+9 (1d6+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Halfling",
+    "class": "paladin of Sarenrae 7",
+    "cmb": "+10",
+    "cmd": 22
+  }
+}

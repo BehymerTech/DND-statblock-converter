@@ -1,0 +1,106 @@
+{
+  "name": "Ancient Crypt Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Gargantuan",
+  "type": "dragon",
+  "subtype": "extraplanar",
+  "alignment": "N",
+  "cr": "21",
+  "level": null,
+  "xp": 409600,
+  "ac": {
+    "value": 40,
+    "notes": "dex -1, natural +35, size -4",
+    "touch": 5,
+    "flatFooted": 40
+  },
+  "hp": {
+    "average": 406,
+    "formula": "28d12+224"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 250 ft. (clumsy)"
+  },
+  "abilities": {
+    "str": 37,
+    "dex": 8,
+    "con": 27,
+    "int": 24,
+    "wis": 29,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +24, Ref +17, Will +25",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +38, Diplomacy +38, Fly +16, Intimidate +38, Knowledge (arcana) +38, Knowledge (engineering) +38, Knowledge (history) +38, Knowledge (planes) +38, Knowledge (religion) +38, Perception +44, Sense Motive +44, Spellcraft +38, Stealth +18",
+    "list": {
+      "Bluff": "+38",
+      "Diplomacy": "+38",
+      "Fly": "+16",
+      "Intimidate": "+38",
+      "Perception": "+44",
+      "Sense Motive": "+44",
+      "Spellcraft": "+38",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 54,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 28,
+  "feats": [
+    "Alertness",
+    "Critical Focus",
+    "Greater Vital Strike",
+    "Improved Critical (bite)",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Lightning Reflexes",
+    "Multiattack",
+    "Snatch",
+    "Staggering Critical",
+    "Step Up",
+    "Vital Strike",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +38 (4d6+19/19-20), 2 claws +37 (2d8+13/19-20), tail slap +35 (2d8+19), 2 wings +35 (2d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This dragon’s scales are the color of weathered bone, and its hide stretches tautly and painfully over its emaciated form.",
+  "meta": {
+    "cmb": "+45",
+    "cmd": "54 (58 vs. trip)"
+  }
+}

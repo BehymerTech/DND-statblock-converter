@@ -1,0 +1,112 @@
+{
+  "name": "Shira",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Pathfinder No. 21: The Jackal's Price",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "div, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 27,
+    "notes": "dex +7, natural +11, size -1",
+    "touch": 16,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 150,
+    "formula": "12d10+84"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 25,
+    "con": 25,
+    "int": 13,
+    "wis": 22,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +11, Ref +15, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +22, Bluff +20, Climb +24, Intimidate +20, Perception +21, Stealth +18, Survival +21",
+    "list": {
+      "Acrobatics": "+22",
+      "Bluff": "+20",
+      "Climb": "+24",
+      "Intimidate": "+20",
+      "Perception": "+21",
+      "Stealth": "+18",
+      "Survival": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness",
+    "true seeing"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 12,
+  "feats": [
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Power Attack",
+    "Run",
+    "Weapon Focus (claw)",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +21 (1d8+9/19-20), 2 claws +21 (1d8+9 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Moving with deadly grace, this brutal, thickly furred humanoid figure’s head is that of a lioness with dead black eyes.",
+  "meta": {
+    "cmb": "22 (+26 grapple)",
+    "cmd": 39,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Mythic Juvenile White Dragon",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Medium",
+  "type": "dragon",
+  "subtype": "cold, mythic",
+  "alignment": "CE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 26,
+    "notes": "dex +2, natural +14",
+    "touch": 12,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 124,
+    "formula": "9d12+66"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 150 ft. (average), burrow 30 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 14,
+    "con": 19,
+    "int": 10,
+    "wis": 13,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +10, Ref +8, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +14, Intimidate +12, Perception +15, Sense Motive +15, Stealth +14, Swim +26",
+    "list": {
+      "Fly": "+14",
+      "Intimidate": "+12",
+      "Perception": "+15",
+      "Sense Motive": "+15",
+      "Stealth": "+14",
+      "Swim": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "low-light vision",
+    "snow vision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 9,
+  "feats": [
+    "Alertness",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15 (1d8+9), 2 claws +15 (1d6+6), 2 wings +10 (1d4+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+15",
+    "cmd": "27 (31 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

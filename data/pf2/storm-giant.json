@@ -1,0 +1,120 @@
+{
+  "name": "Storm Giant",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 174.",
+  "size": "Huge",
+  "type": "Humanoid",
+  "subtype": "Amphibious, Giant",
+  "alignment": "CG",
+  "cr": null,
+  "level": "Creature 13",
+  "xp": null,
+  "ac": {
+    "value": 34,
+    "notes": ""
+  },
+  "hp": {
+    "average": 235,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet, swim 30 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 12,
+    "con": 22,
+    "int": 16,
+    "wis": 20,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +28, Ref +21, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +20 (1d20+20); __Athletics__: +27 (1d20+27); __Crafting__: +24 (1d20+24); __Intimidation__: +24 (1d20+24); ",
+    "list": {
+      "Acrobatics": "+20",
+      "Athletics": "+27",
+      "Crafting": "+24",
+      "Intimidation": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Auran",
+    "Common",
+    "Draconic",
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Catch Rock",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "+1 striking greatsword, sack with 5 rocks;"
+    },
+    {
+      "name": "Lightning",
+      "text": "⬽ Blade three (electricity, evocation, primal) The storm giant raises one hand to the sky, channeling a bolt of lightning into the blade held in the other. The giant makes a greatsword Strike with a –2 circumstance penalty against each creature within its reach. It makes only one attack roll and compares the result against each creature's AC. This Strike deals an additional 3d12 (3d12) electricity damage and counts as two attacks for the giant's multiple attack penalty."
+    },
+    {
+      "name": "Throw Rock",
+      "text": "⬻"
+    },
+    {
+      "name": "Wide Swing",
+      "text": "⬻ The storm giant makes a single greatsword Strike and compares the attack roll result to the ACs of up to two foes within its reach. This counts as two attacks for the giant's multiple attack penalty."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ greatsword +28 (magical, reach 15 feet, versatile p); Damage 2d12+16 (2d12+16) slashing plus 1d6 (1d6) electricity"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +27 (agile, reach 15 feet); Damage 2d8+16 (2d8+16) bludgeoning plus 1d6 (1d6) electricity"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ rock +37 (brutal, range increment 120 feet); Damage 2d10+16 (2d10+16) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      1,
+      6,
+      3,
+      5,
+      2
+    ],
+    "items": "+1 striking greatsword, sack with 5 rocks;"
+  }
+}

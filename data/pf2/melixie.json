@@ -1,0 +1,97 @@
+{
+  "name": "Melixie",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 255.",
+  "size": "Tiny",
+  "type": "Sprite",
+  "subtype": "Fey",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 0",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 17,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 18,
+    "con": 14,
+    "int": 14,
+    "wis": 10,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +6, Ref +8, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +6 (1d20+6); __Crafting__: +6 (1d20+6); __Stealth__: +6 (1d20+6); __Confectionery lore__: +6 (1d20+6); ",
+    "list": {
+      "Acrobatics": "+6",
+      "Crafting": "+6",
+      "Stealth": "+6",
+      "Confectionery lore": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Common",
+    "Sylvan; speak with arthropods"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Sugar Rush",
+      "text": "⬻ (manipulate); The melixie consumes a large quantity of sugar, honey, nectar, or similar sweets and goes into a frenzied state. The melixie immediately Strides or Flies. For the next 1d4+1 (1d4+1) rounds, the melixie is quickened, and can use the additional action only to Stride or Fly. As soon as the rush ends, the melixie is fatigued for 1 minute."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ stinger +8 (agile, finesse, magical); Damage 1d6-1 (1d6-1) bludgeoning damage"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ sting shot +8 (evocation, magical, range 20 feet); Damage 1d6 (1d6) poison"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -1,
+      4,
+      2,
+      2,
+      0,
+      3
+    ]
+  }
+}

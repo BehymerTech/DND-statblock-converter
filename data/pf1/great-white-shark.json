@@ -1,0 +1,99 @@
+{
+  "name": "Great White Shark",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 57: Tempest Rising",
+  "size": "Huge",
+  "type": "animal",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 19,
+    "notes": "dex +2, natural +9, size -2",
+    "touch": 10,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 42,
+    "formula": "5d8+20"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 60 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 14,
+    "con": 19,
+    "int": 1,
+    "wis": 16,
+    "cha": 4
+  },
+  "saves": {
+    "text": "Fort +10, Ref +6, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +11, Swim +15",
+    "list": {
+      "Perception": "+11",
+      "Swim": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "keen scent",
+    "low-light vision"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 3,
+  "feats": [
+    "Great Fortitude",
+    "Improved Initiative",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +9 (2d8+10 plus bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This immense silvery beast is a majestic specimen, its gigantic jaws lined with rows of serrated teeth.",
+  "meta": {
+    "cmb": "+12",
+    "cmd": "24 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, school (3-6), or pack (7-13)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "NPC Forest Guardian",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "alignment": "CN",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 17,
+    "notes": "armor +5, dex +4, rage -2",
+    "touch": 12,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 68,
+    "formula": "6d12+24"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 18,
+    "con": 16,
+    "int": 10,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +6, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +12, Climb +10, Craft (bows) +5, Handle Animal +5, Knowledge (nature) +5, Perception +12, Stealth +5, Survival +5",
+    "list": {
+      "Acrobatics": "+12",
+      "Climb": "+10",
+      "Handle Animal": "+5",
+      "Perception": "+12",
+      "Stealth": "+5",
+      "Survival": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Common",
+    "Elven"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 6,
+  "feats": [
+    "Deadly Aim",
+    "Point-Blank Shot",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk elven curve blade +10/+5 (1d10+4/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 composite longbow +11/+6 (1d8+4/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Elf",
+    "class": "barbarian 6",
+    "cmb": "+9",
+    "cmd": 21
+  }
+}

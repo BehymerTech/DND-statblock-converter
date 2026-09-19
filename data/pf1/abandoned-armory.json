@@ -1,0 +1,96 @@
+{
+  "name": "Abandoned Armory",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 142: Gardens of Gallowspire",
+  "size": "Huge",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 29,
+    "notes": "armor +20, dex +1, size -2",
+    "touch": 8,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 139,
+    "formula": "18d10+40"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 13,
+    "con": "None",
+    "int": "None",
+    "wis": 10,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +8, Ref +6, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 18,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +28 (2d10+18/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "ballista +17/+12/+7/+2 (3d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This aggregation of weapons, armor, and other tools of war looms like a slow avalanche of twisted iron and eldritch sparks.",
+  "meta": {
+    "cmb": "+32",
+    "cmd": 43,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any plain or battlefield"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

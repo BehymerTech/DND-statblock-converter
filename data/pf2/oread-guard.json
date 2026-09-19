@@ -1,0 +1,109 @@
+{
+  "name": "Oread Guard",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 201.",
+  "size": "Medium",
+  "type": "Oread",
+  "subtype": "Human, Humanoid",
+  "alignment": "LN",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +7, Ref +6, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +7 (1d20+7); __Crafting__: +3 (1d20+3); __Medicine__: +5 (1d20+5); __Society__: +3 (1d20+3); __Survival__: +5 (1d20+5); ",
+    "list": {
+      "Athletics": "+7",
+      "Crafting": "+3",
+      "Medicine": "+5",
+      "Society": "+3",
+      "Survival": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 17,
+  "languages": [
+    "Common",
+    "Terran"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Shield Block",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "bastard sword, full plate, light hammer, steel shield (Hardness 5, HP 20, BT 10);"
+    },
+    {
+      "name": "Power Attack",
+      "text": "⬺ Frequency once per round Effect The guard makes a melee Strike. This counts as two attacks when calculating the guard's multiple attack penalty. If this Strike hits, the guard deals an extra die of weapon damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ bastard sword +9 (two-hand d12); Damage 1d8+4 (1d8+4) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ light hammer +6 (agile, thrown 20 feet); Damage 1d6+4 (1d6+4) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      1,
+      2,
+      0,
+      2,
+      0
+    ],
+    "items": "bastard sword, full plate, light hammer, steel shield (Hardness 5, HP 20, BT 10);"
+  }
+}

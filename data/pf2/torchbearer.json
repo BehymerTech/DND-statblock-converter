@@ -1,0 +1,104 @@
+{
+  "name": "Torchbearer",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 216.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 0",
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 15,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 16,
+    "con": 12,
+    "int": 10,
+    "wis": 12,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +5, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +5 (1d20+5); __Athletics__: +4 (1d20+4); __Stealth__: +5 (1d20+5); __Survival__: +3 (1d20+3); __Architecture lore__: +2 (1d20+2); ",
+    "list": {
+      "Acrobatics": "+5",
+      "Athletics": "+4",
+      "Stealth": "+5",
+      "Survival": "+3",
+      "Architecture lore": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 15,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Torch Combatant",
+      "text": "A torchbearer is adept at attacking with torches and deals 1 persistent fire damage when they critically hit with a torch."
+    },
+    {
+      "name": "Items",
+      "text": "climbing kit, dagger, hand crossbow (20 bolts), tindertwig (5), torch (4);"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ torch +7 Damage 1d6+2 (1d6+2) bludgeoning plus 1 fire"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ dagger +5 (agile, versatile s); Damage 1d4+2 (1d4+2) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ hand crossbow +5 (range increment 60 feet, reload 1); Damage 1d6 (1d6) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      3,
+      1,
+      0,
+      1,
+      1
+    ],
+    "items": "climbing kit, dagger, hand crossbow (20 bolts), tindertwig (5), torch (4);"
+  }
+}

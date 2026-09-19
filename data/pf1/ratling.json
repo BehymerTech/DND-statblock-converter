@@ -1,0 +1,104 @@
+{
+  "name": "Ratling",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 49: The Brinewall Legacy",
+  "size": "Tiny",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 16,
+    "notes": "dex +2, dodge +1, natural +1, size +2",
+    "touch": 15,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d10+3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 10 ft., climb 20 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 15,
+    "con": 13,
+    "int": 12,
+    "wis": 10,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +4, Ref +5, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +6, Knowledge (planes) +4, Perception +6, Stealth +16, Swim +6",
+    "list": {
+      "Climb": "+6",
+      "Perception": "+6",
+      "Stealth": "+16",
+      "Swim": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect magic",
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Aklo",
+    "speak with animals (rodents only)",
+    "tongues"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 3,
+  "feats": [
+    "Dodge",
+    "Mobility"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +3 (1d3-2 plus bleed 1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This ratlike creature has tiny human hands in place of its front paws, and an unnerving human face with a toothy mouth.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": "12 (16 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any urban"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or conclave (2-20 plus 2-12 dire rats and 1-4 rat swarms)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

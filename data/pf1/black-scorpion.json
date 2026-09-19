@@ -1,0 +1,100 @@
+{
+  "name": "Black Scorpion",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Colossal",
+  "type": "vermin",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 30,
+    "notes": "natural +28, size -8",
+    "touch": 2,
+    "flatFooted": 30
+  },
+  "hp": {
+    "average": 228,
+    "formula": "24d8+120"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft."
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 10,
+    "con": 20,
+    "int": "None",
+    "wis": 10,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +19, Ref +8, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +17, Perception +4, Stealth -12",
+    "list": {
+      "Climb": "+17",
+      "Perception": "+4",
+      "Stealth": "-12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 14,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 18,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +23 (2d8+13 plus grab), sting +23 (2d6+13 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering scorpion’s carapace is as black as coal, and its claws are each as long as a man’s body.",
+  "meta": {
+    "cmb": "39 (+43 grapple)",
+    "cmd": "49 (61 vs. trip)",
+    "racialModifiers": [
+      "Climb 4",
+      "Perception 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Drakauthix",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 129.",
+  "size": "Huge",
+  "type": "Fungus",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 9",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 190,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 20 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 14,
+    "con": 22,
+    "int": 2,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +21, Ref +13, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +15 (1d20+15); __Athletics__: +20 (1d20+20); __Stealth__: +17 (1d20+17); ",
+    "list": {
+      "Acrobatics": "+15",
+      "Athletics": "+20",
+      "Stealth": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise sporesight 60"
+  ],
+  "passivePerception": 27,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Sporesight",
+      "text": "The drakauthix exudes a cloud of spores that it uses to see. This is an imprecise sense that functions only in areas without strong wind currents. Sporesight does not function underwater."
+    },
+    {
+      "name": "Obscuring Spores",
+      "text": "Whenever the drakauthix takes at least 10 slashing damage, it releases a cloud of brown spores that has the effect of obscuring mist for 1 minute, centered around the drakauthix. This cloud of spores does not move with the drakauthix, nor is it displaced by its movement."
+    },
+    {
+      "name": "Reel In",
+      "text": "⬻ The drakauthix pulls all creatures it has grabbed 15 feet closer to itself."
+    },
+    {
+      "name": "Spore Tendrils",
+      "text": "⬻ The tendrils that cover the drakauthix's body reach out and infest adjacent creatures, dealing 4d6 (4d6) poison damage and 1d6 (1d6) persistent poison damage. A creature can attempt a basic DC 27 Reflex save to reduce this damage, but one grabbed by the drakauthix takes a –4 circumstance penalty to this save."
+    },
+    {
+      "name": "Whirlwind of Hooks",
+      "text": "⬺ ]The drakauthix whirls, whipping creatures around it. The drakauthix makes a tentacle Strike against every creature within its reach."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ tentacle +20 (reach 30 feet); Damage 3d8+9 (3d8+9) piercing plus Improved Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      2,
+      6,
+      -4,
+      2,
+      0
+    ]
+  }
+}

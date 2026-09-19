@@ -1,0 +1,99 @@
+{
+  "name": "Adult Edict Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 131: The Reaper's Right Hand",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "extraplanar, lawful",
+  "alignment": "LN",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 32,
+    "notes": "dex -1, natural +23, shield +2, size -2",
+    "touch": 7,
+    "flatFooted": 32
+  },
+  "hp": {
+    "average": 270,
+    "formula": "20d10+140"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 200 ft. (poor)"
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 8,
+    "con": 25,
+    "int": 20,
+    "wis": 25,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +19, Ref +13, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +28, Fly +14, Knowledge (engineering) +28, Knowledge (history) +28, Knowledge (local) +28, Knowledge (nobility) +28, Knowledge (planes) +28, Linguistics +28, Perception +30, Sense Motive +30, Spellcraft +28",
+    "list": {
+      "Diplomacy": "+28",
+      "Fly": "+14",
+      "Linguistics": "+28",
+      "Perception": "+30",
+      "Sense Motive": "+30",
+      "Spellcraft": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Common",
+    "Draconic",
+    "plus any 20 others",
+    "truespeech"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 20,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Hover",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Reposition",
+    "Lightning Reflexes",
+    "Repositioning Strike",
+    "Stand Still",
+    "Weapon Focus (wing)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +28 (2d8+15/19-20), 2 claws +28 (2d6+10), tail slap +23 (scrivener), 2 wings +29 (1d8+10)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "32 (+34 reposition)",
+    "cmd": "45 (47 vs. reposition, 49 vs. trip)"
+  }
+}

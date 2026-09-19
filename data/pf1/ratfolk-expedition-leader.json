@@ -1,0 +1,109 @@
+{
+  "name": "Ratfolk Expedition Leader",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "ratfolk",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "armor +4, dex +3, dodge +1, shield +1, size +1",
+    "touch": 15,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 72,
+    "formula": "8d10+24"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 16,
+    "con": 14,
+    "int": 12,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +9, Ref +10, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +9, Craft (alchemy) +3, Handle Animal +6, Heal +8, Knowledge (dungeoneering) +8, Knowledge (geography) +8, Knowledge (nature) +8, Perception +14, Ride +10, Spellcraft +6, Stealth +18, Survival +12, Swim +7",
+    "list": {
+      "Climb": "+9",
+      "Handle Animal": "+6",
+      "Heal": "+8",
+      "Perception": "+14",
+      "Ride": "+10",
+      "Spellcraft": "+6",
+      "Stealth": "+18",
+      "Survival": "+12",
+      "Swim": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Gnoll"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 8,
+  "feats": [
+    "Dodge",
+    "Endurance",
+    "Exotic Weapon Proficiency (two-bladed sword)",
+    "Improved Two-Weapon Fighting",
+    "Two-Weapon Defense",
+    "Two-Weapon Fighting",
+    "Weapon Focus (two-bladed sword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 two-bladed sword +9/+4 (1d3+4/19-20), mwk two-bladed sword +9/+4 (1d6+1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 composite longbow +13/+8 (1d6+3/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Ratfolk",
+    "class": "ranger 8",
+    "cmb": "+9",
+    "cmd": 23,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts or urban"
+      }
+    ]
+  }
+}

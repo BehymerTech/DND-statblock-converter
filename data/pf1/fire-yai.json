@@ -1,0 +1,118 @@
+{
+  "name": "Fire Yai",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "fire, giant, native, oni, shapechanger",
+  "alignment": "NE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 29,
+    "notes": "armor +8, dex +1, natural +11, size -1",
+    "touch": 10,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 229,
+    "formula": "17d10+136"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (good), other_semicolon 30 ft., fly 40 ft. (good) in armor ft."
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 16,
+    "con": 26,
+    "int": 14,
+    "wis": 17,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +18, Ref +10, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +22, Craft (weapons) +12, Craft (armor) +12, Diplomacy +11, Disguise +11, Fly +19, Intimidate +22, Knowledge (arcana) +14, Perception +23, Sense Motive +23, Spellcraft +11, Use Magic Device +14",
+    "list": {
+      "Bluff": "+22",
+      "Diplomacy": "+11",
+      "Disguise": "+11",
+      "Fly": "+19",
+      "Intimidate": "+22",
+      "Perception": "+23",
+      "Sense Motive": "+23",
+      "Spellcraft": "+11",
+      "Use Magic Device": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 17,
+  "feats": [
+    "Cleave",
+    "Combat Reflexes",
+    "Great Cleave",
+    "Improved Initiative",
+    "Improved Overrun",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 katana +27/+22/+17/+12 (2d6+16/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "fiery missile +19 touch (4d6 fire plus burn)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This fanged, three-eyed giant rages in its finely crafted armor, its skin as red as a smoldering ember.",
+  "meta": {
+    "cmb": "+28",
+    "cmd": 41,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm hills or mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, band (1 plus 4-8 fire giants), tribe (1 plus 20-30 fire giants), or dynasty (1 plus 2-20 other oni)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+1 banded mail, +1 katana, other treasure)"
+      }
+    ]
+  }
+}

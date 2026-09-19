@@ -1,0 +1,109 @@
+{
+  "name": "NPC Failed Disciple",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, orc",
+  "alignment": "CE",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 25,
+    "notes": "armor +4, dex +3, dodge +1, insight +1, monk +1, natural +5",
+    "touch": 16,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 175,
+    "formula": "18d10+72"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +19, Ref +17, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +23, Intimidate +24, Perception +4",
+    "list": {
+      "Acrobatics": "+23",
+      "Intimidate": "+24",
+      "Perception": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Common",
+    "Orc"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 18,
+  "feats": [
+    "Deflect Arrows",
+    "Dodge",
+    "Greater Grapple",
+    "Greater Penetrating Strike",
+    "Greater Weapon Focus (unarmed strike)",
+    "Greater Weapon Specialization (unarmed strike)",
+    "Improved Grapple",
+    "Improved Iron Will",
+    "Improved Unarmed Strike",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Mobility",
+    "Nimble Moves",
+    "Penetrating Strike",
+    "Power Attack",
+    "Stunning Fist",
+    "Toughness",
+    "Weapon Focus (unarmed strike)",
+    "Weapon Specialization (unarmed strike)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "vicious unarmed strike +36/+31/+26/+21 (1d8+18 plus 2d6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 returning javelin +27 (1d6+10)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-orc",
+    "class": "fighter 18",
+    "cmb": "26 (+30 grapple)",
+    "cmd": "40 (42 vs. grapple)"
+  }
+}

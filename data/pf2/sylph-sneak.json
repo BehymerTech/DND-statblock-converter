@@ -1,0 +1,114 @@
+{
+  "name": "Sylph Sneak",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 202.",
+  "size": "Medium",
+  "type": "Sylph",
+  "subtype": "Human, Humanoid",
+  "alignment": "CG",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 17,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 12,
+    "int": 12,
+    "wis": 10,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +4, Ref +9, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Deception__: +6 (1d20+6); __Diplomacy__: +6 (1d20+6); __Society__: +4 (1d20+4); __Stealth__: +7 (1d20+7); __Thievery__: +7 (1d20+7); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Deception": "+6",
+      "Diplomacy": "+6",
+      "Society": "+4",
+      "Stealth": "+7",
+      "Thievery": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 15,
+  "languages": [
+    "Auran",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Deflecting Gale",
+      "text": "⬲ (air, evocation, primal); Requirements The sylph sneak is aware of the attack Trigger The sylph sneak is the target of a physical ranged attack Effect A swift gale whips up between the sylph sneak and the source of the ranged attack, giving the sneak a +3 status bonus to AC against the triggering attack. If the attack misses, the wind deflected it. The wind can't deflect unusually large or heavy ranged projectiles (such as boulders or ballista bolts)."
+    },
+    {
+      "name": "Items",
+      "text": "leather armor, starknife;"
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "The sylph sneak's Strikes deal 1d6 (1d6) extra precision damage to flat-footed creatures."
+    },
+    {
+      "name": "Surprise Attacker",
+      "text": "On the first round of combat, creatures that haven't acted yet are flat-footed to the sylph sneak."
+    },
+    {
+      "name": "Wind's Guidance",
+      "text": "When the sylph sneak attacks with a thrown weapon, the range increment increases by 10 feet."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ starknife +9 (agile, deadly d6, finesse, versatile s); Damage 1d4+4 (1d4+4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ starknife +9 (agile, deadly d6, thrown 30 feet, versatile s); Damage 1d4+1 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      4,
+      1,
+      1,
+      0,
+      3
+    ],
+    "items": "leather armor, starknife;"
+  }
+}

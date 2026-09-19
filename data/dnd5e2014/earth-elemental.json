@@ -1,0 +1,99 @@
+{
+  "name": "Earth Elemental",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Large",
+  "type": "elemental",
+  "subtype": "",
+  "alignment": "neutral",
+  "cr": "5",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": "natural armor"
+  },
+  "hp": {
+    "average": 126,
+    "formula": "12d10 + 60"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": 30,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 8,
+    "con": 20,
+    "int": 5,
+    "wis": 10,
+    "cha": 5
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [
+    "thunder"
+  ],
+  "resistances": [
+    "bludgeoning, piercing, slashing from nonmagical attacks"
+  ],
+  "immunities": [
+    "poison"
+  ],
+  "conditionImmunities": [
+    "exhaustion",
+    "paralyzed",
+    "petrified",
+    "poisoned",
+    "unconscious"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "tremorsense 60 ft."
+  ],
+  "passivePerception": 10,
+  "languages": [
+    "Terran"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Earth Glide",
+      "text": "The elemental can burrow through nonmagical, unworked earth and stone. While doing so, the elemental doesn't disturb the material it moves through."
+    },
+    {
+      "name": "Siege Monster",
+      "text": "The elemental deals double damage to objects and structures."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The elemental makes two slam attacks."
+    },
+    {
+      "name": "Slam",
+      "text": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

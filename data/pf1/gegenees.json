@@ -1,0 +1,115 @@
+{
+  "name": "Gegenees",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Huge",
+  "type": "monstrous humanoid",
+  "subtype": "giant",
+  "alignment": "CN",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 30,
+    "notes": "dex +2, natural +20, size -2",
+    "touch": 10,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 250,
+    "formula": "20d10+140"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 14,
+    "con": 25,
+    "int": 10,
+    "wis": 13,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +13, Ref +14, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +16, Craft (any one) +6, Intimidate +31, Perception +24, Stealth +17, Survival +11, Swim +16",
+    "list": {
+      "Climb": "+16",
+      "Intimidate": "+31",
+      "Perception": "+24",
+      "Stealth": "+17",
+      "Survival": "+11",
+      "Swim": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Giant"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 20,
+  "feats": [
+    "Awesome Blow",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Intimidating Prowess",
+    "Power Attack",
+    "Quick Draw",
+    "Staggering Critical",
+    "Stunning Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "club +26/+21/+16/+11 (2d6+12), 2 heavy picks +26 (2d6+8/×4), 2 slams +21 (2d6+4 plus grab)"
+    },
+    {
+      "name": "Ranged",
+      "text": "spear +20/+15/+10/+5 (3d6+8/×3), 2 spears +20 (3d6+8/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Tattoos cover the blue skin of this towering, six-armed giant, and large tusks jut from his lower jaw.",
+  "meta": {
+    "cmb": "30 (+32 bull rush, +34 grapple)",
+    "cmd": "42 (44 vs. bull rush)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any temperate or warm land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, hunting party (2-5), or clan (6-25 plus 1 clan headman [barbarian, druid, or ranger of 4th-8th level] and 3 venerable mothers [oracles or witches of 3rd-5th level])"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

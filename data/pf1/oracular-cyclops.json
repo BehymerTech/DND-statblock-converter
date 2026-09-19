@@ -1,0 +1,115 @@
+{
+  "name": "Oracular Cyclops",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 58: Island of Empty Eyes",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "NE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 21,
+    "notes": "dex +1, insight +4, natural +7, size -1",
+    "touch": 14,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 91,
+    "formula": "14d8+28"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 12,
+    "con": 15,
+    "int": 12,
+    "wis": 17,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +11, Ref +5, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +10, Intimidate +9, Perception +20, Profession (soothsayer) +16, Sense Motive +17, Survival +8",
+    "list": {
+      "Bluff": "+10",
+      "Intimidate": "+9",
+      "Perception": "+20",
+      "Sense Motive": "+17",
+      "Survival": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Common",
+    "Cyclops",
+    "Giant"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 10,
+  "feats": [
+    "Alertness",
+    "Blind-Fight",
+    "Cleave",
+    "Combat Reflexes",
+    "Great Cleave",
+    "Improved Bull Rush",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk Large greataxe +15/+10 (3d6+7/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "heavy crossbow +10 (2d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Clothed in loose robes and wearing jewelry, this one-eyed giant appears to hold a high station.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": 31,
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any temperate or tropical"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, conclave (2-6), or tribe (7-18)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (hide armor, greataxe, heavy crossbow, other treasure)"
+      }
+    ]
+  }
+}

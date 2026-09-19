@@ -1,0 +1,121 @@
+{
+  "name": "Aatheriexa",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 21,
+    "notes": "dex +5, natural +6",
+    "touch": 15,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 84,
+    "formula": "13d8+26"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft., fly 50 ft. (good)"
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 21,
+    "con": 14,
+    "int": 18,
+    "wis": 10,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +6, Ref +9, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +21, Diplomacy +17, Fly +20, Knowledge (arcana) +14, Perception +28, Sense Motive +13, Spellcraft +15, Stealth +21, Use Magic Device +17",
+    "list": {
+      "Acrobatics": "+21",
+      "Diplomacy": "+17",
+      "Fly": "+20",
+      "Perception": "+28",
+      "Sense Motive": "+13",
+      "Spellcraft": "+15",
+      "Stealth": "+21",
+      "Use Magic Device": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision",
+    "low-light vision",
+    "see invisibility"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Draconic",
+    "Undercommon",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Reflexes",
+    "Critical Focus",
+    "Flyby Attack",
+    "Hover",
+    "Improved Initiative",
+    "Skill Focus (Perception)",
+    "Weapon Finesse",
+    "Weapon Focus (tentacle)",
+    "Wingover"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "tentacles +15 (3d6 plus grab and withering)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A tangle of thin, tentacle-like eyestalks floats in the air, its innumerable unblinking eyes each projecting an air of cruelty.",
+  "meta": {
+    "cmb": "9 (+21 grapple)",
+    "cmd": "24 (32 vs. grapple, can’t be tripped)",
+    "racialModifiers": [
+      "Perception 6"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, pod (3-5), or invasion (6-36)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

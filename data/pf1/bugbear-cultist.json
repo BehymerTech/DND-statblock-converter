@@ -1,0 +1,102 @@
+{
+  "name": "Bugbear Cultist",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "goblinoid",
+  "alignment": "CE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 22,
+    "notes": "armor +5, dex +3, dodge +1, natural +3",
+    "touch": 14,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 64,
+    "formula": "9d8+24"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 15,
+    "int": 12,
+    "wis": 8,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +6, Ref +9, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +18, Knowledge (religion) +7, Perception +14, Spellcraft +7, Stealth +18, Survival +5",
+    "list": {
+      "Intimidate": "+18",
+      "Perception": "+14",
+      "Spellcraft": "+7",
+      "Stealth": "+18",
+      "Survival": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Giant",
+    "Goblin",
+    "Infernal"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 6,
+  "feats": [
+    "Blind-Fight",
+    "Combat Casting",
+    "Dodge",
+    "Skill Focus (Perception)",
+    "Spell Focus (necromancy)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 morningstar +10/+5 (1d8+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Bugbear",
+    "class": "oracle 6 (Pathfinder RPG Advanced Player’s Guide 42)",
+    "cmb": "+9",
+    "cmd": 21,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate mountains"
+      }
+    ]
+  }
+}

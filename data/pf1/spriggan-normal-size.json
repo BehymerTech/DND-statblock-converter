@@ -1,0 +1,113 @@
+{
+  "name": "Spriggan (Normal Size)",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "gnome",
+  "alignment": "CE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 17,
+    "notes": "armor +2, dex +4, size +1",
+    "touch": 15,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 22,
+    "formula": "4d8+4"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 9,
+    "dex": 19,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +5, Ref +5, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +1, Disable Device +11, Perception +7, Sleight of Hand +11, Stealth +15",
+    "list": {
+      "Climb": "+1",
+      "Disable Device": "+11",
+      "Perception": "+7",
+      "Sleight of Hand": "+11",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Aklo",
+    "Gnome"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 3,
+  "feats": [
+    "Combat Reflexes",
+    "Weapon Focus (morningstar)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk morningstar +5 (1d6-1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "light crossbow +8 (1d6/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Flecks of saliva drip from the corners of this filthy and ill-smelling humanoid, and his large pointed ears twitch at every sound.",
+  "meta": {
+    "cmb": "+1",
+    "cmd": 15,
+    "racialModifiers": [
+      "Climb 2",
+      "Disable Device 2",
+      "Perception 2",
+      "Sleight of Hand 2",
+      "Stealth 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any hills or forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or mob (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (leather armor, masterwork morningstar, light crossbow with 10 bolts, other treasure)"
+      }
+    ]
+  }
+}

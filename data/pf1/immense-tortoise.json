@@ -1,0 +1,102 @@
+{
+  "name": "Immense Tortoise",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Colossal",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 25,
+    "notes": "dex -2, natural +25, size -8",
+    "touch": 0,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 126,
+    "formula": "11d8+77"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 40,
+    "dex": 7,
+    "con": 24,
+    "int": 2,
+    "wis": 11,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +16, Ref +5, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +14",
+    "list": {
+      "Perception": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 24,
+  "languages": [],
+  "initiative": "-2",
+  "babOrProficiency": 8,
+  "feats": [
+    "Critical Focus",
+    "Endurance",
+    "Great Fortitude",
+    "Improved Critical (bite)",
+    "Improved Great Fortitude",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15 (4d6+22/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Plants and even trees grow atop the shell of this massive tortoise, which gazes about with dull, placid eyes.",
+  "meta": {
+    "cmb": "+31",
+    "cmd": "39 (43 vs. trip)",
+    "racialModifiers": [
+      "Perception -4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm islands"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

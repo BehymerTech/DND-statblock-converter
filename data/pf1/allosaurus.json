@@ -1,0 +1,103 @@
+{
+  "name": "Allosaurus",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Huge",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 19,
+    "notes": "dex +1, natural +10, size -2",
+    "touch": 9,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 93,
+    "formula": "11d8+44"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 13,
+    "con": 19,
+    "int": 2,
+    "wis": 15,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +11, Ref +8, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +28",
+    "list": {
+      "Perception": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 38,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 8,
+  "feats": [
+    "Alertness",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Iron Will",
+    "Nimble Moves",
+    "Run"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +14 (2d6+8/19-20 plus grab), 2 claws +14 (1d8+8)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This bipedal dinosaur has a mouth filled with sharp teeth and short, powerful arms that end in sharp claws.",
+  "meta": {
+    "cmb": "+18",
+    "cmd": 29,
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm forests or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

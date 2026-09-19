@@ -1,0 +1,88 @@
+{
+  "name": "NPC Skinsaw Cultist",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "NE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 15,
+    "notes": "armor +3, dex +2",
+    "touch": 12,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 20,
+    "formula": "3d8+3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 12,
+    "int": 8,
+    "wis": 17,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +4, Ref +3, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +3, Disguise +4, Spellcraft +3, Stealth +5, Perception +3",
+    "list": {
+      "Bluff": "+3",
+      "Disguise": "+4",
+      "Spellcraft": "+3",
+      "Stealth": "+5",
+      "Perception": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 13,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 2,
+  "feats": [
+    "Blind-Fight",
+    "Martial Weapon Proficiency (war razor)",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk war razor +5 (1d4/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "cleric of Norgorber 3",
+    "cmb": "+2",
+    "cmd": 14
+  }
+}

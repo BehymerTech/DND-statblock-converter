@@ -1,0 +1,148 @@
+{
+  "name": "Nightshade",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Huge",
+  "type": "Undead",
+  "subtype": "Extraplanar",
+  "alignment": "Always chaotic evil",
+  "cr": "14",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 30,
+    "notes": "-2 size, +4 Dex, +18 natural",
+    "touch": 12,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 144,
+    "formula": "17d12+34"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": 60,
+    "swim": null,
+    "climb": null,
+    "burrow": 60,
+    "notes": "20 ft. (4 squares), fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 18,
+    "con": null,
+    "int": 18,
+    "wis": 20,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +9, Ref +11, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Concentration +24, Diplomacy +6, Hide +16\\*, Listen +25, Move Silently +24, Search +24, Sense Motive +25, Spellcraft +24, Spot +25, Survival +5 (+7 Following Tracks);",
+    "list": {
+      "Concentration": "+24",
+      "Diplomacy": "+6",
+      "Hide": "+16",
+      "Listen": "+25",
+      "Move Silently": "+24",
+      "Search": "+24",
+      "Sense Motive": "+25",
+      "Spellcraft": "+24",
+      "Spot": "+25",
+      "Survival": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft.",
+    "tremorsense 60 ft.",
+    "darkvision 60 ft.",
+    "darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+8",
+  "babOrProficiency": 8,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Flyby Attack",
+    "Great Fortitude",
+    "Improved Critical (bite)",
+    "Improved Initiative"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Desecrating aura, energy drain, spell-like abilities, poison, summon undead, swallow whole"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Aversion to daylight, damage reduction 15/silver and magic, darkvision 60 ft., immunity to cold, spell resistance 31, telepathy 100 ft, tremorsense 60 ft., undead traits"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Crush item, desecrating aura, evil gaze, spell-like abilities, summon undead"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Aversion to daylight, damage reduction 15/silver and magic, darkvision 60 ft., immunity to cold, spell resistance 29, telepathy 100 ft., undead traits"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Desecrating aura, magic drain, spell-like abilities, summon undead"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Aversion to daylight, damage reduction 15/silver and magic, darkvision 60 ft., immunity to cold, spell resistance 27, telepathy 100 ft., undead traits"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Bite +29 melee (4d6+21)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +29 melee (4d6+21/19-20) and sting +24 melee (2d8+11/19-20 plus poison)"
+    },
+    {
+      "name": "Attack",
+      "text": "Slam +24 melee (2d6+16)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 slams +24 melee (2d6+16)"
+    },
+    {
+      "name": "Attack",
+      "text": "Bite +18 melee (2d6+17/19-20 plus magic drain)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +18 melee (2d6+17/19-20 plus magic drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Nightshades are powerful undead composed of equal parts darkness and absolute evil.",
+    "grapple": "+28",
+    "spaceReach": "15 ft./10 ft.",
+    "environment": "Plane of Shadow",
+    "organization": "Solitary, pair, or flock (3-6)",
+    "treasure": "Standard",
+    "advancement": "18-25 HD (Huge); 26-34 HD (Gargantuan)",
+    "leveladjustment": "---"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "name": "Helicoprion",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 57: Tempest Rising",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex +4, natural +6, size -1",
+    "touch": 13,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 68,
+    "formula": "8d8+32"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 60 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 18,
+    "con": 19,
+    "int": 3,
+    "wis": 12,
+    "cha": 4
+  },
+  "saves": {
+    "text": "Fort +12, Ref +12, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +12, Swim +15",
+    "list": {
+      "Perception": "+12",
+      "Swim": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "keen scent"
+  ],
+  "passivePerception": 22,
+  "languages": [],
+  "initiative": "+8",
+  "babOrProficiency": 6,
+  "feats": [
+    "Endurance",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +12 (1d8+10 plus 1d4 bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature resembles an ordinary shark from tail to mouth, but the unusual shape of its lower jaw marks it as something else. A whorl of teeth spirals inward, tiny at the centre, but long and brutal farther out.",
+  "meta": {
+    "cmb": "14 (+18 grapple)",
+    "cmd": 28,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, school (3-"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

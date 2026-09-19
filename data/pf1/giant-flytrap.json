@@ -1,0 +1,105 @@
+{
+  "name": "Giant Flytrap",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Huge",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 22,
+    "notes": "dex +4, natural +10, size -2",
+    "touch": 12,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 149,
+    "formula": "13d8+91"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 18,
+    "con": 25,
+    "int": 1,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +17, Ref +8, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +10, Stealth +9",
+    "list": {
+      "Perception": "+10",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 20,
+  "languages": [],
+  "initiative": "+8",
+  "babOrProficiency": 9,
+  "feats": [
+    "Cleave",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Power Attack",
+    "Skill Focus (Stealth)",
+    "Vital Strike",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 bites +15 (1d8+7 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering plant is a mass of vines and barbs. Several stalks are horribly mobile, each ending in a set of green, toothy jaws.",
+  "meta": {
+    "cmb": "18 (+22 grapple)",
+    "cmd": "32 (can’t be tripped)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or grove (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

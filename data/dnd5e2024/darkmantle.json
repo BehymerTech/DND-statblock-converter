@@ -1,0 +1,77 @@
+{
+  "name": "Darkmantle",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Small",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "Unaligned",
+  "cr": "1/2",
+  "level": null,
+  "xp": 100,
+  "ac": {
+    "value": 11,
+    "notes": ""
+  },
+  "hp": {
+    "average": 22,
+    "formula": "5d6 + 5"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": 30,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., Fly 30 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 13,
+    "int": 2,
+    "wis": 10,
+    "cha": 5
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Stealth +3",
+    "list": {
+      "Stealth": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Blindsight 60 ft."
+  ],
+  "passivePerception": 10,
+  "languages": [],
+  "initiative": "+3 (13)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Crush",
+      "text": "_Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 6 (1d6 + 3) Bludgeoning damage, and the darkmantle attaches to the target. If the target is a Medium or smaller creature and the darkmantle had Advantage on the attack roll, it covers the target, which has the Blinded condition and is suffocating while the darkmantle is attached in this way. <br> &emsp;While attached to a target, the darkmantle can attack only the target but has Advantage on its attack rolls. Its Speed becomes 0, it can't benefit from any bonus to its Speed, and it moves with the target. <br> &emsp;A creature can take an action to try to detach the darkmantle from itself, doing so with a successful DC 13 Strength (Athletics) check. On its turn, the darkmantle can detach itself by using 5 feet of movement."
+    },
+    {
+      "name": "Darkness Aura (1/Day)",
+      "text": "Magical Darkness fills a 15-foot Emanation originating from the darkmantle. This effect lasts while the darkmantle maintains Concentration on it, up to 10 minutes. Darkvision can't penetrate this area, and no light can illuminate it. ## Death Dog"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

@@ -1,0 +1,99 @@
+{
+  "name": "Yellow Musk Brute",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 301.",
+  "size": "Large",
+  "type": "Plant",
+  "subtype": "Mindless",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 45,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 4,
+    "con": 18,
+    "int": 0,
+    "wis": 10,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +10, Ref +3, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +9 (1d20+9); ",
+    "list": {
+      "Athletics": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 14,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Slow",
+      "text": "A yellow musk thrall is permanently slowed 1 and can't use reactions."
+    },
+    {
+      "name": "Entangling Tendrils",
+      "text": "(aura); 5 feet. Grasping tendrils extend out from the brute. When the brute ends its movement next to a creature, or a creature ends its turn next to the brute, that creature must succeed at a DC 15 Reflex save or be grabbed by the tendrils."
+    },
+    {
+      "name": "Limb Extension",
+      "text": "⭓ Trigger The yellow musk thrall is reduced to 15 HP or fewer Effect Creeper tendrils tear through the brute's limbs, causing its forearms to tear loose. The brute's melee reach increases by 5 feet."
+    },
+    {
+      "name": "Pollen Touch",
+      "text": "When the brute strikes a creature, that creature is exposed to yellow musk creeper pollen, as Spray Pollen (DC 15). The creature is fascinated by the yellow musk creeper that spawned the brute, not by the brute itself."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +11 (reach 10 feet); Damage 1d12+5 (1d12+5) bludgeoning plus Improved Push 5 feet"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      -3,
+      4,
+      -5,
+      0,
+      -2
+    ]
+  }
+}

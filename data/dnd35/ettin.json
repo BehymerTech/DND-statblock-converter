@@ -1,0 +1,100 @@
+{
+  "name": "Ettin",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Giant",
+  "subtype": "",
+  "alignment": "Usually chaotic evil",
+  "cr": "6",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": "-1 size, -1 Dex, +7 natural, +3 hide",
+    "touch": 8,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 65,
+    "formula": "10d8+20"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. in hide armor (6 squares); base speed 40 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 8,
+    "con": 15,
+    "int": 6,
+    "wis": 10,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +9, Ref +2, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "An ettin's two heads give it a +2 racial bonus on Listen, Spot, and Search checks.",
+    "list": {
+      "Listen": "+10",
+      "Search": "+1",
+      "Spot": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 7,
+  "feats": [
+    "Alertness",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack"
+  ],
+  "traits": [
+    {
+      "name": "Special Qualities",
+      "text": "Low-light vision, superior two-weapon fighting"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Morningstar +12 melee (2d6+6) or javelin +5 ranged (1d8+6)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 morningstars +12/+7 melee (2d6+6) or 2 javelins +5 ranged (1d8+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Ettins, or two-headed giants, are vicious and unpredictable hunters that stalk the night.",
+    "grapple": "+17",
+    "spaceReach": "10 ft./10 ft.",
+    "environment": "Cold hills",
+    "organization": "Solitary, gang (2-4), troupe (1-2 plus 1-2 brown bears), band (3-5 plus 1-2 brown bears), or colony (3-5 plus 1-2 brown bears and 7-12 orcs or 9-16 goblins)",
+    "treasure": "Standard",
+    "advancement": "By character class",
+    "leveladjustment": "+5"
+  }
+}

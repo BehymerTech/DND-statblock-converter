@@ -1,0 +1,109 @@
+{
+  "name": "Vanth",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 47: Ashes at Dawn",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "extraplanar, psychopomp",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "dex +3, natural +7",
+    "touch": 13,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 76,
+    "formula": "9d10+27"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 50 ft. (average)"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 17,
+    "int": 13,
+    "wis": 19,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +11, Ref +6, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +9, Fly +11, Intimidate +11, Knowledge (history) +9, Knowledge (planes) +13, Knowledge (religion) +13, Perception +16, Sense Motive +16, Stealth +15",
+    "list": {
+      "Acrobatics": "+9",
+      "Fly": "+11",
+      "Intimidate": "+11",
+      "Perception": "+16",
+      "Sense Motive": "+16",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "spiritsense"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Infernal"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 9,
+  "feats": [
+    "Cleave",
+    "Great Fortitude",
+    "Hover",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 adamantine scythe +14/+9 (2d4+7/×4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This humanoid skeleton has black raven wings, a long tail, and a polished vulture-like mask where its face should be.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": 26,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Purgatory)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or flock (2-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (adamantine scythe)"
+      }
+    ]
+  }
+}

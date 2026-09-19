@@ -1,0 +1,134 @@
+{
+  "name": "Ouroboros",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 194.",
+  "size": "Gargantuan",
+  "type": "Beast",
+  "subtype": "Astral",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 21",
+  "xp": null,
+  "ac": {
+    "value": 45,
+    "notes": ""
+  },
+  "hp": {
+    "average": 500,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 100,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "100 feet, fly 100 feet"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 20,
+    "con": 24,
+    "int": 2,
+    "wis": 18,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +38, Ref +34, Will +33",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +36 (1d20+36); __Athletics__: +41 (1d20+41); ",
+    "list": {
+      "Acrobatics": "+36",
+      "Athletics": "+41"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 43,
+  "languages": [
+    "Aklo (can't speak any language)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Unfathomable Infinity",
+      "text": "(aura, incapacitation, mental, visual); 100 feet. The ouroboros is the embodiment of perfect of diamonds in a resurrect ritual infinity, and this concept pulls at the threads of mortal minds, desperately straining the limits of their comprehension. When a creature ends its turn in the aura, it must attempt a DC 41 Will save. The creature is then temporarily immune for 1 minute. Critical Success The creature is stupefied 1 for 1 round. Success The creature is stupefied 1 for 1 minute. Failure The creature is stupefied 1 for 1 minute and stunned 3. Critical Failure The creature is stupefied 3 and stunned, both for 1 minute."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⭓ Incalculable fangs only. Because the ouroboros contains an infinite number of snakes that act independently, its Attack of Opportunity is a free action (though it can still use only one per trigger)."
+    },
+    {
+      "name": "Sanguine Spray",
+      "text": "When the ouroboros takes slashing or piercing damage, or when."
+    },
+    {
+      "name": "Devour",
+      "text": "Tail ends, blood gushes from the wound in a 15-foot cone. Each creature in the area takes 5d6 (5d6) acid damage (DC 41 basic Reflex save). A creature that takes any damage is exposed to the ouroboros's regenerative blood (see below) Where the blood falls upon ground, it coagulates into magical snakes that bite at anyone who passes. This is hazardous terrain deals 17 piercing damage and 5 poison damage to any non-ouroboros creature that moves through the square or ends its turn there. A creature that avoids all the piercing damage doesn't take the poison damage. After 1 hour, a blood patch permanently becomes a living snake, typically an emperor cobra (Bestiary 2 245)."
+    },
+    {
+      "name": "Devour Tail",
+      "text": "⬻ An ouroboros spend most of its life eating its own tail, which perpetually regrows at the same rate it's consumed. The ouroboros places its maw around the end of its tail and begins devouring its own body. While the ouroboros is consuming itself, its regeneration can't be suppressed, and it is immune to drained, enfeebled, fatigued, persistent damage, and sickened conditions. If any of these conditions is in effect when the ouroboros takes this action, the condition immediately ends. While eating its tail, the ouroboros can't make maw or tail strikes, and its Speeds are 50 feet. It continues devouring its tail even while dying, unconscious, stunned, or otherwise unable to act. To end this effect, the ouroboros must first be immobilized, then a creature must successfully Grapple it, which tears the maw free in addition to its normal effects. The ouroboros can also cease Devouring its Tail with a single action. Either of these tears the maw free of the tail, causing the stump to spill blood as described in sanguine spray."
+    },
+    {
+      "name": "Fast Swallow",
+      "text": "⬲ Trigger The ouroboros Grabs a creature with their maw Effect The ouroboros uses Swallow Whole."
+    },
+    {
+      "name": "Flying Wheel",
+      "text": "⬺ Requirements The ouroboros is eating its own tail (see Devour Tail) Effect As Trample, except the ouroboros can Fly up to double its Speed instead of Striding. Huge or smaller, body, DC 45."
+    },
+    {
+      "name": "Regenerative Blood",
+      "text": "(contact, curse, incapacitation, poison, polymorph, primal, transmutation); Saving Throw DC 42 Fortitude. Maximum Duration 24 hours Stage 1 regeneration 5 , slowed 1, and clumsy 2 (deactivated by fire) Stage 2 regeneration 5 , slowed 2 and clumsy 4 (deactivated by fire) Stage 3 The creature's body transmutes into a mass of writhing snakes, with the effects an 8th-level animal form spell but with an unlimited duration. (null)"
+    },
+    {
+      "name": "Swallow Whole",
+      "text": "⬻ (attack); Huge, 4d10+9 (4d10+9) acid, Rupture 50"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ maw +39 (magical, reach 30 feet); Damage 4d12+18 (4d12+18) piercing plus Improved Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ body +39 (magical, reach 20 feet); Damage 4d10+18 (4d10+18) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ incalculable fangs +37 (agile, magical, reach 10 feet); Damage 3d6+16 (3d6+16) piercing plus 2d8 (2d8) poison"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +39 (magical, reach 30 feet); Damage 4d12+18 (4d12+18) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      10,
+      5,
+      7,
+      -4,
+      4,
+      8
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "name": "Elder Sphinx",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 83: The Slave Trenches of Hakotep",
+  "size": "Gargantuan",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 29,
+    "notes": "dex +1, natural +22, size -4",
+    "touch": 7,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 241,
+    "formula": "21d10+126"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (poor)"
+  },
+  "abilities": {
+    "str": 39,
+    "dex": 12,
+    "con": 23,
+    "int": 26,
+    "wis": 30,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +18, Ref +15, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +20, Fly +8, Intimidate +15, Knowledge (arcana) +20, Knowledge (dungeoneering) +20, Knowledge (engineering) +15, Knowledge (geography) +20, Knowledge (history) +20, Knowledge (local) +20, Knowledge (nature) +20, Knowledge (nobility) +20, Knowledge (planes) +20, Knowledge (religion) +20, Linguistics +15, Perception +27, Sense Motive +24, Spellcraft +28, Use Magic Device +20",
+    "list": {
+      "Diplomacy": "+20",
+      "Fly": "+8",
+      "Intimidate": "+15",
+      "Linguistics": "+15",
+      "Perception": "+27",
+      "Sense Motive": "+24",
+      "Spellcraft": "+28",
+      "Use Magic Device": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "true seeing"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Abyssal",
+    "Aquan",
+    "Ancient Osiriani",
+    "Auran",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Giant",
+    "Ignan",
+    "Infernal",
+    "Jistka",
+    "Sphinx",
+    "Sylvan",
+    "Tekritanin",
+    "Terran",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 21,
+  "feats": [
+    "Alertness",
+    "Awesome Blow",
+    "Flyby Attack",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +31 (2d6+14), 2 wings +26 (2d6+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The brooding face of this towering limestone statue of a gynosphinx reflects a harsh wisdom acquired through untold ages of experience.",
+  "meta": {
+    "cmb": "39 (+41 bull rush)",
+    "cmd": "50 (52 vs. bull rush, 54 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

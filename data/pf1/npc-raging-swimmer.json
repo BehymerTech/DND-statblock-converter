@@ -1,0 +1,105 @@
+{
+  "name": "NPC Raging Swimmer",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf, human",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 14,
+    "notes": "armor +4, dex +2, rage -2",
+    "touch": 10,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 109,
+    "formula": "9d12+45"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 14,
+    "con": 18,
+    "int": 12,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +11, Ref +6, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +16, Climb +10, Handle Animal +10, Knowledge (nature) +5, Linguistics +3, Perception +19, Ride +5, Stealth +10, Survival +4, Swim +20",
+    "list": {
+      "Acrobatics": "+16",
+      "Climb": "+10",
+      "Handle Animal": "+10",
+      "Linguistics": "+3",
+      "Perception": "+19",
+      "Ride": "+5",
+      "Stealth": "+10",
+      "Survival": "+4",
+      "Swim": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Aquan",
+    "Common",
+    "Elven",
+    "Sylvan"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 9,
+  "feats": [
+    "Cleave",
+    "Great Cleave",
+    "Lunge",
+    "Power Attack",
+    "Skill Focus (Acrobatics)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 longspear +16/+11 (2d4+10/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 composite longbow +12/+7 (1d8+7/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-elf",
+    "class": "barbarian 9",
+    "cmb": "+15",
+    "cmd": 25
+  }
+}

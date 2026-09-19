@@ -1,0 +1,110 @@
+{
+  "name": "Warmaze Disciples Troop",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 117: Assault on Longshadow",
+  "size": "Large",
+  "type": "monstrous humanoid",
+  "subtype": "troop",
+  "alignment": "CE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 25,
+    "notes": "armor +6, dex +1, dodge +1, natural +8, size -1",
+    "touch": 11,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 152,
+    "formula": "16d10+64"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 13,
+    "con": 18,
+    "int": 7,
+    "wis": 10,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +11, Ref +11, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +32, Perception +13, Stealth +5, Survival +12",
+    "list": {
+      "Intimidate": "+32",
+      "Perception": "+13",
+      "Stealth": "+5",
+      "Survival": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Giant"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 16,
+  "feats": [
+    "Dodge",
+    "Extra Rage",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Intimidating Prowess",
+    "Iron Will",
+    "Skill Focus (Intimidate)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "troop (4d6+8)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+25",
+    "cmd": 37,
+    "racialModifiers": [
+      "Perception 4",
+      "Survival 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any mountains or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or force (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

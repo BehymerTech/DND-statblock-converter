@@ -1,0 +1,99 @@
+{
+  "name": "Tenebrous Worm",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "extraplanar",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "dex +3, natural +8",
+    "touch": 13,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 105,
+    "formula": "10d10+50"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 16,
+    "con": 20,
+    "int": 2,
+    "wis": 13,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +14, Ref +6, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +14, Stealth +16",
+    "list": {
+      "Perception": "+14",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [],
+  "initiative": "+7",
+  "babOrProficiency": 10,
+  "feats": [
+    "Critical Focus",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Iron Will",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +14 (2d6+4 plus 6d6 acid)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This pallid beast clatters upon dozens of small legs. Writhing bristles twitch on its back, and its shadow seems strangely mobile.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": "26 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land (Plane of Shadow)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or swarm (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

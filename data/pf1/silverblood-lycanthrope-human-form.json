@@ -1,0 +1,116 @@
+{
+  "name": "Silverblood Lycanthrope (Human Form)",
+  "sourceSystem": "pf1",
+  "source": "Andoran, Birthplace of Freedom",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, shapechanger",
+  "alignment": "CE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 15,
+    "notes": "armor +4, dex +1",
+    "touch": 11,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 38,
+    "formula": "4d10+12"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 13,
+    "con": 14,
+    "int": 12,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +7, Ref +6, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +4, Climb +10, Disable Device +9, Handle Animal +2, Intimidate +5, Knowledge (nature) +5, Perception +8, Profession (trapper) +5, Stealth +7, Survival +8, Swim +7",
+    "list": {
+      "Acrobatics": "+4",
+      "Climb": "+10",
+      "Disable Device": "+9",
+      "Handle Animal": "+2",
+      "Intimidate": "+5",
+      "Perception": "+8",
+      "Stealth": "+7",
+      "Survival": "+8",
+      "Swim": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 4,
+  "feats": [
+    "Aspect of the Beast (claws)",
+    "Endurance",
+    "Power Attack",
+    "Rending Claws",
+    "Weapon Focus (claws)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk bardiche +9 (1d8+6/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite longbow +6 (1d8+4/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This snarling creature has a woman’s body, but the head and claws of a savage wolf.",
+  "meta": {
+    "race": "Human",
+    "class": "ranger (trapper) 4 (Pathfinder RPG Ultimate Magic 65)",
+    "cmb": "+8",
+    "cmd": 19,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "Any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, pack (2-4), or warband (2-6 silverblood werewolves, 2-8 werewolves, and 10-20 hobgoblins)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (mwk chain shirt, mwk buckler, mwk bardiche, mwk composite longbow [+4 Str] with 20 arrows, cloak of resistance +1, backpack, bear traps [2], masterwork thieves’ tools, other treasure)"
+      }
+    ]
+  }
+}

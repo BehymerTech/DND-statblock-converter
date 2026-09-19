@@ -1,0 +1,97 @@
+{
+  "name": "Nirento",
+  "sourceSystem": "pf1",
+  "source": "Isles of the Shackles",
+  "size": "Large",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +2, natural +6, size -1",
+    "touch": 11,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 42,
+    "formula": "5d8+20"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 19,
+    "int": 2,
+    "wis": 9,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +8, Ref +3, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +7",
+    "list": {
+      "Perception": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 3,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Weapon Focus (vines)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 vines +7 (1d6+4 plus grab and trip)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Thorny vines encircle this tropical tree’s thick, spongy trunk, and jungle debris lies strewn about its base.",
+  "meta": {
+    "cmb": "8 (+12 grapple)",
+    "cmd": 20,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forests or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or grove (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

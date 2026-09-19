@@ -1,0 +1,114 @@
+{
+  "name": "Spy",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 208.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 23,
+    "notes": ""
+  },
+  "hp": {
+    "average": 90,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 12,
+    "int": 14,
+    "wis": 18,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +11, Ref +17, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Deception__: +15 (1d20+15); __Diplomacy__: +13 (1d20+13); __Intimidation__: +15 (1d20+15); __Society__: +12 (1d20+12); __Stealth__: +14 (1d20+14); __Thievery__: +12 (1d20+12); __Local court lore__: +16 (1d20+16); ",
+    "list": {
+      "Deception": "+15",
+      "Diplomacy": "+13",
+      "Intimidation": "+15",
+      "Society": "+12",
+      "Stealth": "+14",
+      "Thievery": "+12",
+      "Local court lore": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 27,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Stealth",
+      "text": "+14, Thievery +12 Str +0, Dex +4, Con +1, Int +2, Wis +4, Cha +4 Items dagger (4), disguise kit, fine clothes, leather armor, +1 rapier, thieves' tools."
+    },
+    {
+      "name": "Noble's Ally",
+      "text": "The spy has positioned themself to seem a trusted ally, gaining a +2 circumstance bonus to Gather Information or to Make an Impression among the nobles of that court."
+    },
+    {
+      "name": "Items",
+      "text": "dagger (4), disguise kit, fine clothes, leather armor, +1 rapier, thieves' tools;"
+    },
+    {
+      "name": "Hidden Blade",
+      "text": "⬻ Frequency once per round Effect The spy draws a weapon and then Strikes with it. The target of the Strike is flat-footed against the attack."
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "The spy deals an extra 2d6 (2d6) precision damage to flat-footed creatures."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ rapier +16 (deadly 1d8, disarm, finesse, magical); Damage 1d6+7 (1d6+7) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ dagger +14 (agile, thrown 10 feet, versatile s); Damage 1d4+6 (1d4+6) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      4,
+      1,
+      2,
+      4,
+      4
+    ],
+    "items": "dagger (4), disguise kit, fine clothes, leather armor, +1 rapier, thieves' tools;"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "name": "NPC Life Stealer",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "NE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 20,
+    "notes": "armor +7, dex +3, rage -2, shield +2",
+    "touch": 11,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 200,
+    "formula": "15d12++97"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 16,
+    "con": 22,
+    "int": 14,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +17, Ref +10, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +18, Bluff +18, Climb +10, Craft (alchemy) +6, Disguise +20, Intimidate +15, Knowledge (local) +5, Knowledge (nobility) +5, Linguistics +7, Perception +18, Stealth +20, Survival +10, Swim +6",
+    "list": {
+      "Acrobatics": "+18",
+      "Bluff": "+18",
+      "Climb": "+10",
+      "Disguise": "+20",
+      "Intimidate": "+15",
+      "Linguistics": "+7",
+      "Perception": "+18",
+      "Stealth": "+20",
+      "Survival": "+10",
+      "Swim": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Common",
+    "Aklo",
+    "Draconic",
+    "Dwarven",
+    "Elven",
+    "Gnoll",
+    "Goblin",
+    "Orc"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 15,
+  "feats": [
+    "Blind-Fight",
+    "Combat Expertise",
+    "Deadly Aim",
+    "Deceitful",
+    "Greater Disarm",
+    "Improved Critical (longsword)",
+    "Improved Disarm",
+    "Power Attack",
+    "Step Up"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "nine lives stealer +22/+17/+12 (1d8+7/17-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite longbow +19/+14/+9 (1d8+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "barbarian 15",
+    "cmb": "+20",
+    "cmd": 31
+  }
+}

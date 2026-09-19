@@ -1,0 +1,103 @@
+{
+  "name": "Choker",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Small",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "Usually chaotic evil",
+  "cr": "2",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": "+1 size, +2 Dex, +4 natural",
+    "touch": 13,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 16,
+    "formula": "3d8+3"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": 10,
+    "burrow": null,
+    "notes": "20 ft. (4 squares), climb 10 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 13,
+    "int": 4,
+    "wis": 13,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +2, Ref +5, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +13, Hide +10, Move Silently +6;",
+    "list": {
+      "Climb": "+13",
+      "Hide": "+10",
+      "Move Silently": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Initiative (B)",
+    "Lightning Reflexes",
+    "Stealthy"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Improved grab, constrict 1d3+3"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., quickness"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Tentacle +6 melee (1d3+3)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 tentacles +6 melee (1d3+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "These vicious little predators lurk underground, grabbing whatever prey happens by. Its hands and feet have spiny pads that help the choker grip almost any surface. The creature weighs about 35 pounds.",
+    "grapple": "+5",
+    "spaceReach": "5 ft./10 ft.",
+    "environment": "Underground",
+    "organization": "Solitary",
+    "treasure": "1/10 coins; 50% goods; 50% items",
+    "advancement": "4-6 HD (Small); 7-12 HD (Medium)",
+    "leveladjustment": "---"
+  }
+}

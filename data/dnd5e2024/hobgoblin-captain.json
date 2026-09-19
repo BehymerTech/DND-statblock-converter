@@ -1,0 +1,87 @@
+{
+  "name": "Hobgoblin Captain",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "Goblinoid",
+  "alignment": "Lawful Evil",
+  "cr": "3",
+  "level": null,
+  "xp": 700,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 58,
+    "formula": "9d8 + 18"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 14,
+    "con": 14,
+    "int": 12,
+    "wis": 10,
+    "cha": 13
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 10,
+  "languages": [
+    "Common",
+    "Goblin"
+  ],
+  "initiative": "+4 (14)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Aura of Authority",
+      "text": "While in a 10-foot Emanation originating from the hobgoblin, the hobgoblin and its allies have Advantage on attack rolls and saving throws, provided the hobgoblin doesn't have the Incapacitated condition."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The hobgoblin makes two attacks, using Greatsword or Longbow in any combination."
+    },
+    {
+      "name": "Greatsword",
+      "text": "_Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 9 (2d6 + 2) Slashing damage plus 3 (1d6) Poison damage."
+    },
+    {
+      "name": "Longbow",
+      "text": "_Ranged Attack Roll:_ +4, range 150/600 ft. _Hit:_ 6 (1d8 + 2) Piercing damage plus 5 (2d4) Poison damage. ## Homunculus"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

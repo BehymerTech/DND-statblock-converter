@@ -1,0 +1,116 @@
+{
+  "name": "Rusalka",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 229.",
+  "size": "Medium",
+  "type": "Water",
+  "subtype": "Aquatic, Fey",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 12",
+  "xp": null,
+  "ac": {
+    "value": 33,
+    "notes": ""
+  },
+  "hp": {
+    "average": 230,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, swim 50 feet; water walk;"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 20,
+    "con": 16,
+    "int": 12,
+    "wis": 16,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +21, Ref +25, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +21 (1d20+21); __Athletics__: +22 (1d20+22); __Deception__: +25 (1d20+25); __Diplomacy__: +21 (1d20+21); __Nature__: +21 (1d20+21); __Performance__: +23 (1d20+23), (Performance: +25 (1d20+25) to sing); __Stealth__: +25 (1d20+25); ",
+    "list": {
+      "Acrobatics": "+21",
+      "Athletics": "+22",
+      "Deception": "+25",
+      "Diplomacy": "+21",
+      "Nature": "+21",
+      "Performance": "+25",
+      "Stealth": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Blurred Form",
+      "text": "A rusalka is concealed while underwater."
+    },
+    {
+      "name": "Beckoning Call",
+      "text": "⬻ (auditory, concentrate, enchantment, incapacitation, mental, primal); The rusalka cries out a compelling invitation. Each non-fey creature within a 300-foot emanation must attempt a DC 27 Will save. The effect lasts for 1 round, but if the rusalka uses Beckoning Call again on subsequent rounds, the duration extends by 1 round for all affected creatures. Once a creature succeeds at any save against Beckoning Call, that creature is temporarily immune for 24 hours. Success The creature is unaffected. Failure The creature is fascinated and must spend each of its actions to move closer to the rusalka, avoiding obvious dangers. If a beckoned creature is adjacent to the rusalka, it stays still and doesn't act. If attacked by the rusalka, the creature is freed from captivation at the end of the rusalka's turn. Critical Failure As failure, but if attacked by the rusalka, the creature can attempt a new save only at the start of its next turn, rather than being freed at the end of the rusalka's turn."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 2d8+10 (2d8+10) bludgeoning, DC 32."
+    },
+    {
+      "name": "Entangling Tresses",
+      "text": "A rusalka can have up to eight creatures grabbed within their tresses at a time."
+    },
+    {
+      "name": "Flowing Hair",
+      "text": "⬻ The rusalka attempts an Athletics check against each grabbed creature's Fortitude DC. The rusalka moves each creature they succeed against up to 10 feet and each creature they critically succeed against up to 20 feet. This movement must all be within reach of its tresses."
+    },
+    {
+      "name": "Shameful Touch",
+      "text": "⬻ (emotion, enchantment, mental, primal); The rusalka touches a creature within 5 feet using their hand, stirring up memories of regret and shame. The target must attempt a DC 35 Will save. Critical Success The target is unaffected. Success The target is sickened 1. Failure The creature is sickened 1 and stunned 1. Critical Failure The creature is sickened 1 and stunned 1, and it must use its first action on its next turn to Strike itself, automatically hitting."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ tresses +24 (agile, finesse, reach 15 feet); Damage 3d8+10 (3d8+10) bludgeoning plus Improved Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      5,
+      3,
+      1,
+      3,
+      7
+    ]
+  }
+}

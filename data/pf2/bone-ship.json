@@ -1,0 +1,128 @@
+{
+  "name": "Bone Ship",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 34.",
+  "size": "Gargantuan",
+  "type": "Undead",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 18",
+  "xp": null,
+  "ac": {
+    "value": 42,
+    "notes": ""
+  },
+  "hp": {
+    "average": 415,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 40 feet"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 20,
+    "con": 28,
+    "int": 12,
+    "wis": 22,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +33, Ref +27, Will +30",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +33 (1d20+33); __Intimidation__: +31 (1d20+31); __Sailing lore__: +37 (1d20+37); ",
+    "list": {
+      "Athletics": "+33",
+      "Intimidation": "+31",
+      "Sailing lore": "+37"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 42,
+  "languages": [
+    "Common",
+    "Necril (can't speak any language)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Skeleton Crew",
+      "text": "(divine, evil, necromancy); The bone ship is compelled not by a single mind, but by the collective consciousness of dead sailors' souls. The ship is immune to mental effects that target only a specific number of creatures. It's still subject to mental effects that affect all creatures in an area. Any creature that tries to communicate with the ship via telepathy or read its thoughts hears the dying screams and gasps of the crew, and is targeted with a 9th-level warp mind spell (DC 41) The ship animates skeletal crew members out of its own bones, arming them with rusty old cutlasses or other armaments so they can attack anyone who comes next to the ship. These entities have appearances matching those the bound souls had in life but aren't truly individuals; anything that targets them in fact targets the bone ship they're a part of. Hundreds of black soul gems decorate the ship's exterior, each holding one soul. These gems can hold souls of creatures whose level was 16th or lower, and they have no value. If the ship is destroyed, all these gems shatter, freeing the souls within. Trawl for Bones (downtime) The bone ship spends 1 day scavenging bones from the sea and restores itself to full Hit Points."
+    },
+    {
+      "name": "Trawl for Bones",
+      "text": "(downtime); The bone ship spends 1 day scavenging bones from the sea and restores itself to full Hit Points."
+    },
+    {
+      "name": "Blood Wake",
+      "text": "(aura, divine, enchantment, fear, mental); 30 feet. The churning water around the bone ship tinges red with seeping blood. A living creature that enters water in the aura sees visions of itself drowning in the blood and must attempt a DC 37 Will save. After attempting this saving throw, the creature is temporarily immune for 1 hour. On a failure, the creature becomes frightened 2 (frightened 4 on a critical failure) and stunned 1, and it takes a –4 status penalty to Athletics checks to Swim."
+    },
+    {
+      "name": "Cannonade",
+      "text": "⬺ The bone ship makes four bone cannon Strikes, each targeting a different creature."
+    },
+    {
+      "name": "Chain Shot",
+      "text": "⬻ The bone ship makes a special bone cannon Strike, firing a chain made of bones. A creature hit by this Strike is grabbed by the chain (Escape DC 41). The bone ship can use Interact actions to reel in a grabbed creature 50 feet per action spent, and when the ship moves, it pulls the grabbed creature along with it."
+    },
+    {
+      "name": "Crew's Call",
+      "text": "⬺ (divine); The crew let out an anguished cry in unison. This is a wail of the banshee spell with 100-foot emanation (DC 39). In addition, any creature within 5 feet of the ship is grabbed by the crew. The ship can't use Crew's Call again for 1d4+1 (1d4+1) rounds."
+    },
+    {
+      "name": "Keelhaul",
+      "text": "⬽ As Trample (Huge or smaller, hull, DC 43, page 306), but the bone ship Swims up to double its swim."
+    },
+    {
+      "name": "Pressgang Soul",
+      "text": "⬻ (divine); The bone ship casts bind soul. The target must have died due to the bone ship's assault or from drowning. The creature's soul becomes part of the ghostly crew. A new soul gem grows on the ship, and the bone ship is quickened for 1 minute. It can use the extra action only to Strike or Swim."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ hull +35 (reach 20 feet); Damage 3d10+17 (3d10+17) bludgeoning plus 2d10 (2d10) negative"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ skeleton crew +35 (agile); Damage 3d6+17 (3d6+17) slashing plus 2d10 (2d10) negative"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ bone cannon +35 (brutal, divine, negative, range increment 100 feet); Damage 2d12+12 (2d12+12) bludgeoning damage plus 2d10 (2d10) negative"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      9,
+      5,
+      9,
+      1,
+      6,
+      5
+    ]
+  }
+}

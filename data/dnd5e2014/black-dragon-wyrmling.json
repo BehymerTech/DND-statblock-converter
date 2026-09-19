@@ -1,0 +1,88 @@
+{
+  "name": "Black Dragon Wyrmling",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Medium",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "chaotic evil",
+  "cr": "2",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": "natural armor"
+  },
+  "hp": {
+    "average": 33,
+    "formula": "6d8 + 6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 60,
+    "swim": 30,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 14,
+    "con": 13,
+    "int": 10,
+    "wis": 11,
+    "cha": 13
+  },
+  "saves": {
+    "text": "dex +4, con +3, wis +2, cha +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +4, Stealth +4",
+    "list": {
+      "perception": "+4",
+      "stealth": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [
+    "acid"
+  ],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight 10 ft.",
+    "darkvision 60 ft."
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The dragon can breathe air and water."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 2 (1d4) acid damage."
+    },
+    {
+      "name": "Acid Breath {@recharge 5}",
+      "text": "The dragon exhales acid in a 15-foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 22 (5d8) acid damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

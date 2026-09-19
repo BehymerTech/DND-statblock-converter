@@ -1,0 +1,121 @@
+{
+  "name": "Owb Prophet",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 197.",
+  "size": "Large",
+  "type": "Shadow",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 13",
+  "xp": null,
+  "ac": {
+    "value": 34,
+    "notes": ""
+  },
+  "hp": {
+    "average": 225,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 22,
+    "con": 26,
+    "int": 18,
+    "wis": 20,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +25, Ref +23, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +25 (1d20+25); __Deception__: +26 (1d20+26); __Diplomacy__: +24 (1d20+24); __Occultism__: +23 (1d20+23); __Religion__: +25 (1d20+25); __Stealth__: +25 (1d20+25); ",
+    "list": {
+      "Acrobatics": "+25",
+      "Deception": "+26",
+      "Diplomacy": "+24",
+      "Occultism": "+23",
+      "Religion": "+25",
+      "Stealth": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Aklo",
+    "Caligni",
+    "Common",
+    "Undercommon (can't speak any languages); telepathy"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Forsaken Patron",
+      "text": "Each owb prophet serves as a conduit to one of the shadowy demigods known as the Forsaken. Forsaken patrons are detailed in the sidebar, and each grants the owb prophet additional abilities."
+    },
+    {
+      "name": "Light Blindness",
+      "text": ""
+    },
+    {
+      "name": "Burning Cold Fusillade",
+      "text": "⬺ The owb prophet makes three burning cold Strikes."
+    },
+    {
+      "name": "Clutching Cold",
+      "text": "A creature hit by the prophet's burning cold Strike becomes immobilized in a cluster of binding ice crystals (Escape DC 31)."
+    },
+    {
+      "name": "Curse of Darkness",
+      "text": "⬻ (curse, darkness, evocation, occult); The owb inflicts a curse on one creature taking persistent cold damage from their burning cold Strike, stealing the victim's vibrancy. The creature must attempt a DC 32 Fortitude save. On a failure, the creature gains light blindness and its coloration turns to washed out shades of gray, along with all equipment it carries, wields, or wears. These effects have an unlimited duration. Regardless of the result of its save, the creature is temporarily immune for 1 minute. If the owb uses this ability on a caligni, the curse can't be removed short of wish or similar powerful magic."
+    },
+    {
+      "name": "Shadow's Swiftness",
+      "text": "An owb prophet can Cast shadow walk as a 3-action activity instead of 1 minute. If they do so, they target only themself."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +27 (agile, magical); Damage 2d8+11 (2d8+11) slashing plus 2d8 (2d8) cold"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ burning cold +25 (magical, range 120 feet); Damage 4d8 (4d8) cold plus 2d8 (2d8) persistent cold and clutching cold"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      6,
+      8,
+      4,
+      5,
+      7
+    ]
+  }
+}

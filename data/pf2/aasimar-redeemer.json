@@ -1,0 +1,111 @@
+{
+  "name": "Aasimar Redeemer",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 263.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Aasimar, Human",
+  "alignment": "NG",
+  "cr": null,
+  "level": "Creature 5",
+  "xp": null,
+  "ac": {
+    "value": 23,
+    "notes": ""
+  },
+  "hp": {
+    "average": 73,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 16,
+    "int": 10,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +12, Ref +8, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +11 (1d20+11), __Diplomacy__: +12 (1d20+12), __Medicine__: +9 (1d20+9), __Religion__: +11 (1d20+11), __Society__: +7 (1d20+7)",
+    "list": {
+      "Athletics": "+11",
+      "Diplomacy": "+12",
+      "Medicine": "+9",
+      "Religion": "+11",
+      "Society": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Celestial",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Divine Grace",
+      "text": "⬲ Trigger The angelkin is targeted by a spell that allows a saving throw. Effect The scion gains a +2 circumstance bonus to the saving throw."
+    },
+    {
+      "name": "Glimpse of Redemption",
+      "text": "⬲ Trigger An enemy damages one of the angelkin's allies. Both the enemy and ally must be within 15 feet of the angelkin. Effect The angelkin causes its foe to hesitate under the weight of its sins as visions of possible redemption play out in its mind's eye. The foe chooses one of two options:<ul class='inner-bullet-list'><li>The ally is completely unharmed by the triggering damage.</li><li>The ally gains resistance 7 to all damage against the triggering damage. After the damaging effect resolves, the enemy becomes enfeebled 2 until the end of its next turn.</li></ul>"
+    },
+    {
+      "name": "Shield Block",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "crossbow (10 bolts), half plate, steel shield (Hardness 5, 20 HP, BT 10), longsword"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ longsword +15 (versatile p) Damage 1d8+7 (1d8+7) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ crossbow +12 (range increment 120 feet, reload 1) Damage 1d8+3 (1d8+3) piercing plus Knockdown"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      1,
+      3,
+      0,
+      2,
+      3
+    ],
+    "items": "crossbow (10 bolts), half plate, steel shield (Hardness 5, 20 HP, BT 10), longsword"
+  }
+}

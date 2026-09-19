@@ -1,0 +1,116 @@
+{
+  "name": "Elysian",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Colossal",
+  "type": "outsider",
+  "subtype": "chaotic, extraplanar, good",
+  "alignment": "CG",
+  "cr": "21",
+  "level": null,
+  "xp": 409600,
+  "ac": {
+    "value": 37,
+    "notes": "armor +9, dex +3, natural +23, size -8",
+    "touch": 5,
+    "flatFooted": 34
+  },
+  "hp": {
+    "average": 409,
+    "formula": "21d10+294"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft.,  40 ft. in armor"
+  },
+  "abilities": {
+    "str": 45,
+    "dex": 16,
+    "con": 39,
+    "int": 21,
+    "wis": 28,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +21, Ref +15, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +31, Craft (any) +29, Diplomacy +31, Intimidate +31, Knowledge (engineering) +26, Knowledge (planes) +29, Perception +33, Perform (any) +28, Sense Motive +33, Spellcraft +29, Use Magic Device +31",
+    "list": {
+      "Bluff": "+31",
+      "Diplomacy": "+31",
+      "Intimidate": "+31",
+      "Perception": "+33",
+      "Sense Motive": "+33",
+      "Spellcraft": "+29",
+      "Use Magic Device": "+31"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 43,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 21,
+  "feats": [
+    "Awesome Blow",
+    "Critical Focus",
+    "Greater Sunder",
+    "Greater Vital Strike",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Improved Vital Strike",
+    "Power Attack",
+    "Staggering Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "maul of the titans +33/+28/+23/+18 (6d8+28/17-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This titanic humanoid wears gilt-edged armor of ancient make and carries an immense hammer made of gleaming metal.",
+  "meta": {
+    "cmb": "+46",
+    "cmd": 59,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land (Elysium)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or crusade (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+3 breastplate, maul of the titans, other treasure)"
+      }
+    ]
+  }
+}

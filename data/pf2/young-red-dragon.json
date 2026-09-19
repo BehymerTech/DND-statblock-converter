@@ -1,0 +1,128 @@
+{
+  "name": "Young Red Dragon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 112.",
+  "size": "Large",
+  "type": "Fire",
+  "subtype": "Dragon",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 30,
+    "notes": ""
+  },
+  "hp": {
+    "average": 210,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, fly 120 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 12,
+    "con": 18,
+    "int": 12,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +21, Ref +18, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +15 (1d20+15); __Arcana__: +17 (1d20+17); __Athletics__: +22 (1d20+22); __Deception__: +19 (1d20+19); __Diplomacy__: +19 (1d20+19); __Intimidation__: +21 (1d20+21); __Stealth__: +17 (1d20+17); ",
+    "list": {
+      "Acrobatics": "+15",
+      "Arcana": "+17",
+      "Athletics": "+22",
+      "Deception": "+19",
+      "Diplomacy": "+19",
+      "Intimidation": "+21",
+      "Stealth": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60, smoke vision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Smoke Vision",
+      "text": "Smoke doesn't impair a red dragon's vision; it ignores the concealed condition from smoke."
+    },
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 90 feet, DC 27."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲ Jaws only."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (arcane, evocation, fire); The dragon breathes a blast of flame that deals 11d6 (11d6) fire damage in a 40-foot cone (DC 30 basic Reflex save). It can't use Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Draconic Frenzy",
+      "text": "⬺ The dragon makes two claw Strikes and one wing Strike in any order."
+    },
+    {
+      "name": "Draconic Momentum",
+      "text": "The dragon recharges its Breath Weapon whenever it scores a critical hit with a Strike."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +23 (fire, reach 10 feet); Damage 2d12+12 (2d12+12) piercing plus 2d6 (2d6) fire"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +23 (agile); Damage 2d10+12 (2d10+12) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +21 (reach 15 feet); Damage 2d12+10 (2d12+10) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ wing +21 (agile, reach 10 feet); Damage 1d10+10 (1d10+10) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      1,
+      4,
+      1,
+      2,
+      3
+    ]
+  }
+}

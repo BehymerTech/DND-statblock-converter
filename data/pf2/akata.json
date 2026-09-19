@@ -1,0 +1,105 @@
+{
+  "name": "Akata",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 13.",
+  "size": "Medium",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 15,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, climb 15 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 18,
+    "int": 2,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +5, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Athletics__: +7 (1d20+7); __Stealth__: +7 (1d20+7); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Athletics": "+7",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, no hearing, imprecise scent 30"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Hibernation",
+      "text": "After 3 or more days without eating, an akata can secrete resin that encases it in a noqual cocoon. The cocoon has Hardness 9, 40 HP, and a Broken Threshold of 18. It has resistance 5 to damage from magical sources. As long as the cocoon remains intact, the akata can't be harmed, and it doesn't need to eat or drink. While inside the cocoon, the akata gains lifesense 30 feet. The akata remains in a state of hibernation until it is exposed to extreme heat or senses a living creature, at which point it can burst free of its cocoon in 1d4 (1d4) minutes."
+    },
+    {
+      "name": "No Hearing",
+      "text": "An akata has no auditory senses. It is immune to auditory effects, automatically critically fails Perception checks that require it to hear, and takes a –2 status penalty to Perception checks (but not initiative rolls) that involve sound but also rely on other senses."
+    },
+    {
+      "name": "No Breath",
+      "text": "An akata doesn't breathe and is immune to effects that require breathing (such as an inhaled poison)."
+    },
+    {
+      "name": "Salt Water Vulnerability",
+      "text": "Salt water acts as an extremely strong acid to an akata. Full immersion in salt water deals 4d6 (4d6) acid damage per round."
+    },
+    {
+      "name": "Void Death",
+      "text": "(disease); Saving Throw DC 17 Fortitude. Stage 1 carrier with no ill effect 1 (1 day) Stage 2 drained 1 (1 day) Stage 3 as stage 2 (1 day) Stage 4 drained 2 and fatigued (1 day) Stage 5 as stage 4 (1 day) Stage 6 dead and corpse rises as a void zombie (page 288)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +9 (agile); Damage 1d6+4 (1d6+4) piercing plus void death"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      4,
+      -4,
+      3,
+      0
+    ]
+  }
+}

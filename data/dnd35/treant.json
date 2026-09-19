@@ -1,0 +1,107 @@
+{
+  "name": "Treant",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Huge",
+  "type": "Plant",
+  "subtype": "",
+  "alignment": "Usually neutral good",
+  "cr": "8",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": "-2 size, -1 Dex, +13 natural",
+    "touch": 7,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 66,
+    "formula": "7d8+35"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares)"
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 8,
+    "con": 21,
+    "int": 12,
+    "wis": 16,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +10, Ref +1, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +3, Hide -9\\*, Intimidate +6, Knowledge (nature) +6, Listen +8, Sense Motive +8, Spot +8, Survival +8 (+10 Aboveground);",
+    "list": {
+      "Diplomacy": "+3",
+      "Hide": "-9",
+      "Intimidate": "+6",
+      "Listen": "+8",
+      "Sense Motive": "+8",
+      "Spot": "+8",
+      "Survival": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "-1",
+  "babOrProficiency": 5,
+  "feats": [
+    "Improved Sunder",
+    "Iron Will",
+    "Power Attack"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Animate trees, double damage against objects, trample 2d6+13"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 10/slashing, low-light vision, plant traits, vulnerability to fire"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Slam +12 melee (2d6+9)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 slams +12 melee (2d6+9)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A treant's leaves are deep green in the spring and summer. In the fall and winter the leaves change to yellow, orange, or red, but they rarely fall out. A treant's legs fit together when closed to look like the trunk of a tree, and a motionless treant is nearly indistinguishable from a tree.",
+    "grapple": "+22",
+    "spaceReach": "15 ft./15 ft.",
+    "environment": "Temperate forests",
+    "organization": "Solitary or grove (4-7)",
+    "treasure": "Standard",
+    "advancement": "8-16 HD (Huge); 17-21 HD (Gargantuan)",
+    "leveladjustment": "+5"
+  }
+}

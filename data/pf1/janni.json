@@ -1,0 +1,117 @@
+{
+  "name": "Janni",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "native",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 20,
+    "notes": "armor +6, dex +2, dodge +1, natural +1",
+    "touch": 13,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 39,
+    "formula": "6d10+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 20 ft. (perfect), other_semicolon 20 ft., fly 15 ft. (perfect) in chainmail ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 15,
+    "con": 12,
+    "int": 14,
+    "wis": 15,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +6, Ref +7, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +11, Craft (any one-usually weaponsmith) +11, Fly +14, Perception +11, Ride +6, Sense Motive +11, Spellcraft +11, Stealth +6",
+    "list": {
+      "Appraise": "+11",
+      "Fly": "+14",
+      "Perception": "+11",
+      "Ride": "+6",
+      "Sense Motive": "+11",
+      "Spellcraft": "+11",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common",
+    "one elemental language (Aquan",
+    "Auran",
+    "Ignan",
+    "or Terran)",
+    "one planar language (Abyssal",
+    "Celestial",
+    "or Infernal)",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 6,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Initiative",
+    "Mobility"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "scimitar +9/+4 (1d6+4/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "composite longbow +8/+3 (1d8+3/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This regal figure looks like a tall, well-proportioned human, save that its eyes sparkle with strange light.",
+  "meta": {
+    "cmb": "+9",
+    "cmd": 22,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, company (3-6), or band (7-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (chainmail, composite longbow [+3 Str], scimitar, other gear)"
+      }
+    ]
+  }
+}

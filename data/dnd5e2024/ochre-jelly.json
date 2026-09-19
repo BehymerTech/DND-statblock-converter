@@ -1,0 +1,85 @@
+{
+  "name": "Ochre Jelly",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Large",
+  "type": "Ooze",
+  "subtype": "",
+  "alignment": "Unaligned",
+  "cr": "2",
+  "level": null,
+  "xp": 450,
+  "ac": {
+    "value": 8,
+    "notes": ""
+  },
+  "hp": {
+    "average": 52,
+    "formula": "7d10 + 14"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": 20,
+    "burrow": null,
+    "notes": "20 ft., Climb 20 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 6,
+    "con": 14,
+    "int": 2,
+    "wis": 6,
+    "cha": 1
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Blindsight 60 ft."
+  ],
+  "passivePerception": 8,
+  "languages": [],
+  "initiative": "-2 (8)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Amorphous",
+      "text": "The jelly can move through a space as narrow as 1 inch without expending extra movement to do so."
+    },
+    {
+      "name": "Spider Climb",
+      "text": "The jelly can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Pseudopod",
+      "text": "_Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 12 (3d6 + 2) Acid damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [
+    {
+      "name": "Split",
+      "text": "_Trigger:_ While the jelly is Large or Medium and has 10+ Hit Points, it becomes Bloodied or is subjected to Lightning or Slashing damage. _Response:_ The jelly splits into two new **Ochre Jellies**. Each new jelly is one size smaller than the original jelly and acts on its Initiative. The original jelly's Hit Points are divided evenly between the new jellies (round down). ## Ogre"
+    }
+  ],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

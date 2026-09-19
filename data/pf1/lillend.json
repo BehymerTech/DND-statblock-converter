@@ -1,0 +1,111 @@
+{
+  "name": "Lillend",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "azata, chaotic, extraplanar, good",
+  "alignment": "CG",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "dex +3, natural +8, size -1",
+    "touch": 12,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 73,
+    "formula": "7d10+35"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 70 ft. (average)"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 17,
+    "con": 21,
+    "int": 14,
+    "wis": 16,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +7, Ref +10, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +14, Diplomacy +14, Fly +11, Knowledge (nature) +9, Perception +13, Perform (stringed instruments) +16, Sense Motive +13, Survival +14",
+    "list": {
+      "Bluff": "+14",
+      "Diplomacy": "+14",
+      "Fly": "+11",
+      "Perception": "+13",
+      "Sense Motive": "+13",
+      "Survival": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 7,
+  "feats": [
+    "Combat Casting",
+    "Hover",
+    "Iron Will",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 longsword +12/+7 (2d6+8/19-20), tail slap +6 (2d6+2 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature has the body of a seductive, winged elven woman from the waist up and that of a snake from the waist down.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": "26 (can’t be tripped)",
+    "racialModifiers": [
+      "Survival 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Elysium)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or choir (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+1 longsword, masterwork harp)"
+      }
+    ]
+  }
+}

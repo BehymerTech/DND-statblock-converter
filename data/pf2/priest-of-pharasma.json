@@ -1,0 +1,104 @@
+{
+  "name": "Priest Of Pharasma",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 213.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 80,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 12,
+    "int": 10,
+    "wis": 18,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +11, Ref +11, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Diplomacy__: +12 (1d20+12); __Medicine__: +14 (1d20+14); __Religion__: +14 (1d20+14); __Society__: +11 (1d20+11); __Survival__: +12 (1d20+12); ",
+    "list": {
+      "Diplomacy": "+12",
+      "Medicine": "+14",
+      "Religion": "+14",
+      "Society": "+11",
+      "Survival": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 24,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Healing Hands",
+      "text": "When the priest casts heal, they roll d10s instead of d8s."
+    },
+    {
+      "name": "Steady Spellcasting",
+      "text": "If another creature's reaction would disrupt the priest's spellcasting action, the priest attempts a DC 15 flat check. If the priest succeeds, their action isn't disrupted."
+    },
+    {
+      "name": "Items",
+      "text": "+1 dagger, religious symbol of Pharasma;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ dagger +13 (agile, magical, versatile s); Damage 1d6+5 (1d6+5) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ dagger +13 (agile, magical, thrown 10 feet, versatile s); Damage 1d6+5 (1d6+5) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      3,
+      1,
+      0,
+      4,
+      2
+    ],
+    "items": "+1 dagger, religious symbol of Pharasma;"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "name": "Amalgamite",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 14.",
+  "size": "Medium",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 13",
+  "xp": null,
+  "ac": {
+    "value": 33,
+    "notes": ""
+  },
+  "hp": {
+    "average": 220,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 22,
+    "con": 18,
+    "int": 26,
+    "wis": 22,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +22, Ref +22, Will +26",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +27 (1d20+27); __Athletics__: +22 (1d20+22); __Occultism__: +27 (1d20+27); __Lore (any one subcategory)__: +27 (1d20+27); ",
+    "list": {
+      "Arcana": "+27",
+      "Athletics": "+22",
+      "Occultism": "+27"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Draconic"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Destabilizing Field",
+      "text": "(aura, conjuration); 40 feet. A creature that begins its turn within the area feels its body begin to stretch and must succeed at a DC 33 Fortitude save or become destabilized. A destabilized creature emits a 10-foot destabilizing field aura and becomes sickened 1. The destabilization ends when the creature is no longer sickened. A creature that succeeds at its saving throw against the aura is temporarily immune to all destabilizing fields for 1 minute."
+    },
+    {
+      "name": "Displace",
+      "text": "⬲ Trigger The amalgamite is hit by a Strike Effect The amalgamite Repositions itself or Transposes itself with another creature. If the amalgamite successfully changes its location, it and any Transposed creature take half damage from the triggering Strike."
+    },
+    {
+      "name": "Reposition",
+      "text": "⬺ (concentrate, conjuration, occult, teleportation); The amalgamite teleports into an unoccupied space it can see within 50 feet."
+    },
+    {
+      "name": "Transpose",
+      "text": "⬺ (conjuration, occult, teleportation); The amalgamite chooses up to two destabilized creatures they can see within 50 feet and swaps their positions, or moves a single such creature to an unoccupied space they can see within range. If the amalgamite chooses two creatures, they can choose their self as one of these creatures, but both targets must be the same size. An unwilling creature can attempt a DC 33 Will save. If either target succeeds at this saving throw, both are unaffected."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ limb +24 Damage 3d10+11 (3d10+11) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ warping ray +27 (deadly 2d8, magical, range 100 feet); Damage 3d8+8 (3d8+8) force"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      6,
+      4,
+      8,
+      6,
+      -1
+    ]
+  }
+}

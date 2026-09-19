@@ -1,0 +1,112 @@
+{
+  "name": "Cloud Giant",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Huge",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "NG or NE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 25,
+    "notes": "armor +4, dex +1, natural +12, size -2",
+    "touch": 9,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 168,
+    "formula": "16d8+96"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 13,
+    "con": 23,
+    "int": 12,
+    "wis": 16,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +16, Ref +6, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +19, Craft (any one) +10, Diplomacy +9, Intimidate +26, Perception +17, Perform (string instruments) +8",
+    "list": {
+      "Climb": "+19",
+      "Diplomacy": "+9",
+      "Intimidate": "+26",
+      "Perception": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 12,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Great Cleave",
+    "Improved Bull Rush",
+    "Improved Overrun",
+    "Intimidating Prowess",
+    "Iron Will",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "morningstar +22/+17/+12 (4d6+18)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +12 (2d6+18)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering giant has finely chiseled features. Her skin is pale and smooth, and her long wispy hair flutters as if in a breeze.",
+  "meta": {
+    "cmb": "+26",
+    "cmd": 37,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, gang (2-5), family (2-5 plus 35% noncombatants plus 1 sorcerer or cleric of 4th-7th level and 2-5 griffons), or tribe (6-20 plus 1 sorcerer or cleric oracle of 7th-12th level and 2-5 griffons)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (chain shirt, morningstar, other treasure)"
+      }
+    ]
+  }
+}

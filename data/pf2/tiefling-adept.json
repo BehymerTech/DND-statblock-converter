@@ -1,0 +1,115 @@
+{
+  "name": "Tiefling Adept",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 262.",
+  "size": "Medium",
+  "type": "Tiefling",
+  "subtype": "Human, Humanoid",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 29,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 10,
+    "int": 18,
+    "wis": 12,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +5, Ref +7, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Arcana__: +9 (1d20+9); __Deception__: +9 (1d20+9); __Intimidation__: +7 (1d20+7); __Occultism__: +9 (1d20+9); __Religion__: +6 (1d20+6); __Society__: +9 (1d20+9); __Stealth__: +7 (1d20+7); __Abyss lore__: +9 (1d20+9); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Arcana": "+9",
+      "Deception": "+9",
+      "Intimidation": "+7",
+      "Occultism": "+9",
+      "Religion": "+6",
+      "Society": "+9",
+      "Stealth": "+7",
+      "Abyss lore": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Abyssal",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Drain Bonded Item",
+      "text": "⭓ Requirements The adept hasn't acted yet on this turn. Frequency once per day Effect The adept expends the power stored in its staff. This gives the adept the ability to cast one prepared spell it had already previously cast today (choosing a different spell level each time), without spending a spell slot. The adept must still Cast the Spell and meet the spell's other requirements."
+    },
+    {
+      "name": "Duskwalker",
+      "text": "Duskwalkers are infused with the same energies as psychopomps. These ashen scions are reborn on the Material Plane to serve as guardians of the cycle of life and death."
+    },
+    {
+      "name": "Items",
+      "text": "dagger, explorer's clothing, spellbook, staff;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ staff +6 (two-handed 1d8); Damage 1d6 (1d6) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ dagger +7 (agile, finesse, versatile s); Damage 1d4 (1d4) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ dagger +7 (agile, thrown 10 feet, versatile s); Damage 1d4+1 (1d4+1) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      2,
+      0,
+      4,
+      1,
+      2
+    ],
+    "items": "dagger, explorer's clothing, spellbook, staff;"
+  }
+}

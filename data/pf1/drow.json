@@ -1,0 +1,107 @@
+{
+  "name": "Drow",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "alignment": "CE",
+  "cr": "1/3",
+  "level": null,
+  "xp": 135,
+  "ac": {
+    "value": 15,
+    "notes": "armor +2, dex +2, shield +1",
+    "touch": 12,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 5,
+    "formula": "1d10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 15,
+    "con": 10,
+    "int": 10,
+    "wis": 9,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +2, Ref +2, Will -1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +2, Stealth +2",
+    "list": {
+      "Perception": "+2",
+      "Stealth": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Elven",
+    "Undercommon"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 1,
+  "feats": [
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "rapier +2 (1d6/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "hand crossbow +3 (1d4/19-20 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless.",
+  "meta": {
+    "race": "Drow",
+    "class": "warrior 1",
+    "cmb": "+1",
+    "cmd": 13,
+    "racialModifiers": [
+      "Perception 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "pair, squad (3-4), patrol (5-8), or war party (10-40)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (leather armor, light steel shield, rapier, hand crossbow with 20 bolts, drow poison [2 doses], 3d6 gp, other treasure)"
+      }
+    ]
+  }
+}

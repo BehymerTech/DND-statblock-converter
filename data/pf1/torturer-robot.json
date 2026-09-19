@@ -1,0 +1,112 @@
+{
+  "name": "Torturer Robot",
+  "sourceSystem": "pf1",
+  "source": "Numeria, Land of Fallen Stars",
+  "size": "Small",
+  "type": "construct",
+  "subtype": "robot",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 23,
+    "notes": "dex +5, dodge +1, natural +6, size +1",
+    "touch": 17,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 105,
+    "formula": "10d10+10 plus 40-hp force field"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 40 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 21,
+    "con": "None",
+    "int": 10,
+    "wis": 15,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +3, Ref +8, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +15, Heal +17, Perception +19, Sense Motive +19",
+    "list": {
+      "Fly": "+15",
+      "Heal": "+17",
+      "Perception": "+19",
+      "Sense Motive": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Common",
+    "Hallit"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 10,
+  "feats": [
+    "Alertness",
+    "Dodge",
+    "Mobility",
+    "Vital Strike",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 rotating blades +16 (1d4+5/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "4 surgical lasers +16 touch (1d8/19-20 plus fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Spinning blades, long needles, and crystal-tipped rods stud the surface of this hovering metallic sphere.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": "24 (can’t be tripped)",
+    "racialModifiers": [
+      "Heal 15"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Numeria)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

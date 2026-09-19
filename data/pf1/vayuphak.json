@@ -1,0 +1,113 @@
+{
+  "name": "Vayuphak",
+  "sourceSystem": "pf1",
+  "source": "Occult Bestiary",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "asura, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +3, dodge +1, natural +4",
+    "touch": 14,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 52,
+    "formula": "8d10+8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 40 ft. (good)"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 13,
+    "int": 15,
+    "wis": 16,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +3, Ref +11, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +13, Bluff +15, Diplomacy +10, Escape Artist +15, Fly +15, Intimidate +12, Knowledge (planes) +10, Perception +18, Perform (dance) +13, Spellcraft +9, Stealth +10",
+    "list": {
+      "Acrobatics": "+13",
+      "Bluff": "+15",
+      "Diplomacy": "+10",
+      "Escape Artist": "+15",
+      "Fly": "+15",
+      "Intimidate": "+12",
+      "Perception": "+18",
+      "Spellcraft": "+9",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Common",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 8,
+  "feats": [
+    "Dodge",
+    "Flyby Attack",
+    "Lightning Reflexes",
+    "Mobility"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk spear +12/+7 (1d8+4/×3), 2 wings +6 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This blue-skinned humanoid has two pairs of ebony wings protruding from its waist. Talon-like nails grace its hands.",
+  "meta": {
+    "cmb": "+11",
+    "cmd": 25,
+    "racialModifiers": [
+      "Escape Artist 6",
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or band (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk spear, other treasure)"
+      }
+    ]
+  }
+}

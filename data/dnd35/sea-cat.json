@@ -1,0 +1,105 @@
+{
+  "name": "Sea Cat",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Always neutral",
+  "cr": "4",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": "-1 size, +1 Dex, +8 natural",
+    "touch": 10,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 51,
+    "formula": "6d10+18"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": 40,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft. (2 squares), swim 40 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 12,
+    "con": 17,
+    "int": 2,
+    "wis": 13,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +6, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Listen +8, Spot +7, Swim +12;",
+    "list": {
+      "Listen": "+8",
+      "Spot": "+7",
+      "Swim": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 6,
+  "feats": [
+    "Alertness",
+    "Endurance",
+    "Iron Will"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Rend 2d6+6"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., hold breath, low-light vision, scent"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Claw +9 melee (1d6+4)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +9 melee (1d6+4) and bite +4 melee (1d8+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A typical sea cat is 12 feet long and weighs 800 pounds.",
+    "grapple": "+14",
+    "spaceReach": "10 ft./5 ft.",
+    "environment": "Temperate aquatic",
+    "organization": "Solitary, pair, or pride (5-12)",
+    "treasure": "None",
+    "advancement": "7-9 HD (Large); 10-18 HD (Huge)",
+    "leveladjustment": "---"
+  }
+}

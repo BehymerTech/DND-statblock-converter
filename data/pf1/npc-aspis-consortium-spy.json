@@ -1,0 +1,105 @@
+{
+  "name": "NPC Aspis Consortium Spy",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "halfling",
+  "alignment": "NE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 22,
+    "notes": "armor +5, deflection +1, dex +4, dodge +1, size +1",
+    "touch": 17,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 75,
+    "formula": "11d8+22"
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 18,
+    "con": 12,
+    "int": 14,
+    "wis": 10,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +5, Ref +12, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +14, Bluff +25, Climb +0, Disguise +25, Knowledge (local) +13, Knowledge (nobility) +14, Linguistics +8, Perception +16, Perform (act) +17, Perform (dance) +10, Sense Motive +18, Sleight of Hand +13, Stealth +22",
+    "list": {
+      "Acrobatics": "+14",
+      "Bluff": "+25",
+      "Climb": "+0",
+      "Disguise": "+25",
+      "Linguistics": "+8",
+      "Perception": "+16",
+      "Sense Motive": "+18",
+      "Sleight of Hand": "+13",
+      "Stealth": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 26,
+  "languages": [
+    "Common",
+    "Elven",
+    "Halfling",
+    "Kelish",
+    "Osiriani",
+    "Tien",
+    "Varisian"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 8,
+  "feats": [
+    "Deceitful",
+    "Dodge",
+    "Fleet",
+    "Iron Will",
+    "Toughness",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 dagger +14/+9 (1d3-1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 dagger +14 (1d3-1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Halfling",
+    "class": "bard 7, master spy 4",
+    "cmb": "+5",
+    "cmd": 21
+  }
+}

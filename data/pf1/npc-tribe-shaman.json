@@ -1,0 +1,90 @@
+{
+  "name": "NPC Tribe (Shaman)",
+  "sourceSystem": "pf1",
+  "source": "GameMastery Guide",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 12,
+    "notes": "armor +3, dex -1",
+    "touch": 9,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 31,
+    "formula": "7d6+7"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 8,
+    "con": 12,
+    "int": 12,
+    "wis": 13,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +3, Ref +1, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (alchemy) +10, Heal +12, Knowledge (history) +6, Knowledge (local) +6, Knowledge (nature) +6, Knowledge (religion) +6, Profession (herbalist) +10, Spellcraft +6, Survival +13, Perception +1",
+    "list": {
+      "Heal": "+12",
+      "Spellcraft": "+6",
+      "Survival": "+13",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 11,
+  "languages": [
+    "Common",
+    "Ignan"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 3,
+  "feats": [
+    "Brew Potion",
+    "Combat Casting",
+    "Craft Wand",
+    "Improved Familiar",
+    "Self-Sufficient"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk sickle +4 (1d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "adept 7",
+    "cmb": "+3",
+    "cmd": 12
+  }
+}

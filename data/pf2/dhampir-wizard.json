@@ -1,0 +1,113 @@
+{
+  "name": "Dhampir Wizard",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 95.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Dhampir, Human",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 22,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 16,
+    "con": 10,
+    "int": 18,
+    "wis": 10,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +4, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Arcana__: +8 (1d20+8); __Deception__: +5 (1d20+5); __Intimidation__: +5 (1d20+5); __Society__: +8 (1d20+8); __Stealth__: +7 (1d20+7); __Vampire lore__: +8 (1d20+8); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Arcana": "+8",
+      "Deception": "+5",
+      "Intimidation": "+5",
+      "Society": "+8",
+      "Stealth": "+7",
+      "Vampire lore": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Common",
+    "Necril"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Blood of the Night",
+      "text": "The dhampir's penalty and Hit Point reduction from the drained condition are reduced as though the condition value were 1 lower."
+    },
+    {
+      "name": "Items",
+      "text": "dagger, spellbook containing their prepared spells, staff;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ dagger +7 (agile, finesse, versatile S); Damage 1d4+2 (1d4+2) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ staff +6 (two-handed d8); Damage 1d6+2 (1d6+2) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +7 (agile, finesse, nonlethal); Damage 1d4+2 (1d4+2) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ dagger +7 (agile, thrown 10 feet, versatile S); Damage 1d4+2 (1d4+2) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      3,
+      0,
+      4,
+      0,
+      1
+    ],
+    "items": "dagger, spellbook containing their prepared spells, staff;"
+  }
+}

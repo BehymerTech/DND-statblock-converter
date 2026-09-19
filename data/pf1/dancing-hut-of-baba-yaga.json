@@ -1,0 +1,92 @@
+{
+  "name": "Dancing Hut of Baba Yaga",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 68: The Shackled Hut, Artifacts and Legends",
+  "size": "Huge",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 34,
+    "notes": "dex +12, natural +14, size -2",
+    "touch": 20,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 188,
+    "formula": "27d10+40"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft."
+  },
+  "abilities": {
+    "str": 37,
+    "dex": 34,
+    "con": "None",
+    "int": "None",
+    "wis": 27,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +9, Ref +21, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": null,
+  "languages": [
+    "understands any (cannot speak)"
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 27,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +38 (2d6+13 plus grab), slam +38 (2d8+13 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A rustic hut stands here, its timber walls hung with bundles of drying herbs and etched with eerie symbols. From beneath its splintering wooden porch extends a pair of legs, like those of a fifteen-foot-tall chicken with gigantic talons caked in mud but sharp as razors.",
+  "meta": {
+    "cmb": "42 (+46 grapple)",
+    "cmd": 64,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (none)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

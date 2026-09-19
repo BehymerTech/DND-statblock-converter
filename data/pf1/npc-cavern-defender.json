@@ -1,0 +1,100 @@
+{
+  "name": "NPC Cavern Defender",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf, human",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 20,
+    "notes": "armor +5, dex +2, dodge +1, shield +2",
+    "touch": 13,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 31,
+    "formula": "5d8+5"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 14,
+    "con": 13,
+    "int": 12,
+    "wis": 18,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +6, Ref +6, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +1, Fly +4, Handle Animal +6, Heal +10, Knowledge (dungeoneering) +6, Knowledge (nature) +11, Perception +11, Spellcraft +7, Survival +15",
+    "list": {
+      "Climb": "+1",
+      "Fly": "+4",
+      "Handle Animal": "+6",
+      "Heal": "+10",
+      "Perception": "+11",
+      "Spellcraft": "+7",
+      "Survival": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common",
+    "Druidic",
+    "Elven",
+    "Undercommon"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 3,
+  "feats": [
+    "Dodge",
+    "Lightning Reflexes",
+    "Natural Spell",
+    "Skill Focus (Survival)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "quarterstaff +2 (1d6-1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk sling +6 (1d4-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-elf",
+    "class": "druid 5",
+    "cmb": "+2",
+    "cmd": 15
+  }
+}

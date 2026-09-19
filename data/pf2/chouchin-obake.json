@@ -1,0 +1,105 @@
+{
+  "name": "Chouchin-obake",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 277.",
+  "size": "Medium",
+  "type": "Kami",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 75,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 20 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 18,
+    "int": 16,
+    "wis": 20,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +12, Ref +16, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +12 (1d20+12); __Deception__: +10 (1d20+10); __Stealth__: +16 (1d20+16); ",
+    "list": {
+      "Acrobatics": "+12",
+      "Deception": "+10",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 25,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Lifewick Candle",
+      "text": "(aura, divine, necromancy, negative); 15 feet. A ghostly blue flame within the chouchin-obake draws upon the life-force of the living to sustain themself. At the start of the chouchin-obake's turn, each creature in the aura takes 2d6 (2d6) negative damage (DC 26 basic Fortitude save). The chouchinobake regains an amount of Hit Points equal to the amount of damage taken by the single creature that took the most damage."
+    },
+    {
+      "name": "Shadowbind",
+      "text": "⬲ Trigger A creature attempts to leave the chouchinobake's Effect"
+    },
+    {
+      "name": "Lifewick",
+      "text": "Candle aura during a move action; The chouchin-obake attempts to bind the creature using their own shadow. The triggering creature must succeed at a DC 26 Reflex save or become immobilized until its next turn."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 2d8 (2d8) negative plus 1d6 (1d6) fire, DC 26"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ tendril +16 (finesse, reach 15 feet); Damage 2d8 (2d8) negative plus 2d6 (2d6) fire plus Grab"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ flame +16 (range increment 30 feet); Damage 2d4 (2d4) negative plus 2d6 (2d6) fire"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      4,
+      4,
+      3,
+      5,
+      0
+    ]
+  }
+}

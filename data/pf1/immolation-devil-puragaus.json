@@ -1,0 +1,117 @@
+{
+  "name": "Immolation Devil (Puragaus)",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 36,
+    "notes": "dex +8, natural +19, size -1",
+    "touch": 17,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 315,
+    "formula": "18d10+216"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 80 ft. (good)"
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 26,
+    "con": 35,
+    "int": 24,
+    "wis": 23,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +23, Ref +19, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +28, Diplomacy +28, Disable Device +26, Fly +31, Intimidate +28, Knowledge (arcana) +25, Knowledge (nobility) +25, Knowledge (engineering) +28, Knowledge (planes) +28, Perception +27, Sense Motive +27, Spellcraft +28, Stealth +25",
+    "list": {
+      "Bluff": "+28",
+      "Diplomacy": "+28",
+      "Disable Device": "+26",
+      "Fly": "+31",
+      "Intimidate": "+28",
+      "Perception": "+27",
+      "Sense Motive": "+27",
+      "Spellcraft": "+28",
+      "Stealth": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 18,
+  "feats": [
+    "Blind-Fight",
+    "Blinding Critical",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack",
+    "Stand Still"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +29 (2d6+12 plus burn), 2 claw +29 (1d8+12 plus burn), gore +29 (2d8+12 plus burn), 2 wings +27 (1d8+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Ash and embers encrust the smoldering humanoid frame of this imperious, dragon-winged devil.",
+  "meta": {
+    "cmb": "+31",
+    "cmd": 49,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or council (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

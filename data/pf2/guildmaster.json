@@ -1,0 +1,105 @@
+{
+  "name": "Guildmaster",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 245.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 26,
+    "notes": ""
+  },
+  "hp": {
+    "average": 135,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 12,
+    "int": 18,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +14, Ref +14, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +13 (1d20+13); __Crafting__: +25 (1d20+25); __Diplomacy__: +24 (1d20+24); __Intimidation__: +22 (1d20+22); __Society__: +21 (1d20+21); __Architecture lore__: +25 (1d20+25); __Bureaucracy lore__: +19 (1d20+19); ",
+    "list": {
+      "Athletics": "+13",
+      "Crafting": "+25",
+      "Diplomacy": "+24",
+      "Intimidation": "+22",
+      "Society": "+21",
+      "Architecture lore": "+25",
+      "Bureaucracy lore": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 26,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Diplomacy",
+      "text": "+24, Intimidation +22, Society +21 Str +3, Dex +1, Con +1, Int +4, Wis +2, Cha +3 Items artisan's tools, construction schematics, guildmaster's uniform (functions as hide armor), +1 striking light hammer, tax ledgers."
+    },
+    {
+      "name": "Call to Action",
+      "text": "⬻ (auditory, concentrate, emotion, mental); The guildmaster gives a speech to inspire themself and all guild-member allies within 60 feet, granting them a +1 status bonus to attack and damage rolls until the start of the guildmaster's next turn."
+    },
+    {
+      "name": "Sworn Duty",
+      "text": "While within the guild or presiding over guild business, the guildmaster gains a +2 circumstance bonus to weapon attack rolls and deals an additional 2d6 (2d6) damage on a successful weapon attack."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ light hammer +16 (agile); Damage 2d6+5 (2d6+5) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ light hammer +14 (agile, magical, thrown 20 feet); Damage 2d6+5 (2d6+5) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      1,
+      1,
+      4,
+      2,
+      3
+    ]
+  }
+}

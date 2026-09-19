@@ -1,0 +1,116 @@
+{
+  "name": "Green Hag",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 201.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Hag",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 70,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, swim 25 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 16,
+    "con": 16,
+    "int": 14,
+    "wis": 14,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +11, Ref +11, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +9 (1d20+9); __Athletics__: +11 (1d20+11); __Deception__: +10 (1d20+10); __Nature__: +8 (1d20+8); __Occultism__: +8 (1d20+8); __Stealth__: +9 (1d20+9); ",
+    "list": {
+      "Acrobatics": "+9",
+      "Athletics": "+11",
+      "Deception": "+10",
+      "Nature": "+8",
+      "Occultism": "+8",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Jotun; tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Coven",
+      "text": "A green hag adds entangle, outcast's curse, and wall of thorns to her coven's spells."
+    },
+    {
+      "name": "Sound Imitation",
+      "text": "A green hag who succeeds at a Deception check to Lie can mimic the sounds of any animal found near her lair. She has a +4 circumstance bonus to this check."
+    },
+    {
+      "name": "Betraying Touch",
+      "text": "⬻ The green hag touches a creature that doesn't realize the hag is an enemy. The betrayed creature is affected by the hag's enfeebling humors and takes a –4 circumstance penalty to their saving throw against that effect."
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, occult, polymorph, transmutation); The green hag can take on the appearance of any Medium humanoid woman. This doesn't change her Speed or her attack and damage bonuses with her Strikes, but might change the damage type her Strikes deal (typically to bludgeoning)."
+    },
+    {
+      "name": "Enfeebling Humors",
+      "text": "(necromancy, occult); A creature damaged by a hag's claw must succeed at a DC 20 Fortitude save or be enfeebled 1 for 1 day. On a critical failure, or if it gets hit again and fails its save a second time, it's enfeebled 2 for 1 day."
+    },
+    {
+      "name": "Exhale Miasma",
+      "text": "⬺ (necromancy, occult); The green hag exhales a miasma of green vapors. Each living creature in a 15-foot cone is affected by her enfeebling humors (attempting a save as normal). She can't use Exhale Miasma again for 1d4 (1d4) rounds."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +14 (agile, magical); Damage 1d10+5 (1d10+5) slashing plus enfeebling humors"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      3,
+      3,
+      2,
+      2,
+      4
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Cerebric Cyst",
+  "sourceSystem": "pf1",
+  "source": "Occult Bestiary",
+  "size": "Tiny",
+  "type": "ooze",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 19,
+    "notes": "dex +4, dodge +1, insight +2, size +2",
+    "touch": 19,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 85,
+    "formula": "10d8+40"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 4,
+    "dex": 19,
+    "con": 18,
+    "int": 15,
+    "wis": 22,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +9, Ref +9, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +14, Diplomacy +6, Fly +20, Perception +16, Sense Motive +16, Stealth +15",
+    "list": {
+      "Bluff": "+14",
+      "Diplomacy": "+6",
+      "Fly": "+20",
+      "Perception": "+16",
+      "Sense Motive": "+16",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "thoughtsense"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Aklo (can’t speak)",
+    "Common (can’t speak)",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 7,
+  "feats": [
+    "Defensive Combat Training",
+    "Dodge",
+    "Great Fortitude",
+    "Iron Will",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 tentacles +13 (2d6 electricity plus empowering strike and psychic sting)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This floating, purple brain has occult sigils glowing on its surface and tentacles made of ectoplasm.",
+  "meta": {
+    "cmb": "+9",
+    "cmd": "22 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any ruins or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, flight (3-6), or colony (7-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

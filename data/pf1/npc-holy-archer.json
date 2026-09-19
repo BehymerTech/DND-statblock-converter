@@ -1,0 +1,95 @@
+{
+  "name": "NPC Holy Archer",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "alignment": "LG",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "armor +4, dex +4",
+    "touch": 14,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 43,
+    "formula": "6d10+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 11,
+    "int": 10,
+    "wis": 12,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +7, Ref +8, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +2, Perception +9, Sense Motive +5, Stealth +5",
+    "list": {
+      "Climb": "+2",
+      "Perception": "+9",
+      "Sense Motive": "+5",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Common",
+    "Elven",
+    "Orc"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 6,
+  "feats": [
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Rapid Shot"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "longsword +6/+1 (1d8/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 longbow +11/+6 (1d8+1/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Elf",
+    "class": "paladin of Erastil 6",
+    "cmb": "+6",
+    "cmd": 20
+  }
+}

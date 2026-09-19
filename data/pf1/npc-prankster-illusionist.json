@@ -1,0 +1,105 @@
+{
+  "name": "NPC Prankster Illusionist",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "gnome",
+  "alignment": "CN",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 20,
+    "notes": "armor +4, deflection +1, dex +2, dodge +1, natural +1, size +1",
+    "touch": 15,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 73,
+    "formula": "10d6+36"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 14,
+    "con": 16,
+    "int": 18,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +7, Ref +6, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Appraise +12, Craft (sculptures) +14, Fly +12, Knowledge (arcana) +17, Knowledge (geography) +10, Knowledge (local) +10, Knowledge (nature) +10, Perception +9, Perform (oratory) +6, Spellcraft +17, Stealth +11",
+    "list": {
+      "Acrobatics": "+7",
+      "Appraise": "+12",
+      "Fly": "+12",
+      "Perception": "+9",
+      "Spellcraft": "+17",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Elven",
+    "Gnome",
+    "Sylvan"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 5,
+  "feats": [
+    "Combat Casting",
+    "Craft Wand",
+    "Craft Wondrous Item",
+    "Dodge",
+    "Empower Spell",
+    "Improved Initiative",
+    "Scribe Scroll",
+    "Spell Focus (illusion)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk dagger +5 (1d3-2/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk dagger +9 (1d3-2/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Gnome",
+    "class": "illusionist 10",
+    "cmb": "+2",
+    "cmd": 16
+  }
+}

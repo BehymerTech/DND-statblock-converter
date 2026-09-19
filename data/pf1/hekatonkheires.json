@@ -1,0 +1,124 @@
+{
+  "name": "Hekatonkheires",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Colossal",
+  "type": "outsider",
+  "subtype": "chaotic, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "24",
+  "level": null,
+  "xp": 1228800,
+  "ac": {
+    "value": 42,
+    "notes": "armor +8, dex +2, natural +30, size -8",
+    "touch": 4,
+    "flatFooted": 40
+  },
+  "hp": {
+    "average": 516,
+    "formula": "24d10+384"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., other_semicolon air walk ft."
+  },
+  "abilities": {
+    "str": 48,
+    "dex": 15,
+    "con": 43,
+    "int": 22,
+    "wis": 19,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +30, Ref +12, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +29, Bluff +34, Climb +46, Craft (any) +33, Diplomacy +31, Escape Artist +29, Intimidate +34, Knowledge (history) +30, Knowledge (planes) +33, Perception +35, Sense Motive +35, Survival +28",
+    "list": {
+      "Acrobatics": "+29",
+      "Bluff": "+34",
+      "Climb": "+46",
+      "Diplomacy": "+31",
+      "Escape Artist": "+29",
+      "Intimidate": "+34",
+      "Perception": "+35",
+      "Sense Motive": "+35",
+      "Survival": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 45,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 24,
+  "feats": [
+    "Alertness",
+    "Cleave",
+    "Combat Expertise",
+    "Critical Focus",
+    "Great Cleave",
+    "Greater Vital Strike",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+3 weapon +38/+33/+28/+23 (6d6+22 plus hundred-handed whirlwind)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +22/+17/+12/+7 (8d8+31/18-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This behemoth looks like a towering humanoid with fifty heads and twice as many hands, each wielding a different weapon.",
+  "meta": {
+    "cmb": "+51",
+    "cmd": 71,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple (50-100 various weapons, other treasure)"
+      }
+    ]
+  }
+}

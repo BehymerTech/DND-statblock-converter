@@ -1,0 +1,113 @@
+{
+  "name": "Veiled Master",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Inner Sea Bestiary",
+  "size": "Large",
+  "type": "aberration",
+  "subtype": "aquatic, shapechanger",
+  "alignment": "LE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 30,
+    "notes": "armor +4, dex +6, natural +11, size -1",
+    "touch": 15,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 200,
+    "formula": "16d8+128"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., swim 80 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 22,
+    "con": 27,
+    "int": 21,
+    "wis": 19,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +13, Ref +13, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (arcana) +21, Knowledge (history) +21, Knowledge (nature) +21, Perception +23, Sense Motive +20, Spellcraft +24, Stealth +21, Swim +33, Use Magic Device +22",
+    "list": {
+      "Perception": "+23",
+      "Sense Motive": "+20",
+      "Spellcraft": "+24",
+      "Stealth": "+21",
+      "Swim": "+33",
+      "Use Magic Device": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Aboleth",
+    "Aklo",
+    "Aquan",
+    "Common",
+    "Undercommon"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 12,
+  "feats": [
+    "Arcane Strike",
+    "Combat Casting",
+    "Combat Expertise",
+    "Eschew Materials",
+    "Extend Spell",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Quicken Spell",
+    "Quicken Spell-Like Ability (dominate person)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +17 (2d6+6 plus consume memory and slime), 2 claws +17 (1d6+6 plus slime), 4 tentacles +12 touch (2d6 electricity plus thoughtlance)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This monstrosity has six eyes and six long tentacles-four that end in glowing spheres, and two with what look like hands.",
+  "meta": {
+    "cmb": "+19",
+    "cmd": 35,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or shoal (1 and 2-8 aboleths)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Ketesthius",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Gargantuan",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "LE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 28,
+    "notes": "dex +7, natural +15, size -4",
+    "touch": 13,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 200,
+    "formula": "16d10+112"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 25,
+    "con": 24,
+    "int": 5,
+    "wis": 16,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +17, Ref +17, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +14, Swim +29",
+    "list": {
+      "Perception": "+14",
+      "Swim": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common (can’t speak)"
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 16,
+  "feats": [
+    "Critical Focus",
+    "Improved Critical (bite)",
+    "Improved Critical (claws)",
+    "Improved Initiative",
+    "Iron Will",
+    "Lunge",
+    "Power Attack",
+    "Staggering Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +22 (4d8+10/19-20 plus grab), 2 claws +22 (2d6+10/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous wolf-headed sea serpent’s maw leads into what seems to be an endless expanse within.",
+  "meta": {
+    "cmb": "30 (+34 grapple)",
+    "cmd": 47,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans or coastlines"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

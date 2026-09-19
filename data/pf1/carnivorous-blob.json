@@ -1,0 +1,95 @@
+{
+  "name": "Carnivorous Blob",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Colossal",
+  "type": "ooze",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 2,
+    "notes": "size -8",
+    "touch": 2,
+    "flatFooted": 2
+  },
+  "hp": {
+    "average": 184,
+    "formula": "16d8+112"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., climb 20 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 11,
+    "con": 24,
+    "int": "None",
+    "wis": 1,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +12, Ref +5, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +21, Swim +21, Perception -5",
+    "list": {
+      "Climb": "+21",
+      "Swim": "+21",
+      "Perception": "-5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "tremorsense"
+  ],
+  "passivePerception": 5,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 12,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +17 (8d6+19 plus 1d4 Con drain and grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Rolling and twitching like a massive wad of translucent ooze, this crimson blob reaches out amorphous pseudopods in all directions.",
+  "meta": {
+    "cmb": "33 (+37 grapple)",
+    "cmd": "37 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

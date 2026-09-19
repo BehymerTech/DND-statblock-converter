@@ -1,0 +1,97 @@
+{
+  "name": "Small Ice Elemental",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Small",
+  "type": "outsider",
+  "subtype": "air, cold, elemental, extraplanar, water",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 16,
+    "notes": "dex -1, natural +6, size +1",
+    "touch": 10,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 13,
+    "formula": "2d10+2"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., burrow (ice and snow only) 20 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 8,
+    "con": 13,
+    "int": 4,
+    "wis": 11,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +4, Ref +2, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (planes) +2, Perception +5, Stealth +8, Swim +9",
+    "list": {
+      "Perception": "+5",
+      "Stealth": "+8",
+      "Swim": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "snow vision"
+  ],
+  "passivePerception": 15,
+  "languages": [],
+  "initiative": "-1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +4 (1d4+1 plus 1d3 cold)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "From the waist up, this icy creature’s features are humanoid, but below its body is a snake-like, slithering tail.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": "11 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land or water (Plane of Water)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

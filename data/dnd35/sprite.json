@@ -1,0 +1,146 @@
+{
+  "name": "Sprite",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Small",
+  "type": "Fey",
+  "subtype": "",
+  "alignment": "Always neutral good",
+  "cr": "4 (5 with *irresistible dance*)",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": "+1 size, +4 Dex, +1 natural",
+    "touch": 15,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 3,
+    "formula": "1d6"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": 60,
+    "swim": 30,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft. (4 squares), fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 7,
+    "dex": 18,
+    "con": 11,
+    "int": 16,
+    "wis": 15,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +0, Ref +6, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +7, Concentration +4, Escape Artist +8, Hide +8, Listen +8, Move Silently +8, Ride +8, Search +9, Sense Motive +6, Spot +8;",
+    "list": {
+      "Escape Artist": "+8",
+      "Hide": "+8",
+      "Jump": "+3",
+      "Listen": "+8",
+      "Move Silently": "+8",
+      "Search": "+9",
+      "Spot": "+8",
+      "Bluff": "+7",
+      "Handle Animal": "+8",
+      "Sense Motive": "+6",
+      "Swim": "+6",
+      "Concentration": "+4",
+      "Ride": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "low-light vision",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 0,
+  "feats": [
+    "Dodge (B)",
+    "Weapon Finesse"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Spell-like abilities, fiddle"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 5/cold iron, low-light vision, spell resistance 17"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Charm person"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Amphibious, damage reduction 5/cold iron, low-light vision, spell resistance 16, *water breathing,* wild empathy"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Spell-like abilities, special arrows"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 10/cold iron, greater invisibility, low-light vision, spell resistance 15"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Short sword +6 melee (1d3-3/19-20) or longbow +6 ranged (1d4-3/x3)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Short sword +6 melee (1d3-3/19-20) or longbow +6 ranged (1d4-3/x3)"
+    },
+    {
+      "name": "Attack",
+      "text": "Short sword +4 melee (1d4-2/19-20) or light crossbow +4 ranged (1d6/19-20)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Short sword +4 melee (1d4-2/19-20) or light crossbow +4 ranged (1d6/19-20)"
+    },
+    {
+      "name": "Attack",
+      "text": "Short sword +5 melee (1d4-2/19-20) or longbow +5 ranged (1d6-2/3)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Short sword +5 melee (1d4-2/19-20) or longbow +5 ranged (1d6-2)/x3"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Sprites are reclusive fey. They go out of their way to fight evil and ugliness and to protect their homelands.",
+    "grapple": "-6",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Temperate forests",
+    "organization": "Gang (2-4), band (6-11), or tribe (20-80)",
+    "treasure": "No coins; 50% goods; 50% items",
+    "advancement": "2-3 HD (Small)",
+    "leveladjustment": "+4 (+6 with *irresistible dance*)"
+  }
+}

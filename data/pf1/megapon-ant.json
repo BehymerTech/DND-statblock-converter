@@ -1,0 +1,97 @@
+{
+  "name": "Megapon Ant",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Huge",
+  "type": "vermin",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex -1, natural +12, size -2",
+    "touch": 7,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 75,
+    "formula": "6d8+48"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 8,
+    "con": 25,
+    "int": "None",
+    "wis": 13,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +12, Ref +1, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +16, Perception +1",
+    "list": {
+      "Climb": "+16",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 11,
+  "languages": [],
+  "initiative": "-1",
+  "babOrProficiency": 4,
+  "feats": [
+    "Snatch",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +10 (2d6+8 plus grab), sting +10 (1d8+8 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous ant has vicious mandibles and a dripping stinger, and looks large enough to devour a horse.",
+  "meta": {
+    "cmb": "14 (+18 grapple)",
+    "cmd": "23 (31 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, column (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

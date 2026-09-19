@@ -1,0 +1,98 @@
+{
+  "name": "Ostovite",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 193.",
+  "size": "Small",
+  "type": "Fiend",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 30,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 16,
+    "int": 2,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +6, Ref +9, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Crafting__: +4 (1d20+4), (Crafting: +6 (1d20+6) when using bone); __Stealth__: +7 (1d20+7); ",
+    "list": {
+      "Crafting": "+6",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Abyssal"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Bone Chariot",
+      "text": "Ostovites build and inhabit moving shells of bone. The ostovite's base statistics, particularly its immunities, assume the ostovite is safely inside its bone chariot. The bone chariot is destroyed when the ostovite is reduced to less than half its Hit Points or immediately after it takes damage from a critical hit. Damage that can specifically affect the ostovite controlling the chariot even while it's inside (such as the spell spirit blast) doesn't destroy the bone chariot, and it bypasses the ostovite's immunities. Without the bone chariot, the ostovite loses its immunities and bone spike Strike, and it is reduced to Tiny size. It also gains weakness 5 to good, mental, and physical damage. Building a new bone chariot requires the skeleton of a Small or larger creature and 10 minutes. An ostovite in a bone chariot is normally Small, though larger bone chariots are possible, especially when ostovites work together."
+    },
+    {
+      "name": "Scuttle Away",
+      "text": "⬲ Trigger The ostovite's bone chariot is destroyed Effect The ostovite within Steps or Strides."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ mandibles +9 (finesse, magic); Damage 1d4 (1d4) piercing plus 1d4 (1d4) acid"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ bone spike +9 (finesse); Damage 1d12 (1d12) piercing plus 1d4 (1d4) persistent bleed"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      4,
+      3,
+      -4,
+      1,
+      0
+    ]
+  }
+}

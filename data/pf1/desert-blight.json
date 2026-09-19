@@ -1,0 +1,110 @@
+{
+  "name": "Desert Blight",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "ooze",
+  "subtype": "blight",
+  "alignment": "NE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 28,
+    "notes": "dex +7, dodge +1, natural +10",
+    "touch": 18,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 172,
+    "formula": "15d8+105"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 30 ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 25,
+    "con": 24,
+    "int": 15,
+    "wis": 18,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +12, Ref +14, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +22, Knowledge (geography) +17, Perception +19, Stealth +22",
+    "list": {
+      "Bluff": "+22",
+      "Perception": "+19",
+      "Stealth": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Aklo",
+    "Ignan",
+    "domain telepathy"
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 11,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Critical (tentacle)",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Mobility",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "3 tentacles +21 (2d6+10/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A roiling mass of orange-brown sludge studded with gleaming red eyes brandishes its lashing tentacles.",
+  "meta": {
+    "cmb": "21 (+25 grapple)",
+    "cmd": "39 (can’t be tripped)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any deserts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

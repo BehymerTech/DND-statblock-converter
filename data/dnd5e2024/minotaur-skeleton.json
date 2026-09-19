@@ -1,0 +1,77 @@
+{
+  "name": "Minotaur Skeleton",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Large",
+  "type": "Undead",
+  "subtype": "",
+  "alignment": "Lawful Evil",
+  "cr": "2",
+  "level": null,
+  "xp": 450,
+  "ac": {
+    "value": 12,
+    "notes": ""
+  },
+  "hp": {
+    "average": 45,
+    "formula": "6d10 + 12"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 11,
+    "con": 15,
+    "int": 6,
+    "wis": 8,
+    "cha": 5
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 9,
+  "languages": [
+    "Understands Abyssal but can't speak"
+  ],
+  "initiative": "+0 (10)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Gore",
+      "text": "_Melee Attack Roll:_ +6, reach 5 ft. _Hit:_ 11 (2d6 + 4) Piercing damage. If the target is a Large or smaller creature and the skeleton moved 20+ feet straight toward it immediately before the hit, the target takes an extra 9 (2d8) Piercing damage and has the Prone condition."
+    },
+    {
+      "name": "Slam",
+      "text": "_Melee Attack Roll:_ +6, reach 5 ft. _Hit:_ 15 (2d10 + 4) Bludgeoning damage. ## Solar"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

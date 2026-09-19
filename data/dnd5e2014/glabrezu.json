@@ -1,0 +1,101 @@
+{
+  "name": "Glabrezu",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Large",
+  "type": "fiend",
+  "subtype": "demon",
+  "alignment": "chaotic evil",
+  "cr": "9",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": "natural armor"
+  },
+  "hp": {
+    "average": 157,
+    "formula": "15d10 + 75"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 15,
+    "con": 21,
+    "int": 19,
+    "wis": 17,
+    "cha": 16
+  },
+  "saves": {
+    "text": "str +9, con +9, wis +7, cha +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [
+    "cold",
+    "fire",
+    "lightning",
+    "bludgeoning, piercing, slashing from nonmagical attacks"
+  ],
+  "immunities": [
+    "poison"
+  ],
+  "conditionImmunities": [
+    "poisoned"
+  ],
+  "senses": [
+    "truesight 120 ft."
+  ],
+  "passivePerception": 13,
+  "languages": [
+    "Abyssal",
+    "telepathy 120 ft."
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Magic Resistance",
+      "text": "The glabrezu has advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The glabrezu makes four attacks: two with its pincers and two with its fists. Alternatively, it makes two attacks with its pincers and casts one spell."
+    },
+    {
+      "name": "Pincer",
+      "text": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage. If the target is a Medium or smaller creature, it is grappled (escape DC 15). The glabrezu has two pincers, each of which can grapple only one target."
+    },
+    {
+      "name": "Fist",
+      "text": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) bludgeoning damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [
+    {
+      "name": "Innate Spellcasting",
+      "text": "The glabrezu's spellcasting ability is Intelligence (spell save DC 16). The glabrezu can innately cast the following spells, requiring no material components:"
+    }
+  ],
+  "description": "",
+  "meta": {}
+}

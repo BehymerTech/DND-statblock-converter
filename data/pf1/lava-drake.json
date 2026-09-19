@@ -1,0 +1,109 @@
+{
+  "name": "Lava Drake",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "fire",
+  "alignment": "NE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 22,
+    "notes": "dex +3, natural +10, size -1",
+    "touch": 12,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 115,
+    "formula": "11d12+44"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 60 ft. (average), burrow (lava only) 30 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 16,
+    "con": 18,
+    "int": 9,
+    "wis": 12,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +11, Ref +10, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +21, Fly +15, Intimidate +14, Perception +15, Stealth +13",
+    "list": {
+      "Climb": "+21",
+      "Fly": "+15",
+      "Intimidate": "+14",
+      "Perception": "+15",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 11,
+  "feats": [
+    "Awesome Blow",
+    "Flyby Attack",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Multiattack",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +17 (1d8+7), 2 claws +17 (1d6+7), tail slap +15 (1d8+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This muscular two-legged dragon is covered with scales of thick volcanic stone.",
+  "meta": {
+    "cmb": "19 (+21 bull rush)",
+    "cmd": "32 (34 vs. bull rush)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forests, hills, or mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or rampage (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

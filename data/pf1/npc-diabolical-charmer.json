@@ -1,0 +1,99 @@
+{
+  "name": "NPC Diabolical Charmer",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 21,
+    "notes": "armor +4, deflection +2, dex +2, dodge +1, natural +2",
+    "touch": 15,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 85,
+    "formula": "15d6+30"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 14,
+    "con": 10,
+    "int": 12,
+    "wis": 14,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +7, Ref +11, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +19, Diplomacy +23, Fly +10, Intimidate +23, Knowledge (arcana) +9, Knowledge (planes) +6, Perception +12, Spellcraft +9",
+    "list": {
+      "Bluff": "+19",
+      "Diplomacy": "+23",
+      "Fly": "+10",
+      "Intimidate": "+23",
+      "Perception": "+12",
+      "Spellcraft": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 22,
+  "languages": [
+    "Common",
+    "Infernal"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 7,
+  "feats": [
+    "Combat Casting",
+    "Dodge",
+    "Eschew Materials",
+    "Extend Spell",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Persuasive",
+    "Quicken Spell",
+    "Spell Focus (evocation)",
+    "Spell Penetration"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk quarterstaff +7/+2 (1d6-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "sorcerer 15",
+    "cmb": "+6",
+    "cmd": 21
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "name": "Movanic Deva",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 14.",
+  "size": "Medium",
+  "type": "Celestial",
+  "subtype": "Angel",
+  "alignment": "NG",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 30,
+    "notes": ""
+  },
+  "hp": {
+    "average": 195,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 18,
+    "con": 18,
+    "int": 18,
+    "wis": 20,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +21, Ref +17, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +20 (1d20+20); __Diplomacy__: +22 (1d20+22); __Intimidation__: +22 (1d20+22); __Nature__: +22 (1d20+22); __Religion__: +19 (1d20+19); __Stealth__: +17 (1d20+17); __Survival__: +17 (1d20+17); ",
+    "list": {
+      "Athletics": "+20",
+      "Diplomacy": "+22",
+      "Intimidation": "+22",
+      "Nature": "+22",
+      "Religion": "+19",
+      "Stealth": "+17",
+      "Survival": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal; tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Aura of Vitality",
+      "text": "(abjuration, aura, divine); 20 feet. Allies in the movanic deva's aura gain a +1 status bonus to all saving throws, resistance 10 to positive and negative damage, and are unharmed by the effects of a plane's positive and negative traits. Animals in the aura of 12th level or lower don't attack the movanic deva or the deva's allies unless they are controlled or otherwise forced to attack."
+    },
+    {
+      "name": "Items",
+      "text": "+1 striking bastard sword;"
+    },
+    {
+      "name": "Dispelling Field",
+      "text": "⬺ (divine, transmutation); Frequency once per day Effect The movanic deva attempts to unravel unwelcome magic effects on allies within its aura of vitality to protect them from malevolent forces. The movanic deva attempts a counteract check against as many spell effects affecting allies in the area as it wishes with a +19 counteract modifier and a counteract level of 4, rolling once for the selected effects."
+    },
+    {
+      "name": "Flaming Armaments",
+      "text": "(divine, transmutation); When a movanic deva wields a weapon, that weapon gains the effect of a flaming rune."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ flaming bastard sword +23 (good, magical, two-hand d12); Damage 2d8+9 (2d8+9) slashing plus 1d6 (1d6) fire and 1d6 (1d6) good"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      4,
+      4,
+      4,
+      5,
+      5
+    ],
+    "items": "+1 striking bastard sword;"
+  }
+}

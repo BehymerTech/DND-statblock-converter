@@ -1,0 +1,108 @@
+{
+  "name": "Vrykolakas Spawn",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 276.",
+  "size": "Medium",
+  "type": "Vampire",
+  "subtype": "Undead",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 99,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, climb 20 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 18,
+    "con": 14,
+    "int": 4,
+    "wis": 14,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +14, Ref +16, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +14 (1d20+14); __Athletics__: +15 (1d20+15); __Stealth__: +14 (1d20+14); __Survival__: +11 (1d20+11); ",
+    "list": {
+      "Acrobatics": "+14",
+      "Athletics": "+15",
+      "Stealth": "+14",
+      "Survival": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Vrykolakas Vulnerabilities",
+      "text": ""
+    },
+    {
+      "name": "Feral Possession",
+      "text": "⭓ (divine, incapacitation, mental, necromancy, possession); DC 24."
+    },
+    {
+      "name": "Drink Blood",
+      "text": "⬻ (divine, necromancy); When Drinking Blood, the vrykolakas spawn regains 10 HP."
+    },
+    {
+      "name": "Rend",
+      "text": "⬻ (claw);"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +17 Damage 2d8+8 (2d8+8) piercing plus Drink Blood"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +17 (agile); Damage 2d6+8 (2d6+8) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      4,
+      2,
+      -3,
+      2,
+      2
+    ]
+  }
+}

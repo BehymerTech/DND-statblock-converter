@@ -1,0 +1,122 @@
+{
+  "name": "Aboleth",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "",
+  "subtype": "",
+  "alignment": "Usually lawful evil Usually lawful evil",
+  "cr": "7 17",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": "-2 size, +1 Dex, +7 natural",
+    "touch": 9,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 76,
+    "formula": "8d8+40"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": 60,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft. (2 squares), swim 60 ft. 10 ft. (2 squares), swim 60 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 16,
+    "con": 24,
+    "int": 20,
+    "wis": 16,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +7, Ref +3, Will +11 Fort +15, Ref +10, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Concentration +16, Knowledge (any One) +13, Listen +16, Spot +16, Swim +8; Bluff +13, Concentration +25, Decipher Script +15, Diplomacy +6, Disguise +2 (+4 Acting), Intimidate +4, Knowledge (arcana) +15, Knowledge (dungeoneering) +25, Knowledge (history) +15, Knowledge (the Planes) +15, Listen +15, Search +10, Sense Motive +15, Spellcraft +20, Spot +17, Survival +3 (+5 Following Tracks, On Other Planes , And Underground) , Swim +8;",
+    "list": {
+      "Concentration": "+25",
+      "Listen": "+15",
+      "Spot": "+17",
+      "Swim": "+8",
+      "Bluff": "+13",
+      "Decipher Script": "+15",
+      "Diplomacy": "+6",
+      "Disguise": "+2",
+      "Intimidate": "+4",
+      "Search": "+10",
+      "Sense Motive": "+15",
+      "Spellcraft": "+20",
+      "Survival": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1 +7",
+  "babOrProficiency": 6,
+  "feats": [
+    "Alertness",
+    "Combat Casting",
+    "Iron Will",
+    "Combat Casting",
+    "Empower Spell",
+    "Eschew Materials",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Scribe Scroll",
+    "Spell Focus (illusion)",
+    "Spell Focus (enchantment)",
+    "Spell Penetration"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Enslave, psionics, slime Enslave, psionics, slime, spells"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Aquatic subtype, darkvision 60 ft., mucus cloud Aquatic subtype, darkvision 60 ft., mucus cloud, summon familiar"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Tentacle +12 melee (1d6+8 plus slime) Tentacle +18 melee (1d6+9 plus slime)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "4 tentacles +12 melee (1d6+8 plus slime) 4 tentacles +18 melee (1d6+9 plus slime)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "The aboleth is a revolting fishlike amphibian found primarily in subterranean lakes and rivers. An aboleth has a pink belly. Four pulsating blueblack orifices line the bottom of its body and secrete gray slime that smells like rancid grease. It uses its tail for propulsion in the water and drags itself along with its tentacles on land. An aboleth weighs about 6,500 pounds.",
+    "grapple": "+22 +11",
+    "spaceReach": "15 ft./10 ft. 15 ft./10 ft.",
+    "organization": "Solitary, brood (2-4),or slaver brood (1d3+1 plus 7-12 skum) Solitary",
+    "treasure": "Double standard Double standard",
+    "advancement": "9-16 HD (Huge); 17-24 HD (Gargantuan) By character class",
+    "leveladjustment": "--- ---"
+  }
+}

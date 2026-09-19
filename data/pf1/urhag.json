@@ -1,0 +1,104 @@
+{
+  "name": "Urhag",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex +1, natural +4",
+    "touch": 11,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d8+12"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 30 ft. (good)"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 17,
+    "int": 4,
+    "wis": 13,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +4, Ref +2, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +9, Perception +10, Stealth +9",
+    "list": {
+      "Fly": "+9",
+      "Perception": "+10",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "see in darkness"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Aklo (cannot speak)"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +6 (1d6+3 plus grab), sting +6 (1d4+3 plus red plague)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This bat-like creature’s body is mostly a large, toothy maw, held aloft by leathery wings. Its whip-thin tail ends in a slender stinger.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 17,
+    "racialModifiers": [
+      "Perception 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or coven (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

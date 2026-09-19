@@ -1,0 +1,107 @@
+{
+  "name": "Moss Troll",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "giant, shapechanger",
+  "alignment": "CE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex +4, natural +2, size -1",
+    "touch": 13,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d8+12"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 10 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 19,
+    "con": 16,
+    "int": 9,
+    "wis": 12,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +7, Ref +5, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Climb +11, Intimidate +5, Perception +5, Stealth +5",
+    "list": {
+      "Acrobatics": "+7",
+      "Climb": "+11",
+      "Intimidate": "+5",
+      "Perception": "+5",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Giant"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 3,
+  "feats": [
+    "Intimidating Prowess",
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +5 (1d4+3), 2 claws +5 (1d4+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This large and lanky moss-colored humanoid has an elongated, toothy snout and appears to be covered in bits of foliage.",
+  "meta": {
+    "cmb": "+7",
+    "cmd": 21,
+    "racialModifiers": [
+      "Acrobatics 2",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold or temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, gang (2-3), or troop (4-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

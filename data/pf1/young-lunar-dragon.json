@@ -1,0 +1,110 @@
+{
+  "name": "Young Lunar Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 21,
+    "notes": "natural +12, size -1",
+    "touch": 9,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 105,
+    "formula": "10d12+40"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (poor), burrow 20 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 11,
+    "con": 16,
+    "int": 16,
+    "wis": 18,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +10, Ref +7, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +16, Fly +7, Intimidate +16, Knowledge (arcana) +10, Knowledge (geography) +10, Knowledge (history) +10, Knowledge (local) +10, Knowledge (nature) +10, Perception +17, Sense Motive +17, Spellcraft +16, Use Magic Device +16",
+    "list": {
+      "Diplomacy": "+16",
+      "Fly": "+7",
+      "Intimidate": "+16",
+      "Perception": "+17",
+      "Sense Motive": "+17",
+      "Spellcraft": "+16",
+      "Use Magic Device": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "see in darkness"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Aklo",
+    "Auran",
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 10,
+  "feats": [
+    "Flyby Attack",
+    "Multiattack",
+    "Power Attack",
+    "Step Up",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +14 (2d6+7), 2 claws +14 (1d8+5), 2 wings +12 (1d6+2), tail slap +12 (1d8+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A shimmering halo surrounds this regal dragon’s spine-crowned head, and its vast wings ripple like milky gossamer lit by the moon.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": "26 (30 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "vacuum"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

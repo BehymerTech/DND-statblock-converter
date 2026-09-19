@@ -1,0 +1,108 @@
+{
+  "name": "NPC Aspis Agent",
+  "sourceSystem": "pf1",
+  "source": "Magnimar, City of Monuments",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 16,
+    "notes": "armor +4, dex +2",
+    "touch": 12,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 26,
+    "formula": "5d8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 14,
+    "con": 8,
+    "int": 12,
+    "wis": 13,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +0, Ref +6, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Bluff +5, Diplomacy +11, Disguise +12, Intimidate +10, Knowledge (local) +7, Knowledge (nobility) +7, Perception +10, Perform (oratory) +11, Sense Motive +10, Sleight of Hand +9, Stealth +7",
+    "list": {
+      "Acrobatics": "+7",
+      "Bluff": "+5",
+      "Diplomacy": "+11",
+      "Disguise": "+12",
+      "Intimidate": "+10",
+      "Perception": "+10",
+      "Sense Motive": "+10",
+      "Sleight of Hand": "+9",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Varisian"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 3,
+  "feats": [
+    "Alertness",
+    "Arcane Strike",
+    "Deceitful",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 rapier +6 (1d6+2/18-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Richly attired in noble’s garbs, this savvy man boasts a colorful cloak, a bulging coin purse, and a fine rapier at his side.",
+  "meta": {
+    "race": "Male",
+    "class": "human bard 5",
+    "cmb": "+4",
+    "cmd": 16,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Vista)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (chain shirt, +1 rapier, potions of cure light wounds [2], antitoxin, oil of taggit [2], sassone leaf residue [2], other treasure)"
+      }
+    ]
+  }
+}

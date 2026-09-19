@@ -1,0 +1,107 @@
+{
+  "name": "Elananx",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 143.",
+  "size": "Medium",
+  "type": "Fire",
+  "subtype": "Fey",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 95,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 18,
+    "con": 14,
+    "int": 4,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +12, Ref +16, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +14 (1d20+14); __Athletics__: +14 (1d20+14); __Survival__: +14 (1d20+14), (Survival: +17 (1d20+17) to Track); ",
+    "list": {
+      "Acrobatics": "+14",
+      "Athletics": "+14",
+      "Survival": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Sylvan (can't speak any language)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Cinder Dispersal",
+      "text": "⬲ (fire, primal, transmutation); Frequency once per day Trigger The elananx takes damage from a hostile source. Effect The elananx disperses into a cloud of smoke and cinders, filling its space and a 20-foot emanation. While in this form, the elananx can't be attacked or targeted, and it doesn't take up space. Anything inside this cloud is concealed, and any creature ending its turn there takes 2d6 (2d6) fire damage. At the start of its turn, the elananx returns to its normal form in any square the cloud covered. If the elananx Strikes a creature using its first action after returning to its normal form, the target is flat-footed and the Strike deals an extra 1d6 (1d6) fire damage."
+    },
+    {
+      "name": "Pack Attack",
+      "text": "The elananx's Strikes deal an extra 1d6 (1d6) damage to creatures within the reach of at least two of its allies."
+    },
+    {
+      "name": "Pounce",
+      "text": "⬻ The elananx Strides and makes a Strike at the end of that movement. If the elananx began this action hidden, it remains hidden until after the attack."
+    },
+    {
+      "name": "Elemental, Air",
+      "text": "Hailing from the Plane of Air, these beings appear in a variety of sizes and shapes."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +16 (magical); Damage 2d6+8 (2d6+8) piercing and 1d6 (1d6) fire"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +16 (agile); Damage 2d6+8 (2d6+8) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      4,
+      2,
+      -3,
+      2,
+      -2
+    ]
+  }
+}

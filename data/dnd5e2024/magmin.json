@@ -1,0 +1,83 @@
+{
+  "name": "Magmin",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Small",
+  "type": "Elemental",
+  "subtype": "",
+  "alignment": "Chaotic Neutral",
+  "cr": "1/2",
+  "level": null,
+  "xp": 100,
+  "ac": {
+    "value": 14,
+    "notes": ""
+  },
+  "hp": {
+    "average": 13,
+    "formula": "3d6 + 3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 7,
+    "dex": 15,
+    "con": 12,
+    "int": 8,
+    "wis": 11,
+    "cha": 10
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 10,
+  "languages": [
+    "Primordial (Ignan)"
+  ],
+  "initiative": "+2 (12)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Death Burst",
+      "text": "The magmin explodes when it dies. _Dexterity Saving Throw:_ DC 11, each creature in a 10-foot Emanation originating from the magmin. _Failure:_ 7 (2d6) Fire damage. _Success:_ Half damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Touch",
+      "text": "_Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 7 (2d4 + 2) Fire damage. If the target is a creature or a flammable object that isn't being worn or carried, it starts burning."
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Ignited Illumination",
+      "text": "The magmin sets itself ablaze or extinguishes its flames. While ablaze, the magmin sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet. ## Manticore"
+    }
+  ],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

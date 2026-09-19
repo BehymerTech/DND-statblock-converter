@@ -1,0 +1,110 @@
+{
+  "name": "Faerie Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Bonus Bestiary",
+  "size": "Tiny",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "CG",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +3, dodge +1, natural +2, size +2",
+    "touch": 16,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 22,
+    "formula": "3d12+3"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 60 ft. (perfect), swim 30 ft."
+  },
+  "abilities": {
+    "str": 9,
+    "dex": 17,
+    "con": 13,
+    "int": 16,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +4, Ref +6, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +8, Bluff +9, Diplomacy +9, Fly +23, Perception +8, Sense Motive +8, Stealth +17, Swim +17, Use Magic Device +9",
+    "list": {
+      "Acrobatics": "+8",
+      "Bluff": "+9",
+      "Diplomacy": "+9",
+      "Fly": "+23",
+      "Perception": "+8",
+      "Sense Motive": "+8",
+      "Stealth": "+17",
+      "Swim": "+17",
+      "Use Magic Device": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Elven",
+    "Sylvan",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 3,
+  "feats": [
+    "Acrobatic",
+    "Dodge"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +4 (1d3-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A pair of brightly colored butterfly wings sprouts from the back of this miniature dragon.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": "14 (18 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or clan (2-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

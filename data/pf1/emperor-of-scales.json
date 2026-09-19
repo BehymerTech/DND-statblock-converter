@@ -1,0 +1,123 @@
+{
+  "name": "Emperor of Scales",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 42: Sanctum of the Serpent God",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "chaotic, evil, native",
+  "alignment": "CE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 30,
+    "notes": "dex +7, natural +15, size -2",
+    "touch": 15,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 225,
+    "formula": "18d10+126"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (good), climb 30 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 24,
+    "con": 23,
+    "int": 13,
+    "wis": 19,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +19, Ref +13, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +27, Climb +16, Escape Artist +22, Fly +20, Knowledge (history) +12, Knowledge (planes) +12, Knowledge (religion) +12, Perception +26, Sense Motive +22, Spellcraft +19, Stealth +16, Use Magic Device +21",
+    "list": {
+      "Bluff": "+27",
+      "Climb": "+16",
+      "Escape Artist": "+22",
+      "Fly": "+20",
+      "Perception": "+26",
+      "Sense Motive": "+22",
+      "Spellcraft": "+19",
+      "Stealth": "+16",
+      "Use Magic Device": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Azlanti (does not speak)",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 18,
+  "feats": [
+    "Combat Reflexes",
+    "Great Fortitude",
+    "Hover",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Multiattack",
+    "Power Attack",
+    "Snatch",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +24 (2d8+8/19-20 plus poison and grab), 8 snakebites +22 (1d6+4 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The air fills with the sound of hissing snakes as a giant, severed snake’s head floats into view, with a gaping mouth and twin fangs dripping virulent poison. Its eyes are milky and blind, but its forked tongue constantly tests the air for fresh scents. Below the head, where a body should be, numerous hissing serpents thrash like tendrils of torn flesh. Blood drips from the severed head, sizzling as it burns like acid through anything it touches.",
+  "meta": {
+    "cmb": "28 (+32 grapple)",
+    "cmd": "45 (can't be tripped)",
+    "racialModifiers": [
+      "Escape Artist 4",
+      "Perception 4",
+      "Stealth 4",
+      "Use Magic Device 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

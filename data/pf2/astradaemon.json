@@ -1,0 +1,118 @@
+{
+  "name": "Astradaemon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 73.",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "Daemon",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 16",
+  "xp": null,
+  "ac": {
+    "value": 39,
+    "notes": ""
+  },
+  "hp": {
+    "average": 240,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 feet, fly 60 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 22,
+    "con": 24,
+    "int": 14,
+    "wis": 18,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +27, Ref +30, Will +26",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +28 (1d20+28); __Intimidation__: +33 (1d20+33); __Religion__: +26 (1d20+26); __Stealth__: +28 (1d20+28); __Survival__: +26 (1d20+26); ",
+    "list": {
+      "Acrobatics": "+28",
+      "Intimidation": "+33",
+      "Religion": "+26",
+      "Stealth": "+28",
+      "Survival": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, lifesense 30, true seeing"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Common",
+    "Daemonic; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Soul Siphon",
+      "text": "(aura, divine, force, necromancy); 30 feet. An astradaemon draws power from the souls of the recently slain. If a Small or larger living creature dies within its aura, the astradaemon gains 5 temporary Hit Points and a +1 status bonus to attack and damage rolls for 1 round, unless the creature was slain by an astradaemon's."
+    },
+    {
+      "name": "Devour",
+      "text": "Soul ability. Incorporeal undead and living spirits traveling outside the body take 1d8 (1d8) force damage each round within the daemon's aura from the spiritual pressure as the astradaemon pulls in fragments of their soul."
+    },
+    {
+      "name": "Displacement",
+      "text": "(divine, illusion, visual); An astradaemon bends light, appearing shifted from its true position, though still in the same space. Creatures targeting the astradaemon must attempt a DC 11 flat check, as if the astradaemon were hidden, even though it remains observed. s such as the Blind-Fight feat and halfling's keen eyes that apply on the flat check against hidden creatures also apply against a displaced astradaemon."
+    },
+    {
+      "name": "Devour Soul",
+      "text": "⬻ (divine, incapacitation, necromancy); Requirements The astradaemon hasn't used an action with the attack trait yet this turn. Effect The astradaemon draws out and consumes the soul of a living creature it has grabbed. The creature must succeed at a DC 35 Fortitude save or instantly die. If it dies, the astradaemon gains 10 temporary Hit Points and a +2 status bonus to attack and damage rolls for 1 minute, or for 1 day if the victim was 15th level or higher. A victim slain in this way can be returned to life normally. A creature that survives is temporarily immune for 1 minute."
+    },
+    {
+      "name": "Essence Drain",
+      "text": "(divine, necromancy, negative); When an astradaemon hits with its claw, jaws, or tail, it drains the target's spiritual and vital essences. The target takes 2d10 (2d10) negative energy damage and the astradaemon regains an equal number of Hit Points. The target must succeed at a DC 37 Fortitude save or become doomed 1 and drained 1. If the target was already drained or doomed, it instead increases both conditions' value by 1, to a maximum of 4."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +32 (evil, magical, reach 10 feet); Damage 3d8+9 (3d8+9) piercing plus 1d6 (1d6) evil, essence drain, and Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +32 (agile, evil, magical, reach 10 feet); Damage 3d6+9 (3d6+9) slashing plus 1d6 (1d6) evil and Essence Drain"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +32 (evil, magical, reach 15 feet); Damage 3d10+9 (3d10+9) bludgeoning plus 1d6 (1d6) evil and Essence Drain"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      6,
+      7,
+      2,
+      4,
+      7
+    ]
+  }
+}

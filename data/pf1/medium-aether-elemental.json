@@ -1,0 +1,104 @@
+{
+  "name": "Medium Aether Elemental",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "aether, elemental, extraplanar",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 17,
+    "notes": "deflection +3, dex +4",
+    "touch": 17,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 34,
+    "formula": "4d10+12"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 19,
+    "con": 16,
+    "int": 4,
+    "wis": 11,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +7, Ref +8, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +9, Fly +13, Perception +7, Stealth +11",
+    "list": {
+      "Acrobatics": "+9",
+      "Fly": "+13",
+      "Perception": "+7",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": "+8",
+  "babOrProficiency": 4,
+  "feats": [
+    "Improved Initiative",
+    "Iron Will",
+    "Point-Blank Shot"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +6 (1d6+3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "telekinetic throw +8 (2d6+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 23,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Ethereal Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

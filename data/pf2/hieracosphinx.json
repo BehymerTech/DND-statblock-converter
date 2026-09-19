@@ -1,0 +1,108 @@
+{
+  "name": "Hieracosphinx",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 250.",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 5",
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 70,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, fly 60 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 18,
+    "con": 16,
+    "int": 6,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +12, Ref +15, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +11 (1d20+11); __Athletics__: +13 (1d20+13); __Intimidation__: +9 (1d20+9); __Survival__: +12 (1d20+12); ",
+    "list": {
+      "Acrobatics": "+11",
+      "Athletics": "+13",
+      "Intimidation": "+9",
+      "Survival": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Sphinx"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Buck",
+      "text": "⬲ DC 23"
+    },
+    {
+      "name": "Contingent Glyph",
+      "text": "(abjuration, occult); A hieracosphinx has an innate magical defense similar to a contingency. When they take a specific type of energy damage (varying by the individual sphinx), they can use their reaction to have the glyph cast haste on them. The glyph is then dormant for 1 week. A critical success to Recall Knowledge about a particular hieracosphinx (30 or higher on the check) reveals which damage type triggers the glyph."
+    },
+    {
+      "name": "Pounce",
+      "text": "⬻ The hieracosphinx Strides and makes a Strike at the end of that movement. If they began this action hidden, they remain hidden until after the attack."
+    },
+    {
+      "name": "Shriek",
+      "text": "⬻ (auditory, incapacitation); The hieracosphinx emits a shrill, ear-piercing shriek. Each non-sphinx in a 60-foot emanation must attempt a DC 22 Fortitude save. Any creature that attempts a save is temporarily immune for 24 hours. Critical Success The creature is temporarily immune to that hieracosphinx's shriek for 24 hours. Success The creature is deafened for 1 round. Failure The creature is deafened for 1 minute and stunned 1."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ beak +15 Damage 2d10+4 (2d10+4) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +15 (agile); Damage 2d8+4 (2d8+4) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      4,
+      3,
+      -2,
+      3,
+      0
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "name": "Kokogiak",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 151.",
+  "size": "Huge",
+  "type": "Beast",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 12",
+  "xp": null,
+  "ac": {
+    "value": 33,
+    "notes": ""
+  },
+  "hp": {
+    "average": 215,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, swim 20 feet; trackless step;"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 20,
+    "con": 24,
+    "int": 12,
+    "wis": 20,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +25, Ref +19, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +27 (1d20+27); __Deception__: +23 (1d20+23); __Stealth__: +21 (1d20+21), (Stealth: +25 (1d20+25) in snow); __Survival__: +21 (1d20+21); ",
+    "list": {
+      "Athletics": "+27",
+      "Deception": "+23",
+      "Stealth": "+25",
+      "Survival": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Aquan",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Voice Imitation",
+      "text": "Kokogiaks can mimic the sounds of a person in distress by attempting a Deception check to Lie. The kokogiak has a +4 circumstance bonus to this check."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Mauling Rush",
+      "text": "⬽ The kokogiak Strides up to its Speed. It can make up to four claw Strikes at any point during this movement, each against a different target. These attacks count toward the kokogiak's multiple attack penalty, but the multiple attack penalty doesn't increase until after the kokogiak makes all of its attacks."
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "The kokogiak's Strikes deal an additional 2d6 (2d6) precision damage to flat-footed creatures."
+    },
+    {
+      "name": "Tormented Snarl",
+      "text": "⬺ (auditory, illusion, mental, primal); Using their voice imitation abilities, a kokogiak emits the horrific wails of its former victims. Each creature within 120 feet takes 4d6 (4d6) mental damage and must attempt a DC 32 Will save. A creature frightened by this ability is flat-footed to the kokogiak. Critical Success The creature is unaffected and is temporarily immune for 1 minute. Success The creature takes half damage and becomes frightened 1. Failure The creature takes full damage and becomes frightened 2. Critical Failure The creature takes double damage, becomes frightened 3, and is fleeing until the end of its next turn."
+    },
+    {
+      "name": "Trackless Step",
+      "text": "The kokogiak always gains the benefits of Cover Tracks in natural surroundings, even while moving at full speed."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +26 (reach 20 feet); Damage 3d10+10 (3d10+10) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +26 (reach 15 feet); Damage 3d6+10 (3d6+10) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      5,
+      7,
+      1,
+      5,
+      5
+    ]
+  }
+}

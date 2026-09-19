@@ -1,0 +1,96 @@
+{
+  "name": "Cave Fisher",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 49.",
+  "size": "Medium",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 30,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 feet, climb 15 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 16,
+    "int": 0,
+    "wis": 12,
+    "cha": 4
+  },
+  "saves": {
+    "text": "Fort +9, Ref +9, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +10 (1d20+10); __Stealth__: +9 (1d20+9); ",
+    "list": {
+      "Athletics": "+10",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Pull Filament",
+      "text": "⬻ The cave fisher pulls a creature grabbed by its filament toward itself, even suspending the target vertically if necessary. The cave fisher attempts an Athletics check against the creature's Fortitude DC. On a success, the cave fisher pulls the creature 15 feet closer to it (30 feet closer on a critical success)."
+    },
+    {
+      "name": "Sticky Filament",
+      "text": "Any creature hit by the cave fisher's sticky filament is grabbed. The cave fisher can move while it has a creature grabbed with its filament, but it automatically releases the creature if the cave fisher moves beyond the filament's 60-foot length. The cave fisher can use only one filament at a time, and it can sever the filament and release any creature grabbed by it as a free action. The filament can be severed by a Strike that deals at least 10 slashing damage to it. This doesn't deal any damage to the cave fisher itself. The filament has AC 17, and its Escape DC is 19."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +10 Damage 1d10+6 (1d10+6) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ filament +11 (range 60 feet); Damage sticky filament"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      3,
+      3,
+      -5,
+      1,
+      -3
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Dire Wolf",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 334.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 50,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 16,
+    "con": 18,
+    "int": 2,
+    "wis": 16,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +11, Ref +8, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Athletics__: +12 (1d20+12); __Stealth__: +8 (1d20+8); __Survival__: +10 (1d20+10); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Athletics": "+12",
+      "Stealth": "+8",
+      "Survival": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 20,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Buck",
+      "text": "⬲ DC 20."
+    },
+    {
+      "name": "Pack Attack",
+      "text": "The dire wolf's Strikes deal 1d6 (1d6) extra damage to creatures within reach of at least two of the wolf's allies."
+    },
+    {
+      "name": "Worry",
+      "text": "⬻ (attack); Requirements The dire wolf has a creature grabbed with its jaws. Effect The dire wolf fiercely shakes the grabbed creature with its teeth, dealing 1d10+2 (1d10+2) damage (DC 20 basic Fortitude save)."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +12 (reach 10 feet); Damage 1d10+5 (1d10+5) piercing plus Knockdown or Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      3,
+      4,
+      -4,
+      3,
+      -2
+    ]
+  }
+}

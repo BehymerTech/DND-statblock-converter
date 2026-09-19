@@ -1,0 +1,102 @@
+{
+  "name": "NPC Trapsmith",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "gnome",
+  "alignment": "NE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 19,
+    "notes": "armor +3, deflection +1, dex +3, dodge +1, size +1",
+    "touch": 16,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 63,
+    "formula": "8d8+24"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 16,
+    "con": 16,
+    "int": 14,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +6, Ref +12, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +14, Bluff +11, Climb +10, Craft (traps) +20, Disable Device +19, Escape Artist +14, Knowledge (dungeoneering) +13, Knowledge (engineering) +10, Perception +14, Stealth +18, Use Magic Device +11",
+    "list": {
+      "Acrobatics": "+14",
+      "Bluff": "+11",
+      "Climb": "+10",
+      "Disable Device": "+19",
+      "Escape Artist": "+14",
+      "Perception": "+14",
+      "Stealth": "+18",
+      "Use Magic Device": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Gnome",
+    "Sylvan"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 6,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Skill Focus (Craft [traps])"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk dagger +7/+2 (1d3-1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk light crossbow +11 (1d6/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Gnome",
+    "class": "rogue 8",
+    "cmb": "+4",
+    "cmd": 19
+  }
+}

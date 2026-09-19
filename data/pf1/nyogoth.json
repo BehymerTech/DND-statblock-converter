@@ -1,0 +1,104 @@
+{
+  "name": "Nyogoth",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "chaotic, evil, extraplanar, qlippoth",
+  "alignment": "CE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 24,
+    "notes": "dex +5, natural +9",
+    "touch": 15,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 125,
+    "formula": "10d10+70"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft., fly 30 ft. (good)"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 21,
+    "con": 24,
+    "int": 9,
+    "wis": 19,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +14, Ref +12, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +22, Intimidate +16, Knowledge (planes) +12, Perception +17, Stealth +18",
+    "list": {
+      "Fly": "+22",
+      "Intimidate": "+16",
+      "Perception": "+17",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Abyssal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 10,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Critical (bite)",
+    "Power Attack",
+    "Vital Strike",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 bites +15 (1d6+3/19-20 plus 1d4 acid), bite +15 (2d6+3/19-20 plus 1d4 acid)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This appears to be a mass of floating intestines tangled around a fanged mouth-the tips of its coils also end in toothy maws.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": "28 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (the Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or brood (2-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

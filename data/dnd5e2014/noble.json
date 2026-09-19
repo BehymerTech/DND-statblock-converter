@@ -1,0 +1,80 @@
+{
+  "name": "Noble",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "any race",
+  "alignment": "any alignment",
+  "cr": "1/8",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "breastplate"
+  },
+  "hp": {
+    "average": 9,
+    "formula": "2d8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 12,
+    "con": 11,
+    "int": 12,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Deception +5, Insight +4, Persuasion +5",
+    "list": {
+      "deception": "+5",
+      "insight": "+4",
+      "persuasion": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 12,
+  "languages": [
+    "any two languages"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Rapier",
+      "text": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) piercing damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [
+    {
+      "name": "Parry",
+      "text": "The noble adds 2 to its AC against one melee attack that would hit it. To do so, the noble must see the attacker and be wielding a melee weapon."
+    }
+  ],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Mana Wastes Mutant (Gnoll)",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Bestiary",
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": "augmented humanoid, gnoll",
+  "alignment": "CE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 19,
+    "notes": "armor +4, dex +2, natural +3",
+    "touch": 12,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 32,
+    "formula": "2d8+2d10+12"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 14,
+    "con": 17,
+    "int": 10,
+    "wis": 15,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +9, Ref +2, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +6, Stealth +8, Survival +7",
+    "list": {
+      "Perception": "+6",
+      "Stealth": "+8",
+      "Survival": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Gnoll"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 3,
+  "feats": [
+    "Cleave",
+    "Iron Will",
+    "Power Attack",
+    "Weapon Focus (longsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk longsword +7 (1d8+2/19-20), slam +5 (1d8+2 plus disease)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Patchy, matted fur covers this mutated, hyena-headed monster, and acidic green drool pours from its ravenous maw.",
+  "meta": {
+    "race": "Gnoll",
+    "class": "Mana Wastes mutant fighter 2",
+    "cmb": "+5",
+    "cmd": 17,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm plains or deserts (the Mana Wastes)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, gang (3-9), or tribe (16-28 plus 1 wasteland lord of 5th level)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (masterwork breastplate, masterwork longsword, other treasure)"
+      }
+    ]
+  }
+}

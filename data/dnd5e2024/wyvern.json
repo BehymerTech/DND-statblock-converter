@@ -1,0 +1,81 @@
+{
+  "name": "Wyvern",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Large",
+  "type": "Dragon",
+  "subtype": "",
+  "alignment": "Unaligned",
+  "cr": "6",
+  "level": null,
+  "xp": 2300,
+  "ac": {
+    "value": 14,
+    "notes": ""
+  },
+  "hp": {
+    "average": 127,
+    "formula": "15d10 + 45"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 80,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., Fly 80 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 10,
+    "con": 16,
+    "int": 5,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +4",
+    "list": {
+      "Perception": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 120 ft."
+  ],
+  "passivePerception": 14,
+  "languages": [],
+  "initiative": "+0 (10)",
+  "babOrProficiency": 3,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The wyvern makes one Bite attack and one Sting attack."
+    },
+    {
+      "name": "Bite",
+      "text": "_Melee Attack Roll:_ +7, reach 5 ft. _Hit:_ 13 (2d8 + 4) Piercing damage."
+    },
+    {
+      "name": "Sting",
+      "text": "_Melee Attack Roll:_ +7, reach 10 ft. _Hit:_ 11 (2d6 + 4) Piercing damage plus 24 (7d6) Poison damage, and the target has the Poisoned condition until the start of the wyvern's next turn. ## Xorn"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

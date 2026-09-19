@@ -1,0 +1,134 @@
+{
+  "name": "Vampire Mastermind",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 321.",
+  "size": "Medium",
+  "type": "Vampire",
+  "subtype": "Undead",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 9",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 115,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, climb 25 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 18,
+    "con": 12,
+    "int": 22,
+    "wis": 18,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +15, Ref +18, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +17 (1d20+17); __Arcana__: +21 (1d20+21); __Athletics__: +16 (1d20+16); __Deception__: +20 (1d20+20); __Diplomacy__: +20 (1d20+20); __Intimidation__: +22 (1d20+22); __Society__: +19 (1d20+19); __Stealth__: +19 (1d20+19); ",
+    "list": {
+      "Acrobatics": "+17",
+      "Arcana": "+21",
+      "Athletics": "+16",
+      "Deception": "+20",
+      "Diplomacy": "+20",
+      "Intimidation": "+22",
+      "Society": "+19",
+      "Stealth": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Common",
+    "Necril; plus one regional language"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Children of the Night",
+      "text": "(divine, enchantment, mental);"
+    },
+    {
+      "name": "Items",
+      "text": "signet ring;"
+    },
+    {
+      "name": "Mist Escape",
+      "text": "⭓"
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, divine, polymorph, transmutation); Giant bat with fangs +19 for 2d8+9 (2d8+9) piercing."
+    },
+    {
+      "name": "Create Spawn",
+      "text": "(divine, downtime, necromancy);"
+    },
+    {
+      "name": "Dominate",
+      "text": "⬺ (divine, enchantment, incapacitation, mental, visual); DC 26."
+    },
+    {
+      "name": "Drain Bonded Item",
+      "text": "⭓ (arcane, wizard); Requirements The vampire hasn't acted yet on this turn. Frequency once per day Effect The vampire expends the power stored in its signet ring. This gives the vampire the ability to cast one prepared spell it had already previously cast today, without spending a spell slot. The vampire must still Cast the Spell and meet the spell's other requirements."
+    },
+    {
+      "name": "Drink Blood",
+      "text": "⬻ (divine, necromancy); When Drinking Blood, the vampire regains 10 HP."
+    },
+    {
+      "name": "Steady Spellcasting",
+      "text": "If another creature's reaction would disrupt the vampire mastermind's spellcasting action, the vampire attempts a DC 15 flat check. If the vampire succeeds, its action isn't disrupted."
+    },
+    {
+      "name": "Turn to Mist",
+      "text": "⬻ (concentrate, divine, transmutation);"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +18 (agile); Damage 2d8+9 (2d8+9) slashing plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      4,
+      1,
+      6,
+      4,
+      5
+    ],
+    "items": "signet ring;"
+  }
+}

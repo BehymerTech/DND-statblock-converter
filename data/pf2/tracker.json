@@ -1,0 +1,107 @@
+{
+  "name": "Tracker",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 220.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": ""
+  },
+  "hp": {
+    "average": 45,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 14,
+    "int": 10,
+    "wis": 18,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +11, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Nature__: +11 (1d20+11); __Stealth__: +9 (1d20+9); __Survival__: +13 (1d20+13); __Forest lore__: +5 (1d20+5); ",
+    "list": {
+      "Nature": "+11",
+      "Stealth": "+9",
+      "Survival": "+13",
+      "Forest lore": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 23,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Forager",
+      "text": "As poacher, but the tracker feeds 16 additional creatures, or 32 on a critical success."
+    },
+    {
+      "name": "Master Tracker",
+      "text": "The tracker can Track while moving at full speed."
+    },
+    {
+      "name": "Items",
+      "text": "composite longbow (60 arrows), leather armor, staff;"
+    },
+    {
+      "name": "Hunt Prey",
+      "text": "⬻ (concentrate); As poacher (page 218)."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ staff +9 (two-hand d8); Damage 1d4+4 (1d4+4) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ composite longbow +11 (deadly 1d10, propulsive, range increment 100 feet, reload 0, volley 30 feet); Damage 1d8+3 (1d8+3) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      4,
+      2,
+      0,
+      4,
+      0
+    ],
+    "items": "composite longbow (60 arrows), leather armor, staff;"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "name": "Draconal",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 13.",
+  "size": "Large",
+  "type": "Celestial",
+  "subtype": "Agathion",
+  "alignment": "NG",
+  "cr": null,
+  "level": "Creature 20",
+  "xp": null,
+  "ac": {
+    "value": 45,
+    "notes": ""
+  },
+  "hp": {
+    "average": 370,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, fly 90 feet"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 20,
+    "con": 26,
+    "int": 26,
+    "wis": 30,
+    "cha": 28
+  },
+  "saves": {
+    "text": "Fort +34, Ref +31, Will +38",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +38 (1d20+38); __Crafting__: +30 (1d20+30); __Deception__: +35 (1d20+35); __Diplomacy__: +37 (1d20+37); __Intimidation__: +35 (1d20+35); __Medicine__: +34 (1d20+34); __Nature__: +34 (1d20+34); __Religion__: +36 (1d20+36); __Society__: +32 (1d20+32); __Survival__: +32 (1d20+32); __Nirvana lore__: +36 (1d20+36); ",
+    "list": {
+      "Arcana": "+38",
+      "Crafting": "+30",
+      "Deception": "+35",
+      "Diplomacy": "+37",
+      "Intimidation": "+35",
+      "Medicine": "+34",
+      "Nature": "+34",
+      "Religion": "+36",
+      "Society": "+32",
+      "Survival": "+32",
+      "Nirvana lore": "+36"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, true seeing"
+  ],
+  "passivePerception": 46,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal; speak with animals",
+    "tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Dragon's Salvation",
+      "text": "⬲ Trigger A creature within the draconal's reach would take damage Effect Before applying the damage, the draconal casts lay on hands on the triggering creature."
+    },
+    {
+      "name": "Champion Focus Spell",
+      "text": "DC 46, 3 Focus Points; 10th dazzling flash (Core Rulebook 391), lay on hands (Core Rulebook 387), protector's sphere (Core Rulebook 395)"
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (divine, evocation); The draconal breathes a blast of energy that deals 21d6 (21d6) fire damage to creatures they choose to damage in a 60-foot cone (DC 44 basic Reflex save). They can make this effect nonlethal for selected creatures in the area or choose not to damage certain creatures at all. They can't use Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Dragon's Wisdom",
+      "text": "Draconals embody the core value of wisdom, but every path to wisdom and enlightenment differs, so draconals' powers vary by temperament and coloration. A draconal's scale color determines their associated energy damage type. They gain resistance 15 to that damage type, deal 4d6 (4d6) extra damage of that type with their Strikes, and deal 21d6 (21d6) damage of that type with their breath weapon. They gain additional wisdom in the form of the basic and advanced domain spells from one domain, chosen from four domains available to draconals with their scale color. This red draconal has the protection and sun domains."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +38 (good, magical, reach 15 feet); Damage 3d12+18 (3d12+18) piercing plus 1d6 (1d6) good plus 4d6 (4d6) fire"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +38 (agile, good, magical, reach 10 feet); Damage 3d8+18 (3d8+18) slashing plus 1d6 (1d6) good plus 4d6 (4d6) fire"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      10,
+      5,
+      8,
+      8,
+      10,
+      9
+    ]
+  }
+}

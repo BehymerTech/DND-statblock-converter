@@ -1,0 +1,106 @@
+{
+  "name": "Lammasu",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Bonus Bestiary",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "LG",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "dex +1, natural +11, size -1",
+    "touch": 10,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 94,
+    "formula": "9d10+45"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 12,
+    "con": 21,
+    "int": 16,
+    "wis": 17,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +11, Ref +9, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +11, Fly +11, Knowledge (arcana) +12, Perception +15, Sense Motive +12",
+    "list": {
+      "Diplomacy": "+11",
+      "Fly": "+11",
+      "Perception": "+15",
+      "Sense Motive": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Celestial",
+    "Common"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 9,
+  "feats": [
+    "Blind-Fight",
+    "Eschew Materials",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +14 (1d8+6), 2 wings +9 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This majestic creature has the body of a lion, the wings of an eagle, and the face of a wise human man.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": "27 (31 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate deserts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

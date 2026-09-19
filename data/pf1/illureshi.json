@@ -1,0 +1,117 @@
+{
+  "name": "Illureshi",
+  "sourceSystem": "pf1",
+  "source": "Concordance of Rivals",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "chaotic, extraplanar, protean, shapechanger",
+  "alignment": "CN",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 23,
+    "notes": "dex +4, natural +9",
+    "touch": 14,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 114,
+    "formula": "12d10+48"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 30 ft. (perfect), swim 30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 18,
+    "con": 18,
+    "int": 23,
+    "wis": 16,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +8, Ref +12, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +16, Bluff +19, Diplomacy +16, Fly +19, Knowledge (any two) +18, Knowledge (arcana) +21, Knowledge (planes) +21, Perception +18, Spellcraft +21, Swim +23, Use Magic Device +19",
+    "list": {
+      "Acrobatics": "+16",
+      "Bluff": "+19",
+      "Diplomacy": "+16",
+      "Fly": "+19",
+      "Perception": "+18",
+      "Spellcraft": "+21",
+      "Swim": "+23",
+      "Use Magic Device": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "arcane sight",
+    "detect law"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Protean",
+    "tongues"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 12,
+  "feats": [
+    "Combat Casting",
+    "Craft Wondrous Item",
+    "Improved Initiative",
+    "Iron Will",
+    "Scribe Scroll",
+    "Spell Penetration"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15 (2d6+3), 2 claws +15 (1d8+3), tail +15 (1d8+1 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This anemic protean wears a wizard’s robe and garish jewelry.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": "29 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Maelstrom)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or ouroboros (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Mythic Elder Water Elemental",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "elemental, extraplanar, mythic, water",
+  "alignment": "N",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 30,
+    "notes": "dex +6, dodge +2, natural +14, size -2",
+    "touch": 16,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 202,
+    "formula": "16d10+114"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 90 ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 22,
+    "con": 19,
+    "int": 12,
+    "wis": 13,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +14, Ref +18, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +25, Escape Artist +25, Knowledge (planes) +20, Perception +20, Sense Motive +20, Stealth +17, Swim +37",
+    "list": {
+      "Acrobatics": "+25",
+      "Escape Artist": "+25",
+      "Perception": "+20",
+      "Sense Motive": "+20",
+      "Stealth": "+17",
+      "Swim": "+37"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Aquan"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 16,
+  "feats": [
+    "Cleave",
+    "Dodge",
+    "Great Cleave",
+    "Improved Bull Rush",
+    "Improved Critical (slam)",
+    "Improved Sunder",
+    "Lightning Reflexes",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 slams +24 (2d10+10/18-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "28 (+30 bull rush or sunder, +32 grapple)",
+    "cmd": "48 (50 vs. bull rush or sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Water)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

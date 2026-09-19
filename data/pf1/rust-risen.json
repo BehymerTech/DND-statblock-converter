@@ -1,0 +1,102 @@
+{
+  "name": "Rust-Risen",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 86: Lords of Rust",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 15,
+    "notes": "dex +1, natural +4",
+    "touch": 11,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d8+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 13,
+    "con": "None",
+    "int": 5,
+    "wis": 12,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +3, Ref +2, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +6, Perception +7, Stealth +5",
+    "list": {
+      "Intimidate": "+6",
+      "Perception": "+7",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Initiative",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "arm drill +5 (1d6+3), metal jaw +5 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Miscellaneous bits of rusted machinery are fused to the body of this shambling corpse.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": 16,
+    "racialModifiers": [
+      "Perception 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

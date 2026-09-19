@@ -1,0 +1,109 @@
+{
+  "name": "Cataboligne",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Gargantuan",
+  "type": "outsider",
+  "subtype": "chaotic, evil, extraplanar, qlippoth",
+  "alignment": "CE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 31,
+    "notes": "dex +5, natural +20, size -4",
+    "touch": 31,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 241,
+    "formula": "21d10+126"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 38,
+    "dex": 21,
+    "con": 22,
+    "int": 3,
+    "wis": 14,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +18, Ref +17, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +26, Swim +38",
+    "list": {
+      "Perception": "+26",
+      "Swim": "+38"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Abyssal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 21,
+  "feats": [
+    "Awesome Blow",
+    "Bleeding Critical",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Greater Sunder",
+    "Improved Bull Rush",
+    "Improved Critical (slam)",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Iron Will",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +26 (4d8+7 plus poison), 2 slams +31 (3d6+14/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Spiked clubs extend from each end of this six-legged fiend. A spiky growth sticks up from its back, and a mouth yawns in its belly.",
+  "meta": {
+    "cmb": "39 (+41 bull rush, +43 sunder)",
+    "cmd": "54 (56 vs. bull rush and sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or siege (3-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

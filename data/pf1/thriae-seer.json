@@ -1,0 +1,112 @@
+{
+  "name": "Thriae Seer",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "LN",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 25,
+    "notes": "dex +5, natural +10",
+    "touch": 15,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 133,
+    "formula": "14d10+56"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 20,
+    "con": 19,
+    "int": 19,
+    "wis": 22,
+    "cha": 27
+  },
+  "saves": {
+    "text": "Fort +8, Ref +16, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +22, Diplomacy +22, Fly +26, Knowledge (arcana) +18, Perception +27, Sense Motive +24, Spellcraft +18, Use Magic Device +22",
+    "list": {
+      "Bluff": "+22",
+      "Diplomacy": "+22",
+      "Fly": "+26",
+      "Perception": "+27",
+      "Sense Motive": "+24",
+      "Spellcraft": "+18",
+      "Use Magic Device": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect secret doors",
+    "low-light vision"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Common",
+    "Sylvan",
+    "Thriae"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 14,
+  "feats": [
+    "Agile Maneuvers",
+    "Alertness",
+    "Combat Casting",
+    "Combat Reflexes",
+    "Improved Two-Weapon Fighting",
+    "Lightning Reflexes",
+    "Two-Weapon Fighting"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 quarterstaff +16/+11/+6 (1d6+4), +2 quarterstaff +16/+11 (1d6+3), sting +11 (1d8+1 plus mind sting)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Lithe and beautiful, this half-bee, half-woman creature wears elaborate makeup and wields an ornate staff.",
+  "meta": {
+    "cmb": "+19",
+    "cmd": 31,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or triad"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+2 quarterstaff, 3 doses of merope, other treasure)"
+      }
+    ]
+  }
+}

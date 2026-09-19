@@ -1,0 +1,102 @@
+{
+  "name": "Exiled Shade",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "incorporeal",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 18,
+    "notes": "deflection +4, dex +3, dodge +1",
+    "touch": 18,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 68,
+    "formula": "8d8+32"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 40 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 17,
+    "con": "None",
+    "int": 7,
+    "wis": 14,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +6, Ref +5, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +18, Perception +9, Sense Motive +9, Stealth +10",
+    "list": {
+      "Fly": "+18",
+      "Perception": "+9",
+      "Sense Motive": "+9",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 6,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Mobility",
+    "Weapon Focus (incorporeal touch)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "incorporeal touch +10 (1d6 Intelligence damage)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Gray and black shadows and mist coalesce into a humanoid figure, its face a distorted mask of rage and hatred.",
+  "meta": {
+    "cmb": "+9",
+    "cmd": 24,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or banishment (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

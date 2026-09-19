@@ -1,0 +1,105 @@
+{
+  "name": "Xorn",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "earth, extraplanar",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 21,
+    "notes": "natural +11",
+    "touch": 10,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 66,
+    "formula": "7d10+28"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., other_semicolon earth glide ft., burrow 20 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 10,
+    "con": 17,
+    "int": 10,
+    "wis": 11,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +2, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +10, Intimidate +10, Knowledge (dungeonering) +10, Perception +14, Stealth +10, Survival +10",
+    "list": {
+      "Appraise": "+10",
+      "Intimidate": "+10",
+      "Perception": "+14",
+      "Stealth": "+10",
+      "Survival": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Terran"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 7,
+  "feats": [
+    "Cleave",
+    "Improved Bull Rush",
+    "Power Attack",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +10 (4d6+3), 3 claws +10 (1d4+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This squat beast is as wide as it is tall. Strangely symmetrical, it has three arms, three legs, three eyes, and one huge mouth.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": "20 (22 vs. trip)",
+    "racialModifiers": [
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Earth)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cluster (3-6)"
+      }
+    ]
+  }
+}

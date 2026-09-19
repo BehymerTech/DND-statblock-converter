@@ -1,0 +1,110 @@
+{
+  "name": "Utukku",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "chaotic, evil, extraplanar, qlippoth, shapechanger",
+  "alignment": "CE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "dex +5, natural +6",
+    "touch": 15,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 103,
+    "formula": "9d10+54"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 20,
+    "con": 23,
+    "int": 18,
+    "wis": 21,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +9, Ref +11, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +18, Diplomacy +13, Disguise +18, Knowledge (planes) +16, Knowledge (religion) +16, Perception +17, Sense Motive +17, Spellcraft +16, Stealth +20, Use Magic Device +16",
+    "list": {
+      "Bluff": "+18",
+      "Diplomacy": "+13",
+      "Disguise": "+18",
+      "Perception": "+17",
+      "Sense Motive": "+17",
+      "Spellcraft": "+16",
+      "Stealth": "+20",
+      "Use Magic Device": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Reflexes",
+    "Deceitful",
+    "Improved Initiative",
+    "Lunge",
+    "Skill Focus (Stealth)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +16 (2d6+7 plus consume humanity)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Wriggling tendrils surround this creature’s single eye where a face should be, and sucker-tipped tentacles stretch from its shoulders.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": 31,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (the Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or cult (1 utukku plus 2-20 cultists)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

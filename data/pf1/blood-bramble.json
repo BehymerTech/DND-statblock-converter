@@ -1,0 +1,104 @@
+{
+  "name": "Blood Bramble",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Large",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 24,
+    "notes": "dex +9, natural +6, size -1",
+    "touch": 18,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 126,
+    "formula": "12d8+72"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 40 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 28,
+    "con": 22,
+    "int": 3,
+    "wis": 15,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +14, Ref +13, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +14, Perception +14, Stealth +17",
+    "list": {
+      "Climb": "+14",
+      "Perception": "+14",
+      "Stealth": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Aklo (cannot speak)"
+  ],
+  "initiative": "+13",
+  "babOrProficiency": 9,
+  "feats": [
+    "Improved Critical (vine)",
+    "Improved Initiative",
+    "Iron Will",
+    "Skill Focus (Perception)",
+    "Skill Focus (Stealth)",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 vines +17 (1d8+6/19-20 plus bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A tremendous bramble of intertwined bushes rises from a sizable pile of bones heaped at its roots, and its thorny flowers drip blood.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": "35 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or thicket (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

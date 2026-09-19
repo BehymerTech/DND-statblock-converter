@@ -1,0 +1,108 @@
+{
+  "name": "Masked Murderer",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 20,
+    "notes": "armor +5, dex +3, natural +2",
+    "touch": 13,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 113,
+    "formula": "10d8+68"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 17,
+    "con": "None",
+    "int": 17,
+    "wis": 14,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +8, Ref +9, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +19, Diplomacy +19, Disguise +19, Intimidate +19, Knowledge (arcana) +16, Knowledge (local) +20, Knowledge (religion) +15, Perception +15, Perform (oratory) +14, Perform (percussion) +19",
+    "list": {
+      "Bluff": "+19",
+      "Diplomacy": "+19",
+      "Disguise": "+19",
+      "Intimidate": "+19",
+      "Perception": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Elven",
+    "Undercommon"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 7,
+  "feats": [
+    "Ability Focus (paralysis)",
+    "Combat Casting",
+    "Improved Initiative",
+    "Weapon Finesse",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +10 (1d6+2 plus disease and paralysis), 2 claws +11 (1d6+2 plus paralysis)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite shortbow +11/+6 (1d6+2/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Ghoul",
+    "class": "bard (dirge bard) 8 (Pathfinder RPG Ultimate Magic 26)",
+    "cmb": "+9",
+    "cmd": 22,
+    "racialModifiers": [
+      "Knowledge (religion) 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      }
+    ]
+  }
+}

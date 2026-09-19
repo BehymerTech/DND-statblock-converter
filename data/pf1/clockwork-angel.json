@@ -1,0 +1,104 @@
+{
+  "name": "Clockwork Angel",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "construct",
+  "subtype": "clockwork",
+  "alignment": "N",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 29,
+    "notes": "dex +9, dodge +2, natural +8",
+    "touch": 21,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 210,
+    "formula": "20d10+100"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 28,
+    "con": "None",
+    "int": "None",
+    "wis": 11,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +6, Ref +17, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Fly +19, Perception +6",
+    "list": {
+      "Acrobatics": "+15",
+      "Fly": "+19",
+      "Perception": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": "+13",
+  "babOrProficiency": 20,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Martial Weapon Proficiency (greatsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 flaming keen greatsword +28/+23/+18/+13 (2d6+11/19-20 plus 1d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Brass, bronze, and silver components adorn this angelic figure. Moving gears are visible within the gaps of its metallic body.",
+  "meta": {
+    "cmb": "+27",
+    "cmd": 48,
+    "racialModifiers": [
+      "Acrobatics 6",
+      "Fly 6",
+      "Perception 6"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or reliquary (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental (mwk greatsword)"
+      }
+    ]
+  }
+}

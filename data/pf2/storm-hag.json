@@ -1,0 +1,121 @@
+{
+  "name": "Storm Hag",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 128.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Air, Electricity, Hag",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 5",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 95,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 18,
+    "int": 14,
+    "wis": 16,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +15, Ref +9, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +11 (1d20+11); __Deception__: +11 (1d20+11); __Intimidation__: +13 (1d20+13); __Occultism__: +11 (1d20+11); __Stealth__: +9 (1d20+9); __Weather lore__: +13 (1d20+13); ",
+    "list": {
+      "Acrobatics": "+11",
+      "Deception": "+11",
+      "Intimidation": "+13",
+      "Occultism": "+11",
+      "Stealth": "+9",
+      "Weather lore": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, stormsight"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Aklo",
+    "Auran",
+    "Common",
+    "Jotun; voice of the storm"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Coven",
+      "text": "A storm hag adds hydraulic torrent, lightning storm, and mariner's curse to her coven's spells (page 304)."
+    },
+    {
+      "name": "Stormsight",
+      "text": "Wind, precipitation, and clouds don't impair a storm hag's vision; she ignores the concealed condition from storms, mist, precipitation, and the like."
+    },
+    {
+      "name": "Voice of the Storm",
+      "text": "A storm hag can send spoken messages or sounds on the wind to any spot that she has seen and the wind can reach within a 50-mile radius. She can send a quiet whisper or a loud scream, and decides whether it's clearly audible or barely heard above the wind. The message is delivered regardless of whether anyone is present to hear it. The hag can use this ability to Demoralize creatures that hear her message with dire threats or unnerving whispers of doom."
+    },
+    {
+      "name": "Stormcalling",
+      "text": "A storm hag can perform a special control weather ritual, which requires no secondary casters, to change the weather within 5 miles of her location for 4d12 (4d12) hours. The primary check is a DC 23 Occultism check, and she can't get an outcome worse than a failure. The storm hag can create only hurricanes, thunderstorms, and tornadoes, but she can do so regardless of the current season. She can also quell natural weather events but never willingly does so."
+    },
+    {
+      "name": "Wind Mastery",
+      "text": "A storm hag is unaffected by strong winds, natural or magical. Windy conditions are not difficult terrain for her."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +15 (agile); Damage 1d6+7 (1d6+7) slashing plus 1d6 (1d6) electricity"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +15 Damage 1d8+7 (1d8+7) piercing plus 1d6 (1d6) electricity"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ wind blast +13 (air, range 30 feet); Damage 1d10+5 (1d10+5) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      4,
+      2,
+      3,
+      4
+    ]
+  }
+}

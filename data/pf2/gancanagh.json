@@ -1,0 +1,109 @@
+{
+  "name": "Gancanagh",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 31.",
+  "size": "Medium",
+  "type": "Celestial",
+  "subtype": "Azata",
+  "alignment": "CG",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 75,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 20,
+    "con": 16,
+    "int": 14,
+    "wis": 12,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +9, Ref +13, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +9 (1d20+9); __Deception__: +13 (1d20+13); __Diplomacy__: +13 (1d20+13); __Performance__: +14 (1d20+14); __Religion__: +9 (1d20+9); __Stealth__: +11 (1d20+11); ",
+    "list": {
+      "Athletics": "+9",
+      "Deception": "+13",
+      "Diplomacy": "+13",
+      "Performance": "+14",
+      "Religion": "+9",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal; tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Vulnerable to Smoke",
+      "text": "A gancanagh's lungs can't tolerate smoke. They take a –2 circumstance penalty to saving throws against effects that create some form of smoke."
+    },
+    {
+      "name": "Items",
+      "text": "silver rapier, silver virtuoso flute;"
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, divine, polymorph, transmutation); The gancanagh can take on the appearance of any Small or Medium humanoid. This doesn't change their Speed or their attack and damage bonuses with their Strikes, but might change the damage type their Strikes deal (typically to bludgeoning)."
+    },
+    {
+      "name": "Invigorating Passion",
+      "text": "⬺ (divine, emotion, enchantment, mental); The gancanagh embraces or kisses a willing creature, infusing that creature with their invigorating passion. The creature gains a +1 status bonus to attack rolls and 10 temporary Hit Points for 10 minutes. After that time, the target becomes fatigued for 10 minutes unless they succeed at a DC 21 Fortitude save."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ silver rapier +13 (deadly 1d10, disarm, finesse, good, magical); Damage 1d6+7 (1d6+7) piercing plus 1d4 (1d4) good"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      5,
+      3,
+      2,
+      1,
+      5
+    ],
+    "items": "silver rapier, silver virtuoso flute;"
+  }
+}

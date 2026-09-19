@@ -1,0 +1,111 @@
+{
+  "name": "Silvanshee",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Tiny",
+  "type": "outsider",
+  "subtype": "agathion, extraplanar, good",
+  "alignment": "NG",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 15,
+    "notes": "dex +2, natural +1, size +2",
+    "touch": 14,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 13,
+    "formula": "2d10+2"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 90 ft. (good)"
+  },
+  "abilities": {
+    "str": 3,
+    "dex": 15,
+    "con": 12,
+    "int": 10,
+    "wis": 12,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +5, Ref +6, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +11, Climb +7, Fly +6, Knowledge (arcana) +5, Knowledge (planes) +5, Perception +10, Stealth +19",
+    "list": {
+      "Acrobatics": "+11",
+      "Climb": "+7",
+      "Fly": "+6",
+      "Perception": "+10",
+      "Stealth": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "speak with animals",
+    "truespeech"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Initiative",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +6 (1d3-4), 2 claws +6 (1d2-4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This black cat has gray stripes, violet eyes, and an unusual white blaze on its chest.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": "8 (12 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics 4",
+      "Perception 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land (Nirvana)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or clowder (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

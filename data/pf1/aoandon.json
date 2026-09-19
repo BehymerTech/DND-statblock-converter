@@ -1,0 +1,117 @@
+{
+  "name": "Aoandon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "incorporeal, native",
+  "alignment": "CE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 24,
+    "notes": "deflection +6, dex +7, dodge +1",
+    "touch": 24,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 152,
+    "formula": "16d10+64"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 24,
+    "con": 19,
+    "int": 20,
+    "wis": 15,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +14, Ref +12, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +22, Bluff +25, Diplomacy +19, Fly +40, Intimidate +31, Knowledge (arcana) +20, Knowledge (history) +10, Knowledge (local) +10, Knowledge (nobility) +12, Knowledge (planes) +18, Knowledge (religion) +13, Perception +20, Sense Motive +20, Spellcraft +22, Stealth +22",
+    "list": {
+      "Acrobatics": "+22",
+      "Bluff": "+25",
+      "Diplomacy": "+19",
+      "Fly": "+40",
+      "Intimidate": "+31",
+      "Perception": "+20",
+      "Sense Motive": "+20",
+      "Spellcraft": "+22",
+      "Stealth": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Giant",
+    "Infernal"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 16,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Mobility",
+    "Skill Focus (Fly)",
+    "Skill Focus (Intimidate)",
+    "Spring Attack",
+    "Weapon Finesse",
+    "Weapon Focus (touch)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "touch of madness +19 touch (10d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This translucent, shaggy, horned monster shines with an eerie blue light, and its form trickles into vapor below the waist.",
+  "meta": {
+    "cmb": "+23",
+    "cmd": 40,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

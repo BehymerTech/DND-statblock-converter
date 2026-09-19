@@ -1,0 +1,108 @@
+{
+  "name": "Kitsune",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "kitsune, shapechanger",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 13,
+    "notes": "dex +2, dodge +1",
+    "touch": 13,
+    "flatFooted": 10
+  },
+  "hp": {
+    "average": 5,
+    "formula": "1d6-1"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 15,
+    "con": 8,
+    "int": 12,
+    "wis": 14,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort -1, Ref +2, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +4, Bluff +7, Perception +3, Spellcraft +5, Stealth +3",
+    "list": {
+      "Acrobatics": "+4",
+      "Bluff": "+7",
+      "Perception": "+3",
+      "Spellcraft": "+5",
+      "Stealth": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 13,
+  "languages": [
+    "Common",
+    "Elven",
+    "Sylvan"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 0,
+  "feats": [
+    "Dodge",
+    "Eschew Materials"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite -1 (1d4-1), mwk quarterstaff -5 (1d6-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This elegantly dressed woman has the head and bushy tail of well-groomed fox.",
+  "meta": {
+    "race": "Female",
+    "class": "kitsune sorcerer 1",
+    "cmb": "-1",
+    "cmd": 12,
+    "racialModifiers": [
+      "Acrobatics 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests, hills, or mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (potion of cure light wounds, mwk quarterstaff, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Terror Bird",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 264.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 30,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 16,
+    "int": 2,
+    "wis": 10,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +11, Ref +9, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +9 (1d20+9); __Athletics__: +10 (1d20+10); ",
+    "list": {
+      "Acrobatics": "+9",
+      "Athletics": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Sprint",
+      "text": "⬺ Frequency once per minute Effect The terror bird Strides three times in a straight line."
+    },
+    {
+      "name": "Tearing Clutch",
+      "text": "The terror bird's powerful beak can tear through flesh. On a successful beak Strike, the target takes 1 persistent bleed damage. This bleed damage increases to 1d4 (1d4) on a critical hit."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ beak +10 (reach 10 feet); Damage 1d8+4 (1d8+4) piercing plus tearing clutch"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ talon +10 (agile); Damage 1d6+4 (1d6+4) piercing plus Knockdown (page 305)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      3,
+      3,
+      -4,
+      0,
+      0
+    ]
+  }
+}

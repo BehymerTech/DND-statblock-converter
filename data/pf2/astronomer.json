@@ -1,0 +1,98 @@
+{
+  "name": "Astronomer",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 241.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 23,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 12,
+    "con": 14,
+    "int": 18,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +6, Ref +5, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +8 (1d20+8); __Occultism__: +8 (1d20+8); __Astronomy lore__: +12 (1d20+12); ",
+    "list": {
+      "Arcana": "+8",
+      "Occultism": "+8",
+      "Astronomy lore": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 20,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Living Sextant",
+      "text": "If the astronomer is able to see the night sky, they can Sense Direction using a +10 modifier."
+    },
+    {
+      "name": "Items",
+      "text": "astrolabe, spellbook, spell component pouch, staff;"
+    },
+    {
+      "name": "Counterspell",
+      "text": "⬲ Trigger A creature Casts a Spell the astronomer has prepared Effect The astronomer expends a prepared spell to counter the triggering creature's casting of that same spell. The astronomer loses its spell slot as if it had cast the triggering spell. The astronomer then attempts to counteract the triggering spell."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ staff +6 (two-hand d8); Damage 1d4 (1d4) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      1,
+      2,
+      4,
+      3,
+      0
+    ],
+    "items": "astrolabe, spellbook, spell component pouch, staff;"
+  }
+}

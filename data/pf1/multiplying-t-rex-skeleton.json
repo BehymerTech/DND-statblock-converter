@@ -1,0 +1,78 @@
+{
+  "name": "Multiplying T-Rex Skeleton",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 44: Trial of the Beast",
+  "size": "Gargantuan",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, natural +6, size -4",
+    "touch": 8,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 81,
+    "formula": "18d8"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 15,
+    "con": "None",
+    "int": "None",
+    "wis": 10,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +6, Ref +8, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 13,
+  "feats": [
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +20 (4d6+22)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+28",
+    "cmd": 40
+  }
+}

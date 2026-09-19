@@ -1,0 +1,80 @@
+{
+  "name": "Mechanical Efreeti",
+  "sourceSystem": "pf1",
+  "source": "Tombs of Golarion",
+  "size": "Tiny",
+  "type": "construct",
+  "subtype": "clockwork",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 18,
+    "notes": "dex +2, dodge +2, natural +2, size +2",
+    "touch": 16,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 5,
+    "formula": "1d10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 14,
+    "con": "None",
+    "int": "None",
+    "wis": 11,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +0, Ref +4, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 1,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +1 (1d3-2 plus burn)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This crimson-skinned genie has an artificial, sculpted appearance.",
+  "meta": {
+    "cmb": "+1",
+    "cmd": 11
+  }
+}

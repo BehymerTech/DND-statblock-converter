@@ -1,0 +1,111 @@
+{
+  "name": "Dark Naga",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "LE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 22,
+    "notes": "dex +5, dodge +1, natural +7, size -1",
+    "touch": 15,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 85,
+    "formula": "10d8+40"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 21,
+    "con": 18,
+    "int": 16,
+    "wis": 15,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +7, Ref +10, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +13, Diplomacy +9, Disguise +9, Escape Artist +13, Intimidate +12, Knowledge (arcana) +13, Perception +19, Sense Motive +10, Spellcraft +12, Stealth +18",
+    "list": {
+      "Bluff": "+13",
+      "Diplomacy": "+9",
+      "Disguise": "+9",
+      "Escape Artist": "+13",
+      "Intimidate": "+12",
+      "Perception": "+19",
+      "Sense Motive": "+10",
+      "Spellcraft": "+12",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect thoughts"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Common",
+    "Infernal"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 7,
+  "feats": [
+    "Alertness",
+    "Combat Casting",
+    "Dodge",
+    "Eschew Materials",
+    "Lightning Reflexes",
+    "Stealthy"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d4+2), sting +8 (2d4+2 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A sharp-featured humanoid head crowns the powerful, sinuous body of this snake-like monstrosity.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": "26 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or nest (2-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "name": "NPC Shackled Sorcerer",
+  "sourceSystem": "pf1",
+  "source": "Isles of the Shackles",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "CN",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 13,
+    "notes": "armor +1, dex +2",
+    "touch": 12,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 35,
+    "formula": "6d6+12"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 13,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +4, Ref +5, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (arcana) +6, Profession (sailor) +6, Spellcraft +9, Swim +13, Use Magic Device +11, Perception +1",
+    "list": {
+      "Spellcraft": "+9",
+      "Swim": "+13",
+      "Use Magic Device": "+11",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 11,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 3,
+  "feats": [
+    "Arcane Strike",
+    "Combat Casting",
+    "Eschew Materials",
+    "Greater Spell Focus (evocation)",
+    "Spell Focus (evocation)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk dagger +3 (1d4-1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk light crossbow +6 (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Clad in multicolored silks, this fierce-looking woman seems ready to unleash devastating sorcery upon enemy vessels and water-dwelling monsters alike.",
+  "meta": {
+    "race": "Human",
+    "class": "sorcerer 6",
+    "cmb": "+2",
+    "cmd": 14,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans or coastlines"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or unit (3-7)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (masterwork light crossbow with 20 bolts, masterwork dagger, bracers of armor +1, cloak of resistance +1, potions of cure light wounds [2], potion of invisibility, scroll of misdirection, scroll of nondetection, scrolls of shield [2], wand of web [10 charges], other treasure)"
+      }
+    ]
+  }
+}

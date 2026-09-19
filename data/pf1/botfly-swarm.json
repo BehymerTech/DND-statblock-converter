@@ -1,0 +1,93 @@
+{
+  "name": "Botfly Swarm",
+  "sourceSystem": "pf1",
+  "source": "Heart of the Jungle",
+  "size": "Fine",
+  "type": "vermin",
+  "subtype": "swarm",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 18,
+    "notes": "size +8",
+    "touch": 18,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 40,
+    "formula": "9d8"
+  },
+  "speed": {
+    "walk": 0,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "0 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 2,
+    "dex": 11,
+    "con": 10,
+    "int": "None",
+    "wis": 11,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +6, Ref +3, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +12, Perception +0",
+    "list": {
+      "Fly": "+12",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 10,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 6,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "swarm (2d6 plus infestation)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Like a cloud of black dust, a swirling swarm of insects hovers in the air. From within comes the low, droning buzz of thousands of tiny flies.",
+  "meta": {
+    "cmb": "None",
+    "cmd": "None",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm jungles and swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or colony (2-20 swarms)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

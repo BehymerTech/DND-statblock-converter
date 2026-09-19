@@ -1,0 +1,100 @@
+{
+  "name": "NPC Aldori Swordlord",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LN",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 19,
+    "notes": "armor +4, dex +3, shield +2",
+    "touch": 13,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 54,
+    "formula": "6d10+17"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 17,
+    "con": 14,
+    "int": 14,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +7, Ref +6, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +11, Bluff +7, Diplomacy +7, Intimidate +7, Knowledge (nobility) +10, Sense Motive +8, Perception +0",
+    "list": {
+      "Acrobatics": "+11",
+      "Bluff": "+7",
+      "Diplomacy": "+7",
+      "Intimidate": "+7",
+      "Sense Motive": "+8",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 10,
+  "languages": [
+    "Common",
+    "Hallit",
+    "Orc"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 6,
+  "feats": [
+    "Aldori Dueling Mastery",
+    "Combat Expertise",
+    "Dazzling Display",
+    "Exotic Weapon Proficiency (Aldori dueling sword)",
+    "Improved Disarm",
+    "Weapon Finesse",
+    "Weapon Focus (Aldori dueling sword)",
+    "Weapon Specialization (Aldori dueling sword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 Aldori dueling sword +11/+6 (1d8+6/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +9 (1d4+1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "fighter (Aldori swordlord) 5, Aldori swordlord 1",
+    "cmb": "7 (+9 disarm)",
+    "cmd": "20 (22 vs. disarm)"
+  }
+}

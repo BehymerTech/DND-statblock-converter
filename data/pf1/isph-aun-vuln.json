@@ -1,0 +1,123 @@
+{
+  "name": "Isph-Aun-Vuln",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "chaotic, evil, extraplanar, incorporeal, qlippoth",
+  "alignment": "CE",
+  "cr": "25",
+  "level": null,
+  "xp": 1638400,
+  "ac": {
+    "value": 44,
+    "notes": "armor +12, deflection +9, dex +12, dodge +1",
+    "touch": 32,
+    "flatFooted": 31
+  },
+  "hp": {
+    "average": 546,
+    "formula": "28d10+392"
+  },
+  "speed": {
+    "walk": 100,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 100 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 35,
+    "con": 38,
+    "int": 31,
+    "wis": 28,
+    "cha": 29
+  },
+  "saves": {
+    "text": "Fort +34, Ref +27, Will +31",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +40, Bluff +46, Diplomacy +37, Fly +51, Intimidate +37, Knowledge (arcana) +38, Knowledge (history) +38, Knowledge (local) +38, Knowledge (nobility) +38, Knowledge (religion) +38, Knowledge (planes) +41, Perception +40, Sense Motive +40, Spellcraft +38, Stealth +43, Use Magic Device +37",
+    "list": {
+      "Acrobatics": "+40",
+      "Bluff": "+46",
+      "Diplomacy": "+37",
+      "Fly": "+51",
+      "Intimidate": "+37",
+      "Perception": "+40",
+      "Sense Motive": "+40",
+      "Spellcraft": "+38",
+      "Stealth": "+43",
+      "Use Magic Device": "+37"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "detect law",
+    "true seeing"
+  ],
+  "passivePerception": 50,
+  "languages": [
+    "Abyssal",
+    "telepathy 300 ft.",
+    "tongues"
+  ],
+  "initiative": "+16",
+  "babOrProficiency": 28,
+  "feats": [
+    "Combat Casting",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Dodge",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Improved Lightning Reflexes",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Mobility",
+    "Quicken Spell-Like Ability (mass suggestion)",
+    "Quicken Spell-Like Ability (mind fog)",
+    "Skill Focus (Bluff)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +40 touch (destruction)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A cloud of smoke the size of a human condenses, forming a clot of tentacles and eyes surrounding a fanged mouth.",
+  "meta": {
+    "cmb": "+40",
+    "cmd": "60 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

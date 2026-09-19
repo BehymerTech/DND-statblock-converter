@@ -1,0 +1,113 @@
+{
+  "name": "Nymph",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "",
+  "alignment": "Usually chaotic good",
+  "cr": "7",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": "+3 Dex, +4 deflection",
+    "touch": 17,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 27,
+    "formula": "6d6+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": 20,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares), swim 20 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 17,
+    "con": 12,
+    "int": 16,
+    "wis": 17,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +7, Ref +12, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Concentration +10, Diplomacy +6, Escape Artist +12, Handle Animal +13, Heal +12, Hide +12, Listen +12, Move Silently +12, Ride +5, Sense Motive +12, Spot +12, Swim +8, Use Rope +3 (+5 With Bindings);",
+    "list": {
+      "Concentration": "+10",
+      "Diplomacy": "+6",
+      "Escape Artist": "+12",
+      "Handle Animal": "+13",
+      "Heal": "+12",
+      "Hide": "+12",
+      "Listen": "+12",
+      "Move Silently": "+12",
+      "Ride": "+5",
+      "Sense Motive": "+12",
+      "Spot": "+12",
+      "Swim": "+8",
+      "Use Rope": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 3,
+  "feats": [
+    "Combat Casting",
+    "Dodge",
+    "Weapon Finesse"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Blinding beauty, spells, spell-like abilities, stunning glance"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 10/cold iron, low-light vision, unearthly grace, wild empathy"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Dagger +6 melee (1d4/19-20)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Dagger +6 melee (1d4/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A nymph is about the height and weight of a female elf.",
+    "grapple": "+3",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Temperate forests",
+    "organization": "Solitary",
+    "treasure": "Standard",
+    "advancement": "7-12 HD (Medium)",
+    "leveladjustment": "+7"
+  }
+}

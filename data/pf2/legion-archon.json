@@ -1,0 +1,117 @@
+{
+  "name": "Legion Archon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 28.",
+  "size": "Medium",
+  "type": "Celestial",
+  "subtype": "Archon",
+  "alignment": "LG",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 100,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, fly 60 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": 18,
+    "int": 12,
+    "wis": 14,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +17, Ref +11, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +13 (1d20+13); __Athletics__: +14 (1d20+14); __Diplomacy__: +16 (1d20+16); __Intimidation__: +16 (1d20+16); __Religion__: +13 (1d20+13); __Survival__: +14 (1d20+14); ",
+    "list": {
+      "Acrobatics": "+13",
+      "Athletics": "+14",
+      "Diplomacy": "+16",
+      "Intimidation": "+16",
+      "Religion": "+13",
+      "Survival": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal; tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Menacing Guardian",
+      "text": "(aura, divine, enchantment); 30 feet. Enemies that start their turn in the area or enter it must attempt a DC 23 Will save. On a failure, they take a –1 status penalty to attack rolls, spell rolls, and damage rolls against any other target while in the aura for 24 hours or until they damage the archon, whichever comes first. On a critical failure, they can't use hostile actions against any other target while in the area for 24 hours or until they damage the archon, whichever comes first. Regardless of the result, a creature is then temporarily immune to further menacing guardian auras for 24 hours."
+    },
+    {
+      "name": "Retributive Strike",
+      "text": "⬲ A legion archon can also make a Retributive Strike by throwing its flame of justice."
+    },
+    {
+      "name": "Items",
+      "text": "full plate;"
+    },
+    {
+      "name": "Archon's Door",
+      "text": "Once per day, if an archon sees another creature cast dimension door, it can cast an innate dimension door (heightened to 5th level) within 1 round to attempt to follow that creature to the maximum distance of the archon's dimension door. If the archon's dimension door has enough distance, the archon appears the same distance and direction from the creature as before either used dimension door."
+    },
+    {
+      "name": "Flame of Justice",
+      "text": "(divine, evocation); A legion archon's spirit of righteousness manifests in its hands as a mighty two-handed sword called the flame."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ flame of justice +18 (magical, versatile p); Damage 2d10+5 (2d10+5) slashing plus 1d6 (1d6) fire and 1d6 (1d6) good"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ flame of justice +15 (magical, range increment 30 feet, versatile p); Damage 2d10+5 (2d10+5) slashing plus 1d6 (1d6) fire and 1d6 (1d6) good"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      2,
+      4,
+      1,
+      2,
+      5
+    ],
+    "items": "full plate;"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Giant Bat",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 39.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 30,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 feet, fly 30 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 16,
+    "int": 2,
+    "wis": 16,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +9, Ref +8, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Athletics__: +8 (1d20+8); __Stealth__: +8 (1d20+8); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Athletics": "+8",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "precise echolocation 40, low-light vision"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Echolocation",
+      "text": "A bat can use its hearing as a precise sense at the listed range."
+    },
+    {
+      "name": "Wing Thrash",
+      "text": "⬲ Trigger An adjacent enemy damages the giant bat. Effect The bat makes one or two wing Strikes—one against the triggering creature and one against another adjacent creature."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +10 Damage 1d10+4 (1d10+4) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ wing +10 (agile); Damage 1d6+4 (1d6+4) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      3,
+      -4,
+      3,
+      -2
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "name": "Cloud Giant",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 173.",
+  "size": "Huge",
+  "type": "Humanoid",
+  "subtype": "Air, Giant",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 11",
+  "xp": null,
+  "ac": {
+    "value": 30,
+    "notes": ""
+  },
+  "hp": {
+    "average": 220,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 10,
+    "con": 20,
+    "int": 12,
+    "wis": 16,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +25, Ref +18, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +26 (1d20+26); __Crafting__: +21 (1d20+21); __Diplomacy__: +24 (1d20+24); __Intimidation__: +26 (1d20+26); __Performance__: +21 (1d20+21); ",
+    "list": {
+      "Athletics": "+26",
+      "Crafting": "+21",
+      "Diplomacy": "+24",
+      "Intimidation": "+26",
+      "Performance": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Common",
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Catch Rock",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "+1 striking ranseur, sack with 5 rocks;"
+    },
+    {
+      "name": "Throw Rock",
+      "text": "⬻"
+    },
+    {
+      "name": "Wind Strike",
+      "text": "⬺ (air, evocation, primal); The cloud giant Strikes a creature with its ranseur, surrounded in a roar of rushing air. On a hit, the target takes an additional 4d8 (4d8) bludgeoning damage and is deafened for 1 minute. Whether or not the Strike hits, each non-cloud giant within a 20-foot emanation, including the target of the Strike, is buffeted by roaring winds and must attempt a DC 30 Fortitude saving throw. Critical Success The creature is unaffected. Success The creature takes 2d8 (2d8) sonic damage. Failure The creature takes 4d8 (4d8) sonic damage and is deafened until the end of its next turn. Critical Failure As failure, but double damage and also knocked prone."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ ranseur +25 (disarm, magical, reach 20 feet); Damage 2d10+13 (2d10+13) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +24 (agile, reach 15 feet); Damage 2d8+13 (2d8+13) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ rock +24 (brutal, range increment 120 feet); Damage 2d10+13 (2d10+13) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      0,
+      5,
+      1,
+      3,
+      1
+    ],
+    "items": "+1 striking ranseur, sack with 5 rocks;"
+  }
+}

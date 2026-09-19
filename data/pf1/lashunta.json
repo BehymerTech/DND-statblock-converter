@@ -1,0 +1,113 @@
+{
+  "name": "Lashunta",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Bestiary",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "lashunta",
+  "alignment": "NG",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 11,
+    "notes": "dex +1",
+    "touch": 11,
+    "flatFooted": 10
+  },
+  "hp": {
+    "average": 11,
+    "formula": "1d6+2"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 13,
+    "con": 8,
+    "int": 17,
+    "wis": 12,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort -1, Ref +1, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +4, Handle Animal +4, Knowledge (arcana) +9, Perception +2, Spellcraft +7, Use Magic Device +4",
+    "list": {
+      "Diplomacy": "+4",
+      "Handle Animal": "+4",
+      "Perception": "+2",
+      "Spellcraft": "+7",
+      "Use Magic Device": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 12,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Elven",
+    "Lashunta",
+    "limited telepathy"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 0,
+  "feats": [
+    "Scribe Scroll",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk quarterstaff +0 (1d6-1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "light crossbow +1 (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Delicate antennae extend from the forehead of this lithe woman.",
+  "meta": {
+    "race": "Female",
+    "class": "lashunta wizard 1",
+    "cmb": "-1",
+    "cmd": 10,
+    "racialModifiers": [
+      "Knowledge (arcana) 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Castrovel)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "any"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (light crossbow with 20 bolts, quarterstaff, gold amulet [bonded object], other treasure)"
+      }
+    ]
+  }
+}

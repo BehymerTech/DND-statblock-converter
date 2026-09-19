@@ -1,0 +1,111 @@
+{
+  "name": "Procyal",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 99: Dance of the Damned",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "agathion, extraplanar, good",
+  "alignment": "NG",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 20,
+    "notes": "dex +2, natural +8",
+    "touch": 16,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 95,
+    "formula": "10d10+40"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 15,
+    "con": 18,
+    "int": 18,
+    "wis": 16,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +11, Ref +9, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +20, Diplomacy +16, Disguise +20, Knowledge (local) +14, Knowledge (planes) +17, Perception +16, Perform (act) +16, Sense Motive +16, Sleight of Hand +15, Stealth +15",
+    "list": {
+      "Bluff": "+20",
+      "Diplomacy": "+16",
+      "Disguise": "+20",
+      "Perception": "+16",
+      "Sense Motive": "+16",
+      "Sleight of Hand": "+15",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Halfling",
+    "speak with animals",
+    "truespeech"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 10,
+  "feats": [
+    "Combat Expertise",
+    "Deceitful",
+    "Greater Dirty Trick",
+    "Improved Dirty Trick",
+    "Spell Penetration"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 short sword +12/+7 (1d6+2/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Wide of chest and waist, this finely dressed man has a graymuzzled raccoon’s head and beady, darting eyes.",
+  "meta": {
+    "cmb": "11 (+15 dirty trick)",
+    "cmd": "23 (25 vs. dirty trick)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any urban (Nirvana)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or party (3-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+1 short sword, other treasure)"
+      }
+    ]
+  }
+}

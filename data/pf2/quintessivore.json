@@ -1,0 +1,113 @@
+{
+  "name": "Quintessivore",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 209.",
+  "size": "Medium",
+  "type": "Beast",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 28,
+    "notes": ""
+  },
+  "hp": {
+    "average": 180,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, climb 20 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 22,
+    "con": 22,
+    "int": 24,
+    "wis": 16,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +22, Ref +20, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +25 (1d20+25); __Athletics__: +17 (1d20+17); __Intimidation__: +19 (1d20+19); __Stealth__: +20 (1d20+20); ",
+    "list": {
+      "Arcana": "+25",
+      "Athletics": "+17",
+      "Intimidation": "+19",
+      "Stealth": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Common",
+    "Infernal",
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Instant Suspension",
+      "text": "⬲ Trigger The quintessivore reduces a creature within 15 feet of it to 0 Hit Points Effect The quintessivore uses Suspend Soul, targeting the creature."
+    },
+    {
+      "name": "Items",
+      "text": "scroll of dimensional anchor, scroll of fly;"
+    },
+    {
+      "name": "Feed on Quintessence",
+      "text": "(arcane, exploration, manipulate, necromancy); Over the course of 1 hour, the quintessivore removes and deconstructs the soul of a creature. The creature must either be captive or have been dead for no more than 2 hours before the start of the process. At the end of the hour, the quintessivore consumes the quintessence of the creature's soul. For the next month, it gains a +1 status bonus to its spell DC and spell attack roll, and it adds 6th-level feeblemind and vampiric exsanguination to its arcane prepared spells. Deconstructing a soul maps the unique properties of the creature's soul into the quintessivore's blade-legs. The soul can be reconstructed by binding it to quintessence. A dead quintessivore's soul flees its body as pure quintessence suitable for this purpose."
+    },
+    {
+      "name": "Suspend Soul",
+      "text": "⬻ (arcane, necromancy); The quintessivore suspends the life processes of a dying creature within 15 feet of it. The creature can't decrease or increase its HP or dying value for 10 minutes. The creature can attempt a DC 29 Will save to avoid this effect. If the creature receives magical healing, it can attempt a new save, ending the effect and being healed normally on a success. The effect ends if the quintessivore uses Suspend Soul again."
+    },
+    {
+      "name": "Tattered Soul",
+      "text": "A creature hit by the quintessivore's blade-leg Strike must succeed at a DC 29 Fortitude save or become drained 1 (drained 2 on a critical failure). If the creature is already drained, it's immune to this effect."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ blade-leg +22 (finesse, magical); Damage 1d10+9 (1d10+9) slashing damage plus 1d10 (1d10) negative damage and tattered soul"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      6,
+      6,
+      7,
+      3,
+      3
+    ],
+    "items": "scroll of dimensional anchor, scroll of fly;"
+  }
+}

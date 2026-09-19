@@ -1,0 +1,121 @@
+{
+  "name": "Mythic Phoenix",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Gargantuan",
+  "type": "magical beast",
+  "subtype": "fire, mythic",
+  "alignment": "NG",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 37,
+    "notes": "dex +8, dodge +2, natural +21, size -4",
+    "touch": 16,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 280,
+    "formula": "20d10+170"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 90 ft. (good)"
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 27,
+    "con": 20,
+    "int": 25,
+    "wis": 22,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +17, Ref +20, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +31, Diplomacy +26, Fly +29, Intimidate +26, Knowledge (nature) +27, Knowledge (any two others) +27, Perception +37, Sense Motive +26",
+    "list": {
+      "Acrobatics": "+31",
+      "Diplomacy": "+26",
+      "Fly": "+29",
+      "Intimidate": "+26",
+      "Perception": "+37",
+      "Sense Motive": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect magic",
+    "detect poison",
+    "low-light vision",
+    "see invisibility",
+    "true seeing"
+  ],
+  "passivePerception": 47,
+  "languages": [
+    "Auran",
+    "Celestial",
+    "Common",
+    "Ignan"
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 20,
+  "feats": [
+    "Blinding Critical",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dodge",
+    "Flyby Attack",
+    "Improved Critical (talons)",
+    "Improved Initiative",
+    "Iron Will",
+    "Mobility",
+    "Quicken Spell-Like Ability (wall of fire)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +25 (3d6+9 plus burn), 2 talons +25 (2d8+9/19-20 plus burn plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This flaming bird burns as brightly as the sun.",
+  "meta": {
+    "cmb": "33 (+37 grapple)",
+    "cmd": 53,
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm desert and hills"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "name": "Cockroach Swarm",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 53.",
+  "size": "Small",
+  "type": "Swarm",
+  "subtype": "Animal",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, climb 20 feet, fly 15 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 16,
+    "int": 0,
+    "wis": 10,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +9, Ref +10, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Stealth__: +8 (1d20+8); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Swarming Bites",
+      "text": "⬻ Each enemy in the swarm's space takes 1d8 (1d8) piercing damage (DC 18 basic Reflex save)."
+    },
+    {
+      "name": "Couatl, Quetz",
+      "text": "These sacred feathered serpents tirelessly serve the powers of law and good. Some operate directly as messengers and intermediaries of the deities, while others operate independently in aiding the cause of righteousness. Either way, they watch over mortals and try to influence and aid them from the shadows, shifting from plane to plane to spread wisdom and healing where they are needed. Some quetz couatls are worshipped as divinities in remote or isolated societies, and while they do not encourage such veneration, they use the trust placed in them to foster peace and cooperation with others."
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      4,
+      3,
+      -5,
+      0,
+      -4
+    ]
+  }
+}

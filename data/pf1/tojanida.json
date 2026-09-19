@@ -1,0 +1,108 @@
+{
+  "name": "Tojanida",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Misfit Monsters Redeemed",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "extraplanar, water",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 21,
+    "notes": "dex +1, dodge +1, natural +9",
+    "touch": 12,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 51,
+    "formula": "6d10+18"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., swim 90 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 13,
+    "con": 17,
+    "int": 10,
+    "wis": 12,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +8, Ref +6, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +5, Escape Artist +10, Knowledge (planes) +9, Perception +14, Perform (act) +5, Sense Motive +10, Stealth +7, Survival +7, Swim +11",
+    "list": {
+      "Bluff": "+5",
+      "Escape Artist": "+10",
+      "Perception": "+14",
+      "Sense Motive": "+10",
+      "Stealth": "+7",
+      "Survival": "+7",
+      "Swim": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Aquan"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 6,
+  "feats": [
+    "Blind-Fight",
+    "Dodge",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +9 (1d6+3), 2 claws +9 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature resembles a cross between a turtle and a crab, with flippers instead of legs, a snapping beak, and two pincers.",
+  "meta": {
+    "cmb": "+9",
+    "cmd": "21 (29 vs. trip)",
+    "racialModifiers": [
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any water (Plane of Water)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, clutch (3-6), or cult (1 tojanida plus 2-12 humanoid followers)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

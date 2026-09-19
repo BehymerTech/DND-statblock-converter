@@ -1,0 +1,100 @@
+{
+  "name": "Adult Bliss Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 137: The City Outside of Time",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "extraplanar, good",
+  "alignment": "NG",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 32,
+    "notes": "natural +24, size -2",
+    "touch": 8,
+    "flatFooted": 32
+  },
+  "hp": {
+    "average": 270,
+    "formula": "20d12+140"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 200 ft. (poor)"
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 10,
+    "con": 25,
+    "int": 20,
+    "wis": 21,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +19, Ref +12, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +30, Fly +15, Heal +32, Knowledge (geography) +28, Knowledge (nature) +28, Knowledge (planes) +28, Perception +32, Sense Motive +32, Spellcraft +28, Stealth +15, Survival +32",
+    "list": {
+      "Diplomacy": "+30",
+      "Fly": "+15",
+      "Heal": "+32",
+      "Perception": "+32",
+      "Sense Motive": "+32",
+      "Spellcraft": "+28",
+      "Stealth": "+15",
+      "Survival": "+32"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 42,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 20,
+  "feats": [
+    "Alertness",
+    "Combat Expertise",
+    "Critical Focus",
+    "Greater Disarm",
+    "Improved Critical (claw)",
+    "Improved Disarm",
+    "Improved Initiative",
+    "Self-Sufficient",
+    "Sickening Critical",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +27 (2d8+13), 2 claws +28 (2d6+9/19-20), tail slap +22 (2d6+13), 2 wings +22 (1d8+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This serene dragon’s feathered form emits a comforting warmth.",
+  "meta": {
+    "cmb": "31 (+35 disarm)",
+    "cmd": "41 (43 vs. disarm, 45 vs. trip)"
+  }
+}

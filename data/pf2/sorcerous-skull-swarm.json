@@ -1,0 +1,96 @@
+{
+  "name": "Sorcerous Skull Swarm",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 245.",
+  "size": "Large",
+  "type": "Undead",
+  "subtype": "Swarm",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 14",
+  "xp": null,
+  "ac": {
+    "value": 34,
+    "notes": ""
+  },
+  "hp": {
+    "average": 190,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 40 feet"
+  },
+  "abilities": {
+    "str": 4,
+    "dex": 22,
+    "con": 18,
+    "int": 26,
+    "wis": 18,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +22, Ref +26, Will +26",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +26 (1d20+26); __Arcana__: +28 (1d20+28); __Occultism__: +28 (1d20+28); ",
+    "list": {
+      "Acrobatics": "+26",
+      "Arcana": "+28",
+      "Occultism": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, true seeing"
+  ],
+  "passivePerception": 34,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Boneshard Burst",
+      "text": "When a sorcerous skull swarm is reduced to 0 Hit Points, it erupts in an explosion of foul energy and bone fragments in a 30-foot burst, dealing 3d12 (3d12) piercing damage and 3d12 (3d12) negative damage (DC 34 basic Reflex save)."
+    },
+    {
+      "name": "Consume Spell",
+      "text": "⬲ Trigger The swarm is targeted with a spell Effect The swarm casts dispel magic to counteract the triggering spell. If it successfully counteracts the spell, it gains temporary Hit Points equal to twice the level of the counteracted spell that last for 1 minute."
+    },
+    {
+      "name": "Siphon Magic",
+      "text": "⬺ (arcane, illusion, mental); The sorcerous skull swarm saps magic from nearby creatures. Any creature with the ability to cast spells (including innate spells) in the swarm's space takes 15d6 (15d6) mental damage (DC 34 basic Will save); on a failure, the creature is also stupefied 2 (stupefied 3 on a critical failure)."
+    },
+    {
+      "name": "Swarming Gnaw",
+      "text": "⬻ Each enemy in the swarm's space takes 5d8 (5d8) piercing damage (DC 34 basic Reflex save)."
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -3,
+      6,
+      4,
+      8,
+      4,
+      5
+    ]
+  }
+}

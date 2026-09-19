@@ -1,0 +1,134 @@
+{
+  "name": "Jotund Troll",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 267.",
+  "size": "Huge",
+  "type": "Troll",
+  "subtype": "Giant, Mutant",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 15",
+  "xp": null,
+  "ac": {
+    "value": 35,
+    "notes": ""
+  },
+  "hp": {
+    "average": 360,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, climb 20 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 18,
+    "con": 26,
+    "int": 8,
+    "wis": 22,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +31, Ref +23, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +29 (1d20+29); __Intimidation__: +27 (1d20+27); ",
+    "list": {
+      "Athletics": "+29",
+      "Intimidation": "+27"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 39,
+  "languages": [
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Head Regrowth",
+      "text": "A jotund troll ordinarily has nine heads, and they can use regeneration to regrow a head that is severed from an effect like a vorpal weapon. After regaining Hit Points from regeneration, the jotund troll attempts a DC 8 flat check. On a success, one missing head is fully restored; on a critical success, two missing heads are fully restored. If a jotund troll loses their last remaining head, they die immediately."
+    },
+    {
+      "name": "Multiple Opportunities",
+      "text": "A jotund troll gains an extra reaction per round for each of their heads beyond the first, which they can use only to make Attacks of Opportunity with their jaws or to Fast Swallow. They can't use more than 1 reaction for the same triggering action, even if a creature leaves several squares within their reach, and the jotund troll must use a different head for each Attack of Opportunity they make. Whenever one of the jotund troll's heads is severed, the troll loses 1 of their extra reactions per round."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Catch Rock",
+      "text": "⬲"
+    },
+    {
+      "name": "Cacophonous Roar",
+      "text": "⬺ (auditory, emotion, enchantment, incapacitation, mental, primal); The jotund troll emits a cacophonous roar from all their heads with a mystical power that distorts the listener's mind. Each non-troll creature within 100 feet must attempt a DC 34 Will save. The jotund troll can't use Cacophonous Roar for 1d4 (1d4) rounds. Critical Success The creature is unaffected and is temporarily immune to Cacophonous Roar for 24 hours. Success The creature is stupefied 1 for 1 round. Failure The creature is confused for 1 round. Critical Failure The creature is confused for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Fast Swallow",
+      "text": "⬲ Trigger The jotund troll Grabs a creature with their jaws Effect The troll uses Swallow Whole."
+    },
+    {
+      "name": "Ravenous Jaws",
+      "text": "⬺ The jotund troll makes a number of jaws Strikes up to their number of heads, each against a different target. These attacks count toward the troll's multiple attack penalty, but the penalty doesn't increase until after the jotund troll makes all of these attacks."
+    },
+    {
+      "name": "Rend",
+      "text": "⬻ (claw);"
+    },
+    {
+      "name": "Swallow Whole",
+      "text": "⬻ (attack); Medium, 3d12+8 (3d12+8) bludgeoning, Rupture 36."
+    },
+    {
+      "name": "Throw Rock",
+      "text": "⬻"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +29 (reach 15 feet); Damage 3d12+14 (3d12+14) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +29 (agile, reach 15 feet); Damage 3d10+14 (3d10+14) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ rock +30 (brutal, range increment 120 feet); Damage 2d12+14 (2d12+14) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      4,
+      8,
+      -1,
+      6,
+      4
+    ]
+  }
+}

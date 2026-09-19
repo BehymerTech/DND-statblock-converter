@@ -1,0 +1,89 @@
+{
+  "name": "Cult Fanatic",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "any race",
+  "alignment": "lawful NX chaotic NY evil",
+  "cr": "2",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 13,
+    "notes": "leather armor"
+  },
+  "hp": {
+    "average": 33,
+    "formula": "6d8 + 6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 13,
+    "cha": 14
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Deception +4, Persuasion +4, Religion +2",
+    "list": {
+      "deception": "+4",
+      "persuasion": "+4",
+      "religion": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 11,
+  "languages": [
+    "any one language (usually Common)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Dark Devotion",
+      "text": "The fanatic has advantage on saving throws against being charmed or frightened."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The fanatic makes two melee attacks."
+    },
+    {
+      "name": "Dagger",
+      "text": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 4 (1d4 + 2) piercing damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [
+    {
+      "name": "Spellcasting",
+      "text": "The fanatic is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The fanatic has the following cleric spells prepared:\nCantrips (at will): light, sacred flame, thaumaturgy\n1st level (4 slots): command, inflict wounds, shield of faith\n2nd level (3 slots): hold person, spiritual weapon"
+    }
+  ],
+  "description": "",
+  "meta": {}
+}

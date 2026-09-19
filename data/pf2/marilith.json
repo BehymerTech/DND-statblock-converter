@@ -1,0 +1,130 @@
+{
+  "name": "Marilith",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 81.",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "Demon",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 17",
+  "xp": null,
+  "ac": {
+    "value": 40,
+    "notes": ""
+  },
+  "hp": {
+    "average": 380,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 22,
+    "con": 22,
+    "int": 18,
+    "wis": 18,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +31, Ref +29, Will +27",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +33 (1d20+33); __Deception__: +30 (1d20+30); __Diplomacy__: +30 (1d20+30); __Intimidation__: +32 (1d20+32); __Religion__: +29 (1d20+29); __Stealth__: +29 (1d20+29); __Warfare lore__: +31 (1d20+31); ",
+    "list": {
+      "Acrobatics": "+33",
+      "Deception": "+30",
+      "Diplomacy": "+30",
+      "Intimidation": "+32",
+      "Religion": "+29",
+      "Stealth": "+29",
+      "Warfare lore": "+31"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, true seeing"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Draconic; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Commander's Aura",
+      "text": "(aura, divine, enchantment); 100 feet. Commanded or allied evil creatures in the aura of lower level than the marilith gain a +1 circumstance bonus to attack rolls, damage rolls, AC, saves, and skill checks. Failure Vulnerability A marilith's pride feeds their strength, so the sting of failure wounds them. If the marilith uses a damaging spell or makes a Strike on their turn but doesn't deal any damage that turn, they take 3d6+10 (3d6+10) mental damage at the end of their turn and their commander's aura deactivates until the end of their next turn."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲ A marilith gains 5 extra reactions per round that they can use only to make Attacks of Opportunity. The demon can't use more than one on the same triggering action, even if a creature leaves several squares in the marilith's reach, and the marilith must use a different weapon for each Attack of Opportunity."
+    },
+    {
+      "name": "Items",
+      "text": "longsword (6);"
+    },
+    {
+      "name": "Bladestorm",
+      "text": "⬺ The marilith makes up to six longsword Strikes, each against a different target. These attacks count toward the marilith's multiple attack penalty, but the multiple attack penalty doesn't increase until after all the attacks."
+    },
+    {
+      "name": "Defensive Assault",
+      "text": "⬺ The marilith makes two Strikes, each with a different weapon, and they use the remaining weapons for protection. The demon gains a circumstance bonus to AC for 1 round equal to the number of weapons not used for attacks. If the marilith later uses any of those weapons to attack (including for an Attack of Opportunity), the bonus to AC decreases by 1 for each weapon used."
+    },
+    {
+      "name": "Focused Assault",
+      "text": "⬺ The marilith attacks a single target with all the weapons they wield in their arms, overwhelming the target with multiple attacks and leaving almost nowhere to dodge. The demon makes a longsword Strike. On a successful attack, the marilith deals longsword damage to the target, plus an additional 1d8 (1d8) damage for every longsword they wield beyond the first (typically 5d8 (5d8) extra damage). Even on a failed attack, the marilith deals the damage from one longsword to the target, though they still miss completely on a critical failure. This counts toward the marilith's multiple attack penalty as a number of attacks equal to the number of longswords the pride demon wields."
+    },
+    {
+      "name": "Greater Constrict",
+      "text": "⬻ 2d12+13 (2d12+13) bludgeoning, DC 39."
+    },
+    {
+      "name": "Infuse Weapons",
+      "text": "(divine, evocation); Any weapon becomes a +2 greater striking weapon made of cold iron and silver while a marilith wields it. The marilith can change its evil damage to chaotic whenever it attacks."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ cold iron silver longsword +35 (evil, magical, reach 10 feet, versatile p); Damage 3d8+16 (3d8+16) slashing plus 1d6 (1d6) evil"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +33 (evil, magical, reach 10 feet); Damage 3d12+16 (3d12+16) bludgeoning plus 1d6 (1d6) evil and Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      6,
+      6,
+      4,
+      4,
+      7
+    ],
+    "items": "longsword (6);"
+  }
+}

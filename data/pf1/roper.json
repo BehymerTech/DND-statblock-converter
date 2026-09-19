@@ -1,0 +1,112 @@
+{
+  "name": "Roper",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 27,
+    "notes": "dex +1, natural +17, size -1",
+    "touch": 10,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 162,
+    "formula": "12d8+108"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft."
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 13,
+    "con": 29,
+    "int": 13,
+    "wis": 16,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +13, Ref +5, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +27, Knowledge (dungeoneering) +16, Knowledge (religion) +13, Perception +24, Stealth +18",
+    "list": {
+      "Climb": "+27",
+      "Perception": "+24",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Aklo",
+    "Undercommon"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 9,
+  "feats": [
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Iron Will",
+    "Skill Focus (Perception)",
+    "Skill Focus (Stealth)",
+    "Weapon Focus (strand)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +20 (4d8+18/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "6 strands +10 touch (1d6 Strength)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A huge eye opens in this conical creature’s front, just above a toothy mouth. Long strands of fibrous material whip from its sides.",
+  "meta": {
+    "cmb": "+22",
+    "cmd": "33 (can’t be tripped)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cluster (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

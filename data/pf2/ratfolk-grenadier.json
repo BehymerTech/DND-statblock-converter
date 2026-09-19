@@ -1,0 +1,127 @@
+{
+  "name": "Ratfolk Grenadier",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 277.",
+  "size": "Small",
+  "type": "Ratfolk",
+  "subtype": "Humanoid",
+  "alignment": "LN",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 60,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 14,
+    "int": 18,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +11, Ref +13, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +9 (1d20+9); __Crafting__: +12 (1d20+12); __Deception__: +7 (1d20+7); __Society__: +10 (1d20+10); __Stealth__: +12 (1d20+12); __Thievery__: +9 (1d20+9); ",
+    "list": {
+      "Acrobatics": "+9",
+      "Crafting": "+12",
+      "Deception": "+7",
+      "Society": "+10",
+      "Stealth": "+12",
+      "Thievery": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Thievery",
+      "text": "+9 Str +0, Dex +4, Con +2, Int +4, Wis +2, Cha +1 Items alchemist's tools, hand crossbow (20 bolts, studded leather armor."
+    },
+    {
+      "name": "Infused Items",
+      "text": "A ratfolk grenadier carries 2 infused moderate acid flasks, 2 infused moderate alchemist's fires, and 2 infused moderate frost vials. These items last for 24 hours, or until the next time they make their daily preparations."
+    },
+    {
+      "name": "Items",
+      "text": "alchemist's tools, hand crossbow (20 bolts, studded leather armor;"
+    },
+    {
+      "name": "Cheek Pouches",
+      "text": "A ratfolk grenadier has stretchy cheek pouches that can store up to 1 cubic foot of objects (though no more than 4 light items). The ratfolk can remove or store an item using the Interact action. As long as the ratfolk has at least one object in its cheek pouches, its speech is noticeably difficult to understand."
+    },
+    {
+      "name": "Quick Bomber",
+      "text": "⬻ The ratfolk grenadier draws an alchemical bomb with an Interact action and throws it as a ranged Strike."
+    },
+    {
+      "name": "Quick Stow",
+      "text": "⭓ Frequency once per round Effect The ratfolk grenadier stores one held item of light or negligible Bulk in its cheek pouches."
+    },
+    {
+      "name": "Swarming",
+      "text": "A ratfolk grenadier can end its movement in the same square as an ally that also has this ability. Only two such creatures can share the same space."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +12 (agile, finesse); Damage 1d4 (1d4) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ hand crossbow +12 (range increment 60 feet, reload 1); Damage 1d6 (1d6) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ alchemical bomb +13 (range increment 20 feet, splash); Damage varies by bomb"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      4,
+      2,
+      4,
+      2,
+      1
+    ],
+    "items": "  A ratfolk grenadier carries 2 infused moderate acid flasks, 2 infused moderate alchemist's fires, and 2 infused moderate frost vials. These items last for 24 hours, or until the next time they make their daily preparations."
+  }
+}

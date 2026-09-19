@@ -1,0 +1,107 @@
+{
+  "name": "NPC Undead Slayer",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LG",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 25,
+    "notes": "armor +6, deflection +2, dex +2, natural +5",
+    "touch": 14,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 132,
+    "formula": "16d10+40"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +17, Ref +15, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +17, Climb +13, Heal +15, Knowledge (dungeoneering) +8, Knowledge (local) +5, Knowledge (planes) +5, Knowledge (nature) +6, Knowledge (religion) +15, Perception +21, Perform (string) +1, Ride +10, Spellcraft +13, Stealth +21, Survival +15, Swim +13",
+    "list": {
+      "Acrobatics": "+17",
+      "Climb": "+13",
+      "Heal": "+15",
+      "Perception": "+21",
+      "Ride": "+10",
+      "Spellcraft": "+13",
+      "Stealth": "+21",
+      "Survival": "+15",
+      "Swim": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 31,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 16,
+  "feats": [
+    "Cleave",
+    "Double Slice",
+    "Endurance",
+    "Great Fortitude",
+    "Greater Two-Weapon Fighting",
+    "Improved Two-Weapon Fighting",
+    "Improved Vital Strike",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Two-Weapon Fighting",
+    "Two-Weapon Rend",
+    "Vital Strike",
+    "Weapon Focus (light hammer)",
+    "Weapon Focus (scimitar)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 holy scimitar +21/+16/+11/+6 (1d6+6/18-20), +1 undead-bane light hammer +21/+16/+11 (1d4+6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite longbow +19/+14/+9/+4 (1d8+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "ranger 16",
+    "cmb": "+21",
+    "cmd": 35
+  }
+}

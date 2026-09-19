@@ -1,0 +1,83 @@
+{
+  "name": "Prismatic Orrery",
+  "sourceSystem": "pf1",
+  "source": "Tombs of Golarion",
+  "size": "Gargantuan",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 24,
+    "notes": "dex +2, natural +16, size -4",
+    "touch": 8,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 159,
+    "formula": "18d10+60"
+  },
+  "speed": {
+    "walk": 0,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "0 ft.,  cannot move"
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 14,
+    "con": "None",
+    "int": "None",
+    "wis": 10,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +6, Ref +8, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +12",
+    "list": {
+      "Perception": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "true seeing"
+  ],
+  "passivePerception": 22,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 18,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +21 (6d6+10 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A series of metal rings rotates around a giant prismatic sphere.",
+  "meta": {
+    "cmb": "29 (+33 grapple)",
+    "cmd": 41,
+    "racialModifiers": [
+      "Perception 12"
+    ]
+  }
+}

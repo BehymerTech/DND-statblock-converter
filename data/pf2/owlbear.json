@@ -1,0 +1,101 @@
+{
+  "name": "Owlbear",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 259.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 70,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 12,
+    "con": 20,
+    "int": 2,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +13, Ref +7, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Athletics__: +14 (1d20+14); __Intimidation__: +10 (1d20+10); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Athletics": "+14",
+      "Intimidation": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 23,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Bloodcurdling Screech",
+      "text": "⬻ (auditory, emotion, fear, mental); The owlbear unleashes a loud screech that terrifies its prey. Each creature in an 80-foot emanation must attempt a DC 20 Will save. Regardless of the result, creatures are temporarily immune for 1 minute. Critical Success The creature is unaffected. Success The creature is frightened 1. Failure The creature is frightened 2. Critical Failure The creature is fleeing for 1 round and frightened 3."
+    },
+    {
+      "name": "Gnaw",
+      "text": "⬻ Requirements The owlbear has a creature grabbed with its talons. Effect The owlbear attempts to disembowel the creature with a beak Strike. If the Strike hits, the target must attempt a DC 22 Will save. Critical Success The target is unaffected. Success The target is sickened 1. Failure The target is sickened 1 and slowed 1 as long as it remains sickened."
+    },
+    {
+      "name": "Screeching Advance",
+      "text": "⬺ (auditory, emotion, fear, mental); The owlbear makes a Bloodcurdling Screech and Strides twice. All creatures within 80 feet of the owlbear at any point during this movement are subjected to the effects of Bloodcurdling Screech."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ talon +14 (agile); Damage 1d10+6 (1d10+6) piercing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ beak +14 Damage 1d12+6 (1d12+6) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      1,
+      5,
+      -4,
+      3,
+      0
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "name": "NPC Sailor (Captain)",
+  "sourceSystem": "pf1",
+  "source": "GameMastery Guide",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 25,
+    "notes": "armor +10, dex +1, natural +1, shield +3",
+    "touch": 11,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 89,
+    "formula": "3d8+9d10+26"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 13,
+    "con": 14,
+    "int": 12,
+    "wis": 10,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +11, Ref +5, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Climb +10, Craft (ships) +5, Diplomacy +10, Knowledge (engineering) +5, Knowledge (geography) +10, Knowledge (history) +5, Knowledge (local) +5, Knowledge (nature) +10, Knowledge (nobility) +5, Linguistics +5, Perception +10, Perform (keyboard instruments) +5, Profession (merchant) +5, Profession (sailor) +21, Spellcraft +16, Survival +10, Swim +10",
+    "list": {
+      "Acrobatics": "+10",
+      "Climb": "+10",
+      "Diplomacy": "+10",
+      "Linguistics": "+5",
+      "Perception": "+10",
+      "Spellcraft": "+16",
+      "Survival": "+10",
+      "Swim": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 20,
+  "languages": [
+    "Aquan",
+    "Auran",
+    "Common"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 11,
+  "feats": [
+    "Craft Magic Arms and Armor",
+    "Craft Wondrous Item",
+    "Greater Weapon Focus (trident)",
+    "Master Craftsman",
+    "Power Attack",
+    "Skill Focus (Profession [sailor])",
+    "Step Up",
+    "Strike Back",
+    "Toughness",
+    "Vital Strike",
+    "Weapon Focus (trident)",
+    "Weapon Specialization (trident)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "trident of warning +22/+17 (1d8+11)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 composite longbow +14/+9 (1d8+7/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "expert 3, fighter 9",
+    "cmb": "+16",
+    "cmd": 27
+  }
+}

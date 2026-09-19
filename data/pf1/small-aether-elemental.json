@@ -1,0 +1,103 @@
+{
+  "name": "Small Aether Elemental",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Small",
+  "type": "outsider",
+  "subtype": "aether, elemental, extraplanar",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 14,
+    "notes": "deflection +1, dex +2, size +1",
+    "touch": 14,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 13,
+    "formula": "2d10+2"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 15,
+    "con": 12,
+    "int": 4,
+    "wis": 11,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +4, Ref +5, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +6, Fly +12, Perception +5, Stealth +11",
+    "list": {
+      "Acrobatics": "+6",
+      "Fly": "+12",
+      "Perception": "+5",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision"
+  ],
+  "passivePerception": 15,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Initiative",
+    "Point-Blank Shot"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +4 (1d4+1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "telekinetic throw +5 (1d8+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This strange entity is formed from interwoven, translucent threads of an unusual multicolored material.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": 15,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Ethereal Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

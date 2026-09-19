@@ -1,0 +1,77 @@
+{
+  "name": "Dretch",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Small",
+  "type": "Fiend",
+  "subtype": "Demon",
+  "alignment": "Chaotic Evil",
+  "cr": "1/4",
+  "level": null,
+  "xp": 50,
+  "ac": {
+    "value": 11,
+    "notes": ""
+  },
+  "hp": {
+    "average": 18,
+    "formula": "4d6 + 4"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 11,
+    "con": 12,
+    "int": 5,
+    "wis": 8,
+    "cha": 3
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 9,
+  "languages": [
+    "Abyssal; telepathy 60 ft. (works only with creatures that understand Abyssal)"
+  ],
+  "initiative": "+0 (10)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Rend",
+      "text": "_Melee Attack Roll:_ +3, reach 5 ft. _Hit:_ 4 (1d6 + 1) Slashing damage."
+    },
+    {
+      "name": "Fetid Cloud (1/Day)",
+      "text": "_Constitution Saving Throw:_ DC 11, each creature in a 10-foot Emanation originating from the dretch. _Failure:_ The target has the Poisoned condition until the end of its next turn. While Poisoned, the creature can take either an action or a Bonus Action on its turn, not both, and it can't take Reactions. ## Drider"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

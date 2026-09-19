@@ -1,0 +1,92 @@
+{
+  "name": "Riding Horse",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 209.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 22,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 18,
+    "int": 2,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +9, Ref +6, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +6 (1d20+6); __Athletics__: +7 (1d20+7); ",
+    "list": {
+      "Acrobatics": "+6",
+      "Athletics": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 15,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Buck",
+      "text": "⬲ DC 16."
+    },
+    {
+      "name": "Gallop",
+      "text": "⬺ The riding pony Strides twice. It has a +10-foot circumstance bonus to its Speed during these Strides."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ hoof +7 Damage 1d6+4 (1d6+4) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      3,
+      4,
+      -4,
+      2,
+      -1
+    ]
+  }
+}

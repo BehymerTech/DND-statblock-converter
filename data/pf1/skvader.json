@@ -1,0 +1,96 @@
+{
+  "name": "Skvader",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 61: Shards of Sin",
+  "size": "Tiny",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, size +2",
+    "touch": 14,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 6,
+    "formula": "1d10+1"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 40 ft. (poor)"
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 15,
+    "con": 13,
+    "int": 4,
+    "wis": 13,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +3, Ref +4, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Stealth +14, Perception +1",
+    "list": {
+      "Stealth": "+14",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 11,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 1,
+  "feats": [
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +5 (1d3-1 plus attach)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This small creature has the forequarters and hind legs of a hare, and the wings and tail of a wood grouse.",
+  "meta": {
+    "cmb": "+1",
+    "cmd": "10 (14 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forest and hills"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, family (3-12), or pack (1 wolpertinger and 3-12 skvaders)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

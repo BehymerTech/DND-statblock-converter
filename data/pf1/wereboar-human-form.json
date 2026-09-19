@@ -1,0 +1,106 @@
+{
+  "name": "Wereboar (Human Form)",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, shapechanger",
+  "alignment": "CN",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 12,
+    "notes": "armor +3, dex +1, rage -2",
+    "touch": 9,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 31,
+    "formula": "2d12+13"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 13,
+    "con": 18,
+    "int": 10,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +7, Ref +1, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Handle Animal +4, Intimidate +4, Knowledge (nature) +5, Perception +7, Profession (farmer) +4",
+    "list": {
+      "Handle Animal": "+4",
+      "Intimidate": "+4",
+      "Perception": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Power Attack",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +6 (1d4+4/19-20), bite +1 (1d4+4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +4 (1d4+4/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This potbellied creature has the body of a man and the head of a crazed boar. Large tusks jut from his upper jaw.",
+  "meta": {
+    "race": "Human",
+    "class": "natural wereboar barbarian 2",
+    "cmb": "+6",
+    "cmd": 17,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forests or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, brood (3-8), or troupe (3-8 plus 1-4 boars)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (studded leather armor, 2 daggers, other treasure)"
+      }
+    ]
+  }
+}

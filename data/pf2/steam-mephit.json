@@ -1,0 +1,103 @@
+{
+  "name": "Steam Mephit",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 113.",
+  "size": "Small",
+  "type": "Water",
+  "subtype": "Elemental, Fire",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 19,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, fly 25 feet, swim 25 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 14,
+    "con": 18,
+    "int": 6,
+    "wis": 10,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Intimidation__: +6 (1d20+6); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Intimidation": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, steam vision"
+  ],
+  "passivePerception": 13,
+  "languages": [
+    "Aquan",
+    "Ignan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Steam Vision",
+      "text": "The steam mephit ignores the concealed condition from mist and steam."
+    },
+    {
+      "name": "Boiling Rain",
+      "text": "⬺ (arcane, conjuration, fire, water); Frequency once per day; The steam mephit calls down a rain boiling water that surrounds them in a 10-foot emanation. Creatures in the area take 2d8 (2d8) fire damage (DC 17 basic Reflex save), and small unattended flames (such as torches) are extinguished."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (arcane, fire); The steam mephit spits a cloud of steam in a 15-foot cone that deals 2d6 (2d6) fire damage to each creature within the area (DC 17 basic Reflex save). The steam mephit can't use Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Elemental, Water",
+      "text": "Water elementals that become infused with cold or mist have increased mobility in regions outside of bodies of water."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +7 (agile, finesse); Damage 1d6+1 (1d6+1) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      2,
+      4,
+      -2,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Shriezyx Queen",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 134: It Came from Hollow Mountain",
+  "size": "Large",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 20,
+    "notes": "dex +3, natural +8, size -1",
+    "touch": 12,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 104,
+    "formula": "11d8+55"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 17,
+    "con": 18,
+    "int": 9,
+    "wis": 12,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +9, Ref +6, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +18, Diplomacy +8, Knowledge (history) +5, Perception +19, Sense Motive +9",
+    "list": {
+      "Climb": "+18",
+      "Diplomacy": "+8",
+      "Perception": "+19",
+      "Sense Motive": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Aklo",
+    "tongues"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 8,
+  "feats": [
+    "Alertness",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Iron Will",
+    "Toughness",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +11 (1d8+3 plus poison), 4 claws +10 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This bulbous, green-skinned spider is as large as a horse, its toothy maw smiling beneath three glowing eyes.",
+  "meta": {
+    "cmb": "+12",
+    "cmd": "25 (37 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or hive (1 plus 3-12 shriezyx)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

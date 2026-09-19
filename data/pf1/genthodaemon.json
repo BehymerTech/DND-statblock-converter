@@ -1,0 +1,108 @@
+{
+  "name": "Genthodaemon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 71: Rasputin Must Die!",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "daemon, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "natural +9, size -1",
+    "touch": 9,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 51,
+    "formula": "6d10+18"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 30 ft. (average)"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 11,
+    "con": 16,
+    "int": 11,
+    "wis": 12,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +8, Ref +5, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +7, Intimidate +11, Knowledge (engineering) +9, Knowledge (planes) +9, Perception +10, Stealth +5",
+    "list": {
+      "Fly": "+7",
+      "Intimidate": "+11",
+      "Perception": "+10",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Abyssal",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 6,
+  "feats": [
+    "Power Attack",
+    "Weapon Focus (bite)",
+    "Weapon Focus (claws)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +10 (1d8+4), 2 claws +10 (1d6+4 plus bleed 1d4), tail slap +4 (1d8+2 plus bleed 1d4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "4 shrapnel +5 (1d6+4/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Jagged bits of metal, armor, and sharp pieces of wire embed the flesh of this towering fiend.",
+  "meta": {
+    "cmb": "+11",
+    "cmd": 21,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or squad (2-18)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

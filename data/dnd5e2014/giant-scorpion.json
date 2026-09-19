@@ -1,0 +1,79 @@
+{
+  "name": "Giant Scorpion",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Large",
+  "type": "beast",
+  "subtype": "",
+  "alignment": "unaligned",
+  "cr": "3",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "natural armor"
+  },
+  "hp": {
+    "average": 52,
+    "formula": "7d10 + 14"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 13,
+    "con": 15,
+    "int": 1,
+    "wis": 9,
+    "cha": 3
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight 60 ft."
+  ],
+  "passivePerception": 9,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The scorpion makes three attacks: two with its claws and one with its sting."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage, and the target is grappled (escape DC 12). The scorpion has two claws, each of which can grapple only one target."
+    },
+    {
+      "name": "Sting",
+      "text": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 22 (4d10) poison damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

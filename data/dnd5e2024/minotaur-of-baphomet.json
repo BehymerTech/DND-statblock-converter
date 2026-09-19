@@ -1,0 +1,80 @@
+{
+  "name": "Minotaur of Baphomet",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "alignment": "Chaotic Evil",
+  "cr": "3",
+  "level": null,
+  "xp": 700,
+  "ac": {
+    "value": 14,
+    "notes": ""
+  },
+  "hp": {
+    "average": 85,
+    "formula": "10d10 + 30"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 11,
+    "con": 16,
+    "int": 6,
+    "wis": 16,
+    "cha": 9
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +7, Survival +7",
+    "list": {
+      "Perception": "+7",
+      "Survival": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Abyssal"
+  ],
+  "initiative": "+0 (10)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Abyssal Glaive",
+      "text": "_Melee Attack Roll:_ +6, reach 10 ft. _Hit:_ 10 (1d12 + 4) Slashing damage plus 10 (3d6) Necrotic damage."
+    },
+    {
+      "name": "Gore (Recharge 5–6)",
+      "text": "_Melee Attack Roll:_ +6, reach 5 ft. _Hit:_ 18 (4d6 + 4) Piercing damage. If the target is a Large or smaller creature and the minotaur moved 10+ feet straight toward it immediately before the hit, the target takes an extra 10 (3d6) Piercing damage and has the Prone condition. ## Mummies"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

@@ -1,0 +1,114 @@
+{
+  "name": "Palace Skelm",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 240.",
+  "size": "Medium",
+  "type": "Skelm",
+  "subtype": "Humanoid",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 155,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 18,
+    "con": 16,
+    "int": 18,
+    "wis": 16,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +17, Ref +16, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +18 (1d20+18); __Deception__: +21 (1d20+21); __Diplomacy__: +17 (1d20+17); __Intimidation__: +17 (1d20+17); __Occultism__: +16 (1d20+16); __Society__: +16 (1d20+16); __Stealth__: +16 (1d20+16); __Thievery__: +16 (1d20+16); ",
+    "list": {
+      "Athletics": "+18",
+      "Deception": "+21",
+      "Diplomacy": "+17",
+      "Intimidation": "+17",
+      "Occultism": "+16",
+      "Society": "+16",
+      "Stealth": "+16",
+      "Thievery": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "imprecise scent 30"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Aklo",
+    "Common; tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Corrupt Speech",
+      "text": "⬲ (auditory, illusion, linguistic, occult); Trigger The skelm hears a creature speak within 30 feet Effect The skelm sows paranoia by putting treacherous words on another's lips. The skelm whispers up to 12 words and attempts a Deception check against the Perception DC of a creature other than the triggering creature within 30 feet. Critical Success The target hears the skelm's words as if they were spoken by the triggering creature. This can alter linguistic effects. The skelm also casts paranoia or suggestion on the target, if he likes. Success As critical success, except the skelm can't cast paranoia or suggestion. Failure The target doesn't hear the skelm's words, and they have no effect. Critical Failure The target hears the skelm speak the words."
+    },
+    {
+      "name": "Items",
+      "text": "signet ring;"
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, occult, polymorph, transmutation); The street skelm can take on the appearance of any Medium male humanoid (page 304). This doesn't change his Speed or his attack and damage bonuses with his Strikes but might change the damage type his Strikes deal."
+    },
+    {
+      "name": "Incite Violence",
+      "text": "⬺ (emotion, enchantment, occult, mental); Frequency once per day Effect The skelm gives an impassioned speech calling for his followers to act upon their convictions. Each creature within 30 feet must attempt a DC 24 Will save. Critical Success The creature can immediately Strike an adjacent creature of its choosing. Success The creature is unaffected. Failure The creature immediately Strikes an adjacent creature; if multiple creatures are adjacent, the skelm chooses the target. If no creatures are adjacent, the creature is flat-footed and fascinated with the skelm until the start of its next turn."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +20 (agile, magical); Damage 2d8+9 (2d8+9) bludgeoning plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ antler +20 (magical); Damage 2d12+9 (2d12+9) piercing plus Knockdown (page 305)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      4,
+      3,
+      4,
+      3,
+      5
+    ],
+    "items": "signet ring;"
+  }
+}

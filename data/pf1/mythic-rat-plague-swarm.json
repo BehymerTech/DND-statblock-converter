@@ -1,0 +1,101 @@
+{
+  "name": "Mythic Rat Plague Swarm",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Tiny",
+  "type": "magical beast",
+  "subtype": "mythic, swarm",
+  "alignment": "LE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 25,
+    "notes": "dex +4, dodge +1, natural +8, size +2",
+    "touch": 17,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 152,
+    "formula": "16d10+64"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 2,
+    "dex": 19,
+    "con": 8,
+    "int": 19,
+    "wis": 18,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +11, Ref +16, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +20, Climb +31, Diplomacy +18, Perception +23, Stealth +31, Swim +31",
+    "list": {
+      "Acrobatics": "+20",
+      "Climb": "+31",
+      "Diplomacy": "+18",
+      "Perception": "+23",
+      "Stealth": "+31",
+      "Swim": "+31"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Infernal (can’t speak any language)",
+    "telepathy 200 ft."
+  ],
+  "initiative": "+16/-4;  dual initiative",
+  "babOrProficiency": 16,
+  "feats": [
+    "Ability Focus (curse of lycanthropy)",
+    "Ability Focus (distraction)",
+    "Dodge",
+    "Extra Mythic Power",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Lightning Stance",
+    "Wind Stance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "swarm +14 (4d6-2 plus 4d6 blight, curse of lycanthropy, disease, and distraction)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "None",
+    "cmd": "None"
+  }
+}

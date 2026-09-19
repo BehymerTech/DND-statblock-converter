@@ -1,0 +1,107 @@
+{
+  "name": "Animated Colossus",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 19.",
+  "size": "Gargantuan",
+  "type": "Mindless",
+  "subtype": "Construct",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 15",
+  "xp": null,
+  "ac": {
+    "value": 39,
+    "notes": ""
+  },
+  "hp": {
+    "average": 245,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 feet"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 14,
+    "con": 26,
+    "int": 0,
+    "wis": 10,
+    "cha": 0
+  },
+  "saves": {
+    "text": "Fort +31, Ref +21, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +33 (1d20+33); ",
+    "list": {
+      "Athletics": "+33"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 33,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Construct Armor",
+      "text": "Like normal objects, an animated colossus has Hardness. This Hardness reduces any damage the swarm takes by an amount equal to the Hardness. Once an animated colossus is reduced to fewer than half its Hit Points, or immediately upon being damaged by a critical hit, its construct armor breaks, removing the Hardness and reducing its Armor Class to 35."
+    },
+    {
+      "name": "Enormous",
+      "text": "An animated colossus takes up a space of 6 squares by 6 squares (30 feet by 30 feet) and is 100 feet tall."
+    },
+    {
+      "name": "Colossus's Grasp",
+      "text": "The colossus can Grab a creature using only one hand. It can move normally with a creature grabbed or restrained in its fist, carrying the creature along. If it has two creatures grabbed in this way, it can't use its fist Strike."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 3d12+11 (3d12+11) bludgeoning, DC 36"
+    },
+    {
+      "name": "Trample",
+      "text": "⬽ (attack); Huge or smaller, foot, DC 36"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +32 (magical, reach 30 feet); Damage 3d12+17 (3d12+17) bludgeoning plus Improved Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ foot +32 (agile, magical, reach 20 feet); Damage 3d8+17 (3d8+17) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      9,
+      2,
+      8,
+      -5,
+      0,
+      -5
+    ]
+  }
+}

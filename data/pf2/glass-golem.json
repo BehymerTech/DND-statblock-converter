@@ -1,0 +1,101 @@
+{
+  "name": "Glass Golem",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 131.",
+  "size": "Large",
+  "type": "Mindless",
+  "subtype": "Construct, Golem",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 26,
+    "notes": ""
+  },
+  "hp": {
+    "average": 135,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 18,
+    "con": 20,
+    "int": 0,
+    "wis": 10,
+    "cha": 0
+  },
+  "saves": {
+    "text": "Fort +17, Ref +16, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +16 (1d20+16); __Athletics__: +19 (1d20+19); __Stealth__: +14 (1d20+14); ",
+    "list": {
+      "Acrobatics": "+16",
+      "Athletics": "+19",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Golem Antimagic",
+      "text": "harmed by sonic (6d6 (6d6), 2d6 (2d6) from areas or persistent damage); healed by fire (area 2d6 (2d6) HP); slowed by cold."
+    },
+    {
+      "name": "Vulnerable to Shatter",
+      "text": "A glass golem is affected by the shatter spell as though the golem were an unattended object."
+    },
+    {
+      "name": "Spell Reflection",
+      "text": "⬲ (abjuration, arcane); Trigger The glass golem is targeted by a spell; The glass golem positions its magical, reflective surfaces to turn the spell back on the caster. It tries to counteract the spell by attempting an Acrobatics check for its counteract check. If it successfully counteract the spell, the effect is turned back on the caster."
+    },
+    {
+      "name": "Dazzling Brilliance",
+      "text": "⬺ (evocation, light, visual); The glass golem creates waves of scintillating luminosity that cast bright light in a 60-foot emanation (and dim light for the next 60 feet). The light lasts until the start of the glass golem's next turn, after which the glass golem can't use Dazzling Brilliance for 1d4 (1d4) rounds. A creature within the bright light or that enters the bright light must attempt a DC 23 Will save. Success The creature is unaffected. Failure The creature is dazzled for 1 round. Critical Failure The creature is blinded for 1 round and then dazzled for an additional 4 rounds."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ bladed limb +20 (agile, magical, versatile p); Damage 2d6+8 (2d6+8) slashing plus 1d6 (1d6) bleed"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      4,
+      5,
+      -5,
+      0,
+      -5
+    ]
+  }
+}

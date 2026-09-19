@@ -1,0 +1,102 @@
+{
+  "name": "Nereid",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 182.",
+  "size": "Medium",
+  "type": "Water",
+  "subtype": "Aquatic, Fey",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 30,
+    "notes": ""
+  },
+  "hp": {
+    "average": 175,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, swim 50 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 24,
+    "con": 20,
+    "int": 16,
+    "wis": 20,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +16, Ref +22, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +12 (1d20+12), (Athletics: +18 (1d20+18) to Swim); __Deception__: +20 (1d20+20); __Diplomacy__: +22 (1d20+22); __Stealth__: +22 (1d20+22); ",
+    "list": {
+      "Athletics": "+18",
+      "Deception": "+20",
+      "Diplomacy": "+22",
+      "Stealth": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Aquan",
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Watery Transparency",
+      "text": "(primal, transmutation, water); When underwater, the nereid's body is invisible. The nereid can dismiss or resume this transparency as an action that has the concentrate trait."
+    },
+    {
+      "name": "Drowning Touch",
+      "text": "⬺ (conjuration, incapacitation, primal, water); The nereid touches a creature and causes water from its own body to flow into the creature's lungs. If the creature cannot breathe water, it must attempt a DC 29 Fortitude save. Success The creature is unaffected and is temporarily immune to Drowning Touch for 24 hours. Failure The creature becomes sickened 3 as it chokes on the water. Critical Failure The creature chokes on the water and runs out of air. It falls unconscious and starts drowning (Pathfinder Core Rulebook 478). If the creature is above water, it recovers from drowning as soon as it succeeds at a saving throw against suffocation."
+    },
+    {
+      "name": "Manifest Shawl",
+      "text": "⬽ (conjuration, primal); The nereid divests themself of part of their connection to the First World and imbues this essence into a flowing shawl that enables them to function on land. The nereid can Dismiss this effect as long as they are touching the shawl. As long as the shawl exists, the nereid gains the amphibious trait. A nonnereid who carries the shawl also gains the amphibious trait. If a nereid's shawl is destroyed rather than Dismissed, the nereid can't Manifest a Shawl for 24 hours."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ poisonous touch +23 (agile, finesse, magical); Damage 6d6 (6d6) poison"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      7,
+      5,
+      3,
+      5,
+      7
+    ]
+  }
+}

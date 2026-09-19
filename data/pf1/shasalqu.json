@@ -1,0 +1,98 @@
+{
+  "name": "Shasalqu",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Pathfinder No. 79: The Half-Dead City",
+  "size": "Small",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex +2, natural +2, size +1",
+    "touch": 13,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d10+8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 15,
+    "con": 14,
+    "int": 2,
+    "wis": 13,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +6, Ref +6, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +7, Perception +6, Stealth +10",
+    "list": {
+      "Climb": "+7",
+      "Perception": "+6",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 4,
+  "feats": [
+    "Improved Initiative",
+    "Step Up"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "tail slap +8 (1d8+4 plus 1d6 cold)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A ridge of jagged ice runs down the back of this glistening, desertdwelling lizard.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": "18 (22 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cluster (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

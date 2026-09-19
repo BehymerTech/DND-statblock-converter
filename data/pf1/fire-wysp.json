@@ -1,0 +1,87 @@
+{
+  "name": "Fire Wysp",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Tiny",
+  "type": "outsider",
+  "subtype": "elemental, fire",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, size +2",
+    "touch": 14,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d10+3"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 20 ft. (poor)"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 15,
+    "con": 12,
+    "int": 10,
+    "wis": 13,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +4, Ref +5, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +7, Intimidate +7, Knowledge (planes) +6, Perception +7, Sense Motive +7, Stealth +16",
+    "list": {
+      "Bluff": "+7",
+      "Intimidate": "+7",
+      "Perception": "+7",
+      "Sense Motive": "+7",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Ignan"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 tendrils +9 (1d3+2 plus burn)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This sphere of elemental matter emits a strange hum that resonates with elemental power.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": "13 (can’t be tripped)"
+  }
+}

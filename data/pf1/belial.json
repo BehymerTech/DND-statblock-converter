@@ -1,0 +1,127 @@
+{
+  "name": "Belial",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, lawful, shapechanger",
+  "alignment": "LE",
+  "cr": "28",
+  "level": null,
+  "xp": 4915200,
+  "ac": {
+    "value": 46,
+    "notes": "deflection +4, dex +8, dodge +1, natural +11, profane +12",
+    "touch": 35,
+    "flatFooted": 37
+  },
+  "hp": {
+    "average": 676,
+    "formula": "33d10+495"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 120 ft. (good)"
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 26,
+    "con": 41,
+    "int": 31,
+    "wis": 28,
+    "cha": 37
+  },
+  "saves": {
+    "text": "Fort +37, Ref +23, Will +31",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +41, Bluff +49, Craft (weapons) +46, Diplomacy +49, Disguise +49, Fly +48, Intimidate +46, Knowledge (arcana) +43, Knowledge (local) +43, Knowledge (religion) +43, Knowledge (planes) +46, Linguistics +46, Perception +45, Sense Motive +45, Spellcraft +46, Use Magic Device +49",
+    "list": {
+      "Acrobatics": "+41",
+      "Bluff": "+49",
+      "Diplomacy": "+49",
+      "Disguise": "+49",
+      "Fly": "+48",
+      "Intimidate": "+46",
+      "Linguistics": "+46",
+      "Perception": "+45",
+      "Sense Motive": "+45",
+      "Spellcraft": "+46",
+      "Use Magic Device": "+49"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect chaos",
+    "detect good",
+    "see in darkness",
+    "true seeing"
+  ],
+  "passivePerception": 55,
+  "languages": [
+    "all (language mastery)",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 33,
+  "feats": [
+    "Combat Expertise",
+    "Craft Construct",
+    "Craft Magic Arms and Armor",
+    "Craft Wondrous Item",
+    "Dodge",
+    "Flyby Attack",
+    "Greater Disarm",
+    "Greater Weapon Focus (ranseur)",
+    "Greater Weapon Specialization (ranseur)",
+    "Improved Critical (ranseur)",
+    "Improved Disarm",
+    "Improved Initiative",
+    "Mobility",
+    "Power Attack",
+    "Quicken Spell-Like Ability (mass suggestion)",
+    "Weapon Focus (ranseur)",
+    "Weapon Specialization (ranseur)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+4 speed unholy ranseur +51/+46/+41/+36 (2d4+26/19- 20/×3), caress +40 touch (special), 2 wings +40 (2d8+6), gore +40 (1d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "One half of this figure’s body is gleaming and beautiful with an angelic wing, while the other is scaled, scarred, and blackened.",
+  "meta": {
+    "cmb": "45 (+49 disarm)",
+    "cmd": "80 (82 vs. disarm)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple (+4 speed unholy ranseur, other treasure)"
+      }
+    ]
+  }
+}

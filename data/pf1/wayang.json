@@ -1,0 +1,113 @@
+{
+  "name": "Wayang",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "wayang",
+  "alignment": "CN",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 14,
+    "notes": "dex +3, size +1",
+    "touch": 14,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 8,
+    "formula": "1d6+2"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 16,
+    "con": 12,
+    "int": 17,
+    "wis": 8,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +1, Ref +3, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (alchemy) +7, Knowledge (arcana) +7, Perception +2, Spellcraft +7, Stealth +10",
+    "list": {
+      "Perception": "+2",
+      "Spellcraft": "+7",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Draconic",
+    "Goblin",
+    "Wayang"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 0,
+  "feats": [
+    "Combat Casting",
+    "Scribe Scroll"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +0 (1d3-1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "blowgun +4 (1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Spiralling patterns cover this shadowy humanoid’s skin, and its black hair trails away in wisps.",
+  "meta": {
+    "race": "Male",
+    "class": "wayang illusionist 1",
+    "cmb": "-2",
+    "cmd": 11,
+    "racialModifiers": [
+      "Perception 2",
+      "Stealth 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, tribe (3-24)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (blowgun with 20 darts, dagger, other treasure)"
+      }
+    ]
+  }
+}

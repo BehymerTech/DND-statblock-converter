@@ -1,0 +1,105 @@
+{
+  "name": "Wraith",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "incorporeal",
+  "alignment": "LE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "deflection +5, dex +3",
+    "touch": 18,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 47,
+    "formula": "5d8+25"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 16,
+    "con": "None",
+    "int": 14,
+    "wis": 14,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +6, Ref +4, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +10, Fly +7, Intimidate +13, Knowledge (planes) +7, Perception +10, Sense Motive +10, Stealth +11",
+    "list": {
+      "Diplomacy": "+10",
+      "Fly": "+7",
+      "Intimidate": "+13",
+      "Perception": "+10",
+      "Sense Motive": "+10",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "lifesense"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Infernal"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 3,
+  "feats": [
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "incorporeal touch +6 (1d6 negative energy plus 1d6 Con drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This ghostly creature is little more than a dark shape with two flickering pinpoints of light where its eyes should be.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 21,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, gang (3-6), or pack (7-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

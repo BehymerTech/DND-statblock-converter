@@ -1,0 +1,108 @@
+{
+  "name": "Shenzuzhou",
+  "sourceSystem": "pf1",
+  "source": "The Ruby Phoenix Tournament",
+  "size": "Large",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 27,
+    "notes": "dex +3, natural +15, size -1",
+    "touch": 12,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 127,
+    "formula": "17d8+51"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 17,
+    "con": "None",
+    "int": 6,
+    "wis": 15,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +8, Ref +10, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +20, Intimidate +18, Perception +13, Stealth +8",
+    "list": {
+      "Climb": "+20",
+      "Intimidate": "+18",
+      "Perception": "+13",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "lifesense"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Giant (can’t speak)"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 12,
+  "feats": [
+    "Cleave",
+    "Double Slice",
+    "Great Cleave",
+    "Improved Two-Weapon Fighting",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Two-Weapon Fighting",
+    "Two-Weapon Rend",
+    "Weapon Focus (battleaxe)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 battleaxe +18/+13/+8 (2d6+10/×3), +1 battleaxe +18/+13 (2d6+10/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hulking headless corpse clutches a massive axe in each fist. A grotesquely skinned face stretches across the creature’s chest.",
+  "meta": {
+    "cmb": "+22",
+    "cmd": 35,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (2 Large +1 battleaxes)"
+      }
+    ]
+  }
+}

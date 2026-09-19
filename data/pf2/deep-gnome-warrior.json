@@ -1,0 +1,105 @@
+{
+  "name": "Deep Gnome Warrior",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 75.",
+  "size": "Small",
+  "type": "Humanoid",
+  "subtype": "Gnome",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 34,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 16,
+    "int": 10,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +9, Ref +8, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +8 (1d20+8); __Intimidation__: +5 (1d20+5); __Stealth__: +5 (1d20+5); ",
+    "list": {
+      "Athletics": "+8",
+      "Intimidation": "+5",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Gnomish",
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Shield Block",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "heavy crossbow (20 bolts), spear, steel shield (Hardness 5, HP 20, BT 10), studded leather armor;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ spear +10 Damage 1d6+4 (1d6+4) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ heavy crossbow +8 (range increment 120 feet, reload 2); Damage 1d10 (1d10) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      3,
+      0,
+      1,
+      -1
+    ],
+    "items": "heavy crossbow (20 bolts), spear, steel shield (Hardness 5, HP 20, BT 10), studded leather armor;"
+  }
+}

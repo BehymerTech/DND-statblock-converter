@@ -1,0 +1,107 @@
+{
+  "name": "Ogre Glutton",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 253.",
+  "size": "Large",
+  "type": "Humanoid",
+  "subtype": "Giant",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 70,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 8,
+    "con": 18,
+    "int": 6,
+    "wis": 10,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +14, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +12 (1d20+12); __Survival__: +6 (1d20+6); ",
+    "list": {
+      "Athletics": "+12",
+      "Survival": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Glutton's Feast",
+      "text": "If the ogre glutton damages a living creature with their jaws Strike, they gain 1d4 (1d4) temporary Hit Points for 1 minute."
+    },
+    {
+      "name": "Glutton's Rush",
+      "text": "⬺ The ogre glutton Strides twice and makes a jaws Strike. If they damage a living creature with this Strike, the temporary Hit Points they receive from glutton's feast is increased to 2d4 (2d4)."
+    },
+    {
+      "name": "Swallow Whole",
+      "text": "⬻ (attack); Small, 2d4+4 (2d4+4) bludgeoning, Rupture 14."
+    },
+    {
+      "name": "Items",
+      "text": "leather armor, greataxe;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ greataxe +14 (reach 10 feet, sweep); Damage 1d12+8 (1d12+8) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +14 Damage 1d8+8 (1d8+8) piercing plus Grab and glutton's feast"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      -1,
+      4,
+      -2,
+      0,
+      -2
+    ],
+    "items": "leather armor, greataxe;"
+  }
+}

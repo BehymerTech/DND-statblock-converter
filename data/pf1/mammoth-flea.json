@@ -1,0 +1,98 @@
+{
+  "name": "Mammoth Flea",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Large",
+  "type": "vermin",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 13,
+    "notes": "dex +3, dodge +1, size -1",
+    "touch": 13,
+    "flatFooted": 9
+  },
+  "hp": {
+    "average": 22,
+    "formula": "4d8+4"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 17,
+    "con": 13,
+    "int": "None",
+    "wis": 11,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +5, Ref +4, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +0, Perception +0",
+    "list": {
+      "Acrobatics": "+0",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 10,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 3,
+  "feats": [
+    "Dodge"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +4 (1d8+3 plus blood drain and disease)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This mammoth flea is size of a horse. Its legs dangle awkwardly from its great, swollen body armored entirely in disfigured plates.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 19,
+    "racialModifiers": [
+      "Acrobatics 20"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests, hills, mountains, or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cluster (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

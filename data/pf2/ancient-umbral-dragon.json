@@ -1,0 +1,135 @@
+{
+  "name": "Ancient Umbral Dragon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 97.",
+  "size": "Gargantuan",
+  "type": "Shadow",
+  "subtype": "Dragon",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 20",
+  "xp": null,
+  "ac": {
+    "value": 45,
+    "notes": ""
+  },
+  "hp": {
+    "average": 375,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 feet, fly 200 feet"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 20,
+    "con": 24,
+    "int": 22,
+    "wis": 26,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +35, Ref +33, Will +38",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +33 (1d20+33); __Athletics__: +38 (1d20+38); __Deception__: +34 (1d20+34); __Intimidation__: +36 (1d20+36); __Nature__: +34 (1d20+34); __Stealth__: +35 (1d20+35); __Survival__: +34 (1d20+34); ",
+    "list": {
+      "Acrobatics": "+33",
+      "Athletics": "+38",
+      "Deception": "+34",
+      "Intimidation": "+36",
+      "Nature": "+34",
+      "Stealth": "+35",
+      "Survival": "+34"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision, imprecise scent 60, imprecise tremorsense 60"
+  ],
+  "passivePerception": 46,
+  "languages": [
+    "Common",
+    "Daemonic",
+    "Draconic",
+    "Necril",
+    "Shadowtongue"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 90 feet, DC 40."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲ Jaws only."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ The umbral dragon breathes in one of two ways. They can't use Breath Weapon again for 1d4 (1d4) rounds.<ul class='inner-bullet-list'><li>Negative (necromancy, negative, primal) The dragon breathes a blast of darkness in a 50-foot cone that deals 21d6 (21d6) negative damage (DC 42 basic Reflex save). Undead creatures take 25d6 (25d6) force damage instead of the negative damage.</li><li>Shadows (necromancy, primal, shadow) The dragon breathes a blast of shadows in a 50-foot cone. Each creature within the cone must attempt a DC 42 Fortitude save. Critical Success The creature is unaffected. Success The creature is enfeebled 3 for 1 round. Failure The creature is enfeebled 3 for 1 minute. Critical Failure The creature is enfeebled 3 for 1 minute and blinded for 1 round.</li></ul>"
+    },
+    {
+      "name": "Draconic Frenzy",
+      "text": "⬺ The dragon makes two claw Strikes and one wing Strike in any order."
+    },
+    {
+      "name": "Draconic Momentum",
+      "text": "The dragon recharges their Breath Weapon whenever they score a critical hit with a Strike."
+    },
+    {
+      "name": "Drain Vigor",
+      "text": "(primal, necromancy); When the dragon deals negative damage to a living creature with its jaws Strike, the umbral dragon gains 20 temporary Hit Points and the creature must succeed at a DC 41 Fortitude save or become enfeebled 2. Further damage dealt by the dragon's jaws Strike increases the enfeebled condition value by 2 on a failed save, to a maximum of enfeebled 4."
+    },
+    {
+      "name": "Ghost Bane",
+      "text": "An umbral dragon's Strikes affect incorporeal creatures with the effects of a ghost touch property rune, and an umbral dragon's jaws deal an additional 8d6 (8d6) force damage to undead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +38 (negative, magical, reach 20 feet); Damage 4d10+18 (4d10+18) piercing plus 4d6 (4d6) negative and drain vigor"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +38 (agile magical, reach 15 feet); Damage 4d10+18 (4d10+18) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +36 (magical, reach 25 feet); Damage 4d12+18 (4d12+18) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ wing +36 (agile, magical reach 20 feet); Damage 3d10+18 (3d10+18) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      10,
+      5,
+      7,
+      6,
+      8,
+      6
+    ]
+  }
+}

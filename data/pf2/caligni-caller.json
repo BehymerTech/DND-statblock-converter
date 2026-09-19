@@ -1,0 +1,102 @@
+{
+  "name": "Caligni Caller",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 41.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Caligni",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 70,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 20,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +9, Ref +15, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +9 (1d20+9); __Intimidation__: +14 (1d20+14); __Occultism__: +13 (1d20+13); __Stealth__: +15 (1d20+15); ",
+    "list": {
+      "Arcana": "+9",
+      "Intimidation": "+14",
+      "Occultism": "+13",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Caligni",
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Death Umbra",
+      "text": "(darkness); When the caller dies, an explosion of shadow devours their body. Each creature in a 10-foot emanation must attempt a DC 22 Fortitude save. Critical Success The creature is unaffected. Success The creature is enfeebled 1 for 1 minute. Failure The creature is enfeebled 2 and slowed 1 for 1 minute."
+    },
+    {
+      "name": "Items",
+      "text": "dagger;"
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "The caller deals an additional 2d6 (2d6) precision damage to flat-footed creatures."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ dagger +15 (agile, finesse, versatile s); Damage 1d4+4 (1d4+4) piercing plus 1d6 (1d6) negative"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      5,
+      1,
+      1,
+      1,
+      4
+    ],
+    "items": "dagger;"
+  }
+}

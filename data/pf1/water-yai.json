@@ -1,0 +1,120 @@
+{
+  "name": "Water Yai",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "aquatic, giant, native, oni, shapechanger, water",
+  "alignment": "CE",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 32,
+    "notes": "armor +6, dex +3, natural +15, size -2",
+    "touch": 11,
+    "flatFooted": 29
+  },
+  "hp": {
+    "average": 297,
+    "formula": "22d10+176"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 60 ft. (good), swim 60 ft."
+  },
+  "abilities": {
+    "str": 39,
+    "dex": 17,
+    "con": 27,
+    "int": 16,
+    "wis": 20,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +21, Ref +10, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +21, Bluff +30, Disguise +30, Fly +24, Intimidate +30, Knowledge (arcana) +24, Perception +26, Perform (sing) +24, Sense Motive +26, Spellcraft +21, Swim +43",
+    "list": {
+      "Acrobatics": "+21",
+      "Bluff": "+30",
+      "Disguise": "+30",
+      "Fly": "+24",
+      "Intimidate": "+30",
+      "Perception": "+26",
+      "Sense Motive": "+26",
+      "Spellcraft": "+21",
+      "Swim": "+43"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 22,
+  "feats": [
+    "Awesome Blow",
+    "Blind-Fight",
+    "Cleave",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Improved Bull Rush",
+    "Improved Critical (spear)",
+    "Improved Disarm",
+    "Improved Initiative",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk spear +35/+30/+25/+20 (3d6+21/19-20/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "acidic missile +23 touch (4d6 acid plus nausea)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering woman has blue skin, small fangs, and a third eye glaring from her forehead. Her robes are soaking wet.",
+  "meta": {
+    "cmb": "38 (+40 bull rush, disarm)",
+    "cmd": "51 (53 vs. bull rush, disarm)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (masterwork spear, other treasure)"
+      }
+    ]
+  }
+}

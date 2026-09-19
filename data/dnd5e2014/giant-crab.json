@@ -1,0 +1,78 @@
+{
+  "name": "Giant Crab",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Medium",
+  "type": "beast",
+  "subtype": "",
+  "alignment": "unaligned",
+  "cr": "1/8",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "natural armor"
+  },
+  "hp": {
+    "average": 13,
+    "formula": "3d8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": 30,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 15,
+    "con": 11,
+    "int": 1,
+    "wis": 9,
+    "cha": 3
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Stealth +4",
+    "list": {
+      "stealth": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight 30 ft."
+  ],
+  "passivePerception": 9,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The crab can breathe air and water."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Claw",
+      "text": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage, and the target is grappled (escape DC 11). The crab has two claws, each of which can grapple only one target."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

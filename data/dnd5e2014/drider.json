@@ -1,0 +1,111 @@
+{
+  "name": "Drider",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Large",
+  "type": "monstrosity",
+  "subtype": "",
+  "alignment": "chaotic evil",
+  "cr": "6",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": "natural armor"
+  },
+  "hp": {
+    "average": 123,
+    "formula": "13d10 + 52"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": 30,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 18,
+    "int": 13,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +5, Stealth +9",
+    "list": {
+      "perception": "+5",
+      "stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 120 ft."
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Elvish",
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Fey Ancestry",
+      "text": "The drider has advantage on saving throws against being charmed, and magic can't put the drider to sleep."
+    },
+    {
+      "name": "Spider Climb",
+      "text": "The drider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": "While in sunlight, the drider has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+    },
+    {
+      "name": "Web Walker",
+      "text": "The drider ignores movement restrictions caused by webbing."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The drider makes three attacks, either with its longsword or its longbow. It can replace one of those attacks with a bite attack."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 2 (1d4) piercing damage plus 9 (2d8) poison damage."
+    },
+    {
+      "name": "Longsword",
+      "text": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
+    },
+    {
+      "name": "Longbow",
+      "text": "Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) poison damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [
+    {
+      "name": "Innate Spellcasting",
+      "text": "The drider's innate spellcasting ability is Wisdom (spell save DC 13). The drider can innately cast the following spells, requiring no material components:"
+    }
+  ],
+  "description": "",
+  "meta": {}
+}

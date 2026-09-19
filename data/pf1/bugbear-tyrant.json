@@ -1,0 +1,106 @@
+{
+  "name": "Bugbear Tyrant",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "goblinoid",
+  "alignment": "CE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 27,
+    "notes": "armor +11, deflection +1, dex +1, natural +4",
+    "touch": 12,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 136,
+    "formula": "3d8+12d10+57"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 12,
+    "con": 16,
+    "int": 12,
+    "wis": 8,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +15, Ref +11, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +26, Perception +11, Stealth +15",
+    "list": {
+      "Intimidate": "+26",
+      "Perception": "+11",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Goblin"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 14,
+  "feats": [
+    "Cruel Opportunist",
+    "Dazzling Display",
+    "Hurtful",
+    "Intimidating Prowess",
+    "Pile On",
+    "Power Attack",
+    "Visceral Threat",
+    "Weapon Focus (falchion)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 falchion +22/+17/+12 (2d4+9/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk javelin +16 (1d6+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Male",
+    "class": "bugbear antipaladin (fearmonger) 12 (Pathfinder RPG Advanced Player’s Guide 118, see page 20)",
+    "cmb": "+19",
+    "cmd": 30,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate mountains"
+      }
+    ]
+  }
+}

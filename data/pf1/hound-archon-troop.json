@@ -1,0 +1,121 @@
+{
+  "name": "Hound Archon Troop",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 108: Hell Comes to Westcrown",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "archon, extraplanar, good, lawful, troop",
+  "alignment": "LG",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 28,
+    "notes": "armor +4, dex +4, dodge +1, natural +9, deflection vs. evil +2",
+    "touch": 15,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 241,
+    "formula": "21d10+126"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 20,
+    "con": 23,
+    "int": 18,
+    "wis": 21,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +20, Ref +19, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +28, Climb +29, Diplomacy +32, Intimidate +35, Knowledge (planes) +28, Perception +39, Sense Motive +33, Stealth +32, Survival +33, Swim +26",
+    "list": {
+      "Acrobatics": "+28",
+      "Climb": "+29",
+      "Diplomacy": "+32",
+      "Intimidate": "+35",
+      "Perception": "+39",
+      "Sense Motive": "+33",
+      "Stealth": "+32",
+      "Survival": "+33",
+      "Swim": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent",
+    "detect evil"
+  ],
+  "passivePerception": 49,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 21,
+  "feats": [
+    "Alertness",
+    "Dodge",
+    "Great Fortitude",
+    "Improved Great Fortitude",
+    "Improved Initiative",
+    "Improved Lightning Reflexes",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Persuasive",
+    "Skill Focus (Intimidate)",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "troop (8d6+9)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+27",
+    "cmd": 43,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Heaven)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or army (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

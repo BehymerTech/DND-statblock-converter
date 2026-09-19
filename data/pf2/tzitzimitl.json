@@ -1,0 +1,109 @@
+{
+  "name": "Tzitzimitl",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 279.",
+  "size": "Gargantuan",
+  "type": "Undead",
+  "subtype": "Electricity",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 19",
+  "xp": null,
+  "ac": {
+    "value": 43,
+    "notes": ""
+  },
+  "hp": {
+    "average": 390,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 feet, fly 60 feet"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 26,
+    "con": 22,
+    "int": 20,
+    "wis": 24,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +29, Ref +32, Will +35",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +33 (1d20+33); __Arcana__: +37 (1d20+37); __Athletics__: +33 (1d20+33); __Nature__: +37 (1d20+37); __Occultism__: +37 (1d20+37); __Religion__: +40 (1d20+40); ",
+    "list": {
+      "Acrobatics": "+33",
+      "Arcana": "+37",
+      "Athletics": "+33",
+      "Nature": "+37",
+      "Occultism": "+37",
+      "Religion": "+40"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, true seeing"
+  ],
+  "passivePerception": 42,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Celestial",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Light to Dark",
+      "text": "⬲ (divine, negative); Trigger A creature uses an ability or spell with the positive trait within 120 feet of the tzitzimitl Effect The tzitzimitl inverts the energy used in the triggering ability or spell, causing it to lose the positive trait and gain the negative trait, and changing all instances of positive energy or healing in the ability's description to negative energy."
+    },
+    {
+      "name": "Drain Life",
+      "text": "When a tzitzimitl's claw Strike deals damages to a living creature, the tzitzimitl gains 20 temporary Hit Points, and the target must succeed at a DC 41 Fortitude save or become drained 2. Further damage dealt by a tzitzimitl's claw Strike increases the value of the drained condition by 2 on a failed save, to a maximum of drained 4."
+    },
+    {
+      "name": "Eclipse",
+      "text": "⬺ (cold, occult); The tzitzimitl casts darkness and drains the heat and warmth from the darkness spell's area, and each creature within the spell's area must attempt a DC 41 Fortitude save. Critical Success The creature takes 4d8 (4d8) cold damage. Success The creature takes 8d8 (8d8) cold damage and is slowed 1 for 1 round. Failure The creature takes 16d8 (16d8) cold damage and is slowed 1 for 1 minute. Critical Failure The creature takes 16d8 (16d8) cold damage, is slowed 2 for 1 minute, and is doomed 1."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +34 (agile, magical, reach 20 feet); Damage 4d12+10 (4d12+10) slashing plus 3d8 (3d8) electricity and drain life"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ eye beam +34 (range 100 feet); Damage 4d12 (4d12) electricity plus 10d6 (10d6) force"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      10,
+      8,
+      6,
+      5,
+      7,
+      8
+    ]
+  }
+}

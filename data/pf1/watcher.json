@@ -1,0 +1,117 @@
+{
+  "name": "Watcher",
+  "sourceSystem": "pf1",
+  "source": "Planar Adventures",
+  "size": "Gargantuan",
+  "type": "outsider",
+  "subtype": "",
+  "alignment": "LN",
+  "cr": "22",
+  "level": null,
+  "xp": 614400,
+  "ac": {
+    "value": 41,
+    "notes": "dex +8, dodge +1, wis +11, natural +15, size -4",
+    "touch": 26,
+    "flatFooted": 32
+  },
+  "hp": {
+    "average": 429,
+    "formula": "26d10+286"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., other_semicolon air walk ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 27,
+    "con": 32,
+    "int": 29,
+    "wis": 34,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +19, Ref +23, Will +27",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +37, Craft (any one) +38, Knowledge (arcana) +35, Knowledge (dungeoneering) +35, Knowledge (engineering) +35, Knowledge (geography) +35, Knowledge (history) +35, Knowledge (planes) +38, Knowledge (religion) +35, Perception +51, Sense Motive +45, Spellcraft +38, Stealth +25, Survival +41, Use Magic Device +34",
+    "list": {
+      "Acrobatics": "+37",
+      "Perception": "+51",
+      "Sense Motive": "+45",
+      "Spellcraft": "+38",
+      "Stealth": "+25",
+      "Survival": "+41",
+      "Use Magic Device": "+34"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "see in darkness",
+    "true seeing"
+  ],
+  "passivePerception": 61,
+  "languages": [
+    "telepathy 200 ft.",
+    "truespeech"
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 26,
+  "feats": [
+    "Alertness",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dodge",
+    "Improved Critical (talons)",
+    "Improved Initiative",
+    "Mobility",
+    "Quicken Spell-Like Ability (teleport)",
+    "Skill Focus (Perception)",
+    "Spring Attack",
+    "Staggering Critical",
+    "Whirlwind Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "6 talons +32 (2d8+10/19-20 plus stasis)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous black insectile creature moves with an almost nauseating grace as it watches with its single red eye.",
+  "meta": {
+    "cmb": "+40",
+    "cmd": "70 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Jandelay)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or council (2-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

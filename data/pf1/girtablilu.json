@@ -1,0 +1,115 @@
+{
+  "name": "Girtablilu",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Large",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 22,
+    "notes": "armor +2, dex +2, dodge +1, natural +8, size -1",
+    "touch": 12,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 105,
+    "formula": "10d10+50"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 15,
+    "con": 21,
+    "int": 10,
+    "wis": 14,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +8, Ref +11, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +17, Craft (any one) +8, Knowledge (history) +5, Perception +14, Sense Motive +7, Stealth +10, Survival +15",
+    "list": {
+      "Climb": "+17",
+      "Perception": "+14",
+      "Sense Motive": "+7",
+      "Stealth": "+10",
+      "Survival": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Girtablilu"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 10,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Mobility",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk spear +15/+10 (1d8+7/×3), 2 claws +9 (1d6+2 plus grab), sting +9 (1d6+2 plus poison)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk spear +12 (1d8+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The body of a spear-wielding woman rises from the front of this monstrously huge scorpion.",
+  "meta": {
+    "cmb": "16 (+20 grapple)",
+    "cmd": "29 (41 vs. trip)",
+    "racialModifiers": [
+      "Climb 4",
+      "Perception 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, patrol (3-5 plus 2-4 giant scorpions), or cult (6-14 plus 3-6 temple guardians of 3rd level, 1 cleric or oracle leader of 6th level, and 4-9 giant scorpions)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (leather armor, masterwork spear)"
+      }
+    ]
+  }
+}

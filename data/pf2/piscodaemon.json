@@ -1,0 +1,114 @@
+{
+  "name": "Piscodaemon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 58.",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "Amphibious, Daemon",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 28,
+    "notes": ""
+  },
+  "hp": {
+    "average": 200,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, swim 40 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 18,
+    "con": 22,
+    "int": 14,
+    "wis": 16,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +22, Ref +16, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +22 (1d20+22); __Intimidation__: +19 (1d20+19); __Medicine__: +17 (1d20+17); __Stealth__: +22 (1d20+22); __Survival__: +19 (1d20+19); ",
+    "list": {
+      "Athletics": "+22",
+      "Intimidation": "+19",
+      "Medicine": "+17",
+      "Stealth": "+22",
+      "Survival": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, see invisibility"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Common",
+    "Daemonic; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Enhance Venom",
+      "text": "⬲ (divine, misfortune, necromancy, poison); Trigger A creature within 30 feet attempts a saving throw against piscovenom Effect The creature takes an additional 2d8 (2d8) poison damage even if it succeeds at its save."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 2d10+6 (2d10+6) bludgeoning, DC 30."
+    },
+    {
+      "name": "Gory Rend",
+      "text": "⬺ The piscodaemon makes two claw Strikes against the same creature. If both hit, the creature takes 2d10 (2d10) persistent bleed damage and is exposed to piscovenom."
+    },
+    {
+      "name": "Piscovenom",
+      "text": "(poison); Saving Throw DC 30 Fortitude. Maximum Duration 6 rounds Stage 1 1d8 (1d8) poison and enfeebled 1 (1 round) Stage 2 2d8 (2d8) poison and enfeebled 1 (1 round) Stage 3 4d8 (4d8) poison and enfeebled 2 (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +23 (evil, magical); Damage 2d10+12 (2d10+12) slashing plus 1d6 (1d6) evil and Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tentacle +23 (agile, evil, magical); Damage 2d6+12 (2d6+12) bludgeoning plus 1d6 (1d6) evil and piscovenom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      4,
+      6,
+      2,
+      3,
+      3
+    ]
+  }
+}

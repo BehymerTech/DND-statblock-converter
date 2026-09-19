@@ -1,0 +1,99 @@
+{
+  "name": "Swordfish",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 56: Raiders of the Fever Sea",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 14,
+    "notes": "armor +3, dex +2, size -1",
+    "touch": 11,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 22,
+    "formula": "4d8+4"
+  },
+  "speed": {
+    "walk": 70,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 70 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 14,
+    "con": 13,
+    "int": 1,
+    "wis": 12,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +5, Ref +6, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +10, Swim +18",
+    "list": {
+      "Perception": "+10",
+      "Swim": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 3,
+  "feats": [
+    "Skill Focus (Swim)",
+    "Weapon Focus (gore)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +5 (1d8+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A proud fin flares along the spine of this large, sleek fish, its head coming to a spearlike point.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 18,
+    "racialModifiers": [
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any ocean"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

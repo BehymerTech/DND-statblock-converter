@@ -1,0 +1,104 @@
+{
+  "name": "Thrushmoor Angler",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 111: Dreams of the Yellow King",
+  "size": "Medium",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "CN",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 22,
+    "notes": "dex +1, natural +11",
+    "touch": 11,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 105,
+    "formula": "10d10+50"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 13,
+    "con": 20,
+    "int": 12,
+    "wis": 14,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +12, Ref +8, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +4, Perception +15, Stealth +14, Swim +26",
+    "list": {
+      "Acrobatics": "+4",
+      "Perception": "+15",
+      "Stealth": "+14",
+      "Swim": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 10,
+  "feats": [
+    "Ability Focus (projected victim)",
+    "Ability Focus (tantalizing lure)",
+    "Improved Critical (bite)",
+    "Iron Will",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +16 (1d8+5/19-20 plus grab), 2 claws +15 (1d4+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Razor-sharp teeth line the huge mouth of this bloated, slimecovered amphibian. A glittering, luminescent organ suspended by a fleshy tether hangs like a lantern above its head.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": "26 (34 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests, swamps, and water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cloister (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

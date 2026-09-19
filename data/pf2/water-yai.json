@@ -1,0 +1,125 @@
+{
+  "name": "Water Yai",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 191.",
+  "size": "Huge",
+  "type": "Water",
+  "subtype": "Fiend, Giant, Humanoid, Oni",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 17",
+  "xp": null,
+  "ac": {
+    "value": 40,
+    "notes": ""
+  },
+  "hp": {
+    "average": 295,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, fly 40 feet, swim 50 feet; water walk;"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 22,
+    "con": 22,
+    "int": 20,
+    "wis": 28,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +27, Ref +29, Will +34",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +30 (1d20+30); __Arcana__: +29 (1d20+29); __Athletics__: +33 (1d20+33); __Deception__: +32 (1d20+32); __Intimidation__: +32 (1d20+32); __Nature__: +29 (1d20+29); __Performance__: +33 (1d20+33); ",
+    "list": {
+      "Acrobatics": "+30",
+      "Arcana": "+29",
+      "Athletics": "+33",
+      "Deception": "+32",
+      "Intimidation": "+32",
+      "Nature": "+29",
+      "Performance": "+33"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision"
+  ],
+  "passivePerception": 42,
+  "languages": [
+    "Common",
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Shocking Douse",
+      "text": "⬲ Trigger A creature within 100 feet casts a fire spell Effect The water yai flourishes their kimono and attempts a Performance check to counteract the spell before it comes into effect. If the yai counters the spell, the triggering creature takes 9d6 (9d6) electricity damage from electrified water that sprays from the kimono (DC 35 basic Reflex save)."
+    },
+    {
+      "name": "Items",
+      "text": "+2 greater striking longspear;"
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, polymorph, primal, transmutation); The water yai takes on the appearance of an storm giant. This doesn't change their Speed or Strike attack and damage. The yai can also turn into a puddle of water, with the effects of gaseous form except they retain their land Speed, double their swim Speed, and can't fly."
+    },
+    {
+      "name": "Enveloping Kimono",
+      "text": "⬻ (electricity, manipulate, primal, transmutation, water); Requirements The water yai's last action was a successful kimono Strike Effect The water yai extends a portion of their kimono to attempt to envelop a creature within 15 feet. The water yai must attempt a Performance check against the creature's Reflex DC. Critical Success The creature takes 20d6 (20d6) electricity damage and is grabbed until the end of its next turn. Success As critical success, but only 10d6 (10d6) electricity damage. Failure The target takes 5d6 (5d6) electricity damage but is not grabbed. Critical Failure The target is unaffected."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ longspear +35 (evil, magical, reach 20 feet); Damage 3d8+15 (3d8+15) piercing plus 2d6 (2d6) electricity"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ kimono +33 (electricity, evil, magical, reach 15 feet); Damage 3d12+12 (3d12+12) electricity plus Enveloping Kimono"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +33 (agile, evil, magical, reach 15 feet); Damage 3d8+15 (3d8+15) bludgeoning plus 2d6 (2d6) electricity"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ electric missile +30 (electricity, evil, magical, range increment 60 feet); Damage 3d12+12 (3d12+12) electricity plus flat-footed for 1 round"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      9,
+      6,
+      6,
+      5,
+      9,
+      6
+    ],
+    "items": "+2 greater striking longspear;"
+  }
+}

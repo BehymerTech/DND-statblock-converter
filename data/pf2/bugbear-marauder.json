@@ -1,0 +1,106 @@
+{
+  "name": "Bugbear Marauder",
+  "sourceSystem": "pf2",
+  "source": "_Troubles In Otari_.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Goblin",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 34,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 16,
+    "int": 8,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +8, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +6 (1d20+6); __Athletics__: +7 (1d20+7); __Intimidation__: +4 (1d20+4); __Stealth__: +6 (1d20+6); ",
+    "list": {
+      "Acrobatics": "+6",
+      "Athletics": "+7",
+      "Intimidation": "+4",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Stride",
+      "text": "⬻ 25 feet"
+    },
+    {
+      "name": "Melee Strike",
+      "text": "⬻ (versatile P); Damage 1d8+4 (1d8+4) slashing Melee Strike ⬻ fist +10 (agile, nonlethal), Damage 1d4+4 (1d4+4) bludgeoning"
+    },
+    {
+      "name": "Ranged Strike",
+      "text": "⬻ (thrown 30 feet); Damage 1d6+4 (1d6+4) piercing"
+    },
+    {
+      "name": "Bushwhack",
+      "text": "⬻ The bugbear marauder Strides up to 10 feet and attempts to Grapple a creature that can't see them and doesn't know where they are. If the bugbear succeeds, they also deal damage from their fist Strike to that creature."
+    },
+    {
+      "name": "Mauler",
+      "text": "The bugbear marauder gains a +3 circumstance bonus to damage rolls against creatures they have grabbed."
+    },
+    {
+      "name": "Items",
+      "text": "javelin (3), leather armor, longsword;"
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      3,
+      -1,
+      1,
+      0
+    ],
+    "items": "javelin (3), leather armor, longsword;"
+  }
+}

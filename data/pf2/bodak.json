@@ -1,0 +1,105 @@
+{
+  "name": "Bodak",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 42.",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 160,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 18,
+    "con": 12,
+    "int": 6,
+    "wis": 20,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +13, Ref +16, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +18 (1d20+18); __Athletics__: +15 (1d20+15); __Intimidation__: +19 (1d20+19); __Stealth__: +18 (1d20+18); ",
+    "list": {
+      "Acrobatics": "+18",
+      "Athletics": "+15",
+      "Intimidation": "+19",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, lifesense 60"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Abyssal",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Sunlight Vulnerability",
+      "text": "If exposed to direct sunlight, the bodak can't use actions with the death trait and it becomes slowed 1. The slowed value increases by 1 each time the bodak ends its turn in sunlight. If the bodak loses all its actions this way, it is destroyed."
+    },
+    {
+      "name": "Draining Glance",
+      "text": "⬲ (aura, death, necromancy, occult, visual); Trigger A living creature within 30 feet that the bodak can perceive with its lifesense starts its turn Effect The target must attempt a DC 23 Fortitude save. If it fails, the bodak regains 5 Hit Points and the target becomes drained 1."
+    },
+    {
+      "name": "Bodak Spawn",
+      "text": "(necromancy, occult); Any humanoid who dies while drained or doomed by a bodak rises as an autonomous bodak 24 hours after its death."
+    },
+    {
+      "name": "Death Gaze",
+      "text": "⬺ (death, necromancy, occult, visual); The bodak stares at a living creature within 30 feet that it can sense with its lifesense. That creature must attempt a DC 26 Fortitude save. If the target becomes drained, the bodak gains a number of temporary Hit Points equal to 5 times the value of the drained condition the target gained. Multiple exposures to this ability can increase a creature's drained condition to a maximum of 4. If the bodak is destroyed, any doomed condition a creature has gained from Death Gaze are removed. Critical Success The creature is unaffected. Success The creature is drained 1. Failure The creature is doomed 1 and drained 2. Critical Failure The creature is doomed 1 and drained 4. a rare version of the create undead"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +18 (agile, finesse); Damage 2d6+6 (2d6+6) bludgeoning plus 1d6 (1d6) negative"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      4,
+      1,
+      -2,
+      5,
+      5
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "name": "Teacher",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 240.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature -1",
+  "xp": null,
+  "ac": {
+    "value": 12,
+    "notes": ""
+  },
+  "hp": {
+    "average": 5,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 8,
+    "int": 18,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +1, Ref +2, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Diplomacy__: +7 (1d20+7); __Intimidation__: +5 (1d20+5); __Academia lore__: +14 (1d20+14); __One additional lore__: +14 (1d20+14); ",
+    "list": {
+      "Diplomacy": "+7",
+      "Intimidation": "+5",
+      "Academia lore": "+14",
+      "One additional lore": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 14,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Font of Knowledge",
+      "text": "The teacher can attempt to Recall Knowledge on any general subject with a +10 modifier."
+    },
+    {
+      "name": "Inspirational Presence",
+      "text": "(aura, emotion, mental); 50 feet. Any of the teacher's students in the aura gains a +1 circumstance bonus to Recall Knowledge."
+    },
+    {
+      "name": "Items",
+      "text": "cane (functions as staff), textbook, writing set;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ cane +4 (two-hand d8); Damage 1d4 (1d4) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      0,
+      -1,
+      4,
+      2,
+      3
+    ],
+    "items": "cane (functions as staff), textbook, writing set;"
+  }
+}

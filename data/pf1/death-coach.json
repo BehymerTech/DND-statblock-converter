@@ -1,0 +1,112 @@
+{
+  "name": "Death Coach",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Huge",
+  "type": "undead",
+  "subtype": "incorporeal",
+  "alignment": "NE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 27,
+    "notes": "deflection +8, dex +10, dodge +1, size -2",
+    "touch": 27,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 212,
+    "formula": "17d8+136"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 30 ft. (average), other_semicolon soulbound gallop ft."
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 30,
+    "con": "None",
+    "int": 15,
+    "wis": 18,
+    "cha": 27
+  },
+  "saves": {
+    "text": "Fort +13, Ref +15, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +26, Intimidate +34, Knowledge (geography) +9, Knowledge (history) +9, Knowledge (local) +9, Knowledge (nobility) +9, Perception +30, Sense Motive +13, Survival +21",
+    "list": {
+      "Fly": "+26",
+      "Intimidate": "+34",
+      "Perception": "+30",
+      "Sense Motive": "+13",
+      "Survival": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "deathwatch",
+    "lifesense"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Infernal (can’t speak any language)"
+  ],
+  "initiative": "+14",
+  "babOrProficiency": 12,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Initiative",
+    "Lightning Stance",
+    "Mobility",
+    "Quicken Spell-Like Ability (fear)",
+    "Skill Focus (Intimidate)",
+    "Skill Focus (Perception)",
+    "Wind Stance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "incorporeal touch +20 (17d6 negative energy)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Two spectral horses pull this ornate, ghostly carriage, whose windows are blocked by dark, heavy curtains.",
+  "meta": {
+    "cmb": "+24",
+    "cmd": "43 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

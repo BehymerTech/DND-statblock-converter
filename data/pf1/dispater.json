@@ -1,0 +1,127 @@
+{
+  "name": "Dispater",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, lawful, shapechanger",
+  "alignment": "LE",
+  "cr": "27",
+  "level": null,
+  "xp": 3276800,
+  "ac": {
+    "value": 45,
+    "notes": "deflection +4, dex +9, dodge +1, natural +10, profane +12, size -1",
+    "touch": 35,
+    "flatFooted": 35
+  },
+  "hp": {
+    "average": 643,
+    "formula": "33d10+462"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 29,
+    "con": 38,
+    "int": 33,
+    "wis": 30,
+    "cha": 33
+  },
+  "saves": {
+    "text": "Fort +29, Ref +31, Will +34",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +42, Bluff +47, Diplomacy +47, Fly +60, Intimidate +47, Know. (arcana) +44, Know. (engineering) +44, Know. (history) +44, Know. (nobility) +44, Know. (religion) +44, Know. (planes) +47, Linguistics +44, Perception +46, Sense Motive +46, Spellcraft +44, Stealth +41, Use Magic Device +44",
+    "list": {
+      "Acrobatics": "+42",
+      "Bluff": "+47",
+      "Diplomacy": "+47",
+      "Fly": "+60",
+      "Intimidate": "+47",
+      "Linguistics": "+44",
+      "Perception": "+46",
+      "Sense Motive": "+46",
+      "Spellcraft": "+44",
+      "Stealth": "+41",
+      "Use Magic Device": "+44"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect chaos",
+    "detect good",
+    "see in darkness",
+    "true seeing"
+  ],
+  "passivePerception": 56,
+  "languages": [
+    "all (language mastery)",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+13",
+  "babOrProficiency": 33,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dazzling Display",
+    "Dodge",
+    "Greater Feint",
+    "Improved Critical (heavy mace)",
+    "Improved Feint",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Iron Will",
+    "Mobility",
+    "Power Attack",
+    "Quicken Spell-Like Ability (blade barrier)",
+    "Shatter Defenses",
+    "Staggering Critical",
+    "Weapon Focus (heavy mace)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "The Eclipsing Eye +49/+44/+39/+34 (2d6+22/19-20/×3), gore +39 (2d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This diabolic figure is draped in a kingly robe and crowned with iron horns. He bears a long, heavy mace of black metal.",
+  "meta": {
+    "cmb": "+46",
+    "cmd": 82,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple (The Eclipsing Eye, other treasure)"
+      }
+    ]
+  }
+}

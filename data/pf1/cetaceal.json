@@ -1,0 +1,119 @@
+{
+  "name": "Cetaceal",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "agathion, aquatic, extraplanar, good",
+  "alignment": "NG",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 30,
+    "notes": "dex +4, dodge +1, natural +15, deflection vs. evil +4",
+    "touch": 15,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 212,
+    "formula": "17d10+119"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., swim 80 ft."
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 19,
+    "con": 24,
+    "int": 14,
+    "wis": 18,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +17, Ref +16, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +12, Handle Animal +14, Heal +21, Knowledge (arcana) +22, Knowledge (nature) +19, Knowledge (planes) +22, Perception +28, Sense Motive +24, Stealth +24, Swim +17",
+    "list": {
+      "Diplomacy": "+12",
+      "Handle Animal": "+14",
+      "Heal": "+21",
+      "Perception": "+28",
+      "Sense Motive": "+24",
+      "Stealth": "+24",
+      "Swim": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "speak with animals",
+    "truespeech"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 17,
+  "feats": [
+    "Combat Casting",
+    "Dodge",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Mobility",
+    "Spell Penetration",
+    "Weapon Focus (shortspear)",
+    "Weapon Focus (tail slap)",
+    "Wind Stance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 shocking burst shortspear +28/+23/+18/+13 (1d6+14 plus 1d6 electricity), tail slap +22 (1d6+4 plus push and stun)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This mermaid-like creature has the torso and head of a long-haired woman and the lower half of a sleek killer whale.",
+  "meta": {
+    "cmb": "+26",
+    "cmd": "41 (can’t be tripped)",
+    "racialModifiers": [
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any water (Nirvana)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pod (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+1 shocking burst shortspear, other treasure)"
+      }
+    ]
+  }
+}

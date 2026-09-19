@@ -1,0 +1,143 @@
+{
+  "name": "Ancient Forest Dragon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 76.",
+  "size": "Gargantuan",
+  "type": "Plant",
+  "subtype": "Dragon",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 19",
+  "xp": null,
+  "ac": {
+    "value": 44,
+    "notes": ""
+  },
+  "hp": {
+    "average": 410,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, fly 160 feet; woodland stride;"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 18,
+    "con": 24,
+    "int": 20,
+    "wis": 26,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +32, Ref +29, Will +35",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +31 (1d20+31); __Athletics__: +37 (1d20+37); __Deception__: +31 (1d20+31); __Intimidation__: +33 (1d20+33); __Nature__: +36 (1d20+36); __Stealth__: +29 (1d20+29), (Stealth: +33 (1d20+33) in forests); __Survival__: +35 (1d20+35); ",
+    "list": {
+      "Acrobatics": "+31",
+      "Athletics": "+37",
+      "Deception": "+31",
+      "Intimidation": "+33",
+      "Nature": "+36",
+      "Stealth": "+33",
+      "Survival": "+35"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60"
+  ],
+  "passivePerception": 43,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Elven",
+    "Sylvan",
+    "Terran"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 90 feet, DC 39. Animals, fungi, and plants take a –2 circumstance penalty to the save."
+    },
+    {
+      "name": "Fed by Water",
+      "text": "⬲ (healing, necromancy, primal); Frequency once per hour Trigger The forest dragon is targeted with a water spell or effect Effect The forest dragon gains 40 temporary Hit Points."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (evocation, primal); The dragon unleashes a swarm of insects that deals 20d6 (20d6) piercing damage in a 60-foot cone (DC 41 basic Reflex save) before dispersing. A creature that critically fails is stunned 2 from the insects' venom; this is a poison effect. The dragon can't use Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Coiling Frenzy",
+      "text": "⬺ The dragon makes one claw Strike and one tail Strike in either order, each against the same target. If either Strike hits, the dragon automatically Grabs the target."
+    },
+    {
+      "name": "Draconic Momentum",
+      "text": "The dragon recharges their Breath Weapon whenever they score a critical hit with a Strike."
+    },
+    {
+      "name": "Draining Blight",
+      "text": "⬺ (healing, necromancy, negative, primal); Frequency once per day Effect The dragon draws moisture from the living creatures surrounding them, using the energy to heal their own wounds. Each living creature in a 30-foot emanation takes 9d10 (9d10) negative damage (DC 41 basic Fortitude save). Creatures made entirely of water and plant creatures use the outcome one degree of success worse than they rolled. The dragon regains Hit Points equal to half of the highest damage a single creature takes from this effect. In addition, all non-creature plant life in the area withers and dies, eliminating non-magical undergrowth and any resulting difficult terrain, cover, and concealment. Water is also consumed in the same way, typically lowering any standing body of water fully within the area by 1 foot."
+    },
+    {
+      "name": "Forest Shape",
+      "text": "When casting tree shape, a forest dragon can become a tree of the same size and age as themself."
+    },
+    {
+      "name": "Greater Constrict",
+      "text": "⬻ 4d8+10 (4d8+10) bludgeoning, DC 41 (page 305)"
+    },
+    {
+      "name": "Lignifying Bite",
+      "text": "(plant, primal, transmutation); When a creature made of flesh is reduced to 0 Hit Points by the dragon's jaws Strike, that creature must attempt a DC 41 Fortitude save. If it fails, it dies, and its flesh, made of earth in a metaphysical sense, turns to wood. The wood is living and might grow into a tree over time, but it can't be used as a body or piece of a body for raise dead or other magic that would return the creature to life."
+    },
+    {
+      "name": "Woodland Stride",
+      "text": "The forest dragon ignores difficult terrain and greater difficult terrain from non-magical foliage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +36 (magical, reach 20 feet); Damage 4d10+17 (4d10+17) piercing plus 3d6 (3d6) poison and lignifying bite"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +36 (agile, magical, reach 15 feet); Damage 4d8+17 (4d8+17) slashing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +36 (magical, reach 30 feet); Damage 4d8+17 (4d8+17) bludgeoning plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      9,
+      4,
+      7,
+      5,
+      8,
+      6
+    ]
+  }
+}

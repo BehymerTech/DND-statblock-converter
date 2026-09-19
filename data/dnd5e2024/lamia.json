@@ -1,0 +1,95 @@
+{
+  "name": "Lamia",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "",
+  "alignment": "Chaotic Evil",
+  "cr": "4",
+  "level": null,
+  "xp": 1100,
+  "ac": {
+    "value": 13,
+    "notes": ""
+  },
+  "hp": {
+    "average": 97,
+    "formula": "13d10 + 26"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 13,
+    "con": 15,
+    "int": 14,
+    "wis": 15,
+    "cha": 16
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Deception +7, Insight +4, Stealth +5",
+    "list": {
+      "Deception": "+7",
+      "Insight": "+4",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Abyssal",
+    "Common"
+  ],
+  "initiative": "+1 (11)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The lamia makes two Claw attacks. It can replace one attack with a use of Corrupting Touch."
+    },
+    {
+      "name": "Claw",
+      "text": "_Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 7 (1d8 + 3) Slashing damage plus 7 (2d6) Psychic damage."
+    },
+    {
+      "name": "Corrupting Touch",
+      "text": "_Wisdom Saving Throw:_ DC 13, one creature the lamia can see within 5 feet. _Failure:_ 13 (3d8) Psychic damage, and the target is cursed for 1 hour. Until the curse ends, the target has the Charmed and Poisoned conditions."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The lamia casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 13): <br> &emsp;**At Will:** _Disguise Self_ (can appear as a Large or Medium biped), _Minor Illusion_<br> &emsp;**1/Day Each:** _Geas_, _Major Image_, _Scrying_"
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Leap",
+      "text": "The lamia jumps up to 30 feet by spending 10 feet of movement. ## Lemure"
+    }
+  ],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Adult Nightmare Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "extraplanar",
+  "alignment": "NE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 26,
+    "notes": "natural +17, size -1",
+    "touch": 9,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 175,
+    "formula": "13d12+91"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 200 ft. (poor)"
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 11,
+    "con": 24,
+    "int": 16,
+    "wis": 18,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +15, Ref +8, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +20, Fly +10, Intimidate +20, Knowledge (arcana) +19, Knowledge (planes) +19, Perception +20, Sense Motive +20, Stealth +18, Survival +20",
+    "list": {
+      "Bluff": "+20",
+      "Fly": "+10",
+      "Intimidate": "+20",
+      "Perception": "+20",
+      "Sense Motive": "+20",
+      "Stealth": "+18",
+      "Survival": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "dreamsight",
+    "see in darkness"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 13,
+  "feats": [
+    "Flyby Attack",
+    "Improved Initiative",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack",
+    "Skill Focus (Stealth)",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +22 (2d6+13), 2 claws +21 (1d8+9), 2 wings +19 (1d6+4), tail slap +19 (1d8+13)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+23",
+    "cmd": "33 (37 vs. trip)"
+  }
+}

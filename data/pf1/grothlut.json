@@ -1,0 +1,97 @@
+{
+  "name": "Grothlut",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 13,
+    "notes": "dex -2, natural +5",
+    "touch": 8,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 42,
+    "formula": "5d8+20"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 6,
+    "con": 18,
+    "int": 1,
+    "wis": 8,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +7, Ref -1, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +10, Perception -1",
+    "list": {
+      "Climb": "+10",
+      "Perception": "-1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 9,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 3,
+  "feats": [
+    "Great Fortitude",
+    "Improved Initiative",
+    "Weapon Focus (slam)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +6 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Pale and glistening with moisture, this sluglike creature stares vacantly as a droning moan escapes its slobbering lips.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": "13 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or rout (2-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

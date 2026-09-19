@@ -1,0 +1,103 @@
+{
+  "name": "Cythnigot",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Tiny",
+  "type": "outsider",
+  "subtype": "chaotic, evil, extraplanar, qlippoth",
+  "alignment": "CE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 14,
+    "notes": "dex +1, natural +1, size +2",
+    "touch": 13,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 16,
+    "formula": "3d10"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 11,
+    "int": 11,
+    "wis": 8,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +1, Ref +6, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Fly +15, Knowledge (nature) +6, Knowledge (planes) +6, Perception +5, Stealth +15",
+    "list": {
+      "Acrobatics": "+7",
+      "Fly": "+15",
+      "Perception": "+5",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect law",
+    "detect magic"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Abyssal",
+    "telepathy (touch)"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 3,
+  "feats": [
+    "Lightning Reflexes",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +6 (1d6+1 plus spores)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This six-legged horror has a spider’s face and a fibrous stalk growing out of its back-a stalk ending in a snapping mouth.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": "13 (21 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or bloom (2-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "name": "Adult Blue Dragon",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Huge",
+  "type": "Dragon",
+  "subtype": "Chromatic",
+  "alignment": "Lawful Evil",
+  "cr": "16",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 212,
+    "formula": "17d12 + 102"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": 80,
+    "swim": null,
+    "climb": null,
+    "burrow": 30,
+    "notes": "40 ft., Burrow 30 ft., Fly 80 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 10,
+    "con": 23,
+    "int": 16,
+    "wis": 15,
+    "cha": 20
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +12, Stealth +5",
+    "list": {
+      "Perception": "+12",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Blindsight 60 ft.",
+    "Darkvision 120 ft."
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+10 (20)",
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast _Shatter_."
+    },
+    {
+      "name": "Rend",
+      "text": "_Melee Attack Roll:_ +12, reach 10 ft. _Hit:_ 16 (2d8 + 7) Slashing damage plus 5 (1d10) Lightning damage."
+    },
+    {
+      "name": "Lightning Breath (Recharge 5–6)",
+      "text": "_Dexterity Saving Throw:_ DC 19, each creature in a 90-foot-long, 5-foot-wide Line. _Failure:_ 60 (11d10) Lightning damage. _Success:_ Half damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 18): <br> &emsp;**At Will:** _Detect Magic_, _Invisibility_, _Mage Hand_, _Shatter_ <br> &emsp;**1/Day Each:** _Scrying_, _Sending_"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [
+    {
+      "name": "",
+      "text": "_Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns._"
+    },
+    {
+      "name": "Cloaked Flight",
+      "text": "The dragon uses Spellcasting to cast _Invisibility_ on itself, and it can fly up to half its Fly Speed. The dragon can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Sonic Boom",
+      "text": "The dragon uses Spellcasting to cast _Shatter_. The dragon can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Tail Swipe",
+      "text": "The dragon makes one Rend attack."
+    }
+  ],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

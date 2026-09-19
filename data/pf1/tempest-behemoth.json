@@ -1,0 +1,122 @@
+{
+  "name": "Tempest Behemoth",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Colossal",
+  "type": "magical beast",
+  "subtype": "air, behemoth",
+  "alignment": "N",
+  "cr": "22",
+  "level": null,
+  "xp": 614400,
+  "ac": {
+    "value": 40,
+    "notes": "dex +5, dodge +1, natural +32, size -8",
+    "touch": 8,
+    "flatFooted": 34
+  },
+  "hp": {
+    "average": 445,
+    "formula": "33d10+264"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (good)"
+  },
+  "abilities": {
+    "str": 43,
+    "dex": 21,
+    "con": 26,
+    "int": 3,
+    "wis": 16,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +26, Ref +23, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +29, Perception +31, Stealth -7, Survival +15",
+    "list": {
+      "Fly": "+29",
+      "Perception": "+31",
+      "Stealth": "-7",
+      "Survival": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision"
+  ],
+  "passivePerception": 41,
+  "languages": [],
+  "initiative": "+9",
+  "babOrProficiency": 33,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Flyby Attack",
+    "Greater Vital Strike",
+    "Hover",
+    "Improved Critical (feathers)",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Lightning Stance",
+    "Mobility",
+    "Power Attack",
+    "Snatch",
+    "Vital Strike",
+    "Weapon Focus (feathers)",
+    "Wind Stance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +41 (4d6+16/19-20 plus bleed), 2 talons +41 (2d8+16 plus bleed), wings +36 (8d8+8)"
+    },
+    {
+      "name": "Ranged",
+      "text": "6 scales +31 (1d10+16/19-20 plus bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Three pairs of wings beat rhythmically, churning up hurricane-force winds around this vast, birdlike monstrosity.",
+  "meta": {
+    "cmb": "+57",
+    "cmd": 73,
+    "racialModifiers": [
+      "Fly 20",
+      "Perception 10"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any air"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

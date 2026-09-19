@@ -1,0 +1,98 @@
+{
+  "name": "Guardian Naga",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 243.",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "LG",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 31,
+    "notes": ""
+  },
+  "hp": {
+    "average": 175,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 22,
+    "con": 20,
+    "int": 16,
+    "wis": 20,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +20, Ref +21, Will +22",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +22 (1d20+22); __Deception__: +18 (1d20+18); __Diplomacy__: +21 (1d20+21); __Stealth__: +20 (1d20+20); __Heaven lore__: +21 (1d20+21); ",
+    "list": {
+      "Acrobatics": "+22",
+      "Deception": "+18",
+      "Diplomacy": "+21",
+      "Stealth": "+20",
+      "Heaven lore": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Celestial",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Guardian Naga Venom",
+      "text": "(poison); Saving Throw DC 29 Fortitude. Maximum Duration 6 rounds Stage 1 3d6 (3d6) poison (1 round) Stage 2 3d6 (3d6) poison and drained 1 (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +22 (agile, finesse); Damage 2d8+8 (2d8+8) piercing plus guardian naga venom"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ spit +22 (agile, poison, range increment 30 feet); Damage guardian naga venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      6,
+      5,
+      3,
+      5,
+      4
+    ]
+  }
+}

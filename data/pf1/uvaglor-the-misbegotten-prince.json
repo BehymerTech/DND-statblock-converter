@@ -1,0 +1,107 @@
+{
+  "name": "Uvaglor, the Misbegotten Prince",
+  "sourceSystem": "pf1",
+  "source": "Demons Revisited",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 34,
+    "notes": "armor +10, dex +2, natural +13, size -1",
+    "touch": 11,
+    "flatFooted": 32
+  },
+  "hp": {
+    "average": 371,
+    "formula": "9d10+15d8+255"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 50 ft. (average)"
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 21,
+    "con": 31,
+    "int": 18,
+    "wis": 22,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +21, Ref +20, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +28, Bluff +34, Fly +26, Knowledge (arcana) +31, Knowledge (religion) +31, Perception +41, Sense Motive +33, Spellcraft +25, Stealth +24",
+    "list": {
+      "Acrobatics": "+28",
+      "Bluff": "+34",
+      "Fly": "+26",
+      "Perception": "+41",
+      "Sense Motive": "+33",
+      "Spellcraft": "+25",
+      "Stealth": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 51,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Varisian",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+13",
+  "babOrProficiency": 20,
+  "feats": [
+    "Blinding Critical",
+    "Combat Reflexes",
+    "Craft Magic Arms and Armor",
+    "Critical Focus",
+    "Extend Spell",
+    "Greater Vital Strike",
+    "Improved Critical (longsword)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Power Attack",
+    "Quicken Spell",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+4 unholy longsword +34/+29/+24/+19 (2d6+15/17-20), bite +30 (1d8+5), claw +30 (2d6+5), 2 talons +30 (1d6+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This vulture-headed demon has crimson wings and a baleful third eye in his forehead. He is clad in lengths of chain and metal plates, and carries a cruel-looking sword in one hand and a glowing sphere of violet crystal in the other.",
+  "meta": {
+    "race": "Male",
+    "class": "advanced vrock oracle 15 (Pathfinder RPG Bestiary 69)",
+    "cmb": "+32",
+    "cmd": 47
+  }
+}

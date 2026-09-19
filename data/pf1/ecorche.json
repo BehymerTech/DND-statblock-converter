@@ -1,0 +1,108 @@
+{
+  "name": "Ecorche",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Large",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 30,
+    "notes": "dex +5, natural +16, size -1",
+    "touch": 14,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 209,
+    "formula": "22d8+110"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 20,
+    "con": "None",
+    "int": 9,
+    "wis": 11,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +12, Ref +12, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Disguise +30, Perception +25, Stealth +26",
+    "list": {
+      "Disguise": "+30",
+      "Perception": "+25",
+      "Stealth": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 16,
+  "feats": [
+    "Awesome Blow",
+    "Blinding Critical",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Improved Bull Rush",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack",
+    "Stand Still",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +27 (3d6+11/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This brawny creature has had its skin completely flensed from its form, revealing the violent pulsing of its massive, exposed muscles.",
+  "meta": {
+    "cmb": "+28",
+    "cmd": 43,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or gang (2-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

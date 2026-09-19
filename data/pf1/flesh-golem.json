@@ -1,0 +1,93 @@
+{
+  "name": "Flesh Golem",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "dex -1, natural +12, size -1",
+    "touch": 8,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 79,
+    "formula": "9d10+30"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 9,
+    "con": "None",
+    "int": "None",
+    "wis": 11,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +3, Ref +2, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [
+    "none"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 9,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +13 (2d8+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A hideous monstrosity crafted from body parts stitched together with thick string, wire, and metal staples lurches to horrific life.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": 24,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or gang (2-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

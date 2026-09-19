@@ -1,0 +1,106 @@
+{
+  "name": "Draugr Captain",
+  "sourceSystem": "pf1",
+  "source": "Isles of the Shackles",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "water",
+  "alignment": "CE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 20,
+    "notes": "armor +2, dex +4, natural +4",
+    "touch": 14,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 39,
+    "formula": "3d8+2d8+17"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 18,
+    "con": "None",
+    "int": 14,
+    "wis": 16,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +4, Ref +8, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +12, Bluff +9, Climb +15, Intimidate +11, Perception +11, Profession (sailor) +11, Stealth +12, Swim +23",
+    "list": {
+      "Acrobatics": "+12",
+      "Bluff": "+9",
+      "Climb": "+15",
+      "Intimidate": "+11",
+      "Perception": "+11",
+      "Stealth": "+12",
+      "Swim": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common (cannot speak)"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 3,
+  "feats": [
+    "Combat Reflexes",
+    "Power Attack",
+    "Weapon Focus (scimitar)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk scimitar +12 (1d6+10/18-20 plus 1 negative level)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Draugr",
+    "class": "captain rogue 2 (Pathfinder RPG Bestiary 2 110)",
+    "cmb": "+10",
+    "cmd": 24,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans or coastlines"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (leather armor, masterwork scimitar, other treasure)"
+      }
+    ]
+  }
+}

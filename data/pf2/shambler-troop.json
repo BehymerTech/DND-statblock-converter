@@ -1,0 +1,100 @@
+{
+  "name": "Shambler Troop",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 302.",
+  "size": "Gargantuan",
+  "type": "Zombie",
+  "subtype": "Mindless, Troop, Undead",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 90,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet; troop movement;"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 10,
+    "con": 16,
+    "int": 0,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +11, Ref +8, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Skills",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Slow",
+      "text": "A shambler troop is permanently slowed 1 and can't use reactions."
+    },
+    {
+      "name": "Troop Defenses",
+      "text": "(page 306);"
+    },
+    {
+      "name": "Shambling Onslaught",
+      "text": "⬻ to ⬺ Frequency once per round Effect The shamblers lash out at any enemies in their squares or within 5 feet (DC 18 basic Reflex save). The damage depends on the number of actions. ⬻ 2d6+5 (2d6+5) bludgeoning damage ⬺ 2d6+9 (2d6+9) bludgeoning damage."
+    },
+    {
+      "name": "Grave Tide",
+      "text": "The shambler troop is less organized than most troops. It can move into other creatures' spaces, and other creatures can move into its spaces. Its spaces are difficult terrain to other creatures."
+    },
+    {
+      "name": "Form Up",
+      "text": "⬻"
+    },
+    {
+      "name": "Troop Movement",
+      "text": "Whenever a troop Strides, it first Forms Up as a free action to condense into a 20-foot-by –20-foot area (minus any missing squares), then moves up to its Speed. This works just like a Gargantuan creature moving; for instance, if any square of the troop enters difficult terrain, the extra movement cost applies to the whole troop."
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      0,
+      3,
+      -5,
+      1,
+      -2
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "name": "Dryad",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CG",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 17,
+    "notes": "dex +4, natural +3",
+    "touch": 14,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 27,
+    "formula": "6d6+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 19,
+    "con": 13,
+    "int": 14,
+    "wis": 15,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +5, Ref +9, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +9, Craft (sculpture) +11, Escape Artist +15, Handle Animal +10, Knowledge (nature) +11, Perception +11, Stealth +15, Survival +8",
+    "list": {
+      "Climb": "+9",
+      "Escape Artist": "+15",
+      "Handle Animal": "+10",
+      "Perception": "+11",
+      "Stealth": "+15",
+      "Survival": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common",
+    "Elven",
+    "Sylvan",
+    "speak with plants"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 3,
+  "feats": [
+    "Great Fortitude",
+    "Stealthy",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +7 (1d4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "masterwork longbow +8 (1d8)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This strange, beautiful woman has flesh that seems made of wood and vibrant hair that resembles leaves and blossoms.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": 17,
+    "racialModifiers": [
+      "Craft (wood) 6"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or grove (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (dagger, masterwork longbow with 20 arrows, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Ancient Umbral Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Gargantuan",
+  "type": "dragon",
+  "subtype": "extraplanar",
+  "alignment": "CE",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 38,
+    "notes": "dex -1, natural +33, size -4",
+    "touch": 5,
+    "flatFooted": 38
+  },
+  "hp": {
+    "average": 337,
+    "formula": "25d12+175"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 250 ft. (clumsy)"
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 8,
+    "con": 25,
+    "int": 24,
+    "wis": 25,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +21, Ref +13, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +35, Bluff +35, Diplomacy +35, Fly +13, Knowledge (arcana) +35, Knowledge (local) +35, Knowledge (planes) +35, Knowledge (religion) +35, Perception +35, Sense Motive +35, Spellcraft +35, Stealth +21, Survival +35",
+    "list": {
+      "Appraise": "+35",
+      "Bluff": "+35",
+      "Diplomacy": "+35",
+      "Fly": "+13",
+      "Perception": "+35",
+      "Sense Motive": "+35",
+      "Spellcraft": "+35",
+      "Stealth": "+21",
+      "Survival": "+35"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 45,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Draconic",
+    "Undercommon",
+    "4 more"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 25,
+  "feats": [
+    "Bleeding Critical",
+    "Critical Focus",
+    "Flyby Attack",
+    "Greater Vital Strike",
+    "Hover",
+    "Imp. Critical (bite)",
+    "Imp. Initiative",
+    "Imp. Vital Strike",
+    "Multiattack",
+    "Power Attack",
+    "Skill Focus (Stealth)",
+    "Snatch",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +33 (4d6+18/19-20), 2 claws +33 (2d8+12), tail slap +31 (2d8+18), 2 wings +31 (2d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+41",
+    "cmd": "50 (54 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

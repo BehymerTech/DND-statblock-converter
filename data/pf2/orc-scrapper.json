@@ -1,0 +1,100 @@
+{
+  "name": "Orc Scrapper",
+  "sourceSystem": "pf2",
+  "source": "_Troubles In Otari_.",
+  "size": "Medium",
+  "type": "Orc",
+  "subtype": "Humanoid",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 0",
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 15,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 16,
+    "int": 8,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +6, Ref +4, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +5 (1d20+5); __Intimidation__: +2 (1d20+2); ",
+    "list": {
+      "Athletics": "+5",
+      "Intimidation": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 15,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Ferocity",
+      "text": "⬲ When the orc is reduced to 0 Hit Points, they can use their reaction to remain conscious with 1 Hit Point, but they gain the wounded 1 condition (or increases the wounded value by 1 if they already have that condition). The orc can't use this ability at wounded 3."
+    },
+    {
+      "name": "Stride",
+      "text": "⬻ 25 feet"
+    },
+    {
+      "name": "Melee Strike",
+      "text": "⬻ (sweep); Damage 1d8+3 (1d8+3) piercing Melee Strike ⬻ fist +7 (agile, nonlethal), Damage 1d4+3 (1d4+3) bludgeoning"
+    },
+    {
+      "name": "Ranged Strike",
+      "text": "⬻ (thrown 30 feet); Damage 1d6+3 (1d6+3) piercing"
+    },
+    {
+      "name": "Items",
+      "text": "battle axe (2), hide armor, javelin (3);"
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      2,
+      3,
+      -1,
+      1,
+      0
+    ],
+    "items": "battle axe (2), hide armor, javelin (3);"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Hobgoblin",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Goblinoid",
+  "alignment": "Usually lawful evil",
+  "cr": "1/2",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "+1 Dex, +3 studded leather, +1 light shield",
+    "touch": 11,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 6,
+    "formula": "1d8+2"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares)"
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 13,
+    "con": 14,
+    "int": 10,
+    "wis": 9,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +4, Ref +1, Will -1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Hide +3, Listen +2, Move Silently +3, Spot +2;",
+    "list": {
+      "Hide": "+3",
+      "Listen": "+2",
+      "Move Silently": "+3",
+      "Spot": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 1,
+  "feats": [
+    "Alertness"
+  ],
+  "traits": [
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Longsword +2 melee (1d8+1/19-20) or javelin +2 ranged (1d6+1)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Longsword +2 melee (1d8+1/19-20) or javelin +2 ranged (1d6+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Hobgoblins are larger cousins of goblins. Hobgoblins' hair color ranges from dark reddish-brown to dark gray. They have dark orange or red-orange skin. Large males have blue or red noses. Hobgoblins' eyes are yellowish or dark brown, while their teeth are yellow. Their garments tend to be brightly colored, often blood red with black-tinted leather. Their weaponry is kept polished and in good repair. Hobgoblins speak Goblin and Common. Most hobgoblins encountered outside their homes are warriors; the information in the statistics block is for one of 1st level.",
+    "grapple": "+2",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Warm hills",
+    "organization": "Gang (4-9), band (10-100 plus 50% noncombatants plus 1 3rd-level sergeant per 20 adults and 1 leader of 4th-6th level), warband (10-24), or tribe (30-300 plus 50% noncombatants plus 1 3rd-level sergeant per 20 adults, 1 or 2 lieutenants of 4th or 5th level, 1 leader of 6th-8th level, 2-4 dire wolves, and 1-4 ogres or 1-2 trolls)",
+    "treasure": "Standard",
+    "advancement": "By character class",
+    "leveladjustment": "+1"
+  }
+}

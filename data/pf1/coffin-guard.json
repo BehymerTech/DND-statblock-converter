@@ -1,0 +1,103 @@
+{
+  "name": "Coffin Guard",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "alignment": "NE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 18,
+    "notes": "armor +4, dex +4",
+    "touch": 14,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 38,
+    "formula": "4d10+12"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 18,
+    "con": 12,
+    "int": 12,
+    "wis": 13,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +5, Ref +8, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +6, Knowledge (geography) +8, Knowledge (local) +5, Perception +10, Sense Motive +5, Stealth +10, Survival +8",
+    "list": {
+      "Intimidate": "+6",
+      "Perception": "+10",
+      "Sense Motive": "+5",
+      "Stealth": "+10",
+      "Survival": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Elven"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 4,
+  "feats": [
+    "Endurance",
+    "Toughness",
+    "Two-Weapon Fighting",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk rapier +7 (1d6+1/18-20), mwk rapier +7 (1d6/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite longbow +9 (1d8+2/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Elf",
+    "class": "ranger 4",
+    "cmb": "+5",
+    "cmd": 19,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      }
+    ]
+  }
+}

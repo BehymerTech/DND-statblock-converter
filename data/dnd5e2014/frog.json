@@ -1,0 +1,78 @@
+{
+  "name": "Frog",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Tiny",
+  "type": "beast",
+  "subtype": "",
+  "alignment": "unaligned",
+  "cr": "0",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 11,
+    "notes": ""
+  },
+  "hp": {
+    "average": 1,
+    "formula": "1d4 - 1"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": 20,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 1,
+    "dex": 13,
+    "con": 8,
+    "int": 1,
+    "wis": 8,
+    "cha": 3
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +1, Stealth +3",
+    "list": {
+      "perception": "+1",
+      "stealth": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 30 ft."
+  ],
+  "passivePerception": 11,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The frog can breathe air and water."
+    },
+    {
+      "name": "Standing Leap",
+      "text": "The frog's long jump is up to 10 feet and its high jump is up to 5 feet, with or without a running start."
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

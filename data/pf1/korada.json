@@ -1,0 +1,134 @@
+{
+  "name": "Korada",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "agathion, extraplanar, good",
+  "alignment": "NG",
+  "cr": "26",
+  "level": null,
+  "xp": 2457600,
+  "ac": {
+    "value": 45,
+    "notes": "dex +10, dodge +1, insight +2, natural +13, size -1, sacred +6, wis +12",
+    "touch": 40,
+    "flatFooted": 36
+  },
+  "hp": {
+    "average": 528,
+    "formula": "32d10+352"
+  },
+  "speed": {
+    "walk": 90,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "90 ft., fly 60 ft. (average), climb 30 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 30,
+    "con": 33,
+    "int": 25,
+    "wis": 35,
+    "cha": 38
+  },
+  "saves": {
+    "text": "Fort +21, Ref +30, Will +30",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +44, Bluff +32, Climb +50, Diplomacy +45, Disguise +32, Escape Artist +26, Fly +8, Heal +27, Knowledge (arcana) +23, Knowledge (geography) +23, Knowledge (history) +23, Knowledge (nature) +23, Knowledge (local) +22, Knowledge (planes) +41, Knowledge (religion) +41, Perception +46, Sense Motive +46, Spellcraft +22, Stealth +40",
+    "list": {
+      "Acrobatics": "+44",
+      "Bluff": "+32",
+      "Climb": "+50",
+      "Diplomacy": "+45",
+      "Disguise": "+32",
+      "Escape Artist": "+26",
+      "Fly": "+8",
+      "Heal": "+27",
+      "Perception": "+46",
+      "Sense Motive": "+46",
+      "Spellcraft": "+22",
+      "Stealth": "+40"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "detect evil",
+    "detect thoughts",
+    "low-light vision"
+  ],
+  "passivePerception": 56,
+  "languages": [
+    "Celestial",
+    "Infernal",
+    "speak with animals",
+    "truespeech"
+  ],
+  "initiative": "+22",
+  "babOrProficiency": 32,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Dodge",
+    "Greater Trip",
+    "Improved Disarm",
+    "Improved Grapple",
+    "Improved Initiative",
+    "Improved Trip",
+    "Improved Unarmed Strike",
+    "Lunge",
+    "Mobility",
+    "Quicken Spell-Like Ability (mirror image)",
+    "Scorpion Style",
+    "Snatch Arrows",
+    "Spring Attack",
+    "Step Up",
+    "Stunning Fist",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "unarmed strike +31/+36/+31/+26 (2d10+8)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This serene, acrobatic man has stiff sideburns, a beard like a monkey, and three golden-furred tails.",
+  "meta": {
+    "cmb": "41 (+43 disarm or grapple, +45 trip)",
+    "cmd": "84 (86 vs. disarm, grapple, or trip)",
+    "racialModifiers": [
+      "Acrobatics 24"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forests or mountains (Nirvana)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "unique"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+5 quarterstaff, other treasure)"
+      }
+    ]
+  }
+}

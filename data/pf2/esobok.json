@@ -1,0 +1,109 @@
+{
+  "name": "Esobok",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 208.",
+  "size": "Medium",
+  "type": "Psychopomp",
+  "subtype": "Monitor",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 55,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 18,
+    "int": 4,
+    "wis": 16,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +11, Ref +8, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Athletics__: +10 (1d20+10); __Intimidation__: +9 (1d20+9); __Religion__: +4 (1d20+4); __Stealth__: +8 (1d20+8); __Survival__: +10 (1d20+10); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Athletics": "+10",
+      "Intimidation": "+9",
+      "Religion": "+4",
+      "Stealth": "+8",
+      "Survival": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, lifesense 60, imprecise scent 60"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Infernal",
+    "Requian"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Pounce",
+      "text": "⬻ The esobok Strides and then makes a Strike. If it began this action hidden, it remains hidden until after the Strike."
+    },
+    {
+      "name": "Spirit Touch",
+      "text": "An esobok's Strikes affect incorporeal creatures with the effects of a ghost touch property rune and deal 1d6 (1d6) negative damage to living creatures and 1d6 (1d6) positive damage to undead."
+    },
+    {
+      "name": "Wrench Spirit",
+      "text": "⬻ (attack, divine, incapacitation, necromancy); Requirement A creature is grabbed by the esobok's jaws; The esobok releases the target from the Grab but wrenches its spirit free as it does so. The creature must attempt a DC 20 Will save. Creatures without souls (such as most constructs) and creatures whose bodies and souls are one (such as most celestials, fiends, and monitors) that roll a failure or critical failure on the save get a success instead. Critical Success The creature is unaffected. Success The target is stunned 1. Failure The esobok wrenches the target's soul from its body into its jaws. Mindless undead creatures of level 2 or lower are destroyed, other undead creatures are stunned for 1 round, and all other creatures are paralyzed. At the end of each of its turns, a creature paralyzed by this effect can attempt a new save to end the effect. The paralysis ends automatically if the esobok attempts a jaws Strike or speaks. Critical Failure As failure, but as long as a creature is stunned or paralyzed, it is also stupefied 2."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +12 (magical); Damage 1d10+3 (1d10+3) piercing plus Grab and spirit touch"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +12 (agile, magical); Damage 1d6+3 (1d6+3) slashing plus spirit touch"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      3,
+      4,
+      -3,
+      3,
+      2
+    ]
+  }
+}

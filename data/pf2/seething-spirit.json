@@ -1,0 +1,106 @@
+{
+  "name": "Seething Spirit",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 228.",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "Incorporeal, Spirit",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 11",
+  "xp": null,
+  "ac": {
+    "value": 29,
+    "notes": ""
+  },
+  "hp": {
+    "average": 145,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 40 feet"
+  },
+  "abilities": {
+    "str": 0,
+    "dex": 22,
+    "con": 10,
+    "int": 14,
+    "wis": 6,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +17, Ref +23, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +21 (1d20+21); __Deception__: +20 (1d20+20); __Intimidation__: +24 (1d20+24); __Stealth__: +21 (1d20+21); ",
+    "list": {
+      "Acrobatics": "+21",
+      "Deception": "+20",
+      "Intimidation": "+24",
+      "Stealth": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tastes anger 1 mile"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Jotun; tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Taste Anger",
+      "text": "(detection, divination, occult); The spirit can taste anger and hatred from creatures experiencing those emotions within 1 mile (imprecise)."
+    },
+    {
+      "name": "Pulse of Rage",
+      "text": "(aura, emotion, enchantment, mental, occult); 20 feet. This aura emanates from any creature possessed by the seething spirit, and it's inactive while the spirit isn't possessing anyone. Any creature in the aura, including a creature possessed by the spirit, takes a –1 status penalty to AC, can't perform actions with the concentrate trait except for the Seek action and actions with the rage trait, and gains a +2 status bonus to melee damage rolls against the spirit's enemies. A creature can attempt a DC 30 Will save when it enters the aura to avoid the effect. If the creature would need to attempt a save against the aura again within 24 hours, it automatically uses the same save result rather than attempting a new save."
+    },
+    {
+      "name": "Vulnerable to Calm Emotions",
+      "text": "A seething spirit can't attempt to possess a creature affected by calm emotions. If creature possessed by a seething spirit fails a saving throw against calm emotions, the spirit is forced out. If the spirit isn't possessing a creature and is targeted with calm emotions, the spirit takes 12 mental damage per level of the spell instead of the normal spell effects."
+    },
+    {
+      "name": "Furious Possession",
+      "text": "⬺ The seething spirit attempts to possess an adjacent corporeal creature. This has the same effect as a possession spell (DC 30), except since the spirit doesn't have a physical body, they're not unconscious and paralyzed when the effect ends. The spirit can't Dismiss the possession. The creature gains 12 temporary Hit Points that are lost when the possession ends. During the possession, the creature has the pulse of rage aura. Each time the possessed creature makes a melee Strike, the spirit can substitute their ephemeral claw attack modifier, damage amount, or both in place of the creature's own statistics."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ ephemeral claw +22 (evocation, occult); Damage 3d12+7 (3d12+7) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -5,
+      6,
+      0,
+      2,
+      -2,
+      7
+    ]
+  }
+}

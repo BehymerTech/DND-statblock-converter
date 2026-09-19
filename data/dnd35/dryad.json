@@ -1,0 +1,106 @@
+{
+  "name": "Dryad",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "",
+  "alignment": "Usually chaotic good",
+  "cr": "3",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": "+4 Dex, +3 natural",
+    "touch": 14,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 14,
+    "formula": "4d6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares)"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 19,
+    "con": 11,
+    "int": 14,
+    "wis": 15,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +3, Ref +8, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Escape Artist +11, Handle Animal +11, Hide +11, Knowledge (nature) +11, Listen +9, Move Silently +11, Ride +6, Spot +9, Survival +9, Use Rope +4 (+6 With Bindings);",
+    "list": {
+      "Escape Artist": "+11",
+      "Handle Animal": "+11",
+      "Hide": "+11",
+      "Listen": "+9",
+      "Move Silently": "+11",
+      "Ride": "+6",
+      "Spot": "+9",
+      "Survival": "+9",
+      "Use Rope": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 2,
+  "feats": [
+    "Great Fortitude",
+    "Weapon Finesse"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Spell-like abilities"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 5/cold iron, tree dependent, wild empathy"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Dagger +6 melee (1d4/19-20) or masterwork longbow +7 ranged (1d8/x3)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Dagger +6 melee (1d4/19-20) or masterwork longbow +7 ranged (1d8/x3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A dryad's delicate features are much like a female elf 's, though her flesh is like bark or fine wood, and her hair is like a canopy of leaves that changes color with the seasons.",
+    "grapple": "+2",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Temperate forests",
+    "organization": "Solitary or grove (4-7)",
+    "treasure": "Standard",
+    "advancement": "By character class",
+    "leveladjustment": "---"
+  }
+}

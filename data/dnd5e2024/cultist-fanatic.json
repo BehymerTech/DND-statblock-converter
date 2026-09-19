@@ -1,0 +1,84 @@
+{
+  "name": "Cultist Fanatic",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "or Small Humanoid",
+  "subtype": "",
+  "alignment": "Neutral",
+  "cr": "2",
+  "level": null,
+  "xp": 450,
+  "ac": {
+    "value": 13,
+    "notes": ""
+  },
+  "hp": {
+    "average": 44,
+    "formula": "8d8 + 8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 13
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Deception +3, Persuasion +3, Religion +2",
+    "list": {
+      "Deception": "+3",
+      "Persuasion": "+3",
+      "Religion": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 12,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+2 (12)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Pact Blade",
+      "text": "_Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 6 (1d8 + 2) Slashing damage plus 7 (2d6) Necrotic damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The cultist casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 12, +4 to hit with spell attacks): <br> &emsp;**At Will:** _Light_, _Thaumaturgy_ <br> &emsp;**2/Day:** _Command_ <br> &emsp;**1/Day:** _Hold Person_"
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Spiritual Weapon (2/Day)",
+      "text": "The cultist casts the _Spiritual Weapon_ spell, using the same spellcasting ability as Spellcasting. ## Darkmantle"
+    }
+  ],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

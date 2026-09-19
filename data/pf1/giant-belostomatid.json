@@ -1,0 +1,99 @@
+{
+  "name": "Giant Belostomatid",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Large",
+  "type": "vermin",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex +1, natural +5, size -1",
+    "touch": 10,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d8+12"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 20 ft. (poor), swim 40 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 13,
+    "con": 16,
+    "int": "None",
+    "wis": 11,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +7, Ref +2, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly -5, Stealth -3, Swim +10, Perception +0",
+    "list": {
+      "Fly": "-5",
+      "Stealth": "-3",
+      "Swim": "+10",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 10,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 3,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +4 (1d6+2 plus digestive enzyme), 2 claws +4 (1d4+2 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Six powerful legs, each ending in a hooked claw, jut from the shield-like body of this horse-sized insect.",
+  "meta": {
+    "cmb": "6 (+10 grapple)",
+    "cmd": "17 (25 vs. trip)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate lakes, rivers, or swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

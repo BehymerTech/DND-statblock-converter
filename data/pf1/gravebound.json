@@ -1,0 +1,101 @@
+{
+  "name": "Gravebound",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "earth",
+  "alignment": "NE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +1, natural +6",
+    "touch": 11,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 37,
+    "formula": "5d8+15"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 13,
+    "con": "None",
+    "int": 11,
+    "wis": 12,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +4, Ref +2, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +5, Intimidate +10, Knowledge (religion) +7, Perception +8, Stealth +8",
+    "list": {
+      "Acrobatics": "+5",
+      "Intimidate": "+10",
+      "Perception": "+8",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 3,
+  "feats": [
+    "Ability Focus (gravedigger)",
+    "Improved Initiative",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +8 (1d6+4 plus disease)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This humanoid figure has two impossibly deep pits where its eyes should be, and long claws that stretch toward the ground.",
+  "meta": {
+    "cmb": "+7",
+    "cmd": 18,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land (graveyards)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or tomb (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (shovel, other treasure)"
+      }
+    ]
+  }
+}

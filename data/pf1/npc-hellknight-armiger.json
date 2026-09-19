@@ -1,0 +1,90 @@
+{
+  "name": "NPC Hellknight Armiger",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, orc",
+  "alignment": "LN",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 19,
+    "notes": "armor +8, dex +1",
+    "touch": 11,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 27,
+    "formula": "3d10+6"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 13,
+    "con": 14,
+    "int": 8,
+    "wis": 12,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +5, Ref +2, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +10, Knowledge (planes) +1, Sense Motive +3, Perception +1",
+    "list": {
+      "Intimidate": "+10",
+      "Sense Motive": "+3",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 11,
+  "languages": [
+    "Common",
+    "Orc"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 3,
+  "feats": [
+    "Furious Focus",
+    "Intimidating Prowess",
+    "Power Attack",
+    "Weapon Focus (glaive)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk alchemical silver glaive +7 (1d10+2/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-orc",
+    "class": "fighter 3",
+    "cmb": "+5",
+    "cmd": 16
+  }
+}

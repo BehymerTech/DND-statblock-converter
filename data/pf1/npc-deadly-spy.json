@@ -1,0 +1,105 @@
+{
+  "name": "NPC Deadly Spy",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "alignment": "CN",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 19,
+    "notes": "armor +5, dex +4",
+    "touch": 14,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 53,
+    "formula": "9d8+9"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 12,
+    "int": 14,
+    "wis": 8,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +4, Ref +10, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +16, Bluff +16, Diplomacy +14, Disable Device +16, Disguise +16, Escape Artist +16, Knowledge (local) +14, Perception +13, Sense Motive +11, Sleight of Hand +16, Stealth +16",
+    "list": {
+      "Acrobatics": "+16",
+      "Bluff": "+16",
+      "Diplomacy": "+14",
+      "Disable Device": "+16",
+      "Disguise": "+16",
+      "Escape Artist": "+16",
+      "Perception": "+13",
+      "Sense Motive": "+11",
+      "Sleight of Hand": "+16",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Elven"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 6,
+  "feats": [
+    "Agile Maneuvers",
+    "Combat Expertise",
+    "Deceitful",
+    "Greater Disarm",
+    "Improved Disarm",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 rapier +11/+6 (1d6+1/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +10/+5 (1d4/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Elf",
+    "class": "rogue 9",
+    "cmb": "10 (+14 disarm)",
+    "cmd": "20 (22 vs. disarm)"
+  }
+}

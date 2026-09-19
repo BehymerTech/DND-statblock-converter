@@ -1,0 +1,96 @@
+{
+  "name": "Giant Wasp",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 324.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 45,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 18,
+    "con": 18,
+    "int": 0,
+    "wis": 12,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +9, Ref +11, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +11 (1d20+11); __Athletics__: +9 (1d20+9); ",
+    "list": {
+      "Acrobatics": "+11",
+      "Athletics": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Implant Eggs",
+      "text": "⬻ The giant wasp lays eggs in an adjacent creature that is paralyzed or unconscious, exposing it to the wasp larva disease."
+    },
+    {
+      "name": "Giant Wasp Venom",
+      "text": "(incapacitation, poison); Saving Throw DC 19 Fortitude. Maximum Duration 6 rounds Stage 1 no effect (1 round) Stage 2 clumsy 2 (1 round) Stage 3 paralyzed (1 round)"
+    },
+    {
+      "name": "Wasp Larva",
+      "text": "(disease); Saving Throw DC 21 Fortitude. Stage 1 carrier with no ill effect (1d6 (1d6) days) Stage 2 drained 1 (1d3 (1d3) days) Stage 3 5d6 (5d6) damage, larva emerges (disease ends)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ stinger +12 (poison); Damage 1d12+4 (1d12+4) piercing plus giant wasp venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      4,
+      4,
+      -5,
+      1,
+      1
+    ]
+  }
+}

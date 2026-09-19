@@ -1,0 +1,109 @@
+{
+  "name": "Witchcrow",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 67: The Snows of Summer, Bestiary 5",
+  "size": "Tiny",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, size +2",
+    "touch": 14,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 13,
+    "formula": "3d10-3"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 50 ft. (good)"
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 15,
+    "con": 8,
+    "int": 13,
+    "wis": 12,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +2, Ref +5, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +15, Knowledge (arcana) +2, Perception +6, Sleight of Hand +11, Spellcraft +3, Stealth +14",
+    "list": {
+      "Fly": "+15",
+      "Perception": "+6",
+      "Sleight of Hand": "+11",
+      "Spellcraft": "+3",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect magic",
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Aklo",
+    "Common",
+    "speak with animals (birds only)"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 3,
+  "feats": [
+    "Combat Expertise",
+    "Flyby Attack",
+    "Improved Steal"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 talons +4 (1d3-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "With a raucous cry and a flurry of feathered wings, this jet-black bird takes to the air, an unnatural gleam in its otherworldly eyes.",
+  "meta": {
+    "cmb": "3 (+5 steal)",
+    "cmd": "12 (14 vs. steal)",
+    "racialModifiers": [
+      "Sleight of Hand 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold and temperate forests and plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, covey (3-12), or murder (13-30)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

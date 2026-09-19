@@ -1,0 +1,108 @@
+{
+  "name": "Chernobue",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 214.",
+  "size": "Large",
+  "type": "Qlippoth",
+  "subtype": "Fiend",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 12",
+  "xp": null,
+  "ac": {
+    "value": 33,
+    "notes": ""
+  },
+  "hp": {
+    "average": 220,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet; air walk;"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 18,
+    "con": 20,
+    "int": 18,
+    "wis": 24,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +23, Ref +18, Will +25",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +22 (1d20+22); __Athletics__: +25 (1d20+25); __Intimidation__: +25 (1d20+25); __Occultism__: +22 (1d20+22); ",
+    "list": {
+      "Acrobatics": "+22",
+      "Athletics": "+25",
+      "Intimidation": "+25",
+      "Occultism": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Abyssal; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Aura of Order's Ruin",
+      "text": "(aura, necromancy, occult); 30 feet. A lawful or good creature that begins its turn in this aura's emanation must attempt a DC 29 Will save or become sickened 1 (lawful good creatures instead become sickened 2) Boiled by Light A chernobue takes 2d10 (2d10) points of fire damage each time it starts its turn in an area of bright light."
+    },
+    {
+      "name": "Recall Venom",
+      "text": "⬲ Trigger A creature within 30 feet suffers the effects from stage 2 of rupturing venom Effect The chernobue calls out telepathically to the semi-alive toxin, causing it to burst out of the target's body and slither through the air to drain back into one of the chernobue's mouths. The poisoned creature takes 7d6 (7d6) bludgeoning damage (DC 32 basic Fortitude save) as the venom exits its body, but is thereafter cured of rupturing venom, and the chernobue regains an equal number of Hit Points."
+    },
+    {
+      "name": "Paralyzing Display",
+      "text": "⬺ (concentrate, emotion, enchantment, fear, incapacitation, mental, occult, visual); The chernobue's eye pulses and its lid peels back to reveal mind-bending awfulness. Creatures in a 30-foot emanation must attempt a DC 32 Will save, after which they are temporarily immune to further Paralyzing Displays for 1 minute. Critical Success The creature is unaffected. Success The creature is slowed 1 for 1 round. Failure The creature is paralyzed for 1d4 (1d4) rounds. It can attempt a new save to end the effect at the end of each of its turns. Critical Failure As failure, but paralyzed for 1 minute."
+    },
+    {
+      "name": "Rupturing Venom",
+      "text": "(poison); Saving Throw DC 32 Fortitude. Maximum Duration 6 rounds Stage 1 2d6 (2d6) poison and 2d6 (2d6) bludgeoning (1 round) Stage 2 2d6 (2d6) poison, 2d6 (2d6) bludgeoning, and enfeebled 2 (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +26 (chaotic, magical); Damage 3d10+13 (3d10+13) piercing plus 1d6 (1d6) chaotic and rupturing venom"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tentacle mouth +26 (agile, chaotic, magical, reach 15 feet); Damage 3d6+13 (3d6+13) piercing plus 1d6 (1d6) chaotic"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      4,
+      5,
+      4,
+      7,
+      5
+    ]
+  }
+}

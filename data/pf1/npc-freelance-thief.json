@@ -1,0 +1,100 @@
+{
+  "name": "NPC Freelance Thief",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "NE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "armor +4, dex +4, dodge +1",
+    "touch": 15,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 42,
+    "formula": "7d8+7"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 12,
+    "int": 13,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +4, Ref +10, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +14, Bluff +9, Climb +12, Diplomacy +9, Disable Device +14, Disguise +9, Knowledge (local) +11, Perception +10, Sense Motive +10, Sleight of Hand +14, Stealth +14",
+    "list": {
+      "Acrobatics": "+14",
+      "Bluff": "+9",
+      "Climb": "+12",
+      "Diplomacy": "+9",
+      "Disable Device": "+14",
+      "Disguise": "+9",
+      "Perception": "+10",
+      "Sense Motive": "+10",
+      "Sleight of Hand": "+14",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Halfling"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 5,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Mobility",
+    "Spring Attack",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 rapier +10 (1d6+3/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk light crossbow +10 (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "rogue 7",
+    "cmb": "+7",
+    "cmd": 22
+  }
+}

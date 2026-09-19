@@ -1,0 +1,108 @@
+{
+  "name": "Winter Wolf",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "cold",
+  "alignment": "NE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 17,
+    "notes": "dex +1, natural +7, size -1",
+    "touch": 10,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 57,
+    "formula": "6d10+24"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 13,
+    "con": 18,
+    "int": 9,
+    "wis": 13,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +6, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +11, Stealth +4, Survival +5",
+    "list": {
+      "Perception": "+11",
+      "Stealth": "+4",
+      "Survival": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 6,
+  "feats": [
+    "Improved Initiative",
+    "Run",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +10 (1d8+7 plus 1d6 cold and trip)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This bear-sized wolf has white fur and a rime of frost around its muzzle. Its eyes are pale blue, almost white in color.",
+  "meta": {
+    "cmb": "+12",
+    "cmd": "23 (27 vs. trip)",
+    "racialModifiers": [
+      "Perception 2",
+      "Stealth 2",
+      "Survival 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold forests and plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (6-11)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

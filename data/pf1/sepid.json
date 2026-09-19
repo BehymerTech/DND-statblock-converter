@@ -1,0 +1,117 @@
+{
+  "name": "Sepid",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Pathfinder No. 23: The Impossible Eye",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "div, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 32,
+    "notes": "dex +5, natural +18, size -1",
+    "touch": 14,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 202,
+    "formula": "15d10+120"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 20,
+    "con": 27,
+    "int": 19,
+    "wis": 19,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +13, Ref +16, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +24, Fly +15, Intimidate +24, Knowledge (arcana) +19, Knowledge (planes) +22, Knowledge (religion) +15, Perception +22, Sense Motive +20, Spellcraft +22, Stealth +19, Use Magic Device +24",
+    "list": {
+      "Bluff": "+24",
+      "Fly": "+15",
+      "Intimidate": "+24",
+      "Perception": "+22",
+      "Sense Motive": "+20",
+      "Spellcraft": "+22",
+      "Stealth": "+19",
+      "Use Magic Device": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 15,
+  "feats": [
+    "Cleave",
+    "Combat Reflexes",
+    "Deflect Arrows",
+    "Improved Critical (falchion)",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Weapon Focus (falchion)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 falchion +23/+18/+13 (2d6+11/15-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Twice the height of a human, this horned monstrous warrior wields a massive blade.",
+  "meta": {
+    "cmb": "+23",
+    "cmd": 38,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+1 falchion, other treasure)"
+      }
+    ]
+  }
+}

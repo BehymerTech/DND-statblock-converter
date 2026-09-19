@@ -1,0 +1,105 @@
+{
+  "name": "Giant Opossum",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 192.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 35,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, climb 20 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 16,
+    "int": 2,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +11, Ref +8, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +10 (1d20+10); __Stealth__: +8 (1d20+8); __Survival__: +6 (1d20+6); ",
+    "list": {
+      "Athletics": "+10",
+      "Stealth": "+8",
+      "Survival": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 18,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Feign Death",
+      "text": "⬲ Trigger The opossum is reduced below 15 HP Effect The opossum collapses. It is flat-footed and can use actions that require only its mind, but any other action ends the ruse. A successful DC 18 Perception check to Seek or Medicine check to Recall Knowledge is required to determine that the animal is not, in fact, dead."
+    },
+    {
+      "name": "Revived Retaliation",
+      "text": "⬲ Trigger The opossum is attacked or disturbed by a creature within reach while Feigning Death Effect The opossum Strikes the triggering creature."
+    },
+    {
+      "name": "Grasping Tail",
+      "text": "A giant opossum can drag a Small or Tiny creature it has grabbed with its tail along with it when it Strides."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +10 (deadly d10); Damage 1d10+4 (1d10+4) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +10 (agile); Damage 1d6+4 (1d6+4) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +10 (reach 15 feet); Damage 1d4+4 (1d4+4) bludgeoning plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      3,
+      -4,
+      2,
+      0
+    ]
+  }
+}

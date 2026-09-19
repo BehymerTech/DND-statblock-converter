@@ -1,0 +1,113 @@
+{
+  "name": "Pelagastr",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Pathfinder No. 99: Dance of the Damned",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "chaotic, extraplanar, incorporeal, protean, shapechanger",
+  "alignment": "CN",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 20,
+    "notes": "deflection +4, dex +6",
+    "touch": 20,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 105,
+    "formula": "10d10+50"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 30 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 23,
+    "con": 21,
+    "int": 16,
+    "wis": 16,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +10, Ref +13, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +19, Bluff +23, Diplomacy +17, Fly +27, Knowledge (planes) +16, Perception +16, Perform (sing) +17, Sense Motive +16, Stealth +19",
+    "list": {
+      "Acrobatics": "+19",
+      "Bluff": "+23",
+      "Diplomacy": "+17",
+      "Fly": "+27",
+      "Perception": "+16",
+      "Sense Motive": "+16",
+      "Stealth": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision",
+    "detect law"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Common",
+    "Protean",
+    "comprehend languages"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 10,
+  "feats": [
+    "Combat Reflexes",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Skill Focus (Bluff)",
+    "Weapon Focus (tail slap)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +16 touch (1d6), 2 claws +16 touch (1d4), tail slap +12 (1d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This glittering serpent’s body ends in a looping length of tail. Its scales glow softly in ever-changing patterns.",
+  "meta": {
+    "cmb": "16 (+20 grapple)",
+    "cmd": "30 (can’t be tripped)",
+    "racialModifiers": [
+      "Stealth 20"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Maelstrom)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or convocation (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

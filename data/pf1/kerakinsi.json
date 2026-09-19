@@ -1,0 +1,100 @@
+{
+  "name": "Kerakinsi",
+  "sourceSystem": "pf1",
+  "source": "Seers of the Drowned City",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +2, dodge +1, natural +4",
+    "touch": 13,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 39,
+    "formula": "6d10+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 40 ft. (good)"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 15,
+    "con": 13,
+    "int": 9,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +3, Ref +7, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +15, Perception +11, Stealth +11",
+    "list": {
+      "Fly": "+15",
+      "Perception": "+11",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Auran"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 6,
+  "feats": [
+    "Dodge",
+    "Flyby Attack",
+    "Mobility"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +7 (1d4+1), 2 talons +7 (1d8+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This winged creature’s streamlined head features sunken, glassy eyes and a circular mouth lined with needle-sharp teeth.",
+  "meta": {
+    "cmb": "+7",
+    "cmd": 20,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or storm (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

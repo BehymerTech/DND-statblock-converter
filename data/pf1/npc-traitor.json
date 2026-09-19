@@ -1,0 +1,99 @@
+{
+  "name": "NPC Traitor",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "CE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 11,
+    "notes": "armor +2, dex -1",
+    "touch": 9,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 55,
+    "formula": "10d6+20"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 9,
+    "dex": 8,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +6, Ref +4, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +18, Diplomacy +8, Knowledge (geography) +3, Knowledge (history) +5, Knowledge (local) +6, Linguistics +3, Perception +14, Ride +5, Sense Motive +12",
+    "list": {
+      "Bluff": "+18",
+      "Diplomacy": "+8",
+      "Linguistics": "+3",
+      "Perception": "+14",
+      "Ride": "+5",
+      "Sense Motive": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Elven",
+    "Halfling"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 5,
+  "feats": [
+    "Great Fortitude",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Skill Focus (Bluff)",
+    "Skill Focus (Sense Motive)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "light mace +4 (1d6-1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "splash weapon +4 (varies)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "commoner 10",
+    "cmb": "+4",
+    "cmd": 13
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "name": "NPC Temple (Priest)",
+  "sourceSystem": "pf1",
+  "source": "GameMastery Guide",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "LN",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 26,
+    "notes": "armor +11, dex +1, shield +4",
+    "touch": 11,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 70,
+    "formula": "9d8+30"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 12,
+    "con": 14,
+    "int": 8,
+    "wis": 18,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +5, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +5, Heal +10, Knowledge (religion) +10, Perception +8, Sense Motive +8, Spellcraft +11",
+    "list": {
+      "Diplomacy": "+5",
+      "Heal": "+10",
+      "Perception": "+8",
+      "Sense Motive": "+8",
+      "Spellcraft": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 18,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 6,
+  "feats": [
+    "Armor Proficiency (heavy)",
+    "Craft Magic Arms and Armor",
+    "Extra Channel",
+    "Shield Focus",
+    "Toughness",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 merciful morningstar +9/+4 (1d8+3 plus 1d6 nonlethal)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk light crossbow +8 (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "cleric 9",
+    "cmb": "+8",
+    "cmd": 19
+  }
+}

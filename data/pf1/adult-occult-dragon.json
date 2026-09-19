@@ -1,0 +1,98 @@
+{
+  "name": "Adult Occult Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "NG",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 28,
+    "notes": "dex +1, natural +18, size -1",
+    "touch": 10,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 138,
+    "formula": "12d12+60"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (poor)"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 12,
+    "con": 21,
+    "int": 20,
+    "wis": 18,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +13, Ref +9, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +20, Bluff +22, Diplomacy +18, Disguise +19, Fly +10, Knowledge (arcana) +20, Knowledge (history) +20, Knowledge (planes) +20, Knowledge (religion) +20, Perception +25, Sense Motive +19",
+    "list": {
+      "Appraise": "+20",
+      "Bluff": "+22",
+      "Diplomacy": "+18",
+      "Disguise": "+19",
+      "Fly": "+10",
+      "Perception": "+25",
+      "Sense Motive": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "appraising sight",
+    "dragon senses"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Aklo",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 12,
+  "feats": [
+    "Deceitful",
+    "Flyby Attack",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +18 (2d6+10), 2 claws +18 (1d8+7), 2 wings +16 (1d6+3), tail slap +16 (1d8+10)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+20",
+    "cmd": "31 (35 vs. trip)"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Giant Solifugid",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Small",
+  "type": "vermin",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, natural +1, size +1",
+    "touch": 13,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 13,
+    "formula": "2d8+4"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 15,
+    "con": 15,
+    "int": "None",
+    "wis": 11,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +5, Ref +2, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +9, Perception +4, Stealth +10",
+    "list": {
+      "Climb": "+9",
+      "Perception": "+4",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 14,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 1,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +3 (1d6+1), 2 claws +3 (1d3+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This tan-colored creature looks like a ten-legged spider. Oversized jaws grind together slowly beneath beady eyes.",
+  "meta": {
+    "cmb": "+1",
+    "cmd": "13 (25 vs. trip)",
+    "racialModifiers": [
+      "Perception 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or colony (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

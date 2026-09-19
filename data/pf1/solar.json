@@ -1,0 +1,123 @@
+{
+  "name": "Solar",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "angel, extraplanar, good",
+  "alignment": "NG",
+  "cr": "23",
+  "level": null,
+  "xp": 819200,
+  "ac": {
+    "value": 44,
+    "notes": "armor +14, dex +1, dodge +1, natural +19, size -1, deflection vs. evil +4",
+    "touch": 11,
+    "flatFooted": 42
+  },
+  "hp": {
+    "average": 363,
+    "formula": "22d10+242"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 150 ft. (good), other_semicolon 35 ft., fly 100 ft. (good) in armor ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 20,
+    "con": 30,
+    "int": 23,
+    "wis": 27,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +25, Ref +14, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (any one) +31, Diplomacy +32, Fly +32, Knowledge (history) +31, Knowledge (nature) +31, Knowledge (planes) +31, Knowledge (religion) +31, Perception +33, Sense Motive +33, Spellcraft +31, Stealth +21, Survival +31",
+    "list": {
+      "Diplomacy": "+32",
+      "Fly": "+32",
+      "Perception": "+33",
+      "Sense Motive": "+33",
+      "Spellcraft": "+31",
+      "Stealth": "+21",
+      "Survival": "+31"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "detect evil",
+    "detect snares and pits",
+    "true seeing"
+  ],
+  "passivePerception": 43,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 22,
+  "feats": [
+    "Cleave",
+    "Deadly Aim",
+    "Dodge",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Mobility",
+    "Power Attack",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+5 dancing greatsword +35/+30/+25/+20 (3d6+18)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+5 composite longbow (+9 Str bonus) +31/+26/+21/+16 (2d6+14 plus slaying arrow)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering humanoid creature has shining topaz eyes, metallic skin, and three pairs of white wings.",
+  "meta": {
+    "cmb": "+32",
+    "cmd": 47,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any good-aligned plane"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+5 full plate, +5 dancing greatsword, +5 composite longbow [+9 Str bonus])"
+      }
+    ]
+  }
+}

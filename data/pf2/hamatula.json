@@ -1,0 +1,116 @@
+{
+  "name": "Hamatula",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 74.",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "Devil",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 11",
+  "xp": null,
+  "ac": {
+    "value": 31,
+    "notes": ""
+  },
+  "hp": {
+    "average": 165,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 30 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 22,
+    "con": 20,
+    "int": 12,
+    "wis": 20,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +23, Ref +20, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +23 (1d20+23); __Arcana__: +18 (1d20+18); __Intimidation__: +21 (1d20+21); __Religion__: +20 (1d20+20); __Stealth__: +23 (1d20+23); __Survival__: +22 (1d20+22); ",
+    "list": {
+      "Acrobatics": "+23",
+      "Arcana": "+18",
+      "Intimidation": "+21",
+      "Religion": "+20",
+      "Stealth": "+23",
+      "Survival": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲ Barb only. A hamatula gains an extra reaction at the start of each of its turns that it can use only to make an Attack of Opportunity. It can't use more than one Attack of Opportunity triggered by the same action. In addition to the normal trigger, a hamatula can make an Attack of Opportunity against a creature that touches it or an adjacent creature that attempts a melee Strike against it."
+    },
+    {
+      "name": "Bloodletting",
+      "text": "On a critical hit, the hamatula's barbs deal 3d6 (3d6) persistent bleed damage."
+    },
+    {
+      "name": "Frightful Strike",
+      "text": "⭓ (divine, emotion, enchantment, fear, mental); Trigger The hamatula hits a creature with a barb Strike Effect The creature struck must succeed at a DC 27 Will save or become frightened 2 (or frightened 3 on a critical failure). Regardless of the result of its saving throw, the creature is then temporarily immune to Frightful Strike for 24 hours."
+    },
+    {
+      "name": "Impaling Barb",
+      "text": "⬺ The hamatula makes a barb Strike, then Strides up to half its Speed without triggering reactions. If the Strike hits, the hamatula impales the target with one of its barbs and snaps the barb free as it moves away from the target. This deals an additional 2d8 (2d8) piercing damage to the target and pins it to an adjacent surface, rendering it immobilized (Escape DC 29)."
+    },
+    {
+      "name": "Warden of Erebus",
+      "text": "A hamatula's glyph of warding innate spell can contain any common spell from the Core Rulebook that meets the criteria in glyph of warding; the hamatula doesn't need to provide the spell."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ barb +24 (evil, magical); Damage 3d8+13 (3d8+13) piercing plus 1d6 (1d6) evil and bloodletting"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ hurled barb +23 (evil, magical, range increment 60 feet); Damage 2d8+13 (2d8+13) piercing plus 1d6 (1d6) evil and bloodletting"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      6,
+      5,
+      1,
+      5,
+      4
+    ]
+  }
+}

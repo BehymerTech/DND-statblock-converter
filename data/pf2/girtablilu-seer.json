@@ -1,0 +1,114 @@
+{
+  "name": "Girtablilu Seer",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 113.",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 12",
+  "xp": null,
+  "ac": {
+    "value": 33,
+    "notes": ""
+  },
+  "hp": {
+    "average": 210,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 20,
+    "con": 22,
+    "int": 16,
+    "wis": 24,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +22, Ref +19, Will +25",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +24 (1d20+24); __Intimidation__: +23 (1d20+23); __Religion__: +25 (1d20+25); __Survival__: +23 (1d20+23); ",
+    "list": {
+      "Athletics": "+24",
+      "Intimidation": "+23",
+      "Religion": "+25",
+      "Survival": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tremorsense 60"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Common",
+    "Girtablilu"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Divine Aegis",
+      "text": "⬲ (abjuration, divine); Trigger The girtablilu seer attempts a saving throw against a magical effect but hasn't rolled yet Effect The seer summons divine energy to protect themself at the cost of their other magical defenses. Until the start of their next turn, they gain a +1 circumstance bonus to saving throws against non-divine magical effects and a –1 circumstance penalty to saves against divine effects."
+    },
+    {
+      "name": "Items",
+      "text": "+1 resilient hide armor;"
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 3d8+6 (3d8+6) bludgeoning, DC 24"
+    },
+    {
+      "name": "Desert Stride",
+      "text": "A girtablilu ignores natural difficult terrain in the desert."
+    },
+    {
+      "name": "Girtablilu Venom",
+      "text": "(poison); Saving Throw DC 30 Fortitude. Maximum Duration 6 rounds Stage 1 2d6 (2d6) poison damage and enfeebled 1 (1 round) Stage 2 3d6 (3d6) poison damage and enfeebled 1 (1 round) Stage 3 3d6 (3d6) poison damage and enfeebled 2 (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ pincer +24 (agile); Damage 3d8+12 (3d8+12) bludgeoning plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ stinger +24 (reach 10 feet); Damage 3d6+12 (3d6+12) piercing plus girtablilu venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      5,
+      6,
+      3,
+      7,
+      3
+    ],
+    "items": "+1 resilient hide armor;"
+  }
+}

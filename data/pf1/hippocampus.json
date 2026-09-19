@@ -1,0 +1,97 @@
+{
+  "name": "Hippocampus",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 12,
+    "notes": "dex -1, natural +4, size -1",
+    "touch": 8,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 15,
+    "formula": "2d10+4"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 9,
+    "con": 15,
+    "int": 2,
+    "wis": 12,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +5, Ref +2, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +6, Swim +11",
+    "list": {
+      "Perception": "+6",
+      "Swim": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": "-1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Endurance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +4 (1d4+3), tail slap -1 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature has the foreparts of a horse and the hindquarters of a fish. Its forelegs end in splayed fins rather than hooves.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 15,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or school (3-16)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

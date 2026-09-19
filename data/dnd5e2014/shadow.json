@@ -1,0 +1,107 @@
+{
+  "name": "Shadow",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "chaotic evil",
+  "cr": "1/2",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 12,
+    "notes": ""
+  },
+  "hp": {
+    "average": 16,
+    "formula": "3d8 + 3"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 14,
+    "con": 13,
+    "int": 6,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Stealth +4",
+    "list": {
+      "stealth": "+4"
+    }
+  },
+  "vulnerabilities": [
+    "radiant"
+  ],
+  "resistances": [
+    "acid",
+    "cold",
+    "fire",
+    "lightning",
+    "thunder",
+    "bludgeoning, piercing, slashing from nonmagical attacks"
+  ],
+  "immunities": [
+    "necrotic",
+    "poison"
+  ],
+  "conditionImmunities": [
+    "exhaustion",
+    "frightened",
+    "grappled",
+    "paralyzed",
+    "petrified",
+    "poisoned",
+    "prone",
+    "restrained"
+  ],
+  "senses": [
+    "darkvision 60 ft."
+  ],
+  "passivePerception": 10,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Amorphous",
+      "text": "The shadow can move through a space as narrow as 1 inch wide without squeezing."
+    },
+    {
+      "name": "Shadow Stealth",
+      "text": "While in dim light or darkness, the shadow can take the Hide action as a bonus action. Its stealth bonus is also improved to +6."
+    },
+    {
+      "name": "Sunlight Weakness",
+      "text": "While in sunlight, the shadow has disadvantage on attack rolls, ability checks, and saving throws."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Strength Drain",
+      "text": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) necrotic damage, and the target's Strength score is reduced by 1d4. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest.\nIf a non-evil humanoid dies from this attack, a new shadow rises from the corpse 1d4 hours later."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Cave Giant",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "armor +4, natural +6, size -1",
+    "touch": 9,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 67,
+    "formula": "9d8+27"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft.,  30 ft. in armor"
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 10,
+    "con": 17,
+    "int": 6,
+    "wis": 10,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +9, Ref +3, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +7, Intimidate +7, Perception +5",
+    "list": {
+      "Climb": "+7",
+      "Intimidate": "+7",
+      "Perception": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Giant"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 6,
+  "feats": [
+    "Cleave",
+    "Improved Sunder",
+    "Power Attack",
+    "Vital Strike",
+    "Weapon Focus (battleaxe)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "battleaxe +12/+7 (2d6+9/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +6 (1d8+9)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Bestial tusks jut from the jaw of this hunched-over giant. It is clad in armor patched together from the bones of past victims.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": 23,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, gang (2-5), band (6-8 plus 1-2 monitor lizards), raiding party (9-12 plus 1-4 monitor lizards), or tribe (13-20 plus 30% noncombatants, plus 1 barbarian, fighter, or ranger chief of 3rd-5th level; 2-9 monitor lizards; 1-4 giant frilled lizards; and 10-15 dwarf, orc, or troglodyte slaves)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (battleaxe, hide armor, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "name": "NPC Doomsayer",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "NE",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 22,
+    "notes": "armor +8, deflection +2, dex +2",
+    "touch": 14,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 133,
+    "formula": "20d8+40"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 14,
+    "int": 13,
+    "wis": 8,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +12, Ref +18, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Escape Artist +19, Fly +14, Heal +12, Knowledge (arcana) +21, Knowledge (dungeoneering) +18, Knowledge (engineering) +15, Knowledge (geography) +15, Knowledge (history) +17, Knowledge (local) +17, Knowledge (nature) +16, Knowledge (nobility) +16, Knowledge (planes) +20, Knowledge (religion) +26, Perception +17, Perform (dance) +20, Perform (oratory) +21, Perform (string) +31, Spellcraft +19, Stealth +24, Use Magic Device +26",
+    "list": {
+      "Escape Artist": "+19",
+      "Fly": "+14",
+      "Heal": "+12",
+      "Perception": "+17",
+      "Spellcraft": "+19",
+      "Stealth": "+24",
+      "Use Magic Device": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 27,
+  "languages": [
+    "Abyssal",
+    "Common"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 15,
+  "feats": [
+    "Combat Expertise",
+    "Greater Spell Focus (enchantment)",
+    "Greater Spell Focus (illusion)",
+    "Greater Trip",
+    "Improved Critical (scythe)",
+    "Improved Trip",
+    "Martial Weapon Proficiency",
+    "Quicken Spell",
+    "Spell Focus (enchantment)",
+    "Spell Focus (illusion)",
+    "Weapon Focus (scythe)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 unholy adamantine scythe +21/+16/+11 (2d4+6/19-20/×4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "bard 20",
+    "cmb": "18 (+22 trip)",
+    "cmd": "32 (34 vs. trip)"
+  }
+}

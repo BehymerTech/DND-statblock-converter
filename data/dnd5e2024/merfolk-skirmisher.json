@@ -1,0 +1,77 @@
+{
+  "name": "Merfolk Skirmisher",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "Elemental",
+  "subtype": "",
+  "alignment": "Neutral",
+  "cr": "1/8",
+  "level": null,
+  "xp": 25,
+  "ac": {
+    "value": 11,
+    "notes": ""
+  },
+  "hp": {
+    "average": 11,
+    "formula": "2d8 + 2"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": 40,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., Swim 40 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 13,
+    "con": 12,
+    "int": 11,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 12,
+  "languages": [
+    "Common",
+    "Primordial (Aquan)"
+  ],
+  "initiative": "+1 (11)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The merfolk can breathe air and water."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Ocean Spear",
+      "text": "_Melee or Ranged Attack Roll:_ +2, reach 5 ft. or range 20/60 ft. _Hit:_ 3 (1d6) Piercing damage plus 2 (1d4) Cold damage. If the target is a creature, its Speed decreases by 10 feet until the end of its next turn. _Hit or Miss:_ The spear magically returns to the merfolk's hand immediately after a ranged attack. ## Merrow"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

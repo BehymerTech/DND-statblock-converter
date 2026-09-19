@@ -1,0 +1,111 @@
+{
+  "name": "Xill",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Outsider",
+  "subtype": "Extraplanar",
+  "alignment": "Always lawful evil",
+  "cr": "6",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": "+3 Dex, +7 natural",
+    "touch": 13,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 32,
+    "formula": "5d8+10"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft. (8 squares)"
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 16,
+    "con": 15,
+    "int": 12,
+    "wis": 12,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +6, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Balance +13, Climb +10, Diplomacy +2, Escape Artist +11, Intimidate +8, Listen +9, Move Silently +11, Sense Motive +8, Spot +9, Tumble +11, Use Rope +3 (+5 With Bindings);",
+    "list": {
+      "Balance": "+13",
+      "Climb": "+10",
+      "Diplomacy": "+2",
+      "Escape Artist": "+11",
+      "Intimidate": "+8",
+      "Listen": "+9",
+      "Move Silently": "+11",
+      "Sense Motive": "+8",
+      "Spot": "+9",
+      "Tumble": "+11",
+      "Use Rope": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+7",
+  "babOrProficiency": 5,
+  "feats": [
+    "Improved Initiative",
+    "Multiattack (B)",
+    "Multiweapon Fighting"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Implant, improved grab, paralysis"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., planewalk, spell resistance 21"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Short sword +7 melee (1d6+2/19-20) or claw +7 melee (1d4+2) or longbow +8 ranged (1d8/x3)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 short swords +5 melee (1d6+2/19-20, 1d6+1/19-20) and 2 claws +5 melee (1d4+1); or 4 claws +5 melee (1d4+2, 1d4+1); or 2 longbows +4 ranged (1d8/x3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A xill stands 4 to 5 feet tall and weighs about 100 pounds. Xills speak Infernal.",
+    "grapple": "+7",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Ethereal Plane",
+    "organization": "Solitary or gang (2-5)",
+    "treasure": "Standard",
+    "advancement": "6-8 HD (Medium); 9-15 HD (Large)",
+    "leveladjustment": "+4"
+  }
+}

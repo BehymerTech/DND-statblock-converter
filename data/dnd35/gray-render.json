@@ -1,0 +1,106 @@
+{
+  "name": "Gray Render",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Usually neutral",
+  "cr": "8",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": "-1 size, +10 natural",
+    "touch": 9,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 125,
+    "formula": "10d10+70"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares)"
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 10,
+    "con": 24,
+    "int": 3,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +14, Ref +7, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Hide +2, Spot +10, Survival +3;",
+    "list": {
+      "Hide": "+2",
+      "Spot": "+10",
+      "Survival": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 10,
+  "feats": [
+    "Cleave",
+    "Power Attack",
+    "Improved Bull Rush",
+    "Track"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Improved grab, rend 2d6+9"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., low-light vision, scent"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Bite +15 melee (2d6+6)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +15 melee (2d6+6); 2 claws +10 melee (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A gray render stands about 9 feet tall in spite of its hunched posture and is about 4 feet wide. It weighs about 4,000 pounds.",
+    "grapple": "+20",
+    "spaceReach": "10 ft./10 ft.",
+    "environment": "Temperate marshes",
+    "organization": "Solitary",
+    "treasure": "None",
+    "advancement": "11-15 HD (Large); 16-30 HD (Huge)",
+    "leveladjustment": "+5 (cohort)"
+  }
+}

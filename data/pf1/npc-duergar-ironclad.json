@@ -1,0 +1,104 @@
+{
+  "name": "NPC Duergar Ironclad",
+  "sourceSystem": "pf1",
+  "source": "Tombs of Golarion",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "alignment": "LE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 29,
+    "notes": "armor +11, dex +2, dodge +3, shield +3",
+    "touch": 15,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 120,
+    "formula": "7d10+4d12+51"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 16,
+    "int": 8,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +11, Ref +6, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +7, Perception +10, Stealth +2",
+    "list": {
+      "Intimidate": "+7",
+      "Perception": "+10",
+      "Stealth": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Undercommon"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 11,
+  "feats": [
+    "Combat Reflexes",
+    "Diehard",
+    "Dodge",
+    "Endurance",
+    "Exotic Weapon Proficiency (bastard sword)",
+    "Quick Draw",
+    "Stalwart",
+    "Toughness",
+    "Weapon Focus (bastard sword)",
+    "Weapon Specialization (bastard sword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 bastard sword +17/+12/+7 (1d10+7/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "javelin +14/+9/+4 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This bulky, gray-skinned dwarf is armored like a fortress.",
+  "meta": {
+    "race": "Duergar",
+    "class": "fighter 7, stalwart defender 4",
+    "cmb": "+14",
+    "cmd": "29 (33 vs. bull rush, 33 vs. trip)",
+    "racialModifiers": [
+      "Stealth 4"
+    ]
+  }
+}

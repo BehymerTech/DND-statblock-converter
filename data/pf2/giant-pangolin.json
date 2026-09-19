@@ -1,0 +1,101 @@
+{
+  "name": "Giant Pangolin",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 199.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 63,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, burrow 20 feet, climb 20 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 10,
+    "con": 16,
+    "int": 2,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +11, Ref +8, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +13 (1d20+13); __Stealth__: +8 (1d20+8); __Survival__: +10 (1d20+10); ",
+    "list": {
+      "Athletics": "+13",
+      "Stealth": "+8",
+      "Survival": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "imprecise scent 30"
+  ],
+  "passivePerception": 22,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Devourer of Swarms",
+      "text": "The giant pangolin ignores the resistances of swarms, and its tongue Strike deals an additional 2d6 (2d6) damage against swarms."
+    },
+    {
+      "name": "Emit Musk",
+      "text": "⬻ (olfactory); The giant pangolin releases a disorienting and repulsive musk within a 5-foot emanation. Each creature in the area must attempt a DC 20 Fortitude save. The pangolin can't Emit Musk again for 1d4 (1d4) rounds. Critical Success The creature becomes temporarily immune to pangolin musk for 1 minute. Success The creature is unaffected. Failure The creature is sickened 1. Critical Failure The creature becomes sickened 1 and is flat-footed until no longer sickened."
+    },
+    {
+      "name": "Roll Up",
+      "text": "⬻ (move); The giant pangolin falls prone and rolls up into a ball. While rolled up, the only actions the giant pangolin can perform are Emit Musk and Stand, and it also becomes blinded and gains resistance 10 to physical damage. An adjacent creature that hits a rolled-up giant pangolin with a melee Strike takes 1d6 (1d6) slashing damage. These effects end once the giant pangolin Stands."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +13 (agile); Damage 1d10+7 (1d10+7) piercing damage"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tongue +13 Damage 1d6+7 (1d6+7) bludgeoning damage plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      0,
+      3,
+      -4,
+      2,
+      0
+    ]
+  }
+}

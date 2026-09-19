@@ -1,0 +1,101 @@
+{
+  "name": "Ngoga",
+  "sourceSystem": "pf1",
+  "source": "Lost Kingdoms",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "dex +5, natural +6, size -1",
+    "touch": 14,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 85,
+    "formula": "9d10+36"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., other_semicolon burst of speed ft., climb 40 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 20,
+    "con": 18,
+    "int": 2,
+    "wis": 13,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +10, Ref +11, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +20, Perception +7, Stealth +7",
+    "list": {
+      "Climb": "+20",
+      "Perception": "+7",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": "+9",
+  "babOrProficiency": 9,
+  "feats": [
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Iron Will",
+    "Rending Claws"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +14 (1d8+6), 2 claws +14 (1d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+16",
+    "cmd": 31,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm jungles"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or band (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

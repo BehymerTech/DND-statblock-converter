@@ -1,0 +1,110 @@
+{
+  "name": "Duskwalker",
+  "sourceSystem": "pf1",
+  "source": "Planar Adventures",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "native",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 15,
+    "notes": "armor +2, dex +3",
+    "touch": 13,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 12,
+    "formula": "1d10+2"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 17,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +3, Ref +5, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +4, Heal +8, Knowledge (nature) +4, Knowledge (religion) +3, Perception +6, Survival +6",
+    "list": {
+      "Acrobatics": "+4",
+      "Heal": "+8",
+      "Perception": "+6",
+      "Survival": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Celestial",
+    "Common"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 1,
+  "feats": [
+    "Point-Blank Shot"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +2 (1d4+1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "composite longbow +4 (1d8+1/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This tall, gray-skinned woman’s eyes flicker with determination. Her somber attire is decorated with small bones.",
+  "meta": {
+    "race": "Female",
+    "class": "duskwalker ranger 1",
+    "cmb": "+2",
+    "cmd": 15,
+    "racialModifiers": [
+      "Heal 2",
+      "Knowledge (religion) 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or team (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (composite longbow with 20 arrows, leather armor, dagger, other treasure)"
+      }
+    ]
+  }
+}

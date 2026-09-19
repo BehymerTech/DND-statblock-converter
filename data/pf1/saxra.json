@@ -1,0 +1,114 @@
+{
+  "name": "Saxra",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Huge",
+  "type": "undead",
+  "subtype": "air",
+  "alignment": "NE",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 33,
+    "notes": "dex +7, natural +18, size -2",
+    "touch": 15,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 300,
+    "formula": "24d8+192"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 80 ft. (good)"
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 25,
+    "con": "None",
+    "int": 13,
+    "wis": 23,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +16, Ref +17, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +20, Diplomacy +10, Fly +19, Intimidate +35, Knowledge (religion) +17, Perception +33, Sense Motive +21, Stealth +26",
+    "list": {
+      "Bluff": "+20",
+      "Diplomacy": "+10",
+      "Fly": "+19",
+      "Intimidate": "+35",
+      "Perception": "+33",
+      "Sense Motive": "+21",
+      "Stealth": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 43,
+  "languages": [
+    "Auran",
+    "Common"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 18,
+  "feats": [
+    "Combat Reflexes",
+    "Critical Focus",
+    "Defensive Combat Training",
+    "Exhausting Critical",
+    "Greater Vital Strike",
+    "Improved Critical (bite)",
+    "Improved Critical (claw)",
+    "Improved Vital Strike",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Tiring Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +29 (2d6+13/19-20 plus 2d6 negative energy and energy drain), 2 claws +29 (1d10+13/19-20 plus 2d6 negative energy and energy drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "An immense humanoid skeleton stands draped in tattered robes, its horselike skull lit from within by an eerie red glow.",
+  "meta": {
+    "cmb": "+33",
+    "cmd": 56,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (plus spawn)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

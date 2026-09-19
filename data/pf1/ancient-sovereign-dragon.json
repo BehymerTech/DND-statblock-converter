@@ -1,0 +1,123 @@
+{
+  "name": "Ancient Sovereign Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Gargantuan",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 39,
+    "notes": "dex -1, natural +34, size -4",
+    "touch": 5,
+    "flatFooted": 39
+  },
+  "hp": {
+    "average": 377,
+    "formula": "26d12+208"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 250 ft. (clumsy)"
+  },
+  "abilities": {
+    "str": 39,
+    "dex": 8,
+    "con": 27,
+    "int": 24,
+    "wis": 25,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +23, Ref +16, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +36, Bluff +36, Diplomacy +40, Fly -15, Heal +36, Intimidate +40, Knowledge (arcana) +36, Knowledge (history) +36, Knowledge (nobility) +36, Knowledge (planes) +36, Perception +42, Perform (oratory) +33, Sense Motive +36, Spellcraft +36",
+    "list": {
+      "Appraise": "+36",
+      "Bluff": "+36",
+      "Diplomacy": "+40",
+      "Fly": "-15",
+      "Heal": "+36",
+      "Intimidate": "+40",
+      "Perception": "+42",
+      "Sense Motive": "+36",
+      "Spellcraft": "+36"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 52,
+  "languages": [
+    "Abyssal",
+    "Auran",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Ignan",
+    "Infernal",
+    "Terran"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 26,
+  "feats": [
+    "Flyby Attack",
+    "Hover",
+    "Improved Critical (bite)",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Multiattack",
+    "Persuasive",
+    "Skill Focus (Perception)",
+    "Weapon Focus (bite)",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +37 (4d6+21/19-20), 2 claws +37 (2d8+14/19-20), gore +36 (2d8+21), tail slap +34 (2d8+21)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+44",
+    "cmd": "53 (57 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

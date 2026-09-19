@@ -1,0 +1,102 @@
+{
+  "name": "Octopus",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Small",
+  "type": "animal",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 15,
+    "notes": "dex +3, natural +1, size +1",
+    "touch": 14,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 13,
+    "formula": "2d8+4"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 30 ft., jet 200 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 17,
+    "con": 14,
+    "int": 2,
+    "wis": 13,
+    "cha": 3
+  },
+  "saves": {
+    "text": "Fort +5, Ref +6, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Escape Artist +13, Stealth +20, Swim +9, Perception +1",
+    "list": {
+      "Escape Artist": "+13",
+      "Stealth": "+20",
+      "Swim": "+9",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 11,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 1,
+  "feats": [
+    "Multiattack",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +5 (1d3+1 plus poison), tentacles +3 (grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Eight tentacles, each adorned with rows of countless suckers, unfurl from the barrel-shaped body of this large-eyed creature.",
+  "meta": {
+    "cmb": "1 (+5 grapple)",
+    "cmd": "14 (can’t be tripped)",
+    "racialModifiers": [
+      "Stealth 8",
+      "Escape Artist 10"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or cold ocean"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

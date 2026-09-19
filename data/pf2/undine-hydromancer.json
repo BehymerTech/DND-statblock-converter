@@ -1,0 +1,92 @@
+{
+  "name": "Undine Hydromancer",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 203.",
+  "size": "Medium",
+  "type": "Undine",
+  "subtype": "Amphibious, Human, Humanoid",
+  "alignment": "CG",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 15,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, swim 25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +4, Ref +5, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +3 (1d20+3); __Athletics__: +3 (1d20+3); __Diplomacy__: +7 (1d20+7); __Intimidation__: +7 (1d20+7); __Nature__: +5 (1d20+5); __Survival__: +5 (1d20+5); ",
+    "list": {
+      "Arcana": "+3",
+      "Athletics": "+3",
+      "Diplomacy": "+7",
+      "Intimidation": "+7",
+      "Nature": "+5",
+      "Survival": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 15,
+  "languages": [
+    "Aquan",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ dagger +7 (agile, finesse, versatile s); Damage 1d4 (1d4) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ dagger +7 (agile, thrown 10 feet, versatile s); Damage 1d4 (1d4) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      2,
+      1,
+      0,
+      2,
+      4
+    ]
+  }
+}

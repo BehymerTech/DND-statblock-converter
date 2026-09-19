@@ -1,0 +1,111 @@
+{
+  "name": "Quasit",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 76.",
+  "size": "Tiny",
+  "type": "Fiend",
+  "subtype": "Demon",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 25,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 feet, fly 35 feet"
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 18,
+    "con": 10,
+    "int": 12,
+    "wis": 14,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +4, Ref +10, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Arcana__: +4 (1d20+4); __Deception__: +7 (1d20+7); __Intimidation__: +5 (1d20+5); __Religion__: +5 (1d20+5); __Stealth__: +7 (1d20+7); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Arcana": "+4",
+      "Deception": "+7",
+      "Intimidation": "+5",
+      "Religion": "+5",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Abyssal",
+    "Common; telepathy (touch)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Abyssal Knowledge",
+      "text": "When a quasit offers Aid for an Arcana or Religion check, it gets the critical success result on any success and gets the critical failure result on any failure."
+    },
+    {
+      "name": "Virtue Aversion",
+      "text": "The quasit's link to a mortal soul gave it birth, but it presents a vulnerability. Once per round, a creature can present an object related to something virtuous or good in the life of the quasit's creator (such as a beloved daughter's doll) as an Interact action to automatically deal the quasit 2d6 (2d6) mental damage."
+    },
+    {
+      "name": "Abyssal Healing",
+      "text": "⬻ (concentrate, divine, healing, necromancy); Frequency once per round Effect The quasit restores 1d6 (1d6) HP to itself."
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, divine, polymorph, transmutation); <ul class='inner-bullet-list'><li>Bat echolocation 40 feet; Speed 15 feet, fly Speed 30 feet; Melee fangs +7, Damage 1d4-1 (1d4-1) piercing; Melee wing +7 (agile), Damage 1d4-1 (1d4-1) bludgeoning</li><li>Centipede Speed 10 feet, climb 10 feet; Melee mandibles +7 (poison), Damage 1 piercing plus 1d4 (1d4) poison</li><li>Toad scent (imprecise) 30 feet; Speed 5 feet; Melee jaws +7, Damage 1 bludgeoning</li><li>Wolf size Medium; scent (imprecise) 30 feet; Speed 40 feet, climb 10 feet; Melee jaws +7, Damage 1d10-1 (1d10-1) piercing plus Knockdown</li></ul>"
+    },
+    {
+      "name": "Quasit Venom",
+      "text": "(poison); Saving Throw DC 17 Fortitude. Maximum Duration 6 rounds Stage 1 1d6 (1d6) poison (1 round) Stage 2 As stage 1 (null) Stage 3 1d6 (1d6) poison and slowed 1 (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +9 (agile, evil, finesse, magical, poison); Damage 1d6-1 (1d6-1) slashing plus 1d4 (1d4) evil and quasit venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -1,
+      4,
+      0,
+      1,
+      2,
+      2
+    ]
+  }
+}

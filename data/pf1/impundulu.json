@@ -1,0 +1,116 @@
+{
+  "name": "Impundulu",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 40: Vaults of Madness",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "evil, extraplanar, shapechanger",
+  "alignment": "NE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 25,
+    "notes": "dex +5, natural +10",
+    "touch": 15,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 133,
+    "formula": "14d10+56"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 60 ft. (good),  30 ft. in humanoid form"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 21,
+    "con": 19,
+    "int": 15,
+    "wis": 18,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +13, Ref +14, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +22, Diplomacy +19, Fly +9, Intimidate +15, Knowledge (arcana) +12, Knowledge (nature) +12, Knowledge (planes) +12, Perception +21, Sense Motive +21, Spellcraft +19, Stealth +22",
+    "list": {
+      "Bluff": "+22",
+      "Diplomacy": "+19",
+      "Fly": "+9",
+      "Intimidate": "+15",
+      "Perception": "+21",
+      "Sense Motive": "+21",
+      "Spellcraft": "+19",
+      "Stealth": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Fey",
+    "Infernal",
+    "Polyglot",
+    "speak with animals",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 14,
+  "feats": [
+    "Flyby Attack",
+    "Hover",
+    "Improved Initiative",
+    "Iron Will",
+    "Vital Strike",
+    "Weapon Focus (bite)",
+    "Weapon Focus (talons)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +19 (1d6+4 plus 1d6 bleed and 1d6 electricity), 2 talons +19 (1d4+4 plus 1d6 electricity and grab), 2 hook +13 (1d4+2 plus 1d6 electricity)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A dark shadow moves rapidly across the ground. In the skies high above, silhouetted by the sun, a monstrous, black-feathered avian creature circles. Slowly, a supernatural wind begins to swirl about the creature, and crackling sparks erupt from its body. Screeching wildly, it descends as if falling from the sky, its blood-f lecked wings tipped with cruel curved hooks, and its protruding lower beak scalloped with vicious, jagged barbs.",
+  "meta": {
+    "cmb": "18 (+22 grapple)",
+    "cmd": 33,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm forest"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or flock (2d6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (and impundulu fat, see sidebar)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Clockwork Goliath",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Gargantuan",
+  "type": "construct",
+  "subtype": "clockwork",
+  "alignment": "N",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 35,
+    "notes": "dex +5, dodge +2, natural +22, size -4",
+    "touch": 13,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 214,
+    "formula": "28d10+60"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 45,
+    "dex": 20,
+    "con": "None",
+    "int": "None",
+    "wis": 11,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +9, Ref +16, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+9",
+  "babOrProficiency": 28,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 slams +41 (3d6+17)"
+    },
+    {
+      "name": "Ranged",
+      "text": "cannon +29/+24/+19/+14 (6d6/×4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The gears of this enormous, four-armed mechanical giant shriek and grind in a deafening cacophony as it lumbers forth.",
+  "meta": {
+    "cmb": "+49",
+    "cmd": 66,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or siege (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

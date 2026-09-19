@@ -1,0 +1,123 @@
+{
+  "name": "Worm That Walks",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "vermin",
+  "subtype": "augmented human",
+  "alignment": "NE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 23,
+    "notes": "armor +6, dex +4, dodge +1, insight +2",
+    "touch": 17,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 113,
+    "formula": "13d6+65"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 18,
+    "con": 17,
+    "int": 20,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +11, Ref +12, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (alchemy) +21, Fly +20, Intimidate +13, Knowledge (arcana) +21, Knowledge (dungeoneering) +21, Knowledge (planes) +21, Perception +22, Sense Motive +9, Spellcraft +21, Stealth +12",
+    "list": {
+      "Fly": "+20",
+      "Intimidate": "+13",
+      "Perception": "+22",
+      "Sense Motive": "+9",
+      "Spellcraft": "+21",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Common",
+    "Infernal"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 6,
+  "feats": [
+    "Arcane Armor Training",
+    "Combat Casting",
+    "Combat Reflexes",
+    "Craft Magic Arms and Armor",
+    "Craft Wondrous Item",
+    "Diehard",
+    "Dodge",
+    "Improved Initiative",
+    "Light Armor Proficiency",
+    "Scribe Scroll",
+    "Toughness",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +10 (1d4-1 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Although this robed wizard stands and moves like a man, his body is a writhing mass of squirming, slippery worms.",
+  "meta": {
+    "race": "Human",
+    "class": "worm that walks conjurer 13",
+    "cmb": "5 (+13 grapple)",
+    "cmd": 26,
+    "racialModifiers": [
+      "Perception 8",
+      "Sense Motive 8",
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (+4 leather armor, cloak of resistance +4, staff of charming)"
+      }
+    ]
+  }
+}

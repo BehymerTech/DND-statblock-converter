@@ -1,0 +1,117 @@
+{
+  "name": "Flytrap Leshy",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 161.",
+  "size": "Small",
+  "type": "Plant",
+  "subtype": "Leshy",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": ""
+  },
+  "hp": {
+    "average": 72,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 16,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +9, Ref +12, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +12 (1d20+12); __Nature__: +10 (1d20+10); __Stealth__: +12 (1d20+12); ",
+    "list": {
+      "Athletics": "+12",
+      "Nature": "+10",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common",
+    "Druidic",
+    "Sylvan; speak with plants (carnivorous plants only)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Verdant Burst",
+      "text": "(healing); As sunflower leshy, except plants regain 3d6 (3d6) Hit Points and the area sprouts flytraps instead of sunflowers."
+    },
+    {
+      "name": "Amalgam",
+      "text": "⬻ (polymorph, primal, transmutation); A flytrap leshy can combine itself with an adjacent and willing flytrap leshy that is not currently affected by Amalgam. The leshy using Amalgam physically merges with the target, restoring 3d8 (3d8) Hit Points to the target. The leshy can Sustain a Spell to continue Amalgam, but once they stop, the target leshy takes 3d8 (3d8) damage. If the target leshy dies, Amalgam ends at once and the original leshy gains the dying condition or increases their dying condition value by 1 if they were already dying. As long as Amalgam is sustained, the target leshy gains a +1 status bonus to attack rolls and saving throws, its AC increases to 21, and it gains an additional reaction at the start of each turn."
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, polymorph, primal, transmutation); The flytrap leshy transforms into a Small flytrap. This ability otherwise uses the effects of tree shape."
+    },
+    {
+      "name": "Flytrap Toxin",
+      "text": "(poison); Saving Throw DC 19 Fortitude. Maximum Duration 6 rounds Stage 1 sickened 1 (1 round) Stage 2 sickened 2 (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ flytrap mouth +13 (versatile s); Damage 1d8+6 (1d8+6) piercing plus 1d6 (1d6) acid and flytrap toxin"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ flytrap hand +13 (agile, versatile s); Damage 1d6+6 (1d6+6) piercing plus 1d6 (1d6) acid and flytrap toxin"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ spittle +11 (acid, range increment 10 feet); Damage 1d6+6 (1d6+6) acid plus flytrap toxin"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      1,
+      0,
+      3,
+      2
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Oceanid",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "water",
+  "alignment": "CN",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 21,
+    "notes": "dex +4, dodge +1, natural +6",
+    "touch": 15,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 76,
+    "formula": "9d6+45"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 80 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 19,
+    "con": 20,
+    "int": 14,
+    "wis": 19,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +8, Ref +10, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +17, Handle Animal +14, Intimidate +14, Knowledge (nature) +14, Perception +16, Sense Motive +16, Stealth +16, Swim +22",
+    "list": {
+      "Diplomacy": "+17",
+      "Handle Animal": "+14",
+      "Intimidate": "+14",
+      "Perception": "+16",
+      "Sense Motive": "+16",
+      "Stealth": "+16",
+      "Swim": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "tremorsense",
+    "tremorsense_other"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Aquan",
+    "Common",
+    "Sylvan",
+    "speak with animals (sea creatures only)"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 4,
+  "feats": [
+    "Combat Casting",
+    "Defensive Combat Training",
+    "Dodge",
+    "Improved Initiative",
+    "Mobility"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +6 (1d4+3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "waterspout +8 (7d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This beautiful woman is clad only in sea foam and her long, white hair, which cascades over her body.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 26,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

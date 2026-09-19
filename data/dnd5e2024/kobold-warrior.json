@@ -1,0 +1,83 @@
+{
+  "name": "Kobold Warrior",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Small",
+  "type": "Dragon",
+  "subtype": "",
+  "alignment": "Neutral",
+  "cr": "1/8",
+  "level": null,
+  "xp": 25,
+  "ac": {
+    "value": 14,
+    "notes": ""
+  },
+  "hp": {
+    "average": 7,
+    "formula": "3d6 − 3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 7,
+    "dex": 15,
+    "con": 9,
+    "int": 8,
+    "wis": 7,
+    "cha": 8
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 8,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+2 (12)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Pack Tactics",
+      "text": "The kobold has Advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": "While in sunlight, the kobold has Disadvantage on ability checks and attack rolls."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Dagger",
+      "text": "_Melee or Ranged Attack Roll:_ +4, reach 5 ft. or range 20/60 ft. _Hit:_ 4 (1d4 + 2) Piercing damage. ## Kraken"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

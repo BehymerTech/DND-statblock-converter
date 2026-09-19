@@ -1,0 +1,102 @@
+{
+  "name": "Palace Guard",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 207.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 60,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 16,
+    "int": 10,
+    "wis": 18,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +13, Ref +8, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +12 (1d20+12); __Diplomacy__: +10 (1d20+10); __Intimidation__: +8 (1d20+8); ",
+    "list": {
+      "Athletics": "+12",
+      "Diplomacy": "+10",
+      "Intimidation": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 25,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "chain mail with palace insignia, halberd, simple manacles;"
+    },
+    {
+      "name": "Royal Defender",
+      "text": "Ever loyal, the palace guard gains a +2 circumstance bonus to attack rolls when defending their liege."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ halberd +14 (reach, versatile s); Damage 1d10+7 (1d10+7) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +12 (agile, nonlethal); Damage 1d4+7 (1d4+7) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      3,
+      0,
+      4,
+      2
+    ],
+    "items": "chain mail with palace insignia, halberd, simple manacles;"
+  }
+}

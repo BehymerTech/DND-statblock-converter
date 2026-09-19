@@ -1,0 +1,123 @@
+{
+  "name": "Daitengu",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "native, shapechanger",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 26,
+    "notes": "dex +5, monk +3, natural +2, wis +6",
+    "touch": 24,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 126,
+    "formula": "12d10+60"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 90 ft. (good)"
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 20,
+    "con": 21,
+    "int": 23,
+    "wis": 22,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +9, Ref +13, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +20, Bluff +19, Diplomacy +19, Disguise +22, Fly +24, Intimidate +19, Knowledge (history) +9, Knowledge (local) +9, Knowledge (nobility) +9, Knowledge (religion) +9, Perception +21, Sense Motive +21, Sleight of Hand +20, Stealth +20, Survival +18",
+    "list": {
+      "Acrobatics": "+20",
+      "Bluff": "+19",
+      "Diplomacy": "+19",
+      "Disguise": "+22",
+      "Fly": "+24",
+      "Intimidate": "+19",
+      "Perception": "+21",
+      "Sense Motive": "+21",
+      "Sleight of Hand": "+20",
+      "Stealth": "+20",
+      "Survival": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Common",
+    "Tengu",
+    "speak with animals (birds only)"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 12,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Improved Disarm",
+    "Improved Unarmed Strike",
+    "Quick Draw",
+    "Snatch Arrows",
+    "Stunning Fist",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "unarmed strike +17/+12/+7 (2d6+3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+2 flaming dart +19/+14/+9 (1d4+5 plus 1d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This winged, humanoid ascetic’s face is bright red and boasts a prodigiously long nose.",
+  "meta": {
+    "cmb": "15 (+17 disarm)",
+    "cmd": "39 (41 vs. disarm)",
+    "racialModifiers": [
+      "Disguise 6"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (12 +2 flaming darts, other treasure)"
+      }
+    ]
+  }
+}

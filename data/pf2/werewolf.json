@@ -1,0 +1,128 @@
+{
+  "name": "Werewolf",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 330.",
+  "size": "Medium",
+  "type": "Werecreature",
+  "subtype": "Beast, Human, Humanoid",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 63,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 14,
+    "int": 8,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +11, Ref +9, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Athletics__: +9 (1d20+9); __Survival__: +10 (1d20+10); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Athletics": "+9",
+      "Survival": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Common; wolf empathy"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Wolf Empathy",
+      "text": "(divination, primal); The werewolf can communicate with lupines."
+    },
+    {
+      "name": "Items",
+      "text": "battle axe, composite shortbow (20 arrows), studded leather armor;"
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, polymorph, primal, transmutation); Human with fist +11 for 1d4+8 (1d4+8) bludgeoning, or wolf with Speed 40 feet and jaws with Knockdown."
+    },
+    {
+      "name": "Curse of the Werewolf",
+      "text": "(curse, necromancy, primal); Saving Throw 19 Fortitude."
+    },
+    {
+      "name": "Moon Frenzy",
+      "text": "(polymorph, primal, transmutation); When a full moon appears in the night sky, the werewolf must enter hybrid form, can't Change Shape thereafter, becomes one size larger, increases its reach by 5 feet, and increases the damage of its jaws by 2. When the moon sets or the sun rises, the werewolf returns to humanoid form and is fatigued for 2d4 (2d4) hours."
+    },
+    {
+      "name": "Pack Attack",
+      "text": "The werewolf's Strikes deal 1d6 (1d6) extra damage to creatures within reach of at least two of the werewolf's allies."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ battle axe +11 (sweep); Damage 1d8+8 (1d8+8) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +11 (agile); Damage 1d6+8 (1d6+8) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +11 Damage 1d8+8 (1d8+8) piercing plus curse of the werewolf"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ composite shortbow +9 (deadly 1d10, range increment 60 feet, reload 0); Damage 1d6+4 (1d6+4) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      2,
+      -1,
+      2,
+      1
+    ],
+    "items": "battle axe, composite shortbow (20 arrows), studded leather armor;"
+  }
+}

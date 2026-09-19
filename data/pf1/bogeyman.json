@@ -1,0 +1,118 @@
+{
+  "name": "Bogeyman",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 23,
+    "notes": "deflection +7, dex +5, dodge +1",
+    "touch": 23,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 93,
+    "formula": "17d6+34"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 21,
+    "con": 14,
+    "int": 15,
+    "wis": 16,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +9, Ref +15, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +27, Diplomacy +20, Disable Device +15, Escape Artist +18, Intimidate +28, Knowledge (local) +16, Perception +23, Sense Motive +23, Spellcraft +12, Stealth +35",
+    "list": {
+      "Bluff": "+27",
+      "Diplomacy": "+20",
+      "Disable Device": "+15",
+      "Escape Artist": "+18",
+      "Intimidate": "+28",
+      "Perception": "+23",
+      "Sense Motive": "+23",
+      "Spellcraft": "+12",
+      "Stealth": "+35"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Aklo",
+    "Common",
+    "tongues"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 8,
+  "feats": [
+    "Dodge",
+    "Great Fortitude",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Mobility",
+    "Quicken Spell-Like Ability (phantasmal killer)",
+    "Skill Focus (Stealth)",
+    "Spring Attack",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +13 (1d8+1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Dressed in a long dark coat and a tall hat, this lanky, fanged humanoid exudes an almost palpable aura of horror.",
+  "meta": {
+    "cmb": "+9",
+    "cmd": 32,
+    "racialModifiers": [
+      "Intimidate 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

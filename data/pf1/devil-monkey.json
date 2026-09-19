@@ -1,0 +1,109 @@
+{
+  "name": "Devil Monkey",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Huge",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex +3, natural +8, size -2",
+    "touch": 11,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 67,
+    "formula": "9d8+27"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 17,
+    "con": 16,
+    "int": 2,
+    "wis": 15,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +9, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +13, Climb +14, Intimidate +13, Perception +8",
+    "list": {
+      "Acrobatics": "+13",
+      "Climb": "+14",
+      "Intimidate": "+13",
+      "Perception": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 18,
+  "languages": [],
+  "initiative": "+7",
+  "babOrProficiency": 6,
+  "feats": [
+    "Dazzling Display",
+    "Improved Initiative",
+    "Intimidating Prowess",
+    "Power Attack",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15 (2d8+15 plus puncture armor)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +8 (1d8+10)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering baboon has fiery orange fur, with two tufts of hair curling up like horns on its head.",
+  "meta": {
+    "cmb": "+18",
+    "cmd": 31,
+    "racialModifiers": [
+      "Acrobatics 4",
+      "Climb 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm hills or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or troop (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

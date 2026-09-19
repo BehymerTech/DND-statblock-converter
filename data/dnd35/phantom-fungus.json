@@ -1,0 +1,97 @@
+{
+  "name": "Phantom Fungus",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Plant",
+  "subtype": "",
+  "alignment": "Always neutral",
+  "cr": "3",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 14,
+    "notes": "+4 natural",
+    "touch": 10,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 15,
+    "formula": "2d8+6"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft. (4 squares)"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 10,
+    "con": 16,
+    "int": 2,
+    "wis": 11,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +6, Ref +0, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Listen +4, Move Silently +6, Spot +4;",
+    "list": {
+      "Listen": "+4",
+      "Move Silently": "+6",
+      "Spot": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 1,
+  "feats": [
+    "Alertness"
+  ],
+  "traits": [
+    {
+      "name": "Special Qualities",
+      "text": "Low-light vision, plant traits, greater invisibility"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Bite +3 melee (1d6+3)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +3 melee (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "This creature looks like a brown and greenish-brown mass with a cluster of nodules atop the main mass, though it is visible only when dead. A cluster of nodules atop the main mass serve as sensory organs. The creature feeds and attacks with a gaping maw lined with rows of teeth. Four stumpy legs support the creature and allow it to move about. This ambulatory fungus is naturally invisible, making it a feared predator among subterranean inhabitants.",
+    "grapple": "+3",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Underground",
+    "organization": "Solitary",
+    "treasure": "None",
+    "advancement": "3-4 HD (Medium); 5-6 HD (Large)",
+    "leveladjustment": "---"
+  }
+}

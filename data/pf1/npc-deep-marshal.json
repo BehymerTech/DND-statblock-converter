@@ -1,0 +1,113 @@
+{
+  "name": "NPC Deep Marshal",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "alignment": "LN",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 26,
+    "notes": "armor +4, deflection +4, dex +2, dodge +1, natural +3, shield +2",
+    "touch": 17,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 130,
+    "formula": "16d6+72"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 14,
+    "con": 18,
+    "int": 22,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +13, Ref +11, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +14, Climb +2, Craft (sculpture) +14, Knowledge (arcana) +24, Knowledge (dungeoneering) +24, Knowledge (engineering) +24, Knowledge (geography) +19, Knowledge (history) +19, Knowledge (planes) +19, Perception +17, Sense Motive +12, Spellcraft +24, Survival +7, Swim +2",
+    "list": {
+      "Appraise": "+14",
+      "Climb": "+2",
+      "Perception": "+17",
+      "Sense Motive": "+12",
+      "Spellcraft": "+24",
+      "Survival": "+7",
+      "Swim": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see invisibility"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Giant",
+    "Gnome",
+    "Goblin",
+    "Orc",
+    "Terran",
+    "Undercommon"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 8,
+  "feats": [
+    "Combat Casting",
+    "Craft Wondrous Item",
+    "Dodge",
+    "Forge Ring",
+    "Greater Spell Focus (enchantment)",
+    "Improved Initiative",
+    "Iron Will",
+    "Quicken Spell",
+    "Scribe Scroll",
+    "Spell Focus (enchantment)",
+    "Spell Penetration",
+    "Still Spell"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 spell storing warhammer +8/+3 (1d8/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "light crossbow +10 (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Dwarf",
+    "class": "abjurer 16",
+    "cmb": "+7",
+    "cmd": "24 (28 vs. bull rush or trip)"
+  }
+}

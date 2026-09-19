@@ -1,0 +1,104 @@
+{
+  "name": "Girallon",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Always neutral",
+  "cr": "6",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": "-1 size, +3 Dex, +4 natural",
+    "touch": 12,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 58,
+    "formula": "7d10+20"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": 40,
+    "burrow": null,
+    "notes": "40 ft. (8 squares), climb 40 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 17,
+    "con": 14,
+    "int": 2,
+    "wis": 12,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +7, Ref +8, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +14, Move Silently +8, Spot +6;",
+    "list": {
+      "Climb": "+14",
+      "Move Silently": "+8",
+      "Spot": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 7,
+  "feats": [
+    "Iron Will",
+    "Toughness (2)"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Rend 2d4+9"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., low-light vision, scent"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Claw +12 melee (1d4+6)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "4 claws +12 melee (1d4+6) and bite +7 melee (1d8+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Girallons are savage, magical cousins of the gorilla. When moving on the ground, a girallon walks on its legs and lower arms. An adult girallon is about 8 feet tall, broad-chested, and covered in thick, pure white fur. It weighs about 800 pounds.",
+    "grapple": "+17",
+    "spaceReach": "10 ft./10 ft.",
+    "environment": "Warm forests",
+    "organization": "Solitary or company (5-8)",
+    "treasure": "None",
+    "advancement": "8-10 HD (Large); 11-21 HD (Huge)",
+    "leveladjustment": "---"
+  }
+}

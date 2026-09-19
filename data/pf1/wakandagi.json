@@ -1,0 +1,120 @@
+{
+  "name": "Wakandagi",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "native, water",
+  "alignment": "NG",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 28,
+    "notes": "dex +6, dodge +1, natural +12, size -1",
+    "touch": 16,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 200,
+    "formula": "16d10+112"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., swim 80 ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 23,
+    "con": 24,
+    "int": 13,
+    "wis": 19,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +17, Ref +13, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +20, Diplomacy +20, Intimidate +20, Knowledge (nature) +15, Knowledge (planes) +15, Perception +23, Spellcraft +9, Stealth +20, Survival +20, Swim +23",
+    "list": {
+      "Acrobatics": "+20",
+      "Diplomacy": "+20",
+      "Intimidate": "+20",
+      "Perception": "+23",
+      "Spellcraft": "+9",
+      "Stealth": "+20",
+      "Survival": "+20",
+      "Swim": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect evil",
+    "detect magic",
+    "low-light vision",
+    "scent",
+    "mistsight"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 16,
+  "feats": [
+    "Dodge",
+    "Lightning Reflexes",
+    "Mobility",
+    "Multiattack",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Spring Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +25 (1d8+10), bite +25 (1d8+10), 2 hooves +23 (1d8+5), tail slap +23 (1d8+5)"
+    },
+    {
+      "name": "Ranged",
+      "text": "water bomb +21 touch (bull rush)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This antlered beast combines the features of an elegant deer and a slithering serpent.",
+  "meta": {
+    "cmb": "+27",
+    "cmd": "44 (48 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate rivers"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

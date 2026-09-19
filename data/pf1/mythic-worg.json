@@ -1,0 +1,107 @@
+{
+  "name": "Mythic Worg",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Medium",
+  "type": "magical beast",
+  "subtype": "mythic",
+  "alignment": "NE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex +2, natural +3",
+    "touch": 12,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 36,
+    "formula": "4d10+14"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 15,
+    "con": 13,
+    "int": 6,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +5, Ref +6, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +11, Stealth +9, Survival +5",
+    "list": {
+      "Perception": "+11",
+      "Stealth": "+9",
+      "Survival": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common",
+    "Goblin"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 4,
+  "feats": [
+    "Run",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +7 (1d8+4 plus trip)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A terrifying darkness surrounds this giant wolf.",
+  "meta": {
+    "cmb": "+7",
+    "cmd": "19 (23 vs. trip)",
+    "racialModifiers": [
+      "Perception 2",
+      "Stealth 2",
+      "Survival 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests and plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-11)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

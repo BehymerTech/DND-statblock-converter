@@ -1,0 +1,115 @@
+{
+  "name": "White-Eyed Torturer",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Monster Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "derro",
+  "alignment": "CE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 25,
+    "notes": "armor +6, deflection +1, dex +3, dodge +1, natural +3, size +1",
+    "touch": 16,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 144,
+    "formula": "3d8+11d8+81"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 17,
+    "con": 18,
+    "int": 18,
+    "wis": 7,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +12, Ref +11, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +13, Craft (alchemy) +17, Disable Device +15, Heal +2, Knowledge (arcana) +12, Knowledge (nature) +18, Perception +11, Sense Motive +12, Sleight of Hand +15, Spellcraft +21, Stealth +16, Use Magic Device +11",
+    "list": {
+      "Bluff": "+13",
+      "Disable Device": "+15",
+      "Heal": "+2",
+      "Perception": "+11",
+      "Sense Motive": "+12",
+      "Sleight of Hand": "+15",
+      "Spellcraft": "+21",
+      "Stealth": "+16",
+      "Use Magic Device": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Common",
+    "Dwarven",
+    "Goblin",
+    "Undercommon"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 10,
+  "feats": [
+    "Alertness",
+    "Brew Potion",
+    "Combat Casting",
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Initiative",
+    "Power Attack",
+    "Throw Anything",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "aklys +13/+8 (1d6+2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk repeating light crossbow +15/+10 (1d6/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A scorpion’s claw and twisted goat legs, all stitched into place with ragged black thread, replace three of this wild-haired man’s limbs.",
+  "meta": {
+    "race": "Derro",
+    "class": "alchemist (vivisectionist) 11 (Pathfinder RPG Bestiary 70, Pathfinder RPG Advanced Player’s Guide 26, Pathfinder RPG Ultimate Magic 20)",
+    "cmb": "+11",
+    "cmd": 26,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      }
+    ]
+  }
+}

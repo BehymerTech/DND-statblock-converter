@@ -1,0 +1,112 @@
+{
+  "name": "Shaitan",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary, Pathfinder No. 18: Descent into Midnight",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "earth, extraplanar",
+  "alignment": "LN",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "dex +1, natural +10, size -1",
+    "touch": 10,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 85,
+    "formula": "9d10+36"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., burrow 60 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 13,
+    "con": 19,
+    "int": 14,
+    "wis": 14,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +10, Ref +4, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +14, Bluff +14, Climb +25, Craft (gemcutting) +14, Knowledge (engineering) +14, Perception +14, Sense Motive +14, Spellcraft +14",
+    "list": {
+      "Appraise": "+14",
+      "Bluff": "+14",
+      "Climb": "+25",
+      "Perception": "+14",
+      "Sense Motive": "+14",
+      "Spellcraft": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Aquan",
+    "Auran",
+    "Common",
+    "Ignan",
+    "Terran",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Casting",
+    "Greater Bull Rush",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Power Attack",
+    "Quicken Spell-Like Ability (glitterdust)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +13 (2d6+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This being resembles a towering human with skin of polished stone and glittering agate eyes.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": 26,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Earth)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, company (3-6), or band (7-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (masterwork scimitar, other treasure)"
+      }
+    ]
+  }
+}

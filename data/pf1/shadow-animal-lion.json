@@ -1,0 +1,109 @@
+{
+  "name": "Shadow Animal Lion",
+  "sourceSystem": "pf1",
+  "source": "Nidal, Land of Shadows",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "native",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 16,
+    "notes": "dex +5, natural +2, size -1",
+    "touch": 14,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 32,
+    "formula": "5d8+10"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 21,
+    "con": 15,
+    "int": 4,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +6, Ref +9, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +13, Intimidate +12, Perception +12, Stealth +13",
+    "list": {
+      "Acrobatics": "+13",
+      "Intimidate": "+12",
+      "Perception": "+12",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Common",
+    "Infernal (can't speak)"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Run",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +7 (1d8+5 plus grab), 2 claws +7 (1d4+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This lion has washed-out coloration and a sharp shadow that extends an unnaturally long distance from its claws.",
+  "meta": {
+    "cmb": "9 (+13 grapple)",
+    "cmd": "24 (28 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics 4",
+      "Intimidate 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pride (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "name": "Owlbear",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "alignment": "Unaligned",
+  "cr": "3",
+  "level": null,
+  "xp": 700,
+  "ac": {
+    "value": 13,
+    "notes": ""
+  },
+  "hp": {
+    "average": 59,
+    "formula": "7d10 + 21"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": 40,
+    "burrow": null,
+    "notes": "40 ft., Climb 40 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 12,
+    "con": 17,
+    "int": 3,
+    "wis": 12,
+    "cha": 7
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +5",
+    "list": {
+      "Perception": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 15,
+  "languages": [],
+  "initiative": "+1 (11)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The owlbear makes two Rend attacks."
+    },
+    {
+      "name": "Rend",
+      "text": "_Melee Attack Roll:_ +7, reach 5 ft. _Hit:_ 14 (2d8 + 5) Slashing damage. ## Pegasus"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

@@ -1,0 +1,95 @@
+{
+  "name": "NPC Mounted Paragon",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LG",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 28,
+    "notes": "armor +11, deflection +1, dex +1, natural +1, shield +4",
+    "touch": 12,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 148,
+    "formula": "16d10+56"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 12,
+    "con": 16,
+    "int": 10,
+    "wis": 8,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +17, Ref +10, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Handle Animal +9, Heal +6, Intimidate +10, Perception +15, Ride +15, Sense Motive +10",
+    "list": {
+      "Handle Animal": "+9",
+      "Heal": "+6",
+      "Intimidate": "+10",
+      "Perception": "+15",
+      "Ride": "+15",
+      "Sense Motive": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 25,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 16,
+  "feats": [
+    "Improved Critical (lance)",
+    "Improved Overrun",
+    "Mounted Combat",
+    "Power Attack",
+    "Ride-By Attack",
+    "Spirited Charge",
+    "Trample",
+    "Vital Strike",
+    "Weapon Focus (lance)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 holy lance +24/+19/+14/+9 (1d8+7/19-20/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "paladin 16",
+    "cmb": "22 (+24 overrun)",
+    "cmd": "34 (36 vs. overrun)"
+  }
+}

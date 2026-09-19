@@ -1,0 +1,117 @@
+{
+  "name": "Shipmind",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 88: Valley of the Brain Collectors",
+  "size": "Huge",
+  "type": "ooze",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 27,
+    "notes": "dex +9, armor +10, size -2",
+    "touch": 17,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 161,
+    "formula": "14d8+98"
+  },
+  "speed": {
+    "walk": 0,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "0 ft. or 10 ft., 0 ft. or_other limited mobility ft."
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 28,
+    "con": 24,
+    "int": 21,
+    "wis": 23,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +11, Ref +13, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (engineering) +19, Knowledge (geography) +19, Knowledge (nature) +19, Knowledge (planes) +19, Knowledge (religion) +19, Perception +20, Sense Motive +20",
+    "list": {
+      "Perception": "+20",
+      "Sense Motive": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "detect good",
+    "detect law",
+    "detect magic"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "Undercommon",
+    "Protean",
+    "telepathy 60 ft."
+  ],
+  "initiative": "+13",
+  "babOrProficiency": 10,
+  "feats": [
+    "Combat Casting",
+    "Combat Reflexes",
+    "Improved Critical (plasma bolt)",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack",
+    "Quicken Spell-Like Ability (touch of idiocy)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "3 slams +20 (1d8+12 plus 1d4 Int damage and grab)"
+    },
+    {
+      "name": "Ranged",
+      "text": "plasma bolt +17 touch (10d6 plasma/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This yellowy viscous liquid bubbles in a large tank suspended by strangely organic cables. Wisps of white gas occasionally escape the roiling fluid.",
+  "meta": {
+    "cmb": "+24",
+    "cmd": "43 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Dominion of the Black ships)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mostly gemstones)"
+      }
+    ]
+  }
+}

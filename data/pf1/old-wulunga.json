@@ -1,0 +1,91 @@
+{
+  "name": "Old Wulunga",
+  "sourceSystem": "pf1",
+  "source": "Mystery Monsters Revisited",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 20,
+    "notes": "dex +5, natural +6, size -1",
+    "touch": 14,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 68,
+    "formula": "8d10+24"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., swim 50 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 20,
+    "con": 17,
+    "int": 2,
+    "wis": 15,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +9, Ref +11, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Escape Artist +7, Perception +11, Stealth +10, Swim +11",
+    "list": {
+      "Escape Artist": "+7",
+      "Perception": "+11",
+      "Stealth": "+10",
+      "Swim": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "keen scent",
+    "low-light vision"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 8,
+  "feats": [
+    "Improved Critical (gore)",
+    "Improved Roar",
+    "Skill Focus (Perception)",
+    "Skill Focus (Stealth)",
+    "Weapon Focus (gore)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +11 (2d6+4/19-20 plus disease)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This bloated, pinniped-like mammal is covered in salty grime, and its sturdy, blunt tusks promise an agonizing death.",
+  "meta": {
+    "race": "Male",
+    "class": "advanced muck bunyip",
+    "cmb": "+12",
+    "cmd": 27
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Faun",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CG",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 16,
+    "notes": "dex +3, natural +3",
+    "touch": 13,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 13,
+    "formula": "3d6+3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 16,
+    "con": 13,
+    "int": 11,
+    "wis": 14,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +2, Ref +6, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +8, Bluff +9, Perception +8, Perform (wind) +11, Sense Motive +7, Stealth +9, Survival +4",
+    "list": {
+      "Acrobatics": "+8",
+      "Bluff": "+9",
+      "Perception": "+8",
+      "Sense Motive": "+7",
+      "Stealth": "+9",
+      "Survival": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 1,
+  "feats": [
+    "Point-Blank Shot",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +4 (1d4+2/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "shortbow +4 (1d6/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This capricious figure has the upper torso, arms, and head of a man, but goatlike legs, a tail, and curling horns on his head.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": 16,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or band (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (dagger, shortbow with 20 arrows, masterwork panpipes, other treasure)"
+      }
+    ]
+  }
+}

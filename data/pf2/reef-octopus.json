@@ -1,0 +1,108 @@
+{
+  "name": "Reef Octopus",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 187.",
+  "size": "Small",
+  "type": "Aquatic",
+  "subtype": "Animal",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 feet, swim 30 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 18,
+    "con": 12,
+    "int": 2,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +6, Ref +9, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +6 (1d20+6); __Stealth__: +9 (1d20+9); ",
+    "list": {
+      "Athletics": "+6",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Camouflage",
+      "text": "The blue-ringed octopus can change the color of its skin to Hide even if it doesn't have cover."
+    },
+    {
+      "name": "Ink Cloud",
+      "text": "⬻ The reef octopus emits a cloud of dark-brown ink in a 10-foot emanation. This cloud has no effect outside of water. Creatures inside the cloud are hidden and can't use their sense of smell. The cloud dissipates after 1 minute. The octopus can't use Ink Cloud again for 2d6 (2d6) rounds."
+    },
+    {
+      "name": "Jet",
+      "text": "⬺ The reef octopus moves up to 80 feet in a straight line through the water without triggering reactions."
+    },
+    {
+      "name": "Reef Octopus Venom",
+      "text": "(poison); Saving Throw DC 17 Fortitude. Maximum Duration 6 rounds Stage 1 1d4 (1d4) poison damage and flat-footed (1 round) Stage 2 1d6 (1d6) poison damage and flat-footed (1 round) Stage 3 1d8 (1d8) poison damage and flat-footed (1 round)"
+    },
+    {
+      "name": "Writhing Arms",
+      "text": "⬺ The reef octopus makes up to four arm Strikes with different arms, each against a different target. These attacks count toward the octopus's multiple attack penalty, but the multiple attack penalty doesn't increase until after it makes all of its attacks."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ beak +9 (finesse); Damage 1d10+1 (1d10+1) piercing plus reef octopus venom"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ arm +9 (agile, finesse); Damage 1d6+1 (1d6+1) bludgeoning plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      4,
+      1,
+      -4,
+      1,
+      0
+    ]
+  }
+}

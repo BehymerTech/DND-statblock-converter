@@ -1,0 +1,108 @@
+{
+  "name": "Poacher",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 219.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 30,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 12,
+    "int": 10,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +7, Ref +10, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Crafting__: +4 (1d20+4); __Deception__: +4 (1d20+4); __Nature__: +7 (1d20+7); __Stealth__: +8 (1d20+8); __Survival__: +7 (1d20+7); ",
+    "list": {
+      "Crafting": "+4",
+      "Deception": "+4",
+      "Nature": "+7",
+      "Stealth": "+8",
+      "Survival": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 19,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Forager",
+      "text": "While using Survival to Subsist, if the hunter rolls a failure or a critical failure, they get a success instead. If the hunter rolls a success, they can provide food for 4 additional creatures that eat about as much as a human, or 8 creatures on a critical success."
+    },
+    {
+      "name": "Snare Crafting",
+      "text": "The poacher can use the Crafting skill to create the following snares: alarm snare, hampering snare, marking snare, and signaling snare. The poacher can create four snares each day without paying for the materials, using 3 Interact actions to set up each snare."
+    },
+    {
+      "name": "Items",
+      "text": "club, composite shortbow (20 arrows), padded armor, snare kit;"
+    },
+    {
+      "name": "Hunt Prey",
+      "text": "⬻ (concentrate); The poacher designates a single creature they can see and hear, or one they're Tracking, as their prey. The poacher gains a +2 circumstance bonus to Perception checks to Seek the prey and to Survival checks to Track the prey. The first time the poacher hits the designated prey in a round, they deal an additional 1d8 (1d8) precision damage. The poacher also ignores the penalty for making ranged attacks within their second range increment. These effects last until the poacher uses Hunt Prey again."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ club +8 Damage 1d6+5 (1d6+5) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ composite shortbow +10 (deadly 1d10, propulsive, range increment 60 feet, reload 0); Damage 1d6+3 (1d6+3) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      4,
+      1,
+      0,
+      3,
+      0
+    ],
+    "items": "club, composite shortbow (20 arrows), padded armor, snare kit;"
+  }
+}

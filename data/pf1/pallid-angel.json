@@ -1,0 +1,116 @@
+{
+  "name": "Pallid Angel",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 141: Last Watch",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "evil, extraplanar",
+  "alignment": "NE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 25,
+    "notes": "dex +3, natural +12",
+    "touch": 13,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 150,
+    "formula": "12d10+84"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 90 ft. (good)"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 17,
+    "con": 25,
+    "int": 14,
+    "wis": 16,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +15, Ref +7, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +20, Diplomacy +20, Fly +19, Intimidate +24, Knowledge (arcana) +12, Knowledge (planes) +12, Knowledge (religion) +15, Perception +18, Profession (soldier) +18, Sense Motive +18, Spellcraft +12",
+    "list": {
+      "Bluff": "+20",
+      "Diplomacy": "+20",
+      "Fly": "+19",
+      "Intimidate": "+24",
+      "Perception": "+18",
+      "Sense Motive": "+18",
+      "Spellcraft": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "detect magic",
+    "low-light vision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 12,
+  "feats": [
+    "Bloody Assault",
+    "Dreadful Carnage",
+    "Flyby Attack",
+    "Furious Focus",
+    "Improved Initiative",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 unholy scythe +19/+14/+9 (2d4+10/×4 plus 2d6 vs. good creatures)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This macabre beauty holds her ebon-feathered wings spread behind her. Her skin and clothing are soaked and splattered with blood, wine, and other fluids.",
+  "meta": {
+    "cmb": "+18",
+    "cmd": 31,
+    "racialModifiers": [
+      "Intimidate 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or warband (1 plus 1 9th-level cleric of Urgathoa and 3-12 6th-level fighters)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+1 unholy scythe, other treasure)"
+      }
+    ]
+  }
+}

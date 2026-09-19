@@ -1,0 +1,102 @@
+{
+  "name": "Werewasp (Hybrid Form)",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "elf, shapechanger",
+  "alignment": "CN",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 22,
+    "notes": "armor +6, dex +2, dodge +1, natural +4, size -1",
+    "touch": 12,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 51,
+    "formula": "5d8+25"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 18,
+    "int": 8,
+    "wis": 18,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +8, Ref +4, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +0, Knowledge (religion) +3, Perception +8, Stealth -1",
+    "list": {
+      "Fly": "+0",
+      "Perception": "+8",
+      "Stealth": "-1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Elven"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 3,
+  "feats": [
+    "Combat Casting",
+    "Dodge",
+    "Selective Channeling"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "whip +4 (1d3+4 nonlethal), sting +1 (1d8+2 plus curse of entothropy and poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "With a stinger-tipped abdomen, large wings, compound eyes, and a pair of mandibles, this woman is more wasp than elf.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": 22,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cult (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (chainmail, whip, other treasure)"
+      }
+    ]
+  }
+}

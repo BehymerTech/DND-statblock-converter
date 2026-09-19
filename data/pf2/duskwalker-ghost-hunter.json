@@ -1,0 +1,117 @@
+{
+  "name": "Duskwalker Ghost Hunter",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 262.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Duskwalker, Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 56,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +12, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +10 (1d20+10); __Athletics__: +8 (1d20+8); __Deception__: +6 (1d20+6); __Intimidation__: +6 (1d20+6); __Nature__: +8 (1d20+8); __Stealth__: +12 (1d20+12); __Survival__: +8 (1d20+8); ",
+    "list": {
+      "Acrobatics": "+10",
+      "Athletics": "+8",
+      "Deception": "+6",
+      "Intimidation": "+6",
+      "Nature": "+8",
+      "Stealth": "+12",
+      "Survival": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Necril"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Ghost Hunter",
+      "text": "The duskwalker's weapons have the benefits of the ghost touch property rune on attacks against incorporeal undead."
+    },
+    {
+      "name": "Hunt Prey",
+      "text": "⬻ The duskwalker designates as its prey a single creature that it can see and hear or that it is Tracking. It gains a +2 circumstance bonus to Perception checks when it Seeks its prey and a +2 circumstance bonus to Survival checks when it Tracks its prey. It also ignores the penalty for making ranged attacks within its second range increment against its prey. Lastly, it gains a +2 circumstance bonus to Deception checks, Intimidation checks, and Stealth checks against its prey and to any check to Recall Knowledge about its prey, as well as a +1 circumstance bonus to AC against its prey's attacks. The duskwalker can have only one prey designated at a time."
+    },
+    {
+      "name": "Hunted Shot",
+      "text": "⬻ Frequency once per round Effect The duskwalker makes two longbow Strikes against its hunted prey. If both Strikes hit, combine their damage for the purpose of resistances and weaknesses."
+    },
+    {
+      "name": "Items",
+      "text": "composite longbow (20 arrows), hatchet (2), leather armor;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ hatchet +12 (agile, sweep); Damage 1d6+5 (1d6+5) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ composite longbow +14 (deadly 1d10, propulsive, range increment 100 feet, reload 0, volley 30 feet); Damage 1d8+4 (1d8+4) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ hatchet +14 (agile, sweep, thrown 10 feet); Damage 1d6+5 (1d6+5) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      4,
+      1,
+      0,
+      2,
+      0
+    ],
+    "items": "composite longbow (20 arrows), hatchet (2), leather armor;"
+  }
+}

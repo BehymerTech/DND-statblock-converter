@@ -1,0 +1,103 @@
+{
+  "name": "Hiracapath",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 104: Wrath of Thrune",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "extraplanar, good, lawful",
+  "alignment": "LG",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 18,
+    "notes": "dex +1, natural +8, size -1",
+    "touch": 10,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 94,
+    "formula": "9d10+45"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 12,
+    "con": 21,
+    "int": 3,
+    "wis": 16,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +11, Ref +6, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +12, Perception +12, Survival +12",
+    "list": {
+      "Intimidate": "+12",
+      "Perception": "+12",
+      "Survival": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Celestial (can’t speak)"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 9,
+  "feats": [
+    "Greater Bull Rush",
+    "Improved Bull Rush",
+    "Lightning Reflexes",
+    "Multiattack",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +14 (1d8+6), 2 hooves +12 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Silvery armor in the shape of a powerful ram barely contains the brilliant radiance shining from within it, and curling, steel horns emerge from its helm.",
+  "meta": {
+    "cmb": "16 (+20 bull rush)",
+    "cmd": "27 (29 vs. bull rush, 31 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Heaven)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or herd (3-16)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

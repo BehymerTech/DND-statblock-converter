@@ -1,0 +1,97 @@
+{
+  "name": "The Mourning One",
+  "sourceSystem": "pf1",
+  "source": "Mystery Monsters Revisited",
+  "size": "Colossal",
+  "type": "aberration",
+  "subtype": "aquatic",
+  "alignment": "CE",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 29,
+    "notes": "dex +3, natural +24, size -8",
+    "touch": 5,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 387,
+    "formula": "25d10+250"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 44,
+    "dex": 16,
+    "con": 29,
+    "int": 2,
+    "wis": 11,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +23, Ref +19, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Escape Artist +5, Perception +8, Stealth +19, Swim +25",
+    "list": {
+      "Escape Artist": "+5",
+      "Perception": "+8",
+      "Stealth": "+19",
+      "Swim": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [],
+  "initiative": "+7",
+  "babOrProficiency": 25,
+  "feats": [
+    "Critical Focus",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Improved Natural Attack (bite)",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Sickening Critical",
+    "Skill Focus (Stealth)",
+    "Stealthy",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +38 (6d6+17/19-20 plus 1d6 cold and grab), tail slap +33 (4d6+8 plus 1d6 cold and grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This colossal serpent’s skin is like that of decayed, bruised corpses. Cancers rupture from its flesh, and a terrible sickening flow of black blood oozes from each break and sores.",
+  "meta": {
+    "race": "Unique",
+    "class": "black-blooded sea serpent (Pathfinder RPG Bestiary 244, Pathfinder Adventure Path",
+    "cmb": "46 (+48 bull rush, +50 grapple)",
+    "cmd": "59 (61 vs. bull rush, can’t be tripped)"
+  }
+}

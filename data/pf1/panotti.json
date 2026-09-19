@@ -1,0 +1,103 @@
+{
+  "name": "Panotti",
+  "sourceSystem": "pf1",
+  "source": "Murder's Mark",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "NG",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 16,
+    "notes": "armor +2, dex +1, dodge +1, natural +2",
+    "touch": 12,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d8+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 20 ft. (poor)"
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 13,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +5, Ref +2, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +3, Perception +2, Survival +6",
+    "list": {
+      "Fly": "+3",
+      "Perception": "+2",
+      "Survival": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense"
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Dodge",
+    "Hover",
+    "Multiattack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "short sword +4 (1d6+2/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This bald humanoid looks strikingly human except for the long folds of skin that droop from his head and neck to just above his ankles.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": 16,
+    "racialModifiers": [
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or tribe (5-11)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (leather armor, short sword, other treasure)"
+      }
+    ]
+  }
+}

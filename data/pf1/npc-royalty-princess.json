@@ -1,0 +1,101 @@
+{
+  "name": "NPC Royalty (Princess)",
+  "sourceSystem": "pf1",
+  "source": "GameMastery Guide",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 20,
+    "notes": "armor +5, dex +3, dodge +1, shield +1",
+    "touch": 14,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 40,
+    "formula": "8d8+4"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 9,
+    "dex": 16,
+    "con": 10,
+    "int": 12,
+    "wis": 8,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +3, Ref +6, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +13, Diplomacy +13, Disguise +13, Escape Artist +4, Handle Animal +8, Intimidate +13, Knowledge (nobility) +10, Perception +8, Perform (dance) +10, Perform (string) +10, Ride +8, Sense Motive +5, Sleight of Hand +4, Stealth +4",
+    "list": {
+      "Bluff": "+13",
+      "Diplomacy": "+13",
+      "Disguise": "+13",
+      "Escape Artist": "+4",
+      "Handle Animal": "+8",
+      "Intimidate": "+13",
+      "Perception": "+8",
+      "Ride": "+8",
+      "Sense Motive": "+5",
+      "Sleight of Hand": "+4",
+      "Stealth": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Elven"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 6,
+  "feats": [
+    "Dodge",
+    "Mobility",
+    "Two-Weapon Defense",
+    "Two-Weapon Fighting",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk rapier +10/+5 (1d6-1/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk dagger +10 (1d4-1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "aristocrat 8",
+    "cmb": "+5",
+    "cmd": 19
+  }
+}

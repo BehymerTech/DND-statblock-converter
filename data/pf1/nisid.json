@@ -1,0 +1,112 @@
+{
+  "name": "Nisid",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 122: Into the Shattered Continent",
+  "size": "Small",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CG",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +3, natural +3, size +1",
+    "touch": 14,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 33,
+    "formula": "6d6+12"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 9,
+    "dex": 16,
+    "con": 15,
+    "int": 13,
+    "wis": 16,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +4, Ref +8, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +13, Climb +8, Heal +5, Knowledge (geography) +7, Knowledge (nature) +7, Perception +14, Sense Motive +14, Stealth +16, Survival +18",
+    "list": {
+      "Bluff": "+13",
+      "Climb": "+8",
+      "Heal": "+5",
+      "Perception": "+14",
+      "Sense Motive": "+14",
+      "Stealth": "+16",
+      "Survival": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 3,
+  "feats": [
+    "Alertness",
+    "Self-Sufficient",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +7 (1d3-1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "longbow +7 (1d6/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This small, naked creature looks like a lithe halfling, but with long, tapered ears and tough, brown skin. His hair is unkempt and his flesh is weathered, but his large eyes glitter violet.",
+  "meta": {
+    "cmb": "+1",
+    "cmd": 14,
+    "racialModifiers": [
+      "Survival 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any island"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (dagger, spear, longbow with 20 arrows, other treasure)"
+      }
+    ]
+  }
+}

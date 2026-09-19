@@ -1,0 +1,110 @@
+{
+  "name": "Great Cyclops",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Pathfinder No. 33: The Varnhold Vanishing",
+  "size": "Huge",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "CE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 26,
+    "notes": "armor +4, dex +1, natural +13, size -2",
+    "touch": 9,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 195,
+    "formula": "17d8+119"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft.,  35 ft. in armor"
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 13,
+    "con": 25,
+    "int": 7,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +12, Ref +6, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +22",
+    "list": {
+      "Perception": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Common",
+    "Cyclops",
+    "Giant"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 12,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Critical Focus",
+    "Diehard",
+    "Endurance",
+    "Improved Bull Rush",
+    "Iron Will",
+    "Power Attack",
+    "Sickening Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk greatclub +24/+19/+14 (3d8+19), gore +18 (1d8+6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +12 (2d6+19)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This misshapen but incredibly muscular humanoid has a single huge bloodshot eye set under a short, jagged horn on its brow.",
+  "meta": {
+    "cmb": "+27",
+    "cmd": 38,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any temperate or tropical"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, colony (2-5), or tribe (6-14)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (masterwork greatclub, hide armor, other treasure)"
+      }
+    ]
+  }
+}

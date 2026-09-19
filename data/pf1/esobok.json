@@ -1,0 +1,107 @@
+{
+  "name": "Esobok",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Pathfinder No. 80: Empty Graves",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "extraplanar, psychopomp",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex +3, natural +2",
+    "touch": 13,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d10+8"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 17,
+    "con": 14,
+    "int": 5,
+    "wis": 14,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +6, Ref +4, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +8, Intimidate +8, Perception +2, Stealth +9, Survival +8",
+    "list": {
+      "Climb": "+8",
+      "Intimidate": "+8",
+      "Perception": "+2",
+      "Stealth": "+9",
+      "Survival": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect undead",
+    "low-light vision",
+    "scent",
+    "spiritsense"
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Infernal"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 4,
+  "feats": [
+    "Combat Reflexes",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +6 (1d6+2 plus grab), 2 claws +6 (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This stout, hunched predator has a ruff of dirty feathers and a crocodilian skull for a head.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 19,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Boneyard)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pack (2-6), or hunting party (3-10 plus 1 vanth psychopomp)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Roiling Incant",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 215.",
+  "size": "Large",
+  "type": "Mindless",
+  "subtype": "Arcane, Evocation",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 9",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 155,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 40 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 18,
+    "con": 22,
+    "int": 0,
+    "wis": 10,
+    "cha": 0
+  },
+  "saves": {
+    "text": "Fort +19, Ref +17, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +19 (1d20+19); ",
+    "list": {
+      "Acrobatics": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 25,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Absorb Evocation",
+      "text": "A roiling incant is made of evocation energy. Any time it would be affected by another creature's non-cantrip evocation spell, after applying its immunity, it also regains 5 Hit Points."
+    },
+    {
+      "name": "Engulf",
+      "text": "⬺ DC 28, 2d8 (2d8) force plus 4d4 (4d4) fire, Escape DC 28, Rupture 20 (page 305)"
+    },
+    {
+      "name": "Unstable Magic",
+      "text": "A roiling incant is as much a mass of unstable magic as it is a creature. Is isn't living or undead, nor is it even a construct. It can't be healed or Repaired and is destroyed at 0 Hit Points, though it naturally recovers a number of Hit Points equal to its level × its Constitution modifier (54 for most roiling incants) each day. Each time a roiling incant casts one of its non-cantrip spells, it drains its own magic to do so, taking 5 force damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ arcane tendril +19 (arcane, evocation, magical, reach 10 feet); Damage 2d12+10 (2d12+10) force"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ arcane bolt +19 (arcane, evocation, magic, range increment 30 feet); Damage 2d10+10 (2d10+10) force"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      4,
+      6,
+      -5,
+      0,
+      -5
+    ]
+  }
+}

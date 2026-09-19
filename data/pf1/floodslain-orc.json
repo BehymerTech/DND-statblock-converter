@@ -1,0 +1,104 @@
+{
+  "name": "Floodslain Orc",
+  "sourceSystem": "pf1",
+  "source": "Belkzen, Hold of the Orc Hordes",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "augmented humanoid",
+  "alignment": "CE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 12,
+    "notes": "armor +4, dex -2",
+    "touch": 8,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 25,
+    "formula": "3d10+9"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 6,
+    "con": "None",
+    "int": 8,
+    "wis": 11,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +3, Ref -1, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +14, Perception +0",
+    "list": {
+      "Intimidate": "+14",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 10,
+  "languages": [
+    "Common",
+    "Orc"
+  ],
+  "initiative": "-2",
+  "babOrProficiency": 3,
+  "feats": [
+    "Bullying Blow",
+    "Furious Focus",
+    "Intimidating Prowess",
+    "Power Attack",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk spear +11 (1d8+10/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This pallid, waterlogged orc corpse stumbles on broken legs, its eyes frozen in shock and fear. Clear water continuously leaks from its wounds to pool on the ground.",
+  "meta": {
+    "race": "Floodslain",
+    "class": "orc fighter 3",
+    "cmb": "+10",
+    "cmd": 18,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any plains or ruins"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental (mwk hide armor, mwk spear)"
+      }
+    ]
+  }
+}

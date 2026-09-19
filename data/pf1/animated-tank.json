@@ -1,0 +1,107 @@
+{
+  "name": "Animated Tank",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 71: Rasputin Must Die!",
+  "size": "Huge",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 29,
+    "notes": "dex +1, natural +20, size -2",
+    "touch": 9,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 144,
+    "formula": "16d10+56"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 12,
+    "con": "None",
+    "int": 13,
+    "wis": 10,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +5, Ref +6, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +15, Perception +26, Sense Motive +20",
+    "list": {
+      "Intimidate": "+15",
+      "Perception": "+26",
+      "Sense Motive": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Russian (can’t speak)",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 16,
+  "feats": [
+    "Alertness",
+    "Awesome Blow",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Skill Focus (Perception)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Ranged",
+      "text": "3 Maxim M1910 machine guns +15 (2d8/19-20), Hotchkiss 6 pounder +15 (8d6/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Like a deranged caterpillar of grinding metal and protruding turrets, this massive armored vehicle dominates the battlefield, spitting hot lead and artillery-seemingly without a crew.",
+  "meta": {
+    "cmb": "30 (+32 bull rush)",
+    "cmd": "41 (43 vs. bull rush, can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, troop (2-4), squadron (5-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "name": "Ooze",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Ooze",
+  "subtype": "",
+  "alignment": "Always neutral",
+  "cr": "5",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 4,
+    "notes": "-1 size, -5 Dex",
+    "touch": 4,
+    "flatFooted": 4
+  },
+  "hp": {
+    "average": 69,
+    "formula": "6d10+36"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": 10,
+    "burrow": null,
+    "notes": "10 ft. (2 squares), climb 10 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 1,
+    "con": 22,
+    "int": null,
+    "wis": 1,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +8, Ref -3, Will -3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +10;",
+    "list": {
+      "Climb": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Blindsight 60 ft.",
+    "Blindsight 60 ft.",
+    "Blindsight 60 ft.",
+    "Blindsight 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "-5",
+  "babOrProficiency": 4,
+  "feats": [
+    "3.5 Feat List#| ---"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Acid, constrict 2d6+4 plus 2d6 acid, improved grab Acid, constrict 2d8+12 plus 2d6 acid, improved grab"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Blindsight 60 ft., split, ooze traits Blindsight 60 ft., split, ooze traits"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Acid, engulf, paralysis"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Blindsight 60 ft., immunity to electricity, ooze traits, transparent"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Acid, constrict 1d6+1 plus 1d6 acid, improved grab"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Blindsight 60 ft., immunity to cold and fire, ooze traits, transparent"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Acid, constrict 2d4+3 plus 1d4 acid, improved grab"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Blindsight 60 ft., split, ooze traits"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Slam +8 melee (2d6+4 plus 2d6 acid) Slam +19 melee (3d6+12 plus 3d6 acid)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Slam +8 melee (2d6+4 plus 2d6 acid) Slam +19 melee (3d6+12 plus 3d6 acid)"
+    },
+    {
+      "name": "Attack",
+      "text": "Slam +1 melee (1d6 plus 1d6 acid)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Slam +1 melee (1d6 plus 1d6 acid)"
+    },
+    {
+      "name": "Attack",
+      "text": "Slam +3 melee (1d6+1 plus 1d6 acid)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Slam +3 melee (1d6+1 plus 1d6 acid)"
+    },
+    {
+      "name": "Attack",
+      "text": "Slam +5 melee (2d4+3 plus 1d4 acid)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Slam +5 melee (2d4+3 plus 1d4 acid)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Oozes are amorphous creatures that live only to eat. They inhabit underground areas throughout the world, scouring caverns, ruins, and dungeons in search of organic matter---living or dead.",
+    "grapple": "+10",
+    "spaceReach": "10 ft./5 ft.",
+    "environment": "Temperate marshes",
+    "organization": "Solitary",
+    "treasure": "None",
+    "advancement": "7-9 HD (Large); 10-18 HD (Huge)",
+    "leveladjustment": "---"
+  }
+}

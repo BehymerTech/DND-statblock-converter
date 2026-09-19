@@ -1,0 +1,110 @@
+{
+  "name": "Ouroboros",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Colossal",
+  "type": "magical beast",
+  "subtype": "extraplanar",
+  "alignment": "N",
+  "cr": "21",
+  "level": null,
+  "xp": 409600,
+  "ac": {
+    "value": 38,
+    "notes": "dex +8, dodge +1, natural +27, size -8",
+    "touch": 11,
+    "flatFooted": 29
+  },
+  "hp": {
+    "average": 396,
+    "formula": "24d10+264"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 38,
+    "dex": 27,
+    "con": 32,
+    "int": 3,
+    "wis": 27,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +25, Ref +22, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +23, Perception +23",
+    "list": {
+      "Fly": "+23",
+      "Perception": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Aklo (cannot speak)"
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 24,
+  "feats": [
+    "Awesome Blow",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dodge",
+    "Flyby Attack",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Iron Will",
+    "Mobility",
+    "Power Attack",
+    "Staggering Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "8 bites +30 (1d6+14/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This serpentine creature chews at its own tail. Its body consists of a multitude of entangled serpents with countless hissing jaws.",
+  "meta": {
+    "cmb": "46 (+48 bull rush)",
+    "cmd": "65 (67 vs. bull rush, can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Astral Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or knot (2-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

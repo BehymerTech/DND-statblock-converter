@@ -1,0 +1,104 @@
+{
+  "name": "Trailgaunt",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Pathfinder Comics No. 11",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex -2, natural +7",
+    "touch": 8,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 25,
+    "formula": "3d8+12"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., burrow 10 ft., climb 10 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 6,
+    "con": "None",
+    "int": 7,
+    "wis": 14,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +5, Ref -1, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +10, Perception +7, Stealth +7, Survival +4",
+    "list": {
+      "Climb": "+10",
+      "Perception": "+7",
+      "Stealth": "+7",
+      "Survival": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Initiative",
+    "Step Up"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +4 (1d4+2 plus pain), 2 claws +4 (1d4+2 plus pain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This filthy, pallid figure lurches forward as if it were not entirely in control of its twitching limbs.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": 12,
+    "racialModifiers": [
+      "Stealth 4",
+      "Survival 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land (wilderness)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

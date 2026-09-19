@@ -1,0 +1,93 @@
+{
+  "name": "Cloud Giant",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Huge",
+  "type": "giant",
+  "subtype": "",
+  "alignment": "[object Object] [object Object]",
+  "cr": "9",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 14,
+    "notes": "natural armor"
+  },
+  "hp": {
+    "average": 200,
+    "formula": "16d12 + 96"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 10,
+    "con": 22,
+    "int": 12,
+    "wis": 16,
+    "cha": 16
+  },
+  "saves": {
+    "text": "con +10, wis +7, cha +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Insight +7, Perception +7",
+    "list": {
+      "insight": "+7",
+      "perception": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 17,
+  "languages": [
+    "Common",
+    "Giant"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Keen Smell",
+      "text": "The giant has advantage on Wisdom (Perception) checks that rely on smell."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The giant makes two morningstar attacks."
+    },
+    {
+      "name": "Morningstar",
+      "text": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) piercing damage."
+    },
+    {
+      "name": "Rock",
+      "text": "Ranged Weapon Attack: +12 to hit, range 60/240 ft., one target. Hit: 30 (4d10 + 8) bludgeoning damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [
+    {
+      "name": "Innate Spellcasting",
+      "text": "The giant's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:"
+    }
+  ],
+  "description": "",
+  "meta": {}
+}

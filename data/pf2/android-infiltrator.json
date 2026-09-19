@@ -1,0 +1,116 @@
+{
+  "name": "Android Infiltrator",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 16.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Android",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 28,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 14,
+    "int": 16,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +8, Ref +10, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Athletics__: +6 (1d20+6); __Crafting__: +7 (1d20+7); __Deception__: +3 (1d20+3); __Society__: +7 (1d20+7); __Stealth__: +10 (1d20+10); __Thievery__: +8 (1d20+8); __Engineering lore__: +7 (1d20+7); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Athletics": "+6",
+      "Crafting": "+7",
+      "Deception": "+3",
+      "Society": "+7",
+      "Stealth": "+10",
+      "Thievery": "+8",
+      "Engineering lore": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 16,
+  "languages": [
+    "Androffan",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Emotionally Unaware",
+      "text": "The android takes a –1 circumstance penalty to Diplomacy and Performance checks, and to Perception checks to Sense Motive."
+    },
+    {
+      "name": "Nanite Surge",
+      "text": "⬲ Trigger The android infiltrator attempts a skill check but hasn't rolled yet Effect The android infiltrator stimulates their nanites, forcing their body to temporarily increase its efficiency. They gain a +2 status bonus to the triggering skill check. In addition, their circuitry glows, creating a 10-foot emanation with dim light for 1 round."
+    },
+    {
+      "name": "Items",
+      "text": "hand crossbow (10 bolts), shortsword;"
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "The android infiltrator deals an additional 1d6 (1d6) precision damage to flatfooted creatures."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ shortsword +10 (agile, finesse, versatile s); Damage 1d6+2 (1d6+2) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +10 (agile, finesse, nonlethal); Damage 1d4+2 (1d4+2) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ hand crossbow +10 (range increment 60 feet, reload 1); Damage 1d6 (1d6) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      4,
+      2,
+      3,
+      0,
+      -1
+    ],
+    "items": "hand crossbow (10 bolts), shortsword;"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "name": "Deathweb",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Pathfinder No. 4: Fortress of the Stone Giants",
+  "size": "Large",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex +2, natural +8, size -1",
+    "touch": 11,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 71,
+    "formula": "11d8+22"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 14,
+    "con": "None",
+    "int": 7,
+    "wis": 13,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +5, Ref +5, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +16, Perception +15, Stealth +16",
+    "list": {
+      "Climb": "+16",
+      "Perception": "+15",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 25,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 8,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15 (2d8+12)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This animated husk from an enormous spider seems filled with thousands of living spiders that fall from its body like drops of blood.",
+  "meta": {
+    "cmb": "+17",
+    "cmd": "29 (41 vs. trip)",
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or nest (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

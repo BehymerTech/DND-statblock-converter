@@ -1,0 +1,112 @@
+{
+  "name": "Executioner Devil (Munagola)",
+  "sourceSystem": "pf1",
+  "source": "Book of the Damned",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 26,
+    "notes": "armor +7, dex +3, natural +6",
+    "touch": 13,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 150,
+    "formula": "12d10+84"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 40 ft. (good)"
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 23,
+    "con": 24,
+    "int": 14,
+    "wis": 23,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +15, Ref +10, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +18, Fly +22, Intimidate +22, Knowledge (planes) +17, Perception +21, Sense Motive +21, Stealth +18, Swim +19",
+    "list": {
+      "Acrobatics": "+18",
+      "Fly": "+22",
+      "Intimidate": "+22",
+      "Perception": "+21",
+      "Sense Motive": "+21",
+      "Stealth": "+18",
+      "Swim": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 12,
+  "feats": [
+    "Cleave",
+    "Combat Reflexes",
+    "Great Cleave",
+    "Improved Bull Rush",
+    "Improved Sunder",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 keen battleaxe +20/+15/+10 (1d8+11/19-20/×3), gore +14 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Corded muscles ripple under this massive devil’s red skin as her black wings beat overhead and her black eyes smolder like coals.",
+  "meta": {
+    "cmb": "19 (+21 bull rush, sunder)",
+    "cmd": "35 (37 vs. bull rush or sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or squadron (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+1 breastplate, +1 keen battleaxe, other treasure)"
+      }
+    ]
+  }
+}

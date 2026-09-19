@@ -1,0 +1,109 @@
+{
+  "name": "Ghost",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "augmented humanoid, incorporeal",
+  "alignment": "CE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +1, dodge +1, deflection +5",
+    "touch": 17,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 73,
+    "formula": "7d8+42"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 30 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 12,
+    "con": "None",
+    "int": 10,
+    "wis": 11,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +7, Ref +5, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +9, Knowledge (history) +10, Knowledge (nobility) +10, Perception +18, Sense Motive +10, Stealth +9",
+    "list": {
+      "Fly": "+9",
+      "Perception": "+18",
+      "Sense Motive": "+10",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 5,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "corrupting touch +6 (7d6, Fort. DC 18 half)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This spectral, horrifying figure glides silently through the air, passing through solid objects as if they didn’t exist.",
+  "meta": {
+    "race": "Human",
+    "class": "ghost aristocrat 7",
+    "cmb": "+5",
+    "cmd": 22,
+    "racialModifiers": [
+      "Perception 8",
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear"
+      }
+    ]
+  }
+}

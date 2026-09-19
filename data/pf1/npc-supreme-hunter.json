@@ -1,0 +1,112 @@
+{
+  "name": "NPC Supreme Hunter",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "CE",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 31,
+    "notes": "armor +8, deflection +3, dex +4, dodge +1, natural +5",
+    "touch": 18,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 184,
+    "formula": "20d10+70"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 20,
+    "con": 16,
+    "int": 11,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +20, Ref +22, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Climb +19, Handle Animal +12, Heal +15, Knowledge (dungeoneering) +8, Knowledge (geography) +13, Knowledge (nature) +18, Knowledge (planes) +5, Perception +25, Ride +18, Stealth +28, Survival +25, Swim +14",
+    "list": {
+      "Acrobatics": "+15",
+      "Climb": "+19",
+      "Handle Animal": "+12",
+      "Heal": "+15",
+      "Perception": "+25",
+      "Ride": "+18",
+      "Stealth": "+28",
+      "Survival": "+25",
+      "Swim": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 20,
+  "feats": [
+    "Bleeding Critical",
+    "Blinding Critical",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Deadly Aim",
+    "Dodge",
+    "Endurance",
+    "Improved Critical (composite longbow)",
+    "Improved Initiative",
+    "Improved Precise Shot",
+    "Manyshot",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Precise Shot",
+    "Quick Draw",
+    "Rapid Shot",
+    "Weapon Focus (composite longbow)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 longsword +28/+23/+18/+13 (1d8+11/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "oathbow +28/+23/+18/+13 (1d8+8/19-20/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "ranger 20",
+    "cmb": "+26",
+    "cmd": 45
+  }
+}

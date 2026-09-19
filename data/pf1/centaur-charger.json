@@ -1,0 +1,111 @@
+{
+  "name": "Centaur Charger",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Monster Codex",
+  "size": "Large",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 27,
+    "notes": "armor +8, deflection +1, dex +3, natural +2, shield +4, size -1",
+    "touch": 13,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 183,
+    "formula": "4d10+11d10+101"
+  },
+  "speed": {
+    "walk": 90,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "90 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 16,
+    "con": 22,
+    "int": 9,
+    "wis": 16,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +15, Ref +11, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +13, Bluff +10, Intimidate +13, Knowledge (nature) +3, Perception +10, Sense Motive +11, Survival +11",
+    "list": {
+      "Acrobatics": "+13",
+      "Bluff": "+10",
+      "Intimidate": "+13",
+      "Perception": "+10",
+      "Sense Motive": "+11",
+      "Survival": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Elven",
+    "Sylvan"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 15,
+  "feats": [
+    "Acrobatic Steps",
+    "Cavalry Formation",
+    "Dazzling Display",
+    "Lookout",
+    "Nimble Moves",
+    "Power Attack",
+    "Quick Draw",
+    "Ride-By Attack",
+    "Spirited Charge",
+    "Weapon Focus (lance)",
+    "Weapon Focus (hooves)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 lance +22/+17/+12 (1d8+9/×3), 2 hooves +15 (2d6+2/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "spear +17/+12/+7 (1d8+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "An imposing wall of steel, corded muscle, and blood-stained banners, this centaur wields a lance and shield with the majesty and prowess of any human knight.",
+  "meta": {
+    "race": "Centaur",
+    "class": "cavalier (charger) 11 (Pathfinder RPG Bestiary 42, Pathfinder RPG Advanced Player’s Guide 32, see page 5)",
+    "cmb": "+21",
+    "cmd": "35 (39 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests and plains"
+      }
+    ]
+  }
+}

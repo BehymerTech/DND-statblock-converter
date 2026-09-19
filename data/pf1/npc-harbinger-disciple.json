@@ -1,0 +1,96 @@
+{
+  "name": "NPC Harbinger Disciple",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "CN",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 13,
+    "notes": "armor +2, dex +1",
+    "touch": 11,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 29,
+    "formula": "4d8+8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 13,
+    "con": 14,
+    "int": 12,
+    "wis": 8,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +6, Ref +3, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +10, Disable Device +5, Disguise +6, Intimidate +8, Knowledge (history) +8, Knowledge (religion) +6, Perform (oratory) +8, Sense Motive +4, Use Magic Device +8, Perception -1",
+    "list": {
+      "Bluff": "+10",
+      "Disable Device": "+5",
+      "Disguise": "+6",
+      "Intimidate": "+8",
+      "Sense Motive": "+4",
+      "Use Magic Device": "+8",
+      "Perception": "-1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 9,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Infernal"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 3,
+  "feats": [
+    "Deceitful",
+    "Great Fortitude",
+    "Spell Focus (enchantment)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk light mace +4 (1d6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +4 (1d4/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "oracle 4",
+    "cmb": "+3",
+    "cmd": 14
+  }
+}

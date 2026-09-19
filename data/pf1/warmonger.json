@@ -1,0 +1,95 @@
+{
+  "name": "Warmonger",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Huge",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 34,
+    "notes": "dex +6, natural +20, size -2",
+    "touch": 14,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 344,
+    "formula": "28d10+190"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 23,
+    "con": "None",
+    "int": "None",
+    "wis": 25,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +9, Ref +15, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 28,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "reaper +37 (3d6+11/×4), siege pick +37 (2d6+11/×4), wrecking ball +37 (3d6+11 plus stun), 2 slams +37 (1d8+11)"
+    },
+    {
+      "name": "Ranged",
+      "text": "4 automatic crossbow bolts +32 (3d8/19-20), rock +33 (3d6+11)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This massive wood-and-metal giant wields a scythe, a wicked spiked wrecking ball, an immense pick, and a huge crossbow.",
+  "meta": {
+    "cmb": "+41",
+    "cmd": 57,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

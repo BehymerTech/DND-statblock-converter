@@ -1,0 +1,95 @@
+{
+  "name": "Granite Glyptodont",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 109.",
+  "size": "Large",
+  "type": "Elemental",
+  "subtype": "Earth",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 28,
+    "notes": ""
+  },
+  "hp": {
+    "average": 145,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, burrow 20 feet; earth glide;"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 12,
+    "con": 22,
+    "int": 10,
+    "wis": 20,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +18, Ref +13, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +18 (1d20+18); ",
+    "list": {
+      "Athletics": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tremorsense 90"
+  ],
+  "passivePerception": 27,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Calcification",
+      "text": "(incapacitation, primal, transmutation); A blow from a granite glyptodont's tail hardens the flesh of the creature struck. The target must succeed at a DC 26 Fortitude saving throw or become slowed 1 (or slowed 2 on a critical failure). Further failed saves against calcification increase the value of the slowed condition. Once a creature's actions are reduced to 0 by calcification, that creature becomes petrified. If the creature isn't petrified, the slowed conditions end once 1 minute passes without the creature failing a save against calcification. Every 24 hours after it was petrified, the creature can attempt a DC 26 Fortitude save to recover. On a success, it becomes flesh again, but is slowed 1 for the next 24 hours. On a critical success, the creature recovers and isn't slowed. On a failure, the creature remains petrified, but can try again in 24 hours. On a critical failure, the petrification is permanent, and the creature can't attempt any more saves."
+    },
+    {
+      "name": "Earth Glide",
+      "text": "A living boulder can Burrow through earthen matter, including rock. When it does so, it moves at its full burrow Speed, leaving no tunnels or signs of its passing."
+    },
+    {
+      "name": "Elemental, Fire",
+      "text": "Fire elementals sometimes incorporate burning materials into their being, or possibly superheated materials such as molten rock or searing smoke."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ tail +20 (forceful, reach 10 feet, versatile piercing); Damage 2d12+9 (2d12+9) bludgeoning plus calcification"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      1,
+      6,
+      0,
+      5,
+      0
+    ]
+  }
+}

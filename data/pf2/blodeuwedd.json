@@ -1,0 +1,125 @@
+{
+  "name": "Blodeuwedd",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 41.",
+  "size": "Medium",
+  "type": "Plant",
+  "subtype": "Fey",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 105,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 20,
+    "con": 14,
+    "int": 16,
+    "wis": 14,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +12, Ref +17, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +15 (1d20+15); __Diplomacy__: +15 (1d20+15); __Nature__: +13 (1d20+13); __Performance__: +15 (1d20+15); __Stealth__: +13 (1d20+13), (Stealth: +17 (1d20+17) in grasslands); __Survival__: +11 (1d20+11); ",
+    "list": {
+      "Acrobatics": "+15",
+      "Diplomacy": "+15",
+      "Nature": "+13",
+      "Performance": "+15",
+      "Stealth": "+17",
+      "Survival": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Sylvan; speak with plants"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Allergen Aura",
+      "text": "(aura, primal); A blodeuwedd exudes a 30-foot aura of pollen and irritating allergens. A non-plant living creature that begins its turn in the aura must succeed at a DC 22 Fortitude save or become sickened 2. A creature that succeeds at its save is then temporarily immune to the allergen aura for 24 hours. A blodeuwedd can suppress this aura or activate it again as a free action."
+    },
+    {
+      "name": "Wild Empathy",
+      "text": "The blodeuwedd can use Diplomacy to Make an Impression on and make very simple Requests of animals."
+    },
+    {
+      "name": "Items",
+      "text": "+1 sling;"
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬺ (concentrate, polymorph, primal, transmutation); A blodeuwedd can take on the appearance of a single unique humanoid or the form of a prairie owl. When in humanoid form, the blodeuwedd loses its claw attack. In owl form, its statistics change as follows: Size Small; Speed fly 60 feet; Melee ⬻ talons +15, Damage 1d3+1 (1d3+1). A blodeuwedd can return to their normal form as a free action."
+    },
+    {
+      "name": "Living Footsteps Every",
+      "text": "Stride action taken by a blodeuwedd causes small plants, grasses, and wildflowers to sprout from the ground, though they can suppress this effect if they desire. In a region or terrain that wouldn't normally support plant life, these plants thrive for 1 minute before withering away."
+    },
+    {
+      "name": "Nature's Infusion",
+      "text": "⬺ Frequency once per day Effect While surrounded by any field or fertile plain, a blodeuwedd can infuse themself with borrowed life energy from nearby plants and nutrients in the ground. The blodeuwedd gains 15 temporary Hit Points that last for 1 hour."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +14 (agile); Damage 2d8+7 (2d8+7) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ sling +17 (propulsive, range increment 50 feet); Damage 2d6+4 (2d6+4) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ talons +15 Damage 1d3+1 (1d3+1)."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      5,
+      2,
+      3,
+      2,
+      5
+    ],
+    "items": "+1 sling;"
+  }
+}

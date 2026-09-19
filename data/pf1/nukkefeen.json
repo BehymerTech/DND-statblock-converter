@@ -1,0 +1,107 @@
+{
+  "name": "Nukkefeen",
+  "sourceSystem": "pf1",
+  "source": "Gallows of Madness",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 12,
+    "notes": "dex +2",
+    "touch": 12,
+    "flatFooted": 10
+  },
+  "hp": {
+    "average": 14,
+    "formula": "4d6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 15,
+    "con": 11,
+    "int": 10,
+    "wis": 10,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +1, Ref +6, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +5, Disable Device +6, Disguise +5, Perception +7, Sleight of Hand +9, Stealth +12",
+    "list": {
+      "Bluff": "+5",
+      "Disable Device": "+6",
+      "Disguise": "+5",
+      "Perception": "+7",
+      "Sleight of Hand": "+9",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 2,
+  "feats": [
+    "Skill Focus (Stealth)",
+    "Weapon Focus (dagger)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +5 (1d4+2/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +5 (1d4+2/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This eerie creature resembles a human with oddly segmented limbs, waxen skin, and doll-like eyes.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": 16,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or family (3-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

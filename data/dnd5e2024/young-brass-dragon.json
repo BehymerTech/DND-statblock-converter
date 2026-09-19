@@ -1,0 +1,91 @@
+{
+  "name": "Young Brass Dragon",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Large",
+  "type": "Dragon",
+  "subtype": "Metallic",
+  "alignment": "Chaotic Good",
+  "cr": "6",
+  "level": null,
+  "xp": 2300,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 110,
+    "formula": "13d10 + 39"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": 80,
+    "swim": null,
+    "climb": null,
+    "burrow": 20,
+    "notes": "40 ft., Burrow 20 ft., Fly 80 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 10,
+    "con": 17,
+    "int": 12,
+    "wis": 11,
+    "cha": 15
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +6, Persuasion +5, Stealth +3",
+    "list": {
+      "Perception": "+6",
+      "Persuasion": "+5",
+      "Stealth": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Blindsight 30 ft.",
+    "Darkvision 120 ft."
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+3 (13)",
+  "babOrProficiency": 3,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks. It can replace two attacks with a use of Sleep Breath."
+    },
+    {
+      "name": "Rend",
+      "text": "_Melee Attack Roll:_ +7, reach 10 ft. _Hit:_ 15 (2d10 + 4) Slashing damage."
+    },
+    {
+      "name": "Fire Breath (Recharge 5–6)",
+      "text": "_Dexterity Saving Throw:_ DC 14, each creature in a 40-foot-long, 5-foot-wide Line. _Failure:_ 38 (11d6) Fire damage. _Success:_ Half damage."
+    },
+    {
+      "name": "Sleep Breath",
+      "text": "_Constitution Saving Throw:_ DC 14, each creature in a 30-foot Cone. _Failure:_ The target has the Incapacitated condition until the end of its next turn, at which point it repeats the save. _Second Failure:_ The target has the Unconscious condition for 1 minute. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

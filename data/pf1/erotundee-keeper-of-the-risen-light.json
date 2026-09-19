@@ -1,0 +1,113 @@
+{
+  "name": "Erotundee, Keeper of the Risen Light",
+  "sourceSystem": "pf1",
+  "source": "Demons Revisited",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "22",
+  "level": null,
+  "xp": 614400,
+  "ac": {
+    "value": 41,
+    "notes": "armor +8, deflection +4, dex +2, dodge +1, luck +2, natural +16, size -2",
+    "touch": 17,
+    "flatFooted": 38
+  },
+  "hp": {
+    "average": 434,
+    "formula": "14d10+15d6+305"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 40 ft. (poor)"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 15,
+    "con": 31,
+    "int": 36,
+    "wis": 22,
+    "cha": 30
+  },
+  "saves": {
+    "text": "Fort +30, Ref +19, Will +30",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +42, Diplomacy +42, Fly +24, Intimidate +42, Knowledge (arcana) +45, Knowledge (dungeoneering) +45, Knowledge (engineering) +45, Knowledge (history) +45, Knowledge (local) +45, Knowledge (nature) +45, Knowledge (nobility) +45, Knowledge (planes) +45, Knowledge (religion) +45, Perception +46, Sense Motive +38, Spellcraft +45, Use Magic Device +39",
+    "list": {
+      "Bluff": "+42",
+      "Diplomacy": "+42",
+      "Fly": "+24",
+      "Intimidate": "+42",
+      "Perception": "+46",
+      "Sense Motive": "+38",
+      "Spellcraft": "+45",
+      "Use Magic Device": "+39"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 56,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Draconic",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 21,
+  "feats": [
+    "Arcane Strike",
+    "Awesome Blow",
+    "Combat Expertise",
+    "Craft Construct",
+    "Craft Magic Arms and Armor",
+    "Craft Rod",
+    "Craft Staff",
+    "Craft Wondrous Item",
+    "Dodge",
+    "Eschew Materials",
+    "Extend Spell",
+    "Greater Spell Penetration",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Quicken Spell",
+    "Scribe Scroll",
+    "Spell Penetration"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "staff of power +31/+26/+21/+16 (2d6+17/19-20), bite +24 (3d8+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This wretched demon combines the worst features of a deformed boar and a repellent hag, then somehow manages to make things worse by decorating the whole with an ugly patchwork of scars and a rancidly obese body.",
+  "meta": {
+    "race": "Female",
+    "class": "nalfeshnee wizard 15 (Pathfinder RPG Bestiary 65)",
+    "cmb": "33 (+35 bull rush)",
+    "cmd": "50 (52 vs. bull rush)"
+  }
+}

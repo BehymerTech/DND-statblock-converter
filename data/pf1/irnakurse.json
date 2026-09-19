@@ -1,0 +1,100 @@
+{
+  "name": "Irnakurse",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 16: Endless Night",
+  "size": "Large",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 23,
+    "notes": "dex +3, natural +11, size -1",
+    "touch": 12,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 105,
+    "formula": "10d8+60"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 17,
+    "con": 23,
+    "int": 8,
+    "wis": 14,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +9, Ref +8, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +20, Perception +15, Stealth +12",
+    "list": {
+      "Climb": "+20",
+      "Perception": "+15",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Elven (can’t speak)"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 7,
+  "feats": [
+    "Combat Reflexes",
+    "Deflect Arrows",
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 14 (1d8+7), 4 tentacles +8 (1d6+3 plus mind lash)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A mad-eyed mess of deformed limbs, misplaced features, and bone shards pulls itself along amid a cacophony of slapping flesh.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": "28 (32 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

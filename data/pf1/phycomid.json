@@ -1,0 +1,90 @@
+{
+  "name": "Phycomid",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Small",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "natural +6, size +1",
+    "touch": 11,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 39,
+    "formula": "6d8+12"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft."
+  },
+  "abilities": {
+    "str": 5,
+    "dex": 10,
+    "con": 15,
+    "int": "None",
+    "wis": 11,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +7, Ref +2, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "tremorsense"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 4,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Ranged",
+      "text": "acid pellet +5 touch (2d6 acid plus spores)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This tangle of purple-capped mushrooms growing out of a nasty green sludge shudders and writhes, wafting tendrils of smoke.",
+  "meta": {
+    "cmb": "+0",
+    "cmd": "10 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or infestation (2-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

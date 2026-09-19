@@ -1,0 +1,116 @@
+{
+  "name": "Tiefling",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "native",
+  "alignment": "NE",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 16,
+    "notes": "armor +3, dex +3",
+    "touch": 13,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 10,
+    "formula": "1d8+2"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 17,
+    "con": 14,
+    "int": 12,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +2, Ref +5, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +6, Bluff +4, Disable Device +6, Escape Artist +6, Intimidate +2, Perception +5, Sense Motive +5, Sleight of Hand +6, Stealth +8",
+    "list": {
+      "Acrobatics": "+6",
+      "Bluff": "+4",
+      "Disable Device": "+6",
+      "Escape Artist": "+6",
+      "Intimidate": "+2",
+      "Perception": "+5",
+      "Sense Motive": "+5",
+      "Sleight of Hand": "+6",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Infernal"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 0,
+  "feats": [
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "short sword +3 (1d6+1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "light crossbow +3 (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This lanky man sneers as he draws his sword. Tiny horns and a barbed tail reveal that he is something more than human.",
+  "meta": {
+    "race": "Tiefling",
+    "class": "rogue 1",
+    "cmb": "+1",
+    "cmd": 14,
+    "racialModifiers": [
+      "Bluff 2",
+      "Stealth 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (studded leather armor, short sword, light crossbow with 20 bolts)"
+      }
+    ]
+  }
+}

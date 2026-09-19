@@ -1,0 +1,130 @@
+{
+  "name": "Basileus",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Gods, Pathfinder No. 29: Mother of Flies",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, herald, lawful",
+  "alignment": "LE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 28,
+    "notes": "dex +6, natural +12",
+    "touch": 16,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 200,
+    "formula": "16d10+112"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 22,
+    "con": 25,
+    "int": 26,
+    "wis": 19,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +12, Ref +18, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +22, Bluff +30, Diplomacy +38, Disguise +30, Fly +14, Intimidate +38, Knowledge (arcana) +24, Knowledge (history) +16, Knowledge (nobility) +16, Knowledge (planes) +27, Perception +23, Perform (oratory) +23, Sense Motive +23, Sleight of Hand +22, Spellcraft +27, Stealth +25",
+    "list": {
+      "Acrobatics": "+22",
+      "Bluff": "+30",
+      "Diplomacy": "+38",
+      "Disguise": "+30",
+      "Fly": "+14",
+      "Intimidate": "+38",
+      "Perception": "+23",
+      "Sense Motive": "+23",
+      "Sleight of Hand": "+22",
+      "Spellcraft": "+27",
+      "Stealth": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "see in darkness"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Aquan",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Elven",
+    "Giant",
+    "Infernal",
+    "Undercommon",
+    "tongues",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 16,
+  "feats": [
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Deceitful",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Persuasive"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "touch +19 (1d8+8)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This comely man is clad in fine silken robes. His eyes smolder with infernal flames.",
+  "meta": {
+    "cmb": "24 (+28 grapple)",
+    "cmd": 40,
+    "racialModifiers": [
+      "Diplomacy 8",
+      "Intimidate 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

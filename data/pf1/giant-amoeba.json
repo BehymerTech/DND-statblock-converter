@@ -1,0 +1,94 @@
+{
+  "name": "Giant Amoeba",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Small",
+  "type": "ooze",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 6,
+    "notes": "dex -5, size +1",
+    "touch": 6,
+    "flatFooted": 6
+  },
+  "hp": {
+    "average": 15,
+    "formula": "2d8+6"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., climb 10 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 1,
+    "con": 16,
+    "int": "None",
+    "wis": 1,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +3, Ref -5, Will -5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +9, Swim +9, Perception -5",
+    "list": {
+      "Climb": "+9",
+      "Swim": "+9",
+      "Perception": "-5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": 5,
+  "languages": [],
+  "initiative": "-5",
+  "babOrProficiency": 1,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +3 (1d3+1 plus 1d3 acid and grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This blob of protoplasm is somewhat transparent, allowing the bones of undigested meals and a dark nucleus to be seen within.",
+  "meta": {
+    "cmb": "1 (+5 grapple)",
+    "cmd": "6 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or colony (2-9)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

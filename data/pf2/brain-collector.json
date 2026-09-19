@@ -1,0 +1,114 @@
+{
+  "name": "Brain Collector",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 46.",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 26,
+    "notes": ""
+  },
+  "hp": {
+    "average": 140,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 30 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 20,
+    "int": 18,
+    "wis": 18,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +15, Ref +13, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +17 (1d20+17); __Arcana__: +18 (1d20+18); __Athletics__: +16 (1d20+16); __Occultism__: +21 (1d20+21); __Stealth__: +17 (1d20+17); __Lore (all subcategories)__: +18 (1d20+18); ",
+    "list": {
+      "Acrobatics": "+17",
+      "Arcana": "+18",
+      "Athletics": "+16",
+      "Occultism": "+21",
+      "Stealth": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Common",
+    "Draconic",
+    "Protean",
+    "Undercommon; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Brain Blisters",
+      "text": "A brain collector has seven brain blisters on its back that it uses to house stolen brains. A brain collector without all seven blisters full is stupefied with a value equal to the number of empty blisters."
+    },
+    {
+      "name": "Brain Loss",
+      "text": "If a brain collector takes 30 damage from a critical hit or takes 25 mental damage, it must succeed at a DC 26 save (Fortitude for critical damage or Will for mental damage) or one of its brain blisters is destroyed."
+    },
+    {
+      "name": "Brain Collector Venom",
+      "text": "(poison); Saving Throw DC 26 Fortitude. Maximum Duration 6 rounds Stage 1 1d6 (1d6) poison and enfeebled 1 (1 round) Stage 2 1d6 (1d6) poison, enfeebled 1, and slowed 1 (1 round) Stage 3 2d6 (2d6) poison, enfeebled 2, and slowed 1 (1 round)"
+    },
+    {
+      "name": "Collect Brain",
+      "text": "⬻ (manipulate); The brain collector collects a brain of a creature that has been dead for no more than 1 minute. It can then use an Interact action to secure the brain in one of its empty brain blisters."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +20 Damage 2d12+6 (2d12+6) piercing plus brain collector venom"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +20 (agile); Damage 2d8+6 (2d8+6) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      3,
+      5,
+      4,
+      4,
+      3
+    ]
+  }
+}

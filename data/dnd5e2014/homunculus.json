@@ -1,0 +1,83 @@
+{
+  "name": "Homunculus",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Tiny",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "neutral",
+  "cr": "0",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 13,
+    "notes": "natural armor"
+  },
+  "hp": {
+    "average": 5,
+    "formula": "2d4"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": 40,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 4,
+    "dex": 15,
+    "con": 11,
+    "int": 10,
+    "wis": 10,
+    "cha": 7
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [
+    "poison"
+  ],
+  "conditionImmunities": [
+    "charmed",
+    "poisoned"
+  ],
+  "senses": [
+    "darkvision 60 ft."
+  ],
+  "passivePerception": 10,
+  "languages": [
+    "understands the languages of its creator but can't speak"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Telepathic Bond",
+      "text": "While the homunculus is on the same plane of existence as its master, it can magically convey what it senses to its master, and the two can communicate telepathically."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must succeed on a DC 10 Constitution saving throw or be poisoned for 1 minute. If the saving throw fails by 5 or more, the target is instead poisoned for 5 (1d10) minutes and unconscious while poisoned in this way."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

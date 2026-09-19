@@ -1,0 +1,111 @@
+{
+  "name": "Sarglagon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 73.",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "Amphibious, Devil",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 120,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 25 feet, swim 30 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 18,
+    "int": 14,
+    "wis": 18,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +18, Ref +13, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +14 (1d20+14); __Athletics__: +18 (1d20+18); __Deception__: +15 (1d20+15); __Diplomacy__: +15 (1d20+15); __Intimidation__: +17 (1d20+17); __Stealth__: +15 (1d20+15); ",
+    "list": {
+      "Arcana": "+14",
+      "Athletics": "+18",
+      "Deception": "+15",
+      "Diplomacy": "+15",
+      "Intimidation": "+17",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision, see invisibility"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Celestial",
+    "Infernal; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Heavy Aura",
+      "text": "(aura, divine, incapacitation, transmutation); 10 feet. A creature that enters the heavy aura must attempt a DC 23 Will save. It is then temporarily immune for 10 minutes. Success The creature is unaffected. Failure The creature is encumbered while it remains in the area. If the creature is already encumbered, it is immobilized while it remains within the aura. Critical Failure As failure, but the effect persists for 3 rounds after leaving the aura."
+    },
+    {
+      "name": "Stygian Guardian",
+      "text": "⬲ Trigger A creature or object within the sarglagon's reach is targeted by an attack Effect The sarglagon interposes themself, giving the creature or object standard cover against the attack (+2 circumstance bonus to AC), or greater cover (+4 circumstance bonus to AC) if the sarglagon was already granting it lesser cover."
+    },
+    {
+      "name": "Drown",
+      "text": "⬺ (conjuration, divine, incapacitation); The sarglagon conjures murky water to fill the lungs of a creature that can't breathe water within 30 feet. The target must attempt a DC 26 Fortitude save. Critical Success The target is unaffected. Success The target coughs up water and is sickened 1. Failure The target is holding its breath (Core Rulebook 478). The only action it can take is to attempt a Fortitude save against Drown to expel the water, which is a single action. Critical Failure The target falls unconscious and begins suffocating. If the target succeeds at its Fortitude save while suffocating, it coughs up the water and can breathe again."
+    },
+    {
+      "name": "Sarglagon Venom",
+      "text": "(poison); Saving Throw DC 26 Fortitude. Maximum Duration 6 rounds Stage 1 2d6 (2d6) poison damage and clumsy 1 (1 round) Stage 2 3d6 (3d6) poison damage and clumsy 2 (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +20 (evil, magical); Damage 2d12+9 (2d12+9) piercing plus 1d6 (1d6) evil"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tentacle arm +20 (agile, evil, magical); Damage 2d8+9 (2d8+9) bludgeoning plus 1d6 (1d6) evil and sarglagon venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      3,
+      4,
+      2,
+      4,
+      3
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "name": "Deep Walker",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Gargantuan",
+  "type": "aberration",
+  "subtype": "aquatic",
+  "alignment": "LE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 30,
+    "notes": "deflection +5, dex +3, dodge +1, natural +15, size -4",
+    "touch": 15,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 210,
+    "formula": "20d8+120"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 16,
+    "con": 23,
+    "int": 10,
+    "wis": 19,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +17, Ref +11, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +29, Perception +27, Sense Motive +24, Stealth +20, Swim +17",
+    "list": {
+      "Intimidate": "+29",
+      "Perception": "+27",
+      "Sense Motive": "+24",
+      "Stealth": "+20",
+      "Swim": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Aboleth",
+    "Aquan"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 15,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Skill Focus (Stealth)",
+    "Vital Strike",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 claws +21 (2d6+9/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This armor-plated creature has four crab-like legs and four arms with razor-sharp pincers.",
+  "meta": {
+    "cmb": "28 (+32 grapple)",
+    "cmd": 47,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or troop (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

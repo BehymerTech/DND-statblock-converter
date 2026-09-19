@@ -1,0 +1,102 @@
+{
+  "name": "Giant Anaconda",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Gargantuan",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 25,
+    "notes": "dex +2, dodge +1, natural +16, size -4",
+    "touch": 9,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 126,
+    "formula": "12d8+72"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., climb 20 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 14,
+    "con": 23,
+    "int": 1,
+    "wis": 13,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +14, Ref +10, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +21, Perception +22, Swim +21",
+    "list": {
+      "Climb": "+21",
+      "Perception": "+22",
+      "Swim": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 32,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 9,
+  "feats": [
+    "Dodge",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Power Attack",
+    "Skill Focus (Perception)",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +19 (4d6+19/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "An enormous coil of muscle and scales, this giant snake flicks its arm-length tongue in the air as it scans the area for prey.",
+  "meta": {
+    "cmb": "26 (+30 grapple)",
+    "cmd": "39 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "name": "Golem",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Construct",
+  "subtype": "",
+  "alignment": "Always neutral",
+  "cr": "13",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 30,
+    "notes": "-1 size, -1 Dex, +22 natural",
+    "touch": 8,
+    "flatFooted": 30
+  },
+  "hp": {
+    "average": 129,
+    "formula": "18d10+30"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft. (4 squares)"
+  },
+  "abilities": {
+    "str": 33,
+    "dex": 9,
+    "con": null,
+    "int": null,
+    "wis": 11,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +6, Ref +5, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "3.5 Skill List#| -;  3.5 Skill List#| -;",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft.",
+    "low-light vision",
+    "darkvision 60 ft.",
+    "low-light vision",
+    "darkvision 60 ft.",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "-1",
+  "babOrProficiency": 12,
+  "feats": [
+    "3.5 Feat List#| -",
+    "3.5 Feat List#| -"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Berserk, cursed wound"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Construct traits, damage reduction 10/adamantine and bludgeoning, darkvision 60 ft., haste, immunity to magic, low-light vision"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Berserk"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Construct traits, damage reduction 5/adamantine, darkvision 60 ft., immunity to magic, low-light vision"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Breath weapon"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Construct traits, damage reduction 15/adamantine, darkvision 60 ft., immunity to magic, low-light vision"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Slam +14 melee (2d10+7 plus cursed wound)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 slams +14 melee (2d10+7 plus cursed wound)"
+    },
+    {
+      "name": "Attack",
+      "text": "Slam +10 melee (2d8+5)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 slams +10 melee (2d8+5)"
+    },
+    {
+      "name": "Attack",
+      "text": "Slam +23 melee (2d10+11)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 slams +23 melee (2d10+11)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Golems are magically created automatons of great power. Constructing one involves the employment of mighty magic and elemental forces.",
+    "grapple": "+28",
+    "spaceReach": "10 ft./10 ft.",
+    "environment": "Any",
+    "organization": "Solitary or gang (2-4)",
+    "treasure": "None",
+    "advancement": "19-24 HD (Large); 25-54 HD (Huge)",
+    "leveladjustment": "---"
+  }
+}

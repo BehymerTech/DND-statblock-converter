@@ -1,0 +1,107 @@
+{
+  "name": "Shikigami",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Tiny",
+  "type": "outsider",
+  "subtype": "kami, native",
+  "alignment": "LN",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 15,
+    "notes": "dex +1, natural +2, size +2",
+    "touch": 13,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d10+3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 13,
+    "con": 12,
+    "int": 11,
+    "wis": 17,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +4, Ref +2, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Heal +9, Knowledge (nature) +6, Perception +11, Sense Motive +11, Stealth +15, Survival +9",
+    "list": {
+      "Heal": "+9",
+      "Perception": "+11",
+      "Sense Motive": "+11",
+      "Stealth": "+15",
+      "Survival": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 3,
+  "feats": [
+    "Alertness",
+    "Catch Off-Guard",
+    "Iron Will",
+    "Throw Anything"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "improvised weapon +4 (1d4+2/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "improvised weapon +6 (1d3+2/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This tiny, crudely carved statue of a robed man has glowing runes running across its surface.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": 11,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Svartalfar",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "extraplanar",
+  "alignment": "LE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 20,
+    "notes": "dex +5, natural +5",
+    "touch": 15,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 84,
+    "formula": "13d6+39"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 21,
+    "con": 17,
+    "int": 18,
+    "wis": 14,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +6, Ref +13, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +21, Bluff +21, Escape Artist +25, Intimidate +18, Knowledge (nature) +20, Knowledge (planes) +17, Perception +18, Sense Motive +18, Sleight of Hand +21, Stealth +31",
+    "list": {
+      "Acrobatics": "+21",
+      "Bluff": "+21",
+      "Escape Artist": "+25",
+      "Intimidate": "+18",
+      "Perception": "+18",
+      "Sense Motive": "+18",
+      "Sleight of Hand": "+21",
+      "Stealth": "+31"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Elven",
+    "Sylvan"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 6,
+  "feats": [
+    "Agile Maneuvers",
+    "Combat Casting",
+    "Iron Will",
+    "Skill Focus (Stealth)",
+    "Stealthy",
+    "Vital Strike",
+    "Weapon Focus (longsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 longsword +9/+6 (1d8+4/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hairless, black-skinned elf like creature has an expressionless face and wields an eerie ebon sword.",
+  "meta": {
+    "cmb": "+11",
+    "cmd": 22,
+    "racialModifiers": [
+      "Acrobatics 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Shadow Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, cabal (3-12), or clan (10-30)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (+1 longsword, other treasure)"
+      }
+    ]
+  }
+}

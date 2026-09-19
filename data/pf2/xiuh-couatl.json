@@ -1,0 +1,119 @@
+{
+  "name": "Xiuh Couatl",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 57.",
+  "size": "Large",
+  "type": "Couatl",
+  "subtype": "Beast",
+  "alignment": "NG",
+  "cr": null,
+  "level": "Creature 12",
+  "xp": null,
+  "ac": {
+    "value": 33,
+    "notes": ""
+  },
+  "hp": {
+    "average": 220,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, fly 60 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 16,
+    "con": 18,
+    "int": 20,
+    "wis": 20,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +20, Ref +19, Will +25",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +21 (1d20+21); __Arcana__: +23 (1d20+23); __Diplomacy__: +26 (1d20+26); __Intimidation__: +26 (1d20+26); __Nature__: +23 (1d20+23); __Occultism__: +23 (1d20+23); __Society__: +21 (1d20+21); __Stealth__: +21 (1d20+21); __Survival__: +21 (1d20+21); ",
+    "list": {
+      "Acrobatics": "+21",
+      "Arcana": "+23",
+      "Diplomacy": "+26",
+      "Intimidation": "+26",
+      "Nature": "+23",
+      "Occultism": "+23",
+      "Society": "+21",
+      "Stealth": "+21",
+      "Survival": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise thoughtsense 60"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic; [[telepathy]] 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Thoughtsense",
+      "text": "(divination, mental, occult); The xiuh couatl senses all non-mindless creatures at the listed range."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (arcane, evocation, fire); The xiuh couatl breaths a gout of flame and lightning in an 80-foot line that deals 5d8 (5d8) electricity damage and 5d8 (5d8) fire damage (DC 32 basic Reflex save). The xiuh couatl can't use Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Greater Constrict",
+      "text": "⬻ 1d10+10 (1d10+10) bludgeoning plus 1d8 (1d8) electricity, DC 32 (page 305)"
+    },
+    {
+      "name": "Instrument of Retribution",
+      "text": "⬽ (occult, polymorph, transmutation); The xiuh couatl transforms into any simple or martial weapon. The weapon is always a +2 greater striking flaming shock weapon and can be of any size, chosen by the xiuh couatl when they transform. In weapon form, the xiuh couatl gains Hardness equal to that of the weapon into which they transform, and they retain their Hit Points, saving throws, senses, telepathy, and traits while in weapon form. The xiuh couatl can revert to their normal form by spending a single action, which has the concentrate trait."
+    },
+    {
+      "name": "Wrap in Coils",
+      "text": "⬻ Requirements The mix couatl has a Medium or smaller creature grabbed or restrained in their jaws Effect The mix couatl moves the creature into their coils, freeing their jaws to make attacks, then uses Constrict against the creature. The mix couatl can hold as many creatures in their coils as will fit in their space."
+    },
+    {
+      "name": "Xiuh Couatl Venom",
+      "text": "(poison); Saving Throw DC 32 Fortitude. Maximum Duration 6 rounds Stage 1 2d8 (2d8) poison damage and enfeebled 1 (1 round) Stage 2 2d10 (2d10) poison damage, enfeebled 1, and –5-foot status penalty to all Speeds (1 round) Stage 3 3d8 (3d8) poison damage, enfeebled 2, and –10-foot status penalty to all Speeds (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +25 (magical); Damage 2d10+10 (2d10+10) piercing plus 2d8 (2d8) fire, xiuh couatl venom, and Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      3,
+      4,
+      5,
+      5,
+      6
+    ]
+  }
+}

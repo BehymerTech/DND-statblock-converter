@@ -1,0 +1,108 @@
+{
+  "name": "Pyropiscis",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 95: Anvil of Fire",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "fire",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 22,
+    "notes": "armor +11, dex +2, size -1",
+    "touch": 11,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 105,
+    "formula": "10d10+50"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., other_semicolon sprint ft., burrow 60 ft., burrow_other through lava or magma only ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 14,
+    "con": 18,
+    "int": 2,
+    "wis": 15,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +11, Ref +9, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +10, Stealth +6",
+    "list": {
+      "Perception": "+10",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 20,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 10,
+  "feats": [
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Lunge",
+    "Toughness",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +17 (2d8+10/19-20 plus burn and grab)"
+    },
+    {
+      "name": "Ranged",
+      "text": "lava bomb +11 (3d6 plus 2d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Glowing-hot plates of iron cover the head of this immense, primordial lungfish, and lava spills from between its jagged teeth.",
+  "meta": {
+    "cmb": "18 (+22 grapple)",
+    "cmd": 30,
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm mountains or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pack (3-6), or school (12-20)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

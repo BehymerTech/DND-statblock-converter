@@ -1,0 +1,109 @@
+{
+  "name": "Chelarac",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 144: Midwives to Death",
+  "size": "Large",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 22,
+    "notes": "dex +4, dodge +1, natural +8, size -1",
+    "touch": 14,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 114,
+    "formula": "12d8+60"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 18,
+    "con": 20,
+    "int": 19,
+    "wis": 17,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +9, Ref +8, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +12, Climb +15, Diplomacy +12, Knowledge (arcana) +10, Knowledge (dungeoneering) +10, Knowledge (history) +10, Knowledge (local) +13, Knowledge (nature) +10, Knowledge (planes) +10, Knowledge (religion) +10, Perception +22, Sense Motive +19, Stealth +15",
+    "list": {
+      "Bluff": "+12",
+      "Climb": "+15",
+      "Diplomacy": "+12",
+      "Perception": "+22",
+      "Sense Motive": "+19",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Undercommon",
+    "broodspeak"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 9,
+  "feats": [
+    "Alertness",
+    "Combat Expertise",
+    "Dodge",
+    "Improved Feint",
+    "Improved Initiative",
+    "Mobility"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15 (1d10+10 plus poison and siphon knowledge)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This monstrous creature appears to be an enormous spider with a humanlike head. Sickly blisters holding squirming young cover the creature’s abdomen.",
+  "meta": {
+    "cmb": "+17",
+    "cmd": 32,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

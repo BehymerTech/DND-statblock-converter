@@ -1,0 +1,121 @@
+{
+  "name": "Weretiger",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 291.",
+  "size": "Large",
+  "type": "Werecreature",
+  "subtype": "Beast, Human, Humanoid",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 75,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 16,
+    "int": 10,
+    "wis": 16,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +11, Ref +13, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +11 (1d20+11); __Athletics__: +12 (1d20+12); __Deception__: +7 (1d20+7); __Society__: +10 (1d20+10); __Stealth__: +11 (1d20+11); ",
+    "list": {
+      "Acrobatics": "+11",
+      "Athletics": "+12",
+      "Deception": "+7",
+      "Society": "+10",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common; tiger empathy"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Tiger Empathy",
+      "text": "(divination, primal); The weretiger can communicate with felines."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, polymorph, primal, transmutation); Human with fist +14 for 1d4+7 (1d4+7) bludgeoning, or tiger with Speed 30 feet and Wrestle (Bestiary page 53)."
+    },
+    {
+      "name": "Curse of the Weretiger",
+      "text": "(curse, necromancy, primal); Saving Throw DC 21 Fortitude."
+    },
+    {
+      "name": "Moon Frenzy",
+      "text": "(polymorph, primal, transmutation);"
+    },
+    {
+      "name": "Pounce",
+      "text": "⬻ The weretiger Strides and makes a Strike at the end of that movement. If the weretiger began this action hidden, they remain hidden until after this ability's Strike."
+    },
+    {
+      "name": "Rend",
+      "text": "⬻ claw"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +14 Damage 2d6+7 (2d6+7) piercing plus curse of the weretiger and Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +14 (agile); Damage 2d4+7 (2d4+7) slashing and Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      3,
+      3,
+      0,
+      3,
+      -1
+    ]
+  }
+}

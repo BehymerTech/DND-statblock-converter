@@ -1,0 +1,104 @@
+{
+  "name": "NPC Undead Creator",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LN",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 16,
+    "notes": "armor +4, dex +1, natural +1",
+    "touch": 11,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 100,
+    "formula": "11d6+59"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 12,
+    "con": 16,
+    "int": 20,
+    "wis": 8,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +10, Ref +6, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (alchemy) +19, Fly +5, Heal +4, Intimidate +7, Knowledge (arcana) +19, Knowledge (dungeoneering) +13, Knowledge (engineering) +13, Knowledge (geography) +13, Knowledge (history) +13, Knowledge (local) +13, Knowledge (nature) +13, Knowledge (nobility) +13, Knowledge (planes) +13, Knowledge (religion) +18, Perception +4, Spellcraft +19",
+    "list": {
+      "Fly": "+5",
+      "Heal": "+4",
+      "Intimidate": "+7",
+      "Perception": "+4",
+      "Spellcraft": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see invisibility"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Dwarven",
+    "Elven",
+    "Goblin",
+    "Infernal"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 5,
+  "feats": [
+    "Brew Potion",
+    "Combat Casting",
+    "Command Undead",
+    "Craft Wondrous Item",
+    "Greater Spell Focus (necromancy)",
+    "Improved Channel",
+    "Improved Initiative",
+    "Iron Will",
+    "Scribe Scroll",
+    "Spell Focus (necromancy)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk dagger +6 (1d4/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "necromancer 11",
+    "cmb": "+5",
+    "cmd": 16
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "name": "Viper Vine",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 287.",
+  "size": "Large",
+  "type": "Plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 13",
+  "xp": null,
+  "ac": {
+    "value": 33,
+    "notes": ""
+  },
+  "hp": {
+    "average": 270,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 20,
+    "con": 24,
+    "int": 2,
+    "wis": 20,
+    "cha": 4
+  },
+  "saves": {
+    "text": "Fort +26, Ref +24, Will +22",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +27 (1d20+27); __Stealth__: +24 (1d20+24); ",
+    "list": {
+      "Athletics": "+27",
+      "Stealth": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise tremorsense 60"
+  ],
+  "passivePerception": 32,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Cold Vulnerability",
+      "text": "When exposed to a cold effect, the viper vine is overwhelmed by lethargy, becoming slowed 1 for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Captivating Pollen",
+      "text": "⬻ (enchantment, incapacitation, mental, poison); The viper vine releases a 60-foot emanation of invisible pollen that stays in the air for 5 rounds unless dispersed by a moderate or stronger wind. Each creature that enters or starts its turn in the area must attempt a DC 33 Will save or be captivated. The viper vine can't use Captivating Pollen for 1d4 (1d4) rounds. Critical Success The creature is unaffected and is temporarily immune to Captivating Pollen for 24 hours. Success The creature is sickened 1. Failure The creature is fascinated, and it must spend each of its actions to move closer to the viper vine as expediently as possible while avoiding obvious dangers. If a captivated creature is adjacent to the viper vine, it stays still and doesn't act. It ceases to be fascinated if it's no longer in the pollen aura at the end of its turn. Critical Failure As failure, plus the creature is stupefied 2 for 24 hours."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 3d8+8 (3d8+8) bludgeoning, DC 33."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +27 (reach 10 feet); Damage 3d6+11 (3d6+11) piercing plus 3d6 (3d6) poison"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ vine +27 (agile, reach 15 feet); Damage 3d10+11 (3d10+11) bludgeoning plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      5,
+      7,
+      -4,
+      5,
+      -3
+    ]
+  }
+}

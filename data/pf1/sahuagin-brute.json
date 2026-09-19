@@ -1,0 +1,105 @@
+{
+  "name": "Sahuagin Brute",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "aquatic",
+  "alignment": "NE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 17,
+    "notes": "dex +2, natural +5",
+    "touch": 12,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 36,
+    "formula": "2d10+1d12+13"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 15,
+    "con": 18,
+    "int": 12,
+    "wis": 13,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +7, Ref +6, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +8, Handle Animal +6, Intimidate +6, Perception +7, Ride +6, Stealth +6, Survival +6, Swim +16",
+    "list": {
+      "Climb": "+8",
+      "Handle Animal": "+6",
+      "Intimidate": "+6",
+      "Perception": "+7",
+      "Ride": "+6",
+      "Stealth": "+6",
+      "Survival": "+6",
+      "Swim": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Aquan",
+    "Common",
+    "speak with sharks"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 3,
+  "feats": [
+    "Exotic Weapon Proficiency (harpoon)",
+    "Greater Blood Frenzy"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk harpoon +8 (1d8+6/×3), bite +2 (1d4+2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk harpoon +6 (1d8+4/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Sahuagin",
+    "class": "barbarian 1",
+    "cmb": "+7",
+    "cmd": 19,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm ocean"
+      }
+    ]
+  }
+}

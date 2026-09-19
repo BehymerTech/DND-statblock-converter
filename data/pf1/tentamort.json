@@ -1,0 +1,99 @@
+{
+  "name": "Tentamort",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +1, natural +6",
+    "touch": 11,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 39,
+    "formula": "6d8+12"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 13,
+    "con": 14,
+    "int": 1,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +4, Ref +5, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +10, Perception +11",
+    "list": {
+      "Climb": "+10",
+      "Perception": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "blindsense",
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 4,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Weapon Focus (tentacle)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "sting +6 (1d6+2 plus poison), tentacle +2 (1d6+1 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This dark blue creature has a conical body covered in angry red eyes and numerous tentacles, two of which are longer than the rest.",
+  "meta": {
+    "cmb": "6 (+10 grapple)",
+    "cmd": "17 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any marshes or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or brood (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

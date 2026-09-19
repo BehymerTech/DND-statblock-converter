@@ -1,0 +1,105 @@
+{
+  "name": "Weremantis (Human Form)",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, shapechanger",
+  "alignment": "LE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 15,
+    "notes": "dex +2, dodge +1, wis +2",
+    "touch": 15,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 29,
+    "formula": "3d8+12"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 14,
+    "con": 17,
+    "int": 8,
+    "wis": 15,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +6, Ref +5, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +8, Climb +7, Perception +8, Stealth +8",
+    "list": {
+      "Acrobatics": "+8",
+      "Climb": "+7",
+      "Perception": "+8",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 2,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Unarmed Strike",
+    "Stunning Fist",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "unarmed strike +4 (1d6+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This woman has the triangular head and spiked, segmented arms of a praying mantis.",
+  "meta": {
+    "race": "Human",
+    "class": "natural weremantis monk 3 (augmented humanoid)",
+    "cmb": "+4",
+    "cmd": 18,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gathering (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear"
+      }
+    ]
+  }
+}

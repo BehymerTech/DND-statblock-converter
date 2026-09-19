@@ -1,0 +1,90 @@
+{
+  "name": "NPC Temple (Acolyte)",
+  "sourceSystem": "pf1",
+  "source": "GameMastery Guide",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "LN",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 17,
+    "notes": "armor +5, shield +2",
+    "touch": 10,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 5,
+    "formula": "1d8+1"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 10,
+    "con": 13,
+    "int": 10,
+    "wis": 15,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +3, Ref +0, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +6, Heal +8, Knowledge (religion) +4, Sense Motive +6, Perception +2",
+    "list": {
+      "Diplomacy": "+6",
+      "Heal": "+8",
+      "Sense Motive": "+6",
+      "Perception": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 12,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 0,
+  "feats": [
+    "Extra Channel",
+    "Selective Channeling"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "shortspear +1 (1d6+1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "shortspear +0 (1d6+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "cleric 1",
+    "cmb": "+1",
+    "cmd": 11
+  }
+}

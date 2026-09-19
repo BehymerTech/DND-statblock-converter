@@ -1,0 +1,102 @@
+{
+  "name": "Bunyip",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex +3, natural +2",
+    "touch": 13,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 32,
+    "formula": "5d10+5"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., swim 50 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 16,
+    "con": 13,
+    "int": 2,
+    "wis": 11,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +5, Ref +7, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Escape Artist +5, Perception +8, Stealth +10, Swim +9",
+    "list": {
+      "Escape Artist": "+5",
+      "Perception": "+8",
+      "Stealth": "+10",
+      "Swim": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "keen scent"
+  ],
+  "passivePerception": 18,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 5,
+  "feats": [
+    "Improved Critical (bite)",
+    "Skill Focus (Perception)",
+    "Skill Focus (Stealth)",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +7 (1d8+1/19-20 plus bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A disturbing combination of shark and seal, this brown-furred creature has a wide mouth filled with razor-sharp teeth.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 19,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any aquatic"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

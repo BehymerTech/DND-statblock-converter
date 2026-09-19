@@ -1,0 +1,107 @@
+{
+  "name": "Stalker Automaton",
+  "sourceSystem": "pf1",
+  "source": "Construct Handbook",
+  "size": "Medium",
+  "type": "construct",
+  "subtype": "automaton, extraplanar",
+  "alignment": "LN",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +3, natural +5",
+    "touch": 13,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 53,
+    "formula": "6d10+20"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., other_semicolon sprint ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": "None",
+    "int": 13,
+    "wis": 15,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +1, Ref +4, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +12, Climb +21, Perception +11, Stealth +17, Survival +8",
+    "list": {
+      "Acrobatics": "+12",
+      "Climb": "+21",
+      "Perception": "+11",
+      "Stealth": "+17",
+      "Survival": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common",
+    "telepathy 50 ft."
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 6,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Run"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +10 (1d6+4 plus grab), 2 claws +10 (1d4+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This construct resembles a large cat. Its body coloring and the glowing core in the center of its head constantly shift in color.",
+  "meta": {
+    "cmb": "10 (+14 grapple)",
+    "cmd": "23 (27 vs. trip)",
+    "racialModifiers": [
+      "Stealth 5"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Axis)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

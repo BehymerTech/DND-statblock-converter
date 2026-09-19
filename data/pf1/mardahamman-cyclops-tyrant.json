@@ -1,0 +1,109 @@
+{
+  "name": "Mardahamman, Cyclops Tyrant",
+  "sourceSystem": "pf1",
+  "source": "Giants Revisited",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "NE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 29,
+    "notes": "armor +6, deflection +1, dex +3, dodge +1, natural +9, size -1",
+    "touch": 14,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 210,
+    "formula": "10d8+10d10+110"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 16,
+    "con": 21,
+    "int": 10,
+    "wis": 11,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +19, Ref +11, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +18, Intimidate +24, Perception +15, Profession (soothsayer) +7, Sense Motive +4, Survival +8",
+    "list": {
+      "Climb": "+18",
+      "Intimidate": "+24",
+      "Perception": "+15",
+      "Sense Motive": "+4",
+      "Survival": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Common",
+    "Cyclops",
+    "Giant"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 17,
+  "feats": [
+    "Alertness",
+    "Cleave",
+    "Dodge",
+    "Great Cleave",
+    "Improved Bull Rush",
+    "Improved Critical (greatclub)",
+    "Improved Initiative",
+    "Improved Overrun",
+    "Improved Sunder",
+    "Intimidating Prowess",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Vital Strike",
+    "Weapon Focus (greatclub)",
+    "Weapon Specialization (greatclub)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 defending greatclub +26/+21/+16/+11 (2d8+14/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 heavy crossbow +20 (2d8+1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Attired in various hides and with pauldrons made from the tusks of a mammoth, this towering, one-eyed humanoid wields an equally massive flat club.",
+  "meta": {
+    "race": "Male",
+    "class": "cyclops fighter 10 (Pathfinder RPG Bestiary 52)",
+    "cmb": "24 (+26 bull rush, overrun, sunder)",
+    "cmd": "39 (41 vs. bull rush, overrun, sunder)"
+  }
+}

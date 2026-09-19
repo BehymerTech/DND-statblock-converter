@@ -1,0 +1,97 @@
+{
+  "name": "Lizardfolk Berserker",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "reptilian",
+  "alignment": "CN",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 19,
+    "notes": "armor +4, dex +2, natural +5, rage -2",
+    "touch": 10,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 66,
+    "formula": "2d8+4d12+26"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., swim 15 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 14,
+    "con": 19,
+    "int": 9,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +11, Ref +3, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +12, Perception +10, Survival +7, Swim +21",
+    "list": {
+      "Acrobatics": "+12",
+      "Perception": "+10",
+      "Survival": "+7",
+      "Swim": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 20,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 5,
+  "feats": [
+    "Cleave",
+    "Multiattack",
+    "Weapon Focus (morningstar)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk morningstar +12 (1d8+6), bite +9 (1d6+3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk javelin +8 (1d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Lizardfolk",
+    "class": "barbarian 4",
+    "cmb": "+11",
+    "cmd": 21,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate swamps"
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Quetzalcoatlus",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 272.",
+  "size": "Huge",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 110,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 feet, fly 50 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 18,
+    "con": 16,
+    "int": 2,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +16, Ref +17, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +14 (1d20+14); __Athletics__: +17 (1d20+17); ",
+    "list": {
+      "Acrobatics": "+14",
+      "Athletics": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 25,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Snatch",
+      "text": "A quetzalcoatlus can move at half."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ beak +17 (deadly 1d10, reach 10 feet); Damage 2d10+10 (2d10+10) piercing plus 1d8 (1d8) persistent bleed"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ talon +17 Damage 2d8+10 (2d8+10) piercing plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      4,
+      3,
+      -4,
+      2,
+      -1
+    ]
+  }
+}

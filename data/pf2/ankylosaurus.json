@@ -1,0 +1,95 @@
+{
+  "name": "Ankylosaurus",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 97.",
+  "size": "Huge",
+  "type": "Dinosaur",
+  "subtype": "Animal",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 26,
+    "notes": ""
+  },
+  "hp": {
+    "average": 90,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 10,
+    "con": 18,
+    "int": 2,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +16, Ref +10, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +17 (1d20+17); ",
+    "list": {
+      "Athletics": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 22,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Punishing Tail",
+      "text": "A creature struck by the ankylosaurus's tail must attempt a DC 24 Fortitude save. On a failure, it's slowed 1 until the end of its next turn; on a critical failure, it's stunned until the end of its next turn."
+    },
+    {
+      "name": "Trample",
+      "text": "⬽ Medium or smaller, foot, DC 24."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ tail +17 (backswing, reach 15 feet); Damage 2d8+7 (2d8+7) bludgeoning plus punishing tail"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ foot +17 (reach 10 feet); Damage 2d6+7 (2d6+7) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      0,
+      4,
+      -4,
+      2,
+      -1
+    ]
+  }
+}

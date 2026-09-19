@@ -1,0 +1,94 @@
+{
+  "name": "Young Astral Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "extraplanar",
+  "alignment": "N",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 21,
+    "notes": "dex +2, natural +10, size -1",
+    "touch": 11,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 95,
+    "formula": "10d12+30"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (poor)"
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 14,
+    "con": 16,
+    "int": 17,
+    "wis": 16,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +10, Ref +9, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +16, Diplomacy +14, Fly +9, Intimidate +14, Knowledge (arcana) +16, Knowledge (history) +16, Knowledge (planes) +16, Perception +16, Sense Motive +16",
+    "list": {
+      "Appraise": "+16",
+      "Diplomacy": "+14",
+      "Fly": "+9",
+      "Intimidate": "+14",
+      "Perception": "+16",
+      "Sense Motive": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "see invisibility"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 10,
+  "feats": [
+    "Flyby Attack",
+    "Improved Initiative",
+    "Multiattack",
+    "Power Attack",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15 (2d6+7), 2 claws +14 (1d8+5), 2 wings +12 (1d6+2), tail slap +12 (1d8+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This majestic dragon seems to shimmer as if surrounded by thousands of eddies of astral thought.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": "28 (32 vs. trip)"
+  }
+}

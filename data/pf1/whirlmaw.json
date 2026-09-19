@@ -1,0 +1,103 @@
+{
+  "name": "Whirlmaw",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Bestiary",
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 20,
+    "notes": "dex +6, natural +4",
+    "touch": 16,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 102,
+    "formula": "12d8+48"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 90 ft. (perfect), burrow 10 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 22,
+    "con": 18,
+    "int": 3,
+    "wis": 10,
+    "cha": 3
+  },
+  "saves": {
+    "text": "Fort +8, Ref +10, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +18, Perception +8, Stealth +15",
+    "list": {
+      "Fly": "+18",
+      "Perception": "+8",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "keen sight",
+    "tremorsense"
+  ],
+  "passivePerception": 18,
+  "languages": [],
+  "initiative": "+10",
+  "babOrProficiency": 9,
+  "feats": [
+    "Flyby Attack",
+    "Hover",
+    "Improved Initiative",
+    "Power Attack",
+    "Weapon Focus (bite)",
+    "Wingover"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +16 (2d6+9 plus burrowing bite)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature glides on undulating folds of leathery skin. Its spinning, circular mouth is lined with rows of razor-sharp teeth.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": "31 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts (Rahadoum)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or flight (2-9)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none (eye gems worth 300 gp each)"
+      }
+    ]
+  }
+}

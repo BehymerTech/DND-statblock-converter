@@ -1,0 +1,98 @@
+{
+  "name": "Deva",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "Celestial",
+  "subtype": "Angel",
+  "alignment": "Lawful Good",
+  "cr": "10",
+  "level": null,
+  "xp": 5900,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 229,
+    "formula": "27d8 + 108"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 90,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., Fly 90 ft. (hover)"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 18,
+    "con": 18,
+    "int": 17,
+    "wis": 20,
+    "cha": 20
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Insight +9, Perception +9",
+    "list": {
+      "Insight": "+9",
+      "Perception": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 120 ft."
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "All; telepathy 120 ft."
+  ],
+  "initiative": "+4 (14)",
+  "babOrProficiency": 4,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Exalted Restoration",
+      "text": "If the deva dies outside Mount Celestia, its body disappears, and it gains a new body instantly, reviving with all its Hit Points somewhere in Mount Celestia."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The deva has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The deva makes two Holy Mace attacks."
+    },
+    {
+      "name": "Holy Mace",
+      "text": "_Melee Attack Roll:_ +8, reach 5 ft. _Hit:_ 7 (1d6 + 4) Bludgeoning damage plus 18 (4d8) Radiant damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The deva casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 17): <br> &emsp;**At Will:** _Detect Evil and Good_, _Shapechange_ (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell) <br> &emsp;**1/Day Each:** _Commune_, _Raise Dead_"
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Divine Aid (2/Day)",
+      "text": "The deva casts _Cure Wounds_, _Lesser Restoration_, or _Remove Curse_, using the same spellcasting ability as Spellcasting. ## Djinni"
+    }
+  ],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

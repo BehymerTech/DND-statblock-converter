@@ -1,0 +1,116 @@
+{
+  "name": "Black Magga",
+  "sourceSystem": "pf1",
+  "source": "Rise of the Runelords Anniversary Edition, Pathfinder No. 3: The Hook Mountain Massacre",
+  "size": "Gargantuan",
+  "type": "outsider",
+  "subtype": "aquatic, native",
+  "alignment": "CE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 30,
+    "notes": "natural +24, size -4",
+    "touch": 6,
+    "flatFooted": 30
+  },
+  "hp": {
+    "average": 232,
+    "formula": "15d10+150"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 37,
+    "dex": 10,
+    "con": 31,
+    "int": 25,
+    "wis": 18,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +19, Ref +11, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +18, Intimidate +23, Knowledge (arcana) +25, Knowledge (history) +22, Knowledge (nature) +22, Knowledge (planes) +25, Knowledge (religion) +22, Perception +22, Sense Motive +22, Spellcraft +25, Stealth +6, Survival +19, Swim +36",
+    "list": {
+      "Acrobatics": "+18",
+      "Intimidate": "+23",
+      "Perception": "+22",
+      "Sense Motive": "+22",
+      "Spellcraft": "+25",
+      "Stealth": "+6",
+      "Survival": "+19",
+      "Swim": "+36"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "Thassilonian"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 15,
+  "feats": [
+    "Awesome Blow",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +24 (2d8+13/19-20 plus energy drain), 4 tentacles +19 (2d6+6 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous creature’s serpentine neck supports a leering reptilian head-its body is a wriggling mass of tentacles.",
+  "meta": {
+    "cmb": "32 (+36 grapple)",
+    "cmd": "42 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "the Storval Deep"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "name": "Baboon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Small",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 13,
+    "notes": "dex +2, size +1",
+    "touch": 13,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 5,
+    "formula": "1d8+1"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 15,
+    "con": 12,
+    "int": 2,
+    "wis": 12,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +3, Ref +4, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Climb +5, Perception +1",
+    "list": {
+      "Acrobatics": "+10",
+      "Climb": "+5",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 11,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 0,
+  "feats": [
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +3 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A hairy, stout animal with opposable thumbs, this creature has a pronounced muzzle and bright red buttocks.",
+  "meta": {
+    "cmb": "+0",
+    "cmd": 12,
+    "racialModifiers": [
+      "Acrobatics 4",
+      "Climb 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forests or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or mission (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

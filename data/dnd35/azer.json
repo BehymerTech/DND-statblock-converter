@@ -1,0 +1,105 @@
+{
+  "name": "Azer",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Outsider",
+  "subtype": "Extraplanar, Fire",
+  "alignment": "Always lawful neutral",
+  "cr": "2",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 23,
+    "notes": "+1 Dex, +6 natural, +4 scale mail, +2 heavy shield",
+    "touch": 11,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 11,
+    "formula": "2d8+2"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft. in scale mail (4 squares); base speed 30 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 13,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +4, Ref +4, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +6, Climb +0, Craft (any Two) +6, Hide +0, Jump -6, Listen +6, Search +6, Spot +6;",
+    "list": {
+      "Appraise": "+6",
+      "Climb": "+0",
+      "Hide": "+0",
+      "Jump": "-6",
+      "Listen": "+6",
+      "Search": "+6",
+      "Spot": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Power Attack"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Heat"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., immunity to fire, spell resistance 13, vulnerability to cold"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Warhammer +3 melee (1d8+1/x3 plus 1 fire) or shortspear +3 ranged (1d6+1 plus 1 fire)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Warhammer +3 melee (1d8+1/x3 plus 1 fire) or shortspear +3 ranged (1d6+1 plus 1 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Azers are dwarflike beings native to the Elemental Plane of Fire. They wear kilts of brass, bronze, or copper, and speak Ignan and Common.",
+    "grapple": "+3",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Elemental Plane of Fire",
+    "organization": "Solitary, pair, team (3-4), squad (11-20 plus 2 3rd-level sergeants and 1 leader of 3rd-6th level), or clan (30-100 plus 50% noncombatants plus 1 3rd-level sergeant per 20 adults, 5 5th-level lieutenants, and 3 7th-level captains)",
+    "treasure": "Standard coins; double goods (nonflammables only); standard items (nonflammables only)",
+    "advancement": "By character class",
+    "leveladjustment": "+4"
+  }
+}

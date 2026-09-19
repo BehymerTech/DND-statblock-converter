@@ -1,0 +1,91 @@
+{
+  "name": "Sewer Ooze",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 254.",
+  "size": "Medium",
+  "type": "Ooze",
+  "subtype": "Mindless",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 8,
+    "notes": ""
+  },
+  "hp": {
+    "average": 40,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 0,
+    "con": 18,
+    "int": 0,
+    "wis": 10,
+    "cha": 0
+  },
+  "saves": {
+    "text": "Fort +9, Ref +1, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Stealth__: +1 (1d20+1), (Stealth: +4 (1d20+4) in sewers); ",
+    "list": {
+      "Stealth": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "motion sense 60, no vision"
+  ],
+  "passivePerception": 13,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Motion Sense",
+      "text": "A sewer ooze can sense nearby motion through vibration and air movement."
+    },
+    {
+      "name": "Filth Wave",
+      "text": "⬻ Frequency once per minute Effect The sewer ooze unleashes a wave of filth, covering all creatures within a 20-foot emanation. Each creature in the area must succeed at a DC 17 Reflex save or take 1d4 (1d4) acid damage and take a –10-foot penalty to its Speeds for 1 minute (on a critical failure, the creature also falls prone). A creature can spend an Interact action to clean someone off, decreasing the Speed penalty by 5 feet with each action."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ pseudopod +9 Damage 1d6+1 (1d6+1) bludgeoning plus 1d4 (1d4) acid"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      -5,
+      4,
+      -5,
+      0,
+      -5
+    ]
+  }
+}

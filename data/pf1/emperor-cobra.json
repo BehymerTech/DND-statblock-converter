@@ -1,0 +1,106 @@
+{
+  "name": "Emperor Cobra",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +2, natural +7, size -1",
+    "touch": 11,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 51,
+    "formula": "6d8+24"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 15,
+    "con": 18,
+    "int": 1,
+    "wis": 17,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +9, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Climb +14, Perception +13, Stealth +11, Swim +14",
+    "list": {
+      "Acrobatics": "+10",
+      "Climb": "+14",
+      "Perception": "+13",
+      "Stealth": "+11",
+      "Swim": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 23,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 4,
+  "feats": [
+    "Improved Initiative",
+    "Skill Focus (Stealth)",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +10 (2d6+9 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This massive green cobra rears its head upward aggressively, its brightly colored, scaly hood flaring in an unmistakable warning.",
+  "meta": {
+    "cmb": "+11",
+    "cmd": "23 (can’t be tripped)",
+    "racialModifiers": [
+      "Acrobatics 8",
+      "Perception 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or nest (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

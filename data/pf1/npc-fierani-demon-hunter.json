@@ -1,0 +1,104 @@
+{
+  "name": "NPC Fierani Demon Hunter",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "alignment": "CG",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 19,
+    "notes": "armor +4, deflection +1, dex +4",
+    "touch": 15,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 106,
+    "formula": "12d10+36"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 21,
+    "con": 12,
+    "int": 12,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +11, Ref +15, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +14, Climb +9, Knowledge (nature) +16, Knowledge (planes) +13, Perception +19, Stealth +19, Survival +17, Swim +11",
+    "list": {
+      "Acrobatics": "+14",
+      "Climb": "+9",
+      "Perception": "+19",
+      "Stealth": "+19",
+      "Survival": "+17",
+      "Swim": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Elven"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 12,
+  "feats": [
+    "Deadly Aim",
+    "Endurance",
+    "Improved Critical (longbow)",
+    "Improved Precise Shot",
+    "Iron Will",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Rapid Shot",
+    "Toughness",
+    "Weapon Focus (longbow)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk cold iron longsword +14/+9/+4 (1d8+1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 evil-outsider-bane composite longbow +19/+14/+9 (1d8+2/19-20/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Elf",
+    "class": "ranger 12",
+    "cmb": "+13",
+    "cmd": 29
+  }
+}

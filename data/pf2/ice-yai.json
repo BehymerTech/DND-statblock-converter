@@ -1,0 +1,116 @@
+{
+  "name": "Ice Yai",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 189.",
+  "size": "Large",
+  "type": "Oni",
+  "subtype": "Cold, Fiend, Giant, Humanoid",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 13",
+  "xp": null,
+  "ac": {
+    "value": 34,
+    "notes": ""
+  },
+  "hp": {
+    "average": 230,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 20,
+    "con": 20,
+    "int": 18,
+    "wis": 20,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +21, Ref +25, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +24 (1d20+24); __Arcana__: +23 (1d20+23); __Athletics__: +25 (1d20+25); __Deception__: +27 (1d20+27); __Intimidation__: +27 (1d20+27); __Nature__: +24 (1d20+24); __Stealth__: +26 (1d20+26); ",
+    "list": {
+      "Acrobatics": "+24",
+      "Arcana": "+23",
+      "Athletics": "+25",
+      "Deception": "+27",
+      "Intimidation": "+27",
+      "Nature": "+24",
+      "Stealth": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Common",
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Icy Deflection",
+      "text": "⬲ Trigger The ice yai is targeted by a ranged Strike or spell attack roll that doesn't have the fire trait Effect The ice yai creates a reflective blockade of ice, gaining a +4 circumstance bonus to AC against the triggering attack roll. If the attack misses, the ice yai redirects the attack to another creature within 20 feet of the yai. The attacker rerolls the attack roll against the new target."
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, polymorph, primal, transmutation); The ice yai takes on the appearance of an frost giant. This doesn't change their Speed or Strike attack and damage."
+    },
+    {
+      "name": "Double Punch",
+      "text": "⬻ Frequency once per round Effect The ice yai makes two fist Strikes."
+    },
+    {
+      "name": "Frozen Strike",
+      "text": "On a critical hit with a fist Strike or a hit with an ice missile Strike, the target creature must attempt a DC 33 Fortitude save. Critical Success The creature is unaffected. Success The creature is slowed 1 for 1 round. Failure The creature is slowed 2 for 1 round. Critical Failure The creature is slowed 3 for 1 round."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +27 (agile, evil, magical, reach 10 feet); Damage 2d8+16 (2d8+16) bludgeoning plus 2d6 (2d6) cold and frozen strike"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ ice missile +25 (cold, evil, magical, range increment 60 feet); Damage 2d10+12 (2d10+12) cold and frozen strike"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      5,
+      5,
+      4,
+      5,
+      8
+    ]
+  }
+}

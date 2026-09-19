@@ -1,0 +1,96 @@
+{
+  "name": "Giant Ground Wasp",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 81: Shifting Sands",
+  "size": "Small",
+  "type": "vermin",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +4, natural +2, size +1",
+    "touch": 15,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 39,
+    "formula": "6d8+12"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 40 ft. (average), burrow 10 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 19,
+    "con": 15,
+    "int": "None",
+    "wis": 10,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +7, Ref +6, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +6, Perception +4",
+    "list": {
+      "Fly": "+6",
+      "Perception": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 14,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 4,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +7 (1d6+2), sting +7 (1d4+2 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Black and yellow stripes cover this winged insect’s bulbous abdomen, which ends in a dagger-sized stinger.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": "19 (27 vs. trip)",
+    "racialModifiers": [
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm desert"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or hive (2-20)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "name": "Bone Prophet",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 239.",
+  "size": "Medium",
+  "type": "Serpentfolk",
+  "subtype": "Humanoid",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 115,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 14,
+    "int": 20,
+    "wis": 20,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +14, Ref +15, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +15 (1d20+15); __Deception__: +18 (1d20+18); __Intimidation__: +16 (1d20+16); __Occultism__: +17 (1d20+17); __Religion__: +19 (1d20+19); __Society__: +15 (1d20+15); __Stealth__: +13 (1d20+13); ",
+    "list": {
+      "Arcana": "+15",
+      "Deception": "+18",
+      "Intimidation": "+16",
+      "Occultism": "+17",
+      "Religion": "+19",
+      "Society": "+15",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Necril",
+    "Undercommon; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Raise Serpent",
+      "text": "⬽ (divine, necromancy); Frequency once per day Effect The bone prophet animates corpses of snakes, serpentfolk, or similar serpentine creatures within a 30-foot emanation. Any flesh on the bodies sloughs off, and they rise as skeletons. The bone prophet can raise one Large creature as a skeletal giant or up to three Medium creatures as skeletal champions; the equipment and attacks might be different depending on the corpses' possessions (Bestiary 298). These skeletons have the minion trait and are under the bone prophet's control; the bone prophet can give all these minions the same command with a single action that has the concentrate trait. Any skeletal minions that still remain after 10 minutes crumble to dust."
+    },
+    {
+      "name": "Serpentfolk Venom",
+      "text": "(poison); Saving Throw DC 26 Fortitude. Maximum Duration 6 rounds Stage 1 1d4 (1d4) poison damage and enfeebled 1 (1 round) Stage 2 2d4 (2d4) poison damage and enfeebled 1 (1 round)"
+    },
+    {
+      "name": "Items",
+      "text": "invisibility potion, religious symbol of Ydersius, +1 striking staff;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ staff +18 (magical, two-hand d8); Damage 2d4+9 (2d4+9) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +17 (finesse); Damage 2d6+9 (2d6+9) piercing plus serpentfolk venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      3,
+      2,
+      5,
+      5,
+      6
+    ],
+    "items": "invisibility potion, religious symbol of Ydersius, +1 striking staff;"
+  }
+}

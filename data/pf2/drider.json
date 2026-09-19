@@ -1,0 +1,115 @@
+{
+  "name": "Drider",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 159.",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 95,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, climb 20 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 16,
+    "int": 14,
+    "wis": 16,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +13, Ref +13, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +14 (1d20+14); __Athletics__: +12 (1d20+12); __Intimidation__: +14 (1d20+14); __Religion__: +13 (1d20+13); __Stealth__: +15 (1d20+15); ",
+    "list": {
+      "Arcana": "+14",
+      "Athletics": "+12",
+      "Intimidation": "+14",
+      "Religion": "+13",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Elven",
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Drider Venom",
+      "text": "(poison); Saving Throw DC 23 Fortitude. Maximum Duration 6 rounds Stage 1 1d8 (1d8) poison damage and enfeebled 1 (1 round)"
+    },
+    {
+      "name": "Web Trap",
+      "text": "A creature hit by a drider's web attack is immobilized and stuck to the nearest surface (Escape DC 21)."
+    },
+    {
+      "name": "Items",
+      "text": "+1 composite longbow (20 arrows), glaive;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ glaive +16 (deadly 1d8, forceful, reach 10 feet); Damage 1d8+10 (1d8+10) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +16 Damage 1d6+10 (1d6+10) piercing plus drider venom"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ composite longbow +16 (deadly d10, magical, propulsive, range increment 100 feet, reload 0, volley 50 feet); Damage 1d8+8 (1d8+8) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ web +15 (range increment 30 feet); Damage web trap"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      3,
+      3,
+      2,
+      3,
+      4
+    ],
+    "items": "+1 composite longbow (20 arrows), glaive;"
+  }
+}

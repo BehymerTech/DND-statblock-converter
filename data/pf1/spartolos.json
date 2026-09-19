@@ -1,0 +1,105 @@
+{
+  "name": "Spartolos",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 28: The Infernal Syndrome",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 21,
+    "notes": "armor +6, dex +2, natural +2, shield +1",
+    "touch": 12,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 76,
+    "formula": "8d8+40"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 14,
+    "con": "None",
+    "int": 11,
+    "wis": 14,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +6, Ref +4, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +5, Climb +10, Perception +13, Stealth +8",
+    "list": {
+      "Acrobatics": "+5",
+      "Climb": "+10",
+      "Perception": "+13",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Common (cannot speak)"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 6,
+  "feats": [
+    "Combat Expertise",
+    "Improved Disarm",
+    "Improved Initiative",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "spear +10 (1d8+4/x3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A skeleton clad in tarnished armor clatters in its grim march. A polished bronze breastplate, greaves, and helmet dutifully remain to protect this felled warrior, while its naked, skeletal hands still clutch a short spear and a round bronze shield. Yet, beneath its decrepit armor and moldering bones, a deftness and deadly intent linger on, embodied in a hellish light smoldering in its shadowed eye sockets.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": 22,
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, troop (3-18)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (breastplate, buckler, spear)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Squid",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "animal",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 13,
+    "notes": "dex +2, natural +1",
+    "touch": 12,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 13,
+    "formula": "3d8"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 60 ft., jet 240 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 15,
+    "con": 11,
+    "int": 2,
+    "wis": 12,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +3, Ref +7, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +7, Swim +10",
+    "list": {
+      "Perception": "+7",
+      "Swim": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Multiattack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +4 (1d3+2), tentacles +2 (1d4+1 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This slender red squid darts through the water with alacrity. Two large eyes stare from above the creature’s tentacles.",
+  "meta": {
+    "cmb": "4 (+8 grapple)",
+    "cmd": 16,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any ocean"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or school (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

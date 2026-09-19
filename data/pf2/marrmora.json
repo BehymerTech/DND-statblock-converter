@@ -1,0 +1,109 @@
+{
+  "name": "Marrmora",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 171.",
+  "size": "Medium",
+  "type": "Fire",
+  "subtype": "Fey",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 15",
+  "xp": null,
+  "ac": {
+    "value": 37,
+    "notes": ""
+  },
+  "hp": {
+    "average": 280,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, fly 30 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 18,
+    "con": 26,
+    "int": 18,
+    "wis": 22,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +29, Ref +25, Will +27",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +25 (1d20+25); __Athletics__: +25 (1d20+25); __Deception__: +30 (1d20+30); __Intimidation__: +30 (1d20+30); __Nature__: +30 (1d20+30); __Stealth__: +27 (1d20+27); __Survival__: +27 (1d20+27); ",
+    "list": {
+      "Acrobatics": "+25",
+      "Athletics": "+25",
+      "Deception": "+30",
+      "Intimidation": "+30",
+      "Nature": "+30",
+      "Stealth": "+27",
+      "Survival": "+27"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Common",
+    "Elven",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Fascination of Flame",
+      "text": "(aura, emotion, enchantment, mental, primal); 30 feet. A creature that enters or begins its turn in this aura's emanation must attempt a DC 33 Will save. Regardless of the result of the saving throw, the creature is temporarily immune for 1 minute. Critical Success The creature is unaffected. Success The creature loses any resistance to fire for 1 round. Failure The creature loses any resistance to fire for 1 hour. Critical Failure The creature loses any resistance to fire for 1 hour and gains weakness 15 to fire for the same duration."
+    },
+    {
+      "name": "Absorb Flame",
+      "text": "⬲ Trigger The marrmora is targeted by a fire spell or effect, or is in the area of a fire effect Effect The marrmora is healed by the fire damage, regaining Hit Points equal to half the damage the fire effect would have dealt."
+    },
+    {
+      "name": "Igniting Assault",
+      "text": "⬻ Requirements The marrmora is not under the effect of fire shield Effect The marrmora makes a claw Strike. If it hits, it can immediately cast one of its available fire shield innate spells as a free action."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +29 Damage 3d6+14 (3d6+14) slashing plus 3d6 (3d6) fire and 1d6 (1d6) persistent fire"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ flame jet +29 (fire, range increment 40 feet); Damage 6d6 (6d6) fire plus 2d6 (2d6) persistent fire"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      4,
+      8,
+      4,
+      6,
+      8
+    ]
+  }
+}

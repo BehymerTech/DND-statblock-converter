@@ -1,0 +1,127 @@
+{
+  "name": "Peri",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 201.",
+  "size": "Medium",
+  "type": "Fire",
+  "subtype": "Celestial",
+  "alignment": "CG",
+  "cr": null,
+  "level": "Creature 14",
+  "xp": null,
+  "ac": {
+    "value": 36,
+    "notes": ""
+  },
+  "hp": {
+    "average": 255,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 0,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "0 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 24,
+    "con": 18,
+    "int": 20,
+    "wis": 18,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +22, Ref +27, Will +26",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +27 (1d20+27); __Arcana__: +23 (1d20+23); __Athletics__: +25 (1d20+25); __Diplomacy__: +28 (1d20+28); __Performance__: +28 (1d20+28); __Religion__: +24 (1d20+24); ",
+    "list": {
+      "Acrobatics": "+27",
+      "Arcana": "+23",
+      "Athletics": "+25",
+      "Diplomacy": "+28",
+      "Performance": "+28",
+      "Religion": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, smoke vision"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Elven",
+    "Ignan",
+    "Sylvan; [[telepathy]] 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Smoke Vision",
+      "text": "A peri can see through smoke with ease, and they ignore the concealed condition from smoke."
+    },
+    {
+      "name": "Shining Blaze",
+      "text": "(aura, divine, evocation, fire); 5 feet, 6d6 (6d6) fire damage (DC 31 basic Reflex)"
+    },
+    {
+      "name": "Flame Jump",
+      "text": "⬺ (conjuration, divine, teleportation); Frequency once per hour Effect The peri Strides into an open flame of their size or larger and instantly transports themself to any other flame of sufficient size within 100 miles. Once they enter the first flame, the peri instantly learns the locations of all other flames within range."
+    },
+    {
+      "name": "Flameheart Weapon",
+      "text": "The peri can call forth a powerful weapon from their heart of flame. In their hands, this is a +2 greater flaming greater striking weapon that deals 2d6 (2d6) fire damage instead of 1d6 (1d6)."
+    },
+    {
+      "name": "Flamewing Buffet",
+      "text": "⬺ The peri makes one scimitar Strike and two burning wings Strikes, in any order."
+    },
+    {
+      "name": "Wildfire Storm",
+      "text": "⬻ (divine, fire); The peri spreads their wings and spins, forming a whirlwind of flame that deals 15d6 (15d6) fire damage in a 20-foot emanation (DC 34 basic Reflex save). They can't use Wildfire Storm again for 1d4 (1d4) rounds."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ scimitar +29 (forceful, good, magical, sweep); Damage 3d6+13 (3d6+13) slashing plus 2d6 (2d6) fire"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ burning wings +29 (agile, finesse, fire, good, magical, reach 10 feet); Damage 3d10+13 (3d10+13) fire"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ flame ray +29 (fire, good, magical, range 60 feet); Damage 8d6 (8d6) fire"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      7,
+      4,
+      5,
+      4,
+      8
+    ]
+  }
+}

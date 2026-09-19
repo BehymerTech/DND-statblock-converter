@@ -1,0 +1,121 @@
+{
+  "name": "Katpaskir",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 78: City of Locusts",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 31,
+    "notes": "dex +5, natural +16",
+    "touch": 15,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 304,
+    "formula": "21d10+189"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (average), burrow 20 ft."
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 20,
+    "con": 28,
+    "int": 17,
+    "wis": 21,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +16, Ref +17, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +30, Disable Device +29, Fly +29, Knowledge (arcana) +27, Knowledge (planes) +31, Perception +37, Sense Motive +29, Spellcraft +27, Use Magic Device +30",
+    "list": {
+      "Bluff": "+30",
+      "Disable Device": "+29",
+      "Fly": "+29",
+      "Perception": "+37",
+      "Sense Motive": "+29",
+      "Spellcraft": "+27",
+      "Use Magic Device": "+30"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see invisibility"
+  ],
+  "passivePerception": 47,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Celestial",
+    "Common",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 21,
+  "feats": [
+    "Dimensional Agility",
+    "Dimensional Assault",
+    "Dimensional Dervish",
+    "Dimensional Maneuvers",
+    "Dimensional Savant",
+    "Empower Spell-Like Ability (disintegrate)",
+    "Greater Sunder",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +31 (2d6+10/19-20), 4 talons +31 (1d8+10)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Four clawed arms sprout from this fiend’s chest like the limbs of a buried insect struggling to crawl free. Overlapping iridescent plates of chitin cascade down the monster’s back, shrouding four membranous dragonfly wings.",
+  "meta": {
+    "cmb": "31 (+35 sunder)",
+    "cmd": "46 (48 vs. sunder)",
+    "racialModifiers": [
+      "Knowledge (planes) 4",
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

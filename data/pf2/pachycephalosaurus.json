@@ -1,0 +1,92 @@
+{
+  "name": "Pachycephalosaurus",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 81.",
+  "size": "Large",
+  "type": "Dinosaur",
+  "subtype": "Animal",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 65,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 18,
+    "int": 2,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +12, Ref +11, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +11 (1d20+11); __Intimidation__: +7 (1d20+7); ",
+    "list": {
+      "Athletics": "+11",
+      "Intimidation": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 20,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Clobbering Charge",
+      "text": "⬺ The pachycephalosaurus Strides up to its Speed. If it ends its movement within melee reach of a target, it can make a skull Strike against that target. If the pachycephalosaurus critically hits with this Strike, the creature hit is stunned 1."
+    },
+    {
+      "name": "Sudden Shove",
+      "text": "⬲ (attack); Trigger The pachycephalosaurus damages a Medium or smaller foe with its skull Strike Effect The pachycephalosaurus digs in and flings its head up, shoving its foe away. It attempts an Athletics check against the target's Fortitude DC. Critical Success The pachycephalosaurus pushes the opponent up to 10 feet away from itself and knocks the target prone. Success The pachycephalosaurus pushes the opponent back 5 feet. Failure The pachycephalosaurus fails to push the opponent. Critical Failure As failure, but the failed attempt leaves the pachycephalosaurus flat-footed for 1 round."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ skull +11 (forceful, reach 10 feet); Damage 1d10+6 (1d10+6) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      3,
+      4,
+      -4,
+      3,
+      0
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "name": "Wyrmwraith",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Gargantuan",
+  "type": "undead",
+  "subtype": "incorporeal",
+  "alignment": "CE",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 31,
+    "notes": "deflection +6, dex +12, dodge +1, profane +6, size -4",
+    "touch": 31,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 252,
+    "formula": "24d8+144"
+  },
+  "speed": {
+    "walk": 80,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 80 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 34,
+    "con": "None",
+    "int": 20,
+    "wis": 21,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +14, Ref +20, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +40, Escape Artist +14, Fly +45, Intimidate +39, Knowledge (arcana) +20, Knowledge (planes) +17, Knowledge (religion) +32, Perception +38, Sense Motive +32, Stealth +31, Survival +29",
+    "list": {
+      "Acrobatics": "+40",
+      "Escape Artist": "+14",
+      "Fly": "+45",
+      "Intimidate": "+39",
+      "Perception": "+38",
+      "Sense Motive": "+32",
+      "Stealth": "+31",
+      "Survival": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "lifesense"
+  ],
+  "passivePerception": 48,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Draconic",
+    "Elven",
+    "Infernal"
+  ],
+  "initiative": "+16",
+  "babOrProficiency": 18,
+  "feats": [
+    "Acrobatic",
+    "Dodge",
+    "Flyby Attack",
+    "Hover",
+    "Improved Initiative",
+    "Multiattack",
+    "Quicken Spell-Like Ability (finger of death)",
+    "Skill Focus (Intimidate)",
+    "Skill Focus (Perception)",
+    "Stealthy",
+    "Weapon Focus (incorporeal bite)",
+    "Weapon Focus (incorporeal claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "incorporeal bite +27 (4d6 plus energy drain), 2 incorporeal claws +27 (2d8 plus divine dispelling), 2 incorporeal wings +24 (2d6), incorporeal tail slap +24 (2d8)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This ghostly, skeletal creature appears to once have been a dragon, but it is now something far less noble.",
+  "meta": {
+    "cmb": "+34",
+    "cmd": "57 (61 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or cadre (1 plus 2-4 dread wraiths)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "name": "Astral Leviathan",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Colossal",
+  "type": "outsider",
+  "subtype": "extraplanar",
+  "alignment": "N",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 34,
+    "notes": "dex +2, natural +30, size -8",
+    "touch": 4,
+    "flatFooted": 32
+  },
+  "hp": {
+    "average": 310,
+    "formula": "20d10+200"
+  },
+  "speed": {
+    "walk": 90,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 90 ft. (average)"
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 14,
+    "con": 31,
+    "int": 6,
+    "wis": 15,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +24, Ref +8, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly -6, Intimidate +22, Knowledge (planes) +21, Perception +31, Survival +22",
+    "list": {
+      "Fly": "-6",
+      "Intimidate": "+22",
+      "Perception": "+31",
+      "Survival": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "astral locating",
+    "blindsight",
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 41,
+  "languages": [
+    "telepathy 30 ft."
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 20,
+  "feats": [
+    "Blind-Fight",
+    "Cleave",
+    "Combat Reflexes",
+    "Great Fortitude",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +24 (4d6+12/19-20 plus grab), 2 slams +24 (2d8+12), tail slap +19 (4d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Above this brobdingnagian, whalelike creature’s cavernous maw of freakish teeth, multiple eyes peer out in different directions.",
+  "meta": {
+    "cmb": "40 (+42 bull rush, +44 grapple)",
+    "cmd": "52 (54 vs. bull rush, can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Astral Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pod (2-5 plus 1-2 young)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

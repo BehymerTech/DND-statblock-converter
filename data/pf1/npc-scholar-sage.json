@@ -1,0 +1,102 @@
+{
+  "name": "NPC Scholar (Sage)",
+  "sourceSystem": "pf1",
+  "source": "GameMastery Guide",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 14,
+    "notes": "mage armor +4",
+    "touch": 10,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 61,
+    "formula": "7d8+5d6+12"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 10,
+    "con": 12,
+    "int": 24,
+    "wis": 14,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +5, Ref +4, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +14, Diplomacy +6, Heal +6, Knowledge (choose one) +28, Knowledge (all others) +20, Linguistics +22, Perception +10, Profession (scribe) +10, Sense Motive +7, Spellcraft +26, Use Magic Device +26",
+    "list": {
+      "Appraise": "+14",
+      "Diplomacy": "+6",
+      "Heal": "+6",
+      "Linguistics": "+22",
+      "Perception": "+10",
+      "Sense Motive": "+7",
+      "Spellcraft": "+26",
+      "Use Magic Device": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "plus 19 other languages"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 7,
+  "feats": [
+    "Arcane Strike",
+    "Craft Wand",
+    "Craft Wondrous Item",
+    "Defensive Combat Training",
+    "Magical Aptitude",
+    "Scribe Scroll",
+    "Skill Focus (Knowledge [history])",
+    "Skill Focus (Use Magic Device)",
+    "Spell Mastery"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "quarterstaff +6/+1 (1d6-1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dart +7 (1d4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "abjurer 5, expert 7",
+    "cmb": "+6",
+    "cmd": 21
+  }
+}

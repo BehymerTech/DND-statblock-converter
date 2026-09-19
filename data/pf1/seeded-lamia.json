@@ -1,0 +1,115 @@
+{
+  "name": "Seeded Lamia",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 113: What Grows Within",
+  "size": "Large",
+  "type": "undead",
+  "subtype": "augmented monstrous humanoid",
+  "alignment": "NE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 22,
+    "notes": "dex +3, dodge +1, natural +9, size -1",
+    "touch": 13,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 67,
+    "formula": "9d8+27"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., climb 60 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": "None",
+    "int": 12,
+    "wis": 18,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +8, Ref +9, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +3, Bluff +11, Climb +14, Diplomacy +6, Disguise +8, Intimidate +12, Knowledge (religion) +4, Perception +16, Stealth +15, Survival +13",
+    "list": {
+      "Acrobatics": "+3",
+      "Bluff": "+11",
+      "Climb": "+14",
+      "Diplomacy": "+6",
+      "Disguise": "+8",
+      "Intimidate": "+12",
+      "Perception": "+16",
+      "Stealth": "+15",
+      "Survival": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "telepathy 100 ft. (seeded creatures only)"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 9,
+  "feats": [
+    "Dodge",
+    "Great Fortitude",
+    "Iron Will",
+    "Mobility",
+    "Spring Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 dagger +15/+10 (1d4+7/19-20), +9 touch (1d4 Wisdom drain plus seedborne consumption), 2 claws +9 (1d4+3 plus seedborne consumption), 2 tendrils +9 (1d8+3 plus grab and seedborne consumption)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature’s lower body is that of a decaying lion, while its upper torso is that of a woman with ropey fungus for hair. A web of grotesque fibers sprouts from its body.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": "30 (34 vs. trip)",
+    "racialModifiers": [
+      "Bluff 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate deserts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cult (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+1 dagger, other treasure)"
+      }
+    ]
+  }
+}

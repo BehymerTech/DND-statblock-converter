@@ -1,0 +1,119 @@
+{
+  "name": "Vavakia",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Book of the Damned - Volume 2: Lords of Chaos",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 35,
+    "notes": "armor +8, deflection +4, dex +2, natural +13, size -2",
+    "touch": 14,
+    "flatFooted": 33
+  },
+  "hp": {
+    "average": 297,
+    "formula": "18d10+198"
+  },
+  "speed": {
+    "walk": 45,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "45 ft., fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 14,
+    "con": 33,
+    "int": 18,
+    "wis": 21,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +26, Ref +12, Will +22",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +27, Fly +16, Intimidate +27, Knowledge (arcana) +25, Knowledge (planes) +25, Perception +34, Sense Motive +26, Spellcraft +25, Stealth +20, Swim +26",
+    "list": {
+      "Bluff": "+27",
+      "Fly": "+16",
+      "Intimidate": "+27",
+      "Perception": "+34",
+      "Sense Motive": "+26",
+      "Spellcraft": "+25",
+      "Stealth": "+20",
+      "Swim": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 44,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Draconic",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 18,
+  "feats": [
+    "Awesome Blow",
+    "Greater Vital Strike",
+    "Improved Bull Rush",
+    "Improved Iron Will",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Power Attack",
+    "Quicken Spell-Like Ability (enervation)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 unholy ranseur +28/+23/+18/+13 (3d6+17/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This reptilian demon has a quadrupedal dinosaur’s lower body, a vaguely humanoid upper torso, and a draconic saurian head.",
+  "meta": {
+    "cmb": "31 (+33 bull rush)",
+    "cmd": "47 (49 vs. bull rush)",
+    "racialModifiers": [
+      "Perception 8",
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or warband (1 vavakia plus 2-4 hezrous and 2-8 vrocks)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+2 breastplate, +1 unholy ranseur, other treasure)"
+      }
+    ]
+  }
+}

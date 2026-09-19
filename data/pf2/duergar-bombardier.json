@@ -1,0 +1,124 @@
+{
+  "name": "Duergar Bombardier",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 139.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Duergar, Dwarf",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 16,
+    "con": 14,
+    "int": 16,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +7, Ref +8, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +6 (1d20+6); __Crafting__: +6 (1d20+6); __Occultism__: +6 (1d20+6); __Stealth__: +6 (1d20+6); __Survival__: +4 (1d20+4); ",
+    "list": {
+      "Acrobatics": "+6",
+      "Crafting": "+6",
+      "Occultism": "+6",
+      "Stealth": "+6",
+      "Survival": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Infused Items",
+      "text": "A duergar bombardier's items listed as infused last for 24 hours, or until the next time they make their daily preparations."
+    },
+    {
+      "name": "Items",
+      "text": "alchemist's tools, infused lesser acid flask (2), infused lesser alchemist's fire (2), infused reagents (2), studded leather, warhammer;"
+    },
+    {
+      "name": "Light Blindness",
+      "text": ""
+    },
+    {
+      "name": "Alchemical Formulas (1st)",
+      "text": "lesser acid flask, lesser alchemist's fire, lesser tanglefoot bag."
+    },
+    {
+      "name": "Far Lobber",
+      "text": "The duergar bombardier has a range increment of 30 feet with their bombs instead of 20 feet."
+    },
+    {
+      "name": "Quick Alchemy",
+      "text": "⬻ The duergar bombardier creates a single alchemical item from their formula book (see Alchemical Formulas). This item has the infused trait, but it remains potent only until the start of the duergar bombardier's next turn."
+    },
+    {
+      "name": "Quick Bomber",
+      "text": "⬻ The duergar can use Interact to draw a bomb, then Strike with it."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ warhammer +4 (shove); Damage 1d8+1 (1d8+1) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ bomb +8 (range increment 30 feet, splash); Damage varies by bomb"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      3,
+      2,
+      3,
+      1,
+      -1
+    ],
+    "items": "  A duergar bombardier's items listed as infused last for 24 hours, or until the next time they make their daily preparations."
+  }
+}

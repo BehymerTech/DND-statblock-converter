@@ -1,0 +1,103 @@
+{
+  "name": "Dunkleosteus",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Pathfinder No. 56: Raiders of the Fever Sea",
+  "size": "Huge",
+  "type": "animal",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex +2, natural +9, size -2",
+    "touch": 10,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 75,
+    "formula": "10d8+30"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 60 ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 14,
+    "con": 17,
+    "int": 1,
+    "wis": 13,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +10, Ref +9, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +15, Swim +30",
+    "list": {
+      "Perception": "+15",
+      "Swim": "+30"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 25,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 7,
+  "feats": [
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Iron Will",
+    "Skill Focus (Perception)",
+    "Skill Focus (Swim)",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +16 (3d8+15/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This gigantic, prehistoric fish has a head like a snapping turtle, complete with sharp, toothlike plates.",
+  "meta": {
+    "cmb": "19 (+23 grab)",
+    "cmd": 31,
+    "racialModifiers": [
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

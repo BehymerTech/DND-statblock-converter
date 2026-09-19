@@ -1,0 +1,118 @@
+{
+  "name": "The Menotherian",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Gods",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "chaotic, extraplanar, herald, shapechanger",
+  "alignment": "CN",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 31,
+    "notes": "dex +5, natural +17, size -1",
+    "touch": 14,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 202,
+    "formula": "15d10+120"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 50 ft. (poor), climb 20 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 20,
+    "con": 26,
+    "int": 18,
+    "wis": 18,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +17, Ref +16, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +20, Bluff +23, Climb +17, Diplomacy +23, Fly -1, Heal +11, Intimidate +23, Knowledge (history) +15, Knowledge (planes) +15, Knowledge (nature) +12, Perception +22, Perform (dance) +12, Sense Motive +22, Spellcraft +14, Stealth +19",
+    "list": {
+      "Acrobatics": "+20",
+      "Bluff": "+23",
+      "Climb": "+17",
+      "Diplomacy": "+23",
+      "Fly": "-1",
+      "Heal": "+11",
+      "Intimidate": "+23",
+      "Perception": "+22",
+      "Sense Motive": "+22",
+      "Spellcraft": "+14",
+      "Stealth": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Elven",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 15,
+  "feats": [
+    "Combat Reflexes",
+    "Hover",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Step Up",
+    "Weapon Focus (bite)",
+    "Weapon Focus (sting)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +24 (1d8+9), 2 claws +23 (1d6+9), sting +24 (2d8+9 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This gangly black wasp has delicate wings, articulate hands on its front legs, and a pair of jagged stingers the length of a human arm.",
+  "meta": {
+    "cmb": "+25",
+    "cmd": "40 (48 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Elysium)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

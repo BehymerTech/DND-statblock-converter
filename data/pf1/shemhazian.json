@@ -1,0 +1,119 @@
+{
+  "name": "Shemhazian",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Pathfinder No. 5: Sins of the Saviors",
+  "size": "Gargantuan",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 31,
+    "notes": "dex +4, dodge +1, natural +20, size -4",
+    "touch": 11,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 246,
+    "formula": "17d10+153"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (good), climb 20 ft."
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 19,
+    "con": 29,
+    "int": 10,
+    "wis": 26,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +19, Ref +11, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +23, Climb +20, Fly +2, Heal +28, Intimidate +23, Knowledge (religion) +20, Perception +36, Sense Motive +28",
+    "list": {
+      "Bluff": "+23",
+      "Climb": "+20",
+      "Fly": "+2",
+      "Heal": "+28",
+      "Intimidate": "+23",
+      "Perception": "+36",
+      "Sense Motive": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "scent",
+    "true seeing"
+  ],
+  "passivePerception": 46,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Draconic",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 17,
+  "feats": [
+    "Awesome Blow",
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Bull Rush",
+    "Improved Vital Strike",
+    "Lightning Reflexes",
+    "Multiattack",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +25 (2d6+12 plus 2d4 Strength drain), 2 claws +25 (2d6+12), 2 pincers +23 (1d12+6), tail slap +23 (2d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous, bestial demon combines the worst aspects of a bear, a mantis, a wolf, and a reptilian humanoid.",
+  "meta": {
+    "cmb": "+33",
+    "cmd": 48,
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (the Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "name": "Samsaran",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "samsaran",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 15,
+    "notes": "armor +3, dex +2",
+    "touch": 12,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 11,
+    "formula": "1d8+3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 14,
+    "con": 11,
+    "int": 12,
+    "wis": 14,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +0, Ref +2, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +6, Disable Device +7, Heal +6, Knowledge (religion) +5, Perception +8, Spellcraft +5",
+    "list": {
+      "Diplomacy": "+6",
+      "Disable Device": "+7",
+      "Heal": "+6",
+      "Perception": "+8",
+      "Spellcraft": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Samsaran"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 0,
+  "feats": [
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "spear -1 (1d6-1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "sling +2 (1d4-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This serene-looking slender young man has pale blue skin and solid black eyes, and is dressed in simple robes.",
+  "meta": {
+    "race": "Male",
+    "class": "samsaran oracle 1",
+    "cmb": "-1",
+    "cmd": 11,
+    "racialModifiers": [
+      "Disable Device 2",
+      "Perception 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or clan (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (studded leather, spear, sling with 10 bullets, thieves’ tools, other treasure)"
+      }
+    ]
+  }
+}

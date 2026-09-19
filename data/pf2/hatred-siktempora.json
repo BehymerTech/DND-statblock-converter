@@ -1,0 +1,113 @@
+{
+  "name": "Hatred Siktempora",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 235.",
+  "size": "Medium",
+  "type": "Time",
+  "subtype": "Siktempora",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 18",
+  "xp": null,
+  "ac": {
+    "value": 42,
+    "notes": ""
+  },
+  "hp": {
+    "average": 240,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 80,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "80 feet; air walk;"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 22,
+    "con": 18,
+    "int": 18,
+    "wis": 24,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +28, Ref +30, Will +33",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +35 (1d20+35); __Deception__: +32 (1d20+32); __Intimidation__: +32 (1d20+32); __Stealth__: +32 (1d20+32); __Dimension of time lore__: +32 (1d20+32); ",
+    "list": {
+      "Athletics": "+35",
+      "Deception": "+32",
+      "Intimidation": "+32",
+      "Stealth": "+32",
+      "Dimension of time lore": "+32"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 43,
+  "languages": [
+    "Aklo (can't speak any language); telepathy 500 feet (page 308)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Temporal Sense",
+      "text": "A siktempora can always roll Dimension of Time Lore for initiative. When it does, it gains a +2 circumstance bonus to the roll."
+    },
+    {
+      "name": "Impending Dread",
+      "text": "(aura, emotion, fear, mental, occult); 150 feet. Creatures within the hatred siktempora's aura don't reduce the value of their frightened condition automatically at the end of their turns."
+    },
+    {
+      "name": "Uncanny Pounce",
+      "text": "⭓ Trigger The misery siktempora rolls Dimension of Time Lore for initiative Effect The misery siktempora Strides once and makes a claw Strike, in either order."
+    },
+    {
+      "name": "Punish Flight",
+      "text": "⬲ Trigger A creature attempts to Escape from the hatred siktempora Effect The siktempora makes a loathing garotte Strike against the triggering creature. This Strike doesn't have Improved Grab."
+    },
+    {
+      "name": "Contorted Clutch",
+      "text": "The hatred siktempora can have up to two creatures grabbed with their loathing garotte at once."
+    },
+    {
+      "name": "Vindictive Crush",
+      "text": "⬻ Requirements The hatred siktempora has a creature grabbed Frequency once per round Effect The hatred siktempora tightens their garrote, dealing 5d10 (5d10) bludgeoning damage to each creature they're Grabbing. Each creature grabbed by the siktempora must attempt a DC 40 Fortitude save."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ loathing garotte +35 (cold, reach 10 feet); Damage 3d10+17 (3d10+17) cold plus Improved Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      9,
+      6,
+      4,
+      4,
+      7,
+      6
+    ]
+  }
+}

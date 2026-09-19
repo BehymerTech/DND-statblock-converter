@@ -1,0 +1,96 @@
+{
+  "name": "Pufferfish",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 99.",
+  "size": "Tiny",
+  "type": "Aquatic",
+  "subtype": "Animal",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature -1",
+  "xp": null,
+  "ac": {
+    "value": 12,
+    "notes": ""
+  },
+  "hp": {
+    "average": 12,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 15 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 10,
+    "con": 14,
+    "int": 0,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +5, Ref +3, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +2 (1d20+2); __Athletics__: +4 (1d20+4); ",
+    "list": {
+      "Acrobatics": "+2",
+      "Athletics": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 14,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Toxic Body",
+      "text": "Anyone who hits a pufferfish with a melee unarmed attack or a non-reach melee weapon must succeed at a DC 13 Reflex save or be pierced by a spine, taking 1 piercing damage and being exposed to pufferfish venom."
+    },
+    {
+      "name": "Inflating Rush",
+      "text": "⬺ The pufferfish Swims up to its Speed and then inflates. Each creature within 5 feet of its space at the end of its movement must succeed at a DC 13 Reflex save or take 1 piercing damage and be exposed to pufferfish venom."
+    },
+    {
+      "name": "Pufferfish Venom",
+      "text": "(incapacitation, poison); Saving Throw DC 16 Fortitude. Maximum Duration 24 hours Stage 1 1d4 (1d4) poison damage (1 round) Stage 2 1d4 (1d4) poison damage and flat-footed (1 round) Stage 3 1d4 (1d4) poison damage and paralyzed (1 round) Stage 4 1d4 (1d4) poison damage and paralyzed for 2d10 (2d10) hours (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ bite +6 Damage 1d6+1 (1d6+1) piercing plus pufferfish venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      0,
+      2,
+      -5,
+      1,
+      -2
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Ice Golem",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 129.",
+  "size": "Medium",
+  "type": "Mindless",
+  "subtype": "Cold, Construct, Golem",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 5",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 80,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 10,
+    "con": 18,
+    "int": 0,
+    "wis": 10,
+    "cha": 0
+  },
+  "saves": {
+    "text": "Fort +15, Ref +11, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +15 (1d20+15); ",
+    "list": {
+      "Athletics": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Golem Antimagic",
+      "text": "harmed by fire (4d6 (4d6), 1d10 (1d10) from areas or persistent damage); healed by cold (area 1d6 (1d6) HP); slowed by water."
+    },
+    {
+      "name": "Icy Demise",
+      "text": "(arcane, cold, evocation); When an ice golem is destroyed, its body explodes in a blast of frigid air and razor-sharp ice, dealing 2d6 (2d6) slashing damage and 2d6 (2d6) cold damage to creatures in a 20-foot emanation, with a DC 19 basic Reflex save."
+    },
+    {
+      "name": "Vulnerable to Endure Elements",
+      "text": "An ice golem can be targeted with endure elements even if it's not willing. If it is targeted, for 1 round it can't use Breath Weapon or benefit from creeping cold, and its fist attack doesn't deal cold damage."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (arcane, cold, evocation); The ice golem exhales a blast of freezing mist that deals 6d6 (6d6) cold damage in a 30-foot cone (DC 22 basic Reflex save). It can't use Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Creeping Cold",
+      "text": "(arcane, cold, evocation); When the ice golem gets a critical hit with a fist Strike, the target also takes 2d6 (2d6) persistent cold damage and is slowed 1 for 1 round."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +15 (magical, versatile p); Damage 2d6+7 (2d6+7) bludgeoning plus 1d6 (1d6) cold"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      0,
+      4,
+      -5,
+      0,
+      -5
+    ]
+  }
+}

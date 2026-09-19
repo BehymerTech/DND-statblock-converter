@@ -1,0 +1,146 @@
+{
+  "name": "Inevitable",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Construct",
+  "subtype": "Extraplanar, Lawful",
+  "alignment": "Always lawful neutral",
+  "cr": "9",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": "-1 size, +10 natural, +8 plate barding",
+    "touch": 9,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 74,
+    "formula": "8d10+30"
+  },
+  "speed": {
+    "walk": 35,
+    "fly": 40,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 ft. in plate barding (7 squares), fly 40 ft. (average) in plate barding (8 squares); base speed 50 ft., fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 11,
+    "con": null,
+    "int": 10,
+    "wis": 17,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +4, Ref +2, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +4, Listen +9, Search +9, Sense Motive +12, Spot +9, Survival +3 (+5 Following Tracks);",
+    "list": {
+      "Diplomacy": "+4",
+      "Disguise": "+12",
+      "Gather Information": "+12",
+      "Listen": "+9",
+      "Search": "+9",
+      "Sense Motive": "+12",
+      "Spot": "+9",
+      "Survival": "+3",
+      "Concentration": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft.",
+    "low-light vision",
+    "darkvision 60 ft.",
+    "low-light vision",
+    "darkvision 60 ft.",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 6,
+  "feats": [
+    "Great Fortitude",
+    "Ride -By Attack",
+    "Spirited Charge"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Enervation ray, spell-like abilities, vampiric touch"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Construct traits, damage reduction 10/chaotic, darkvision 60 ft., fast healing 5, low-light vision, spell resistance 22"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Fists of thunder and lightning, spell-like abilities"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Construct traits, damage reduction 15/chaotic, darkvision 60 ft., fast healing 10, low-light vision, spell resistance 25"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Spell-like abilities"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Construct traits, damage reduction 10/chaotic, darkvision 60 ft., fast healing 5, low-light vision, spell resistance 20"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Vampiric touch +11 melee touch (5d6) or enervation ray +10 ranged touch (as spell) or *+2 longsword* +13 melee (1d8+5/19-20) or slam +11 melee (1d6+3)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Vampiric touch +11/+6 melee touch (5d6) or enervation ray +10 ranged touch (as spell) or *+2 longsword* +13/+8 melee (1d8+5/19-20) or slam +11/+6 melee (1d6+3)"
+    },
+    {
+      "name": "Attack",
+      "text": "Slam +22 melee (2d6+12 plus 3d6 sonic or 3d6 electricity)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 slams +22 melee (2d6+12 plus 3d6 sonic or 3d6 electricity)"
+    },
+    {
+      "name": "Attack",
+      "text": "Spiked chain +10 melee (2d6+5 plus 1d6 electricity)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 spiked chains +10 melee (2d6+5 plus 1d6 electricity)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Inevitables are constructs whose sole aim is to enforce the natural laws of the universe.",
+    "grapple": "+15",
+    "spaceReach": "10 ft./10 ft.",
+    "environment": "A lawful-aligned plane",
+    "organization": "Solitary",
+    "treasure": "None",
+    "advancement": "9-16 HD (Large); 17-24 HD (Huge)",
+    "leveladjustment": "+7"
+  }
+}

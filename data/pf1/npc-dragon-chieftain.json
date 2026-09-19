@@ -1,0 +1,105 @@
+{
+  "name": "NPC Dragon Chieftain",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, orc",
+  "alignment": "CE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 27,
+    "notes": "armor +9, deflection +2, dex -1, insight +1, natural +6",
+    "touch": 12,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 189,
+    "formula": "10d8+7d12+95"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 8,
+    "con": 18,
+    "int": 12,
+    "wis": 10,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +16, Ref +11, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +12, Intimidate +6, Knowledge (arcana) +14, Knowledge (dungeoneering) +14, Knowledge (geography) +10, Knowledge (history) +10, Knowledge (local) +10, Knowledge (nature) +10, Knowledge (religion) +10, Linguistics +5, Perception +18, Perform (oratory) +17, Perform (percussion) +17, Perform (sing) +17, Ride +2, Spellcraft +9, Stealth +10, Swim +9",
+    "list": {
+      "Climb": "+12",
+      "Intimidate": "+6",
+      "Linguistics": "+5",
+      "Perception": "+18",
+      "Ride": "+2",
+      "Spellcraft": "+9",
+      "Stealth": "+10",
+      "Swim": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Goblin",
+    "Orc"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 12,
+  "feats": [
+    "Arcane Armor Mastery",
+    "Arcane Armor Training",
+    "Combat Casting",
+    "Dazzling Display",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Power Attack",
+    "Spell Focus (enchantment)",
+    "Toughness",
+    "Weapon Focus (bite)",
+    "Weapon Focus (claws)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +19 (1d6+9 plus 1d6 fire), 2 claws +19 (1d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-orc",
+    "class": "bard 10, dragon disciple 7",
+    "cmb": "+18",
+    "cmd": 30
+  }
+}

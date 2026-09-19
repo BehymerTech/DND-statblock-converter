@@ -1,0 +1,121 @@
+{
+  "name": "Frost Giant Jarl",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "cold, giant",
+  "alignment": "CE",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 35,
+    "notes": "armor +9, deflection +2, dex +4, natural +11, size -1",
+    "touch": 15,
+    "flatFooted": 31
+  },
+  "hp": {
+    "average": 328,
+    "formula": "14d8+9d10+216"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 19,
+    "con": 27,
+    "int": 12,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +26, Ref +17, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +8, Climb +23, Diplomacy +5, Heal +9, Intimidate +23, Perception +24, Perform (sing) +5, Sense Motive +11, Stealth +17, Survival +14",
+    "list": {
+      "Acrobatics": "+8",
+      "Climb": "+23",
+      "Diplomacy": "+5",
+      "Heal": "+9",
+      "Intimidate": "+23",
+      "Perception": "+24",
+      "Sense Motive": "+11",
+      "Stealth": "+17",
+      "Survival": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 19,
+  "feats": [
+    "Double Slice",
+    "Dreadful Carnage",
+    "Endurance",
+    "Furious Focus",
+    "Greater Two-Weapon Fighting",
+    "Improved Iron Will",
+    "Improved Two-Weapon Fighting",
+    "Iron Will",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Precise Shot",
+    "Toughness",
+    "Two-Weapon Fighting",
+    "Two-Weapon Rend",
+    "Weapon Focus (warhammer)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 warhammer +27/+22/+17/+12 (2d6+12/×3), +1 warhammer +27/+22/+17 (2d6+12/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +22 (1d8+16)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Frost",
+    "class": "giant ranger 9",
+    "cmb": "+31",
+    "cmd": 47,
+    "racialModifiers": [
+      "Acrobatics 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold mountains"
+      }
+    ]
+  }
+}

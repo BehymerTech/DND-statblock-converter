@@ -1,0 +1,110 @@
+{
+  "name": "Giant Anaconda",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 303.",
+  "size": "Huge",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 175,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, climb 30 feet, swim 30 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 16,
+    "con": 22,
+    "int": 2,
+    "wis": 16,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +20, Ref +17, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +15 (1d20+15); __Athletics__: +21 (1d20+21); __Stealth__: +15 (1d20+15); __Survival__: +15 (1d20+15); ",
+    "list": {
+      "Acrobatics": "+15",
+      "Athletics": "+21",
+      "Stealth": "+15",
+      "Survival": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 60"
+  ],
+  "passivePerception": 27,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Tighten Coils",
+      "text": "⬲ Trigger A creature grabbed or restrained by the ball python attempts to Escape. Effect The DC of the Escape check is increased by 2."
+    },
+    {
+      "name": "Greater Constrict",
+      "text": "⬻ 1d10+7 (1d10+7) bludgeoning, DC 26."
+    },
+    {
+      "name": "Slither",
+      "text": "⬻ The giant anaconda Strides, Climbs, or Swims up to half its Speed, pulling any creatures it has grabbed with it."
+    },
+    {
+      "name": "Swallow Whole",
+      "text": "⬻ (attack); Large, 1d10+7 (1d10+7) bludgeoning, Rupture 21."
+    },
+    {
+      "name": "Wrap in Coils",
+      "text": "⬻ (attack); Requirements A Large or smaller creature is grabbed or restrained in the giant anaconda's jaws. Effect The giant anaconda moves the creature into its coils, freeing its jaws to make attacks, then uses Greater Constrict against the creature. The giant anaconda's coils can hold as many creatures as will fit in its space."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +21 (reach 10 feet); Damage 2d10+7 (2d10+7) piercing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +21 (agile, reach 15 feet); Damage 2d8+7 (2d8+7) bludgeoning plus Push 10 feet"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      3,
+      6,
+      -4,
+      3,
+      -2
+    ]
+  }
+}

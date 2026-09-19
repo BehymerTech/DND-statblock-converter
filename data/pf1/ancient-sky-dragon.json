@@ -1,0 +1,123 @@
+{
+  "name": "Ancient Sky Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Gargantuan",
+  "type": "dragon",
+  "subtype": "air",
+  "alignment": "LG",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 38,
+    "notes": "dex -1, natural +33, size -4",
+    "touch": 5,
+    "flatFooted": 38
+  },
+  "hp": {
+    "average": 348,
+    "formula": "24d12+192"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 250 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 8,
+    "con": 25,
+    "int": 24,
+    "wis": 25,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +21, Ref +15, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +22, Appraise +33, Diplomacy +33, Fly +27, Heal +33, Knowledge (arcana) +33, Knowledge (geography) +33, Knowledge (planes) +33, Knowledge (religion) +33, Perception +39, Perform (sing) +30, Sense Motive +33, Spellcraft +33, Use Magic Device +23",
+    "list": {
+      "Acrobatics": "+22",
+      "Appraise": "+33",
+      "Diplomacy": "+33",
+      "Fly": "+27",
+      "Heal": "+33",
+      "Perception": "+39",
+      "Sense Motive": "+33",
+      "Spellcraft": "+33",
+      "Use Magic Device": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "cloud sight",
+    "dragon senses"
+  ],
+  "passivePerception": 49,
+  "languages": [
+    "Auran",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Elven",
+    "Gnome",
+    "Infernal",
+    "Sylvan"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 24,
+  "feats": [
+    "Flyby Attack",
+    "Hover",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Lunge",
+    "Multiattack",
+    "Skill Focus (Perception)",
+    "Toughness",
+    "Vital Strike",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +33 (4d6+18/19-20), 2 claws +32 (2d8+12), gore +32 (2d8+18), tail slap +30 (2d8+18)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+40",
+    "cmd": "49 (53 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

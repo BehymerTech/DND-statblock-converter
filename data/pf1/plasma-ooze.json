@@ -1,0 +1,97 @@
+{
+  "name": "Plasma Ooze",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Gargantuan",
+  "type": "ooze",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 6,
+    "notes": "size -4",
+    "touch": 6,
+    "flatFooted": 6
+  },
+  "hp": {
+    "average": 241,
+    "formula": "21d8+147"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 30 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 11,
+    "con": 24,
+    "int": "None",
+    "wis": 1,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +14, Ref +7, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +2, Perception -5",
+    "list": {
+      "Fly": "+2",
+      "Perception": "-5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": 5,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 15,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +24 (4d6+19 plus 4d6 electricity, 4d6 fire, and grab)"
+    },
+    {
+      "name": "Ranged",
+      "text": "1d4 plasma rays +11 touch (4d6 electricity plus 4d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This amorphous blob of violet energy ripples like a globe of floating liquid. It periodically lashes out with tendrils of blue light.",
+  "meta": {
+    "cmb": "32 (+36 grapple)",
+    "cmd": "42 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

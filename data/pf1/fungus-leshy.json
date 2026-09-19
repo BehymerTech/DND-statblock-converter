@@ -1,0 +1,109 @@
+{
+  "name": "Fungus Leshy",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Pathfinder No. 34: Blood for Blood",
+  "size": "Small",
+  "type": "plant",
+  "subtype": "leshy, shapechanger",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 13,
+    "notes": "dex +2, size +1",
+    "touch": 13,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 15,
+    "formula": "2d8+6"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 15,
+    "con": 16,
+    "int": 7,
+    "wis": 14,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +6, Ref +2, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Stealth +10, Survival +3, Perception +2",
+    "list": {
+      "Stealth": "+10",
+      "Survival": "+3",
+      "Perception": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Druidic",
+    "Sylvan",
+    "plantspeech (fungi)"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 1,
+  "feats": [
+    "Blind-Fight"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +2 (1d6), 2 claws +2 (1d3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "puffball +4 (1 plus spores)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Mismatched eyes dot this plant creature’s thick mushroom cap, while below works an overlarge maw set with pale fungal teeth.",
+  "meta": {
+    "cmb": "+0",
+    "cmd": 12,
+    "racialModifiers": [
+      "Stealth 4",
+      "Survival 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any swamp or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or cluster (2-16)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

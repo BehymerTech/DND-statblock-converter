@@ -1,0 +1,135 @@
+{
+  "name": "Lorthact",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Bestiary",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "25",
+  "level": null,
+  "xp": 1638400,
+  "ac": {
+    "value": 45,
+    "notes": "armor +6, deflection +5, dex +11, dodge +1, luck +2, natural +10",
+    "touch": 29,
+    "flatFooted": 33
+  },
+  "hp": {
+    "average": 560,
+    "formula": "32d10+384"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 33,
+    "con": 35,
+    "int": 30,
+    "wis": 26,
+    "cha": 37
+  },
+  "saves": {
+    "text": "Fort +26, Ref +31, Will +30",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +36, Bluff +48, Craft (alchemy) +30, Diplomacy +48, Disguise +48, Fly +23, Intimidate +45, Knowledge (arcana) +45, Knowledge (planes) +45, Knowledge (dungeoneering) +20, Knowledge (engineering) +20, Knowledge (geography) +20, Knowledge (nobility) +20, Knowledge (religion) +20, Knowledge (history) +30, Knowledge (local) +30, Perception +43, Perform (act) +23, Sense Motive +30, Sleight of Hand +30, Spellcraft +45, Stealth +46, Use Magic Device +45",
+    "list": {
+      "Acrobatics": "+36",
+      "Bluff": "+48",
+      "Diplomacy": "+48",
+      "Disguise": "+48",
+      "Fly": "+23",
+      "Intimidate": "+45",
+      "Perception": "+43",
+      "Sense Motive": "+30",
+      "Sleight of Hand": "+30",
+      "Spellcraft": "+45",
+      "Stealth": "+46",
+      "Use Magic Device": "+45"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 53,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Azlanti",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Elven",
+    "Giant",
+    "Ignan",
+    "Infernal",
+    "Undercommon",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 32,
+  "feats": [
+    "Deflect Arrows",
+    "Destructive Dispel",
+    "Dispel Synergy",
+    "Dodge",
+    "Empower Spell-Like Ability (horrid wilting)",
+    "Flyby Attack",
+    "Great Fortitude",
+    "Greater Spell Penetration",
+    "Improved Great Fortitude",
+    "Improved Unarmed Strike",
+    "Iron Will",
+    "Power Attack",
+    "Quicken Spell-Like Ability (greater dispel magic)",
+    "Spell Penetration",
+    "Weapon Finesse",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +44 (1d6+6 plus 1 Int drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This devilish humanoid has five horns growing out of his forehead that resemble a crown. He stands on stout cloven hooves.",
+  "meta": {
+    "cmb": "+38",
+    "cmd": 65,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Korvosa)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

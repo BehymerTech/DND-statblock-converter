@@ -1,0 +1,104 @@
+{
+  "name": "Slithering Pit",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 247.",
+  "size": "Medium",
+  "type": "Ooze",
+  "subtype": "Mindless",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 14,
+    "notes": ""
+  },
+  "hp": {
+    "average": 220,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 0,
+    "con": 24,
+    "int": 0,
+    "wis": 10,
+    "cha": 0
+  },
+  "saves": {
+    "text": "Fort +18, Ref +6, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +18 (1d20+18); __Stealth__: +10 (1d20+10); ",
+    "list": {
+      "Athletics": "+18",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "no vision, imprecise tremorsense 60"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Transparent",
+      "text": "A slithering pit is so clear it's difficult to spot. A successful DC 30 Perception check is required to notice a stationary slithering pit, and a creature must be Searching to attempt this check. A creature that walks into the pit's space might fall into any pit currently in effect due to Dimensional Pit."
+    },
+    {
+      "name": "Breach Vulnerability",
+      "text": "Ingesting an extradimensional space like that found in a bag of holding deals 6d8 (6d8) force damage to the slithering pit and its occupants. The slithering pit then immediately uses Out You Go."
+    },
+    {
+      "name": "Flurry of Pods",
+      "text": "⬺ The slithering pit makes a single pseudopod Strike against each target within range it doesn't already have grabbed. These attacks count toward the slithering pit's multiple attack penalty, but the penalty doesn't increase until after all of these attacks."
+    },
+    {
+      "name": "Dimensional Pit",
+      "text": "⬺ (conjuration, extradimensional, occult); The slithering pit opens an extradimensional, 20-foot-deep pit that covers its own space and all adjacent squares unless they're walls or similar blocking terrain. Any other creature occupying or entering pit spaces must succeed at a DC 22 Reflex save or fall into the pit, taking damage from the fall (typically 10 bludgeoning damage). Any creature grabbed by the ooze falls in and is no longer grabbed, even if it was outside the pit squares. While a dimensional pit is open, the slithering pit is immobilized, can't be forced to move, and can make pseudopod Strikes originating from the walls of the pit. A creature that starts its turn at the bottom of the pit takes 2d6 (2d6) acid damage. Climbing the walls of the pit requires a DC 22 Athletics check. When the slithering pit dies, the dimensional pit closes and creatures inside are ejected, with the effects of Out You Go."
+    },
+    {
+      "name": "Out You Go",
+      "text": "⬻ The slithering pit closes all pit spaces it created using Dimensional Pit, ejecting all its occupants onto the ground into random free spaces where the pit opened. Each occupant takes 4d6 (4d6) bludgeoning damage (DC 22 basic Reflex save)."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ pseudopod +18 (reach 10 feet); Damage 2d8+9 (2d8+9) bludgeoning plus Improved Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      -5,
+      7,
+      -5,
+      0,
+      -5
+    ]
+  }
+}

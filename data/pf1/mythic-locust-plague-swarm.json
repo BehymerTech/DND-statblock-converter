@@ -1,0 +1,96 @@
+{
+  "name": "Mythic Locust Plague Swarm",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Fine",
+  "type": "magical beast",
+  "subtype": "mythic, swarm",
+  "alignment": "NE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 31,
+    "notes": "dex +4, dodge +1, natural +8, size +8",
+    "touch": 23,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 216,
+    "formula": "21d10+101"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 40 ft. (good), climb 10 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 19,
+    "con": 12,
+    "int": 5,
+    "wis": 18,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +15, Ref +18, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +12, Fly +35, Perception +24",
+    "list": {
+      "Climb": "+12",
+      "Fly": "+35",
+      "Perception": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Abyssal (can’t speak)"
+  ],
+  "initiative": "+16/-4;  dual initiative",
+  "babOrProficiency": 21,
+  "feats": [
+    "Ability Focus (distraction)",
+    "Dodge",
+    "Extra Mythic Power",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Improved Lightning Reflexes",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Lightning Stance",
+    "Skill Focus (Fly)",
+    "Skill Focus (Perception)",
+    "Wind Stance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "swarm (5d6 plus 5d6 blight, devour, and distraction)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "None",
+    "cmd": "None"
+  }
+}

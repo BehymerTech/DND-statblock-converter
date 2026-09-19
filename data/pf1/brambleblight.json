@@ -1,0 +1,110 @@
+{
+  "name": "Brambleblight",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 92: The Hill Giant's Pledge",
+  "size": "Large",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "dex +3, natural +8, size -1",
+    "touch": 12,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 85,
+    "formula": "10d8+40"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 16,
+    "con": 18,
+    "int": 6,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +11, Ref +6, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +10, Stealth +7",
+    "list": {
+      "Perception": "+10",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "plantsense"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Sylvan"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 7,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Power Attack",
+    "Stand Still",
+    "Weapon Focus (thorns)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +13 (2d6+7)"
+    },
+    {
+      "name": "Ranged",
+      "text": "4 thorns +10 (1d6+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Two long vines covered in sharp thorns protrude from what appears to be a massive rotting bundle of barbs that’s topped with a heap of berry-red eyes.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": "28 (can’t be tripped)",
+    "racialModifiers": [
+      "Stealth 12"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm forests or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Phase Spider",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Always neutral",
+  "cr": "5",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "-1 size, +3 Dex, +3 natural",
+    "touch": 12,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 42,
+    "formula": "5d10+15"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": 20,
+    "burrow": null,
+    "notes": "40 ft. (8 squares), climb 20 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 17,
+    "con": 16,
+    "int": 7,
+    "wis": 13,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +7, Ref +7, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +11, Move Silently +11, Spot +4;",
+    "list": {
+      "Climb": "+11",
+      "Move Silently": "+11",
+      "Spot": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+7",
+  "babOrProficiency": 5,
+  "feats": [
+    "Ability Focus (poison)",
+    "Improved Initiative"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Poison"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Bite +7 melee (1d6+4 plus poison)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +7 melee (1d6+4 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Phase spiders are aggressive predators that can move quickly from the Ethereal Plane to attack opponents on the Material Plane.",
+    "grapple": "+12",
+    "spaceReach": "10 ft./5 ft.",
+    "environment": "Warm hills",
+    "organization": "Solitary or cluster (2-5)",
+    "treasure": "None",
+    "advancement": "6-8 HD (Large); 9-15 HD (Huge)",
+    "leveladjustment": "---"
+  }
+}

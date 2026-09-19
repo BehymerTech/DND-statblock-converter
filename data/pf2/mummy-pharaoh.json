@@ -1,0 +1,126 @@
+{
+  "name": "Mummy Pharaoh",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 241.",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "Mummy",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 9",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 165,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": 18,
+    "int": 10,
+    "wis": 20,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +19, Ref +15, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Deception__: +18 (1d20+18); __Intimidation__: +20 (1d20+20); __Occultism__: +15 (1d20+15); __Religion__: +20 (1d20+20); __Stealth__: +13 (1d20+13); ",
+    "list": {
+      "Deception": "+18",
+      "Intimidation": "+20",
+      "Occultism": "+15",
+      "Religion": "+20",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Necril; plus any two ancient languages"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Great Despair",
+      "text": "(aura, divine, emotion, enchantment, fear, incapacitation, mental); 30 feet. As the mummy guardian's despair, except the DC is 26 and the paralysis lasts 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Rejuvenation",
+      "text": "(divine, necromancy); When a mummy pharaoh is destroyed, necromantic energies rebuild its body in its tomb over 1d10 (1d10) days. If the re-forming body is destroyed during that time, the process starts anew. A slain mummy pharaoh can be destroyed for good with a consecrate ritual."
+    },
+    {
+      "name": "Undead Mastery",
+      "text": "(aura, divine, necromancy); 100 feet. Commanded or allied undead in the aura that have a lower level than the mummy pharaoh gain a +1 circumstance bonus to attack rolls, damage rolls, AC, saves, and skill checks."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲ The mummy pharaoh can use Attack of Opportunity when a creature within its reach uses a concentrate action, in addition to its normal trigger. It can disrupt triggering concentrate actions, and it disrupts actions on any hit, not just a critical hit."
+    },
+    {
+      "name": "Items",
+      "text": "+1 striking longspear;"
+    },
+    {
+      "name": "Channel Rot",
+      "text": "(divine, necromancy); The mummy pharaoh can deliver insidious mummy rot through melee weapons it wields."
+    },
+    {
+      "name": "Insidious Mummy Rot",
+      "text": "(curse, disease, divine, necromancy); Saving Throw DC 26 Fortitude. Stage 1 carrier with no ill effect (1 minute) Stage 2 8d6 (8d6) negative damage and stupefied 2 (1 day)"
+    },
+    {
+      "name": "Sandstorm Wrath",
+      "text": "⬺ (concentrate, divine, evocation, fire); The mummy pharaoh exhales a 60-foot cone of superheated sand that deals 5d6 (5d6) fire and 5d6 (5d6) slashing damage (DC 28 basic Reflex save). The mummy pharaoh can't use Sandstorm Wrath again for 1d4 (1d4) rounds."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +20 (agile); Damage 1d10+11 (1d10+11) bludgeoning plus insidious mummy rot"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ longspear +21 (magical, reach 10 feet); Damage 2d8+11 (2d8+11) piercing plus insidious mummy rot"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      2,
+      4,
+      0,
+      5,
+      5
+    ],
+    "items": "+1 striking longspear;"
+  }
+}

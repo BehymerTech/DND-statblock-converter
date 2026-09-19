@@ -1,0 +1,105 @@
+{
+  "name": "Urban Stalker",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Monster Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "derro",
+  "alignment": "CE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "armor +4, dex +3, natural +2, size +1",
+    "touch": 14,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 81,
+    "formula": "3d8+4d10+46"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 17,
+    "con": 22,
+    "int": 13,
+    "wis": 5,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +11, Ref +8, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +6, Bluff +9, Climb +5, Disguise +6, Intimidate +8, Knowledge (local) +8, Perception +7, Sense Motive +5, Stealth +10, Survival +7",
+    "list": {
+      "Acrobatics": "+6",
+      "Bluff": "+9",
+      "Climb": "+5",
+      "Disguise": "+6",
+      "Intimidate": "+8",
+      "Perception": "+7",
+      "Sense Motive": "+5",
+      "Stealth": "+10",
+      "Survival": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 17,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Undercommon"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 6,
+  "feats": [
+    "Combat Expertise",
+    "Greater Trip",
+    "Improved Trip",
+    "Two-Weapon Fighting"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 aklys +8/+3 (1d6+3), mwk spiked gauntlet +8 (1d3+1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dart +10 (1d3+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This furtive gray-skinned woman wears a tattered cloak and a spiky circlet. The barbed hook of her weapon glistens with poison.",
+  "meta": {
+    "race": "Derro",
+    "class": "slayer 4 (Pathfinder RPG Bestiary 70, Pathfinder RPG Advanced Class Guide 53)",
+    "cmb": "7 (+11 trip)",
+    "cmd": "20 (22 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      }
+    ]
+  }
+}

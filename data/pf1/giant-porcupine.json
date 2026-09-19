@@ -1,0 +1,96 @@
+{
+  "name": "Giant Porcupine",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Medium",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 13,
+    "notes": "dex +1, natural +2",
+    "touch": 11,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 22,
+    "formula": "3d8+9"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 12,
+    "con": 16,
+    "int": 2,
+    "wis": 13,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +6, Ref +6, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +7, Perception +6",
+    "list": {
+      "Climb": "+7",
+      "Perception": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Lightning Reflexes",
+    "Weapon Focus (tail slap)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "tail slap +6 (2d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This gray, human-sized porcupine’s round body is covered in sharp, striped quills.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": "16 (20 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or prickle (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

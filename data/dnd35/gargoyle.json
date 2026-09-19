@@ -1,0 +1,98 @@
+{
+  "name": "Gargoyle",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Monstrous Humanoid",
+  "subtype": "Earth",
+  "alignment": "Usually chaotic evil",
+  "cr": "4",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": "+2 Dex, +4 natural",
+    "touch": 12,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 37,
+    "formula": "4d8+19"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": 60,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft. (8 squares), fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 14,
+    "con": 18,
+    "int": 6,
+    "wis": 11,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +5, Ref +6, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Hide +7\\*, Listen +4, Spot +4;",
+    "list": {
+      "Hide": "+7",
+      "Listen": "+4",
+      "Spot": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 4,
+  "feats": [
+    "Multiattack",
+    "Toughness"
+  ],
+  "traits": [
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 10/magic, darkvision 60 ft., freeze"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Claw +6 melee (1d4+2)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +6 melee (1d4+2) and bite +4 melee (1d6+1) and gore +4 melee (1d6+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Gargoyles often appear to be winged stone statues, for they can perch indefinitely without moving and use this disguise to surprise their foes. They require no food, water, or air, but often eat their fallen foes out of fondness for inflicting pain.",
+    "grapple": "+6",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Any",
+    "organization": "Solitary, pair, or wing (5-16)",
+    "treasure": "Standard",
+    "advancement": "5-6 HD (Medium); 7-12 HD (Large)",
+    "leveladjustment": "+5"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "name": "Akvan",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Gargantuan",
+  "type": "outsider",
+  "subtype": "div, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 38,
+    "notes": "armor +13, dex +4, natural +15, size -4",
+    "touch": 10,
+    "flatFooted": 34
+  },
+  "hp": {
+    "average": 372,
+    "formula": "24d10+240"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 120 ft. (good)"
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 26,
+    "con": 30,
+    "int": 19,
+    "wis": 24,
+    "cha": 27
+  },
+  "saves": {
+    "text": "Fort +18, Ref +22, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +28, Bluff +43, Diplomacy +31, Fly +27, Intimidate +31, Knowledge (arcana) +31, Knowledge (planes) +31, Knowledge (religion) +19, Perception +34, Sense Motive +30, Spellcraft +19, Use Magic Device +23",
+    "list": {
+      "Acrobatics": "+28",
+      "Bluff": "+43",
+      "Diplomacy": "+31",
+      "Fly": "+27",
+      "Intimidate": "+31",
+      "Perception": "+34",
+      "Sense Motive": "+30",
+      "Spellcraft": "+19",
+      "Use Magic Device": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness",
+    "true seeing"
+  ],
+  "passivePerception": 44,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 24,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Great Cleave",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Improved Critical (bite)",
+    "Multiattack",
+    "Power Attack",
+    "Staggering Critical",
+    "Stunning Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +32 (2d8+12 plus grab/19-20), 2 claws +32 (2d6+12), tail slap +30 (2d10+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Ornate armor covers this hulking creature, rocky protrusions jutting from its hide and fierce horns crowning its broad head.",
+  "meta": {
+    "cmb": "+40",
+    "cmd": 58,
+    "racialModifiers": [
+      "Acrobatics 8",
+      "Bluff 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+5 half-plate, other treasure)"
+      }
+    ]
+  }
+}

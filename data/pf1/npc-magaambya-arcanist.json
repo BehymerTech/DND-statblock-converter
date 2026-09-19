@@ -1,0 +1,103 @@
+{
+  "name": "NPC Magaambya Arcanist",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "NG",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 14,
+    "notes": "deflection +1, dex +1, natural +2",
+    "touch": 12,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 68,
+    "formula": "11d6+27"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 12,
+    "con": 14,
+    "int": 20,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +7, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +14, Fly +15, Heal +16, Knowledge (arcana) +23, Knowledge (history) +19, Knowledge (nature) +23, Knowledge (religion) +19, Spellcraft +19, Perception +2",
+    "list": {
+      "Diplomacy": "+14",
+      "Fly": "+15",
+      "Heal": "+16",
+      "Spellcraft": "+19",
+      "Perception": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 12,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "Osiriani",
+    "Polyglot"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 5,
+  "feats": [
+    "Combat Casting",
+    "Craft Wondrous Item",
+    "Empower Spell",
+    "Greater Spell Penetration",
+    "Iron Will",
+    "Scholar",
+    "Scribe Scroll",
+    "Spell Mastery (baleful polymorph)",
+    "Spell Mastery (dispel magic)",
+    "Spell Mastery (resist energy)",
+    "Spell Mastery (summon monster VI)",
+    "Spell Penetration"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "club +4 (1d6-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "wizard 5, Magaambyan arcanist 6",
+    "cmb": "+4",
+    "cmd": 16
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Deep Merfolk",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 17,
+    "notes": "dex +5, natural +2",
+    "touch": 15,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d8+12"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 20,
+    "con": 16,
+    "int": 11,
+    "wis": 10,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +4, Ref +6, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +2, Stealth +9, Swim +16",
+    "list": {
+      "Perception": "+2",
+      "Stealth": "+9",
+      "Swim": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision"
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Aquan"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "spear +6 (1d8+4/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This gaunt mermaid has a long, semitransparent tail with a vivid red crest and caudal fin.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 21,
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans (trenches)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, family (2-4), or tribe (10-15)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (spear, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Hydraggon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "aquatic, chaotic, evil, extraplanar, qlippoth",
+  "alignment": "CE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "natural +5",
+    "touch": 10,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 34,
+    "formula": "4d10+12"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 10,
+    "con": 16,
+    "int": 10,
+    "wis": 12,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +7, Ref +4, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Escape Artist +11, Knowledge (planes) +7, Perception +8, Stealth +7, Survival +8, Swim +18",
+    "list": {
+      "Escape Artist": "+11",
+      "Perception": "+8",
+      "Stealth": "+7",
+      "Survival": "+8",
+      "Swim": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Abyssal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 4,
+  "feats": [
+    "Improved Initiative",
+    "Iron Will",
+    "Two-Weapon Fighting"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk short sword +6 (1d6+1/19-20), mwk trident +6 (1d8+3), tongue +2 (1d3+1 plus cloud memory)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This eellike monstrosity has a gaping, fanged mouth from which lolls a long, red tongue split into three tendrils, two of which wield weapons.",
+  "meta": {
+    "cmb": "+7",
+    "cmd": 17,
+    "racialModifiers": [
+      "Escape Artist 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or shoal (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk short sword, mwk trident other treasure)"
+      }
+    ]
+  }
+}

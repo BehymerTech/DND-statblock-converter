@@ -1,0 +1,116 @@
+{
+  "name": "Bog Strider",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 43.",
+  "size": "Medium",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 30,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, swim 20 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +10, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +8 (1d20+8), (Athletics: +10 (1d20+10) to Leap while Water [[Stride|Striding]] or Swimming); __Stealth__: +8 (1d20+8); __Survival__: +8 (1d20+8); ",
+    "list": {
+      "Athletics": "+10",
+      "Stealth": "+8",
+      "Survival": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, wavesense 120"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Aquan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Deep Breath",
+      "text": "A bog strider can hold their breath for 2 hours."
+    },
+    {
+      "name": "Items",
+      "text": "net, spear;"
+    },
+    {
+      "name": "Hurl Net",
+      "text": "⬻ Requirements The bog strider is holding a net in two hands Effect The bog strider hurls their net to hamper a foe. They make a ranged Strike (with a +10 modifier) against a Medium or smaller creature within 20 feet. On a hit, the target is flat-footed and takes a –10-foot circumstance penalty to its Speeds. On a critical hit, the creature is instead restrained. The DC to Escape the net is 16. A creature adjacent to the target can Interact with the net to remove it from the target."
+    },
+    {
+      "name": "Water Sprint",
+      "text": "⬽ The bog strider Strides up to three times in a straight line across smooth water. They can make a single Strike against a creature at the end of this movement."
+    },
+    {
+      "name": "Water Stride",
+      "text": "The bog strider can stand and move on the surface of water or other liquids without falling through. The bog strider can go underwater if they wish, but they must Swim to do so."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ spear +8 Damage 1d6+4 (1d6+4) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ mandibles +8 (agile); Damage 1d6+4 (1d6+4) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ spear +10 (thrown 20 feet); Damage 1d6+3 (1d6+3) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      4,
+      2,
+      0,
+      2,
+      0
+    ],
+    "items": "net, spear;"
+  }
+}

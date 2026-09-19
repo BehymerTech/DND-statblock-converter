@@ -1,0 +1,112 @@
+{
+  "name": "Kokogiak",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 69: Maiden, Mother, Crone",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 25,
+    "notes": "dex +1, natural +16, size -2",
+    "touch": 9,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 172,
+    "formula": "15d10+90"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., burrow 20 ft., climb 20 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 13,
+    "con": 22,
+    "int": 13,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +15, Ref +10, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +18, Climb +22, Perception +18, Stealth +11, Swim +22",
+    "list": {
+      "Bluff": "+18",
+      "Climb": "+22",
+      "Perception": "+18",
+      "Stealth": "+11",
+      "Swim": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Aquan",
+    "Common"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 15,
+  "feats": [
+    "Critical Focus",
+    "Improved Critical (claws)",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Power Attack",
+    "Staggering Critical",
+    "Vital Strike",
+    "Weapon Focus (claws)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +23 (2d6+10 plus pull), 6 claws +24 (2d6+10/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hulking mountain of fur and fangs looks like a whitefurred bear of immense proportions with ten legs, each ending in massive, jet-black claws. Its head, with slavering jaws and a tongue dripping silvery foam, sits at the end of a long yet thickly muscled neck. Its dead black eyes are small but infinite pits of malice.",
+  "meta": {
+    "cmb": "+27",
+    "cmd": "38 (54 vs. trip)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold coastlines, hills, or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

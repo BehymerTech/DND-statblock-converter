@@ -1,0 +1,118 @@
+{
+  "name": "Spriggan Warlord",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 253.",
+  "size": "Small",
+  "type": "Spriggan",
+  "subtype": "Gnome, Humanoid",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 120,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 18,
+    "con": 18,
+    "int": 12,
+    "wis": 16,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +13, Ref +17, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +15 (1d20+15); __Athletics__: +17 (1d20+17); __Intimidation__: +17 (1d20+17); __Society__: +12 (1d20+12); __Stealth__: +17 (1d20+17); __Survival__: +14 (1d20+14); __Thievery__: +15 (1d20+15); ",
+    "list": {
+      "Acrobatics": "+15",
+      "Athletics": "+17",
+      "Intimidation": "+17",
+      "Society": "+12",
+      "Stealth": "+17",
+      "Survival": "+14",
+      "Thievery": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Gnome"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Enraged Growth",
+      "text": "⬲ (polymorph, primal, transmutation); Trigger The spriggan warlord takes damage Effect The spriggan warlord grows to size Large, along with their equipment (which returns to natural size if removed). The spriggan warlord's reach increases by 5 feet. They regain 15 Hit Points and gain a +2 status bonus to melee attack and damage rolls. This effect continues until the end of the spriggan warlord's next turn, but on any turn in which the spriggan warlord deals damage to another creature and is not fatigued, the effect extends until the end of the following turn. When Enraged Growth ends, the spriggan warlord is fatigued for 1 hour."
+    },
+    {
+      "name": "Items",
+      "text": "+1 crossbow (10 bolts), +1 morningstar;"
+    },
+    {
+      "name": "Bully's Bludgeon",
+      "text": "⬻ The spriggan warlord makes a morningstar Strike with a +2 circumstance bonus to its attack roll. This attack is nonlethal."
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "The spriggan warlord's Strikes deal an additional 2d6 (2d6) precision damage to flat-footed creatures."
+    },
+    {
+      "name": "Warlord's Training",
+      "text": "A spriggan warlord has access to the critical specialization effects for crossbows and morningstars, and the reload of any crossbow they wield is reduced by 1 (to a minimum of 0)."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ morningstar +18 (magical, versatile p); Damage 2d6+9 (2d6+9) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ crossbow +18 (magical, range increment 120 feet, reload 0); Damage 2d8 (2d8) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      4,
+      4,
+      1,
+      3,
+      4
+    ],
+    "items": "+1 crossbow (10 bolts), +1 morningstar;"
+  }
+}

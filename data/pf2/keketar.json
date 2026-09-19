@@ -1,0 +1,134 @@
+{
+  "name": "Keketar",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 269.",
+  "size": "Large",
+  "type": "Protean",
+  "subtype": "Monitor",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 17",
+  "xp": null,
+  "ac": {
+    "value": 40,
+    "notes": ""
+  },
+  "hp": {
+    "average": 290,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, fly 50 feet, swim 40 feet; freedom of movement;"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 20,
+    "con": 24,
+    "int": 20,
+    "wis": 24,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +30, Ref +28, Will +34",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +26 (1d20+26); __Athletics__: +30 (1d20+30); __Deception__: +33 (1d20+33); __Diplomacy__: +35 (1d20+35); __Intimidation__: +35 (1d20+35); __Religion__: +30 (1d20+30); __Stealth__: +28 (1d20+28); ",
+    "list": {
+      "Acrobatics": "+26",
+      "Athletics": "+30",
+      "Deception": "+33",
+      "Diplomacy": "+35",
+      "Intimidation": "+35",
+      "Religion": "+30",
+      "Stealth": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise entropy sense 60"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Protean; telepathy 100 feet",
+    "tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Entropy Sense",
+      "text": "(divination, divine, prediction); A voidworm can anticipate the most likely presence of a creature through a supernatural insight into chaotic probabilities and chance. This grants it the ability to sense creatures within the listed range. A creature under the effects of nondetection or that is otherwise shielded from divinations and predictions cannot be noticed via entropy sense."
+    },
+    {
+      "name": "Protean Anatomy",
+      "text": "(divine, transmutation); A voidworm's vital organs shift and change shape and position constantly. Immediately after the voidworm takes acid, electricity, or sonic damage, it gains the listed amount of resistance to that damage type. This lasts for 1 hour or until the next time the protean takes damage of one of the other types (in which case its resistance changes to match that type), whichever comes first. The voidworm is immune to polymorph effects unless it is a willing target. If blinded or deafened, the voidworm automatically recovers at the end of its next turn as new sensory organs grow to replace the compromised ones."
+    },
+    {
+      "name": "Spatial Riptide",
+      "text": "(aura, divine, transmutation); 30 feet. A creature using a teleportation ability within the aura or arriving in it via teleportation must succeed at a DC 38 Fortitude save or wink out of existence for 1d4 (1d4) rounds before completing the teleport. The creature can't act, sense anything, or be targeted. On a successful save, the creature completes the teleport normally but is stunned 1. Keketars are immune to this effect."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, divine, polymorph, transmutation); The keketar can take the appearance of any Huge or smaller creature. This doesn't change its Speed or its attack and damage bonuses with its Strikes, but might change the damage type its Strikes deal."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 1d10+15 (1d10+15) bludgeoning, DC 42."
+    },
+    {
+      "name": "Reshape Reality",
+      "text": "(concentrate, divine, polymorph, transmutation); When the keketar casts hallucinatory terrain, it infuses the illusion with quasi-real substance. Creatures that do not disbelieving illusions|0|disbelieve the illusion treat structures and terrain created through the spell as though they were real, ascending illusory stairs, becoming trapped by illusory quicksand, and so on."
+    },
+    {
+      "name": "Warpwave Strike",
+      "text": "(divine, polymorph, transmutation); A creature struck by a keketar's jaws or claw Strike must succeed at a DC 36 Fortitude save or be subject to a warpwave (page 266)."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +33 (chaotic, magical, reach 10 feet); Damage 3d10+15 (3d10+15) piercing plus 1d6 (1d6) chaotic and warpwave strike"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +33 (agile, chaotic, magical, reach 10 feet); Damage 2d10+15 (2d10+15) slashing plus 1d6 (1d6) chaotic and warpwave strike"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +33 (reach 15 feet); Damage 2d10+15 (2d10+15) bludgeoning plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      9,
+      5,
+      7,
+      5,
+      7,
+      7
+    ]
+  }
+}

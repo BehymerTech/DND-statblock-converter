@@ -1,0 +1,116 @@
+{
+  "name": "Centaur",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 60.",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": ""
+  },
+  "hp": {
+    "average": 40,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +8, Ref +9, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +11 (1d20+11); __Diplomacy__: +6 (1d20+6); __Intimidation__: +6 (1d20+6); __Nature__: +7 (1d20+7); __Survival__: +7 (1d20+7); ",
+    "list": {
+      "Athletics": "+11",
+      "Diplomacy": "+6",
+      "Intimidation": "+6",
+      "Nature": "+7",
+      "Survival": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Common",
+    "Elven",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Shield Block",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "breastplate, longsword, spear (3), steel shield (Hardness 5, HP 20, BT 10);"
+    },
+    {
+      "name": "Trample",
+      "text": "⬽ Medium or smaller, hoof, DC 18."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ hoof +9 (agile); Damage 1d10+4 (1d10+4) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ longsword +11 (versatile p); Damage 1d8+4 (1d8+4) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ spear +11 Damage 1d6+4 (1d6+4) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ spear +9 (thrown 20 feet); Damage 1d6+4 (1d6+4) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      1,
+      0,
+      2,
+      1
+    ],
+    "items": "breastplate, longsword, spear (3), steel shield (Hardness 5, HP 20, BT 10);"
+  }
+}

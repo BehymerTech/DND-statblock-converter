@@ -1,0 +1,78 @@
+{
+  "name": "Cytillesh Zombie",
+  "sourceSystem": "pf1",
+  "source": "No Response from Deepmar",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 18,
+    "notes": "armor +2, dex +4, natural +2",
+    "touch": 12,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 12,
+    "formula": "2d8+3"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 18,
+    "con": "None",
+    "int": "None",
+    "wis": 10,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +0, Ref +4, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 1,
+  "feats": [
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +6 (1d6+5 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 20
+  }
+}

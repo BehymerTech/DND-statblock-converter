@@ -1,0 +1,108 @@
+{
+  "name": "Fetchling",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "native",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 17,
+    "notes": "armor +4, dex +3",
+    "touch": 13,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 10,
+    "formula": "1d8+2"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 17,
+    "con": 14,
+    "int": 8,
+    "wis": 8,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +2, Ref +5, Will -1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +3, Bluff +6, Diplomacy +6, Knowledge (local) +3, Knowledge (planes) +2, Perception +3, Sense Motive +3, Stealth +7",
+    "list": {
+      "Appraise": "+3",
+      "Bluff": "+6",
+      "Diplomacy": "+6",
+      "Perception": "+3",
+      "Sense Motive": "+3",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 13,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 0,
+  "feats": [
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +3 (1d4+1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This gaunt man appears drained of color, like a person viewed at twilight or in a dark alley.",
+  "meta": {
+    "race": "Fetchling",
+    "class": "rogue 1",
+    "cmb": "+1",
+    "cmd": 14,
+    "racialModifiers": [
+      "Knowledge (planes) 2",
+      "Stealth 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Shadow)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, guild (3-12), or enclave (13-30 plus 1-4 2nd-4th level rogue spies, 1-4 2nd-4th level sorcerers, and 1 3rd-6th level fighter/rogue leader)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (chain shirt, dagger, other treasure)"
+      }
+    ]
+  }
+}

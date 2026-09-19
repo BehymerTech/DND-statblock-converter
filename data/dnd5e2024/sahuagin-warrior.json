@@ -1,0 +1,97 @@
+{
+  "name": "Sahuagin Warrior",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "",
+  "alignment": "Lawful Evil",
+  "cr": "1/2",
+  "level": null,
+  "xp": 100,
+  "ac": {
+    "value": 12,
+    "notes": ""
+  },
+  "hp": {
+    "average": 22,
+    "formula": "4d8 + 4"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": 40,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., Swim 40 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 11,
+    "con": 12,
+    "int": 12,
+    "wis": 13,
+    "cha": 9
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +5",
+    "list": {
+      "Perception": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 120 ft."
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Sahuagin"
+  ],
+  "initiative": "+0 (10)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Blood Frenzy",
+      "text": "The sahuagin has Advantage on attack rolls against any creature that doesn't have all its Hit Points."
+    },
+    {
+      "name": "Limited Amphibiousness",
+      "text": "The sahuagin can breathe air and water, but it must be submerged at least once every 4 hours to avoid suffocating outside water."
+    },
+    {
+      "name": "Shark Telepathy",
+      "text": "The sahuagin can magically control sharks within 120 feet of itself, using a special telepathy."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The sahuagin makes two Claw attacks."
+    },
+    {
+      "name": "Claw",
+      "text": "_Melee Attack Roll:_ +3, reach 5 ft. _Hit:_ 4 (1d6 + 1) Slashing damage."
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Aquatic Charge",
+      "text": "The sahuagin swims up to its Swim Speed straight toward an enemy it can see. ## Salamander"
+    }
+  ],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

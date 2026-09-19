@@ -1,0 +1,120 @@
+{
+  "name": "Mythic Vault Builder",
+  "sourceSystem": "pf1",
+  "source": "Planar Adventures, The Emerald Spire Superdungeon",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "earth, elemental, extraplanar, mythic",
+  "alignment": "LN",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 38,
+    "notes": "dex +10, dodge +1, natural +17",
+    "touch": 21,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 317,
+    "formula": "19d10+213"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., other_semicolon earth glide ft., burrow 30 ft., climb 40 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 31,
+    "con": 25,
+    "int": 29,
+    "wis": 18,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +13, Ref +21, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +33, Craft (sculpture) +37, Disable Device +27, Heal +23, Knowledge (arcana) +39, Knowledge (planes) +39, Knowledge (dungeoneering) +28, Knowledge (engineering) +28, Knowledge (geography) +28, Knowledge (nature) +28, Perception +26, Sense Motive +26, Spellcraft +31, Stealth +32, Use Magic Device +30",
+    "list": {
+      "Climb": "+33",
+      "Disable Device": "+27",
+      "Heal": "+23",
+      "Perception": "+26",
+      "Sense Motive": "+26",
+      "Spellcraft": "+31",
+      "Stealth": "+32",
+      "Use Magic Device": "+30"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Terran",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 19,
+  "feats": [
+    "Ability Focus (crystallization)",
+    "Combat Reflexes",
+    "Dodge",
+    "Extra Mythic Power",
+    "Improved Critical (claw)",
+    "Improved Sunder",
+    "Iron Will",
+    "Mobility",
+    "Power Attack",
+    "Spring Attack",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 claws +29 (2d4+10/19-20 plus crystallization)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering, spindly, four-armed entity appears to be made of stone and crystal, yet it moves with a fluid grace.",
+  "meta": {
+    "cmb": "25 (+31 sunder)",
+    "cmd": "46 (52 vs. sunder, 50 vs. trip)",
+    "racialModifiers": [
+      "Craft (sculpture) 8",
+      "Knowledge (arcana) 8",
+      "Knowledge (planes) 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or foundation (2 plus 4-20 Vault Keepers)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

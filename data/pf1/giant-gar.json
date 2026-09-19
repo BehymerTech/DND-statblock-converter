@@ -1,0 +1,98 @@
+{
+  "name": "Giant Gar",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Huge",
+  "type": "animal",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "natural +11, size -2",
+    "touch": 8,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 73,
+    "formula": "7d8+42"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 60 ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 10,
+    "con": 23,
+    "int": 1,
+    "wis": 13,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +11, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +11, Swim +18",
+    "list": {
+      "Perception": "+11",
+      "Swim": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 5,
+  "feats": [
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (2d6+15 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This fish is enormous-a sleek predator with bony scales and a long set of toothy jaws.",
+  "meta": {
+    "cmb": "17 (+21 grapple)",
+    "cmd": "27 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate freshwater"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or school (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

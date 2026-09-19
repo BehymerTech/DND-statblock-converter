@@ -1,0 +1,100 @@
+{
+  "name": "Vescavor Swarm",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Lost Kingdoms",
+  "size": "Diminutive",
+  "type": "outsider",
+  "subtype": "chaotic, evil, extraplanar, swarm",
+  "alignment": "CE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 19,
+    "notes": "dex +3, natural +2, size +4",
+    "touch": 17,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 47,
+    "formula": "5d10+20"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 40 ft. (good)"
+  },
+  "abilities": {
+    "str": 7,
+    "dex": 17,
+    "con": 16,
+    "int": 4,
+    "wis": 13,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +7, Ref +9, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +21, Perception +9, Stealth +23",
+    "list": {
+      "Fly": "+21",
+      "Perception": "+9",
+      "Stealth": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Abyssal"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 5,
+  "feats": [
+    "Blind-Fight",
+    "Lightning Reflexes",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "swarm (2d6 plus distraction)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "With a gibbering chorus, hundreds of toothy insects swarm together, their heads nothing more than maws filled with a sickly green glow.",
+  "meta": {
+    "cmb": "None",
+    "cmd": "None",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, plague (3-12), or apocalypse (16-30)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

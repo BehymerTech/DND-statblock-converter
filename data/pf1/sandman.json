@@ -1,0 +1,105 @@
+{
+  "name": "Sandman",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "earth, elemental, extraplanar",
+  "alignment": "NE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex +1, natural +4",
+    "touch": 11,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d10+8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 13,
+    "con": 15,
+    "int": 10,
+    "wis": 11,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +6, Ref +5, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +8, Climb +9, Knowledge (planes) +7, Perception +7, Sense Motive +7, Stealth +8",
+    "list": {
+      "Acrobatics": "+8",
+      "Climb": "+9",
+      "Perception": "+7",
+      "Sense Motive": "+7",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Terran"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 4,
+  "feats": [
+    "Improved Initiative",
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +6 (1d6+3 plus sleep)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A whirling cloud of fine desert sand piles up upon itself, forming into the shape of a humanoid figure.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 17,
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land (Plane of Earth)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, gang (2-4), or shoal (5-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

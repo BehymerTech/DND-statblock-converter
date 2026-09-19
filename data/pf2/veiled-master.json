@@ -1,0 +1,131 @@
+{
+  "name": "Veiled Master",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 15.",
+  "size": "Large",
+  "type": "Aquatic",
+  "subtype": "Aberration",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 14",
+  "xp": null,
+  "ac": {
+    "value": 34,
+    "notes": ""
+  },
+  "hp": {
+    "average": 270,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 feet, swim 80 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 22,
+    "con": 26,
+    "int": 24,
+    "wis": 20,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +26, Ref +22, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +27 (1d20+27); __Athletics__: +24 (1d20+24); __Deception__: +28 (1d20+28); __Intimidation__: +26 (1d20+26); __Occultism__: +29 (1d20+29); __Society__: +27 (1d20+27); __Stealth__: +24 (1d20+24); __Lore (any one subcategory)__: +29 (1d20+29); ",
+    "list": {
+      "Arcana": "+27",
+      "Athletics": "+24",
+      "Deception": "+28",
+      "Intimidation": "+26",
+      "Occultism": "+29",
+      "Society": "+27",
+      "Stealth": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Aklo",
+    "Alghollthu",
+    "Aquan",
+    "Common",
+    "Undercommon; tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Mucus Cloud",
+      "text": "(aura, disease); 30 feet. While underwater, a vidileth exudes a cloud of transparent slime. An air-breathing creature adjacent to a vidileth must succeed at a DC 36 Fortitude save each round or lose the ability to breathe air but gain the ability to breathe water for 24 hours."
+    },
+    {
+      "name": "Change Shape",
+      "text": "⭓ (concentrate, occult, polymorph, transmutation); Once per round, a veiled master can take on the appearance of a humanoid of Large, Medium, or Small size or resume its true form. While in humanoid form, the veiled master's Speed is 30 feet, and it loses its mucus cloud aura and swim Speed. If the humanoid form assumed lacks the aquatic trait, the veiled master loses its own aquatic trait as well. In humanoid form, the veiled master can use weapons, or it can make Strikes that work like its tentacle attack but use the reach of its current form. If the assumed form has fangs or claws, the veiled master can also make such Strikes, but these attacks lack the veiled master's slime."
+    },
+    {
+      "name": "Consume Memories",
+      "text": "(mental, occult); When a veiled master makes a fangs Strike against a creature, it can consume some of that creature's memories. The target must succeed at a DC 37 Fortitude saving throw or become stupefied 1. A veiled master regains 5 Hit Points each time it successfully consumes memories. When a veiled master consumes memories, it learns some of the creature's memories (subject to the GM's discretion)."
+    },
+    {
+      "name": "Delayed Suggestion",
+      "text": "(enchantment, occult); When a veiled master successfully casts dominate on a creature, a suggestion spell triggers when the dominate spell ends. This suggestion usually causes the target to return to the veiled master, so the creature can cast dominate again, but a veiled master can set the suggestion to different orders if it wishes."
+    },
+    {
+      "name": "Slime",
+      "text": "(curse, occult, virulent); Saving Throw DC 36 Fortitude. Stage 1 no ill effect (1 round) Stage 2 the victim's skin softens, inflicting drained 1 (1 round) Stage 3 the victim's skin transforms into a clear, slimy membrane, inflicting drained 2 until the curse ends; every hour this membrane remains dry, the creature's drained condition increases by 1 (permanent)"
+    },
+    {
+      "name": "Tentacle Flurry",
+      "text": "⬺ The veiled master thrashes about with its tentacles. Make a tentacle Strike against each creature within its reach. Roll only one attack roll, and roll the damage only once for all targets."
+    },
+    {
+      "name": "Thoughtlance",
+      "text": "(curse, enchantment, occult); A creature touched by the veiled master's tentacles, whether those tentacles deal damage or not, must attempt a DC 34 Will save, becoming slowed 1 on a failure or slowed 2 on a critical failure. Each time the affected creature ends its turn, its slowed value decreases by 1."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +30 (agile, magical, reach 20 feet); Damage 3d10+12 (3d10+12) slashing plus slime"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +28 (agile, magical, reach 10 feet, versatile s); Damage 3d8+12 (3d8+12) piercing plus slime and consume memories"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tentacle +28 (agile, electricity, magical, reach 20 feet); Damage 7d6 (7d6) electricity plus thoughtlance"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      6,
+      8,
+      7,
+      5,
+      6
+    ]
+  }
+}

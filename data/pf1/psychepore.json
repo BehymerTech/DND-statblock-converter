@@ -1,0 +1,107 @@
+{
+  "name": "Psychepore",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Medium",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "dex +3, natural +7",
+    "touch": 13,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 85,
+    "formula": "10d8+40"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 17,
+    "con": 16,
+    "int": 7,
+    "wis": 12,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +10, Ref +6, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +12, Stealth +14",
+    "list": {
+      "Perception": "+12",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Common (can’t speak)"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 7,
+  "feats": [
+    "Iron Will",
+    "Skill Focus (Stealth)",
+    "Skill Focus (Perception)",
+    "Toughness",
+    "Weapon Focus (slam)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "3 slams +13 (1d8+5 plus poison)"
+    },
+    {
+      "name": "Ranged",
+      "text": "3 razor conks +10 (1d8+5 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A mass of shell-like fungus grows so thick it obscures the mass of plant matter beneath.",
+  "meta": {
+    "cmb": "+12",
+    "cmd": 25,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forests or jungles"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or colony (5-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

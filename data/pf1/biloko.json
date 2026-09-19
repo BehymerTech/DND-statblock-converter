@@ -1,0 +1,105 @@
+{
+  "name": "Biloko",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 38: Racing to Ruin",
+  "size": "Small",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, natural +1, size +1",
+    "touch": 13,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 5,
+    "formula": "2d6-2"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 15,
+    "con": 8,
+    "int": 11,
+    "wis": 12,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort -1, Ref +5, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +3, Craft (traps) +5, Knowledge (nature) +5, Perception +6, Stealth +11, Survival +3",
+    "list": {
+      "Climb": "+3",
+      "Perception": "+6",
+      "Stealth": "+11",
+      "Survival": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 1,
+  "feats": [
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "1 shortspear +0 (1d4-2), 1 bite +0 (1d4-2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "1 shortspear +4 (1d4-2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This gnome-sized humanoid’s face is adorned with fiery red eyes and a sharp-toothed mouth that seems too wide for its head. The creature is garbed in leaves and possesses no hair-patches of grass and moss grow from its skin instead.",
+  "meta": {
+    "cmb": "-2",
+    "cmd": 10,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-16)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (4 shortspears, other gear)"
+      }
+    ]
+  }
+}

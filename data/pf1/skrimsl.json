@@ -1,0 +1,106 @@
+{
+  "name": "Skrimsl",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 28,
+    "notes": "dex +4, natural +16, size -2",
+    "touch": 12,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 178,
+    "formula": "17d10+85"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 50 ft."
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 18,
+    "con": 21,
+    "int": 4,
+    "wis": 23,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +15, Ref +14, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +26, Swim +18",
+    "list": {
+      "Perception": "+26",
+      "Swim": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Aquan (cannot speak)"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 17,
+  "feats": [
+    "Combat Casting",
+    "Critical Focus",
+    "Greater Sunder",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Iron Will",
+    "Power Attack",
+    "Staggering Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +25 (4d6+10/19-20 plus 2d6 electricity and grab), tail slap +20 (2d10+5 plus 2d6 electricity)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Four gleaming, yellow eyes leer above the tooth-rimmed maw of this massive, blue-scaled and eellike creature.",
+  "meta": {
+    "cmb": "29 (+33 sunder)",
+    "cmd": "43 (45 vs. sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pod (3-9)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "name": "NPC Healer",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "halfling",
+  "alignment": "NG",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 16,
+    "notes": "armor +4, dex +1, size +1",
+    "touch": 12,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 34,
+    "formula": "9d6+3"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 13,
+    "con": 10,
+    "int": 12,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +6, Ref +5, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +3, Appraise +4, Climb +0, Heal +19, Knowledge (local) +8, Knowledge (nature) +13, Linguistics +3, Perception +4, Profession (herbalist) +14, Survival +8",
+    "list": {
+      "Acrobatics": "+3",
+      "Appraise": "+4",
+      "Climb": "+0",
+      "Heal": "+19",
+      "Linguistics": "+3",
+      "Perception": "+4",
+      "Survival": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 14,
+  "languages": [
+    "Common",
+    "Elven",
+    "Gnome",
+    "Halfling",
+    "Sylvan"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 4,
+  "feats": [
+    "Brew Potion",
+    "Great Fortitude",
+    "Iron Will",
+    "Scribe Scroll",
+    "Skill Focus (Heal)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "quarterstaff +3 (1d4-2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "sling +6 (1d3-2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Halfling",
+    "class": "adept 9",
+    "cmb": "+1",
+    "cmd": 12
+  }
+}

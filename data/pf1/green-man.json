@@ -1,0 +1,128 @@
+{
+  "name": "Green Man",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "plant",
+  "subtype": "shapechanger",
+  "alignment": "N",
+  "cr": "26",
+  "level": null,
+  "xp": 2457600,
+  "ac": {
+    "value": 44,
+    "notes": "dex +10, dodge +1, insight +11, natural +12",
+    "touch": 32,
+    "flatFooted": 33
+  },
+  "hp": {
+    "average": 595,
+    "formula": "34d8+442"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 40 ft."
+  },
+  "abilities": {
+    "str": 40,
+    "dex": 31,
+    "con": 36,
+    "int": 25,
+    "wis": 32,
+    "cha": 29
+  },
+  "saves": {
+    "text": "Fort +32, Ref +23, Will +22",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +44, Climb +40, Disguise +43, Knowledge (geography) +24, Knowledge (history) +24, Knowledge (religion) +24, Perception +11, Sense Motive +45, Spellcraft +41, Stealth +47, Survival +45",
+    "list": {
+      "Acrobatics": "+44",
+      "Climb": "+40",
+      "Disguise": "+43",
+      "Perception": "+11",
+      "Sense Motive": "+45",
+      "Spellcraft": "+41",
+      "Stealth": "+47",
+      "Survival": "+45"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "greensight",
+    "lifesense",
+    "low-light vision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Druidic",
+    "Sylvan",
+    "speak with plants"
+  ],
+  "initiative": "+14",
+  "babOrProficiency": 25,
+  "feats": [
+    "Combat Reflexes",
+    "Craft Staff",
+    "Craft Wondrous Item",
+    "Defensive Combat Training",
+    "Diehard",
+    "Dodge",
+    "Endurance",
+    "Greater Spell Penetration",
+    "Improved Critical (slam)",
+    "Improved Critical (vine)",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Quicken Spell",
+    "Spell Penetration",
+    "Stand Still"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +40 (1d8+15/19-20 plus absorb magic), 6 vines +40 (2d6+15/19-20 plus grab)"
+    },
+    {
+      "name": "Ranged",
+      "text": "6 thorns +35 (2d6+15)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This man is formed entirely of green leafy plants and bark. His fingers extend into lengths of vine.",
+  "meta": {
+    "cmb": "40 (+44 grapple, +42 sunder)",
+    "cmd": "81 (83 vs. sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

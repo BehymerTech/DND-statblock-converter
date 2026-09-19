@@ -1,0 +1,105 @@
+{
+  "name": "Shining Child",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 292.",
+  "size": "Medium",
+  "type": "Astral",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 12",
+  "xp": null,
+  "ac": {
+    "value": 33,
+    "notes": ""
+  },
+  "hp": {
+    "average": 215,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, fly 50 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 20,
+    "con": 22,
+    "int": 14,
+    "wis": 20,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +22, Ref +19, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +18 (1d20+18); __Deception__: +23 (1d20+23); __Diplomacy__: +21 (1d20+21); __Intimidation__: +21 (1d20+21); __Occultism__: +18 (1d20+18); ",
+    "list": {
+      "Arcana": "+18",
+      "Deception": "+23",
+      "Diplomacy": "+21",
+      "Intimidation": "+21",
+      "Occultism": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Aklo; telepathy 120 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Radiance Dependence",
+      "text": "The shining child is flat-footed while in areas of darkness."
+    },
+    {
+      "name": "Blinding Aura",
+      "text": "(arcane, aura, incapacitation, light); 60 feet. The shining child sheds bright light. Any creature that starts its turn in the aura must succeed at a Fortitude DC 29 save. If it fails, it is blinded for 1 minute, and if it critically fails, it's permanently blinded. A creature that succeeds at its save is temporarily immune to this effect for 24 hours."
+    },
+    {
+      "name": "Overwhelming Light",
+      "text": "⬲ (light); Trigger The shining child enters an area of magical darkness or begins its turn in an area of magical darkness. Effect The shining child attempts to counteract the magical darkness (as a 7th-level spell)."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +25 (agile, finesse, magical); Damage 3d4+5 (3d4+5) bludgeoning plus 4d6 (4d6) fire and 2d4 (2d4) persistent fire"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fire ray +25 (arcane, evocation, magical, range 100 feet); Damage 3d10+3 (3d10+3) fire, plus 2d10 (2d10) positive damage if the target is undead"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      5,
+      6,
+      2,
+      5,
+      7
+    ]
+  }
+}

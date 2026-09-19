@@ -1,0 +1,99 @@
+{
+  "name": "Badger",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Small",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 13,
+    "notes": "dex +1, natural +1, size +1",
+    "touch": 12,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 9,
+    "formula": "1d8+5"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 10 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 13,
+    "con": 15,
+    "int": 2,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +4, Ref +3, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Escape Artist +5, Perception +5",
+    "list": {
+      "Escape Artist": "+5",
+      "Perception": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 15,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 0,
+  "feats": [
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +1 (1d3), 2 claws +1 (1d2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The squat, waddling badger trudges forth. Thrusting its flattened nose about the ground, it sniffs incessantly.",
+  "meta": {
+    "cmb": "-1",
+    "cmd": "10 (14 vs. trip)",
+    "racialModifiers": [
+      "Escape Artist 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or clan (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

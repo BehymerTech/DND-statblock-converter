@@ -1,0 +1,115 @@
+{
+  "name": "Ravener",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 30: The Twice-Damned Prince",
+  "size": "Colossal",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 35,
+    "notes": "dex -2, natural +35, size -8",
+    "touch": 0,
+    "flatFooted": 35
+  },
+  "hp": {
+    "average": 337,
+    "formula": "25d10+200"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 42,
+    "dex": 6,
+    "con": 26,
+    "int": 6,
+    "wis": 14,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +22, Ref +12, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +17, Survival +14, Swim +28",
+    "list": {
+      "Perception": "+17",
+      "Survival": "+14",
+      "Swim": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 27,
+  "languages": [],
+  "initiative": "-2",
+  "babOrProficiency": 25,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Great Cleave",
+    "Greater Bull Rush",
+    "Greater Overrun",
+    "Greater Sunder",
+    "Improved Bull Rush",
+    "Improved Overrun",
+    "Improved Sunder",
+    "Iron Will",
+    "Lunge",
+    "Power Attack",
+    "Snatch"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +33 (4d6+16 plus snatch), gore +33 (4d6+16), 2 stomps +28 (2d8+8)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +16 (2d8+24)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The ground quakes as a colossal, elephantine beast of rocky, armored plates presses forward. Elaborate horns crown its head, and multiple rock-encrusted tusks jut from its toothy maw. With a bellowing roar, the creature shakes its massive head in challenge, then paws the ground and charges.",
+  "meta": {
+    "cmb": "+49",
+    "cmd": "57 (61 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forest, hill, jungle, or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

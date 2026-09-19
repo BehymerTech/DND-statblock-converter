@@ -1,0 +1,105 @@
+{
+  "name": "Mihstu",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "air, elemental, extraplanar",
+  "alignment": "NE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 22,
+    "notes": "dex +6, dodge +1, natural +5",
+    "touch": 17,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 92,
+    "formula": "8d10+48"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 20 ft. (good)"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 23,
+    "con": 23,
+    "int": 14,
+    "wis": 14,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +12, Ref +12, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +17, Bluff +12, Escape Artist +17, Fly +21, Knowledge (planes) +13, Perception +13, Sense Motive +13, Stealth +17",
+    "list": {
+      "Acrobatics": "+17",
+      "Bluff": "+12",
+      "Escape Artist": "+17",
+      "Fly": "+21",
+      "Perception": "+13",
+      "Sense Motive": "+13",
+      "Stealth": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Auran"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 8,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Mobility",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 tentacles +14 (1d4+1 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A miasmal form roils as barbed tentacles emerge from the central mass, coalescing into razor-sharp talons and claws.",
+  "meta": {
+    "cmb": "9 (+13 grapple)",
+    "cmd": "26 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Air)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

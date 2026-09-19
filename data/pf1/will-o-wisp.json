@@ -1,0 +1,106 @@
+{
+  "name": "Will-o’-Wisp",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Small",
+  "type": "aberration",
+  "subtype": "air",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 26,
+    "notes": "deflection +5, dex +9, dodge +1, size +1",
+    "touch": 26,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 40,
+    "formula": "9d8"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 50 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 1,
+    "dex": 29,
+    "con": 10,
+    "int": 15,
+    "wis": 16,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +3, Ref +12, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +21, Bluff +11, Escape Artist +21, Fly +31, Perception +17, Stealth +25",
+    "list": {
+      "Acrobatics": "+21",
+      "Bluff": "+11",
+      "Escape Artist": "+21",
+      "Fly": "+31",
+      "Perception": "+17",
+      "Stealth": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Aklo",
+    "Common"
+  ],
+  "initiative": "+13",
+  "babOrProficiency": 6,
+  "feats": [
+    "Alertness",
+    "Blind-Fight",
+    "Dodge",
+    "Improved Initiative",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "shock +16 touch (2d8 electricity)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This faintly glowing ball of light bobs gently in the air, the nebulous image of what might be a skull visible somewhere in its depths.",
+  "meta": {
+    "cmb": "+0",
+    "cmd": 24,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any swamp"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or string (3-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

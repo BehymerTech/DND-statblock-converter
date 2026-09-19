@@ -1,0 +1,103 @@
+{
+  "name": "Cockatrice",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Small",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Always neutral",
+  "cr": "3",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 14,
+    "notes": "+1 size, +3 Dex",
+    "touch": 14,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 27,
+    "formula": "5d10"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": 60,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft. (4 squares), fly 60 ft. (poor)"
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 17,
+    "con": 11,
+    "int": 2,
+    "wis": 13,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +4, Ref +7, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Listen +7, Spot +7;",
+    "list": {
+      "Listen": "+7",
+      "Spot": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 5,
+  "feats": [
+    "Alertness",
+    "Dodge",
+    "Weapon Finesse (B)"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Petrification"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., low-light vision"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Bite +9 melee (1d4-2 plus petrification)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +9 melee (1d4-2 plus petrification)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A male cockatrice has wattles and a comb, just like a rooster. Females, much rarer than males, differ only in that they have no wattles or comb. A cockatrice weighs about 25 pounds.",
+    "grapple": "-1",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Temperate plains",
+    "organization": "Solitary, pair, flight (3-5), or flock (6-13)",
+    "treasure": "None",
+    "advancement": "6-8 HD (Small); 9-15 HD (Medium)",
+    "leveladjustment": "---"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Quillcat",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 103: The Hellfire Compact",
+  "size": "Small",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 13,
+    "notes": "dex +2, size +1",
+    "touch": 13,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 14,
+    "formula": "2d8+5"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 15,
+    "con": 13,
+    "int": 2,
+    "wis": 12,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +4, Ref +5, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Perception +5, Stealth +10",
+    "list": {
+      "Acrobatics": "+10",
+      "Perception": "+5",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 15,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 1,
+  "feats": [
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +3 (1d4+1), tail slap +3 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Dozens of long, sharp spines line the back and tail of this dark-gray cat.",
+  "meta": {
+    "cmb": "1 (+5 grapple)",
+    "cmd": "13 (17 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forest"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

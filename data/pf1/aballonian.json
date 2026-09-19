@@ -1,0 +1,109 @@
+{
+  "name": "Aballonian",
+  "sourceSystem": "pf1",
+  "source": "Distant Worlds",
+  "size": "Medium",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "dex +2, natural +8",
+    "touch": 12,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 75,
+    "formula": "10d10+20"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 14,
+    "con": "None",
+    "int": 17,
+    "wis": 10,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +3, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +12, Climb +22, Knowledge (engineering) +13, Perception +10, Stealth +12",
+    "list": {
+      "Acrobatics": "+12",
+      "Climb": "+22",
+      "Perception": "+10",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "shortwave 100 ft."
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 10,
+  "feats": [
+    "Improved Critical (claw)",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +15 (1d8+4/19-20 plus grab)"
+    },
+    {
+      "name": "Ranged",
+      "text": "spark +12 touch (2d6 electricity)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This insectile construct skitters around on metallic legs, its manipulators clacking and glowing eyes searching.",
+  "meta": {
+    "cmb": "14 (+18 grapple)",
+    "cmd": 26,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "Aballon"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or network (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

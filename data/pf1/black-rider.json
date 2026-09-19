@@ -1,0 +1,114 @@
+{
+  "name": "Black Rider",
+  "sourceSystem": "pf1",
+  "source": "Irrisen - Land of Eternal Winter",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "LN",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 29,
+    "notes": "armor +9, dex +5, natural +5",
+    "touch": 15,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 171,
+    "formula": "18d6+108"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 20,
+    "con": 22,
+    "int": 17,
+    "wis": 18,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +12, Ref +16, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +23, Knowledge (arcana) +18, Knowledge (history) +18, Knowledge (nature) +21, Knowledge (planes) +18, Perception +25, Ride +26, Sense Motive +25, Stealth +26, Survival +16",
+    "list": {
+      "Intimidate": "+23",
+      "Perception": "+25",
+      "Ride": "+26",
+      "Sense Motive": "+25",
+      "Stealth": "+26",
+      "Survival": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Common",
+    "Hallit",
+    "Skald",
+    "Sylvan",
+    "telepathy 60 ft."
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 9,
+  "feats": [
+    "Cleave",
+    "Critical Focus",
+    "Improved Critical (spear)",
+    "Mounted Combat",
+    "Power Attack",
+    "Ride-By Attack",
+    "Spirited Charge",
+    "Trample",
+    "Weapon Focus (spear)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 icy burst spear +18/+13 (1d8+11/19-20/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A man with curling ram’s horns sits astride a snorting, stamping black warhorse, gripping a dark, battle-worn spear.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": "25 (can’t be disarmed)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "name": "Rune Giant",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 175.",
+  "size": "Gargantuan",
+  "type": "Humanoid",
+  "subtype": "Giant",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 16",
+  "xp": null,
+  "ac": {
+    "value": 38,
+    "notes": ""
+  },
+  "hp": {
+    "average": 330,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 45,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "45 feet; air walk;"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 14,
+    "con": 24,
+    "int": 14,
+    "wis": 22,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +33, Ref +26, Will +28",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +28 (1d20+28); __Athletics__: +32 (1d20+32); __Crafting__: +28 (1d20+28); __Intimidation__: +28 (1d20+28); __Society__: +27 (1d20+27); ",
+    "list": {
+      "Arcana": "+28",
+      "Athletics": "+32",
+      "Crafting": "+28",
+      "Intimidation": "+28",
+      "Society": "+27"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Common",
+    "Jotun",
+    "Terran"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲ The rune giant gains an additional reaction at the beginning of each of its turns that it can only use for an Attack of Opportunity."
+    },
+    {
+      "name": "Catch Rock",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "+2 greater striking greatsword, +1 striking longspear, +1 splint mail;"
+    },
+    {
+      "name": "Command Giants",
+      "text": "When a rune giant casts a mental spell against another giant, the DC is 39, rather than 35."
+    },
+    {
+      "name": "Demand",
+      "text": "⭓ (arcane, enchantment, mental); When a rune giant casts its innate sending spell, it can also cast suggestion on the target."
+    },
+    {
+      "name": "Flashing Runes",
+      "text": "⭓ (arcane, evocation, light); Trigger The rune giant uses an arcane ability or casts an arcane spell. Effect The runes on the giant's body flash as they produce magical energy. Each creature within a 10-foot emanation must attempt a DC 35 Fortitude save. Critical Success The creature is unaffected. Success The creature is dazzled for 1 round. Failure The creature is blinded for 1 round."
+    },
+    {
+      "name": "Invoke Rune",
+      "text": "⬻ (arcane, concentrate, electricity, evocation); The rune giant invokes one of the runes on its body, causing the rune to spray forth a 30-foot cone of sparks that deals 6d12 (6d12) electricity damage to all creatures in the cone (DC 37 basic Reflex save) A glowing copy of the invoked rune appears on a single weapon the giant holds, granting the weapon one effect listed below of the giant's choice. The giant can't use Invoke Rune again for 1d4 (1d4) rounds. The effect on the weapon lasts for 1 minute. If the giant places a new rune on a weapon, any previously placed rune immediately vanishes, ending its effect.<ul class='inner-bullet-list'><li>Rune of Destruction The weapon gains the deadly trait with three weapon damage dice of the same die size as for the base weapon, and a creature hit with the weapon is drained 1 unless it succeeds at a DC 35 Fortitude save.</li><li>Rune of Flames The weapon deals an additional 3d6 (3d6) fire damage on all attacks.</li><li>Rune of Smiting When the weapon hits, the giant can Push the target back 10 feet, or 20 feet on a critical hit.</li></ul>"
+    },
+    {
+      "name": "Throw Rock",
+      "text": "⬻"
+    },
+    {
+      "name": "Wide Swing",
+      "text": "⬻ The rune giant makes a single greatsword Strike and compares the attack roll result to the ACs of up to two foes within its reach. This counts as two attacks for the giant's multiple attack penalty."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ greatsword +33 (magical, reach 20 feet, versatile p); Damage 3d12+17 (3d12+17) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ longspear +32 (magical, reach 25 feet); Damage 2d8+17 (2d8+17) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +31 (agile, reach 20 feet); Damage 3d8+17 (3d8+17) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ rock +31 (brutal, range increment 120 feet); Damage 2d12+17 (2d12+17) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      9,
+      2,
+      7,
+      2,
+      6,
+      4
+    ],
+    "items": "+2 greater striking greatsword, +1 striking longspear, +1 splint mail;"
+  }
+}

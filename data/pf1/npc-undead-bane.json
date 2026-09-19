@@ -1,0 +1,105 @@
+{
+  "name": "NPC Undead Bane",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "N",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 26,
+    "notes": "armor +6, deflection +1, dex +4, dodge +1, insight +1, natural +3",
+    "touch": 17,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 138,
+    "formula": "9d10+1d6+7d10+43"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 20,
+    "con": 14,
+    "int": 8,
+    "wis": 14,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +16, Ref +17, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +12, Heal +15, Intimidate +12, Knowledge (religion) +9, Perception +22, Stealth +17, Survival +15, Swim +12",
+    "list": {
+      "Climb": "+12",
+      "Heal": "+15",
+      "Intimidate": "+12",
+      "Perception": "+22",
+      "Stealth": "+17",
+      "Survival": "+15",
+      "Swim": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 32,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 16,
+  "feats": [
+    "Deadly Aim",
+    "Dodge",
+    "Endurance",
+    "Eschew Materials",
+    "Great Fortitude",
+    "Greater Vital Strike",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Manyshot",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Rapid Shot",
+    "Vital Strike",
+    "Weapon Focus (shortbow)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 short sword +17/+12/+7/+2 (1d6+1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+2 flaming shock shortbow +24/+19/+14/+9 (1d6+2/×3 plus 1d6 electricity and 1d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "ranger 9, sorcerer 1, arcane archer 7",
+    "cmb": "+16",
+    "cmd": 34
+  }
+}

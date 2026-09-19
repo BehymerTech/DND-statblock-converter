@@ -1,0 +1,117 @@
+{
+  "name": "Living Sandstorm (Humanoid)",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 83: The Slave Trenches of Hakotep",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "earth, elemental",
+  "alignment": "N",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 26,
+    "notes": "dex +6, dodge +1, natural +9",
+    "touch": 17,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 147,
+    "formula": "14d10+70"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 30 ft."
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 22,
+    "con": 21,
+    "int": 12,
+    "wis": 12,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +9, Ref +15, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +20, Fly +23, Intimidate +18, Knowledge (planes) +18, Linguistics +4, Perception +18, Stealth +23, Survival +18",
+    "list": {
+      "Acrobatics": "+20",
+      "Fly": "+23",
+      "Intimidate": "+18",
+      "Linguistics": "+4",
+      "Perception": "+18",
+      "Stealth": "+23",
+      "Survival": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "sandsight",
+    "tremorsense"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Aquan",
+    "Auran",
+    "Common",
+    "Ignan",
+    "Terran"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 14,
+  "feats": [
+    "Dodge",
+    "Improved Iron Will",
+    "Improved Sunder",
+    "Iron Will",
+    "Mobility",
+    "Power Attack",
+    "Step Up"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +24 (1d8+10 plus distraction)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hulking humanoid figure of packed red sand is no taller than an average human, but it is brawny and exceptionally broad.",
+  "meta": {
+    "cmb": "24 (+26 sunder)",
+    "cmd": "41 (43 vs. sunder)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any desert (Plane of Earth)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

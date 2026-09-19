@@ -1,0 +1,112 @@
+{
+  "name": "Xulgath Warrior",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 336.",
+  "size": "Medium",
+  "type": "Xulgath",
+  "subtype": "Humanoid",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 21,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 16,
+    "int": 8,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +7, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +7 (1d20+7); __Stealth__: +5 (1d20+5); ",
+    "list": {
+      "Athletics": "+7",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Draconic",
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Stench",
+      "text": "(aura, olfactory); 30 feet. A creature that enters the area must attempt a DC 16 Fortitude save. On a failure, the creature is sickened 1, and on a critical failure, the creature also takes a –5-foot status penalty to its Speeds for 1 round. While within the aura, the creature takes a –2 circumstance penalty to saves to recover from the sickened condition. A creature that succeeds at its save is temporarily immune to all xulgaths' stenches for 1 minute."
+    },
+    {
+      "name": "Items",
+      "text": "club, javelin (3);"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ club +9 Damage 1d6+4 (1d6+4) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +9 Damage 1d6+4 (1d6+4) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +9 (agile); Damage 1d4+4 (1d4+4) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ club +7 (thrown 10 feet); Damage 1d6+4 (1d6+4) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ javelin +7 (thrown 30 feet); Damage 1d6+4 (1d6+4) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      3,
+      -1,
+      1,
+      0
+    ],
+    "items": "club, javelin (3);"
+  }
+}

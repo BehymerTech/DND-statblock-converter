@@ -1,0 +1,101 @@
+{
+  "name": "Great White Shark",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 291.",
+  "size": "Huge",
+  "type": "Aquatic",
+  "subtype": "Animal",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 60,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 40 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 14,
+    "con": 18,
+    "int": 2,
+    "wis": 12,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +12, Ref +10, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +14 (1d20+14); __Stealth__: +12 (1d20+12); __Survival__: +9 (1d20+9); ",
+    "list": {
+      "Athletics": "+14",
+      "Stealth": "+12",
+      "Survival": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blood scent, imprecise scent 100"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Blood Scent",
+      "text": "The shark can smell blood in the water from up to 1 mile away."
+    },
+    {
+      "name": "Breach",
+      "text": "⬺ The shark Swims up to its swim Speed, then Leaps vertically out of the water up to 25 feet high, making a Strike against a creature at any point during the jump (this lets it attack a creature within 30 feet of the water's surface). After the Strike, the shark splashes back down into the water."
+    },
+    {
+      "name": "Savage",
+      "text": "⬻ Requirements The shark hit with a jaws Strike on its most recent action this turn. Effect The creature the shark hit takes 1d12 (1d12) slashing damage."
+    },
+    {
+      "name": "Strafing Chomp",
+      "text": "⬻ The shark Swims up to half its swim Speed, makes a jaws Strike, and then Swims up to half its Speed further. The Strike deals half damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +14 Damage 1d12+8 (1d12+8) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      2,
+      4,
+      -4,
+      1,
+      -4
+    ]
+  }
+}

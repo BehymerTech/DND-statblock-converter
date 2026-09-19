@@ -1,0 +1,92 @@
+{
+  "name": "Giant Mosquito",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 175.",
+  "size": "Medium",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 80,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, fly 50 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 20,
+    "con": 14,
+    "int": 0,
+    "wis": 14,
+    "cha": 0
+  },
+  "saves": {
+    "text": "Fort +14, Ref +17, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +13 (1d20+13); __Stealth__: +13 (1d20+13); ",
+    "list": {
+      "Acrobatics": "+13",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60"
+  ],
+  "passivePerception": 27,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Blood Drain",
+      "text": "⬻ Requirements The giant mosquito has a creature grabbed Effect The giant mosquito uses its proboscis to drain blood from the grabbed creature. This deals 3d6 (3d6) damage, and the giant mosquito gains temporary Hit Points equal to the damage dealt. A creature that has its blood drained by a giant mosquito is drained 1 until it receives healing of any kind or amount."
+    },
+    {
+      "name": "Septic Malaria",
+      "text": "(disease); Saving Throw DC 24 Fortitude. Stage 1 sickened 1 (1 day) Stage 2 drained 1 and sickened 1 (1 day) Stage 3 as stage 2 (1 day) Stage 4 unconscious (1 day)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ proboscis +17 (finesse); Damage 2d10+7 (2d10+7) piercing plus Grab and septic malaria"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      5,
+      2,
+      -5,
+      2,
+      -5
+    ]
+  }
+}

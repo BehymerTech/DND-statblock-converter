@@ -1,0 +1,106 @@
+{
+  "name": "Warsworn",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 35: War of the River Kings",
+  "size": "Gargantuan",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 29,
+    "notes": "dex +3, natural +20, size -4",
+    "touch": 9,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 207,
+    "formula": "18d8+126"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 17,
+    "con": "None",
+    "int": 9,
+    "wis": 22,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +13, Ref +9, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +33, Perception +27, Swim +30",
+    "list": {
+      "Climb": "+33",
+      "Perception": "+27",
+      "Swim": "+30"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Common (can’t speak)"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 13,
+  "feats": [
+    "Awesome Blow",
+    "Blind-Fight",
+    "Greater Overrun",
+    "Improved Bull Rush",
+    "Improved Overrun",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Step Up",
+    "Strike Back"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 slams +21 (2d6+12 plus energy drain)"
+    },
+    {
+      "name": "Ranged",
+      "text": "1 scrap ball +12 (2d6+12)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "An enormous, animate mass of armed and armored corpses undulates forth, like a siege tower of steel-girded flesh.",
+  "meta": {
+    "cmb": "+29",
+    "cmd": "42 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "name": "NPC Profane General",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "CN",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 22,
+    "notes": "armor +11, natural +1",
+    "touch": 10,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 121,
+    "formula": "13d8+59"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 10,
+    "con": 18,
+    "int": 12,
+    "wis": 17,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +13, Ref +5, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +7, Heal +11, Intimidate +4, Knowledge (engineering) +6, Knowledge (nobility) +6, Knowledge (planes) +6, Knowledge (history) +9, Knowledge (religion) +9, Knowledge (local) +3, Perception +16, Ride -1, Spellcraft +9",
+    "list": {
+      "Diplomacy": "+7",
+      "Heal": "+11",
+      "Intimidate": "+4",
+      "Perception": "+16",
+      "Ride": "-1",
+      "Spellcraft": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 26,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 9,
+  "feats": [
+    "Cleave",
+    "Combat Casting",
+    "Extra Channel",
+    "Heavy Armor Proficiency",
+    "Improved Critical (greatsword)",
+    "Power Attack",
+    "Vital Strike",
+    "Weapon Focus (greatsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 flaming greatsword +16/+11 (2d6+8/17-20 plus 1d6 fire)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk heavy crossbow +10 (1d10/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "cleric of Gorum 13",
+    "cmb": "+14",
+    "cmd": 24
+  }
+}

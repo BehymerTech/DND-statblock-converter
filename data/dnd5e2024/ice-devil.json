@@ -1,0 +1,98 @@
+{
+  "name": "Ice Devil",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "Devil",
+  "alignment": "Lawful Evil",
+  "cr": "14",
+  "level": null,
+  "xp": 11500,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 228,
+    "formula": "24d10 + 96"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 14,
+    "con": 18,
+    "int": 18,
+    "wis": 15,
+    "cha": 18
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Insight +7, Perception +7, Persuasion +9",
+    "list": {
+      "Insight": "+7",
+      "Perception": "+7",
+      "Persuasion": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Blindsight 120 ft."
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Infernal; telepathy 120 ft."
+  ],
+  "initiative": "+7 (17)",
+  "babOrProficiency": 5,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Diabolical Restoration",
+      "text": "If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The devil has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The devil makes three Ice Spear attacks. It can replace one attack with a Tail attack."
+    },
+    {
+      "name": "Ice Spear",
+      "text": "_Melee or Ranged Attack Roll:_ +10, reach 5 ft. or range 30/120 ft. _Hit:_ 14 (2d8 + 5) Piercing damage plus 10 (3d6) Cold damage. Until the end of its next turn, the target can't take a Bonus Action or Reaction, its Speed decreases by 10 feet, and it can move or take one action on its turn, not both. _Hit or Miss:_ The spear magically returns to the devil's hand immediately after a ranged attack."
+    },
+    {
+      "name": "Tail",
+      "text": "_Melee Attack Roll:_ +10, reach 10 ft. _Hit:_ 15 (3d6 + 5) Bludgeoning damage plus 18 (4d8) Cold damage."
+    },
+    {
+      "name": "Ice Wall (Recharge 6)",
+      "text": "The devil casts _Wall of Ice_ (level 8 version), requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 17). ## Imp"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

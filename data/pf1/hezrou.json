@@ -1,0 +1,112 @@
+{
+  "name": "Hezrou",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "aquatic, chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 25,
+    "notes": "natural +16, size -1",
+    "touch": 9,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 145,
+    "formula": "10d10+90"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 11,
+    "con": 29,
+    "int": 14,
+    "wis": 14,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +16, Ref +3, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +21, Escape Artist +10, Intimidate +14, Knowledge (arcana) +15, Perception +23, Spellcraft +15, Stealth +9, Swim +29",
+    "list": {
+      "Climb": "+21",
+      "Escape Artist": "+10",
+      "Intimidate": "+14",
+      "Perception": "+23",
+      "Spellcraft": "+15",
+      "Stealth": "+9",
+      "Swim": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Draconic",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 10,
+  "feats": [
+    "Blind-Fight",
+    "Cleave",
+    "Great Cleave",
+    "Improved Initiative",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +17 (4d4+8 plus grab), 2 claws +17 (1d8+8 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This fiend’s armored flesh is scaly and moist. Its large, toothy mouth gapes below a pair of hungry, reptilian eyes.",
+  "meta": {
+    "cmb": "19 (+23 grapple)",
+    "cmd": 29,
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any swamp (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or gang (2-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

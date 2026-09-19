@@ -1,0 +1,82 @@
+{
+  "name": "Giant Shark",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Huge",
+  "type": "beast",
+  "subtype": "",
+  "alignment": "unaligned",
+  "cr": "5",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 13,
+    "notes": "natural armor"
+  },
+  "hp": {
+    "average": 126,
+    "formula": "11d12 + 55"
+  },
+  "speed": {
+    "walk": 0,
+    "fly": null,
+    "swim": 50,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 11,
+    "con": 21,
+    "int": 1,
+    "wis": 10,
+    "cha": 5
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +3",
+    "list": {
+      "perception": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight 60 ft."
+  ],
+  "passivePerception": 13,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Blood Frenzy",
+      "text": "The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+    },
+    {
+      "name": "Water Breathing",
+      "text": "The shark can breathe only underwater."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) piercing damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

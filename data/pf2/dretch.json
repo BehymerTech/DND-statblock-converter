@@ -1,0 +1,108 @@
+{
+  "name": "Dretch",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 60.",
+  "size": "Small",
+  "type": "Fiend",
+  "subtype": "Demon",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 45,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 10,
+    "con": 18,
+    "int": 4,
+    "wis": 10,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +10, Ref +4, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +6 (1d20+6); __Athletics__: +7 (1d20+7); __Deception__: +6 (1d20+6); __Stealth__: +6 (1d20+6); ",
+    "list": {
+      "Acrobatics": "+6",
+      "Athletics": "+7",
+      "Deception": "+6",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Abyssal; [[telepathy]] 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Sloth",
+      "text": "At the start of each of the dretch's turns, roll 1d4 (1d4). The result is the number of actions the dretch regains that turn (maximum 3). Effects like the slowed condition can further reduce their number of actions."
+    },
+    {
+      "name": "Cower",
+      "text": "⬻ The dretch makes itself as small as possible, protecting its vital organs with its limbs. It gains a +4 circumstance bonus to AC but takes a –2 penalty to attack rolls. This lasts until the dretch moves from its current space, falls unconscious, or ends the effect as a free action."
+    },
+    {
+      "name": "Frenzied Slashes",
+      "text": "⬽ The dretch makes three claw Strikes, each at a –2 penalty, all targeting the same creature. The dretch's multiple attack penalty doesn't increase until after it has made all three attacks. The dretch gains the clumsy 2 condition until the beginning of its next turn."
+    },
+    {
+      "name": "Vicious Criticals",
+      "text": "A dretch makes the most of any weakness it finds. Whenever a dretch scores a critical hit with its claw Strike, the target takes an additional 1d6 (1d6) persistent bleed damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +9 (evil, magical); Damage 1d8+3 (1d8+3) piercing plus 1d4 (1d4) evil"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +9 (agile, evil, magical); Damage 1d6+3 (1d6+3) slashing plus 1d4 (1d4) evil"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      0,
+      4,
+      -3,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Badger",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 32.",
+  "size": "Small",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 0",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 15,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, burrow 10 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 12,
+    "con": 14,
+    "int": 0,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +8, Ref +5, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +4 (1d20+4); __Stealth__: +6 (1d20+6); ",
+    "list": {
+      "Athletics": "+4",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Ferocity",
+      "text": "⬲"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +8 Damage 1d8 (1d8) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +8 (agile); Damage 1d6 (1d6) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      1,
+      2,
+      -5,
+      2,
+      -2
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Deathtrap Ooze",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Large",
+  "type": "ooze",
+  "subtype": "shapechanger",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 10,
+    "notes": "dex -4, natural +5, size -1",
+    "touch": 5,
+    "flatFooted": 10
+  },
+  "hp": {
+    "average": 126,
+    "formula": "12d8+72"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 3,
+    "con": 22,
+    "int": "None",
+    "wis": 1,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +10, Ref +0, Will -1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +13, Perception -5",
+    "list": {
+      "Climb": "+13",
+      "Perception": "-5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": 5,
+  "languages": [],
+  "initiative": "-4",
+  "babOrProficiency": 9,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +13 (2d6+7 plus 2d6 acid and grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The killing blade of this horrific trap drips with an animated sheen of foul brown-orange slime.",
+  "meta": {
+    "cmb": "15 (+19 grapple)",
+    "cmd": "21 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "name": "Centaur Outcast",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Monster Codex",
+  "size": "Large",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "CG",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 13,
+    "notes": "deflection +1, dex +2, natural +1, size -1",
+    "touch": 12,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 86,
+    "formula": "7d6+4d10+40"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 15,
+    "con": 14,
+    "int": 18,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +5, Ref +8, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +18, Bluff +8, Diplomacy +14, Disguise +8, Intimidate +8, Knowledge (arcana) +13, Knowledge (geography) +8, Knowledge (history) +8, Knowledge (nature) +12, Knowledge (planes) +13, Perception +16, Spellcraft +18, Survival +10",
+    "list": {
+      "Appraise": "+18",
+      "Bluff": "+8",
+      "Diplomacy": "+14",
+      "Disguise": "+8",
+      "Intimidate": "+8",
+      "Perception": "+16",
+      "Spellcraft": "+18",
+      "Survival": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Elven",
+    "Sylvan",
+    "Varisian",
+    "Vudrani"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 7,
+  "feats": [
+    "Cosmopolitan (Bluff)",
+    "Cosmopolitan (Intimidate)",
+    "Improved Initiative",
+    "Iron Will",
+    "Merciful Spell",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Scribe Scroll",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "quarterstaff +7/+2 (1d6+1), 2 hooves +2 (1d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Lean and graying but still blessed with a young man’s face, this aging centaur bristles with scrolls and wands. Winding, swirling tattoos climb across his body and face.",
+  "meta": {
+    "race": "Old",
+    "class": "centaur wizard 7 (Pathfinder RPG Bestiary 42)",
+    "cmb": "+9",
+    "cmd": "22 (26 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests and plains"
+      }
+    ]
+  }
+}

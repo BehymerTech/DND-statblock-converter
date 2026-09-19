@@ -1,0 +1,114 @@
+{
+  "name": "Angazhani (High Girallon)",
+  "sourceSystem": "pf1",
+  "source": "Heart of the Jungle",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 24,
+    "notes": "armor +4, dex +3, natural +8, size -1",
+    "touch": 12,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 114,
+    "formula": "12d10+48"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 30 ft., climb_other 40-ft. base ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 17,
+    "con": 18,
+    "int": 12,
+    "wis": 14,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +12, Ref +11, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +20, Intimidate +11, Knowledge (religion) +14, Perception +11, Stealth +6, Survival +11",
+    "list": {
+      "Climb": "+20",
+      "Intimidate": "+11",
+      "Perception": "+11",
+      "Stealth": "+6",
+      "Survival": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent",
+    "see invisibility"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Polyglot"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 12,
+  "feats": [
+    "Cleave",
+    "Combat Reflexes",
+    "Iron Will",
+    "Multiweapon Fighting",
+    "Power Attack",
+    "Weapon Focus (throwing axe)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk throwing axe +16/+11/+6 (1d8+5), 3 mwk throwing axes +16 (1d8+2), bite +11 (1d8+2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "4 mwk throwing axes +16 (1d8+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This horned, albino ape has four arms and thick white fur braided with bone fetishes and trophies. It carries a strangely shaped throwing axe.",
+  "meta": {
+    "cmb": "+18",
+    "cmd": 31,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm jungle"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, tribe (2-4 angazhani, 4-8 girallons, and 12-24 charau-ka), or empire (8-12 angazhani, 12-20 girallons, and 50-100 charau-ka)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

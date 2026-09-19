@@ -1,0 +1,126 @@
+{
+  "name": "Plague Giant",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 111.",
+  "size": "Huge",
+  "type": "Humanoid",
+  "subtype": "Giant",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 14",
+  "xp": null,
+  "ac": {
+    "value": 35,
+    "notes": ""
+  },
+  "hp": {
+    "average": 285,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 45,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "45 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 22,
+    "con": 24,
+    "int": 16,
+    "wis": 20,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +27, Ref +24, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +30 (1d20+30); __Intimidation__: +24 (1d20+24); __Religion__: +25 (1d20+25); __Stealth__: +26 (1d20+26); ",
+    "list": {
+      "Athletics": "+30",
+      "Intimidation": "+24",
+      "Religion": "+25",
+      "Stealth": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Common",
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Catch Rock",
+      "text": "⬲"
+    },
+    {
+      "name": "Retaliatory Scratch",
+      "text": "⬲ Trigger A creature within 10 feet makes a melee Strike against the plague giant Effect The plague giant makes a claw Strike against the triggering creature."
+    },
+    {
+      "name": "Items",
+      "text": "+1 striking flail, sack with 5 rocks;"
+    },
+    {
+      "name": "Atrophic Plague",
+      "text": "(disease, divine, necromancy); Saving Throw DC 34 Fortitude. Stage 1 enfeebled 2 and fatigued (1 day) Stage 2 enfeebled 3 and fatigued (1 day) Stage 3 enfeebled 4 and fatigued (1 day)"
+    },
+    {
+      "name": "Hurl Corpse",
+      "text": "⬻ The plague giant picks up a dead or dying creature within reach and flings it at a foe. The giant makes a rock Strike, using the body instead of a rock. If the body is a corpse, on a hit it explodes in a cloud of thick gray vapor, exposing all creatures in a 10-foot burst to atrophic plague. If the body is a dying creature, on a hit its dying value increases by 1 (or 2 on a critical hit)."
+    },
+    {
+      "name": "Pustulant Flail",
+      "text": "A plague giant's flail is covered in pus, causing it to deal 3d6 (3d6) additional poison damage."
+    },
+    {
+      "name": "Throw Rock",
+      "text": "⬻ (page 306);"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ flail +31 (disarm, magical, reach 15 feet, sweep, trip); Damage 2d6+14 (2d6+14) bludgeoning plus 3d6 (3d6) poison and atrophic plague"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +30 (agile, reach 10 feet); Damage 3d6+14 (3d6+14) slashing plus atrophic plague"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ rock +28 (brutal, range increment 120 feet); Damage 3d8+14 (3d8+14) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      6,
+      7,
+      3,
+      5,
+      4
+    ],
+    "items": "+1 striking flail, sack with 5 rocks;"
+  }
+}

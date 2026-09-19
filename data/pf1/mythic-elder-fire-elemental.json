@@ -1,0 +1,110 @@
+{
+  "name": "Mythic Elder Fire Elemental",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "elemental, extraplanar, fire, mythic",
+  "alignment": "N",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 32,
+    "notes": "dex +9, dodge +2, natural +13, size -2",
+    "touch": 19,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 202,
+    "formula": "16d10+114"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 29,
+    "con": 18,
+    "int": 12,
+    "wis": 13,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +14, Ref +19, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +28, Climb +27, Escape Artist +28, Intimidate +19, Knowledge (planes) +20, Perception +20, Sense Motive +20",
+    "list": {
+      "Acrobatics": "+28",
+      "Climb": "+27",
+      "Escape Artist": "+28",
+      "Intimidate": "+19",
+      "Perception": "+20",
+      "Sense Motive": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Ignan"
+  ],
+  "initiative": "+13",
+  "babOrProficiency": 16,
+  "feats": [
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Stance",
+    "Mobility",
+    "Spring Attack",
+    "Weapon Finesse",
+    "Wind Stance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +23 (2d8+8 plus burn)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+26",
+    "cmd": 47,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Fire)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

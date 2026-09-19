@@ -1,0 +1,104 @@
+{
+  "name": "Gearsman Robot",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Inner Sea Bestiary",
+  "size": "Medium",
+  "type": "construct",
+  "subtype": "robot",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 18,
+    "notes": "dex +1, natural +7",
+    "touch": 11,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 42,
+    "formula": "4d10+20"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 13,
+    "con": "None",
+    "int": 10,
+    "wis": 13,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +1, Ref +2, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (any one) +7, Disable Device +8, Perception +8, Profession (any one) +8, Sense Motive +8",
+    "list": {
+      "Disable Device": "+8",
+      "Perception": "+8",
+      "Sense Motive": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 4,
+  "feats": [
+    "Combat Reflexes",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +9 (1d4+7)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk spear +6 (1d8+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Made of what appears to be burnished brass, this construct resembles a suit of armor with a glowing glass orb for an eye.",
+  "meta": {
+    "cmb": "+9",
+    "cmd": 20,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or squad (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (masterwork spear, other treasure)"
+      }
+    ]
+  }
+}

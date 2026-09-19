@@ -1,0 +1,88 @@
+{
+  "name": "NPC Guru",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "alignment": "LN",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 10,
+    "notes": "",
+    "touch": 10,
+    "flatFooted": 10
+  },
+  "hp": {
+    "average": 27,
+    "formula": "6d6+6"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 10,
+    "con": 12,
+    "int": 9,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +7, Ref +2, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +6, Knowledge (religion) +11, Perception +3",
+    "list": {
+      "Diplomacy": "+6",
+      "Perception": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 13,
+  "languages": [
+    "Common",
+    "Dwarven"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 3,
+  "feats": [
+    "Eschew Materials",
+    "Great Fortitude",
+    "Skill Focus (Knowledge [religion])"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "quarterstaff +2 (1d6-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Dwarf",
+    "class": "adept 6",
+    "cmb": "+2",
+    "cmd": "12 (16 vs. bull rush or trip)"
+  }
+}

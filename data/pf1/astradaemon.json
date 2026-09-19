@@ -1,0 +1,115 @@
+{
+  "name": "Astradaemon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, The Great Beyond - A Guide to the Multiverse",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "daemon, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 29,
+    "notes": "dex +7, dodge +1, natural +12, size -1",
+    "touch": 17,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 212,
+    "formula": "17d10+119"
+  },
+  "speed": {
+    "walk": 90,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "90 ft., fly 90 ft. (good)"
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 25,
+    "con": 24,
+    "int": 14,
+    "wis": 15,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +12, Ref +17, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +24, Escape Artist +27, Fly +9, Intimidate +27, Knowledge (planes) +22, Perception +22, Sense Motive +22, Stealth +23, Survival +22",
+    "list": {
+      "Acrobatics": "+24",
+      "Escape Artist": "+27",
+      "Fly": "+9",
+      "Intimidate": "+27",
+      "Perception": "+22",
+      "Sense Motive": "+22",
+      "Stealth": "+23",
+      "Survival": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "deathwatch",
+    "true seeing"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Abyssal",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 17,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Flyby Attack",
+    "Iron Will",
+    "Mobility",
+    "Nimble Moves",
+    "Power Attack",
+    "Spring Attack",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +23 (2d6+5 plus energy drain and grab), 2 claws +23 (1d8+5 plus energy drain), tail slap +18 (1d12+2 plus energy drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Vaguely humanoid in shape, this gaunt fiend has the face of a hideous fish and a body of lanky limbs and writhing tendrils.",
+  "meta": {
+    "cmb": "+23",
+    "cmd": 41,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon or Astral Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

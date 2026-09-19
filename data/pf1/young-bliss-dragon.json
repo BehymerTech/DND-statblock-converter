@@ -1,0 +1,96 @@
+{
+  "name": "Young Bliss Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 137: The City Outside of Time",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "extraplanar, good",
+  "alignment": "NG",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 25,
+    "notes": "dex +1, natural +15, size -1",
+    "touch": 10,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 161,
+    "formula": "14d12+70"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 200 ft. (poor)"
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 12,
+    "con": 21,
+    "int": 16,
+    "wis": 17,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +14, Ref +10, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +22, Fly +12, Heal +24, Knowledge (nature) +20, Knowledge (planes) +20, Perception +24, Sense Motive +24, Spellcraft +20, Survival +24",
+    "list": {
+      "Diplomacy": "+22",
+      "Fly": "+12",
+      "Heal": "+24",
+      "Perception": "+24",
+      "Sense Motive": "+24",
+      "Spellcraft": "+20",
+      "Survival": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon sense"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 14,
+  "feats": [
+    "Alertness",
+    "Combat Expertise",
+    "Imp. Critical (claw)",
+    "Imp. Disarm",
+    "Imp. Initiative",
+    "Self-Sufficient",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +19 (2d6+9), 2 claws +20 (1d8+6/19-20), tail slap +14 (1d8+9), 2 wings +14 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This serene dragon’s feathered form emits a comforting warmth.",
+  "meta": {
+    "cmb": "21 (+23 disarm)",
+    "cmd": "32 (34 vs. disarm, 36 vs. trip)"
+  }
+}

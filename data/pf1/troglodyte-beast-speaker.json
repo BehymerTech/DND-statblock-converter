@@ -1,0 +1,102 @@
+{
+  "name": "Troglodyte Beast-Speaker",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "reptilian",
+  "alignment": "CE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 16,
+    "notes": "natural +6",
+    "touch": 10,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 35,
+    "formula": "5d8+13"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 11,
+    "con": 14,
+    "int": 10,
+    "wis": 15,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +8, Ref +3, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +8, Heal +7, Knowledge (nature) +2, Perception +10, Spellcraft +6, Stealth +7, Survival +10",
+    "list": {
+      "Climb": "+8",
+      "Heal": "+7",
+      "Perception": "+10",
+      "Spellcraft": "+6",
+      "Stealth": "+7",
+      "Survival": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Draconic",
+    "Druidic"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 3,
+  "feats": [
+    "Combat Casting",
+    "Improved Initiative",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk club +4 (1d6), bite -2 (1d4), claw -2 (1d4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "javelin +3 (1d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Troglodyte",
+    "class": "druid 3",
+    "cmb": "+3",
+    "cmd": 13,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      }
+    ]
+  }
+}

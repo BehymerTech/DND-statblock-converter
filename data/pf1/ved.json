@@ -1,0 +1,105 @@
+{
+  "name": "Ved",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Irrisen - Land of Eternal Winter",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "NE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 16,
+    "notes": "dex -1, natural +8, size -1",
+    "touch": 8,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 57,
+    "formula": "6d8+30"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 8,
+    "con": 20,
+    "int": 7,
+    "wis": 12,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +7, Ref +1, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +7, Intimidate +4, Perception +6, Survival +6",
+    "list": {
+      "Climb": "+7",
+      "Intimidate": "+4",
+      "Perception": "+6",
+      "Survival": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Giant"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 4,
+  "feats": [
+    "Awesome Blow",
+    "Improved Bull Rush",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "club +10 (1d8+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hairy humanoid’s misshapen head appears too large for its body and it wields a lumpy, primitive club.",
+  "meta": {
+    "cmb": "12 (+14 bull rush)",
+    "cmd": "22 (24 vs. bull rush)",
+    "racialModifiers": [
+      "Climb 4",
+      "Survival 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold hills or mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, gang (3-5), or clan (6-16)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

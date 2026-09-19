@@ -1,0 +1,102 @@
+{
+  "name": "Cauthooj",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 55.",
+  "size": "Medium",
+  "type": "Beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 12",
+  "xp": null,
+  "ac": {
+    "value": 33,
+    "notes": ""
+  },
+  "hp": {
+    "average": 215,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 18,
+    "con": 24,
+    "int": 4,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +25, Ref +20, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +24 (1d20+24); __Stealth__: +25 (1d20+25); ",
+    "list": {
+      "Athletics": "+24",
+      "Stealth": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "imprecise thoughtsense 60"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Sylvan (can't speak any language)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Thoughtsense",
+      "text": "(divination, mental, occult); The cauthooj senses a creatures mental essence at the listed ranged."
+    },
+    {
+      "name": "Hop-Dodge",
+      "text": "⬲ (move); Trigger The cauthooj is the target of a melee Effect Strike and is adjacent to another enemy that is also within the reach of the melee Strike. The cauthooj nimbly hops aside, redirecting the triggering Strike against the adjacent enemy. The cauthooj Strides up to half its Speed, and this movement does not trigger reactions."
+    },
+    {
+      "name": "Staccato Strike",
+      "text": "⬻ (mental, primal, sonic); With subtle alterations in the pitch and tone of its song, the cauthooj directs one creature confused by its Warbling Song to make a Strike. This works like other Strikes made by confused creatures, except that the cauthooj chooses the target. If no target is in reach or range, or the creature is unable to Strike for any other reason, this ability has no effect."
+    },
+    {
+      "name": "Warbling Song",
+      "text": "⬺ (auditory, incapacitation, mental, primal); The cauthooj gives a strange, ululating cry that causes nearby creatures to lash out violently and without control. Each creature within a 120-foot emanation that can hear the cauthooj must attempt a DC 32 Will save to resist the effect. Critical Success The target is unaffected and is temporarily immune for 1 minute. Success The target is unaffected. Failure The target is confused for 1 round. Critical Failure The target is confused for 1 round and immediately attacks itself (in the normal fashion for attacking oneself while confused). This Strike doesn't give the creature a flat check to recover from the confusion."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ beak +26 (agile, deadly 1d12, reach 10 feet); Damage 2d12+12 (2d12+12) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      4,
+      7,
+      -3,
+      2,
+      0
+    ]
+  }
+}

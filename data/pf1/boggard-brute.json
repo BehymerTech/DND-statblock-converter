@@ -1,0 +1,101 @@
+{
+  "name": "Boggard Brute",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "boggard",
+  "alignment": "CE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 16,
+    "notes": "armor +2, dex +1, natural +3",
+    "touch": 11,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 34,
+    "formula": "3d8+1d10+16"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 13,
+    "con": 16,
+    "int": 6,
+    "wis": 13,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +2, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +4, Intimidate +9, Perception +5, Stealth +0, Swim +12",
+    "list": {
+      "Acrobatics": "+4",
+      "Intimidate": "+9",
+      "Perception": "+5",
+      "Stealth": "+0",
+      "Swim": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Boggard"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 3,
+  "feats": [
+    "Intimidating Prowess",
+    "Toughness",
+    "Weapon Focus (morningstar)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk morningstar +9 (1d8+6), tongue +2 touch (sticky tongue)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk javelin +5 (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Boggard",
+    "class": "fighter 1",
+    "cmb": "+7",
+    "cmd": 18,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate marshes"
+      }
+    ]
+  }
+}

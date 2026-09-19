@@ -1,0 +1,120 @@
+{
+  "name": "Enlightened Vampire",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "augmented humanoid, human",
+  "alignment": "LE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 34,
+    "notes": "armor +2, deflection +1, dex +5, dodge +1, monk +4, wis +4, natural +7",
+    "touch": 25,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 108,
+    "formula": "11d8+55"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 20,
+    "con": "None",
+    "int": 14,
+    "wis": 18,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +10, Ref +14, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +19, Climb +20, Intimidate +17, Knowledge (history) +16, Perception +30, Sense Motive +30, Stealth +27",
+    "list": {
+      "Acrobatics": "+19",
+      "Climb": "+20",
+      "Intimidate": "+17",
+      "Perception": "+30",
+      "Sense Motive": "+30",
+      "Stealth": "+27"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Elven"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 8,
+  "feats": [
+    "Alertness",
+    "Combat Expertise",
+    "Dodge",
+    "Gorgon’s Fist",
+    "Greater Grapple",
+    "Improved Critical (unarmed strike)",
+    "Improved Grapple",
+    "Improved Initiative",
+    "Improved Unarmed Strike",
+    "Ki Stand",
+    "Lightning Reflexes",
+    "Mobility",
+    "Power Attack",
+    "Punishing Kick",
+    "Scorpion Style",
+    "Step Up",
+    "Toughness",
+    "Weapon Focus (unarmed strike)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "unarmed strike +15/+10 (2d8+6/19-20 plus energy drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "vampire monk (hungry ghost monk) 11 (Pathfinder RPG Advanced Player’s Guide 110)",
+    "cmb": "17 (+21 grapple)",
+    "cmd": "39 (41 vs. grapple)",
+    "racialModifiers": [
+      "Bluff 8",
+      "Perception 8",
+      "Sense Motive 8",
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      }
+    ]
+  }
+}

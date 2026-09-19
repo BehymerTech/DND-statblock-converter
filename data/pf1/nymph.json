@@ -1,0 +1,107 @@
+{
+  "name": "Nymph",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CG",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 23,
+    "notes": "deflection +7, dex +5, dodge +1",
+    "touch": 23,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 60,
+    "formula": "8d6+32"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 21,
+    "con": 18,
+    "int": 16,
+    "wis": 17,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +13, Ref +18, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +18, Escape Artist +16, Handle Animal +15, Heal +11, Knowledge (nature) +14, Perception +14, Sense Motive +14, Stealth +16, Swim +19",
+    "list": {
+      "Diplomacy": "+18",
+      "Escape Artist": "+16",
+      "Handle Animal": "+15",
+      "Heal": "+11",
+      "Perception": "+14",
+      "Sense Motive": "+14",
+      "Stealth": "+16",
+      "Swim": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 4,
+  "feats": [
+    "Agile Maneuvers",
+    "Combat Casting",
+    "Dodge",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk dagger +10 (1d4/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A delicate figure rises from the water, her long ears tapering to points above her head, her beauty painful in its perfection.",
+  "meta": {
+    "cmb": "+9",
+    "cmd": 27,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forest"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (dagger, other treasure)"
+      }
+    ]
+  }
+}

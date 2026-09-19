@@ -1,0 +1,110 @@
+{
+  "name": "Feeder in the Depths",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "LE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 20,
+    "notes": "dex +2, natural +10, size -2",
+    "touch": 10,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 105,
+    "formula": "10d10+50"
+  },
+  "speed": {
+    "walk": 80,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 80 ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 15,
+    "con": 20,
+    "int": 13,
+    "wis": 15,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +12, Ref +9, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +19, Knowledge (religion) +11, Perception +20, Swim +15",
+    "list": {
+      "Intimidate": "+19",
+      "Perception": "+20",
+      "Swim": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "keen scent",
+    "low-light vision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Aklo",
+    "Aquan",
+    "Infernal"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 10,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Critical (bite)",
+    "Intimidating Prowess",
+    "Iron Will",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15/+10 (2d6+10/19-20 plus deadly bleeding)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "An immense gray-and-white shark glides through the water, its piercing red eyes revealing a vicious intelligence.",
+  "meta": {
+    "cmb": "+19",
+    "cmd": "31 (can’t be tripped)",
+    "racialModifiers": [
+      "Perception 5"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

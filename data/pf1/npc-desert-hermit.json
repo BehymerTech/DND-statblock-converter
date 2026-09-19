@@ -1,0 +1,110 @@
+{
+  "name": "NPC Desert Hermit",
+  "sourceSystem": "pf1",
+  "source": "Osirion, Legacy of the Pharaohs",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 18,
+    "notes": "armor +3, deflection +1, dex +3, dodge +1",
+    "touch": 15,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 80,
+    "formula": "9d8+36"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 16,
+    "con": 14,
+    "int": 10,
+    "wis": 16,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +8, Ref +6, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +15, Knowledge (nature) +14, Perception +15, Stealth +12, Survival +17",
+    "list": {
+      "Fly": "+15",
+      "Perception": "+15",
+      "Stealth": "+12",
+      "Survival": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 25,
+  "languages": [
+    "Common",
+    "Druidic",
+    "Osiriani"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 6,
+  "feats": [
+    "Combat Casting",
+    "Dodge",
+    "Iron Will",
+    "Natural Spell",
+    "Spell Focus (transmutation)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk scimitar +9/+4 (1d6+2/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "sling +9 (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This weathered-looking desert dweller is dressed from head to toe in tan, loose-fitting robes.",
+  "meta": {
+    "race": "Human",
+    "class": "druid 9",
+    "cmb": "+8",
+    "cmd": 23,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Osirion)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (+1 leather armor, mwk scimitar, sling with 10 bullets, belt of incredible dexterity +2, campfire bead, ring of protection +1, wand of cure moderate wounds [16 charges], wand of endure elements [20 charges], 40 gp)"
+      }
+    ]
+  }
+}

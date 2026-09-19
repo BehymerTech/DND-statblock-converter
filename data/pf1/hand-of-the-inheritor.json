@@ -1,0 +1,116 @@
+{
+  "name": "Hand of the Inheritor",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Gods, Pathfinder No. 26: The Sixfold Trial",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "angel, extraplanar, good, herald, lawful",
+  "alignment": "LG",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 32,
+    "notes": "dex +5, natural +14, shield +4, size -1, deflection vs. evil +4",
+    "touch": 14,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 207,
+    "formula": "18d10+108"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 150 ft. (good)"
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 21,
+    "con": 22,
+    "int": 22,
+    "wis": 24,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +17, Ref +16, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (weapons) +27, Diplomacy +15, Fly +6, Heal +16, Intimidate +27, Knowledge (arcana) +24, Knowledge (history) +24, Knowledge (nobility) +27, Knowledge (planes) +27, Knowledge (religion) +27, Perception +28, Sense Motive +28, Spellcraft +27, Swim +24",
+    "list": {
+      "Diplomacy": "+15",
+      "Fly": "+6",
+      "Heal": "+16",
+      "Intimidate": "+27",
+      "Perception": "+28",
+      "Sense Motive": "+28",
+      "Spellcraft": "+27",
+      "Swim": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 18,
+  "feats": [
+    "Cleave",
+    "Improved Initiative",
+    "Improved Shield Bash",
+    "Power Attack",
+    "Shield Master",
+    "Shield Slam",
+    "Two-Weapon Fighting",
+    "Weapon Focus (longsword)",
+    "Weapon Focus (heavy shield)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 holy longsword +23/+18/+13/+8 (2d6+9/19-20), +2/+2 heavy steel shield +27 (1d6+5 plus bull rush)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This tall angel has a halo of spinning blades, and is clad is radiant golden armor and equally radiant shield.",
+  "meta": {
+    "cmb": "+26",
+    "cmd": 41,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Heaven)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or squad (the Hand plus 2-5 astral devas)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+2 holy longsword, +2 heavy steel shield)"
+      }
+    ]
+  }
+}

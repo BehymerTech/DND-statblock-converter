@@ -1,0 +1,121 @@
+{
+  "name": "Chavazvug",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Colossal",
+  "type": "outsider",
+  "subtype": "chaotic, evil, extraplanar, qlippoth",
+  "alignment": "CE",
+  "cr": "22",
+  "level": null,
+  "xp": 614400,
+  "ac": {
+    "value": 39,
+    "notes": "deflection +4, dex +7, dodge +1, natural +25, size -8",
+    "touch": 14,
+    "flatFooted": 31
+  },
+  "hp": {
+    "average": 437,
+    "formula": "25d10+300"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 25,
+    "con": 34,
+    "int": 23,
+    "wis": 23,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +24, Ref +25, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +35, Fly +42, Intimidate +34, Knowledge (arcana) +31, Knowledge (religion) +31, Knowledge (planes) +34, Perception +34, Sense Motive +34, Spellcraft +31, Stealth +19, Survival +34, Use Magic Device +34",
+    "list": {
+      "Acrobatics": "+35",
+      "Fly": "+42",
+      "Intimidate": "+34",
+      "Perception": "+34",
+      "Sense Motive": "+34",
+      "Spellcraft": "+31",
+      "Stealth": "+19",
+      "Survival": "+34",
+      "Use Magic Device": "+34"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "detect law",
+    "tremorsense",
+    "true seeing"
+  ],
+  "passivePerception": 44,
+  "languages": [
+    "Abyssal",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 25,
+  "feats": [
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dodge",
+    "Greater Spell Penetration",
+    "Improved Critical (bite)",
+    "Improved Critical (talon)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Power Attack",
+    "Quicken Spell-Like Ability (contagious flame)",
+    "Spell Penetration",
+    "Staggering Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bites +30 (2d6+13/19-20 plus 2d6 fire and grab), 2 talons +30 (2d8+13/19-20 plus 2d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering, steaming mass of slithering entrails drags ropes of mouthed intestines below his five spidery legs.",
+  "meta": {
+    "cmb": "+46",
+    "cmd": "68 (74 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

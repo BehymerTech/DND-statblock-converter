@@ -1,0 +1,103 @@
+{
+  "name": "Accuser Devil (Zebub)",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Small",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 17,
+    "notes": "dex +4, natural +2, size +1",
+    "touch": 15,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d10+8"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 18,
+    "con": 14,
+    "int": 9,
+    "wis": 15,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +6, Ref +10, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +8, Fly +21, Knowledge (planes) +6, Perception +9, Stealth +15",
+    "list": {
+      "Bluff": "+8",
+      "Fly": "+21",
+      "Perception": "+9",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 4,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +5 (1d6 plus 1d6 acid and disease)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This childlike blasphemy conjoins the features of a plump human infant and a gigantic, gore-fattened fly.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": 17,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or swarm (3-28)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "name": "Ancient Brass Dragon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 118.",
+  "size": "Huge",
+  "type": "Fire",
+  "subtype": "Dragon",
+  "alignment": "CG",
+  "cr": null,
+  "level": "Creature 16",
+  "xp": null,
+  "ac": {
+    "value": 39,
+    "notes": ""
+  },
+  "hp": {
+    "average": 325,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 feet, burrow 40 feet, fly 150 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 20,
+    "con": 22,
+    "int": 18,
+    "wis": 18,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +30, Ref +29, Will +30",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +27 (1d20+27); __Athletics__: +31 (1d20+31); __Deception__: +27 (1d20+27); __Diplomacy__: +29 (1d20+29); __Society__: +28 (1d20+28); ",
+    "list": {
+      "Acrobatics": "+27",
+      "Athletics": "+31",
+      "Deception": "+27",
+      "Diplomacy": "+29",
+      "Society": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60, imprecise tremorsense 60"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Auran",
+    "Common",
+    "Draconic",
+    "Gnome",
+    "Halfling",
+    "Sphinx",
+    "Sylvan; speak with animals"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 90 feet, DC 35."
+    },
+    {
+      "name": "Wing Deflection",
+      "text": "⬲ Trigger The dragon is targeted with an attack. Effect The dragon raises its wing, gaining a +2 circumstance bonus to AC against the triggering attack. If the dragon is flying, it descends 10 feet after the attack is complete."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ The brass dragon breathes in one of two ways. The dragon can't use Breath Weapon again for 1d4 (1d4) rounds.<ul class='inner-bullet-list'><li>Flame (arcane, evocation, fire) The dragon breathes fire in a 100-foot line that deals 16d6 (16d6) fire damage (DC 39 basic Reflex save).</li><li>Sleep Gas (arcane, enchantment, incapacitation, sleep); The dragon breathes an 80-foot cone of sleep gas. Each creature within the cone must succeed at a DC 39 Fortitude save or fall unconscious for 1d6 (1d6) rounds, or 1 minute on a critical failure.</li></ul>"
+    },
+    {
+      "name": "Desert Wind",
+      "text": "⬺ (air, arcane, concentrate, evocation); Frequency three times per day Effect The dragon calls upon the desert wind. This has the same effect as gust of wind (DC 37 Fortitude) but in a 60-foot cone. A creature that fails its save is also blinded until the end of its next turn (or for 1 minute on a critical failure)."
+    },
+    {
+      "name": "Draconic Frenzy",
+      "text": "⬺ The dragon makes two claw Strikes and one jaws Strike in any order."
+    },
+    {
+      "name": "Draconic Momentum",
+      "text": "When the dragon scores a critical hit with a Strike, it recharges Breath Weapon."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +32 (fire, magical, reach 15 feet); Damage 3d10+15 (3d10+15) piercing plus 3d6 (3d6) fire and 2d6 (2d6) persistent fire"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +32 (agile, magical, reach 10 feet); Damage 3d10+15 (3d10+15) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      5,
+      6,
+      4,
+      4,
+      5
+    ]
+  }
+}

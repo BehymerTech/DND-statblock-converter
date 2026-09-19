@@ -1,0 +1,121 @@
+{
+  "name": "Rokyamut",
+  "sourceSystem": "pf1",
+  "source": "Concordance of Rivals",
+  "size": "Gargantuan",
+  "type": "outsider",
+  "subtype": "extraplanar, inevitable, lawful",
+  "alignment": "LN",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 34,
+    "notes": "deflection +4, natural +24, size -4",
+    "touch": 10,
+    "flatFooted": 34
+  },
+  "hp": {
+    "average": 350,
+    "formula": "20d10+240"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 40 ft. (good)"
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 11,
+    "con": 28,
+    "int": 19,
+    "wis": 22,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +21, Ref +6, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +27, Fly +21, Intimidate +29, Knowledge (arcana) +14, Knowledge (engineering) +27, Knowledge (geography) +14, Knowledge (nature) +14, Knowledge (planes) +27, Linguistics +24, Perception +29, Sense Motive +29, Spellcraft +14",
+    "list": {
+      "Appraise": "+27",
+      "Fly": "+21",
+      "Intimidate": "+29",
+      "Linguistics": "+24",
+      "Perception": "+29",
+      "Sense Motive": "+29",
+      "Spellcraft": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect chaos",
+    "detect law",
+    "detect magic",
+    "low-light vision",
+    "true seeing"
+  ],
+  "passivePerception": 39,
+  "languages": [
+    "truespeech"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 20,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Combat Expertise",
+    "Deflect Arrows",
+    "Improved Bull Rush",
+    "Improved Critical (starknife)",
+    "Lunge",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Two-Weapon Fighting",
+    "Weapon Focus (starknife)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 brilliant energy starknife +28/+23/+18/+13 (2d6+13/19-20/×3), 3 +2 brilliant energy starknives +28 (2d6+7/19-20/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+2 brilliant energy starknife +19/+14/+9/+4 (2d6+13/19-20/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Built of steel and clockwork, this massive figure has the lower body of an elephant and the upper body of a four-armed giant.",
+  "meta": {
+    "cmb": "35 (+37 bull rush)",
+    "cmd": "49 (51 vs. bull rush, 53 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Axis)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or faculty (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

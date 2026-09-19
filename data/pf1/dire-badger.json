@@ -1,0 +1,100 @@
+{
+  "name": "Dire Badger",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, natural +2",
+    "touch": 12,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 22,
+    "formula": "3d8+9"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 10 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 15,
+    "con": 17,
+    "int": 2,
+    "wis": 12,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +6, Ref +5, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Escape Artist +6, Perception +10",
+    "list": {
+      "Escape Artist": "+6",
+      "Perception": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 20,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Initiative",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +4 (1d4+2), 2 claws +4 (1d3+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A tremendous badger snarls and scrapes its wicked, shovel-like claws. Stocky muscles ripple beneath its streaked and shaggy fur.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": "16 (20 vs. trip)",
+    "racialModifiers": [
+      "Escape Artist 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or clan (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

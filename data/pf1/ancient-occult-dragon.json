@@ -1,0 +1,106 @@
+{
+  "name": "Ancient Occult Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "NG",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 38,
+    "notes": "natural +30, size -2",
+    "touch": 8,
+    "flatFooted": 38
+  },
+  "hp": {
+    "average": 270,
+    "formula": "20d12+140"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (poor)"
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 10,
+    "con": 25,
+    "int": 24,
+    "wis": 22,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +19, Ref +12, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +30, Bluff +32, Diplomacy +28, Disguise +29, Fly +15, Intimidate +28, Knowledge (arcana) +30, Knowledge (geography) +30, Knowledge (history) +30, Knowledge (planes) +30, Knowledge (religion) +30, Perception +35, Sense Motive +29",
+    "list": {
+      "Appraise": "+30",
+      "Bluff": "+32",
+      "Diplomacy": "+28",
+      "Disguise": "+29",
+      "Fly": "+15",
+      "Intimidate": "+28",
+      "Perception": "+35",
+      "Sense Motive": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "appraising sight",
+    "aura sight",
+    "dragon senses"
+  ],
+  "passivePerception": 45,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "Sylvan"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 20,
+  "feats": [
+    "Deceitful",
+    "Flyby Attack",
+    "Hover",
+    "Improved Critical (bite)",
+    "Improved Critical (claw)",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack",
+    "Skill Focus (Perception)",
+    "Snatch"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +29 (2d8+16/19-20), 2 claws +29 (2d6+11/19-20), 2 wings +27 (1d8+5), tail slap +27 (2d6+16)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+33",
+    "cmd": "43 (47 vs. trip)"
+  }
+}

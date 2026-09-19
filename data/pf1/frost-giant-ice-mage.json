@@ -1,0 +1,115 @@
+{
+  "name": "Frost Giant Ice Mage",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "cold, giant",
+  "alignment": "CE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 26,
+    "notes": "armor +2, deflection +1, natural +10, shield +4, size -1",
+    "touch": 10,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 204,
+    "formula": "14d8+6d6+120"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 11,
+    "con": 22,
+    "int": 14,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +17, Ref +8, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +12, Climb +21, Craft (alchemy) +15, Intimidate +16, Knowledge (arcana) +15, Perception +25, Spellcraft +15, Stealth +12",
+    "list": {
+      "Bluff": "+12",
+      "Climb": "+21",
+      "Intimidate": "+16",
+      "Perception": "+25",
+      "Spellcraft": "+15",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Abyssal",
+    "Auran",
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 13,
+  "feats": [
+    "Arcane Strike",
+    "Born of Frost",
+    "Chilled Rock",
+    "Combat Casting",
+    "Eschew Materials",
+    "Extend Spell",
+    "Improved Initiative",
+    "Improved Lightning Reflexes",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Skill Focus (Stealth)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk morningstar +21/+16/+11 (2d6+12)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +12 (1d8+12 plus 1d6 cold)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Frost",
+    "class": "giant sorcerer 6",
+    "cmb": "+22",
+    "cmd": 33,
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold mountains"
+      }
+    ]
+  }
+}

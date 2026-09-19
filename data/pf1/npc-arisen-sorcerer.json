@@ -1,0 +1,100 @@
+{
+  "name": "NPC Arisen Sorcerer",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LE",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 30,
+    "notes": "armor +4, deflection +4, dex +2, dodge +1, natural +9",
+    "touch": 17,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 217,
+    "formula": "20d6+145"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 14,
+    "con": 20,
+    "int": 10,
+    "wis": 12,
+    "cha": 27
+  },
+  "saves": {
+    "text": "Fort +16, Ref +11, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +10, Intimidate +21, Knowledge (arcana) +13, Knowledge (religion) +13, Perception +16, Spellcraft +13, Use Magic Device +21",
+    "list": {
+      "Fly": "+10",
+      "Intimidate": "+21",
+      "Perception": "+16",
+      "Spellcraft": "+13",
+      "Use Magic Device": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 26,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 10,
+  "feats": [
+    "Blind-Fight",
+    "Combat Casting",
+    "Dodge",
+    "Empower Spell",
+    "Eschew Materials",
+    "Great Fortitude",
+    "Greater Spell Focus (necromancy)",
+    "Improved Initiative",
+    "Iron Will",
+    "Mobility",
+    "Quicken Spell",
+    "Silent Spell",
+    "Spell Focus (necromancy)",
+    "Still Spell",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "quarterstaff +9/+4 (1d6-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "sorcerer 20",
+    "cmb": "+9",
+    "cmd": 26
+  }
+}

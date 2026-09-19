@@ -1,0 +1,114 @@
+{
+  "name": "Adult Umbral Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "extraplanar",
+  "alignment": "CE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 29,
+    "notes": "natural +21, size -2",
+    "touch": 8,
+    "flatFooted": 29
+  },
+  "hp": {
+    "average": 195,
+    "formula": "17d12+85"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (poor)"
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 10,
+    "con": 21,
+    "int": 20,
+    "wis": 21,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +15, Ref +10, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +25, Diplomacy +25, Fly +16, Knowledge (arcana) +25, Knowledge (local) +25, Knowledge (planes) +25, Perception +25, Sense Motive +25, Stealth +18, Survival +25",
+    "list": {
+      "Bluff": "+25",
+      "Diplomacy": "+25",
+      "Fly": "+16",
+      "Perception": "+25",
+      "Sense Motive": "+25",
+      "Stealth": "+18",
+      "Survival": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Draconic",
+    "Undercommon",
+    "2 more"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 17,
+  "feats": [
+    "Hover",
+    "Imp. Critical (bite)",
+    "Imp. Initiative",
+    "Imp. Vital Strike",
+    "Multiattack",
+    "Power Attack",
+    "Skill Focus (Stealth)",
+    "Snatch",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +23 (2d8+12/19-20), 2 claws +23 (2d6+8), tail slap +21 (2d6+12), 2 wings +21 (1d8+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+27",
+    "cmd": "37 (41 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

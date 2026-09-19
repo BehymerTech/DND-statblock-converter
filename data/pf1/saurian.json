@@ -1,0 +1,117 @@
+{
+  "name": "Saurian",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Huge",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 32,
+    "notes": "armor +5, dex +4, dodge +1, natural +11, shield +3, size -2",
+    "touch": 13,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 241,
+    "formula": "21d10+126"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft.,  40 ft. without armor, other_semicolon air walk ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 18,
+    "con": 23,
+    "int": 16,
+    "wis": 25,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +15, Ref +16, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (weapons) +27, Intimidate +38, Knowledge (geography) +24, Knowledge (nature) +24, Perception +31, Sense Motive +28, Survival +31",
+    "list": {
+      "Intimidate": "+38",
+      "Perception": "+31",
+      "Sense Motive": "+28",
+      "Survival": "+31"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 41,
+  "languages": [
+    "Common",
+    "Ignan",
+    "Sylvan",
+    "speak with animals"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 21,
+  "feats": [
+    "Blind-Fight",
+    "Diehard",
+    "Dodge",
+    "Endurance",
+    "Great Fortitude",
+    "Improved Critical (bite)",
+    "Improved Critical (shortspear)",
+    "Improved Initiative",
+    "Improved Shield Bash",
+    "Intimidating Prowess",
+    "Two- Weapon Fighting"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 returning shortspear +25/+20/+15/+10 (2d6+10/19-20), heavy spiked shield +24 (2d6+4), bite +23 (2d6+4/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 returning shortspear +24 (2d6+10/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature has the head, legs, and tail of a tyrannosaurus, but humanoid chest and arms.",
+  "meta": {
+    "cmb": "+32",
+    "cmd": 47,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or clan (3-12 plus 2-8 tyrannosauruses)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (+1 hide armor, +1 spiked heavy shield, +1 returning shortspear, other treasure)"
+      }
+    ]
+  }
+}

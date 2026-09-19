@@ -1,0 +1,111 @@
+{
+  "name": "Zomok",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 36: Sound of a Thousand Screams",
+  "size": "Gargantuan",
+  "type": "plant",
+  "subtype": "extraplanar",
+  "alignment": "N",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 33,
+    "notes": "natural +27, size -4",
+    "touch": 6,
+    "flatFooted": 33
+  },
+  "hp": {
+    "average": 246,
+    "formula": "17d8+170"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 100 ft. (poor), other_semicolon forest step ft."
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 11,
+    "con": 30,
+    "int": 16,
+    "wis": 22,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +20, Ref +7, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +10, Knowledge (nature) +20, Perception +26, Stealth +8, Survival +23",
+    "list": {
+      "Fly": "+10",
+      "Perception": "+26",
+      "Stealth": "+8",
+      "Survival": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Common",
+    "Sylvan",
+    "Terran"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 12,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Snatch"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +20 (2d8+12), 2 claws +20 (2d6+12), tail slap +15 (2d8+6), 2 wings +15 (2d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "At first glance, this creature resembles a dragon, but its body is entirely made of plants and soil, and it exhales clouds of dirt.",
+  "meta": {
+    "cmb": "28 (+30 sunder)",
+    "cmd": "40 (42 vs. sunder, 44 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forests (primal land of fey)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

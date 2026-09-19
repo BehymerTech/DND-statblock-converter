@@ -1,0 +1,97 @@
+{
+  "name": "Verdurous Ooze",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 35: War of the River Kings",
+  "size": "Medium",
+  "type": "ooze",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 5,
+    "notes": "dex -5",
+    "touch": 5,
+    "flatFooted": 5
+  },
+  "hp": {
+    "average": 85,
+    "formula": "9d8+54"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 1,
+    "con": 22,
+    "int": "None",
+    "wis": 1,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +9, Ref -2, Will -2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Stealth -4, Perception -5",
+    "list": {
+      "Stealth": "-4",
+      "Perception": "-5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "tremorsense"
+  ],
+  "passivePerception": 5,
+  "languages": [],
+  "initiative": "-5",
+  "babOrProficiency": 6,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +9 (1d6+4 plus 1d6 acid and grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A pool of greenish muck, blossoming with weird vegetable-like growths and sap-seeping boils, twitches into unnatural motion as a pseudopod springs outward, dragging the entire grotesque mass forward with an ameboid life.",
+  "meta": {
+    "cmb": "9 (+13 grapple)",
+    "cmd": "14 (can't be tripped)",
+    "racialModifiers": [
+      "Stealth 0"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forest or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

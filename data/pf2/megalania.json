@@ -1,0 +1,87 @@
+{
+  "name": "Megalania",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 168.",
+  "size": "Huge",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 125,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, swim 25 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 14,
+    "con": 18,
+    "int": 2,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +17, Ref +15, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +18 (1d20+18); __Stealth__: +15 (1d20+15), (Stealth: +17 (1d20+17) in undergrowth); ",
+    "list": {
+      "Athletics": "+18",
+      "Stealth": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 60"
+  ],
+  "passivePerception": 25,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Megalania Venom",
+      "text": "(poison); Saving Throw DC 25 Fortitude. Maximum Duration 6 rounds Stage 1 1d6 (1d6) poison damage and clumsy 1 (1 round) Stage 2 2d6 (2d6) poison damage, clumsy 2, and flat-footed (1 round) Stage 3 2d6 (2d6) poison damage, clumsy 3, and flat-footed (1 round)"
+    },
+    {
+      "name": "Swallow Whole",
+      "text": "(attack); Large, 2d10+7 (2d10+7) bludgeoning, Rupture 16."
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      2,
+      4,
+      -4,
+      2,
+      -2
+    ]
+  }
+}

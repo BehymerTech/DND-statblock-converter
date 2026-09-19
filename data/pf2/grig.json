@@ -1,0 +1,97 @@
+{
+  "name": "Grig",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 308.",
+  "size": "Tiny",
+  "type": "Sprite",
+  "subtype": "Fey",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 30 feet"
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 18,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +6, Ref +9, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Athletics__: +2 (1d20+2), (Athletics: +6 (1d20+6) to High Jump or Long Jump); __Performance__: +7 (1d20+7); __Stealth__: +7 (1d20+7); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Athletics": "+6",
+      "Performance": "+7",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Fiddle",
+      "text": "⬻ (auditory, emotion, enchantment, mental, primal); A grig can rub its legs together to create a catchy fiddling tune that compels others within 30 feet to dance about, with varying effects depending on a DC 18 Will save. A listener is temporarily immune for 10 minutes on a success, but otherwise, if the grig continues to Fiddle each round, the creature receives no additional saves. Success No effect. Failure Flat-footed and –10-foot status penalty to Speeds. Critical Failure As failure, and also slowed 1."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +9 (agile, finesse, magical); Damage 1d4 (1d4) –2 bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ dissonant note +9 (evocation, magical, range 30 feet, sonic); Damage 1d8 (1d8) sonic"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -2,
+      4,
+      1,
+      0,
+      2,
+      4
+    ]
+  }
+}

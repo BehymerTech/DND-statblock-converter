@@ -1,0 +1,101 @@
+{
+  "name": "Troglodyte",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Reptilian",
+  "alignment": "Usually chaotic evil",
+  "cr": "1",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "-1 Dex, +6 natural",
+    "touch": 9,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 13,
+    "formula": "2d8+4"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares)"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 9,
+    "con": 14,
+    "int": 8,
+    "wis": 10,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +5, Ref -1, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "The skin of a troglodyte changes color somewhat, allowing it to blend in with its surroundings like a chameleon and providing a +4 racial bonus on Hide checks. \\*In rocky or underground settings, this bonus improves to +8.",
+    "list": {
+      "Hide": "+5",
+      "Listen": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 90 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "-1",
+  "babOrProficiency": 1,
+  "feats": [
+    "Multiattack (B)",
+    "Weapon Focus (javelin)"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Stench"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 90 ft."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Club +1 melee (1d6) or claw +1 melee (1d4) or javelin +1 ranged (1d6)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Club +1 melee (1d6) and claw -1 melee (1d4) and bite -1 melee (1d4); or 2 claws +1 melee (1d4) and bite -1 melee (1d4); or javelin +1 ranged (1d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A troglodyte stands about 5 feet tall and weighs about 150 pounds.",
+    "grapple": "+1",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Underground",
+    "organization": "Clutch (2-5), squad (6-11 plus 1-2 monitor lizards), or band (20-80 plus 20% noncombatants plus 3-13 monitor lizards)",
+    "treasure": "50% coins; 50% goods; 50% items",
+    "advancement": "By character class",
+    "leveladjustment": "+2"
+  }
+}

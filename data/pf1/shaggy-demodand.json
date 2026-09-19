@@ -1,0 +1,122 @@
+{
+  "name": "Shaggy Demodand",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "chaotic, demodand, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 32,
+    "notes": "dex +7, natural +15",
+    "touch": 17,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 262,
+    "formula": "25d10+125"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 50 ft. (average)"
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 24,
+    "con": 21,
+    "int": 19,
+    "wis": 18,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +19, Ref +17, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +35, Bluff +28, Diplomacy +28, Fly +35, Intimidate +42, Knowledge (arcana) +23, Knowledge (planes) +15, Knowledge (religion) +15, Perception +36, Sense Motive +36, Spellcraft +29, Use Magic Device +30",
+    "list": {
+      "Acrobatics": "+35",
+      "Bluff": "+28",
+      "Diplomacy": "+28",
+      "Fly": "+35",
+      "Intimidate": "+42",
+      "Perception": "+36",
+      "Sense Motive": "+36",
+      "Spellcraft": "+29",
+      "Use Magic Device": "+30"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "detect good",
+    "detect magic",
+    "see invisibility"
+  ],
+  "passivePerception": 46,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common"
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 25,
+  "feats": [
+    "Alertness",
+    "Cleave",
+    "Combat Casting",
+    "Combat Reflexes",
+    "Empower Spell-Like Ability (cloudkill)",
+    "Flyby Attack",
+    "Great Cleave",
+    "Improved Initiative",
+    "Intimidating Prowess",
+    "Lightning Reflexes",
+    "Multiattack",
+    "Power Attack",
+    "Quicken Spell-Like Ability (ray of enfeeblement)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 unholy morningstar +36/+31/+26/+21 (1d8+11), bite +32 (2d6+4), claw +32 (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This toad-faced humanoid is bloated and swollen, with folds of obsidian skin hanging down beneath two immense bat wings.",
+  "meta": {
+    "cmb": "+34",
+    "cmd": 51,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or warband (1 shaggy demodand plus 2-5 tarry demodands)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+2 unholy morningstar, other treasure)"
+      }
+    ]
+  }
+}

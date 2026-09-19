@@ -1,0 +1,100 @@
+{
+  "name": "Giant Scorpion",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "vermin",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 16,
+    "notes": "armor +7, size -1",
+    "touch": 9,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 37,
+    "formula": "5d8+15"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 10,
+    "con": 16,
+    "int": "None",
+    "wis": 10,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +7, Ref +1, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +8, Perception +4, Stealth +0",
+    "list": {
+      "Climb": "+8",
+      "Perception": "+4",
+      "Stealth": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 14,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 3,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +6 (1d6+4 plus grab), sting +6 (1d6+4 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The sixteen-foot-long scorpion scrabbles forward, ferocious claws raised in challenge, stingered tail arched over its back.",
+  "meta": {
+    "cmb": "8 (+12 grapple)",
+    "cmd": "18 (30 vs. trip)",
+    "racialModifiers": [
+      "Climb 4",
+      "Perception 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm or temperate deserts, forests, plains, or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

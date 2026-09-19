@@ -1,0 +1,107 @@
+{
+  "name": "Fantionette",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 127: Crownfall",
+  "size": "Small",
+  "type": "outsider",
+  "subtype": "chaotic, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +4, natural +2, size +1",
+    "touch": 15,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 37,
+    "formula": "5d10+10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 19,
+    "con": 14,
+    "int": 13,
+    "wis": 15,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +3, Ref +8, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +12, Bluff +11, Climb +9, Knowledge (local) +9, Knowledge (nobility) +9, Perception +10, Sense Motive +10, Stealth +16",
+    "list": {
+      "Acrobatics": "+12",
+      "Bluff": "+11",
+      "Climb": "+9",
+      "Perception": "+10",
+      "Sense Motive": "+10",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Halfling",
+    "Undercommon"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 5,
+  "feats": [
+    "Following Step",
+    "Improved Initiative",
+    "Step Up"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +7 (1d4+1), 2 claws +7 (1d3+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "What appears at first glance to be a child or halfling has skin more akin to cracked porcelain barely covering a black, insectile carapace, and it has spiderlike legs where one would expect arms.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": 19,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss or Axis)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cast (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

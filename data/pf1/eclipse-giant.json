@@ -1,0 +1,116 @@
+{
+  "name": "Eclipse Giant",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Gargantuan",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "N",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 32,
+    "notes": "natural +26, size -4",
+    "touch": 6,
+    "flatFooted": 32
+  },
+  "hp": {
+    "average": 312,
+    "formula": "25d8+200"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 46,
+    "dex": 11,
+    "con": 27,
+    "int": 13,
+    "wis": 24,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +16, Ref +15, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +32, Knowledge (arcana) +16, Knowledge (geography) +11, Perception +41",
+    "list": {
+      "Intimidate": "+32",
+      "Perception": "+41"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "see in darkness"
+  ],
+  "passivePerception": 51,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 18,
+  "feats": [
+    "Awesome Blow",
+    "Combat Casting",
+    "Greater Bull Rush",
+    "Greater Vital Strike",
+    "Improved Bull Rush",
+    "Improved Vital Strike",
+    "Martial Weapon Proficiency (longsword)",
+    "Power Attack",
+    "Quicken Spell-Like Ability (harm)",
+    "Quicken Spell-Like Ability (heal)",
+    "Skill Focus (Perception)",
+    "Vital Strike",
+    "Weapon Focus (longsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk longsword +34/+29/+24/+19 (4d6+27/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +15 (3d6+27 plus imbue rock)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Symbolic representations of the occultation of heavenly bodies decorate the dark gray skin of this massive giant.",
+  "meta": {
+    "cmb": "40 (+44 bull rush)",
+    "cmd": "50 (52 vs. bull rush)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or family (3-5 plus 2-3 noncombatants)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk longsword, other treasure)"
+      }
+    ]
+  }
+}

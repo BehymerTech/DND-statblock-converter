@@ -1,0 +1,98 @@
+{
+  "name": "Blizzardborn",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 115.",
+  "size": "Medium",
+  "type": "Water",
+  "subtype": "Cold, Elemental",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 105,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, ice burrow 20 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": 18,
+    "int": 10,
+    "wis": 18,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +16, Ref +12, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +15 (1d20+15); __Stealth__: +14 (1d20+14), (Stealth: +16 (1d20+16) in ice or snow); ",
+    "list": {
+      "Athletics": "+15",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, snow vision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Aquan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Snow Vision",
+      "text": "The blizzardborn ignores the concealed condition from falling snow."
+    },
+    {
+      "name": "Shattering Ice",
+      "text": "⬲ Trigger An enemy hits the blizzardborn with an attack that deals physical damage Effect A portion of the blizzardborn's body shatters into an explosion of razor sharp ice crystals and blinding snow that deals 2d6 (2d6) piercing damage to opponents in a 5-foot emanation (DC 24 basic Reflex save). Anyone who fails is also blinded for 1 round (or 3 rounds on a critical failure)."
+    },
+    {
+      "name": "Ice Burrow",
+      "text": "The blizzardborn can Burrow through ice or snow with a."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ ice claw +17 (versatile bludgeoning); Damage 2d6+8 (2d6+8) slashing plus 1d6 (1d6) persistent cold"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      2,
+      4,
+      0,
+      4,
+      0
+    ]
+  }
+}

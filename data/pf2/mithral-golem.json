@@ -1,0 +1,112 @@
+{
+  "name": "Mithral Golem",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 117.",
+  "size": "Huge",
+  "type": "Mindless",
+  "subtype": "Construct, Golem",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 16",
+  "xp": null,
+  "ac": {
+    "value": 40,
+    "notes": ""
+  },
+  "hp": {
+    "average": 220,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 feet, climb 40 feet"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 22,
+    "con": 20,
+    "int": 0,
+    "wis": 10,
+    "cha": 0
+  },
+  "saves": {
+    "text": "Fort +27, Ref +30, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +30 (1d20+30); __Athletics__: +33 (1d20+33); ",
+    "list": {
+      "Acrobatics": "+30",
+      "Athletics": "+33"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 36,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Evasion",
+      "text": "When the mithral golem rolls a success on a Reflex save, it gets a critical success instead."
+    },
+    {
+      "name": "Golem Antimagic",
+      "text": "harmed by cold and water (8d10 (8d10), 2d10 (2d10) from areas and persistent damage); healed by transmutation (area 2d10 (2d10) HP); slowed by electricity."
+    },
+    {
+      "name": "Swift Steps",
+      "text": "A mithral golem is permanently quickened, and it can use the extra action only to Step or Stride."
+    },
+    {
+      "name": "Vulnerable to Slow",
+      "text": "A mithral golem is not healed by a slow spell, and such spells affect them normally. A haste spell reverses the effects of a slow spell immediately."
+    },
+    {
+      "name": "Liquefy",
+      "text": "⬻ The mithral golem becomes fully liquid and amorphous. It gains immunity to precision damage, but it takes double damage from cold and water magic (see golem antimagic). The only actions it can use while Liquefied are move actions, Spike Storm, and spike Strikes. It can resume its normal form by taking this action again."
+    },
+    {
+      "name": "Spike Storm",
+      "text": "⬽ The mithral golem makes a spike Strike against each target within its reach. These attacks count toward the mithral golem's multiple attack penalty, but its multiple attack penalty doesn't increase until after all the attacks."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +31 (agile, magical, reach 15 feet); Damage 3d12+12 (3d12+12) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ spike +31 (deadly 2d10, magical, reach 30 feet); Damage 3d10+12 (3d10+12) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      9,
+      6,
+      5,
+      -5,
+      0,
+      -5
+    ]
+  }
+}

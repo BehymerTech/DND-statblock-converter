@@ -1,0 +1,102 @@
+{
+  "name": "Adult Black Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "water",
+  "alignment": "CE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 28,
+    "notes": "dex +1, natural +18, size -1",
+    "touch": 10,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 161,
+    "formula": "14d12+70"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 200 ft. (poor), swim 60 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 12,
+    "con": 21,
+    "int": 14,
+    "wis": 17,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +14, Ref +10, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +12, Handle Animal +16, Intimidate +19, Knowledge (arcana) +19, Perception +24, Spellcraft +19, Stealth +20, Swim +32",
+    "list": {
+      "Fly": "+12",
+      "Handle Animal": "+16",
+      "Intimidate": "+19",
+      "Perception": "+24",
+      "Spellcraft": "+19",
+      "Stealth": "+20",
+      "Swim": "+32"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Giant"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 14,
+  "feats": [
+    "Alertness",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Power Attack",
+    "Skill Focus (Stealth)",
+    "Vital Strike",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +21 (2d6+10), 2 claws +20 (1d8+7), 2 wings +15 (1d6+3), tail +15 (1d8+10)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+22",
+    "cmd": "33 (37 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm marshes"
+      }
+    ]
+  }
+}

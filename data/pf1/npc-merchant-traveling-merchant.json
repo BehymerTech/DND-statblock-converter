@@ -1,0 +1,108 @@
+{
+  "name": "NPC Merchant (Traveling Merchant)",
+  "sourceSystem": "pf1",
+  "source": "GameMastery Guide",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 10,
+    "notes": "armor +1, dex -1",
+    "touch": 9,
+    "flatFooted": 10
+  },
+  "hp": {
+    "average": 31,
+    "formula": "7d8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 9,
+    "con": 10,
+    "int": 14,
+    "wis": 11,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +2, Ref +1, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +12, Bluff +14, Diplomacy +12, Disguise +6, Handle Animal +10, Intimidate +4, Knowledge (geography) +10, Knowledge (local) +10, Knowledge (nobility) +3, Linguistics +12, Perception +12, Profession (merchant) +13, Ride +6, Sense Motive +12",
+    "list": {
+      "Appraise": "+12",
+      "Bluff": "+14",
+      "Diplomacy": "+12",
+      "Disguise": "+6",
+      "Handle Animal": "+10",
+      "Intimidate": "+4",
+      "Linguistics": "+12",
+      "Perception": "+12",
+      "Ride": "+6",
+      "Sense Motive": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 22,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Elven",
+    "Giant",
+    "Gnome",
+    "Goblin",
+    "Halfling",
+    "Orc",
+    "Sylvan"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 5,
+  "feats": [
+    "Alertness",
+    "Combat Expertise",
+    "Deceitful",
+    "Persuasive",
+    "Skill Focus (Profession [merchant])"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +4 (1d4-1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk light crossbow +5 (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "expert 7",
+    "cmb": "+4",
+    "cmd": 13
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "name": "Soul Skelm",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 241.",
+  "size": "Medium",
+  "type": "Skelm",
+  "subtype": "Fiend, Humanoid",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 29,
+    "notes": ""
+  },
+  "hp": {
+    "average": 170,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 20,
+    "int": 16,
+    "wis": 20,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +19, Ref +17, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +22 (1d20+22); __Deception__: +21 (1d20+21); __Occultism__: +19 (1d20+19); __Society__: +19 (1d20+19); __Stealth__: +17 (1d20+17); ",
+    "list": {
+      "Athletics": "+22",
+      "Deception": "+21",
+      "Occultism": "+19",
+      "Society": "+19",
+      "Stealth": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Aklo",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Bully the Departed",
+      "text": "⬻ (auditory, emotion, mental, occult, enchantment); The skelm draws upon the spirit of one of his deceased victims, tormenting their soul beyond the grave. Until the end of his next turn, the soul skelm gains regeneration 15 (deactivated by force or good; page 306), and he deals an extra 1d8 (1d8) evil damage on his Strikes."
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, occult, polymorph, transmutation); The street skelm can take on the appearance of any Medium male humanoid (page 304). This doesn't change his Speed or his attack and damage bonuses with his Strikes but might change the damage type his Strikes deal."
+    },
+    {
+      "name": "Isolating Lash",
+      "text": "⬺ (illusion, occult); The soul skelm makes a melee Strike trailing a wave of shadowy illusions. The skelm is flat-footed until the start of his next turn. If the Strike is successful, the skelm increases the number of damage dice by one, and the target must attempt a DC 29 Will save. On a failure, the target becomes invisible, inaudible, and otherwise imperceptible to its allies for 4 rounds, and it likewise can't see, hear, or otherwise perceive those allies. Regardless of the outcome, the creature is temporarily immune to Isolating Lash for 24 hours."
+    },
+    {
+      "name": "Items",
+      "text": "+1 striking ghost touch spiked chain;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +22 (agile, evil, magical); Damage 2d8+12 (2d8+12) bludgeoning plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ antler +22 (evil, magical); Damage 2d12+12 (2d12+12) piercing plus Knockdown (page 305)"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ spiked chain +23 (disarm, evil, magical, trip); Damage 2d8+12 (2d8+12) slashing plus Knockdown"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      3,
+      5,
+      3,
+      5,
+      7
+    ],
+    "items": "+1 striking ghost touch spiked chain;"
+  }
+}

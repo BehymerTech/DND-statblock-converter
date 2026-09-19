@@ -1,0 +1,113 @@
+{
+  "name": "Dune Strider",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Monster Codex",
+  "size": "Large",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 25,
+    "notes": "armor +3, dex +4, dodge +1, natural +8, size -1",
+    "touch": 14,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 152,
+    "formula": "10d10+3d10+81"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 19,
+    "con": 23,
+    "int": 10,
+    "wis": 18,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +12, Ref +14, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +20, Craft (weapons) +8, Knowledge (history) +8, Knowledge (nature) +7, Perception +24, Sense Motive +9, Stealth +19, Survival +20",
+    "list": {
+      "Climb": "+20",
+      "Perception": "+24",
+      "Sense Motive": "+9",
+      "Stealth": "+19",
+      "Survival": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Common",
+    "Girtablilu"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 13,
+  "feats": [
+    "Deadly Aim",
+    "Dodge",
+    "Endurance",
+    "Far Shot",
+    "Improved Initiative",
+    "Mobility",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Shot on the Run"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk falchion +17/+12/+7 (2d4+6/18-20), 2 claws +11 (1d6+2 plus grab), sting +11 (1d6+2 plus poison)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 composite longbow +17/+12/+7 (1d8+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Sprightly despite his bulk and swathed in layers of cloth against the relentless sun, this hunter has a wicked bow and a scorpion-like lower body.",
+  "meta": {
+    "race": "Girtablilu",
+    "class": "ranger 3 (Pathfinder RPG Bestiary 3 130)",
+    "cmb": "18 (+22 grapple)",
+    "cmd": "33 (45 vs. trip)",
+    "racialModifiers": [
+      "Climb 4",
+      "Perception 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts"
+      }
+    ]
+  }
+}

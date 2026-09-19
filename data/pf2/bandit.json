@@ -1,0 +1,118 @@
+{
+  "name": "Bandit",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 209.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 30,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +7, Ref +9, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +6 (1d20+6); __Deception__: +5 (1d20+5); __Intimidation__: +6 (1d20+6); __Stealth__: +8 (1d20+8); __Survival__: +6 (1d20+6); __Thievery__: +8 (1d20+8); __Forest lore__: +4 (1d20+4); ",
+    "list": {
+      "Athletics": "+6",
+      "Deception": "+5",
+      "Intimidation": "+6",
+      "Stealth": "+8",
+      "Survival": "+6",
+      "Thievery": "+8",
+      "Forest lore": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 16,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Survival",
+      "text": "+6, Thievery +8 Str +3, Dex +3, Con +1, Int +0, Wis +2, Cha +1 Items hatchet, sling (10 bullets), studded leather armor."
+    },
+    {
+      "name": "Items",
+      "text": "hatchet, sling (10 bullets), studded leather armor;"
+    },
+    {
+      "name": "Bandit's Ambush",
+      "text": "When the bandit rolls initiative using Deception or Stealth, they can attempt to Demoralize one creature as a free action."
+    },
+    {
+      "name": "Dread Striker",
+      "text": "Frightened creatures are flat-footed to the bandit."
+    },
+    {
+      "name": "Favored Terrain",
+      "text": "The bandit ignores the effects of non-magical difficult terrain in forests."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ hatchet +9 (agile, sweep); Damage 1d6+5 (1d6+5) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ sling +9 (propulsive, range increment 50 feet, reload 1); Damage 1d6+3 (1d6+3) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ hatchet +9 (agile, sweep, thrown 10 feet); Damage 1d6+5 (1d6+5) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      3,
+      1,
+      0,
+      2,
+      1
+    ],
+    "items": "hatchet, sling (10 bullets), studded leather armor;"
+  }
+}

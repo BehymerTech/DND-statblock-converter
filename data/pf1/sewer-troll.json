@@ -1,0 +1,106 @@
+{
+  "name": "Sewer Troll",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "CE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, natural +2",
+    "touch": 12,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d8+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 14,
+    "con": 15,
+    "int": 6,
+    "wis": 9,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +5, Ref +3, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +9, Escape Artist +4, Perception +4, Stealth +5",
+    "list": {
+      "Climb": "+9",
+      "Escape Artist": "+4",
+      "Perception": "+4",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Giant"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Initiative",
+    "Stealthy"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +3 (1d6+1), 2 claws +3 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature looks like a lanky, underfed troll. Its oversized claws drag along the ground, and its large eyes glow with inner light.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": 15,
+    "racialModifiers": [
+      "Climb 8",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or gang (2-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

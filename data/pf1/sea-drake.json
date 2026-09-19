@@ -1,0 +1,105 @@
+{
+  "name": "Sea Drake",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "aquatic",
+  "alignment": "NE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex +2, natural +8, size -1",
+    "touch": 11,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 73,
+    "formula": "7d12+28"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 60 ft. (average), swim 60 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 15,
+    "con": 18,
+    "int": 8,
+    "wis": 10,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +9, Ref +9, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +10, Intimidate +9, Perception +10, Stealth +11, Swim +24",
+    "list": {
+      "Fly": "+10",
+      "Intimidate": "+9",
+      "Perception": "+10",
+      "Stealth": "+11",
+      "Swim": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 7,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Skill Focus (Stealth)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +12 (1d8+6 plus 1d6 electricity), tail slap +7 (1d8+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Not quite sea serpent or dragon, this vicious beast is covered with shiny blue-green scales. Its arms serve as both wings and flippers.",
+  "meta": {
+    "cmb": "+14",
+    "cmd": 26,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any coastlines"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or rampage (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

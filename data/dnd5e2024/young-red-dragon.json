@@ -1,0 +1,86 @@
+{
+  "name": "Young Red Dragon",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Large",
+  "type": "Dragon",
+  "subtype": "Chromatic",
+  "alignment": "Chaotic Evil",
+  "cr": "10",
+  "level": null,
+  "xp": 5900,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 178,
+    "formula": "17d10 + 85"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": 80,
+    "swim": null,
+    "climb": 40,
+    "burrow": null,
+    "notes": "40 ft., Climb 40 ft., Fly 80 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 10,
+    "con": 21,
+    "int": 14,
+    "wis": 11,
+    "cha": 19
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +8, Stealth +4",
+    "list": {
+      "Perception": "+8",
+      "Stealth": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Blindsight 30 ft.",
+    "Darkvision 120 ft."
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+4 (14)",
+  "babOrProficiency": 4,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks."
+    },
+    {
+      "name": "Rend",
+      "text": "_Melee Attack Roll:_ +10, reach 10 ft. _Hit:_ 13 (2d6 + 6) Slashing damage plus 3 (1d6) Fire damage."
+    },
+    {
+      "name": "Fire Breath (Recharge 5–6)",
+      "text": "_Dexterity Saving Throw:_ DC 17, each creature in a 30-foot Cone. _Failure:_ 56 (16d6) Fire damage. _Success:_ Half damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

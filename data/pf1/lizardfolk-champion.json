@@ -1,0 +1,105 @@
+{
+  "name": "Lizardfolk Champion",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "reptilian",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 27,
+    "notes": "armor +9, natural +5, shield +3",
+    "touch": 10,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 100,
+    "formula": "2d8+9d10+42"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 15 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 10,
+    "con": 17,
+    "int": 7,
+    "wis": 12,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +12, Ref +3, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +13, Ride +5, Swim +11",
+    "list": {
+      "Perception": "+13",
+      "Ride": "+5",
+      "Swim": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 23,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 10,
+  "feats": [
+    "Duck and Cover",
+    "Improved Critical (lance)",
+    "Improved Natural Attack (claw)",
+    "Mounted Combat",
+    "Power Attack",
+    "Ride-By Attack",
+    "Shield Wall",
+    "Trample",
+    "Weapon Focus (lance)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 lance +17/+12 (1d8+8/19-20/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "javelin +10 (1d6+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Lizardfolk",
+    "class": "cavalier 9",
+    "cmb": "+15",
+    "cmd": 25,
+    "racialModifiers": [
+      "Acrobatics 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate swamps"
+      }
+    ]
+  }
+}

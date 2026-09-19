@@ -1,0 +1,100 @@
+{
+  "name": "NPC Sacred Guardian",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "gnome",
+  "alignment": "N",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 24,
+    "notes": "armor +7, deflection +2, dex +2, dodge +1, natural +1, size +1",
+    "touch": 16,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 129,
+    "formula": "14d8+63"
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 14,
+    "con": 18,
+    "int": 13,
+    "wis": 22,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +16, Ref +9, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (armor) +3, Craft (jewelry) +6, Diplomacy +9, Heal +15, Knowledge (arcana) +6, Knowledge (history) +6, Knowledge (nobility) +6, Knowledge (local) +3, Knowledge (religion) +10, Perception +22, Sense Motive +12, Spellcraft +8",
+    "list": {
+      "Diplomacy": "+9",
+      "Heal": "+15",
+      "Perception": "+22",
+      "Sense Motive": "+12",
+      "Spellcraft": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Common",
+    "Gnome",
+    "Sylvan"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 10,
+  "feats": [
+    "Combat Casting",
+    "Dodge",
+    "Extra Channel",
+    "Improved Channel",
+    "Improved Initiative",
+    "Selective Channeling",
+    "Turn Undead"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk glaive +11/+6 (1d8-1/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk light crossbow +14 (1d6/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Gnome",
+    "class": "cleric of Shelyn 14",
+    "cmb": "+8",
+    "cmd": 23
+  }
+}

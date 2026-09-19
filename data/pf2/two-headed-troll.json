@@ -1,0 +1,119 @@
+{
+  "name": "Two-headed Troll",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 266.",
+  "size": "Large",
+  "type": "Troll",
+  "subtype": "Giant",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 190,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 12,
+    "con": 22,
+    "int": 6,
+    "wis": 18,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +20, Ref +15, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +18 (1d20+18); __Intimidation__: +17 (1d20+17); ",
+    "list": {
+      "Athletics": "+18",
+      "Intimidation": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Independent Brains",
+      "text": "Each of a two-headed troll's heads rolls their own initiative and has their own turn. Neither head can Delay. At the start of a head's turn, that head gets 2 actions and 1 reaction. Each brain controls one of the troll's arms, but both can move the legs. Any ability that would sever a two-headed troll's head (such as the vorpal weapon property) doesn't cause the two-headed troll to die if they still have their other head, but does cause them to lose the turns, actions, and reactions of the severed head. Mental effects that target a single creature affect only one of the troll's heads."
+    },
+    {
+      "name": "Items",
+      "text": "club;"
+    },
+    {
+      "name": "Head Regrowth",
+      "text": "A two-headed troll's regeneration can regrow a severed head. After regaining Hit Points from regeneration, the two-headed troll attempts a DC 10 flat check. On a success, the missing head is fully restored. If a two-headed troll loses their last remaining head, they die immediately."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Reactive Chomp",
+      "text": "⬻ Requirements One of the troll's heads hit the same enemy with two consecutive claw Strikes in the same round Effect The other head uses their reaction to make a jaws Strike against the creature that was hit."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +18 (reach 10 feet); Damage 2d12+8 (2d12+8) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +18 (agile, reach 10 feet); Damage 2d8+8 (2d8+8) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ club +18 (reach 10 feet); Damage 2d6+8 (2d6+8) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ club +13 (thrown 10 feet); Damage 2d6+8 (2d6+8) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      1,
+      6,
+      -2,
+      4,
+      3
+    ],
+    "items": "club;"
+  }
+}

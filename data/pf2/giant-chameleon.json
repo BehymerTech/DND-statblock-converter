@@ -1,0 +1,87 @@
+{
+  "name": "Giant Chameleon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 168.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 60,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, climb 20 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 16,
+    "con": 12,
+    "int": 2,
+    "wis": 16,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +8, Ref +12, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +10 (1d20+10); __Stealth__: +10 (1d20+10), (Stealth: +13 (1d20+13) to Hide); ",
+    "list": {
+      "Athletics": "+10",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Camouflage",
+      "text": "The giant chameleon can change its coloration to match its surroundings. It doesn't need cover to attempt to Hide with a Stealth check."
+    },
+    {
+      "name": "Tongue Grab",
+      "text": "If the giant chameleon hits a creature with a tongue Strike, that creature becomes grabbed by the giant chameleon. The target isn't immobilized, but it can't move beyond the reach of the giant chameleon's tongue. A creature can sever the tongue with an attack that hits AC 15 and deals at least 4 slashing damage. Though this doesn't deal any damage to the giant chameleon, it prevents it from using its tongue Strike until it regrows its tongue, which takes a week."
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      3,
+      1,
+      -4,
+      3,
+      -2
+    ]
+  }
+}

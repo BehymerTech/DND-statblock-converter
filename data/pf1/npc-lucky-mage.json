@@ -1,0 +1,100 @@
+{
+  "name": "NPC Lucky Mage",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "halfling",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 21,
+    "notes": "armor +4, deflection +1, dex +3, dodge +1, natural +1, size +1",
+    "touch": 16,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 63,
+    "formula": "11d6+22"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 16,
+    "con": 12,
+    "int": 13,
+    "wis": 10,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +9, Ref +11, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +5, Bluff +13, Climb +0, Fly +9, Knowledge (arcana) +9, Knowledge (history) +9, Perception +13, Spellcraft +10",
+    "list": {
+      "Acrobatics": "+5",
+      "Bluff": "+13",
+      "Climb": "+0",
+      "Fly": "+9",
+      "Perception": "+13",
+      "Spellcraft": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 23,
+  "languages": [
+    "Common",
+    "Gnome",
+    "Halfling"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 5,
+  "feats": [
+    "Combat Casting",
+    "Combat Expertise",
+    "Defensive Combat Training",
+    "Dodge",
+    "Eschew Materials",
+    "Great Fortitude",
+    "Lightning Reflexes",
+    "Mobility"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk longspear +5 (1d6-2/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk light crossbow +10 (1d6/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Halfling",
+    "class": "sorcerer 11",
+    "cmb": "+2",
+    "cmd": 23
+  }
+}

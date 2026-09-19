@@ -1,0 +1,104 @@
+{
+  "name": "Keeper of the Yellow Sign",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 110: The Thrushmoor Terror",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 17,
+    "notes": "dex +2, natural +5",
+    "touch": 12,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 66,
+    "formula": "7d8+35"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 15,
+    "con": "None",
+    "int": 13,
+    "wis": 10,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +8, Ref +4, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +11, Intimidate +14, Knowledge (arcana) +8, Knowledge (religion) +8, Perception +10, Sense Motive +7, Stealth +12",
+    "list": {
+      "Climb": "+11",
+      "Intimidate": "+14",
+      "Perception": "+10",
+      "Sense Motive": "+7",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Aklo",
+    "Common"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 5,
+  "feats": [
+    "Great Fortitude",
+    "Improved Initiative",
+    "Toughness",
+    "Weapon Focus (slams)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +12 (1d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This black-clad figure has a pale, puffy face from which its yellow-irised eyes glare with equal parts intensity and insanity.",
+  "meta": {
+    "cmb": "+11",
+    "cmd": 23,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cult (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

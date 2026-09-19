@@ -1,0 +1,95 @@
+{
+  "name": "Dhirgiska",
+  "sourceSystem": "pf1",
+  "source": "Mythical Monsters Revisited",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 22,
+    "notes": "dex +2, natural +12, size -2",
+    "touch": 10,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 138,
+    "formula": "12d10+72"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 14,
+    "con": 20,
+    "int": 2,
+    "wis": 13,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +15, Ref +12, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +12, Swim +21",
+    "list": {
+      "Perception": "+12",
+      "Swim": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 22,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 12,
+  "feats": [
+    "Combat Reflexes",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Improved Natural Attack (bite)",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Toughness",
+    "Snatch"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "12 bites +14 (1d8+4 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This massive hydra has black and green scales, and caustic purple venom drips from its numerous sets of fangs.",
+  "meta": {
+    "race": "Miasma",
+    "class": "hydra",
+    "cmb": "+18",
+    "cmd": "30 (34 vs. trip)",
+    "racialModifiers": [
+      "Perception 2"
+    ]
+  }
+}

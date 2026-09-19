@@ -1,0 +1,117 @@
+{
+  "name": "Kabandha",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "LN",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 25,
+    "notes": "armor +6, dex +3, natural +7, size -1",
+    "touch": 12,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 119,
+    "formula": "14d8+56"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 17,
+    "con": 18,
+    "int": 10,
+    "wis": 14,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +13, Ref +9, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +9, Perception +20, Profession (soldier) +8, Sense Motive +9, Stealth +1, Survival +10",
+    "list": {
+      "Intimidate": "+9",
+      "Perception": "+20",
+      "Sense Motive": "+9",
+      "Stealth": "+1",
+      "Survival": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "see invisibility"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Common",
+    "Cyclops",
+    "Giant"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 10,
+  "feats": [
+    "Alertness",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +19 (1d6+10), bite +19 (1d8+10)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +13 (1d8+15)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This tall giant has no head; instead, its one-eyed face rests in the center of its broad chest.",
+  "meta": {
+    "cmb": "+21",
+    "cmd": 34,
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, patrol (2-5), company (6-20)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (greatclub, mwk breastplate, other treasure)"
+      }
+    ]
+  }
+}

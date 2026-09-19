@@ -1,0 +1,100 @@
+{
+  "name": "Digmaul",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Medium",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 16,
+    "notes": "dex +5, natural +1",
+    "touch": 15,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 32,
+    "formula": "5d8+10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 20,
+    "con": 15,
+    "int": 2,
+    "wis": 13,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +6, Ref +9, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +9, Climb +12, Perception +5, Stealth +14",
+    "list": {
+      "Acrobatics": "+9",
+      "Climb": "+12",
+      "Perception": "+5",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 15,
+  "languages": [],
+  "initiative": "+9",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Skill Focus (Stealth)",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d6+4), 2 claws +8 (1d4+4), tail +3 (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This muscular, cougarlike cat has fearsome teeth and a thick tail ending in a spiked ball.",
+  "meta": {
+    "cmb": "+7",
+    "cmd": "22 (26 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

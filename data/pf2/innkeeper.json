@@ -1,0 +1,108 @@
+{
+  "name": "Innkeeper",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 239.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 14,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 10,
+    "con": 12,
+    "int": 14,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +6, Ref +3, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Deception__: +6 (1d20+6); __Diplomacy__: +8 (1d20+8); __Society__: +7 (1d20+7); __Accounting lore__: +5 (1d20+5); __Cooking lore__: +5 (1d20+5); ",
+    "list": {
+      "Deception": "+6",
+      "Diplomacy": "+8",
+      "Society": "+7",
+      "Accounting lore": "+5",
+      "Cooking lore": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 17,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Font of Gossip",
+      "text": "The inkeeper's business gives them insight into the neighborhood's happenings. When Gathering Information, a person can gain as much information chatting with the innkeeper for 30 minutes to an hour as they would gain from 2 hours spent canvassing the neighborhood. Each person can learn gossip from an innkeeper only once per day, and only if the innkeeper is friendly or helpful to that individual. Whatever information the innkeeper knows about a given topic doesn't change if someone else asks the innkeeper about that topic, unless the innkeeper has since learned more."
+    },
+    {
+      "name": "Items",
+      "text": "broom (functions as staff), innkeeper's apron (functions as leather armor), ledger;"
+    },
+    {
+      "name": "Home Turf",
+      "text": "An innkeeper gains a +2 circumstance bonus to attack rolls, damage rolls, and AC within their inn."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ broom +7 (two-hand d8); Damage 1d4+2 (1d4+2) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +7 (agile, nonlethal); Damage 1d4+2 (1d4+2) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ ledger +5 (nonlethal, thrown 10 feet); Damage 1d4+2 (1d4+2) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      0,
+      1,
+      2,
+      2,
+      3
+    ],
+    "items": "broom (functions as staff), innkeeper's apron (functions as leather armor), ledger;"
+  }
+}

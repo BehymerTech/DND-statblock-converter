@@ -1,0 +1,105 @@
+{
+  "name": "Star Monarch",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Bestiary",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "CG",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 22,
+    "notes": "dex +6, dodge +1, natural +7, size -2",
+    "touch": 15,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 114,
+    "formula": "12d10+48"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 80 ft. (average), other_semicolon starflight ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 23,
+    "con": 18,
+    "int": 11,
+    "wis": 17,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +12, Ref +14, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +14, Perception +16, Sense Motive +12",
+    "list": {
+      "Fly": "+14",
+      "Perception": "+16",
+      "Sense Motive": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Common (can’t speak)",
+    "telepathy touch"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 12,
+  "feats": [
+    "Alertness",
+    "Dodge",
+    "Flyby Attack",
+    "Hover",
+    "Improved Initiative",
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +14 (1d8+4 plus grab), tail +14 (2d6+4 nonlethal)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This brilliantly colored moth rises taller than a house. A long tail resembling peacock feathers trails behind the creature.",
+  "meta": {
+    "cmb": "18 (+22 grapple)",
+    "cmd": "35 (43 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Varisia)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or rabble (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

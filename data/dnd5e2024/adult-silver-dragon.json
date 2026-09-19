@@ -1,0 +1,117 @@
+{
+  "name": "Adult Silver Dragon",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Huge",
+  "type": "Dragon",
+  "subtype": "Metallic",
+  "alignment": "Lawful Good",
+  "cr": "16",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 216,
+    "formula": "16d12 + 112"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": 80,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., Fly 80 ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 10,
+    "con": 25,
+    "int": 16,
+    "wis": 13,
+    "cha": 22
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "History +8, Perception +11, Stealth +5",
+    "list": {
+      "History": "+8",
+      "Perception": "+11",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Blindsight 60 ft.",
+    "Darkvision 120 ft."
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+10 (20)",
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks. It can replace one attack with a use of (A) Paralyzing Breath or (B) Spellcasting to cast _Ice Knife_."
+    },
+    {
+      "name": "Rend",
+      "text": "_Melee Attack Roll:_ +13, reach 10 ft. _Hit:_ 17 (2d8 + 8) Slashing damage plus 4 (1d8) Cold damage."
+    },
+    {
+      "name": "Cold Breath (Recharge 5–6)",
+      "text": "_Constitution Saving Throw:_ DC 20, each creature in a 60-foot Cone. _Failure:_ 54 (12d8) Cold damage. _Success:_ Half damage."
+    },
+    {
+      "name": "Paralyzing Breath",
+      "text": "_Constitution Saving Throw:_ DC 20, each creature in a 60-foot Cone. _First Failure:_ The target has the Incapacitated condition until the end of its next turn, when it repeats the save. _Second Failure:_ The target has the Paralyzed condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 19, +11 to hit with spell attacks):<br> &emsp;**At Will:** _Detect Magic_, _Hold Monster_, _Ice Knife_, _Shapechange_ (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell) <br> &emsp;**1/Day Each:** _Ice Storm_ (level 5 version), _Zone of Truth_"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [
+    {
+      "name": "",
+      "text": "_Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns._"
+    },
+    {
+      "name": "Chill",
+      "text": "The dragon uses Spellcasting to cast _Hold Monster_. The dragon can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Cold Gale",
+      "text": "_Dexterity Saving Throw:_ DC 19, each creature in a 60-foot-long, 10-foot-wide Line. _Failure:_ 14 (4d6) Cold damage, and the target is pushed up to 30 feet straight away from the dragon. _Success:_ Half damage only. _Failure or Success:_ The dragon can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Pounce",
+      "text": "The dragon moves up to half its Speed, and it makes one Rend attack."
+    }
+  ],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

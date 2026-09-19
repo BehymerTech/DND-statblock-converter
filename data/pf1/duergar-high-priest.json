@@ -1,0 +1,103 @@
+{
+  "name": "Duergar High Priest",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "alignment": "LE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 31,
+    "notes": "armor +9, deflection +4, natural +8",
+    "touch": 14,
+    "flatFooted": 31
+  },
+  "hp": {
+    "average": 101,
+    "formula": "13d8+39"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., other_semicolon freedom of movement ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 10,
+    "con": 14,
+    "int": 8,
+    "wis": 20,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +10, Ref +4, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (religion) +8, Perception +18, Spellcraft +9",
+    "list": {
+      "Perception": "+18",
+      "Spellcraft": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Undercommon"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Casting",
+    "Gray Dwarf Magic (ironskin)",
+    "Giant Steps",
+    "Innate Flexibility",
+    "Tough as Iron",
+    "Toughness",
+    "Weapon Focus (heavy mace)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 heavy mace +12/+7 (1d8+2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk light crossbow +10 (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Duergar",
+    "class": "cleric 13",
+    "cmb": "+10",
+    "cmd": "21 (25 vs. bull rush or trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      }
+    ]
+  }
+}

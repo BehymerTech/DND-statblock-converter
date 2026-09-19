@@ -1,0 +1,118 @@
+{
+  "name": "Bastion Archon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 25.",
+  "size": "Huge",
+  "type": "Celestial",
+  "subtype": "Archon",
+  "alignment": "LG",
+  "cr": null,
+  "level": "Creature 20",
+  "xp": null,
+  "ac": {
+    "value": 47,
+    "notes": ""
+  },
+  "hp": {
+    "average": 280,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 70,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "70 feet; air walk;"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 24,
+    "con": 30,
+    "int": 22,
+    "wis": 26,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +38, Ref +31, Will +34",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +38 (1d20+38); __Diplomacy__: +34 (1d20+34); __Intimidation__: +34 (1d20+34); __Religion__: +32 (1d20+32); ",
+    "list": {
+      "Athletics": "+38",
+      "Diplomacy": "+34",
+      "Intimidation": "+34",
+      "Religion": "+32"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, true seeing"
+  ],
+  "passivePerception": 47,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal; tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Bastion Aura",
+      "text": "(aura, divine, good, healing, necromancy); 50 feet. All good-aligned creatures in the aura have fast healing 30 for as long as they remain in range, and they gain a +2 status bonus to attack rolls and damage rolls."
+    },
+    {
+      "name": "Ultimate Sacrifice",
+      "text": "(divine, good, healing, necromancy); If the bastion archon is slain by an evil creature, it explodes in a geyser of holy light, restoring 140 HP to all good-aligned creatures in a 40-foot emanation. The ground in the affected area is also subjected to a level 10 consecrate ritual, and the ground is consecrated for 10 years (or only 24 hours if the ultimate sacrifice took place in Hell, Abaddon, or the Abyss)."
+    },
+    {
+      "name": "Retributive Strike",
+      "text": "⬲"
+    },
+    {
+      "name": "Archon's Door",
+      "text": "Once per day, if an archon sees another creature cast dimension door, the archon can use dimension door (heightened to 5th level) within 1 round to attempt to follow that creature to the maximum distance of the archon's dimension door. If the archon's dimension door has enough distance, the archon appears the same distance and direction from the creature as before either creature used dimension door."
+    },
+    {
+      "name": "Blinding Beams",
+      "text": "⭓ Trigger The bastion archon hits a creature with two fist Strikes this turn and can use its Holy Beam; Effect The bastion archon fires its Holy Beam at only the creature it hit twice. The creature's save result is one degree of success worse than the result it rolled."
+    },
+    {
+      "name": "Entrench",
+      "text": "⬻ The bastion archon locks itself in place, becoming voluntarily immobilized. While Entrenched, the archon can't be forcibly moved or tripped, and it gains a +2 circumstance bonus to AC and Reflex saves. Entrench ends automatically as soon as the bastion archon uses another move action."
+    },
+    {
+      "name": "Holy Beam",
+      "text": "⬺ (divine, good, incapacitation, light); The bastion archon releases a blinding beam of holy light in a 500-foot line that deals 20d6 (20d6) good damage to non-archons in the area, with a DC 38 Reflex save. The bastion archon can't use Holy Beam again for 1d4 (1d4) rounds. Critical Success The creature is unaffected. Success The creature takes half damage. Failure The creature takes full damage and is blinded for 1d4 (1d4) rounds. Critical Failure The creature takes double damage and is blinded permanently."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +40 (good, lawful, magical, reach 15 feet); Damage 4d8+20 (4d8+20) bludgeoning plus 2d6 (2d6) good"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      10,
+      7,
+      10,
+      6,
+      8,
+      6
+    ]
+  }
+}

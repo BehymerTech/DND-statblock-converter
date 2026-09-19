@@ -1,0 +1,105 @@
+{
+  "name": "NPC Ice Mage",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf, human",
+  "alignment": "NE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 21,
+    "notes": "armor +4, deflection +2, dex +2, dodge +1, natural +2",
+    "touch": 15,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 79,
+    "formula": "14d6+28"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 15,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +6, Ref +6, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +11, Fly +11, Knowledge (arcana) +8, Knowledge (planes) +8, Linguistics +1, Perception +19, Spellcraft +8, Swim +4",
+    "list": {
+      "Diplomacy": "+11",
+      "Fly": "+11",
+      "Linguistics": "+1",
+      "Perception": "+19",
+      "Spellcraft": "+8",
+      "Swim": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Aquan",
+    "Common",
+    "Elven"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 7,
+  "feats": [
+    "Combat Casting",
+    "Dodge",
+    "Empower Spell",
+    "Eschew Materials",
+    "Greater Spell Focus (evocation)",
+    "Improved Initiative",
+    "Iron Will",
+    "Nimble Moves",
+    "Silent Spell",
+    "Skill Focus (Perception)",
+    "Spell Focus (evocation)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk spear +7/+2 (1d8-1/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk light crossbow +10 (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-elf",
+    "class": "sorcerer 14",
+    "cmb": "+6",
+    "cmd": 21
+  }
+}

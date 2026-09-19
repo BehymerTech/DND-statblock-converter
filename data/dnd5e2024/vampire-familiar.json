@@ -1,0 +1,91 @@
+{
+  "name": "Vampire Familiar",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "or Small Humanoid",
+  "subtype": "",
+  "alignment": "Neutral Evil",
+  "cr": "3",
+  "level": null,
+  "xp": 700,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 65,
+    "formula": "10d8 + 20"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": 30,
+    "burrow": null,
+    "notes": "30 ft., Climb 30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 16,
+    "con": 15,
+    "int": 10,
+    "wis": 10,
+    "cha": 14
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +4, Persuasion +4, Stealth +7",
+    "list": {
+      "Perception": "+4",
+      "Persuasion": "+4",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Common plus one other language"
+  ],
+  "initiative": "+5 (15)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Vampiric Connection",
+      "text": "While the familiar and its vampire master are on the same plane of existence, the vampire can communicate with the familiar telepathically, and the vampire can perceive through the familiar's senses."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The familiar makes two Umbral Dagger attacks."
+    },
+    {
+      "name": "Umbral Dagger",
+      "text": "_Melee or Ranged Attack Roll:_ +5, reach 5 ft. or range 20/60 ft. _Hit:_ 5 (1d4 + 3) Piercing damage plus 7 (3d4) Necrotic damage. If the target is reduced to 0 Hit Points by this attack, the target becomes Stable but has the Poisoned condition for 1 hour. While it has the Poisoned condition, the target has the Paralyzed condition."
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Deathless Agility",
+      "text": "The familiar takes the Dash or Disengage action."
+    }
+  ],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

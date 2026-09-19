@@ -1,0 +1,104 @@
+{
+  "name": "Dire Crocodile",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Gargantuan",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 21,
+    "notes": "natural +15, size -4",
+    "touch": 6,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 138,
+    "formula": "12d8+84"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., other_semicolon sprint ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 37,
+    "dex": 10,
+    "con": 25,
+    "int": 1,
+    "wis": 14,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +15, Ref +8, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +14, Stealth +0, Swim +21",
+    "list": {
+      "Perception": "+14",
+      "Stealth": "+0",
+      "Swim": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 24,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 9,
+  "feats": [
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Iron Will",
+    "Run",
+    "Skill Focus (Perception)",
+    "Skill Focus (Stealth)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +18 (3d6+13/19-20 plus grab), tail slap +13 (4d8+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This reptilian behemoth, a crocodile of monstrous proportions, is large enough to swallow a horse in one tremendous bite.",
+  "meta": {
+    "cmb": "26 (+30 grapple)",
+    "cmd": "36 (40 vs. trip)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm rivers and marshes"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or colony (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

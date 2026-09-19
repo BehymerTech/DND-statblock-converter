@@ -1,0 +1,127 @@
+{
+  "name": "Hastur",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": "chaotic, evil, Great Old One",
+  "alignment": "CE",
+  "cr": "29",
+  "level": null,
+  "xp": 6553600,
+  "ac": {
+    "value": 48,
+    "notes": "dex +16, dodge +1, insight +10, natural +11",
+    "touch": 37,
+    "flatFooted": 31
+  },
+  "hp": {
+    "average": 731,
+    "formula": "34d8+578"
+  },
+  "speed": {
+    "walk": 80,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "80 ft., other_semicolon air walk ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 43,
+    "con": 44,
+    "int": 35,
+    "wis": 31,
+    "cha": 36
+  },
+  "saves": {
+    "text": "Fort +28, Ref +27, Will +29",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +53, Bluff +47, Disguise +47, Intimidate +50, Knowledge (arcana) +46, Knowledge (geography) +46, Knowledge (history) +46, Knowledge (local) +46, Knowledge (nobility) +49, Perception +47, Perform (act) +47, Sense Motive +44, Sleight of Hand +50, Spellcraft +49, Stealth +53, Use Magic Device +47",
+    "list": {
+      "Acrobatics": "+53",
+      "Bluff": "+47",
+      "Disguise": "+47",
+      "Intimidate": "+50",
+      "Perception": "+47",
+      "Sense Motive": "+44",
+      "Sleight of Hand": "+50",
+      "Spellcraft": "+49",
+      "Stealth": "+53",
+      "Use Magic Device": "+47"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 57,
+  "languages": [
+    "Aklo",
+    "telepathy 100 ft.",
+    "tongues"
+  ],
+  "initiative": "+26",
+  "babOrProficiency": 25,
+  "feats": [
+    "Agile Maneuvers",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dodge",
+    "Greater Feint",
+    "Greater Vital Strike",
+    "Improved Critical (tattered lash)",
+    "Improved Feint",
+    "Improved Vital Strike",
+    "Mobility",
+    "Quicken Spell-Like Ability (feeblemind)",
+    "Spring Attack",
+    "Staggering Critical",
+    "Vital Strike",
+    "Weapon Finesse",
+    "Whirlwind Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 tattered lash +41 (2d8+7 plus bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This entity appears to be a skeletal human form hidden under tattered yellow robes, but it moves with unsettling, inhuman grace.",
+  "meta": {
+    "cmb": "+41",
+    "cmd": "69 (can’t be tripped)",
+    "racialModifiers": [
+      "Acrobatics 20"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

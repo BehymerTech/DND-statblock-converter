@@ -1,0 +1,118 @@
+{
+  "name": "Rabisu",
+  "sourceSystem": "pf1",
+  "source": "Qadira, Jewel of the East",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 25,
+    "notes": "dex +8, dodge +1, natural +7",
+    "touch": 18,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 147,
+    "formula": "14d6+98"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 24,
+    "con": 24,
+    "int": 19,
+    "wis": 21,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +11, Ref +16, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +24, Disguise +23, Escape Artist +24, Fly +28, Intimidate +20, Knowledge (nature) +21, Perception +22, Sense Motive +22, Stealth +38, Survival +19",
+    "list": {
+      "Acrobatics": "+24",
+      "Disguise": "+23",
+      "Escape Artist": "+24",
+      "Fly": "+28",
+      "Intimidate": "+20",
+      "Perception": "+22",
+      "Sense Motive": "+22",
+      "Stealth": "+38",
+      "Survival": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent",
+    "see in darkness"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Aklo",
+    "Auran",
+    "Common"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 7,
+  "feats": [
+    "Ability Focus (ray of enfeeblement)",
+    "Combat Casting",
+    "Dodge",
+    "Quicken Spell-Like Ability (invisibility)",
+    "Quicken Spell-Like Ability (ray of enfeeblement)",
+    "Skill Focus (Stealth)",
+    "Weapon Finesse",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +17 (1d6+8 plus blood drain), 4 claws +18 (1d4+8 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hollow-eyed, blue-skinned woman has a vulture’s wings, birdlike talons for hands and feet, and a fang-filled mouth.",
+  "meta": {
+    "cmb": "12 (+16 grapple)",
+    "cmd": "30 (34 vs. grapple)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts, hills, and mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

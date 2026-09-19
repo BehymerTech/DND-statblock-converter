@@ -1,0 +1,100 @@
+{
+  "name": "Orc Warlord",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "orc",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 15,
+    "notes": "armor +4, deflection +1, dex +2, rage -2",
+    "touch": 11,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 86,
+    "formula": "7d12+35"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 14,
+    "con": 18,
+    "int": 8,
+    "wis": 6,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +4, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +16, Perception +8, Sense Motive +5",
+    "list": {
+      "Intimidate": "+16",
+      "Perception": "+8",
+      "Sense Motive": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Orc"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 7,
+  "feats": [
+    "Ferocious Action",
+    "Intimidating Prowess",
+    "Quick Draw",
+    "Resolute Rager"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 falchion +14/+9 (2d4+10/18-20), bite +8 (1d4+3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "javelin +9/+4 (1d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Orc",
+    "class": "barbarian 7",
+    "cmb": "+13",
+    "cmd": 24,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate hills, mountains, or underground"
+      }
+    ]
+  }
+}

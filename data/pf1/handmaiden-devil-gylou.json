@@ -1,0 +1,117 @@
+{
+  "name": "Handmaiden Devil (Gylou)",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 31,
+    "notes": "dex +7, natural +14",
+    "touch": 17,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 187,
+    "formula": "15d10+105"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 25,
+    "con": 25,
+    "int": 22,
+    "wis": 21,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +16, Ref +16, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +25, Bluff +23, Diplomacy +23, Disguise +23, Escape Artist +22, Fly +14, Knowledge (arcana) +21, Knowledge (planes) +24, Perception +23, Perform (sing) +23, Sense Motive +23, Spellcraft +21, Stealth +25",
+    "list": {
+      "Acrobatics": "+25",
+      "Bluff": "+23",
+      "Diplomacy": "+23",
+      "Disguise": "+23",
+      "Escape Artist": "+22",
+      "Fly": "+14",
+      "Perception": "+23",
+      "Sense Motive": "+23",
+      "Spellcraft": "+21",
+      "Stealth": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 15,
+  "feats": [
+    "Acrobatic Steps",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Improved Trip",
+    "Multiattack",
+    "Nimble Moves",
+    "Strike Back"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +22 (2d8+7/19-20/×3), 2 tentacles +20 (1d6+3 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Twin tentacles stretch from the crown of this feminine fiend’s head, while her lower body blooms in a gown of writhing tendrils.",
+  "meta": {
+    "cmb": "22 (+26 grapple)",
+    "cmd": "39 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, retinue (1 gylou and 2d4 erinyes), or cortege (1-4 gylous and 2d10 erinyes)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

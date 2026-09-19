@@ -1,0 +1,102 @@
+{
+  "name": "Greater Shadow",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 289.",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "Incorporeal",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 75,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 30 feet"
+  },
+  "abilities": {
+    "str": 0,
+    "dex": 20,
+    "con": 10,
+    "int": 10,
+    "wis": 14,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +11, Ref +18, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +16 (1d20+16); __Stealth__: +20 (1d20+20); ",
+    "list": {
+      "Acrobatics": "+16",
+      "Stealth": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Necril"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Light Vulnerability",
+      "text": "An object shedding magical light (such as from the light spell) is treated as magical when used to attack the shadow."
+    },
+    {
+      "name": "Shadow Spawn",
+      "text": "When a creature's shadow is pulled free by Steal Shadow, it becomes a shadow spawn under the command of the shadow that created it. This shadow spawn doesn't have Steal Shadow. If the creature the shadow spawn was pulled from dies, the shadow spawn becomes a full-fledged, autonomous shadow. If the creature recovers from its enfeeblement, its shadow returns to it and the shadow spawn is extinguished."
+    },
+    {
+      "name": "Slink in Shadows",
+      "text": "The shadow can Hide or end its Sneak in a creature's or object's shadow."
+    },
+    {
+      "name": "Steal Shadow",
+      "text": "⬻ (divine, necromancy); Requirements The shadow hit a living creature with a shadow hand Strike on its previous action Effect The shadow pulls at the target's shadow, making the creature enfeebled 2 (or enfeebled 3 on a critical hit). This is cumulative with other enfeebled conditions from shadows, to a maximum of enfeebled 4. If this increases a creature's enfeebled value to 3 or more, the target's shadow is separated from its body (see shadow spawn). Enfeebled from Steal Shadow decreases by 1 every hour."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ shadow hand +18 (finesse, magical); Damage 2d10+6 (2d10+6) negative"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -5,
+      5,
+      0,
+      0,
+      2,
+      4
+    ]
+  }
+}

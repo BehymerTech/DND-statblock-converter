@@ -1,0 +1,111 @@
+{
+  "name": "Royal Naga",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Pathfinder No. 27: What Lies in Dust",
+  "size": "Huge",
+  "type": "aberration",
+  "subtype": "shapechanger",
+  "alignment": "LN",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 26,
+    "notes": "dex +3, natural +15, size -2",
+    "touch": 11,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 133,
+    "formula": "14d8+70"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 17,
+    "con": 21,
+    "int": 18,
+    "wis": 22,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +9, Ref +9, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +20, Bluff +18, Diplomacy +18, Knowledge (arcana) +18, Knowledge (history) +11, Knowledge (nobility) +11, Perception +27, Sense Motive +24, Stealth +12",
+    "list": {
+      "Acrobatics": "+20",
+      "Bluff": "+18",
+      "Diplomacy": "+18",
+      "Perception": "+27",
+      "Sense Motive": "+24",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see invisibility"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Infernal"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 10,
+  "feats": [
+    "Alertness",
+    "Blind-Fight",
+    "Combat Casting",
+    "Combat Reflexes",
+    "Eschew Materials",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Stand Still"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "5 bites +14 (2d6+6 plus bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This snake-bodied creature has five necks, each with a regal, humanoid face in a cobralike hood.",
+  "meta": {
+    "cmb": "18 (+22 grapple)",
+    "cmd": "31 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

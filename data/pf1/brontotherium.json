@@ -1,0 +1,99 @@
+{
+  "name": "Brontotherium",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Huge",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "natural +13, size -2",
+    "touch": 8,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 105,
+    "formula": "10d8+60"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 11,
+    "con": 22,
+    "int": 2,
+    "wis": 17,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +13, Ref +7, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +16",
+    "list": {
+      "Perception": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 26,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 7,
+  "feats": [
+    "Diehard",
+    "Endurance",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +17 (3d6+18)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This stocky quadruped’s lowered head puts its intimidating Y-shaped horn on full display.",
+  "meta": {
+    "cmb": "+21",
+    "cmd": "31 (35 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or herd (3-9)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

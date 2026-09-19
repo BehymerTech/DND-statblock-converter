@@ -1,0 +1,104 @@
+{
+  "name": "Brownie",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 44.",
+  "size": "Tiny",
+  "type": "Fey",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 25,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 18,
+    "con": 12,
+    "int": 14,
+    "wis": 18,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +4, Ref +9, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Crafting__: +5 (1d20+5); __Deception__: +6 (1d20+6); __Stealth__: +9 (1d20+9); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Crafting": "+5",
+      "Deception": "+6",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common",
+    "Elven",
+    "Gnomish",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Baffling Bluff",
+      "text": "⬺ (emotion, enchantment, mental, primal); The brownie's antics can confuse and disorient a creature. When the brownie uses."
+    },
+    {
+      "name": "Baffling",
+      "text": "Bluff, it targets a single creature within 30 feet; that creature must attempt a DC 17 Will save. The target is temporarily immune to Baffling Bluff for 1 minute. Critical Success The target is unaffected. Success The target is fooled momentarily and is flat-footed against the next melee Strike the brownie makes against it before the end of the brownie's next turn. Failure The target is confused for 1 round. Critical Failure The target is confused for 1 minute. It can attempt a new save at the end of each of its turns to end the confused condition."
+    },
+    {
+      "name": "Items",
+      "text": "shortsword;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ shortsword +7 (agile, finesse); Damage 1d6 (1d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -2,
+      4,
+      1,
+      2,
+      4,
+      3
+    ],
+    "items": "shortsword;"
+  }
+}

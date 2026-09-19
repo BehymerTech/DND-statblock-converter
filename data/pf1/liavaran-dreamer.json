@@ -1,0 +1,109 @@
+{
+  "name": "Liavaran Dreamer",
+  "sourceSystem": "pf1",
+  "source": "Occult Bestiary",
+  "size": "Large",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 19,
+    "notes": "natural +10, size -1",
+    "touch": 9,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 104,
+    "formula": "11d8+55"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 40 ft. (good)"
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 11,
+    "con": 20,
+    "int": 8,
+    "wis": 18,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +8, Ref +5, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +3, Fly +10, Perception +18, Perform (sing) +17, Stealth +5",
+    "list": {
+      "Acrobatics": "+3",
+      "Fly": "+10",
+      "Perception": "+18",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Brethedan",
+    "telepathy (touch)"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 8,
+  "feats": [
+    "Combat Reflexes",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Lunge",
+    "Power Attack",
+    "Weapon Focus (slam)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +13 (1d6+5 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This amorphous creature resembles a golden-hued jellyfish that floats through the air, fleshy tentacles dangling down in a line.",
+  "meta": {
+    "cmb": "+14",
+    "cmd": "24 (can’t be tripped)",
+    "racialModifiers": [
+      "Perform (sing) 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any sky"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or flotilla (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

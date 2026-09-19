@@ -1,0 +1,103 @@
+{
+  "name": "Chronicler",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 216.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 45,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 12,
+    "int": 18,
+    "wis": 18,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +9, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Nature__: +14 (1d20+14); __Society__: +12 (1d20+12); __Survival__: +14 (1d20+14); __Map lore__: +17 (1d20+17); __Scribing lore__: +17 (1d20+17); ",
+    "list": {
+      "Nature": "+14",
+      "Society": "+12",
+      "Survival": "+14",
+      "Map lore": "+17",
+      "Scribing lore": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 24,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Live to Tell the Tale",
+      "text": "⬲ Frequency once per day Trigger The chronicler is dying Effect The chronicler reduces their dying condition by 1. If the chronicler is no longer dying, they remain unconscious for at least 1 hour or until they regain 1 Hit Point."
+    },
+    {
+      "name": "Scroll Mastery",
+      "text": "The chronicler can activate any scroll of a 2nd-level spell or lower as if they had the spell on their spell list, regardless of its magical tradition."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ dagger +7 (agile, thrown 10 feet, versatile s); Damage 1d4+2 (1d4+2) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ staff +7 (two-hand d8); Damage 1d4+2 (1d4+2) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ crossbow +7 (range increment 120 feet, reload 1); Damage 1d8 (1d8) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      2,
+      1,
+      4,
+      4,
+      0
+    ]
+  }
+}

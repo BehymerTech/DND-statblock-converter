@@ -1,0 +1,102 @@
+{
+  "name": "NPC Sound Warrior",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "halfling",
+  "alignment": "N",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 24,
+    "notes": "armor +4, deflection +2, dex +3, dodge +1, natural +3, size +1",
+    "touch": 17,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 76,
+    "formula": "5d8+4d8+4d6+18"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 10,
+    "int": 10,
+    "wis": 15,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +10, Ref +11, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +5, Climb +6, Diplomacy +9, Fly +9, Heal +6, Knowledge (arcana) +8, Knowledge (religion) +8, Knowledge (geography) +9, Knowledge (local) +9, Knowledge (history) +10, Knowledge (nature) +12, Perception +17, Perform (oratory) +9, Perform (sing) +9, Sense Motive +9, Stealth +20, Survival +12",
+    "list": {
+      "Acrobatics": "+5",
+      "Climb": "+6",
+      "Diplomacy": "+9",
+      "Fly": "+9",
+      "Heal": "+6",
+      "Perception": "+17",
+      "Sense Motive": "+9",
+      "Stealth": "+20",
+      "Survival": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 27,
+  "languages": [
+    "Common",
+    "Druidic",
+    "Halfling"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 8,
+  "feats": [
+    "Combat Casting",
+    "Dodge",
+    "Great Fortitude",
+    "Greater Spell Focus (enchantment)",
+    "Natural Spell",
+    "Spell Focus (enchantment)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk dagger +10/+5 (1d3/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk dagger +13/+8 (1d3/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Halfling",
+    "class": "bard 5, druid 4, mystic theurge 4",
+    "cmb": "+7",
+    "cmd": 23
+  }
+}

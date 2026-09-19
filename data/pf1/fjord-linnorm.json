@@ -1,0 +1,110 @@
+{
+  "name": "Fjord Linnorm",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Gargantuan",
+  "type": "dragon",
+  "subtype": "aquatic",
+  "alignment": "CE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 30,
+    "notes": "dex +6, natural +18, size -4",
+    "touch": 12,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 248,
+    "formula": "16d12+144"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 100 ft. (average), swim 60 ft."
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 23,
+    "con": 28,
+    "int": 5,
+    "wis": 21,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +19, Ref +18, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +19, Perception +24, Swim +40",
+    "list": {
+      "Fly": "+19",
+      "Perception": "+24",
+      "Swim": "+40"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent",
+    "true seeing"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Aklo",
+    "Draconic",
+    "Sylvan"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 16,
+  "feats": [
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +25 (2d8+13/19-20 plus poison), 2 claws +25 (2d6+13), tail +20 (2d6+6 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This massive, eel-like dragon has two webbed talons. Its tail ends in large and powerful-looking flukes.",
+  "meta": {
+    "cmb": "33 (+37 grapple)",
+    "cmd": "49 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold mountainous coastlines"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

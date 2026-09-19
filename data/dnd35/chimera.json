@@ -1,0 +1,106 @@
+{
+  "name": "Chimera",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Usually chaotic evil",
+  "cr": "7",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": "-1 size, +1 Dex, +9 natural",
+    "touch": 10,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 76,
+    "formula": "9d10+27"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 50,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares), fly 50 ft. (poor)"
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 13,
+    "con": 17,
+    "int": 4,
+    "wis": 13,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Hide +1\\*, Listen +9, Spot +9;",
+    "list": {
+      "Hide": "+1",
+      "Listen": "+9",
+      "Spot": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 9,
+  "feats": [
+    "Alertness",
+    "Hover",
+    "Iron Will",
+    "Multiattack"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Breath weapon"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., low-light vision, scent"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Bite +12 melee (2d6+4)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +12 melee (2d6+4) and bite +12 melee (1d8+4) and gore +12 melee (1d8+4) and 2 claws +10 melee (1d6+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A chimera is about 5 feet tall at the shoulder, nearly 10 feet long, and weighs about 4,000 pounds. A chimera's dragon head might be black, blue, green, red, or white.",
+    "grapple": "+17",
+    "spaceReach": "10 ft./5 ft.",
+    "environment": "Temperate hills",
+    "organization": "Solitary, pride (3-5), or flight (6-13)",
+    "treasure": "Standard",
+    "advancement": "10-13 HD (Large); 14-27 HD (Huge)",
+    "leveladjustment": "+2 (cohort)"
+  }
+}

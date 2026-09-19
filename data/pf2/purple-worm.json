@@ -1,0 +1,127 @@
+{
+  "name": "Purple Worm",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 56.",
+  "size": "Gargantuan",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 13",
+  "xp": null,
+  "ac": {
+    "value": 32,
+    "notes": ""
+  },
+  "hp": {
+    "average": 270,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, burrow 40 feet, swim 20 feet"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 8,
+    "con": 24,
+    "int": 0,
+    "wis": 8,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +28, Ref +21, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +30 (1d20+30); ",
+    "list": {
+      "Athletics": "+30"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tremorsense 100"
+  ],
+  "passivePerception": 30,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Inexorable",
+      "text": "The purple worm recovers from the paralyzed, slowed, and stunned conditions at the end of its turn. It's also immune to penalties to its Speeds and the immobilized condition, and it ignores difficult terrain and greater difficult terrain."
+    },
+    {
+      "name": "Shake It Off",
+      "text": "⬲ Frequency once per day Trigger The purple worm would be affected by a condition or adverse effect (such as baleful polymorph). Effect The purple worm negates the triggering condition or effect. s from artifacts, deities, or a similarly powerful source can't be avoided in this way."
+    },
+    {
+      "name": "Fast Swallow",
+      "text": "⬲ Trigger The purple worm Grabs a creature. Effect The worm uses Swallow Whole."
+    },
+    {
+      "name": "Purple Worm Venom",
+      "text": "(poison); Saving Throw DC 32 Fortitude. Maximum Duration 6 rounds Stage 1 5d6 (5d6) poison damage and enfeebled 2 , (1 round) Stage 2 6d6 (6d6) poison damage, and enfeebled 2 (1 round) Stage 3 8d6 (8d6) poison damage and enfeebled 2. (1 round)"
+    },
+    {
+      "name": "Regurgitate",
+      "text": "The purple worm can violently regurgitate a creature or boulder it has swallowed to make a ranged Strike. The Strike deals bludgeoning damage depending on the size of the projectile: Tiny deals 2d6+13 (2d6+13), Small 3d6+13 (3d6+13), Medium 4d6+13 (4d6+13), Large 5d6+13 (5d6+13), and Huge 6d6+13 (6d6+13). A regurgitated creature takes falling damage from the height of the target or from 20 feet, whichever is greater. Boulders occupy space in the worm's stomach as a creature of equivalent size, and purple worms often have several boulders swallowed. A purple worm can use a single action to swallow a new boulder."
+    },
+    {
+      "name": "Rock Tunneler",
+      "text": "A purple worm can burrow through solid stone at a Speed of 20 feet. It can leave a tunnel if it desires, and it usually does."
+    },
+    {
+      "name": "Swallow Whole",
+      "text": "⬻ Huge, 3d6+9 (3d6+9) bludgeoning, Rupture 24."
+    },
+    {
+      "name": "Thrash",
+      "text": "⬺ The worm makes a Strike once against each creature in its reach. It can Strike up to once with its jaws, up to once with its stinger, and any number of times with its body. Each attack counts toward the worm's multiple attack penalty, but the multiple attack penalty doesn't increase until after it makes all the attacks."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +28 (deadly 2d10, reach 15 feet); Damage 3d10+15 (3d10+15) piercing plus Improved Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ stinger +28 (agile, poison, reach 15 feet); Damage 2d12+15 (2d12+15) piercing plus purple worm venom"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ body +26 (reach 15 feet); Damage 1d10+13 (1d10+13) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ regurgitate +26 (brutal, range increment 60 feet); Damage varies (see ability)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      9,
+      -1,
+      7,
+      -5,
+      -1,
+      -1
+    ]
+  }
+}

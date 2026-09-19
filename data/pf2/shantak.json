@@ -1,0 +1,106 @@
+{
+  "name": "Shantak",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 231.",
+  "size": "Huge",
+  "type": "Beast",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 115,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, fly 60 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 18,
+    "int": 8,
+    "wis": 18,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +18, Ref +13, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +17 (1d20+17); __Athletics__: +18 (1d20+18); ",
+    "list": {
+      "Acrobatics": "+17",
+      "Athletics": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "No Breath",
+      "text": "The shantak doesn't breathe and is immune to effects that require breathing (such as an inhaled poison)."
+    },
+    {
+      "name": "Slippery",
+      "text": "The shantak's scales are covered in slippery slime, so the shantak gains a +3 circumstance bonus to Escape. A creature mounted on a shantak takes double the normal circumstance penalty to Reflex saves (–4 instead of –2 in most cases) while mounted."
+    },
+    {
+      "name": "Flying Strafe",
+      "text": "⬺ The shantak Flies up to their fly speed and makes two claw Strikes at any point during that movement. Each Strike must target a different creature. The attacks take the normal multiple attack penalty."
+    },
+    {
+      "name": "Share Defenses",
+      "text": "⭓ (abjuration, occult); Requirements A creature is riding the shantak Effect The shantak extends their no breath ability and cold resistance to a single creature riding them. They can withdraw this protection as a free action."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +20 Damage 2d12+9 (2d12+9) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +20 (agile); Damage 2d8+9 (2d8+9) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      3,
+      4,
+      -1,
+      4,
+      0
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "name": "Grassling",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 129: The Twilight Child",
+  "size": "Small",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex +4, natural +4, size +1",
+    "touch": 15,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 65,
+    "formula": "10d6+30"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 18,
+    "con": 15,
+    "int": 10,
+    "wis": 13,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +5, Ref +11, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +17, Climb +14, Escape Artist +21, Perception +14, Stealth +25, Survival +11",
+    "list": {
+      "Acrobatics": "+17",
+      "Climb": "+14",
+      "Escape Artist": "+21",
+      "Perception": "+14",
+      "Stealth": "+25",
+      "Survival": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greensight",
+    "low-light vision"
+  ],
+  "passivePerception": 24,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 5,
+  "feats": [
+    "Combat Reflexes",
+    "Stealthy",
+    "Toughness",
+    "Weapon Finesse",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 claws +11 (1d6+1 plus bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This child-sized creature is made of long green stalks of loosely woven grass. It has four arms, each with fingers like long blades, and leaves circle its head like a crown.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": 19,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or tuft (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

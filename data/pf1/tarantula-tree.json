@@ -1,0 +1,114 @@
+{
+  "name": "Tarantula Tree",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Colossal",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 34,
+    "notes": "dex +10, natural +22, size -8",
+    "touch": 12,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 325,
+    "formula": "26d8+208"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 42,
+    "dex": 30,
+    "con": 26,
+    "int": 13,
+    "wis": 25,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +23, Ref +18, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (nature) +27, Perception +36, Stealth +23",
+    "list": {
+      "Perception": "+36",
+      "Stealth": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greensight",
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 46,
+  "languages": [
+    "Sylvan (cannot speak)"
+  ],
+  "initiative": "+14",
+  "babOrProficiency": 19,
+  "feats": [
+    "Awesome Blow",
+    "Combat Expertise",
+    "Critical Focus",
+    "Improved Bull Rush",
+    "Improved Critical (vine)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Power Attack",
+    "Quicken Spell-Like Ability (entangle)",
+    "Staggering Critical",
+    "Vital Strike",
+    "Weapon Focus (vine)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 vines +28 (2d8+16/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering mass of vegetation balances itself upon several long and misshapen tree trunks.",
+  "meta": {
+    "cmb": "43 (+45 bull rush, +47 grapple)",
+    "cmd": "63 (65 vs. bull rush, 71 vs. trip)",
+    "racialModifiers": [
+      "Stealth 16"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or tropical forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

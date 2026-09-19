@@ -1,0 +1,115 @@
+{
+  "name": "Lythirium",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 105: The Inferno Gate",
+  "size": "Large",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "NG",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 26,
+    "notes": "dex +4, dodge +1, natural +12, size -1",
+    "touch": 14,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 136,
+    "formula": "16d8+64"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 19,
+    "con": 18,
+    "int": 12,
+    "wis": 17,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +14, Ref +11, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +8, Diplomacy +10, Intimidate +10, Knowledge (nature) +5, Perception +22, Sense Motive +7, Stealth +5, Survival +5",
+    "list": {
+      "Acrobatics": "+8",
+      "Diplomacy": "+10",
+      "Intimidate": "+10",
+      "Perception": "+22",
+      "Sense Motive": "+7",
+      "Stealth": "+5",
+      "Survival": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 12,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Lightning Reflexes",
+    "Mobility",
+    "Power Attack",
+    "Spring Attack",
+    "Weapon Focus (bite)",
+    "Weapon Focus (gore)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +21 (2d8+9 plus rampant growth), bite +21 (2d8+9)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This wolflike creature’s body is composed of thick vines, fine vegetation that almost resembles fur, and enormous thorns. Its eyes shine with a green glow, and prickly vines cover the immense, antlerlike growths on its head.",
+  "meta": {
+    "cmb": "+22",
+    "cmd": 37,
+    "racialModifiers": [
+      "Acrobatics 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold or temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

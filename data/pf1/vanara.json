@@ -1,0 +1,111 @@
+{
+  "name": "Vanara",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "vanara",
+  "alignment": "LG",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +3, dodge +1, wis +3",
+    "touch": 17,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 9,
+    "formula": "1d8+1"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 16,
+    "con": 10,
+    "int": 12,
+    "wis": 17,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +2, Ref +5, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +9, Climb +13, Perception +7, Sense Motive +7, Stealth +9",
+    "list": {
+      "Acrobatics": "+9",
+      "Climb": "+13",
+      "Perception": "+7",
+      "Sense Motive": "+7",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common",
+    "Sylvan",
+    "Vanaran"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 0,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Unarmed Strike",
+    "Stunning Fist"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "quarterstaff +1 (1d6+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This lean, simian humanoid is covered in a layer of soft, lightly colored fur and has a long, prehensile tail.",
+  "meta": {
+    "race": "Vanara",
+    "class": "monk 1",
+    "cmb": "+1",
+    "cmd": 18,
+    "racialModifiers": [
+      "Acrobatics 2",
+      "Stealth 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, party, (3-6), or community (7-100)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (quarterstaff)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "name": "Wood Giant",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 124.",
+  "size": "Large",
+  "type": "Humanoid",
+  "subtype": "Giant",
+  "alignment": "CG",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 120,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 20,
+    "con": 18,
+    "int": 14,
+    "wis": 16,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +17, Ref +14, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +13 (1d20+13); __Athletics__: +15 (1d20+15); __Nature__: +14 (1d20+14); __Stealth__: +13 (1d20+13), (Stealth: +15 (1d20+15) in forests); __Survival__: +13 (1d20+13); __Forest lore__: +14 (1d20+14); ",
+    "list": {
+      "Acrobatics": "+13",
+      "Athletics": "+15",
+      "Nature": "+14",
+      "Stealth": "+15",
+      "Survival": "+13",
+      "Forest lore": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Common",
+    "Jotun",
+    "Sylvan; speak with animals"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Catch Rock",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "hide armor, +1 composite longbow (20 arrows), shortsword;"
+    },
+    {
+      "name": "Piercing Shot",
+      "text": "⬻ The wood giant shoots an arrow at a target so that it glances off the first target to strike another target behind the first one. The wood giant chooses two targets in a direct line, one of which must be giving lesser cover to the other, then makes a single ranged Strike with its longbow against both targets. This attack ignores the lesser cover the first target provides to the second. The wood giant rolls damage only once, and applies it to each creature it hits."
+    },
+    {
+      "name": "Piercing",
+      "text": "Shot counts as two attacks for the wood giant's multiple attack penalty."
+    },
+    {
+      "name": "Throw Rock",
+      "text": "⬻"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ shortsword +17 (agile, reach 10 feet, versatile s); Damage 1d8+11 (1d8+11) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +17 (agile, reach 10 feet); Damage 1d6+11 (1d6+11) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ composite longbow +18 (deadly d10, range increment 100 feet, reload 0, volley 30 feet); Damage 1d8+8 (1d8+8) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ rock +17 (brutal, range increment 120 feet); Damage 2d6+11 (2d6+11) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      5,
+      4,
+      2,
+      3,
+      1
+    ],
+    "items": "hide armor, +1 composite longbow (20 arrows), shortsword;"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Shield Guardian",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Construct",
+  "subtype": "",
+  "alignment": "Always neutral",
+  "cr": "8",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": "-1 size, +15 natural",
+    "touch": 9,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 112,
+    "formula": "15d10+30"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares)"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 10,
+    "con": null,
+    "int": null,
+    "wis": 10,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +5, Ref +5, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft.",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 11,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Special Qualities",
+      "text": "Construct traits, darkvision 60 ft., fast healing 5, find master, guard, low-light vision, *shield other, spell storing*"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Slam +16 melee (1d8+6)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 slams +16 melee (1d8+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Created by spellcasters to be bodyguards, shield guardians are constructs that protect their masters with spells and stamina. When it is fashioned, a shield guardian is keyed to a particular magical amulet. Henceforth, it regards the wearer of that amulet to be its master, protecting and following that individual everywhere (unless specifically commanded not to do so).",
+    "grapple": "+21",
+    "spaceReach": "10 ft./10 ft.",
+    "environment": "Any",
+    "organization": "Solitary",
+    "treasure": "None",
+    "advancement": "16-24 HD (Large); 25-45 HD (Huge)",
+    "leveladjustment": "---"
+  }
+}

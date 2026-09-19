@@ -1,0 +1,100 @@
+{
+  "name": "Hangman Tree",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Huge",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "dex -1, natural +13, size -2",
+    "touch": 7,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 84,
+    "formula": "8d8+48"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 8,
+    "con": 23,
+    "int": 7,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +12, Ref +3, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +11, Stealth -2",
+    "list": {
+      "Perception": "+11",
+      "Stealth": "-2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Sylvan"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 6,
+  "feats": [
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "3 vines +11 (1d6+7 plus grab and pull)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This sinister tree looms above a field strewn with bones. Numerous leafy vines, their tips looped into nooses, hang from its branches.",
+  "meta": {
+    "cmb": "15 (+19 grapple)",
+    "cmd": 24,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

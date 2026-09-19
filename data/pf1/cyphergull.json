@@ -1,0 +1,105 @@
+{
+  "name": "Cyphergull",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 133: Secrets of Roderic's Cove",
+  "size": "Tiny",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 15,
+    "notes": "dex +3, size +2",
+    "touch": 15,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d10+3"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 50 ft. (good), swim 10 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 17,
+    "con": 13,
+    "int": 6,
+    "wis": 13,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +4, Ref +6, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Fly +15, Perception +5, Swim +11",
+    "list": {
+      "Acrobatics": "+15",
+      "Fly": "+15",
+      "Perception": "+5",
+      "Swim": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "arcane sight",
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Common (can't speak)"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 3,
+  "feats": [
+    "Flyby Attack",
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +3 (1d4-1), 2 talons +3 (1d3-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The eyes of this large gull glow eerily blue. Gray feathers cover much of its robust body, and its long, black-tipped wings are marked with enigmatic symbols. The bird’s yellow bill is heavy and hooked, and its webbed feet bear sharp talons.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": 12,
+    "racialModifiers": [
+      "Acrobatics 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate coasts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, flock (3-12), or colony"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

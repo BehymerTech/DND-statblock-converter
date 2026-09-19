@@ -1,0 +1,106 @@
+{
+  "name": "Cave Giant",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 108.",
+  "size": "Large",
+  "type": "Humanoid",
+  "subtype": "Giant",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 23,
+    "notes": ""
+  },
+  "hp": {
+    "average": 110,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 20,
+    "int": 6,
+    "wis": 16,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +17, Ref +13, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +18 (1d20+18); __Intimidation__: +14 (1d20+14); ",
+    "list": {
+      "Athletics": "+18",
+      "Intimidation": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Catch Rock",
+      "text": "⬲"
+    },
+    {
+      "name": "Smear",
+      "text": "⬺ (attack); Requirements The cave giant is within reach of a creature that is adjacent to a wall or other solid vertical surface Effect The cave giant snags the creature and smashes it against the wall. The giant attempts an Athletics check against the target's Reflex DC. On a success, the cave giant Grabs the creature and smears it along the nearby wall, dealing 2d8+8 (2d8+8) bludgeoning damage. On a critical success, the damage is doubled."
+    },
+    {
+      "name": "Throw Rock",
+      "text": "⬻ (page 306);"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ greataxe +18 (magical, reach 10 feet, sweep); Damage 1d12+9 (1d12+9) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +18 (agile, reach 10 feet); Damage 1d8+9 (1d8+9) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ rock +16 (brutal, range increment 120 feet); Damage 2d6+10 (2d6+10) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      3,
+      5,
+      -2,
+      3,
+      2
+    ]
+  }
+}

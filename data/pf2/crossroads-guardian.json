@@ -1,0 +1,110 @@
+{
+  "name": "Crossroads Guardian",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 59.",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 115,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, swim 25 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 18,
+    "con": 16,
+    "int": 20,
+    "wis": 22,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +14, Ref +13, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +16 (1d20+16); __Diplomacy__: +20 (1d20+20); __Medicine__: +17 (1d20+17); __Nature__: +19 (1d20+19); __Occultism__: +16 (1d20+16); __Performance__: +16 (1d20+16); __Religion__: +17 (1d20+17); __Society__: +16 (1d20+16); __Survival__: +19 (1d20+19); ",
+    "list": {
+      "Arcana": "+16",
+      "Diplomacy": "+20",
+      "Medicine": "+17",
+      "Nature": "+19",
+      "Occultism": "+16",
+      "Performance": "+16",
+      "Religion": "+17",
+      "Society": "+16",
+      "Survival": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "recognize hero"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Sylvan; tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Bound",
+      "text": "A crossroads guardian is bound to the site of its creation, but it can leave so long as it remains within 100 feet of the object it is guarding or individuals under a geas to fulfill the guardian's need. If it strays farther than 100 feet, it vanishes and reappears within 1 day at the site of its creation."
+    },
+    {
+      "name": "Recognize Hero",
+      "text": "A crossroads guardian knows the name, lineage, and significant history of everyone who speaks to it. If that individual has two or more identities, the crossroads guardian knows all those identities and which one is most true."
+    },
+    {
+      "name": "Items",
+      "text": "chain mail, greatsword;"
+    },
+    {
+      "name": "Primal Purpose",
+      "text": "A crossroads guardian can't be permanently destroyed while its need remains unfulfilled. If killed, it reforms within 1 day near the object it guards, near someone under a geas to fulfill its need, or at the site of its original appearance. Once the guardian's need is fulfilled, the crossroads guardian dissipates naturally within a week unless it finds a new quest."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ greatsword +18 (versatile p); Damage 1d12+11 (1d12+11) slashing plus 1d6 (1d6) mental"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      4,
+      3,
+      5,
+      6,
+      7
+    ],
+    "items": "chain mail, greatsword;"
+  }
+}

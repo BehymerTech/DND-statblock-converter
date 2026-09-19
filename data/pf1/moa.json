@@ -1,0 +1,95 @@
+{
+  "name": "Moa",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 15,
+    "notes": "dex +3, natural +3, size -1",
+    "touch": 12,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d8+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 16,
+    "con": 14,
+    "int": 2,
+    "wis": 11,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +5, Ref +6, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +9",
+    "list": {
+      "Perception": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": "+7",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Initiative",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 talons +4 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Standing on muscular legs that end in enormous talons, this f lightless bird is almost twice the height of a man.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 19,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, group (3-5), or colony (6-100)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

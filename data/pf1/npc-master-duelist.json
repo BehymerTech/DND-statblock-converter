@@ -1,0 +1,110 @@
+{
+  "name": "NPC Master Duelist",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "N",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 28,
+    "notes": "armor +3, deflection +3, dex +7, dodge +1, insight +1, natural +3",
+    "touch": 22,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 224,
+    "formula": "10d10+10d10+110"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 22,
+    "con": 18,
+    "int": 13,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +17, Ref +19, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +16, Bluff +4, Climb +17, Diplomacy +4, Heal +5, Intimidate +12, Knowledge (history) +6, Knowledge (local) +6, Knowledge (nobility) +6, Perception +20, Perform (dance) +4, Ride +14, Stealth +16",
+    "list": {
+      "Acrobatics": "+16",
+      "Bluff": "+4",
+      "Climb": "+17",
+      "Diplomacy": "+4",
+      "Heal": "+5",
+      "Intimidate": "+12",
+      "Perception": "+20",
+      "Ride": "+14",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 30,
+  "languages": [],
+  "initiative": "+14",
+  "babOrProficiency": 20,
+  "feats": [
+    "Blinding Critical",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Deflect Arrows",
+    "Dodge",
+    "Improved Critical (rapier)",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Mobility",
+    "Power Attack",
+    "Spring Attack",
+    "Toughness",
+    "Vital Strike",
+    "Weapon Finesse",
+    "Weapon Specialization (rapier)",
+    "Wind Stance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 human-bane shock rapier +29/+24/+19/+14 (1d6+9/15-20 plus 1d6 electricity)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk dagger +29/+24/+19/+14 (1d4+6/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "fighter 10, duelist 10",
+    "cmb": "+24",
+    "cmd": 45
+  }
+}

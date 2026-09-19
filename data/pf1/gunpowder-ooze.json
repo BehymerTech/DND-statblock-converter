@@ -1,0 +1,95 @@
+{
+  "name": "Gunpowder Ooze",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Wardens of the Reborn Forge",
+  "size": "Large",
+  "type": "ooze",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 9,
+    "notes": "size -1",
+    "touch": 9,
+    "flatFooted": 9
+  },
+  "hp": {
+    "average": 230,
+    "formula": "20d8+140"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 11,
+    "con": 24,
+    "int": "None",
+    "wis": 1,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +13, Ref +6, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +17, Perception -5",
+    "list": {
+      "Climb": "+17",
+      "Perception": "-5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 5,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 15,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +23 (2d6+13 plus grab and gunpowder residue)"
+    },
+    {
+      "name": "Ranged",
+      "text": "blast +14 touch (4d6+7 plus gunpowder residue)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This lurching mass of slime and gunpowder leaves a trail of shiny black residue in its wake, and shudders with concussive energy.",
+  "meta": {
+    "cmb": "25 (+29 grapple)",
+    "cmd": "35 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "name": "Jorogumo",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 141.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 13",
+  "xp": null,
+  "ac": {
+    "value": 33,
+    "notes": ""
+  },
+  "hp": {
+    "average": 270,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, swim 30 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 18,
+    "con": 20,
+    "int": 16,
+    "wis": 20,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +22, Ref +23, Will +26",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +25 (1d20+25); __Athletics__: +23 (1d20+23); __Crafting__: +22 (1d20+22); __Deception__: +28 (1d20+28); __Diplomacy__: +26 (1d20+26); __Performance__: +24 (1d20+24); __Stealth__: +23 (1d20+23); __Survival__: +24 (1d20+24); ",
+    "list": {
+      "Acrobatics": "+25",
+      "Athletics": "+23",
+      "Crafting": "+22",
+      "Deception": "+28",
+      "Diplomacy": "+26",
+      "Performance": "+24",
+      "Stealth": "+23",
+      "Survival": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Sylvan; tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Darting Legs",
+      "text": "⬲ Requirements The jorogumo has their spider legs extended or has Changed Shape Trigger The jorogumo is targeted with an attack Effect The jorogumo raises a leg, gaining a +2 circumstance bonus to AC against the triggering attack."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +27 Damage 3d12+14 (3d12+14) piercing plus jorogumo venom"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +27 (agile); Damage 3d8+14 (3d8+14) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      4,
+      5,
+      3,
+      5,
+      7
+    ]
+  }
+}

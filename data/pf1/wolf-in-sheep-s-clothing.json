@@ -1,0 +1,109 @@
+{
+  "name": "Wolf-in-Sheep's-Clothing",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Misfit Monsters Redeemed",
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "natural +11",
+    "touch": 10,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 97,
+    "formula": "13d8+39"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft., burrow 5 ft., climb 5 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 10,
+    "con": 17,
+    "int": 6,
+    "wis": 14,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +9, Ref +6, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +15, Disguise -1, Knowledge (nature) +4, Perception +14, Sense Motive +8, Stealth +9",
+    "list": {
+      "Climb": "+15",
+      "Disguise": "-1",
+      "Perception": "+14",
+      "Sense Motive": "+8",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 9,
+  "feats": [
+    "Great Fortitude",
+    "Greater Grapple",
+    "Improved Initiative",
+    "Improved Lightning Reflexes",
+    "Lightning Reflexes",
+    "Multiattack",
+    "Skill Focus (Perception)",
+    "Weapon Focus (tentacle)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +12 (1d6+3), 8 tentacles +11 (1d4+1 plus grab and pull)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A small forest animal sits motionless atop a worn stump-and then the stump’s face peels open into a maw of sharp teeth.",
+  "meta": {
+    "cmb": "12 (+18 grapple)",
+    "cmd": "22 (can’t be tripped)",
+    "racialModifiers": [
+      "Disguise 12"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forest"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

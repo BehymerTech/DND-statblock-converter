@@ -1,0 +1,112 @@
+{
+  "name": "Azuretzi",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Pathfinder No. 98: Turn of the Torrent",
+  "size": "Small",
+  "type": "outsider",
+  "subtype": "chaotic, extraplanar, protean, shapechanger",
+  "alignment": "CN",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +5, natural +2, size +1",
+    "touch": 16,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 57,
+    "formula": "6d10+24"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 30 ft. (perfect), swim 30 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 21,
+    "con": 19,
+    "int": 16,
+    "wis": 14,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +6, Ref +10, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +14, Bluff +12, Disguise +12, Fly +24, Knowledge (planes) +12, Perception +11, Sense Motive +11, Stealth +18, Survival +11, Swim +11",
+    "list": {
+      "Acrobatics": "+14",
+      "Bluff": "+12",
+      "Disguise": "+12",
+      "Fly": "+24",
+      "Perception": "+11",
+      "Sense Motive": "+11",
+      "Stealth": "+18",
+      "Survival": "+11",
+      "Swim": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "detect law"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Abyssal",
+    "Protean"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 6,
+  "feats": [
+    "Improved Initiative",
+    "Multiattack",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +11 (1d4+3), 2 claws +10 (1d3+3), tail slap +8 (1d4+1 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Brilliant blue scales with purple highlights cover this sinuous creature’s body, and its slender reptilian maw is filled with tiny, sharp teeth.",
+  "meta": {
+    "cmb": "8 (+12 grapple)",
+    "cmd": "23 (can’t be tripped)",
+    "racialModifiers": [
+      "Disguise 20"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Maelstrom)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cackle (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

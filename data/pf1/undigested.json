@@ -1,0 +1,100 @@
+{
+  "name": "Undigested",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Pathfinder No. 1: Burnt Offerings",
+  "size": "Tiny",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "1/4",
+  "level": null,
+  "xp": 100,
+  "ac": {
+    "value": 13,
+    "notes": "dex +1, size +2",
+    "touch": 13,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 9,
+    "formula": "2d8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 20 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 4,
+    "dex": 12,
+    "con": "None",
+    "int": 3,
+    "wis": 9,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +0, Ref +1, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +9, Perception +6, Stealth +13, Swim +9",
+    "list": {
+      "Climb": "+9",
+      "Perception": "+6",
+      "Stealth": "+13",
+      "Swim": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Common (can’t speak)"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 1,
+  "feats": [
+    "Skill Focus (Perception)",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+3 (1d3-3 plus 1 acid)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A jumble of melted bones and skull fragments f loat amid an oozing brown and yellow slurry.",
+  "meta": {
+    "cmb": "+0",
+    "cmd": "7 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pack (2-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "name": "Vine Leshy",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 160.",
+  "size": "Small",
+  "type": "Plant",
+  "subtype": "Leshy",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 0",
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 13,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, climb 20 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 12,
+    "con": 12,
+    "int": 8,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +3, Ref +5, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +4 (1d20+4); __Diplomacy__: +5 (1d20+5); __Nature__: +4 (1d20+4); __Performance__: +5 (1d20+5), (Performance: +6 (1d20+6) for oratory); __Society__: +1 (1d20+1); __Survival__: +4 (1d20+4); ",
+    "list": {
+      "Athletics": "+4",
+      "Diplomacy": "+5",
+      "Nature": "+4",
+      "Performance": "+6",
+      "Society": "+1",
+      "Survival": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Common",
+    "Druidic",
+    "Sylvan; speak with plants (plants with vines only)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Verdant Burst",
+      "text": "When a vine leshy dies, a burst of primal energy explodes from its body, restoring 1d4 (1d4) Hit Points to each plant creature in a 30-foot emanation. This area fills with tangling vines, becoming difficult terrain. If the terrain is not a viable environment for the vines, they wither after 24 hours."
+    },
+    {
+      "name": "Items",
+      "text": "spear;"
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, polymorph, primal, transmutation); The vine leshy transforms into a Small plant with vines. This ability otherwise uses the effects of tree shape."
+    },
+    {
+      "name": "Extend Vines",
+      "text": "⬻ The vine leshy Interacts to extend or shorten their arms. With limbs extended, the vine leshy has a 10-foot reach. The leshy can't use weapons that already have reach in this way, because they would be unable to keep their balance."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ spear +6 Damage 1d6+2 (1d6+2) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ spear +5 (thrown 20 feet); Damage 1d6+2 (1d6+2) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      1,
+      1,
+      -1,
+      2,
+      3
+    ],
+    "items": "spear;"
+  }
+}

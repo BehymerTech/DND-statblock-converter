@@ -1,0 +1,94 @@
+{
+  "name": "Mummy Guardian",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 240.",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "Mummy",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 23,
+    "notes": ""
+  },
+  "hp": {
+    "average": 110,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 10,
+    "con": 14,
+    "int": 6,
+    "wis": 18,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +14, Ref +10, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +15 (1d20+15); __Stealth__: +11 (1d20+11); ",
+    "list": {
+      "Athletics": "+15",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Necril; plus any one ancient language"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Despair",
+      "text": "(aura, divine, emotion, enchantment, fear, incapacitation, mental); 30 feet. Living creatures are frightened 1 while in a mummy guardian's despair aura. They can't naturally recover from this fear while in the area but recover instantly once they leave the area. When a creature first enters the area, it must succeed at a DC 22 Will save (after taking the penalty from being frightened) or be paralyzed for 1 round. The creature is then temporarily immune for 24 hours."
+    },
+    {
+      "name": "Mummy Rot",
+      "text": "(curse, disease, divine, necromancy, negative); Saving Throw DC 22 Fortitude. Stage 1 carrier with no ill effect (1 minute) Stage 2 4d6 (4d6) negative damage and stupefied 1 (1 day)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +16 Damage 2d6+7 (2d6+7) bludgeoning plus mummy rot"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      0,
+      2,
+      -2,
+      4,
+      2
+    ]
+  }
+}

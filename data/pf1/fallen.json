@@ -1,0 +1,108 @@
+{
+  "name": "Fallen",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Pathfinder No. 75: Demon's Heresy",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "incorporeal",
+  "alignment": "LE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 22,
+    "notes": "armor +4, deflection +4, dex +3, shield +1",
+    "touch": 17,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 93,
+    "formula": "11d8+44"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 30 ft. (good)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 16,
+    "con": "None",
+    "int": 13,
+    "wis": 17,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +7, Ref +6, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +15, Intimidate +18, Knowledge (religion) +10, Perception +17, Sense Motive +17, Survival +14",
+    "list": {
+      "Fly": "+15",
+      "Intimidate": "+18",
+      "Perception": "+17",
+      "Sense Motive": "+17",
+      "Survival": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 8,
+  "feats": [
+    "Combat Expertise",
+    "Deadly Aim",
+    "Improved Shield Bash",
+    "Shield Slam",
+    "Two-Weapon Fighting",
+    "Weapon Focus (longsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "longsword +11/+6 (1d8 force/19-20 plus 2d6 negative energy and despair), light shield +13 (1d3 force plus 2d6 negative energy and despair)"
+    },
+    {
+      "name": "Ranged",
+      "text": "longbow +11/+6 (1d8 force/×3 plus 2d6 negative energy and despair)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This ghostly crusader floats just above the ground, yet despite its phantomlike appearance, its armor and weapons seem quite solid.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": 25,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, squad (2-6), or platoon (7-16)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

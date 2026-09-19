@@ -1,0 +1,107 @@
+{
+  "name": "Sprite Swarm",
+  "sourceSystem": "pf1",
+  "source": "Fey Revisited",
+  "size": "Diminutive",
+  "type": "fey",
+  "subtype": "swarm",
+  "alignment": "CN",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +3, dodge +1, size +4",
+    "touch": 18,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 45,
+    "formula": "10d6+10"
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 ft., fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 3,
+    "dex": 17,
+    "con": 12,
+    "int": 6,
+    "wis": 11,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +4, Ref +10, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +30, Intimidate +10, Perception +14, Sense Motive +9, Stealth +28",
+    "list": {
+      "Fly": "+30",
+      "Intimidate": "+10",
+      "Perception": "+14",
+      "Sense Motive": "+9",
+      "Stealth": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "detect evil",
+    "detect good"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 5,
+  "feats": [
+    "Alertness",
+    "Dodge",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "swarm (2d6 plus distraction)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Thousands of tiny, colorful winged humanoids crawl from every corner of the forest to form this buzzing, writhing swarm.",
+  "meta": {
+    "cmb": "None",
+    "cmd": "None",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

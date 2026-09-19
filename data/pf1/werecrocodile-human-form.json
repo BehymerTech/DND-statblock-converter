@@ -1,0 +1,107 @@
+{
+  "name": "Werecrocodile (Human Form)",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 58: Island of Empty Eyes",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, shapechanger",
+  "alignment": "NE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 11,
+    "notes": "dex +1",
+    "touch": 11,
+    "flatFooted": 10
+  },
+  "hp": {
+    "average": 27,
+    "formula": "3d10+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 13,
+    "con": 14,
+    "int": 12,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +7, Ref +2, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +4, Perception +4, Stealth +5, Survival +7, Swim +11",
+    "list": {
+      "Intimidate": "+4",
+      "Perception": "+4",
+      "Stealth": "+5",
+      "Survival": "+7",
+      "Swim": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 3,
+  "feats": [
+    "Cleave",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Power Attack",
+    "Run"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk battleaxe +7 (1d8+3/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Standing taller than a man, this humanoid figure wears filthcovered rags over its scaly form.",
+  "meta": {
+    "race": "Human",
+    "class": "natural werecrocodile fighter 3",
+    "cmb": "+6",
+    "cmd": 17,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm rivers or marshes"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or colony (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (mwk battleaxe, other treasure)"
+      }
+    ]
+  }
+}

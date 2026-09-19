@@ -1,0 +1,104 @@
+{
+  "name": "Spirit Oni",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Tiny",
+  "type": "outsider",
+  "subtype": "native, oni",
+  "alignment": "LE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 17,
+    "notes": "dex +4, natural +1, size +2",
+    "touch": 16,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d10+3"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 30 ft. (good)"
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 19,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +2, Ref +7, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Bluff +8, Fly +16, Knowledge (arcana) +7, Perception +7, Sense Motive +7, Spellcraft +4, Stealth +17",
+    "list": {
+      "Acrobatics": "+7",
+      "Bluff": "+8",
+      "Fly": "+16",
+      "Perception": "+7",
+      "Sense Motive": "+7",
+      "Spellcraft": "+4",
+      "Stealth": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect magic"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +9 (1d4-2), gore +9 (1d4-2 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This evil-looking animated mask shows the face of a horned fiend, its eyes popping and its leering smile full of fangs.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": "13 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or rack (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

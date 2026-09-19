@@ -1,0 +1,114 @@
+{
+  "name": "Derghodaemon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "daemon, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 27,
+    "notes": "dex +5, natural +13, size -1",
+    "touch": 14,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 161,
+    "formula": "14d10+84"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 20,
+    "con": 22,
+    "int": 7,
+    "wis": 17,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +15, Ref +14, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +20, Perception +28, Sense Motive +20, Stealth +18",
+    "list": {
+      "Intimidate": "+20",
+      "Perception": "+28",
+      "Sense Motive": "+20",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision",
+    "detect magic",
+    "see invisibility"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Abyssal",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 14,
+  "feats": [
+    "Cleave",
+    "Critical Focus",
+    "Improved Critical (claws)",
+    "Power Attack",
+    "Quicken Spell-Like Ability (summon swarm)",
+    "Sickening Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "5 claws +21 (1d6+8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A deadly and vicious bouquet of insectile claws sprouts from this horrid, three-legged, multi-eyed beast.",
+  "meta": {
+    "cmb": "+23",
+    "cmd": "38 (40 vs. trip)",
+    "racialModifiers": [
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or infestation (2-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

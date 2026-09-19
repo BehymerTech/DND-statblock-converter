@@ -1,0 +1,120 @@
+{
+  "name": "Dread Lord",
+  "sourceSystem": "pf1",
+  "source": "Horror Adventures",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 23,
+    "notes": "armor +10, deflection +1, dex +1, natural +1",
+    "touch": 12,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 131,
+    "formula": "11d10+66"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 18,
+    "int": 14,
+    "wis": 8,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +14, Ref +9, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +9, Handle Animal +18, Intimidate +18, Knowledge (history) +8, Knowledge (nobility) +8, Perception +10, Ride +12, Sense Motive +13, Swim +9",
+    "list": {
+      "Climb": "+9",
+      "Handle Animal": "+18",
+      "Intimidate": "+18",
+      "Perception": "+10",
+      "Ride": "+12",
+      "Sense Motive": "+13",
+      "Swim": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Infernal"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 11,
+  "feats": [
+    "Blind-Fight",
+    "Dazzling Display",
+    "Distracting Charge",
+    "Improved Critical (greatsword)",
+    "Improved Initiative",
+    "Iron Will",
+    "OutflankAPG",
+    "Power Attack",
+    "Step Up",
+    "Toughness",
+    "Weapon Focus (greatsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 greatsword +19/+14/+9 (2d6+10/17-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite longbow +15 (1d8+6/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Majestic in manner, this woman is clad in ornate plate armor and has a haunted look deep in her eyes.",
+  "meta": {
+    "race": "Human",
+    "class": "dread lord cavalier 11 (Pathfinder RPG Advanced Player’s Guide 32)",
+    "cmb": "+17",
+    "cmd": 31,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or troop (1 plus 208 fighters of 4th-level)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (+1 greatsword, +1 full plate, amulet of natural armor +1, cloak of resistance +3, ring of protection +1, masterwork composite longbow with 20 bolts)"
+      }
+    ]
+  }
+}

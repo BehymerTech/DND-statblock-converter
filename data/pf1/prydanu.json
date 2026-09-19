@@ -1,0 +1,121 @@
+{
+  "name": "Prydanu",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 126: Beyond the Veiled Past",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "azata, chaotic, extraplanar, good",
+  "alignment": "CG",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 31,
+    "notes": "deflection +5, dex +5, natural +12, size -1",
+    "touch": 19,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 243,
+    "formula": "18d10+144"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (perfect), swim 30 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 21,
+    "con": 24,
+    "int": 17,
+    "wis": 24,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +13, Ref +16, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +32, Heal +28, Intimidate +24, Knowledge (dungeoneering) +24, Knowledge (planes) +24, Perception +28, Sense Motive +28, Spellcraft +24, Swim +29",
+    "list": {
+      "Fly": "+32",
+      "Heal": "+28",
+      "Intimidate": "+24",
+      "Perception": "+28",
+      "Sense Motive": "+28",
+      "Spellcraft": "+24",
+      "Swim": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "true seeing"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Aklo",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 18,
+  "feats": [
+    "Combat Reflexes",
+    "Flyby Attack",
+    "Hover",
+    "Improved Critical (trident)",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack",
+    "Spell Penetration",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 aberration-bane returning trident +27/+22/+17/+12 (2d6+10/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+2 aberration-bane returning trident +24 (1d8+9/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Translucent wings protrude from this statuesque figure’s back. Patches of pale scales glisten on its skin.",
+  "meta": {
+    "cmb": "+27",
+    "cmd": 47,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Elysium)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or liberty (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+2 aberration-bane returning trident, other treasure)"
+      }
+    ]
+  }
+}

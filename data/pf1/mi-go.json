@@ -1,0 +1,113 @@
+{
+  "name": "Mi-go",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 46: Wake of the Watcher",
+  "size": "Medium",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 20,
+    "notes": "dex +5, dodge +1, natural +4",
+    "touch": 16,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 66,
+    "formula": "7d8+35"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 50 ft. (good)"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 20,
+    "con": 21,
+    "int": 25,
+    "wis": 14,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +10, Ref +7, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +18, Disable Device +12, Disguise +18, Fly +9, Heal +9, Knowledge (arcana) +14, Knowledge (geography) +14, Perception +12, Spellcraft +14, Stealth +15",
+    "list": {
+      "Bluff": "+18",
+      "Disable Device": "+12",
+      "Disguise": "+18",
+      "Fly": "+9",
+      "Heal": "+9",
+      "Perception": "+12",
+      "Spellcraft": "+14",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "low-light vision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Mi-Go"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 5,
+  "feats": [
+    "Combat Reflexes",
+    "Deceitful",
+    "Dodge",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 claws +10 (1d4+3 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This unnaturally graceful creature has a bulbous fungoid lump for a head, spiny insectoid wings, and a tangle of spiky, clawed legs.",
+  "meta": {
+    "cmb": "8 (+12 grapple)",
+    "cmd": "24 (32 vs. trip)",
+    "racialModifiers": [
+      "Bluff 4",
+      "Disguise 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, scouting party (3-9), or invasion (9-16)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

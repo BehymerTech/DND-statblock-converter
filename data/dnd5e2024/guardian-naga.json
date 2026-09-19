@@ -1,0 +1,95 @@
+{
+  "name": "Guardian Naga",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Large",
+  "type": "Celestial",
+  "subtype": "",
+  "alignment": "Lawful Good",
+  "cr": "10",
+  "level": null,
+  "xp": 5900,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 136,
+    "formula": "16d10 + 48"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": 40,
+    "climb": 40,
+    "burrow": null,
+    "notes": "40 ft., Climb 40 ft., Swim 40 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 18,
+    "con": 16,
+    "int": 16,
+    "wis": 19,
+    "cha": 18
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Arcana +11, History +11, Religion +11",
+    "list": {
+      "Arcana": "+11",
+      "History": "+11",
+      "Religion": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Celestial",
+    "Common"
+  ],
+  "initiative": "+4 (14)",
+  "babOrProficiency": 4,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Celestial Restoration",
+      "text": "If the naga dies, it returns to life in 1d6 days and regains all its Hit Points unless _Dispel Evil and Good_ is cast on its remains."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The naga makes two Bite attacks. It can replace any attack with a use of Poisonous Spittle."
+    },
+    {
+      "name": "Bite",
+      "text": "_Melee Attack Roll:_ +8, reach 10 ft. _Hit:_ 17 (2d12 + 4) Piercing damage plus 22 (4d10) Poison damage."
+    },
+    {
+      "name": "Poisonous Spittle",
+      "text": "_Constitution Saving Throw:_ DC 16, one creature the naga can see within 60 feet. _Failure:_ 31 (7d8) Poison damage, and the target has the Blinded condition until the start of the naga's next turn. _Success:_ Half damage only."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The naga casts one of the following spells, requiring no Somatic or Material components and using Wisdom as the spellcasting ability (spell save DC 16): <br> &emsp;**At Will:** _Thaumaturgy_ <br> &emsp;**1/Day Each:** _Clairvoyance_, _Cure Wounds_ (level 6 version), _Flame Strike_ (level 6 version), _Geas_, _True Seeing_ ## Guards"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

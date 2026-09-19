@@ -1,0 +1,117 @@
+{
+  "name": "Hallowed Lynx",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 138: Rise of New Thassilon",
+  "size": "Small",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 29,
+    "notes": "dex +5, dodge +1, natural +12, size +1",
+    "touch": 17,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 241,
+    "formula": "23d10+115"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 21,
+    "con": 19,
+    "int": 4,
+    "wis": 10,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +17, Ref +20, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +37, Climb +9, Perception +0",
+    "list": {
+      "Acrobatics": "+37",
+      "Climb": "+9",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "arcane sight",
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 10,
+  "languages": [
+    "Azlanti",
+    "Thassilonian (can’t speak)"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 23,
+  "feats": [
+    "Dodge",
+    "Following Step",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Mobility",
+    "Quicken Spell-Like Ability (dispel magic)",
+    "Skill Focus (Acrobatics)",
+    "Spring Attack",
+    "Step Up",
+    "Step Up And StrikeAPG",
+    "Toughness",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +29 (1d6+1), 2 claws +29 (1d6+1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "blinding orb +24 touch (10d8 plus blindness)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Within a halo of brilliant, glowing orbs are the distinctive features of a compact feline with tufted ears, a short tail, and keen, piercing eyes.",
+  "meta": {
+    "cmb": "+23",
+    "cmd": "39 (43 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

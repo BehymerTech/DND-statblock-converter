@@ -1,0 +1,101 @@
+{
+  "name": "Storm Giant",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Huge",
+  "type": "Giant",
+  "subtype": "",
+  "alignment": "Chaotic Good",
+  "cr": "13",
+  "level": null,
+  "xp": 10000,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 230,
+    "formula": "20d12 + 100"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": 25,
+    "swim": 50,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., Fly 25 ft. (hover), Swim 50 ft."
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 14,
+    "con": 20,
+    "int": 16,
+    "wis": 20,
+    "cha": 18
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Arcana +8, Athletics +14, History +8, Perception +10",
+    "list": {
+      "Arcana": "+8",
+      "Athletics": "+14",
+      "History": "+8",
+      "Perception": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 120 ft.",
+    "Truesight 30 ft."
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+7 (17)",
+  "babOrProficiency": 5,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The giant can breathe air and water."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The giant makes two attacks, using Storm Sword or Thunderbolt in any combination."
+    },
+    {
+      "name": "Storm Sword",
+      "text": "_Melee Attack Roll:_ +14, reach 10 ft. _Hit:_ 23 (4d6 + 9) Slashing damage plus 13 (3d8) Lightning damage."
+    },
+    {
+      "name": "Thunderbolt",
+      "text": "_Ranged Attack Roll:_ +14, range 500 ft. _Hit:_ 22 (2d12 + 9) Lightning damage, and the target has the Blinded and Deafened conditions until the start of the giant's next turn."
+    },
+    {
+      "name": "Lightning Storm (Recharge 5–6)",
+      "text": "_Dexterity Saving Throw:_ DC 18, each creature in a 10-foot-radius, 40-foot-high Cylinder originating from a point the giant can see within 500 feet. _Failure:_ 55 (10d10) Lightning damage. _Success:_ Half damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The giant casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 18): <br> &emsp;**At Will:** Detect Magic, Light <br> &emsp;**1/Day:** Control Weather ## Succubus"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

@@ -1,0 +1,83 @@
+{
+  "name": "Giant Elk",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Huge",
+  "type": "beast",
+  "subtype": "",
+  "alignment": "unaligned",
+  "cr": "2",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 14,
+    "notes": "natural armor"
+  },
+  "hp": {
+    "average": 42,
+    "formula": "5d12 + 10"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 16,
+    "con": 14,
+    "int": 7,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +4",
+    "list": {
+      "perception": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 14,
+  "languages": [
+    "Giant Elk",
+    "understands Common, Elvish, Sylvan but can't speak them"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Charge",
+      "text": "If the elk moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Ram",
+      "text": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage."
+    },
+    {
+      "name": "Hooves",
+      "text": "Melee Weapon Attack: +6 to hit, reach 5 ft., one prone creature. Hit: 22 (4d8 + 4) bludgeoning damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

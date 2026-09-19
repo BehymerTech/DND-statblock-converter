@@ -1,0 +1,119 @@
+{
+  "name": "Khala",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Irrisen - Land of Eternal Winter",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "cold",
+  "alignment": "CE",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 31,
+    "notes": "dex +6, natural +16, size -1",
+    "touch": 15,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 261,
+    "formula": "18d12+144"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 90 ft. (good)"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 22,
+    "con": 27,
+    "int": 22,
+    "wis": 21,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +19, Ref +17, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +27, Bluff +28, Diplomacy +28, Fly +29, Intimidate +28, Knowledge (geography) +27, Knowledge (local) +27, Knowledge (nature) +27, Perception +30, Sense Motive +30, Stealth +23, Survival +26",
+    "list": {
+      "Appraise": "+27",
+      "Bluff": "+28",
+      "Diplomacy": "+28",
+      "Fly": "+29",
+      "Intimidate": "+28",
+      "Perception": "+30",
+      "Sense Motive": "+30",
+      "Stealth": "+23",
+      "Survival": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Abyssal",
+    "Aquan",
+    "Common",
+    "Draconic",
+    "Giant",
+    "Goblin"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 18,
+  "feats": [
+    "Alertness",
+    "Critical Focus",
+    "Empower Spell-Like Ability (ice storm)",
+    "Flyby Attack",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Multiattack",
+    "Power Attack",
+    "Staggering Critical",
+    "Stunning Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "3 bites +27 (2d10+10/19-20 plus disease), tail +25 (2d8+10 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This dragon has broad, ragged wings. Its serpentine body ends in three long, f lailing necks with hissing, triangular heads.",
+  "meta": {
+    "cmb": "29 (+33 grapple)",
+    "cmd": "45 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any cold"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Tough Boss",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "or Small Humanoid",
+  "subtype": "",
+  "alignment": "Neutral",
+  "cr": "4",
+  "level": null,
+  "xp": 1100,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 82,
+    "formula": "11d8 + 33"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 14,
+    "con": 16,
+    "int": 11,
+    "wis": 10,
+    "cha": 11
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 10,
+  "languages": [
+    "Common plus one other language"
+  ],
+  "initiative": "+2 (12)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Pack Tactics",
+      "text": "The tough has Advantage on an attack roll against a creature if at least one of the tough's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The tough makes two attacks, using Warhammer or Heavy Crossbow in any combination."
+    },
+    {
+      "name": "Warhammer",
+      "text": "_Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 12 (2d8 + 3) Bludgeoning damage. If the target is a Large or smaller creature, the tough pushes the target up to 10 feet straight away from itself."
+    },
+    {
+      "name": "Heavy Crossbow",
+      "text": "_Ranged Attack Roll:_ +4, range 100/400 ft. _Hit:_ 13 (2d10 + 2) Piercing damage. ## Treant"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

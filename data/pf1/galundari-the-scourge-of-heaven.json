@@ -1,0 +1,115 @@
+{
+  "name": "Galundari, the Scourge of Heaven",
+  "sourceSystem": "pf1",
+  "source": "Demons Revisited",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "25",
+  "level": null,
+  "xp": 1638400,
+  "ac": {
+    "value": 44,
+    "notes": "armor +11, deflection +4, dex +4, natural +16, size -1",
+    "touch": 17,
+    "flatFooted": 40
+  },
+  "hp": {
+    "average": 542,
+    "formula": "25d10+405"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 90 ft. (good)"
+  },
+  "abilities": {
+    "str": 40,
+    "dex": 23,
+    "con": 40,
+    "int": 26,
+    "wis": 24,
+    "cha": 29
+  },
+  "saves": {
+    "text": "Fort +35, Ref +19, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +32, Bluff +37, Craft (weaponsmith) +38, Diplomacy +37, Fly +34, Intimidate +37, Knowledge (history) +28, Knowledge (nobility) +28, Knowledge (planes) +31, Knowledge (religion) +31, Perception +43, Sense Motive +35, Stealth +28, Use Magic Device +37",
+    "list": {
+      "Acrobatics": "+32",
+      "Bluff": "+37",
+      "Diplomacy": "+37",
+      "Fly": "+34",
+      "Intimidate": "+37",
+      "Perception": "+43",
+      "Sense Motive": "+35",
+      "Stealth": "+28",
+      "Use Magic Device": "+37"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 53,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Draconic",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 25,
+  "feats": [
+    "Craft Magic Arms and Armor",
+    "Craft Wondrous Item",
+    "Critical Focus",
+    "Greater Two-Weapon Fighting",
+    "Improved Two- Weapon Fighting",
+    "Improved Vital Strike",
+    "Lightning Reflexes",
+    "Master Craftsman",
+    "Power Attack",
+    "Quicken Spell-Like Ability (telekinesis)",
+    "Staggering Critical",
+    "Toughness",
+    "Two-Weapon Fighting",
+    "Vital Strike",
+    "Weapon Focus (longsword)",
+    "Weapon Specialization (longsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+5 vorpal good outsider-bane flaming burst unholy longsword +44/+39/+34/+29 (2d6+23/19-20 plus 1d6 fire), +5 vorpal good outsider-bane flaming burst unholy whip +42/+37/+32 (1d4+12 plus 1d6 fire and entangle)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+5 unholy good outsider-bane flaming burst composite longbow +35/+30/+25/+20 (2d6+20/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering, burning demon wears black, spiky armor and carries two weapons-a jagged sword and a whip of flames.",
+  "meta": {
+    "race": "Male",
+    "class": "balor lord fighter 5 (Pathfinder RPG Bestiary 59)",
+    "cmb": "+41",
+    "cmd": 61
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "name": "NPC Elven Recluse",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "alignment": "N",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 35,
+    "notes": "armor +11, deflection +1, dex +5, dodge +2, natural +5, shield +1",
+    "touch": 18,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 149,
+    "formula": "17d10+51"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 20,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +14, Ref +14, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +10, Craft (bows) +5, Craft (weapons) +5, Knowledge (geography) +11, Knowledge (nature) +16, Perception +3, Stealth +10, Survival +16, Swim +6",
+    "list": {
+      "Climb": "+10",
+      "Perception": "+3",
+      "Stealth": "+10",
+      "Survival": "+16",
+      "Swim": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 13,
+  "languages": [
+    "Common",
+    "Elven",
+    "Sylvan"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 17,
+  "feats": [
+    "Combat Expertise",
+    "Dodge",
+    "Greater Two-Weapon Fighting",
+    "Greater Weapon Focus (quarterstaff)",
+    "Greater Weapon Specialization (quarterstaff)",
+    "Improved Two-Weapon Fighting",
+    "Iron Will",
+    "Lunge",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Rapid Shot",
+    "Toughness",
+    "Two-Weapon Defense",
+    "Two-Weapon Fighting",
+    "Weapon Focus (composite longbow)",
+    "Weapon Focus (quarterstaff)",
+    "Weapon Specialization (composite longbow)",
+    "Weapon Specialization (quarterstaff)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk quarterstaff +26/+26/+21/+16/+11 (1d6+11), mwk quarterstaff +26/+21/+16 (1d6+9)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 seeking composite longbow +26/+26/+26/+21/+16/+11 (1d8+9/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Elf",
+    "class": "fighter 17",
+    "cmb": "+21",
+    "cmd": 38
+  }
+}

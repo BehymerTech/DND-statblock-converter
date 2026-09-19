@@ -1,0 +1,111 @@
+{
+  "name": "Samsaran Anchorite",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 224.",
+  "size": "Medium",
+  "type": "Samsaran",
+  "subtype": "Humanoid",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 16,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 10,
+    "int": 12,
+    "wis": 18,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +3, Ref +7, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Medicine__: +6 (1d20+6); __Occultism__: +6 (1d20+6); __Religion__: +7 (1d20+7); __Society__: +4 (1d20+4); ",
+    "list": {
+      "Medicine": "+6",
+      "Occultism": "+6",
+      "Religion": "+7",
+      "Society": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Samsaran"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Cryptomnesia",
+      "text": "A samsaran anchorite subconsciously retains bits of knowledge from their innumerable former lives, granting them a +1 circumstance bonus to skill checks that aren't listed in their skills above, and allowing them to attempt all skill actions that normally require the user to be trained."
+    },
+    {
+      "name": "Items",
+      "text": "spear, sling (10 bullets);"
+    },
+    {
+      "name": "All This Has Happened Before",
+      "text": "⬲ (divination, occult); Frequency once per day Effect Trigger The samsaran anchorite is about to roll initiative; The anchorite experiences a flash of recognition from a previous existence, gaining a +4 circumstance bonus to the triggering roll. If this causes the anchorite to be the first creature to act, they also become quickened for 1 round, but they can use the extra action only to Recall Knowledge or Step."
+    },
+    {
+      "name": "All This Will Happen Again",
+      "text": "⬲ (fortune, emotion, mental); Frequency once per day Trigger The samsaran anchorite fails or critically fails a Will save against an emotion effect Effect Even in the face of overwhelming tribulation, the anchorite finds solace in the notion that all things are merely part of a never-ending cycle. They reroll the saving throw with a +1 status bonus; they must use the second result."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ spear +5 Damage 1d6+2 (1d6+2) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ sling +7 (range increment 50 feet, reload 1); Damage 1d4+2 (1d4+2) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      2,
+      0,
+      1,
+      4,
+      2
+    ],
+    "items": "spear, sling (10 bullets);"
+  }
+}

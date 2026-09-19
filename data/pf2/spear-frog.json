@@ -1,0 +1,96 @@
+{
+  "name": "Spear Frog",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 121.",
+  "size": "Tiny",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 0",
+  "xp": null,
+  "ac": {
+    "value": 14,
+    "notes": ""
+  },
+  "hp": {
+    "average": 12,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, climb 20 feet, swim 20 feet"
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 16,
+    "con": 12,
+    "int": 2,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +5, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +5 (1d20+5); __Athletics__: +0 (1d20+0), (Athletics: +6 (1d20+6) to Climb, High Jump, Long Jump, and Swim); ",
+    "list": {
+      "Acrobatics": "+5",
+      "Athletics": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Toxic Skin",
+      "text": "Anytime a creature touches the spear frog or an adjacent creature Strikes the spear frog with a melee attack, that creature is exposed to spear frog venom."
+    },
+    {
+      "name": "Spear Frog Venom",
+      "text": "(poison); Saving Throw DC 15 Fortitude. Maximum Duration 6 rounds Stage 1 1d4 (1d4) poison damage (1 round) Stage 2 1d6 (1d6) poison damage and enfeebled 1 (1 round)"
+    },
+    {
+      "name": "Sticky Feet",
+      "text": "Spear frogs are not flat-footed when Balancing on a narrow surface, and they gain a +4 bonus to Reflex saves to avoid falling."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +7 (agile, finesse); Damage 1d6 (1d6) piercing plus spear frog venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -2,
+      3,
+      1,
+      -4,
+      2,
+      0
+    ]
+  }
+}

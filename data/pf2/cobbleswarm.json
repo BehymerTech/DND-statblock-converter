@@ -1,0 +1,95 @@
+{
+  "name": "Cobbleswarm",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 52.",
+  "size": "Large",
+  "type": "Swarm",
+  "subtype": "Aberration, Earth",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, burrow 10 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 14,
+    "int": 4,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +10, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +8 (1d20+8); __Stealth__: +10 (1d20+10); ",
+    "list": {
+      "Athletics": "+8",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "no vision, precise tremorsense 40"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Clutching Cobbles",
+      "text": "The cobbleswarm's space is difficult terrain."
+    },
+    {
+      "name": "Tremorsense",
+      "text": "A cobbleswarm's tremorsense is a precise sense out to 40 feet and an imprecise sense out to 80 feet. A cobbleswarm can't sense anything beyond the range of its tremorsense."
+    },
+    {
+      "name": "Grasping Bites",
+      "text": "⬺ (attack); The cobbleswarm attempts an Athletics check and compares the result to the Fortitude DC of each creature in its space. This counts as two attacks for the cobbleswarm's multiple attack penalty. Critical Success The creature falls prone, takes 1d6 (1d6) bludgeoning damage, and is grabbed by the cobbleswarm until the end of the cobbleswarm's next turn. Success The creature falls prone."
+    },
+    {
+      "name": "Pummeling Assault",
+      "text": "⬻ Each foe in the cobbleswarm's space takes 2d4 (2d4) bludgeoning damage (DC 17 basic Reflex save)."
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      4,
+      2,
+      -3,
+      3,
+      0
+    ]
+  }
+}

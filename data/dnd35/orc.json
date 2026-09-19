@@ -1,0 +1,96 @@
+{
+  "name": "Orc",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Orc",
+  "alignment": "Often chaotic evil",
+  "cr": "1/2",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 13,
+    "notes": "+3 studded leather armor",
+    "touch": 10,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 5,
+    "formula": "1d8+1"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares)"
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 11,
+    "con": 12,
+    "int": 8,
+    "wis": 7,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +3, Ref +0, Will -2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Listen +1, Spot +1;",
+    "list": {
+      "Listen": "+1",
+      "Spot": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 1,
+  "feats": [
+    "Alertness"
+  ],
+  "traits": [
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., light sensitivity"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Falchion +4 melee (2d4+4/18-20) or javelin +1 ranged (1d6+3)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Falchion +4 melee (2d4+4/18-20) or javelin +1 ranged (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "An orc's hair usually is black. It has lupine ears and reddish eyes. Orcs prefer wearing vivid colors that many humans would consider unpleasant, such as blood red, mustard yellow, yellow-green, and deep purple. Their equipment is dirty and unkempt. An adult male orc is a little over 6 feet tall and weighs about 210 pounds.",
+    "grapple": "+4",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Temperate hills",
+    "organization": "Gang (2-4), squad (11-20 plus 2 3rd-level sergeants and 1 leader of 3rd-6th level), or band (30-100 plus 150% noncombatants plus 1 3rd-level sergeant per 10 adults, 5 5th-level lieutenants, and 3 7th-level captains)",
+    "treasure": "Standard",
+    "advancement": "By character class",
+    "leveladjustment": "+0"
+  }
+}

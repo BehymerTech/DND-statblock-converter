@@ -1,0 +1,90 @@
+{
+  "name": "Giant Maggot",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Pathfinder No. 8: Seven Days to the Grave",
+  "size": "Medium",
+  "type": "vermin",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 9,
+    "notes": "dex -1",
+    "touch": 9,
+    "flatFooted": 9
+  },
+  "hp": {
+    "average": 7,
+    "formula": "1d8+3"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., burrow 5 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 8,
+    "con": 16,
+    "int": "None",
+    "wis": 5,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +5, Ref -1, Will -3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "-1",
+  "babOrProficiency": 0,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +0 (1d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous maggot has greasy, pale flesh and a dripping, circular mouth filled with tiny, sharp teeth.",
+  "meta": {
+    "cmb": "+0",
+    "cmd": "9 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any temperate or tropical"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or swarm (2-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

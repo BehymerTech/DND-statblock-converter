@@ -1,0 +1,115 @@
+{
+  "name": "NPC Master Universalist",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "alignment": "N",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 26,
+    "notes": "armor +4, deflection +5, dex +1, insight +2, natural +4",
+    "touch": 18,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 172,
+    "formula": "20d6+100"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 12,
+    "con": 16,
+    "int": 28,
+    "wis": 12,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +14, Ref +14, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +16, Fly +14, Intimidate +11, Knowledge (arcana) +32, Knowledge (history) +32, Knowledge (planes) +32, Knowledge (geography) +22, Knowledge (local) +22, Knowledge (nature) +22, Knowledge (nobility) +22, Knowledge (religion) +22, Perception +18, Sense Motive +11, Spellcraft +32, Stealth +11, Use Magic Device +21",
+    "list": {
+      "Diplomacy": "+16",
+      "Fly": "+14",
+      "Intimidate": "+11",
+      "Perception": "+18",
+      "Sense Motive": "+11",
+      "Spellcraft": "+32",
+      "Stealth": "+11",
+      "Use Magic Device": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Aklo",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Dwarf",
+    "Elven",
+    "Giant",
+    "Gnome",
+    "Halfling",
+    "Orc",
+    "Sylvan"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 10,
+  "feats": [
+    "Combat Casting",
+    "Craft Staff",
+    "Craft Wondrous Item",
+    "Extend Spell",
+    "Forge Ring",
+    "Greater Spell Focus (evocation)",
+    "Improved Initiative",
+    "Maximize Spell",
+    "Quicken Spell",
+    "Scribe Scroll",
+    "Silent Spell",
+    "Spell Focus (evocation)",
+    "Spell Penetration",
+    "Still Spell",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "quarterstaff +9/+4 (1d6-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Elf",
+    "class": "wizard 20",
+    "cmb": "+9",
+    "cmd": 27
+  }
+}

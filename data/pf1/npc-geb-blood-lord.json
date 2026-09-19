@@ -1,0 +1,117 @@
+{
+  "name": "NPC Geb Blood Lord",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "augmented humanoid",
+  "alignment": "LE",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 20,
+    "notes": "deflection +2, dex +2, dodge +1, natural +5",
+    "touch": 15,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 161,
+    "formula": "13d6+4d8+98"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": "None",
+    "int": 26,
+    "wis": 14,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +10, Ref +9, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +12, Bluff +20, Diplomacy +25, Knowledge (arcana) +28, Knowledge (engineering) +20, Knowledge (geography) +15, Knowledge (history) +25, Knowledge (local) +25, Knowledge (nobility) +20, Knowledge (planes) +15, Knowledge (religion) +28, Perception +30, Sense Motive +27, Spellcraft +28, Stealth +25, Use Magic Device +22",
+    "list": {
+      "Appraise": "+12",
+      "Bluff": "+20",
+      "Diplomacy": "+25",
+      "Perception": "+30",
+      "Sense Motive": "+27",
+      "Spellcraft": "+28",
+      "Stealth": "+25",
+      "Use Magic Device": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Aklo",
+    "Ancient Osiriani",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "Kelish",
+    "Necril",
+    "Osiriani"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 9,
+  "feats": [
+    "Ability Focus (paralyzing touch)",
+    "Combat Casting",
+    "Command Undead",
+    "Craft Wondrous Item",
+    "Dodge",
+    "Extra Channel",
+    "Greater Spell Focus (necromancy)",
+    "Improved Channel",
+    "Improved Familiar",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Scribe Scroll",
+    "Spell Focus (necromancy)",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "touch +11 (1d8+8 plus paralyzing touch)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "lich aristocrat 4, necromancer 13",
+    "cmb": "+9",
+    "cmd": 24,
+    "racialModifiers": [
+      "Perception 8",
+      "Sense Motive 8",
+      "Stealth 8"
+    ]
+  }
+}

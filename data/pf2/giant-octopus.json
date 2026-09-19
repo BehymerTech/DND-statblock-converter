@@ -1,0 +1,113 @@
+{
+  "name": "Giant Octopus",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 250.",
+  "size": "Huge",
+  "type": "Aquatic",
+  "subtype": "Animal",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 135,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 feet, swim 40 feet; compression;"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 18,
+    "int": 4,
+    "wis": 16,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +16, Ref +17, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +17 (1d20+17); __Athletics__: +20 (1d20+20); __Stealth__: +17 (1d20+17); ",
+    "list": {
+      "Acrobatics": "+17",
+      "Athletics": "+20",
+      "Stealth": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 25,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Compression",
+      "text": "A giant octopus can move through a gap at least 2 feet wide without Squeezing, and can Squeeze through a gap at least 1 foot wide."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 1d8+9 (1d8+9) bludgeoning."
+    },
+    {
+      "name": "Giant Octopus Venom",
+      "text": "(poison); Saving Throw DC 26 Fortitude. Maximum Duration 6 rounds Stage 1 2d6 (2d6) poison damage and flat-footed (1 round) Stage 2 2d6 (2d6) poison damage, clumsy 1, and flat-footed (1 round) Stage 3 2d6 (2d6) poison damage, clumsy 2, and flat-footed (1 round)"
+    },
+    {
+      "name": "Ink Cloud",
+      "text": "⬻ The octopus emits a cloud of black ink in a 30-foot emanation. This cloud has no effect outside of water. Creatures inside the cloud are undetected and can't use their sense of smell. The cloud dissipates after 1 minute. The octopus can't use Ink Cloud again for 2d6 (2d6) rounds."
+    },
+    {
+      "name": "Jet",
+      "text": "⬺ (move); The octopus moves up to 200 feet in a straight line through the water without triggering reactions."
+    },
+    {
+      "name": "Writhing Arms",
+      "text": "⬺ The giant octopus makes up to four Strikes with different arms, each against a different target. Each attack counts separately for the octopus's multiple attack penalty, but the penalty doesn't increase the penalty until the octopus has made all the attacks. If the octopus subsequently uses the Grab action, it can Grab any number of creatures it hit with Writhing Arms."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ arm +20 (agile, reach 15 feet); Damage 2d8+9 (2d8+9) bludgeoning plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ beak +20 Damage 2d8+9 (2d8+9) piercing plus giant octopus venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      3,
+      4,
+      -3,
+      3,
+      -2
+    ]
+  }
+}

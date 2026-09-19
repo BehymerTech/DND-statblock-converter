@@ -1,0 +1,114 @@
+{
+  "name": "Raelis",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Pathfinder No. 66: The Dead Heart of Xin",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "azata, chaotic, extraplanar, good",
+  "alignment": "CG",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 23,
+    "notes": "dex +4, natural +10, size -1",
+    "touch": 13,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 115,
+    "formula": "11d10+55"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 120 ft. (good)"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 19,
+    "con": 20,
+    "int": 18,
+    "wis": 15,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +8, Ref +11, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +18, Bluff +18, Disguise +14, Fly +20, Knowledge (geography) +18, Knowledge (planes) +18, Knowledge (history) +15, Perception +16, Perform (oratory) +18, Spellcraft +18, Stealth +14",
+    "list": {
+      "Acrobatics": "+18",
+      "Bluff": "+18",
+      "Disguise": "+14",
+      "Fly": "+20",
+      "Perception": "+16",
+      "Spellcraft": "+18",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 11,
+  "feats": [
+    "Greater Grapple",
+    "Improved Grapple",
+    "Improved Initiative",
+    "Improved Unarmed Strike",
+    "Power Attack",
+    "Weapon Focus (slam)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +19 (2d8+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This bronze-skinned humanoid is muscular yet lithe, garbed in colorful clothing emblazoned with glowing runes.",
+  "meta": {
+    "cmb": "19 (+23 grapple)",
+    "cmd": "33 (35 vs. grapple)",
+    "racialModifiers": [
+      "Disguise 10"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Elysium)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or band (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

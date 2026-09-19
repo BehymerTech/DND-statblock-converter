@@ -1,0 +1,84 @@
+{
+  "name": "Ship Sentinel",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 57: Tempest Rising",
+  "size": "Large",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "dex +5, natural +6, size -1",
+    "touch": 14,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 68,
+    "formula": "7d10+30"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 21,
+    "con": "None",
+    "int": "None",
+    "wis": 23,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +2, Ref +7, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "ship sight"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+9",
+  "babOrProficiency": 7,
+  "feats": [
+    "Improved InitiativeEcologyEnvironment any water"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk spear +11/+6 (2d6+6 plus salted wound/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk spear +12 (2d6+4 plus salted wound/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A larger-than-life wooden carving of a mermaid holding a spear clambers forward, the vibrant paint coating her frame encrusted in years’ worth of sea salt.",
+  "meta": {
+    "cmb": "+12",
+    "cmd": 27
+  }
+}

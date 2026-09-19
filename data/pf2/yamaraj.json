@@ -1,0 +1,130 @@
+{
+  "name": "Yamaraj",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 211.",
+  "size": "Huge",
+  "type": "Psychopomp",
+  "subtype": "Monitor",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 20",
+  "xp": null,
+  "ac": {
+    "value": 45,
+    "notes": ""
+  },
+  "hp": {
+    "average": 375,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet, fly 50 feet, swim 30 feet"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 24,
+    "con": 24,
+    "int": 30,
+    "wis": 24,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +33, Ref +31, Will +35",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +33 (1d20+33); __Athletics__: +36 (1d20+36); __Deception__: +34 (1d20+34); __Diplomacy__: +34 (1d20+34); __Intimidation__: +36 (1d20+36); __Occultism__: +38 (1d20+38); __Religion__: +38 (1d20+38); __Society__: +38 (1d20+38); __Boneyard lore__: +40 (1d20+40); __Legal lore__: +40 (1d20+40); ",
+    "list": {
+      "Acrobatics": "+33",
+      "Athletics": "+36",
+      "Deception": "+34",
+      "Diplomacy": "+34",
+      "Intimidation": "+36",
+      "Occultism": "+38",
+      "Religion": "+38",
+      "Society": "+38",
+      "Boneyard lore": "+40",
+      "Legal lore": "+40"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, lifesense 240, true seeing"
+  ],
+  "passivePerception": 47,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Infernal",
+    "Requian; telepathy 120 feet",
+    "tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 60 feet, DC 39."
+    },
+    {
+      "name": "Lightning Drinker",
+      "text": "Whenever a yamaraj would take electricity damage if not for its immunity, its fast healing increases to 40 on its next turn. During that turn, if it uses its breath weapon, the beetles crackle with electricity and deal 2d12 (2d12) additional electricity damage."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (divine, evocation); The yamaraj breathes a blast of beetles in a 50-foot cone that deals 14d8 (14d8) slashing damage and 4d8 (4d8) persistent slashing damage to creatures in the area (DC 42 Reflex save). It can't use Breath Weapon again for 1d4 (1d4) rounds. Critical Success The creature takes no damage. Success The creature takes half damage and is sickened 1. Failure The creature takes full damage and is sickened 2. Critical Failure The creature takes double damage and is sickened 3."
+    },
+    {
+      "name": "Final Judgment",
+      "text": "A yamaraj's miracle spells are used only to pronounce judgment, typically either to restore a dead or destroyed creature to life, bind a creature to the Boneyard, or banish a creature from the Boneyard."
+    },
+    {
+      "name": "Spirit Touch",
+      "text": "A yamaraj's Strikes affect incorporeal creatures with the effects of a ghost touch property rune and deal 3d6 (3d6) negative damage to living creatures and 3d6 (3d6) positive damage to undead."
+    },
+    {
+      "name": "Yamaraj Venom",
+      "text": "(poison); Saving Throw DC 42 Fortitude. Maximum Duration 10 rounds Stage 1 3d8 (3d8) poison damage and clumsy 1 (1 round) Stage 2 5d8 (5d8) poison damage and clumsy 2 (1 round) Stage 3 7d8 (7d8) poison damage and clumsy 3 (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +38 (magical, reach 15 feet); Damage 4d8+18 (4d8+18) piercing plus Improved Grab and yamaraj venom and spirit touch"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +38 (agile, magical, reach 15 feet); Damage 4d4+18 (4d4+18) slashing plus spirit touch"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +38 (magical, reach 20 feet); Damage 4d10+18 (4d10+18) bludgeoning plus spirit touch"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      10,
+      7,
+      7,
+      10,
+      7,
+      6
+    ]
+  }
+}

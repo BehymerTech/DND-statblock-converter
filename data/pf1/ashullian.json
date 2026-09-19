@@ -1,0 +1,109 @@
+{
+  "name": "Ashullian",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 135: Runeplague",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "native, water",
+  "alignment": "CE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 26,
+    "notes": "dex +7, natural +10, size -1",
+    "touch": 16,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 137,
+    "formula": "11d10+77"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 25,
+    "con": 23,
+    "int": 18,
+    "wis": 14,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +9, Ref +14, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (any 3) +18, Disable Device +16, Knowledge (planes) +12, Perception +16, Sleight of Hand +21, Spellcraft +18, Stealth +17, Swim +25, Use Magic Device +19",
+    "list": {
+      "Disable Device": "+16",
+      "Perception": "+16",
+      "Sleight of Hand": "+21",
+      "Spellcraft": "+18",
+      "Stealth": "+17",
+      "Swim": "+25",
+      "Use Magic Device": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "scent"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Aklo",
+    "Aquan"
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 11,
+  "feats": [
+    "Agile Maneuvers",
+    "Improved Initiative",
+    "Iron Will",
+    "Quicken Spell-Like Ability (hydraulic push)",
+    "Toughness",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 tentacles +17 (1d6+3), 2 tail slaps +12 (1d8+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous, eyeless eel-person has a round head atop its long neck and a thick torso with four hand-like tentacles and two long tails. Its skin is translucent, displaying colorful fluids rippling within, and embedded with strange objects.",
+  "meta": {
+    "cmb": "+19",
+    "cmd": 32,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any water (Kaer Maga)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or collective (2-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

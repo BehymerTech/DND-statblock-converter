@@ -1,0 +1,94 @@
+{
+  "name": "Clockwork Steed",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Large",
+  "type": "construct",
+  "subtype": "clockwork",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 20,
+    "notes": "dex +1, dodge +2, natural +8, size -1",
+    "touch": 12,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 74,
+    "formula": "8d10+30"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 13,
+    "con": "None",
+    "int": "None",
+    "wis": 10,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +2, Ref +5, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 8,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +14 (1d8+7), 2 hooves +9 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Gleaming gears whir and buzz in an orchestra of motion whenever this red-eyed steed moves.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": "29 (33 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

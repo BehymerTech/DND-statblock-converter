@@ -1,0 +1,129 @@
+{
+  "name": "Conqueror Worm",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Colossal",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "21",
+  "level": null,
+  "xp": 409600,
+  "ac": {
+    "value": 37,
+    "notes": "dex +7, natural +28, size -8",
+    "touch": 9,
+    "flatFooted": 30
+  },
+  "hp": {
+    "average": 406,
+    "formula": "28d8+280"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., other_semicolon air walk ft., burrow 30 ft."
+  },
+  "abilities": {
+    "str": 47,
+    "dex": 24,
+    "con": 30,
+    "int": 31,
+    "wis": 22,
+    "cha": 29
+  },
+  "saves": {
+    "text": "Fort +21, Ref +18, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +37, Diplomacy +37, Intimidate +40, Knowledge (arcana) +38, Knowledge (engineering) +38, Knowledge (geography) +38, Knowledge (history) +38, Knowledge (local) +38, Knowledge (nobility) +38, Knowledge (religion) +38, Perception +37, Sense Motive +34, Spellcraft +41, Use Magic Device +37",
+    "list": {
+      "Bluff": "+37",
+      "Diplomacy": "+37",
+      "Intimidate": "+40",
+      "Perception": "+37",
+      "Sense Motive": "+34",
+      "Spellcraft": "+41",
+      "Use Magic Device": "+37"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense",
+    "true seeing"
+  ],
+  "passivePerception": 47,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Elven",
+    "Gnome",
+    "Halfling",
+    "Infernal",
+    "Terran",
+    "Undercommon",
+    "telepathy 200 ft."
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 21,
+  "feats": [
+    "Combat Casting",
+    "Great Fortitude",
+    "Hidden Presence",
+    "Improved Critical (bite)",
+    "Improved Critical (slam)",
+    "Improved Great Fortitude",
+    "Improved Initiative",
+    "Intrusive Presence",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Logical Spell",
+    "Manipulative Presence",
+    "Quicken Spell",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +31 (6d8+18/19-20 plus 8d6 acid), slam +31 (4d10+18/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This immense worm resembles a gigantic maggot with pale flesh. Its mouth is peeled back to reveal four long, hooklike jaws.",
+  "meta": {
+    "cmb": "+47",
+    "cmd": "64 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

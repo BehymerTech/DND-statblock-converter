@@ -1,0 +1,131 @@
+{
+  "name": "Young Underworld Dragon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 83.",
+  "size": "Large",
+  "type": "Fire",
+  "subtype": "Dragon",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 115,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, burrow 30 feet, fly 80 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 14,
+    "con": 16,
+    "int": 18,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +18, Ref +13, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +11 (1d20+11); __Arcana__: +13 (1d20+13); __Athletics__: +17 (1d20+17); __Crafting__: +17 (1d20+17); __Deception__: +10 (1d20+10); __Intimidation__: +12 (1d20+12); __Nature__: +13 (1d20+13); __Stealth__: +13 (1d20+13); __Survival__: +11 (1d20+11); ",
+    "list": {
+      "Acrobatics": "+11",
+      "Arcana": "+13",
+      "Athletics": "+17",
+      "Crafting": "+17",
+      "Deception": "+10",
+      "Intimidation": "+12",
+      "Nature": "+13",
+      "Stealth": "+13",
+      "Survival": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60, smoke vision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Smoke Vision",
+      "text": "Smoke doesn't impair an underworld dragon's vision; they ignore the concealed condition from smoke."
+    },
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 90 feet, DC 23 (page 305)"
+    },
+    {
+      "name": "Adamantine Claws",
+      "text": "The dragon's claws are infused with adamantine. Their claw Strikes ignore half the Hardness of any object hit."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (arcane, evocation, fire); The dragon breathes a blast of fire that explodes in a 20-foot burst within 40 feet, dealing 7d6 (7d6) fire damage (DC 25 basic Reflex save). Creatures that fail the save also take 1d6 (1d6) persistent fire damage. The dragon can't use Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Coiling Frenzy",
+      "text": "⬺ The dragon makes one claw Strike and one tail Strike in either order, each against the same target. If either Strike hits, the dragon automatically Grabs the target."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 2d8+4 (2d8+4) bludgeoning, DC 25"
+    },
+    {
+      "name": "Draconic Momentum",
+      "text": "The dragon recharges their Breath Weapon whenever they score a critical hit with a Strike."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +18 (reach 10 feet); Damage 2d8+8 (2d8+8) piercing plus 1d6 (1d6) fire"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +18 (agile); Damage 2d8+8 (2d8+8) slashing plus adamantine claws and Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +18 (reach 20 feet); Damage 2d8+8 (2d8+8) bludgeoning plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      2,
+      3,
+      4,
+      2,
+      1
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Mustelidal",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 108: Hell Comes to Westcrown",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "agathion, extraplanar, good",
+  "alignment": "NG",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 31,
+    "notes": "dex +4, dodge +1, natural +16",
+    "touch": 15,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 261,
+    "formula": "18d10+162"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 20 ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 18,
+    "con": 29,
+    "int": 14,
+    "wis": 15,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +15, Ref +15, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +25, Bluff +23, Climb +28, Escape Artist +25, Knowledge (planes) +14, Perception +23, Sense Motive +14, Stealth +25, Survival +23",
+    "list": {
+      "Acrobatics": "+25",
+      "Bluff": "+23",
+      "Climb": "+28",
+      "Escape Artist": "+25",
+      "Perception": "+23",
+      "Sense Motive": "+14",
+      "Stealth": "+25",
+      "Survival": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "speak with animals",
+    "truespeech"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 18,
+  "feats": [
+    "Dodge",
+    "Improved Critical (unarmed strike)",
+    "Improved Grapple",
+    "Improved Initiative",
+    "Improved Unarmed Strike",
+    "Lunge",
+    "Mobility",
+    "Spring Attack",
+    "Weapon Focus (unarmed strike)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "unarmed strike +26/+21/+16/+11 (2d8+7/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The head of this muscular, furry humanoid figure is that of an angry badger; it looks ready to strike at a moment’s notice.",
+  "meta": {
+    "cmb": "25 (+27 grapple)",
+    "cmd": "40 (42 vs. grapple)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground (Nirvana)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cete (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

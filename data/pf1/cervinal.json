@@ -1,0 +1,123 @@
+{
+  "name": "Cervinal",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Chronicle of the Righteous",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "agathion, extraplanar, good",
+  "alignment": "NG",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 32,
+    "notes": "dex +5, dodge +1, natural +17, size -1",
+    "touch": 15,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 283,
+    "formula": "21d10+168"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., other_semicolon gallop ft."
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 20,
+    "con": 26,
+    "int": 19,
+    "wis": 24,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +20, Ref +14, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +29, Climb +31, Diplomacy +28, Intimidate +25, Knowledge (arcana) +28, Knowledge (nature) +28, Knowledge (planes) +28, Perception +31, Stealth +25, Survival +28",
+    "list": {
+      "Acrobatics": "+29",
+      "Climb": "+31",
+      "Diplomacy": "+28",
+      "Intimidate": "+25",
+      "Perception": "+31",
+      "Stealth": "+25",
+      "Survival": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect scrying",
+    "low-light vision",
+    "see invisibility"
+  ],
+  "passivePerception": 41,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "speak with animals",
+    "truespeech"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 21,
+  "feats": [
+    "Combat Casting",
+    "Combat Reflexes",
+    "Deadly Aim",
+    "Dodge",
+    "Lightning Reflexes",
+    "Manyshot",
+    "Mobility",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Rapid Shot",
+    "Weapon Focus (composite longbow)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +30 (1d6+10), 2 hooves +25 (2d6+5)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+3 composite longbow +29/+24/+19/+14 (1d8+13/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Beneath a crown of antlers, this centaurlike creature blends the upper body of a humanoid with the lower body of a majestic elk.",
+  "meta": {
+    "cmb": "+32",
+    "cmd": "48 (52 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land (Nirvana)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, collective (2-3), or herd (4-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+3 composite longbow [+10 Str], other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Radiant Essence",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 131: The Reaper's Right Hand",
+  "size": "Large",
+  "type": "ooze",
+  "subtype": "",
+  "alignment": "NG",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 8,
+    "notes": "dex -1, size -1",
+    "touch": 8,
+    "flatFooted": 8
+  },
+  "hp": {
+    "average": 187,
+    "formula": "15d8+120"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 20 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 9,
+    "con": 26,
+    "int": "None",
+    "wis": 1,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +13, Ref +4, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +20, Swim +20, Perception -5",
+    "list": {
+      "Climb": "+20",
+      "Swim": "+20",
+      "Perception": "-5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "sense evil"
+  ],
+  "passivePerception": 5,
+  "languages": [],
+  "initiative": "-1",
+  "babOrProficiency": 11,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +22 (6d6+18 plus 2d6 acid and grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Shimmering knots whirl and twist around a shining nucleus in this mound of golden-yellow slime.",
+  "meta": {
+    "cmb": "24 (+28 grapple)",
+    "cmd": "33 (can't be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

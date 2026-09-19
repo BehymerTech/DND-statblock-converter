@@ -1,0 +1,111 @@
+{
+  "name": "Thunderbird",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Gargantuan",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 25,
+    "notes": "dex +3, dodge +1, natural +15, size -4",
+    "touch": 10,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 147,
+    "formula": "14d10+70"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 120 ft. (good)"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 17,
+    "con": 21,
+    "int": 12,
+    "wis": 16,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +14, Ref +12, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +13, Fly +11, Perception +20, Perform (sing) +8, Sense Motive +10",
+    "list": {
+      "Acrobatics": "+13",
+      "Fly": "+11",
+      "Perception": "+20",
+      "Sense Motive": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "stormsight"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Auran"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 14,
+  "feats": [
+    "Critical Focus",
+    "Dodge",
+    "Improved Critical (bite)",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +18 (2d6+8/19-20 plus grab), bite +18 (2d8+8/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "thunderbolt +13 ranged touch (6d6 electricity and 6d6 sonic)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous bird has feathers the color of a stormy sky, a resemblance enhanced by the lightning that dances over its body.",
+  "meta": {
+    "cmb": "26 (+30 grapple)",
+    "cmd": 40,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any hills or mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

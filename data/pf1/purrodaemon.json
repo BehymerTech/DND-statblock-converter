@@ -1,0 +1,120 @@
+{
+  "name": "Purrodaemon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "daemon, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 35,
+    "notes": "deflection +4, dex +6, natural +16, size -1",
+    "touch": 19,
+    "flatFooted": 29
+  },
+  "hp": {
+    "average": 294,
+    "formula": "19d10+190"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 23,
+    "con": 30,
+    "int": 17,
+    "wis": 18,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +25, Ref +21, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +28, Bluff +21, Diplomacy +17, Fly +16, Intimidate +27, Knowledge (planes) +25, Perception +26, Sense Motive +26, Spellcraft +23, Stealth +24, Survival +17",
+    "list": {
+      "Acrobatics": "+28",
+      "Bluff": "+21",
+      "Diplomacy": "+17",
+      "Fly": "+16",
+      "Intimidate": "+27",
+      "Perception": "+26",
+      "Sense Motive": "+26",
+      "Spellcraft": "+23",
+      "Stealth": "+24",
+      "Survival": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Abyssal",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 19,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Greater Vital Strike",
+    "Improved Critical (halberd)",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Improved Vital Strike",
+    "Lunge",
+    "Power Attack",
+    "Quick Draw",
+    "Vital Strike",
+    "Weapon Focus (halberd)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 wounding halberd +32/+27/+22/+17 (2d8+18/19-20/x3), bite +24 (1d8+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Dozens of weapons pierce this massive monster’s body. Red eyes glow with wickedness in its vulture-like head.",
+  "meta": {
+    "cmb": "+31",
+    "cmd": 51,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, patrol (2-5), or unit (6-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

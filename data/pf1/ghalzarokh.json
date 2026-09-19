@@ -1,0 +1,118 @@
+{
+  "name": "Ghalzarokh",
+  "sourceSystem": "pf1",
+  "source": "Book of the Damned",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 30,
+    "notes": "dex +3, natural +18, size -1",
+    "touch": 12,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 218,
+    "formula": "19d10+114"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 50 ft. (poor), burrow 20 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 16,
+    "con": 22,
+    "int": 16,
+    "wis": 25,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +17, Ref +11, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +28, Fly +19, Intimidate +35, Knowledge (arcana) +25, Knowledge (planes) +25, Perception +37, Sense Motive +29, Spellcraft +25, Stealth +21",
+    "list": {
+      "Bluff": "+28",
+      "Fly": "+19",
+      "Intimidate": "+35",
+      "Perception": "+37",
+      "Sense Motive": "+29",
+      "Spellcraft": "+25",
+      "Stealth": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent",
+    "see invisibility"
+  ],
+  "passivePerception": 47,
+  "languages": [
+    "Abyssal",
+    "telepathy 100 ft.",
+    "truespeech"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 19,
+  "feats": [
+    "Combat Reflexes",
+    "Critical Focus",
+    "Hover",
+    "Improved Critical (claw)",
+    "Intimidating Prowess",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Quicken Spell-Like Ability (fireball)",
+    "Staggering Critical",
+    "Wingover"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +25 (1d8+7), 4 claws +25 (2d4+7/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This corpulent, four-armed fiend is covered in yellow-orange dragon scales, and draconic wings sprout from its back.",
+  "meta": {
+    "cmb": "+27",
+    "cmd": 40,
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or trio"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

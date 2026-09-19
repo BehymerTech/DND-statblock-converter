@@ -1,0 +1,115 @@
+{
+  "name": "Codex Archon",
+  "sourceSystem": "pf1",
+  "source": "Monster Summoner's Handbook",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "archon, extraplanar, good, lawful",
+  "alignment": "LG",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 20,
+    "notes": "dex +3, natural +7",
+    "touch": 13,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 47,
+    "formula": "5d10+20"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 30 ft. (good)"
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 16,
+    "con": 18,
+    "int": 17,
+    "wis": 15,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +7, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (bookbinding) +11, Diplomacy +11, Disable Device +11, Knowledge (any one) +14, Linguistics +11, Perception +10, Sense Motive +10, Spellcraft +11, Survival +10",
+    "list": {
+      "Diplomacy": "+11",
+      "Disable Device": "+11",
+      "Linguistics": "+11",
+      "Perception": "+10",
+      "Sense Motive": "+10",
+      "Spellcraft": "+11",
+      "Survival": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect evil",
+    "detect magic",
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "any 5 others",
+    "truespeech"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 5,
+  "feats": [
+    "Iron Will",
+    "Point-Blank Shot",
+    "Skill Focus (Knowledge [any one])"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +7 (1d8+2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "light ray +8 ranged touch (1d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous book has wings of glowing light and an angelic figure on the cover that gazes out watchfully as though alive.",
+  "meta": {
+    "cmb": "+7",
+    "cmd": 20,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Heaven)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or team (2-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

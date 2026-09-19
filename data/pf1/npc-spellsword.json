@@ -1,0 +1,95 @@
+{
+  "name": "NPC Spellsword",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "alignment": "N",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 21,
+    "notes": "armor +8, dex +3",
+    "touch": 13,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 91,
+    "formula": "16d8+16"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +6, Ref +13, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (arcana) +12, Knowledge (dungeoneering) +12, Knowledge (local) +12, Knowledge (nature) +12, Knowledge (planes) +12, Knowledge (religion) +12, Perception +15, Perform (dance) +24, Perform (oratory) +24, Perform (string) +22, Perform (wind) +22, Spellcraft +13, Stealth +24, Use Magic Device +18",
+    "list": {
+      "Perception": "+15",
+      "Spellcraft": "+13",
+      "Stealth": "+24",
+      "Use Magic Device": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Common",
+    "Elven"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 12,
+  "feats": [
+    "Arcane Strike",
+    "Bleeding Critical",
+    "Cleave",
+    "Critical Focus",
+    "Improved Critical (elven curve blade)",
+    "Improved Sunder",
+    "Power Attack",
+    "Weapon Focus (elven curve blade)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 elven curve blade +18/+13/+8 (1d10+6/15-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Elf",
+    "class": "bard 16",
+    "cmb": "15 (+17 sunder)",
+    "cmd": "28 (30 vs. sunder)"
+  }
+}

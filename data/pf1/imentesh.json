@@ -1,0 +1,114 @@
+{
+  "name": "Imentesh",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Pathfinder No. 22: The End of Eternity",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "chaotic, extraplanar, protean, shapechanger",
+  "alignment": "CN",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 25,
+    "notes": "dex +3, natural +13, size -1",
+    "touch": 12,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 123,
+    "formula": "13d10+52"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 30 ft. (perfect), swim 30 ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 17,
+    "con": 18,
+    "int": 23,
+    "wis": 18,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +12, Ref +7, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +19, Bluff +21, Diplomacy +25, Disable Device +16, Fly +9, Intimidate +25, Knowledge (arcana) +22, Knowledge (planes) +22, Knowledge (any two) +19, Perception +20, Sense Motive +20, Stealth +15, Swim +15",
+    "list": {
+      "Acrobatics": "+19",
+      "Bluff": "+21",
+      "Diplomacy": "+25",
+      "Disable Device": "+16",
+      "Fly": "+9",
+      "Intimidate": "+25",
+      "Perception": "+20",
+      "Sense Motive": "+20",
+      "Stealth": "+15",
+      "Swim": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Abyssal",
+    "Protean",
+    "tongues"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 13,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Improved Feint",
+    "Improved Initiative",
+    "Iron Will",
+    "Multiattack",
+    "Persuasive"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +19 (2d6+7), 2 claws +19 (1d8+7), tail +17 (1d8+3 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This serpentine creature has the lower body of a snake, a humanoid torso, and a bird-like head and claws.",
+  "meta": {
+    "cmb": "21 (+25 grapple)",
+    "cmd": "34 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Limbo)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or envoy (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

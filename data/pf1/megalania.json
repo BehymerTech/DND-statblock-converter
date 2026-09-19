@@ -1,0 +1,105 @@
+{
+  "name": "Megalania",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Huge",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 21,
+    "notes": "dex +1, natural +12, size -2",
+    "touch": 9,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 85,
+    "formula": "10d8+40"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 13,
+    "con": 19,
+    "int": 2,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +11, Ref +8, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +12, Perception +10, Stealth +10, Swim +16",
+    "list": {
+      "Climb": "+12",
+      "Perception": "+10",
+      "Stealth": "+10",
+      "Swim": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 20,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 7,
+  "feats": [
+    "Iron Will",
+    "Lunge",
+    "Skill Focus (Perception)",
+    "Skill Focus (Stealth)",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +14 (2d8+12 plus grab and poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This gigantic lizard has short but powerful limbs, a muscular tail, and a spiny crest that runs the length of its body.",
+  "meta": {
+    "cmb": "+17",
+    "cmd": "28 (32 vs. trip)",
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forests or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Sightless Sea Sailor",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Monster Codex",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "native",
+  "alignment": "NE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 18,
+    "notes": "armor +3, dex +3, natural +2",
+    "touch": 13,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 31,
+    "formula": "3d10+1d10+9"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 16,
+    "con": 15,
+    "int": 16,
+    "wis": 15,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +5, Ref +8, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Bluff +11, Diplomacy +10, Intimidate +11, Knowledge (dungeoneering) +7, Knowledge (planes) +7, Perception +6, Profession (sailor) +9, Ride +7, Sense Motive +9, Swim +11",
+    "list": {
+      "Acrobatics": "+10",
+      "Bluff": "+11",
+      "Diplomacy": "+10",
+      "Intimidate": "+11",
+      "Perception": "+6",
+      "Ride": "+7",
+      "Sense Motive": "+9",
+      "Swim": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Aklo",
+    "Dwarven",
+    "Infernal",
+    "Orvian",
+    "Undercommon"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 4,
+  "feats": [
+    "Slashing Grace",
+    "Weapon Focus (rhoka sword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk rhoka sword +10 (1d8+4/18-20), bite +3 (1d4+2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk dagger +9 (1d4+4/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The smell of brine mingles with the sickly stench of uncured leather that surrounds this ferocious buccaneer.",
+  "meta": {
+    "race": "Urdefhan",
+    "class": "swashbuckler 1 (Pathfinder RPG Bestiary 2 276, Pathfinder RPG Advanced Class Guide 56)",
+    "cmb": "+8",
+    "cmd": 21,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land (Abaddon)"
+      }
+    ]
+  }
+}

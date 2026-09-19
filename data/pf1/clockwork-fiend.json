@@ -1,0 +1,95 @@
+{
+  "name": "Clockwork Fiend",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "construct",
+  "subtype": "clockwork",
+  "alignment": "N",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 32,
+    "notes": "dex +8, dodge +2, natural +12",
+    "touch": 20,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 146,
+    "formula": "23d10+20"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 26,
+    "con": "None",
+    "int": "None",
+    "wis": 11,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +7, Ref +17, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "see in darkness"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+12",
+  "babOrProficiency": 23,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +34 (2d8+11/18-20/×3), 2 claws +34 (2d6+11 plus bleed), 2 wings +29 (1d8+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Resembling a metallic horned devil, this apparatus whirs with the sound of internal mechanisms.",
+  "meta": {
+    "cmb": "+34",
+    "cmd": 54,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or blasphemy (2 clockwork fiends plus 4-8 clockwork angels)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Thulgant",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "chaotic, evil, extraplanar, qlippoth",
+  "alignment": "CE",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 33,
+    "notes": "deflection +4, dex +12, natural +8, size -1",
+    "touch": 25,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 290,
+    "formula": "20d10+180"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (good), climb 40 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 34,
+    "con": 29,
+    "int": 24,
+    "wis": 27,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +25, Ref +30, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +35, Bluff +30, Climb +36, Fly +33, Intimidate +27, Knowledge (arcana) +27, Knowledge (history) +30, Knowledge (planes) +30, Perception +31, Sense Motive +31, Spellcraft +27, Stealth +31, Use Magic Device +30",
+    "list": {
+      "Acrobatics": "+35",
+      "Bluff": "+30",
+      "Climb": "+36",
+      "Fly": "+33",
+      "Intimidate": "+27",
+      "Perception": "+31",
+      "Sense Motive": "+31",
+      "Spellcraft": "+27",
+      "Stealth": "+31",
+      "Use Magic Device": "+30"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 41,
+  "languages": [
+    "Abyssal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 20,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Greater Vital Strike",
+    "Improved Critical (sting)",
+    "Improved Vital Strike",
+    "Lightning Reflexes",
+    "Quicken Spell-Like Ability (dimension door)",
+    "Staggering Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "3 stings +27 (1d6+8/19-20 plus ability drain), 5 tentacles +22 (1d6+4 plus 2d6 acid)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This monster has ten spidery legs, a head writhing with dripping tentacles above a clutch of red eyes, and three whipping stingers.",
+  "meta": {
+    "cmb": "+29",
+    "cmd": "55 (71 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or patrol (3-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

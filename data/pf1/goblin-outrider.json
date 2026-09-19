@@ -1,0 +1,104 @@
+{
+  "name": "Goblin Outrider",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "goblinoid",
+  "alignment": "NE",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 20,
+    "notes": "armor +3, dex +4, shield +2, size +1",
+    "touch": 15,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 19,
+    "formula": "2d10+4"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 18,
+    "con": 13,
+    "int": 10,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +4, Ref +7, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +3, Handle Animal +3, Perception +6, Ride +10, Stealth +14, Swim +3",
+    "list": {
+      "Acrobatics": "+3",
+      "Handle Animal": "+3",
+      "Perception": "+6",
+      "Ride": "+10",
+      "Stealth": "+14",
+      "Swim": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Goblin"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 2,
+  "feats": [
+    "Power Attack",
+    "Ride-By Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk dogslicer +5 (1d4+1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "shortbow +7 (1d4/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Goblin",
+    "class": "ranger 2",
+    "cmb": "+2",
+    "cmd": 16,
+    "racialModifiers": [
+      "Ride 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forest and plains (usually coastal regions)"
+      }
+    ]
+  }
+}

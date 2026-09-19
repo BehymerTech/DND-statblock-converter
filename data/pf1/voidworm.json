@@ -1,0 +1,105 @@
+{
+  "name": "Voidworm",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Tiny",
+  "type": "outsider",
+  "subtype": "chaotic, extraplanar, protean, shapechanger",
+  "alignment": "CN",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 15,
+    "notes": "dex +3, size +2",
+    "touch": 15,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 16,
+    "formula": "3d10"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 50 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 7,
+    "dex": 17,
+    "con": 10,
+    "int": 8,
+    "wis": 8,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +1, Ref +6, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +9, Bluff +7, Escape Artist +7, Fly +19, Knowledge (arcana) +5, Perception +8, Stealth +15",
+    "list": {
+      "Acrobatics": "+9",
+      "Bluff": "+7",
+      "Escape Artist": "+7",
+      "Fly": "+19",
+      "Perception": "+8",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "detect law"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Protean"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 3,
+  "feats": [
+    "Skill Focus (Perception)",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d3-2), tail slap +3 (1d3-2 plus confusion)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This tiny, iridescent serpent slithers through empty space, the air around it distorting as if from heat.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": "12 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Limbo)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or school (3-18)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

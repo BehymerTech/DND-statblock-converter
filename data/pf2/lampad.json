@@ -1,0 +1,107 @@
+{
+  "name": "Lampad",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 188.",
+  "size": "Medium",
+  "type": "Nymph",
+  "subtype": "Earth, Fey",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 5",
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 85,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, climb 25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 20,
+    "con": 18,
+    "int": 14,
+    "wis": 16,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +11, Ref +14, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +12 (1d20+12); __Athletics__: +9 (1d20+9); __Diplomacy__: +14 (1d20+14); __Nature__: +10 (1d20+10); __Occultism__: +11 (1d20+11); __Performance__: +14 (1d20+14); __Society__: +9 (1d20+9); __Stealth__: +12 (1d20+12); ",
+    "list": {
+      "Acrobatics": "+12",
+      "Athletics": "+9",
+      "Diplomacy": "+14",
+      "Nature": "+10",
+      "Occultism": "+11",
+      "Performance": "+14",
+      "Society": "+9",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Sylvan",
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Cavern Dependent",
+      "text": "A lampad is mystically bonded to a single cavern or other self-contained underground area and must remain within 300 feet of it. If they move beyond that range, they become sickened 1 and are unable to recover. They must attempt a DC 19 Fortitude save every hour or increase the sickened value by 1 (to a maximum of sickened 4). After 24 hours, they become drained 1, with this value increasing by 1 every additional 24 hours. A lampad can perform a 24-hour ritual to bond to a new cavern."
+    },
+    {
+      "name": "Weep",
+      "text": "⬻ (auditory, emotion, enchantment, mental, primal); Frequency once per round Effect The lampad begins a heart-wrenching fit of weeping, inspiring sympathetic sobbing in nearby creatures. Each non-lampad creature within 30 feet who hears the lampad's weeping must succeed at a DC 20 Will save or be unable to use reactions for 1 round and slowed 1 on its next turn as it sobs uncontrollably."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ earthen fist +14 (agile, finesse); Damage 2d10+2 (2d10+2) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ light wisp +14 (magical, range increment 30 feet); Damage 1d8+2 (1d8+2) mental plus 1d6 (1d6) fire and 1d6 (1d6) positive"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      5,
+      4,
+      2,
+      3,
+      5
+    ]
+  }
+}

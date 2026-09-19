@@ -1,0 +1,117 @@
+{
+  "name": "Fire Giant",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 172.",
+  "size": "Large",
+  "type": "Humanoid",
+  "subtype": "Fire, Giant",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 31,
+    "notes": ""
+  },
+  "hp": {
+    "average": 175,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 10,
+    "con": 20,
+    "int": 14,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +23, Ref +16, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +25 (1d20+25); __Crafting__: +22 (1d20+22); __Intimidation__: +23 (1d20+23); ",
+    "list": {
+      "Athletics": "+25",
+      "Crafting": "+22",
+      "Intimidation": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Common",
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Catch Rock",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "+1 striking greatsword, +1 half plate, sack with 5 rocks;"
+    },
+    {
+      "name": "Flaming Stroke",
+      "text": "⬺ (evocation, fire, primal); The fire giant imbues its blade with flames and makes a greatsword Strike with a –2 circumstance penalty against each creature in a 15-foot line. It makes only one attack roll and compares the result to each creature's AC. This Strike deals an additional 1d6 (1d6) fire damage and counts as one attack for the fire giant's multiple attack penalty."
+    },
+    {
+      "name": "Throw Rock",
+      "text": "⬻ (fire); A rock thrown by a fire giant deals an additional 1d6 (1d6) fire damage on a hit."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ greatsword +24 (magical, reach 10 feet, versatile p); Damage 2d12+13 (2d12+13) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +23 (agile, reach 10 feet); Damage 2d8+13 (2d8+13) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ rock +23 (brutal, range increment 120 feet); Damage 2d8+13 (2d8+13) bludgeoning plus 1d6 (1d6) fire"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      0,
+      5,
+      2,
+      2,
+      0
+    ],
+    "items": "+1 striking greatsword, +1 half plate, sack with 5 rocks;"
+  }
+}

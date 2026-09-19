@@ -1,0 +1,103 @@
+{
+  "name": "Shalkeshka",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 81: Shifting Sands",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "earth",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "dex +3, natural +9, size -1",
+    "touch": 12,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 95,
+    "formula": "10d10+40"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 30 ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 17,
+    "con": 18,
+    "int": 2,
+    "wis": 11,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +11, Ref +10, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Climb +11, Perception +14",
+    "list": {
+      "Acrobatics": "+7",
+      "Climb": "+11",
+      "Perception": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent",
+    "tremorsense"
+  ],
+  "passivePerception": 24,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 10,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Critical (bite)",
+    "Power Attack",
+    "Run",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +16 (1d8+7/19-20 plus grab), 2 claws +16 (1d8+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature’s bulbous compound eyes peer in all directions as its twin mandibles twitch and gnash. Six legs, each ending in spade-like claws, support its bulk.",
+  "meta": {
+    "cmb": "+18",
+    "cmd": "31 (39 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate and warm deserts and plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

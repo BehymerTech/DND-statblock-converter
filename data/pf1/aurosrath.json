@@ -1,0 +1,100 @@
+{
+  "name": "Aurosrath",
+  "sourceSystem": "pf1",
+  "source": "Druma, Profit and Prophecy",
+  "size": "Large",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 19,
+    "notes": "dex +1, natural +9, size -1",
+    "touch": 10,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 59,
+    "formula": "7d8+28"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 13,
+    "con": "None",
+    "int": 11,
+    "wis": 12,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +5, Ref +3, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +14, Intimidate +13, Perception +11, Stealth +7",
+    "list": {
+      "Climb": "+14",
+      "Intimidate": "+13",
+      "Perception": "+11",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 5,
+  "feats": [
+    "Improved Grapple",
+    "Improved Natural Attack (slam)",
+    "Power Attack",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +8 (1d8+4 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This obscenely bloated and stretched human corpse jingles as it moves. Coins tumble from its mouth and from the exposed wounds that cover its hideously distended body.",
+  "meta": {
+    "cmb": "10 (+16 grapple)",
+    "cmd": "21 (23 vs. grapple)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or entombment (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

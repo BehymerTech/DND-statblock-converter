@@ -1,0 +1,97 @@
+{
+  "name": "Ethereal Marauder",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Magical Beast",
+  "subtype": "Extraplanar",
+  "alignment": "Always neutral",
+  "cr": "3",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 14,
+    "notes": "+1 Dex, +3 natural",
+    "touch": 11,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 11,
+    "formula": "2d10"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft. (8 squares)"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 12,
+    "con": 11,
+    "int": 7,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +3, Ref +4, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Listen +5, Move Silently +5, Spot +4;",
+    "list": {
+      "Listen": "+5",
+      "Move Silently": "+5",
+      "Spot": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Initiative"
+  ],
+  "traits": [
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., ethereal jaunt"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Bite +4 melee (1d6+3)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +4 melee (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Ethereal marauders live and hunt on the Ethereal Plane. Ethereal marauders' coloration ranges from bright blue to deep violet. An ethereal marauder stands about 4 feet tall, but its overall length is about 7 feet. It weighs about 200 pounds.",
+    "grapple": "+4",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Ethereal Plane",
+    "organization": "Solitary",
+    "treasure": "None",
+    "advancement": "3-4 HD (Medium); 5-6 HD (Large)",
+    "leveladjustment": "---"
+  }
+}

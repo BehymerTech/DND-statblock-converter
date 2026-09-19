@@ -1,0 +1,111 @@
+{
+  "name": "Lion Alebrije",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 144: Midwives to Death",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "extraplanar",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 20,
+    "notes": "dex +6, natural +5, size -1",
+    "touch": 15,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 47,
+    "formula": "5d10+20"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 20 ft. (average)"
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 23,
+    "con": 19,
+    "int": 6,
+    "wis": 18,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +10, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +14, Fly +4, Knowledge (arcana) +6, Knowledge (planes) +6, Perception +12, Stealth +11",
+    "list": {
+      "Acrobatics": "+14",
+      "Fly": "+4",
+      "Perception": "+12",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "dreamsight",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Common",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Run",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +9 (2d6+7 plus grab), 2 claws +9 (1d4+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This lion’s fur is a kaleidoscope of geometric patterns and bright colors. Large, vibrant butterfly wings sprout from its back.",
+  "meta": {
+    "cmb": "11 (+15 grapple)",
+    "cmd": "27 (31 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics 4",
+      "Knowledge (arcana) 8",
+      "Knowledge (planes) 8",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Dimension of Dreams)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

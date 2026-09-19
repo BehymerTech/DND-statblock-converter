@@ -1,0 +1,116 @@
+{
+  "name": "Serpentfolk Reclaimer",
+  "sourceSystem": "pf1",
+  "source": "Occult Bestiary",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 20,
+    "notes": "dex +6, natural +4",
+    "touch": 16,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 68,
+    "formula": "8d10+24"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 23,
+    "con": 17,
+    "int": 18,
+    "wis": 15,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +5, Ref +12, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Bluff +11, Disguise +13, Escape Artist +18, Knowledge (arcana) +10, Perception +13, Sense Motive +10, Spellcraft +12, Stealth +13, Use Magic Device +17",
+    "list": {
+      "Acrobatics": "+10",
+      "Bluff": "+11",
+      "Disguise": "+13",
+      "Escape Artist": "+18",
+      "Perception": "+13",
+      "Sense Motive": "+10",
+      "Spellcraft": "+12",
+      "Stealth": "+13",
+      "Use Magic Device": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Draconic",
+    "Undercommon",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 8,
+  "feats": [
+    "Improved Initiative",
+    "Iron Will",
+    "Lunge",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk dagger +15/+10 (1d4/19-20), bite +9 (1d6 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Ophidian imagery decorates the fine robes of this sinuous, fanged humanoid, and a narrow, forked tongue flicks from its serpentine head.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": 24,
+    "racialModifiers": [
+      "Escape Artist 8",
+      "Use Magic Device 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land (usually jungles or underground)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, vision cult (1-3 plus 3-5 allips), or conclave (3-6 plus 4-10 degenerate serpentfolk)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (mwk dagger, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Runeslave Hill Giant",
+  "sourceSystem": "pf1",
+  "source": "Rise of the Runelords Anniversary Edition",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "CE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 22,
+    "notes": "armor +4, natural +9, size -1",
+    "touch": 9,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 95,
+    "formula": "10d8+50"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft.,  50 ft. in armor"
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 10,
+    "con": 19,
+    "int": 4,
+    "wis": 8,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +11, Ref +3, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +14, Perception +7",
+    "list": {
+      "Climb": "+14",
+      "Perception": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Giant"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 7,
+  "feats": [
+    "Diehard",
+    "Iron Will",
+    "Martial Weapon Proficiency (greatclub)",
+    "Power Attack",
+    "Toughness",
+    "Vital Strike",
+    "Weapon Focus (greatclub)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "greatclub +16/+11 (2d8+13)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +7 (1d8+13)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This lumbering giant has a strange, vacant expression, as well as a large glowing rune carved into its flesh.",
+  "meta": {
+    "cmb": "+17",
+    "cmd": 27,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or patrol (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (hide armor, greatclub, other treasure)"
+      }
+    ]
+  }
+}

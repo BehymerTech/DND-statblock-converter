@@ -1,0 +1,106 @@
+{
+  "name": "Korred",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Small",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +3, dodge +1, natural +2, size +1",
+    "touch": 15,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 33,
+    "formula": "6d6+12"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 17,
+    "con": 14,
+    "int": 12,
+    "wis": 14,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +4, Ref +8, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +12, Bluff +10, Craft (rope) +10, Craft (sculpture) +10, Perception +14, Perform (dance) +10, Stealth +16",
+    "list": {
+      "Acrobatics": "+12",
+      "Bluff": "+10",
+      "Perception": "+14",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 3,
+  "feats": [
+    "Dodge",
+    "Mobility",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "club +8 (1d4+6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +8 (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This knobby-kneed, stunted humanoid, has a particularly thick beard and wild mane of hair, hiding most of its body from view.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 20,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (club, rope, shears, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Crackling Skull Swarm",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 141: Last Watch",
+  "size": "Tiny",
+  "type": "undead",
+  "subtype": "swarm",
+  "alignment": "NE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 22,
+    "notes": "dex +3, natural +7, size +2",
+    "touch": 15,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 127,
+    "formula": "15d8+60"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 40 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 5,
+    "dex": 16,
+    "con": "None",
+    "int": "None",
+    "wis": 13,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +9, Ref +8, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +15, Perception +1",
+    "list": {
+      "Fly": "+15",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 11,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 11,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "swarm (3d6 plus distraction)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This mass of floating skulls lingers in the air with a haunting presence. A constant clattering emanates from the dreadful mass.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": "19 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, horde (2-3), or clatter (4-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

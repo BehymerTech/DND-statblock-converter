@@ -1,0 +1,103 @@
+{
+  "name": "Blink Dog",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Usually lawful good",
+  "cr": "2",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": "+3 Dex, +3 natural",
+    "touch": 13,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 22,
+    "formula": "4d10"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft. (8 squares)"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 17,
+    "con": 10,
+    "int": 10,
+    "wis": 13,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +4, Ref +7, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Hide +3, Listen +5, Sense Motive +3, Spot +5, Survival +4;",
+    "list": {
+      "Hide": "+3",
+      "Listen": "+5",
+      "Sense Motive": "+3",
+      "Spot": "+5",
+      "Survival": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft.",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 4,
+  "feats": [
+    "Iron Will",
+    "Run",
+    "Track (B)"
+  ],
+  "traits": [
+    {
+      "name": "Special Qualities",
+      "text": "Blink, darkvision 60 ft., dimension door, low-light vision, scent"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Bite +4 melee (1d6)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +4 melee (1d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "The blink dog is an intelligent canine that has a limited teleportation ability.",
+    "grapple": "+4",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Temperate plains",
+    "organization": "Solitary, pair, or pack (7-16)",
+    "treasure": "None",
+    "advancement": "5-7 HD (Medium); 8-12 HD (Large)",
+    "leveladjustment": "+2 (cohort)"
+  }
+}

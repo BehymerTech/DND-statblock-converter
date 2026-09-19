@@ -1,0 +1,112 @@
+{
+  "name": "Bodythief",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Gargantuan",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "LE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 26,
+    "notes": "dex -5, natural +25, size -4",
+    "touch": 1,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 230,
+    "formula": "20d8+140"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft."
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 1,
+    "con": 25,
+    "int": 21,
+    "wis": 16,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +19, Ref +1, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Disguise +27, Knowledge (geography) +20, Knowledge (history) +20, Knowledge (local) +20, Knowledge (nobility) +20, Knowledge (nature) +31, Perception +30, Sense Motive +27",
+    "list": {
+      "Disguise": "+27",
+      "Perception": "+30",
+      "Sense Motive": "+27"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Elven",
+    "Orc",
+    "Sylvan (can’t speak any language)",
+    "telepathy 1",
+    "000 ft. (with spawn only)"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 15,
+  "feats": [
+    "Alertness",
+    "Combat Expertise",
+    "Greater Disarm",
+    "Improved Disarm",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Improved Trip",
+    "Iron Will",
+    "Multiattack",
+    "Skill Focus (Knowledge [nature])"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +23 (2d8+12 plus grab), 4 tentacles +21 (1d8+6 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This immense plant has jaws inside its central flower and vines that thresh the air. Its ovular seedpods throb like beating hearts.",
+  "meta": {
+    "cmb": "31 (+35 disarm, +35 grapple, +33 trip)",
+    "cmd": "38 (40 vs. disarm, can’t be tripped)",
+    "racialModifiers": [
+      "Disguise 5"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Itaraak Champion",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "strix",
+  "alignment": "CN",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 20,
+    "notes": "armor +7, dex +3",
+    "touch": 13,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 85,
+    "formula": "10d10+30"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 45 ft. (average)"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 20,
+    "con": 14,
+    "int": 8,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +9, Ref +12, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +11, Climb +5, Fly +21, Intimidate +6, Knowledge (geography) +5, Perception +12, Stealth +13, Survival +12",
+    "list": {
+      "Acrobatics": "+11",
+      "Climb": "+5",
+      "Fly": "+21",
+      "Intimidate": "+6",
+      "Perception": "+12",
+      "Stealth": "+13",
+      "Survival": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Strix"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 10,
+  "feats": [
+    "Fling",
+    "Flyby Attack",
+    "Point-Blank Shot",
+    "Powerful Wings",
+    "Rapid Shot",
+    "Skill Focus (Fly)",
+    "Snatch and Drop",
+    "Weapon Focus (longbow)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 longspear +13/+8 (1d8+4/×3), 2 wings +7 (1d6+1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite longbow +17/+12 (1d8+2/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Armored in sun-bleached bones and smelling of stale blood, this scarred man with massive wings keeps his bow at the ready.",
+  "meta": {
+    "race": "Strix",
+    "class": "slayer 10 (Pathfinder RPG Advanced Race Guide 200, Pathfinder RPG Advanced Class Guide 53)",
+    "cmb": "+12",
+    "cmd": 27,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate mountains"
+      }
+    ]
+  }
+}

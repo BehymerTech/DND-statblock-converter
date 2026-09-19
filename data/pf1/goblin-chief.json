@@ -1,0 +1,111 @@
+{
+  "name": "Goblin Chief",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "goblinoid",
+  "alignment": "NE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 22,
+    "notes": "armor +9, dex +3",
+    "touch": 13,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 89,
+    "formula": "10d10+30"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +10, Ref +7, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +6, Perception +11, Ride +4, Stealth +9",
+    "list": {
+      "Intimidate": "+6",
+      "Perception": "+11",
+      "Ride": "+4",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Goblin"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 10,
+  "feats": [
+    "Combat Reflexes",
+    "Greater Trip",
+    "Greater Weapon Focus (horsechopper)",
+    "Improved Critical (horsechopper)",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack",
+    "Step Up",
+    "Tripping Strike",
+    "Weapon Focus (horsechopper)",
+    "Weapon Specialization (horsechopper)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 horsechopper +17/+12 (1d10+9/19-20/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "composite longbow +14/+9 (1d8+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Oversized",
+    "class": "goblin fighter 10 (see page 104)",
+    "cmb": "14 (+16 trip)",
+    "cmd": 27,
+    "racialModifiers": [
+      "Ride 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forest and plains (usually coastal regions)"
+      }
+    ]
+  }
+}

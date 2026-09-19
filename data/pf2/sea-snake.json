@@ -1,0 +1,97 @@
+{
+  "name": "Sea Snake",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 245.",
+  "size": "Small",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 0",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 15,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 feet, swim 25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 12,
+    "int": 2,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +5, Ref +9, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +2 (1d20+2), (Athletics: +6 (1d20+6) to Swim); __Stealth__: +5 (1d20+5); __Survival__: +5 (1d20+5); ",
+    "list": {
+      "Athletics": "+6",
+      "Stealth": "+5",
+      "Survival": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 15,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Deep Breath",
+      "text": "The sea snake can hold its breath for about an hour."
+    },
+    {
+      "name": "Lash Out",
+      "text": "⬲ Trigger A creature within the sea snake's reach uses a move action Effect The sea snake makes a bite Strike against the attacker."
+    },
+    {
+      "name": "Sea Snake Venom",
+      "text": "(poison); Saving Throw DC 16 Fortitude. Maximum Duration 10 rounds Stage 1 1d6 (1d6) poison damage (1 round) Stage 2 1d6 (1d6) poison damage and enfeebled 1 (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +7 (agile, finesse); Damage 1d8 (1d8) piercing plus sea snake venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      3,
+      1,
+      -4,
+      1,
+      -2
+    ]
+  }
+}

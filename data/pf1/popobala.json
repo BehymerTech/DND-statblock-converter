@@ -1,0 +1,112 @@
+{
+  "name": "Popobala",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Pathfinder No. 40: Vaults of Madness",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "shapechanger",
+  "alignment": "CE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 29,
+    "notes": "dex +6, dodge +1, natural +12",
+    "touch": 17,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 225,
+    "formula": "18d10+126"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 80 ft. (average), climb 30 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 22,
+    "con": 22,
+    "int": 17,
+    "wis": 17,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +12, Ref +17, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Bluff +24, Climb +14, Disguise +15, Intimidate +33, Knowledge (local) +21, Perception +24, Perform (act) +15, Sense Motive +12, Stealth +27",
+    "list": {
+      "Acrobatics": "+15",
+      "Bluff": "+24",
+      "Climb": "+14",
+      "Disguise": "+15",
+      "Intimidate": "+33",
+      "Perception": "+24",
+      "Sense Motive": "+12",
+      "Stealth": "+27"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 18,
+  "feats": [
+    "Dodge",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Mobility",
+    "Power Attack",
+    "Skill Focus (Intimidate)",
+    "Toughness",
+    "Weapon Focus (bite)",
+    "Weapon Focus (talons)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +25 (2d6+6 plus 1d4 Cha drain), 2 talons +25 (1d6+6 plus grab and popobala fever), 2 wings +20 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This brawny, sallow-skinned figure is muscular but lean, with batlike wings and a single hideous eye in its noseless face.",
+  "meta": {
+    "cmb": "24 (+28 grapple)",
+    "cmd": 41,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm coasts or forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

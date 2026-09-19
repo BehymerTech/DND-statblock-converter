@@ -1,0 +1,120 @@
+{
+  "name": "Titan",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Huge",
+  "type": "Outsider",
+  "subtype": "Chaotic, Extraplanar",
+  "alignment": "Always chaotic (any)",
+  "cr": "21",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 38,
+    "notes": "-2 size, +19 natural, +11 *+4 half-plate armor*",
+    "touch": 8,
+    "flatFooted": 38
+  },
+  "hp": {
+    "average": 370,
+    "formula": "20d8+280"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft. in half-plate armor (8 squares); base speed 60 ft."
+  },
+  "abilities": {
+    "str": 43,
+    "dex": 12,
+    "con": 39,
+    "int": 21,
+    "wis": 28,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +26, Ref +13, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Balance +7, Bluff +19, Climb +22, Concentration +37, Craft (any One) +28, Diplomacy +11, Disguise +7 (+9 Acting), Heal +20, Intimidate +32, Jump +38, Knowledge (any One) +28, Listen +32, Perform (oratory) +30, Sense Motive +32, Search +28, Spellcraft +17, Spot +32, Survival +9 (+11 Following Tracks), Swim +16;",
+    "list": {
+      "Balance": "+7",
+      "Bluff": "+19",
+      "Climb": "+22",
+      "Concentration": "+37",
+      "Diplomacy": "+11",
+      "Disguise": "+7",
+      "Heal": "+20",
+      "Intimidate": "+32",
+      "Jump": "+38",
+      "Listen": "+32",
+      "Sense Motive": "+32",
+      "Search": "+28",
+      "Spellcraft": "+17",
+      "Spot": "+32",
+      "Survival": "+9",
+      "Swim": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 20,
+  "feats": [
+    "Awesome Blow",
+    "Blind -Fight",
+    "Cleave",
+    "Improved Bull Rush",
+    "Improved Sunder",
+    "Power Attack",
+    "Quicken Spell -Like Ability (*chain Lightning*)"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Oversized weapon, spell-like abilities"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 15/lawful, darkvision 60 ft., spell resistance 32"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Gargantuan *+3 adamantine warhammer* +37 melee (4d6+27/x3) or *+3 javelin* +22 ranged (2d6+19) or slam +34 (1d8+16)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Gargantuan *+3 adamantine warhammer* +37/+32/+27/+22 melee (4d6+27/3) or *+3 javelin* +22 ranged (2d6+19) or 2 slams +34 (1d8+16)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A titan is about 25 feet tall and weighs about 14,000 pounds.",
+    "grapple": "+44",
+    "spaceReach": "15 ft./15 ft.",
+    "environment": "A chaotic good-aligned plane",
+    "organization": "Solitary or pair",
+    "treasure": "Double standard plus *+4 half-plate armor* and Gargantuan *+3 adamantine warhammer*",
+    "advancement": "21-30 HD (Huge); 31-60 HD (Gargantuan)",
+    "leveladjustment": "---"
+  }
+}

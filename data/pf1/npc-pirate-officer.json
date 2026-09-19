@@ -1,0 +1,114 @@
+{
+  "name": "NPC Pirate Officer",
+  "sourceSystem": "pf1",
+  "source": "Isles of the Shackles",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf, human",
+  "alignment": "CN",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 17,
+    "notes": "armor +4, dex +3",
+    "touch": 13,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 25,
+    "formula": "4d8+4"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 12,
+    "int": 13,
+    "wis": 8,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +2, Ref +7, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Bluff +10, Diplomacy +10, Perception +8, Perform (string) +13, Profession (sailor) +6, Sense Motive +6, Use Magic Device +10",
+    "list": {
+      "Acrobatics": "+10",
+      "Bluff": "+10",
+      "Diplomacy": "+10",
+      "Perception": "+8",
+      "Sense Motive": "+6",
+      "Use Magic Device": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Aquan",
+    "Common",
+    "Elven"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 3,
+  "feats": [
+    "Agile Maneuvers",
+    "Skill Focus (Perform [string])",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk rapier +7 (1d6/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +6 (1d4/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Armed with a rapier and wearing leather armor, this half-elf possesses an amiable demeanor and a lute at her side.",
+  "meta": {
+    "race": "Half-elf",
+    "class": "bard 4",
+    "cmb": "+6",
+    "cmd": 16,
+    "racialModifiers": [
+      "Perception 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans or coastlines"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (+1 studded leather, masterwork rapier, dagger, potion of cure moderate wounds, potion of invisibility, lute, other treasure)"
+      }
+    ]
+  }
+}

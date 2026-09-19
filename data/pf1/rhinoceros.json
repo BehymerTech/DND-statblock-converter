@@ -1,0 +1,96 @@
+{
+  "name": "Rhinoceros",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 16,
+    "notes": "natural +7, size -1",
+    "touch": 9,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 42,
+    "formula": "5d8+20"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 10,
+    "con": 19,
+    "int": 2,
+    "wis": 13,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +10, Ref +4, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +12",
+    "list": {
+      "Perception": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "scent"
+  ],
+  "passivePerception": 22,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 3,
+  "feats": [
+    "Endurance",
+    "Great Fortitude",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +8 (2d6+9)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This rhinoceros has a low-slung head with twisted ears that lie back along its neck.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": "20 (24 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or herd (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

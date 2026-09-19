@@ -1,0 +1,99 @@
+{
+  "name": "Kobold",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Small",
+  "type": "Humanoid",
+  "subtype": "Reptilian",
+  "alignment": "Usually lawful evil",
+  "cr": "1/4",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "+1 size, +1 Dex, +1 natural, +2 leather",
+    "touch": 12,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 4,
+    "formula": "1d8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares)"
+  },
+  "abilities": {
+    "str": 9,
+    "dex": 13,
+    "con": 10,
+    "int": 10,
+    "wis": 9,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +2, Ref +1, Will -1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (trapmaking) +2, Hide +6, Listen +2, Move Silently +2, Profession (miner) +2, Search +2, Spot +2;",
+    "list": {
+      "Hide": "+6",
+      "Listen": "+2",
+      "Move Silently": "+2",
+      "Search": "+2",
+      "Spot": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 1,
+  "feats": [
+    "Alertness"
+  ],
+  "traits": [
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., light sensitivity"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Spear +1 melee (1d6-1/x3) or sling +3 ranged (1d3)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Spear +1 melee (1d6-1/x3) or sling +3 ranged (1d3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Kobolds are short, reptilian humanoids with cowardly and sadistic tendencies.",
+    "grapple": "-4",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Temperate forests",
+    "organization": "Gang (4-9), band (10-100 plus 100% noncombatants plus 1 3rd-level sergeant per 20 adults and 1 leader of 4th-6th level), warband (10-24 plus 2-4 dire weasels), tribe (40-400 plus 1 3rd-level sergeant per 20 adults, 1 or 2 lieutenants of 4th or 5th level, 1 leader of 6th-8th level, and 5-8 dire weasels)",
+    "treasure": "Standard",
+    "advancement": "By character class",
+    "leveladjustment": "+0"
+  }
+}

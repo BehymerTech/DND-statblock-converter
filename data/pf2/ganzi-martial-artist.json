@@ -1,0 +1,107 @@
+{
+  "name": "Ganzi Martial Artist",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 205.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Ganzi, Human",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 36,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 18,
+    "con": 10,
+    "int": 8,
+    "wis": 14,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +7, Ref +11, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +9 (1d20+9); __Athletics__: +10 (1d20+10); __Deception__: +7 (1d20+7); __Performance__: +7 (1d20+7); __Stealth__: +9 (1d20+9); ",
+    "list": {
+      "Acrobatics": "+9",
+      "Athletics": "+10",
+      "Deception": "+7",
+      "Performance": "+7",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Common",
+    "Protean"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Flurry of Kicks",
+      "text": "⬻ Frequency once per turn Effect The martial artist makes two melee Strikes. The martial artist applies their multiple attack penalty to these Strikes normally."
+    },
+    {
+      "name": "Handspring Kick",
+      "text": "⬻ Requirements The martial artist has both hands free Effect The martial artist Steps, then makes a melee Strike at a –1 penalty."
+    },
+    {
+      "name": "Items",
+      "text": "explorer's clothing, shuriken (20);"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ foot +11 (agile, finesse, sweep); Damage 1d8+5 (1d8+5) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ shuriken +11 (agile, thrown 20 feet); Damage 1d4+5 (1d4+5) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      4,
+      0,
+      -1,
+      2,
+      2
+    ],
+    "items": "explorer's clothing, shuriken (20);"
+  }
+}

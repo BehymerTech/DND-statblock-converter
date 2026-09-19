@@ -1,0 +1,104 @@
+{
+  "name": "Giant Toad",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 261.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 36,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": 16,
+    "int": 2,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +9, Ref +8, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +9 (1d20+9), (Athletics: +11 (1d20+11) to High Jump or Long Jump); __Stealth__: +6 (1d20+6); ",
+    "list": {
+      "Athletics": "+11",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 18,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Poisonous Warts",
+      "text": "Any creature that hits the giant toad with an unarmed Strike or otherwise touches the toad is exposed to giant toad poison."
+    },
+    {
+      "name": "Giant Toad Poison",
+      "text": "(poison); Saving Throw DC 19 Fortitude. Maximum Duration 6 rounds Stage 1 stupefied 1 (1 round) Stage 2 stupefied 1 and confused (1 round)"
+    },
+    {
+      "name": "Swallow Whole",
+      "text": "⬻ (attack); Medium, 1d8+2 (1d8+2) bludgeoning, Rupture 8."
+    },
+    {
+      "name": "Tongue Grab",
+      "text": "A creature hit by the giant toad's tongue becomes grabbed by the giant toad. The creature isn't immobilized, but it can't move beyond the reach of the toad's tongue. A creature can sever the tongue with a successful Strike against AC 15 that deals at least 6 slashing damage. This deals no damage to the toad but prevents it from using its tongue Strike until it regrows its tongue, which takes a week."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ bite +11 Damage 1d8+5 (1d8+5) piercing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tongue +11 (reach 10 feet); Damage tongue grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      2,
+      3,
+      -4,
+      2,
+      -2
+    ]
+  }
+}

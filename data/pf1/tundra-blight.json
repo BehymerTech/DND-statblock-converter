@@ -1,0 +1,112 @@
+{
+  "name": "Tundra Blight",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "ooze",
+  "subtype": "blight, cold",
+  "alignment": "NE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 32,
+    "notes": "dex +10, dodge +1, natural +11",
+    "touch": 21,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 243,
+    "formula": "18d8+162"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 30 ft., burrow_other snow and ice only ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 30,
+    "con": 29,
+    "int": 17,
+    "wis": 23,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +15, Ref +18, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +39, Intimidate +25, Knowledge (geography) +21, Perception +24, Stealth +28",
+    "list": {
+      "Climb": "+39",
+      "Intimidate": "+25",
+      "Perception": "+24",
+      "Stealth": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Aklo",
+    "Auran",
+    "domain telepathy"
+  ],
+  "initiative": "+14",
+  "babOrProficiency": 13,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Mobility",
+    "Power Attack",
+    "Spring Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 stings +26 (1d8+13 plus 1d6 cold and curse)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This churning mound of snow-like material has several large red eyes and four tentacles tipped with icy stingers.",
+  "meta": {
+    "cmb": "+26",
+    "cmd": "47 (can’t be tripped)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold plains or glaciers"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

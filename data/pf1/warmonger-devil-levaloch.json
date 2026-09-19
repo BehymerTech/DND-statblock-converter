@@ -1,0 +1,116 @@
+{
+  "name": "Warmonger Devil (Levaloch)",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Book of the Damned - Volume 1: Princes of Darkness",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 22,
+    "notes": "dex +3, natural +10, size -1",
+    "touch": 12,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 84,
+    "formula": "8d10+40"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 40 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 17,
+    "con": 19,
+    "int": 14,
+    "wis": 16,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +10, Ref +9, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +14, Bluff +13, Climb +17, Craft (weapons) +9, Intimidate +13, Knowledge (dungeoneering) +9, Knowledge (engineering) +9, Knowledge (planes) +13, Perception +16, Stealth +12",
+    "list": {
+      "Acrobatics": "+14",
+      "Bluff": "+13",
+      "Climb": "+17",
+      "Intimidate": "+13",
+      "Perception": "+16",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 8,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Power Attack",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk trident +13/+8 (2d6+7), 2 legs +7 (1d8+2) or"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk trident +10 (2d6+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Armored like an infernal knight upon some monstrous steed, this fiend of iron and nails scuttles upon six bladed, beetle-like legs.",
+  "meta": {
+    "cmb": "+14",
+    "cmd": "27 (31 vs. bull rush and trip)",
+    "racialModifiers": [
+      "Perception 2",
+      "Stealth 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or troop (3-18)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (masterwork trident, other treasure)"
+      }
+    ]
+  }
+}

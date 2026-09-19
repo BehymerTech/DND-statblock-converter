@@ -1,0 +1,92 @@
+{
+  "name": "Young Red Dragon",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "chaotic evil",
+  "cr": "10",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": "natural armor"
+  },
+  "hp": {
+    "average": 178,
+    "formula": "17d10 + 85"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": 80,
+    "swim": null,
+    "climb": 40,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 10,
+    "con": 21,
+    "int": 14,
+    "wis": 11,
+    "cha": 19
+  },
+  "saves": {
+    "text": "dex +4, con +9, wis +4, cha +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +8, Stealth +4",
+    "list": {
+      "perception": "+8",
+      "stealth": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [
+    "fire"
+  ],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight 30 ft.",
+    "darkvision 120 ft."
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three attacks: one with its bite and two with its claws."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 3 (1d6) fire damage."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage."
+    },
+    {
+      "name": "Fire Breath {@recharge 5}",
+      "text": "The dragon exhales fire in a 30-foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 56 (16d6) fire damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

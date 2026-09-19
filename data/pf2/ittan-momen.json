@@ -1,0 +1,99 @@
+{
+  "name": "Ittan-momen",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 276.",
+  "size": "Medium",
+  "type": "Kami",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 30 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +10, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Deception__: +6 (1d20+6); __Stealth__: +8 (1d20+8); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Deception": "+6",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tremorsense 30"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Mundane Appearance",
+      "text": "When not moving, such as during the day, the ittan-momen is nearly indistinguishable from normal cloth. They have an automatic result of 26 on Deception checks and DCs to pass as normal cloth."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ Damage 1d8 (1d8) bludgeoning, DC 18"
+    },
+    {
+      "name": "Engulf",
+      "text": "⬺ DC 18, 1d8+2 (1d8+2) bludgeoning, Escape DC 18, Rupture 5 (page 305). The ittan-momen can Engulf only one creature. They can Engulf a creature of a larger size so long as the creature's head can feasibly be covered by the ittan-momen's body."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ body +10 (finesse); Damage 1d8+2 (1d8+2) bludgeoning plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      4,
+      2,
+      0,
+      1,
+      0
+    ]
+  }
+}

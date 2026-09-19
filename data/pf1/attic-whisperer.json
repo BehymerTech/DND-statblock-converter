@@ -1,0 +1,101 @@
+{
+  "name": "Attic Whisperer",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Pathfinder No. 1: Burnt Offerings",
+  "size": "Small",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 19,
+    "notes": "dex +4, dodge +1, natural +3, size +1",
+    "touch": 16,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 45,
+    "formula": "6d8+18"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 9,
+    "dex": 19,
+    "con": "None",
+    "int": 14,
+    "wis": 16,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +5, Ref +6, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +9, Climb +8, Knowledge (history) +8, Knowledge (local) +8, Perception +12, Stealth +17",
+    "list": {
+      "Bluff": "+9",
+      "Climb": "+8",
+      "Perception": "+12",
+      "Stealth": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Common (plus any 2d4 from victims)"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 4,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +9 (1d4-1 plus steal breath), touch +4 melee touch (steal voice)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This thing resembles a gray, emaciated child, with cobwebs and dust for clothes and a fox skull for a head.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": 17,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any urban or ruins"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or chorus (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

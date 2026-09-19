@@ -1,0 +1,118 @@
+{
+  "name": "Shachath",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 75: Demon's Heresy",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 25,
+    "notes": "dex +7, dodge +1, natural +7",
+    "touch": 18,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 148,
+    "formula": "11d10+88"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 50 ft. (average)"
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 25,
+    "con": 26,
+    "int": 18,
+    "wis": 20,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +11, Ref +14, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +23, Diplomacy +19, Disguise +14, Fly +21, Knowledge (planes) +16, Knowledge (religion) +16, Perception +27, Sense Motive +19, Sleight of Hand +18, Stealth +21, Use Magic Device +19",
+    "list": {
+      "Bluff": "+23",
+      "Diplomacy": "+19",
+      "Disguise": "+14",
+      "Fly": "+21",
+      "Perception": "+27",
+      "Sense Motive": "+19",
+      "Sleight of Hand": "+18",
+      "Stealth": "+21",
+      "Use Magic Device": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision",
+    "detect good"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 11,
+  "feats": [
+    "Combat Reflexes",
+    "Deceitful",
+    "Dodge",
+    "Improved Initiative",
+    "Iron Will",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 longsword +19/+14/+9 (1d8+8/19-20), 2 claws +14 (1d4+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This winged abomination is a horrid mix of demonic and angelic features, as if two bodies were carelessly fused into one. Its fanged, inhuman face is frozen in permanent contempt, while a beautiful visage with an expression of horror bulges from the back of its skull.",
+  "meta": {
+    "cmb": "+18",
+    "cmd": 36,
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cabal (1 plus 1-2 succubi and 1-3 incubi)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+1 longsword, other treasure)"
+      }
+    ]
+  }
+}

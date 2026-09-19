@@ -1,0 +1,98 @@
+{
+  "name": "Pachycephalosaurus",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +2, natural +6, size -1",
+    "touch": 11,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 37,
+    "formula": "5d8+15"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 15,
+    "con": 17,
+    "int": 2,
+    "wis": 12,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +7, Ref +6, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +8, Stealth +2",
+    "list": {
+      "Perception": "+8",
+      "Stealth": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 18,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Bull Rush",
+    "Power Attack",
+    "Run"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +8 (2d6+9)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This bipedal reptile has a rounded, dome-like head adorned with bony frills and ridges.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": 22,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm or temperate plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Faceless Stalker",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 13.",
+  "size": "Medium",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 60,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 16,
+    "int": 10,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +9, Ref +9, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +12 (1d20+12); __Athletics__: +12 (1d20+12); __Deception__: +13 (1d20+13); __Stealth__: +13 (1d20+13); __Thievery__: +9 (1d20+9); ",
+    "list": {
+      "Acrobatics": "+12",
+      "Athletics": "+12",
+      "Deception": "+13",
+      "Stealth": "+13",
+      "Thievery": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Alghollthu",
+    "Aquan",
+    "Common; tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Assume Form",
+      "text": "(concentrate, occult, polymorph, transmutation); The faceless stalker spends 10 minutes reshaping its appearance to take on the shape of any Small or Medium humanoid. It gains a +4 circumstance bonus to Deception checks to pass as that creature."
+    },
+    {
+      "name": "Blood Nourishment",
+      "text": "⬻ The faceless stalker uses its three-pronged tongue to drink the blood of an adjacent restrained or unconscious creature. The creature gains drained 1."
+    },
+    {
+      "name": "Compression",
+      "text": "When the faceless stalker successfully Squeezes, it moves through the tight space at full speed. Narrow confines are not difficult terrain for a faceless stalker."
+    },
+    {
+      "name": "Revert Form",
+      "text": "⭓ Requirements The faceless stalker is in an assumed form. Effect The faceless stalker resumes its true form. Until the start of its next turn, it gains a +2 status bonus to attack rolls, damage rolls, saving throws, and skill checks."
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "The faceless stalker deals 1d6 (1d6) extra precision damage to flat-footed creatures."
+    },
+    {
+      "name": "Items",
+      "text": "longsword, studded leather;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ longsword +14 (versatile p); Damage 1d8+6 (1d8+6) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +12 (agile); Damage 2d6+6 (2d6+6) slashing plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      3,
+      3,
+      0,
+      2,
+      3
+    ],
+    "items": "longsword, studded leather;"
+  }
+}

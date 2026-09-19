@@ -1,0 +1,99 @@
+{
+  "name": "Skunk",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Tiny",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1/4",
+  "level": null,
+  "xp": 100,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, size +2",
+    "touch": 14,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 3,
+    "formula": "1d8-1"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 3,
+    "dex": 15,
+    "con": 9,
+    "int": 2,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +1, Ref +4, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +5",
+    "list": {
+      "Perception": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 15,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 0,
+  "feats": [
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +4 (1d3-4), 2 claws +4 (1d2-4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "spray +4 touch (musk)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Built like a small badger, this creature has black fur with white stripes running from its face to its fluffy tail, which is raised in warning.",
+  "meta": {
+    "cmb": "+0",
+    "cmd": 6,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or surfeit (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

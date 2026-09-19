@@ -1,0 +1,113 @@
+{
+  "name": "NPC Arclord of Nex",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "N",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 14,
+    "notes": "deflection +2, natural +2",
+    "touch": 12,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 109,
+    "formula": "15d6+55"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 10,
+    "con": 14,
+    "int": 24,
+    "wis": 14,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +10, Ref +8, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +15, Diplomacy +23, Fly +8, Intimidate +10, Knowledge (arcana) +25, Knowledge (dungeoneering) +15, Knowledge (geography) +15, Knowledge (history) +15, Knowledge (local) +15, Knowledge (nature) +15, Knowledge (nobility) +15, Knowledge (religion) +15, Knowledge (engineering) +20, Knowledge (planes) +20, Linguistics +16, Perception +24, Sense Motive +24, Spellcraft +25",
+    "list": {
+      "Appraise": "+15",
+      "Diplomacy": "+23",
+      "Fly": "+8",
+      "Intimidate": "+10",
+      "Linguistics": "+16",
+      "Perception": "+24",
+      "Sense Motive": "+24",
+      "Spellcraft": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 34,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Aquan",
+    "Auran",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Elven",
+    "Gnome",
+    "Ignan",
+    "Infernal",
+    "Kelish",
+    "Osiriani",
+    "Terran"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 7,
+  "feats": [
+    "Alertness",
+    "Craft Construct",
+    "Craft Magic Arms and Armor",
+    "Craft Wondrous Item",
+    "Extend Spell",
+    "Eye of the Arclord",
+    "Persuasive",
+    "Quicken Spell",
+    "Scribe Scroll",
+    "Spell Focus (conjuration)",
+    "Toughness",
+    "Widen Spell"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "staff of fire +6/+1 (1d6-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "wizard 10, archlord of Nex 5",
+    "cmb": "+6",
+    "cmd": 18
+  }
+}

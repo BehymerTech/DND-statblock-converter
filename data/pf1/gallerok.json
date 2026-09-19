@@ -1,0 +1,101 @@
+{
+  "name": "Gallerok",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 118: Siege of Stone",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 15,
+    "notes": "dex +2, natural +4, size -1",
+    "touch": 11,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d8+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 15,
+    "int": 1,
+    "wis": 10,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +5, Ref +5, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +11, Perception +4, Stealth +10",
+    "list": {
+      "Climb": "+11",
+      "Perception": "+4",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "low-light vision"
+  ],
+  "passivePerception": 14,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Initiative",
+    "Skill Focus (Stealth)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +4 (1d6+4 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This stout, serpentine creature’s body ripples with muscle. Jagged fangs line its broad, powerful jaws.",
+  "meta": {
+    "cmb": "6 (+10 grapple)",
+    "cmd": 18,
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or coil (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

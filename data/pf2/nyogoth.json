@@ -1,0 +1,105 @@
+{
+  "name": "Nyogoth",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 214.",
+  "size": "Medium",
+  "type": "Qlippoth",
+  "subtype": "Fiend",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 29,
+    "notes": ""
+  },
+  "hp": {
+    "average": 175,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 feet, fly 25 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 20,
+    "con": 22,
+    "int": 10,
+    "wis": 20,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +20, Ref +19, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +21 (1d20+21); __Athletics__: +21 (1d20+21); __Intimidation__: +19 (1d20+19); __Occultism__: +16 (1d20+16); __Stealth__: +21 (1d20+21); ",
+    "list": {
+      "Acrobatics": "+21",
+      "Athletics": "+21",
+      "Intimidation": "+19",
+      "Occultism": "+16",
+      "Stealth": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Abyssal; telepathy 100 ft."
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Caustic Blood",
+      "text": "⬲ Trigger The nyogoth takes piercing or slashing damage Effect The nyogoth sprays its acidic blood on adjacent creatures, dealing 6d6 (6d6) acid damage (DC 29 basic Reflex save)."
+    },
+    {
+      "name": "Feeding Frenzy",
+      "text": "⬻ Requirements The nyogoth has grabbed a creature Effect The nyogoth slavers and chews at the grabbed creature, dealing 2d6+7 (2d6+7) slashing and 1d6 (1d6) acid damage (DC 29 basic Fortitude save)."
+    },
+    {
+      "name": "Nauseating Display",
+      "text": "⬺ (concentrate, emotion, enchantment, fear, incapacitation, mental, occult, visual); The nyogoth untangles its tentacles and prolapses its many mouths, turning itself inside out in a truly nauseating display. Creatures in a 30-foot emanation must attempt a DC 29 Will save, after which they are temporarily immune to further Nauseating Displays for 1 minute. Critical Success The creature is unaffected. Success The creature is sickened 1. Failure The creature is stunned 3 and sickened 1. Critical Failure The creature is stunned 5 and sickened 2."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +23 (chaotic, magical); Damage 2d6+13 (2d6+13) piercing plus 2d6 (2d6) acid, 1d6 (1d6) chaotic, and Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tentacle mouth +23 (agile, chaotic, magical, reach 10 feet); Damage 2d6+13 (2d6+13) piercing plus 1d6 (1d6) acid, 1d6 (1d6) chaotic, and Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      5,
+      6,
+      0,
+      5,
+      3
+    ]
+  }
+}

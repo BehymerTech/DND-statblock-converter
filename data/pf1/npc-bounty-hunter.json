@@ -1,0 +1,107 @@
+{
+  "name": "NPC Bounty Hunter",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LN",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 25,
+    "notes": "armor +5, deflection +1, dex +4, dodge +1, natural +4",
+    "touch": 16,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 94,
+    "formula": "12d10+24"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 18,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +11, Ref +13, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +14, Bluff +10, Climb +12, Disguise +7, Knowledge (geography) +8, Knowledge (nature) +8, Knowledge (local) +5, Linguistics +2, Perception +16, Sense Motive +11, Stealth +19, Survival +16, Swim +10",
+    "list": {
+      "Acrobatics": "+14",
+      "Bluff": "+10",
+      "Climb": "+12",
+      "Disguise": "+7",
+      "Linguistics": "+2",
+      "Perception": "+16",
+      "Sense Motive": "+11",
+      "Stealth": "+19",
+      "Survival": "+16",
+      "Swim": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 26,
+  "languages": [
+    "Common",
+    "Elven",
+    "Orc"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 12,
+  "feats": [
+    "Deadly Aim",
+    "Dodge",
+    "Double Slice",
+    "Endurance",
+    "Improved Grapple",
+    "Improved Initiative",
+    "Improved Two-Weapon Fighting",
+    "Improved Unarmed Strike",
+    "Point-Blank Shot",
+    "Two-Weapon Fighting",
+    "Weapon Focus (kukri)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 kukri +16/+11/+6 (1d4+5/18-20), +1 kukri +16/+11 (1d4+5/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite longbow +17/+12/+7 (1d8+4/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "ranger 12",
+    "cmb": "16 (+18 grapple)",
+    "cmd": "32 (34 vs. grapple)"
+  }
+}

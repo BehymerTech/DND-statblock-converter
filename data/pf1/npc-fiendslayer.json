@@ -1,0 +1,109 @@
+{
+  "name": "NPC Fiendslayer",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf, human",
+  "alignment": "N",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 28,
+    "notes": "armor +8, dex +5, dodge +1, natural +4",
+    "touch": 16,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 125,
+    "formula": "13d10+49"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 21,
+    "con": 16,
+    "int": 10,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +12, Ref +14, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Knowledge (nature) +13, Knowledge (planes) +10, Linguistics +3, Perception +26, Ride +12, Stealth +21, Survival +18, Swim +10",
+    "list": {
+      "Acrobatics": "+15",
+      "Linguistics": "+3",
+      "Perception": "+26",
+      "Ride": "+12",
+      "Stealth": "+21",
+      "Survival": "+18",
+      "Swim": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Elven",
+    "Infernal"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 13,
+  "feats": [
+    "Dodge",
+    "Double Slice",
+    "Endurance",
+    "Greater Two-Weapon Fighting",
+    "Improved Critical (rapier)",
+    "Improved Two-Weapon Fighting",
+    "Improved Vital Strike",
+    "Skill Focus (Perception)",
+    "Two-Weapon Fighting",
+    "Two-Weapon Rend",
+    "Vital Strike",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 cold iron rapier +17/+12/+7 (1d6+3/15-20), +1 silver dagger +17/+12/+7 (1d4+2/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 light crossbow +19 (1d8+1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-elf",
+    "class": "ranger 13",
+    "cmb": "+15",
+    "cmd": 31
+  }
+}

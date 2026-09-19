@@ -1,0 +1,103 @@
+{
+  "name": "Apostasy Wraith",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Bestiary",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "incorporeal",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 16,
+    "notes": "deflection +2, dex +4",
+    "touch": 16,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 52,
+    "formula": "8d8+16"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 18,
+    "con": "None",
+    "int": 10,
+    "wis": 11,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +4, Ref +6, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +23, Knowledge (religion) +11, Perception +11, Stealth +15",
+    "list": {
+      "Fly": "+23",
+      "Perception": "+11",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "sense apostate"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common",
+    "Hallit"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 6,
+  "feats": [
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "incorporeal touch +10 (1d8 plus energy drain and rend faith)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A broken mask gives this smoky, ghostly figure a bitter, unwavering gaze.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": 22,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Razmiran)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

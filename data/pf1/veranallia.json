@@ -1,0 +1,124 @@
+{
+  "name": "Veranallia",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Chronicle of the Righteous",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "azata, chaotic, extraplanar, good",
+  "alignment": "CG",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 36,
+    "notes": "deflection +4, dex +8, natural +15, size -1",
+    "touch": 21,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 372,
+    "formula": "24d10+240"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., other ['air walk'] ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 26,
+    "con": 31,
+    "int": 18,
+    "wis": 27,
+    "cha": 29
+  },
+  "saves": {
+    "text": "Fort +28, Ref +20, Will +26",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +36, Climb +33, Diplomacy +36, Heal +35, Knowledge (nature) +31, Knowledge (planes) +31, Perception +35, Sense Motive +35, Stealth +31, Use Magic Device +36",
+    "list": {
+      "Bluff": "+36",
+      "Climb": "+33",
+      "Diplomacy": "+36",
+      "Heal": "+35",
+      "Perception": "+35",
+      "Sense Motive": "+35",
+      "Stealth": "+31",
+      "Use Magic Device": "+36"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect animals or plants",
+    "detect evil",
+    "low-light vision",
+    "tremorsense",
+    "true seeing"
+  ],
+  "passivePerception": 45,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "speak with animals",
+    "truespeech"
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 24,
+  "feats": [
+    "Combat Casting",
+    "Combat Expertise",
+    "Critical Focus",
+    "Eschew Materials",
+    "Greater Disarm",
+    "Improved Critical (sickle)",
+    "Improved Critical (vine)",
+    "Improved Disarm",
+    "Improved Initiative",
+    "Power Attack",
+    "Quicken Spell-Like Ability (wall of thorns)",
+    "Sickening Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+3 icy burst sickle +35/+30/+25/+20 (1d8+12/19-20 plus 1d6 cold), 4 vines +32 (1d8+9/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This beautiful, rosy-haired woman has a lower body composed of a column of autumnal leaves and gently swaying vines.",
+  "meta": {
+    "cmb": "34 (+38 disarm)",
+    "cmd": "56 (58 vs. disarm, can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Elysium)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or grove (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

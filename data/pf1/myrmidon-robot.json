@@ -1,0 +1,109 @@
+{
+  "name": "Myrmidon Robot",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Inner Sea Bestiary",
+  "size": "Large",
+  "type": "construct",
+  "subtype": "robot",
+  "alignment": "N",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 25,
+    "notes": "dex +2, natural +14, size -1",
+    "touch": 11,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 112,
+    "formula": "15d10+30"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 90 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 15,
+    "con": "None",
+    "int": 12,
+    "wis": 14,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +10, Ref +12, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +26, Knowledge (engineering) +19, Perception +20",
+    "list": {
+      "Fly": "+26",
+      "Perception": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "superior optics"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 15,
+  "feats": [
+    "Combat Reflexes",
+    "Flyby Attack",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Point-Blank Shot",
+    "Precise Shot"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +22 (1d6+8 plus grab), 2 quantum lashes +22 touch (1d10 force/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "integrated laser rifle +16 touch (2d10 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This metallic creature has pincer-tipped arms, a single red eye, and an array of deadly armaments.",
+  "meta": {
+    "cmb": "24 (+28 grapple)",
+    "cmd": "36 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or unit (2-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

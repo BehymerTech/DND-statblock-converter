@@ -1,0 +1,121 @@
+{
+  "name": "Vault Giant",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 120: Vault of the Onyx Citadel",
+  "size": "Gargantuan",
+  "type": "humanoid",
+  "subtype": "aquatic, giant, reptilian",
+  "alignment": "LE",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 32,
+    "notes": "dex +2, natural +24, size -4",
+    "touch": 8,
+    "flatFooted": 30
+  },
+  "hp": {
+    "average": 270,
+    "formula": "20d8+180"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 15,
+    "con": 29,
+    "int": 20,
+    "wis": 23,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +15, Ref +10, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +12, Climb +36, Knowledge (arcana) +15, Knowledge (local) +15, Perception +29, Sense Motive +26, Spellcraft +20, Survival +24, Swim +44",
+    "list": {
+      "Acrobatics": "+12",
+      "Climb": "+36",
+      "Perception": "+29",
+      "Sense Motive": "+26",
+      "Spellcraft": "+20",
+      "Survival": "+24",
+      "Swim": "+44"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 39,
+  "languages": [
+    "Aquan",
+    "Common",
+    "Draconic",
+    "Giant",
+    "Undercommon"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 15,
+  "feats": [
+    "Combat Reflexes",
+    "Critical Focus",
+    "Improved Bull Rush",
+    "Improved Critical (spear)",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Vital Strike",
+    "Weapon Focus (spear)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 returning spear +26/+21/+16 (4d6+20/19-20/×3), bite +19 (2d8+6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 returning spear +15 (4d6+14/19-20/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This saurian giant’s body is covered in pale aquamarine scales, and a dark, rigid crest runs from its head to the tip of its thick tail. Its blue eyes give off a soft glow.",
+  "meta": {
+    "cmb": "32 (+34 bull rush)",
+    "cmd": "44 (46 vs. bull rush)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any coastal (Sightless Sea)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, hunting party (3-9), or war band (10-18 plus 1 mesmeristOA or psychicOA of 3rd-6th level)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (Gargantuan +1 returning spear, other treasure)"
+      }
+    ]
+  }
+}

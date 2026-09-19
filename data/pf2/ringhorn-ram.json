@@ -1,0 +1,98 @@
+{
+  "name": "Ringhorn Ram",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 212.",
+  "size": "Medium",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 0",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 15,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet; nimble stride;"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 14,
+    "int": 0,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +6, Ref +6, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +4 (1d20+4); __Athletics__: +5 (1d20+5); __Stealth__: +4 (1d20+4); __Survival__: +6 (1d20+6); ",
+    "list": {
+      "Acrobatics": "+4",
+      "Athletics": "+5",
+      "Stealth": "+4",
+      "Survival": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Nimble Stride",
+      "text": "Rams ignore difficult terrain caused by narrow ledges."
+    },
+    {
+      "name": "Ram Charge",
+      "text": "⬺ The ram Strides twice in a straight line and then makes a horn Strike with a +1 circumstance bonus to its attack roll."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ hoof +7 Damage 1d6+3 (1d6+3) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ horn +7 (agile); Damage 1d4+3 (1d4+3) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      2,
+      2,
+      -5,
+      2,
+      0
+    ]
+  }
+}

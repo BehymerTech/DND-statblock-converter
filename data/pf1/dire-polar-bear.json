@@ -1,0 +1,101 @@
+{
+  "name": "Dire Polar Bear",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 22,
+    "notes": "dex +3, natural +10, size -1",
+    "touch": 12,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 115,
+    "formula": "10d8+70"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 17,
+    "con": 25,
+    "int": 2,
+    "wis": 16,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +14, Ref +10, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +14, Survival +7, Swim +21",
+    "list": {
+      "Perception": "+14",
+      "Survival": "+7",
+      "Swim": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 24,
+  "languages": [],
+  "initiative": "+7",
+  "babOrProficiency": 7,
+  "feats": [
+    "Endurance",
+    "Improved Initiative",
+    "Iron Will",
+    "Run",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15 (1d8+9), 2 claws +15 (1d6+9 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Fearsome bony growths protrude from several spots in this massive animal’s snowy fur.",
+  "meta": {
+    "cmb": "17 (+21 grapple)",
+    "cmd": "28 (32 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold coastlines or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

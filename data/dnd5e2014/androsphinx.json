@@ -1,0 +1,118 @@
+{
+  "name": "Androsphinx",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Large",
+  "type": "monstrosity",
+  "subtype": "",
+  "alignment": "lawful neutral",
+  "cr": "17",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": "natural armor"
+  },
+  "hp": {
+    "average": 199,
+    "formula": "19d10 + 95"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": 60,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 10,
+    "con": 20,
+    "int": 16,
+    "wis": 18,
+    "cha": 23
+  },
+  "saves": {
+    "text": "dex +6, con +11, int +9, wis +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Arcana +9, Perception +10, Religion +15",
+    "list": {
+      "arcana": "+9",
+      "perception": "+10",
+      "religion": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [
+    "psychic"
+  ],
+  "conditionImmunities": [
+    "charmed",
+    "frightened"
+  ],
+  "senses": [
+    "truesight 120 ft."
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Sphinx"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Inscrutable",
+      "text": "The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom (Insight) checks made to ascertain the sphinx's intentions or sincerity have disadvantage."
+    },
+    {
+      "name": "Magic Weapons",
+      "text": "The sphinx's weapon attacks are magical."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The sphinx makes two claw attacks."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 17 (2d10 + 6) slashing damage."
+    },
+    {
+      "name": "Roar (3/Day)",
+      "text": "The sphinx emits a magical roar. Each time it roars before finishing a long rest, the roar is louder and the effect is different, as detailed below. Each creature within 500 feet of the sphinx and able to hear the roar must make a saving throw.\n- **First Roar.** Each creature that fails a DC 18 Wisdom saving throw is frightened for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n- **Second Roar.** Each creature that fails a DC 18 Wisdom saving throw is deafened and frightened for 1 minute. A frightened creature is paralyzed and can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n- **Third Roar.** Each creature makes a DC 18 Constitution saving throw. On a failed save, a creature takes 44 (8d10) thunder damage and is knocked prone. On a successful save, the creature takes half as much damage and isn't knocked prone."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [
+    {
+      "name": "Claw Attack",
+      "text": "The sphinx makes one claw attack."
+    },
+    {
+      "name": "Teleport (Costs 2 Actions)",
+      "text": "The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+    },
+    {
+      "name": "Cast a Spell (Costs 3 Actions)",
+      "text": "The sphinx casts a spell from its list of prepared spells, using a spell slot as normal."
+    }
+  ],
+  "spellcasting": [
+    {
+      "name": "Spellcasting",
+      "text": "The sphinx is a 12th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following cleric spells prepared:\nCantrips (at will): sacred flame, spare the dying, thaumaturgy\n1st level (4 slots): command, detect evil and good, detect magic\n2nd level (3 slots): lesser restoration, zone of truth\n3rd level (3 slots): dispel magic, tongues\n4th level (3 slots): banishment, freedom of movement\n5th level (2 slots): flame strike, greater restoration\n6th level (1 slot): heroes' feast"
+    }
+  ],
+  "description": "",
+  "meta": {}
+}

@@ -1,0 +1,114 @@
+{
+  "name": "Etioling",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 142: Gardens of Gallowspire",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "gnome, mortic",
+  "alignment": "CN",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 27,
+    "notes": "armor +4, deflection +7, dex +4, dodge +1, size +1",
+    "touch": 23,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 112,
+    "formula": "15d8+45"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 21,
+    "con": 17,
+    "int": 13,
+    "wis": 14,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +12, Ref +10, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +17, Intimidate +17, Perception +17, Sense Motive +12, Stealth +21",
+    "list": {
+      "Bluff": "+17",
+      "Intimidate": "+17",
+      "Perception": "+17",
+      "Sense Motive": "+12",
+      "Stealth": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Common",
+    "Gnome",
+    "Sylvan"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 11,
+  "feats": [
+    "Agile Maneuvers",
+    "Combat Casting",
+    "Combat Expertise",
+    "Dodge",
+    "Ectoplasmic Spell",
+    "Improved Initiative",
+    "Iron Will",
+    "Mobility"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "corrupting touch +11 (10d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Glowing veins of green creep across the flesh of this pale, spasming gnome. Stifled giggles escape her rictus grin.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": 32,
+    "racialModifiers": [
+      "Intimidate 2",
+      "Perception 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or support group (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk chain shirt)"
+      }
+    ]
+  }
+}

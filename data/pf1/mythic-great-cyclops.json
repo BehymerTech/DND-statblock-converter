@@ -1,0 +1,111 @@
+{
+  "name": "Mythic Great Cyclops",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Huge",
+  "type": "humanoid",
+  "subtype": "giant, mythic",
+  "alignment": "CE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 32,
+    "notes": "armor +4, dex +1, natural +19, size -2",
+    "touch": 9,
+    "flatFooted": 31
+  },
+  "hp": {
+    "average": 243,
+    "formula": "17d8+167"
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 ft.,  50 ft. base"
+  },
+  "abilities": {
+    "str": 38,
+    "dex": 13,
+    "con": 25,
+    "int": 7,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +12, Ref +6, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +22",
+    "list": {
+      "Perception": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "see in darkness"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Common",
+    "Cyclops",
+    "Giant"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 12,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Critical Focus",
+    "Diehard",
+    "Endurance",
+    "Improved Bull Rush",
+    "Improved Overrun",
+    "Iron Will",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk greatclub +25/+20/+15 (3d8+21), gore +24 (1d8+14)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +12 (2d6+21)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "28 (+30 bull rush or overrun)",
+    "cmd": "39 (41 vs. bull rush or overrun)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any temperate or tropical"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, colony (2-5), or tribe (6-14)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk greatclub, hide armor, other treasure)"
+      }
+    ]
+  }
+}

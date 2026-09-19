@@ -1,0 +1,103 @@
+{
+  "name": "NPC Island Defender",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "alignment": "LN",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 24,
+    "notes": "armor +7, deflection +2, dex +2, shield +3",
+    "touch": 14,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 47,
+    "formula": "7d8+12"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 12,
+    "int": 15,
+    "wis": 16,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +6, Ref +6, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +4, Handle Animal +5, Heal +11, Knowledge (history) +4, Knowledge (nature) +14, Linguistics +3, Perception +15, Spellcraft +11, Survival +14, Swim +5",
+    "list": {
+      "Fly": "+4",
+      "Handle Animal": "+5",
+      "Heal": "+11",
+      "Linguistics": "+3",
+      "Perception": "+15",
+      "Spellcraft": "+11",
+      "Survival": "+14",
+      "Swim": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Common",
+    "Aquan",
+    "Draconic",
+    "Druidic",
+    "Elven",
+    "Sylvan"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 5,
+  "feats": [
+    "Combat Casting",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Natural Spell"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk shortspear +6 (1d6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk shortspear +8 (1d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Elf",
+    "class": "druid 7",
+    "cmb": "+5",
+    "cmd": 19
+  }
+}

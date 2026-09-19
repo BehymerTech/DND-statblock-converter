@@ -1,0 +1,99 @@
+{
+  "name": "Vexgit",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 134.",
+  "size": "Tiny",
+  "type": "Gremlin",
+  "subtype": "Fey",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 24,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, climb 20 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 18,
+    "con": 14,
+    "int": 12,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +5, Ref +9, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Athletics__: +6 (1d20+6); __Crafting__: +6 (1d20+6), (Crafting: +8 (1d20+8) traps); __Nature__: +6 (1d20+6); __Stealth__: +5 (1d20+5); __Thievery__: +7 (1d20+7); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Athletics": "+6",
+      "Crafting": "+8",
+      "Nature": "+6",
+      "Stealth": "+5",
+      "Thievery": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Clacking Exoskeleton",
+      "text": "A creature that can hear gains a +2 circumstance bonus to its Perception DC against a vexgit's attempts to Sneak."
+    },
+    {
+      "name": "Items",
+      "text": "maul;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ maul +8 (shove); Damage 1d12+1 (1d12+1) bludgeoning plus"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      4,
+      2,
+      1,
+      1,
+      0
+    ],
+    "items": "maul;"
+  }
+}

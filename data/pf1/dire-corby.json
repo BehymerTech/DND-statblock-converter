@@ -1,0 +1,104 @@
+{
+  "name": "Dire Corby",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Misfit Monsters Redeemed",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 13,
+    "notes": "dex +1, natural +2",
+    "touch": 11,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 15,
+    "formula": "2d10+4"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 15,
+    "int": 7,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +2, Ref +4, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Climb +13, Perception +6, Stealth +8",
+    "list": {
+      "Acrobatics": "+10",
+      "Climb": "+13",
+      "Perception": "+6",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Undercommon"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Blind-Fight",
+    "Skill Focus (Stealth)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +3 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature looks like a humanoid crow with oily black feathers, glittering eyes, and a sharp beak.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": 14,
+    "racialModifiers": [
+      "Acrobatics 8",
+      "Perception 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "gang (2-5), hunting flock (1-3 dread corbies and 5-10 dire corbies), or rookery (1-10 dread corbies and 10-50 dire corbies plus 1 barbarian or fighter of 3rd-5th level per 10 adults)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

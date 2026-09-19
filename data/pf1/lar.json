@@ -1,0 +1,96 @@
+{
+  "name": "Lar",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 27: What Lies in Dust",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "good, incorporeal, lawful, native",
+  "alignment": "LG",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 17,
+    "notes": "deflection +2, dex +3, size +2",
+    "touch": 17,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 39,
+    "formula": "6d10+6"
+  },
+  "speed": {
+    "walk": 0,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "0 ft., fly 30 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 17,
+    "con": 13,
+    "int": 12,
+    "wis": 15,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +3, Ref +7, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (any two) +10, Heal +11, Knowledge (local) +10, Knowledge (religion) +7, Perception +13, Sense Motive +13",
+    "list": {
+      "Heal": "+11",
+      "Perception": "+13",
+      "Sense Motive": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "telepathy (100 ft.)"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 6,
+  "feats": [
+    "Alertness",
+    "Improved Lightning Reflexes",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A stirring in the air and rustle through the room reveals a presence-a subtle aura both cautious and curious.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 19,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

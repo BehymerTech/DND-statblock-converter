@@ -1,0 +1,97 @@
+{
+  "name": "NPC Ossuary Agent",
+  "sourceSystem": "pf1",
+  "source": "Tombs of Golarion",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LN",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "armor +5, dex +4, dodge +1",
+    "touch": 15,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 56,
+    "formula": "6d8+2d10+14"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 13,
+    "int": 13,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +6, Ref +12, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +14, Appraise +12, Bluff +10, Diplomacy +10, Disable Device +17, Intimidate +10, Knowledge (local) +10, Perception +15, Sense Motive +15, Stealth +14",
+    "list": {
+      "Acrobatics": "+14",
+      "Appraise": "+12",
+      "Bluff": "+10",
+      "Diplomacy": "+10",
+      "Disable Device": "+17",
+      "Intimidate": "+10",
+      "Perception": "+15",
+      "Sense Motive": "+15",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 25,
+  "languages": [
+    "Common",
+    "Dwarven"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 6,
+  "feats": [
+    "Alertness",
+    "Dodge",
+    "Double Slice",
+    "Improved Initiative",
+    "Iron Will",
+    "Two-Weapon Fighting",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 rapier +9/+4 (1d6+3/18-20), mwk dagger +9 (1d4+2/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A metal mask covers the face of this attentive guard.",
+  "meta": {
+    "race": "Human",
+    "class": "ranger 2, rogue 6",
+    "cmb": "+8",
+    "cmd": 23
+  }
+}

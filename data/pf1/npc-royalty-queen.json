@@ -1,0 +1,100 @@
+{
+  "name": "NPC Royalty (Queen)",
+  "sourceSystem": "pf1",
+  "source": "GameMastery Guide",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 12,
+    "notes": "armor +1, dex +1",
+    "touch": 11,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 54,
+    "formula": "12d8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 12,
+    "con": 10,
+    "int": 12,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +6, Ref +7, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +14, Diplomacy +22, Intimidate +22, Knowledge (history) +10, Knowledge (nobility) +16, Linguistics +5, Perception +19, Perform (dance) +9, Perform (sing) +9, Perform (string) +9, Ride +6, Sense Motive +27",
+    "list": {
+      "Bluff": "+14",
+      "Diplomacy": "+22",
+      "Intimidate": "+22",
+      "Linguistics": "+5",
+      "Perception": "+19",
+      "Ride": "+6",
+      "Sense Motive": "+27"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 29,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Elven"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 9,
+  "feats": [
+    "Alertness",
+    "Defensive Combat Training",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Iron Will",
+    "Persuasive",
+    "Skill Focus (Sense Motive)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk dagger +9/+4 (1d4-1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk dagger +11 (1d4-1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "aristocrat 12",
+    "cmb": "+8",
+    "cmd": 22
+  }
+}

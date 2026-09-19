@@ -1,0 +1,86 @@
+{
+  "name": "NPC Savage Mercenary",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "CN",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 15,
+    "notes": "armor +6, dex +1, rage -2",
+    "touch": 9,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 17,
+    "formula": "1d12+5"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 13,
+    "con": 18,
+    "int": 10,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +6, Ref +1, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +5, Knowledge (nature) +4, Perception +5, Survival +5, Swim +5",
+    "list": {
+      "Climb": "+5",
+      "Perception": "+5",
+      "Survival": "+5",
+      "Swim": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 15,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 1,
+  "feats": [
+    "Cleave",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "greatsword +6 (2d6+7/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "barbarian 1",
+    "cmb": "+6",
+    "cmd": 15
+  }
+}

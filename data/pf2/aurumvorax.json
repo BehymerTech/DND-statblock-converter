@@ -1,0 +1,108 @@
+{
+  "name": "Aurumvorax",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 29.",
+  "size": "Small",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 9",
+  "xp": null,
+  "ac": {
+    "value": 28,
+    "notes": ""
+  },
+  "hp": {
+    "average": 170,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet, burrow 10 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 14,
+    "con": 18,
+    "int": 2,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +19, Ref +17, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +20 (1d20+20), (Athletics: +6 (1d20+6) to Swim); __Stealth__: +18 (1d20+18); ",
+    "list": {
+      "Athletics": "+6",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 28,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Tenacious Stance",
+      "text": "An aurumvorax gains a +4 circumstance bonus to its Fortitude or Reflex DC against Shove and Trip attempts, and to its Athletics DC against attempts to escape its Grab."
+    },
+    {
+      "name": "Ferocity",
+      "text": "⬲"
+    },
+    {
+      "name": "Bleeding Critical",
+      "text": "When an aurumvorax scores a critical hit, the target takes 1d6 (1d6) persistent bleed damage."
+    },
+    {
+      "name": "Gnaw Metal",
+      "text": "⬻ The aurumvorax makes a jaws Strike against a creature it has grabbed. If the attack hits, the target is knocked prone if it is Medium or smaller. In addition, if the target is wearing armor with Hardness 10 or lower, the armor becomes broken. If this Strike breaks a creature's armor or damages a creature that is unarmored or wearing broken armor, the target also takes 1d6 (1d6) persistent bleed damage. This Strike doesn't further damage armor that's already broken."
+    },
+    {
+      "name": "Rapid Rake",
+      "text": "⬺ The aurumvorax makes four claw Strikes against a creature it has grabbed. Each attack counts toward the aurumvorax's multiple attack penalty, and the multiple attack penalty increases with each attack."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +21 Damage 2d10+12 (2d10+12) piercing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +21 (agile); Damage 2d8+12 (2d8+12) slashing plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      2,
+      4,
+      -4,
+      3,
+      0
+    ]
+  }
+}

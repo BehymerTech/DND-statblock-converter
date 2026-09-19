@@ -1,0 +1,93 @@
+{
+  "name": "NPC Cannibal Zealot",
+  "sourceSystem": "pf1",
+  "source": "Tombs of Golarion",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "NE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 17,
+    "notes": "armor +4, dex +1, dodge +1, shield +1",
+    "touch": 12,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 54,
+    "formula": "4d8+3d12+11"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 13,
+    "con": 12,
+    "int": 8,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +3, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (traps) +5, Heal +9, Intimidate +15, Knowledge (nature) +5, Perception +9, Sense Motive +11, Stealth +9, Survival +13",
+    "list": {
+      "Heal": "+9",
+      "Intimidate": "+15",
+      "Perception": "+9",
+      "Sense Motive": "+11",
+      "Stealth": "+9",
+      "Survival": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 19,
+  "languages": [
+    "Polyglot"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 6,
+  "feats": [
+    "Cleave",
+    "Dodge",
+    "Intimidating Prowess",
+    "Polytheistic Blessing (Sar-Gorog pantheon",
+    "see the sidebar on page 63)",
+    "Power Attack",
+    "Precise Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk light flail +10/+5 (1d8+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Crude designs painted in what can only be dried blood cake the face and the hide clothing of this rugged-looking human, whose grinning mouth is filled with sharp, filed teeth.",
+  "meta": {
+    "race": "Human",
+    "class": "barbarian 3, inquisitor 4",
+    "cmb": "+9",
+    "cmd": 21
+  }
+}

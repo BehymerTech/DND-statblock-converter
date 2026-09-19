@@ -1,0 +1,112 @@
+{
+  "name": "Phoenix",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 261.",
+  "size": "Gargantuan",
+  "type": "Fire",
+  "subtype": "Beast",
+  "alignment": "NG",
+  "cr": null,
+  "level": "Creature 15",
+  "xp": null,
+  "ac": {
+    "value": 36,
+    "notes": ""
+  },
+  "hp": {
+    "average": 300,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 70 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 24,
+    "con": 20,
+    "int": 24,
+    "wis": 22,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +27, Ref +31, Will +28",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +30 (1d20+30); __Athletics__: +27 (1d20+27); __Diplomacy__: +31 (1d20+31); __Intimidation__: +27 (1d20+27); __Nature__: +25 (1d20+25); ",
+    "list": {
+      "Acrobatics": "+30",
+      "Athletics": "+27",
+      "Diplomacy": "+31",
+      "Intimidation": "+27",
+      "Nature": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, detect magic, see invisibility"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Auran",
+    "Celestial",
+    "Common",
+    "Ignan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Self-Resurrection",
+      "text": "(healing, necromancy, primal); When a phoenix dies, it collapses into a pile of smoldering ashes before returning to life fully healed 1d4 (1d4) rounds later, as if subject to a 7th-level resurrect ritual. Self-resurrection happens only if there are some remains to resurrect; for instance, a phoenix killed by a disintegrate spell can't use this ability. A phoenix whose remains rest within an area devoted to an evil deity by consecrate can't self-resurrect until its remains are no longer in that area. A phoenix can self-resurrect only once per year."
+    },
+    {
+      "name": "Shroud of Flame",
+      "text": "(aura, evocation, fire, primal); 20 feet. 4d6 (4d6) fire, DC 37 basic Reflex save. While this aura is active, any adjacent creature that hits the phoenix with a melee attack or otherwise touches it takes 2d6 (2d6) fire damage. The phoenix can activate or deactivate the aura with a single action, which has the concentrate trait."
+    },
+    {
+      "name": "Flaming Strafe",
+      "text": "⬻ (evocation, fire, primal); The phoenix blazes with superheated flame and Flies up to its Speed. It deals 6d6 (6d6) fire damage to each creature within 20 feet of each square it moves through (DC 37 basic Reflex save)."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ beak +30 (finesse, fire, magical, reach 20 feet); Damage 1d12+9 (1d12+9) piercing plus 3d8 (3d8) fire and 2d10 (2d10) persistent fire"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ talon +30 (agile, finesse, fire, magical, reach 20 feet); Damage 1d6+6 (1d6+6) piercing plus 3d8 (3d8) fire and 2d10 (2d10) persistent fire"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ flame jet +30 (fire, range increment 40 feet); Damage 6d6 (6d6) fire plus 2d10 (2d10) persistent fire"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      7,
+      5,
+      7,
+      6,
+      6
+    ]
+  }
+}

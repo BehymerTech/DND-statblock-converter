@@ -1,0 +1,102 @@
+{
+  "name": "Adult Infernal Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 31,
+    "notes": "dex -1, natural +24, size -2",
+    "touch": 7,
+    "flatFooted": 31
+  },
+  "hp": {
+    "average": 250,
+    "formula": "20d12+120"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 200 ft. (poor)"
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 8,
+    "con": 23,
+    "int": 24,
+    "wis": 21,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +18, Ref +11, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +30, Bluff +28, Diplomacy +28, Fly +14, Intimidate +28, Knowledge (history) +30, Knowledge (local) +30, Knowledge (nobility) +30, Knowledge (planes) +30, Linguistics +30, Perception +28, Sense Motive +28, Spellcraft +30",
+    "list": {
+      "Appraise": "+30",
+      "Bluff": "+28",
+      "Diplomacy": "+28",
+      "Fly": "+14",
+      "Intimidate": "+28",
+      "Linguistics": "+30",
+      "Perception": "+28",
+      "Sense Motive": "+28",
+      "Spellcraft": "+30"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Infernal",
+    "plus any 20 others"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 20,
+  "feats": [
+    "Bleeding Crit.",
+    "Combat Expertise",
+    "Crit. Focus",
+    "Imp. Crit. (bite)",
+    "Imp. Crit. (claw)",
+    "Imp. Init.",
+    "Iron Will",
+    "Power Attack",
+    "Weapon Focus (bite)",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +29 (2d8+15/19-20), 2 claws +29 (2d6+10/19-20), tail slap +23 (2d6+15), 2 wings +23 (1d8+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Cruel horns frame this dragon’s head. Its body glows faintly with malicious heat.",
+  "meta": {
+    "cmb": "+32",
+    "cmd": "41 (45 vs. trip)"
+  }
+}

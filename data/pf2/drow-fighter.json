@@ -1,0 +1,118 @@
+{
+  "name": "Drow Fighter",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 136.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Drow, Elf",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 18,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +7, Ref +9, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Athletics__: +5 (1d20+5); __Intimidation__: +3 (1d20+3); __Stealth__: +7 (1d20+7); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Athletics": "+5",
+      "Intimidation": "+3",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Elven",
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Light Blindness",
+      "text": ""
+    },
+    {
+      "name": "Items",
+      "text": "hand crossbow (10 bolts), leather armor, lethargy poison (2 doses), rapier;"
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Quick Draw",
+      "text": "⬻ The drow fighter draws a weapon using the Interact action, then Strikes with that weapon."
+    },
+    {
+      "name": "Skewer",
+      "text": "⬺ The drow fighter Strikes with its rapier, and gains a +1 circumstance bonus to the attack roll. A creature damaged by the attack takes 1d6 (1d6) persistent bleed damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ rapier +9 (deadly 1d8, disarm, finesse); Damage 1d6+2 (1d6+2) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ main-gauche +9 (agile, disarm, finesse, parry, versatile s); Damage 1d4+2 (1d4+2) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ hand crossbow +9 (range increment 60 feet, reload 1); Damage 1d6+1 (1d6+1) piercing plus lethargy poison"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      4,
+      2,
+      0,
+      1,
+      0
+    ],
+    "items": "hand crossbow (10 bolts), leather armor, lethargy poison (2 doses), rapier;"
+  }
+}

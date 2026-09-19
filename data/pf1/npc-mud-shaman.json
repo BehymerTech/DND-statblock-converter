@@ -1,0 +1,96 @@
+{
+  "name": "NPC Mud Shaman",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "CN",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 22,
+    "notes": "armor +7, natural +3, shield +2",
+    "touch": 10,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 69,
+    "formula": "9d8+25"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 10,
+    "con": 14,
+    "int": 8,
+    "wis": 20,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +8, Ref +5, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (woodworking) +6, Fly +4, Handle Animal +6, Knowledge (geography) +5, Knowledge (nature) +9, Perception +13, Spellcraft +4, Survival +18, Swim +6",
+    "list": {
+      "Fly": "+4",
+      "Handle Animal": "+6",
+      "Perception": "+13",
+      "Spellcraft": "+4",
+      "Survival": "+18",
+      "Swim": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 23,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 6,
+  "feats": [
+    "Augment Summoning",
+    "Lightning Reflexes",
+    "Lunge",
+    "Power Attack",
+    "Spell Focus (conjuration)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk club +10/+5 (1d6+3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk shortspear +7/+2 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "druid 9",
+    "cmb": "+9",
+    "cmd": 19
+  }
+}

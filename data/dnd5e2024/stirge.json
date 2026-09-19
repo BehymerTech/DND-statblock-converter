@@ -1,0 +1,71 @@
+{
+  "name": "Stirge",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Tiny",
+  "type": "Monstrosity",
+  "subtype": "",
+  "alignment": "Unaligned",
+  "cr": "1/8",
+  "level": null,
+  "xp": 25,
+  "ac": {
+    "value": 13,
+    "notes": ""
+  },
+  "hp": {
+    "average": 5,
+    "formula": "2d4"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": 40,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., Fly 40 ft."
+  },
+  "abilities": {
+    "str": 4,
+    "dex": 16,
+    "con": 11,
+    "int": 2,
+    "wis": 8,
+    "cha": 6
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 9,
+  "languages": [],
+  "initiative": "+3 (13)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Proboscis",
+      "text": "_Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 6 (1d6 + 3) Piercing damage, and the stirge attaches to the target. While attached, the stirge can't make Proboscis attacks, and the target takes 5 (2d4) Necrotic damage at the start of each of the stirge's turns. <br> &emsp;The stirge can detach itself by spending 5 feet of its movement. The target or a creature within 5 feet of it can detach the stirge as an action. ## Stone Giant"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

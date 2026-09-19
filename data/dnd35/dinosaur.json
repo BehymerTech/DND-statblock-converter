@@ -1,0 +1,177 @@
+{
+  "name": "Dinosaur",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Huge",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "Always neutral",
+  "cr": "8",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 14,
+    "notes": "-2 size, +1 Dex, +5 natural",
+    "touch": 9,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 180,
+    "formula": "18d8+99"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": 50,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft. (8 squares)"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 12,
+    "con": 21,
+    "int": 2,
+    "wis": 15,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +16, Ref +12, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Hide -2, Listen +14, Spot +14;",
+    "list": {
+      "Hide": "-2",
+      "Jump": "+27",
+      "Listen": "+14",
+      "Spot": "+14",
+      "Survival": "+12",
+      "Swim": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Low-light vision",
+    "scent",
+    "Low-light vision",
+    "scent",
+    "Low-light vision",
+    "scent",
+    "Low-light vision",
+    "scent",
+    "Low-light vision",
+    "scent"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 13,
+  "feats": [
+    "Alertness",
+    "Improved Natural Attack (bite)",
+    "Run",
+    "Toughness (3)",
+    "Track"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Pounce"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Low-light vision, scent"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Low-light vision, scent"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Pounce"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Low-light vision, scent"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Powerful charge, trample 2d12+15"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Low-light vision, scent"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Improved grab, swallow whole"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Low-light vision, scent"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Talons +6 melee (2d6+4)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Talons +6 melee (2d6+4) and 2 foreclaws +1 melee (1d3+2) and bite +1 melee (2d4+2)"
+    },
+    {
+      "name": "Attack",
+      "text": "Bite +13 melee (2d8+12)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +13 melee (2d8+12)"
+    },
+    {
+      "name": "Attack",
+      "text": "Talons +9 melee (2d8+5)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Talons +9 melee (2d8+5) and 2 foreclaws +4 melee (1d4+2) and bite +4 melee (2d6+2)"
+    },
+    {
+      "name": "Attack",
+      "text": "Gore +20 melee (2d8+15)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Gore +20 melee (2d8+15)"
+    },
+    {
+      "name": "Attack",
+      "text": "Bite +20 melee (3d6+13)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +20 melee (3d6+13)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Dinosaurs come in many sizes and shapes. Bigger varieties have drab coloration, while smaller dinosaurs have more colorful markings. Most dinosaurs have a pebbly skin texture.",
+    "grapple": "+30",
+    "spaceReach": "15 ft./10 ft.",
+    "environment": "Warm plains",
+    "organization": "Solitary or pair",
+    "treasure": "None",
+    "advancement": "19-36 HD (Huge); 37-54 HD (Gargantuan)",
+    "leveladjustment": "---"
+  }
+}

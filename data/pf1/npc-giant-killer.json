@@ -1,0 +1,105 @@
+{
+  "name": "NPC Giant-Killer",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "gnome",
+  "alignment": "NE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 24,
+    "notes": "armor +6, deflection +1, dex +2, dodge +1, natural +3, size +1",
+    "touch": 15,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 116,
+    "formula": "11d10+51"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 18,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +12, Ref +10, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +17, Climb +8, Knowledge (dungeoneering) +5, Knowledge (local) +5, Knowledge (geography) +8, Knowledge (nature) +8, Linguistics +1, Perception +18, Stealth +19, Survival +16, Swim +8",
+    "list": {
+      "Acrobatics": "+17",
+      "Climb": "+8",
+      "Linguistics": "+1",
+      "Perception": "+18",
+      "Stealth": "+19",
+      "Survival": "+16",
+      "Swim": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Common",
+    "Giant",
+    "Gnome"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 11,
+  "feats": [
+    "Dodge",
+    "Double Slice",
+    "Endurance",
+    "Improved Critical (gnome hooked hammer)",
+    "Lunge",
+    "Mobility",
+    "Power Attack",
+    "Two-Weapon Fighting",
+    "Two-Weapon Rend",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 gnome hooked hammer +13/+8/+3 (1d6+3/19-20/×3), mwk gnome hooked hammer +13 (1d4+2/19-20/×4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite longbow +15/+10/+5 (1d6+2/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Gnome",
+    "class": "ranger 11",
+    "cmb": "+12",
+    "cmd": 26
+  }
+}

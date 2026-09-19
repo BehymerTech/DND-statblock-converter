@@ -1,0 +1,116 @@
+{
+  "name": "Chelonidal",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 121: The Lost Outpost",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "agathion, aquatic, extraplanar, good",
+  "alignment": "NG",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 22,
+    "notes": "dex +2, natural +10",
+    "touch": 22,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 85,
+    "formula": "9d10+36"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 14,
+    "con": 19,
+    "int": 12,
+    "wis": 15,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +10, Ref +7, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +15, Heal +14, Intimidate +15, Knowledge (nature) +13, Knowledge (planes) +13, Perception +14, Sense Motive +14, Swim +10",
+    "list": {
+      "Diplomacy": "+15",
+      "Heal": "+14",
+      "Intimidate": "+15",
+      "Perception": "+14",
+      "Sense Motive": "+14",
+      "Swim": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "see invisibility"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "speak with animals",
+    "truespeech"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Reflexes",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Vital Strike",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 cold iron trident +13/+8 (1d8+5), bite +9 (1d6+3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+2 cold iron trident +13 (1d8+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature resembles a cross between a humanoid and a sea turtle, with flipper-like hands and a heavy shell covering its back.",
+  "meta": {
+    "cmb": "+11",
+    "cmd": 23,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land or water (Nirvana)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, phalanx (4-12 chelonidals), or legion (10-20 chelonidals plus 1-2 avoral lieutenants and 1 cervinal commander)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+2 cold iron trident, other gear)"
+      }
+    ]
+  }
+}

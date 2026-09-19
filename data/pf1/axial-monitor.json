@@ -1,0 +1,119 @@
+{
+  "name": "Axial Monitor",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 131: The Reaper's Right Hand",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "extraplanar, lawful",
+  "alignment": "LN",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 30,
+    "notes": "armor +6, dex +3, natural +12, size -1",
+    "touch": 12,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 210,
+    "formula": "20d10+100"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft.,  30 ft. in armor"
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 16,
+    "con": 21,
+    "int": 14,
+    "wis": 18,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +17, Ref +11, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +23, Diplomacy +26, Intimidate +26, Knowledge (local) +25, Knowledge (planes) +25, Perception +41, Sense Motive +31, Spellcraft +22",
+    "list": {
+      "Acrobatics": "+23",
+      "Diplomacy": "+26",
+      "Intimidate": "+26",
+      "Perception": "+41",
+      "Sense Motive": "+31",
+      "Spellcraft": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 51,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "truespeech"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 20,
+  "feats": [
+    "Cleave",
+    "Combat Expertise",
+    "Great Cleave",
+    "Improved Disarm",
+    "Improved Initiative",
+    "Improved Trip",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 merciful greatclub +26/+21/+16/+11 (2d8+10), tentacle +20 (1d6+3 plus grab), slam +20 (2d6+3 plus energized maul)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This imposing creature stands on three legs, with a body like three torsos fused together. These torsos are topped with a single head bearing three faces, each set in a bland, serene expression.",
+  "meta": {
+    "cmb": "27 (+29 disarm and trip)",
+    "cmd": "40 (42 vs. disarm and trip)",
+    "racialModifiers": [
+      "Perception 8",
+      "Sense Motive 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any urban (Axis)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, patrol (2-4), squad (5-8), precinct (9-16), or academy (21-40)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (Large mwk breastplate, Large +1 axiomatic glaive, Large +1 merciful greatclub, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "name": "Recycled Gearsman",
+  "sourceSystem": "pf1",
+  "source": "Construct Handbook",
+  "size": "Medium",
+  "type": "construct",
+  "subtype": "robot",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 16,
+    "notes": "dex +1, natural +5",
+    "touch": 11,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 37,
+    "formula": "4d10+15"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": "None",
+    "int": 10,
+    "wis": 13,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +1, Ref +2, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (any one) +7, Disable Device +8, Perception +8, Profession (any one) +8, Sense Motive +8",
+    "list": {
+      "Disable Device": "+8",
+      "Perception": "+8",
+      "Sense Motive": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 4,
+  "feats": [
+    "Combat Reflexes",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +9 (1d4+7)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk heavy repeating crossbow +6 (1d10/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Plates of mismatched metal cover gaps in the burnished brass armor encasing this construct. Exposed wires hang from its creaking joints, and its glowing glass eye appears to be cracked.",
+  "meta": {
+    "cmb": "+9",
+    "cmd": 20,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or squad (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (masterwork heavy repeating crossbow, 2 cases of repeating crossbow bolts, other treasure)"
+      }
+    ]
+  }
+}

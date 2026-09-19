@@ -1,0 +1,96 @@
+{
+  "name": "Young White Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "dragon",
+  "subtype": "cold",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 20,
+    "notes": "dex +2, natural +8",
+    "touch": 12,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 66,
+    "formula": "7d12+21"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 150 ft. (average), burrow 30 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 14,
+    "con": 17,
+    "int": 8,
+    "wis": 11,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +8, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +12, Intimidate +9, Perception +12, Stealth +12, Swim +22",
+    "list": {
+      "Fly": "+12",
+      "Intimidate": "+9",
+      "Perception": "+12",
+      "Stealth": "+12",
+      "Swim": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "snow vision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 7,
+  "feats": [
+    "Alertness",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +11 (1d8+6), 2 claws +11 (1d6+4), 2 wings +6 (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This dragon’s scales are a frosty white. Its head is crowned with slender horns, with a thin membrane stretched between them.",
+  "meta": {
+    "cmb": "+11",
+    "cmd": "23 (27 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold mountains"
+      }
+    ]
+  }
+}

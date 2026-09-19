@@ -1,0 +1,98 @@
+{
+  "name": "Living Landslide",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 146.",
+  "size": "Medium",
+  "type": "Elemental",
+  "subtype": "Earth",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 5",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 90,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, burrow 25 feet; earth glide;"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 8,
+    "con": 18,
+    "int": 6,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +15, Ref +8, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +14 (1d20+14); __Stealth__: +8 (1d20+8); ",
+    "list": {
+      "Athletics": "+14",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tremorsense 60"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Terran"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Earthbound",
+      "text": "When not touching solid ground, the living landslide is slowed 1 and can't use reactions."
+    },
+    {
+      "name": "Crumble",
+      "text": "⬲ Trigger The living landslide takes damage from a hostile source while atop rock or earth. Effect The living landslide crumbles into the ground, Burrowing down 10 feet. This Burrowing does not trigger reactions. The living landslide can't Crumble again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Earth Glide",
+      "text": "The sod hound can Burrow through any earthen matter, including rock. When it does so, the sod hound moves at its full burrow Speed, leaving no tunnels or signs of its passing."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +16 (reach 10 feet); Damage 2d8+8 (2d8+8) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      -1,
+      4,
+      -2,
+      1,
+      -1
+    ]
+  }
+}

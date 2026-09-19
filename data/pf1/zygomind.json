@@ -1,0 +1,90 @@
+{
+  "name": "Zygomind",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Colossal",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 24,
+    "notes": "dex +7, natural +15, size -8",
+    "touch": 9,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 266,
+    "formula": "28d8+140"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft., climb 5 ft."
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 25,
+    "con": 20,
+    "int": "None",
+    "wis": 24,
+    "cha": 35
+  },
+  "saves": {
+    "text": "Fort +21, Ref +16, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +18, Perception +7",
+    "list": {
+      "Climb": "+18",
+      "Perception": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": "+7",
+  "babOrProficiency": 21,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 tentacles +23 (2d8+10 plus grab and soporific spores)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous fungus looks like a cage, and a strange glow emanates from within.",
+  "meta": {
+    "cmb": "39 (+43 grapple)",
+    "cmd": "56 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any temperate"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      }
+    ]
+  }
+}

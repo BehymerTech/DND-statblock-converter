@@ -1,0 +1,107 @@
+{
+  "name": "Relictner",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 143: Borne by the Sun's Grace",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf, mortic",
+  "alignment": "LE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 26,
+    "notes": "armor +3, dex +2, dodge +10 natural +1",
+    "touch": 13,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 162,
+    "formula": "17d8+85"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 14,
+    "con": 19,
+    "int": 15,
+    "wis": 16,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +14, Ref +9, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (traps) +20, Knowledge (engineering) +19, Perception +23, Stealth +21",
+    "list": {
+      "Perception": "+23",
+      "Stealth": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "ruin sense"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Common",
+    "Dwarven"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 12,
+  "feats": [
+    "Dodge",
+    "Greater Bull Rush",
+    "Greater Sunder",
+    "Improved Bull Rush",
+    "Improved Sunder",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "adamantine warhammer +16/+11/+6 (1d8+6/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This withered, decrepit dwarf has crumbling skin and wears ancient leather armor but moves with eerie agility.",
+  "meta": {
+    "cmb": "16 (+20 bull rush, +20 sunder)",
+    "cmd": "29 (31 vs. bull rush, 31 vs. sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any ruins"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, family (2-6), or clan (7-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (studded leather armor, adamantine warhammer, other treasure)"
+      }
+    ]
+  }
+}

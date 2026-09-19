@@ -1,0 +1,100 @@
+{
+  "name": "Angustiden",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 57: Tempest Rising",
+  "size": "Gargantuan",
+  "type": "animal",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 16,
+    "notes": "dex +1, natural +9, size -4",
+    "touch": 7,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 105,
+    "formula": "10d8+60"
+  },
+  "speed": {
+    "walk": 90,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 90 ft."
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 12,
+    "con": 23,
+    "int": 3,
+    "wis": 10,
+    "cha": 4
+  },
+  "saves": {
+    "text": "Fort +15, Ref +8, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +19, Swim +18",
+    "list": {
+      "Perception": "+19",
+      "Swim": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "keen scent"
+  ],
+  "passivePerception": 29,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 7,
+  "feats": [
+    "Endurance",
+    "Great Fortitude",
+    "Improved Sunder",
+    "Lunge",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (2d8+15/18-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This majestic beast glides through the water with murderous intent. Its thick-toothed maw is wide enough for a human to stand in, and its body stretches back more than 20 feet.",
+  "meta": {
+    "cmb": "21 (+25 grapple, +23 sunder)",
+    "cmd": "32 (+34 grapple)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any ocean"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

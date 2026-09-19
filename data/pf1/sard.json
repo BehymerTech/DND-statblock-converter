@@ -1,0 +1,116 @@
+{
+  "name": "Sard",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Colossal",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 34,
+    "notes": "dex +8, natural +24, size -8",
+    "touch": 10,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 333,
+    "formula": "23d8+230"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 42,
+    "dex": 27,
+    "con": 30,
+    "int": 9,
+    "wis": 22,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +23, Ref +17, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +24, Perception +32",
+    "list": {
+      "Climb": "+24",
+      "Perception": "+32"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision",
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 42,
+  "languages": [
+    "Aklo",
+    "Sylvan"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 17,
+  "feats": [
+    "Awesome Blow",
+    "Improved Bull Rush",
+    "Improved Critical (slam)",
+    "Improved Lightning Reflexes",
+    "Improved Precise Shot",
+    "Improved Sunder",
+    "Lightning Reflexes",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Precise Shot",
+    "Quicken Spell-Like Ability (lightning bolt)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +25 (4d10+16/19-20 plus 4d6 electricity)"
+    },
+    {
+      "name": "Ranged",
+      "text": "4 thorns +17 (2d8+16 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This wriggling and leafless tree moves on spidery legs. Flickering motes of blood-red lightning dance in the cracks of its bark.",
+  "meta": {
+    "cmb": "+41",
+    "cmd": "59 (67 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

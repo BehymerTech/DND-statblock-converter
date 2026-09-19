@@ -1,0 +1,97 @@
+{
+  "name": "Globster",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 115.",
+  "size": "Large",
+  "type": "Ooze",
+  "subtype": "Aquatic",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 5",
+  "xp": null,
+  "ac": {
+    "value": 12,
+    "notes": ""
+  },
+  "hp": {
+    "average": 170,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 feet, swim 30 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 0,
+    "con": 20,
+    "int": 0,
+    "wis": 10,
+    "cha": 0
+  },
+  "saves": {
+    "text": "Fort +16, Ref +6, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +15 (1d20+15); ",
+    "list": {
+      "Athletics": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Stench",
+      "text": "(aura, olfactory); 30 feet. A creature entering the aura or starting its turn in the area must succeed at a DC 19 Fortitude save or become sickened 1 (plus slowed 1 for as long as it's sickened on a critical failure) While within the aura, affected creatures take a –2 circumstance penalty to saves against disease and to recover from the sickened condition. A creature that succeeds at its save is temporarily immune to all globsters' stenches for 1 minute."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 1d8+6 (1d8+6), DC 22"
+    },
+    {
+      "name": "Nauseating Slap",
+      "text": "(poison); A living creature struck by a globster's tendril must attempt a DC 19 Fortitude save. On a failure, the creature becomes sickened 1. If the creature is already sickened, the condition value increases by 1, to a maximum of sickened 4. Once a creature succeeds at its saving throw, it is temporarily immune for 24 hours."
+    },
+    {
+      "name": "Saturated",
+      "text": "A globster can survive for 1 hour out of the water, after which it risks drowning and suffocation."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ tendril +15 Damage 2d8+6 (2d8+6) bludgeoning plus Grab and nauseating slap"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      -5,
+      5,
+      -5,
+      0,
+      -5
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Dweomer Cap",
+  "sourceSystem": "pf1",
+  "source": "Ultimate Wilderness",
+  "size": "Tiny",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1/8",
+  "level": null,
+  "xp": 50,
+  "ac": {
+    "value": 11,
+    "notes": "dex -1, size +2",
+    "touch": 11,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 5,
+    "formula": "1d8+1"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft., climb 5 ft."
+  },
+  "abilities": {
+    "str": 1,
+    "dex": 8,
+    "con": 12,
+    "int": "None",
+    "wis": 12,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +3, Ref -1, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +7, Perception +1",
+    "list": {
+      "Climb": "+7",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 11,
+  "languages": [],
+  "initiative": "-1",
+  "babOrProficiency": 0,
+  "feats": [],
+  "traits": [],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Undulating patterns of purple and orange luminescence play across this strange mushroom’s gills.",
+  "meta": {
+    "cmb": "-3",
+    "cmd": "2 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or patch (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

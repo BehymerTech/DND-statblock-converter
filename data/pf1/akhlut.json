@@ -1,0 +1,114 @@
+{
+  "name": "Akhlut",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "cold, shapechanger",
+  "alignment": "N",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 30,
+    "notes": "dex +2, dodge +1, natural +19, size -2",
+    "touch": 11,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 189,
+    "formula": "18d10+90"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 15,
+    "con": 20,
+    "int": 4,
+    "wis": 15,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +16, Ref +13, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +2, Perception +14, Stealth +16, Swim +18",
+    "list": {
+      "Acrobatics": "+2",
+      "Perception": "+14",
+      "Stealth": "+16",
+      "Swim": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent",
+    "snow vision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Aquan (cannot speak)"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 18,
+  "feats": [
+    "Dodge",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Power Attack",
+    "Skill Focus (Stealth)",
+    "Vital Strike",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +27 (4d8+15/15-20 plus 4d6 cold and grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A dorsal fin rises up from the back of this immense black-and-white-furred, wolflike beast.",
+  "meta": {
+    "cmb": "30 (+34 grapple)",
+    "cmd": "43 (47 vs. trip)",
+    "racialModifiers": [
+      "Perception 4",
+      "Stealth 12"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold lakes, plains, or oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

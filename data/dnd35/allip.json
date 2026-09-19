@@ -1,0 +1,105 @@
+{
+  "name": "Allip",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "Incorporeal",
+  "alignment": "Always neutral evil",
+  "cr": "3",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "+1 Dex, +4 deflection",
+    "touch": 15,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 26,
+    "formula": "4d12"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 30,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "Fly 30 ft. (perfect) (6 squares)"
+  },
+  "abilities": {
+    "str": null,
+    "dex": 12,
+    "con": null,
+    "int": 11,
+    "wis": 11,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +1, Ref +4, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Hide +8, Intimidate +7, Listen +7, Search +4, Spot +7, Survival +0 (+2 Following Tracks);",
+    "list": {
+      "Hide": "+8",
+      "Intimidate": "+7",
+      "Listen": "+7",
+      "Search": "+4",
+      "Spot": "+7",
+      "Survival": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Babble, madness, Wisdom drain"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., incorporeal traits, +2 turn resistance, undead traits"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Incorporeal touch +3 melee (1d4 Wisdom drain)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Incorporeal touch +3 melee (1d4 Wisdom drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "An allip is the spectral remains of someone driven to suicide by a madness that afflicted it in life. It craves only revenge and unrelentingly pursues those who tormented it in life and pushed it over the brink.",
+    "grapple": "---",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Any",
+    "organization": "Solitary",
+    "treasure": "None",
+    "advancement": "5-12 HD (Medium)",
+    "leveladjustment": "---"
+  }
+}

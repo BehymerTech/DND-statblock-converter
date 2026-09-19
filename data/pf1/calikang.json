@@ -1,0 +1,107 @@
+{
+  "name": "Calikang",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea World Guide, Pathfinder No. 29: Mother of Flies",
+  "size": "Large",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "LN",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 27,
+    "notes": "dex +2, natural +12, shield +4, size -1",
+    "touch": 11,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 157,
+    "formula": "15d10+75"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 15,
+    "con": 20,
+    "int": 8,
+    "wis": 14,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +12, Ref +11, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +21, Perception +20, Use Magic Device +18",
+    "list": {
+      "Intimidate": "+21",
+      "Perception": "+20",
+      "Use Magic Device": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 15,
+  "feats": [
+    "Critical Focus",
+    "Double Slice",
+    "Great Fortitude",
+    "Improved Critical (longsword)",
+    "Improved Initiative",
+    "Staggering Critical",
+    "Two-Weapon Fighting",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 longsword +18/+13/+8 (2d6+8/17-20), +1 longsword +18 (2d6+8/17-20), 4 slams +16 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This blue-skinned, six-armed giant lurches to life, its armor and twin swords glittering with jewels.",
+  "meta": {
+    "cmb": "+23",
+    "cmd": 35,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or tropical hills"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, gang (2-4), or tribe (5-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (2 +1 longswords plus other treasure)"
+      }
+    ]
+  }
+}

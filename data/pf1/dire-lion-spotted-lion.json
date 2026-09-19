@@ -1,0 +1,104 @@
+{
+  "name": "Dire Lion (Spotted Lion)",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 15,
+    "notes": "dex +2, natural +4, size -1",
+    "touch": 11,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 60,
+    "formula": "8d8+24"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 15,
+    "con": 17,
+    "int": 2,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +8, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +11, Perception +11, Stealth +7",
+    "list": {
+      "Acrobatics": "+11",
+      "Perception": "+11",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 6,
+  "feats": [
+    "Improved Initiative",
+    "Run",
+    "Skill Focus (Perception)",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +12 (1d8+7 plus grab), 2 claws +13 (1d6+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This immense spotted lion stands as tall as a man at the shoulder, its fur matted with the blood of its victims.",
+  "meta": {
+    "cmb": "14 (+18 grapple)",
+    "cmd": "26 (30 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm plains or hills"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pride (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

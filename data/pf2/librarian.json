@@ -1,0 +1,104 @@
+{
+  "name": "Librarian",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 240.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature -1",
+  "xp": null,
+  "ac": {
+    "value": 13,
+    "notes": ""
+  },
+  "hp": {
+    "average": 6,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 12,
+    "con": 10,
+    "int": 18,
+    "wis": 16,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +2, Ref +3, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +9 (1d20+9); __Nature__: +8 (1d20+8); __Religion__: +8 (1d20+8); __Academia lore__: +11 (1d20+11); __Library lore__: +13 (1d20+13); ",
+    "list": {
+      "Arcana": "+9",
+      "Nature": "+8",
+      "Religion": "+8",
+      "Academia lore": "+11",
+      "Library lore": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 17,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Methodical Research",
+      "text": "(concentrate); When Searching through stacks of books, a librarian can find the answer to almost any question. This allows the librarian to use Library Lore in place of other lore skills, given enough time. The GM determines the DC of the check and the amount of time it takes (typically, a librarian can attempt three or four checks during 1 day of downtime)."
+    },
+    {
+      "name": "Items",
+      "text": "dagger, writing set;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ book +4 (nonlethal); Damage 1d4 (1d4) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +3 (agile, nonlethal); Damage 1d4 (1d4) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ book +5 (nonlethal, thrown 10 feet); Damage 1d4 (1d4) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      1,
+      0,
+      4,
+      3,
+      1
+    ],
+    "items": "dagger, writing set;"
+  }
+}

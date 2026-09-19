@@ -1,0 +1,106 @@
+{
+  "name": "Ancient White Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "cold",
+  "alignment": "CE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 37,
+    "notes": "natural +29, size -2",
+    "touch": 8,
+    "flatFooted": 37
+  },
+  "hp": {
+    "average": 283,
+    "formula": "21d12+147"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 200 ft. (poor), burrow 30 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 33,
+    "dex": 10,
+    "con": 25,
+    "int": 16,
+    "wis": 19,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +19, Ref +14, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +16, Intimidate +27, Knowledge (arcane) +27, Knowledge (history) +27, Perception +32, Sense Motive +32, Spellcraft +27, Stealth +16, Swim +43",
+    "list": {
+      "Fly": "+16",
+      "Intimidate": "+27",
+      "Perception": "+32",
+      "Sense Motive": "+32",
+      "Spellcraft": "+27",
+      "Stealth": "+16",
+      "Swim": "+43"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "snow vision"
+  ],
+  "passivePerception": 42,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 21,
+  "feats": [
+    "Alertness",
+    "Flyby Attack",
+    "Greater Vital Strike",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Improved Vital Strike",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Vital Strike",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +31 (2d8+16/19-20), 2 claws +30 (2d6+11), 2 wings +25 (1d8+5), tail slap +25 (2d6+16)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+34",
+    "cmd": "44 (48 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold mountains"
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "name": "NPC Silent Enforcer",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "armor +2, dex +2, dodge +1, monk +1, wis +2",
+    "touch": 16,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 48,
+    "formula": "6d8+18"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 13,
+    "int": 8,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +7, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +11, Intimidate +9, Linguistics +0, Perception +11, Stealth +10",
+    "list": {
+      "Acrobatics": "+11",
+      "Intimidate": "+9",
+      "Linguistics": "+0",
+      "Perception": "+11",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 21,
+  "languages": [
+    "Common (can’t speak)",
+    "Shadowtongue (can’t speak)"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 4,
+  "feats": [
+    "Dodge",
+    "Gorgon’s Fist",
+    "Great Fortitude",
+    "Improved Unarmed Strike",
+    "Power Attack",
+    "Scorpion Style",
+    "Stunning Fist",
+    "Toughness",
+    "Weapon Focus (unarmed strike)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "unarmed strike +8 (1d8+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "monk 6",
+    "cmb": "+9",
+    "cmd": 23
+  }
+}

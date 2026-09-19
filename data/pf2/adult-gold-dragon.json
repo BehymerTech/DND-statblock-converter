@@ -1,0 +1,131 @@
+{
+  "name": "Adult Gold Dragon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 124.",
+  "size": "Huge",
+  "type": "Fire",
+  "subtype": "Dragon",
+  "alignment": "LG",
+  "cr": null,
+  "level": "Creature 15",
+  "xp": null,
+  "ac": {
+    "value": 38,
+    "notes": ""
+  },
+  "hp": {
+    "average": 330,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 feet, fly 180 feet, swim 50 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 16,
+    "con": 22,
+    "int": 20,
+    "wis": 22,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +28, Ref +25, Will +28",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +22 (1d20+22); __Arcana__: +24 (1d20+24); __Athletics__: +28 (1d20+28); __Diplomacy__: +29 (1d20+29); __Medicine__: +27 (1d20+27); __Religion__: +29 (1d20+29); __Society__: +26 (1d20+26); ",
+    "list": {
+      "Acrobatics": "+22",
+      "Arcana": "+24",
+      "Athletics": "+28",
+      "Diplomacy": "+29",
+      "Medicine": "+27",
+      "Religion": "+29",
+      "Society": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60"
+  ],
+  "passivePerception": 39,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Elven",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 90 feet, DC 33."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲ Jaws only."
+    },
+    {
+      "name": "Golden Luck",
+      "text": "⬲ Trigger The gold dragon fails a saving throw. Effect The dragon improves its result by one degree of success, turning a failure into a success or a critical failure into a normal failure. The dragon can't use this ability again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ The gold dragon breathes in one of two ways. The dragon can't use Breath Weapon again for 1d4 (1d4) rounds.<ul class='inner-bullet-list'><li>Flame (arcane, evocation, fire); The dragon breathes a blast of flame in a 40-foot cone that deals 15d6 (15d6) fire damage (DC 37 basic Reflex save).</li><li>Weakening Gas (arcane, necromancy); The dragon breathes a blast of weakening gas. Each creature within a 40-foot cone must succeed at a DC 37 Fortitude save or become enfeebled 2 for 1 minute (or enfeebled 3 on a critical failure).</li></ul>"
+    },
+    {
+      "name": "Draconic Frenzy",
+      "text": "⬺ The gold dragon makes two claw Strikes and one horns Strike in any order."
+    },
+    {
+      "name": "Draconic Momentum",
+      "text": "When the gold dragon scores a critical hit with a Strike, it recharges Breath Weapon."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +30 (fire, magical, reach 15 feet); Damage 3d12+15 (3d12+15) piercing plus 3d6 (3d6) fire"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +30 (agile, magical, reach 10 feet); Damage 3d10+15 (3d10+15) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +28 (magical, reach 20 feet); Damage 3d10+13 (3d10+13) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ horns +28 (agile, magical, reach 15 feet); Damage 2d12+13 (2d12+13) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      3,
+      6,
+      5,
+      6,
+      4
+    ]
+  }
+}

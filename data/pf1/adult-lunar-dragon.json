@@ -1,0 +1,116 @@
+{
+  "name": "Adult Lunar Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 28,
+    "notes": "dex -1, natural +21, size -2",
+    "touch": 7,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 200,
+    "formula": "16d12+96"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (poor), burrow 20 ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 9,
+    "con": 20,
+    "int": 20,
+    "wis": 22,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +15, Ref +9, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +12, Diplomacy +24, Fly +10, Intimidate +24, Knowledge (arcana) +20, Knowledge (geography) +20, Knowledge (history) +20, Knowledge (local) +20, Knowledge (nature) +20, Perception +25, Sense Motive +25, Spellcraft +24, Use Magic Device +24",
+    "list": {
+      "Bluff": "+12",
+      "Diplomacy": "+24",
+      "Fly": "+10",
+      "Intimidate": "+24",
+      "Perception": "+25",
+      "Sense Motive": "+25",
+      "Spellcraft": "+24",
+      "Use Magic Device": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "see in darkness"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Aklo",
+    "Aquan",
+    "Auran",
+    "Common",
+    "Draconic",
+    "Ignan"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 16,
+  "feats": [
+    "Arcane Strike",
+    "Dazing Assault",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Multiattack",
+    "Power Attack",
+    "Toughness",
+    "Wingover"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +22 (2d8+12), 2 claws +22 (2d6+8), 2 wings +20 (2d6+4), tail slap +20 (2d8+12)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+26",
+    "cmd": "35 (39 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "vacuum"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

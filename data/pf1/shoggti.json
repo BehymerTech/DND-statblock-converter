@@ -1,0 +1,110 @@
+{
+  "name": "Shoggti",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "chaotic, evil, extraplanar, qlippoth",
+  "alignment": "CE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 21,
+    "notes": "dex +3, natural +9, size -1",
+    "touch": 12,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 80,
+    "formula": "7d10+42"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 23,
+    "int": 12,
+    "wis": 19,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +11, Ref +5, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Escape Artist +13, Intimidate +16, Knowledge (planes) +11, Perception +18, Sense Motive +14, Stealth +9, Use Magic Device +19",
+    "list": {
+      "Escape Artist": "+13",
+      "Intimidate": "+16",
+      "Perception": "+18",
+      "Sense Motive": "+14",
+      "Stealth": "+9",
+      "Use Magic Device": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Abyssal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 7,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Skill Focus (Use Magic Device)",
+    "Weapon Focus (tentacles)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +12 (1d8+6), 4 tentacles +8 (1d4+3 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This pale creature has four suckered arms that end in pincers. A gnashing maw gapes in its head between two staring eyes.",
+  "meta": {
+    "cmb": "14 (+18 grapple)",
+    "cmd": "27 (31 vs. trip)",
+    "racialModifiers": [
+      "Intimidate 4",
+      "Perception 4",
+      "Use Magic Device 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (the Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or slaver band (3-10 plus 6-12 slaves of various races)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

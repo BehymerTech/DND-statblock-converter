@@ -1,0 +1,108 @@
+{
+  "name": "Ohancanu",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 116: Fangs of War",
+  "size": "Large",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 17,
+    "notes": "dex +2, natural +6, size -1",
+    "touch": 11,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 52,
+    "formula": "7d6+28"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 14,
+    "con": 19,
+    "int": 7,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +6, Ref +7, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +16, Intimidate +12, Perception +12, Swim +16",
+    "list": {
+      "Climb": "+16",
+      "Intimidate": "+12",
+      "Perception": "+12",
+      "Swim": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Intimidating Prowess",
+    "Power Attack",
+    "Weapon Focus (greataxe)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk greataxe +10 (3d6+9/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +5 (1d8+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This brutish, one-eyed giant carries a large, well-made axe and wears a simple tunic. He has a head of shaggy hair, and the lower half of his face is obscured by a bristly, dark beard.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": 22,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or hunting party (2-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk greataxe, other treasure)"
+      }
+    ]
+  }
+}

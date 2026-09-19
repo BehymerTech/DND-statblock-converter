@@ -1,0 +1,105 @@
+{
+  "name": "Bisha Ga Tsuku",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "cold, native",
+  "alignment": "NE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 22,
+    "notes": "dex +6, natural +6",
+    "touch": 16,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 114,
+    "formula": "12d10+48"
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 22,
+    "con": 18,
+    "int": 13,
+    "wis": 19,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +12, Ref +10, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +21, Fly +25, Knowledge (geography) +15, Knowledge (nature) +14, Knowledge (planes) +11, Perception +19, Spellcraft +12, Stealth +21",
+    "list": {
+      "Acrobatics": "+21",
+      "Fly": "+25",
+      "Perception": "+19",
+      "Spellcraft": "+12",
+      "Stealth": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Common (can’t speak)"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 12,
+  "feats": [
+    "Dazing Assault",
+    "Flyby Attack",
+    "Improved Critical (tentacle)",
+    "Improved Initiative",
+    "Power Attack",
+    "Weapon Focus (tentacle)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "3 tentacles +18 (2d6+5/19-20 plus 1d6 cold)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Two clawed feet extend from a mysterious mobile fog bank, and dark eyes glow balefully from the mist.",
+  "meta": {
+    "cmb": "+17",
+    "cmd": "33 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold hills or mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

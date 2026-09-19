@@ -1,0 +1,98 @@
+{
+  "name": "Living Thunderclap",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 106.",
+  "size": "Medium",
+  "type": "Elemental",
+  "subtype": "Air",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 50,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 50 feet; swiftness;"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 18,
+    "con": 14,
+    "int": 4,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +10, Ref +12, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +12 (1d20+12); __Stealth__: +12 (1d20+12); ",
+    "list": {
+      "Acrobatics": "+12",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Auran"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Swiftness",
+      "text": "The living thunderclap doesn't trigger reactions when it moves."
+    },
+    {
+      "name": "Thunderbolt",
+      "text": "⬺ (electricity, evocation, primal, sonic); The living thunderclap emits a bolt of lightning that crashes with deafening thunder. The living thunderclap makes a lightning bolt Strike that deals 1d12 (1d12) electricity damage. If it hits, the target and any creatures within a 15-foot emanation around the target take 2d6 (2d6) sonic damage and must attempt a DC 18 basic Fortitude save. Any creature that fails its save is also deafened for 1d4 (1d4) rounds."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ gust +14 (agile, finesse); Damage 2d6+6 (2d6+6) bludgeoning plus Push 5 feet"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ lightning bolt +14 (electricity, range increment 50 feet); Damage 2d12 (2d12) electricity"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      4,
+      2,
+      -3,
+      1,
+      0
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "name": "Wood Giant",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "CG",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 20,
+    "notes": "armor +2, dex +5, natural +4, size -1",
+    "touch": 14,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 67,
+    "formula": "9d8+27"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 21,
+    "con": 17,
+    "int": 14,
+    "wis": 15,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +9, Ref +8, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +11, Climb +14, Knowledge (nature) +8, Perception +11, Profession (farmer) +8, Stealth +7, Survival +8",
+    "list": {
+      "Acrobatics": "+11",
+      "Climb": "+14",
+      "Perception": "+11",
+      "Stealth": "+7",
+      "Survival": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common",
+    "Giant",
+    "Sylvan",
+    "speak with animals"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 6,
+  "feats": [
+    "Deadly Aim",
+    "Iron Will",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Rapid Shot"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "longsword +10/+5 (2d6+5/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite longbow +9/+9/+4 (2d6+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Standing tall and graceful, this sharp-eared giant’s skin is pale. Its large brow gives it a somewhat primitive visage.",
+  "meta": {
+    "cmb": "+12",
+    "cmd": 27,
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, gang (2-4), hunting party (5-9, plus 1-4 dire wolves), or clan (10-40, plus 35% noncombatants, 1-3 druids or witches of 2nd-4th level, 1 ranger chieftain of 3rd-7th level, 4-10 dire wolves, and 2-8 giant eagles)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (leather armor, longsword, masterwork composite longbow with 20 arrows, other treasure)"
+      }
+    ]
+  }
+}

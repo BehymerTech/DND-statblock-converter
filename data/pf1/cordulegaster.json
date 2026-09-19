@@ -1,0 +1,108 @@
+{
+  "name": "Cordulegaster",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 98: Turn of the Torrent",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "aquatic, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "natural +10, size -1",
+    "touch": 9,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 76,
+    "formula": "8d10+32"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., swim 30 ft., jet 60 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 11,
+    "con": 19,
+    "int": 6,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +10, Ref +4, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +15, Intimidate +0, Perception +13, Sense Motive +11, Stealth +6, Swim +24",
+    "list": {
+      "Climb": "+15",
+      "Intimidate": "+0",
+      "Perception": "+13",
+      "Sense Motive": "+11",
+      "Stealth": "+6",
+      "Swim": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Abyssal (can’t speak)",
+    "Infernal (can’t speak)"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 8,
+  "feats": [
+    "Alertness",
+    "Improved Initiative",
+    "Improved Natural Attack (bite)",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (2d6+9 plus grab and pull), tail slap +8 (1d8+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Interlocking plates of chitin cover this massive, six-legged beast’s face like a jagged mask.",
+  "meta": {
+    "cmb": "15 (+19 grapple)",
+    "cmd": 25,
+    "racialModifiers": [
+      "Stealth 5"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any freshwater (River Styx)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or cluster (2-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

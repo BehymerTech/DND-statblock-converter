@@ -1,0 +1,104 @@
+{
+  "name": "Chupacabra",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Pathfinder No. 19: Howl of the Carrion King",
+  "size": "Small",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 16,
+    "notes": "dex +3, natural +2, size +1",
+    "touch": 14,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d10+8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 16,
+    "con": 14,
+    "int": 3,
+    "wis": 15,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +6, Ref +7, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Perception +6, Stealth +16",
+    "list": {
+      "Acrobatics": "+7",
+      "Perception": "+6",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Aklo (cannot speak)"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 4,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +6 (1d4+1 plus grab), 2 claws +6 (1d3+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This lizard-like creature stalks forward upon two muscular legs, a mane of spikes running down its scaly back.",
+  "meta": {
+    "cmb": "4 (+8 grapple)",
+    "cmd": 17,
+    "racialModifiers": [
+      "Acrobatics 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm hills or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-7)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "name": "Mythic Fire Giant",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "fire, giant, mythic",
+  "alignment": "LE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 29,
+    "notes": "armor +8, dex -1, natural +13, size -1",
+    "touch": 8,
+    "flatFooted": 29
+  },
+  "hp": {
+    "average": 197,
+    "formula": "15d8+130"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft.,  40 ft. base"
+  },
+  "abilities": {
+    "str": 33,
+    "dex": 9,
+    "con": 23,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +15, Ref +4, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +15, Craft (any one) +8, Intimidate +11, Perception +14",
+    "list": {
+      "Climb": "+15",
+      "Intimidate": "+11",
+      "Perception": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Giant"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 11,
+  "feats": [
+    "Cleave",
+    "Great Cleave",
+    "Improved Overrun",
+    "Improved Sunder",
+    "Iron Will",
+    "Martial Weapon Proficiency (greatsword)",
+    "Power Attack",
+    "Weapon Focus (greatsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "greatsword +22/+17/+12 (3d6+16/19-20 plus 4d6 fire)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +10 (1d8+16 plus 4d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This giant’s hair, beard, and skin are made of lava, and its armor and weapon glow with a dull heat.",
+  "meta": {
+    "cmb": "23 (+25 overrun or sunder)",
+    "cmd": "34 (36 vs. overrun or sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, gang (2-5), band (6-12 plus 35% noncombatants and 1 adept or cleric of 1st-2nd level), raiding party (6-12 plus 1 adept or sorcerer of 3rd-5th level, 2-5 hell hounds, and 2-3 trolls or ettins), or tribe (20-30 plus 1 adept, cleric, or sorcerer of 6th-7th level; 1 fighter or ranger of 8th-9th level as king; and 17-38 hell hounds, 12-22 trolls, 7-12 ettins, and 1-2 young red dragons)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (half-plate, greatsword, other treasure)"
+      }
+    ]
+  }
+}

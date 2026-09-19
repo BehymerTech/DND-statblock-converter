@@ -1,0 +1,101 @@
+{
+  "name": "Rancorous Priesthood",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 213.",
+  "size": "Gargantuan",
+  "type": "Troop",
+  "subtype": "Humanoid",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 11",
+  "xp": null,
+  "ac": {
+    "value": 31,
+    "notes": ""
+  },
+  "hp": {
+    "average": 195,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 14,
+    "con": 22,
+    "int": 14,
+    "wis": 20,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +23, Ref +17, Will +22",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +22 (1d20+22); __Intimidation__: +21 (1d20+21); __Religion__: +22 (1d20+22); ",
+    "list": {
+      "Athletics": "+22",
+      "Intimidation": "+21",
+      "Religion": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 31,
+  "languages": [
+    "Abyssal",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Troop Defenses",
+      "text": "(page 306);"
+    },
+    {
+      "name": "Form Up",
+      "text": "⬻"
+    },
+    {
+      "name": "Troop Movement",
+      "text": "Whenever the troop Strides, they first Form Up as a free action to condense into a 20-foot-by-20-foot area (minus any missing squares), then moves up to their Speed. This works just like a Gargantuan creature moving; for instance, if any square of the troop enters difficult terrain, the extra movement cost applies to the whole troop."
+    },
+    {
+      "name": "Troop Spellcasting",
+      "text": "When the rancorous priesthood Casts a Spell, their constituent members combine their efforts into casting a more powerful version of the spell than any one member could achieve alone. When Casting a Spell that has an area of a burst, cone, or line and doesn't have a duration, increase the area of that spell. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet (a burst with a smaller radius is not affected). Add 5 feet to the length of a cone or line that is normally 15 feet long or smaller, and add 10 feet to the length of a larger cone or line."
+    },
+    {
+      "name": "Wild Swing",
+      "text": "⬻ to ⬽ Frequency once per round Effect The members of the mob wildly swing their weapons—primarily greataxes—in a chaotic attack at each enemy adjacent to the troop (DC 27 basic Reflex save). The damage depends on the number of actions. ⬻ 1d12+2 (1d12+2) slashing damage ⬺ 2d12+9 (2d12+9) slashing damage ⬽ 3d12+9 (3d12+9) slashing damage."
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      2,
+      6,
+      2,
+      5,
+      4
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Griffon",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Always neutral",
+  "cr": "4",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": "-1 size, +2 Dex, +6 natural",
+    "touch": 11,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 59,
+    "formula": "7d10+21"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 80,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares), fly 80 ft. (average)"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 15,
+    "con": 16,
+    "int": 5,
+    "wis": 13,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +8, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Jump +8, Listen +6, Spot +10;",
+    "list": {
+      "Jump": "+8",
+      "Listen": "+6",
+      "Spot": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 7,
+  "feats": [
+    "Iron Will",
+    "Multiattack",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Pounce, rake 1d6+2"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., low-light vision, scent"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Bite +11 melee (2d6+4)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +11 melee (2d6+4) and 2 claws +8 melee (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Griffons are powerful, majestic creatures with the characteristics of both lions and eagles. From nose to tail, an adult griffon can measure as much as 8 feet. Neither males nor females are endowed with a mane. A pair of broad, golden wings emerge from the creature's back and span 25 feet or more. A griffon weighs about 500 pounds.",
+    "grapple": "+15",
+    "spaceReach": "10 ft./5 ft.",
+    "environment": "Temperate hills",
+    "organization": "Solitary, pair, or pride (6-10)",
+    "treasure": "None",
+    "advancement": "8-10 HD (Large); 11-21 HD (Huge)",
+    "leveladjustment": "+3 (cohort)"
+  }
+}

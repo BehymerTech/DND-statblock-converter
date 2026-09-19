@@ -1,0 +1,123 @@
+{
+  "name": "Rhan-Tegoth",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Large",
+  "type": "aberration",
+  "subtype": "aquatic, chaotic, evil, Great Old One",
+  "alignment": "CE",
+  "cr": "28",
+  "level": null,
+  "xp": 4915200,
+  "ac": {
+    "value": 46,
+    "notes": "dex +10, dodge +1, insight +10, natural +16, size -1",
+    "touch": 30,
+    "flatFooted": 35
+  },
+  "hp": {
+    "average": 676,
+    "formula": "33d8+528"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., other_semicolon air walk ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 46,
+    "dex": 30,
+    "con": 43,
+    "int": 29,
+    "wis": 32,
+    "cha": 29
+  },
+  "saves": {
+    "text": "Fort +29, Ref +23, Will +31",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +46, Knowledge (arcana) +42, Knowledge (dungeoneering) +42, Knowledge (geography) +42, Knowledge (history) +42, Knowledge (nature) +42, Knowledge (religion) +42, Perception +47, Sense Motive +44, Spellcraft +45, Stealth +42, Swim +62, Use Magic Device +42",
+    "list": {
+      "Acrobatics": "+46",
+      "Perception": "+47",
+      "Sense Motive": "+44",
+      "Spellcraft": "+45",
+      "Stealth": "+42",
+      "Swim": "+62",
+      "Use Magic Device": "+42"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "tremorsense",
+    "tremorsense_other",
+    "true seeing"
+  ],
+  "passivePerception": 57,
+  "languages": [
+    "Aklo",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+24",
+  "babOrProficiency": 24,
+  "feats": [
+    "Bleeding Critical",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dodge",
+    "Great Fortitude",
+    "Greater Vital Strike",
+    "Improved Critical (bite)",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Mobility",
+    "Power Attack",
+    "Quicken Spell-Like Ability (feeblemind)",
+    "Quicken Spell-Like Ability (flesh to stone)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +41 (4d6+18/19-20 plus grab), 6 claws +41 (2d8+18/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This six-legged, spiderlike monstrosity has a bloated abdomen and a hideous face from which three bulbous eyes glare.",
+  "meta": {
+    "cmb": "43 (+47 grapple)",
+    "cmd": "74 (82 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "name": "Abaia",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 25,
+    "notes": "dex +3, natural +14, size -2",
+    "touch": 11,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 147,
+    "formula": "14d10+70"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 80 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 16,
+    "con": 21,
+    "int": 17,
+    "wis": 14,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +14, Ref +12, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (arcana) +17, Knowledge (nature) +17, Perception +19, Spellcraft +17, Stealth +12, Swim +16",
+    "list": {
+      "Perception": "+19",
+      "Spellcraft": "+17",
+      "Stealth": "+12",
+      "Swim": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "arcane sight",
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Aquan",
+    "Sylvan",
+    "speak with animals"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 14,
+  "feats": [
+    "Critical Focus",
+    "Improved Critical (bite)",
+    "Iron Will",
+    "Power Attack",
+    "Staggering Critical",
+    "Vital Strike",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +21 (3d6+8/19-20 plus grab), tail slap +15 (2d6+4 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This multi-eyed eel’s brightly colored markings shift in complex, ever-changing patterns.",
+  "meta": {
+    "cmb": "24 (+28 grapple)",
+    "cmd": "37 (can’t be tripped)",
+    "racialModifiers": [
+      "Stealth 12"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm lakes"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (particularly staves and wands)"
+      }
+    ]
+  }
+}

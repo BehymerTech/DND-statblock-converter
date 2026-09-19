@@ -1,0 +1,108 @@
+{
+  "name": "Caller in Darkness",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Large",
+  "type": "undead",
+  "subtype": "incorporeal",
+  "alignment": "CE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 20,
+    "notes": "deflection +3, dex +7, dodge +1, size -1",
+    "touch": 20,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 97,
+    "formula": "13d8+39"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 25,
+    "con": "None",
+    "int": 15,
+    "wis": 14,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +7, Ref +11, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +5, Intimidate +25, Knowledge (arcana) +18, Perception +22, Sense Motive +22, Spellcraft +18, Stealth +21",
+    "list": {
+      "Fly": "+5",
+      "Intimidate": "+25",
+      "Perception": "+22",
+      "Sense Motive": "+22",
+      "Spellcraft": "+18",
+      "Stealth": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Abyssal",
+    "Common"
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 9,
+  "feats": [
+    "Ability Focus (wrap in despair)",
+    "Alertness",
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Initiative",
+    "Skill Focus (Intimidate)",
+    "Skill Focus (Stealth)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "incorporeal touch +15 (6d6 plus consume mind)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This roiling horror appears to be a swirling vortex of darkness and screaming, ghostly faces.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": "27 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

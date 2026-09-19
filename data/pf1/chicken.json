@@ -1,0 +1,95 @@
+{
+  "name": "Chicken",
+  "sourceSystem": "pf1",
+  "source": "Ultimate Wilderness, Familiar Folio, Bestiary 5",
+  "size": "Tiny",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1/6",
+  "level": null,
+  "xp": 65,
+  "ac": {
+    "value": 12,
+    "notes": "size +2",
+    "touch": 12,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 5,
+    "formula": "1d8+1"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 20 ft. (clumsy), other_semicolon drift ft."
+  },
+  "abilities": {
+    "str": 3,
+    "dex": 11,
+    "con": 12,
+    "int": 2,
+    "wis": 12,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +3, Ref +2, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly -4, Perception +5",
+    "list": {
+      "Fly": "-4",
+      "Perception": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 15,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 0,
+  "feats": [
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite -2 (1d3-4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This fowl has a compact body, a short beak flanked by red wattles, and a crimson comb on the crown of its head.",
+  "meta": {
+    "cmb": "-2",
+    "cmd": 4,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any temperate"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or flock (3-20)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

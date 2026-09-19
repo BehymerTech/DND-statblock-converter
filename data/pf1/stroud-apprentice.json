@@ -1,0 +1,102 @@
+{
+  "name": "Stroud Apprentice",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "NE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 16,
+    "notes": "deflection +1, dex +1, natural +4",
+    "touch": 12,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 75,
+    "formula": "10d6+40"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 12,
+    "con": 15,
+    "int": 17,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +7, Ref +6, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +14, Craft (alchemy) +8, Disguise +2, Fly +9, Intimidate +13, Knowledge (arcana) +11, Knowledge (history) +7, Knowledge (nature) +7, Perception +7, Spellcraft +12, Use Magic Device +9",
+    "list": {
+      "Bluff": "+14",
+      "Disguise": "+2",
+      "Fly": "+9",
+      "Intimidate": "+13",
+      "Perception": "+7",
+      "Spellcraft": "+12",
+      "Use Magic Device": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Aquan",
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 5,
+  "feats": [
+    "Combat Casting",
+    "Deceitful",
+    "Extra Hex",
+    "Improved Initiative",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +7 (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Obese and reeking of the swamp, this ogre-tainted woman nonetheless projects an aura of animal magnetism. Her long hair drags in the mud.",
+  "meta": {
+    "race": "Changeling",
+    "class": "ogrekin witch 10 (Pathfinder RPG Bestiary 4 29, Pathfinder RPG Bestiary 2 204, Pathfinder RPG Advanced Player’s Guide 65)",
+    "cmb": "+7",
+    "cmd": 19,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      }
+    ]
+  }
+}

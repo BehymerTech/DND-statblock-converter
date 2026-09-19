@@ -1,0 +1,112 @@
+{
+  "name": "Xill Matriarch",
+  "sourceSystem": "pf1",
+  "source": "Occult Bestiary",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "evil, extraplanar",
+  "alignment": "LE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 23,
+    "notes": "dex +4, natural +7, shield +2",
+    "touch": 14,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 123,
+    "formula": "13d10+52"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 18,
+    "con": 18,
+    "int": 15,
+    "wis": 18,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +12, Ref +10, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +19, Bluff +20, Intimidate +20, Knowledge (arcana) +18, Knowledge (planes) +18, Perception +20, Sense Motive +20, Stealth +19",
+    "list": {
+      "Acrobatics": "+19",
+      "Bluff": "+20",
+      "Intimidate": "+20",
+      "Perception": "+20",
+      "Sense Motive": "+20",
+      "Stealth": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Common",
+    "Infernal"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 13,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Improved Two-Weapon Fighting",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Psychic Sensitivity",
+    "Two-Weapon Rend"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk short sword +19/+14/+9 (1d6+5/19-20), mwk short sword +19/+14 (1d6+5/19-20), claw +18 (1d4+5 plus grab), bite +13 (1d3+2 plus paralysis)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite longbow +18/+13/+8 (1d8+5/×3), mwk composite longbow +18/+13 (1d8+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This flame-red, four-armed creature has large mandibles and numerous hornlike projections spike from its head.",
+  "meta": {
+    "cmb": "18 (+22 grapple)",
+    "cmd": 32,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Ethereal Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or gang (1 plus 2-6 xills)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk heavy steel shield, 2 mwk short swords, 2 mwk composite longbows with 40 arrows, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Harbormaster",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 225.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "LN",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 46,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 14,
+    "int": 14,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +9, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +9 (1d20+9); __Athletics__: +9 (1d20+9); __Diplomacy__: +5 (1d20+5); __Intimidation__: +5 (1d20+5); __Fishing lore__: +8 (1d20+8); ",
+    "list": {
+      "Acrobatics": "+9",
+      "Athletics": "+9",
+      "Diplomacy": "+5",
+      "Intimidation": "+5",
+      "Fishing lore": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 16,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Lore",
+      "text": "+10 Str +4, Dex +2, Con +2, Int +2, Wis +1, Cha +0 Items fishing tackle, hatchet (2), ledger, manacles, spyglass."
+    },
+    {
+      "name": "Steady Balance",
+      "text": "Whenever the harbormaster rolls a success on a check to Balance, they get a critical success instead. They're not flat-footed while Balancing on narrow surfaces and uneven ground. They can attempt an Acrobatics check instead of a Reflex save to Grab an Edge."
+    },
+    {
+      "name": "Items",
+      "text": "fishing tackle, hatchet (2), ledger, manacles, spyglass;"
+    },
+    {
+      "name": "Experienced Hand",
+      "text": "The harbormaster has endured their share of adverse conditions at sea. Any creature that's in adverse weather or aboard a vessel on rough water is flat-footed to the harbormaster."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ hatchet +13 (agile, sweep); Damage 1d6+7 (1d6+7) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ hatchet +11 (agile, sweep, thrown 10 feet); Damage 1d6+7 (1d6+7) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      2,
+      2,
+      1,
+      0
+    ],
+    "items": "fishing tackle, hatchet (2), ledger, manacles, spyglass;"
+  }
+}

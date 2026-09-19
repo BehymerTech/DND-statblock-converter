@@ -1,0 +1,105 @@
+{
+  "name": "Water Leaper",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Small",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "CN",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 14,
+    "notes": "dex +3, size +1",
+    "touch": 14,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 22,
+    "formula": "3d10+6"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 20 ft. (clumsy), swim 30 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 16,
+    "con": 15,
+    "int": 7,
+    "wis": 14,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +5, Ref +6, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +11, Fly -3, Perception +6, Stealth +11, Swim +9",
+    "list": {
+      "Acrobatics": "+11",
+      "Fly": "-3",
+      "Perception": "+6",
+      "Stealth": "+11",
+      "Swim": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Aquan"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 3,
+  "feats": [
+    "Flyby Attack",
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +5 (1d4+1), sting +5 (1d4+1 plus 1 bleed and jagged sting)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This vicious monster has webbed wings, a mouth full of sharp teeth, and a long tail ending a black stinger.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": 17,
+    "racialModifiers": [
+      "Acrobatics 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any lakes or swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

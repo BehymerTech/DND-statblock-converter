@@ -1,0 +1,91 @@
+{
+  "name": "Small Earth Elemental",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Small",
+  "type": "outsider",
+  "subtype": "earth, elemental, extraplanar",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 17,
+    "notes": "dex -1, natural +7, size +1",
+    "touch": 10,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 13,
+    "formula": "2d10+2"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., burrow 20 ft., other ['earth glide'] ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 8,
+    "con": 13,
+    "int": 4,
+    "wis": 11,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +4, Ref -1, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +1, Climb +7, Knowledge (dungeoneering) +1, Knowledge (planes) +1, Perception +4, Stealth +7",
+    "list": {
+      "Appraise": "+1",
+      "Climb": "+7",
+      "Perception": "+4",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 14,
+  "languages": [],
+  "initiative": "-1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Bull Rush",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +6 (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hulking, roughly humanoid creature of dirt and stone explodes up from the earth, faceless save for two glowing gemstone eyes.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": 13,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Earth)"
+      }
+    ]
+  }
+}

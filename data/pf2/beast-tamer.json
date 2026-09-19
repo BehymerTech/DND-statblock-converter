@@ -1,0 +1,107 @@
+{
+  "name": "Beast Tamer",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 238.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": ""
+  },
+  "hp": {
+    "average": 54,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 12,
+    "con": 14,
+    "int": 10,
+    "wis": 18,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +10, Ref +7, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +8 (1d20+8); __Diplomacy__: +8 (1d20+8); __Intimidation__: +8 (1d20+8); __Nature__: +12 (1d20+12); __Performance__: +8 (1d20+8); __Survival__: +10 (1d20+10); __Circus lore__: +6 (1d20+6); ",
+    "list": {
+      "Athletics": "+8",
+      "Diplomacy": "+8",
+      "Intimidation": "+8",
+      "Nature": "+12",
+      "Performance": "+8",
+      "Survival": "+10",
+      "Circus lore": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 22,
+  "languages": [
+    "Common",
+    "Druidic"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Performance",
+      "text": "+8, Survival +10 Str +2, Dex +1, Con +2, Int +0, Wis +4, Cha +2 Items holly and mistletoe, leather armor, rope (50 feet), whip."
+    },
+    {
+      "name": "Wild Empathy",
+      "text": "The beast tamer can use Diplomacy to Make an Impression on animals and to make very simple Requests of them."
+    },
+    {
+      "name": "Items",
+      "text": "holly and mistletoe, leather armor, rope (50 feet), whip;"
+    },
+    {
+      "name": "Trained Animal",
+      "text": "The beast tamer fights alongside a trained animal ally of its level or lower, most likely a tiger (Bestiary 53). The animal has the standard number of actions, uses its normal stat block, and counts toward the encounter's XP budget normally. The beast tamer can spend 1 action to gain the support benefit appropriate to its trained animal (Core Rulebook 215). Unlike for an animal companion, this doesn't require the animal to use any of its actions."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ whip +11 (disarm, nonlethal, reach, trip); Damage 1d4+5 (1d4+5) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      1,
+      2,
+      0,
+      4,
+      2
+    ],
+    "items": "holly and mistletoe, leather armor, rope (50 feet), whip;"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "name": "Ancient Sovereign Dragon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 83.",
+  "size": "Gargantuan",
+  "type": "Earth",
+  "subtype": "Dragon",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 20",
+  "xp": null,
+  "ac": {
+    "value": 46,
+    "notes": ""
+  },
+  "hp": {
+    "average": 410,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 feet, fly 180 feet"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 20,
+    "con": 24,
+    "int": 20,
+    "wis": 26,
+    "cha": 28
+  },
+  "saves": {
+    "text": "Fort +35, Ref +31, Will +36",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +31 (1d20+31); __Athletics__: +38 (1d20+38); __Deception__: +37 (1d20+37); __Diplomacy__: +41 (1d20+41); __Intimidation__: +37 (1d20+37); __Occultism__: +31 (1d20+31); __Society__: +31 (1d20+31); __Stealth__: +31 (1d20+31); __Survival__: +34 (1d20+34); ",
+    "list": {
+      "Acrobatics": "+31",
+      "Athletics": "+38",
+      "Deception": "+37",
+      "Diplomacy": "+41",
+      "Intimidation": "+37",
+      "Occultism": "+31",
+      "Society": "+31",
+      "Stealth": "+31",
+      "Survival": "+34"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60"
+  ],
+  "passivePerception": 46,
+  "languages": [
+    "Abyssal",
+    "Auran",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Ignan",
+    "Infernal",
+    "Terran"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 90 feet, DC 41 (page 305)"
+    },
+    {
+      "name": "Mentalist Counterspell",
+      "text": "⬲ (abjuration, occult); Trigger The dragon is targeted by a mental effect it's aware of Effect The dragon immediately attempts to counteract the triggering effect (counteract modifier +32)."
+    },
+    {
+      "name": "Violent Retort",
+      "text": "⬲ Trigger A creature within the sovereign dragon's reach critically hits the dragon Effect The sovereign dragon makes a claw or tail Strike against the creature, after applying all the effects of the critical hit to the dragon."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (evocation, mental, occult); The dragon unleashes a roar charged with psychic energy, dealing 21d6 (21d6) mental damage in a 50-foot cone (DC 43 basic Will save). The dragon can't use Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Coiling Frenzy",
+      "text": "⬺ The dragon makes one claw Strike and one tail Strike in either order, each against the same target. If either Strike hits, the dragon automatically Grabs the target."
+    },
+    {
+      "name": "Draconic Momentum",
+      "text": "The dragon recharges their Breath Weapon whenever they score a critical hit with a Strike."
+    },
+    {
+      "name": "Gleaming Armor",
+      "text": "⬻ (evocation, light, occult); Frequency once per hour Effect The dragon's golden armor glows with a protective golden light. The dragon gains a +2 status bonus to AC and resistance 20 to energy damage. Each enemy in a 20-foot emanation must succeed at a DC 43 Fortitude save or be dazzled. All these effects last until the end of the dragon's next turn."
+    },
+    {
+      "name": "Greater Constrict",
+      "text": "⬻ 4d8+11 (4d8+11) bludgeoning, DC 43 (page 305)"
+    },
+    {
+      "name": "Inspire Envoy",
+      "text": "⬺ (enchantment, mental, occult); Frequency once per day Effect The dragon chooses a mortal they've observed performing an exceptional act and offers their august blessing in exchange for the creature carrying out a specific directive, such as defeating a tyrant or protecting a sacred site. If the creature agrees, until its next daily preparations, it gains a +2 status bonus to the dragon's choice of attack rolls, AC, or all of the following: Perception, Will saves, and Charisma-based skill checks. The dragon can Dismiss this benefit by spending a single action (that has the concentrate trait), which they're swift to do if the mortal dares to defy the dragon's directive."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +38 (magical, reach 20 feet); Damage 4d8+18 (4d8+18) piercing plus 3d6 (3d6) mental"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +38 (agile, magical, reach 15 feet); Damage 4d8+18 (4d8+18) slashing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +38 (magical, reach 30 feet); Damage 4d8+18 (4d8+18) bludgeoning plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      10,
+      5,
+      7,
+      5,
+      8,
+      9
+    ]
+  }
+}

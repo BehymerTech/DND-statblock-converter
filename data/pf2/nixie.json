@@ -1,0 +1,96 @@
+{
+  "name": "Nixie",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 183.",
+  "size": "Small",
+  "type": "Fey",
+  "subtype": "Aquatic",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 25,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, swim 30 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 12,
+    "int": 10,
+    "wis": 12,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +6, Ref +10, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +6 (1d20+6); __Nature__: +5 (1d20+5); __Stealth__: +8 (1d20+8); ",
+    "list": {
+      "Athletics": "+6",
+      "Nature": "+5",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Aquan",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Wild Empathy",
+      "text": "The nixie can use Diplomacy to Make an Impression on and make very simple Requests of aquatic or amphibious animals."
+    },
+    {
+      "name": "Grant Desire",
+      "text": "⬽ (divination, primal); Frequency once per day Effect The nixie can duplicate any 1st-level spell or produce any effect with a power level in line with a 1st-level spell, but only in response to the request or desire of a non-fey creature. The creature whose desire is granted can never again benefit from that particular nixie's Grant Desire ability."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +7 (agile, finesse); Damage 1d6 (1d6) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      3,
+      1,
+      0,
+      1,
+      4
+    ]
+  }
+}

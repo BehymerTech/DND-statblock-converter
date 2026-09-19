@@ -1,0 +1,98 @@
+{
+  "name": "Pteranodon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 16,
+    "notes": "dex +4, dodge +1, natural +2, size -1",
+    "touch": 14,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 32,
+    "formula": "5d8+10"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 50 ft. (clumsy)"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 19,
+    "con": 15,
+    "int": 2,
+    "wis": 15,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +6, Ref +8, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly -1, Perception +11",
+    "list": {
+      "Fly": "-1",
+      "Perception": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": "+8",
+  "babOrProficiency": 3,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +5 (2d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This flying reptile has two huge wings and a distinctive backward-sweeping crest decorating its head.",
+  "meta": {
+    "cmb": "+7",
+    "cmd": 21,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm coastline"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or flock (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

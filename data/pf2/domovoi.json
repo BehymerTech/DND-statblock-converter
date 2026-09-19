@@ -1,0 +1,104 @@
+{
+  "name": "Domovoi",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 136.",
+  "size": "Tiny",
+  "type": "Fey",
+  "subtype": "",
+  "alignment": "CG",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 35,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 16,
+    "con": 12,
+    "int": 16,
+    "wis": 20,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +5, Ref +9, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Crafting__: +9 (1d20+9); __Stealth__: +7 (1d20+7), (Stealth: +9 (1d20+9) within their bound home); __Household lore__: +11 (1d20+11); ",
+    "list": {
+      "Crafting": "+9",
+      "Stealth": "+9",
+      "Household lore": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "imprecise tremorsense within their entire bound home"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Master of the Home",
+      "text": "A home with a friendly domovoi is blessed, as the domovoi cooks, cleans, fetches water, and does a hundred other small tasks. A home so blessed never suffers from random accidents such as fires, and any checks to Craft, Earn Income, Repair, or Subsist in the home receive a +2 circumstance bonus. If the domovoi is unfriendly, such checks take a –2 circumstance penalty instead, as the domovoi hides things, makes noise when people try to sleep, tangles weaving, and otherwise makes life a misery. A domovoi must spend a week in a place before these benefits occur."
+    },
+    {
+      "name": "Shy",
+      "text": "A domovoi is naturally invisible while within sight of their bound home. The domovoi can become visible, or even selectively visible—allowing some people to see them."
+    },
+    {
+      "name": "Home Guardian",
+      "text": "By commanding their home to attack, the domovoi can Grapple, Shove, Trip, and Disarm with their enraged home Strike. The domovoi uses their Household Lore instead of Athletics skill for these checks."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ broom +7 Damage 1d4+3 (1d4+3) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ enraged home +9 (evocation, primal, range increment 30 feet); Damage 1d8+4 (1d8+4) bludgeoning, piercing, or slashing (depending on object)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      3,
+      1,
+      3,
+      5,
+      1
+    ]
+  }
+}

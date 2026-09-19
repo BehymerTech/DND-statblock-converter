@@ -1,0 +1,107 @@
+{
+  "name": "Fading Fox",
+  "sourceSystem": "pf1",
+  "source": "Taldor, the First Empire",
+  "size": "Tiny",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 17,
+    "notes": "dex +5, size +2",
+    "touch": 17,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 16,
+    "formula": "3d8+3"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 21,
+    "con": 13,
+    "int": 2,
+    "wis": 17,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +4, Ref +8, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +5, Climb +9, Escape Artist +7, Perception +10, Stealth +19, Survival +3",
+    "list": {
+      "Acrobatics": "+5",
+      "Climb": "+9",
+      "Escape Artist": "+7",
+      "Perception": "+10",
+      "Stealth": "+19",
+      "Survival": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 20,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 2,
+  "feats": [
+    "Go Unnoticed",
+    "Mobility",
+    "Skill Focus (Perception)",
+    "Stealthy"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +4 (1d3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This regal fox’s coat shifts subtly between silver, red, and dull brown as it walks.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": "15 (19 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics 4",
+      "Survival 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any temperate land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

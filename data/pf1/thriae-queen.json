@@ -1,0 +1,120 @@
+{
+  "name": "Thriae Queen",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Huge",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "LN",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 33,
+    "notes": "natural +25, size -2",
+    "touch": 8,
+    "flatFooted": 33
+  },
+  "hp": {
+    "average": 312,
+    "formula": "25d10+175"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 50 ft. (good)"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 11,
+    "con": 25,
+    "int": 20,
+    "wis": 21,
+    "cha": 28
+  },
+  "saves": {
+    "text": "Fort +15, Ref +14, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +34, Diplomacy +34, Fly +28, Knowledge (arcana) +30, Knowledge (religion) +30, Perception +37, Sense Motive +34, Spellcraft +30, Use Magic Device +34",
+    "list": {
+      "Bluff": "+34",
+      "Diplomacy": "+34",
+      "Fly": "+28",
+      "Perception": "+37",
+      "Sense Motive": "+34",
+      "Spellcraft": "+30",
+      "Use Magic Device": "+34"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect secret doors",
+    "low-light vision",
+    "true seeing"
+  ],
+  "passivePerception": 47,
+  "languages": [
+    "Common",
+    "Sylvan",
+    "Thriae",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 25,
+  "feats": [
+    "Alertness",
+    "Combat Casting",
+    "Combat Expertise",
+    "Critical Focus",
+    "Greater Spell Penetration",
+    "Improved Critical (sting)",
+    "Improved Critical (light mace)",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Iron Will",
+    "Quicken Spell-Like Ability (slow)",
+    "Spell Penetration",
+    "Weapon Focus (light mace)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 axiomatic light mace +35/+30/+25/+20 (2d6+11/19-20), sting +27 (2d8+4/19-20 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering, shapely, purple-skinned woman has an insectile lower body, antennae on her brow, and the wings of a bee.",
+  "meta": {
+    "cmb": "+36",
+    "cmd": 46,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or colony (1 queen, 3 seers, 11-20 soldiers, and 3-30 giant bees)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+2 axiomatic light mace, other treasure)"
+      }
+    ]
+  }
+}

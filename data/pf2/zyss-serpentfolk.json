@@ -1,0 +1,108 @@
+{
+  "name": "Zyss Serpentfolk",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 237.",
+  "size": "Medium",
+  "type": "Serpentfolk",
+  "subtype": "Humanoid",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 25,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 18,
+    "con": 14,
+    "int": 18,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +6, Ref +8, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Arcana__: +8 (1d20+8); __Deception__: +9 (1d20+9); __Occultism__: +8 (1d20+8); __Society__: +8 (1d20+8); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Arcana": "+8",
+      "Deception": "+9",
+      "Occultism": "+8",
+      "Society": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Undercommon; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Serpentfolk Venom",
+      "text": "(poison); Saving Throw DC 16 Fortitude. Maximum Duration 6 rounds Stage 1 1d4 (1d4) poison damage and enfeebled 1 (1 round) Stage 2 2d4 (2d4) poison damage and enfeebled 1 (1 round)"
+    },
+    {
+      "name": "Items",
+      "text": "dagger, shortbow (30 arrows);"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +10 (finesse); Damage 1d6+1 (1d6+1) piercing plus serpentfolk venom"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ dagger +10 (agile, finesse, versatile s); Damage 1d4+1 (1d4+1) piercing plus serpentfolk venom"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ shortbow +10 (deadly 1d10, range increment 60 feet); Damage 1d6+2 (1d6+2) piercing plus serpentfolk venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -1,
+      4,
+      2,
+      4,
+      2,
+      3
+    ],
+    "items": "dagger, shortbow (30 arrows);"
+  }
+}

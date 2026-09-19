@@ -1,0 +1,97 @@
+{
+  "name": "NPC Gray Gardener",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "NE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 18,
+    "notes": "armor +5, deflection +1, dex +2",
+    "touch": 13,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 55,
+    "formula": "8d8+16"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 12,
+    "int": 8,
+    "wis": 18,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +7, Ref +4, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +15, Diplomacy +13, Disguise +13, Heal +11, Intimidate +21, Knowledge (local) +8, Perception +15, Sense Motive +19, Stealth +5",
+    "list": {
+      "Bluff": "+15",
+      "Diplomacy": "+13",
+      "Disguise": "+13",
+      "Heal": "+11",
+      "Intimidate": "+21",
+      "Perception": "+15",
+      "Sense Motive": "+19",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 25,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 5,
+  "feats": [
+    "Alertness",
+    "Combat Reflexes",
+    "Intimidating Gaze",
+    "Lookout",
+    "Persuasive"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 short sword +6 (1d6+1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk alchemical silver dagger +8 (1d4-1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "inquisitor of Norgorber 5, gray gardener 3",
+    "cmb": "+5",
+    "cmd": 18
+  }
+}

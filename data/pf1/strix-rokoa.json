@@ -1,0 +1,110 @@
+{
+  "name": "Strix Rokoa",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "strix",
+  "alignment": "LN",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 20,
+    "notes": "armor +7, deflection +1, dex +1, natural +1",
+    "touch": 12,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 78,
+    "formula": "12d8+24"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 45 ft. (average)"
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 12,
+    "con": 13,
+    "int": 14,
+    "wis": 18,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +7, Ref +7, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics -2, Diplomacy +17, Fly +9, Heal +17, Intimidate +7, Knowledge (arcana) +7, Knowledge (history) +23, Knowledge (nature) +10, Perception +12, Spellcraft +15, Stealth -2, Survival +9",
+    "list": {
+      "Acrobatics": "-2",
+      "Diplomacy": "+17",
+      "Fly": "+9",
+      "Heal": "+17",
+      "Intimidate": "+7",
+      "Perception": "+12",
+      "Spellcraft": "+15",
+      "Stealth": "-2",
+      "Survival": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Auran",
+    "Goblin",
+    "Strix"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Casting",
+    "Nature Magic",
+    "Persuasive",
+    "Skill Focus (Knowledge [history])",
+    "Spell Focus (evocation)",
+    "Spirit Talker"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk quarterstaff +9/+4 (1d6-1 plus 1d6 electricity)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dart +10 (1d4-1 plus 1d6 electricity)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This proud avian woman stands tall and alert despite her years. Claws, bones, and feathers clatter on her crown and staff.",
+  "meta": {
+    "race": "Strix",
+    "class": "shaman (speaker for the past) 12 (Pathfinder RPG Advanced Race Guide 200, Pathfinder RPG Advanced Class Guide 35, 111)",
+    "cmb": "+8",
+    "cmd": 20,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate mountains"
+      }
+    ]
+  }
+}

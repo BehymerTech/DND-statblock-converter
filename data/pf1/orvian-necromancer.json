@@ -1,0 +1,121 @@
+{
+  "name": "Orvian Necromancer",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Monster Codex",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "native",
+  "alignment": "NE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 21,
+    "notes": "armor +4, deflection +2, dex +3, natural +2",
+    "touch": 15,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 108,
+    "formula": "11d6+3d10+53"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 16,
+    "con": 17,
+    "int": 20,
+    "wis": 15,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +13, Ref +11, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +13, Intimidate +14, Knowledge (arcana) +20, Knowledge (dungeoneering) +20, Knowledge (planes) +20, Knowledge (religion) +20, Linguistics +18, Perception +11, Sense Motive +12, Spellcraft +22, Stealth +16",
+    "list": {
+      "Bluff": "+13",
+      "Intimidate": "+14",
+      "Linguistics": "+18",
+      "Perception": "+11",
+      "Sense Motive": "+12",
+      "Spellcraft": "+22",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Aboleth",
+    "Abyssal",
+    "Aklo",
+    "Common",
+    "Dark Folk",
+    "Dwarven",
+    "Elven",
+    "Gnome",
+    "Goblin",
+    "Infernal",
+    "Orc",
+    "Orvian",
+    "Shae",
+    "Thassilonian",
+    "Undercommon",
+    "Yithian"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 8,
+  "feats": [
+    "Arcane Armor Training",
+    "Combat Casting",
+    "Craft Wand",
+    "Great Fortitude",
+    "Greater Spell Focus (necromancy)",
+    "Improved Channel",
+    "Iron Will",
+    "Reach Spell",
+    "Scribe Scroll",
+    "Spell Focus (necromancy)",
+    "Turn Undead"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk dagger +12/+7 (1d4+3/19-20), bite +6 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "An elegant leather gown, skull-shaped studs, and a silken veil conceal much of this humanoid’s transparent flesh.",
+  "meta": {
+    "race": "Urdefhan",
+    "class": "necromancer 11 (Pathfinder RPG Bestiary 2 276)",
+    "cmb": "+11",
+    "cmd": 26,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land (Abaddon)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Chelish Hell-Bred Dog",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 103: The Hellfire Compact",
+  "size": "Medium",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 15,
+    "notes": "dex +2, natural +3",
+    "touch": 12,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d8+6"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 15,
+    "con": 15,
+    "int": 2,
+    "wis": 10,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +5, Ref +5, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +6, Perception +4, Stealth +6, Survival +3",
+    "list": {
+      "Acrobatics": "+6",
+      "Perception": "+4",
+      "Stealth": "+6",
+      "Survival": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 14,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Initiative",
+    "Skill Focus (Survival)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +4 (1d6+3 plus trip)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This reddish-brown canine has a square, athletic build. Its dripping saliva smells of sulfur.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": "16 (20 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics 4",
+      "Survival 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm forests or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

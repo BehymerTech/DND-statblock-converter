@@ -1,0 +1,122 @@
+{
+  "name": "Bandersnatch",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Gargantuan",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 33,
+    "notes": "dex +7, natural +20, size -4",
+    "touch": 13,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 310,
+    "formula": "23d10+184"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 25,
+    "con": 27,
+    "int": 2,
+    "wis": 15,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +21, Ref +20, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +19, Climb +21, Perception +26, Stealth +18, Survival +3",
+    "list": {
+      "Acrobatics": "+19",
+      "Climb": "+21",
+      "Perception": "+26",
+      "Stealth": "+18",
+      "Survival": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 36,
+  "languages": [],
+  "initiative": "+11",
+  "babOrProficiency": 23,
+  "feats": [
+    "Bleeding Critical",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Critical Mastery",
+    "Exhausting Critical",
+    "Improved Critical (claws)",
+    "Improved Critical (quills)",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Iron Will",
+    "Skill Focus (Stealth)",
+    "Tiring Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +32 (2d8+13 plus grab), 2 claws +32 (2d6+13/19-20), tail slap +27 (2d8+19/×3 plus pain)"
+    },
+    {
+      "name": "Ranged",
+      "text": "4 quills +26 (1d10+13/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This six-limbed beast stalks forward with a fluid grace. Barbed quills run along its back, and its eyes glow with a blue light.",
+  "meta": {
+    "cmb": "40 (+44 grapple)",
+    "cmd": "57 (65 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics 8",
+      "Perception 10",
+      "Stealth 4",
+      "Survival 20"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

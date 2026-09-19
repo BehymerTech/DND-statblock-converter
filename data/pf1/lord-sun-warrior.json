@@ -1,0 +1,108 @@
+{
+  "name": "Lord Sun-Warrior",
+  "sourceSystem": "pf1",
+  "source": "Mythical Monsters Revisited",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "native",
+  "alignment": "LG",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 28,
+    "notes": "dex +3, dodge +1, natural +15, size -1",
+    "touch": 13,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 230,
+    "formula": "20d10+120"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 17,
+    "con": 22,
+    "int": 19,
+    "wis": 20,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +14, Ref +17, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +26, Bluff +19, Diplomacy +29, Fly +24, Knowledge (arcana) +14, Knowledge (planes) +17, Knowledge (religion) +17, Perception +32, Sense Motive +32, Spellcraft +27, Survival +25, Use Magic Device +26",
+    "list": {
+      "Acrobatics": "+26",
+      "Bluff": "+19",
+      "Diplomacy": "+29",
+      "Fly": "+24",
+      "Perception": "+32",
+      "Sense Motive": "+32",
+      "Spellcraft": "+27",
+      "Survival": "+25",
+      "Use Magic Device": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect chaos/evil/good/law"
+  ],
+  "passivePerception": 42,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Elven",
+    "Polyglot",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 20,
+  "feats": [
+    "Alertness",
+    "Diehard",
+    "Dodge",
+    "Empower Spell",
+    "Eschew Materials",
+    "Flyby Attack",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Improved Natural Attack (bite)",
+    "Iron Will",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +26 (2d6+10 plus grab and poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This brilliantly colored couatl radiates a palpable air of peace and wisdom.",
+  "meta": {
+    "race": "Unique",
+    "class": "couatl",
+    "cmb": "28 (+32 grapple)",
+    "cmd": "42 (can’t be tripped)"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Decapus",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 16,
+    "notes": "dex +1, natural +5",
+    "touch": 11,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 45,
+    "formula": "6d8+18"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 13,
+    "con": 15,
+    "int": 10,
+    "wis": 11,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +4, Ref +3, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Bluff +7, Climb +16, Escape Artist +5, Intimidate +7, Perception +11, Spellcraft +6, Stealth +9",
+    "list": {
+      "Acrobatics": "+7",
+      "Bluff": "+7",
+      "Climb": "+16",
+      "Escape Artist": "+5",
+      "Intimidate": "+7",
+      "Perception": "+11",
+      "Spellcraft": "+6",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 4,
+  "feats": [
+    "Skill Focus (Bluff)",
+    "Toughness",
+    "Weapon Focus (tentacles)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +7 (1d6+3), tentacles +8 (2d4+3 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This swollen cephalopod has ten writhing tentacles and a hideously monstrous face with pale, milky eyes on its bulbous body.",
+  "meta": {
+    "cmb": "7 (+11 grapple)",
+    "cmd": "18 (can’t be tripped)",
+    "racialModifiers": [
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or mated pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

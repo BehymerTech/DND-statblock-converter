@@ -1,0 +1,108 @@
+{
+  "name": "Tyrannosaurus",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 101.",
+  "size": "Gargantuan",
+  "type": "Dinosaur",
+  "subtype": "Animal",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 29,
+    "notes": ""
+  },
+  "hp": {
+    "average": 180,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 12,
+    "con": 20,
+    "int": 2,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +21, Ref +15, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +15 (1d20+15); __Athletics__: +24 (1d20+24); ",
+    "list": {
+      "Acrobatics": "+15",
+      "Athletics": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 29,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Fling",
+      "text": "⬻ Requirements A creature is Grabbed in the tyrannosaurus's jaws. Effect The tyrannosaurus flings the creature into the air up to 10 feet up from its mouth and 20 feet away. The creature falls 25 feet (assuming the tyrannosaurus flings it as high as it can) and takes falling damage accordingly. If the flung creature lands on another creature, the creature it lands on takes the same amount of bludgeoning damage. The creature being landed on can attempt a DC 23 basic Reflex save."
+    },
+    {
+      "name": "Pin Prey",
+      "text": "⬲ Trigger The tyrannosaurus critically hits a Large or smaller foe with its foot. Effect The creature struck by the foot is knocked prone and the tyrannosaurus uses its foot to hold the creature in place. As long as the tyrannosaurus doesn't move from its position, the pinned creature is Grabbed. A tyrannosaurus gains a +2 circumstance bonus to attack a creature it has pinned in this manner, but it cannot use Swallow Whole on the target unless it uses its jaws to Grab the victim first."
+    },
+    {
+      "name": "Swallow Whole",
+      "text": "⬻ (attack); Medium, 3d6+8 (3d6+8) bludgeoning, Rupture 26."
+    },
+    {
+      "name": "Trample",
+      "text": "⬽ Huge or smaller, foot, DC 29."
+    },
+    {
+      "name": "Rabies",
+      "text": "(disease); Saving Throw DC 17 Fortitude. Stage 1 sickened 1 (1 day) Stage 2 sickened 2 (1 day) Stage 3 confusion ; (1 day)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +22 (deadly 1d12, reach 20 feet); Damage 2d12+12 (2d12+12) piercing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ foot +22 (reach 15 feet); Damage 2d10+12 (2d10+12) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      1,
+      5,
+      -4,
+      3,
+      0
+    ]
+  }
+}

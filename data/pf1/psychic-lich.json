@@ -1,0 +1,135 @@
+{
+  "name": "Psychic Lich",
+  "sourceSystem": "pf1",
+  "source": "Occult Bestiary",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "augmented humanoid",
+  "alignment": "LE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 20,
+    "notes": "deflection +1, dex +1, natural +5, wis +3",
+    "touch": 15,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 96,
+    "formula": "11d6+55"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 12,
+    "con": "None",
+    "int": 22,
+    "wis": 16,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +8, Ref +8, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +17, Disguise +12, Intimidate +15, Knowledge (arcana) +20, Knowledge (history) +20, Linguistics +20, Perception +11, Perform (oratory) +10, Sense Motive +25, Spellcraft +20, Stealth +23",
+    "list": {
+      "Bluff": "+17",
+      "Disguise": "+12",
+      "Intimidate": "+15",
+      "Linguistics": "+20",
+      "Perception": "+11",
+      "Sense Motive": "+25",
+      "Spellcraft": "+20",
+      "Stealth": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Azlanti",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Elven",
+    "Giant",
+    "Gnome",
+    "Halfling",
+    "Infernal",
+    "Osiriani",
+    "Skald",
+    "Sylvan",
+    "Undercommon",
+    "Varisian",
+    "Vudrani"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 5,
+  "feats": [
+    "Craft Wondrous Item",
+    "Defensive Combat Training",
+    "Improved Initiative",
+    "Intuitive Spell",
+    "Lightning Reflexes",
+    "Psychic Combatant",
+    "Psychic Defender",
+    "Quicken Spell",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "touch +4 (1d8+5 plus bewildering touch)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This gaunt, ghoulish figure’s skin is inscribed with faintly glowing runes. Short-lived afterimages trail behind it.",
+  "meta": {
+    "race": "Human",
+    "class": "psychic lich psychic 11 (Pathfinder RPG Occult Adventures 60)",
+    "cmb": "+4",
+    "cmd": 22,
+    "racialModifiers": [
+      "Perception 8",
+      "Sense Motive 8",
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (sickle, cloak of resistance +2, headband of vast intelligence +2 [Stealth], ring of counterspells [dispel magic], ring of protection +1, robe of blending, scroll of invisibility, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "name": "Barkeep",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 238.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 14,
+    "notes": ""
+  },
+  "hp": {
+    "average": 25,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 10,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +7, Ref +3, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +6 (1d20+6); __Deception__: +6 (1d20+6); __Diplomacy__: +8 (1d20+8); __Performance__: +6 (1d20+6); __Society__: +5 (1d20+5); __Thievery__: +3 (1d20+3); __Alcohol lore__: +9 (1d20+9); ",
+    "list": {
+      "Athletics": "+6",
+      "Deception": "+6",
+      "Diplomacy": "+8",
+      "Performance": "+6",
+      "Society": "+5",
+      "Thievery": "+3",
+      "Alcohol lore": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 16,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Society",
+      "text": "+5, Thievery +3 Str +3, Dex +0, Con +2, Int +0, Wis +1, Cha +3 Items barkeep's apron (functions as padded armor), flask of whiskey, pewter mug, sap."
+    },
+    {
+      "name": "Items",
+      "text": "barkeep's apron (functions as padded armor), flask of whiskey, pewter mug, sap;"
+    },
+    {
+      "name": "Bar Brawler",
+      "text": "The barkeep has been in enough bar fights to know how to throw a few punches. When fighting in their bar and making a nonlethal attack, the barkeep gains a +1 circumstance bonus to attack rolls and deals an additional 1d4 (1d4) damage."
+    },
+    {
+      "name": "Barkeep's Advice",
+      "text": "⬽ (auditory, fortune, linguistic, mental); Frequency once per day; The barkeep gives some pertinent advice to a single creature other than themself. For 24 hours, when that creature fails a skill check or saving throw, they can recall this advice and reroll the check, using the second result instead. Once that creature uses this ability, its effect ends. A creature that receives the Barkeep's Advice is temporarily immune to the ability for 1 month."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ sap +6 (agile, nonlethal); Damage 1d6+3 (1d6+3) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +6 (agile, nonlethal); Damage 1d4+3 (1d4+3) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ pewter mug +3 (thrown 10 feet); Damage 1d4+3 (1d4+3) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      0,
+      2,
+      0,
+      1,
+      3
+    ],
+    "items": "barkeep's apron (functions as padded armor), flask of whiskey, pewter mug, sap;"
+  }
+}

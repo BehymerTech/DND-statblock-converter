@@ -1,0 +1,115 @@
+{
+  "name": "Ghoran Manipulator",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 106.",
+  "size": "Medium",
+  "type": "Plant",
+  "subtype": "Ghoran, Humanoid",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 45,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 12,
+    "con": 16,
+    "int": 10,
+    "wis": 14,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +8, Ref +8, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Deception__: +11 (1d20+11); __Diplomacy__: +9 (1d20+9); __Nature__: +9 (1d20+9); __Performance__: +11 (1d20+11); __Stealth__: +6 (1d20+6); ",
+    "list": {
+      "Deception": "+11",
+      "Diplomacy": "+9",
+      "Nature": "+9",
+      "Performance": "+11",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Appetizing Aroma",
+      "text": "(aura, olfactory); 10 feet. A creature entering or starting its turn in the aura must attempt a DC 17 Will save. Creatures that don't eat are immune to Appetizing Aroma. Success The creature is unaffected and is temporarily immune for 1 hour. Failure The creature is distracted by a desire to consume the ghoran. For 1 round it becomes flat-footed and fascinated by the ghoran manipulator."
+    },
+    {
+      "name": "Delicious",
+      "text": "Ghorans were originally created to be scrumptious food. A ghoran manipulator takes 5 additional damage from jaws Strikes, fangs Strikes, or other similar Strikes with a creature's mouth. When a ghoran manipulator is grabbed or restrained by a creature's jaws, fangs, or mouth, the DC to Escape is increased by 2."
+    },
+    {
+      "name": "Anguished Cry",
+      "text": "⬲ (emotion, enchantment, mental); Trigger A humanoid enemy damages the ghoran manipulator with a melee attack Effect The ghoran manipulator rearranges its facial petals and wails, mimicking humanoid anguish to engender sympathy. The triggering creature must attempt a DC 20 Will save. Success The target is unaffected and is temporarily immune for 1 hour. Failure The target takes a –2 circumstance penalty on attack rolls against the ghoran manipulator until the start of its next turn. Critical Failure As failure, and the target is stupefied 2 until the start of its next turn."
+    },
+    {
+      "name": "Items",
+      "text": "shortbow (20 arrows), spear;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ spear +7 Damage 1d6+2 (1d6+2) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ spear +8 (thrown 20 feet); Damage 1d6+2 (1d6+2) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ shortbow +8 (deadly d10, range increment 60 feet, reload 0); Damage 1d6+2 (1d6+2) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      1,
+      3,
+      0,
+      2,
+      4
+    ],
+    "items": "shortbow (20 arrows), spear;"
+  }
+}

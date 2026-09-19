@@ -1,0 +1,101 @@
+{
+  "name": "Amphisbaena",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 15.",
+  "size": "Medium",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 70,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, climb 25 feet, swim 25 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 18,
+    "con": 14,
+    "int": 2,
+    "wis": 10,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +10, Ref +14, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +10 (1d20+10); __Athletics__: +13 (1d20+13); __Stealth__: +12 (1d20+12); ",
+    "list": {
+      "Acrobatics": "+10",
+      "Athletics": "+13",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "tremorsense 60"
+  ],
+  "passivePerception": 20,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Amphisbaena Venom",
+      "text": "(poison); Saving Throw DC 18 Fortitude. Maximum Duration 6 rounds Stage 1 1d6 (1d6) poison damage and enfeebled 1 (1 round) Stage 2 2d6 (2d6) poison damage and enfeebled 2 and slowed 1 (1 round) Stage 3 3d6 (3d6) poison damage and paralyzed (1 round)"
+    },
+    {
+      "name": "Blinding Spittle",
+      "text": "A creature critically hit by an amphisbaena's spit Strike is blinded for 1 round."
+    },
+    {
+      "name": "Twin Bites",
+      "text": "⬻ An amphisbaena makes a fangs Strike with each of its heads, each against a different target. Both Strikes count toward its multiple attack penalty, but the penalty doesn't increase until after it has made both attacks."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +13 Damage 2d6+5 (2d6+5) piercing plus amphisbaena venom"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ spit +12 (range increment 15 feet); Damage 1d6 (1d6) poison plus amphisbaena venom and blinding spittle"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      4,
+      2,
+      -4,
+      0,
+      -4
+    ]
+  }
+}

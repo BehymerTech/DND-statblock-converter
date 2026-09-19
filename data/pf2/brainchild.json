@@ -1,0 +1,105 @@
+{
+  "name": "Brainchild",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 38.",
+  "size": "Large",
+  "type": "Mental",
+  "subtype": "Illusion",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 11",
+  "xp": null,
+  "ac": {
+    "value": 30,
+    "notes": ""
+  },
+  "hp": {
+    "average": 200,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, fly 30 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 20,
+    "con": 18,
+    "int": 14,
+    "wis": 16,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +21, Ref +22, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Deception__: +22 (1d20+22); __Intimidation__: +24 (1d20+24); __Performance__: +22 (1d20+22); __Society__: +21 (1d20+21); __Stealth__: +20 (1d20+20); ",
+    "list": {
+      "Deception": "+22",
+      "Intimidation": "+24",
+      "Performance": "+22",
+      "Society": "+21",
+      "Stealth": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Universal language; [[telepathy]] 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Universal Language",
+      "text": "Anything spoken by the brainchild is perceived by the listener in its native language."
+    },
+    {
+      "name": "Urban Legend",
+      "text": "A brainchild is sustained only by the reputation that precedes them. Mindless creatures are immune to a brainchild and can't perceive them. The brainchild's size, features, and items, as well as the appearance of their attacks, match what the foes perceiving them expect. If foes expect to see different things, the brainchild chooses which to manifest. If any creature that can perceive the brainchild believes the brainchild has one of the abilities below, the brainchild has that ability. A creature can Seek or Sense Motive to attempt to disbelieve an individual ability. If at any point no creature perceiving the brainchild believes in the ability, the brainchild loses that ability immediately. If foes expect different particulars, such as one believing the brainchild is immune to fire and another believing they're immune to divinations, the brainchild chooses one to have.<ul class='inner-bullet-list'><li>Tremorsense (imprecise) 100 feet</li><li>Immunity to one damage type, magic school, or condition</li><li>Weakness 10 to one damage type other than mental</li><li>Resistance 10 to physical damage, with an exception for either cold iron or silver</li><li>Frightful Presence (aura, emotion, fear, mental) 100 feet, DC 28</li><li>1d6 (1d6) Extra Damage on Strikes, of a type one foe believes in</li><li>Additional Spells phantom pain and shadow blast at 6th level</li></ul>"
+    },
+    {
+      "name": "Persistence of Memory",
+      "text": "(illusion, mental, occult); When a brainchild is destroyed, it returns if anyone still fully believes it exists, re-forming within 100 feet of any believer after 2d4 (2d4) days."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ illusory weapon +24 (illusion, mental, occult); Damage 4d6+10 (4d6+10) mental plus urban legend"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ illusory weapon +24 (illusion, mental, occult, range 100 feet); Damage 4d6+6 (4d6+6) mental plus urban legend"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      5,
+      4,
+      2,
+      3,
+      7
+    ]
+  }
+}

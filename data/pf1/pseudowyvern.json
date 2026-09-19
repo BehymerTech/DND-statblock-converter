@@ -1,0 +1,102 @@
+{
+  "name": "Pseudowyvern",
+  "sourceSystem": "pf1",
+  "source": "Legacy of Dragons",
+  "size": "Tiny",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 17,
+    "notes": "dex +2, natural +3, size +2",
+    "touch": 14,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 22,
+    "formula": "3d12+3"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 14,
+    "con": 13,
+    "int": 7,
+    "wis": 12,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +4, Ref +5, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +16, Perception +7, Sense Motive +7, Stealth +16",
+    "list": {
+      "Fly": "+16",
+      "Perception": "+7",
+      "Sense Motive": "+7",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 3,
+  "feats": [
+    "Flyby Attack",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "sting +7 (1d2-1 plus poison), bite +7 (1d3-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The sinuous tail of this cat-sized winged, armless dragon is tipped with a scorpianlike stinger.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": 12,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm forests or hills"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or flight (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

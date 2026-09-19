@@ -1,0 +1,101 @@
+{
+  "name": "Guardian Scroll",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Pathfinder No. 79: The Half-Dead City",
+  "size": "Tiny",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex +2, dodge +1, size +2",
+    "touch": 15,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 27,
+    "formula": "5d10"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 40 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 15,
+    "con": "None",
+    "int": 4,
+    "wis": 10,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +1, Ref +5, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +4, Fly +20, Perception +0",
+    "list": {
+      "Acrobatics": "+4",
+      "Fly": "+20",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 10,
+  "languages": [
+    "Common (can’t speak)"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 5,
+  "feats": [
+    "Dodge",
+    "Flyby Attack",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slice +9 (1d4+3 plus 1d2 bleed and grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This innocuous-looking scroll f lits about with serpentine grace, baring its razor-sharp edges.",
+  "meta": {
+    "cmb": "5 (+9 grapple)",
+    "cmd": 18,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or collection (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

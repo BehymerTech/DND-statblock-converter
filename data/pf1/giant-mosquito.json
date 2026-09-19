@@ -1,0 +1,97 @@
+{
+  "name": "Giant Mosquito",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "vermin",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex +7, natural +2",
+    "touch": 17,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 60,
+    "formula": "8d8+24"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 25,
+    "con": 17,
+    "int": "None",
+    "wis": 13,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +9, Ref +9, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +11, Perception +9",
+    "list": {
+      "Fly": "+11",
+      "Perception": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": "+7",
+  "babOrProficiency": 6,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +10 (1d8+6 plus bleed, disease, and grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A bloated, red belly dangles beneath the furiously beating wings of this massive mosquito.",
+  "meta": {
+    "cmb": "10 (+14 grapple)",
+    "cmd": "27 (35 vs. trip)",
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or tropical swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or swarm (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

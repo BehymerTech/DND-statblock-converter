@@ -1,0 +1,110 @@
+{
+  "name": "Kishi",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 149.",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 138,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 18,
+    "con": 12,
+    "int": 12,
+    "wis": 14,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +13, Ref +18, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +18 (1d20+18); __Deception__: +20 (1d20+20); __Diplomacy__: +19 (1d20+19); __Society__: +15 (1d20+15); __Stealth__: +18 (1d20+18); ",
+    "list": {
+      "Athletics": "+18",
+      "Deception": "+20",
+      "Diplomacy": "+19",
+      "Society": "+15",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Constrict",
+      "text": "⬻ 1d10+9 (1d10+9) piercing, DC 26 (grabbed by jaws only; page 304)"
+    },
+    {
+      "name": "Head Spin",
+      "text": "⭓ The kishi switches between showing their attractive human face and their snarling hyena face. A kishi can use their innate spell and their Deception and Diplomacy skills only when their human face is showing, and they can use their jaws Strike only when their hyena face is showing."
+    },
+    {
+      "name": "Sudden Charge",
+      "text": "⬺ The kishi Strides twice. If they end their movement within melee reach of at least one enemy, they can make a melee Strike against that enemy."
+    },
+    {
+      "name": "Vicelike Jaws",
+      "text": "A creature grabbed in the kishi's jaws can barely speak; a creature must succeed at a DC 8 flat check to provide verbal components for spells, doing so in a choked whisper."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +20 Damage 2d10+9 (2d10+9) piercing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +20 (agile); Damage 2d8+9 (2d8+9) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      4,
+      1,
+      1,
+      2,
+      5
+    ]
+  }
+}

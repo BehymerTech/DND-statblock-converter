@@ -1,0 +1,93 @@
+{
+  "name": "Yzobu",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 300.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 25,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 18,
+    "int": 0,
+    "wis": 12,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +9, Ref +6, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +7 (1d20+7); __Intimidation__: +5 (1d20+5); __Survival__: +4 (1d20+4); ",
+    "list": {
+      "Athletics": "+7",
+      "Intimidation": "+5",
+      "Survival": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Pungent Aura",
+      "text": "(aura, olfactory); 10 feet. Creatures other than yzobus or hobgoblins that enter or start their turn in the yzobu's aura must succeed at a DC 14 Fortitude save or become sickened 1, or sickened 2 on a critical failure. A creature that succeeds at its save is temporarily immune for 1 minute."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ horn +7 Damage 1d6+4 (1d6+4) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ hoof +7 (agile); Damage 1d4+4 (1d4+4) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      3,
+      4,
+      -5,
+      1,
+      2
+    ]
+  }
+}

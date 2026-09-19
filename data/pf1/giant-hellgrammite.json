@@ -1,0 +1,98 @@
+{
+  "name": "Giant Hellgrammite",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Pathfinder No. 49: The Brinewall Legacy",
+  "size": "Large",
+  "type": "vermin",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +2, natural +7, size -1",
+    "touch": 11,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 52,
+    "formula": "7d8+21"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 15,
+    "con": 16,
+    "int": "None",
+    "wis": 9,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +8, Ref +4, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +3, Stealth -2, Swim +12",
+    "list": {
+      "Perception": "+3",
+      "Stealth": "-2",
+      "Swim": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 13,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 5,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (2d6+4 plus grab), tail slap +3 (1d8+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This long, insectile creature has massive mandibles and dozens of segmented legs extend from its sides.",
+  "meta": {
+    "cmb": "10 (+14 grapple)",
+    "cmd": "22 (can’t be tripped)",
+    "racialModifiers": [
+      "Perception 4",
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate rivers"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

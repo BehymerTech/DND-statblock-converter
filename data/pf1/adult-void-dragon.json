@@ -1,0 +1,119 @@
+{
+  "name": "Adult Void Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 29,
+    "notes": "dex +1, natural +20, size -2",
+    "touch": 9,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 184,
+    "formula": "16d12+80"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (good)"
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 12,
+    "con": 21,
+    "int": 20,
+    "wis": 17,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +15, Ref +11, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +17, Bluff +24, Diplomacy +18, Fly +20, Intimidate +22, Knowledge (arcana) +24, Knowledge (planes) +24, Perception +22, Sense Motive +22, Spellcraft +20, Stealth +12, Survival +14, Use Magic Device +16",
+    "list": {
+      "Acrobatics": "+17",
+      "Bluff": "+24",
+      "Diplomacy": "+18",
+      "Fly": "+20",
+      "Intimidate": "+22",
+      "Perception": "+22",
+      "Sense Motive": "+22",
+      "Spellcraft": "+20",
+      "Stealth": "+12",
+      "Survival": "+14",
+      "Use Magic Device": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "see in darkness"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Celestial",
+    "Draconic",
+    "Ignan",
+    "Infernal"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 16,
+  "feats": [
+    "Flyby Attack",
+    "Hover",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Iron Will",
+    "Multiattack",
+    "Weapon Focus (bite)",
+    "Wingover"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +23 (2d8+12/19-20 plus obliterate), 2 claws +22 (2d6+8), 2 wings +20 (1d8+4), tail slap +20 (2d6+12)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+26",
+    "cmd": "37 (41 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "vacuum"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

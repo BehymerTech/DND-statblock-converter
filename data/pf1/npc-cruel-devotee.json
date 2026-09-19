@@ -1,0 +1,98 @@
+{
+  "name": "NPC Cruel Devotee",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "deflection +1, dex +1, dodge +1, monk +1, wis +3",
+    "touch": 17,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 31,
+    "formula": "5d8+5"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 13,
+    "con": 12,
+    "int": 10,
+    "wis": 16,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +6, Ref +6, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Climb +8, Intimidate +7, Knowledge (religion) +8, Perception +11, Sense Motive +11, Stealth +9",
+    "list": {
+      "Acrobatics": "+7",
+      "Climb": "+8",
+      "Intimidate": "+7",
+      "Perception": "+11",
+      "Sense Motive": "+11",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 21,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 3,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Grapple",
+    "Improved Initiative",
+    "Improved Unarmed Strike",
+    "Power Attack",
+    "Scorpion Style",
+    "Stunning Fist"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "unarmed strike +6 (1d8+3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "javelin +4 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "monk 5",
+    "cmb": "8 (+10 grapple)",
+    "cmd": "23 (25 vs. grapple)"
+  }
+}

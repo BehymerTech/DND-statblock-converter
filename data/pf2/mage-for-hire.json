@@ -1,0 +1,95 @@
+{
+  "name": "Mage For Hire",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 226.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 31,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 12,
+    "int": 18,
+    "wis": 12,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +8, Ref +9, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +11 (1d20+11); __Society__: +9 (1d20+9); __Stealth__: +7 (1d20+7); __Thievery__: +9 (1d20+9); ",
+    "list": {
+      "Arcana": "+11",
+      "Society": "+9",
+      "Stealth": "+7",
+      "Thievery": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 17,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Wizard School Spell",
+      "text": "1 Focus Point, DC 20; 2nd diviner's sight (Core Rulebook 406)"
+    },
+    {
+      "name": "Items",
+      "text": "invisibility potion, spellbook, staff, thieves' tools;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ staff +7 (two-hand d8); Damage 1d4 (1d4) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      2,
+      1,
+      4,
+      1,
+      1
+    ],
+    "items": "invisibility potion, spellbook, staff, thieves' tools;"
+  }
+}

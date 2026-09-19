@@ -1,0 +1,105 @@
+{
+  "name": "Esipil",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Tiny",
+  "type": "outsider",
+  "subtype": "evil, extraplanar, sahkil",
+  "alignment": "NE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 16,
+    "notes": "dex +3, natural +1, size +2",
+    "touch": 15,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d10+3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 16,
+    "con": 13,
+    "int": 9,
+    "wis": 12,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +4, Ref +4, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +9, Intimidate +10, Knowledge (planes) +5, Perception +7, Stealth +17",
+    "list": {
+      "Acrobatics": "+9",
+      "Intimidate": "+10",
+      "Perception": "+7",
+      "Stealth": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Infernal",
+    "telepathy (touch)"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Skill Focus (Intimidate)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +4 (1d4-1 plus grab), 2 claws +4 (1d3-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature’s stout canine torso tops a slimy mass resembling an earthworm. Disgusting veins dangle from its face.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": 13,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Ethereal Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pack (2-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

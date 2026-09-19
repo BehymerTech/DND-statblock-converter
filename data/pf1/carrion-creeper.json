@@ -1,0 +1,105 @@
+{
+  "name": "Carrion Creeper",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 130: City in the Lion's Eye",
+  "size": "Large",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 24,
+    "notes": "dex +7, natural +8, size -1",
+    "touch": 16,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 133,
+    "formula": "14d8+70"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 25,
+    "con": 18,
+    "int": 4,
+    "wis": 12,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +13, Ref +11, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +16, Perception +9, Stealth +14",
+    "list": {
+      "Climb": "+16",
+      "Perception": "+9",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Sylvan (can't speak)"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 10,
+  "feats": [
+    "Agile Maneuvers",
+    "Combat Reflexes",
+    "Improved Critical (vine)",
+    "Skill Focus (Stealth)",
+    "Toughness",
+    "Weapon Finesse",
+    "Weapon Focus (vine)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 vines +17 (2d6+4/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This thick mass of vegetation has several sturdy tendrils studded with long thorns and rippling with strength.",
+  "meta": {
+    "cmb": "18 (+26 grapple)",
+    "cmd": "32 (can't be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or tangle (2-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

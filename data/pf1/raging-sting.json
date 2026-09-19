@@ -1,0 +1,109 @@
+{
+  "name": "Raging Sting",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Monster Codex",
+  "size": "Large",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 24,
+    "notes": "armor +5, dex +3, natural +9, rage -2, size -1",
+    "touch": 10,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 171,
+    "formula": "10d10+1d12+110"
+  },
+  "speed": {
+    "walk": 45,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "45 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 17,
+    "con": 29,
+    "int": 8,
+    "wis": 16,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +15, Ref +11, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +15, Craft (stonemasonry) +6, Knowledge (history) +4, Knowledge (religion) +4, Perception +18, Stealth +9, Survival +14",
+    "list": {
+      "Climb": "+15",
+      "Perception": "+18",
+      "Stealth": "+9",
+      "Survival": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Common",
+    "Girtablilu"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 11,
+  "feats": [
+    "Improved Initiative",
+    "Improved Natural Armor",
+    "Improved Natural Attack (claws)",
+    "Power Attack",
+    "Toughness",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 greatclub +20/+15/+10 (1d10+14), 2 claws +15 (1d8+5 plus grab), sting +15 (1d6+5 plus poison)"
+    },
+    {
+      "name": "Ranged",
+      "text": "throwing axe +13/+8/+3 (1d6+9)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Scars and tattoos intersect across this glowering scorpion-bodied man, and his muscles strain against the leather of his armor.",
+  "meta": {
+    "race": "Girtablilu",
+    "class": "barbarian 1 (Pathfinder RPG Bestiary 3 130)",
+    "cmb": "21 (+25 grapple)",
+    "cmd": "32 (44 vs. trip)",
+    "racialModifiers": [
+      "Climb 4",
+      "Perception 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts"
+      }
+    ]
+  }
+}

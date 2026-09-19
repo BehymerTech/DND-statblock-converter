@@ -1,0 +1,104 @@
+{
+  "name": "Ravener Husk",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 224.",
+  "size": "Gargantuan",
+  "type": "Undead",
+  "subtype": "Dragon",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 14",
+  "xp": null,
+  "ac": {
+    "value": 35,
+    "notes": ""
+  },
+  "hp": {
+    "average": 325,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 feet, fly 180 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 10,
+    "con": 22,
+    "int": 0,
+    "wis": 18,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +28, Ref +22, Will +26",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +22 (1d20+22); __Athletics__: +28 (1d20+28); ",
+    "list": {
+      "Acrobatics": "+22",
+      "Athletics": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, soulsense 60"
+  ],
+  "passivePerception": 36,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 90 feet, DC 31."
+    },
+    {
+      "name": "Boneshatter",
+      "text": "⬲ Trigger The ravener husk takes any amount of bludgeoning damage Effect The ravener's brittle bones shatter, spraying bone shards everywhere. Every creature within a 10-foot emanation of the ravener husk takes 7d6 (7d6) piercing damage (DC 31 basic Reflex save)."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (divine, evocation, negative); The ravener husk breathes a torrent of negative energy that deals 16d6 (16d6) negative damage in a 40-foot cone (DC 34 basic Reflex save). They can't use Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Ravenous Repast",
+      "text": "⬽ (divine, necromancy); Frequency once per day Effect The ravener husk makes a jaws Strike against a deceased creature that has been dead no longer than 1 minute, was good aligned, and was at least level 15 in life. The ravener attempts a DC 5 flat check; if successful, they transform back into a ravener with 1 Hit Point in their soul ward."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +30 (magical, reach 15 feet); Damage 3d8+16 (3d8+16) piercing plus 2d6 (2d6) negative"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +30 (agile, magical, reach 10 feet); Damage 3d4+16 (3d4+16) slashing plus 2d6 (2d6) negative"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      0,
+      6,
+      -5,
+      4,
+      4
+    ]
+  }
+}

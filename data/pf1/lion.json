@@ -1,0 +1,103 @@
+{
+  "name": "Lion",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex +3, natural +3, size -1",
+    "touch": 12,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 32,
+    "formula": "5d8+10"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 17,
+    "con": 15,
+    "int": 2,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +6, Ref +7, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +11, Perception +9, Stealth +8",
+    "list": {
+      "Acrobatics": "+11",
+      "Perception": "+9",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": "+7",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Run",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +7 (1d8+5 plus grab), 2 claws +7 (1d4+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This great cat’s muscles flex visibly under its skin as it bares its fangs and shakes its thick mane of hair.",
+  "meta": {
+    "cmb": "9 (+13 grapple)",
+    "cmd": "22 (26 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pride (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Orc Brute",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 256.",
+  "size": "Medium",
+  "type": "Orc",
+  "subtype": "Humanoid",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 0",
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 15,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 16,
+    "int": 8,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +6, Ref +4, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +5 (1d20+5); __Intimidation__: +2 (1d20+2); ",
+    "list": {
+      "Athletics": "+5",
+      "Intimidation": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Orc"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Ferocity",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "shoddy breastplate, javelin (3), orc knuckle dagger (2);"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ orc knuckle dagger +7 (agile, disarm); Damage 1d6+3 (1d6+3) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +7 (agile, nonlethal); Damage 1d4+3 (1d4+3) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ javelin +4 (thrown 30 feet); Damage 1d6+3 (1d6+3) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      2,
+      3,
+      -1,
+      1,
+      0
+    ],
+    "items": "shoddy breastplate, javelin (3), orc knuckle dagger (2);"
+  }
+}

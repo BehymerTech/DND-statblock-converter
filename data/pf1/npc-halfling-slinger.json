@@ -1,0 +1,100 @@
+{
+  "name": "NPC Halfling Slinger",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "halfling",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 22,
+    "notes": "armor +6, dex +5, size +1",
+    "touch": 16,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 72,
+    "formula": "9d10+18"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 20,
+    "con": 14,
+    "int": 8,
+    "wis": 12,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +11, Ref +11, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Climb +5, Perception +5, Ride +17, Survival +15",
+    "list": {
+      "Acrobatics": "+7",
+      "Climb": "+5",
+      "Perception": "+5",
+      "Ride": "+17",
+      "Survival": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 15,
+  "languages": [
+    "Common",
+    "Halfling"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 9,
+  "feats": [
+    "Deadly Aim",
+    "Greater Weapon Focus (halfling sling staff)",
+    "Improved Critical (halfling sling staff)",
+    "Iron Will",
+    "Mounted Combat",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Vital Strike",
+    "Weapon Focus (halfling sling staff)",
+    "Weapon Specialization (halfling sling staff)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 halfling sling staff +18/+13 (1d4+9/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 halfling sling staff +22 (1d6+8/19-20/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Halfling",
+    "class": "fighter 9",
+    "cmb": "+13",
+    "cmd": 26
+  }
+}

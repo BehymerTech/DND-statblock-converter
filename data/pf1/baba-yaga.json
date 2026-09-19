@@ -1,0 +1,131 @@
+{
+  "name": "Baba Yaga",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 72: The Witch Queen's Revenge",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, mythic",
+  "alignment": "NE",
+  "cr": "30",
+  "level": null,
+  "xp": 9830400,
+  "ac": {
+    "value": 51,
+    "notes": "armor +13, deflection +5, dex +5, insight +11, natural +7",
+    "touch": 31,
+    "flatFooted": 46
+  },
+  "hp": {
+    "average": 782,
+    "formula": "20d6+710"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 20,
+    "con": 26,
+    "int": 46,
+    "wis": 24,
+    "cha": 32
+  },
+  "saves": {
+    "text": "Fort +30, Ref +27, Will +35",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Appraise +23, Bluff +26, Craft (alchemy) +22, Craft (woodworking) +22, Diplomacy +21, Escape Artist +25, Fly +23, Heal +25, Intimidate +36, Knowledge (arcana) +41, Knowledge (dungeoneering) +38, Knowledge (engineering) +38, Knowledge (geography) +38, Knowledge (history) +41, Knowledge (local) +38, Knowledge (nature) +41, Knowledge (nobility) +38, Knowledge (planes) +41, Knowledge (religion) +38, Perception +27, Ride +13, Sense Motive +27, Spellcraft +41, Stealth +25, Survival +11, Use Magic Device +34",
+    "list": {
+      "Acrobatics": "+15",
+      "Appraise": "+23",
+      "Bluff": "+26",
+      "Diplomacy": "+21",
+      "Escape Artist": "+25",
+      "Fly": "+23",
+      "Heal": "+25",
+      "Intimidate": "+36",
+      "Perception": "+27",
+      "Ride": "+13",
+      "Sense Motive": "+27",
+      "Spellcraft": "+41",
+      "Stealth": "+25",
+      "Survival": "+11",
+      "Use Magic Device": "+34"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "arcane sight",
+    "darkvision",
+    "see invisibility"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Aquan",
+    "Auran",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Giant",
+    "Ignan",
+    "Infernal",
+    "Iobarian",
+    "Polish",
+    "Russian",
+    "Sarmatian",
+    "Sylvan",
+    "Terran",
+    "Triaxian",
+    "tongues"
+  ],
+  "initiative": "+19",
+  "babOrProficiency": 10,
+  "feats": [
+    "Accursed Critical",
+    "Accursed Hex",
+    "Brew Potion",
+    "Extra Hex",
+    "Extra Path Ability",
+    "Greater Spell Penetration",
+    "Improved Familiar",
+    "Improved Initiative",
+    "Mythic Paragon",
+    "Mythic Spell Lore",
+    "Quicken Spell",
+    "Spell Penetration",
+    "Split Hex",
+    "Split Major Hex",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "Baba Yaga’s besom +17/+12 (1d6+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Female",
+    "class": "venerable advanced human witch 20, archmage 10 (Pathfinder RPG Advanced Player’s Guide 65, Pathfinder RPG Bestiary 294, Pathfinder RPG Mythic Adventures 14)",
+    "cmb": "+13",
+    "cmd": 36
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Druid",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "or Small Humanoid",
+  "subtype": "Druid",
+  "alignment": "Neutral",
+  "cr": "2",
+  "level": null,
+  "xp": 450,
+  "ac": {
+    "value": 13,
+    "notes": ""
+  },
+  "hp": {
+    "average": 44,
+    "formula": "8d8 + 8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 16,
+    "cha": 11
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Medicine +5, Nature +3, Perception +5",
+    "list": {
+      "Medicine": "+5",
+      "Nature": "+3",
+      "Perception": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 15,
+  "languages": [
+    "Common",
+    "Druidic",
+    "Sylvan"
+  ],
+  "initiative": "+1 (11)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The druid makes two attacks, using Vine Staff or Verdant Wisp in any combination."
+    },
+    {
+      "name": "Vine Staff",
+      "text": "_Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 7 (1d8 + 3) Bludgeoning damage plus 2 (1d4) Poison damage."
+    },
+    {
+      "name": "Verdant Wisp",
+      "text": "_Ranged Attack Roll:_ +5, range 90 ft. _Hit:_ 10 (3d6) Radiant damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The druid casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 13): <br> &emsp;**At Will:** _Druidcraft, Speak with Animals_ <br> &emsp;**2/Day Each:** _Entangle, Thunderwave_ <br> &emsp;**1/Day Each:** _Animal Messenger, Long-strider, Moonbeam_ ## Dryad"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Host Devil, Lesser (Gaav)",
+  "sourceSystem": "pf1",
+  "source": "Book of the Damned - Volume 1: Princes of Darkness",
+  "size": "Small",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 17,
+    "notes": "dex +3, dodge +1, natural +2, size +1",
+    "touch": 15,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d10+8"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 17,
+    "con": 14,
+    "int": 7,
+    "wis": 9,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +6, Ref +7, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +9, Escape Artist +9, Fly +11, Perception +6, Stealth +13",
+    "list": {
+      "Acrobatics": "+9",
+      "Escape Artist": "+9",
+      "Fly": "+11",
+      "Perception": "+6",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 4,
+  "feats": [
+    "Dodge",
+    "Hover"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk spear +7 (1d8+1), 2 claws +6 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This tangle of scaly avian limbs furiously beats its double pair of vulture-like wings, keeping its fiendish, horned skull-head aloft. As fetid breath rises from its repulsive, fly-covered visage, clawed arms work together to slash the air with a vicious-looking spear.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": 18,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "Hell"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or flock (2d4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (masterwork Small spear, other treasure)"
+      }
+    ]
+  }
+}

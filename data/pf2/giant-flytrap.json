@@ -1,0 +1,100 @@
+{
+  "name": "Giant Flytrap",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 160.",
+  "size": "Huge",
+  "type": "Plant",
+  "subtype": "Mindless",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 29,
+    "notes": ""
+  },
+  "hp": {
+    "average": 185,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 20,
+    "con": 20,
+    "int": 0,
+    "wis": 16,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +21, Ref +17, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +23 (1d20+23); __Stealth__: +21 (1d20+21), (Stealth: +24 (1d20+24) in undergrowth); ",
+    "list": {
+      "Athletics": "+23",
+      "Stealth": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "imprecise tremorsense 60"
+  ],
+  "passivePerception": 27,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Quick Capture",
+      "text": "⬲ Trigger A creature hits or touches the flytrap. Effect The flytrap makes a leaf Strike against the triggering creature. If it hits, the creature is grabbed in that leaf."
+    },
+    {
+      "name": "Focused Assault",
+      "text": "⬺ The flytrap attacks a single target all four of its leaves. The flytrap makes one leaf Strike. On a success, the flytrap deals the damage from one leaf Strike plus an additional 1d8 (1d8) damage for every leaf beyond the first. On a failure, the flytrap deals the damage from one leaf Strike, but it can't use Improved Grab. It deals no damage on a critical failure. This counts toward the flytrap's multiple attack penalty as a number of attacks equal to the number of leaves the flytrap has."
+    },
+    {
+      "name": "Hungry Flurry",
+      "text": "⬺ The flytrap makes four leaf Strikes at a –2 penalty, each against a different target. These attacks count toward the flytrap's multiple attack penalty, but the multiple attack penalty doesn't increase until after it makes all its attacks."
+    },
+    {
+      "name": "Swallow Whole",
+      "text": "⬻ (attack); Large, 2d8+3 (2d8+3) bludgeoning plus 2d6 (2d6) acid, Rupture 17."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ leaf +23 (reach 15 feet); Damage 2d8+7 (2d8+7) piercing plus 2d6 (2d6) acid and Improved Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      5,
+      5,
+      -5,
+      3,
+      -2
+    ]
+  }
+}

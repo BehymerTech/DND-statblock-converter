@@ -1,0 +1,113 @@
+{
+  "name": "NPC Horse Monk",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LN",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 26,
+    "notes": "armor +4, deflection +2, dex +2, dodge +1, monk +4, wis +3",
+    "touch": 22,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 91,
+    "formula": "16d8+16"
+  },
+  "speed": {
+    "walk": 80,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "80 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 16,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +14, Ref +15, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Bluff +11, Climb +12, Diplomacy +5, Disguise +3, Handle Animal +5, Intimidate +12, Knowledge (arcana) +1, Knowledge (geography) +1, Knowledge (local) +5, Perception +21, Ride +15, Sense Motive +13, Stealth +17, Survival +8, Swim +9",
+    "list": {
+      "Acrobatics": "+15",
+      "Bluff": "+11",
+      "Climb": "+12",
+      "Diplomacy": "+5",
+      "Disguise": "+3",
+      "Handle Animal": "+5",
+      "Intimidate": "+12",
+      "Perception": "+21",
+      "Ride": "+15",
+      "Sense Motive": "+13",
+      "Stealth": "+17",
+      "Survival": "+8",
+      "Swim": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 31,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 12,
+  "feats": [
+    "Combat Reflexes",
+    "Deadly Aim",
+    "Deflect Arrows",
+    "Dodge",
+    "Improved Trip",
+    "Improved Unarmed Strike",
+    "Lunge",
+    "Mounted Combat",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Precise Shot",
+    "Quick Draw",
+    "Ride-By Attack",
+    "Snatch Arrows",
+    "Spirited Charge",
+    "Stunning Fist"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 unarmed strike +17/+12/+7 (2d8+5)"
+    },
+    {
+      "name": "Ranged",
+      "text": "blowgun +15/+10/+5 (1d2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "monk 16",
+    "cmb": "20 (+22 trip)",
+    "cmd": "38 (40 vs. trip)"
+  }
+}

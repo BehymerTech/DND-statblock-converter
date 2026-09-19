@@ -1,0 +1,113 @@
+{
+  "name": "Fjord Linnorm",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 165.",
+  "size": "Gargantuan",
+  "type": "Dragon",
+  "subtype": "Amphibious",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 16",
+  "xp": null,
+  "ac": {
+    "value": 40,
+    "notes": ""
+  },
+  "hp": {
+    "average": 315,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet, fly 75 feet, swim 50 feet; freedom of movement;"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 20,
+    "con": 26,
+    "int": 4,
+    "wis": 22,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +30, Ref +28, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +27 (1d20+27); __Athletics__: +33 (1d20+33); __Stealth__: +29 (1d20+29); ",
+    "list": {
+      "Acrobatics": "+27",
+      "Athletics": "+33",
+      "Stealth": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60, true seeing"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Aklo",
+    "Draconic",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Curse of Stolen Breath",
+      "text": "(curse, primal, water); When a creature slays a fjord linnorm, it must succeed at a DC 41 Will save or become unable to ever breathe underwater (either via a natural ability or a spell such as water breathing). In addition, the victim can hold its breath only half as long as normal, and whenever it holds its breath it becomes sickened 2."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲ Tail only."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (cold, evocation, primal); The fjord linnorm expels a 120-foot line of icy bile, dealing 17d6 (17d6) cold damage to creatures within the area (DC 37 basic Reflex save) Any creature that fails its save is covered by the ice, which freezes and fuses with the creature's skin, giving it a –10-foot penalty to Speed. A creature can Escape or Force Open the ice (DC 34) to free itself; otherwise, the ice remains for 1 minute. The fjord linnorm can't use Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Fjord Linnorm Venom",
+      "text": "(cold, poison); Saving Throw DC 37 Fortitude. Maximum Duration 10 rounds Stage 1 4d6 (4d6) cold damage and clumsy 1 (1 round) Stage 2 6d6 (6d6) cold damage and clumsy 2 (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +33 (magical, reach 20 feet); Damage 3d12+17 (3d12+17) piercing plus fjord linnorm venom"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +33 (agile, magical, reach 20 feet); Damage 3d10+17 (3d10+17) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +33 (agile, magical, reach 25 feet); Damage 3d6+15 (3d6+15) bludgeoning plus Improved Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      9,
+      5,
+      8,
+      -3,
+      6,
+      7
+    ]
+  }
+}

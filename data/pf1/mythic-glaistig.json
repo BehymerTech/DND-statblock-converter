@@ -1,0 +1,127 @@
+{
+  "name": "Mythic Glaistig",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "earth, mythic",
+  "alignment": "CN",
+  "cr": "21",
+  "level": null,
+  "xp": 409600,
+  "ac": {
+    "value": 40,
+    "notes": "deflection +10, dex +12, natural +8",
+    "touch": 32,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 422,
+    "formula": "25d6+335"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., other_semicolon earth glide ft., burrow 60 ft., climb 60 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 35,
+    "con": 30,
+    "int": 27,
+    "wis": 28,
+    "cha": 31
+  },
+  "saves": {
+    "text": "Fort +18, Ref +26, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +40, Bluff +44, Climb +17, Diplomacy +38, Disguise +28, Escape Artist +40, Intimidate +28, Knowledge (geography) +21, Knowledge (local) +37, Knowledge (nature) +37, Perception +37, Perform (dance) +38, Sense Motive +43, Sleight of Hand +40, Stealth +40, Use Magic Device +38",
+    "list": {
+      "Acrobatics": "+40",
+      "Bluff": "+44",
+      "Climb": "+17",
+      "Diplomacy": "+38",
+      "Disguise": "+28",
+      "Escape Artist": "+40",
+      "Intimidate": "+28",
+      "Perception": "+37",
+      "Sense Motive": "+43",
+      "Sleight of Hand": "+40",
+      "Stealth": "+40",
+      "Use Magic Device": "+38"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 47,
+  "languages": [
+    "Common",
+    "Elven",
+    "Sylvan",
+    "Terran"
+  ],
+  "initiative": "+26",
+  "babOrProficiency": 12,
+  "feats": [
+    "Combat Casting",
+    "Combat Reflexes",
+    "Defensive Combat Training",
+    "Improved Critical (kinetic blast)",
+    "Improved Initiative",
+    "Improved Precise Shot",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Quicken Spell-Like Ability (confusion)",
+    "Skill Focus (Bluff)",
+    "Skill Focus (Sense Motive)",
+    "Weapon Finesse",
+    "Weapon Focus (kinetic blast)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "earth whip +26/+21/+16 (10d6+20/19-20 bludgeoning, piercing, or slashing plus hex)"
+    },
+    {
+      "name": "Ranged",
+      "text": "earth blast +36 (10d6+30/19-20 bludgeoning, piercing, or slashing plus hex)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A mien of strange, primal beauty surrounds this woman, magnified by the inhuman tone of her skin and her bestial legs.",
+  "meta": {
+    "cmb": "+21",
+    "cmd": 69,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests or swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

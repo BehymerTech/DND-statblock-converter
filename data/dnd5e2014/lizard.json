@@ -1,0 +1,71 @@
+{
+  "name": "Lizard",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Tiny",
+  "type": "beast",
+  "subtype": "",
+  "alignment": "unaligned",
+  "cr": "0",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 10,
+    "notes": ""
+  },
+  "hp": {
+    "average": 2,
+    "formula": "1d4"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": 20,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 2,
+    "dex": 11,
+    "con": 10,
+    "int": 1,
+    "wis": 8,
+    "cha": 3
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 30 ft."
+  ],
+  "passivePerception": 9,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

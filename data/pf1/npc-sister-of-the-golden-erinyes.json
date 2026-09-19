@@ -1,0 +1,104 @@
+{
+  "name": "NPC Sister of the Golden Erinyes",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 20,
+    "notes": "deflection +1, dex +3, dodge +1, monk +2, wis +3",
+    "touch": 20,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 97,
+    "formula": "11d8+44"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 14,
+    "int": 10,
+    "wis": 16,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +9, Ref +12, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +16, Climb +16, Intimidate +12, Knowledge (religion) +7, Linguistics +1, Perception +16, Stealth +16",
+    "list": {
+      "Acrobatics": "+16",
+      "Climb": "+16",
+      "Intimidate": "+12",
+      "Linguistics": "+1",
+      "Perception": "+16",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 26,
+  "languages": [
+    "Common",
+    "Infernal"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 8,
+  "feats": [
+    "Deflect Arrows",
+    "Dodge",
+    "Exotic Weapon Proficiency (seven-branched sword)",
+    "Hamatalatsu",
+    "Improved Initiative",
+    "Improved Unarmed Strike",
+    "Lightning Reflexes",
+    "Mobility",
+    "Power Attack",
+    "Spring Attack",
+    "Stunning Fist",
+    "Toughness",
+    "Weapon Focus (unarmed strike)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk seven-branched sword +12/+7 (1d10+4/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk shuriken +12/+7 (1d2+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "monk 11",
+    "cmb": "+14",
+    "cmd": 31
+  }
+}

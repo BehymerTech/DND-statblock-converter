@@ -1,0 +1,112 @@
+{
+  "name": "Su",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Medium",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "dex +4, dodge +1, natural +6",
+    "touch": 15,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 114,
+    "formula": "12d10+48"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 40 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 19,
+    "con": 16,
+    "int": 7,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +11, Ref +12, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +14, Climb +12, Perception +10, Stealth +11",
+    "list": {
+      "Acrobatics": "+14",
+      "Climb": "+12",
+      "Perception": "+10",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Aklo (can’t speak)",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 12,
+  "feats": [
+    "Critical Focus",
+    "Dodge",
+    "Improved Critical (claw)",
+    "Mobility",
+    "Nimble Moves",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +16 (1d8+4 plus 1d6 bleed), 2 claws +16 (1d6+4/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This emaciated quadruped has a mouth full of jagged teeth and a cluster of bald, mewling offspring clinging to its back.",
+  "meta": {
+    "cmb": "16 (+20 grapple)",
+    "cmd": "31 (35 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics 4",
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or troop (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

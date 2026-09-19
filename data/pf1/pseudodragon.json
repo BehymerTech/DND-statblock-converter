@@ -1,0 +1,107 @@
+{
+  "name": "Pseudodragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Tiny",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "NG",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 16,
+    "notes": "dex +2, natural +2, size +2",
+    "touch": 14,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 15,
+    "formula": "2d12+2"
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 7,
+    "dex": 15,
+    "con": 13,
+    "int": 10,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +4, Ref +5, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +5, Fly +15, Perception +6, Sense Motive +6, Stealth +19, Survival +6",
+    "list": {
+      "Diplomacy": "+5",
+      "Fly": "+15",
+      "Perception": "+6",
+      "Sense Motive": "+6",
+      "Stealth": "+19",
+      "Survival": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Draconic",
+    "telepathy (60 ft.)"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 2,
+  "feats": [
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "sting +6 (1d3-2 plus poison), bite +6 (1d2-2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This housecat-sized miniature dragon has fine scales, sharp horns, wicked little teeth, and a tail tipped with a barbed stinger.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": "10 (14 vs. trip)",
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or clutch (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

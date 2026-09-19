@@ -1,0 +1,103 @@
+{
+  "name": "Rast",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Outsider",
+  "subtype": "Extraplanar, Fire",
+  "alignment": "Usually neutral",
+  "cr": "5",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "+1 Dex, +4 natural",
+    "touch": 11,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 25,
+    "formula": "4d8+7"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": 60,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft. (1 square), fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 12,
+    "con": 13,
+    "int": 3,
+    "wis": 13,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +5, Ref +5, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Hide +8, Listen +8, Move Silently +8, Spot +8;",
+    "list": {
+      "Hide": "+8",
+      "Listen": "+8",
+      "Move Silently": "+8",
+      "Spot": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 4,
+  "feats": [
+    "Improved Initiative",
+    "Toughness"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Paralyzing gaze, improved grab, blood drain"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., flight, immunity to fire, vulnerability to cold"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Claw +6 melee (1d4+2) or bite +6 melee (1d8+3)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "4 claws +6 melee (1d4+2) or bite +6 melee (1d8+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A rast has anywhere from ten to fifteen claws, though it can only use four at once.",
+    "grapple": "+6",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Elemental Plane of Fire",
+    "organization": "Solitary, pair, or cluster (3-6)",
+    "treasure": "None",
+    "advancement": "5-6 HD (Medium); 7-12 HD (Large)",
+    "leveladjustment": "---"
+  }
+}

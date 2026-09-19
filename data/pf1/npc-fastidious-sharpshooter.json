@@ -1,0 +1,99 @@
+{
+  "name": "NPC Fastidious Sharpshooter",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "gnome",
+  "alignment": "NE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 23,
+    "notes": "armor +6, deflection +3, dex +3, size +1",
+    "touch": 17,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 76,
+    "formula": "8d10+28"
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 16,
+    "int": 8,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +9, Ref +5, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +10, Profession (soldier) +8, Sense Motive +7",
+    "list": {
+      "Perception": "+10",
+      "Sense Motive": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Gnome",
+    "Sylvan"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 8,
+  "feats": [
+    "Deadly Aim",
+    "Fleet",
+    "Improved Critical (light crossbow)",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Rapid Reload",
+    "Rapid Shot",
+    "Weapon Focus (light crossbow)",
+    "Weapon Specialization (light crossbow)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk glaive +10/+5 (1d8/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk light crossbow +13/+13/+8 (1d6+3/17-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Gnome",
+    "class": "fighter 8",
+    "cmb": "+7",
+    "cmd": 23
+  }
+}

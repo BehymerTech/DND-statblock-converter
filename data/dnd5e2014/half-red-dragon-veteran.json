@@ -1,0 +1,96 @@
+{
+  "name": "Half-Red Dragon Veteran",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "any alignment",
+  "cr": "5",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": "plate armor"
+  },
+  "hp": {
+    "average": 65,
+    "formula": "10d8 + 20"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 13,
+    "con": 14,
+    "int": 10,
+    "wis": 11,
+    "cha": 10
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Athletics +6, Perception +3",
+    "list": {
+      "athletics": "+6",
+      "perception": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [
+    "fire"
+  ],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight 10 ft.",
+    "darkvision 60 ft."
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The veteran makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack."
+    },
+    {
+      "name": "Longsword",
+      "text": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
+    },
+    {
+      "name": "Shortsword",
+      "text": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+    },
+    {
+      "name": "Heavy Crossbow",
+      "text": "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage."
+    },
+    {
+      "name": "Fire Breath {@recharge 5}",
+      "text": "The veteran exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 24 (7d6) fire damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

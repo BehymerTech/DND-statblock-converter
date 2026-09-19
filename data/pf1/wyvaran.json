@@ -1,0 +1,102 @@
+{
+  "name": "Wyvaran",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Medium",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "LN",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 17,
+    "notes": "armor +5, dex +2",
+    "touch": 12,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 10,
+    "formula": "1d8+2"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 30 ft. (clumsy) (20 ft., fly 20 ft. [clumsy] in armor), fly_other clumsy) (20 ft., fly 20 ft. [clumsy] in armor ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 13,
+    "int": 6,
+    "wis": 17,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +3, Ref +2, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly -6, Intimidate +6, Knowledge (religion) +2, Perception +7",
+    "list": {
+      "Fly": "-6",
+      "Intimidate": "+6",
+      "Perception": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 0,
+  "feats": [
+    "Weapon Focus (shortspear)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "shortspear +1 (1d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This dragonlike humanoid brandishes its spear, spreads its wings, and shows its fangs in a angry snarl.",
+  "meta": {
+    "race": "Female",
+    "class": "wyvaran inquisitor 1",
+    "cmb": "+0",
+    "cmd": 12,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, wing (2-8), or flight (4-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (spear, scale mail, holy symbol, other treasure)"
+      }
+    ]
+  }
+}

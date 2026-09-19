@@ -1,0 +1,109 @@
+{
+  "name": "Oliphaunt of Jandelay",
+  "sourceSystem": "pf1",
+  "source": "Mythic Realms",
+  "size": "Colossal",
+  "type": "outsider",
+  "subtype": "chaotic, extraplanar",
+  "alignment": "CN",
+  "cr": "30",
+  "level": null,
+  "xp": 9830400,
+  "ac": {
+    "value": 50,
+    "notes": "deflection +20, dex +8, natural +20, size -8",
+    "touch": 30,
+    "flatFooted": 42
+  },
+  "hp": {
+    "average": 740,
+    "formula": "40d10+520"
+  },
+  "speed": {
+    "walk": 120,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "120 ft., other ['air walk'] ft."
+  },
+  "abilities": {
+    "str": 44,
+    "dex": 27,
+    "con": 37,
+    "int": 14,
+    "wis": 17,
+    "cha": 32
+  },
+  "saves": {
+    "text": "Fort +37, Ref +21, Will +27",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +37, Diplomacy +51, Intimidate +54, Knowledge (arcana) +25, Knowledge (religion) +25, Knowledge (planes) +45, Perception +52, Sense Motive +46, Spellcraft +45, Swim +37",
+    "list": {
+      "Climb": "+37",
+      "Diplomacy": "+51",
+      "Intimidate": "+54",
+      "Perception": "+52",
+      "Sense Motive": "+46",
+      "Spellcraft": "+45",
+      "Swim": "+37"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 62,
+  "languages": [
+    "Celestial",
+    "Jandelayan"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 40,
+  "feats": [
+    "Ability Focus (greater shout)",
+    "Cleave",
+    "Combat Expertise",
+    "Critical Focus",
+    "Empower Spell-Like Ability (greater shout)",
+    "Great Cleave",
+    "Great Fortitude",
+    "Greater Sunder",
+    "Improved Critical (bite)",
+    "Improved Critical (gore)",
+    "Improved Critical (slam)",
+    "Improved Sunder",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack",
+    "Run",
+    "Skill Focus (Perception)",
+    "Staggering Critical",
+    "Stunning Critical",
+    "Weapon Focus (slam)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +49 (4d10+17/19-20 plus grab), 4 gores +49 (4d10+17/19-20), 2 slams +50 (4d10+17/19-20), trunk +47 (4d8+8 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The elephantine creature is titanic in scale. Curving tusks frame its flexing, muscular trunk and its canyon of a mouth.",
+  "meta": {
+    "cmb": "65 (+69 grapple or sunder)",
+    "cmd": "103 (105 vs. sunder, 107 vs. grapple or trip)"
+  }
+}

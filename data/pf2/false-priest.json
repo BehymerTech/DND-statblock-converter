@@ -1,0 +1,112 @@
+{
+  "name": "False Priest",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 229.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 51,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 16,
+    "int": 10,
+    "wis": 14,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +11, Ref +12, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +10 (1d20+10); __Athletics__: +8 (1d20+8); __Deception__: +12 (1d20+12); __Performance__: +12 (1d20+12); __Religion__: +8 (1d20+8); __Society__: +6 (1d20+6); ",
+    "list": {
+      "Acrobatics": "+10",
+      "Athletics": "+8",
+      "Deception": "+12",
+      "Performance": "+12",
+      "Religion": "+8",
+      "Society": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 20,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Society",
+      "text": "+6 Str +0, Dex +4, Con +3, Int +0, Wis +2, Cha +4 Items alchemical tools (used as \"blessed items\" to fool marks), backpack, cloak, hand crossbow (20 bolts), collection of fake relics, wooden religious symbol, studded leather armor, rapier."
+    },
+    {
+      "name": "Deceiver's Surprise",
+      "text": "On the first round of combat, if the false priest rolls Deception or Performance for initiative, creatures that haven't acted yet are flat-footed to the false priest."
+    },
+    {
+      "name": "Fickle Prophecy",
+      "text": "⬻ (emotion, mental); The false priest convinces someone of their omnipotence by attempting a Deception check compared to the creature's Will DC. If successful, the target gains 1d8+4 (1d8+4) temporary Hit Points that last for 1 hour or until the false priest removes them by rebuking the target, whichever occurs first."
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "The false priest deals an extra 1d6 (1d6) precision damage to flat-footed creatures. This increases to 2d6 (2d6) against creatures flat-footed due to the false priest's Feint or deceiver's surprise."
+    },
+    {
+      "name": "The Jig Is Up",
+      "text": "⬲ Frequency once per hour Trigger The false priest critically fails a Deception or Performance check Effect The false priest Strides."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ rapier +12 (deadly 1d8, disarm, finesse); Damage 1d6+8 (1d6+8) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ hand crossbow +12 (range increment 60 feet, reload 1); Damage 1d6+4 (1d6+4) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      4,
+      3,
+      0,
+      2,
+      4
+    ]
+  }
+}

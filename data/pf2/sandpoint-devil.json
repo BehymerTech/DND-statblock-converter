@@ -1,0 +1,114 @@
+{
+  "name": "Sandpoint Devil",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 230.",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "Beast",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 165,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet, fly 50 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 18,
+    "con": 20,
+    "int": 10,
+    "wis": 18,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +19, Ref +14, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +16 (1d20+16); __Athletics__: +18 (1d20+18); __Intimidation__: +18 (1d20+18); __Stealth__: +18 (1d20+18); __Survival__: +16 (1d20+16); ",
+    "list": {
+      "Acrobatics": "+16",
+      "Athletics": "+18",
+      "Intimidation": "+18",
+      "Stealth": "+18",
+      "Survival": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Abyssal",
+    "Varisian"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲ Hoof only."
+    },
+    {
+      "name": "Accursed Breath",
+      "text": "⬺ (curse, evocation, fire, occult); The Sandpoint Devil breathes a 30-foot cone of flame that deals 6d10 (6d10) fire damage. Each creature in the area must attempt a DC 26 Reflex save. The."
+    },
+    {
+      "name": "Sandpoint",
+      "text": "Devil can't use Accursed Breath for 1d4 (1d4) rounds. Critical Success The creature is unaffected. Success The creature takes half damage. Failure The creature takes full damage and is sickened 2 by the agonizing pain of its burns. Critical Failure The creature takes full damage and is cursed. The victim's flesh appears charred and burned, and the pain of being burned alive never fully vanishes. The cursed creature takes a –2 status penalty to all checks from the constant pain. Healing doesn't alter the appearance of the burns or lessen the penalty, but removing the curse does."
+    },
+    {
+      "name": "Devil's Howl",
+      "text": "⬺ (auditory, emotion, enchantment, fear, mental, occult); The Sandpoint Devil unleashes a bloodcurdling howl that can be heard for miles. Each creature within a 100-foot emanation must succeed at a DC 26 Will save or become frightened 2 (frightened 3 and fleeing as long as it remains frightened on a critical failure). Creatures that attempt this Will save are then immune to Devil's Howl for 24 hours."
+    },
+    {
+      "name": "Trample",
+      "text": "⬽ Medium or smaller, hoof, DC 23."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +20 Damage 2d10+12 (2d10+12) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ hoof +20 (agile, versatile s); Damage 2d6+12 (2d6+12) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      4,
+      5,
+      0,
+      4,
+      3
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "name": "Mezlan",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Pathfinder No. 66: The Dead Heart of Xin",
+  "size": "Medium",
+  "type": "ooze",
+  "subtype": "shapechanger",
+  "alignment": "N",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 30,
+    "notes": "dex +7, dodge +1, natural +12",
+    "touch": 18,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 195,
+    "formula": "17d8+119"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 20 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 25,
+    "con": 24,
+    "int": 15,
+    "wis": 18,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +12, Ref +14, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Bluff +14, Climb +18, Disguise +25, Escape Artist +9, Linguistics +11, Perception +20, Sense Motive +20, Stealth +25, Swim +18",
+    "list": {
+      "Acrobatics": "+15",
+      "Bluff": "+14",
+      "Climb": "+18",
+      "Disguise": "+25",
+      "Escape Artist": "+9",
+      "Linguistics": "+11",
+      "Perception": "+20",
+      "Sense Motive": "+20",
+      "Stealth": "+25",
+      "Swim": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Aklo",
+    "Common",
+    "versatile speech"
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 12,
+  "feats": [
+    "Alertness",
+    "Dodge",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Precise Shot",
+    "Stealthy"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 morphic weapons +22 (2d8+10)"
+    },
+    {
+      "name": "Ranged",
+      "text": "morphic weapon +19 (2d8+10)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "An amorphous blob coalesces, forming into a humanoid figure. As it stabilizes, intricate details emerge.",
+  "meta": {
+    "cmb": "+22",
+    "cmd": 40,
+    "racialModifiers": [
+      "Disguise 12",
+      "Linguistics 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

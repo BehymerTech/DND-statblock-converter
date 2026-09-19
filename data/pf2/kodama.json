@@ -1,0 +1,107 @@
+{
+  "name": "Kodama",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 143.",
+  "size": "Small",
+  "type": "Spirit",
+  "subtype": "Kami",
+  "alignment": "NG",
+  "cr": null,
+  "level": "Creature 5",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 95,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 20,
+    "int": 10,
+    "wis": 20,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +12, Ref +11, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +11 (1d20+11); __Athletics__: +11 (1d20+11); __Nature__: +14 (1d20+14); __Stealth__: +13 (1d20+13); __Survival__: +14 (1d20+14); ",
+    "list": {
+      "Acrobatics": "+11",
+      "Athletics": "+11",
+      "Nature": "+14",
+      "Stealth": "+13",
+      "Survival": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Common; speak with plants",
+    "[[telepathy]] 50 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Ward",
+      "text": "(abjuration, divine); Every kami is bound to a ward: a specific animal, plant, object, or location. A kami can merge with or emerge from their ward as a single action, which has the concentrate trait. While merged, the kami can observe their surroundings with their usual senses as well as the senses of their ward, but can't move, communicate with, or control their ward. Additionally, a kami merged with their ward recovers Hit Points each minute as if they spent an entire day resting. A kodama's ward is a specific tree."
+    },
+    {
+      "name": "Items",
+      "text": "spiritual rope;"
+    },
+    {
+      "name": "Distracting Gaze",
+      "text": "(aura, divine, enchantment, visual); 30 feet. When a creature ends its turn in the aura, it must attempt a DC 23 Will save. The kodama can activate or deactivate this aura by using a single action, which has the concentrate trait. Success The creature is unaffected. Failure The creature is fascinated. This condition ends if the creature ends its turn outside the aura. Critical Failure As failure, plus the creature is slowed 1 as long as it remains fascinated."
+    },
+    {
+      "name": "Spiritual Rope",
+      "text": "(abjuration, divine); The kodama spends 1 minute to fashion an enchanted straw rope out of nearby materials. The rope can be wrapped around other kami creatures to protect them from fell forces. A kami who wears a spiritual rope gains resistance 5 to evil damage (though this is usually relevant only if the kami is good-aligned), a +1 status bonus to AC against evil creatures, and a +1 status bonus to saving throws against effects from evil creatures. A kodama always wears a spiritual rope, and they can have one other spiritual rope in existence at a time. Creating a new rope beyond these two releases the magic of one other rope of the kodama's choosing. A spiritual rope around a creature other than a kodama loses its magic after 24 hours or if it's taken outside of the kodama's forest."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +13 (agile, finesse); Damage 2d6+4 (2d6+4) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      4,
+      5,
+      0,
+      5,
+      4
+    ],
+    "items": "spiritual rope;"
+  }
+}

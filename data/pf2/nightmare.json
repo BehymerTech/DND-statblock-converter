@@ -1,0 +1,102 @@
+{
+  "name": "Nightmare",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 244.",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "Beast",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 100,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, fly 90 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 16,
+    "int": 12,
+    "wis": 18,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +15, Ref +15, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +13 (1d20+13); __Athletics__: +16 (1d20+16); __Intimidation__: +14 (1d20+14); __Survival__: +12 (1d20+12); ",
+    "list": {
+      "Acrobatics": "+13",
+      "Athletics": "+16",
+      "Intimidation": "+14",
+      "Survival": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Abyssal",
+    "Daemonic",
+    "Infernal"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Smoke",
+      "text": "(aura); 15 feet. The nightmare continually exhales black smoke that creates concealment in an aura around it. Nightmares and their riders can see through this smoke. A creature that begins its turn in the area becomes sickened 2 (DC 23 Fortitude negates) and is then temporarily immune sickness from the smoke for 1 minute. The nightmare, its rider, any creature currently holding its breath (or that does not need to breathe), and any creature immune to poison are immune to the aura's sickened effect but not the concealment."
+    },
+    {
+      "name": "Flaming Gallop",
+      "text": "⬺ (fire); The nightmare Strides or Flies up to triple its Speed. Its hooves burst with intense flame, dealing 3d6 (3d6) fire damage (DC 24 basic Reflex save) once to each creature other than the nightmare's rider that the nightmare moves adjacent to during its gallop."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +16 (evil, magical); Damage 2d10+6 (2d10+6) piercing plus 1d6 (1d6) evil"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ hoof +16 (agile, evil, fire, magical); Damage 1d8+6 (1d8+6) bludgeoning plus 1d6 (1d6) evil and 1d8 (1d8) fire"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      3,
+      3,
+      1,
+      4,
+      2
+    ]
+  }
+}

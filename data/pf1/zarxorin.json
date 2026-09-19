@@ -1,0 +1,115 @@
+{
+  "name": "Zarxorin",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 120: Vault of the Onyx Citadel",
+  "size": "Colossal",
+  "type": "outsider",
+  "subtype": "earth, elemental, extraplanar",
+  "alignment": "N",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 34,
+    "notes": "natural +32, size -8",
+    "touch": 2,
+    "flatFooted": 34
+  },
+  "hp": {
+    "average": 350,
+    "formula": "28d10+196"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 42,
+    "dex": 10,
+    "con": 25,
+    "int": 7,
+    "wis": 11,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +18, Ref +16, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +29, Intimidate +31, Perception +31, Stealth +21",
+    "list": {
+      "Appraise": "+29",
+      "Intimidate": "+31",
+      "Perception": "+31",
+      "Stealth": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 41,
+  "languages": [
+    "Terran"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 28,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Critical Focus",
+    "Great Cleave",
+    "Great Fortitude",
+    "Greater Bull Rush",
+    "Improved Bull Rush",
+    "Improved Critical (slam)",
+    "Improved Iron Will",
+    "Iron Will",
+    "Lunge",
+    "Power Attack",
+    "Skill Focus (Stealth)",
+    "Staggering Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +36 (6d8+16 plus grab), 2 slams +36 (4d6+16/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This titanic earthen creature is humanoid-shaped with a hunched, pugnacious posture. The enormous hump of its back bears a ring of standing stones that crackle faintly with energy.",
+  "meta": {
+    "cmb": "52 (+56 bull rush, grapple)",
+    "cmd": "62 (64 vs. bull rush)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any hills or underground (Plane of Earth)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

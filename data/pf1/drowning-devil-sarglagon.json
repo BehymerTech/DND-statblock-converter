@@ -1,0 +1,113 @@
+{
+  "name": "Drowning Devil (Sarglagon)",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 60: From Hell's Heart",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "dex +7, dodge +1, natural +4, size -1",
+    "touch": 17,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 103,
+    "formula": "9d10+54"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 30 ft. (average), swim 40 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 25,
+    "con": 23,
+    "int": 16,
+    "wis": 20,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +12, Ref +10, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +16, Diplomacy +16, Fly +5, Intimidate +16, Knowledge (nature) +15, Knowledge (planes) +15, Perception +17, Sense Motive +17, Stealth +15, Swim +25",
+    "list": {
+      "Bluff": "+16",
+      "Diplomacy": "+16",
+      "Fly": "+5",
+      "Intimidate": "+16",
+      "Perception": "+17",
+      "Sense Motive": "+17",
+      "Stealth": "+15",
+      "Swim": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness",
+    "see invisibility"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 9,
+  "feats": [
+    "Agile Maneuvers",
+    "Combat Reflexes",
+    "Dodge",
+    "Weapon Finesse",
+    "Wind Stance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15 (2d6+5), 2 slams +15 (1d8+5 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This serpentine creature has finlike wings, ram horns, four eyes, and arms that end in masses of tentacles.",
+  "meta": {
+    "cmb": "+17",
+    "cmd": "33 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or guard (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "name": "Heresy Devil (Ayngavhaul)",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Book of the Damned - Volume 1: Princes of Darkness",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 29,
+    "notes": "armor +4, dex -1, natural +18, size -2",
+    "touch": 7,
+    "flatFooted": 29
+  },
+  "hp": {
+    "average": 175,
+    "formula": "13d10+104"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 40 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 8,
+    "con": 24,
+    "int": 22,
+    "wis": 21,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +17, Ref +3, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +21, Diplomacy +25, Fly +12, Intimidate +25, Knowledge (arcana) +22, Knowledge (planes) +22, Knowledge (religion) +22, Knowledge (history) +19, Perception +21, Perform (oratory) +18, Profession (librarian) +12, Sense Motive +21, Spellcraft +22",
+    "list": {
+      "Bluff": "+21",
+      "Diplomacy": "+25",
+      "Fly": "+12",
+      "Intimidate": "+25",
+      "Perception": "+21",
+      "Sense Motive": "+21",
+      "Spellcraft": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Draconic",
+    "Infernal"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 13,
+  "feats": [
+    "Diehard",
+    "Endurance",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Persuasive",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +18 (2d8+7), bite +18 (2d6+7)"
+    },
+    {
+      "name": "Ranged",
+      "text": "3 searing words +10 (4d6 fire and divine)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Seemingly fused with a monstrous iron throne, this impossibly corpulent being floats several feet off the ground.",
+  "meta": {
+    "cmb": "+22",
+    "cmd": 41,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or lecture (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "name": "NPC Furious Crusader",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "halfling",
+  "alignment": "LG",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 30,
+    "notes": "armor +13, deflection +3, dex +1, natural +2, size +1",
+    "touch": 15,
+    "flatFooted": 29
+  },
+  "hp": {
+    "average": 139,
+    "formula": "18d10+36"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 14,
+    "int": 8,
+    "wis": 12,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +18, Ref +12, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics -2, Climb +4, Diplomacy +11, Heal +9, Knowledge (local) +4, Knowledge (religion) +7, Perception +13, Swim +2",
+    "list": {
+      "Acrobatics": "-2",
+      "Climb": "+4",
+      "Diplomacy": "+11",
+      "Heal": "+9",
+      "Perception": "+13",
+      "Swim": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 23,
+  "languages": [
+    "Common",
+    "Halfling"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 18,
+  "feats": [
+    "Cleave",
+    "Combat Reflexes",
+    "Greater Vital Strike",
+    "Improved Vital Strike",
+    "Lunge",
+    "Power Attack",
+    "Stand Still",
+    "Vital Strike",
+    "Weapon Focus (longspear)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+3 flaming longspear +27/+22/+17/+12 (1d6+9/×3 plus 1d6 fire)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 sling +21 (1d3+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Halfling",
+    "class": "paladin of Iomedae 18",
+    "cmb": "+21",
+    "cmd": 35
+  }
+}

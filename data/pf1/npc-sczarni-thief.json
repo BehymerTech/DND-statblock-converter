@@ -1,0 +1,98 @@
+{
+  "name": "NPC Sczarni Thief",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "CN",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 18,
+    "notes": "armor +4, dex +3, dodge +1",
+    "touch": 14,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 20,
+    "formula": "3d8+3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 17,
+    "con": 10,
+    "int": 8,
+    "wis": 12,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +1, Ref +6, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +9, Bluff +7, Climb +7, Disable Device +9, Escape Artist +7, Knowledge (local) +5, Perception +7, Sense Motive +5, Sleight of Hand +8, Stealth +9",
+    "list": {
+      "Acrobatics": "+9",
+      "Bluff": "+7",
+      "Climb": "+7",
+      "Disable Device": "+9",
+      "Escape Artist": "+7",
+      "Perception": "+7",
+      "Sense Motive": "+5",
+      "Sleight of Hand": "+8",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 17,
+  "languages": [
+    "Common",
+    "Varisian"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 2,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Initiative",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk short sword +6 (1d6+2/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +5 (1d4+2/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "rogue 3",
+    "cmb": "+4",
+    "cmd": 18
+  }
+}

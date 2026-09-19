@@ -1,0 +1,103 @@
+{
+  "name": "Zealot Wraith",
+  "sourceSystem": "pf1",
+  "source": "Cheliax, the Infernal Empire",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "incorporeal",
+  "alignment": "NE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 18,
+    "notes": "deflection +3, dex +4, dodge +1",
+    "touch": 18,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 75,
+    "formula": "10d8+30"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 19,
+    "con": "None",
+    "int": 11,
+    "wis": 16,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +6, Ref +7, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +16, Knowledge (religion) +13, Perception +16, Sense Motive +11, Stealth +12",
+    "list": {
+      "Intimidate": "+16",
+      "Perception": "+16",
+      "Sense Motive": "+11",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 7,
+  "feats": [
+    "Channel Smite",
+    "Combat Reflexes",
+    "Dodge",
+    "Flyby Attack",
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "incorporeal touch +11 touch (1d8 plus curse of sorrowful wasting)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This spectral human is draped in multicolored vestments that trail off into mist, and has open black pits for eyes and an expression of sorrow and horror.",
+  "meta": {
+    "cmb": "+11",
+    "cmd": 25,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or conclave (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

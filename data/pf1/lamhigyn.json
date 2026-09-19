@@ -1,0 +1,101 @@
+{
+  "name": "Lamhigyn",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Pathfinder No. 76: The Midnight Isles",
+  "size": "Small",
+  "type": "outsider",
+  "subtype": "chaotic, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex +2, natural +2, size +1",
+    "touch": 13,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 32,
+    "formula": "5d10+5"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 15,
+    "con": 13,
+    "int": 5,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +5, Ref +6, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +16, Perception +9, Stealth +14",
+    "list": {
+      "Fly": "+16",
+      "Perception": "+9",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Abyssal"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 5,
+  "feats": [
+    "Flyby Attack",
+    "Hover",
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "sting +10 (1d3+4 plus poison), 2 wings +5 (1d3+2 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This small, three-eyed creature has ragged, red-streaked wings and a menacingly barbed tail.",
+  "meta": {
+    "cmb": "8 (+12 grapple)",
+    "cmd": "20 (24 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, clutch (3-9), or hive (10-30)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

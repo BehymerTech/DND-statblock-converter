@@ -1,0 +1,104 @@
+{
+  "name": "Incutilis",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 55: The Wormwood Mutiny",
+  "size": "Tiny",
+  "type": "aberration",
+  "subtype": "aquatic",
+  "alignment": "LE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 17,
+    "notes": "dex +2, natural +3, size +2",
+    "touch": 14,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 18,
+    "formula": "4d8"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft., climb 5 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 15,
+    "con": 11,
+    "int": 12,
+    "wis": 13,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +1, Ref +3, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +3, Climb +10, Disguise +3, Perception +8, Stealth +17, Swim +17",
+    "list": {
+      "Bluff": "+3",
+      "Climb": "+10",
+      "Disguise": "+3",
+      "Perception": "+8",
+      "Stealth": "+17",
+      "Swim": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Aklo",
+    "Aquan",
+    "telepathy 30 ft."
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Step Up"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 tentacles +2 (1d4+2 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This strange nautilus drags itself forward on oversized tentacles, its crimson-streaked flesh textured like the surface a brain.",
+  "meta": {
+    "cmb": "3 (+7 grapple)",
+    "cmd": "15 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or colony (3-12 plus enslaved puppets)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

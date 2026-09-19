@@ -1,0 +1,101 @@
+{
+  "name": "Peryton",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Pathfinder No. 19: Howl of the Carrion King",
+  "size": "Medium",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +3, natural +4",
+    "touch": 13,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 42,
+    "formula": "5d10+15"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 16,
+    "con": 17,
+    "int": 11,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +7, Ref +7, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +12, Perception +10, Stealth +9",
+    "list": {
+      "Fly": "+12",
+      "Perception": "+10",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 5,
+  "feats": [
+    "Flyby Attack",
+    "Improved Initiative",
+    "Weapon Focus (gore)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +9 (1d6+3/18-20), 2 hooves +3 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature has a stag’s body, a hawk’s wings and talons, and the head of a slavering wolf with a rack of sharp antlers on its brow.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": "21 (25 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or flock (3-9)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

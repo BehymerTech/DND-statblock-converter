@@ -1,0 +1,94 @@
+{
+  "name": "Striding Fire",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 111.",
+  "size": "Medium",
+  "type": "Fire",
+  "subtype": "Elemental",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 115,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 20,
+    "con": 16,
+    "int": 10,
+    "wis": 18,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +11, Ref +17, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +15 (1d20+15); __Athletics__: +12 (1d20+12); ",
+    "list": {
+      "Acrobatics": "+15",
+      "Athletics": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, smoke vision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Ignan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Smoke Vision",
+      "text": "The striding fire ignores the concealed condition from smoke."
+    },
+    {
+      "name": "Burning Rush",
+      "text": "⬺ (evocation, fire, primal); The striding fire Strides up to double its Speed in a straight line. Its movement during this Stride doesn't trigger reactions. Any creature the striding fire was adjacent to at any point during this Stride must attempt a DC 24 basic Reflex save. If it critically fails, it is knocked prone by a wave of heated air. The striding fire can't use Burning Rush for 1d4 (1d4) rounds."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +17 (agile, finesse); Damage 2d8+5 (2d8+5) bludgeoning plus 1d6 (1d6) persistent fire"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      5,
+      3,
+      0,
+      4,
+      1
+    ]
+  }
+}

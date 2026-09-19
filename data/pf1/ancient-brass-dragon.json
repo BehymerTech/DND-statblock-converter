@@ -1,0 +1,108 @@
+{
+  "name": "Ancient Brass Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "fire",
+  "alignment": "CG",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 38,
+    "notes": "natural +30, size -2",
+    "touch": 8,
+    "flatFooted": 38
+  },
+  "hp": {
+    "average": 297,
+    "formula": "22d12+154"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 200 ft. (poor), burrow 30 ft."
+  },
+  "abilities": {
+    "str": 33,
+    "dex": 10,
+    "con": 25,
+    "int": 20,
+    "wis": 21,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +20, Ref +13, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +30, Diplomacy +30, Fly +17, Heal +30, Knowledge (local) +30, Knowledge (history) +30, Linguistics +30, Perception +34, Sense Motive +34, Spellcraft +30, Survival +30",
+    "list": {
+      "Bluff": "+30",
+      "Diplomacy": "+30",
+      "Fly": "+17",
+      "Heal": "+30",
+      "Linguistics": "+30",
+      "Perception": "+34",
+      "Sense Motive": "+34",
+      "Spellcraft": "+30",
+      "Survival": "+30"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 44,
+  "languages": [
+    "Common",
+    "Draconic",
+    "plus any 22 others"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 22,
+  "feats": [
+    "Alertness",
+    "Flyby Attack",
+    "Greater Spell Focus (enchant)",
+    "Hover",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Multiattack",
+    "Power Attack",
+    "Quicken Spell",
+    "Spell Focus (enchant)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +31 (2d8+16), 2 claws +31 (2d6+11), 2 wings +29 (1d8+5), tail slap +29 (2d6+16)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+35",
+    "cmd": "45 (49 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts"
+      }
+    ]
+  }
+}

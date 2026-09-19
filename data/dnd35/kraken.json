@@ -1,0 +1,116 @@
+{
+  "name": "Kraken",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Gargantuan",
+  "type": "Magical Beast",
+  "subtype": "Aquatic",
+  "alignment": "Usually neutral evil",
+  "cr": "12",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": "-4 size, +14 natural",
+    "touch": 6,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 290,
+    "formula": "20d10+180"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": 20,
+    "climb": null,
+    "burrow": null,
+    "notes": "Swim 20 ft. (4 squares)"
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 10,
+    "con": 29,
+    "int": 21,
+    "wis": 20,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +21, Ref +12, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Concentration +21, Diplomacy +7, Hide +0, Intimidate +16, Knowledge (geography) +17, Knowledge (nature) +16, Listen +30, Search +28, Sense Motive +17, Spot +30, Survival +5 (+7 Following Tracks), Swim +20, Use Magic Device +16;",
+    "list": {
+      "Concentration": "+21",
+      "Diplomacy": "+7",
+      "Hide": "+0",
+      "Intimidate": "+16",
+      "Listen": "+30",
+      "Search": "+28",
+      "Sense Motive": "+17",
+      "Spot": "+30",
+      "Survival": "+5",
+      "Swim": "+20",
+      "Use Magic Device": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 20,
+  "feats": [
+    "Alertness",
+    "Blind -Fight",
+    "Combat Expertise",
+    "Improved Critical (tentacle)",
+    "Improved Initiative",
+    "Improved Trip",
+    "Iron Will"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Improved grab, constrict 2d8+12 or 1d6+6"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., ink cloud, jet, low-light vision, spell-like abilities"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Tentacle +28 melee (2d8+12/19-20)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 tentacles +28 melee (2d8+12/19-20) and 6 arms +23 melee (1d6+6) and bite +23 melee (4d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Six of the beast's tentacles are shorter arms about 30 feet long; the remaining two are nearly 60 feet long and covered with barbs. Its beaklike mouth is located where the tentacles meet the lower portion of its body.",
+    "grapple": "+44",
+    "spaceReach": "20 ft./15 ft. (60 ft. with tentacle, 30 ft. with arm)",
+    "environment": "Temperate aquatic",
+    "organization": "Solitary",
+    "treasure": "Triple standard",
+    "advancement": "21-32 HD (Gargantuan); 33-60 HD (Colossal)",
+    "leveladjustment": "---"
+  }
+}

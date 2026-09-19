@@ -1,0 +1,112 @@
+{
+  "name": "Thulgant",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 217.",
+  "size": "Large",
+  "type": "Qlippoth",
+  "subtype": "Fiend",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 18",
+  "xp": null,
+  "ac": {
+    "value": 42,
+    "notes": ""
+  },
+  "hp": {
+    "average": 305,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, climb 30 feet, fly 50 feet; freedom of movement;"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 22,
+    "con": 22,
+    "int": 20,
+    "wis": 22,
+    "cha": 28
+  },
+  "saves": {
+    "text": "Fort +30, Ref +28, Will +32",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +32 (1d20+32); __Athletics__: +35 (1d20+35); __Occultism__: +33 (1d20+33); __Stealth__: +32 (1d20+32); ",
+    "list": {
+      "Acrobatics": "+32",
+      "Athletics": "+35",
+      "Occultism": "+33",
+      "Stealth": "+32"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision, true seeing"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Abyssal; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Demon Hunter",
+      "text": "⬻ (divination, occult); The thulgant causes a demon within 30 feet to suffer the effect of its sinful vulnerability."
+    },
+    {
+      "name": "Greater Constrict",
+      "text": "⬻ 2d6+17 (2d6+17) bludgeoning and 1d6 (1d6) acid, DC 40."
+    },
+    {
+      "name": "Mind-Rending Sting",
+      "text": "⬻ Requirements The thulgant hits the same enemy with two consecutive sting Strikes in the same round Effect The thulgant deals 3d12+17 (3d12+17) mental damage to the enemy. If the enemy is affected by thulgant venom, that poison gains the virulent trait."
+    },
+    {
+      "name": "Stunning Display",
+      "text": "⬺ (concentrate, emotion, enchantment, fear, incapacitation, mental, occult, visual); The thulgant rises up on its twitching limbs and presents its numerous tentacles and stingers in a horrifying display of awfulness. Creatures in a 30-foot emanation must attempt a DC 40 Will save, after which they are temporarily immune to further Stunning Displays for 1 minute. Critical Success The creature is unaffected. Success The creature is stunned 1. Failure The creature is stunned 4. Critical Failure The creature is stunned 8."
+    },
+    {
+      "name": "Thulgant Venom",
+      "text": "(poison); Saving Throw DC 40 Fortitude. Maximum Duration 6 rounds Stage 1 3d6 (3d6) poison damage and the victim gains one of the following at random: clumsy 1, enfeebled 1, or stupefied 1 (1 round) Stage 2 6d6 (6d6) poison damage and the victim gains two of the following at random: clumsy 2, enfeebled 2, or stupefied 2 (1 round) Stage 3 9d6 (9d6) poison damage and the victim gains all three of the following: clumsy 3, enfeebled 3, and stupefied 3 (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ stinger +35 (reach 10 feet); Damage 3d12+17 (3d12+17) piercing plus 3d6 (3d6) mental, 1d6 (1d6) chaotic, and thulgant venom"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tentacle +35 (agile, reach 10 feet); Damage 3d8+17 (3d8+17) bludgeoning plus 2d6 (2d6) acid, 1d6 (1d6) chaotic, and Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      9,
+      6,
+      6,
+      5,
+      6,
+      9
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Viper Vine",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 27,
+    "notes": "dex +4, dodge +1, natural +13, size -1",
+    "touch": 14,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 190,
+    "formula": "20d8+100"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 19,
+    "con": 19,
+    "int": 1,
+    "wis": 10,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +16, Ref +12, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +13, Stealth +13",
+    "list": {
+      "Perception": "+13",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 23,
+  "languages": [],
+  "initiative": "+8",
+  "babOrProficiency": 15,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Multiattack",
+    "Power Attack",
+    "Toughness",
+    "Weapon Focus (bite)",
+    "Weapon Focus (tentacle)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +23 (2d6+8/19-20 plus 3d6 acid), 4 tentacles +21 (1d6+4 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Large tendrils ending in tiny claws unfurl from the central stalk of this plant, which rises like a serpent ready to strike.",
+  "meta": {
+    "cmb": "24 (+28 grapple)",
+    "cmd": "39 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

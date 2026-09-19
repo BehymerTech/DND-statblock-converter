@@ -1,0 +1,101 @@
+{
+  "name": "Tenome",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Pathfinder No. 99: Dance of the Damned",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +2, dodge +1, natural +4",
+    "touch": 13,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 39,
+    "formula": "6d10+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., other_semicolon burst of speed ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 15,
+    "con": 13,
+    "int": 10,
+    "wis": 11,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +3, Ref +7, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +10, Perception +9, Stealth +11, Survival +9",
+    "list": {
+      "Intimidate": "+10",
+      "Perception": "+9",
+      "Stealth": "+11",
+      "Survival": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 6,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d6+2), 2 claws +8 (1d4+2 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This wrinkled, pale humanoid has an eyeless head and a wide, fanged mouth; its eyes glare freakishly from the palms of its hands.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": 21,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any urban"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or scourge (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

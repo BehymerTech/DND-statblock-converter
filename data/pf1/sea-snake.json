@@ -1,0 +1,102 @@
+{
+  "name": "Sea Snake",
+  "sourceSystem": "pf1",
+  "source": "Isles of the Shackles",
+  "size": "Small",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, natural +1, size +1",
+    "touch": 13,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 11,
+    "formula": "2d8+2"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., climb 20 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 15,
+    "con": 12,
+    "int": 1,
+    "wis": 13,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +4, Ref +5, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +7, Perception +9, Stealth +14, Swim +7",
+    "list": {
+      "Climb": "+7",
+      "Perception": "+9",
+      "Stealth": "+14",
+      "Swim": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 1,
+  "feats": [
+    "Agile Maneuvers",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +4 (1d4-1 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This scaly blue-green snake skims the surface of the water in a sinuous ballet of muscle and agility.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": "11 (can’t be tripped)",
+    "racialModifiers": [
+      "Perception 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or nest (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

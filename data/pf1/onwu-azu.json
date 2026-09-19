@@ -1,0 +1,92 @@
+{
+  "name": "Onwu Azu",
+  "sourceSystem": "pf1",
+  "source": "Plunder and Peril",
+  "size": "Small",
+  "type": "animal",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 14,
+    "notes": "dex +3, size +1",
+    "touch": 14,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 11,
+    "formula": "2d8+2"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft., swim 70 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 16,
+    "con": 12,
+    "int": 1,
+    "wis": 11,
+    "cha": 3
+  },
+  "saves": {
+    "text": "Fort +4, Ref +6, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +7, Swim +13",
+    "list": {
+      "Perception": "+7",
+      "Swim": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "keen scent",
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 1,
+  "feats": [
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +3 (1d4+1 plus attach and bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This oversized piranha bursts from the water, spreading broad fins as it takes to the air to sate its hunger.",
+  "meta": {
+    "cmb": "+1",
+    "cmd": "14 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm oceans or rivers"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, school (4-11), or shoal (13-33)"
+      }
+    ]
+  }
+}

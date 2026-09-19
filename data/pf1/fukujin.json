@@ -1,0 +1,103 @@
+{
+  "name": "Fukujin",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 52: Forest of Spirits",
+  "size": "Tiny",
+  "type": "outsider",
+  "subtype": "kami, native",
+  "alignment": "LN",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex +3, size +2",
+    "touch": 15,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d10+8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 16,
+    "con": 14,
+    "int": 11,
+    "wis": 17,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +6, Ref +4, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +7, Bluff +9, Diplomacy +9, Knowledge (nature) +7, Perception +12, Sense Motive +12",
+    "list": {
+      "Appraise": "+7",
+      "Bluff": "+9",
+      "Diplomacy": "+9",
+      "Perception": "+12",
+      "Sense Motive": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Common",
+    "speak with plants",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 4,
+  "feats": [
+    "Alertness",
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "short sword +7 (1d3+1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This diminutive humanoid looks like a truly ancient but proud old warrior. A tiny tree branch juts from the top of his head.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": 16,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, garden (2-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

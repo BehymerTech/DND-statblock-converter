@@ -1,0 +1,107 @@
+{
+  "name": "Wihsaak",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 220.",
+  "size": "Medium",
+  "type": "Sahkil",
+  "subtype": "Fiend",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 105,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 20,
+    "con": 18,
+    "int": 12,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +14, Ref +15, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +13 (1d20+13); __Deception__: +15 (1d20+15); __Intimidation__: +15 (1d20+15); __Stealth__: +15 (1d20+15); ",
+    "list": {
+      "Acrobatics": "+13",
+      "Deception": "+15",
+      "Intimidation": "+15",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Infernal",
+    "Requian; [[telepathy]] 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Easy to Call",
+      "text": "A sahkil's level is considered 2 lower for the purpose of being conjured by the planar binding ritual (and potentially other rituals, at the GM's discretion), but it is always free to attack or leave instead of negotiate unless the primary caster's check is a critical success."
+    },
+    {
+      "name": "Swarmwalker",
+      "text": "Swarms of animals and other unintelligent creatures instinctively leave a wihsaak alone. A wihsaak is immune to the damage from and effects of swarms with an Intelligence of –5."
+    },
+    {
+      "name": "Droning Distraction",
+      "text": "⬻ (auditory, divine, evocation, incapacitation, mental); The wihsaak beats its wings rapidly, creating a buzzing drone that numbs creatures' minds. Each creature within 100 feet must attempt a DC 23 Will save. They are then temporarily immune for 1 minute. Success The creature is unaffected. Failure The creature is confused and stupefied 1 for 1 round. Critical Failure The creature is confused for 1 round and stupefied 2 for 1 minute."
+    },
+    {
+      "name": "Skip Between",
+      "text": "⬻ (conjuration, divine, teleportation); The sahkil moves from the Material Plane to the Ethereal Plane or vice-versa, with the effects of ethereal jaunt except that the effect has an unlimited duration and can be Dismissed. A summoned sahkil can't use Skip Between."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +17 (finesse); Damage 2d10+7 (2d10+7) slashing plus 1d4 (1d4) evil"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      5,
+      4,
+      1,
+      2,
+      3
+    ]
+  }
+}

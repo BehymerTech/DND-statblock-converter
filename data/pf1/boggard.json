@@ -1,0 +1,106 @@
+{
+  "name": "Boggard",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary, Pathfinder No. 2: The Skinsaw Murders",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "boggard",
+  "alignment": "CE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 14,
+    "notes": "armor +2, dex -1, natural +3",
+    "touch": 9,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 22,
+    "formula": "3d8+9"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 9,
+    "con": 14,
+    "int": 8,
+    "wis": 11,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +5, Ref +0, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +2, Stealth -1, Swim +10, Perception +4",
+    "list": {
+      "Acrobatics": "+2",
+      "Stealth": "-1",
+      "Swim": "+10",
+      "Perception": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Boggard"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Toughness",
+    "Weapon Focus (morningstar)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "morningstar +5 (1d8+3), tongue -1 touch (sticky tongue)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Bulbous eyes glare atop this creature’s decidedly toad-like head. A multitude of warts and bumps decorate its greenish skin.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": 13,
+    "racialModifiers": [
+      "Acrobatics 16",
+      "Perception 4",
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate marshes"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or army (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (leather armor, morningstar, other treasure)"
+      }
+    ]
+  }
+}

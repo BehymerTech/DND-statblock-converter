@@ -1,0 +1,103 @@
+{
+  "name": "Giant Eagle",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 141.",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "alignment": "NG",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 45,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 feet, fly 60 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 18,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +6, Ref +11, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +11 (1d20+11); __Athletics__: +8 (1d20+8); ",
+    "list": {
+      "Acrobatics": "+11",
+      "Athletics": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Auran",
+    "Sylvan (can't speak any language)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Evasion",
+      "text": "When a giant eagle rolls a success on a Reflex save, it gets a critical success instead."
+    },
+    {
+      "name": "Eagle Dive",
+      "text": "⬺ The giant eagle Flies up to double its fly Speed in a straight line, descending at least 10 feet, and then makes a talon Strike."
+    },
+    {
+      "name": "Snatch",
+      "text": "A giant eagle can Fly at half Speed while it has a creature grabbed or restrained in its talons, carrying that creature along with it."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ beak +12 Damage 2d8+5 (2d8+5) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ talon +12 (agile); Damage 1d10+5 (1d10+5) slashing plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      4,
+      1,
+      0,
+      2,
+      2
+    ]
+  }
+}

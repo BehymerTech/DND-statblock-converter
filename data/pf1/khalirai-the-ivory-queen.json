@@ -1,0 +1,106 @@
+{
+  "name": "Khalirai, the Ivory Queen",
+  "sourceSystem": "pf1",
+  "source": "Fey Revisited",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CG",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 29,
+    "notes": "deflection +10, dex +7, dodge +1, natural +1",
+    "touch": 28,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 152,
+    "formula": "8d6+8d8+88"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 24,
+    "con": 18,
+    "int": 18,
+    "wis": 20,
+    "cha": 30
+  },
+  "saves": {
+    "text": "Fort +18, Ref +25, Will +27",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +7, Diplomacy +29, Escape Artist +26, Handle Animal +26, Heal +30, Knowledge (nature) +23, Perception +24, Sense Motive +24, Stealth +26, Swim +18",
+    "list": {
+      "Climb": "+7",
+      "Diplomacy": "+29",
+      "Escape Artist": "+26",
+      "Handle Animal": "+26",
+      "Heal": "+30",
+      "Perception": "+24",
+      "Sense Motive": "+24",
+      "Stealth": "+26",
+      "Swim": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Aklo",
+    "Celestial",
+    "Common",
+    "Elven",
+    "Polyglot",
+    "Sylvan"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 10,
+  "feats": [
+    "Agile Maneuvers",
+    "Combat Casting",
+    "Command Undead",
+    "Dodge",
+    "Extra Revelation",
+    "Improved Channel",
+    "Skill Focus (Heal)",
+    "Toughness",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 disruption light mace +19/+14 (1d6+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This slender, seductive woman has bone-white skin and an otherworldly beauty.",
+  "meta": {
+    "race": "Nymph",
+    "class": "oracle 8 (Pathfinder RPG Bestiary 217, Pathfinder RPG Advanced Player’s Guide 42)",
+    "cmb": "+17",
+    "cmd": 37
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Invidiak",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 65.",
+  "size": "Medium",
+  "type": "Incorporeal",
+  "subtype": "Demon, Fiend",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 90,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 30 feet"
+  },
+  "abilities": {
+    "str": 0,
+    "dex": 18,
+    "con": 16,
+    "int": 14,
+    "wis": 14,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +15, Ref +16, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +15 (1d20+15); __Deception__: +18 (1d20+18); __Religion__: +13 (1d20+13); __Society__: +15 (1d20+15); __Stealth__: +17 (1d20+17); ",
+    "list": {
+      "Acrobatics": "+15",
+      "Deception": "+18",
+      "Religion": "+13",
+      "Society": "+15",
+      "Stealth": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Abyssal",
+    "Common; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Exorcism Vulnerability",
+      "text": "If an invidiak attempts to possess a creature and the creature rolls a critical success on its saving throw to resist possession, or if an invidiak's possession of a creature is ended prematurely, such as via a successful dispel magic, the invidiak takes 6d6 (6d6) mental damage and cannot use possession for 24 hours."
+    },
+    {
+      "name": "Favored Host",
+      "text": "Each invidiak has a particular type of creature they prefer possessing, chosen from the following list: aberration, animal, beast, or any humanoid (such as dwarf)—in most cases, the favored type of target is human. When an invidiak uses possession against a favored host, the duration of possession increases to unlimited, and the effect lasts until dispelled or until the invidiak dismisses it."
+    },
+    {
+      "name": "Shadow Blend",
+      "text": "⬺ (divine, illusion); The invidiak Strides up to twice their speed. If the invidiak ends their movement in an area of dim light, they become hidden as long as they don't move and the lighting in the area they're in doesn't grow brighter than dim light."
+    },
+    {
+      "name": "Unbodied Possession",
+      "text": "An invidiak leaves no body behind when using possession."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +13 (agile, evil, finesse, magical); Damage 2d8 (2d8) cold plus 2d6 (2d6) evil"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -5,
+      4,
+      3,
+      2,
+      2,
+      5
+    ]
+  }
+}

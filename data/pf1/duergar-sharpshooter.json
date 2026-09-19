@@ -1,0 +1,100 @@
+{
+  "name": "Duergar Sharpshooter",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "alignment": "LE",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 15,
+    "notes": "armor +3, dex +2",
+    "touch": 12,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 13,
+    "formula": "1d10+3"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 15,
+    "con": 14,
+    "int": 10,
+    "wis": 15,
+    "cha": 4
+  },
+  "saves": {
+    "text": "Fort +4, Ref +4, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +5, Handle Animal +1, Knowledge (dungeoneering) +4, Perception +6, Stealth +5, Survival +6",
+    "list": {
+      "Climb": "+5",
+      "Handle Animal": "+1",
+      "Perception": "+6",
+      "Stealth": "+5",
+      "Survival": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Undercommon"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 1,
+  "feats": [
+    "Rapid Reload (light crossbow)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "warhammer +3 (1d8+2/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk light crossbow +4 (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Duergar",
+    "class": "ranger 1",
+    "cmb": "+3",
+    "cmd": "15 (19 vs. bull rush or trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      }
+    ]
+  }
+}

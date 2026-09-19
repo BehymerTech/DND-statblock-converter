@@ -1,0 +1,95 @@
+{
+  "name": "Plague Zombie",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 340.",
+  "size": "Medium",
+  "type": "Zombie",
+  "subtype": "Mindless, Undead",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 13,
+    "notes": ""
+  },
+  "hp": {
+    "average": 50,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 6,
+    "con": 16,
+    "int": 0,
+    "wis": 10,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +6, Ref +3, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +7 (1d20+7); ",
+    "list": {
+      "Athletics": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 13,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Slow",
+      "text": "A zombie is permanently slowed 1 and can't use reactions."
+    },
+    {
+      "name": "Jaws",
+      "text": "⬻ (attack); Requirements The zombie has a creature grabbed or restrained. Effect The zombie makes a jaws unarmed melee Strike against the grabbed or restrained creature with an attack modifier of +9 that deals 1d12+4 (1d12+4) piercing damage. A creature damaged by the jaws is exposed to zombie rot."
+    },
+    {
+      "name": "Zombie Rot",
+      "text": "(disease, necromancy); Saving Throw DC 18 Fortitude. Stage 1 carrier with no ill effect (1 day) Stage 2 1d6 (1d6) negative damage (1 day) Stage 3 1d6 (1d6) negative damage (1 day) Stage 4 1d6 (1d6) negative damage ; (1 day)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +9 Damage 1d8+4 (1d8+4) bludgeoning plus Grab and zombie rot"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      -2,
+      3,
+      -5,
+      0,
+      -2
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Hyaenodon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 211.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 45,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 16,
+    "con": 16,
+    "int": 2,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +10, Ref +8, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Athletics__: +12 (1d20+12); __Stealth__: +8 (1d20+8); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Athletics": "+12",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Bonecrunching Bite",
+      "text": "A creature that is critically hit by a hyaenodon must succeed at a DC 20 Fortitude save or become wounded 1 as the creature's bones or cartilage are crushed by the beast's jaws."
+    },
+    {
+      "name": "Drag",
+      "text": "⬻ The hyena makes a jaws Strike against a prone enemy. If it hits, in addition to dealing damage, the hyena Strides up to 10 feet, dragging the enemy along."
+    },
+    {
+      "name": "Pack Attack",
+      "text": "The hyaenodon deals an extra 1d6 (1d6) damage to any creature within reach of at least two of the hyaenodon's allies."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +12 Damage 1d10+5 (1d10+5) piercing plus Knockdown and bonecrunching bite"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      3,
+      3,
+      -4,
+      2,
+      -2
+    ]
+  }
+}

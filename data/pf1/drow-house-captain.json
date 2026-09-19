@@ -1,0 +1,105 @@
+{
+  "name": "Drow House Captain",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 21,
+    "notes": "armor +7, dex +4",
+    "touch": 14,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 55,
+    "formula": "7d10+12"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 11,
+    "int": 10,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +5, Ref +6, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +5, Perception +8, Sense Motive +3, Stealth +12",
+    "list": {
+      "Climb": "+5",
+      "Perception": "+8",
+      "Sense Motive": "+3",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Elven",
+    "Undercommon"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 7,
+  "feats": [
+    "Deadly Aim",
+    "Exotic Weapon Proficiency (heavy repeating crossbow)",
+    "Point-Blank Shot",
+    "Quick Draw",
+    "Toughness",
+    "Vital Strike",
+    "Weapon Focus (longsword)",
+    "Weapon Specialization (longsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 longsword +12/+7 (1d8+6/19-20 plus poison)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk repeating heavy crossbow +12/+7 (1d10/19-20 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Drow",
+    "class": "fighter 7",
+    "cmb": "+9",
+    "cmd": 23,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "underground"
+      }
+    ]
+  }
+}

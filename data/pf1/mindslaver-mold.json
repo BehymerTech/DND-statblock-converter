@@ -1,0 +1,103 @@
+{
+  "name": "Mindslaver Mold",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Lands of the Linnorm Kings",
+  "size": "Small",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex +3, dodge +1, size +1",
+    "touch": 15,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d8+12"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft., climb 5 ft."
+  },
+  "abilities": {
+    "str": 2,
+    "dex": 17,
+    "con": 17,
+    "int": 14,
+    "wis": 12,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +7, Ref +4, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +8, Escape Artist +7, Perception +8, Stealth +14",
+    "list": {
+      "Climb": "+8",
+      "Escape Artist": "+7",
+      "Perception": "+8",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Sylvan (can’t speak any language)",
+    "mold mindlink"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 3,
+  "feats": [
+    "Dodge",
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Ranged",
+      "text": "spore pod +7 touch (spores)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A thick sheet of filthy green fungus grows in twisting patterns across the shoulders and back of this feral-looking man.",
+  "meta": {
+    "cmb": "-2",
+    "cmd": "12 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or infestation (2-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

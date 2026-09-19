@@ -1,0 +1,101 @@
+{
+  "name": "Giant Whiptail Centipede",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 50.",
+  "size": "Huge",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 45,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, climb 30 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 18,
+    "int": 0,
+    "wis": 14,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +11, Ref +9, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Athletics__: +10 (1d20+10); __Stealth__: +8 (1d20+8); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Athletics": "+10",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲ Tail only."
+    },
+    {
+      "name": "Undulate",
+      "text": "⬻ The giant whiptail centipede Strides or Steps. During this movement, it can pass through spaces as narrow as 5 feet without Squeezing."
+    },
+    {
+      "name": "Whiptail Centipede Venom",
+      "text": "(poison); Saving Throw DC 19 Fortitude. Maximum Duration 6 rounds Stage 1 1d10 (1d10) poison damage and clumsy 1 (1 round) Stage 2 2d10 (2d10) poison damage and clumsy 1 (1 round) Stage 3 2d10 (2d10) poison damage and clumsy 2 (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ mandibles +11 (reach 10 feet); Damage 1d10+6 (1d10+6) piercing plus whiptail centipede venom"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +11 (agile, reach 15 feet); Damage 1d6+6 (1d6+6) bludgeoning plus Knockdown"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      4,
+      -5,
+      2,
+      -4
+    ]
+  }
+}

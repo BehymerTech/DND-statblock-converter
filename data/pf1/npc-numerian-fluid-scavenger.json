@@ -1,0 +1,116 @@
+{
+  "name": "NPC Numerian Fluid Scavenger",
+  "sourceSystem": "pf1",
+  "source": "Numeria, Land of Fallen Stars",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "CN",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 16,
+    "notes": "armor +4, dex +2",
+    "touch": 12,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 56,
+    "formula": "7d8+21"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 13,
+    "int": 18,
+    "wis": 8,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +9, Ref +10, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +10, Craft (alchemy) +14, Disable Device +12, Knowledge (engineering) +11, Knowledge (local) +8, Perception +9, Sleight of Hand +12, Spellcraft +14, Stealth +9, Survival +9",
+    "list": {
+      "Appraise": "+10",
+      "Disable Device": "+12",
+      "Perception": "+9",
+      "Sleight of Hand": "+12",
+      "Spellcraft": "+14",
+      "Stealth": "+9",
+      "Survival": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 19,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Giant",
+    "Hallit",
+    "Orc"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 5,
+  "feats": [
+    "Brew Potion",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Point-Blank Shot",
+    "Throw Anything",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk longspear +6 (1d8/x3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dart +7 (1d4 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Bottles and flasks hang from the belt and tattered leather armor or this ragged, wild-eyed human.",
+  "meta": {
+    "race": "Human",
+    "class": "alchemist 7",
+    "cmb": "+5",
+    "cmd": 17,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold plains (Numeria)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (potion of cure moderate wounds, potion of delay poison, potion of lesser restoration, potion of remove disease, acid [2], alchemist’s fire [2], darts coated in giant wasp poison [6], giant wasp poison [4 doses], oil of taggit [2 doses], plastic container holding 1 pint of Numerian fluid, +1 studded leather, mwk longspear, cloak of resistance +1, alchemist’s kit, formula book [contains all prepared formulae as well as the following: 1st-comprehend languages, detect secret doors, endure elements, identify; 2nd-cure moderate wounds, delay poison], 34 gp)"
+      }
+    ]
+  }
+}

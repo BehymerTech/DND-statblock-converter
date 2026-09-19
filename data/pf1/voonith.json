@@ -1,0 +1,102 @@
+{
+  "name": "Voonith",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Small",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "CN",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +3, natural +3, size +1",
+    "touch": 14,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 37,
+    "formula": "5d10+10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 50 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 16,
+    "con": 14,
+    "int": 5,
+    "wis": 12,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +6, Ref +7, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +8, Stealth +12, Swim +14",
+    "list": {
+      "Perception": "+8",
+      "Stealth": "+12",
+      "Swim": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 5,
+  "feats": [
+    "Ability Focus (blood-freezing howl)",
+    "Skill Focus (Perception)",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d6+1 plus trip), 4 claws +7 (1d3+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This brightly colored, long-necked amphibian has six legs, a fanged snout, and numerous finlets running down its spine.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": "18 (26 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any rivers or marshes"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or clutch (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

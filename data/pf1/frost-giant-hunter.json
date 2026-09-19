@@ -1,0 +1,104 @@
+{
+  "name": "Frost Giant Hunter",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "cold, giant",
+  "alignment": "CE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 27,
+    "notes": "armor +5, deflection +1, dex +2, natural +10, size -1",
+    "touch": 12,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 170,
+    "formula": "14d8+2d10+96"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 15,
+    "con": 23,
+    "int": 10,
+    "wis": 16,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +18, Ref +9, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +22, Stealth +22, Survival +16",
+    "list": {
+      "Perception": "+22",
+      "Stealth": "+22",
+      "Survival": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 12,
+  "feats": [
+    "Deadly Aim",
+    "Far Shot",
+    "Iron Will",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Precise Shot",
+    "Quick Draw",
+    "Skill Focus (Stealth)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 spear +23/+18/+13 (2d6+17/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +13 (1d8+16.5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Frost",
+    "class": "giant ranger 2",
+    "cmb": "+24",
+    "cmd": 37,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold mountains"
+      }
+    ]
+  }
+}

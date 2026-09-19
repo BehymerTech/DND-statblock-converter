@@ -1,0 +1,77 @@
+{
+  "name": "Poppet, Small",
+  "sourceSystem": "pf1",
+  "source": "Adventurer's Armory 2",
+  "size": "Small",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 12,
+    "notes": "dex +1, size +1",
+    "touch": 12,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 15,
+    "formula": "1d10+10"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": "None",
+    "int": "None",
+    "wis": 5,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +0, Ref +1, Will -3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light visions"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 1,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +3 (1d3+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+1",
+    "cmd": 12
+  }
+}

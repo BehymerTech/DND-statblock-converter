@@ -1,0 +1,96 @@
+{
+  "name": "Giant Crab",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "vermin",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 16,
+    "notes": "dex +1, natural +5",
+    "touch": 11,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d8+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 13,
+    "con": 14,
+    "int": "None",
+    "wis": 10,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +5, Ref +2, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +4, Swim +10",
+    "list": {
+      "Perception": "+4",
+      "Swim": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 14,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +4 (1d4+2 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This lumbering hard-shelled crab stands as tall as a dwarf, its massive pincers waving menacingly.",
+  "meta": {
+    "cmb": "4 (+8 grapple)",
+    "cmd": "15 (27 vs. trip)",
+    "racialModifiers": [
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any aquatic"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or cast (2-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

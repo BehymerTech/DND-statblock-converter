@@ -1,0 +1,101 @@
+{
+  "name": "Dream Spider",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 249.",
+  "size": "Small",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 0",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 15,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, climb 25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 12,
+    "int": 0,
+    "wis": 10,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +5, Ref +7, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +5 (1d20+5); __Athletics__: +2 (1d20+2); __Stealth__: +7 (1d20+7); ",
+    "list": {
+      "Acrobatics": "+5",
+      "Athletics": "+2",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, web sense"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Web Sense",
+      "text": "The dream spider has imprecise tremorsense to detect the vibrations of creatures touching its web."
+    },
+    {
+      "name": "Dream Spider Venom",
+      "text": "(poison); Saving Throw DC 16 Fortitude. Maximum Duration 4 rounds Stage 1 stupefied 1 (1 round) Stage 2 1d6 (1d6) poison damage plus stupefied 1 (1 round)"
+    },
+    {
+      "name": "Web Trap",
+      "text": "A creature hit by the dream spider's web attack is immobilized and stuck to the nearest surface until it Escapes (DC 16)."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ bite +7 (finesse); Damage 1d6 (1d6) plus dream spider venom"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ web +7 (range increment 10 feet); Damage web trap plus dream spider venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      3,
+      1,
+      -5,
+      0,
+      -4
+    ]
+  }
+}

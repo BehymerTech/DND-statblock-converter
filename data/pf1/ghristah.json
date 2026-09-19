@@ -1,0 +1,99 @@
+{
+  "name": "Ghristah",
+  "sourceSystem": "pf1",
+  "source": "Darklands Revisited",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "reptilian",
+  "alignment": "NE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 23,
+    "notes": "armor +5, dex +2, natural +6",
+    "touch": 12,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 83,
+    "formula": "9d8+43"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "other ['20 ft. in armor'] ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 18,
+    "int": 6,
+    "wis": 13,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +14, Ref +7, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (dungeoneering) +4, Knowledge (geography) +5, Knowledge (nature) +5, Perception +12, Stealth +14, Survival +7",
+    "list": {
+      "Perception": "+12",
+      "Stealth": "+14",
+      "Survival": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 6,
+  "feats": [
+    "Exotic Weapon Proficiency (net)",
+    "Great Fortitude",
+    "Net Adept",
+    "Net Maneuvering",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Stealth Synergy"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk net +9/+4"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk javelin +9 (1d6+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Wielding a net of woven moss and a stone javelin, this humanoid reptile wears armor of swamp reeds and bone and the skull of a larger reptile as a menacing mask.",
+  "meta": {
+    "race": "Female",
+    "class": "troglodyte hunter (feral hunter) 7 (Pathfinder RPG Bestiary 267, Pathfinder RPG Advanced Class Guide 26, 95)",
+    "cmb": "+8",
+    "cmd": 20,
+    "racialModifiers": [
+      "Stealth 4"
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "name": "Galvo",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 59: The Price of Infamy",
+  "size": "Medium",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "NE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 23,
+    "notes": "dex +4, dodge +1, natural +8",
+    "touch": 15,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 127,
+    "formula": "15d10+45"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 19,
+    "con": 16,
+    "int": 7,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +12, Ref +13, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +10, Stealth +15, Swim +15",
+    "list": {
+      "Perception": "+10",
+      "Stealth": "+15",
+      "Swim": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Aquan (can’t speak)"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 15,
+  "feats": [
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Dodge",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Precise Shot",
+    "Vital Strike",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +19 (1d6+3 plus 2d6 electricity), 2 slams +19 (1d6+3 plus 2d6 electricity)"
+    },
+    {
+      "name": "Ranged",
+      "text": "eel dart +19 touch (1d6+3 plus 1d6 electricity)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature is composed of dozens of electric eels tightly knotted into a slithering, humanoid shape, crackling with energy.",
+  "meta": {
+    "cmb": "+18",
+    "cmd": "33 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or tangle (3-9)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

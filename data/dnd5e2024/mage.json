@@ -1,0 +1,93 @@
+{
+  "name": "Mage",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "or Small Humanoid",
+  "subtype": "Wizard",
+  "alignment": "Neutral",
+  "cr": "6",
+  "level": null,
+  "xp": 2300,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 81,
+    "formula": "18d8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 9,
+    "dex": 14,
+    "con": 11,
+    "int": 17,
+    "wis": 12,
+    "cha": 11
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Arcana +6, History +6, Perception +4",
+    "list": {
+      "Arcana": "+6",
+      "History": "+6",
+      "Perception": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 14,
+  "languages": [
+    "Common plus three other languages"
+  ],
+  "initiative": "+2 (12)",
+  "babOrProficiency": 3,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The mage makes three Arcane Burst attacks."
+    },
+    {
+      "name": "Arcane Burst",
+      "text": "_Melee or Ranged Attack Roll:_ +6, reach 5 ft. or range 120 ft. _Hit:_ 16 (3d8 + 3) Force damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The mage casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 14): <br> &emsp;**At Will:** _Detect Magic_, _Light_, _Mage Armor_ (included in AC), _Mage Hand_, _Prestidigitation_ <br> &emsp;**2/Day Each:** _Fireball_ (level 4 version), _Invisibility_ <br> &emsp;**1/Day Each:** _Cone of Cold_, _Fly_"
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Misty Step (3/Day)",
+      "text": "The mage casts _Misty Step_, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Protective Magic (3/Day)",
+      "text": "The mage casts _Counterspell_ or _Shield_ in response to the spell's trigger, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

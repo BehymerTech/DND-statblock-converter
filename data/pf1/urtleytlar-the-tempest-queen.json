@@ -1,0 +1,113 @@
+{
+  "name": "Urtleytlar, The Tempest Queen",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 60: From Hell's Heart",
+  "size": "Huge",
+  "type": "aberration",
+  "subtype": "aquatic",
+  "alignment": "CE",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 38,
+    "notes": "deflection +5, dex +14, dodge +1, natural +10, size -2",
+    "touch": 28,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 406,
+    "formula": "20d8+8d8+280"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (good), swim 50 ft."
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 38,
+    "con": 31,
+    "int": 18,
+    "wis": 29,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +22, Ref +22, Will +27",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +35, Bluff +25, Fly +35, Knowledge (nature) +22, Knowledge (planes) +25, Perception +34, Sense Motive +30, Spellcraft +31, Stealth +27, Swim +45, Use Magic Device +29",
+    "list": {
+      "Acrobatics": "+35",
+      "Bluff": "+25",
+      "Fly": "+35",
+      "Perception": "+34",
+      "Sense Motive": "+30",
+      "Spellcraft": "+31",
+      "Stealth": "+27",
+      "Swim": "+45",
+      "Use Magic Device": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "blindsight",
+    "darkvision",
+    "low-light vision",
+    "see invisibility"
+  ],
+  "passivePerception": 44,
+  "languages": [
+    "Aboleth",
+    "Abyssal",
+    "Aklo",
+    "Aquan",
+    "Common"
+  ],
+  "initiative": "+14",
+  "babOrProficiency": 21,
+  "feats": [
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dodge",
+    "Improved Critical (bite)",
+    "Mobility",
+    "Multiattack",
+    "Power Attack",
+    "Selective Channeling",
+    "Staggering Critical",
+    "Stunning Critical",
+    "Vital Strike",
+    "Weapon Finesse",
+    "Weapon Focus (bite)",
+    "Weapon Focus (tentacle)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "3 bites +37 (1d8+12/19-20 plus bleed), 4 tentacles +35 (1d6+6 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This writhing terror is made of tentacles and the heads of multiple hounds. The figure of a beautiful woman extends from the monster’s center, though its fiendish visage is far from welcoming.",
+  "meta": {
+    "race": "Female",
+    "class": "scylla cleric of Rovagug 8",
+    "cmb": "35 (+39 grapple)",
+    "cmd": 65
+  }
+}

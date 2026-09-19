@@ -1,0 +1,135 @@
+{
+  "name": "Elder Wyrmwraith",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 297.",
+  "size": "Gargantuan",
+  "type": "Wraith",
+  "subtype": "Dragon, Incorporeal, Undead",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 23",
+  "xp": null,
+  "ac": {
+    "value": 49,
+    "notes": ""
+  },
+  "hp": {
+    "average": 450,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 feet, fly 100 feet"
+  },
+  "abilities": {
+    "str": 0,
+    "dex": 32,
+    "con": 10,
+    "int": 28,
+    "wis": 28,
+    "cha": 32
+  },
+  "saves": {
+    "text": "Fort +32, Ref +38, Will +42",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +38 (1d20+38); __Arcana__: +38 (1d20+38); __Intimidation__: +43 (1d20+43); __Religion__: +43 (1d20+43); __Stealth__: +43 (1d20+43); ",
+    "list": {
+      "Acrobatics": "+38",
+      "Arcana": "+38",
+      "Intimidation": "+43",
+      "Religion": "+43",
+      "Stealth": "+43"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, lifesense 120"
+  ],
+  "passivePerception": 50,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Necril"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 90 feet, DC 46 (page 305)"
+    },
+    {
+      "name": "Sunlight Powerlessness",
+      "text": "A wyrmwraith in sunlight is clumsy 2 and stunned 2."
+    },
+    {
+      "name": "Positive Energy Transfer",
+      "text": "⬲ (conjuration, divine); Trigger The wyrmwraith succeeds at a saving throw to resist positive damage but still takes damage Effect The wyrmwraith transfers all positive damage from the effect to a single undead creature of their choice within 120 feet that they control or that's friendly or helpful to them."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (divine, necromancy, negative); The wyrmwraith unleashes a burst of negative energy that deals 24d6 (24d6) negative damage to all creatures in a 90-foot cone (DC 46 basic Reflex save). They can't use Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Consume Souls",
+      "text": "⬺ (divine, death, incapacitation, necromancy); The elder wyrmwraith inhales sharply, sucking in the souls of nearby creatures. Each creature in a 60-foot cone must attempt a DC 46 Will save. The elder wyrmwraith can't Consume Souls again for 1d4 (1d4) rounds. Critical Success The creature is unaffected. Success The creature becomes doomed 1. Failure The creature becomes doomed 2 and takes 100 negative damage. Critical Failure The creature is slain. As long as the wyrmwraith still exists, the slain creature can't be returned to life through any means."
+    },
+    {
+      "name": "Divine Dispelling",
+      "text": "(abjuration, divine); A wyrmwraith's claws rend divine magic. Whenever a wyrmwraith hits a creature with a spectral claws Strike, the wyrmwraith can attempt a Religion check to counteract an ongoing divine spell effect on the creature."
+    },
+    {
+      "name": "Drain Life",
+      "text": "(divine, necromancy); When a wyrmwraith deals damage to a living creature with a spectral jaws or spectral claw Strike, the wyrmwraith gains 24 temporary Hit Points, and the creature must succeed at a DC 46 Fortitude save or become drained 2. Further damage dealt by the wyrmwraith's spectral jaws or spectral claws Strikes increases the value of the drained condition by 2 on a failed save, to a maximum of drained 4."
+    },
+    {
+      "name": "Draconic Frenzy",
+      "text": "⬺ The wyrmwraith makes two claw Strikes and one jaws Strike in any order."
+    },
+    {
+      "name": "Ectoplasmic Form",
+      "text": "⬻ As wyrmwraith, except AC 52 and 125 temporary Hit Points."
+    },
+    {
+      "name": "Phase Lurch",
+      "text": "⬻ (divine, move); Requirements The wyrmwraith is in their ectoplasmic form Effect As the Stride action, but the wyrmwraith can pass through walls or material obstacles as though they were incorporeal. They must begin and end their movement outside of any physical obstacles, and passing through solid material is difficult terrain."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ spectral jaws +42 (reach 20 feet); Damage 4d12+23 (4d12+23) negative plus drain life"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ spectral claw +42 (agile, reach 15 feet); Damage 4d8+23 (4d8+23) negative plus divine dispelling and drain life"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -5,
+      11,
+      0,
+      9,
+      9,
+      11
+    ]
+  }
+}

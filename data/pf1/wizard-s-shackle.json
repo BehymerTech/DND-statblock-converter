@@ -1,0 +1,101 @@
+{
+  "name": "Wizard's Shackle",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Tiny",
+  "type": "aberration",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 12,
+    "notes": "size +2",
+    "touch": 12,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 9,
+    "formula": "2d8"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 4,
+    "dex": 11,
+    "con": 11,
+    "int": 12,
+    "wis": 13,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +0, Ref +0, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +2, Knowledge (arcana) +6, Perception +6, Stealth +13, Swim +10",
+    "list": {
+      "Climb": "+2",
+      "Perception": "+6",
+      "Stealth": "+13",
+      "Swim": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "arcane sight",
+    "blindsight"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Aklo (can’t speak)",
+    "telepathy 10 ft."
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 1,
+  "feats": [
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +3 (1d4-3 plus attach and 1d3 Wisdom damage)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This eel-like creature has a thick, greasy body and a large, circular mouth full of tiny teeth.",
+  "meta": {
+    "cmb": "-1 (+7 grapple)",
+    "cmd": "6 (14 vs. grapple, can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or infestation (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

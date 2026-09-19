@@ -1,0 +1,107 @@
+{
+  "name": "Charlatan",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 210.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 40,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 10,
+    "int": 14,
+    "wis": 12,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +5, Ref +8, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Deception__: +11 (1d20+11); __Diplomacy__: +9 (1d20+9); __Occultism__: +7 (1d20+7); __Society__: +7 (1d20+7); __Stealth__: +8 (1d20+8); __Thievery__: +8 (1d20+8); __Underworld lore__: +9 (1d20+9); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Deception": "+11",
+      "Diplomacy": "+9",
+      "Occultism": "+7",
+      "Society": "+7",
+      "Stealth": "+8",
+      "Thievery": "+8",
+      "Underworld lore": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 16,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Versatile Performance",
+      "text": "The charlatan can use Performance instead of Diplomacy to Make an Impression and instead of Intimidation to Demoralize. They can also use an acting Performance instead of Deception to Impersonate."
+    },
+    {
+      "name": "Items",
+      "text": "disguise kit, lute, sap, shortsword, thieves' tools;"
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "The charlatan deals an extra 1d6 (1d6) precision damage to flat-footed creatures."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ shortsword +10 (agile, versatile s); Damage 1d6+2 (1d6+2) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ sap +7 (agile, nonlethal); Damage 1d6+2 (1d6+2) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      3,
+      0,
+      2,
+      1,
+      4
+    ],
+    "items": "disguise kit, lute, sap, shortsword, thieves' tools;"
+  }
+}

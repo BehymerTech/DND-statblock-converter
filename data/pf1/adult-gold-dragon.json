@@ -1,0 +1,105 @@
+{
+  "name": "Adult Gold Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "fire",
+  "alignment": "LG",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 30,
+    "notes": "natural +22, size -2",
+    "touch": 8,
+    "flatFooted": 30
+  },
+  "hp": {
+    "average": 225,
+    "formula": "18d12+108"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 250 ft. (poor), swim 60 ft."
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 10,
+    "con": 23,
+    "int": 20,
+    "wis": 21,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +17, Ref +11, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +26, Fly +13, Heal +26, Knowledge (arcana) +26, Knowledge (local) +26, Knowledge (nobility) +26, Knowledge (religion) +26, Perception +30, Sense Motive +30, Spellcraft +26, Swim +39",
+    "list": {
+      "Diplomacy": "+26",
+      "Fly": "+13",
+      "Heal": "+26",
+      "Perception": "+30",
+      "Sense Motive": "+30",
+      "Spellcraft": "+26",
+      "Swim": "+39"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "3 more"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 18,
+  "feats": [
+    "Alertness",
+    "Critical Focus",
+    "Extend Spell",
+    "Improved Critical (bite)",
+    "Improved Critical (claw)",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +26 (2d8+15/19-20), 2 claws +26 (2d6+10/19-20), 2 wings +24 (1d8+5), tail +24 (2d6+15)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+30",
+    "cmd": "40 (44 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm plains"
+      }
+    ]
+  }
+}

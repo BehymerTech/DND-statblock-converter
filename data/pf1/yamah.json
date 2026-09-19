@@ -1,0 +1,114 @@
+{
+  "name": "Yamah",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Magnimar, City of Monuments",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "azata, chaotic, extraplanar, good",
+  "alignment": "CG",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 19,
+    "notes": "dex +5, natural +4",
+    "touch": 15,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 52,
+    "formula": "7d10+14"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 100 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 20,
+    "con": 14,
+    "int": 13,
+    "wis": 15,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +4, Ref +10, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Bluff +15, Fly +23, Knowledge (planes) +11, Perception +12, Sense Motive +12, Stealth +15",
+    "list": {
+      "Acrobatics": "+15",
+      "Bluff": "+15",
+      "Fly": "+23",
+      "Perception": "+12",
+      "Sense Motive": "+12",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect evil",
+    "detect magic",
+    "low-light vision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 7,
+  "feats": [
+    "Deadly Aim",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 returning starknife +14/+9 (1d4+5/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+2 returning starknife +14 (1d4+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This blue-skinned woman has blue-and-white butterfly wings. Her black hair sparkles like a starlit sky.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": 25,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Elysium)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or crusade (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk starknife, other treasure)"
+      }
+    ]
+  }
+}

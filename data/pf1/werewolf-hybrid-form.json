@@ -1,0 +1,108 @@
+{
+  "name": "Werewolf (Hybrid Form)",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, shapechanger",
+  "alignment": "CE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 22,
+    "notes": "armor +6, dex +2, natural +4",
+    "touch": 12,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 21,
+    "formula": "2d10+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft.,  20 ft. in armor"
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 15,
+    "con": 17,
+    "int": 8,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +6, Ref +2, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +4, Intimidate +4, Perception +4",
+    "list": {
+      "Climb": "+4",
+      "Intimidate": "+4",
+      "Perception": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 2,
+  "feats": [
+    "Cleave",
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "longsword +6 (1d8+6/19-20), bite +1 (1d6+1 plus trip and curse of lycanthropy)"
+    },
+    {
+      "name": "Ranged",
+      "text": "light crossbow +4 (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This muscular creature has a man’s body but the snarling head and fur coat of a wolf.",
+  "meta": {
+    "race": "Human",
+    "class": "natural werewolf fighter 2",
+    "cmb": "+6",
+    "cmd": 18,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (chainmail, longsword, light crossbow with 20 bolts, other treasure)"
+      }
+    ]
+  }
+}

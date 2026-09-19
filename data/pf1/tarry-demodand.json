@@ -1,0 +1,115 @@
+{
+  "name": "Tarry Demodand",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "chaotic, demodand, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 26,
+    "notes": "armor +6, dex +3, natural +7",
+    "touch": 13,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 171,
+    "formula": "18d10+72"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 40 ft. (average)"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 21,
+    "con": 18,
+    "int": 12,
+    "wis": 13,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +15, Ref +11, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +16, Climb +19, Fly +23, Intimidate +24, Knowledge (arcana) +14, Knowledge (planes) +14, Perception +22, Sense Motive +14, Stealth +17, Survival +14",
+    "list": {
+      "Bluff": "+16",
+      "Climb": "+19",
+      "Fly": "+23",
+      "Intimidate": "+24",
+      "Perception": "+22",
+      "Sense Motive": "+14",
+      "Stealth": "+17",
+      "Survival": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "detect magic"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 18,
+  "feats": [
+    "Combat Reflexes",
+    "Greater Two-Weapon Fighting",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Improved Two-Weapon Fighting",
+    "Lunge",
+    "Power Attack",
+    "Two-Weapon Fighting",
+    "Weapon Focus (short sword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk short sword +27/+22/+17/+12 (1d6+9/19-20), mwk short sword +27/+22/+17 (1d6+4/19-20), bite +22 (1d8+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This lithe, toothy creature’s jet-black skin looks like living tar, and ooze drips from the claws that cap its long arms.",
+  "meta": {
+    "cmb": "+27",
+    "cmd": "42 (46 vs. disarm)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or patrol (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (masterwork breastplate, 2 masterwork short swords, other treasure)"
+      }
+    ]
+  }
+}

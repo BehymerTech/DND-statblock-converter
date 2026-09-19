@@ -1,0 +1,99 @@
+{
+  "name": "Immured",
+  "sourceSystem": "pf1",
+  "source": "Daughters of Fury",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 16,
+    "notes": "natural +6",
+    "touch": 10,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 26,
+    "formula": "4d8+8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 11,
+    "con": "None",
+    "int": 5,
+    "wis": 13,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +3, Ref +1, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +6, Stealth +5",
+    "list": {
+      "Perception": "+6",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Common (can’t speak)"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Drag",
+    "Improved Initiative",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +6 (1d4+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Through cracked, sickly blue lips, this pallid humanoid figure emits deep gasps as if struggling to breathe.",
+  "meta": {
+    "cmb": "6 (+8 drag)",
+    "cmd": "16 (18 vs. drag)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any urban"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or gang (2-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

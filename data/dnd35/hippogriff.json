@@ -1,0 +1,99 @@
+{
+  "name": "Hippogriff",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Always neutral",
+  "cr": "2",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "-1 size, +2 Dex, +4 natural",
+    "touch": 11,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 25,
+    "formula": "3d10+9"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": 100,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft. (10 squares), fly 100 ft. (average)"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 15,
+    "con": 16,
+    "int": 2,
+    "wis": 13,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +6, Ref +5, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Listen +4, Spot +8;",
+    "list": {
+      "Listen": "+4",
+      "Spot": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 3,
+  "feats": [
+    "Dodge",
+    "Wingover"
+  ],
+  "traits": [
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., low-light vision, scent"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Claw +6 melee (1d4+4)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +6 melee (1d4+4) and bite +1 melee (1d8+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Hippogriffs are aggressive flying creatures that combine features of horses and giant eagles. Voracious omnivores, hippogriffs will hunt humanoids as readily as any other meal. A typical hippogriff is 9 feet long, has a wingspan of 20 feet, and weighs 1,000 pounds.",
+    "grapple": "+11",
+    "spaceReach": "10 ft./5 ft.",
+    "environment": "Temperate hills",
+    "organization": "Solitary, pair, or flight (7-12)",
+    "treasure": "None",
+    "advancement": "4-6 HD (Large); 7-9 HD (Huge)",
+    "leveladjustment": "---"
+  }
+}

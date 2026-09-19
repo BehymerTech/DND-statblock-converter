@@ -1,0 +1,106 @@
+{
+  "name": "Mongrelman",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "LN",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 13,
+    "notes": "dex +1, natural +2",
+    "touch": 11,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 15,
+    "formula": "2d10+4"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 13,
+    "con": 15,
+    "int": 10,
+    "wis": 12,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +2, Ref +4, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +6, Perception +6, Sleight of Hand +7, Stealth +13, Survival +5",
+    "list": {
+      "Climb": "+6",
+      "Perception": "+6",
+      "Sleight of Hand": "+7",
+      "Stealth": "+13",
+      "Survival": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Common",
+    "Undercommon"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Skill Focus (Stealth)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "club +4 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Ivory tusks, insect chitin, matted fur, scaly flesh, and more combine to form a hideous humanoid shape.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": 15,
+    "racialModifiers": [
+      "Sleight of Hand 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any ruins or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, gang (3-6), band (7-12), or tribe (21-30 plus 30% noncombatants, 2-4 rogues of 1st-3rd level, 1-2 oracles or witches of 2nd-4th level, 1 fighter or ranger chieftain of 3rd-6th level, 4-6 dire bats, and 3-20 dire rats)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (club, other treasure)"
+      }
+    ]
+  }
+}

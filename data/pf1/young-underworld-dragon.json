@@ -1,0 +1,105 @@
+{
+  "name": "Young Underworld Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Medium",
+  "type": "dragon",
+  "subtype": "fire",
+  "alignment": "LE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 21,
+    "notes": "dex +1, natural +10",
+    "touch": 11,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 76,
+    "formula": "8d12+24"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 150 ft. (average), burrow 30 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 12,
+    "con": 17,
+    "int": 12,
+    "wis": 13,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +9, Ref +7, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +12, Climb +16, Intimidate +12, Knowledge (dungeoneering) +12, Knowledge (geography) +12, Perception +12, Stealth +15",
+    "list": {
+      "Appraise": "+12",
+      "Climb": "+16",
+      "Intimidate": "+12",
+      "Perception": "+12",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "smoke vision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 8,
+  "feats": [
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Skill Focus (Stealth)",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +14 (1d8+7), 2 claws +13 (1d6+5/19-20), gore +13 (1d6+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This serpentine dragon has skin the color of deep volcanic rock, enormous claws, and jagged, stonelike horns and scales.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": "24 (28 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

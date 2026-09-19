@@ -1,0 +1,101 @@
+{
+  "name": "NPC Champion of Magic",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "gnome",
+  "alignment": "LG",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 21,
+    "notes": "armor +8, deflection +2, dex -1, natural +1, size +1",
+    "touch": 12,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 134,
+    "formula": "2d10+7d6+4d10+72"
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 8,
+    "con": 18,
+    "int": 12,
+    "wis": 10,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +15, Ref +6, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (armor) +10, Diplomacy +9, Heal +5, Knowledge (arcana) +9, Knowledge (religion) +9, Perception +12, Spellcraft +9, Use Magic Device +11",
+    "list": {
+      "Diplomacy": "+9",
+      "Heal": "+5",
+      "Perception": "+12",
+      "Spellcraft": "+9",
+      "Use Magic Device": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "see invisibility"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Gnome",
+    "Sylvan"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 9,
+  "feats": [
+    "Arcane Armor Mastery",
+    "Arcane Armor Training",
+    "Craft Magic Arms and Armor",
+    "Eschew Materials",
+    "Extra Lay on Hands",
+    "Power Attack",
+    "Still Spell",
+    "Toughness",
+    "Weapon Focus (warhammer)",
+    "Weapon Specialization (warhammer)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 warhammer +14/+9 (1d6+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Gnome",
+    "class": "paladin of Torag 2, sorcerer 7, eldritch knight 4",
+    "cmb": "+10",
+    "cmd": 21
+  }
+}

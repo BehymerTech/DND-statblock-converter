@@ -1,0 +1,119 @@
+{
+  "name": "Fire Giant Magmablade",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "fire, giant",
+  "alignment": "LE",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 35,
+    "notes": "armor +11, deflection +1, natural +10, shield +4, size -1",
+    "touch": 10,
+    "flatFooted": 35
+  },
+  "hp": {
+    "average": 253,
+    "formula": "29d8+123"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 11,
+    "con": 19,
+    "int": 20,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +23, Ref +10, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +41, Craft (weapons) +37, Fly +26, Intimidate +32, Knowledge (arcana) +15, Perception +35, Spellcraft +37, Use Magic Device +32",
+    "list": {
+      "Climb": "+41",
+      "Fly": "+26",
+      "Intimidate": "+32",
+      "Perception": "+35",
+      "Spellcraft": "+37",
+      "Use Magic Device": "+32"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 45,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Giant",
+    "Infernal",
+    "Orc"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 21,
+  "feats": [
+    "Burning Spell",
+    "Cleave",
+    "Combat Casting",
+    "Critical Focus",
+    "Disruptive",
+    "Great Cleave",
+    "Improved Critical (battleaxe)",
+    "Improved Overrun",
+    "Improved Sunder",
+    "Iron Will",
+    "Maximize Spell",
+    "Power Attack",
+    "Quicken Spell",
+    "Staggering Critical",
+    "Stunning Critical",
+    "Weapon Focus (battleaxe)",
+    "Weapon Specialization (battleaxe)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 dispelling keen battleaxe +35/+30/+25/+20 (2d6+16/19-20/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +21 (1d8+19 plus 1d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Fire",
+    "class": "giant magus 14 (Pathfinder RPG Ultimate Magic 9)",
+    "cmb": "35 (+37 overrun, +37 sunder)",
+    "cmd": "46 (48 vs. overrun, 48 vs. sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm mountains"
+      }
+    ]
+  }
+}

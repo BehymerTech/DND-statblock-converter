@@ -1,0 +1,110 @@
+{
+  "name": "Cerberus Worm",
+  "sourceSystem": "pf1",
+  "source": "Cheliax, the Infernal Empire",
+  "size": "Gargantuan",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 27,
+    "notes": "dex +1, natural +20, size -4",
+    "touch": 7,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 229,
+    "formula": "17d10+136"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 12,
+    "con": 27,
+    "int": 8,
+    "wis": 9,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +18, Ref +13, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +4, Escape Artist +3, Perception +9, Stealth +2, Swim +25",
+    "list": {
+      "Acrobatics": "+4",
+      "Escape Artist": "+3",
+      "Perception": "+9",
+      "Stealth": "+2",
+      "Swim": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Aquan (can’t speak)"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 17,
+  "feats": [
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Improved Lightning Reflexes",
+    "Improved Natural Attack (tail slap)",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Skill Focus (Stealth)",
+    "Stealthy"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "3 bites +22 (2d8+9 plus grab), tail slap +17 (2d8+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This slimy-skinned, three-headed sea beast has writhing tentacles and is surrounded by a black, poisonous cloud that flickers like fire.",
+  "meta": {
+    "cmb": "30 (+32 bull rush)",
+    "cmd": "41 (43 vs. bull rush)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

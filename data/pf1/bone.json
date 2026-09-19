@@ -1,0 +1,102 @@
+{
+  "name": "Bone",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 27: What Lies in Dust",
+  "size": "Diminutive",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 16,
+    "notes": "armor +1, dex +1, size +4",
+    "touch": 15,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 16,
+    "formula": "3d10"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft."
+  },
+  "abilities": {
+    "str": 3,
+    "dex": 12,
+    "con": "None",
+    "int": 7,
+    "wis": 12,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +1, Ref +2, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +4, Stealth +13",
+    "list": {
+      "Perception": "+4",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "understands creator's language (cannot speak)"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 3,
+  "feats": [
+    "Run",
+    "Step Up"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +3 (1d2-4 plus mad rage)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This tiny, grisly fetish seems to be carved from numerous pieces of bone, adorned with a necklace of teeth and caked with a thin layer of dried blood. Hair and twine bind the pieces of bone together. The thing’s misshapen head leers forward, carved with a demonic, ape-like grin.",
+  "meta": {
+    "cmb": "+0",
+    "cmd": 6,
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

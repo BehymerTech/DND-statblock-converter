@@ -1,0 +1,90 @@
+{
+  "name": "Hydra",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Huge",
+  "type": "Monstrosity",
+  "subtype": "",
+  "alignment": "Unaligned",
+  "cr": "8",
+  "level": null,
+  "xp": 3900,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 184,
+    "formula": "16d12 + 80"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": 40,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., Swim 40 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 12,
+    "con": 20,
+    "int": 2,
+    "wis": 10,
+    "cha": 7
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +6",
+    "list": {
+      "Perception": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": "+4 (14)",
+  "babOrProficiency": 3,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Hold Breath",
+      "text": "The hydra can hold its breath for 1 hour."
+    },
+    {
+      "name": "Multiple Heads",
+      "text": "The hydra has five heads. Whenever the hydra takes 25 damage or more on a single turn, one of its heads dies. The hydra dies if all its heads are dead. At the end of each of its turns when it has at least one living head, the hydra grows two heads for each of its heads that died since its last turn, unless it has taken Fire damage since its last turn. The hydra regains 20 Hit Points when it grows new heads."
+    },
+    {
+      "name": "Reactive Heads",
+      "text": "For each head the hydra has beyond one, it gets an extra Reaction that can be used only for Opportunity Attacks."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The hydra makes as many Bite attacks as it has heads."
+    },
+    {
+      "name": "Bite",
+      "text": "_Melee Attack Roll:_ +8, reach 10 ft. _Hit:_ 10 (1d10 + 5) Piercing damage. ## Ice Devil"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

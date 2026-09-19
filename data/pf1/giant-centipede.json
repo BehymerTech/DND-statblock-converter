@@ -1,0 +1,100 @@
+{
+  "name": "Giant Centipede",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "vermin",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, natural +2",
+    "touch": 12,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 5,
+    "formula": "1d8+1"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 40 ft."
+  },
+  "abilities": {
+    "str": 9,
+    "dex": 15,
+    "con": 12,
+    "int": "None",
+    "wis": 10,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +3, Ref +2, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +10, Perception +4, Stealth +10",
+    "list": {
+      "Climb": "+10",
+      "Perception": "+4",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 14,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 0,
+  "feats": [
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +2 (1d6-1 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This lengthy, segmented horror writhes and twists, pulsing its venomous mandibles in search of prey.",
+  "meta": {
+    "cmb": "-1",
+    "cmd": "11 (can’t be tripped)",
+    "racialModifiers": [
+      "Perception 4",
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm forest or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or colony (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

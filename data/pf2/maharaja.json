@@ -1,0 +1,116 @@
+{
+  "name": "Maharaja",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 211.",
+  "size": "Medium",
+  "type": "Rakshasa",
+  "subtype": "Fiend",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 20",
+  "xp": null,
+  "ac": {
+    "value": 45,
+    "notes": ""
+  },
+  "hp": {
+    "average": 320,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, fly 30 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 28,
+    "con": 24,
+    "int": 24,
+    "wis": 24,
+    "cha": 30
+  },
+  "saves": {
+    "text": "Fort +31, Ref +33, Will +35",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +33 (1d20+33); __Arcana__: +33 (1d20+33); __Deception__: +41 (1d20+41); __Diplomacy__: +38 (1d20+38); __Intimidation__: +38 (1d20+38); __Occultism__: +35 (1d20+35); __Religion__: +35 (1d20+35); __Society__: +35 (1d20+35); ",
+    "list": {
+      "Acrobatics": "+33",
+      "Arcana": "+33",
+      "Deception": "+41",
+      "Diplomacy": "+38",
+      "Intimidation": "+38",
+      "Occultism": "+35",
+      "Religion": "+35",
+      "Society": "+35"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 47,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Infernal",
+    "Undercommon; tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Autonomous Spell",
+      "text": "⭓ Frequency once per round Trigger a foe's turn begins Effect The maharaja's four heads allow them to quickly cast additional spells. They cast one of their 8th-level or lower occult spontaneous spells that normally takes 2 actions or fewer to cast."
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, occult, polymorph, transmutation); The maharaja takes on the appearance of any Medium humanoid. This doesn't change their Speed or their attack and damage modifiers with their Strikes but might change the damage type their Strikes deal (typically to bludgeoning). They lose their fangs Strike unless the humanoid form has fangs or a similar unarmed attack, and they lose Four-Fanged Assault unless the new form has four or more heads and fangs."
+    },
+    {
+      "name": "Four-Fanged Assault",
+      "text": "⬻ The maharaja makes four fangs Strikes, each against a different target. These Strikes count as only one attack for the maharaja's multiple attack penalty, and the penalty doesn't increase until after they have made all four attacks."
+    },
+    {
+      "name": "Items",
+      "text": "+2 greater striking falchion;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ falchion +38 (forceful, sweep); Damage 3d10+16 (3d10+16) slashing plus 3d6 (3d6) mental"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +34 (agile); Damage 4d6+14 (4d6+14) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      9,
+      7,
+      7,
+      7,
+      10
+    ],
+    "items": "+2 greater striking falchion;"
+  }
+}

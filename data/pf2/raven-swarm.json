@@ -1,0 +1,87 @@
+{
+  "name": "Raven Swarm",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 221.",
+  "size": "Large",
+  "type": "Swarm",
+  "subtype": "Animal",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 30,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 10,
+    "int": 2,
+    "wis": 18,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +7, Ref +12, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +10 (1d20+10); __Thievery__: +10 (1d20+10); ",
+    "list": {
+      "Acrobatics": "+10",
+      "Thievery": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Enraged Cunning",
+      "text": "There are few things as dangerously persistent in the natural world as an angry unkindness of ravens. A raven swarm can hound its prey through most barriers. Simple latches, unsecured chimney flues, loosely shuttered windows, and similar obstacles rarely keep an unkindness away. A raven swarm attempts a Thievery check to bypass many of these simple obstructions, typically against DC 20."
+    },
+    {
+      "name": "Swarming Beaks",
+      "text": "⬻ The ravens' angry pecking deals 1d8 (1d8) piercing damage to each enemy in the swarm's space (DC 20 basic Reflex save). A creature that critically fails its save is blinded for 1d4 (1d4) rounds as the ravens focus their attacks on the target's vulnerable face."
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      3,
+      0,
+      -4,
+      4,
+      0
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "name": "Interlocutor",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 284.",
+  "size": "Large",
+  "type": "Velstrac",
+  "subtype": "Fiend",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 12",
+  "xp": null,
+  "ac": {
+    "value": 33,
+    "notes": ""
+  },
+  "hp": {
+    "average": 215,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 16,
+    "con": 20,
+    "int": 14,
+    "wis": 22,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +23, Ref +21, Will +26",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +25 (1d20+25); __Crafting__: +22 (1d20+22), (Crafting: +24 (1d20+24) sculpting flesh); __Intimidation__: +25 (1d20+25); __Medicine__: +26 (1d20+26); __Religion__: +22 (1d20+22); __Stealth__: +19 (1d20+19); __Torture lore__: +20 (1d20+20); ",
+    "list": {
+      "Athletics": "+25",
+      "Crafting": "+24",
+      "Intimidation": "+25",
+      "Medicine": "+26",
+      "Religion": "+22",
+      "Stealth": "+19",
+      "Torture lore": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision, painsight"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Common",
+    "Infernal",
+    "Shadowtongue"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Painsight",
+      "text": "(divination, divine); A velstrac automatically knows whether a creature it sees has any of the doomed, dying, and wounded conditions, as well as the value of those conditions."
+    },
+    {
+      "name": "Glimpse of Stolen Flesh",
+      "text": "(aura, divine, enchantment, fear, mental, visual); 30 feet. When a creature ends its turn in the aura, it sees pieces of its own body amid the interlocutor's form. The creature must succeed at a DC 29 Will save or become stunned 1."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Focus Gaze",
+      "text": "⬻ (concentrate, divine, enchantment, fear, mental, visual); The interlocutor stares at a creature they can see within 30 feet. The creature must immediately attempt a Will save against glimpse of stolen flesh. In addition, if the creature was already stunned, on a failed save, it feels its internal organs twist and writhe, and is clumsy 2 for 1 minute. After attempting this save, the creature is then temporarily immune until the start of the interlocutor's next turn."
+    },
+    {
+      "name": "Surgical Rend",
+      "text": "⬻ This functions as the Rend ability, dealing claw damage. In addition, if the target is a living creature with organs and muscle, the interlocutor opens a precise wound. Until the creature is restored to its maximum Hit Points, thus closing the wound, Strikes against the creature deal 1d6 (1d6) extra precision damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +25 (deadly 2d10, evil, magical, reach 10 feet); Damage 3d10+13 (3d10+13) slashing plus 2d6 (2d6) persistent bleed"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      3,
+      5,
+      2,
+      6,
+      5
+    ]
+  }
+}

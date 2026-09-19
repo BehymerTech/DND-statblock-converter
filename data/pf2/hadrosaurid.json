@@ -1,0 +1,87 @@
+{
+  "name": "Hadrosaurid",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 82.",
+  "size": "Huge",
+  "type": "Dinosaur",
+  "subtype": "Animal",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 60,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 14,
+    "con": 16,
+    "int": 2,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +12, Ref +10, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +12 (1d20+12); __Stealth__: +10 (1d20+10); ",
+    "list": {
+      "Athletics": "+12",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 23,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Sprint",
+      "text": "⬺ Frequency once per minute Effect The hadrosaurid Strides twice. It has a +20-foot circumstance bonus to its Speed during these Strides."
+    },
+    {
+      "name": "Trample",
+      "text": "⬽ Large or smaller, foot, DC 21."
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      2,
+      3,
+      -4,
+      1,
+      0
+    ]
+  }
+}

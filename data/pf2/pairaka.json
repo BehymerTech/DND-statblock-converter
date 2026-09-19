@@ -1,0 +1,113 @@
+{
+  "name": "Pairaka",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 70.",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "Div",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 105,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 35 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 20,
+    "con": 16,
+    "int": 14,
+    "wis": 18,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +12, Ref +16, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +14 (1d20+14); __Arcana__: +13 (1d20+13); __Deception__: +20 (1d20+20); __Diplomacy__: +20 (1d20+20); __Intimidation__: +16 (1d20+16); __Religion__: +13 (1d20+13); __Society__: +13 (1d20+13); __Stealth__: +16 (1d20+16); ",
+    "list": {
+      "Acrobatics": "+14",
+      "Arcana": "+13",
+      "Deception": "+20",
+      "Diplomacy": "+20",
+      "Intimidation": "+16",
+      "Religion": "+13",
+      "Society": "+13",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Common",
+    "Daemonic; [[telepathy]] 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Hatred of Red",
+      "text": "Pairakas hate the color red. They won't wear the color or willingly enter any place painted red. Given a choice, they'll attack a creature wearing red first. If barred from expressing their displeasure toward the color by force or some magical effect, they take 2d6 (2d6) mental damage at the end of their turn."
+    },
+    {
+      "name": "Divine Ritual",
+      "text": "DC 25; div pact"
+    },
+    {
+      "name": "Bubonic Plague",
+      "text": "(disease); Saving Throw DC 23 Fortitude. Stage 1 fatigued (1 day) Stage 2 enfeebled 2 and fatigued (1 day) Stage 3 enfeebled 3, fatigued, and take 1d6 (1d6) persistent bleed damage every 1d20 (1d20) minutes (1 day)"
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, divine, polymorph, transmutation); The pairaka can take the appearance of any Small or Medium humanoid or animal. This doesn't change their Speed or their attack and damage modifiers with the Strikes, but it might change the damage type their strikes deal."
+    },
+    {
+      "name": "Tormenting Dreams",
+      "text": "⬺ (divine, emotion, enchantment, mental); Frequency once per day Effect The pairaka torments a sleeping creature within 100 feet with visions of betrayals by loved ones and friends. The target must attempt a DC 25 Will save, with the effects of the nightmare spell."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +16 (agile, evil, finesse, magical); Damage 2d8+6 (2d8+6) slashing plus 1d6 (1d6) evil and bubonic plague"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      5,
+      3,
+      2,
+      4,
+      7
+    ]
+  }
+}

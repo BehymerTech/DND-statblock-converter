@@ -1,0 +1,91 @@
+{
+  "name": "Merrow",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Large",
+  "type": "monstrosity",
+  "subtype": "",
+  "alignment": "chaotic evil",
+  "cr": "2",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 13,
+    "notes": "natural armor"
+  },
+  "hp": {
+    "average": 45,
+    "formula": "6d10 + 12"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": 40,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 10,
+    "con": 15,
+    "int": 8,
+    "wis": 10,
+    "cha": 9
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft."
+  ],
+  "passivePerception": 10,
+  "languages": [
+    "Abyssal",
+    "Aquan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The merrow can breathe air and water."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The merrow makes two attacks: one with its bite and one with its claws or harpoon."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage."
+    },
+    {
+      "name": "Claws",
+      "text": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) slashing damage."
+    },
+    {
+      "name": "Harpoon",
+      "text": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage. If the target is a Huge or smaller creature, it must succeed on a Strength contest against the merrow or be pulled up to 20 feet toward the merrow."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

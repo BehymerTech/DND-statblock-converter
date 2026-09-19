@@ -1,0 +1,114 @@
+{
+  "name": "White Rider",
+  "sourceSystem": "pf1",
+  "source": "Irrisen - Land of Eternal Winter",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "LN",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 27,
+    "notes": "armor +6, dex +7, natural +4",
+    "touch": 17,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 136,
+    "formula": "16d6+80"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 25,
+    "con": 20,
+    "int": 18,
+    "wis": 21,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +10, Ref +17, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +18, Diplomacy +23, Intimidate +20, Knowledge (arcana) +18, Knowledge (history) +18, Knowledge (nature) +21, Knowledge (planes) +18, Perception +24, Ride +26, Sense Motive +24, Stealth +26",
+    "list": {
+      "Bluff": "+18",
+      "Diplomacy": "+23",
+      "Intimidate": "+20",
+      "Perception": "+24",
+      "Ride": "+26",
+      "Sense Motive": "+24",
+      "Stealth": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Common",
+    "Hallit",
+    "Skald",
+    "Sylvan",
+    "telepathy 60 ft."
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 8,
+  "feats": [
+    "Improved Critical (composite longbow)",
+    "Manyshot",
+    "Mounted Archery",
+    "Mounted Combat",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Rapid Shot",
+    "Weapon Focus (composite longbow)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 longsword +14/+9 (1d8+6/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+2 seeking composite longbow +18/+13 (1d8+7/19-20/x3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A tall, handsome woman sits astride a white horse. She grips an elegant longbow made of raw birch.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": 23,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "name": "Soucouyant",
+  "sourceSystem": "pf1",
+  "source": "Isles of the Shackles",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 23,
+    "notes": "dex +6, dodge +1, natural +6",
+    "touch": 17,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 102,
+    "formula": "12d10+36"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 22,
+    "con": 17,
+    "int": 14,
+    "wis": 17,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +7, Ref +14, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +18, Bluff +16, Disguise +16, Intimidate +19, Perception +18, Stealth +21",
+    "list": {
+      "Acrobatics": "+18",
+      "Bluff": "+16",
+      "Disguise": "+16",
+      "Intimidate": "+19",
+      "Perception": "+18",
+      "Stealth": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "detect magic"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Infernal"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 12,
+  "feats": [
+    "Agile Maneuvers",
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Initiative",
+    "Mobility",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +16 (2d6+4), 2 claws +17 (1d6+4 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This walking nightmare resembles a white-haired old woman who looks as though she has been skinned alive, her bloody muscles and sinews pulsing grotesquely.",
+  "meta": {
+    "cmb": "18 (+22 grapple)",
+    "cmd": 33,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

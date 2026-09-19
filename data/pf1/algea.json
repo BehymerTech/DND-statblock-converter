@@ -1,0 +1,113 @@
+{
+  "name": "Algea",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Diminutive",
+  "type": "outsider",
+  "subtype": "extraplanar, psychopomp, swarm",
+  "alignment": "N",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 24,
+    "notes": "dex +10, size +4",
+    "touch": 24,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 149,
+    "formula": "13d10+78"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 80 ft. (good)"
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 30,
+    "con": 23,
+    "int": 15,
+    "wis": 23,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +12, Ref +20, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +26, Fly +36, Knowledge (planes) +18, Knowledge (religion) +18, Perception +26, Sense Motive +26, Spellcraft +18, Stealth +38",
+    "list": {
+      "Acrobatics": "+26",
+      "Fly": "+36",
+      "Perception": "+26",
+      "Sense Motive": "+26",
+      "Spellcraft": "+18",
+      "Stealth": "+38"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "greater arcane sight",
+    "low-light vision",
+    "spiritsense"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Celestial",
+    "Infernal"
+  ],
+  "initiative": "+14",
+  "babOrProficiency": 13,
+  "feats": [
+    "Alertness",
+    "Combat Casting",
+    "Great Fortitude",
+    "Improved Great Fortitude",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "swarm (3d6 plus distraction)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This shrill swarm of whip-poor-wills flies in a spiral, their airborne antics infused with streamers of pale blue mist.",
+  "meta": {
+    "cmb": "None",
+    "cmd": "None",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Boneyard)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or spiral (2-6 swarms)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

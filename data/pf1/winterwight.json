@@ -1,0 +1,108 @@
+{
+  "name": "Winterwight",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "cold",
+  "alignment": "CE",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 32,
+    "notes": "dex +6, natural +16",
+    "touch": 16,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 270,
+    "formula": "20d8+180"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 40,
+    "dex": 23,
+    "con": "None",
+    "int": 11,
+    "wis": 18,
+    "cha": 29
+  },
+  "saves": {
+    "text": "Fort +15, Ref +14, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +26, Intimidate +32, Perception +27, Stealth +29",
+    "list": {
+      "Acrobatics": "+26",
+      "Intimidate": "+32",
+      "Perception": "+27",
+      "Stealth": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 15,
+  "feats": [
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Greater Vital Strike",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Staggering Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +30 (2d8+15 plus blightfire), 2 claws +30 (2d6+15 plus blightfire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Human-sized and of a deathly blue color, this long-taloned skeletal creature is partially encased in jagged sheets of ice.",
+  "meta": {
+    "cmb": "+30",
+    "cmd": 46,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any cold land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or incursion (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

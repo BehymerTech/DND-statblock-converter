@@ -1,0 +1,112 @@
+{
+  "name": "Derakni",
+  "sourceSystem": "pf1",
+  "source": "The Worldwound",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 25,
+    "notes": "dex +6, natural +10, size -1",
+    "touch": 15,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 126,
+    "formula": "11d10+66"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 23,
+    "con": 22,
+    "int": 9,
+    "wis": 17,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +13, Ref +13, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +20, Fly +22, Perception +25, Stealth +16, Survival +17",
+    "list": {
+      "Acrobatics": "+20",
+      "Fly": "+22",
+      "Perception": "+25",
+      "Stealth": "+16",
+      "Survival": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Draconic",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 11,
+  "feats": [
+    "Flyby Attack",
+    "Improved Critical (sting)",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack",
+    "Quicken Spell-Like Ability (summon swarm)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +18 (1d4+8 plus poison), 2 claws +18 (1d4+8), sting +18 (1d8+8/19-20 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The size of a horse, this demonic locust has a scorpion’s stinger and an almost-human face. Its front legs end in clawed hands.",
+  "meta": {
+    "cmb": "+20",
+    "cmd": "36 (44 vs. trip)",
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or swarm (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "name": "Leng Hound",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": "extraplanar",
+  "alignment": "CE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 25,
+    "notes": "dex +7, dodge +1, natural +7",
+    "touch": 18,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 123,
+    "formula": "13d8+65"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 40 ft. (good)"
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 24,
+    "con": 21,
+    "int": 14,
+    "wis": 20,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +9, Ref +11, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +23, Disguise +17, Fly +27, Perception +21, Stealth +23, Survival +21",
+    "list": {
+      "Acrobatics": "+23",
+      "Disguise": "+17",
+      "Fly": "+27",
+      "Perception": "+21",
+      "Stealth": "+23",
+      "Survival": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent",
+    "sense fear"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Aklo",
+    "Common"
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 9,
+  "feats": [
+    "Dodge",
+    "Flyby Attack",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Mobility",
+    "Quicken Spell-Like Ability (summon swarm)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +18 (2d6+9/19-20), 2 claws +18 (1d6+9)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This unnatural beast’s clawed hands dangle in front of its hind paws. Its bat-winged form blends humanoid features with canine.",
+  "meta": {
+    "cmb": "+18",
+    "cmd": 36,
+    "racialModifiers": [
+      "Disguise 10"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pack (2-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

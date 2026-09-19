@@ -1,0 +1,118 @@
+{
+  "name": "Norn",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Large",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "LN",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 33,
+    "notes": "armor +7, dex +2, insight +10, natural +5, size -1",
+    "touch": 21,
+    "flatFooted": 31
+  },
+  "hp": {
+    "average": 270,
+    "formula": "20d6+200"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft.,  30 ft. with armor"
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 14,
+    "con": 30,
+    "int": 21,
+    "wis": 24,
+    "cha": 31
+  },
+  "saves": {
+    "text": "Fort +18, Ref +18, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +23, Craft (cloth) +18, Heal +11, Intimidate +30, Knowledge (all) +18, Perception +30, Perform (oratory) +18, Sense Motive +30, Use Magic Device +23",
+    "list": {
+      "Bluff": "+23",
+      "Heal": "+11",
+      "Intimidate": "+30",
+      "Perception": "+30",
+      "Sense Motive": "+30",
+      "Use Magic Device": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "blindsight",
+    "low-light vision",
+    "greater arcane sight",
+    "true seeing"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Common",
+    "Giant",
+    "Sylvan",
+    "tongues"
+  ],
+  "initiative": "+16",
+  "babOrProficiency": 10,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Diehard",
+    "Great Fortitude",
+    "Improved Great Fortitude",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Improved Lightning Reflexes",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Quicken Spell-Like Ability (phantasmal killer)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "shears +21/+21/+16 (1d8+12/15-20 plus energy drain), touch +11 (energy drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering, stern woman wears her long blonde hair in braids. She carries a reel of golden thread and a pair of shears.",
+  "meta": {
+    "cmb": "+18",
+    "cmd": 40,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or trio"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+3 hide armor, shears, golden thread worth 500 gp, other treasure)"
+      }
+    ]
+  }
+}

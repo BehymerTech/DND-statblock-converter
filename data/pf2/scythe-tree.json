@@ -1,0 +1,104 @@
+{
+  "name": "Scythe Tree",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 235.",
+  "size": "Huge",
+  "type": "Plant",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 105,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 14,
+    "con": 18,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +17, Ref +8, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +15 (1d20+15); __Stealth__: +12 (1d20+12); ",
+    "list": {
+      "Athletics": "+15",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "lifesense 30, low-light vision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Aklo",
+    "Arboreal",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Axe Vulnerability",
+      "text": "A scythe tree takes 5 additional damage from axes."
+    },
+    {
+      "name": "Ripping Disarm",
+      "text": "⬲ Trigger A creature rolls a critical failure on a melee weapon Strike against the scythe tree Effect The scythe tree attempts to Disarm the creature."
+    },
+    {
+      "name": "Dead Tree",
+      "text": "⬻ (concentrate); Until the scythe tree acts, it appears to be a dead tree. It has an automatic result of 35 on Deception checks and DCs to pass as a dead tree."
+    },
+    {
+      "name": "Woodland Ambush",
+      "text": "⬻ Requirements The scythe tree is using Dead Tree in forested terrain, and a creature that hasn't detected it is within 30 feet Effect The scythe tree Strides up to 25 feet toward the triggering creature. Once the creature is in reach, the scythe tree makes a scythe branch Strike against it. The creature is flat-footed against this Strike."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ scythe branch +18 (backswing, deadly d10, reach 15 feet); Damage 2d10+9 (2d10+9) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      2,
+      4,
+      0,
+      2,
+      0
+    ]
+  }
+}

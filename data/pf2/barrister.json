@@ -1,0 +1,99 @@
+{
+  "name": "Barrister",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 233.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "LN",
+  "cr": null,
+  "level": "Creature -1",
+  "xp": null,
+  "ac": {
+    "value": 13,
+    "notes": ""
+  },
+  "hp": {
+    "average": 8,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 12,
+    "con": 12,
+    "int": 16,
+    "wis": 14,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +3, Ref +3, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Deception__: +10 (1d20+10); __Diplomacy__: +12 (1d20+12); __Performance__: +10 (1d20+10); __Society__: +9 (1d20+9); __Legal lore__: +13 (1d20+13); ",
+    "list": {
+      "Deception": "+10",
+      "Diplomacy": "+12",
+      "Performance": "+10",
+      "Society": "+9",
+      "Legal lore": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 16,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Society",
+      "text": "+9 Str +0, Dex +1, Con +1, Int +3, Wis +2, Cha + 4 Items court garb (functions as fine clothing), law book (functions as scholarly journal), writing set."
+    },
+    {
+      "name": "Sway the Judge and Jury",
+      "text": "A barrister gains a +2 circumstance bonus to Diplomacy checks to Make an Impression or Request something of the deciding members within a courtroom. If the barrister successfully Performs against a DC of 20 during the 20 minutes prior to the check, they increase the circumstance bonus to +4."
+    },
+    {
+      "name": "Cite Precedent",
+      "text": "⬻ (auditory, linguistic); The barrister uses existing case law to undermine their opposition. If they succeed at a DC 20 Legal Lore check, they impose a –2 circumstance penalty on the next Diplomacy check an opponent attempts in a legal argument. Any further attempts to Cite Precedent fail until a new topic with different precedents is being argued."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +4 (agile, nonlethal); Damage 1d4 (1d4) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      1,
+      1,
+      3,
+      2,
+      4
+    ]
+  }
+}

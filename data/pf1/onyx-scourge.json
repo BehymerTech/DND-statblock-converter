@@ -1,0 +1,112 @@
+{
+  "name": "Onyx Scourge",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 120: Vault of the Onyx Citadel",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "earth, elemental, extraplanar",
+  "alignment": "CE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 30,
+    "notes": "dex +2, natural +20, size -2",
+    "touch": 10,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 231,
+    "formula": "22d10+110"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., other_semicolon earth glide ft., burrow 20 ft."
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 14,
+    "con": 21,
+    "int": 12,
+    "wis": 15,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +18, Ref +11, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +26, Climb +37, Intimidate +38, Knowledge (dungeoneering) +26, Knowledge (planes) +26, Perception +27, Stealth +19",
+    "list": {
+      "Appraise": "+26",
+      "Climb": "+37",
+      "Intimidate": "+38",
+      "Perception": "+27",
+      "Stealth": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness",
+    "tremorsense"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Terran"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 22,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Greater Bull Rush",
+    "Improved Bull Rush",
+    "Improved Critical (slam)",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Intimidating Prowess",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Sundering Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +32 (2d12+12/19-20 plus 3d6 negative energy)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This gigantic creature’s stony body is laced with veins of deep red and black minerals that pulse with dark energy. Its face is a mask of rage with glowing red eyes and a pit of pitch blackness for a mouth.",
+  "meta": {
+    "cmb": "36 (+40 bull rush, +38 sunder)",
+    "cmd": "48 (50 vs. bull rush or sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground (Plane of Earth)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

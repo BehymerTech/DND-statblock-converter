@@ -1,0 +1,111 @@
+{
+  "name": "Dream Naga",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Occult Bestiary",
+  "size": "Large",
+  "type": "aberration",
+  "subtype": "extraplanar",
+  "alignment": "N",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 23,
+    "notes": "dex +6, natural +8, size -1",
+    "touch": 15,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 123,
+    "formula": "13d8+65"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 40 ft. (average)"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 23,
+    "con": 20,
+    "int": 18,
+    "wis": 15,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +9, Ref +12, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +22, Bluff +16, Fly +20, Knowledge (arcana) +17, Knowledge (planes) +20, Perception +24, Sense Motive +15, Survival +18",
+    "list": {
+      "Acrobatics": "+22",
+      "Bluff": "+16",
+      "Fly": "+20",
+      "Perception": "+24",
+      "Sense Motive": "+15",
+      "Survival": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "dreamsight"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Aklo",
+    "Celestial",
+    "Common",
+    "Infernal"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Casting",
+    "Flyby Attack",
+    "Lightning Reflexes",
+    "Lucid Dreamer",
+    "Skill Focus (Perception)",
+    "Vital Strike",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15 (3d8+9 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This large, flying serpent has a humanoid head outlined by a colorful, frilled hood.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": "32 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Dimension of Dreams)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or nest (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

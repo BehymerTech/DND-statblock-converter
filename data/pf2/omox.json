@@ -1,0 +1,114 @@
+{
+  "name": "Omox",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 63.",
+  "size": "Medium",
+  "type": "Ooze",
+  "subtype": "Demon, Fiend",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 12",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 395,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, climb 20 feet, swim 80 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 16,
+    "con": 24,
+    "int": 14,
+    "wis": 18,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +25, Ref +21, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +24 (1d20+24); __Athletics__: +23 (1d20+23); __Religion__: +20 (1d20+20); __Stealth__: +24 (1d20+24); ",
+    "list": {
+      "Acrobatics": "+24",
+      "Athletics": "+23",
+      "Religion": "+20",
+      "Stealth": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Draconic; [[telepathy]] 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Cleanly Vulnerability",
+      "text": "An omox embodies filth, and they find the concept of cleanliness abhorrent. An omox subjected to an effect that cleans them, such as the tidy command of prestidigitation, takes 2d6 (2d6) mental damage. They also take this damage the first time each round a creature hit by one of the omox's attacks spends actions cleaning off the filth."
+    },
+    {
+      "name": "Grab Weapon",
+      "text": "⬲ (concentrate); Trigger A creature hits the omox with a melee weapon Effect The omox attempts to Disarm the triggering creature. On a critical success, the weapon becomes subsumed within the omox's body rather than falling to the ground, from which it must be Disarmed before it can be retrieved."
+    },
+    {
+      "name": "Liquid Leap",
+      "text": "⬺ (concentrate, conjuration, teleportation); Requirements The omox is in a space of liquid Effect The omox teleports from its current space to any unoccupied space of liquid within 120 feet."
+    },
+    {
+      "name": "Slime Trap",
+      "text": "A creature hit by an omox's slime ball must attempt a DC 32 Reflex save. Success The creature is unaffected. Failure The creature takes a –10-foot circumstance penalty to its Speeds for 1 minute or until it Escapes (DC 35). Critical Failure As failure, but the target is also clumsy 1 for the same duration."
+    },
+    {
+      "name": "Smother",
+      "text": "⬻ Requirements The omox has a creature grabbed Effect The demon flows over the grabbed creature, covering it in oozing acidic slime. The creature must succeed at a DC 32 Fortitude save or else it becomes blinded and must hold its breath or begin suffocating. These effects lasts as long as the omox has the creature grabbed. Deception and charm rather than burning hands."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ sludge tendril +25 Damage 2d6+13 (2d6+13) bludgeoning plus 2d6 (2d6) acid and 1d6 (1d6) evil and Grab"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ slime ball +24 (range increment 30 feet); Damage 2d4+13 (2d4+13) bludgeoning plus 2d6 (2d6) acid and 1d6 (1d6) evil and slime trap"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      3,
+      7,
+      2,
+      4,
+      4
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "name": "Young Sea Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "water",
+  "alignment": "CG",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "dex +1, natural +11, size -1",
+    "touch": 10,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 85,
+    "formula": "9d12+27"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (poor), swim 60 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 12,
+    "con": 17,
+    "int": 16,
+    "wis": 17,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +11, Ref +7, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +15, Fly +7, Intimidate +15, Knowledge (arcana) +15, Knowledge (nature) +15, Perception +5, Sense Motive +17, Stealth +9, Survival +15, Swim +25",
+    "list": {
+      "Diplomacy": "+15",
+      "Fly": "+7",
+      "Intimidate": "+15",
+      "Perception": "+5",
+      "Sense Motive": "+17",
+      "Stealth": "+9",
+      "Survival": "+15",
+      "Swim": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Aquan",
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 9,
+  "feats": [
+    "Alertness",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Lunge",
+    "Multiattack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (2d6+7), 2 claws +13 (1d8+5), gore +13 (1d8+7), tail slap +11 (1d8+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The long, undulating body of this serpentine dragon rolls and bends with scales the color of the ocean’s waves.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": "26 (30 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

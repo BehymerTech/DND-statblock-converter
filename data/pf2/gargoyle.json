@@ -1,0 +1,100 @@
+{
+  "name": "Gargoyle",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 161.",
+  "size": "Medium",
+  "type": "Earth",
+  "subtype": "Beast",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 40,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 16,
+    "int": 6,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +13, Ref +10, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +10 (1d20+10); __Athletics__: +9 (1d20+9); __Stealth__: +12 (1d20+12); ",
+    "list": {
+      "Acrobatics": "+10",
+      "Athletics": "+9",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Terran"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Clawed Feet",
+      "text": "⬲ (attack); Trigger The gargoyle is Flying, and a creature moves into an adjacent square below it. Effect The gargoyle makes a claw Strike against the triggering creature."
+    },
+    {
+      "name": "Statue",
+      "text": "⬻ (concentrate); Until the next time it acts, the gargoyle appears to be a statue. It has an automatic result of 32 on Deception checks and DCs to pass as a statue."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +13 Damage 2d8+3 (2d8+3) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +13 (agile); Damage 2d6+3 (2d6+3) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      2,
+      3,
+      -2,
+      2,
+      -2
+    ]
+  }
+}

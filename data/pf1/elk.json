@@ -1,0 +1,95 @@
+{
+  "name": "Elk",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Pathfinder No. 31: Stolen Land",
+  "size": "Medium",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 13,
+    "notes": "dex +3",
+    "touch": 13,
+    "flatFooted": 10
+  },
+  "hp": {
+    "average": 15,
+    "formula": "2d8+6"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 17,
+    "con": 16,
+    "int": 2,
+    "wis": 15,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +6, Ref +8, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +7",
+    "list": {
+      "Perception": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 1,
+  "feats": [
+    "Lightning Reflexes",
+    "Run"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +3 (1d6+2), 2 hooves -2 (1d3+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This majestic beast stands the height of a man at its shoulders, a many-tipped rack of proud antlers crowning its head.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": "16 (20 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold or temperate plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or herd (3-50)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

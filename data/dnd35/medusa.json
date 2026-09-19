@@ -1,0 +1,106 @@
+{
+  "name": "Medusa",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Monstrous Humanoid",
+  "subtype": "",
+  "alignment": "Usually lawful evil",
+  "cr": "7",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "+2 Dex, +3 natural",
+    "touch": 12,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 33,
+    "formula": "6d8+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares)"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 15,
+    "con": 12,
+    "int": 12,
+    "wis": 13,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +3, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +9, Diplomacy +4, Disguise +9 (+11 Acting), Intimidate +4, Move Silently +8, Spot +8;",
+    "list": {
+      "Bluff": "+9",
+      "Diplomacy": "+4",
+      "Disguise": "+9",
+      "Intimidate": "+4",
+      "Move Silently": "+8",
+      "Spot": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 6,
+  "feats": [
+    "Point Blank Shot",
+    "Precise Shot",
+    "Weapon Finesse"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Petrifying gaze, poison"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Shortbow +8 ranged (1d6/x3) or dagger +8 melee (1d4/19-20) or snakes +8 melee (1d4 plus poison)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Shortbow +8/+3 ranged (1d6/x3); or dagger +8/+3 melee (1d4/19-20) and snakes +3 melee (1d4 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A medusa is indistinguishable from a normal human at distances greater than 30 feet (or closer, if its face is concealed). The creature often wears garments that enhance its body while hiding its face behind a hood or veil.",
+    "grapple": "+6",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Temperate marshes",
+    "organization": "Solitary or covey (2-4)",
+    "treasure": "Double standard",
+    "advancement": "By character class",
+    "leveladjustment": "---"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "name": "NPC Haughty Avenger",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf, human",
+  "alignment": "LG",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 18,
+    "notes": "armor +5, dex +2, shield +1",
+    "touch": 12,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 21,
+    "formula": "3d10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 15,
+    "con": 10,
+    "int": 8,
+    "wis": 12,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +5, Ref +5, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Diplomacy +7, Perception +4",
+    "list": {
+      "Acrobatics": "+7",
+      "Diplomacy": "+7",
+      "Perception": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Common",
+    "Elven"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 3,
+  "feats": [
+    "Skill Focus (Acrobatics)",
+    "Two-Weapon Defense",
+    "Two-Weapon Fighting"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk rapier +4 (1d6+2/18-20), dagger +3 (1d4+1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +5 (1d4+2/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-elf",
+    "class": "paladin 3",
+    "cmb": "+5",
+    "cmd": 17
+  }
+}

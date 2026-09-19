@@ -1,0 +1,113 @@
+{
+  "name": "Death Worm Leviathan",
+  "sourceSystem": "pf1",
+  "source": "Mystery Monsters Revisited",
+  "size": "Gargantuan",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 23,
+    "notes": "dex +3, natural +14, size -4",
+    "touch": 9,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 157,
+    "formula": "15d10+75"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 30 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 16,
+    "con": 21,
+    "int": 3,
+    "wis": 11,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +14, Ref +12, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +13, Stealth -1",
+    "list": {
+      "Perception": "+13",
+      "Stealth": "-1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Terran"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 15,
+  "feats": [
+    "Awesome Blow",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Overrun",
+    "Power Attack",
+    "Vital Strike",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +20 (4d6+12/19-20 plus grab and poison)"
+    },
+    {
+      "name": "Ranged",
+      "text": "electrical jolt +14 (touch 8d6 electricity)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous worm has stony hide and acid-dripping jaws.",
+  "meta": {
+    "cmb": "27 (+29 bull rush, +31 grapple, +29 overrun)",
+    "cmd": "40 (42 vs. bull rush, 42 vs. overrun)",
+    "racialModifiers": [
+      "Stealth 16"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts, hills, or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

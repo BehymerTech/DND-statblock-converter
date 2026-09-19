@@ -1,0 +1,106 @@
+{
+  "name": "Brain Mole Monarch",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Tiny",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 16,
+    "notes": "dex +2, natural +2, size +2",
+    "touch": 14,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 45,
+    "formula": "6d10+12"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 20 ft. (perfect), burrow 20 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 14,
+    "con": 15,
+    "int": 8,
+    "wis": 17,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +7, Ref +7, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +7, Fly +14, Perception +8, Stealth +15",
+    "list": {
+      "Climb": "+7",
+      "Fly": "+14",
+      "Perception": "+8",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent",
+    "second sight",
+    "tremorsense"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common (can’t speak)"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 6,
+  "feats": [
+    "Iron Will",
+    "Lookout",
+    "Paired Opportunists",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +10 (1d3-2 plus attach)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Tumorous bulges crisscross this six-limbed rodent, lending its hairless body a bloated, brain-like appearance.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": "14 (18 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests, hills, or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or nest (1 monarch and 4-10 brain moles)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

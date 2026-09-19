@@ -1,0 +1,114 @@
+{
+  "name": "Maftet Guardian",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 166.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 23,
+    "notes": ""
+  },
+  "hp": {
+    "average": 92,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 16,
+    "con": 18,
+    "int": 16,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +14, Ref +15, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +13 (1d20+13); __Arcana__: +13 (1d20+13); __Athletics__: +15 (1d20+15); __Stealth__: +13 (1d20+13); ",
+    "list": {
+      "Acrobatics": "+13",
+      "Arcana": "+13",
+      "Athletics": "+15",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Sphinx"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Lore",
+      "text": "+15 (applies only to their home ruins), Stealth +13 Str +5, Dex +3, Con +4, Int +3, Wis +2, Cha +0 Items scimitar (2)"
+    },
+    {
+      "name": "Items",
+      "text": "scimitar (2);"
+    },
+    {
+      "name": "Runic Resistance",
+      "text": "⬲ (arcane, abjuration); Trigger The maftet takes damage from a Strike or spell effect Effect The maftet's protective runic tattoos glow, granting them resistance 5 to one damage type dealt by the triggering attack. This resistance applies against the triggering effect and lasts for 1 minute or until the maftet uses this ability again, whichever comes first. If the triggering effect deals multiple damage types, the maftet chooses which type to resist."
+    },
+    {
+      "name": "Paired Strike",
+      "text": "⬺ Requirements The maftet is wielding two scimitars Effect The maftet makes two Strikes against the same target, one with each of their scimitars. The maftet combines the damage of any attacks that hit and applies resistances and weaknesses only once. This counts as one attack when calculating the maftet's multiple attack penalty."
+    },
+    {
+      "name": "Powerful Scimitars",
+      "text": "(arcane, evocation); Any non-magical scimitar becomes a +1 striking scimitar while a maftet wields it."
+    },
+    {
+      "name": "Raptor Dive",
+      "text": "⬽ Requirements The maftet is flying at least 10 feet above the target Effect The maftet Flies up to twice their fly Speed and makes a Paired Strike at the end of the movement. If both Strikes hit, the target is also knocked prone."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ scimitar +17 (forceful, magical, sweep); Damage 2d6+8 (2d6+8) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      3,
+      4,
+      3,
+      2,
+      0
+    ],
+    "items": "scimitar (2);"
+  }
+}

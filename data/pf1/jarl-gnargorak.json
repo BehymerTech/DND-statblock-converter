@@ -1,0 +1,113 @@
+{
+  "name": "Jarl Gnargorak",
+  "sourceSystem": "pf1",
+  "source": "Mythic Realms",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "cold, giant",
+  "alignment": "CE",
+  "cr": "25",
+  "level": null,
+  "xp": 1638400,
+  "ac": {
+    "value": 43,
+    "notes": "armor +10, deflection +5, dex +5, natural +14, size -1",
+    "touch": 19,
+    "flatFooted": 38
+  },
+  "hp": {
+    "average": 485,
+    "formula": "14d8+12d10+356"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 37,
+    "dex": 24,
+    "con": 34,
+    "int": 12,
+    "wis": 18,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +34, Ref +26, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +33, Knowledge (geography) +13, Knowledge (nature) +13, Perception +33, Sense Motive +14, Stealth +25, Survival +33",
+    "list": {
+      "Intimidate": "+33",
+      "Perception": "+33",
+      "Sense Motive": "+14",
+      "Stealth": "+25",
+      "Survival": "+33"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 43,
+  "languages": [
+    "Common",
+    "Giant",
+    "Hallit"
+  ],
+  "initiative": "+19",
+  "babOrProficiency": 22,
+  "feats": [
+    "Awesome Blow",
+    "Deadly Aim",
+    "Endurance",
+    "Exotic Weapon Proficiency (bastard sword)",
+    "Improved Bull Rush",
+    "Improved Critical (bastard sword)",
+    "Improved Critical (composite longbow)",
+    "Improved Initiative",
+    "Improved Precise Shot",
+    "Iron Will",
+    "Leadership",
+    "Lightning Reflexes",
+    "Pinpoint Targeting",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Precise Shot",
+    "Rapid Shot"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "Winter’s Heart +41/+36/+31/+26 (2d8+25/17-20 plus 1d6 cold)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+5 seeking composite longbow +33/+28/+23/+18 (2d6+18/19-20/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Clad in mithral and furs and armed with a glowing sword made of ice, this towering, blue-skinned humanoid has a regal presence.",
+  "meta": {
+    "race": "Male",
+    "class": "frost giant ranger 12, marshal 8 (Pathfinder RPG Mythic Adventures 38)",
+    "cmb": "36 (+38 bull rush)",
+    "cmd": "58 (60 vs. bull rush)",
+    "racialModifiers": [
+      "Stealth 4"
+    ]
+  }
+}

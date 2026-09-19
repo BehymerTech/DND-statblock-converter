@@ -1,0 +1,106 @@
+{
+  "name": "Vexenion",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 134: It Came from Hollow Mountain",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "chaotic, qlippoth, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex +4, natural +6, size -1",
+    "touch": 13,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 76,
+    "formula": "8d10+32"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 18,
+    "con": 19,
+    "int": 11,
+    "wis": 12,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +10, Ref +6, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Climb +22, Perception +12, Sleight of Hand +15, Stealth +11, Survival +12",
+    "list": {
+      "Acrobatics": "+15",
+      "Climb": "+22",
+      "Perception": "+12",
+      "Sleight of Hand": "+15",
+      "Stealth": "+11",
+      "Survival": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see invisibility"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Abyssal (cannot speak)",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 8,
+  "feats": [
+    "Improved Initiative",
+    "Iron Will",
+    "Vital Strike",
+    "Weapon Focus (tentacles)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 tentacles +11 (1d6+3 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This blood-red tumorous mass has a shifting cluster of waving tentacles sprouting from its amorphous form, its body pulsating with a horrid vitality.",
+  "meta": {
+    "cmb": "12 (+16 grapple)",
+    "cmd": "26 (can't be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or hunger (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

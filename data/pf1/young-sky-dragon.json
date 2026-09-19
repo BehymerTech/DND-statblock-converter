@@ -1,0 +1,108 @@
+{
+  "name": "Young Sky Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "air",
+  "alignment": "LG",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 22,
+    "notes": "dex +1, natural +12, size -1",
+    "touch": 10,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 95,
+    "formula": "10d12+30"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (good)"
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 12,
+    "con": 17,
+    "int": 16,
+    "wis": 17,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +10, Ref +10, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +16, Fly +16, Heal +16, Knowledge (arcana) +16, Knowledge (religion) +16, Perception +22, Perform (sing) +13, Sense Motive +16, Spellcraft +16",
+    "list": {
+      "Diplomacy": "+16",
+      "Fly": "+16",
+      "Heal": "+16",
+      "Perception": "+22",
+      "Sense Motive": "+16",
+      "Spellcraft": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "cloud sight",
+    "dragon senses"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Auran",
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 10,
+  "feats": [
+    "Flyby Attack",
+    "Hover",
+    "Lightning Reflexes",
+    "Multiattack",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +14 (2d6+7), 2 claws +14 (1d8+5), gore +14 (1d8+7), tail slap +12 (1d8+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Although wingless, this dragon twists gracefully though the sky, its scales reflecting the shifting hues of the heavens.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": "27 (31 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

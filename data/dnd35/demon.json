@@ -1,0 +1,311 @@
+{
+  "name": "Demon",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Outsider",
+  "subtype": "Chaotic, Extraplanar, Evil",
+  "alignment": "Always chaotic evil",
+  "cr": "9",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": "-1 size, +2 Dex, +11 natural",
+    "touch": 11,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 115,
+    "formula": "10d8+70"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 50,
+    "swim": null,
+    "climb": 20,
+    "burrow": null,
+    "notes": "30 ft. (6 squares), fly 50 ft. (average)"
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 15,
+    "con": 25,
+    "int": 14,
+    "wis": 16,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +14, Ref +9, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Concentration +20, Diplomacy +5, Hide +11, Intimidate +16, Knowledge (any One) +15, Listen +24, Move Silently +15, Search +15, Sense Motive +16, Spellcraft +15, Spot +24, Survival +3 (+5 Following Tracks);",
+    "list": {
+      "Climb": "+18",
+      "Disable Device": "+12",
+      "Disguise": "+17",
+      "Escape Artist": "+10",
+      "Hide": "+11",
+      "Listen": "+24",
+      "Move Silently": "+15",
+      "Open Lock": "+11",
+      "Search": "+15",
+      "Sleight Of Hand": "+11",
+      "Survival": "+3",
+      "Use Rope": "+1",
+      "Bluff": "+19",
+      "Concentration": "+20",
+      "Diplomacy": "+5",
+      "Intimidate": "+16",
+      "Sense Motive": "+16",
+      "Spellcraft": "+15",
+      "Spot": "+24",
+      "Use Magic Device": "+22",
+      "Jump": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "scent",
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "low-light vision",
+    "darkvision 60 ft.",
+    "darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 10,
+  "feats": [
+    "Cleave",
+    "Combat Reflexes",
+    "Multiattack",
+    "Power Attack"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Sneak attack +2d6, spell-like abilities, *summon demon*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 10/cold iron or good, darkvision 60 ft., immunity to electricity and poison, protective slime, resistance to acid 10, cold 10, and fire 10, spell resistance 14, telepathy 100 ft."
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Death throes, entangle, spell-like abilities, *summon demon*, vorpal sword"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 15/cold iron and good, darkvision 60 ft., flaming body, immunity to electricity, fire, and poison, resistance to acid 10 and cold 10, spell resistance 28, telepathy 100 ft., true seeing"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Poison, rend armor, web"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 10/good, darkvision 60 ft., plane shift, scent, telepathy 100 ft."
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Spell-like abilities, *summon demon*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 5/cold iron or good, darkvision 60 ft., immunity to electricity and poison, resistance to acid 10, cold 10, and fire 10, telepathy 100 ft."
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Improved grab, spell-like abilities, *summon demon*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 10/good, darkvision 60 ft., immunity to electricity and poison, resistance to acid 10, cold 10, and fire 10, spell resistance 21, telepathy 100 ft., true seeing"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Spell-like abilities, stench, improved grab, *summon demon*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 10/good, darkvision 60 ft., immunity to electricity and poison, resistance to acid 10, cold 10, and fire 10, spell resistance 19, telepathy 100 ft."
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Constrict 4d6+13, improved grab, spell-like abilities, *summon demon*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 10/good and cold iron, darkvision 60 ft., immunity to electricity and poison, resistance to acid 10, cold 10, and fire 10, spell resistance 25, telepathy 100 ft."
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Smite, spell-like abilities, *summon demon*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 10/good, darkvision 60 ft., immunity to electricity and poison, resistance to acid 10, cold 10, and fire 10, spell resistance 22, telepathy 100 ft., true seeing"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Poison, spell-like abilities"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Alternate form, damage reduction 5/cold iron or good, darkvision 60 ft., fast healing 2, immunity to poison, resistance to fire 10"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Eye rays, *find target,* improved grab"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Construct traits, darkvision 60 ft., fast healing 5, low-light vision"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Energy drain, spell-like abilities, *summon demon*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 10/cold iron or good, darkvision 60 ft., immunity to electricity and poison, resistance to acid 10, cold 10, and fire 10, spell resistance 18, telepathy 100 ft., tongues"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Dance of ruin, spell-like abilities, spores, stunning screech, *summon demon*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 10/good, darkvision 60 ft., immunity to electricity and poison, resistance to acid 10, cold 10, and fire 10, spell resistance 17, telepathy 100 ft."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Claw +12 melee (1d6+5)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +12 melee (1d6+5) and bite +7 melee (1d6+2)"
+    },
+    {
+      "name": "Attack",
+      "text": "*+1 vorpal longsword* +33 melee (2d6+8/19-20)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "*+1 vorpal longsword* +31/+26/+21/+16 melee (2d6+8/19-20) and *+1 flaming whip* +30/+25 melee (1d4+4 plus 1d6 fire plus entangle); or 2 slams +31 melee (1d10+7)"
+    },
+    {
+      "name": "Attack",
+      "text": "Bite +19 melee (2d6+9 plus poison) or web +11 ranged"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +19 melee (2d6+9 plus poison) and 2 claws +14 melee (2d4+4); or web +11 ranged"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +4 melee (1d6+1)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +4 melee (1d6+1) and bite +2 melee (1d4)"
+    },
+    {
+      "name": "Attack",
+      "text": "Pincers +20 melee (2d8+10)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 pincers +20 melee (2d8+10) and 2 claws +18 melee (1d6+5) and bite +18 melee (1d8+5)"
+    },
+    {
+      "name": "Attack",
+      "text": "Bite +14 melee (4d4+5)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +14 melee (4d4+5) and 2 claws +9 melee (1d8+2)"
+    },
+    {
+      "name": "Attack",
+      "text": "Longsword +25 melee (2d6+9/19-20) or slam +24 melee (1d8+9) or tail slap +24 melee (4d6+9)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Primary longsword +25/+20/+15/+10 melee (2d6+9/19-20) and 5 longswords +25 melee (2d6+4/19-20) and tail slap +22 melee (4d6+4); or 6 slams +24 melee (1d8+9) and tail slap +22 melee (4d6+4)"
+    },
+    {
+      "name": "Attack",
+      "text": "Bite +20 melee (2d8+7)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +20 melee (2d8+7) and 2 claws +17 melee (1d8+3)"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +8 melee (1d3-1 plus poison)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +8 melee (1d3-1 plus poison) and bite +3 melee (1d4-1)"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +15 melee (2d6+10) and eye ray +8 ranged touch"
+    },
+    {
+      "name": "Full Attack",
+      "text": "4 claws +15 melee (2d6+10) and bite +10 melee (1d8+5) and eye ray +8 ranged touch"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +7 melee (1d6+1)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +7 melee (1d6+1)"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +15 melee (2d6+6)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +15 melee (2d6+6) and bite +13 melee (1d8+3) and 2 talons +13 melee (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Demons are a race of creatures native to chaotic evil-aligned planes. They are ferocity personified and will attack any creature just for the sheer fun of it---even other demons.",
+    "grapple": "+20",
+    "spaceReach": "10 ft./10 ft.",
+    "environment": "A chaotic evil-aligned plane",
+    "organization": "Solitary, pair, gang (3-5), or squad (6-10)",
+    "treasure": "Standard",
+    "advancement": "11-14 HD (Large); 15-30 HD (Huge)",
+    "leveladjustment": "+8"
+  }
+}

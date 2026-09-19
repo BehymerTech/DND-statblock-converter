@@ -1,0 +1,95 @@
+{
+  "name": "Kakapo",
+  "sourceSystem": "pf1",
+  "source": "Ultimate Wilderness, Familiar Folio",
+  "size": "Tiny",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1/8",
+  "level": null,
+  "xp": 50,
+  "ac": {
+    "value": 13,
+    "notes": "dex +1, size +2",
+    "touch": 13,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 4,
+    "formula": "1d8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., other_semicolon glide ft., climb 10 ft."
+  },
+  "abilities": {
+    "str": 3,
+    "dex": 13,
+    "con": 10,
+    "int": 2,
+    "wis": 8,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +2, Ref +5, Will -1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +4, Perception +3",
+    "list": {
+      "Climb": "+4",
+      "Perception": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 13,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 0,
+  "feats": [
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite -2 (1d3-4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This rotund parrot has vibrant green-and-black feathers, a short hooked beak, and an array of white whiskers.",
+  "meta": {
+    "cmb": "-1",
+    "cmd": 5,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm jungles"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or family (3-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

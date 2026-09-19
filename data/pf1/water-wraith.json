@@ -1,0 +1,98 @@
+{
+  "name": "Water Wraith",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Bestiary",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "CN",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 16,
+    "notes": "dex +1, dodge +1, natural +5, size -1",
+    "touch": 11,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d10+3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 13,
+    "con": 13,
+    "int": 3,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +4, Ref +4, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +5, Stealth +1, Swim +14",
+    "list": {
+      "Perception": "+5",
+      "Stealth": "+1",
+      "Swim": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 15,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 3,
+  "feats": [
+    "Dodge",
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +4 (1d8+2 plus attach), 4 claws +4 (1d6+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This eight-legged lizard has a round, lamprey-like mouth full of teeth, and its scales slowly change color to match its surroundings.",
+  "meta": {
+    "cmb": "6 (+10 when attached)",
+    "cmd": "18 (30 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm rivers (Garund)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or swarm (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

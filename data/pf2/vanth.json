@@ -1,0 +1,123 @@
+{
+  "name": "Vanth",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 210.",
+  "size": "Medium",
+  "type": "Psychopomp",
+  "subtype": "Monitor",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 105,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 18,
+    "con": 14,
+    "int": 14,
+    "wis": 18,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +15, Ref +13, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +17 (1d20+17); __Athletics__: +17 (1d20+17); __Intimidation__: +15 (1d20+15); __Occultism__: +13 (1d20+13); __Religion__: +13 (1d20+13); __Stealth__: +17 (1d20+17); __Boneyard lore__: +15 (1d20+15); ",
+    "list": {
+      "Acrobatics": "+17",
+      "Athletics": "+17",
+      "Intimidation": "+15",
+      "Occultism": "+13",
+      "Religion": "+13",
+      "Stealth": "+17",
+      "Boneyard lore": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, lifesense 60"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Infernal",
+    "Requian"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 20 feet, DC 22."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "+1 scythe;"
+    },
+    {
+      "name": "Infuse Weapon",
+      "text": "(divine, evocation); A vanth's scythe is its symbol of office and gains a measure of its personal power. This scythe becomes a +1 scythe and is treated as if it were adamantine while the vanth wields it. A vanth whose scythe is taken or destroyed can infuse a new one with an hour of work."
+    },
+    {
+      "name": "Spirit Touch",
+      "text": "A vanth's Strikes affect incorporeal creatures with the effects of a ghost touch property rune and deal 2d6 (2d6) negative damage to living creatures and 2d6 (2d6) positive damage to undead."
+    },
+    {
+      "name": "Vanth's Curse",
+      "text": "⬺ (curse, divine, enchantment, misfortune); Frequency three times per day Effect The vanth bestows a curse on a creature by touching it with its scythe. The creature must attempt a DC 25 Will save. Critical Success The target is unaffected and is temporarily immune to Vanth's Curse for 24 hours. Success The target feels a momentary shudder of doom and is stupefied 1 for 1 minute by the distracting sensation. Failure The target becomes morose and glum as it accepts its own inevitable fate. For 1 hour, the target is stupefied 2. Each time the target gains the dying condition, the stupefied condition value increases by 1, to a maximum value of stupefied 4. Critical Failure As failure, but the effect is permanent."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ scythe +18 (deadly d10, magical, trip); Damage 1d10+8 (1d10+8) slashing plus spirit touch"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +17 (agile); Damage 1d6+8 (1d6+8) slashing plus spirit touch"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      4,
+      2,
+      2,
+      4,
+      2
+    ],
+    "items": "+1 scythe;"
+  }
+}

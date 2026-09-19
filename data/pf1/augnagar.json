@@ -1,0 +1,112 @@
+{
+  "name": "Augnagar",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "chaotic, evil, extraplanar, qlippoth",
+  "alignment": "CE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 29,
+    "notes": "dex -1, natural +22, size -2",
+    "touch": 7,
+    "flatFooted": 29
+  },
+  "hp": {
+    "average": 203,
+    "formula": "14d10+126"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 50 ft. (average), climb 50 ft."
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 9,
+    "con": 28,
+    "int": 5,
+    "wis": 20,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +18, Ref +10, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +19, Fly +12, Perception +22, Stealth +24",
+    "list": {
+      "Climb": "+19",
+      "Fly": "+12",
+      "Perception": "+22",
+      "Stealth": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision",
+    "scent",
+    "true seeing"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Abyssal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 14,
+  "feats": [
+    "Flyby Attack",
+    "Hover",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +23 (2d6+11 plus 1d8 bleed and rotting curse), 3 claws +23 (1d8+11 plus 1d8 bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous, spider-like creature has three clawed tails and eight legs connected by leathery webs of flesh.",
+  "meta": {
+    "cmb": "+27",
+    "cmd": "36 (44 vs. trip)",
+    "racialModifiers": [
+      "Stealth 16"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

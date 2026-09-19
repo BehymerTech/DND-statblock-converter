@@ -1,0 +1,104 @@
+{
+  "name": "Shocker Lizard",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Small",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 16,
+    "notes": "dex +2, natural +3, size +1",
+    "touch": 13,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d10+3"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 20 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 15,
+    "con": 13,
+    "int": 2,
+    "wis": 13,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +4, Ref +5, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +8, Perception +8, Stealth +17, Swim +8",
+    "list": {
+      "Climb": "+8",
+      "Perception": "+8",
+      "Stealth": "+17",
+      "Swim": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "electricity sense",
+    "low-light vision"
+  ],
+  "passivePerception": 18,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Skill Focus (Stealth)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +4 (1d4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This dog-sized lizard has two horns, one on either side of its head, and green scales that crackle with sparks of lightning.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": "14 (18 vs. trip)",
+    "racialModifiers": [
+      "Perception 2",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm marshes"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, clutch (3-6), or colony (7-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

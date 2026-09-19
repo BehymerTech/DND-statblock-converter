@@ -1,0 +1,108 @@
+{
+  "name": "Deep Sea Serpent",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Gargantuan",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 34,
+    "notes": "dex +5, dodge +1, natural +22, size -4",
+    "touch": 12,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 333,
+    "formula": "23d10+207"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., other_semicolon surge 400 ft. ft., swim 50 ft."
+  },
+  "abilities": {
+    "str": 39,
+    "dex": 20,
+    "con": 28,
+    "int": 2,
+    "wis": 17,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +22, Ref +20, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +23, Stealth +8, Swim +22",
+    "list": {
+      "Perception": "+23",
+      "Stealth": "+8",
+      "Swim": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 33,
+  "languages": [],
+  "initiative": "+9",
+  "babOrProficiency": 23,
+  "feats": [
+    "Critical Focus",
+    "Dodge",
+    "Improved Critical (bite)",
+    "Improved Critical (tail slap)",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Skill Focus (Perception)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +33 (6d10+14/19-20 plus grab), tail slap +33 (6d8+14/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous, water-dwelling serpent has bright, bulging eyes and rounded jaws filled with long, jagged teeth.",
+  "meta": {
+    "cmb": "41 (+45 grapple)",
+    "cmd": "57 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

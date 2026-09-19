@@ -1,0 +1,107 @@
+{
+  "name": "Mythic Ophiotaurus",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Gargantuan",
+  "type": "magical beast",
+  "subtype": "mythic",
+  "alignment": "N",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 36,
+    "notes": "dex +4, natural +26, size -4",
+    "touch": 10,
+    "flatFooted": 32
+  },
+  "hp": {
+    "average": 302,
+    "formula": "16d10+214"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 40,
+    "dex": 19,
+    "con": 28,
+    "int": 5,
+    "wis": 26,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +19, Ref +14, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +20, Perception +24, Swim +27",
+    "list": {
+      "Climb": "+20",
+      "Perception": "+24",
+      "Swim": "+27"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+15/-5;  dual initiative",
+  "babOrProficiency": 16,
+  "feats": [
+    "Combat Reflexes",
+    "Greater Vital Strike",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +27 (2d8+15), 2 hooves +25 (2d6+7), tail slap +25 (2d8+7 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous russet serpent has the head and forequarters of a ruddy bull with bronze horns and hooves.",
+  "meta": {
+    "cmb": "+35",
+    "cmd": 49,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm hills, plains, or swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

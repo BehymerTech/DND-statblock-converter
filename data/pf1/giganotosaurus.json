@@ -1,0 +1,105 @@
+{
+  "name": "Giganotosaurus",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Colossal",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 27,
+    "notes": "natural +25, size -8",
+    "touch": 2,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 199,
+    "formula": "21d8+105"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 42,
+    "dex": 11,
+    "con": 21,
+    "int": 2,
+    "wis": 15,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +17, Ref +12, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +26",
+    "list": {
+      "Perception": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 36,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 15,
+  "feats": [
+    "Cleave",
+    "Critical Focus",
+    "Diehard",
+    "Endurance",
+    "Great Cleave",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack",
+    "Run",
+    "Staggering Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +23 (4d6+16/19-20 plus grab), 2 claws +23 (1d6+16)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This bipedal dinosaur has a large head and cavernous jaws full of large, sharp teeth.",
+  "meta": {
+    "cmb": "+39",
+    "cmd": 49,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forests or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

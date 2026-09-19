@@ -1,0 +1,119 @@
+{
+  "name": "Vorgozen",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Colossal",
+  "type": "ooze",
+  "subtype": "kaiju, water",
+  "alignment": "CN",
+  "cr": "29",
+  "level": null,
+  "xp": 6553600,
+  "ac": {
+    "value": 47,
+    "notes": "dex +10, dodge +1, natural +34, size -8",
+    "touch": 13,
+    "flatFooted": 36
+  },
+  "hp": {
+    "average": 717,
+    "formula": "35d8+560"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., climb 50 ft., swim 100 ft."
+  },
+  "abilities": {
+    "str": 52,
+    "dex": 31,
+    "con": 42,
+    "int": 3,
+    "wis": 32,
+    "cha": 27
+  },
+  "saves": {
+    "text": "Fort +27, Ref +23, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +44, Perception +32, Swim +47",
+    "list": {
+      "Climb": "+44",
+      "Perception": "+32",
+      "Swim": "+47"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 42,
+  "languages": [
+    "Aquan (can’t speak)"
+  ],
+  "initiative": "+14",
+  "babOrProficiency": 26,
+  "feats": [
+    "Blinding Critical",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dodge",
+    "Greater Bull Rush",
+    "Greater Vital Strike",
+    "Improved Bull Rush",
+    "Improved Critical (tentacle)",
+    "Improved Initiative",
+    "Improved Lightning Reflexes",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Lunge",
+    "Mobility",
+    "Power Attack",
+    "Vital Strike",
+    "Weapon Focus (tentacle)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "6 tentacles +40 (4d6+21/19-20 plus 2d6 acid and grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This mountain of filthy green sludge heaps up on itself, extending six tentacles and unfolding its core to reveal a single red eye.",
+  "meta": {
+    "cmb": "55 (+59 bull rush)",
+    "cmd": "76 (78 vs. bull rush, can’t be tripped)",
+    "racialModifiers": [
+      "Perception 16"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

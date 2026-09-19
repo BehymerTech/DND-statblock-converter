@@ -1,0 +1,122 @@
+{
+  "name": "End's Voice",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 64: Beyond the Doomsday Door",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "chaotic, extraplanar",
+  "alignment": "CN",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 31,
+    "notes": "dex +3, dodge +1, insight +2, natural +16, size -1; never surprised or flat-footed",
+    "touch": 15,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 225,
+    "formula": "18d10+126"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 40 ft. (average)"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 17,
+    "con": 24,
+    "int": 17,
+    "wis": 16,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +18, Ref +11, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Disable Device +18, Fly +16, Intimidate +24, Knowledge (geography) +18, Knowledge (history) +21, Knowledge (religion) +21, Perception +21, Sense Motive +21, Spellcraft +18, Stealth +17, Use Magic Device +24",
+    "list": {
+      "Disable Device": "+18",
+      "Fly": "+16",
+      "Intimidate": "+24",
+      "Perception": "+21",
+      "Sense Motive": "+21",
+      "Spellcraft": "+18",
+      "Stealth": "+17",
+      "Use Magic Device": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "trueseeing"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Aklo",
+    "Ancient Osiriani",
+    "Azlanti",
+    "Common",
+    "Cyclops",
+    "Draconic",
+    "Orvian",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 18,
+  "feats": [
+    "Combat Casting",
+    "Combat Expertise",
+    "Dodge",
+    "Improved Critical (heavy flail)",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Improved Sunder",
+    "Iron Will",
+    "Weapon Focus (heavy flail)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 shock heavy flail +23/+18/+13/+8 (2d8+7/17-20 plus 1d6 electricity and maddening strike)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A long crimson cloak drapes over the form of this large faceless being, which floats just above the ground on footless legs as its menacing flail crackles with blue currents of electricity.",
+  "meta": {
+    "cmb": "23 (+25 sunder)",
+    "cmd": "39 (41 vs. sunder, can’t be tripped)",
+    "racialModifiers": [
+      "Acrobatics 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Astral Plane or Pharasma’s Boneyard)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (Large +1 shock heavy flail, other treasure)"
+      }
+    ]
+  }
+}

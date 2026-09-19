@@ -1,0 +1,116 @@
+{
+  "name": "Tor Linnorm",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Colossal",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "21",
+  "level": null,
+  "xp": 409600,
+  "ac": {
+    "value": 37,
+    "notes": "dex +10, natural +25, size -8",
+    "touch": 12,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 420,
+    "formula": "24d12+264"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 100 ft. (average), climb 40 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 46,
+    "dex": 30,
+    "con": 33,
+    "int": 7,
+    "wis": 25,
+    "cha": 28
+  },
+  "saves": {
+    "text": "Fort +25, Ref +26, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +26, Fly +29, Perception +34, Stealth +21, Swim +53",
+    "list": {
+      "Climb": "+26",
+      "Fly": "+29",
+      "Perception": "+34",
+      "Stealth": "+21",
+      "Swim": "+53"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent",
+    "true seeing"
+  ],
+  "passivePerception": 44,
+  "languages": [
+    "Aklo",
+    "Draconic",
+    "Sylvan"
+  ],
+  "initiative": "+14",
+  "babOrProficiency": 24,
+  "feats": [
+    "Awesome Blow",
+    "Blind-Fight",
+    "Cleave",
+    "Combat Reflexes",
+    "Great Cleave",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +34 (3d8+18/19-20 plus poison), 4 claws +34 (2d6+18), tail +29 (3d6+9 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This gigantic, wingless, four-armed dragon has rivulets of bright red magma coursing through its serpentine body.",
+  "meta": {
+    "cmb": "50 (+54 grapple)",
+    "cmd": "70 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold volcanic mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

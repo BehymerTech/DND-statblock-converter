@@ -1,0 +1,105 @@
+{
+  "name": "Charybdis",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Gargantuan",
+  "type": "aberration",
+  "subtype": "aquatic",
+  "alignment": "CN",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 28,
+    "notes": "dex -1, natural +23, size -4",
+    "touch": 5,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 184,
+    "formula": "16d8+112"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 50 ft."
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 9,
+    "con": 25,
+    "int": 4,
+    "wis": 19,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +12, Ref +6, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +23, Swim +20",
+    "list": {
+      "Perception": "+23",
+      "Swim": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Aquan"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 12,
+  "feats": [
+    "Awesome Blow",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +20 (2d8+12/19-20 plus grab), 2 claws +20 (2d6+12)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "An immense spiny monster, its back plated in chitin and its belly in thick folds of blubber, rises hungrily from the center of a whirlpool.",
+  "meta": {
+    "cmb": "28 (+32 grapple)",
+    "cmd": "37 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

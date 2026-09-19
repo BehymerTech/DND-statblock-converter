@@ -1,0 +1,143 @@
+{
+  "name": "Ancient White Dragon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 115.",
+  "size": "Huge",
+  "type": "Dragon",
+  "subtype": "Cold",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 15",
+  "xp": null,
+  "ac": {
+    "value": 36,
+    "notes": ""
+  },
+  "hp": {
+    "average": 330,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, fly 160 feet; ice climb 40 feet;"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 16,
+    "con": 24,
+    "int": 14,
+    "wis": 16,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +30, Ref +26, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +24 (1d20+24); __Arcana__: +23 (1d20+23); __Athletics__: +31 (1d20+31); __Intimidation__: +28 (1d20+28); __Stealth__: +26 (1d20+26); ",
+    "list": {
+      "Acrobatics": "+24",
+      "Arcana": "+23",
+      "Athletics": "+31",
+      "Intimidation": "+28",
+      "Stealth": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60, snow vision"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Snow Vision",
+      "text": "Snow doesn't impair a white dragon's vision; it ignores concealment from snowfall."
+    },
+    {
+      "name": "Blizzard",
+      "text": "(arcane, aura, cold); 50 feet. After the dragon uses its Breath Weapon, a fierce blizzard of blinding snow surrounds its body for 1 round. Everything in the aura is difficult terrain for other creatures that are on the ground, climbing, or flying. The blowing snow also makes all creatures in the area concealed. While the blizzard rages, the dragon's dragon chill extends to the full area of the blizzard."
+    },
+    {
+      "name": "Dragon Chill",
+      "text": "(arcane, aura, cold, evocation); 10 feet, 3d6 (3d6) cold damage (DC 34 basic Reflex)"
+    },
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 90 feet, DC 34."
+    },
+    {
+      "name": "Freezing Blood",
+      "text": "⬲ (arcane, cold); Trigger An adjacent creature deals piercing or slashing damage to the dragon. Effect The dragon's blood sprays on the creature, dealing 3d6 (3d6) cold damage. A creature that takes cold damage in this way is slowed 1 for 1 round."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (arcane, cold, evocation); The dragon breathes a cloud of frost that deals 16d6 (16d6) cold damage in a 50-foot cone (DC 36 basic Reflex save). It can't use Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Draconic Frenzy",
+      "text": "⬺ The dragon makes two claw Strikes and one tail Strike in any order."
+    },
+    {
+      "name": "Draconic Momentum",
+      "text": "When the dragon scores a critical hit with a Strike, it recharges its Breath Weapon."
+    },
+    {
+      "name": "Ground Slam",
+      "text": "⬻ The dragon slams into the ground. It can do this if it's on the ground or Flying within 10 feet of the ground. Each creature on the ground within 10 feet must succeed at a DC 37 Reflex save or fall prone and take 5d6 (5d6) bludgeoning damage. The dragon can then Step."
+    },
+    {
+      "name": "Ice Climb",
+      "text": "A white dragon can climb on ice as though it had the listed climb Speed. It ignores difficult terrain and greater difficult terrain from ice and snow and doesn't risk falling when crossing ice."
+    },
+    {
+      "name": "Shape Ice",
+      "text": "⬺ (arcane, transmutation, water); The dragon reshapes a cube of ice or snow it touches, up to 10 feet across. Any creature standing atop the ice must succeed at a DC 15 Reflex save or Acrobatics check. On a failure, the creature falls prone atop the ice; on a critical failure, it falls off the ice entirely and is also prone."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +31 (cold, magical, reach 15 feet); Damage 3d12+16 (3d12+16) piercing plus 3d6 (3d6) cold"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +31 (agile, magical, reach 10 feet); Damage 3d10+16 (3d10+16) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +29 (magical, reach 20 feet); Damage 2d10+14 (2d10+14) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      3,
+      7,
+      2,
+      3,
+      3
+    ]
+  }
+}

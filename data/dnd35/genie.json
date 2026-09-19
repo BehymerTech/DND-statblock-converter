@@ -1,0 +1,149 @@
+{
+  "name": "Genie",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Outsider",
+  "subtype": "Native",
+  "alignment": "Usually neutral",
+  "cr": "4",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": "+2 Dex, +1 natural, +5 chainmail",
+    "touch": 12,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 33,
+    "formula": "6d8+6"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": 15,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft. (4 squares), fly 15 ft. (perfect) in chainmail; base land speed 30 ft., base fly speed 20 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 15,
+    "con": 12,
+    "int": 14,
+    "wis": 15,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +6, Ref +7, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +11, Concentration +10, Craft (any Two) +11, Diplomacy +3, Escape Artist +6, Listen +11, Move Silently +6, Ride +11, Sense Motive +11, Spot +11, Use Rope +2 (+4 With Bindings);",
+    "list": {
+      "Appraise": "+11",
+      "Concentration": "+10",
+      "Diplomacy": "+3",
+      "Escape Artist": "+6",
+      "Listen": "+11",
+      "Move Silently": "+6",
+      "Sense Motive": "+11",
+      "Spellcraft": "+14",
+      "Spot": "+11",
+      "Use Rope": "+2",
+      "Bluff": "+15",
+      "Disguise": "+2",
+      "Intimidate": "+17",
+      "Ride": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "Darkvision 60 ft.",
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 6,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Initiative (B)",
+    "Mobility"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Air mastery, spell-like abilities, whirlwind"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., immunity to acid, *plane shift*, telepathy 100 ft."
+    },
+    {
+      "name": "Special Attacks",
+      "text": "*Change size*, heat, spell-like abilities"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., immunity to fire, *plane shift*, telepathy 100 ft., vulnerability to cold"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "*Change size*, spell-like abilities"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., elemental endurance, *plane shift,* resistance to fire 10, telepathy 100 ft."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Slam +10 melee (1d8+4)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 slams +10 melee (1d8+4)"
+    },
+    {
+      "name": "Attack",
+      "text": "Slam +15 melee (1d8+6 plus 1d6 fire)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 slams +15 melee (1d8+6 plus 1d6 fire)"
+    },
+    {
+      "name": "Attack",
+      "text": "Scimitar +9 melee (1d6+4/18-20) or longbow +8 ranged (1d8/x3)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Scimitar +9/+4 melee (1d6+4/18-20) or longbow +8/+3 ranged (1d8/x3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Genies are humanlike beings who dwell on the elemental planes. They are famous for their strength, guile, and skill with illusion magic.",
+    "grapple": "+9",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Warm deserts",
+    "organization": "Solitary, company (2-4), or band (6-15)",
+    "treasure": "Standard",
+    "advancement": "7-9 HD (Medium); 10-18 HD (Large)",
+    "leveladjustment": "+5"
+  }
+}

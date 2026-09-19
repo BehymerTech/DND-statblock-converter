@@ -1,0 +1,127 @@
+{
+  "name": "Assassin",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 212.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 26,
+    "notes": ""
+  },
+  "hp": {
+    "average": 130,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 20,
+    "con": 14,
+    "int": 14,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +12, Ref +19, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +17 (1d20+17); __Athletics__: +13 (1d20+13); __Deception__: +12 (1d20+12); __Diplomacy__: +10 (1d20+10); __Medicine__: +14 (1d20+14); __Society__: +12 (1d20+12); __Stealth__: +19 (1d20+19); __Survival__: +12 (1d20+12); __Thievery__: +15 (1d20+15); ",
+    "list": {
+      "Acrobatics": "+17",
+      "Athletics": "+13",
+      "Deception": "+12",
+      "Diplomacy": "+10",
+      "Medicine": "+14",
+      "Society": "+12",
+      "Stealth": "+19",
+      "Survival": "+12",
+      "Thievery": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 26,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Underworld Lore",
+      "text": "+14 Str +3, Dex +5, Con +2, Int +2, Wis +2, Cha +0 Items +1 striking composite shortbow (20 arrows), lesser darkvision elixir, giant centipede venom (3), invisibility potion, leather armor, +1 rapier, simple injury poison (8 doses, 2d4 (2d4) poison damage), sleep poison (2)"
+    },
+    {
+      "name": "Swift Sneak",
+      "text": "The assassin can move their full Speed when Sneaking."
+    },
+    {
+      "name": "Deny Advantage",
+      "text": "The assassin isn't flat-footed to creatures of 8th level or lower that are hidden, undetected, flanking, or using surprise attack."
+    },
+    {
+      "name": "Nimble Dodge",
+      "text": "⬲ Trigger The assassin is targeted with a melee or ranged attack by an attacker they can see Effect The assassin gains a +2 circumstance bonus to AC against the triggering attack."
+    },
+    {
+      "name": "Poison Weapon",
+      "text": "⬻ (manipulate); Requirements The assassin is wielding a piercing or slashing weapon and has a free hand Effect The assassin applies a poison to the weapon."
+    },
+    {
+      "name": "Quick Draw",
+      "text": "⬻ The assassin Interacts to draw a weapon, then Strikes with that weapon."
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "The assassin deals an extra 2d6 (2d6) precision damage to flat-footed creatures."
+    },
+    {
+      "name": "Surprise Attack",
+      "text": "On the first round of combat, creatures that haven't acted yet are flatfooted to the assassin."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ rapier +18 (deadly 1d8, disarm, finesse, magical); Damage 1d6+8 (1d6+8) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ composite shortbow +20 (deadly 2d10, magical, propulsive, range increment 60 feet, reload 0); Damage 2d6+4 (2d6+4) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      5,
+      2,
+      2,
+      2,
+      0
+    ]
+  }
+}

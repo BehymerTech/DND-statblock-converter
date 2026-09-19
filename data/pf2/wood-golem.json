@@ -1,0 +1,103 @@
+{
+  "name": "Wood Golem",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 130.",
+  "size": "Medium",
+  "type": "Mindless",
+  "subtype": "Construct, Golem",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 23,
+    "notes": ""
+  },
+  "hp": {
+    "average": 95,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 18,
+    "con": 16,
+    "int": 0,
+    "wis": 10,
+    "cha": 0
+  },
+  "saves": {
+    "text": "Fort +15, Ref +16, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +17 (1d20+17); ",
+    "list": {
+      "Athletics": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 22,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Golem Antimagic",
+      "text": "harmed by fire (4d8 (4d8), 2d6 (2d6) from areas or persistent damage); healed by plant (area 2d6 (2d6) HP); slowed by earth."
+    },
+    {
+      "name": "Vulnerable to Shape Wood",
+      "text": "A wood golem targeted by shape wood takes 2d8 (2d8) damage per spell level, with a basic Fortitude save against the caster's spell DC. On a critical failure, the golem is also immobilized for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Splinter",
+      "text": "⬲ (arcane, transmutation); Trigger The wood golem takes physical damage; A jagged, sizable splinter of wood lances out at the golem's attacker. The golem makes a splinter Strike against an adjacent creature without triggering reactions."
+    },
+    {
+      "name": "Splinter Volley",
+      "text": "⬺ (arcane, evocation); The wood golem makes up to four splinter Strikes, each against a different target. These attacks count toward the wood golem's multiple attack penalty, but the multiple attack penalty doesn't increase until after the wood golem makes all of its attacks."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +17 (magical); Damage 2d8+8 (2d8+8) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ splinter +16 (magical, range increment 30 feet); Damage 2d4+8 (2d4+8) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      4,
+      3,
+      -5,
+      0,
+      -5
+    ]
+  }
+}

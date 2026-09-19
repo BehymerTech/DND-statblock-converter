@@ -1,0 +1,113 @@
+{
+  "name": "Vault Keeper",
+  "sourceSystem": "pf1",
+  "source": "Planar Adventures, The Emerald Spire Superdungeon",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "earth, elemental, extraplanar",
+  "alignment": "LN",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 28,
+    "notes": "dex +8, dodge +1, natural +9",
+    "touch": 19,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 200,
+    "formula": "16d10+112"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 40 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 27,
+    "con": 25,
+    "int": 27,
+    "wis": 18,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +12, Ref +18, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +20, Climb +30, Craft (sculpture) +13, Disable Device +22, Heal +20, Knowledge (arcana) +27, Knowledge (dungeoneering) +24, Knowledge (geography) +24, Knowledge (nature) +24, Knowledge (planes) +27, Perception +23, Sense Motive +23, Spellcraft +27, Stealth +27, Use Magic Device +26",
+    "list": {
+      "Acrobatics": "+20",
+      "Climb": "+30",
+      "Disable Device": "+22",
+      "Heal": "+20",
+      "Perception": "+23",
+      "Sense Motive": "+23",
+      "Spellcraft": "+27",
+      "Stealth": "+27",
+      "Use Magic Device": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Terran",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 16,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Critical (claw)",
+    "Improved Sunder",
+    "Mobility",
+    "Power Attack",
+    "Spring Attack",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 claws +24 (2d4+6/19-20 plus crystallization)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering, spindly, four-armed entity appears to be made of stone and crystal, yet it moves with a fluid grace.",
+  "meta": {
+    "cmb": "22 (+24 sunder)",
+    "cmd": "41 (43 vs. sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cabal (3-6 plus 4-12 pechs and 2-6 earth elementals)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

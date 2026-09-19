@@ -1,0 +1,107 @@
+{
+  "name": "NPC Pathfinder Chronicler",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "halfling",
+  "alignment": "CG",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 21,
+    "notes": "armor +5, deflection +1, dex +2, dodge +1, natural +1, size +1",
+    "touch": 15,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 68,
+    "formula": "10d8+20"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 14,
+    "con": 14,
+    "int": 13,
+    "wis": 10,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +6, Ref +10, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +12, Climb +1, Escape Artist +9, Heal +2, Knowledge (arcana) +11, Knowledge (geography) +11, Knowledge (history) +11, Linguistics +12, Perception +10, Perform (oratory) +16, Profession (scribe) +13, Sense Motive +8, Sleight of Hand +10, Spellcraft +14, Stealth +14, Survival +8, Swim +3, Use Magic Device +8",
+    "list": {
+      "Acrobatics": "+12",
+      "Climb": "+1",
+      "Escape Artist": "+9",
+      "Heal": "+2",
+      "Linguistics": "+12",
+      "Perception": "+10",
+      "Sense Motive": "+8",
+      "Sleight of Hand": "+10",
+      "Spellcraft": "+14",
+      "Stealth": "+14",
+      "Survival": "+8",
+      "Swim": "+3",
+      "Use Magic Device": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 20,
+  "languages": [
+    "Azlanti",
+    "Common",
+    "Draconic",
+    "Elven",
+    "Halfling",
+    "Osiriani"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 6,
+  "feats": [
+    "Dodge",
+    "Iron Will",
+    "Mobility",
+    "Nimble Moves",
+    "Scribe Scroll"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +6/+1 (1d3-1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 light crossbow +10 (1d6+1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Halfling",
+    "class": "bard 5, Pathfinder chronicler 5",
+    "cmb": "+4",
+    "cmd": 18
+  }
+}

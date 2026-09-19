@@ -1,0 +1,106 @@
+{
+  "name": "Guecubu",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "earth",
+  "alignment": "CE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "dex +4, dodge +1, natural +6",
+    "touch": 15,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 104,
+    "formula": "11d8+55"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., other_semicolon earth glide ft., burrow 15 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 18,
+    "con": "None",
+    "int": 13,
+    "wis": 18,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +8, Ref +7, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Knowledge (nature) +12, Perception +18, Sense Motive +18, Stealth +18",
+    "list": {
+      "Acrobatics": "+15",
+      "Perception": "+18",
+      "Sense Motive": "+18",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Abyssal",
+    "Common"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 8,
+  "feats": [
+    "Combat Expertise",
+    "Dodge",
+    "Improved Initiative",
+    "Mobility",
+    "Spring Attack",
+    "Whirlwind Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +14 (1d8+6 plus misfortune), 2 slams +14 (1d6+6 plus misfortune)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A skeletal carcass pulls itself from the ground, its body formed as much from earth and soil as from bones and rotting flesh.",
+  "meta": {
+    "cmb": "+14",
+    "cmd": 29,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

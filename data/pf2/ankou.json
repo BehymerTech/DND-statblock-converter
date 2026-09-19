@@ -1,0 +1,103 @@
+{
+  "name": "Ankou",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 19.",
+  "size": "Large",
+  "type": "Fey",
+  "subtype": "",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 14",
+  "xp": null,
+  "ac": {
+    "value": 36,
+    "notes": ""
+  },
+  "hp": {
+    "average": 280,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 75,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 75 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 26,
+    "con": 18,
+    "int": 14,
+    "wis": 14,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +23, Ref +28, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +28 (1d20+28); __Deception__: +25 (1d20+25); __Intimidation__: +27 (1d20+27); __Nature__: +22 (1d20+22); __Stealth__: +28 (1d20+28); ",
+    "list": {
+      "Acrobatics": "+28",
+      "Deception": "+25",
+      "Intimidation": "+27",
+      "Nature": "+22",
+      "Stealth": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "lifesense 120, low-light vision"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Sylvan (can't speak any"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Shadow Doubles",
+      "text": "⬻ to ⬽ (illusion, occult, shadow); Frequency once per day Effect For each action spent to use this ability, the ankou creates one shadowy duplicate of themself anywhere within 60 feet of themself. Shadow doubles have the same statistics as an ankou, but they have the summoned trait, have 84 Hit Points, can't use Shadow Doubles or innate spells, and have an attack bonus of +25 for their Strikes. A shadow double that attempts a saving throw against a light effect can't get a result better than failure. Each double remains for 1 round, until it's reduced to 0 Hit Points, or until it moves further than 120 feet from the ankou, whichever comes first. Each round thereafter, the ankou can spend a single action that has the concentrate trait to extend the duration of surviving duplicates by 1 round, to a maximum duration of 1 minute. The ankou can see through the eyes of all of the shadow doubles at once. A character who Seeks can identify an ankou as real or a shadow double with a successful DC 39 Perception check."
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "An ankou's Strikes deal an additional 2d6 (2d6) precision damage to flat-footed creatures."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +29 (agile, cold iron); Damage 3d6+15 (3d6+15) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ wing +29 (cold iron, reach 10 feet); Damage 2d6+15 (2d6+15) piercing plus 2d6 (2d6) persistent bleed"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      8,
+      4,
+      2,
+      2,
+      5
+    ]
+  }
+}

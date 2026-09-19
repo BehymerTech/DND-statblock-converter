@@ -1,0 +1,108 @@
+{
+  "name": "Goblin Frog-Talker",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "goblinoid",
+  "alignment": "NE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 19,
+    "notes": "armor +4, deflection +1, dex +3, size +1",
+    "touch": 15,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 47,
+    "formula": "6d6+24"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 17,
+    "con": 14,
+    "int": 16,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +5, Ref +6, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (alchemy) +9, Intimidate +8, Perception +7, Ride +7, Spellcraft +12, Stealth +17, Swim +1",
+    "list": {
+      "Intimidate": "+8",
+      "Perception": "+7",
+      "Ride": "+7",
+      "Spellcraft": "+12",
+      "Stealth": "+17",
+      "Swim": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common",
+    "Giant",
+    "Goblin",
+    "Orc"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 3,
+  "feats": [
+    "Brew Potion",
+    "Extra Hex",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +2 (1d3-2/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "javelin +7 (1d4-2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Goblin",
+    "class": "witch 6 (Pathfinder RPG Advanced Player’s Guide 65)",
+    "cmb": "+0",
+    "cmd": 14,
+    "racialModifiers": [
+      "Ride 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forest and plains (usually coastal regions)"
+      }
+    ]
+  }
+}

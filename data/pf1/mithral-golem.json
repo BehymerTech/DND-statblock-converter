@@ -1,0 +1,82 @@
+{
+  "name": "Mithral Golem",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Huge",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 32,
+    "notes": "dex +7, dodge +1, natural +16, size -2",
+    "touch": 16,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 172,
+    "formula": "24d10+40"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 33,
+    "dex": 24,
+    "con": "None",
+    "int": "None",
+    "wis": 11,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +8, Ref +15, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+7",
+  "babOrProficiency": 24,
+  "feats": [
+    "Dodge",
+    "Mobility",
+    "Run",
+    "Spring AttackEcologyEnvironment any"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +33 (4d10+11)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Made of polished silvery metal, this immense humanoid construct moves with shocking grace and speed.",
+  "meta": {
+    "cmb": "+37",
+    "cmd": 55
+  }
+}

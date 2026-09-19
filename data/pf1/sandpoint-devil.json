@@ -1,0 +1,108 @@
+{
+  "name": "Sandpoint Devil",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea World Guide, Mystery Monsters Revisited",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "native",
+  "alignment": "NE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 22,
+    "notes": "dex +3, dodge +1, natural +9, size -1",
+    "touch": 13,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 114,
+    "formula": "12d10+48"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (poor)"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 17,
+    "con": 19,
+    "int": 8,
+    "wis": 17,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +12, Ref +7, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +12, Intimidate +12, Knowledge (geography) +5, Perception +18, Stealth +14, Survival +18",
+    "list": {
+      "Fly": "+12",
+      "Intimidate": "+12",
+      "Perception": "+18",
+      "Stealth": "+14",
+      "Survival": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Abyssal",
+    "Varisian"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 12,
+  "feats": [
+    "Dodge",
+    "Hover",
+    "Improved Vital Strike",
+    "Mobility",
+    "Spring Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +17 (2d6+6/19-20), 2 hooves +17 (1d8+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This mangy horselike beast walks perversely upright. Wings, a dragon’s tail, and a fanged mouth complete its vile appearance.",
+  "meta": {
+    "cmb": "+19",
+    "cmd": "33 (37 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Varisia)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

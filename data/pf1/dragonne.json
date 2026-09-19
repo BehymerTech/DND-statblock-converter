@@ -1,0 +1,106 @@
+{
+  "name": "Dragonne",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Bonus Bestiary",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "dex +3, natural +8, size -1",
+    "touch": 12,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 76,
+    "formula": "9d10+27"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 30 ft. (poor)"
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 17,
+    "con": 17,
+    "int": 6,
+    "wis": 12,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +9, Ref +9, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +5, Perception +12",
+    "list": {
+      "Fly": "+5",
+      "Perception": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 9,
+  "feats": [
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (1d8+5), 2 claws +13 (1d6+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature has the features of a lion but the wings and scales of a brass dragon, and a wild mane matching its scales.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": "28 (32 vs. trip)",
+    "racialModifiers": [
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate deserts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pride (5-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

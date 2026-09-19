@@ -1,0 +1,101 @@
+{
+  "name": "Girallon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 18,
+    "notes": "dex +3, natural +6, size -1",
+    "touch": 12,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 73,
+    "formula": "7d10+35"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 40 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 17,
+    "con": 18,
+    "int": 2,
+    "wis": 12,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +9, Ref +8, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +12, Perception +11, Stealth +5",
+    "list": {
+      "Climb": "+12",
+      "Perception": "+11",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": "+7",
+  "babOrProficiency": 7,
+  "feats": [
+    "Improved Initiative",
+    "Iron Will",
+    "Skill Focus (Perception)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +10 (1d6+4), 4 claws +10 (1d4+4 plus rend)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This four-armed, gorilla-like creature, covered with matted white fur, roars in rage as it rears up to its full, towering height.",
+  "meta": {
+    "cmb": "+12",
+    "cmd": 25,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or company (5-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

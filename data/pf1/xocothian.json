@@ -1,0 +1,105 @@
+{
+  "name": "Xocothian",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Gods",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "air, extraplanar, water",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +1, natural +7, size -1",
+    "touch": 10,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 33,
+    "formula": "6d10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 90 ft. (average), swim 90 ft., speed burst 200 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 12,
+    "con": 11,
+    "int": 10,
+    "wis": 11,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +5, Ref +5, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +8, Handle Animal +9, Knowledge (nature) +9, Knowledge (religion) +9, Perception +9, Stealth +6, Swim +10",
+    "list": {
+      "Fly": "+8",
+      "Handle Animal": "+9",
+      "Perception": "+9",
+      "Stealth": "+6",
+      "Swim": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Druidic",
+    "Sylvan",
+    "speak with animals"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 6,
+  "feats": [
+    "Combat Reflexes",
+    "Lightning Reflexes",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +7 (1d8+2), 2 wings +2 (1d6+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This serpentine mix of flying fish and great seabird rolls and twists like waves in an ocean storm.",
+  "meta": {
+    "cmb": "+9",
+    "cmd": "20 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Air or Plane of Water)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or school (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

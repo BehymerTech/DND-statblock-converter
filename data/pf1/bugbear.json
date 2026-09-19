@@ -1,0 +1,109 @@
+{
+  "name": "Bugbear",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "goblinoid",
+  "alignment": "CE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 17,
+    "notes": "armor +2, dex +1, natural +3, shield +1",
+    "touch": 11,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 16,
+    "formula": "3d8+3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 13,
+    "con": 13,
+    "int": 10,
+    "wis": 10,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +2, Ref +4, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +7, Perception +8, Stealth +10",
+    "list": {
+      "Intimidate": "+7",
+      "Perception": "+8",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Goblin"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Intimidating Prowess",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "morningstar +5 (1d8+3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "javelin +3 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": 16,
+    "racialModifiers": [
+      "Intimidate 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, gang (3-6), or warband (7-12 plus 2 warriors of 1st level and 1 chieftain of 3rd-5th level)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (leather armor, light wooden shield, morningstar, 3 javelins, other treasure)"
+      }
+    ]
+  }
+}

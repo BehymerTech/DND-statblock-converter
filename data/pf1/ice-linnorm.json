@@ -1,0 +1,112 @@
+{
+  "name": "Ice Linnorm",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Colossal",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 32,
+    "notes": "dex +6, natural +24, size -8",
+    "touch": 8,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 279,
+    "formula": "18d12+162"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 100 ft. (average), climb 40 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 38,
+    "dex": 22,
+    "con": 29,
+    "int": 5,
+    "wis": 20,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +20, Ref +19, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +43, Fly +19, Perception +26, Swim +22",
+    "list": {
+      "Climb": "+43",
+      "Fly": "+19",
+      "Perception": "+26",
+      "Swim": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent",
+    "true seeing"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Aklo",
+    "Draconic",
+    "Sylvan"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 18,
+  "feats": [
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +24 (3d8+14/19-20 plus poison), 2 claws +24 (2d6+14), tail +19 (3d6+7 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A snake-like, dragon-headed monster of tremendous size rises up, drifts of snow and ice tumbling from its coiling flanks.",
+  "meta": {
+    "cmb": "40 (+44 grapple)",
+    "cmd": "56 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold hills and mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Gerbie",
+  "sourceSystem": "pf1",
+  "source": "The First World, Realm of the Fey",
+  "size": "Small",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CG",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +3, dodge +1, natural +2, size +1",
+    "touch": 15,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 38,
+    "formula": "7d6+14"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 16,
+    "con": 13,
+    "int": 11,
+    "wis": 16,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +3, Ref +8, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +12, Diplomacy +19, Handle Animal +12, Heal +10, Perception +13, Perform (comedy) +9, Ride +10",
+    "list": {
+      "Acrobatics": "+12",
+      "Diplomacy": "+19",
+      "Handle Animal": "+12",
+      "Heal": "+10",
+      "Perception": "+13",
+      "Ride": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "First Speech",
+    "truespeech"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 3,
+  "feats": [
+    "Dodge",
+    "Toughness",
+    "Weapon Finesse",
+    "Weapon Focus (touch)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +7 (1d4-2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This half-mouse, half-lizard creature has large eyes and stands on its hind legs, radiating an air of goodwill.",
+  "meta": {
+    "cmb": "+0",
+    "cmd": 14,
+    "racialModifiers": [
+      "Diplomacy 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (First World)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or party (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

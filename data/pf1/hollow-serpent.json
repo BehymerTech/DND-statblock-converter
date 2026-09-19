@@ -1,0 +1,106 @@
+{
+  "name": "Hollow Serpent",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 42: Sanctum of the Serpent God, Bestiary 3",
+  "size": "Large",
+  "type": "undead",
+  "subtype": "reptilian",
+  "alignment": "NE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 31,
+    "notes": "dex +9, dodge +1, natural +12, size -1",
+    "touch": 19,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 230,
+    "formula": "20d8+140"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., climb 50 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 29,
+    "con": "None",
+    "int": 6,
+    "wis": 19,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +14, Ref +17, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +28, Escape Artist +19, Perception +17, Stealth +18",
+    "list": {
+      "Climb": "+28",
+      "Escape Artist": "+19",
+      "Perception": "+17",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "lifesense"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Aklo",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 15,
+  "feats": [
+    "Agile Maneuvers",
+    "Channel Smite",
+    "Dodge",
+    "Great Fortitude",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Lunge",
+    "Toughness",
+    "Vital Strike",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +23 (4d10+10 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "An unseen breeze stirs the desiccated scales of this immense snakeskin, causing the shedding’s frayed, dried edges to flutter with a semblance of life. Pinpoints of unholy green light flare behind the intact eye lenses as the head starts to rise. The same glow behind those long-dead eyes illuminates a gaping mouth and bony fangs. Then a terrifying, painful hiss assaults your mind as the serpent slithers forward with a silent, unearthly grace.",
+  "meta": {
+    "cmb": "25 (+29 grapple)",
+    "cmd": "43 (can't be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or nest (3-8)"
+      }
+    ]
+  }
+}

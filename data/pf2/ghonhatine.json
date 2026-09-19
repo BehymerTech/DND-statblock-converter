@@ -1,0 +1,107 @@
+{
+  "name": "Ghonhatine",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 119.",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 30,
+    "notes": ""
+  },
+  "hp": {
+    "average": 175,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 16,
+    "con": 22,
+    "int": 6,
+    "wis": 20,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +22, Ref +17, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +21 (1d20+21); __Intimidation__: +19 (1d20+19); __Stealth__: +19 (1d20+19); ",
+    "list": {
+      "Athletics": "+21",
+      "Intimidation": "+19",
+      "Stealth": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Stench",
+      "text": "(aura, olfactory); 30 feet. A creature entering the aura or starting its turn in the aura must succeed at a DC 26 Fortitude save or become sickened 1 (plus slowed 1 for as long as it's sickened on a critical failure). While within the aura, affected creatures take a –2 circumstance penalty to saves against disease and to recover from the sickened condition. A creature that succeeds at its save is temporarily immune for 1 minute."
+    },
+    {
+      "name": "Feed",
+      "text": "⬻ (manipulate); Requirements The ghonhatine is adjacent to the corpse of a creature that died within the last hour Effect The ghonhatine devours a chunk of the corpse. For 1 minute, the ghonhatine gains fast healing 5 and a +2 status bonus to damage rolls. It can gain these benefits from any given corpse only once."
+    },
+    {
+      "name": "Fleshgout",
+      "text": "(disease); Saving Throw DC 28 Fortitude. Stage 1 carrier with no ill effect (1d4 (1d4) hours) Stage 2 enfeebled 1 and drained 1 (1 day) Stage 3 enfeebled 2 and drained 2 (1 day) Stage 4 enfeebled 2 and drained 3 (1 day) Stage 5 drained 4, enfeebled 2, and unconscious (1 day)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +23 (reach 10 feet); Damage 2d12+10 (2d12+10) piercing plus 1d6 (1d6) persistent acid"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +23 (agile, reach 10 feet); Damage 2d10+10 (2d10+10) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ vomit +19 (acid, range increment 20 feet); Damage 5d6 (5d6) acid plus fleshgout"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      3,
+      6,
+      -2,
+      5,
+      3
+    ]
+  }
+}

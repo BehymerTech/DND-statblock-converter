@@ -1,0 +1,95 @@
+{
+  "name": "NPC God Caller",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 12,
+    "notes": "armor +3, dex -1",
+    "touch": 9,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 41,
+    "formula": "5d8+15"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 8,
+    "con": 13,
+    "int": 14,
+    "wis": 12,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +3, Ref +1, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +8, Knowledge (arcana) +8, Knowledge (history) +8, Knowledge (nature) +8, Knowledge (planes) +8, Knowledge (religion) +8, Spellcraft +10, Use Magic Device +10, Perception +1",
+    "list": {
+      "Diplomacy": "+8",
+      "Spellcraft": "+10",
+      "Use Magic Device": "+10",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 11,
+  "languages": [
+    "Abyssal",
+    "Aquan",
+    "Common",
+    "Hallit"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 3,
+  "feats": [
+    "Diehard",
+    "Endurance",
+    "Persuasive",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "sickle +3 (1d6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dart +2 (1d4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "summoner 5",
+    "cmb": "+3",
+    "cmd": 12
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "name": "NPC Sodden Scavenger",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "CN",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 18,
+    "notes": "armor +4, dex +3, dodge +1",
+    "touch": 14,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 37,
+    "formula": "2d10+3d8+13"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 17,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +6, Ref +6, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +9, Climb +8, Disable Device +10, Escape Artist +10, Perception +9, Sense Motive +7, Stealth +11, Survival +7, Swim +8",
+    "list": {
+      "Acrobatics": "+9",
+      "Climb": "+8",
+      "Disable Device": "+10",
+      "Escape Artist": "+10",
+      "Perception": "+9",
+      "Sense Motive": "+7",
+      "Stealth": "+11",
+      "Survival": "+7",
+      "Swim": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 19,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 4,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Mobility",
+    "Point-Blank Shot",
+    "Shot on the Run",
+    "Two-Weapon Fighting",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk short sword +8 (1d6+2/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "longbow +7 (1d8/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "fighter 2, rogue 3",
+    "cmb": "+6",
+    "cmd": 20
+  }
+}

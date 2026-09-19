@@ -1,0 +1,99 @@
+{
+  "name": "Eagle, Giant",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Usually neutral good",
+  "cr": "3",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "-1 size, +3 Dex, +3 natural",
+    "touch": 12,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 26,
+    "formula": "4d10+4"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": 80,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft. (2 squares), fly 80 ft. (average)"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 17,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +5, Ref +7, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (nature) +2, Listen +6, Sense Motive +4, Spot +15, Survival +3;",
+    "list": {
+      "Listen": "+6",
+      "Sense Motive": "+4",
+      "Spot": "+15",
+      "Survival": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 4,
+  "feats": [
+    "Alertness",
+    "Flyby Attack"
+  ],
+  "traits": [
+    {
+      "name": "Special Qualities",
+      "text": "Low-light vision, evasion"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Claw +7 melee (1d6+4)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +7 melee (1d6+4) and bite +2 melee (1d8+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A typical giant eagle stands about 10 feet tall, has a wingspan of up to 20 feet, and resembles its smaller cousins in nearly every way except size. It weighs about 500 pounds.",
+    "grapple": "+12",
+    "spaceReach": "10 ft./5 ft.",
+    "environment": "Temperate mountains",
+    "organization": "Solitary, pair, or eyrie (5-12)",
+    "treasure": "None",
+    "advancement": "5-8 HD (Large); 9-12 HD (Huge)",
+    "leveladjustment": "+2 (cohort)"
+  }
+}

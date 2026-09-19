@@ -1,0 +1,111 @@
+{
+  "name": "Hunter",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 220.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 115,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 18,
+    "con": 14,
+    "int": 12,
+    "wis": 18,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +15, Ref +17, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Medicine__: +15 (1d20+15); __Nature__: +17 (1d20+17); __Stealth__: +17 (1d20+17); __Survival__: +17 (1d20+17); __Forest lore__: +13 (1d20+13); ",
+    "list": {
+      "Medicine": "+15",
+      "Nature": "+17",
+      "Stealth": "+17",
+      "Survival": "+17",
+      "Forest lore": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 27,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Survival",
+      "text": "+17 Str +4, Dex +4, Con +2, Int +1, Wis +4, Cha +0 Items +1 composite longbow, dagger, leather armor, shortsword."
+    },
+    {
+      "name": "Forager",
+      "text": "As poacher, but the hunter feeds 16 additional creatures, or 32 on a critical success."
+    },
+    {
+      "name": "Forest Walker",
+      "text": "The hunter ignores the effects of difficult terrain from a forest environment. They can Sneak through underbrush without the need to attempt a Stealth check as long as the hunter moves no more than 5 feet at a time and is not within 10 feet of an enemy at any point during their movement."
+    },
+    {
+      "name": "Hunt Prey",
+      "text": "⬻ (concentrate); As poacher, but for 1d8 (1d8) precision damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ dagger +18 (agile, finesse, versatile s); Damage 1d4+9 (1d4+9) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ shortsword +18 (agile, finesse, versatile s); Damage 1d6+9 (1d6+9) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ composite longbow +18 (deadly 1d10, magical, propulsive, range increment 100 feet, reload 0, volley 30 feet); Damage 1d8+8 (1d8+8) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      4,
+      2,
+      1,
+      4,
+      0
+    ]
+  }
+}

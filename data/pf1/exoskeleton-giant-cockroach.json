@@ -1,0 +1,83 @@
+{
+  "name": "Exoskeleton Giant Cockroach",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Pathfinder No. 91: Battle of Bloodmarch Hills",
+  "size": "Small",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 13,
+    "notes": "dex +1, natural +1, size +1",
+    "touch": 12,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 12,
+    "formula": "2d8+3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 40 ft. (clumsy), climb 30 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": "None",
+    "int": "None",
+    "wis": 10,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +0, Ref +1, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +9, Fly -5, Perception +0",
+    "list": {
+      "Climb": "+9",
+      "Fly": "-5",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 10,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 1,
+  "feats": [
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +3 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The tattered remains of a dead insect rumble to life, creaking and clattering forward on dry, brittle legs.",
+  "meta": {
+    "cmb": "+1",
+    "cmd": "12 (20 vs. trip)"
+  }
+}

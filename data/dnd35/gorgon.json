@@ -1,0 +1,103 @@
+{
+  "name": "Gorgon",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Always neutral",
+  "cr": "8",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": "-1 size, +11 natural",
+    "touch": 9,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 85,
+    "formula": "8d10+40"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares)"
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 10,
+    "con": 21,
+    "int": 2,
+    "wis": 12,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +11, Ref +6, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Listen +9, Spot +8;",
+    "list": {
+      "Listen": "+9",
+      "Spot": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "scent"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 8,
+  "feats": [
+    "Alertness",
+    "Improved Initiative",
+    "Iron Will"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Breath weapon, trample 1d8+7"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., lowlight vision, scent"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Gore +12 melee (1d8+7)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Gore +12 melee (1d8+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A typical gorgon stands over 6 feet tall at the shoulder and measures 8 feet from snout to tail. It weighs about 4,000 pounds.",
+    "grapple": "+17",
+    "spaceReach": "10 ft./5 ft.",
+    "environment": "Temperate plains",
+    "organization": "Solitary, pair, pack (3-4), or herd (5-13)",
+    "treasure": "None",
+    "advancement": "9-15 HD (Large); 16-24 HD (Huge)",
+    "leveladjustment": "---"
+  }
+}

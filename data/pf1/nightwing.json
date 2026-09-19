@@ -1,0 +1,118 @@
+{
+  "name": "Nightwing",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Huge",
+  "type": "undead",
+  "subtype": "extraplanar, nightshade",
+  "alignment": "CE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 29,
+    "notes": "dex +4, natural +17, size -2",
+    "touch": 12,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 195,
+    "formula": "17d8+119"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 18,
+    "con": "None",
+    "int": 18,
+    "wis": 21,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +12, Ref +11, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +24, Knowledge (arcana) +24, Knowledge (religion) +24, Perception +25, Sense Motive +25, Spellcraft +24, Stealth +16, Swim +27",
+    "list": {
+      "Fly": "+24",
+      "Perception": "+25",
+      "Sense Motive": "+25",
+      "Spellcraft": "+24",
+      "Stealth": "+16",
+      "Swim": "+27"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darksense",
+    "darkvision",
+    "detect magic",
+    "low-light vision"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 12,
+  "feats": [
+    "Cleave",
+    "Combat Reflexes",
+    "Command Undead",
+    "Great Cleave",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Power Attack",
+    "Snatch"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +23 (4d10+18/19-20 plus 4d6 cold and magic drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous, bat-like creature is shaped from utter darkness, its eyes tiny red stars in the blackest night.",
+  "meta": {
+    "cmb": "+24",
+    "cmd": 38,
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Negative Energy Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or flight (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

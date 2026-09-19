@@ -1,0 +1,113 @@
+{
+  "name": "Betobeto-san",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 31.",
+  "size": "Medium",
+  "type": "Spirit",
+  "subtype": "Incorporeal, Shadow",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 12",
+  "xp": null,
+  "ac": {
+    "value": 33,
+    "notes": ""
+  },
+  "hp": {
+    "average": 170,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 24,
+    "con": 20,
+    "int": 18,
+    "wis": 18,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +19, Ref +25, Will +22",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Deception__: +23 (1d20+23); __Intimidation__: +23 (1d20+23); __Stealth__: +27 (1d20+27); ",
+    "list": {
+      "Deception": "+23",
+      "Intimidation": "+23",
+      "Stealth": "+27"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "precise fearsense 60, greater darkvision"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Common",
+    "Shadowtongue"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Fearsense",
+      "text": "(divination, mental, occult); The betobeto-san is aware of all frightened creatures within the listed range."
+    },
+    {
+      "name": "Items",
+      "text": "sandals;"
+    },
+    {
+      "name": "Ominous Footsteps",
+      "text": "(auditory, aura, emotion, fear, illusion, mental, occult); 60 feet. The betobeto-san's footsteps seem to draw ever closer, yet the source remains difficult to pinpoint. Each creature that starts its turn within 60 feet of the betobeto-san must attempt a DC 29 Will save. Critical Success The creature is unaffected and is temporarily immune for 1 minute. Success The creature becomes frightened 1. Failure The creature becomes frightened 2. Critical Failure The creature becomes frightened 4."
+    },
+    {
+      "name": "Shadow Invisibility",
+      "text": "The betobeto-san is invisible unless within an area of bright light."
+    },
+    {
+      "name": "Shadow Step",
+      "text": "⬲ (conjuration, occult, shadow, teleportation); Requirements The betobeto-san isn't already within an area of bright light Trigger A bright light source reveals the betobeto-san Effect The betobeto-san Steps briefly into the Shadow Plane and then back again, appearing up to 30 feet away from where they began."
+    },
+    {
+      "name": "Stepping Decoy",
+      "text": "⬻ (auditory, illusion, occult); The betobeto-san Steps. They then create two illusory decoys of sound within 15 feet of them that mimic the sounds of their ominous footsteps. These decoys act independently on the betobeto-san's initiative with 2 actions apiece. They can only Sneak or Stride, and they have a."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +25 (agile, finesse, magical); Damage 3d12+10 (3d12+10) negative"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      7,
+      5,
+      4,
+      4,
+      5
+    ],
+    "items": "sandals;"
+  }
+}

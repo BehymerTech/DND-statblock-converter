@@ -1,0 +1,120 @@
+{
+  "name": "Apostle Kyton",
+  "sourceSystem": "pf1",
+  "source": "Horror Adventures",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "augmented humanoid, kyton, native",
+  "alignment": "LE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 27,
+    "notes": "armor +5, deflection +1, dex +6, dodge +1, natural +4",
+    "touch": 18,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 142,
+    "formula": "11d10+77"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 24,
+    "con": 20,
+    "int": 10,
+    "wis": 16,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +15, Ref +17, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +23, Heal +21, Intimidate +23, Perception +17, Sense Motive +17, Stealth +21, Survival +17",
+    "list": {
+      "Bluff": "+23",
+      "Heal": "+21",
+      "Intimidate": "+23",
+      "Perception": "+17",
+      "Sense Motive": "+17",
+      "Stealth": "+21",
+      "Survival": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Common",
+    "Infernal"
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 11,
+  "feats": [
+    "Dodge",
+    "Double Slice",
+    "Greater Two-Weapon Fighting",
+    "Improved Initiative",
+    "Improved Two-Weapon Fighting",
+    "Iron Will",
+    "Toughness",
+    "Two-Weapon Fighting",
+    "Two-Weapon Rend",
+    "Weapon Finesse",
+    "Weapon Focus (sickle)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 cold iron sickle +18/+13/+8 (1d6+5 plus 1d6 bleed), +1 cold iron sickle +18/+13/+8 (1d6+5 plus 1d6 bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Clad in black leather, this woman has pale skin and bloody holes where her eyes used to be.",
+  "meta": {
+    "race": "Female",
+    "class": "human apostle kyton slayer 11 (Pathfinder RPG Advanced Class Guide 53)",
+    "cmb": "+15",
+    "cmd": 33,
+    "racialModifiers": [
+      "Bluff 4",
+      "Heal 4",
+      "Intimidate 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or cabal (1 plus 4 ostiarius kytons)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (+1 mithral chain shirt, +1 cold iron sickle [2], ring of protection +1, belt of incredible dexterity +2, cloak of resistance +3, other treasure)"
+      }
+    ]
+  }
+}

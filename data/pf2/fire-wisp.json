@@ -1,0 +1,103 @@
+{
+  "name": "Fire Wisp",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 91.",
+  "size": "Tiny",
+  "type": "Fire",
+  "subtype": "Elemental",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 0",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 18,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, fly 15 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 16,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +6, Ref +7, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +5 (1d20+5); __Stealth__: +7 (1d20+7); __Plane of fire lore__: +4 (1d20+4); ",
+    "list": {
+      "Acrobatics": "+5",
+      "Stealth": "+7",
+      "Plane of fire lore": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, smoke vision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Ignan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Smoke Vision",
+      "text": "The fire wisp ignores the concealed condition from smoke."
+    },
+    {
+      "name": "Resonance",
+      "text": "(aura, air); 30 feet. All wisps vibrate at a frequency attuned to their element, resonating with and empowering all creatures and effects sharing that trait. A creature in the area gains a +1 status bonus to attack and damage rolls for effects with the fire trait; a creature with the elemental and fire traits gains this bonus to all attack and damage rolls."
+    },
+    {
+      "name": "Accord Essence",
+      "text": "⬲ (air); Trigger An ally within 30 feet that benefited from the wisp's resonance in the last hour is targeted by an attack Effect The wisp detonates itself in a small elemental explosion that gives temporary Hit Points equal to half the wisp's current Hit Points to allies within 30 feet that have benefited from the wisp's resonance in the last hour. These temporary Hit Points last 1 hour. A wisp that uses this reaction is permanently destroyed, and it can be restored only by a wish spell or similarly powerful effect. If an ability would prevent the wisp's destruction (for instance, if the wisp is summoned and would merely be dismissed), Accord Essence has no effect."
+    },
+    {
+      "name": "In Concert",
+      "text": "When an fire wisp rolls a critical failure on a check to Aid, they get a failure instead, and when they roll a success, they get a critical success instead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ tendril +6 (reach 10 feet); Damage 1d4 (1d4) fire plus 1 persistent fire"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      3,
+      2,
+      0,
+      2,
+      0
+    ]
+  }
+}

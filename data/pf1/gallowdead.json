@@ -1,0 +1,111 @@
+{
+  "name": "Gallowdead",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 31,
+    "notes": "dex +4, dodge +1, natural +16",
+    "touch": 15,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 228,
+    "formula": "24d8+120"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 19,
+    "con": "None",
+    "int": 11,
+    "wis": 16,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +13, Ref +12, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +34, Escape Artist +28, Intimidate +32, Swim +31, Perception +3",
+    "list": {
+      "Climb": "+34",
+      "Escape Artist": "+28",
+      "Intimidate": "+32",
+      "Swim": "+31",
+      "Perception": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 13,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 18,
+  "feats": [
+    "Bleeding Critical",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dodge",
+    "Improved Critical (spiked chain)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Lunge",
+    "Power Attack",
+    "Step Up",
+    "Vital Strike",
+    "Weapon Focus (spiked chain)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "spiked chain +26/+21/+16/+11 (2d4+10/19-20 plus chains of the dead)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This skeletal horror staggers under the weight of the massive hook and chain impaling the bones of its midsection.",
+  "meta": {
+    "cmb": "+25",
+    "cmd": 40,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or plague (3-18)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

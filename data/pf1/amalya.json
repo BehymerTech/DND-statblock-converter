@@ -1,0 +1,106 @@
+{
+  "name": "Amalya",
+  "sourceSystem": "pf1",
+  "source": "Fey Revisited",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CG",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "deflection +1, dex +5, natural +3",
+    "touch": 16,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 73,
+    "formula": "6d6+3d8+39"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 21,
+    "con": 17,
+    "int": 12,
+    "wis": 19,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +10, Ref +11, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +9, Craft (wood) +19, Escape Artist +19, Handle Animal +14, Heal +6, Knowledge (nature) +12, Perception +13, Stealth +19, Survival +17",
+    "list": {
+      "Climb": "+9",
+      "Escape Artist": "+19",
+      "Handle Animal": "+14",
+      "Heal": "+6",
+      "Perception": "+13",
+      "Stealth": "+19",
+      "Survival": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Druidic",
+    "Elven",
+    "Sylvan",
+    "speak with plants"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 5,
+  "feats": [
+    "Great Fortitude",
+    "Self-Sufficient",
+    "Stealthy",
+    "Toughness",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "club +5 (1d6), dagger +10 (1d4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk longbow +11 (1d8/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This lithe, otherworldly woman has with deep brown eyes and dark green hair that cascades past her waist. She’s adorned in trinkets made from a great white pine’s needles and cones.",
+  "meta": {
+    "race": "Dryad",
+    "class": "druid 3 (Pathfinder RPG Bestiary 116)",
+    "cmb": "+5",
+    "cmd": 21,
+    "racialModifiers": [
+      "Craft (wood) 6"
+    ]
+  }
+}

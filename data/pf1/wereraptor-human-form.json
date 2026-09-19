@@ -1,0 +1,110 @@
+{
+  "name": "Wereraptor (Human Form)",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 115: Trail of the Hunted",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, shapechanger",
+  "alignment": "LN",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "armor +2, dex +3",
+    "touch": 13,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 27,
+    "formula": "3d10+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 17,
+    "con": 13,
+    "int": 8,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +4, Ref +6, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Handle Animal +5, Knowledge (geography) +5, Knowledge (nature) +5, Perception +11, Stealth +9, Survival +11",
+    "list": {
+      "Handle Animal": "+5",
+      "Perception": "+11",
+      "Stealth": "+9",
+      "Survival": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 3,
+  "feats": [
+    "Combat Reflexes",
+    "Endurance",
+    "Point Blank Shot",
+    "Skill Focus (Perception)",
+    "Skill Focus (Survival)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk shortspear +6 (1d6+2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite shortbow +7 (1d6+2/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This humanoid is covered in small feathers and bears the head of a grand eagle. Its arms are feathered like wings, and it has talons in place of hands.",
+  "meta": {
+    "race": "Human",
+    "class": "natural wereraptor ranger 3",
+    "cmb": "+5",
+    "cmd": 18,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests and mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or flock (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (mwk leather armor, mwk shortspear, mwk composite shortbow with 20 arrows, other treasure)"
+      }
+    ]
+  }
+}

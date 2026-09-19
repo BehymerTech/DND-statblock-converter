@@ -1,0 +1,120 @@
+{
+  "name": "Vilsteth",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 77: Herald of the Ivory Labyrinth",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 30,
+    "notes": "dex +4, natural +16",
+    "touch": 14,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 225,
+    "formula": "18d10+126"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 19,
+    "con": 24,
+    "int": 23,
+    "wis": 16,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +18, Ref +10, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +31, Craft (sculpture) +18, Craft (stonemasonry) +18, Diplomacy +31, Disguise +31, Intimidate +31, Knowledge (engineering) +15, Knowledge (history) +15, Knowledge (local) +15, Knowledge (nobility) +15, Knowledge (religion) +15, Perception +36, Perform (oratory) +15, Sense Motive +28, Spellcraft +16, Stealth +25, Use Magic Device +14",
+    "list": {
+      "Bluff": "+31",
+      "Diplomacy": "+31",
+      "Disguise": "+31",
+      "Intimidate": "+31",
+      "Perception": "+36",
+      "Sense Motive": "+28",
+      "Spellcraft": "+16",
+      "Stealth": "+25",
+      "Use Magic Device": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see invisibility"
+  ],
+  "passivePerception": 46,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Draconic",
+    "can’t speak",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 18,
+  "feats": [
+    "Alertness",
+    "Combat Casting",
+    "Deceitful",
+    "Greater Vital Strike",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Persuasive",
+    "Quicken Spell-Like Ability (dominate person)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +24 (2d6+6), gore +24 (2d6+6 plus 1d4 Wis), tail slap +19 (1d8+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This fiend seems carved from weathered ivory, and runes and symbols of power cover its pale flesh. Its eyes glow an eerie yellow, and horns curl from its eerie, mouthless head.",
+  "meta": {
+    "cmb": "+24",
+    "cmd": 38,
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or conspiracy (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

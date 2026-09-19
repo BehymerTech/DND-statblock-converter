@@ -1,0 +1,92 @@
+{
+  "name": "Grimlock",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "grimlock",
+  "alignment": "neutral evil",
+  "cr": "1/4",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 11,
+    "notes": ""
+  },
+  "hp": {
+    "average": 11,
+    "formula": "2d8 + 2"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 12,
+    "int": 9,
+    "wis": 8,
+    "cha": 6
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Athletics +5, Perception +3, Stealth +3",
+    "list": {
+      "athletics": "+5",
+      "perception": "+3",
+      "stealth": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [
+    "blinded"
+  ],
+  "senses": [
+    "blindsight 30 ft. or 10 ft. while deafened (blind beyond this radius)"
+  ],
+  "passivePerception": 13,
+  "languages": [
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Blind Senses",
+      "text": "The grimlock can't use its blindsight while deafened and unable to smell."
+    },
+    {
+      "name": "Keen Hearing and Smell",
+      "text": "The grimlock has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+    },
+    {
+      "name": "Stone Camouflage",
+      "text": "The grimlock has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Spiked Bone Club",
+      "text": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage plus 2 (1d4) piercing damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

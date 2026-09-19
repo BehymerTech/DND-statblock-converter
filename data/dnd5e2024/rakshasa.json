@@ -1,0 +1,99 @@
+{
+  "name": "Rakshasa",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "",
+  "alignment": "Lawful Evil",
+  "cr": "13",
+  "level": null,
+  "xp": 10000,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 221,
+    "formula": "26d8 + 104"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 17,
+    "con": 18,
+    "int": 13,
+    "wis": 16,
+    "cha": 20
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Deception +10, Insight +8, Perception +8",
+    "list": {
+      "Deception": "+10",
+      "Insight": "+8",
+      "Perception": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Truesight 60 ft."
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Infernal"
+  ],
+  "initiative": "+8 (18)",
+  "babOrProficiency": 5,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Greater Magic Resistance",
+      "text": "The rakshasa automatically succeeds on saving throws against spells and other magical effects, and the attack rolls of spells automatically miss it. Without the rakshasa's permission, no spell can observe the rakshasa remotely or detect its thoughts, creature type, or alignment."
+    },
+    {
+      "name": "Fiendish Restoration",
+      "text": "If the rakshasa dies outside the Nine Hells, its body turns to ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The rakshasa makes three Cursed Touch attacks."
+    },
+    {
+      "name": "Cursed Touch",
+      "text": "_Melee Attack Roll:_ +10, reach 5 ft. _Hit:_ 12 (2d6 + 5) Slashing damage plus 19 (3d12) Necrotic damage. If the target is a creature, it is cursed. While cursed, the target gains no benefit from finishing a Short or Long Rest."
+    },
+    {
+      "name": "Baleful Command (Recharge 5–6)",
+      "text": "_Wisdom Saving Throw:_ DC 18, each enemy in a 30-foot Emanation originating from the rakshasa. _Failure:_ 28 (8d6) Psychic damage, and the target has the Frightened and Incapacitated conditions until the start of the rakshasa's next turn."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The rakshasa casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 18): <br> &emsp;**At Will:** _Detect Magic, Detect Thoughts, Disguise Self, Mage Hand, Minor Illusion_ <br> &emsp;**1/Day Each:** _Fly, Invisibility, Major Image, Plane Shift_ ## Red Dragons"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

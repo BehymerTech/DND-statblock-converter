@@ -1,0 +1,107 @@
+{
+  "name": "NPC Black Ice",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "gnome",
+  "alignment": "NE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 23,
+    "notes": "armor +4, deflection +3, dex +2, dodge +1, natural +2, size +1",
+    "touch": 17,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 147,
+    "formula": "10d6+7d8+78"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 14,
+    "con": 16,
+    "int": 20,
+    "wis": 10,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +12, Ref +15, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +20, Bluff +20, Craft (alchemy) +7, Diplomacy +20, Fly +17, Knowledge (arcana) +23, Knowledge (dungeoneering) +13, Knowledge (geography) +13, Knowledge (planes) +23, Perception +20, Perform (dance) +8, Spellcraft +23, Stealth +24, Swim +2",
+    "list": {
+      "Acrobatics": "+20",
+      "Bluff": "+20",
+      "Diplomacy": "+20",
+      "Fly": "+17",
+      "Perception": "+20",
+      "Spellcraft": "+23",
+      "Stealth": "+24",
+      "Swim": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Draconic",
+    "Gnome",
+    "Sylvan"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 10,
+  "feats": [
+    "Combat Casting",
+    "Combat Reflexes",
+    "Dodge",
+    "Fleet (2)",
+    "Greater Spell Focus (illusion)",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Mobility",
+    "Scribe Scroll",
+    "Spell Focus (illusion)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "staff of frost +10/+5 (1d4-2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Gnome",
+    "class": "illusionist 10, shadowdancer 7",
+    "cmb": "+7",
+    "cmd": 23
+  }
+}

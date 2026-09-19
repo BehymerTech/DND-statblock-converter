@@ -1,0 +1,91 @@
+{
+  "name": "Ember Fox",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 110.",
+  "size": "Small",
+  "type": "Fire",
+  "subtype": "Elemental",
+  "alignment": "NG",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 35,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 18,
+    "con": 14,
+    "int": 6,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +6, Ref +10, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Athletics__: +5 (1d20+5); __Stealth__: +8 (1d20+8); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Athletics": "+5",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Ignan (can't speak any language)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Cloak in Embers",
+      "text": "⬲ Trigger An adjacent ally is targeted by an effect that deals fire damage Effect The ember fox drapes itself across its ally, granting the ally fire resistance 10 against the incoming attack."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +10 (agile, finesse); Damage 1d4+3 (1d4+3) piercing plus 1d4 (1d4) persistent fire"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      4,
+      2,
+      -2,
+      2,
+      1
+    ]
+  }
+}

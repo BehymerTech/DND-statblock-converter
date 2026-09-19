@@ -1,0 +1,108 @@
+{
+  "name": "Titanoboa",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Colossal",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 28,
+    "notes": "dex +2, natural +24, size -8",
+    "touch": 4,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 184,
+    "formula": "16d8+112"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 44,
+    "dex": 14,
+    "con": 25,
+    "int": 2,
+    "wis": 17,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +17, Ref +12, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +25, Perception +17, Stealth -7, Swim +32",
+    "list": {
+      "Climb": "+25",
+      "Perception": "+17",
+      "Stealth": "-7",
+      "Swim": "+32"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 27,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 12,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Iron Will",
+    "Lunge",
+    "Skill Focus (Perception)",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +22 (6d6+25/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This immense serpent moves in deliberate, slithering undulations, its forked tongue tasting the air eagerly for the scent of prey.",
+  "meta": {
+    "cmb": "+37",
+    "cmd": "49 (can’t be tripped)",
+    "racialModifiers": [
+      "Stealth 24"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

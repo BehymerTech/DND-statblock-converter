@@ -1,0 +1,109 @@
+{
+  "name": "Duergar Taskmaster",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 139.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Duergar, Dwarf",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 30,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 10,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +8, Ref +4, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +7 (1d20+7); __Deception__: +7 (1d20+7); __Intimidation__: +7 (1d20+7); __Occultism__: +5 (1d20+5); __Religion__: +6 (1d20+6); __Survival__: +6 (1d20+6); ",
+    "list": {
+      "Athletics": "+7",
+      "Deception": "+7",
+      "Intimidation": "+7",
+      "Occultism": "+5",
+      "Religion": "+6",
+      "Survival": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Iron Mind",
+      "text": "Duergar taskmasters automatically disbelieve all illusions of 1st level or lower."
+    },
+    {
+      "name": "Light Blindness",
+      "text": ""
+    },
+    {
+      "name": "Items",
+      "text": "chain mail, maul, religious symbol;"
+    },
+    {
+      "name": "Take Them Down!",
+      "text": "⬻ The duergar taskmaster smashes their maul into the ground and invokes Droskar's name to rally their allies to action. All allied duergars of equal or lower level that are within 20 feet of the duergar taskmaster gain a +1 status bonus to attack rolls and damage rolls until the end of the duergar taskmaster's next turn."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ maul +8 (shove); Damage 1d12+2 (1d12+2) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      0,
+      2,
+      0,
+      2,
+      3
+    ],
+    "items": "chain mail, maul, religious symbol;"
+  }
+}

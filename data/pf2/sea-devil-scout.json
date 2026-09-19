@@ -1,0 +1,112 @@
+{
+  "name": "Sea Devil Scout",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 286.",
+  "size": "Medium",
+  "type": "Sea",
+  "subtype": "Amphibious, Devil, Humanoid",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 30,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, swim 35 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 18,
+    "con": 12,
+    "int": 10,
+    "wis": 16,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +7, Ref +10, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +9 (1d20+9), (Athletics: +11 (1d20+11) to Swim); __Intimidation__: +5 (1d20+5); __Survival__: +7 (1d20+7); ",
+    "list": {
+      "Athletics": "+11",
+      "Intimidation": "+5",
+      "Survival": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, wavesense 30"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Aquan; shark commune 150 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Shark Commune",
+      "text": "(mental, telepathy); The sea devil can communicate telepathically with sharks within range. It can communicate only simple concepts like \"come,\" \"guard,\" or \"attack.\""
+    },
+    {
+      "name": "Items",
+      "text": "longspear, spear;"
+    },
+    {
+      "name": "Blood Frenzy",
+      "text": "⭓ (rage); Requirements The sea devil is not fatigued or already in a frenzy. Trigger The sea devil deals bleed damage to a living creature. Effect The sea devil flies into a frenzy that lasts 1 minute. While frenzied, the sea devil gains a +1 status bonus to attack rolls with its claws and jaws, gains a +4 status bonus to damage rolls with its claws and jaws, gains 7 temporary HP until the end of the frenzy, and takes a –2 status penalty to AC. The sea devil can't voluntarily stop its frenzy. After its frenzy, the sea devil is fatigued."
+    },
+    {
+      "name": "Bloodletting",
+      "text": "When the sea devil deals piercing or slashing damage, it also deals 1d4 (1d4) persistent bleed damage if the target was flat-footed or if the attack was a critical hit."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ longspear +11 (reach 10 feet); Damage 1d8+3 (1d8+3) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +11 (agile); Damage 1d6+3 (1d6+3) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +11 Damage 1d8+3 (1d8+3) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      4,
+      1,
+      0,
+      3,
+      -1
+    ],
+    "items": "longspear, spear;"
+  }
+}

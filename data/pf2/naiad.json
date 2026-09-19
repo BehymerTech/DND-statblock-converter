@@ -1,0 +1,104 @@
+{
+  "name": "Naiad",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 246.",
+  "size": "Medium",
+  "type": "Water",
+  "subtype": "Amphibious, Fey, Nymph",
+  "alignment": "CG",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, swim 25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 10,
+    "int": 12,
+    "wis": 12,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +3, Ref +6, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +6 (1d20+6); __Athletics__: +3 (1d20+3); __Diplomacy__: +7 (1d20+7); __Nature__: +6 (1d20+6); __Stealth__: +6 (1d20+6); __Survival__: +4 (1d20+4); ",
+    "list": {
+      "Acrobatics": "+6",
+      "Athletics": "+3",
+      "Diplomacy": "+7",
+      "Nature": "+6",
+      "Stealth": "+6",
+      "Survival": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Common",
+    "Elven",
+    "Sylvan; speak with animals"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Wild Empathy",
+      "text": "The naiad can use Diplomacy to Make an Impression on and make very simple Requests of animals."
+    },
+    {
+      "name": "Water Dependent",
+      "text": "A naiad bonds to a spring, pool, pond, or similar-sized water feature. While within 300 feet of her bonded body of water, she can use her innate tidal surge at will. She doesn't recover Hit Points or reduce the drained condition when resting beyond that range. Unlike most other nymphs, she doesn't suffer penalties from being apart from her bonded body of water. A naiad can perform a 24-hour ritual to bond herself to a new body of water."
+    },
+    {
+      "name": "Water Healing",
+      "text": "⬺ (concentrate, healing, necromancy, primal); While within her bonded body of water (see water dependent above), the naiad heals 1 Hit Point every 10 minutes."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ aqueous fist +8 (agile, finesse, magical, water); Damage 1d6 (1d6) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      3,
+      0,
+      1,
+      1,
+      4
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "name": "Ulkreth",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 73: The Worldwound Incursion",
+  "size": "Gargantuan",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 30,
+    "notes": "natural +24, size -4",
+    "touch": 6,
+    "flatFooted": 30
+  },
+  "hp": {
+    "average": 229,
+    "formula": "17d10+136"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 50 ft. (clumsy), climb 20 ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 11,
+    "con": 26,
+    "int": 7,
+    "wis": 14,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +18, Ref +5, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +28, Intimidate +22, Knowledge (engineering) +18, Perception +30, Swim +23",
+    "list": {
+      "Climb": "+28",
+      "Intimidate": "+22",
+      "Perception": "+30",
+      "Swim": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Draconic"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 17,
+  "feats": [
+    "Charge Through",
+    "Greater Overrun",
+    "Greater Sunder",
+    "Improved Critical (slams)",
+    "Improved Overrun",
+    "Improved Sunder",
+    "Power Attack",
+    "Sundering Strike",
+    "Weapon Focus (slams)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +23 (2d8+10 plus 1d6 piercing), 4 slams +24 (2d6+10/19-20 plus 1d6 piercing)"
+    },
+    {
+      "name": "Ranged",
+      "text": "4 rocks +14 (3d6+10)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering monstrosity is clad in cracked boulders, jagged shards of rock, spars of crooked metal, and shredded steel. Four immense arms end in rocky fists, and bony wings protrude from its back.",
+  "meta": {
+    "cmb": "31 (+35 overrun, +35 sunder)",
+    "cmd": "43 (45 vs. overrun, 45 vs. sunder)",
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or crew (2-4 ulkreths)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

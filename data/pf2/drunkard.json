@@ -1,0 +1,98 @@
+{
+  "name": "Drunkard",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 239.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 40,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 18,
+    "int": 8,
+    "wis": 10,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +10, Ref +8, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +7 (1d20+7); __Intimidation__: +8 (1d20+8); __Alcohol lore__: +3 (1d20+3); ",
+    "list": {
+      "Athletics": "+7",
+      "Intimidation": "+8",
+      "Alcohol lore": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 16,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Drunken Rage",
+      "text": "⬻ (concentrate, emotion, mental); Requirements The drunkard is drunk, and isn't fatigued or raging Effect Something sets the drunkard off, causing them to fly into a drunken rage. They gain 6 temporary Hit Points that last until the drunken rage ends. While raging, they deal 4 additional damage with melee attacks and take a –1 penalty to AC. The drunkard can't use concentrate actions except Seek and rage actions. The rage lasts for 1 minute or until the drunkard falls unconscious or sobers up. The drunkard can't voluntarily stop the Drunken Rage. Once the rage ends, the drunkard can't Rage again for 1 minute."
+    },
+    {
+      "name": "Items",
+      "text": "drunkard's outfit (functions as padded armor), pewter mug;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +9 (agile, nonlethal); Damage 1d6+3 (1d6+3) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ pewter mug +8 (thrown 10 feet); Damage 1d4+3 (1d4+3) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      2,
+      4,
+      -1,
+      0,
+      2
+    ],
+    "items": "drunkard's outfit (functions as padded armor), pewter mug;"
+  }
+}

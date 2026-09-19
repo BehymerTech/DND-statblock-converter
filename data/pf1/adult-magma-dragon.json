@@ -1,0 +1,116 @@
+{
+  "name": "Adult Magma Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "extraplanar, fire",
+  "alignment": "CN",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 29,
+    "notes": "dex +1, natural +19, size -1",
+    "touch": 10,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 172,
+    "formula": "15d12+75"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (poor)"
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 12,
+    "con": 21,
+    "int": 18,
+    "wis": 18,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +16, Ref +10, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +16, Climb +26, Escape Artist +16, Fly +13, Intimidate +21, Perception +22, Sense Motive +22, Sleight of Hand +16, Stealth +15, Swim +26",
+    "list": {
+      "Acrobatics": "+16",
+      "Climb": "+26",
+      "Escape Artist": "+16",
+      "Fly": "+13",
+      "Intimidate": "+21",
+      "Perception": "+22",
+      "Sense Motive": "+22",
+      "Sleight of Hand": "+16",
+      "Stealth": "+15",
+      "Swim": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Elven",
+    "Ignan"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 15,
+  "feats": [
+    "Great Fortitude",
+    "Improved Critical (bite)",
+    "Improved Critical (claws)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +22 (2d6+12/19-20 plus 6 fire), 2 claws +22 (1d8+8/19-20), tail slap +17 (1d8+12), 2 wings +17 (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+24",
+    "cmd": "35 (39 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any mountains or underground (Plane of Fire)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

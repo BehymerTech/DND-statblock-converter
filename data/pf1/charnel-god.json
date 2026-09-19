@@ -1,0 +1,123 @@
+{
+  "name": "Charnel God",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Large",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "23",
+  "level": null,
+  "xp": 819200,
+  "ac": {
+    "value": 42,
+    "notes": "dex +11, natural +10, profane +12, size -1",
+    "touch": 32,
+    "flatFooted": 31
+  },
+  "hp": {
+    "average": 485,
+    "formula": "26d10+342"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 33,
+    "con": "None",
+    "int": 27,
+    "wis": 30,
+    "cha": 35
+  },
+  "saves": {
+    "text": "Fort +20, Ref +19, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +42, Intimidate +38, Knowledge (arcana) +34, Knowledge (planes) +34, Knowledge (religion) +34, Perception +36, Sleight of Hand +37, Spellcraft +34, Stealth +33, Survival +36",
+    "list": {
+      "Fly": "+42",
+      "Intimidate": "+38",
+      "Perception": "+36",
+      "Sleight of Hand": "+37",
+      "Spellcraft": "+34",
+      "Stealth": "+33",
+      "Survival": "+36"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "divine sense",
+    "low-light vision",
+    "true seeing"
+  ],
+  "passivePerception": 46,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 26,
+  "feats": [
+    "Clustered Shots",
+    "Combat Reflexes",
+    "Deadly Aim",
+    "Far Shot",
+    "Improved Critical (composite longbow)",
+    "Improved Precise Shot",
+    "Improved Snap Shot",
+    "Iron Will",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Rapid Shot",
+    "Snap Shot",
+    "Weapon Focus (composite longbow)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 bites +37 (2d6+12), gore +37 (1d8+6), 2 slams +37 (1d6+12)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+5 unholy composite longbow +42/+37/+32/+27 (2d6+17/19-20/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This porphyry statue depicts a three-headed goddess with draconic wings, a long tail, and a deadly looking longbow in her hands.",
+  "meta": {
+    "cmb": "+39",
+    "cmd": 72,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

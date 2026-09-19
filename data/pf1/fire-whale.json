@@ -1,0 +1,112 @@
+{
+  "name": "Fire Whale",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Colossal",
+  "type": "magical beast",
+  "subtype": "extraplanar",
+  "alignment": "N",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 31,
+    "notes": "dex +2, natural +27, size -8",
+    "touch": 4,
+    "flatFooted": 29
+  },
+  "hp": {
+    "average": 250,
+    "formula": "20d10+140"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 20 ft. (clumsy), burrow 20 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 46,
+    "dex": 14,
+    "con": 25,
+    "int": 6,
+    "wis": 27,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +19, Ref +14, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly -1, Perception +16, Perform (sing) +6, Swim +26",
+    "list": {
+      "Fly": "-1",
+      "Perception": "+16",
+      "Swim": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Aquan",
+    "Auran",
+    "Ignan",
+    "Terran (cannot speak)"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 20,
+  "feats": [
+    "Awesome Blow",
+    "Critical Focus",
+    "Diehard",
+    "Endurance",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack",
+    "Staggering Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +30 (4d10+18/19-20 plus 2d6 fire), tail slap +25 (6d6+9 plus 2d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Waves of searing heat ripple from the stony, gem-encrusted hide of this enormous whalelike beast.",
+  "meta": {
+    "cmb": "46 (+48 bull rush)",
+    "cmd": "58 (60 vs. bull rush)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Fire)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pod (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (gems only)"
+      }
+    ]
+  }
+}

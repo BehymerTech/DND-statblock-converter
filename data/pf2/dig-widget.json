@@ -1,0 +1,106 @@
+{
+  "name": "Dig-widget",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 79.",
+  "size": "Small",
+  "type": "Mindless",
+  "subtype": "Construct",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 5",
+  "xp": null,
+  "ac": {
+    "value": 23,
+    "notes": ""
+  },
+  "hp": {
+    "average": 65,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, burrow 15 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 20,
+    "con": 12,
+    "int": 0,
+    "wis": 10,
+    "cha": 0
+  },
+  "saves": {
+    "text": "Fort +10, Ref +14, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +12 (1d20+12); __Athletics__: +9 (1d20+9), (Athletics: +12 (1d20+12) to [[Leap]] or [[Climb]]); __Stealth__: +14 (1d20+14); __Thievery__: +15 (1d20+15); ",
+    "list": {
+      "Acrobatics": "+12",
+      "Athletics": "+12",
+      "Stealth": "+14",
+      "Thievery": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tremorsense 30"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Infiltration Tools",
+      "text": "A dig-widget's face consists of a set of infiltrator thieves' tools. They can be salvaged from a destroyed dig-widget with a successful DC 20 Crafting check. On a failed check, the tools are destroyed."
+    },
+    {
+      "name": "Mechanical Vulnerability",
+      "text": "A creature with expert proficiency in Thievery can attempt a check to Disable a Device to damage a dig-widget. The DC is 22, and each success deals 20 damage."
+    },
+    {
+      "name": "Fastening Leap",
+      "text": "⬻ The dig-widget Leaps up 20 feet onto a creature or object and attempts a corkscrew Strike against it. If the Strike damages the target, the dig-widget attaches to the target (typically to the back of a creature). This is similar to Grabbing the creature, but the dig-widget moves with that creature rather than holding it in place. While attached, the dig-widget can't use its corkscrew. The dig-widget can be Shoved off, or it can detach itself with an Interact action."
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "A dig-widget's Strikes deal an additional 1d6 (1d6) precision damage to flat-footed creatures."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ drill +14 (fatal d10, finesse); Damage 2d6+4 (2d6+4) piercing plus 1d6 (1d6) persistent bleed"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ corkscrew +14 (finesse); Damage 2d8+4 (2d8+4) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      5,
+      1,
+      -5,
+      0,
+      -5
+    ]
+  }
+}

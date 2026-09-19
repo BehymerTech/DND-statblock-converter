@@ -1,0 +1,96 @@
+{
+  "name": "Medium Magma Elemental",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "earth, elemental, extraplanar, fire",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 16,
+    "notes": "dex -1, natural +7",
+    "touch": 9,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d10+8"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., other_semicolon earth glide ft., burrow 20 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 8,
+    "con": 15,
+    "int": 4,
+    "wis": 11,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +6, Ref +3, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (dungeoneering) +4, Perception +7, Stealth +6",
+    "list": {
+      "Perception": "+7",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 4,
+  "feats": [
+    "Improved Initiative",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +6 (1d6+3 plus burn)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 15,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Fire)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

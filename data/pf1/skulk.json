@@ -1,0 +1,106 @@
+{
+  "name": "Skulk",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "skulk",
+  "alignment": "CE",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 12,
+    "notes": "dex +2",
+    "touch": 12,
+    "flatFooted": 10
+  },
+  "hp": {
+    "average": 16,
+    "formula": "3d8+3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 14,
+    "con": 13,
+    "int": 10,
+    "wis": 14,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +2, Ref +5, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +5, Stealth +16",
+    "list": {
+      "Perception": "+5",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Common",
+    "Undercommon"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Initiative",
+    "Skill Focus (Stealth)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "short sword +2 (1d6/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +4 (1d4/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This smooth-skinned, hairless humanoid has penetrating eyes and skin that shifts and changes to mimic his surroundings.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": 14,
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, band (3-8), or tribe (9-16)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (short sword, 2 daggers, other treasure)"
+      }
+    ]
+  }
+}

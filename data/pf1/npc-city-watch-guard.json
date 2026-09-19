@@ -1,0 +1,91 @@
+{
+  "name": "NPC City Watch (Guard)",
+  "sourceSystem": "pf1",
+  "source": "GameMastery Guide",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "LN",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 18,
+    "notes": "armor +8",
+    "touch": 10,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d10+3"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 11,
+    "con": 13,
+    "int": 9,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +4, Ref +1, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +5, Perception +3, Ride -3, Sense Motive +2",
+    "list": {
+      "Intimidate": "+5",
+      "Perception": "+3",
+      "Ride": "-3",
+      "Sense Motive": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 13,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 3,
+  "feats": [
+    "Alertness",
+    "Improved Sunder",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "halberd +5 (1d10+3/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "heavy crossbow +3 (1d10/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "warrior 3",
+    "cmb": "5 (+7 sunder)",
+    "cmd": "15 (17 vs. sunder)"
+  }
+}

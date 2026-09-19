@@ -1,0 +1,104 @@
+{
+  "name": "Flame Drake",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Conquest of Bloodsworn Vale",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "fire",
+  "alignment": "CE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +1, natural +8, size -1",
+    "touch": 10,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 57,
+    "formula": "6d12+18"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 13,
+    "con": 16,
+    "int": 9,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +6, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +8, Intimidate +9, Perception +10, Stealth +6, Survival +10",
+    "list": {
+      "Fly": "+8",
+      "Intimidate": "+9",
+      "Perception": "+10",
+      "Stealth": "+6",
+      "Survival": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 6,
+  "feats": [
+    "Flyby Attack",
+    "Improved Initiative",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +10 (2d6+5 plus 1d6 fire), tail slap +5 (1d6+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This ferocious creature looks like a red-and-yellow scaled dragon, but with only two legs.",
+  "meta": {
+    "cmb": "+12",
+    "cmd": 23,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate mountains or hills"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or rampage (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

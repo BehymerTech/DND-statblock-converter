@@ -1,0 +1,129 @@
+{
+  "name": "Vampire Count",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 320.",
+  "size": "Medium",
+  "type": "Vampire",
+  "subtype": "Undead",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 65,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, climb 25 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 16,
+    "con": 14,
+    "int": 14,
+    "wis": 18,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +11, Ref +14, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +13 (1d20+13); __Athletics__: +15 (1d20+15); __Deception__: +14 (1d20+14); __Diplomacy__: +14 (1d20+14); __Intimidation__: +16 (1d20+16); __Society__: +14 (1d20+14); __Stealth__: +13 (1d20+13); ",
+    "list": {
+      "Acrobatics": "+13",
+      "Athletics": "+15",
+      "Deception": "+14",
+      "Diplomacy": "+14",
+      "Intimidation": "+16",
+      "Society": "+14",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Common",
+    "Necril; plus one regional language"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Children of the Night",
+      "text": "(divine, enchantment, mental);"
+    },
+    {
+      "name": "Items",
+      "text": "leather armor, +1 rapier;"
+    },
+    {
+      "name": "Mist Escape",
+      "text": "⭓"
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, divine, polymorph, transmutation); Giant bat with fangs +15 for 1d8+9 (1d8+9) piercing."
+    },
+    {
+      "name": "Create Spawn",
+      "text": "(divine, downtime, necromancy);"
+    },
+    {
+      "name": "Dominate",
+      "text": "⬺ (divine, enchantment, incapacitation, mental, visual); DC 22."
+    },
+    {
+      "name": "Drink Blood",
+      "text": "⬻ (divine, necromancy); When Drinking Blood, the vampire regains 10 HP."
+    },
+    {
+      "name": "Turn to Mist",
+      "text": "⬻ (concentrate, divine, transmutation);"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ rapier +17 (deadly 1d8, disarm +1); Damage 1d6+11 (1d6+11) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +17 (agile); Damage 1d8+8 (1d8+8) slashing plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      3,
+      2,
+      2,
+      4,
+      4
+    ],
+    "items": "leather armor, +1 rapier;"
+  }
+}

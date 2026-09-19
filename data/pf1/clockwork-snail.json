@@ -1,0 +1,98 @@
+{
+  "name": "Clockwork Snail",
+  "sourceSystem": "pf1",
+  "source": "Wardens of the Reborn Forge",
+  "size": "Large",
+  "type": "construct",
+  "subtype": "clockwork",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 26,
+    "notes": "dex +3, dodge +2, natural +12, size -1",
+    "touch": 14,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 101,
+    "formula": "13d10+30"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., other_semicolon improved charge, tracks ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 17,
+    "con": "None",
+    "int": "None",
+    "wis": 11,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +4, Ref +9, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +23, Perception +0",
+    "list": {
+      "Climb": "+23",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 10,
+  "languages": [],
+  "initiative": "+7",
+  "babOrProficiency": 13,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Two- Weapon Fighting"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk dire flail +18/+13/+8 (1d8+7), mwk dire flail +18 (1d8+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The torso of this constructed gastropod is elongated and eerily humanoid. Smog pours from the shell-like posterior of the machine, while toxic green ooze courses through its translucent pipes.",
+  "meta": {
+    "cmb": "+21",
+    "cmd": "36 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, squadron (2-4), or cavalry (5-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental (mwk dire flail, other treasure)"
+      }
+    ]
+  }
+}

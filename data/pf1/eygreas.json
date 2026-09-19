@@ -1,0 +1,105 @@
+{
+  "name": "Eygreas",
+  "sourceSystem": "pf1",
+  "source": "Mythical Monsters Revisited",
+  "size": "Large",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "LE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 29,
+    "notes": "armor +6, dex +4, dodge +1, natural +9, size -1",
+    "touch": 14,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 141,
+    "formula": "8d10+5d10+70"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 19,
+    "con": 20,
+    "int": 10,
+    "wis": 13,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +11, Ref +16, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +16, Intimidate +16, Perception +21, Stealth +15, Survival +17",
+    "list": {
+      "Bluff": "+16",
+      "Intimidate": "+16",
+      "Perception": "+21",
+      "Stealth": "+15",
+      "Survival": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 13,
+  "feats": [
+    "Dodge",
+    "Endurance",
+    "Far Shot",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Rapid Shot",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +16 (1d6+2), snake bite +16 (1d6+2 plus poison), tail slap +11 (1d8+1 plus grab)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+2 seeking composite longbow +18/+13/+8 (2d6+4/x3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This monstrous, snaked-haired creature has the upper body of a bronze-skinned woman and the lower body of an enormous serpent.",
+  "meta": {
+    "race": "Female",
+    "class": "brazen medusa ranger 5",
+    "cmb": "16 (+20 grapple)",
+    "cmd": 31,
+    "racialModifiers": [
+      "Perception 4"
+    ]
+  }
+}

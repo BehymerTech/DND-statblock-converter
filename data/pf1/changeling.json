@@ -1,0 +1,100 @@
+{
+  "name": "Changeling",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 43: Haunting of Harrowstone",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "changeling",
+  "alignment": "LN",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 10,
+    "notes": "dex -1, natural +1",
+    "touch": 9,
+    "flatFooted": 10
+  },
+  "hp": {
+    "average": 8,
+    "formula": "1d6+2"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 8,
+    "con": 12,
+    "int": 15,
+    "wis": 14,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +1, Ref -1, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (alchemy) +10, Heal +6, Knowledge (arcana) +6, Spellcraft +6, Perception +2",
+    "list": {
+      "Heal": "+6",
+      "Spellcraft": "+6",
+      "Perception": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Elven",
+    "Orc"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 0,
+  "feats": [
+    "Brew Potion",
+    "Combat Casting"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +0 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This slender woman’s skin is unnaturally pale, her hair is dark, and each of her eyes is a different color.",
+  "meta": {
+    "race": "Female",
+    "class": "changeling witch 1",
+    "cmb": "+0",
+    "cmd": 9,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      }
+    ]
+  }
+}

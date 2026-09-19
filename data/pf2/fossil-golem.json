@@ -1,0 +1,99 @@
+{
+  "name": "Fossil Golem",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 116.",
+  "size": "Huge",
+  "type": "Mindless",
+  "subtype": "Construct, Golem",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 12",
+  "xp": null,
+  "ac": {
+    "value": 33,
+    "notes": ""
+  },
+  "hp": {
+    "average": 195,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 14,
+    "con": 22,
+    "int": 0,
+    "wis": 10,
+    "cha": 0
+  },
+  "saves": {
+    "text": "Fort +26, Ref +20, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +20 (1d20+20); ",
+    "list": {
+      "Athletics": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 30,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Golem Antimagic",
+      "text": "harmed by cold and water (5d10 (5d10), 2d8 (2d8) from areas and persistent damage); healed by acid (area 2d8 (2d8) HP); slowed by earth."
+    },
+    {
+      "name": "Vulnerable to Stone to Flesh",
+      "text": "A stone to flesh spell negates the golem's golem antimagic and its resistance to physical damage for 1 round. A flesh to stone spell reverses this effect immediately."
+    },
+    {
+      "name": "Fossilization",
+      "text": "(arcane, incapacitation, transmutation); The first time each round a creature takes damage from the fossil golem's jaws, the target must attempt a DC 32 Fortitude save. If it fails and has not already been slowed by this ability, it becomes slowed 1 for 1 minute. If the creature was already slowed by this ability, a failed save causes it to be petrified permanently."
+    },
+    {
+      "name": "Reassemble",
+      "text": "⬻ The fossil golem reorganizes its bones, increasing its reach to 25 feet and reducing its Speed to 15 feet. It can revert to its original form by taking this action again."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +26 (deadly 2d10, magical, reach 15 feet); Damage 3d10+13 (3d10+13) piercing plus fossilization"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      2,
+      6,
+      -5,
+      0,
+      -5
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "name": "Adult Silver Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "cold",
+  "alignment": "LG",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 29,
+    "notes": "natural +21, size -2",
+    "touch": 8,
+    "flatFooted": 29
+  },
+  "hp": {
+    "average": 195,
+    "formula": "17d12+85"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (average), other_semicolon cloudwalking, graceful flight ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 10,
+    "con": 21,
+    "int": 20,
+    "wis": 21,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +15, Ref +12, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +17, Diplomacy +25, Fly +16, Heal +25, Intimidate +25, Knowledge (arcana) +25, Knowledge (local) +25, Knowledge (nobility) +25, Perception +25, Sense Motive +25, Spellcraft +25",
+    "list": {
+      "Acrobatics": "+17",
+      "Diplomacy": "+25",
+      "Fly": "+16",
+      "Heal": "+25",
+      "Intimidate": "+25",
+      "Perception": "+25",
+      "Sense Motive": "+25",
+      "Spellcraft": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "fog vision"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Auran",
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Giant",
+    "Terran"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 17,
+  "feats": [
+    "Flyby Attack",
+    "Hover",
+    "Improved Initiative",
+    "Iron Will",
+    "Lighting Reflexes",
+    "Multiattack",
+    "Power Attack",
+    "Vital Strike",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +24 (2d8+12), 2 claws +23 (2d6+8), 2 wings +21 (1d8+4), tail slap +21 (2d6+12)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+27",
+    "cmd": "37 (41 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate mountains"
+      }
+    ]
+  }
+}

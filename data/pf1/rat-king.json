@@ -1,0 +1,104 @@
+{
+  "name": "Rat King",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Small",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +4, dodge +1, natural +2, size +1",
+    "touch": 16,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 57,
+    "formula": "6d10+24"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 15 ft., swim 15 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 19,
+    "con": 18,
+    "int": 5,
+    "wis": 14,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +9, Ref +9, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +9, Diplomacy +0, Knowledge (local) -2, Perception +11, Stealth +13, Swim +9",
+    "list": {
+      "Climb": "+9",
+      "Diplomacy": "+0",
+      "Perception": "+11",
+      "Stealth": "+13",
+      "Swim": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 6,
+  "feats": [
+    "Dodge",
+    "Skill Focus (Perception)",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "5 bites +11 (1d4+1 plus disease)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Squeaks and chittering cries rise from a tangle of diseased rats with their tails knotted together.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": "21 (can’t be tripped)",
+    "racialModifiers": [
+      "Diplomacy 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any urban or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pack (2-4), or infestation (5-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

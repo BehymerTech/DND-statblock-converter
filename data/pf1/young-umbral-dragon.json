@@ -1,0 +1,109 @@
+{
+  "name": "Young Umbral Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "extraplanar",
+  "alignment": "CE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 22,
+    "notes": "dex +1, natural +12, size -1",
+    "touch": 10,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 104,
+    "formula": "11d12+33"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (poor)"
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 12,
+    "con": 17,
+    "int": 16,
+    "wis": 17,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +10, Ref +8, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +17, Diplomacy +17, Fly +9, Knowledge (arcana) +17, Knowledge (local) +17, Knowledge (planes) +17, Perception +17, Sense Motive +17, Stealth +11",
+    "list": {
+      "Bluff": "+17",
+      "Diplomacy": "+17",
+      "Fly": "+9",
+      "Perception": "+17",
+      "Sense Motive": "+17",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Draconic",
+    "Undercommon"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 11,
+  "feats": [
+    "Hover",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Multiattack",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15 (2d6+7/19-20), 2 claws +15 (1d8+5), 2 wings +13 (1d6+2), tail slap +13 (1d8+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This sleek, dark dragon moves with a disturbing, serpentine grace, its eyes glowing as if lit from within by crimson embers.",
+  "meta": {
+    "cmb": "+17",
+    "cmd": "28 (32 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

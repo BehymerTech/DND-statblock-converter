@@ -1,0 +1,110 @@
+{
+  "name": "Mythic Elder Air Elemental",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "air, elemental, extraplanar, mythic",
+  "alignment": "N",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 33,
+    "notes": "dex +11, dodge +1, natural +13, size -2",
+    "touch": 20,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 202,
+    "formula": "16d10+114"
+  },
+  "speed": {
+    "walk": 100,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 100 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 33,
+    "con": 18,
+    "int": 12,
+    "wis": 13,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +14, Ref +21, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +30, Escape Artist +30, Fly +34, Knowledge (planes) +20, Perception +20, Sense Motive +20, Stealth +22",
+    "list": {
+      "Acrobatics": "+30",
+      "Escape Artist": "+30",
+      "Fly": "+34",
+      "Perception": "+20",
+      "Sense Motive": "+20",
+      "Stealth": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Auran"
+  ],
+  "initiative": "+15",
+  "babOrProficiency": 16,
+  "feats": [
+    "Blind-Fight",
+    "Cleave",
+    "Combat Reflexes",
+    "Dodge",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Iron Will",
+    "Mobility",
+    "Power Attack",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +25 (4d8+11 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "27 (+31 grapple)",
+    "cmd": 49,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Air)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

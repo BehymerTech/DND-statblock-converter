@@ -1,0 +1,107 @@
+{
+  "name": "Melfesh Monster",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 61: Shards of Sin",
+  "size": "Medium",
+  "type": "plant",
+  "subtype": "extraplanar",
+  "alignment": "NE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 21,
+    "notes": "dex +2, natural +9",
+    "touch": 12,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 67,
+    "formula": "9d8+27"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 15,
+    "con": 16,
+    "int": 13,
+    "wis": 14,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +9, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +14, Knowledge (planes) +3, Perception +16, Sense Motive +10, Stealth +14",
+    "list": {
+      "Fly": "+14",
+      "Perception": "+16",
+      "Sense Motive": "+10",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "low-light vision",
+    "see invisibility"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Infernal",
+    "Sylvan",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 6,
+  "feats": [
+    "Alertness",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Point-Blank Shot"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slam +10 (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Covered with mossy growths and creeping vines, this towering creature glides effortlessly across the ground. A hood of damp moss and crusty bark conceals the monster’s face.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": 22,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Varisia)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

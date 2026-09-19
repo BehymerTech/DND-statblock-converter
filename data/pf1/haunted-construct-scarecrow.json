@@ -1,0 +1,98 @@
+{
+  "name": "Haunted Construct Scarecrow",
+  "sourceSystem": "pf1",
+  "source": "Construct Handbook",
+  "size": "Medium",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 17,
+    "notes": "deflection +1, natural +6",
+    "touch": 11,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 47,
+    "formula": "5d10+20"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 10,
+    "con": "None",
+    "int": 4,
+    "wis": 11,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +1, Ref +3, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +2, Stealth +3",
+    "list": {
+      "Perception": "+2",
+      "Stealth": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 12,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 5,
+  "feats": [
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +8 (1d8+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Ghostly vapors wisp around a tattered scarecrow and move it like a puppet.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": 19,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

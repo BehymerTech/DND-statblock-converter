@@ -1,0 +1,110 @@
+{
+  "name": "Mercane",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "extraplanar",
+  "alignment": "LN",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 16,
+    "notes": "dex +2, dodge +1, natural +4, size -1",
+    "touch": 12,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 51,
+    "formula": "6d10+18"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 14,
+    "con": 16,
+    "int": 20,
+    "wis": 17,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +8, Ref +4, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +14, Bluff +11, Diplomacy +8, Intimidate +8, Knowledge (arcana) +14, Knowledge (planes) +14, Perception +12, Profession (merchant) +9, Sense Motive +12, Sleight of Hand +11, Spellcraft +14",
+    "list": {
+      "Appraise": "+14",
+      "Bluff": "+11",
+      "Diplomacy": "+8",
+      "Intimidate": "+8",
+      "Perception": "+12",
+      "Sense Motive": "+12",
+      "Sleight of Hand": "+11",
+      "Spellcraft": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 6,
+  "feats": [
+    "Combat Casting",
+    "Combat Expertise",
+    "Dodge"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk Large falchion +8/+3 (2d6+3/18-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The tall, blue-skinned humanoid is clad in loose, flowing robes. Its alien face has too many eyes and its hands have too few fingers.",
+  "meta": {
+    "cmb": "+9",
+    "cmd": 22,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or company (1-4 and 3-12 bodyguards of various races)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (masterwork Large falchion, other treasure)"
+      }
+    ]
+  }
+}

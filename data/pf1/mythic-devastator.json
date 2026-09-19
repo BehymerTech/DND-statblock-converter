@@ -1,0 +1,117 @@
+{
+  "name": "Mythic Devastator",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Pathfinder No. 78: City of Locusts",
+  "size": "Gargantuan",
+  "type": "construct",
+  "subtype": "extraplanar, mythic",
+  "alignment": "CE",
+  "cr": "22",
+  "level": null,
+  "xp": 614400,
+  "ac": {
+    "value": 44,
+    "notes": "deflection +4, dex +6, natural +24, profane +4, size -4",
+    "touch": 20,
+    "flatFooted": 38
+  },
+  "hp": {
+    "average": 365,
+    "formula": "30d10+200"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 60 ft. (average), burrow 30 ft."
+  },
+  "abilities": {
+    "str": 37,
+    "dex": 23,
+    "con": "None",
+    "int": 15,
+    "wis": 18,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +14, Ref +20, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +21, Climb +28, Fly +18, Intimidate +36, Knowledge (planes) +17, Perception +34",
+    "list": {
+      "Acrobatics": "+21",
+      "Climb": "+28",
+      "Fly": "+18",
+      "Intimidate": "+36",
+      "Perception": "+34"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "mythic sight (2)"
+  ],
+  "passivePerception": 44,
+  "languages": [
+    "Abyssal",
+    "Celestial"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 30,
+  "feats": [
+    "Awesome Blow",
+    "Blind-Fight",
+    "Cleave",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Great Cleave",
+    "Improved Bull Rush",
+    "Improved Critical (vile arm)",
+    "Improved Critical (wing)",
+    "Power Attack",
+    "Staggering Critical",
+    "Toughness",
+    "Vital Strike",
+    "Weapon Focus (vile arm)",
+    "Weapon Focus (wing)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 vile arms +45 (2d8+18/19-20), 2 wings +40 (2d6+11/19-20 plus 2d6 bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Each of this mechanical horror’s four monstrous limbs ends in a terrible weapon.",
+  "meta": {
+    "cmb": "+47",
+    "cmd": 71,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or catastrophe (3-13)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

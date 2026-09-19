@@ -1,0 +1,98 @@
+{
+  "name": "Ankheg",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 16,
+    "notes": "natural +7, size -1",
+    "touch": 9,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 28,
+    "formula": "3d10+12"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 20 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 10,
+    "con": 17,
+    "int": 1,
+    "wis": 13,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +6, Ref +3, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +8, Perception +8",
+    "list": {
+      "Climb": "+8",
+      "Perception": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 18,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 3,
+  "feats": [
+    "Skill Focus (Perception)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +5 (2d6+4 plus 1d4 acid and grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This burrowing, bug-like monster scuttles about on six legs, drooling noxious green ichor from its clacking mandibles.",
+  "meta": {
+    "cmb": "7 (+11 grapple)",
+    "cmd": "17 (25 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or nest (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

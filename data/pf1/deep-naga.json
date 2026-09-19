@@ -1,0 +1,115 @@
+{
+  "name": "Deep Naga",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 118: Siege of Stone",
+  "size": "Huge",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 27,
+    "notes": "dex +5, natural +14, size -2",
+    "touch": 13,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 161,
+    "formula": "17d8+85"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., burrow 20 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 21,
+    "con": 20,
+    "int": 13,
+    "wis": 16,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +10, Ref +10, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +8, Intimidate +18, Knowledge (arcana) +12, Knowledge (local) +15, Perception +21, Sense Motive +15, Spellcraft +16, Stealth +12, Swim +17",
+    "list": {
+      "Acrobatics": "+8",
+      "Intimidate": "+18",
+      "Perception": "+21",
+      "Sense Motive": "+15",
+      "Spellcraft": "+16",
+      "Stealth": "+12",
+      "Swim": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Aklo",
+    "Undercommon"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 12,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Multiattack",
+    "Step Up",
+    "Vital Strike",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +20 (2d6+9/19-20 plus magical disruption), tail slap +17 (2d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature’s massive, serpentine body is covered in dark purple scales. Its humanoid head has a wide mouth filled with fangs.",
+  "meta": {
+    "cmb": "+23",
+    "cmd": "38 (can’t be tripped)",
+    "racialModifiers": [
+      "Spellcraft 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or nest (3-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

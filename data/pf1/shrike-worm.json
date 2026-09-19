@@ -1,0 +1,108 @@
+{
+  "name": "Shrike Worm",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 114: Black Stars Beckon",
+  "size": "Huge",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 29,
+    "notes": "dex +3, natural +18, size -2",
+    "touch": 11,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 231,
+    "formula": "22d8+132"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., other ['air walk'] ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 16,
+    "con": 20,
+    "int": 7,
+    "wis": 19,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +14, Ref +10, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +29, Survival +29",
+    "list": {
+      "Perception": "+29",
+      "Survival": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision"
+  ],
+  "passivePerception": 39,
+  "languages": [
+    "Aklo (can’t speak)"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 16,
+  "feats": [
+    "Combat Reflexes",
+    "Following Step",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Lunge",
+    "Multiattack",
+    "Step Up",
+    "Step Up and Strike",
+    "Toughness",
+    "Weapon Focus (claw)",
+    "Weapon Focus (tentacle)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +24 (1d8+9), 6 tentacles +22 (1d6+4 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Iridescent spines cover the back of this enormous, long-legged worm. Writhing tentacles sprout from its throat, below a circular, toothy maw dripping with luminescent spittle.",
+  "meta": {
+    "cmb": "27 (+31 grapple)",
+    "cmd": "40 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or delusion (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

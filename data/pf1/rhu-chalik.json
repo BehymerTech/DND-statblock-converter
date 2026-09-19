@@ -1,0 +1,108 @@
+{
+  "name": "Rhu-chalik",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Pathfinder No. 86: Lords of Rust",
+  "size": "Small",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 18,
+    "notes": "armor +4, dex +3, size +1",
+    "touch": 14,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 68,
+    "formula": "8d8+32"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft., fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 19,
+    "int": 13,
+    "wis": 14,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +6, Ref +5, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +8, Diplomacy +8, Fly +13, Intimidate +10, Perception +10, Sense Motive +7, Stealth +15, Use Magic Device +10",
+    "list": {
+      "Bluff": "+8",
+      "Diplomacy": "+8",
+      "Fly": "+13",
+      "Intimidate": "+10",
+      "Perception": "+10",
+      "Sense Motive": "+7",
+      "Stealth": "+15",
+      "Use Magic Device": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Aklo",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 6,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Weapon Focus (tendril)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 tendrils +11 (1d4+3 plus pain touch)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Thin tendrils trail from this misshapen ovoid. Its underside holds a gray orb that resembles a bulging, lidless eye.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": 21,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

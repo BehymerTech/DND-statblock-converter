@@ -1,0 +1,120 @@
+{
+  "name": "Mythic Very Old Green Dragon",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Gargantuan",
+  "type": "dragon",
+  "subtype": "air, mythic",
+  "alignment": "LE",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 41,
+    "notes": "dex -1, natural +36, size -4",
+    "touch": 5,
+    "flatFooted": 41
+  },
+  "hp": {
+    "average": 342,
+    "formula": "21d12+206"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 250 ft. (clumsy), swim 40 ft."
+  },
+  "abilities": {
+    "str": 37,
+    "dex": 8,
+    "con": 23,
+    "int": 18,
+    "wis": 19,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +18, Ref +11, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +9, Knowledge (arcana) +28, Knowledge (local) +28, Knowledge (nature) +28, Perception +32, Sense Motive +6, Spellcraft +28, Stealth +11, Survival +28, Swim +45, Use Magic Device +30",
+    "list": {
+      "Fly": "+9",
+      "Perception": "+32",
+      "Sense Motive": "+6",
+      "Spellcraft": "+28",
+      "Stealth": "+11",
+      "Survival": "+28",
+      "Swim": "+45",
+      "Use Magic Device": "+30"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "low-light vision",
+    "greensight"
+  ],
+  "passivePerception": 42,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Elven",
+    "Giant",
+    "Sylvan"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 21,
+  "feats": [
+    "Alertness",
+    "Blinding Critical",
+    "Cleave",
+    "Critical Focus",
+    "Flyby Attack",
+    "Great Cleave",
+    "Improved Critical (bite)",
+    "Improved Critical (claws)",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +30 (4d6+19/18-20 plus grab), 2 claws +30 (2d8+13/18-20), tail slap +28 (2d8+19), 2 wings +28 (2d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "38 (+42 grapple)",
+    "cmd": "47 (51 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

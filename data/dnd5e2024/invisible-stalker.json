@@ -1,0 +1,94 @@
+{
+  "name": "Invisible Stalker",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Large",
+  "type": "Elemental",
+  "subtype": "",
+  "alignment": "Neutral",
+  "cr": "6",
+  "level": null,
+  "xp": 2300,
+  "ac": {
+    "value": 14,
+    "notes": ""
+  },
+  "hp": {
+    "average": 97,
+    "formula": "13d10 + 26"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": 50,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., Fly 50 ft. (hover)"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 19,
+    "con": 14,
+    "int": 10,
+    "wis": 15,
+    "cha": 11
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +8, Stealth +10",
+    "list": {
+      "Perception": "+8",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Primordial (Auran)"
+  ],
+  "initiative": "+7 (22)",
+  "babOrProficiency": 3,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Air Form",
+      "text": "The stalker can enter an enemy's space and stop there. It can move through a space as narrow as 1 inch without expending extra movement to do so."
+    },
+    {
+      "name": "Invisibility",
+      "text": "The stalker has the Invisible condition."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The stalker makes three Wind Swipe attacks. It can replace one attack with a use of Vortex."
+    },
+    {
+      "name": "Wind Swipe",
+      "text": "_Melee Attack Roll:_ +7, reach 5 ft. _Hit:_ 11 (2d6 + 4) Force damage."
+    },
+    {
+      "name": "Vortex",
+      "text": "_Constitution Saving Throw:_ DC 14, one Large or smaller creature in the stalker's space. _Failure:_ 7 (1d8 + 3) Thunder damage, and the target has the Grappled condition (escape DC 13). Until the grapple ends, the target can't cast spells with a Verbal component and takes 7 (2d6) Thunder damage at the start of each of the stalker's turns. ## Iron Golem"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

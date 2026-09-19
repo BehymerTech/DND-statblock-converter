@@ -1,0 +1,103 @@
+{
+  "name": "Duergar Anvil",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "alignment": "LE",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 15,
+    "notes": "dex +2, dodge +1, wis +2",
+    "touch": 15,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 18,
+    "formula": "2d8+6"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 15,
+    "con": 14,
+    "int": 10,
+    "wis": 15,
+    "cha": 4
+  },
+  "saves": {
+    "text": "Fort +5, Ref +5, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Escape Artist +7, Perception +7, Stealth +7",
+    "list": {
+      "Acrobatics": "+7",
+      "Escape Artist": "+7",
+      "Perception": "+7",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Undercommon"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 1,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Unarmed Strike",
+    "Innate Flexibility",
+    "Stunning Fist"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "unarmed strike +3 (1d6+2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "shuriken +3 (1d2+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Duergar",
+    "class": "monk 2",
+    "cmb": "+3",
+    "cmd": "18 (22 vs. bull rush or trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      }
+    ]
+  }
+}

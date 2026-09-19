@@ -1,0 +1,107 @@
+{
+  "name": "Bezilak, the Silken Fang",
+  "sourceSystem": "pf1",
+  "source": "Demons Revisited",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 32,
+    "notes": "dex +3, dodge +1, natural +20, size -2",
+    "touch": 12,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 310,
+    "formula": "12d10+8d8+208"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 33,
+    "dex": 16,
+    "con": 30,
+    "int": 18,
+    "wis": 16,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +20, Ref +13, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +30, Climb +19, Diplomacy +34, Disguise +30, Intimidate +34, Knowledge (arcana) +15, Knowledge (local) +15, Knowledge (nobility) +14, Knowledge (planes) +27, Knowledge (religion) +14, Perception +34, Sense Motive +26, Spellcraft +27, Stealth +28",
+    "list": {
+      "Bluff": "+30",
+      "Climb": "+19",
+      "Diplomacy": "+34",
+      "Disguise": "+30",
+      "Intimidate": "+34",
+      "Perception": "+34",
+      "Sense Motive": "+26",
+      "Spellcraft": "+27",
+      "Stealth": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 44,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 18,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dodge",
+    "Improved Critical (pincers)",
+    "Improved Initiative",
+    "Mobility",
+    "Persuasive",
+    "Power Attack",
+    "Spring Attack",
+    "Staggering Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 pincers +25 (2d8+5/19-20), claw +25 (2d8+5), bite +25 (1d6+5), rod of withering +28 (1d4 Str and 1d4 Con)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering four-armed demon carries an evil-looking scepter in one of its two human hands-the other arms end in pincers.",
+  "meta": {
+    "race": "Male",
+    "class": "glabrezu rogue 8 (Pathfinder RPG Bestiary 61)",
+    "cmb": "+31",
+    "cmd": 45
+  }
+}

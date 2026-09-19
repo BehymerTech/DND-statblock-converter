@@ -1,0 +1,114 @@
+{
+  "name": "Sharpshooter Automaton",
+  "sourceSystem": "pf1",
+  "source": "Construct Handbook",
+  "size": "Medium",
+  "type": "construct",
+  "subtype": "automaton, extraplanar",
+  "alignment": "LN",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 29,
+    "notes": "dex +4, natural +15",
+    "touch": 14,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 130,
+    "formula": "20d10+20"
+  },
+  "speed": {
+    "walk": 100,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 100 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 20,
+    "con": "None",
+    "int": 17,
+    "wis": 19,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +6, Ref +14, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +27, Fly +36, Intimidate +27, Knowledge (geography) +26, Knowledge (local) +26, Perception +27, Spellcraft +26",
+    "list": {
+      "Diplomacy": "+27",
+      "Fly": "+36",
+      "Intimidate": "+27",
+      "Perception": "+27",
+      "Spellcraft": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "see invisibility"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 20,
+  "feats": [
+    "Far Shot",
+    "Hover",
+    "Improved Critical (automated crossbow)",
+    "Improved Initiative",
+    "Improved Precise Shot",
+    "Manyshot",
+    "Pinpoint Targeting",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Rapid Shot"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +24 (1d8+6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "automated crossbow +25/+20/+15/+10 (2d8+6/17-20 plus 1d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This construct resembles a humanoid with a large crossbow built into its arm. It floats with no apparent mechanism.",
+  "meta": {
+    "cmb": "+24",
+    "cmd": 40,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Axis)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      }
+    ]
+  }
+}

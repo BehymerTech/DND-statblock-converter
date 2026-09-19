@@ -1,0 +1,92 @@
+{
+  "name": "NPC Sylvan Protector",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "gnome",
+  "alignment": "CN",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 18,
+    "notes": "armor +3, dex +2, shield +2, size +1",
+    "touch": 13,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 24,
+    "formula": "3d8+7"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 14,
+    "con": 15,
+    "int": 10,
+    "wis": 15,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +5, Ref +3, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Handle Animal +7, Heal +6, Knowledge (nature) +6, Perception +8, Spellcraft +6, Stealth +8, Survival +10",
+    "list": {
+      "Handle Animal": "+7",
+      "Heal": "+6",
+      "Perception": "+8",
+      "Spellcraft": "+6",
+      "Stealth": "+8",
+      "Survival": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Druidic",
+    "Gnome"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 2,
+  "feats": [
+    "Augment Summoning",
+    "Spell Focus (conjuration)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "sickle +1 (1d4-2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Gnome",
+    "class": "druid 3",
+    "cmb": "-1",
+    "cmd": 11
+  }
+}

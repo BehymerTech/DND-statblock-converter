@@ -1,0 +1,106 @@
+{
+  "name": "NPC Duergar Strandrider",
+  "sourceSystem": "pf1",
+  "source": "Tombs of Golarion",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "alignment": "LE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 20,
+    "notes": "armor +8, dex +2",
+    "touch": 12,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 81,
+    "formula": "9d10+27"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 16,
+    "int": 8,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +10, Ref +8, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Handle Animal +10, Intimidate +10, Perception +6, Ride +11, Sense Motive +2, Stealth +8",
+    "list": {
+      "Handle Animal": "+10",
+      "Intimidate": "+10",
+      "Perception": "+6",
+      "Ride": "+11",
+      "Sense Motive": "+2",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Undercommon"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 9,
+  "feats": [
+    "Charge Through",
+    "Cleave",
+    "Improved Initiative",
+    "Improved Overrun",
+    "Mounted Combat",
+    "Outflank",
+    "Power Attack",
+    "Precise Strike",
+    "Ride-By Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 lance +13/+8 (1d8+5/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "sling +11 (1d4+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This stout, gray-skinned warrior sits astride an enormous spider.",
+  "meta": {
+    "race": "Duergar",
+    "class": "cavalier (beast rider) 9",
+    "cmb": "12 (+14 overrun)",
+    "cmd": "24 (28 vs. bull rush, 26 vs. overrun, 28 vs. trip)",
+    "racialModifiers": [
+      "Stealth 4"
+    ]
+  }
+}

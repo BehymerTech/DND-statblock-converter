@@ -1,0 +1,111 @@
+{
+  "name": "Chyzaedu",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 46.",
+  "size": "Gargantuan",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 30,
+    "notes": ""
+  },
+  "hp": {
+    "average": 135,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, burrow 20 feet, climb 20 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 16,
+    "con": 18,
+    "int": 14,
+    "wis": 24,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +18, Ref +15, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +21 (1d20+21); __Diplomacy__: +17 (1d20+17); __Intimidation__: +19 (1d20+19); __Occultism__: +22 (1d20+22); __Religion__: +21 (1d20+21); __Survival__: +19 (1d20+19); ",
+    "list": {
+      "Athletics": "+21",
+      "Diplomacy": "+17",
+      "Intimidation": "+19",
+      "Occultism": "+22",
+      "Religion": "+21",
+      "Survival": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tremorsense 60"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Common",
+    "Draconic",
+    "Protean",
+    "Undercommon; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Alien Vestment",
+      "text": "The chyzaedu wears an eerie, alien layer of shimmering violet mucus that slithers and crawls over its flesh, but is hard as iron to the touch. If a chyzaedu takes bludgeoning damage from a critical hit, its alien vestment is shattered—this reduces its AC to 27 and causes it to lose its resistance to mental and physical damage; it can grow a new alien vestment by concentrating for 1 hour."
+    },
+    {
+      "name": "Ecstatic Hunger",
+      "text": "(aura, emotion, enchantment, incapacitation, mental, occult); 30 feet. A chyzaedu gains sustenance by feeding upon the metabolisms of organic victims. A living creature that ends its turn in the aura must attempt a Will save. Critical Success The creature is unaffected and is temporarily immune for 24 hours. Success The creature suffers a painful hunger pang, becoming flat-footed for 1 round. Failure If possible, the creature spends its first 2 actions on its next turn eating or drinking (or spending actions to procure food or drink from its possessions or the surroundings, if necessary). The creature won't consume anything dangerous, but will eat things it normally has no appetite for. Critical Failure As failure, but the creature will eat or drink dangerous consumables, such as poison or rotten food, if other food or drink are not immediately available. The creature must spend its first 2 actions each round consuming for as long as it remains in the chyzaedu's aura plus 1 minute thereafter, but the creature can attempt a new saving throw at the end of its turn each round to end the effect early."
+    },
+    {
+      "name": "Swallow Whole",
+      "text": "⬻ Medium, 3d8+7 (3d8+7) bludgeoning, Rupture 26"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +21 Damage 2d12+9 (2d12+9) piercing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +21 (agile); Damage 2d8+9 (2d8+9) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      3,
+      4,
+      2,
+      7,
+      3
+    ]
+  }
+}

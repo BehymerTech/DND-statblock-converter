@@ -1,0 +1,112 @@
+{
+  "name": "Fire Giant King",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "fire, giant",
+  "alignment": "LE",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 34,
+    "notes": "armor +11, deflection +3, dex -2, natural +13, size -1",
+    "touch": 10,
+    "flatFooted": 34
+  },
+  "hp": {
+    "average": 382,
+    "formula": "15d8+10d10+260"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 39,
+    "dex": 7,
+    "con": 30,
+    "int": 13,
+    "wis": 18,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +26, Ref +10, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +28, Craft (armor) +9, Intimidate +30, Knowledge (geography) +14, Knowledge (nobility) +11, Perception +38, Spellcraft +17, Stealth +7",
+    "list": {
+      "Climb": "+28",
+      "Intimidate": "+30",
+      "Perception": "+38",
+      "Spellcraft": "+17",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 48,
+  "languages": [
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 21,
+  "feats": [
+    "Cleave",
+    "Endurance",
+    "Great Cleave",
+    "Improved Bull Rush",
+    "Improved Critical (greatsword)",
+    "Improved Initiative",
+    "Improved Natural Armor",
+    "Improved Overrun",
+    "Improved Sunder",
+    "Iron Will",
+    "Power Attack",
+    "Skill Focus (Perception)",
+    "Vital Strike",
+    "Weapon Focus (greatsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 brilliant energy greatsword +36/+31/+26/+21 (3d6+22/17-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +19 (1d8+21 plus 1d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Fire",
+    "class": "giant ranger 10",
+    "cmb": "38 (+40 bull rush, +40 overrun, +40 sunder)",
+    "cmd": "47 (49 vs. bull rush, 49 vs. overrun, 49 vs. sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm mountains"
+      }
+    ]
+  }
+}

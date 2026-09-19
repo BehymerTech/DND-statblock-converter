@@ -1,0 +1,125 @@
+{
+  "name": "Glabrezu",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 79.",
+  "size": "Huge",
+  "type": "Fiend",
+  "subtype": "Demon",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 13",
+  "xp": null,
+  "ac": {
+    "value": 34,
+    "notes": ""
+  },
+  "hp": {
+    "average": 280,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 14,
+    "con": 24,
+    "int": 16,
+    "wis": 16,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +26, Ref +19, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Deception__: +28 (1d20+28); __Diplomacy__: +26 (1d20+26); __Intimidation__: +26 (1d20+26); __Religion__: +22 (1d20+22); __Society__: +22 (1d20+22); __Stealth__: +21 (1d20+21); ",
+    "list": {
+      "Deception": "+28",
+      "Diplomacy": "+26",
+      "Intimidation": "+26",
+      "Religion": "+22",
+      "Society": "+22",
+      "Stealth": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, true seeing"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Draconic; telepathy 100 feet",
+    "tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Truth Vulnerability",
+      "text": "A glabrezu's lies sustain them, and the truth can destroy them. Whenever a revelation effect counteracts or reveals the glabrezu's illusions or the glabrezu fails a save against an effect that would prevent them from lying (such as zone of truth), the demon takes 3d6 (3d6) mental damage. They take this damage only once per effect, even if the effect reveals multiple illusions or prevents multiple lies."
+    },
+    {
+      "name": "Captive Rake",
+      "text": "⬻ Requirements A creature is grabbed in the glabrezu's pincer. Effect The glabrezu pulls the grabbed creature up to 5 feet closer, then makes two claw Strikes against it. Those Strikes count as one attack when determining a treachery demon's multiple attack penalty, and the penalty doesn't increase until after both Strikes."
+    },
+    {
+      "name": "Steady Spellcasting",
+      "text": "When a reaction would disrupt a glabrezu's spell, the demon can attempt a DC 15 flat check, avoiding the disruption on a success."
+    },
+    {
+      "name": "Sudden Betrayal",
+      "text": "A glabrezu can always use Deception when rolling initiative as long as they're aware of at least one opponent before initiative is rolled. When using Deception for initiative, the demon gains a +2 circumstance bonus to Deception."
+    },
+    {
+      "name": "Treacherous Veil",
+      "text": "A glabrezu's illusory disguise can allow it to appear as a creature of any size."
+    },
+    {
+      "name": "Twisted Desires",
+      "text": "(divination, divine); Once per month, a glabrezu can grant a mortal humanoid the effects of a miracle spell granted by an Abyssal patron, though the glabrezu always perverts the miracle according to their own treacherous nature."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ pincer +27 (deadly 2d10, evil, magical, reach 15 feet); Damage 3d10+13 (3d10+13) bludgeoning plus 1d6 (1d6) evil and Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +27 (agile, evil, magical, reach 10 feet); Damage 3d6+13 (3d6+13) slashing plus 1d6 (1d6) evil"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +27 (evil, magical, reach 10 feet); Damage 3d12+13 (3d12+13) piercing plus 1d6 (1d6) evil"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      2,
+      7,
+      3,
+      3,
+      7
+    ]
+  }
+}

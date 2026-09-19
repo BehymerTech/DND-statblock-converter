@@ -1,0 +1,94 @@
+{
+  "name": "Large Earth Elemental",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "earth, elemental, extraplanar",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "dex -1, natural +10, size -1",
+    "touch": 8,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 68,
+    "formula": "8d10+24"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., burrow 20 ft., other ['earth glide'] ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 8,
+    "con": 17,
+    "int": 6,
+    "wis": 11,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +9, Ref +1, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +6, Climb +15, Knowledge (dungeoneering) +3, Knowledge (planes) +6, Perception +11, Stealth +5",
+    "list": {
+      "Appraise": "+6",
+      "Climb": "+15",
+      "Perception": "+11",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": "-1",
+  "babOrProficiency": 8,
+  "feats": [
+    "Cleave",
+    "Greater Bull Rush",
+    "Improved Bull Rush",
+    "Improved Overrun",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +14 (2d6+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+16",
+    "cmd": 25,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Earth)"
+      }
+    ]
+  }
+}

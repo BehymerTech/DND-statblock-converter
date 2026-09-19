@@ -1,0 +1,104 @@
+{
+  "name": "Cursed King",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 24,
+    "notes": "dex +4, natural +10",
+    "touch": 14,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 119,
+    "formula": "14d8+56"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 19,
+    "con": "None",
+    "int": 3,
+    "wis": 19,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +9, Ref +8, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +12, Stealth +16",
+    "list": {
+      "Perception": "+12",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Abyssal (can’t speak)"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 10,
+  "feats": [
+    "Combat Reflexes",
+    "Following Step",
+    "Great Fortitude",
+    "Improved Critical (bite)",
+    "Power Attack",
+    "Step Up",
+    "Step Up and Strike",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +20 (1d8+10/19-20), 2 slams +20 (1d6+10)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This desiccated figure wears linen wrappings and tarnished jewelry. Its humanoid body is topped with a withered crocodile head.",
+  "meta": {
+    "cmb": "+20",
+    "cmd": 34,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm ruins"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or court (2-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

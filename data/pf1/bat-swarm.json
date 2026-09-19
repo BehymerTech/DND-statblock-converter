@@ -1,0 +1,100 @@
+{
+  "name": "Bat Swarm",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Diminutive",
+  "type": "animal",
+  "subtype": "swarm",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 16,
+    "notes": "dex +2, size +4",
+    "touch": 16,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 13,
+    "formula": "3d8"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft., fly 40 ft. (good)"
+  },
+  "abilities": {
+    "str": 3,
+    "dex": 15,
+    "con": 11,
+    "int": 2,
+    "wis": 14,
+    "cha": 4
+  },
+  "saves": {
+    "text": "Fort +3, Ref +7, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +12, Perception +15",
+    "list": {
+      "Fly": "+12",
+      "Perception": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "low-light vision"
+  ],
+  "passivePerception": 25,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 2,
+  "feats": [
+    "Lightning Reflexes",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "swarm (1d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Hundreds of high-pitched squeaks fill the air as a mass of small, carnivorous bats surges forth, all of them hungry for blood.",
+  "meta": {
+    "cmb": "None",
+    "cmd": "None",
+    "racialModifiers": [
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any temperate or tropical"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, flight (3-6 swarms), or colony (11-20 swarms)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

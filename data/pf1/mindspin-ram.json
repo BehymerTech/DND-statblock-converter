@@ -1,0 +1,103 @@
+{
+  "name": "Mindspin Ram",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 91: Battle of Bloodmarch Hills",
+  "size": "Medium",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 14,
+    "notes": "dex +3, natural +1",
+    "touch": 13,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 22,
+    "formula": "4d8+4"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 17,
+    "con": 13,
+    "int": 2,
+    "wis": 14,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +5, Ref +7, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Climb +9, Perception +6, Stealth +7",
+    "list": {
+      "Acrobatics": "+7",
+      "Climb": "+9",
+      "Perception": "+6",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 3,
+  "feats": [
+    "Multiattack",
+    "Nimble Moves"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +4 (1d6+1 plus bleed), 2 hooves +2 (1d4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This stark white ram’s curved horns appear to have sharp thorns studding every inch of their surface.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": "17 (21 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics 4",
+      "Climb 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or herd (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

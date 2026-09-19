@@ -1,0 +1,105 @@
+{
+  "name": "NPC Mistress of High Places",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf, human",
+  "alignment": "CN",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 23,
+    "notes": "armor +7, deflection +1, dex +1, dodge +1, shield +3",
+    "touch": 13,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 84,
+    "formula": "11d8+31"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 15,
+    "int": 8,
+    "wis": 20,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +10, Ref +5, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +6, Handle Animal +6, Heal +9, Knowledge (nature) +9, Knowledge (planes) +3, Linguistics +2, Perception +14, Perform (dance) +2, Spellcraft +5, Survival +18",
+    "list": {
+      "Fly": "+6",
+      "Handle Animal": "+6",
+      "Heal": "+9",
+      "Linguistics": "+2",
+      "Perception": "+14",
+      "Spellcraft": "+5",
+      "Survival": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Aquan",
+    "Auran",
+    "Common",
+    "Druidic",
+    "Elven",
+    "Ignan"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 8,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Mobility",
+    "Natural Spell",
+    "Skill Focus (Survival)",
+    "Spell Focus (evocation)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 sickle +10/+5 (1d6+2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk shortspear +10/+5 (1d6+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-elf",
+    "class": "druid 11",
+    "cmb": "+9",
+    "cmd": 22
+  }
+}

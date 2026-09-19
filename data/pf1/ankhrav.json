@@ -1,0 +1,100 @@
+{
+  "name": "Ankhrav",
+  "sourceSystem": "pf1",
+  "source": "Belkzen, Hold of the Orc Hordes",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 24,
+    "notes": "natural +16, size -2",
+    "touch": 8,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 115,
+    "formula": "10d10+60"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., burrow 30 ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 10,
+    "con": 22,
+    "int": 1,
+    "wis": 15,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +13, Ref +7, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +16, Perception +13",
+    "list": {
+      "Climb": "+16",
+      "Perception": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 23,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 10,
+  "feats": [
+    "Improved Initiative",
+    "Iron Will",
+    "Skill Focus (Perception)",
+    "Snatch",
+    "Step Up"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +16 (2d8+8 plus 2d6 acid), 2 claws +16 (1d8+8)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This giant vermin waves two scything forelegs threateningly as hissing acid drips from its mandibles.",
+  "meta": {
+    "cmb": "+20",
+    "cmd": 30,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any hills, plains, or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, royal party (1 ankhrav plus 2-12 ankhegs), or army (1-3 ankhravs plus 2-8 ankhegs)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "name": "Ugash-Iram",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 60: From Hell's Heart",
+  "size": "Colossal",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "NE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 28,
+    "notes": "dex +4, natural +22, size -8",
+    "touch": 6,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 229,
+    "formula": "17d10+136"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft., other_semicolon jet (320 ft.) ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 19,
+    "con": 26,
+    "int": 13,
+    "wis": 20,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +18, Ref +14, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +13, Knowledge (geography) +10, Knowledge (planes) +11, Perception +20, Sense Motive +13, Stealth -8, Swim +23",
+    "list": {
+      "Bluff": "+13",
+      "Perception": "+20",
+      "Sense Motive": "+13",
+      "Stealth": "-8",
+      "Swim": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "see in darkness"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Abyssal",
+    "Aquan",
+    "Common",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 17,
+  "feats": [
+    "Cleave",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Deadly Finish",
+    "Greater Disarm",
+    "Improved Disarm",
+    "Improved Initiative",
+    "Power Attack",
+    "Stand Still"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "tentacles +20 (6d6+11 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This immense creature resembles a horrific, twelve-armed squid. Its emerald eyes burn with a terrifying malignance, and the thing has a fanged maw where its beak should be.",
+  "meta": {
+    "cmb": "36 (+40 grapple)",
+    "cmd": "50 (can’t be tripped)"
+  }
+}

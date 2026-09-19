@@ -1,0 +1,115 @@
+{
+  "name": "Shadow Drake",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 100.",
+  "size": "Tiny",
+  "type": "Shadow",
+  "subtype": "Dragon",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 28,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 feet, fly 60 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 18,
+    "con": 12,
+    "int": 8,
+    "wis": 10,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +7, Ref +10, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Stealth__: +8 (1d20+8); __Thievery__: +8 (1d20+8); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Stealth": "+8",
+      "Thievery": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Light Blindness",
+      "text": ""
+    },
+    {
+      "name": "Shadow Blend",
+      "text": "The shadow drake's form shifts and blends reflexively with surrounding shadows. A shadow drake gains an additional reaction each round, but it can use this reaction only for Shadow Evade."
+    },
+    {
+      "name": "Shadow Evade",
+      "text": "⬲ Trigger A creature attacks the shadow drake while it is in an area of dim light Effect The shadow drake further obscures its position. The attacker must succeed at a DC 11 flat check in order to affect the shadow drake, as if the drake were Hidden for the triggering attack."
+    },
+    {
+      "name": "Draconic Frenzy",
+      "text": "⬺ The shadow drake makes one bite Strike and two tail Strikes in any order."
+    },
+    {
+      "name": "Shadow Breath",
+      "text": "⬺ (arcane, cold, evocation, shadow); A shadow drake spits a ball of black liquid that explodes into a cloud of frigid black shadow. This attack has a range of 40 feet and explodes in a 5-foot-radius burst. Creatures within the burst take 3d6 (3d6) cold damage (DC 18 basic Reflex save). The explosion of shadow also snuffs out mundane light sources the size of a torch, lantern, or smaller, and attempts to counteract magical light with a +10 counteract modifier. The shadow drake can't use Shadow Breath again for 1d6 (1d6) rounds."
+    },
+    {
+      "name": "Speed Surge",
+      "text": "⬻ Frequency three times per day Effect The shadow drake Strides or Flies twice."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +11 (finesse); Damage 1d10+3 (1d10+3) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +11 (agile, finesse); Damage 1d8+3 (1d8+3) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      4,
+      1,
+      -1,
+      0,
+      2
+    ]
+  }
+}

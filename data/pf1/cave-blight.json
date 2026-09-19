@@ -1,0 +1,116 @@
+{
+  "name": "Cave Blight",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "ooze",
+  "subtype": "blight",
+  "alignment": "CE",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 34,
+    "notes": "dex +12, natural +12",
+    "touch": 22,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 325,
+    "formula": "21d8+231"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 30 ft., climb 30 ft., other ['earth glide'] ft."
+  },
+  "abilities": {
+    "str": 40,
+    "dex": 34,
+    "con": 32,
+    "int": 22,
+    "wis": 29,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +18, Ref +19, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +28, Climb +44, Intimidate +28, Knowledge (dungeoneering) +27, Knowledge (geography) +27, Perception +30, Sense Motive +30, Stealth +39",
+    "list": {
+      "Bluff": "+28",
+      "Climb": "+44",
+      "Intimidate": "+28",
+      "Perception": "+30",
+      "Sense Motive": "+30",
+      "Stealth": "+39"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Aklo",
+    "Undercommon",
+    "domain telepathy"
+  ],
+  "initiative": "+16",
+  "babOrProficiency": 15,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Greater Sunder",
+    "Improved Critical (sting)",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Iron Will",
+    "Power Attack",
+    "Skill Focus (Stealth)",
+    "Staggering Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 stings +30 (2d8+15/19-20 plus petrification)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Muscular tentacles ending in stalagmite-like stingers extend from this pale brown slime.",
+  "meta": {
+    "cmb": "30 (+34 sunder)",
+    "cmd": "52 (54 vs. sunder, can’t be tripped)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

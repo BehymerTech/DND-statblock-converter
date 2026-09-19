@@ -1,0 +1,108 @@
+{
+  "name": "NPC Eagle Knight",
+  "sourceSystem": "pf1",
+  "source": "Andoran, Birthplace of Freedom",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LG",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 19,
+    "notes": "armor +6, dex +3",
+    "touch": 13,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 24,
+    "formula": "3d10+3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 17,
+    "con": 12,
+    "int": 10,
+    "wis": 8,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +4, Ref +4, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (history) +1, Knowledge (local) +1, Perception +2, Sense Motive +2, Stealth +4, Survival +3",
+    "list": {
+      "Perception": "+2",
+      "Sense Motive": "+2",
+      "Stealth": "+4",
+      "Survival": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 12,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 3,
+  "feats": [
+    "Cleave",
+    "Deadly Aim",
+    "Iron Will",
+    "Power Attack",
+    "Weapon Focus (greatsword)",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk greatsword +6 (2d6+1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite longbow +7 (1d8+1/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Golden eagles shine proudly on the steel armor of this blue-uniformed soldier.",
+  "meta": {
+    "race": "Human",
+    "class": "fighter 3",
+    "cmb": "+4",
+    "cmd": 17,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land (Andoran and surrounding nations)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or team (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (mwk breastplate, mwk greatsword, mwk composite longbow with 20 arrows, wooden holy symbol, backpack)"
+      }
+    ]
+  }
+}

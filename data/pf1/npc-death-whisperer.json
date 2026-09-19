@@ -1,0 +1,108 @@
+{
+  "name": "NPC Death Whisperer",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LE",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 28,
+    "notes": "armor +6, deflection +2, dex +5, dodge +1, natural +2, shield +2",
+    "touch": 18,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 184,
+    "formula": "19d8+95"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 22,
+    "con": 16,
+    "int": 10,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +12, Ref +20, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +28, Bluff +21, Climb +24, Disable Device +39, Escape Artist +28, Perception +23, Sense Motive +23, Stealth +28, Swim +24",
+    "list": {
+      "Acrobatics": "+28",
+      "Bluff": "+21",
+      "Climb": "+24",
+      "Disable Device": "+39",
+      "Escape Artist": "+28",
+      "Perception": "+23",
+      "Sense Motive": "+23",
+      "Stealth": "+28",
+      "Swim": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 33,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 14,
+  "feats": [
+    "Critical Focus",
+    "Dodge",
+    "Improved Critical (rapier)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Lightning Stance",
+    "Mobility",
+    "Spring Attack",
+    "Staggering Critical",
+    "Toughness",
+    "Vital Strike",
+    "Weapon Finesse",
+    "Weapon Focus (rapier)",
+    "Wind Stance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "rapier of puncturing +23/+18/+13 (1d6+4/15-20 plus 1 bleed)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk dagger +21 (1d4+2/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "rogue 19",
+    "cmb": "+16",
+    "cmd": 35
+  }
+}

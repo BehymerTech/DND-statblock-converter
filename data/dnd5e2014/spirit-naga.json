@@ -1,0 +1,89 @@
+{
+  "name": "Spirit Naga",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Large",
+  "type": "monstrosity",
+  "subtype": "",
+  "alignment": "chaotic evil",
+  "cr": "8",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "natural armor"
+  },
+  "hp": {
+    "average": 75,
+    "formula": "10d10 + 20"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 17,
+    "con": 14,
+    "int": 16,
+    "wis": 15,
+    "cha": 16
+  },
+  "saves": {
+    "text": "dex +6, con +5, wis +5, cha +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [
+    "poison"
+  ],
+  "conditionImmunities": [
+    "charmed",
+    "poisoned"
+  ],
+  "senses": [
+    "darkvision 60 ft."
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Abyssal",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Rejuvenation",
+      "text": "If it dies, the naga returns to life in 1d6 days and regains all its hit points. Only a wish spell can prevent this trait from functioning."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit: 7 (1d6 + 4) piercing damage, and the target must make a DC 13 Constitution saving throw, taking 31 (7d8) poison damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [
+    {
+      "name": "Spellcasting",
+      "text": "The naga is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following wizard spells prepared:\nCantrips (at will): mage hand, minor illusion, ray of frost\n1st level (4 slots): charm person, detect magic, sleep\n2nd level (3 slots): detect thoughts, hold person\n3rd level (3 slots): lightning bolt, water breathing\n4th level (3 slots): blight, dimension door\n5th level (2 slots): dominate person"
+    }
+  ],
+  "description": "",
+  "meta": {}
+}

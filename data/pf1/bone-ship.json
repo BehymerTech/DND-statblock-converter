@@ -1,0 +1,114 @@
+{
+  "name": "Bone Ship",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Colossal",
+  "type": "undead",
+  "subtype": "water",
+  "alignment": "CE",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 36,
+    "notes": "dex +3, natural +30, size -8",
+    "touch": 6,
+    "flatFooted": 32
+  },
+  "hp": {
+    "average": 299,
+    "formula": "26d8+182"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 60 ft."
+  },
+  "abilities": {
+    "str": 42,
+    "dex": 18,
+    "con": "None",
+    "int": 11,
+    "wis": 20,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +17, Ref +14, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +36, Knowledge (geography) +13, Perception +40, Profession (sailor) +18, Swim +53",
+    "list": {
+      "Intimidate": "+36",
+      "Perception": "+40",
+      "Swim": "+53"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 50,
+  "languages": [
+    "Common (can’t speak)"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 19,
+  "feats": [
+    "Great Fortitude",
+    "Greater Bull Rush",
+    "Greater Overrun",
+    "Greater Vital Strike",
+    "Improved Bull Rush",
+    "Improved Great Fortitude",
+    "Improved Lightning Reflexes",
+    "Improved Vital Strike",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Skill Focus (Perception)",
+    "Vital Strike",
+    "Weapon Focus (slam)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +28 (8d8+24 plus energy drain)"
+    },
+    {
+      "name": "Ranged",
+      "text": "4 bone cannons +15 (6d6+16/×4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Muscle holds together the large bones that form the hull of this ship. Rotting sails hang from masts crafted from gigantic spines.",
+  "meta": {
+    "cmb": "43 (+47 bull rush, +45 overRun)",
+    "cmd": "51 (53 vs. bull rush, can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

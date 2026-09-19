@@ -1,0 +1,102 @@
+{
+  "name": "Bloodplate Burster",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 129: The Twilight Child",
+  "size": "Huge",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 24,
+    "notes": "dex +1, dodge +1, natural +14, size -2",
+    "touch": 10,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 119,
+    "formula": "14d8+56"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 30 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 13,
+    "con": 17,
+    "int": 4,
+    "wis": 12,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +12, Ref +7, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +24",
+    "list": {
+      "Perception": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "scent",
+    "tremorsense"
+  ],
+  "passivePerception": 34,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 10,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Skill Focus (Perception)",
+    "Toughness",
+    "Weapon Focus (tentacle)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 tentacles +18 (1d8+9 plus hydraulic surge and rupture)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Withered, fleshy leaves the color of dried blood lie like armored plates across the top of this imposing creature’s bulbous form. Thick, serpentine strands run the length of its rigid, fibrous skin.",
+  "meta": {
+    "cmb": "+21",
+    "cmd": "33 (can't be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm deserts or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or frenzy (3-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

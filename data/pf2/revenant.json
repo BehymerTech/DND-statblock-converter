@@ -1,0 +1,106 @@
+{
+  "name": "Revenant",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 227.",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "alignment": "LN",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 23,
+    "notes": ""
+  },
+  "hp": {
+    "average": 115,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 16,
+    "con": 18,
+    "int": 10,
+    "wis": 16,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +14, Ref +13, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +15 (1d20+15); __Intimidation__: +14 (1d20+14); ",
+    "list": {
+      "Athletics": "+15",
+      "Intimidation": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, sense murderer"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Any one spoken in life by their murderer (typically common)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Sense Murderer",
+      "text": "(divination, occult, scrying); A revenant knows the direction of their murderer (as long as both are on the same plane), but not the distance."
+    },
+    {
+      "name": "Self-Loathing",
+      "text": "(emotion, mental, visual); If a revenant sees their own reflection or any object that was important to them in life, they must attempt a DC 25 Will save. Critical Success The revenant is unaffected and can no longer be affected by that reflection or object in this way. Success The revenant is distracted by self-loathing and becomes slowed 1 for 1 round. Failure The revenant becomes fascinated by the source that triggered their self-loathing and does everything they can to destroy it until the end of the revenant's next turn. Critical Failure The revenant becomes immobilized as long as the source of their self-loathing is apparent, until they're attacked, or until they see their murderer."
+    },
+    {
+      "name": "Undying Vendetta",
+      "text": "(emotion, necromancy, occult); If the revenant's murderer dies, the revenant is immediately destroyed. A revenant that can't sense their murderer must attempt a DC 11 flat check once every 24 hours to avoid becoming immobilized and prone; they immediately rise again once they can sense their murderer. A murderer who becomes undead does not trigger the revenant's destruction until the murderer is finally destroyed. The revenant gains a +2 status bonus to checks and DCs against their murderer."
+    },
+    {
+      "name": "Baleful Shriek",
+      "text": "⬺ (auditory, emotion, fear, incapacitation, mental); The revenant wails horribly. Each creature within a 60-foot burst must attempt a DC 23 Will save. Regardless of the outcome of their saving throw, affected creatures are then immune to Baleful Shriek for 1 hour. The revenant's murderer never improves their degree of success due to this ability's incapacitation trait. The revenant can't use Baleful Shriek again for 1d4 (1d4) rounds. Critical Success The creature is unaffected. Success The creature is frightened 2. Failure The creature is frightened 2 and paralyzed for 1 round. Critical Failure The creature is frightened 3 and paralyzed for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 2d6+5 (2d6+5) bludgeoning, DC 24."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +17 (agile); Damage 2d8+5 (2d8+5) slashing plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      3,
+      4,
+      0,
+      3,
+      2
+    ]
+  }
+}

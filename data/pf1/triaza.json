@@ -1,0 +1,103 @@
+{
+  "name": "Triaza",
+  "sourceSystem": "pf1",
+  "source": "Darklands Revisited",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "native",
+  "alignment": "NE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 22,
+    "notes": "armor +7, dex +2, dodge +1, natural +2",
+    "touch": 13,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 104,
+    "formula": "7d8+3d10+57"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 21,
+    "int": 18,
+    "wis": 13,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +13, Ref +8, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +7, Knowledge (dungeoneering) +17, Knowledge (planes) +17, Knowledge (religion) +17, Perception +14, Ride +5, Sense Motive +7, Spellcraft +17, Survival +7, Use Magic Device +14",
+    "list": {
+      "Intimidate": "+7",
+      "Perception": "+14",
+      "Ride": "+5",
+      "Sense Motive": "+7",
+      "Spellcraft": "+17",
+      "Survival": "+7",
+      "Use Magic Device": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Azlanti",
+    "Infernal",
+    "Undercommon"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 8,
+  "feats": [
+    "Dodge",
+    "Improved Critical (rhoka sword)",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack",
+    "Weapon Focus (rhoka sword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 vicious rhoka sword +16/+11 (1d8+7/15-20 plus 2d6), bite +9 (1d4+3 plus 2 Str)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +11 (1d4+6/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This humanoid figure is garbed only in leather straps wrapped around her translucent skin, as well as scattered pieces of armor. She wields a wicked two-pronged blade.",
+  "meta": {
+    "race": "Female",
+    "class": "urdefhan magus 7 (Pathfinder RPG Bestiary 2 276, Pathfinder RPG Ultimate Magic 9)",
+    "cmb": "+14",
+    "cmd": 28
+  }
+}

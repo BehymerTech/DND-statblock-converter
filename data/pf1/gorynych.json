@@ -1,0 +1,116 @@
+{
+  "name": "Gorynych",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 28,
+    "notes": "dex +2, natural +18, size -2",
+    "touch": 10,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 212,
+    "formula": "17d12+102"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 100 ft. (poor), swim 50 ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 15,
+    "con": 22,
+    "int": 12,
+    "wis": 17,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +16, Ref +14, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +17, Diplomacy +17, Fly +7, Intimidate +17, Knowledge (arcana) +14, Knowledge (nature) +14, Perception +23, Sense Motive +16, Spellcraft +14, Stealth +14, Swim +24",
+    "list": {
+      "Bluff": "+17",
+      "Diplomacy": "+17",
+      "Fly": "+7",
+      "Intimidate": "+17",
+      "Perception": "+23",
+      "Sense Motive": "+16",
+      "Spellcraft": "+14",
+      "Stealth": "+14",
+      "Swim": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "true seeing"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Sylvan"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 17,
+  "feats": [
+    "Awesome Blow",
+    "Combat Reflexes",
+    "Flyby Attack",
+    "Improved Bull Rush",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Stand Still",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "3 bites +24 (2d8+8), 2 claws +23 (1d8+8)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This sleek, three-headed dragon rears up on its hind legs, wings spread and flames licking out from behind three sets of fangs.",
+  "meta": {
+    "cmb": "+27",
+    "cmd": 39,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

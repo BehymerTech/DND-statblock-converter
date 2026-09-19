@@ -1,0 +1,99 @@
+{
+  "name": "Bottlenose Dolphin",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 84.",
+  "size": "Medium",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 0",
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 16,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 60 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 16,
+    "con": 14,
+    "int": 2,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +6, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +6 (1d20+6); ",
+    "list": {
+      "Athletics": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "aquatic echolocation 120, low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Aquatic Echolocation",
+      "text": "A bottlenose dolphin can use its hearing as a precise sense at the listed range, but only underwater."
+    },
+    {
+      "name": "Deep Breath",
+      "text": "A bottlenose dolphin can hold its breath for 2 hours."
+    },
+    {
+      "name": "Ramming Speed",
+      "text": "⬺ The bottlenose dolphin Swims twice and then makes a snout Strike. As long as it moved at least 20 feet, it gains a +1 circumstance bonus to its attack roll. A Large or smaller creature hit by this attack must succeed at a DC 16 Fortitude save or be slowed 1 for 1 round."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ snout +6 Damage 1d6+2 (1d6+2) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +6 Damage 1d6+2 (1d6+2) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      3,
+      2,
+      -4,
+      3,
+      0
+    ]
+  }
+}

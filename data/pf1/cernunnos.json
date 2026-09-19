@@ -1,0 +1,137 @@
+{
+  "name": "Cernunnos",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "azata, chaotic, extraplanar, good",
+  "alignment": "CG",
+  "cr": "30",
+  "level": null,
+  "xp": 9830400,
+  "ac": {
+    "value": 48,
+    "notes": "dex +12, dodge +1, natural +26, size -1",
+    "touch": 22,
+    "flatFooted": 35
+  },
+  "hp": {
+    "average": 663,
+    "formula": "34d10+476"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 35,
+    "con": 39,
+    "int": 18,
+    "wis": 22,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +25, Ref +31, Will +25",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +46, Diplomacy +22, Disguise +22, Fly +10, Handle Animal +22, Intimidate +22, Knowledge (geography) +24, Knowledge (nature) +24, Knowledge (planes) +24, Knowledge (religion) +21, Perception +43, Ride +32, Sense Motive +43, Stealth +45, Survival +43, Swim +26",
+    "list": {
+      "Acrobatics": "+46",
+      "Diplomacy": "+22",
+      "Disguise": "+22",
+      "Fly": "+10",
+      "Handle Animal": "+22",
+      "Intimidate": "+22",
+      "Perception": "+43",
+      "Ride": "+32",
+      "Sense Motive": "+43",
+      "Stealth": "+45",
+      "Survival": "+43",
+      "Swim": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "detect evil",
+    "detect lies",
+    "detect poison",
+    "low-light vision",
+    "true seeing"
+  ],
+  "passivePerception": 53,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "Sylvan",
+    "truespeech"
+  ],
+  "initiative": "+16",
+  "babOrProficiency": 34,
+  "feats": [
+    "Combat Reflexes",
+    "Deadly Aim",
+    "Dodge",
+    "Improved Critical (longbow)",
+    "Improved Critical (scimitar)",
+    "Improved Initiative",
+    "Improved Precise Shot",
+    "Mobility",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Precise Shot",
+    "Quick Draw",
+    "Rapid Shot",
+    "Shot on the Run",
+    "Weapon Focus (club)",
+    "Weapon Focus (gore)",
+    "Weapon Focus (longbow)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+5 holy cold iron club +48/+43/+38/+33 (1d8+18/15-20), gore +43 (2d8+18)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+5 evil outsider bane composite longbow +51/+46/+41/+36 (2d6+14/19-20/×4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This tall, graceful person has elven features, the horns of a majestic stag and a piercing, ageless stare.",
+  "meta": {
+    "cmb": "+44",
+    "cmd": 67,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forest or plain (Elysium)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "unique"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+5 holy cold iron club, +5 evil outsider bane longbow, other treasure)"
+      }
+    ]
+  }
+}

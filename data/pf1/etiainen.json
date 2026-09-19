@@ -1,0 +1,102 @@
+{
+  "name": "Etiainen",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "incorporeal, native",
+  "alignment": "CN",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 14,
+    "notes": "deflection +2, dex +2",
+    "touch": 14,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 13,
+    "formula": "2d10+2"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 14,
+    "con": 12,
+    "int": 5,
+    "wis": 11,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +4, Ref +2, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Disguise +7, Perception +5, Stealth +14",
+    "list": {
+      "Disguise": "+7",
+      "Perception": "+5",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Common (can’t speak)"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 2,
+  "feats": [
+    "Skill Focus (Stealth)",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "incorporeal touch +4 (1d6 plus memory drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This vaguely humanoid-shaped roil of mist appears to be improbably solid.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 18,
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any urban"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

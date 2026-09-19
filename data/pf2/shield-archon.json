@@ -1,0 +1,120 @@
+{
+  "name": "Shield Archon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 29.",
+  "size": "Large",
+  "type": "Celestial",
+  "subtype": "Archon",
+  "alignment": "LG",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 31,
+    "notes": ""
+  },
+  "hp": {
+    "average": 125,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, fly 60 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 12,
+    "con": 24,
+    "int": 14,
+    "wis": 16,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +23, Ref +15, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +21 (1d20+21); __Diplomacy__: +19 (1d20+19); __Intimidation__: +19 (1d20+19); __Religion__: +19 (1d20+19); __Survival__: +17 (1d20+17); ",
+    "list": {
+      "Athletics": "+21",
+      "Diplomacy": "+19",
+      "Intimidation": "+19",
+      "Religion": "+19",
+      "Survival": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal; tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Morphic Hands",
+      "text": "⬻ (divine, transmutation); A shield archon's hands can change into a +1 holy striking spear and a lesser sturdy shield or back into hands. Transforming does not restore any HP to the items, and if either the weapon or shield is fully destroyed, the archon loses that hand until it receives a regenerate spell or similar magic. If a shield archon is slain, its weapon and shield can be taken, but they fade into nothingness after 24 hours."
+    },
+    {
+      "name": "Items",
+      "text": "+1 full plate;"
+    },
+    {
+      "name": "Living Shield",
+      "text": "A shield archon's shield is the focal point of its courage and soul. It always has its shield raised without needing to Raise a Shield, and it can use Shield Block as a free action instead of a reaction (Hardness 10, HP 80). A shield archon can trigger its Shield Block free action when an ally within 10 feet is the target of an attack, reducing damage to that ally instead of itself but otherwise following the normal rules of Shield Block."
+    },
+    {
+      "name": "Menacing Guardian",
+      "text": "(aura, divine, enchantment); 30 feet. Enemies that start their turn in the area or enter it must attempt a DC 27 Will save. On a failure, they take a –1 status penalty to attack rolls, spell rolls, and damage rolls against any other target while in the aura for 24 hours or until they damage the archon, whichever comes first. On a critical failure, they can't use hostile actions against any other target while in the area for 24 hours or until they damage the archon, whichever comes first. Regardless of the result, a creature is then temporarily immune to further menacing guardian auras for 24 hours."
+    },
+    {
+      "name": "Retributive Strike",
+      "text": "⬲"
+    },
+    {
+      "name": "Archon's Door",
+      "text": "Once per day, if an archon sees another creature cast dimension door, it can cast an innate dimension door (heightened to 5th level) within 1 round to attempt to follow that creature to the maximum distance of the archon's dimension door. If the archon's dimension door has enough distance, the archon appears the same distance and direction from the creature as before either used dimension door."
+    },
+    {
+      "name": "Courageous Switch",
+      "text": "When a shield archon uses its dimension door innate spell, it can choose to move into the space of a willing ally it can see within range. If it does so, the ally switches places with the archon, appearing in the space the archon just vacated, as if it too had cast dimension door."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ holy striking spear +22 (magical, reach 10 feet); Damage 2d6+10 (2d6+10) piercing plus 1d6 (1d6) good"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      1,
+      7,
+      2,
+      3,
+      3
+    ],
+    "items": "+1 full plate;"
+  }
+}

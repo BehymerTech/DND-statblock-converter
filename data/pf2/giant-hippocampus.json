@@ -1,0 +1,92 @@
+{
+  "name": "Giant Hippocampus",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 142.",
+  "size": "Huge",
+  "type": "Aquatic",
+  "subtype": "Animal",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 170,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 feet, swim 80 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 18,
+    "con": 24,
+    "int": 2,
+    "wis": 18,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +18, Ref +16, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +14 (1d20+14); __Athletics__: +20 (1d20+20); ",
+    "list": {
+      "Acrobatics": "+14",
+      "Athletics": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 26,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Buck",
+      "text": "⬲ DC 28."
+    },
+    {
+      "name": "Sudden Retreat",
+      "text": "⬺ The hippocampus makes a tail Strike, then Swims with a +10-foot circumstance bonus to its swim Speed. It gains a +2 circumstance bonus to AC against reactions triggered by this movement."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ tail +18 (reach 15 feet); Damage 2d6+10 (2d6+10) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      4,
+      7,
+      -4,
+      4,
+      1
+    ]
+  }
+}

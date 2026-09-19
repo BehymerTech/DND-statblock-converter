@@ -1,0 +1,116 @@
+{
+  "name": "Cairn Linnorm",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 166.",
+  "size": "Gargantuan",
+  "type": "Dragon",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 18",
+  "xp": null,
+  "ac": {
+    "value": 43,
+    "notes": ""
+  },
+  "hp": {
+    "average": 360,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet, climb 40 feet, fly 100 feet, swim 40 feet; [[freedom-of-movement|freedom of movement]];"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 22,
+    "con": 26,
+    "int": 6,
+    "wis": 22,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +34, Ref +30, Will +26",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +32 (1d20+32); __Athletics__: +35 (1d20+35); ",
+    "list": {
+      "Acrobatics": "+32",
+      "Athletics": "+35"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "imprecise scent 60, darkvision, true seeing"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Aklo",
+    "Draconic",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Curse of the Crooked Cane",
+      "text": "(curse, primal); When a creature slays a cairn linnorm, it must succeed at a DC 44 Will save or become permanently enfeebled 2. In addition, the victim ages at an accelerated rate, aging 1 year every day, eventually causing it to die of old age if the curse is left untended."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲ Tail only."
+    },
+    {
+      "name": "Improved Grab",
+      "text": "⭓"
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (acid, evocation, primal); The cairn linnorm expels a 60-foot cone of negative energy–infused acid, dealing 19d6 (19d6) acid damage to creatures in the area (DC 40 basic Reflex save) The acid also saps the life out of affected creatures. At the beginning of the linnorm's next turn, each creature that failed the Reflex save must succeed at a DC 40 Fortitude save or become drained 1 (drained 2 on a critical failure). The cairn linnorm can't use Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Cairn Linnorm Venom",
+      "text": "(acid, poison); Saving Throw DC 41 Fortitude. Maximum Duration 10 rounds Stage 1 6d6 (6d6) acid damage and drained 1 (1 round) Stage 2 8d6 (8d6) acid damage and drained 2 (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +35 (magical, reach 25 feet); Damage 3d12+17 (3d12+17) piercing plus cairn linnorm venom"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +35 (agile, magical, reach 25 feet); Damage 3d8+17 (3d8+17) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +35 (agile, magical, reach 25 feet); Damage 3d10+17 (3d10+17) bludgeoning plus"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      9,
+      6,
+      8,
+      -2,
+      6,
+      7
+    ]
+  }
+}

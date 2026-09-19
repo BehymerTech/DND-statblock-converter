@@ -1,0 +1,104 @@
+{
+  "name": "River Drake",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Medium",
+  "type": "dragon",
+  "subtype": "aquatic, water",
+  "alignment": "NE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 16,
+    "notes": "dex +3, natural +3",
+    "touch": 13,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 34,
+    "formula": "4d12+8"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 60 ft. (average), swim 30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 16,
+    "con": 15,
+    "int": 8,
+    "wis": 10,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +6, Ref +7, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +10, Intimidate +6, Perception +7, Stealth +10, Survival +7, Swim +11",
+    "list": {
+      "Fly": "+10",
+      "Intimidate": "+6",
+      "Perception": "+7",
+      "Stealth": "+10",
+      "Survival": "+7",
+      "Swim": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 4,
+  "feats": [
+    "Improved Initiative",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +7 (2d4+3), tail slap +2 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "With graceful wings and wide fins, this sleek dragon looks equally well equipped to glide through sea and sky.",
+  "meta": {
+    "cmb": "+7",
+    "cmd": 20,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate rivers or lakes"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or rampage (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

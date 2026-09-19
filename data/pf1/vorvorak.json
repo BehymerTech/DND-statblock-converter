@@ -1,0 +1,110 @@
+{
+  "name": "Vorvorak",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 129: The Twilight Child",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 24,
+    "notes": "dex +2, natural +14, size -2",
+    "touch": 10,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 123,
+    "formula": "13d10+52"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 20 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 14,
+    "con": 19,
+    "int": 13,
+    "wis": 16,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +12, Ref +12, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +25, Intimidate +16, Perception +13, Stealth +10, Swim +25",
+    "list": {
+      "Climb": "+25",
+      "Intimidate": "+16",
+      "Perception": "+13",
+      "Stealth": "+10",
+      "Swim": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Common (can't speak)"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 13,
+  "feats": [
+    "Combat Casting",
+    "Flanking Foil",
+    "Improved Initiative",
+    "Intimidating Prowess",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Multiattack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +18 (2d6+7), 2 claws +18 (1d8+7), tail slap +16 (2d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A crocodilian head surmounts this creature’s draconic body. Thick scales cover its mottled brown and green hide, and a muscular tail sways menacingly behind it.",
+  "meta": {
+    "cmb": "+22",
+    "cmd": "34 (38 vs. trip)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate plains or marshes"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

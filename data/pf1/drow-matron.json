@@ -1,0 +1,105 @@
+{
+  "name": "Drow Matron",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "alignment": "CE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 24,
+    "notes": "armor +8, deflection +4, dex +2, dodge +1",
+    "touch": 14,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 101,
+    "formula": "15d8+30"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 12,
+    "int": 14,
+    "wis": 24,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +10, Ref +7, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +10, Diplomacy +9, Intimidate +12, Knowledge (arcana) +9, Knowledge (history) +8, Knowledge (nobility) +9, Knowledge (planes) +9, Knowledge (religion) +15, Perception +19, Sense Motive +20, Spellcraft +13",
+    "list": {
+      "Bluff": "+10",
+      "Diplomacy": "+9",
+      "Intimidate": "+12",
+      "Perception": "+19",
+      "Sense Motive": "+20",
+      "Spellcraft": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Elven",
+    "Undercommon"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 11,
+  "feats": [
+    "Combat Casting",
+    "Dodge",
+    "Extra Channel",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Iron Will",
+    "Spell Focus (necromancy)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 heavy mace +12/+7/+2 (1d8+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Drow",
+    "class": "noble cleric (demonic apostle) 15 (Pathfinder RPG Advanced Race Guide 104)",
+    "cmb": "+11",
+    "cmd": 25,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "underground"
+      }
+    ]
+  }
+}

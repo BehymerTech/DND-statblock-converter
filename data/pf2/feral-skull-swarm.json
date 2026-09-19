@@ -1,0 +1,99 @@
+{
+  "name": "Feral Skull Swarm",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 244.",
+  "size": "Huge",
+  "type": "Undead",
+  "subtype": "Mindless, Swarm",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 12",
+  "xp": null,
+  "ac": {
+    "value": 32,
+    "notes": ""
+  },
+  "hp": {
+    "average": 160,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 24,
+    "int": 0,
+    "wis": 16,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +25, Ref +22, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +22 (1d20+22); __Survival__: +21 (1d20+21); ",
+    "list": {
+      "Acrobatics": "+22",
+      "Survival": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 31,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Feral Trackers",
+      "text": "A feral skull swarm gains a +2 circumstance bonus to Perception checks to Seek and to Survival checks to Track, both against any creature that has taken damage from the swarm's Feral Gnaw within the previous 24 hours."
+    },
+    {
+      "name": "Boneshard Burst",
+      "text": "When a feral skull swarm is reduced to 0 Hit Points, it erupts in an explosion of foul energy and bone fragments in a 30-foot burst, dealing 3d12 (3d12) piercing damage and 2d12 (2d12) negative damage (DC 32 basic Reflex save)."
+    },
+    {
+      "name": "Feral Gnaw",
+      "text": "⬻ Each enemy in the swarm's space takes 2d6 (2d6) bludgeoning, 2d6 (2d6) piercing, and 2d6 (2d6) slashing damage (DC 32 basic Reflex save). A creature that fails its saving throw also takes 1d10 (1d10) persistent bleed damage."
+    },
+    {
+      "name": "Frightening Howl",
+      "text": "⬻ (auditory, emotion, enchantment, fear, mental); The feral skull swarm emits a terrifying howl. Each creature within 60 feet must succeed at a DC 32 Will save or become frightened 2 (frightened 3 and fleeing for 1 round on a critical failure). Whether it succeeds or fails its save, a creature is temporarily immune to."
+    },
+    {
+      "name": "Frightening",
+      "text": "Howl for 24 hours."
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      4,
+      7,
+      -5,
+      3,
+      4
+    ]
+  }
+}

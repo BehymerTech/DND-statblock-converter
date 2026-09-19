@@ -1,0 +1,104 @@
+{
+  "name": "NPC Drow Matron",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "alignment": "CE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 22,
+    "notes": "armor +8, dex +2, natural +2",
+    "touch": 12,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 116,
+    "formula": "15d8+45"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 19,
+    "con": 12,
+    "int": 10,
+    "wis": 22,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +13, Ref +14, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (religion) +12, Linguistics +4, Perception +8, Spellcraft +13, Stealth +10",
+    "list": {
+      "Linguistics": "+4",
+      "Perception": "+8",
+      "Spellcraft": "+13",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Abyssal",
+    "Elven",
+    "Undercommon"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 11,
+  "feats": [
+    "Blind-Fight",
+    "Combat Casting",
+    "Lightning Reflexes",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Quick Draw",
+    "Rapid Reload (hand crossbow)",
+    "Toughness",
+    "Weapon Focus (hand crossbow)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk dagger +12/+7/+2 (1d4/19-20 plus poison)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk hand crossbow +17 (1d4/19-20 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Drow",
+    "class": "noble cleric of Nocticula 15",
+    "cmb": "+11",
+    "cmd": 25,
+    "racialModifiers": [
+      "Perception 2"
+    ]
+  }
+}

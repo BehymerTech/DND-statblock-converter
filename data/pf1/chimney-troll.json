@@ -1,0 +1,108 @@
+{
+  "name": "Chimney Troll",
+  "sourceSystem": "pf1",
+  "source": "Daughters of Fury",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "CE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 14,
+    "notes": "dex +3, natural +2, size -1",
+    "touch": 12,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d8+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 16,
+    "con": 15,
+    "int": 8,
+    "wis": 11,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +5, Ref +4, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +4, Climb +9, Perception +4, Stealth +0",
+    "list": {
+      "Acrobatics": "+4",
+      "Climb": "+9",
+      "Perception": "+4",
+      "Stealth": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Giant"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 2,
+  "feats": [
+    "Combat Reflexes",
+    "Deadly Aim"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +2 (1d8+1), 2 claws +2 (1d6+1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +5 (1d8+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Filth and soot cover this large, emaciated humanoid’s pallid skin, and its beady black eyes glint with desperate hunger.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": 17,
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any urban"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or gang (2-3)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

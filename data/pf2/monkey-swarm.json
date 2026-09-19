@@ -1,0 +1,89 @@
+{
+  "name": "Monkey Swarm",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 172.",
+  "size": "Large",
+  "type": "Swarm",
+  "subtype": "Animal",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, climb 20 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 10,
+    "int": 2,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +6, Ref +10, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Thievery__: +8 (1d20+8); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Thievery": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 18,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Cacophony",
+      "text": "(auditory, aura); 20 feet. The monkeys' awful racket of screeches and howls drowns out other sounds. Any creature performing an auditory action in the area must yell over the din, requiring a successful DC 15 Fortitude save or Performance check to project loudly enough; on a failure, the action is lost."
+    },
+    {
+      "name": "Ransack",
+      "text": "⬺ The swarm rummages through the possessions of a single creature within its space, attempting a Thievery check against the creature's Reflex DC. On a success, the monkeys take one random item of negligible Bulk that the creature is wearing but not closely guarding, such as an object in a loosely carried pouch."
+    },
+    {
+      "name": "Swarming Bites",
+      "text": "⬻ Each creature in the swarm's space takes 1d8 (1d8) piercing damage (DC 18 basic Reflex save)."
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      4,
+      0,
+      -4,
+      2,
+      0
+    ]
+  }
+}

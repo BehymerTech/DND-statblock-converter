@@ -1,0 +1,114 @@
+{
+  "name": "Adhukait",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 23.",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "Asura",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 130,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 18,
+    "con": 18,
+    "int": 14,
+    "wis": 14,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +15, Ref +17, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +15 (1d20+15); __Intimidation__: +15 (1d20+15); __Performance__: +15 (1d20+15); __Stealth__: +15 (1d20+15); ",
+    "list": {
+      "Acrobatics": "+15",
+      "Intimidation": "+15",
+      "Performance": "+15",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Common",
+    "Infernal; [[telepathy]] 30 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Dual Mind",
+      "text": "⬲ Trigger The adhukait fails a saving throw against a mental effect Effect The adhukait shunts the effect into one of their minds, rendering them temporarily insensible. They change their result to a success, but one of their bodies hangs limply until the end of their next turn. During this time, the adhukait is clumsy 2; takes a –10-foot circumstance penalty to their Speed; and can't use Dual Mind, Dual Opportunity, or Dance of Destruction."
+    },
+    {
+      "name": "Dual Opportunity",
+      "text": "The adhukait gains a second reaction each round they can use only to make an Attack of Opportunity."
+    },
+    {
+      "name": "Items",
+      "text": "kukri (4);"
+    },
+    {
+      "name": "Dance of Destruction",
+      "text": "⬻ Requirements The adhukait's last action was a Strike that dealt damage Effect The adhukait Strides up to 10 feet and Strikes."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ kukri +18 (agile, trip); Damage 1d6+9 (1d6+9) slashing plus 2d6 (2d6) persistent bleed and 1d4 (1d4) evil"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +18 (agile); Damage 1d6+9 (1d6+9) slashing and 1d4 (1d4) evil"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      4,
+      4,
+      2,
+      2,
+      4
+    ],
+    "items": "kukri (4);"
+  }
+}

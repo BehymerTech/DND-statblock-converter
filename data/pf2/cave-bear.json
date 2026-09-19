@@ -1,0 +1,96 @@
+{
+  "name": "Cave Bear",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 40.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 95,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 12,
+    "con": 22,
+    "int": 2,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +16, Ref +11, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +16 (1d20+16); __Survival__: +11 (1d20+11); ",
+    "list": {
+      "Athletics": "+16",
+      "Survival": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 23,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Mauler",
+      "text": "The bear gains a +4 circumstance bonus to damage rolls against creatures it has grabbed."
+    },
+    {
+      "name": "Rush",
+      "text": "⬺ The cave bear Strides and makes a Strike at the end of that movement. During the Stride, it gains a +10-foot circumstance bonus to its Speed."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +16 Damage 2d10+6 (2d10+6) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +16 (agile); Damage 2d8+6 (2d8+6) slashing plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      1,
+      6,
+      -4,
+      1,
+      -1
+    ]
+  }
+}

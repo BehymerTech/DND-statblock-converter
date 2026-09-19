@@ -1,0 +1,97 @@
+{
+  "name": "Tick Swarm",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Fine",
+  "type": "vermin",
+  "subtype": "swarm",
+  "alignment": "N",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 23,
+    "notes": "dex +2, natural +3, size +8",
+    "touch": 20,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 120,
+    "formula": "16d8+48"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 1,
+    "dex": 14,
+    "con": 16,
+    "int": "None",
+    "wis": 11,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +13, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +10, Perception +0",
+    "list": {
+      "Climb": "+10",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 10,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 12,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "swarm (4d6 plus disease, distraction, and blood drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The rasping legs of this hideous, shining carpet of fist-sized ticks rattle ominously as the swarm skitters forward.",
+  "meta": {
+    "cmb": "None",
+    "cmd": "None",
+    "racialModifiers": [
+      "uses Dex on Climb checks"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or colony (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Mire Nettle",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Small",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 14,
+    "notes": "dex +1, natural +2, size +1",
+    "touch": 12,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 22,
+    "formula": "4d8+4"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 12,
+    "con": 12,
+    "int": "None",
+    "wis": 10,
+    "cha": 3
+  },
+  "saves": {
+    "text": "Fort +5, Ref +2, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Swim +8, Perception +0",
+    "list": {
+      "Swim": "+8",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 10,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 3,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 stings +4 (1d4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "thorns +5 (2d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The sawtooth edges of this plant’s glistening, triangular leaves weave around stalks adorned with needlelike spines.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": "13 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, thicket (2-6), or grove (7-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

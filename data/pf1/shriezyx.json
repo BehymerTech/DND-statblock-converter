@@ -1,0 +1,104 @@
+{
+  "name": "Shriezyx",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Dungeons of Golarion, Magnimar, City of Monuments",
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +3, natural +4",
+    "touch": 13,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 38,
+    "formula": "7d8+7"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 17,
+    "con": 12,
+    "int": 3,
+    "wis": 12,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +5, Ref +5, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +15, Perception +12",
+    "list": {
+      "Climb": "+15",
+      "Perception": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 5,
+  "feats": [
+    "Great Fortitude",
+    "Improved Initiative",
+    "Step Up",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d6+1 plus poison), 4 claws +8 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "An oversized, eight-legged monstrosity stares ravenously from its three beady eyes, its gaping maw dripping with green venom.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": "19 (31 vs. trip)",
+    "racialModifiers": [
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or hive (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

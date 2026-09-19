@@ -1,0 +1,100 @@
+{
+  "name": "Merfolk Warrior",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 235.",
+  "size": "Medium",
+  "type": "Merfolk",
+  "subtype": "Aquatic, Humanoid",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 19,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 feet, swim 30 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 12,
+    "int": 10,
+    "wis": 12,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +6, Ref +9, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +5 (1d20+5), (Athletics: +7 (1d20+7) to Swim); __Medicine__: +4 (1d20+4); ",
+    "list": {
+      "Athletics": "+7",
+      "Medicine": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Aquan",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Aquatic Dash",
+      "text": "⬺ The merfolk warrior swims and attacks in one of two patterns. They either Swim twice and Strike one opponent at the end of their movement, or Swim once and Strike at any point during their movement."
+    },
+    {
+      "name": "Items",
+      "text": "trident (2);"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ trident +7 Damage 1d8+2 (1d8+2) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ trident +9 (thrown 20 feet); Damage 1d8+2 (1d8+2) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      4,
+      1,
+      0,
+      1,
+      1
+    ],
+    "items": "trident (2);"
+  }
+}

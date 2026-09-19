@@ -1,0 +1,123 @@
+{
+  "name": "Yamasoth",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 64: Beyond the Doomsday Door",
+  "size": "Gargantuan",
+  "type": "outsider",
+  "subtype": "chaotic, evil, extraplanar, qlippoth",
+  "alignment": "CE",
+  "cr": "24",
+  "level": null,
+  "xp": 1228800,
+  "ac": {
+    "value": 43,
+    "notes": "deflection +4, dex +7, dodge +1, natural +25, size -4",
+    "touch": 18,
+    "flatFooted": 35
+  },
+  "hp": {
+    "average": 526,
+    "formula": "27d10+378"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 25,
+    "con": 38,
+    "int": 25,
+    "wis": 21,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +33, Ref +28, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +45, Intimidate +36, Knowledge (arcana) +37, Knowledge (planes) +37, Knowledge (dungeoneering) +34, Knowledge (history) +34, Knowledge (nature) +34, Knowledge (religion) +34, Perception +35, Sense Motive +35, Spellcraft +37, Stealth +25, Use Magic Device +36",
+    "list": {
+      "Fly": "+45",
+      "Intimidate": "+36",
+      "Perception": "+35",
+      "Sense Motive": "+35",
+      "Spellcraft": "+37",
+      "Stealth": "+25",
+      "Use Magic Device": "+36"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision",
+    "detect good",
+    "detect law",
+    "true seeing"
+  ],
+  "passivePerception": 45,
+  "languages": [
+    "Abyssal",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 27,
+  "feats": [
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dodge",
+    "Greater Vital Strike",
+    "Improved Critical (bite)",
+    "Improved Critical (tentacle)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Lightning Reflexes",
+    "Multiattack",
+    "Power Attack",
+    "Quicken Spell-Like Ability (baleful polymorph)",
+    "Staggering Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "maw +36 (2d10+13/19-20), 4 bites +36 (2d8+13/19-20), 6 tentacles +34 (2d6+6/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Writhing, hook-covered tentacles unfurl from this behemoth’s body, at the center of which gapes a maw with a red eye in its throat.",
+  "meta": {
+    "cmb": "44 (+48 grapple)",
+    "cmd": "66 (can’t be tripped)",
+    "racialModifiers": [
+      "Fly 10"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Sekatar-Seraktis)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or group (Yamasoth plus 2d6 gongorinans and 2d6 various polymorphed minions)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

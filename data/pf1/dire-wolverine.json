@@ -1,0 +1,98 @@
+{
+  "name": "Dire Wolverine",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 16,
+    "notes": "dex +3, natural +4, size -1",
+    "touch": 12,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 42,
+    "formula": "5d8+20"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 10 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 17,
+    "con": 17,
+    "int": 2,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +7, Ref +7, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +12, Perception +12",
+    "list": {
+      "Climb": "+12",
+      "Perception": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 22,
+  "languages": [],
+  "initiative": "+7",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Skill Focus (Perception)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +6 (1d8+4), bite +6 (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This terrible wolverine is as large as a bear, its jaws and claws oversized and brutal, its eyes dark and filled with rage.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": "21 (25 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

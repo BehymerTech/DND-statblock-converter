@@ -1,0 +1,98 @@
+{
+  "name": "Arctic Hare",
+  "sourceSystem": "pf1",
+  "source": "Ultimate Wilderness, Reign of Winter Player's Guide",
+  "size": "Tiny",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1/6",
+  "level": null,
+  "xp": 65,
+  "ac": {
+    "value": 15,
+    "notes": "dex +3, size +2",
+    "touch": 15,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 3,
+    "formula": "1d8-1"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 3,
+    "dex": 16,
+    "con": 9,
+    "int": 2,
+    "wis": 12,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +1, Ref +5, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Stealth +15, Perception +1",
+    "list": {
+      "Stealth": "+15",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 11,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 0,
+  "feats": [
+    "Run"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite -2 (1d3-4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "With shorter ears and limbs than other rabbits, this white rabbit is hard to spot in the snow.",
+  "meta": {
+    "cmb": "+1",
+    "cmd": "7 (11 vs. trip)",
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold forests and plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or down (3-16)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

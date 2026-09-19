@@ -1,0 +1,88 @@
+{
+  "name": "Scorpion Swarm",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 285.",
+  "size": "Large",
+  "type": "Swarm",
+  "subtype": "Animal",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 55,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 20,
+    "con": 14,
+    "int": 0,
+    "wis": 10,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +10, Ref +13, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +11 (1d20+11); __Athletics__: +6 (1d20+6); __Stealth__: +11 (1d20+11); ",
+    "list": {
+      "Acrobatics": "+11",
+      "Athletics": "+6",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Scorpion Venom",
+      "text": "(poison); Saving Throw DC 18 Fortitude. Maximum Duration 6 rounds Stage 1 1d6 (1d6) poison damage (1 round) Stage 2 1d6 (1d6) poison damage and enfeebled 1 (1 round)"
+    },
+    {
+      "name": "Swarming Stings",
+      "text": "⬻ Each enemy in the swarm's space takes 2d8 (2d8) piercing damage (DC 21 basic Reflex save) and is exposed to scorpion venom."
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      5,
+      2,
+      -5,
+      0,
+      -4
+    ]
+  }
+}

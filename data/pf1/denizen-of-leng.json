@@ -1,0 +1,114 @@
+{
+  "name": "Denizen of Leng",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Pathfinder No. 6: Spires of Xin-Shalast",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "chaotic, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "dex +4, dodge +1, natural +6",
+    "touch": 15,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 95,
+    "formula": "10d10+40"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 19,
+    "int": 18,
+    "wis": 17,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +11, Ref +11, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +22, Diplomacy +7, Disable Device +14, Disguise +12, Intimidate +12, Knowledge (any one) +17, Perception +16, Profession (sailor) +8, Sense Motive +16, Sleight of Hand +17, Spellcraft +12, Stealth +17, Use Magic Device +18",
+    "list": {
+      "Bluff": "+22",
+      "Diplomacy": "+7",
+      "Disable Device": "+14",
+      "Disguise": "+12",
+      "Intimidate": "+12",
+      "Perception": "+16",
+      "Sense Motive": "+16",
+      "Sleight of Hand": "+17",
+      "Spellcraft": "+12",
+      "Stealth": "+17",
+      "Use Magic Device": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Aklo",
+    "tongues"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 10,
+  "feats": [
+    "Deceitful",
+    "Dodge",
+    "Mobility",
+    "Persuasive",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +14 (1d6+2 plus 1d6 Dexterity drain), 2 claws +14 (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Shrouded in tattered leather robes, this strange humanoid looks more alien and horrific the more one studies its twitching visage.",
+  "meta": {
+    "cmb": "+12",
+    "cmd": 27,
+    "racialModifiers": [
+      "Disguise 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, gang (2-5), or crew (6-15)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (500 to 2,000 gp in rubies, other treasure)"
+      }
+    ]
+  }
+}

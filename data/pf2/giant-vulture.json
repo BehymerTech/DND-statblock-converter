@@ -1,0 +1,96 @@
+{
+  "name": "Giant Vulture",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 289.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 50,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 feet, fly 35 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 18,
+    "int": 2,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +13, Ref +9, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +10 (1d20+10); __Stealth__: +9 (1d20+9); ",
+    "list": {
+      "Athletics": "+10",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 22,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Carrion Fever",
+      "text": "(disease); Saving Throw DC 18 Fortitude. Stage 1 sickened 1 and fatigued (1 day) Stage 2 sickened 1, slowed 1, and fatigued (1 day)"
+    },
+    {
+      "name": "Projectile Vomit",
+      "text": "⬻ Frequency once per hour Effect The giant vulture vomits up its last meal on a creature within 10 feet. The creature takes 3d6 (3d6) acid damage with a DC 20 basic Fortitude save. On a failed save, the target is also sickened 1."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ beak +10 Damage 1d10+5 (1d10+5) piercing plus carrion fever"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ talon +10 (agile); Damage 1d8+5 (1d8+5) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      2,
+      4,
+      -4,
+      1,
+      -1
+    ]
+  }
+}

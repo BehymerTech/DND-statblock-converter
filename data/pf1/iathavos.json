@@ -1,0 +1,118 @@
+{
+  "name": "Iathavos",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Colossal",
+  "type": "outsider",
+  "subtype": "chaotic, evil, extraplanar, qlippoth",
+  "alignment": "CE",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 37,
+    "notes": "deflection +4, dex -1, insight +2, natural +30, size -8",
+    "touch": 7,
+    "flatFooted": 37
+  },
+  "hp": {
+    "average": 372,
+    "formula": "24d10+240"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 50 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 40,
+    "dex": 8,
+    "con": 31,
+    "int": 29,
+    "wis": 30,
+    "cha": 27
+  },
+  "saves": {
+    "text": "Fort +28, Ref +15, Will +28",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +35, Escape Artist +23, Fly +26, Intimidate +35, Knowledge (arcana) +36, Knowledge (dungeoneering) +33, Knowledge (geography) +33, Knowledge (history) +33, Knowledge (planes) +36, Knowledge (religion) +33, Perception +37, Sense Motive +37, Spellcraft +36, Stealth +10, Use Magic Device +35",
+    "list": {
+      "Bluff": "+35",
+      "Escape Artist": "+23",
+      "Fly": "+26",
+      "Intimidate": "+35",
+      "Perception": "+37",
+      "Sense Motive": "+37",
+      "Spellcraft": "+36",
+      "Stealth": "+10",
+      "Use Magic Device": "+35"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 47,
+  "languages": [
+    "Abyssal",
+    "telepathy 300 ft."
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 24,
+  "feats": [
+    "Awesome Blow",
+    "Critical Focus",
+    "Greater Vital Strike",
+    "Improved Bull Rush",
+    "Improved Critical (claw)",
+    "Improved Vital Strike",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Quicken Spell-Like Ability (heal)",
+    "Spell Penetration",
+    "Staggering Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +31 (4d6+15/19-20 plus grab), 4 wings +26 (2d8+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This immense creature has four bat-like wings and a spherical body. Red eyes peer from all sides, and two huge claws dangle below.",
+  "meta": {
+    "cmb": "47 (+51 grapple)",
+    "cmd": "62 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

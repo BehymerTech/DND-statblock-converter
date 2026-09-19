@@ -1,0 +1,106 @@
+{
+  "name": "Coral Capuchin",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Pathfinder No. 58: Island of Empty Eyes",
+  "size": "Tiny",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 15,
+    "notes": "dex +3, size +2",
+    "touch": 15,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 13,
+    "formula": "2d10+2"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 40 ft. (good), climb 30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 17,
+    "con": 12,
+    "int": 6,
+    "wis": 13,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +4, Ref +6, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +6, Fly +11, Sleight of Hand +8, Stealth +15, Swim +6, Perception +1",
+    "list": {
+      "Climb": "+6",
+      "Fly": "+11",
+      "Sleight of Hand": "+8",
+      "Stealth": "+15",
+      "Swim": "+6",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 f t.",
+    "low-light vision"
+  ],
+  "passivePerception": 11,
+  "languages": [
+    "Common (generally knows only a dozen or so words)"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 2,
+  "feats": [
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +7 (1d3-2 plus cursed bite)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This strange creature can only be described as a light pink, hairless monkey with the head of a fish and large, finlike wings.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": 11,
+    "racialModifiers": [
+      "Sleight of Hand 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm coasts or oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or tribe (3-24 plus one matriarch)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

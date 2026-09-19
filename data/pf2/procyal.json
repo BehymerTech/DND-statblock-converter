@@ -1,0 +1,120 @@
+{
+  "name": "Procyal",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 12.",
+  "size": "Medium",
+  "type": "Celestial",
+  "subtype": "Agathion",
+  "alignment": "NG",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 26,
+    "notes": ""
+  },
+  "hp": {
+    "average": 170,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 18,
+    "con": 22,
+    "int": 20,
+    "wis": 22,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +16, Ref +14, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +14 (1d20+14); __Deception__: +18 (1d20+18); __Diplomacy__: +16 (1d20+16); __Medicine__: +16 (1d20+16); __Nature__: +16 (1d20+16); __Nirvana lore__: +15 (1d20+15); __Society__: +17 (1d20+17), (Society: +19 (1d20+19) to Create Forgery); __Stealth__: +16 (1d20+16); __Survival__: +16 (1d20+16); __Thievery__: +14 (1d20+14); ",
+    "list": {
+      "Acrobatics": "+14",
+      "Deception": "+18",
+      "Diplomacy": "+16",
+      "Medicine": "+16",
+      "Nature": "+16",
+      "Nirvana lore": "+15",
+      "Society": "+19",
+      "Stealth": "+16",
+      "Survival": "+16",
+      "Thievery": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Halfling",
+    "Infernal; speak with animals",
+    "tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Champion Focus Spell",
+      "text": "DC 26, 1 Focus Point; 4th lay on hands (Core Rulebook 387)"
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, divine, polymorph, transmutation); The procyal can transform only into a specific individual Small or Medium humanoid that they've met at least once. They can't transform into a generic member of a given ancestry."
+    },
+    {
+      "name": "Raccoon's Whimsy",
+      "text": "Procyals' core value is whimsy, though unlike for chaotic tricksters, procyals' playful actions have a pattern and their pranks always come with a valuable lesson, even if it takes a long time to decipher the meaning. Receiving and growing from such a lesson requires at least 10 minutes of interaction with the Procyal but can take much longer. A character who learns from the procyal's lesson gains the benefits of the Aid reaction from the procyal once during the next month. Afterwards, they become immune to this effect from all procyals."
+    },
+    {
+      "name": "Items",
+      "text": "+1 striking shortsword;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +18 (agile, good, magical); Damage 2d8+10 (2d8+10) plus 1d6 (1d6) good"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ shortsword +19 (agile, finesse, good, magical, versatile s); Damage 2d6+10 (2d6+10) plus 1d6 (1d6) good"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      4,
+      6,
+      5,
+      6,
+      4
+    ],
+    "items": "+1 striking shortsword;"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "name": "Sea Devil Baron",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 287.",
+  "size": "Medium",
+  "type": "Sea",
+  "subtype": "Amphibious, Devil, Humanoid, Mutant",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 95,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, swim 35 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": 18,
+    "int": 10,
+    "wis": 16,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +16, Ref +14, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +15 (1d20+15), (Athletics: +18 (1d20+18) to Swim); __Intimidation__: +12 (1d20+12); __Stealth__: +12 (1d20+12); __Survival__: +11 (1d20+11); ",
+    "list": {
+      "Athletics": "+18",
+      "Intimidation": "+12",
+      "Stealth": "+12",
+      "Survival": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, wavesense 30"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Aquan; shark commune 150 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Shark Commune",
+      "text": "(mental, telepathy); The sea devil can communicate telepathically with sharks within range. It can communicate only simple concepts like \"come,\" \"guard,\" or \"attack.\""
+    },
+    {
+      "name": "Items",
+      "text": "longspear, spear (2);"
+    },
+    {
+      "name": "Blood Frenzy",
+      "text": "⭓ (rage); As sea devil scout, 15 temporary HP."
+    },
+    {
+      "name": "Bloodletting",
+      "text": "When the sea devil deals piercing or slashing damage, it also deals 1d4 (1d4) persistent bleed damage if the target was flat-footed or if the attack was a critical hit."
+    },
+    {
+      "name": "Hateful Tide",
+      "text": "⬺ (rage); Requirements The sea devil baron is in a blood frenzy. Effect The sea devil baron unleashes a whirlwind of attacks against its foes, making a single melee Strike with its claws or jaws against each opponent within reach."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ longspear +17 (reach 10 feet); Damage 1d8+11 (1d8+11) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +17 (agile); Damage 1d6+8 (1d6+8) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +17 Damage 1d6+8 (1d6+8) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ spear +17 (thrown 20 feet); Damage 1d8+11 (1d8+11) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      2,
+      4,
+      0,
+      3,
+      2
+    ],
+    "items": "longspear, spear (2);"
+  }
+}

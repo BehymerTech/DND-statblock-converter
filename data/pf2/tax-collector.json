@@ -1,0 +1,102 @@
+{
+  "name": "Tax Collector",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 224.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "LN",
+  "cr": null,
+  "level": "Creature -1",
+  "xp": null,
+  "ac": {
+    "value": 14,
+    "notes": ""
+  },
+  "hp": {
+    "average": 8,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 12,
+    "con": 10,
+    "int": 18,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +2, Ref +3, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Deception__: +8 (1d20+8); __Diplomacy__: +8 (1d20+8); __Intimidation__: +8 (1d20+8); __Society__: +11 (1d20+11); __Thievery__: +6 (1d20+6); __Legal lore__: +11 (1d20+11); __Mercantile lore__: +13 (1d20+13); ",
+    "list": {
+      "Deception": "+8",
+      "Diplomacy": "+8",
+      "Intimidation": "+8",
+      "Society": "+11",
+      "Thievery": "+6",
+      "Legal lore": "+11",
+      "Mercantile lore": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 16,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Glittering Distraction",
+      "text": "⬻ (emotion, mental); The tax collector Strides. At any point during this movement, they can Interact to hurl coins. If there are commoners about, this typically causes a scene. Crowds are usually difficult terrain and have other effects (Core Rulebook 514)."
+    },
+    {
+      "name": "Items",
+      "text": "crossbow (10 bolts), dagger, collection of expired documents with intact seals, merchant's scale, padded armor, tax documents in scroll case.;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ dagger +5 (agile, versatile s); Damage 1d4 (1d4) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ crossbow +5 (range increment 120 feet, reload 1); Damage 1d8 (1d8) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      1,
+      0,
+      4,
+      2,
+      3
+    ],
+    "items": "[[crossbow]] (10 [[bolt|bolts]]), [[dagger]], collection of expired documents with intact seals, [[merchant's scale]], padded armor, tax documents in scroll case.;"
+  }
+}

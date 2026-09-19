@@ -1,0 +1,118 @@
+{
+  "name": "Child of Yog-Sothoth",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 113: What Grows Within",
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": "augmented humanoid",
+  "alignment": "CE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 14,
+    "notes": "dex +1, natural +3",
+    "touch": 11,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 76,
+    "formula": "7d6+49"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 13,
+    "con": 20,
+    "int": 20,
+    "wis": 10,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +7, Ref +3, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +7, Disguise +7, Intimidate +5, Knowledge (nature) +15, Knowledge (planes) +15, Knowledge (religion) +15, Perception +7, Spellcraft +19",
+    "list": {
+      "Bluff": "+7",
+      "Disguise": "+7",
+      "Intimidate": "+5",
+      "Perception": "+7",
+      "Spellcraft": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Elder Thing",
+    "Mi-go"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 3,
+  "feats": [
+    "Combat Casting",
+    "Deceitful",
+    "Defensive Combat Training",
+    "Extend Spell",
+    "Improved Initiative",
+    "Iron Will",
+    "Scribe Scroll",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 dagger +6 (1d4+3/19-20), tail +5 (1d6+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature could almost pass for human from the neck up, but below that its scaly skin, tail, and animal-like legs, as well as the tentacles that droop from its belly, reveal its aberrant nature.",
+  "meta": {
+    "race": "Male",
+    "class": "human child of Yog-Sothoth wizard 7",
+    "cmb": "+5",
+    "cmd": 20,
+    "racialModifiers": [
+      "Disguise 8",
+      "Knowledge (arcana) 4",
+      "Spellcraft 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or family (1 child of Yog-Sothoth and 1 spawn of Yog-Sothoth)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (+1 dagger, spell component pouch, spellbook, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "name": "Mythic Vampire",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "augmented humanoid, human, mythic",
+  "alignment": "NE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 29,
+    "notes": "armor +3, deflection +1, dex +4, dodge +1, natural +10",
+    "touch": 16,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 117,
+    "formula": "7d10+74"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 18,
+    "con": "None",
+    "int": 14,
+    "wis": 10,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +11, Ref +10, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +21, Climb +14, Disguise +6, Intimidate +14, Perception +17, Ride +8, Sense Motive +17, Stealth +15",
+    "list": {
+      "Bluff": "+21",
+      "Climb": "+14",
+      "Disguise": "+6",
+      "Intimidate": "+14",
+      "Perception": "+17",
+      "Ride": "+8",
+      "Sense Motive": "+17",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Undercommon"
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 7,
+  "feats": [
+    "Alertness",
+    "Combat Reflexes",
+    "Deceitful",
+    "Disruptive",
+    "Dodge",
+    "Greater Weapon Focus (longsword)",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Mobility",
+    "Power Attack",
+    "Quick Draw",
+    "Toughness",
+    "Vital Strike",
+    "Weapon Focus (longsword)",
+    "Weapon Specialization (longsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 longsword +19/+14 (1d8+12/19-20 plus energy drain), slam +15 (1d4+4 plus energy drain)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk light crossbow +12 (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This aristocratic figure could easily pass for human if not for the grave-pale skin, red eyes, and long fangs.",
+  "meta": {
+    "race": "Human",
+    "class": "vampire fighter 7",
+    "cmb": "+15",
+    "cmd": 31,
+    "racialModifiers": [
+      "Bluff 8",
+      "Perception 8",
+      "Sense Motive 8",
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or family (vampire plus 2-8 spawn)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (potion of inflict serious wounds, +1 bolts (10), +1 leather armor, +1 longsword, mwk light crossbow, cloak of resistance +2, ring of protection +1, other treasure)"
+      }
+    ]
+  }
+}

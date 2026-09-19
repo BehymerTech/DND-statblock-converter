@@ -1,0 +1,91 @@
+{
+  "name": "Werecrocodile (Hybrid Form)",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 58: Island of Empty Eyes",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, shapechanger",
+  "alignment": "NE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 23,
+    "notes": "dex +1, natural +6",
+    "touch": 11,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 30,
+    "formula": "3d10+9"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., other_semicolon sprint ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 13,
+    "con": 16,
+    "int": 12,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +8, Ref +2, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +4, Perception +4, Stealth +5, Survival +7, Swim +19",
+    "list": {
+      "Intimidate": "+4",
+      "Perception": "+4",
+      "Stealth": "+5",
+      "Survival": "+7",
+      "Swim": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 3,
+  "feats": [
+    "Cleave",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Power Attack",
+    "Run"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +7 (1d8+4 plus grab and curse of lycanthropy), tail slap +2 (1d12+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Standing taller than a man, this humanoid figure wears filthcovered rags over its scaly form.",
+  "meta": {
+    "cmb": "7 (+11 grapple)",
+    "cmd": 18
+  }
+}

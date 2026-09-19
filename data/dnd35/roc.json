@@ -1,0 +1,103 @@
+{
+  "name": "Roc",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Gargantuan",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "Always neutral",
+  "cr": "9",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": "-4 size, +2 Dex, +9 natural",
+    "touch": 8,
+    "flatFooted": null
+  },
+  "hp": {
+    "average": 207,
+    "formula": "18d8+126"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": 80,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft. (4 squares), fly 80 ft. (average)"
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 15,
+    "con": 24,
+    "int": 2,
+    "wis": 13,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +18, Ref +13, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Hide -3, Listen +10, Spot +14;",
+    "list": {
+      "Hide": "-3",
+      "Listen": "+10",
+      "Spot": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 13,
+  "feats": [
+    "Alertness",
+    "Flyby Attack",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack",
+    "Snatch",
+    "Wingover"
+  ],
+  "traits": [
+    {
+      "name": "Special Qualities",
+      "text": "Low-light vision"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Talon +21 melee (2d6+12)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 talons +21 melee (2d6+12) and bite +19 melee (2d8+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A roc's plumage is either dark brown or golden from head to tail. These enormous creatures are 30 feet long from the beak to the base of the tail, with wingspans as wide as 80 feet. A roc weighs about 8,000 pounds.",
+    "grapple": "+37",
+    "spaceReach": "20 ft./15 ft.",
+    "environment": "Warm mountains",
+    "organization": "Solitary or pair",
+    "treasure": "None",
+    "advancement": "19-32 HD (Gargantuan); 33-54 (Colossal)",
+    "leveladjustment": "---"
+  }
+}

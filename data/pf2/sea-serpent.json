@@ -1,0 +1,117 @@
+{
+  "name": "Sea Serpent",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 288.",
+  "size": "Gargantuan",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 12",
+  "xp": null,
+  "ac": {
+    "value": 35,
+    "notes": ""
+  },
+  "hp": {
+    "average": 210,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, swim 60 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 18,
+    "con": 22,
+    "int": 2,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +25, Ref +21, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +18 (1d20+18); __Athletics__: +26 (1d20+26), (Athletics: +28 (1d20+28) to Swim); __Stealth__: +28 (1d20+28); ",
+    "list": {
+      "Acrobatics": "+18",
+      "Athletics": "+28",
+      "Stealth": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 32,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Undetectable",
+      "text": "(abjuration, primal); A sea serpent automatically tries to counteract any detection, revelation, or scrying divination attempted against it, using its Stealth modifier for its counteract modifier."
+    },
+    {
+      "name": "Capsize",
+      "text": "⬻ (attack); The sea serpent attempts to capsize an aquatic vessel of its size or smaller that it's adjacent to. It must succeed at an Athletics check with a DC of 35 or the pilot's Sailing Lore DC, whichever is higher."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 1d10+14 (1d10+14) bludgeoning."
+    },
+    {
+      "name": "Sea Serpent Algae",
+      "text": "(incapacitation, poison); Saving Throw DC 34 Fortitude. Maximum Duration 6 rounds Stage 1 confused and, if flying, spends its first action each turn to descend 20 feet (1 round) Stage 1 confused and, if flying, descends until reaching the ground or water below (1 round)"
+    },
+    {
+      "name": "Spine Rake",
+      "text": "⬺ (attack, move); The sea serpent extends the spines along its back and Swims or Strides. Each creature the serpent is adjacent to at any point during its movement takes 4d6+8 (4d6+8) slashing damage (DC 32 basic Reflex save)."
+    },
+    {
+      "name": "Swallow Whole",
+      "text": "⬻ (attack); Huge, 2d10+6 (2d10+6) bludgeoning, Rupture 20."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +27 (reach 20 feet); Damage 3d10+14 (3d10+14) piercing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +27 (agile, reach 30 feet); Damage 2d10+14 (2d10+14) bludgeoning plus Grab"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ water spout +25 (brutal, range increment 100 feet, water); Damage 2d6+12 (2d6+12) bludgeoning plus sea serpent algae"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      4,
+      6,
+      -4,
+      2,
+      0
+    ]
+  }
+}

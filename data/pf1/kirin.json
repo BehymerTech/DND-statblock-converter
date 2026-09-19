@@ -1,0 +1,112 @@
+{
+  "name": "Kirin",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "air",
+  "alignment": "LG",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "dex +6, natural +5, size -1",
+    "touch": 15,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 85,
+    "formula": "9d10+36"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 120 ft. (good)"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 23,
+    "con": 18,
+    "int": 18,
+    "wis": 21,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +10, Ref +12, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +15, Fly +20, Knowledge (history) +13, Perception +17, Perform (sing) +15, Sense Motive +14",
+    "list": {
+      "Diplomacy": "+15",
+      "Fly": "+20",
+      "Perception": "+17",
+      "Sense Motive": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect evil",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Abyssal",
+    "Auran",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Casting",
+    "Eschew Materials",
+    "Flyby Attack",
+    "Hover",
+    "Iron Will",
+    "Weapon Focus (gore)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +14 (1d8+5), 2 hooves +8 (1d6+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "With draconic scales covering much of its body, this staglike creature moves with awe-inspiring grace.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": "31 (35 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Oronci",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Bestiary",
+  "size": "Large",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 20,
+    "notes": "dex +3, natural +6, shield +2, size -1",
+    "touch": 12,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 59,
+    "formula": "7d8+28"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 40 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 17,
+    "con": 18,
+    "int": 7,
+    "wis": 10,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +6, Ref +5, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +8, Climb +16, Perception +5, Stealth +6, Swim +8",
+    "list": {
+      "Acrobatics": "+8",
+      "Climb": "+16",
+      "Perception": "+5",
+      "Stealth": "+6",
+      "Swim": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Orc"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 5,
+  "feats": [
+    "Acrobatic Steps",
+    "Improved Overrun",
+    "Nimble Moves",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk battleaxe +11 (1d8+6/×3), bite +10 (1d6+9 plus poison)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk longbow +8 (1d8/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A cruel face and orc features dominate this creature’s upper half, while its lower quarters bear the sinewy shape of a centipede.",
+  "meta": {
+    "cmb": "12 (+14 overrun)",
+    "cmd": "25 (27 vs. overrun)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground (Darklands)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or nest (3-9)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (heavy wooden shield, mwk battleaxe)"
+      }
+    ]
+  }
+}

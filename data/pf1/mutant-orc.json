@@ -1,0 +1,106 @@
+{
+  "name": "Mutant Orc",
+  "sourceSystem": "pf1",
+  "source": "Numeria, Land of Fallen Stars, Bestiary 5",
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": "orc",
+  "alignment": "CE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 16,
+    "notes": "armor +4, dex +1, natural +3, rage -2",
+    "touch": 9,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 100,
+    "formula": "7d12+49"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 12,
+    "con": 22,
+    "int": 6,
+    "wis": 11,
+    "cha": 4
+  },
+  "saves": {
+    "text": "Fort +11, Ref +3, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +11, Climb +19, Swim +19, Perception +0",
+    "list": {
+      "Acrobatics": "+11",
+      "Climb": "+19",
+      "Swim": "+19",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense"
+  ],
+  "passivePerception": 10,
+  "languages": [
+    "Common",
+    "Orc"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 7,
+  "feats": [
+    "Blind-Fight",
+    "Cleave",
+    "Power Attack",
+    "Toughness",
+    "Weapon Focus (club)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk club +18/+13 (1d6+9)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This mutated, eyeless, heavily scaled orc holds a crude club in one arm, but her other arm is withered and useless.",
+  "meta": {
+    "race": "Mutant",
+    "class": "orc barbarian 7 (Pathfinder RPG Bestiary 222)",
+    "cmb": "+16",
+    "cmd": 25,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Numeria)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, band (3-8), or tribe (9-30)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (potion of bear’s endurance, potion of bull’s strength, potions of cure serious wounds [2], potion of lesser restoration, alchemist’s fire [3], tanglefoot bag, +1 studded leather, mwk club, amulet of natural armor +1, 15 gp)"
+      }
+    ]
+  }
+}

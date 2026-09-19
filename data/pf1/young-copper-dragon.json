@@ -1,0 +1,97 @@
+{
+  "name": "Young Copper Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "dragon",
+  "subtype": "earth",
+  "alignment": "CG",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 22,
+    "notes": "dex +2, natural +10",
+    "touch": 12,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 85,
+    "formula": "9d12+27"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 150 ft. (average), other_semicolon climb stone ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 14,
+    "con": 17,
+    "int": 14,
+    "wis": 15,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +9, Ref +8, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +14, Craft (trap) +14, Fly +14, Perception +14, Perform (comedy) +11, Sense Motive +14, Stealth +14, Use Magic Device +14",
+    "list": {
+      "Bluff": "+14",
+      "Fly": "+14",
+      "Perception": "+14",
+      "Sense Motive": "+14",
+      "Stealth": "+14",
+      "Use Magic Device": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Gnome"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Expertise",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Trip",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (1d8+6/19-20), 2 claws +13 (1d6+4), 2 wings +8 (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Bright, shining copper scales run from the horn-crowned head to the ridged tail of this long-winged dragon.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": "25 (29 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm hills"
+      }
+    ]
+  }
+}

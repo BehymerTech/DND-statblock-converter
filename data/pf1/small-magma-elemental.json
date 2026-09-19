@@ -1,0 +1,95 @@
+{
+  "name": "Small Magma Elemental",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Small",
+  "type": "outsider",
+  "subtype": "earth, elemental, extraplanar, fire",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 15,
+    "notes": "dex -1, natural +5, size +1",
+    "touch": 10,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 11,
+    "formula": "2d10"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., other_semicolon earth glide ft., burrow 20 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 8,
+    "con": 11,
+    "int": 4,
+    "wis": 11,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +3, Ref +2, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (dungeoneering) +2, Perception +5, Stealth +8",
+    "list": {
+      "Perception": "+5",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 15,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +3 (1d3 plus burn)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This rocky monster glows with an internal heat. Red light spills from its eyes and mouth, as well as fractures in its outer surface.",
+  "meta": {
+    "cmb": "+1",
+    "cmd": 10,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Fire)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

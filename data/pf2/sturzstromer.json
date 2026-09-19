@@ -1,0 +1,101 @@
+{
+  "name": "Sturzstromer",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 52.",
+  "size": "Huge",
+  "type": "Swarm",
+  "subtype": "Aberration, Earth",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 19",
+  "xp": null,
+  "ac": {
+    "value": 41,
+    "notes": ""
+  },
+  "hp": {
+    "average": 280,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 feet, burrow 20 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 30,
+    "con": 26,
+    "int": 8,
+    "wis": 22,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +33, Ref +35, Will +29",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +37 (1d20+37); __Stealth__: +35 (1d20+35); ",
+    "list": {
+      "Athletics": "+37",
+      "Stealth": "+35"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "no vision, precise tremorsense 120"
+  ],
+  "passivePerception": 43,
+  "languages": [
+    "Terran"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Clutching Stones",
+      "text": "The sturzstromer's space is greater difficult terrain."
+    },
+    {
+      "name": "Tremorsense",
+      "text": "A sturzstromer's tremorsense is a precise sense out to 120 feet and an imprecise sense out to 240 feet. A sturzstromer can't sense anything beyond the range of its tremorsense."
+    },
+    {
+      "name": "Grasping Bites",
+      "text": "⬺ (attack); The sturzstromer attempts an Athletics check and compares the result to the Fortitude DC of each creature in its space. This counts as two attacks for the sturzstromer's multiple attack penalty. Critical Success The creature falls prone, takes 1d6 (1d6) bludgeoning damage, and is restrained by the sturzstromer until the end of the sturzstromer's next turn. Success The creature falls prone, and is grabbed by the sturzstromer until the end of the sturzstromer's next turn."
+    },
+    {
+      "name": "Landslide",
+      "text": "⭓ Requirements The sturzstromer's most recent action was to cast earthquake Effect The sturzstromer closes a fissure it made, choosing one creature that fell in. That creature must succeed at a DC 41 Reflex save or be buried as in an avalanche (Core Rulebook 518)."
+    },
+    {
+      "name": "Pummeling Assault",
+      "text": "⬻ Each foe in the sturzstromer's space takes 4d10 (4d10) bludgeoning damage (DC 41 basic Reflex save)."
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      10,
+      8,
+      -1,
+      6,
+      2
+    ]
+  }
+}

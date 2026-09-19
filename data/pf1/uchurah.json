@@ -1,0 +1,102 @@
+{
+  "name": "Uchurah",
+  "sourceSystem": "pf1",
+  "source": "Darklands Revisited",
+  "size": "Large",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 26,
+    "notes": "dex +3, natural +14, size -1",
+    "touch": 12,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 150,
+    "formula": "15d8+2d12+70"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 16,
+    "con": 18,
+    "int": 13,
+    "wis": 20,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +12, Ref +8, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +3, Climb +21, Escape Artist +18, Intimidate +10, Knowledge (dungeoneering) +14, Knowledge (religion) +9, Perception +31, Stealth +17, Survival +25",
+    "list": {
+      "Acrobatics": "+3",
+      "Climb": "+21",
+      "Escape Artist": "+18",
+      "Intimidate": "+10",
+      "Perception": "+31",
+      "Stealth": "+17",
+      "Survival": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 41,
+  "languages": [
+    "Aklo",
+    "Undercommon"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 13,
+  "feats": [
+    "Awesome Blow",
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Greater Bull Rush",
+    "Improved Bull Rush",
+    "Lunge",
+    "Power Attack",
+    "Skill Focus (Intimidate)",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +20 (1d8+8), 4 claws +20 (1d6+8)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Though mostly covered in grime-encrusted black fur, the muscles of this creature are still plainly visible along the four forearms that emerge from its split elbows. It wears a crude bone necklace that dangles under its vertically oriented mouth.",
+  "meta": {
+    "race": "Gug",
+    "class": "barbarian 2 (Pathfinder RPG Bestiary 2 151)",
+    "cmb": "22 (+26 bull rush)",
+    "cmd": "35 (37 vs. bull rush)",
+    "racialModifiers": [
+      "Escape Artist 4"
+    ]
+  }
+}

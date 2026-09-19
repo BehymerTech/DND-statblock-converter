@@ -1,0 +1,136 @@
+{
+  "name": "Black Butterfly",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "azata, chaotic, extraplanar, good",
+  "alignment": "CG",
+  "cr": "28",
+  "level": null,
+  "xp": 4915200,
+  "ac": {
+    "value": 46,
+    "notes": "armor +4, dex +15, insight +10, natural +8, size -1",
+    "touch": 34,
+    "flatFooted": 31
+  },
+  "hp": {
+    "average": 676,
+    "formula": "33d10+495"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 150 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 40,
+    "con": 40,
+    "int": 27,
+    "wis": 30,
+    "cha": 33
+  },
+  "saves": {
+    "text": "Fort +26, Ref +33, Will +28",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +51, Bluff +47, Diplomacy +44, Fly +57, Intimidate +44, Knowledge (arcana) +41, Knowledge (nature) +41, Knowledge (religion) +41, Knowledge (geography) +44, Perception +50, Sense Motive +50, Spellcraft +44, Stealth +53, Use Magic Device +47",
+    "list": {
+      "Acrobatics": "+51",
+      "Bluff": "+47",
+      "Diplomacy": "+44",
+      "Fly": "+57",
+      "Intimidate": "+44",
+      "Perception": "+50",
+      "Sense Motive": "+50",
+      "Spellcraft": "+44",
+      "Stealth": "+53",
+      "Use Magic Device": "+47"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "detect aberration",
+    "detect evil",
+    "detect law",
+    "low-light vision",
+    "see in darkness",
+    "true seeing"
+  ],
+  "passivePerception": 60,
+  "languages": [
+    "Aklo",
+    "Celestial",
+    "Common",
+    "telepathy 300 ft.",
+    "truespeech"
+  ],
+  "initiative": "+19",
+  "babOrProficiency": 33,
+  "feats": [
+    "Alertness",
+    "Blinding Critical",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Deadly Aim",
+    "Flyby Attack",
+    "Improved Critical (starknife)",
+    "Improved Initiative",
+    "Improved Precise Shot",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Precise Shot",
+    "Quicken Spell- Like Ability (heal)",
+    "Quicken Spell- Like Ability (wandering star motes)",
+    "Skill Focus (Stealth)",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "Voidsedge +52/+47/+42/+37 (1d6+20/19-20/×3 plus 2d6 fire and 2d6 cold), touch +42 touch (10d6 cold plus steal breath)"
+    },
+    {
+      "name": "Ranged",
+      "text": "Voidsedge +52/+47/+42/+37 (1d6+20/19-20/×3 plus 2d6 fire and 2d6 cold)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This living silhouette of a graceful woman has white hair and eyes. Her butterfly wings shimmer with twinkling stars.",
+  "meta": {
+    "cmb": "+43",
+    "cmd": 78,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Elysium)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple (Voidsedge, other treasure)"
+      }
+    ]
+  }
+}

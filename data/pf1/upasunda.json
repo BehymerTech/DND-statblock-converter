@@ -1,0 +1,119 @@
+{
+  "name": "Upasunda",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "asura, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 24,
+    "notes": "dex +7, dodge +1, insight +3, natural +3",
+    "touch": 21,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 114,
+    "formula": "12d10+48"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 24,
+    "con": 19,
+    "int": 15,
+    "wis": 24,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +12, Ref +11, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +19, Bluff +16, Diplomacy +13, Escape Artist +25, Intimidate +16, Knowledge (arcana) +8, Knowledge (planes) +14, Perception +23, Perform (dance) +16, Sense Motive +19, Stealth +19",
+    "list": {
+      "Acrobatics": "+19",
+      "Bluff": "+16",
+      "Diplomacy": "+13",
+      "Escape Artist": "+25",
+      "Intimidate": "+16",
+      "Perception": "+23",
+      "Sense Motive": "+19",
+      "Stealth": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Common",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 12,
+  "feats": [
+    "Cleave",
+    "Combat Reflexes",
+    "Deflect Arrows",
+    "Dodge",
+    "Great Cleave",
+    "Improved Grapple",
+    "Mobility",
+    "Power Attack",
+    "Spring Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk longsword +19/+14/+9 (1d8+6/19-20), mwk spear +19 (1d8+9/×3), mwk kukri +19 (1d4+6/18-20), 2 slams +13 (1d4+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This six-armed woman has three fanged faces on her head. She wears colorful robes, and her hands wield several exotic weapons.",
+  "meta": {
+    "cmb": "18 (+20 grapple)",
+    "cmd": "39 (41 vs. grapple)",
+    "racialModifiers": [
+      "Acrobatics 8",
+      "Escape Artist 6",
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or squad (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (weapons listed above plus other treasure)"
+      }
+    ]
+  }
+}

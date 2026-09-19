@@ -1,0 +1,125 @@
+{
+  "name": "Nightwave",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Colossal",
+  "type": "undead",
+  "subtype": "aquatic, extraplanar, nightshade",
+  "alignment": "CE",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 36,
+    "notes": "dex +3, natural +31, size -8",
+    "touch": 5,
+    "flatFooted": 33
+  },
+  "hp": {
+    "average": 391,
+    "formula": "29d8+261"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 60 ft. (good), swim 60 ft."
+  },
+  "abilities": {
+    "str": 49,
+    "dex": 16,
+    "con": "None",
+    "int": 22,
+    "wis": 21,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +18, Ref +16, Will +25",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +31, Intimidate +39, Knowledge (arcana) +38, Knowledge (planes) +35, Knowledge (religion) +38, Perception +37, Sense Motive +37, Spellcraft +38, Stealth +19, Swim +59",
+    "list": {
+      "Fly": "+31",
+      "Intimidate": "+39",
+      "Perception": "+37",
+      "Sense Motive": "+37",
+      "Spellcraft": "+38",
+      "Stealth": "+19",
+      "Swim": "+59"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darksense",
+    "darkvision",
+    "detect magic",
+    "low-light vision"
+  ],
+  "passivePerception": 47,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 21,
+  "feats": [
+    "Combat Reflexes",
+    "Command Undead",
+    "Critical Focus",
+    "Greater Vital Strike",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Critical (tail slap)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Quicken Spell-Like Ability (cone of cold)",
+    "Staggering Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +35 (5d10+22/19-20 plus 4d6 cold, energy drain, and grab), tail slap +30 (4d8+12/19-20 plus 4d6 cold)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Immense almost beyond belief, this sleek, midnight-black shark rises from the sea like an unholy island heaved up from below.",
+  "meta": {
+    "cmb": "48 (+52 grapple)",
+    "cmd": "61 (can’t be tripped)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Negative Energy Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

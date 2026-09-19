@@ -1,0 +1,104 @@
+{
+  "name": "Yrthak",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Huge",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Often neutral",
+  "cr": "9",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": "-2 size, +2 Dex, +8 natural",
+    "touch": 10,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 102,
+    "formula": "12d10+36"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": 60,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft. (4 squares), fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": 17,
+    "int": 7,
+    "wis": 13,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +11, Ref +10, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Listen +12, Move Silently +10;",
+    "list": {
+      "Listen": "+12",
+      "Move Silently": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Blindsight 120 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 12,
+  "feats": [
+    "Endurance",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Multiattack",
+    "Snatch"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Sonic lance, explosion"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Blindsight 120 ft., immunities, vulnerability to sonic"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Bite +15 melee (2d8+5) or sonic lance +12 ranged touch (6d6)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +15 melee (2d8+5) and 2 claws +13 melee (1d6+2); or sonic lance +12 ranged touch (6d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A yrthak is blind. It senses sound and movement by means of a special organ on its long tongue. It emits powerfully focused beams of sound from the protrusion on its head. The creature is a yellowish-green color, with the wings and fin being more yellow and the head and body more green. The teeth are yellow.",
+    "grapple": "+25",
+    "spaceReach": "15 ft./10 ft.",
+    "environment": "Temperate mountains",
+    "organization": "Solitary or clutch (2-4)",
+    "treasure": "None",
+    "advancement": "13-16 HD (Huge); 17-36 HD (Gargantuan)",
+    "leveladjustment": "---"
+  }
+}

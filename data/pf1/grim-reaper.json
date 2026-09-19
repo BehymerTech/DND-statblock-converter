@@ -1,0 +1,118 @@
+{
+  "name": "Grim Reaper",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 48: Shadows of Gallowspire",
+  "size": "Large",
+  "type": "undead",
+  "subtype": "evil, extraplanar, incorporeal",
+  "alignment": "NE",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 32,
+    "notes": "deflection +9, dex +2, natural +12, size -1",
+    "touch": 20,
+    "flatFooted": 30
+  },
+  "hp": {
+    "average": 378,
+    "formula": "28d8+252"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 15,
+    "con": "None",
+    "int": 16,
+    "wis": 19,
+    "cha": 29
+  },
+  "saves": {
+    "text": "Fort +18, Ref +11, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +37, Disguise +40, Fly +39, Knowledge (planes) +31, Perception +35, Sense Motive +35, Stealth +29",
+    "list": {
+      "Diplomacy": "+37",
+      "Disguise": "+40",
+      "Fly": "+39",
+      "Perception": "+35",
+      "Sense Motive": "+35",
+      "Stealth": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 45,
+  "languages": [
+    "Common",
+    "Celestial",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 21,
+  "feats": [
+    "Cleave",
+    "Combat Casting",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Great Cleave",
+    "Greater Weapon Focus (scythe)",
+    "Improved Critical (scythe)",
+    "Improved Disarm",
+    "Improved Initiative",
+    "Power Attack",
+    "Quicken Spell-Like Ability (destruction)",
+    "Vital Strike",
+    "Weapon Focus (scythe)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+3 scythe +27/+22/+17/+12 (2d6+13/19-20/×4 plus death touch)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This tall, cloaked figure stares out from the black hood that covers its head. It wields an enormous scythe in its skeletal, bone-white hands, looking as though it is freezing the very air around it.",
+  "meta": {
+    "cmb": "+24",
+    "cmd": "50 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+3 scythe, other treasure)"
+      }
+    ]
+  }
+}

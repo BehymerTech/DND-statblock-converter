@@ -1,0 +1,99 @@
+{
+  "name": "Peryton",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 197.",
+  "size": "Medium",
+  "type": "Beast",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 60,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 50 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 14,
+    "int": 10,
+    "wis": 20,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +8, Ref +11, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +11 (1d20+11); __Intimidation__: +11 (1d20+11); __Stealth__: +11 (1d20+11); ",
+    "list": {
+      "Acrobatics": "+11",
+      "Intimidation": "+11",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Heart Ripper",
+      "text": "⬻ (attack, emotion, fear, visual); The peryton rips out the heart of an adjacent corpse with their jaws. The creature must have died in the last minute. As the peryton rips the heart free and swallows it whole, they regain 2d6 (2d6) HP, and any non-peryton that witnesses this event must succeed at a DC 21 Will save or become frightened 1 (or frightened 2 on a critical failure)."
+    },
+    {
+      "name": "Mimic Shadow",
+      "text": "⬻ (necromancy, occult, shadow); Requirements The target must be casting a shadow Effect The peryton Flies, going no higher than 20 feet over the target creature. The target creature must succeed at a DC 21 Will save or the peryton's shadow changes to match that cast by the target creature. With their shadow so transformed, the peryton gains a +2 status bonus to attack and damage rolls against that creature. In addition, each time the peryton successfully Strikes that creature, the creature must succeed at a DC 21 Will save or become frightened 1, or increase its frightened condition by 1 if it's already frightened. This is an emotion and fear effect. The shadow remains transformed for 1 hour or until the peryton Mimics a Shadow again, whichever comes first."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ antler +14 (deadly d8); Damage 1d12+7 (1d12+7) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +14 (agile); Damage 1d8+7 (1d8+7) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      3,
+      2,
+      0,
+      5,
+      3
+    ]
+  }
+}

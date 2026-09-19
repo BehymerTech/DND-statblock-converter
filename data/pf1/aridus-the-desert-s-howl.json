@@ -1,0 +1,106 @@
+{
+  "name": "Aridus, the Desert's Howl",
+  "sourceSystem": "pf1",
+  "source": "Mythical Monsters Revisited",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "air, fire, native",
+  "alignment": "CE",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 34,
+    "notes": "dex +8, dodge +1, natural +17, size -2",
+    "touch": 17,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 350,
+    "formula": "20d10+240"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 120 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 33,
+    "dex": 27,
+    "con": 35,
+    "int": 24,
+    "wis": 22,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +18, Ref +20, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +31, Disguise +31, Fly +35, Intimidate +31, Knowledge (arcana) +27, Knowledge (geography) +27, Knowledge (nature) +27, Knowledge (religion) +27, Perception +29, Sense Motive +29, Spellcraft +30, Stealth +23, Survival +29",
+    "list": {
+      "Bluff": "+31",
+      "Disguise": "+31",
+      "Fly": "+35",
+      "Intimidate": "+31",
+      "Perception": "+29",
+      "Sense Motive": "+29",
+      "Spellcraft": "+30",
+      "Stealth": "+23",
+      "Survival": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 39,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Giant",
+    "telepathy 1 mile"
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 20,
+  "feats": [
+    "Ability Focus (howl)",
+    "Critical Focus",
+    "Dodge",
+    "Empower Spell-Like Ability (sirocco)",
+    "Exhausting Critical",
+    "Flyby Attack",
+    "Improved Critical (claws)",
+    "Improved Initiative",
+    "Iron Will",
+    "Tiring Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +29 (4d6+11 plus 4d6 fire), 2 claws +29 (2d8+11/19- 20 plus 4d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hunched-over, vaguely humanoid creature has gauntly muscled biceps beneath a sandy hide and coarse fur. Its head is that of a jagged-toothed antelope, the face spotted with rot and sand slowly sifting out from between the fibers of its hair, and its legs end at the shin in stumps of charred flesh.",
+  "meta": {
+    "race": "Male",
+    "class": "dust wendigo (Pathfinder RPG Bestiary 2 281)",
+    "cmb": "33 (+37 grapple)",
+    "cmd": 52
+  }
+}

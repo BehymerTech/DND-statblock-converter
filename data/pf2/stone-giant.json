@@ -1,0 +1,114 @@
+{
+  "name": "Stone Giant",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 170.",
+  "size": "Large",
+  "type": "Humanoid",
+  "subtype": "Earth, Giant",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 150,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 14,
+    "con": 18,
+    "int": 10,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +18, Ref +14, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +14 (1d20+14); __Athletics__: +20 (1d20+20); __Intimidation__: +14 (1d20+14); __Stealth__: +14 (1d20+14), (Stealth: +18 (1d20+18) in rocky terrain); ",
+    "list": {
+      "Acrobatics": "+14",
+      "Athletics": "+20",
+      "Intimidation": "+14",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Common",
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Catch Rock",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "+1 striking greatclub, sack with 5 rocks;"
+    },
+    {
+      "name": "Big Swing",
+      "text": "⬺ The stone giant makes a greatclub Strike. The target is Pushed up to 10 feet on a hit or up to 20 feet on a critical hit. If the target collides with a solid object or lands on the ground, it takes bludgeoning damage as though it had fallen the distance it moved."
+    },
+    {
+      "name": "Throw Rock",
+      "text": "⬻"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ greatclub +21 (backswing, magical, reach 10 feet, shove); Damage 2d10+12 (2d10+12) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +20 (agile, reach 10 feet); Damage 2d6+14 (2d6+14) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ rock +18 (brutal, range increment 120 feet); Damage 2d6+12 (2d6+12) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      2,
+      4,
+      0,
+      1,
+      0
+    ],
+    "items": "+1 striking greatclub, sack with 5 rocks;"
+  }
+}

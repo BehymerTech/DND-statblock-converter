@@ -1,0 +1,102 @@
+{
+  "name": "NPC Master Entertainer",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "gnome",
+  "alignment": "CN",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 12,
+    "notes": "dex +1, size +1",
+    "touch": 12,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 45,
+    "formula": "10d8"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 7,
+    "dex": 12,
+    "con": 10,
+    "int": 12,
+    "wis": 10,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +3, Ref +6, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +14, Bluff +11, Craft (painting) +10, Disguise +9, Escape Artist +9, Knowledge (local) +9, Knowledge (nobility) +9, Perception +2, Perform (comedy) +16, Perform (dance) +11, Perform (wind) +8, Sense Motive +5, Sleight of Hand +14, Use Magic Device +16",
+    "list": {
+      "Acrobatics": "+14",
+      "Bluff": "+11",
+      "Disguise": "+9",
+      "Escape Artist": "+9",
+      "Perception": "+2",
+      "Sense Motive": "+5",
+      "Sleight of Hand": "+14",
+      "Use Magic Device": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Common",
+    "Elven",
+    "Gnome",
+    "Sylvan"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 7,
+  "feats": [
+    "Lightning Reflexes",
+    "Point-Blank Shot",
+    "Quick Draw",
+    "Rapid Shot",
+    "Weapon Focus (dagger)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +7/+2 (1d3-2/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +10/+5 (1d3-2/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Gnome",
+    "class": "expert 10",
+    "cmb": "+4",
+    "cmd": 15
+  }
+}

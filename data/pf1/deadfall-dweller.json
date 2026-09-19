@@ -1,0 +1,108 @@
+{
+  "name": "Deadfall Dweller",
+  "sourceSystem": "pf1",
+  "source": "Tears at Bitter Manor",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +1, natural +8, size -1",
+    "touch": 10,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 57,
+    "formula": "6d10+24"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 10 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 13,
+    "con": 16,
+    "int": 5,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +6, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +17, Perception +7, Stealth +2",
+    "list": {
+      "Climb": "+17",
+      "Perception": "+7",
+      "Stealth": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Sylvan (can’t speak)"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 6,
+  "feats": [
+    "Improved Initiative",
+    "Power Attack",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +10 (1d6+5 plus poison), 2 limbs +5 (1d4+2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "spittle +6 (1d6 acid plus entrap)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature resembles a fallen tree trunk that walks upon dozens of tiny, barbed branches and shambles like a spider.",
+  "meta": {
+    "cmb": "+12",
+    "cmd": "23 (can’t be tripped)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests and swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, brood (2-5), or ruin (6-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

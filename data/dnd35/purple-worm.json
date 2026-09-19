@@ -1,0 +1,105 @@
+{
+  "name": "Purple Worm",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Gargantuan",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Always neutral",
+  "cr": "12",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": "-4 size, -2 Dex, +15 natural",
+    "touch": 4,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 200,
+    "formula": "16d10+112"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": 10,
+    "climb": null,
+    "burrow": 20,
+    "notes": "20 ft. (4 squares), burrow 20 ft., swim 10 ft."
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 6,
+    "con": 25,
+    "int": 1,
+    "wis": 8,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +17, Ref +8, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Listen +18, Swim +20;",
+    "list": {
+      "Listen": "+18",
+      "Swim": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Tremorsense 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "-2",
+  "babOrProficiency": 16,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Improved Bull Rush",
+    "Power Attack",
+    "Weapon Focus (bite)",
+    "Weapon Focus (sting)"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Improved grab, swallow whole, poison"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Tremorsense 60 ft."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Bite +25 melee (2d8+12)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +25 melee (2d8+12) and sting +20 melee (2d6+6 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "The body of a mature purple worm is 5 feet in diameter and 80 feet long, weighing about 40,000 pounds. The creature has a poisonous stinger in its tail.",
+    "grapple": "+40",
+    "spaceReach": "20 ft./15ft.",
+    "environment": "Underground",
+    "organization": "Solitary",
+    "treasure": "No coins, 50% goods (stone only), no items",
+    "advancement": "16-32 HD (Gargantuan); 33-48 HD (Colossal)",
+    "leveladjustment": "---"
+  }
+}

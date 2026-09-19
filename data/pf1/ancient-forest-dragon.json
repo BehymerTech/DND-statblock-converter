@@ -1,0 +1,124 @@
+{
+  "name": "Ancient Forest Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Gargantuan",
+  "type": "dragon",
+  "subtype": "earth",
+  "alignment": "CE",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 39,
+    "notes": "dex -1, natural +34, size -4",
+    "touch": 5,
+    "flatFooted": 39
+  },
+  "hp": {
+    "average": 387,
+    "formula": "25d12+225"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 250 ft. (clumsy), burrow 20 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 37,
+    "dex": 8,
+    "con": 26,
+    "int": 20,
+    "wis": 21,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +22, Ref +13, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +24, Bluff +35, Climb +47, Disguise +7, Escape Artist +28, Fly +0, Intimidate +33, Knowledge (arcana) +31, Knowledge (nature) +31, Perception +33, Spellcraft +33, Stealth +25, Survival +29",
+    "list": {
+      "Acrobatics": "+24",
+      "Bluff": "+35",
+      "Climb": "+47",
+      "Disguise": "+7",
+      "Escape Artist": "+28",
+      "Fly": "+0",
+      "Intimidate": "+33",
+      "Perception": "+33",
+      "Spellcraft": "+33",
+      "Stealth": "+25",
+      "Survival": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "tremorsense"
+  ],
+  "passivePerception": 43,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Elven",
+    "Goblin",
+    "Sylvan",
+    "Terran"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 25,
+  "feats": [
+    "Combat Casting",
+    "Deceitful",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Natural Armor",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack",
+    "Skill Focus (Stealth)",
+    "Stealthy",
+    "Toughness",
+    "Weapon Focus (bite)",
+    "Weapon Focus (claws)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +35 (4d6+19/19-20), 2 claws +35 (2d8+13), gore +34 (2d8+19), tail slap +32 (2d8+19)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+42",
+    "cmd": "51 (55 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forest"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

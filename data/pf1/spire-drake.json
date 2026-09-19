@@ -1,0 +1,104 @@
+{
+  "name": "Spire Drake",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "LE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "dex +1, natural +10, size -1",
+    "touch": 10,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 84,
+    "formula": "8d12+32"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (average), climb 30 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 12,
+    "con": 19,
+    "int": 10,
+    "wis": 11,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +10, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +20, Fly +10, Knowledge (arcana) +10, Knowledge (religion) +10, Perception +11, Spellcraft +10, Use Magic Device +13",
+    "list": {
+      "Climb": "+20",
+      "Fly": "+10",
+      "Perception": "+11",
+      "Spellcraft": "+10",
+      "Use Magic Device": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 8,
+  "feats": [
+    "Flyby Attack",
+    "Power Attack",
+    "Vital Strike",
+    "Wingover"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (2d6+6 plus 1d6 negative energy), tail slap +8 (1d8+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This reptilian creature’s gaunt body, legs, and batlike face are covered in long spines. Two wings stretch out from its torso.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": 26,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any hills"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or rampage (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

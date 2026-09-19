@@ -1,0 +1,104 @@
+{
+  "name": "Faceless Whale",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 60: From Hell's Heart",
+  "size": "Colossal",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 30,
+    "notes": "dex -2, natural +30, size -8",
+    "touch": 0,
+    "flatFooted": 30
+  },
+  "hp": {
+    "average": 248,
+    "formula": "16d10+160"
+  },
+  "speed": {
+    "walk": 0,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "0 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 45,
+    "dex": 6,
+    "con": 30,
+    "int": 4,
+    "wis": 11,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +22, Ref +8, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +19, Swim +25",
+    "list": {
+      "Perception": "+19",
+      "Swim": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Aklo (can’t speak)"
+  ],
+  "initiative": "-2",
+  "babOrProficiency": 16,
+  "feats": [
+    "Awesome Blow",
+    "Diehard",
+    "Endurance",
+    "Great Fortitude",
+    "Improved Bull Rush",
+    "Improved Overrun",
+    "Iron Will",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +25 (6d6+17), tail slap +20 (4d6+8)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A deep groan at the edge of hearing precedes the appearance of this sightless leviathan, whose pallid body breaks the surface of dark waters without as much as a ripple.",
+  "meta": {
+    "cmb": "+41",
+    "cmd": 49,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pod (3-16)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

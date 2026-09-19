@@ -1,0 +1,111 @@
+{
+  "name": "Witchwyrd",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 294.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "alignment": "LN",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 110,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 12,
+    "int": 18,
+    "wis": 16,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +13, Ref +13, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +16 (1d20+16); __Deception__: +15 (1d20+15); __Diplomacy__: +15 (1d20+15); __Intimidation__: +15 (1d20+15); __Desert lore__: +14 (1d20+14); ",
+    "list": {
+      "Arcana": "+16",
+      "Deception": "+15",
+      "Diplomacy": "+15",
+      "Intimidation": "+15",
+      "Desert lore": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Common",
+    "Draconic; one or more planar"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Absorb Force",
+      "text": "⬲ (arcane, evocation, force); Frequency once per round Trigger A magic missile is fired at the witchwyrd, and the witchwyrd is aware of it and has a free hand Effect The witchwyrd \"catches\" the missile, absorbing it and causing that hand to glow while it holds this energy. A hand that's holding energy can't be used for any other purpose except to use."
+    },
+    {
+      "name": "Force Bolt.",
+      "text": "The energy lasts for 6 rounds or until it is released."
+    },
+    {
+      "name": "Items",
+      "text": "+1 ranseur;"
+    },
+    {
+      "name": "Force Bolt",
+      "text": "⬻ to ⬽ (arcane, evocation, force); The witchwyrd fires one magic missile per action spent (dealing 1d4+1 (1d4+1) force damage each). They can't spend more actions on this ability than they have free hands. If they use a hand that has Absorbed Force, that hand hurls two missiles instead of one, expending the held energy."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ ranseur +16 (disarm, magical, reach 10 feet); Damage 1d10+6 (1d10+6) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +15 (agile, nonlethal); Damage 1d6+6 (1d6+6) bludgeoning plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      3,
+      1,
+      4,
+      3,
+      5
+    ],
+    "items": "+1 ranseur;"
+  }
+}

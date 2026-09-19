@@ -1,0 +1,119 @@
+{
+  "name": "Thalassic Behemoth",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Colossal",
+  "type": "magical beast",
+  "subtype": "aquatic, behemoth, water",
+  "alignment": "N",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 37,
+    "notes": "dex -1, natural +36, size -8",
+    "touch": 1,
+    "flatFooted": 37
+  },
+  "hp": {
+    "average": 391,
+    "formula": "29d10+232"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 200 ft."
+  },
+  "abilities": {
+    "str": 47,
+    "dex": 8,
+    "con": 27,
+    "int": 3,
+    "wis": 16,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +24, Ref +17, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +34, Stealth -13, Survival +18, Swim +30",
+    "list": {
+      "Perception": "+34",
+      "Stealth": "-13",
+      "Survival": "+18",
+      "Swim": "+30"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision"
+  ],
+  "passivePerception": 44,
+  "languages": [],
+  "initiative": "-1",
+  "babOrProficiency": 29,
+  "feats": [
+    "Ability Focus (water jet)",
+    "Cleave",
+    "Great Cleave",
+    "Greater Sunder",
+    "Greater Vital Strike",
+    "Improved Critical (bite)",
+    "Improved Critical (water jet)",
+    "Improved Iron Will",
+    "Improved Sunder",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Skill Focus (Perception)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +39 (6d6+18/19-20 plus grab), 2 claws +39 (3d6+18), tail slap +34 (4d6+9 plus trip)"
+    },
+    {
+      "name": "Ranged",
+      "text": "water jet +20 (4d8+18/19-20 plus stun and push)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Two massive limbs drag the bulk of this whale-like beast’s body from the churning waters of the sea.",
+  "meta": {
+    "cmb": "55 (+59 grapple or sunder)",
+    "cmd": "64 (66 vs. sunder)",
+    "racialModifiers": [
+      "Perception 10"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

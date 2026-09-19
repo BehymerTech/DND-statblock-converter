@@ -1,0 +1,122 @@
+{
+  "name": "Solar",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Large",
+  "type": "Celestial",
+  "subtype": "Angel",
+  "alignment": "Lawful Good",
+  "cr": "21",
+  "level": null,
+  "xp": 33000,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 297,
+    "formula": "22d10 + 176"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": 150,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., Fly 150 ft. (hover)"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 22,
+    "con": 26,
+    "int": 25,
+    "wis": 25,
+    "cha": 30
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +14",
+    "list": {
+      "Perception": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Truesight 120 ft."
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "All; telepathy 120 ft."
+  ],
+  "initiative": "+20 (30)",
+  "babOrProficiency": 7,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Divine Awareness",
+      "text": "The solar knows if it hears a lie."
+    },
+    {
+      "name": "Exalted Restoration",
+      "text": "If the solar dies outside Mount Celestia, its body disappears, and it gains a new body instantly, reviving with all its Hit Points somewhere in Mount Celestia."
+    },
+    {
+      "name": "Legendary Resistance (4/Day)",
+      "text": "If the solar fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The solar has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The solar makes two Flying Sword attacks. It can replace one attack with a use of Slaying Bow."
+    },
+    {
+      "name": "Flying Sword",
+      "text": "_Melee or Ranged Attack Roll:_ +15, reach 10 ft. or range 120 ft. _Hit:_ 22 (4d6 + 8) Slashing damage plus 36 (8d8) Radiant damage. _Hit or Miss:_ The sword magically returns to the solar's hand or hovers within 5 feet of the solar immediately after a ranged attack."
+    },
+    {
+      "name": "Slaying Bow",
+      "text": "_Dexterity Saving Throw:_ DC 21, one creature the solar can see within 600 feet. _Failure:_ If the creature has 100 Hit Points or fewer, it dies. It otherwise takes 24 (4d8 + 6) Piercing damage plus 36 (8d8) Radiant damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The solar casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 25): <br> &emsp;**At Will:** _Detect Evil and Good_ <br> &emsp;**1/Day Each:** _Commune, Control Weather, Dispel Evil and Good, Resurrection_"
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Divine Aid (3/Day)",
+      "text": "The solar casts _Cure Wounds_ (level 2 version), _Lesser Restoration_, or _Remove Curse_, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "reactions": [],
+  "legendaryActions": [
+    {
+      "name": "",
+      "text": "_Legendary Action Uses: 3. Immediately after another creature's turn, the solar can expend a use to take one of the following actions. The solar regains all expended uses at the start of each of its turns._"
+    },
+    {
+      "name": "Blinding Gaze",
+      "text": "_Constitution Saving Throw:_ DC 25, one creature the solar can see within 120 feet. _Failure:_ The target has the Blinded condition for 1 minute. _Failure or Success:_ The solar can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Radiant Teleport",
+      "text": "The solar teleports up to 60 feet to an unoccupied space it can see. _Dexterity Saving Throw:_ DC 25, each creature in a 10-foot Emanation originating from the solar at its destination space. _Failure:_ 11 (2d10) Radiant damage. _Success:_ Half damage. ## Specter"
+    }
+  ],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

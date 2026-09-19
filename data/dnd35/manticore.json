@@ -1,0 +1,106 @@
+{
+  "name": "Manticore",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Usually lawful evil",
+  "cr": "5",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": "-1 size, +2 Dex, +6 natural",
+    "touch": 11,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 57,
+    "formula": "6d10+24"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 50,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares), fly 50 ft. (clumsy)"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 15,
+    "con": 19,
+    "int": 7,
+    "wis": 12,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +9, Ref +7, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Listen +5, Spot +9, Survival +1;",
+    "list": {
+      "Listen": "+5",
+      "Spot": "+9",
+      "Survival": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 6,
+  "feats": [
+    "Flyby Attack",
+    "Multiattack",
+    "Track (B)",
+    "Weapon Focus (spikes)"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Spikes"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., low-light vision, scent"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Claw +10 melee (2d4+5) or 6 spikes +8 ranged (1d8+2/19-20)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +10 melee (2d4+5) and bite +8 melee (1d8+2); or 6 spikes +8 ranged (1d8+2/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A typical manticore is about 10 feet long and weighs about 1,000 pounds. Manticores speak Common.",
+    "grapple": "+15",
+    "spaceReach": "10 ft./5 ft.",
+    "environment": "Warm marshes",
+    "organization": "Solitary, pair, or pride (3-6)",
+    "treasure": "Standard",
+    "advancement": "7-16 HD (Large); 17-18 HD (Huge)",
+    "leveladjustment": "+3 (cohort)"
+  }
+}

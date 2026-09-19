@@ -1,0 +1,114 @@
+{
+  "name": "Adult Sea Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "water",
+  "alignment": "CG",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 28,
+    "notes": "natural +20, size -2",
+    "touch": 8,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 172,
+    "formula": "15d12+75"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (poor), swim 80 ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 10,
+    "con": 21,
+    "int": 20,
+    "wis": 21,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +16, Ref +11, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +23, Fly +10, Intimidate +23, Knowledge (arcana) +23, Knowledge (geography) +23, Knowledge (nature) +23, Perception +27, Sense Motive +27, Stealth +10, Survival +23, Swim +34",
+    "list": {
+      "Diplomacy": "+23",
+      "Fly": "+10",
+      "Intimidate": "+23",
+      "Perception": "+27",
+      "Sense Motive": "+27",
+      "Stealth": "+10",
+      "Survival": "+23",
+      "Swim": "+34"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Aquan",
+    "Auran",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Elven"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 15,
+  "feats": [
+    "Alertness",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Lunge",
+    "Multiattack",
+    "Weapon Focus (bite and claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +22 (2d8+12), 2 claws +22 (2d6+8), gore +21 (2d6+12), tail slap +19 (2d6+12)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+25",
+    "cmd": "35 (39 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

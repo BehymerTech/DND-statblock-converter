@@ -1,0 +1,93 @@
+{
+  "name": "Ettin",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Large",
+  "type": "giant",
+  "subtype": "",
+  "alignment": "chaotic evil",
+  "cr": "4",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 12,
+    "notes": "natural armor"
+  },
+  "hp": {
+    "average": 85,
+    "formula": "10d10 + 30"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 8,
+    "con": 17,
+    "int": 6,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +4",
+    "list": {
+      "perception": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft."
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Giant",
+    "Orc"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Two Heads",
+      "text": "The ettin has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious."
+    },
+    {
+      "name": "Wakeful",
+      "text": "When one of the ettin's heads is asleep, its other head is awake."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The ettin makes two attacks: one with its battleaxe and one with its morningstar."
+    },
+    {
+      "name": "Battleaxe",
+      "text": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage."
+    },
+    {
+      "name": "Morningstar",
+      "text": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

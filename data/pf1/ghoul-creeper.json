@@ -1,0 +1,105 @@
+{
+  "name": "Ghoul Creeper",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 18,
+    "notes": "armor +2, dex +4, natural +2",
+    "touch": 14,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 37,
+    "formula": "5d8+15"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 19,
+    "con": "None",
+    "int": 13,
+    "wis": 16,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +4, Ref +7, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +12, Bluff +11, Climb +11, Disable Device +5, Escape Artist +17, Intimidate +11, Perception +11, Sleight of Hand +12, Stealth +12",
+    "list": {
+      "Acrobatics": "+12",
+      "Bluff": "+11",
+      "Climb": "+11",
+      "Disable Device": "+5",
+      "Escape Artist": "+17",
+      "Intimidate": "+11",
+      "Perception": "+11",
+      "Sleight of Hand": "+12",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common",
+    "Undercommon"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 3,
+  "feats": [
+    "Bag of Bones",
+    "Power Attack",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +7 (1d6+3 plus disease and paralysis), 2 claws +7 (1d6+3 plus paralysis)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk light crossbow +8 (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Ghoul",
+    "class": "rogue 3",
+    "cmb": "+6",
+    "cmd": 20,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      }
+    ]
+  }
+}

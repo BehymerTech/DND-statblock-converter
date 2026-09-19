@@ -1,0 +1,145 @@
+{
+  "name": "Ancient Blue Dragon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 108.",
+  "size": "Huge",
+  "type": "Electricity",
+  "subtype": "Dragon",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 18",
+  "xp": null,
+  "ac": {
+    "value": 42,
+    "notes": ""
+  },
+  "hp": {
+    "average": 370,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 feet, burrow 30 feet, fly 200 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 18,
+    "con": 22,
+    "int": 24,
+    "wis": 20,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +32, Ref +30, Will +33",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +28 (1d20+28); __Arcana__: +33 (1d20+33); __Deception__: +35 (1d20+35); __Diplomacy__: +35 (1d20+35); __Intimidation__: +33 (1d20+33); __Society__: +35 (1d20+35); __Stealth__: +28 (1d20+28); __Survival__: +29 (1d20+29); ",
+    "list": {
+      "Acrobatics": "+28",
+      "Arcana": "+33",
+      "Deception": "+35",
+      "Diplomacy": "+35",
+      "Intimidation": "+33",
+      "Society": "+35",
+      "Stealth": "+28",
+      "Survival": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60"
+  ],
+  "passivePerception": 41,
+  "languages": [
+    "Auran",
+    "Common",
+    "Draconic",
+    "Jotun",
+    "Ignan",
+    "Infernal"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Sound Imitation",
+      "text": "The dragon can mimic any sound it has heard. To do so, it must succeed at a Deception check with a +4 circumstance bonus."
+    },
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 90 feet, DC 39."
+    },
+    {
+      "name": "Wing Deflection",
+      "text": "⬲ Trigger The dragon is targeted with an attack. Effect The dragon raises its wing, gaining a +2 circumstance bonus to AC against the triggering attack. If the dragon is Flying, it descends 10 feet after the attack is complete."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "(arcane, electricity, evocation); The dragon breathes lightning that deals 12d12 (12d12) electricity damage in a 120-foot line (DC 40 basic Reflex save). It can't use Breath Weapon again for 1d4 (1d4) rounds. Each time the dragon uses Breath Weapon, a 20-foot-radius storm cloud appears 80 feet above a point of the dragon's choosing along the Breath Weapon's path. Clouds last for 10 minutes and allow the dragon to use Storm Breath."
+    },
+    {
+      "name": "Desert Thirst",
+      "text": "(arcane, transmutation); When casting create water, the dragon can attempt to destroy liquid instead of creating it, turning an equal amount of liquid into sand. This destroys liquid magic or alchemical items if they're of a lower level than the dragon (a creature can attempt a DC 37 Will save to protect all liquids in its possession). This doesn't affect the liquids in a creature's body."
+    },
+    {
+      "name": "Draconic Frenzy",
+      "text": "⬺ The dragon makes two claw Strikes and one horns Strike in any order."
+    },
+    {
+      "name": "Draconic Momentum",
+      "text": "The dragon recharges its Breath Weapon whenever it scores a critical hit with a Strike."
+    },
+    {
+      "name": "Mirage",
+      "text": "Whenever the dragon uses Breath Weapon while the illusory image from its innate project image spell persists, it can cause the Breath Weapon to originate from itself or the image."
+    },
+    {
+      "name": "Storm Breath",
+      "text": "⬻ (arcane, concentrate, electricity, evocation); Requirements A storm cloud created by Breath Weapon is within 500 feet, and the dragon can see the cloud. Frequency once per round Effect The dragon calls down a lightning bolt from a storm cloud created by its Breath Weapon. This creates a vertical line of lightning to the ground that deals 6d12 (6d12) electricity damage to all enemies in its path (DC 40 basic Reflex save)."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +35 (electricity, magical, reach 20 feet); Damage 3d10+15 (3d10+15) piercing plus 2d12 (2d12) electricity"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +35 (agile, magical, reach 15 feet); Damage 3d10+15 (3d10+15) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +33 (magical, reach 25 feet); Damage 3d10+13 (3d10+13) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ horns +33 (magical, reach 20 feet); Damage 2d10+13 (2d10+13) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      4,
+      6,
+      7,
+      5,
+      7
+    ]
+  }
+}

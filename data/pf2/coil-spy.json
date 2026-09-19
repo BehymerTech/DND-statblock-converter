@@ -1,0 +1,120 @@
+{
+  "name": "Coil Spy",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 238.",
+  "size": "Medium",
+  "type": "Serpentfolk",
+  "subtype": "Humanoid",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 48,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 12,
+    "int": 18,
+    "wis": 14,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +9, Ref +12, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +10 (1d20+10); __Deception__: +13 (1d20+13); __Diplomacy__: +11 (1d20+11); __Intimidation__: +11 (1d20+11); __Occultism__: +10 (1d20+10); __Society__: +10 (1d20+10); __Stealth__: +12 (1d20+12); __Thievery__: +12 (1d20+12); ",
+    "list": {
+      "Acrobatics": "+10",
+      "Deception": "+13",
+      "Diplomacy": "+11",
+      "Intimidation": "+11",
+      "Occultism": "+10",
+      "Society": "+10",
+      "Stealth": "+12",
+      "Thievery": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Dwarven",
+    "Gnomish",
+    "Undercommon; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Deceptive Reposition",
+      "text": "⬻ The Coil spy Strides up to half their Speed and attempts a Feint, in either order."
+    },
+    {
+      "name": "Maintain Disguise",
+      "text": "A Coil spy can maintain an ongoing illusory disguise as long as they are conscious without having to re-cast the spell; they need only Cast the Spell again to reassume their illusory disguise if they wish to change their appearance or if the active spell is dispelled. Coil spies typically seek privacy when they need to sleep, as an ongoing illusory disguise ends an hour after they fall unconscious."
+    },
+    {
+      "name": "Serpentfolk Venom",
+      "text": "(poison); Saving Throw DC 19 Fortitude. Maximum Duration 6 rounds Stage 1 1d4 (1d4) poison damage and enfeebled 1 (1 round) Stage 2 2d4 (2d4) poison damage and enfeebled 1 (1 round)"
+    },
+    {
+      "name": "Sneak Attack The",
+      "text": "Coil spy's Strikes deal an extra 2d6 (2d6) precision damage to flat-footed creatures."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ shortsword +14 (agile, finesse, versatile s); Damage 1d6+5 (1d6+5) piercing plus serpentfolk venom"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +14 (finesse); Damage 1d6+5 (1d6+5) piercing plus serpentfolk venom"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ hand crossbow +10 (range increment 60 feet, reload 1); Damage 1d6+3 (1d6+3) piercing plus serpentfolk venom or hunting spider venom (Core Rulebook 552)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      4,
+      1,
+      4,
+      2,
+      5
+    ]
+  }
+}

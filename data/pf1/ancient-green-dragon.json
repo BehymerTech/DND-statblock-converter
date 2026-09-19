@@ -1,0 +1,110 @@
+{
+  "name": "Ancient Green Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Gargantuan",
+  "type": "dragon",
+  "subtype": "air",
+  "alignment": "LE",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 36,
+    "notes": "dex -1, natural +31, size -4",
+    "touch": 5,
+    "flatFooted": 36
+  },
+  "hp": {
+    "average": 310,
+    "formula": "23d12+161"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 250 ft. (clumsy), swim 40 ft."
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 8,
+    "con": 25,
+    "int": 20,
+    "wis": 21,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +20, Ref +12, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +9, Knowledge (arcane) +31, Knowledge (local) +31, Knowledge (nature) +31, Knowledge (planes) +31, Perception +35, Spellcraft +31, Stealth +13, Survival +31, Swim +46, Use Magic Device +31",
+    "list": {
+      "Fly": "+9",
+      "Perception": "+35",
+      "Spellcraft": "+31",
+      "Stealth": "+13",
+      "Survival": "+31",
+      "Swim": "+46",
+      "Use Magic Device": "+31"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 45,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Draconic",
+    "Elven",
+    "Giant",
+    "Sylvan"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 23,
+  "feats": [
+    "Alertness",
+    "Bleeding Critical",
+    "Cleave",
+    "Critical Focus",
+    "Flyby Attack",
+    "Great Cleave",
+    "Improved Critical (bite)",
+    "Improved Critical (claws)",
+    "Improved Sunder",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +31 (4d6+18/19-20), 2 claws +31 (2d8+12/19-20), 2 wings +29 (2d6+6), tail slap +29 (2d8+18)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+39",
+    "cmd": "48 (52 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      }
+    ]
+  }
+}

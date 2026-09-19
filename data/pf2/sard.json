@@ -1,0 +1,126 @@
+{
+  "name": "Sard",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 231.",
+  "size": "Gargantuan",
+  "type": "Tane",
+  "subtype": "Electricity, Plant",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 19",
+  "xp": null,
+  "ac": {
+    "value": 43,
+    "notes": ""
+  },
+  "hp": {
+    "average": 400,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, climb 25 feet"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 22,
+    "con": 22,
+    "int": 14,
+    "wis": 22,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +35, Ref +31, Will +33",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +33 (1d20+33); __Athletics__: +37 (1d20+37); __Nature__: +31 (1d20+31); ",
+    "list": {
+      "Acrobatics": "+33",
+      "Athletics": "+37",
+      "Nature": "+31"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, tremorsense 120"
+  ],
+  "passivePerception": 45,
+  "languages": [
+    "Aklo",
+    "Arboreal",
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Planar Acclimation",
+      "text": "The sard treats the plane it is located on as its home plane."
+    },
+    {
+      "name": "Splintering Death",
+      "text": "(electricity, evocation, primal); When the sard dies, its body explodes in a 30-foot emanation. All creatures in the area take 10d6 (10d6) electricity damage and 10d6 (10d6) piercing damage (DC 43 basic Reflex save). Any creature that takes piercing damage is also exposed to sard venom."
+    },
+    {
+      "name": "Lightning-Struck Curse",
+      "text": "⬲ (curse, necromancy, primal); Trigger The sard is about to damage a creature that has electricity resistance Effect An instant before the target takes the electricity damage from the triggering event, the sard's electrical sparks glow red. The target must succeed at a DC 41 Will save or lose any electricity resistance it has until this curse is lifted."
+    },
+    {
+      "name": "Sard Venom",
+      "text": "(poison, primal, virulent); Saving Throw DC 41 Fortitude. Maximum Duration 10 rounds Stage 1 2d6 (2d6) electricity damage, 2d6 (2d6) poison damage, and clumsy 2 (1 round) Stage 2 3d6 (3d6) electricity damage, 3d6 (3d6) poison damage, clumsy 2, and slowed 1 (1 round) Stage 3 4d6 (4d6) electricity damage, 4d6 (4d6) poison damage, clumsy 2, and slowed 2 (1 round)"
+    },
+    {
+      "name": "Thorn Volley",
+      "text": "⬺ The sard makes up to four thorn Strikes, each against a different target. The sard's multiple attack penalty doesn't increase until after all the attacks have been made."
+    },
+    {
+      "name": "Trample",
+      "text": "⬽ Huge or smaller, root, DC 39."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ trunk +37 (fatal d12, reach 20 feet); Damage 4d6+18 (4d6+18) bludgeoning plus 3d6 (3d6) persistent electricity"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ branch +37 (agile, reach 20 feet); Damage 4d8+18 (4d8+18) piercing plus sard venom"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ root +37 (reach 10 feet); Damage 4d6+18 (4d6+18) bludgeoning plus 1d6 (1d6) electricity"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ thorn +35 (deadly d10, primal, propulsive, range 180 feet); Damage 4d4+16 (4d4+16) piercing plus sard venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      10,
+      6,
+      6,
+      2,
+      6,
+      6
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "name": "Grisantian Lion",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 132: The Six-Legend Soul",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 29,
+    "notes": "dex +5, natural +16, size -2",
+    "touch": 13,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 184,
+    "formula": "16d10+96"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 21,
+    "con": 22,
+    "int": 4,
+    "wis": 12,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +16, Ref +15, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +16, Climb +16, Perception +11, Stealth +8",
+    "list": {
+      "Acrobatics": "+16",
+      "Climb": "+16",
+      "Perception": "+11",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common (can’t speak)"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 16,
+  "feats": [
+    "Greater Sunder",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Iron Will",
+    "Power Attack",
+    "Run",
+    "Skill Focus (Perception)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +23 (3d6+13 plus grab), 2 claws +23 (1d8+9)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This massive lion’s fur and skin shimmer with a golden sheen.",
+  "meta": {
+    "cmb": "27 (+31 sunder)",
+    "cmd": "42 (44 vs. sunder, 46 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm plains or hills"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "name": "Guthallath",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 199.",
+  "size": "Gargantuan",
+  "type": "Construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 19",
+  "xp": null,
+  "ac": {
+    "value": 43,
+    "notes": ""
+  },
+  "hp": {
+    "average": 325,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, burrow 50 feet"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 14,
+    "con": 26,
+    "int": 2,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +38, Ref +32, Will +30",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +25 (1d20+25); __Athletics__: +40 (1d20+40); ",
+    "list": {
+      "Acrobatics": "+25",
+      "Athletics": "+40"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, true seeing"
+  ],
+  "passivePerception": 40,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Erosion Aura",
+      "text": "(aura, primal); 120 feet. The guthallath erodes away the physical integrity of all around it. Creatures and objects in the emanation other than the guthallath have their hardness and resistances reduced by 10. At the start of its turn, a creature in the erosion aura's area takes 6d6 (6d6) bludgeoning damage (basic Fortitude DC 39)."
+    },
+    {
+      "name": "Immunity to Magic",
+      "text": "The guthallath is immune to spells of lower than 7th level and the activated effects of magic items of lower than 14th level."
+    },
+    {
+      "name": "Annihilation Beams",
+      "text": "⬺ A guthallath releases two beams of destruction from its eyes. Each beam is a 120-foot line. Everything in either line takes the effect of a hit from a 10th-level disintegrate spell (DC 41 Fortitude). There is no additional effect on creatures in any area where the beams overlap. The guthallath can't use this ability again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Deadly Throw",
+      "text": "⬻ Requirements The guthallath has a creature grabbed. Effect The guthallath throws the creature into the air, 100 feet high and 50 feet away. If the flung creature lands on another creature, the creature it lands on takes the same amount of bludgeoning damage. The creature being landed on can attempt a DC 41 basic Reflex save."
+    },
+    {
+      "name": "Powerful Blows",
+      "text": "If a guthallath hits with an attack and rolls a natural 19 on the d20 roll, the attack is a critical hit. This has no effect if the 19 would be a failure."
+    },
+    {
+      "name": "Trample",
+      "text": "⬽ Huge or smaller, foot, DC 45."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +38 (deadly 3d12, magical, reach 20 feet); Damage 4d12+18 (4d12+18) bludgeoning plus Improved Grab or Improved Push 20 feet"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ foot +38 (deadly 3d12, magical, reach 20 feet); Damage 4d8+18 (4d8+18) bludgeoning plus Improved Knockdown"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      10,
+      2,
+      8,
+      -4,
+      0,
+      -1
+    ]
+  }
+}

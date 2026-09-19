@@ -1,0 +1,101 @@
+{
+  "name": "Bone Priest",
+  "sourceSystem": "pf1",
+  "source": "The Emerald Spire Superdungeon",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "LE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 16,
+    "notes": "dex +2, natural +4",
+    "touch": 12,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 37,
+    "formula": "5d8+15"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 15,
+    "con": "None",
+    "int": 11,
+    "wis": 16,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +4, Ref +3, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +11, Knowledge (religion) +8, Perception +11, Stealth +10",
+    "list": {
+      "Intimidate": "+11",
+      "Perception": "+11",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common",
+    "Undercommon"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 3,
+  "feats": [
+    "Combat Casting",
+    "Improved Initiative",
+    "Weapon Focus (bastard sword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk bastard sword +7 (1d10+3/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This skeletal creature wears rotting robes, and carries a sword in its talon-like hands. An evil blue light dances in its empty eye sockets.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": 17,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk bastard sword, other treasure)"
+      }
+    ]
+  }
+}

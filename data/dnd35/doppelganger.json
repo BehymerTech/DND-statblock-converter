@@ -1,0 +1,104 @@
+{
+  "name": "Doppelganger",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Monstrous Humanoid",
+  "subtype": "Shapechanger",
+  "alignment": "Usually neutral",
+  "cr": "3",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "+1 Dex, +4 natural",
+    "touch": 11,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 22,
+    "formula": "4d8+4"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares)"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 13,
+    "wis": 14,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +4, Ref +5, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +10\\*, Diplomacy +3, Disguise +9\\* (+11 Acting), Intimidate +3, Listen +6, Sense Motive +6, Spot +6;",
+    "list": {
+      "Bluff": "+10",
+      "Diplomacy": "+3",
+      "Disguise": "+9",
+      "Intimidate": "+3",
+      "Listen": "+6",
+      "Sense Motive": "+6",
+      "Spot": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 4,
+  "feats": [
+    "Dodge",
+    "Great Fortitude"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Detect thoughts"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Change shape, immunity to *sleep* and charm effects"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Slam +5 melee (1d6+1)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Slam +5 melee (1d6+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Doppelgangers are strange beings that are able to take on the shapes of those they encounter. In its natural form, the creature looks more or less humanoid, but slender and frail, with gangly limbs and half-formed features. The flesh is pale and hairless. Its large, bulging eyes are yellow with slitted pupils. A doppelganger's appearance is deceiving even when it's in its true form. A doppelganger is hardy, with a natural agility not in keeping with its frail appearance.",
+    "grapple": "+5",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Any",
+    "organization": "Solitary, pair, or gang (3-6)",
+    "treasure": "Double standard",
+    "advancement": "By character class",
+    "leveladjustment": "+4"
+  }
+}

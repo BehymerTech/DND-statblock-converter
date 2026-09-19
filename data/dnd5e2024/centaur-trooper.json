@@ -1,0 +1,88 @@
+{
+  "name": "Centaur Trooper",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Large",
+  "type": "Fey",
+  "subtype": "",
+  "alignment": "Neutral Good",
+  "cr": "2",
+  "level": null,
+  "xp": 450,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 45,
+    "formula": "6d10 + 12"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 14,
+    "int": 9,
+    "wis": 13,
+    "cha": 11
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Athletics +6, Perception +3",
+    "list": {
+      "Athletics": "+6",
+      "Perception": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 13,
+  "languages": [
+    "Elvish",
+    "Sylvan"
+  ],
+  "initiative": "+2 (12)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The centaur makes two attacks, using Pike or Longbow in any combination."
+    },
+    {
+      "name": "Pike",
+      "text": "_Melee Attack Roll:_ +6, reach 10 ft. _Hit:_ 9 (1d10 + 4) Piercing damage."
+    },
+    {
+      "name": "Longbow",
+      "text": "_Ranged Attack Roll:_ +4, range 150/600 ft. _Hit:_ 6 (1d8 + 2) Piercing damage."
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Trampling Charge (Recharge 5–6)",
+      "text": "The centaur moves up to its Speed without provoking Opportunity Attacks and can move through the spaces of Medium or smaller creatures. Each creature whose space the centaur enters is targeted once by the following effect. _Strength Saving Throw:_ DC 14. _Failure:_ 7 (1d6 + 4) Bludgeoning damage, and the target has the Prone condition. ## Chain Devil"
+    }
+  ],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

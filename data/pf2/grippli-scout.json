@@ -1,0 +1,107 @@
+{
+  "name": "Grippli Scout",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 139.",
+  "size": "Small",
+  "type": "Humanoid",
+  "subtype": "Grippli",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, climb 20 feet; jungle stride;"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 18,
+    "con": 14,
+    "int": 10,
+    "wis": 16,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +7, Ref +9, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Athletics__: +4 (1d20+4); __Nature__: +6 (1d20+6); __Stealth__: +7 (1d20+7), (Stealth: +9 (1d20+9) in forests); __Survival__: +6 (1d20+6); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Athletics": "+4",
+      "Nature": "+6",
+      "Stealth": "+9",
+      "Survival": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Grippli"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Hurl Net",
+      "text": "⬻ Requirements The grippli is wielding a net in two hands Effect The grippli makes a ranged Strike (with a +9 modifier) against a Medium or smaller creature within 20 feet. On a hit, the target is flat-footed and takes a –10-foot circumstance penalty to its Speeds. On a critical hit, the creature is restrained instead. The DC to Escape the net is 16. A creature adjacent to the target can Interact with the net to remove it."
+    },
+    {
+      "name": "Jungle Stride",
+      "text": "Gripplis ignore difficult terrain in forests and jungles."
+    },
+    {
+      "name": "Items",
+      "text": "dart (5), leather armor, net, sickle;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ sickle +9 (agile, finesse, trip); Damage 1d4+1 (1d4+1) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ dart +9 (agile, thrown 20 feet); Damage 1d4+1 (1d4+1) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      4,
+      2,
+      0,
+      3,
+      -1
+    ],
+    "items": "dart (5), leather armor, net, sickle;"
+  }
+}

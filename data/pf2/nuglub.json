@@ -1,0 +1,100 @@
+{
+  "name": "Nuglub",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 135.",
+  "size": "Small",
+  "type": "Gremlin",
+  "subtype": "Fey",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 34,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, climb 20 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 18,
+    "con": 16,
+    "int": 8,
+    "wis": 8,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +9, Ref +10, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Crafting__: +5 (1d20+5), (Crafting: +7 (1d20+7) traps); __Intimidation__: +7 (1d20+7); __Stealth__: +8 (1d20+8); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Crafting": "+7",
+      "Intimidation": "+7",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Kneecapper",
+      "text": "⬲ Trigger A Medium creature within the nuglub's reach leaves a square during its move action Effect The nuglub lashes out at the triggering creature's knees and tries to knock them prone. The nuglub makes an Acrobatics check against the creature's Reflex DC. On a success, the target falls and lands prone."
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "A nuglub's Strikes deal an additional 1d6 (1d6) precision damage to flat-footed targets, or 1d10 (1d10) if the target is prone."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ bite +11 (finesse); Damage 1d8+1 (1d8+1) piercing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +11 (agile, finesse); Damage 1d6+1 (1d6+1) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      4,
+      3,
+      -1,
+      -1,
+      1
+    ]
+  }
+}

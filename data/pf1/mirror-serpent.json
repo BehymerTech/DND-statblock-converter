@@ -1,0 +1,102 @@
+{
+  "name": "Mirror Serpent",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 125: Tower of the Drowned Dead",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +3, natural +6, size -1",
+    "touch": 12,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 57,
+    "formula": "6d10+24"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (good), swim 40 ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 17,
+    "con": 18,
+    "int": 7,
+    "wis": 14,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +9, Ref +8, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +6, Fly +10, Perception +8, Swim +19",
+    "list": {
+      "Acrobatics": "+6",
+      "Fly": "+10",
+      "Perception": "+8",
+      "Swim": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Azlanti (can't speak)"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 6,
+  "feats": [
+    "Flyby Attack",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +12 (1d8+10 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The body of this enormous serpent is covered in mirrorlike scales, and a pair of luminous blue eyes gazes from a horned head that ends in an elongated, toothy snout.",
+  "meta": {
+    "cmb": "14 (+18 when grappling)",
+    "cmd": "27 (can't be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any coastlines"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "name": "Vendenopterix",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Gods",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "chaotic, extraplanar, shapechanger",
+  "alignment": "CN",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 18,
+    "notes": "dex +3, dodge +1, natural +4",
+    "touch": 14,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 39,
+    "formula": "6d10+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 50 ft. (average)"
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 16,
+    "con": 13,
+    "int": 10,
+    "wis": 11,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +3, Ref +8, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +11, Diplomacy +11, Disguise +11, Knowledge (planes) +6, Perception +9, Perform (dance) +8, Survival +9",
+    "list": {
+      "Bluff": "+11",
+      "Diplomacy": "+11",
+      "Disguise": "+11",
+      "Perception": "+9",
+      "Survival": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Elven",
+    "telepathy 10 ft."
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 6,
+  "feats": [
+    "Dodge",
+    "Iron Will",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +9 (1d6+1 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This elven woman’s allure is obfuscated by her ragged insectile wings and long, clawlike nails.",
+  "meta": {
+    "cmb": "+7",
+    "cmd": 21,
+    "racialModifiers": [
+      "Bluff 8",
+      "Survival 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Elysium)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

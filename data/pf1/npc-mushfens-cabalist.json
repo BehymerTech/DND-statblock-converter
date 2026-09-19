@@ -1,0 +1,100 @@
+{
+  "name": "NPC Mushfens Cabalist",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "changeling",
+  "alignment": "NE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 14,
+    "notes": "deflection +1, dex +1, natural +2",
+    "touch": 12,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 52,
+    "formula": "9d6+18"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 13,
+    "con": 10,
+    "int": 17,
+    "wis": 16,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +6, Ref +5, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +12, Disguise +3, Intimidate +13, Knowledge (arcana) +15, Knowledge (nature) +15, Spellcraft +15, Perception +3",
+    "list": {
+      "Bluff": "+12",
+      "Disguise": "+3",
+      "Intimidate": "+13",
+      "Spellcraft": "+15",
+      "Perception": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 13,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Giant",
+    "Goblin",
+    "Varisian"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 4,
+  "feats": [
+    "Deceitful",
+    "Extend Spell",
+    "Extra Hex",
+    "Great Fortitude",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +3 (1d4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "sling +5 (1d4-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Changeling",
+    "class": "witch 9",
+    "cmb": "+3",
+    "cmd": 15
+  }
+}

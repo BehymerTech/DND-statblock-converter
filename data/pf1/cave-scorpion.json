@@ -1,0 +1,99 @@
+{
+  "name": "Cave Scorpion",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "vermin",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 12,
+    "notes": "natural +2",
+    "touch": 10,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 16,
+    "formula": "3d8+3"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., climb 40 ft."
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 10,
+    "con": 13,
+    "int": "None",
+    "wis": 10,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +4, Ref +1, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +8, Perception +4, Stealth +0",
+    "list": {
+      "Climb": "+8",
+      "Perception": "+4",
+      "Stealth": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 14,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +2 (1d4), sting +2 (1d4 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This man-sized, bulky scorpion has thick, unyielding armor that makes it almost seem to be made of stone.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": "12 (24 vs. trip)",
+    "racialModifiers": [
+      "Perception 4",
+      "Stealth 12"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or swarm (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

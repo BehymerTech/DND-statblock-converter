@@ -1,0 +1,102 @@
+{
+  "name": "Dossenus",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Small",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 12,
+    "notes": "natural +1, size +1",
+    "touch": 11,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 13,
+    "formula": "2d8+4"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 11,
+    "con": 14,
+    "int": 3,
+    "wis": 10,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +2, Ref +0, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +17, Perception +5",
+    "list": {
+      "Climb": "+17",
+      "Perception": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 1,
+  "feats": [
+    "Improved Critical (bite)",
+    "Weapon Focus (bite)",
+    "Weapon Specialization (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +4 (1d6+3/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This small creature looks like a lumpy head with crab legs and a giant mouth filled with stone teeth.",
+  "meta": {
+    "cmb": "+1",
+    "cmd": "11 (15 vs. trip)",
+    "racialModifiers": [
+      "Climb 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground (except water)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, clutch (2-9), or infestation (10-20)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

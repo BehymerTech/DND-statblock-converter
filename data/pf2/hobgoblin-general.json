@@ -1,0 +1,110 @@
+{
+  "name": "Hobgoblin General",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 207.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Goblin",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 90,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +12, Ref +15, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +12 (1d20+12); __Athletics__: +15 (1d20+15); __Intimidation__: +14 (1d20+14); __Stealth__: +12 (1d20+12); ",
+    "list": {
+      "Acrobatics": "+12",
+      "Athletics": "+15",
+      "Intimidation": "+14",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Common",
+    "Goblin"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "General's Cry",
+      "text": "When a hobgoblin general rolls initiative, as long as they can perceive at least one foe, they can yell a mighty battle cry. The hobgoblin general attempts an Intimidate check to Demoralize a single foe within 60 feet as a free action. If successful, any ally with the goblin trait can, as its first action on its first turn of the combat, Stride up to double its speed as a single action."
+    },
+    {
+      "name": "Items",
+      "text": "composite shortbow (20 arrows), +1 glaive, half plate;"
+    },
+    {
+      "name": "Formation",
+      "text": "When it's adjacent to at least two other allies, the hobgoblin soldier gains a +1 circumstance bonus to AC and saving throws. This bonus increases to +2 to Reflex saves against area effects."
+    },
+    {
+      "name": "Polearm Critical Specialization",
+      "text": "On a critical hit, the target of the critical hit is moved 5 feet in a direction of the hobgoblin general's choice."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ glaive +17 (deadly 1d8, forceful, reach); Damage 1d8+10 (1d8+10) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ composite shortbow +15 (brutal, deadly 1d10, propulsive, range increment 60 feet, reload 0); Damage 1d6+8 (1d6+8) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      3,
+      2,
+      0,
+      1,
+      2
+    ],
+    "items": "composite shortbow (20 arrows), +1 glaive, half plate;"
+  }
+}

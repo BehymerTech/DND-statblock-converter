@@ -1,0 +1,87 @@
+{
+  "name": "Chuul, Lesser",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 122: Into the Shattered Continent",
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": "aquatic",
+  "alignment": "CE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +2, natural +5",
+    "touch": 12,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 37,
+    "formula": "5d8+15"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 14,
+    "con": 16,
+    "int": 8,
+    "wis": 12,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +4, Ref +3, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +11, Sense Motive +8, Stealth +10, Swim +13",
+    "list": {
+      "Perception": "+11",
+      "Sense Motive": "+8",
+      "Stealth": "+10",
+      "Swim": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common (Undercommon instead for many subterranean variants)"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 3,
+  "feats": [
+    "Alertness",
+    "Blind-Fight",
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +8 (1d8+5 plus grab), tendril +3 (1d4+2 plus staggering tendril)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This lobsterlike creature stands as tall as a human. Coils of reaching, pink tendrils slither from within its jaws.",
+  "meta": {
+    "cmb": "8 (+12 grapple)",
+    "cmd": "20 (24 vs. trip)"
+  }
+}

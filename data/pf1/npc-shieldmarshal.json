@@ -1,0 +1,99 @@
+{
+  "name": "NPC Shieldmarshal",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LN",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 20,
+    "notes": "armor +4, deflection +1, dex +4, dodge +1",
+    "touch": 16,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 72,
+    "formula": "9d10+18"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 14,
+    "int": 12,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +8, Ref +11, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Craft (alchemy) +5, Diplomacy +6, Intimidate +11, Knowledge (local) +12, Perception +15, Sense Motive +11, Survival +13",
+    "list": {
+      "Acrobatics": "+15",
+      "Diplomacy": "+6",
+      "Intimidate": "+11",
+      "Perception": "+15",
+      "Sense Motive": "+11",
+      "Survival": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 25,
+  "languages": [
+    "Common",
+    "Osiriani"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 9,
+  "feats": [
+    "Deadly Aim",
+    "Gunsmithing",
+    "Iron Will",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Quick Draw",
+    "Rapid Reload (double-barreled pistol)",
+    "Weapon Focus (double-barreled pistol)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "handaxe +9/+4 (1d6/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 double-barreled pistol +15/+10 (1d8+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "gunslinger 5, shieldmarshal 4",
+    "cmb": "+9",
+    "cmd": 25
+  }
+}

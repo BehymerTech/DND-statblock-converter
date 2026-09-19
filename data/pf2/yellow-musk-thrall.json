@@ -1,0 +1,99 @@
+{
+  "name": "Yellow Musk Thrall",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 301.",
+  "size": "Medium",
+  "type": "Plant",
+  "subtype": "Mindless",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature -1",
+  "xp": null,
+  "ac": {
+    "value": 14,
+    "notes": ""
+  },
+  "hp": {
+    "average": 12,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 6,
+    "con": 14,
+    "int": 0,
+    "wis": 10,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +6, Ref +0, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +5 (1d20+5); ",
+    "list": {
+      "Athletics": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 10,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Slow",
+      "text": "A yellow musk thrall is permanently slowed 1 and can't use reactions."
+    },
+    {
+      "name": "Entangling Tendrils",
+      "text": "(aura); 5 feet. Grasping tendrils extend out from the thrall. When the thrall ends its movement next to a creature, or a creature ends its turn next to the thrall, that creature must succeed at a DC 14 Reflex save or be grabbed by the tendrils."
+    },
+    {
+      "name": "Limb Extension",
+      "text": "⭓ Trigger The yellow musk thrall is reduced to 4 HP or fewer Effect Creeper tendrils tear through the thrall's limbs, causing its forearms to tear loose. The thrall's melee reach increases by 5 feet."
+    },
+    {
+      "name": "Pollen Touch",
+      "text": "When the thrall strikes a creature, that creature is exposed to yellow musk creeper pollen, as Spray Pollen (DC 14). The creature is fascinated by the yellow musk creeper that spawned the thrall, not by the thrall itself."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +7 Damage 1d4+3 (1d4+3) bludgeoning plus Grab and pollen touch"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      -2,
+      2,
+      -5,
+      0,
+      -2
+    ]
+  }
+}

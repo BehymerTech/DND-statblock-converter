@@ -1,0 +1,109 @@
+{
+  "name": "Leprechaun",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Small",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 14,
+    "notes": "dex +3, size +1",
+    "touch": 14,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 18,
+    "formula": "4d6+4"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 7,
+    "dex": 16,
+    "con": 13,
+    "int": 14,
+    "wis": 15,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +2, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +10, Escape Artist +10, Knowledge (nature) +9, Perception +17, Perform (comedy) +8, Perform (dance) +8, Sense Motive +9, Sleight of Hand +14, Stealth +14",
+    "list": {
+      "Bluff": "+10",
+      "Escape Artist": "+10",
+      "Perception": "+17",
+      "Sense Motive": "+9",
+      "Sleight of Hand": "+14",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Common",
+    "Elven",
+    "Halfling",
+    "Sylvan"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Initiative",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 club +7 (1d8-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This small humanoid has pointed ears, green eyes, and a wicked grin. He carries a bottle in one hand and a club in the other.",
+  "meta": {
+    "cmb": "-1",
+    "cmd": 12,
+    "racialModifiers": [
+      "Perception 8",
+      "Sleight of Hand 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, band (3-6), or family (7-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (club, other treasure)"
+      }
+    ]
+  }
+}

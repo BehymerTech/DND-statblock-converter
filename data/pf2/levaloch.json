@@ -1,0 +1,121 @@
+{
+  "name": "Levaloch",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 65.",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "Construct, Devil",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 105,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, climb 30 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 18,
+    "int": 14,
+    "wis": 16,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +17, Ref +14, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +14 (1d20+14); __Athletics__: +17 (1d20+17); __Intimidation__: +14 (1d20+14); __Religion__: +14 (1d20+14); ",
+    "list": {
+      "Acrobatics": "+14",
+      "Athletics": "+17",
+      "Intimidation": "+14",
+      "Religion": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Celestial",
+    "Infernal; [[telepathy]] 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Hellstrider",
+      "text": "A levaloch ignores the effects of non-magical difficult terrain. They take no damage from caltrops or from damaging terrain that deals physical, acid, or cold damage. A levaloch can move through liquids up to 5 feet deep at their full Speed."
+    },
+    {
+      "name": "Phalanx Fighter",
+      "text": "All devils of equal or lower level adjacent to a levaloch gain a +1 circumstance bonus to their AC as the levaloch shields them from harm."
+    },
+    {
+      "name": "Stable Stance",
+      "text": "A levaloch gains a +2 circumstance bonus to their Fortitude DC against being Shoved and to other saving throws to resist being moved against their will."
+    },
+    {
+      "name": "Barbed Net",
+      "text": "When a levaloch hits a creature with their barbed net, the net wraps around the target, which becomes clumsy 1 and takes a –10-foot circumstance penalty to its Speeds. If the Strike was a critical success, the target is also immobilized. When a creature Escapes (DC 22), or if the Strike misses, the net crumbles into rust. Each time a creature attempts to Escape, it takes 1d6 (1d6) slashing damage from the net's barbs, regardless of whether the attempt succeeds."
+    },
+    {
+      "name": "Forge Weapon",
+      "text": "⬻ (manipulate); A levaloch reforges part of their barbed iron substance into a new +1 striking trident or barbed net. Their previous trident crumbles to rust. When the levaloch is destroyed, any tridents or barbed nets they created crumble to rust."
+    },
+    {
+      "name": "Merciless Thrust",
+      "text": "When a levaloch hits a creature that has the clumsy, enfeebled, immobilized, or restrained conditions with a melee trident Strike, the Strike deals an additional 2d6 (2d6) damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ trident +19 (evil, magical); Damage 2d8+9 (2d8+9) piercing plus 1d6 (1d6) evil and merciless thrust"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ trident +16 (evil, magical, thrown 20 feet); Damage 2d8+9 (2d8+9) piercing plus 1d6 (1d6) evil"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ barbed net +16 (magical, range increment 20 feet); Damage barbed net"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      3,
+      4,
+      2,
+      3,
+      1
+    ]
+  }
+}

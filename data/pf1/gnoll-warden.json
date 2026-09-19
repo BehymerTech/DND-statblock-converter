@@ -1,0 +1,107 @@
+{
+  "name": "Gnoll Warden",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "gnoll",
+  "alignment": "CE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 22,
+    "notes": "armor +6, dex +3, dodge +1, natural +2",
+    "touch": 14,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 89,
+    "formula": "2d8+9d10+31"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 17,
+    "con": 15,
+    "int": 10,
+    "wis": 13,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +13, Ref +11, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +11, Climb +15, Heal +7, Perception +15, Stealth +14, Survival +15",
+    "list": {
+      "Acrobatics": "+11",
+      "Climb": "+15",
+      "Heal": "+7",
+      "Perception": "+15",
+      "Stealth": "+14",
+      "Survival": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Gnoll"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 10,
+  "feats": [
+    "Dodge",
+    "Endurance",
+    "Manyshot",
+    "Mobility",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Rapid Shot",
+    "Shot on the Run",
+    "Weapon Focus (longbow)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 scimitar +15/+10 (1d6+5/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 composite longbow +15/+10 (1d8+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Gnoll",
+    "class": "ranger (skirmisher) 9 (Pathfinder RPG Advanced Player’s Guide 128)",
+    "cmb": "+14",
+    "cmd": 28,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm plains or desert"
+      }
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "name": "Warsworn",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 323.",
+  "size": "Gargantuan",
+  "type": "Undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 16",
+  "xp": null,
+  "ac": {
+    "value": 37,
+    "notes": ""
+  },
+  "hp": {
+    "average": 350,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 20,
+    "con": 24,
+    "int": 8,
+    "wis": 20,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +29, Ref +25, Will +27",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +33 (1d20+33); ",
+    "list": {
+      "Athletics": "+33"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Common (can't speak any language)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 100 feet, DC 35."
+    },
+    {
+      "name": "Absorb",
+      "text": "⭓ (death, divine, necromancy); Trigger The warsworn moves into a dying creature's space. Effect The warsworn absorbs the dying creature into itself, instantly killing the creature and healing the warsworn for a number of Hit Points equal to the creature's level. As long as the warsworn still exists, absorbed creatures can't be resurrected except by wish or a similarly powerful effect."
+    },
+    {
+      "name": "Animated Weapons",
+      "text": "(divine, evocation); The warsworn assumes control of unattended weapons within 100 feet, forcing them to levitate around it. The warsworn can telekinetically wield these weapons to make melee Strikes with a reach of 100 feet."
+    },
+    {
+      "name": "Energy Drain",
+      "text": "(divine, necromancy); When a warsworn hits with a corpse wave Strike or damages a creature with Trample, the target must succeed at a DC 35 Fortitude save or become drained 2 and doomed 1. On a critical success, the target becomes temporarily immune to the warsworn's energy drain for 24 hours."
+    },
+    {
+      "name": "Plummet",
+      "text": "A creature hit by a warsworn's scrap ball Strike must attempt a DC 37 Reflex save. On a failure, the target falls prone; if the target was airborne, it falls up to 120 feet, taking damage from the fall and landing prone if the descent brings it to the ground. On a critical failure, the target is also held under a pile of scrap (DC 37 to Escape)."
+    },
+    {
+      "name": "Trample",
+      "text": "⬽ Huge or smaller, corpse wave, DC 37."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ corpse wave +32 (magical); Damage 4d12+9 (4d12+9) bludgeoning plus energy drain"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ animated weapon +30 (agile, magical, reach 100 feet, versatile b, versatile p); Damage four of the weapon's damage dice +9 of the weapon's damage type"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ scrap ball +28 (magical, range increment 100 feet); Damage 4d12+9 (4d12+9) bludgeoning plus plummet"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      9,
+      5,
+      7,
+      -1,
+      5,
+      5
+    ]
+  }
+}

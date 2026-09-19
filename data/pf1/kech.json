@@ -1,0 +1,109 @@
+{
+  "name": "Kech",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 16,
+    "notes": "dex +2, dodge +1, natural +3",
+    "touch": 13,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 26,
+    "formula": "4d10+4"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 15,
+    "con": 12,
+    "int": 10,
+    "wis": 12,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +2, Ref +6, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +6, Climb +16, Perception +10, Stealth +13",
+    "list": {
+      "Acrobatics": "+6",
+      "Climb": "+16",
+      "Perception": "+10",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Kech"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 4,
+  "feats": [
+    "Dodge",
+    "Mobility"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +5 (1d6+1), 2 claws +5 (1d4+1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "longbow +6 (1d8/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hairless simian’s leathery skin has a camouflage pattern to it that shifts and changes as the creature moves.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": 18,
+    "racialModifiers": [
+      "Perception 2",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or tribe (3-36 plus 2-6 dire apes)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (longbow with 20 arrows, other treasure)"
+      }
+    ]
+  }
+}

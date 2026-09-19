@@ -1,0 +1,121 @@
+{
+  "name": "Muse",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CG",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 32,
+    "notes": "armor +4, deflection +9, dex +8",
+    "touch": 28,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 229,
+    "formula": "17d6+170"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 27,
+    "con": 20,
+    "int": 23,
+    "wis": 14,
+    "cha": 29
+  },
+  "saves": {
+    "text": "Fort +19, Ref +27, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (all) +34, Escape Artist +28, Knowledge (all) +17, Linguistics +13, Perception +22, Perform (all) +37, Spellcraft +23, Stealth +28, Use Magic Device +27",
+    "list": {
+      "Escape Artist": "+28",
+      "Linguistics": "+13",
+      "Perception": "+22",
+      "Spellcraft": "+23",
+      "Stealth": "+28",
+      "Use Magic Device": "+27"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "low-light vision"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Dwarven",
+    "Elven",
+    "Gnome",
+    "Halfling",
+    "Sylvan",
+    "telepathy 100 ft.",
+    "truespeech"
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 8,
+  "feats": [
+    "Defensive Combat Training",
+    "Discordant Voice",
+    "Extra Performance",
+    "Improved Initiative",
+    "Lingering Performance",
+    "Skill Focus (Perform [all] and Craft [all])",
+    "Toughness",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +16 (1d4+3 plus 1d6 sonic)"
+    },
+    {
+      "name": "Ranged",
+      "text": "5 sound strikes +16 ranged touch (4d6 sonic)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This beautiful, woman moves with impossible grace, a knowing smile on her lips.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": 46,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or gathering (2-9)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

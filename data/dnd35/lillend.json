@@ -1,0 +1,108 @@
+{
+  "name": "Lillend",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Outsider",
+  "subtype": "Chaotic, Extraplanar, Good",
+  "alignment": "Always chaotic good",
+  "cr": "7",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": "-1 size, +3 Dex, +5 natural",
+    "touch": 12,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 45,
+    "formula": "7d8+14"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": 70,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft. (4 squares), fly 70 ft. (average)"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 17,
+    "con": 15,
+    "int": 14,
+    "wis": 16,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +7, Ref +10, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +12, Concentration +12, Diplomacy +16, Knowledge (arcana) +12, Listen +13, Perform (any One) +14, Sense Motive +13, Spellcraft +14, Spot +13, Survival +17;",
+    "list": {
+      "Appraise": "+12",
+      "Concentration": "+12",
+      "Diplomacy": "+16",
+      "Listen": "+13",
+      "Sense Motive": "+13",
+      "Spellcraft": "+14",
+      "Spot": "+13",
+      "Survival": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 7,
+  "feats": [
+    "Combat Casting",
+    "Extend Spell",
+    "Lightning Reflexes"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Constrict 2d6+5, improved grab, spells, spell-like abilities"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., immunity to poison, resistance to fire 10"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Short sword +11 melee (1d8+5/19-20)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Short sword +11/+6 melee (1d8+5/19-20) and tail slap +6 melee (2d6+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A typical lillend's coils are 20 feet long. The creature weighs about 3,800 pounds. A few lillends have male torsos.",
+    "grapple": "+16",
+    "spaceReach": "10 ft./10 ft.",
+    "environment": "A chaos-aligned plane",
+    "organization": "Solitary or covey (2-4)",
+    "treasure": "Standard",
+    "advancement": "8-10 HD (Large); 11-21 HD (Huge)",
+    "leveladjustment": "+6"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "name": "Wight",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 332.",
+  "size": "Medium",
+  "type": "Wight",
+  "subtype": "Undead",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 50,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 18,
+    "int": 10,
+    "wis": 16,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +11, Ref +6, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +11 (1d20+11); __Intimidation__: +9 (1d20+9); __Stealth__: +6 (1d20+6); ",
+    "list": {
+      "Athletics": "+11",
+      "Intimidation": "+9",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Necril"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Final Spite",
+      "text": "⬲ Trigger The wight is reduced to 0 Hit Points. Effect The wight makes a Strike before being destroyed. It doesn't gain any temporary HP from drain life on this Strike."
+    },
+    {
+      "name": "Drain Life",
+      "text": "(divine, necromancy); When the wight damages a living creature with its claw Strike, the wight gains 3 temporary Hit Points and the creature must succeed at a DC 17 Fortitude save or become drained 1. Further damage dealt by the wraith increases the amount of drain by 1 on a failed save to a maximum of drained 4."
+    },
+    {
+      "name": "Wight Spawn",
+      "text": "(divine, necromancy); A living humanoid slain by a wight's claw Strike rises as a wight after 1d4 (1d4) rounds. This wight spawn is under the command of the wight that killed it. It doesn't have Drain Life or Wight Spawn and becomes clumsy 2 for as long as it is a wight spawn. If the creator of the wight spawn dies, the wight spawn becomes a full-fledged, autonomous wight; it regains its free will, gains Drain Life and Wight Spawn, and is no longer clumsy."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +12 Damage 1d6+4 (1d6+4) slashing plus drain life"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      1,
+      4,
+      0,
+      3,
+      2
+    ]
+  }
+}

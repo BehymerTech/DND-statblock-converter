@@ -1,0 +1,110 @@
+{
+  "name": "Xill",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "evil, extraplanar",
+  "alignment": "LE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 21,
+    "notes": "dex +4, natural +5, shield +2",
+    "touch": 14,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 67,
+    "formula": "9d10+18"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 18,
+    "con": 14,
+    "int": 15,
+    "wis": 12,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +8, Ref +10, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +16, Bluff +12, Intimidate +12, Knowledge (arcana) +14, Knowledge (planes) +14, Perception +13, Sense Motive +13, Stealth +14",
+    "list": {
+      "Acrobatics": "+16",
+      "Bluff": "+12",
+      "Intimidate": "+12",
+      "Perception": "+13",
+      "Sense Motive": "+13",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Common",
+    "Infernal"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Iron Will",
+    "Weapon Focus (claw)",
+    "Weapon Focus (short sword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "short swords +13/+13/+8 (1d6+3/19-20), claw +13 (1d4+3 plus grab), bite +7 (1d3+1 plus paralysis)"
+    },
+    {
+      "name": "Ranged",
+      "text": "2 longbows +13 (1d8/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This flame-red humanoid appears to be a strange mix of insect and reptile, with four arms and twitching, fanged mandibles.",
+  "meta": {
+    "cmb": "12 (+16 grapple)",
+    "cmd": 26,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Ethereal Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (heavy steel shield, 2 short swords, 2 longbows with 40 arrows, other treasure)"
+      }
+    ]
+  }
+}

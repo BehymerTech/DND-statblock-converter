@@ -1,0 +1,108 @@
+{
+  "name": "NPC Merchant (Merchant Prince)",
+  "sourceSystem": "pf1",
+  "source": "GameMastery Guide",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 18,
+    "notes": "armor +5, dex +3",
+    "touch": 13,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 58,
+    "formula": "10d8+13"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 16,
+    "con": 12,
+    "int": 14,
+    "wis": 10,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +6, Ref +11, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +17, Bluff +17, Diplomacy +17, Disable Device +12, Disguise +15, Handle Animal +10, Intimidate +10, Knowledge (local) +10, Linguistics +8, Perception +17, Perform (act) +10, Perform (dance) +10, Perform (oratory) +10, Profession (merchant) +21, Ride +10, Sense Motive +16, Sleight of Hand +10, Spellcraft +19, Stealth +10, Use Magic Device +23",
+    "list": {
+      "Appraise": "+17",
+      "Bluff": "+17",
+      "Diplomacy": "+17",
+      "Disable Device": "+12",
+      "Disguise": "+15",
+      "Handle Animal": "+10",
+      "Intimidate": "+10",
+      "Linguistics": "+8",
+      "Perception": "+17",
+      "Ride": "+10",
+      "Sense Motive": "+16",
+      "Sleight of Hand": "+10",
+      "Spellcraft": "+19",
+      "Stealth": "+10",
+      "Use Magic Device": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 27,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Gnome",
+    "Halfling"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 7,
+  "feats": [
+    "Alertness",
+    "Craft Wondrous Item",
+    "Magical Aptitude",
+    "Master Craftsman",
+    "Skill Focus (Profession [merchant])",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +10/+5 (1d4-1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 hand crossbow +11 (1d4+1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "expert 4, rogue 6",
+    "cmb": "+6",
+    "cmd": 19
+  }
+}

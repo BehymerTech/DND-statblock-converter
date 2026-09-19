@@ -1,0 +1,110 @@
+{
+  "name": "Poludnica",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 72: The Witch Queen's Revenge",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 24,
+    "notes": "armor +4, deflection +4, dex +5, dodge +1",
+    "touch": 20,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 119,
+    "formula": "14d6+70"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 20,
+    "con": 21,
+    "int": 10,
+    "wis": 15,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +11, Ref +14, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +12, Diplomacy +13, Intimidate +9, Knowledge (local) +17, Perception +19, Sense Motive +15, Spellcraft +10, Stealth +20, Survival +10",
+    "list": {
+      "Bluff": "+12",
+      "Diplomacy": "+13",
+      "Intimidate": "+9",
+      "Perception": "+19",
+      "Sense Motive": "+15",
+      "Spellcraft": "+10",
+      "Stealth": "+20",
+      "Survival": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 7,
+  "feats": [
+    "Cleave",
+    "Combat Reflexes",
+    "Dodge",
+    "Great Fortitude",
+    "Power Attack",
+    "Stand Still",
+    "Weapon Focus (scythe)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 scythe +15/+10 (2d4+10 plus 1d6 fire and 1d2 Con damage/×4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A haze of heat shimmers around this beautiful woman. The glare of the sun gleams from her radiant skin.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": 33,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+1 scythe, mithral chain shirt, other treasure)"
+      }
+    ]
+  }
+}

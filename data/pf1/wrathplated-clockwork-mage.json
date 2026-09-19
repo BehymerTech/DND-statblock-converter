@@ -1,0 +1,94 @@
+{
+  "name": "Wrathplated Clockwork Mage",
+  "sourceSystem": "pf1",
+  "source": "Construct Handbook",
+  "size": "Medium",
+  "type": "construct",
+  "subtype": "clockwork",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 25,
+    "notes": "dex +5, dodge +2, natural +8",
+    "touch": 17,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 102,
+    "formula": "15d10+20"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 21,
+    "con": "None",
+    "int": "None",
+    "wis": 14,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +5, Ref +12, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+9",
+  "babOrProficiency": 15,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 slams +18 (1d4+3 plus 2d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Fire dances across the surface of this faceless construct and the crystal wand set into its chest.",
+  "meta": {
+    "cmb": "+18",
+    "cmd": 35,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

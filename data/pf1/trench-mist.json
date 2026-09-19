@@ -1,0 +1,106 @@
+{
+  "name": "Trench Mist",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Pathfinder No. 71: Rasputin Must Die!",
+  "size": "Gargantuan",
+  "type": "aberration",
+  "subtype": "air",
+  "alignment": "NE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 12,
+    "notes": "dex +5, dodge +1, size -4",
+    "touch": 12,
+    "flatFooted": 6
+  },
+  "hp": {
+    "average": 127,
+    "formula": "15d8+60"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 40 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 20,
+    "con": 16,
+    "int": 7,
+    "wis": 13,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +10, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +25, Perception +25",
+    "list": {
+      "Fly": "+25",
+      "Perception": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "lifesense"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Common (can’t speak)",
+    "telepathy 30 ft."
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 11,
+  "feats": [
+    "Ability Focus (engulfing mists)",
+    "Combat Reflexes",
+    "Dodge",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Mobility",
+    "Skill Focus (Perception)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "touch +7 (6d6 acid plus 6d6 negative energy)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A noxious mustard-colored vapor hangs low over the battlefield, concealing the lurching forms of dead soldiers.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": "31 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or horror (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

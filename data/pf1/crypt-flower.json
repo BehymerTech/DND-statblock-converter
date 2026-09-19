@@ -1,0 +1,95 @@
+{
+  "name": "Crypt Flower",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Large",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "dex +1, natural +10, size -1",
+    "touch": 10,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 78,
+    "formula": "12d8+24"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 12,
+    "con": 14,
+    "int": "None",
+    "wis": 13,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +10, Ref +5, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 9,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (1d8+5 plus grab), 2 vines +13 (1d8+5 plus grab)"
+    },
+    {
+      "name": "Ranged",
+      "text": "toxin splash +9 (poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A lone petal hangs over the opening of this bulbous, pitcher-shaped flower, which is flanked by a pair of serpentine vines.",
+  "meta": {
+    "cmb": "15 (+19 grapple)",
+    "cmd": "26 (30 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or copse (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

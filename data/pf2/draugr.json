@@ -1,0 +1,107 @@
+{
+  "name": "Draugr",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 102.",
+  "size": "Medium",
+  "type": "Water",
+  "subtype": "Undead",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 35,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, swim 25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 16,
+    "int": 8,
+    "wis": 12,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +11, Ref +6, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +10 (1d20+10); __Stealth__: +8 (1d20+8); ",
+    "list": {
+      "Athletics": "+10",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common (can't speak any language)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "The Sea's Revenge",
+      "text": "(curse, divine, necromancy); A creature that slays a draugr is subjected to a mariner's curse spell with a save DC of 17. The curse ends if the draugr is buried in a calm sea or after 1 week passes."
+    },
+    {
+      "name": "Items",
+      "text": "greataxe, leather armor;"
+    },
+    {
+      "name": "Grotesque Gift",
+      "text": "(olfactory); A draugr's attacks spatter their targets with rancid flesh and rotting seaweed. A creature damaged by a draugr's Strike must succeed at a DC 15 Fortitude save or become sickened 1 (sickened 2 on a critical failure)."
+    },
+    {
+      "name": "Swipe",
+      "text": "⬺ The draugr makes a melee Strike and compares the attack roll result to the AC of up to two foes, each of whom must be within its melee reach and adjacent to each other. Roll damage only once and apply it to each creature hit. A Swipe counts as two attacks for the draugr's multiple attack penalty."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ greataxe +10 (sweep); Damage 1d12+4 (1d12+4) slashing plus grotesque gift"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +10 (agile); Damage 1d4+4 (1d4+4) slashing plus grotesque gift"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      3,
+      -1,
+      1,
+      1
+    ],
+    "items": "greataxe, leather armor;"
+  }
+}

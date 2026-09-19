@@ -1,0 +1,108 @@
+{
+  "name": "Azgenzak",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 69: Maiden, Mother, Crone",
+  "size": "Large",
+  "type": "aberration",
+  "subtype": "aquatic",
+  "alignment": "NE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 22,
+    "notes": "dex +3, natural +10, size -1",
+    "touch": 12,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 95,
+    "formula": "10d8+50"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 17,
+    "con": 20,
+    "int": 7,
+    "wis": 13,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +8, Ref +6, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +8, Perception +20, Stealth +10, Swim +16",
+    "list": {
+      "Climb": "+8",
+      "Perception": "+20",
+      "Stealth": "+10",
+      "Swim": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 7,
+  "feats": [
+    "Blind-Fight",
+    "Nimble Moves",
+    "Skill Focus (Perception)",
+    "Step Up",
+    "Weapon Focus (slam)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "3 slams +11 (1d6+4 plus burn and grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This undulating, amorphous sac is a turgid, brown-black mass scarcely hiding a seething jumble of rounded subcutaneous masses churning within. One end opens into a yawning maw, revealing a fiery cauldron of innumerable, lidless eyeballs of every size, shape, and color, each wreathed in sooty orange flame.",
+  "meta": {
+    "cmb": "12 (+16 grapple)",
+    "cmd": 25,
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm and temperate fresh water and swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "name": "Satyr",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 284.",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 80,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 18,
+    "con": 12,
+    "int": 12,
+    "wis": 14,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +9, Ref +11, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +8 (1d20+8); __Deception__: +13 (1d20+13); __Diplomacy__: +13 (1d20+13); __Intimidation__: +11 (1d20+11); __Nature__: +9 (1d20+9); __Performance__: +13 (1d20+13); __Stealth__: +11 (1d20+11); __Survival__: +8 (1d20+8); ",
+    "list": {
+      "Athletics": "+8",
+      "Deception": "+13",
+      "Diplomacy": "+13",
+      "Intimidation": "+11",
+      "Nature": "+9",
+      "Performance": "+13",
+      "Stealth": "+11",
+      "Survival": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Sylvan Wine",
+      "text": "(enchantment, mental, primal); A satyr's wineskin magically enchants any alcohol inside. With an Interact action, a living creature can imbibe the alcohol and gain a +1 item bonus to Will saves and a +3 item bonus to Will saves against fear effects for the following hour. When the wineskin is removed from a satyr's person, the magic remains only until the wine spoils. The wineskin holds up to eight drafts of wine."
+    },
+    {
+      "name": "Items",
+      "text": "dagger, panpipes, shortbow (20 arrows), wineskin;"
+    },
+    {
+      "name": "Fleet Performer",
+      "text": "When the satyr Plays the Pipes to cast a spell, he can Step or Stride as part of the activity."
+    },
+    {
+      "name": "Play the Pipes",
+      "text": "⬽ (auditory, primal); Requirements The satyr is holding a musical instrument. Effect The satyr plays a melody on his instrument to cast charm, fear, sleep, or suggestion without expending the spell slot and using his music in place of providing the spell's component actions. The spell gains the auditory trait and targets all creatures in a 60-foot emanation instead of its usual targets. A creature that succeeds at its Will save against any spell is then temporarily immune from spells played from that satyr's pipes for 1 minute. Satyrs are immune to this music."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ dagger +14 (agile, finesse, versatile s); Damage 1d4+6 (1d4+6) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ shortbow +14 (deadly 1d10, range increment 60 feet, reload 0); Damage 1d6+3 (1d6+3) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ dagger +14 (agile, thrown 10 feet, versatile s); Damage 1d4+6 (1d4+6) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      4,
+      1,
+      1,
+      2,
+      5
+    ],
+    "items": "dagger, panpipes, shortbow (20 arrows), wineskin;"
+  }
+}

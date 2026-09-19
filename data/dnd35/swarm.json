@@ -1,0 +1,195 @@
+{
+  "name": "Swarm",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Diminutive",
+  "type": "Vermin",
+  "subtype": "Swarm",
+  "alignment": "Always neutral",
+  "cr": "1",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": "+4 size, +3 Dex",
+    "touch": 17,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 9,
+    "formula": "2d8"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": 30,
+    "swim": null,
+    "climb": 20,
+    "burrow": null,
+    "notes": "20 ft. (4 squares), climb 20 ft."
+  },
+  "abilities": {
+    "str": 1,
+    "dex": 17,
+    "con": 10,
+    "int": null,
+    "wis": 10,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +3, Ref +3, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +11, Listen +4, Spot +4;",
+    "list": {
+      "Listen": "+4",
+      "Spot": "+4",
+      "Climb": "+11",
+      "Hide": "+14",
+      "Balance": "+10",
+      "Swim": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "Blindsense 20 ft.",
+    "Darkvision 60 ft.",
+    "tremorsense 30 ft.",
+    "darkvision 60 ft.",
+    "low-light vision",
+    "Darkvision 60 ft.",
+    "low-light vision",
+    "scent",
+    "Darkvision 60 ft.",
+    "tremorsense 30 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 1,
+  "feats": [
+    "Alertness",
+    "Weapon Finesse"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Distraction, wounding"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Blindsense 20 ft., half damage from slashing and piercing, low-light vision, swarm traits"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Distraction, poison"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., immune to weapon damage, swarm traits, tremorsense 30 ft., vermin traits"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Distraction, inhabit, poison"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 10/magic, darkvision 60 ft., hive mind, immune to weapon damage, resistance to fire 10, low-light vision, swarm traits"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Distraction"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., immune to weapon damage, swarm traits, vermin traits"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Disease, distraction"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Half damage from slashing and piercing, low-light vision, scent, swarm traits"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Distraction, poison"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., swarm traits, tremorsense 30 ft., vermin traits"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Swarm (1d6)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Swarm (1d6)"
+    },
+    {
+      "name": "Attack",
+      "text": "Swarm (2d6 plus poison)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Swarm (2d6 plus poison)"
+    },
+    {
+      "name": "Attack",
+      "text": "Swarm (3d6 plus poison)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Swarm (3d6 plus poison)"
+    },
+    {
+      "name": "Attack",
+      "text": "Swarm (2d6)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Swarm (2d6)"
+    },
+    {
+      "name": "Attack",
+      "text": "Swarm (1d6 plus disease)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Swarm (1d6 plus disease)"
+    },
+    {
+      "name": "Attack",
+      "text": "Swarm (1d6 plus poison)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Swarm (1d6 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Swarms are dense masses of Fine, Diminutive, or Tiny creatures that would not be particularly dangerous in small groups, but can be terrible foes when gathered in sufficient numbers. For game purposes a swarm is defined as a single creature with a space of 10 feet---gigantic hordes are actually composed of dozens of swarms in close proximity. A swarm has a single pool of Hit Dice and hit points, a single initiative modifier, a single speed, and a single Armor Class. It makes saving throws as a single creature.",
+    "grapple": "---",
+    "spaceReach": "10 ft./0 ft.",
+    "environment": "Warm forests",
+    "organization": "Solitary, tangle (2-4 swarms), or colony (7-12 swarms)",
+    "treasure": "None",
+    "advancement": "None",
+    "leveladjustment": "---"
+  }
+}

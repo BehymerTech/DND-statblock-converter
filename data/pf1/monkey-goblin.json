@@ -1,0 +1,110 @@
+{
+  "name": "Monkey Goblin",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Inner Sea Bestiary",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "goblinoid",
+  "alignment": "NE",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 17,
+    "notes": "armor +2, dex +4, size +1",
+    "touch": 15,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 13,
+    "formula": "1d12+1"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 18,
+    "con": 13,
+    "int": 10,
+    "wis": 10,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +3, Ref +4, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Climb +14, Perception +4, Stealth +11, Survival +4",
+    "list": {
+      "Acrobatics": "+10",
+      "Climb": "+14",
+      "Perception": "+4",
+      "Stealth": "+11",
+      "Survival": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Goblin"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 1,
+  "feats": [
+    "Exotic Weapon Proficiency (net)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "kukri +4 (1d3+2/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "shortbow +6 (1d4/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature has the wide head and toothy mouth of a goblin, dappled green skin, simian hands and feet, and a ratlike tail.",
+  "meta": {
+    "race": "Monkey",
+    "class": "goblin barbarian 1",
+    "cmb": "+2",
+    "cmd": 16,
+    "racialModifiers": [
+      "Acrobatics 2",
+      "Stealth 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, raiding party (4-9), warband (10-16), or tribe (17+ plus 100% noncombatants; 1 tribal scout of 3rd level per 20 adults, 1 or 2 war chiefs of 4th or 5th level, and 1 chieftain of 6th-8th level)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (leather armor, kukri, net, shortbow with 10 arrows, other treasure)"
+      }
+    ]
+  }
+}

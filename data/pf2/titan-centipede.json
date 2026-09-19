@@ -1,0 +1,104 @@
+{
+  "name": "Titan Centipede",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 50.",
+  "size": "Gargantuan",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 9",
+  "xp": null,
+  "ac": {
+    "value": 28,
+    "notes": ""
+  },
+  "hp": {
+    "average": 155,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 feet, climb 50 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 12,
+    "con": 20,
+    "int": 0,
+    "wis": 20,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +20, Ref +16, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +16 (1d20+16); __Athletics__: +21 (1d20+21); ",
+    "list": {
+      "Acrobatics": "+16",
+      "Athletics": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Impaling Critical",
+      "text": "When a titan centipede scores a critical hit with its mandibles, the target is painfully pierced with barbed spines and bristles, taking 1d6 (1d6) persistent bleed damage and becoming flat-footed as long as the bleed damage continues."
+    },
+    {
+      "name": "Titan Centipede Venom",
+      "text": "(poison); Saving Throw DC 28 Fortitude. Maximum Duration 6 rounds Stage 1 2d6 (2d6) poison damage and clumsy 2 (1 round) Stage 2 2d8 (2d8) poison damage, clumsy 2, and slowed 1 (1 round) Stage 3 2d10 (2d10) poison damage, clumsy 2, and slowed 2 (1 round)"
+    },
+    {
+      "name": "Trample",
+      "text": "⬽ Huge or smaller, foot, DC 28."
+    },
+    {
+      "name": "Undulate",
+      "text": "⬻ The titan centipede Strides up to its Speed or Steps. During this movement, it can pass through spaces as narrow as 10 feet without Squeezing."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ mandibles +21 (reach 20 feet); Damage 2d10+12 (2d10+12) piercing plus titan centipede venom"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ foot +19 Damage 2d8+10 (2d8+10) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      1,
+      5,
+      -5,
+      5,
+      -4
+    ]
+  }
+}

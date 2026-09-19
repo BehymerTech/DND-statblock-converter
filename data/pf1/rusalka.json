@@ -1,0 +1,114 @@
+{
+  "name": "Rusalka",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "aquatic",
+  "alignment": "NE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 25,
+    "notes": "dex +6, dodge +1, natural +8",
+    "touch": 17,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 150,
+    "formula": "20d6+80"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 23,
+    "con": 19,
+    "int": 12,
+    "wis": 13,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +12, Ref +18, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +14, Bluff +24, Diplomacy +15, Escape Artist +18, Knowledge (arcana) +6, Knowledge (nature) +18, Perception +22, Perform (dance) +14, Perform (sing) +27, Sense Motive +15, Spellcraft +18, Stealth +27, Swim +31",
+    "list": {
+      "Acrobatics": "+14",
+      "Bluff": "+24",
+      "Diplomacy": "+15",
+      "Escape Artist": "+18",
+      "Perception": "+22",
+      "Sense Motive": "+15",
+      "Spellcraft": "+18",
+      "Stealth": "+27",
+      "Swim": "+31"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 10,
+  "feats": [
+    "Agile Maneuvers",
+    "Combat Reflexes",
+    "Dodge",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Iron Will",
+    "Quicken Spell-Like Ability (charm monster)",
+    "Skill Focus (Perception)",
+    "Skill Focus (Stealth)",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "staggering touch +16 (stagger), 4 tresses +16 (2d6+5 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This beguiling female figure is partly obscured by long flowing hair that dances and flows around her as if she were underwater.",
+  "meta": {
+    "cmb": "16 (+23 tresses, +27 grapple with tresses)",
+    "cmd": 32,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or eddy (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

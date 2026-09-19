@@ -1,0 +1,92 @@
+{
+  "name": "Cave Scorpion",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 234.",
+  "size": "Medium",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, climb 15 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 16,
+    "int": 0,
+    "wis": 14,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +6, Ref +9, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +7 (1d20+7); __Stealth__: +7 (1d20+7); ",
+    "list": {
+      "Athletics": "+7",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tremorsense 30"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Cave Scorpion Venom",
+      "text": "(poison); Saving Throw DC 17 Fortitude. Maximum Duration 6 rounds Stage 1 1d4 (1d4) poison damage (1 round) Stage 2 1d6 (1d6) poison damage and enfeebled 1 (1 round) Stage 3 1d8 (1d8) poison damage and enfeebled 2 (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ pincer +9 (agile, finesse); Damage 1d8+2 (1d8+2) slashing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ stinger +9 (finesse); Damage 1d6+2 (1d6+2) piercing plus cave scorpion venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      4,
+      3,
+      -5,
+      2,
+      -4
+    ]
+  }
+}

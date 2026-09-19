@@ -1,0 +1,116 @@
+{
+  "name": "Taniniver",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 33,
+    "notes": "natural +25, size -2",
+    "touch": 8,
+    "flatFooted": 33
+  },
+  "hp": {
+    "average": 270,
+    "formula": "20d12+140"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 200 ft. (clumsy)"
+  },
+  "abilities": {
+    "str": 33,
+    "dex": 11,
+    "con": 25,
+    "int": 18,
+    "wis": 17,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +21, Ref +12, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +28, Fly -12, Heal +26, Intimidate +28, Knowledge (arcana) +27, Knowledge (religion) +27, Perception +26, Sense Motive +26, Spellcraft +27, Stealth +15, Use Magic Device +28",
+    "list": {
+      "Bluff": "+28",
+      "Fly": "-12",
+      "Heal": "+26",
+      "Intimidate": "+28",
+      "Perception": "+26",
+      "Sense Motive": "+26",
+      "Spellcraft": "+27",
+      "Stealth": "+15",
+      "Use Magic Device": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "deathwatch"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Undercommon"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 20,
+  "feats": [
+    "Cleave",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Power Attack",
+    "Sickening Critical",
+    "Vital Strike",
+    "Weapon Focus (bite)",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +30 (4d6+11 plus disease), 2 claws +30 (2d8+11 plus disease), tail slap +24 (2d8+5 plus disease)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This legless, winged, white-eyed dragon is covered in patches of diseased flesh, squirming with maggots and oozing pus.",
+  "meta": {
+    "cmb": "+33",
+    "cmd": "43 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

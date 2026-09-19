@@ -1,0 +1,104 @@
+{
+  "name": "Hobgoblin Warrior",
+  "sourceSystem": "pf2",
+  "source": "_Troubles In Otari_.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Goblin",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +5, Ref +6, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +6 (1d20+6); __Stealth__: +6 (1d20+6); ",
+    "list": {
+      "Athletics": "+6",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Formation",
+      "text": "When they're adjacent to at least two other allies, the hobgoblin warrior gains a +1 circumstance bonus to AC and saving throws."
+    },
+    {
+      "name": "Shield Block",
+      "text": "⬲ If they Raised a Shield since their last turn, the hobgoblin can spend their reaction to block a Strike. Reduce the damage by 5, but the hobgoblin and the shield both take the remaining damage, possibly breaking or destroying the shield."
+    },
+    {
+      "name": "Stride",
+      "text": "⬻ 25 feet"
+    },
+    {
+      "name": "Melee Strike",
+      "text": "⬻ (versatile P); Damage 1d8+3 (1d8+3) slashing"
+    },
+    {
+      "name": "Ranged Strike",
+      "text": "⬻ (deadly 1d10, range increment 60 feet); Damage 1d6 (1d6) piercing"
+    },
+    {
+      "name": "Items",
+      "text": "hide armor, longsword, shortbow (10 arrows), shield;"
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      3,
+      2,
+      0,
+      2,
+      -1
+    ],
+    "items": "hide armor, longsword, shortbow (10 arrows), shield;"
+  }
+}

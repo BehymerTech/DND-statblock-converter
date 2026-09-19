@@ -1,0 +1,105 @@
+{
+  "name": "Hound of Tindalos",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Pathfinder No. 4: Fortress of the Stone Giants",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "evil, extraplanar",
+  "alignment": "NE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "dex +5, natural +5",
+    "touch": 15,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 85,
+    "formula": "10d10+30"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 21,
+    "con": 16,
+    "int": 16,
+    "wis": 21,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +10, Ref +12, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +18, Intimidate +16, Knowledge (arcana) +16, Knowledge (geography) +13, Knowledge (planes) +16, Perception +18, Sense Motive +18, Stealth +18, Survival +18",
+    "list": {
+      "Acrobatics": "+18",
+      "Intimidate": "+16",
+      "Perception": "+18",
+      "Sense Motive": "+18",
+      "Stealth": "+18",
+      "Survival": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 10,
+  "feats": [
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Vital Strike",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15 (2d6+3), 2 claws +15 (1d8+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This gaunt, long-limbed quadruped has huge, soulless eyes and a toothy maw. The lean creature moves with a predatory grace.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": "28 (32 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pack (2-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

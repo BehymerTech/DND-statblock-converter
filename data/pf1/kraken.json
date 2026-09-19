@@ -1,0 +1,111 @@
+{
+  "name": "Kraken",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Gargantuan",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "NE",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 32,
+    "notes": "natural +26, size -4",
+    "touch": 6,
+    "flatFooted": 32
+  },
+  "hp": {
+    "average": 290,
+    "formula": "20d10+180"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., swim 40 ft., jet 280 ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 10,
+    "con": 29,
+    "int": 21,
+    "wis": 20,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +21, Ref +12, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +25, Knowledge (geography) +25, Knowledge (nature) +25, Perception +28, Stealth +11, Swim +41, Use Magic Device +25",
+    "list": {
+      "Intimidate": "+25",
+      "Perception": "+28",
+      "Stealth": "+11",
+      "Swim": "+41",
+      "Use Magic Device": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Aquan",
+    "Common"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 20,
+  "feats": [
+    "Bleeding Critical",
+    "Blind-Fight",
+    "Cleave",
+    "Combat Expertise",
+    "Critical Focus",
+    "Improved Critical (arm)",
+    "Improved Initiative",
+    "Improved Trip",
+    "Multiattack",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 arms +26 (2d6+10/19-20 plus grab), 8 tentacles +24 (1d8+5 plus grab), bite +26 (2d8+10)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This tremendous leviathan resembles a vast squid, yet the markings on its body are strangely unsettling to look upon.",
+  "meta": {
+    "cmb": "34 (+38 grappling)",
+    "cmd": "44 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any ocean"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

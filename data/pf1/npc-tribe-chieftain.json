@@ -1,0 +1,96 @@
+{
+  "name": "NPC Tribe (Chieftain)",
+  "sourceSystem": "pf1",
+  "source": "GameMastery Guide",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 15,
+    "notes": "armor +4, dex +1",
+    "touch": 11,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 102,
+    "formula": "12d10+36"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 12,
+    "con": 12,
+    "int": 8,
+    "wis": 9,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +5, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +7, Handle Animal +6, Intimidate +19, Perception +2, Ride +4",
+    "list": {
+      "Climb": "+7",
+      "Handle Animal": "+6",
+      "Intimidate": "+19",
+      "Perception": "+2",
+      "Ride": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 12,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 12,
+  "feats": [
+    "Critical Focus",
+    "Diehard",
+    "Endurance",
+    "Improved Critical (greatsword)",
+    "Intimidating Prowess",
+    "Lunge",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 human bane greatsword +17/+12/+7 (2d6+7/17-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "longbow +13/+8/+3 (1d8/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "warrior 12",
+    "cmb": "+16",
+    "cmd": 27
+  }
+}

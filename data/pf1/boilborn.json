@@ -1,0 +1,94 @@
+{
+  "name": "Boilborn",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Tiny",
+  "type": "ooze",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 7,
+    "notes": "dex -5, size +2",
+    "touch": 7,
+    "flatFooted": 7
+  },
+  "hp": {
+    "average": 15,
+    "formula": "2d8+6"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., climb 10 ft., swim 10 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 1,
+    "con": 17,
+    "int": "None",
+    "wis": 2,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +3, Ref -5, Will -4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +9, Swim +9, Perception -4",
+    "list": {
+      "Climb": "+9",
+      "Swim": "+9",
+      "Perception": "-4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": 6,
+  "languages": [],
+  "initiative": "-5",
+  "babOrProficiency": 1,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +4 (1d2+1 plus disease)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Like some taut pustule ready to burst, this mobile wound scuttles on a bristle of slick hairs.",
+  "meta": {
+    "cmb": "-6",
+    "cmd": "5 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or infestation (2-20)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

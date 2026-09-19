@@ -1,0 +1,101 @@
+{
+  "name": "Giant Vulture",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +2, natural +6, size -1",
+    "touch": 11,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 42,
+    "formula": "5d8+20"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 50 ft. (average)"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 15,
+    "con": 18,
+    "int": 2,
+    "wis": 15,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +10, Ref +6, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +7, Perception +14",
+    "list": {
+      "Fly": "+7",
+      "Perception": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 24,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 3,
+  "feats": [
+    "Great Fortitude",
+    "Toughness",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +9 (2d6+9 plus disease)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A wickedly hooked beak and an immense bald head draw attention from this enormous scavenger’s vast wingspan.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": 22,
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm plains or hills"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or flock (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

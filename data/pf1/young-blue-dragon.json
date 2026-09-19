@@ -1,0 +1,98 @@
+{
+  "name": "Young Blue Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "earth",
+  "alignment": "LE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 21,
+    "notes": "dex +1, natural +11, size -1",
+    "touch": 10,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 95,
+    "formula": "10d12+30"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (poor), burrow 20 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 12,
+    "con": 17,
+    "int": 12,
+    "wis": 13,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +10, Ref +8, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +14, Fly +8, Intimidate +14, Knowledge (local) +14, Perception +14, Stealth +10, Survival +14",
+    "list": {
+      "Bluff": "+14",
+      "Fly": "+8",
+      "Intimidate": "+14",
+      "Perception": "+14",
+      "Stealth": "+10",
+      "Survival": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 10,
+  "feats": [
+    "Dazzling Display",
+    "Improved Initiative",
+    "Multiattack",
+    "Shatter Defenses",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15 (2d6+7), 2 claws +14 (1d8+5), 2 wings +12 (1d6+2), tail slap +12 (1d8+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "With scales the color of the desert sky, this large, serpentine dragon moves with an unsettling grace.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": "27 (31 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts"
+      }
+    ]
+  }
+}

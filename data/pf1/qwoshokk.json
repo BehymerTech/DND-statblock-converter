@@ -1,0 +1,101 @@
+{
+  "name": "Qwoshokk",
+  "sourceSystem": "pf1",
+  "source": "Mythical Monsters Revisited",
+  "size": "Gargantuan",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "NE",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 36,
+    "notes": "natural +30, size -4",
+    "touch": 6,
+    "flatFooted": 36
+  },
+  "hp": {
+    "average": 348,
+    "formula": "24d10+216"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., swim 40 ft., jet 280 ft."
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 10,
+    "con": 29,
+    "int": 21,
+    "wis": 20,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +23, Ref +14, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +29, Knowledge (geography) +29, Knowledge (nature) +29, Perception +32, Stealth +15, Swim +46, Use Magic Device +29",
+    "list": {
+      "Intimidate": "+29",
+      "Perception": "+32",
+      "Stealth": "+15",
+      "Swim": "+46",
+      "Use Magic Device": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 42,
+  "languages": [
+    "Aquan",
+    "Common"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 24,
+  "feats": [
+    "Bleeding Critical",
+    "Blind-Fight",
+    "Cleave",
+    "Combat Expertise",
+    "Critical Focus",
+    "Improved Critical (arm)",
+    "Improved Initiative",
+    "Improved Natural Attack (arm)",
+    "Improved Trip",
+    "Multiattack",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 arms +31 (3d6+11/19-20 plus 1d6 electricity), bite +31 (2d8+11), 8 tentacles +29 (1d8+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This massive scarlet squid has dark blue stripes and wears various gold ornaments, its tentacles glistening with blue energy.",
+  "meta": {
+    "race": "Male",
+    "class": "unique elder kraken",
+    "cmb": "+39",
+    "cmd": "49 (can’t be tripped)"
+  }
+}

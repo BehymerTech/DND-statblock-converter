@@ -1,0 +1,97 @@
+{
+  "name": "Giant Ground Cricket",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 116: Fangs of War",
+  "size": "Medium",
+  "type": "vermin",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 16,
+    "notes": "dex +2, natural +4",
+    "touch": 12,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 26,
+    "formula": "4d8+8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 10 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 14,
+    "con": 15,
+    "int": "None",
+    "wis": 11,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +6, Ref +3, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +2, Climb +10, Perception +0",
+    "list": {
+      "Acrobatics": "+2",
+      "Climb": "+10",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 10,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 3,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +5 (1d8+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Long spines jut from the legs and back of this enormous cricket.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": "17 (25 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or colony (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

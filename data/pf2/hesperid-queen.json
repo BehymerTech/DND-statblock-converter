@@ -1,0 +1,126 @@
+{
+  "name": "Hesperid Queen",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 191.",
+  "size": "Medium",
+  "type": "Nymph",
+  "subtype": "Fey, Light",
+  "alignment": "LN",
+  "cr": null,
+  "level": "Creature 19",
+  "xp": null,
+  "ac": {
+    "value": 45,
+    "notes": ""
+  },
+  "hp": {
+    "average": 306,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, fly 90 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 28,
+    "con": 22,
+    "int": 24,
+    "wis": 24,
+    "cha": 30
+  },
+  "saves": {
+    "text": "Fort +31, Ref +36, Will +34",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +32 (1d20+32); __Arcana__: +30 (1d20+30); __Athletics__: +28 (1d20+28); __Deception__: +37 (1d20+37); __Diplomacy__: +39 (1d20+39); __Intimidation__: +37 (1d20+37); __Nature__: +32 (1d20+32); __Performance__: +35 (1d20+35); __Society__: +30 (1d20+30); __Stealth__: +32 (1d20+32); ",
+    "list": {
+      "Acrobatics": "+32",
+      "Arcana": "+30",
+      "Athletics": "+28",
+      "Deception": "+37",
+      "Diplomacy": "+39",
+      "Intimidation": "+37",
+      "Nature": "+32",
+      "Performance": "+35",
+      "Society": "+30",
+      "Stealth": "+32"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 44,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Sylvan",
+    "Utopian"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Tied to the Land",
+      "text": "As lampad queen, except the hesperid queen is tied to an isolated region such as an island or island chain, a remote coast, or a secluded valley. Their counteract modifier is +37 and their counteract level is 10."
+    },
+    {
+      "name": "Nymph's Beauty",
+      "text": "(aura, emotion, enchantment, incapacitation, mental, primal, visual); 30 feet. As lampad queen, except the save DC is 38, and creatures that fail their save become transfixed in awe, causing them to be stunned for 1 round."
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (polymorph, primal, transmutation; page 304); Lampad queens can transform between their original form, which looks much like a typical nymph of their kind, and any Small or Medium humanoid form, typically choosing a version of their natural form that more closely resembles a humanoid."
+    },
+    {
+      "name": "Create Golden Apple",
+      "text": "⬺ (primal, transmutation); While the hesperid is within their bonded location, they can spin golden light around an object they're holding of up to 20 cubic feet in volume and up to 80 Bulk. Doing so condenses the object into a magic apple made of golden light with light Bulk. The golden apple reverts back to its original shape after a full day away from the hesperid's bonded location, or when the hesperid spends a single action (which has the concentrate trait) to end the effect."
+    },
+    {
+      "name": "Focus Beauty",
+      "text": "⬻ (emotion, enchantment, incapacitation, mental, primal, visual); As lampad queen, except that on a failure, a target that wasn't already affected by the aura becomes overwhelmed with visions of bliss and beauty. The creature departs from the hesperid queen's domain as quickly and efficiently as it can for 1 hour, after which time it forgets ever reaching the hesperid queen's domain, how it did so, and everything that happened while it was within the domain."
+    },
+    {
+      "name": "Inspiration",
+      "text": "⬽ (emotion, enchantment, mental, primal); A lampad queen can inspire a single intelligent creature by giving that creature a token of their favor, typically a lock of their hair. As long as the creature carries the token and remains in good standing with the lampad queen, the creature gains a +1 status bonus to all Crafting checks, Performance checks, and Will saves. If a lampad queen grants their Inspiration to a bard and they are that bard's muse, the bard gains an additional benefit depending on their muse theme: for lore muse, the bard also gains a +1 status bonus to all compendium/skills.md#Lore checks; for maestro muse, the status bonus to Performance checks increases to +2 for the purpose of determining the effects of compositions; for polymath muse, the bard gains a +4 status bonus to untrained skill checks; and for all other muses, the Will save bonus increases to +2 against fey."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ sunset ribbon +36 (agile, finesse); Damage 4d10+13 (4d10+13) slashing plus 1d6 (1d6) fire and 1d6 (1d6) positive"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ sunset ray +36 (magical, range increment 120 feet); Damage 4d12+13 (4d12+13) fire plus 1d6 (1d6) positive"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      9,
+      6,
+      7,
+      7,
+      10
+    ]
+  }
+}

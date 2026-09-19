@@ -1,0 +1,103 @@
+{
+  "name": "NPC Tribal Champion",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf, human",
+  "alignment": "CN",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "armor +3, deflection +1, dex +5, dodge +1, natural +1",
+    "touch": 17,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 70,
+    "formula": "7d10+2d10+16"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 13,
+    "int": 13,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +8, Ref +10, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +6, Climb +6, Heal +1, Intimidate +6, Knowledge (geography) +2, Knowledge (history) +2, Knowledge (nature) +2, Perception +14, Perform (dance) +1, Ride +8, Stealth +10, Survival +4, Swim +6",
+    "list": {
+      "Acrobatics": "+6",
+      "Climb": "+6",
+      "Heal": "+1",
+      "Intimidate": "+6",
+      "Perception": "+14",
+      "Ride": "+8",
+      "Stealth": "+10",
+      "Survival": "+4",
+      "Swim": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 24,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Expertise",
+    "Dodge",
+    "Lightning Reflexes",
+    "Mobility",
+    "Power Attack",
+    "Skill Focus (Perception)",
+    "Vital Strike",
+    "Weapon Finesse",
+    "Weapon Focus (shortspear)",
+    "Weapon Specialization (shortspear)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 shortspear +14/+9 (1d6+6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk shortspear +16 (1d6+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-elf",
+    "class": "fighter 7, duelist 2",
+    "cmb": "+11",
+    "cmd": 27
+  }
+}

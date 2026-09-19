@@ -1,0 +1,115 @@
+{
+  "name": "Ancient Silver Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Gargantuan",
+  "type": "dragon",
+  "subtype": "cold",
+  "alignment": "LG",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 38,
+    "notes": "dex -1, natural +33, size -4",
+    "touch": 5,
+    "flatFooted": 38
+  },
+  "hp": {
+    "average": 337,
+    "formula": "25d12+175"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 250 ft. (poor), other_semicolon cloudwalking, graceful flight ft."
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 8,
+    "con": 25,
+    "int": 24,
+    "wis": 25,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +21, Ref +15, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +24, Diplomacy +35, Fly +21, Heal +35, Intimidate +35, Knowledge (arcana) +35, Knowledge (history) +35, Knowledge (local) +35, Knowledge (nobility) +35, Knowledge (planes) +35, Perception +35, Sense Motive +35, Spellcraft +35",
+    "list": {
+      "Acrobatics": "+24",
+      "Diplomacy": "+35",
+      "Fly": "+21",
+      "Heal": "+35",
+      "Intimidate": "+35",
+      "Perception": "+35",
+      "Sense Motive": "+35",
+      "Spellcraft": "+35"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "fog vision"
+  ],
+  "passivePerception": 45,
+  "languages": [
+    "Auran",
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Elven",
+    "Halfling",
+    "Giant",
+    "Terran"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 25,
+  "feats": [
+    "Critical Focus",
+    "Flyby Attack",
+    "Hover",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Iron Will",
+    "Lighting Reflexes",
+    "Multiattack",
+    "Power Attack",
+    "Quicken Spell",
+    "Skill Focus (Fly)",
+    "Vital Strike",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +34 (4d6+18/19-20), 2 claws +33 (2d8+12), 2 wings +31 (2d6+6), tail slap +31 (2d8+18)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+41",
+    "cmd": "50 (54 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate mountains"
+      }
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "name": "Goblin",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "goblinoid",
+  "alignment": "NE",
+  "cr": "1/3",
+  "level": null,
+  "xp": 135,
+  "ac": {
+    "value": 16,
+    "notes": "armor +2, dex +2, shield +1, size +1",
+    "touch": 13,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 6,
+    "formula": "1d10+1"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 15,
+    "con": 12,
+    "int": 10,
+    "wis": 9,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +3, Ref +2, Will -1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Ride +10, Stealth +10, Swim +4, Perception -1",
+    "list": {
+      "Ride": "+10",
+      "Stealth": "+10",
+      "Swim": "+4",
+      "Perception": "-1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 9,
+  "languages": [
+    "Goblin"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 1,
+  "feats": [
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "short sword +2 (1d4/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "short bow +4 (1d4/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature stands barely three feet tall, its scrawny, humanoid body dwarfed by its wide, ungainly head.",
+  "meta": {
+    "race": "Goblin",
+    "class": "warrior 1",
+    "cmb": "+0",
+    "cmd": 12,
+    "racialModifiers": [
+      "Ride 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forest and plains (usually coastal regions)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "gang (4-9), warband (10-16 with goblin dog mounts), or tribe (17+ plus 100% noncombatants; 1 sergeant of 3rd level per 20 adults; 1 or 2 lieutenants of 4th or 5th level; 1 leader of 6th-8th level; and 10-40 goblin dogs, wolves, or worgs)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (leather armor, light wooden shield, short sword, short bow with 20 arrows, other treasure)"
+      }
+    ]
+  }
+}

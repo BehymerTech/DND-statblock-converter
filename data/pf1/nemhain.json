@@ -1,0 +1,112 @@
+{
+  "name": "Nemhain",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Tomb of the Iron Medusa",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "incorporeal",
+  "alignment": "NE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 26,
+    "notes": "deflection +7, dex +8, dodge +1",
+    "touch": 26,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 225,
+    "formula": "18d8+144"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 30 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 26,
+    "con": "None",
+    "int": 23,
+    "wis": 25,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +13, Ref +16, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +25, Diplomacy +25, Fly +37, Intimidate +28, Knowledge (arcana) +27, Knowledge (religion) +27, Perception +28, Sense Motive +28, Spellcraft +27, Stealth +29",
+    "list": {
+      "Bluff": "+25",
+      "Diplomacy": "+25",
+      "Fly": "+37",
+      "Intimidate": "+28",
+      "Perception": "+28",
+      "Sense Motive": "+28",
+      "Spellcraft": "+27",
+      "Stealth": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Common",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 13,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Lunge",
+    "Mobility",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "incorporeal touch +21 (3d8 plus 1d6 Con drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A cloud of translucent humanoid spirits whirls around this ghostly desiccated corpse.",
+  "meta": {
+    "cmb": "+21",
+    "cmd": 39,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

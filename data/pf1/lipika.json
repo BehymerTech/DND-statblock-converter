@@ -1,0 +1,117 @@
+{
+  "name": "Lipika",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "aeon, extraplanar",
+  "alignment": "N",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 30,
+    "notes": "deflection +6, dex +6, dodge +1, natural +8, size -1",
+    "touch": 23,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 300,
+    "formula": "24d10+168"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 23,
+    "con": 24,
+    "int": 22,
+    "wis": 25,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +23, Ref +16, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +33, Diplomacy +30, Fly +41, Intimidate +30, Knowledge (arcana) +45, Knowledge (history) +45, Knowledge (nobility) +45, Knowledge (planes) +45, Knowledge (religion) +45, Knowledge (dungeoneering) +20, Knowledge (engineering) +20, Knowledge (geography) +20, Knowledge (local) +20, Knowledge (nature) +20, Perception +34, Sense Motive +34, Spellcraft +20",
+    "list": {
+      "Bluff": "+33",
+      "Diplomacy": "+30",
+      "Fly": "+41",
+      "Intimidate": "+30",
+      "Perception": "+34",
+      "Sense Motive": "+34",
+      "Spellcraft": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 44,
+  "languages": [
+    "envisaging"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 24,
+  "feats": [
+    "Combat Casting",
+    "Combat Reflexes",
+    "Dodge",
+    "Flyby Attack",
+    "Great Fortitude",
+    "Improved Critical (force blast)",
+    "Improved Great Fortitude",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Mobility"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 slams +29 (4d6+6 plus karmic link)"
+    },
+    {
+      "name": "Ranged",
+      "text": "4 force blasts +29 touch (10d6 force damage/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Shrouded in a dark cloak, this featureless humanoid has four forearms that each split off at the elbow, and an eye on each of its eight palms.",
+  "meta": {
+    "cmb": "+30",
+    "cmd": 53,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Outer Planes)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

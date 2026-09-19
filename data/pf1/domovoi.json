@@ -1,0 +1,105 @@
+{
+  "name": "Domovoi",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Pathfinder No. 67: The Snows of Summer",
+  "size": "Tiny",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CG",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 17,
+    "notes": "dex +2, dodge +1, natural +2, size +2",
+    "touch": 15,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 27,
+    "formula": "5d6+10"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 15,
+    "con": 14,
+    "int": 9,
+    "wis": 13,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +3, Ref +6, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Bluff +8, Diplomacy +8, Handle Animal +7, Knowledge (local) +4, Perception +7, Sense Motive +7, Stealth +17",
+    "list": {
+      "Acrobatics": "+7",
+      "Bluff": "+8",
+      "Diplomacy": "+8",
+      "Handle Animal": "+7",
+      "Perception": "+7",
+      "Sense Motive": "+7",
+      "Stealth": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 2,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Mobility"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "club +4 (1d3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Barely knee-high, this small creature looks like a hairy old man with more beard than flesh.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": 13,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or gathering (2-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "name": "Gimmerling",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 177.",
+  "size": "Small",
+  "type": "Fey",
+  "subtype": "",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 12",
+  "xp": null,
+  "ac": {
+    "value": 34,
+    "notes": ""
+  },
+  "hp": {
+    "average": 235,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet; trickster's step;"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 24,
+    "con": 18,
+    "int": 20,
+    "wis": 16,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +22, Ref +25, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Crafting__: +23 (1d20+23); __Deception__: +25 (1d20+25); __Nature__: +21 (1d20+21); __Stealth__: +25 (1d20+25); __Thievery__: +25 (1d20+25); ",
+    "list": {
+      "Crafting": "+23",
+      "Deception": "+25",
+      "Nature": "+21",
+      "Stealth": "+25",
+      "Thievery": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "imprecise hungersense 30, low-light vision"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Hungersense",
+      "text": "Hungersense allows the gimmerling to sense creatures that require food to live."
+    },
+    {
+      "name": "Items",
+      "text": "+1 striking hand crossbow (20 bolts;"
+    },
+    {
+      "name": "Treacherous Aura",
+      "text": "(aura, primal, transmutation); 15 feet. Tangled roots, jagged divots, sharp rocks and other hazards appear on surfaces in the aura, creating difficult terrain."
+    },
+    {
+      "name": "Trip Up",
+      "text": "⬲ Trigger A creature critically fails a melee attack to hit the gimmerling or moves into a space within the gimmerling's treacherous aura. Effect The triggering creature must attempt a DC 32 Reflex save. Critical Success The target is unaffected. Success The target is flat-footed until the start of its next turn. Failure The target takes 2d10 (2d10) bludgeoning damage and is flat-footed until the start of its next turn. Critical Failure As failure, and the target is knocked prone."
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, polymorph, primal, transmutation); The gimmerling changes into its natural form or that of any humanoid. In humanoid form, it loses its treacherous aura, and its equipment appears to be trinkets or toys. As a humanoid that lacks claws or fangs, it loses the matching Strike. If it loses its claw Strike, it gains a fist Strike that is identical except that it deals bludgeoning damage."
+    },
+    {
+      "name": "Disarm",
+      "text": "⬺ Requirements The gimmerling's last action was a success with a Strike that has Disarm in its damage entry. Effect The gimmerling knocks a held or carried weapon to the ground in the target's space."
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "The gimmerling deals 2d6 (2d6) extra precision damage to flat-footed creatures."
+    },
+    {
+      "name": "Trickster's Step",
+      "text": "The gimmerling ignores difficult terrain and doesn't trigger traps with its movement."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +26 (agile, finesse); Damage 2d8+7 (2d8+7) slashing plus Disarm"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +26 (finesse); Damage 3d8+7 (3d8+7) piercing plus 2d6 (2d6) poison"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ hand crossbow +28 (range increment 60 feet, reload 1); Damage 2d6+3 (2d6+3) piercing plus 2d6 (2d6) poison"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      7,
+      4,
+      5,
+      3,
+      4
+    ],
+    "items": "+1 striking [[hand-crossbow|hand crossbow]] (20 [[bolt|bolts]];"
+  }
+}

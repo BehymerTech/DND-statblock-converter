@@ -1,0 +1,117 @@
+{
+  "name": "Sumbreiva",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 260.",
+  "size": "Large",
+  "type": "Negative",
+  "subtype": "Humanoid",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 16",
+  "xp": null,
+  "ac": {
+    "value": 39,
+    "notes": ""
+  },
+  "hp": {
+    "average": 290,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 28,
+    "con": 16,
+    "int": 22,
+    "wis": 20,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +25, Ref +33, Will +27",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +32 (1d20+32); __Intimidation__: +30 (1d20+30); __Stealth__: +35 (1d20+35); __Survival__: +29 (1d20+29); ",
+    "list": {
+      "Athletics": "+32",
+      "Intimidation": "+30",
+      "Stealth": "+35",
+      "Survival": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 39,
+  "languages": [
+    "Aklo",
+    "Necril"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Hunter's Triumph",
+      "text": "⬲ (auditory, emotion, fear, mental); Trigger The sumbreiva kills a creature Effect The sumbreiva lets out a triumphant, bone-chilling howl. Every enemy in a 30-foot emanation must succeed at a DC 36 Will save or become frightened 3 (and fleeing as long as it's frightened on a critical failure)."
+    },
+    {
+      "name": "Claim Trophy",
+      "text": "⬻ The sumbreiva claims the soul of a creature they killed within the last minute. This works like bind soul, except that no black sapphire is required and the soul is turned into a glowing blue light called a soul trophy. Anyone who kills the sumbreiva can then free the soul from any soul trophy by touching it and speaking the word for \"freedom\" in any language."
+    },
+    {
+      "name": "Huntblade Brutality",
+      "text": "The sumbreiva's huntblade deals an additional 2d8 (2d8) damage to drained, flat-footed, or frightened creatures."
+    },
+    {
+      "name": "Whip Drain",
+      "text": "⬻ (arcane, death, necromancy); Requirements The sumbreiva has a creature grabbed with their shadow whip Effect The grabbed creature must succeed at a DC 38 Fortitude save or become drained 2 (drained 3 on a critical failure). If the creature is already drained, this increases its drained value instead, to a maximum of drained 4."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ sumbreiva huntblade +33 (agile, death, finesse, magical, versatile s); Damage 3d8+16 (3d8+16) piercing plus huntblade brutality"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ shadow whip +33 (agile, death, disarm, finesse, magical, reach 10 feet, trip); Damage 3d4+16 (3d4+16) bludgeoning plus Improved Grab"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ sumbreiva huntblade +33 (agile, death, magical, thrown 30 feet, versatile s); Damage 3d8+16 (3d8+16) piercing plus huntblade brutality"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      9,
+      3,
+      6,
+      5,
+      4
+    ]
+  }
+}

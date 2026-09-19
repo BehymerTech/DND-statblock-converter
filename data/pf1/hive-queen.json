@@ -1,0 +1,112 @@
+{
+  "name": "Hive Queen",
+  "sourceSystem": "pf1",
+  "source": "Horror Adventures",
+  "size": "Huge",
+  "type": "aberration",
+  "subtype": "hive",
+  "alignment": "NE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 26,
+    "notes": "dex +4, natural +14, size -2",
+    "touch": 12,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 127,
+    "formula": "15d8+60"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 19,
+    "con": 19,
+    "int": 15,
+    "wis": 18,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +9, Ref +9, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +35, Perception +22, Sleight of Hand +19, Stealth +14, Survival +22, Swim +27",
+    "list": {
+      "Climb": "+35",
+      "Perception": "+22",
+      "Sleight of Hand": "+19",
+      "Stealth": "+14",
+      "Survival": "+22",
+      "Swim": "+27"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "blindsight",
+    "hive mind"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Aklo",
+    "Common (can't speak)",
+    "telepathy 1 mile (hive)"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 11,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Critical (bite)",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Multiattack",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +18 (2d6+9/19-20), 2 claws +18 (1d10+9/19-20), tail slap +16 (2d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Black, chitinous armor covers this enormous insectile creature. Caustic saliva drips from its mandibles.",
+  "meta": {
+    "cmb": "+22",
+    "cmd": 36,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or hive (1 plus 1-20 larva swarms and 1-50 hive workers and warriors)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

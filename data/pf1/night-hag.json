@@ -1,0 +1,109 @@
+{
+  "name": "Night Hag",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "evil, extraplanar",
+  "alignment": "NE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 25,
+    "notes": "dex +4, natural +11",
+    "touch": 14,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 92,
+    "formula": "8d10+48"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 19,
+    "con": 22,
+    "int": 18,
+    "wis": 16,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +14, Ref +8, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +16, Diplomacy +11, Disguise +16, Intimidate +14, Knowledge (arcana) +12, Knowledge (planes) +15, Perception +16, Ride +15, Sense Motive +16, Spellcraft +15",
+    "list": {
+      "Bluff": "+16",
+      "Diplomacy": "+11",
+      "Disguise": "+16",
+      "Intimidate": "+14",
+      "Perception": "+16",
+      "Ride": "+15",
+      "Sense Motive": "+16",
+      "Spellcraft": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Infernal"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 8,
+  "feats": [
+    "Alertness",
+    "Combat Casting",
+    "Deceitful",
+    "Mounted Combat"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +13 (1d4+5), bite +13 (2d6+5 plus disease)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Grisly fetishes and the rags of once fine clothes hang off the corpse-thin frame of this horrifying, sharp-fanged crone.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": 27,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any evil-aligned plane"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, mounted (1 and 1 nightmare), or coven (3 hags of any type)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

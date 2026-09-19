@@ -1,0 +1,86 @@
+{
+  "name": "Wasp Swarm",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 324.",
+  "size": "Large",
+  "type": "Swarm",
+  "subtype": "Animal",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 45,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 2,
+    "dex": 18,
+    "con": 14,
+    "int": 0,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +10, Ref +12, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +12 (1d20+12); ",
+    "list": {
+      "Acrobatics": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Swarming Stings",
+      "text": "⬻ Each enemy in the swarm's space takes 2d8 (2d8) piercing damage (DC 21 basic Reflex save) and is exposed to wasp venom. A successful save negates the poison exposure."
+    },
+    {
+      "name": "Wasp Venom",
+      "text": "(poison); Saving Throw DC 21 Fortitude. Maximum Duration 6 rounds Stage 1 1d6 (1d6) poison (1 round) Stage 2 2d6 (2d6) poison and clumsy 2 (2 rounds)"
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -4,
+      4,
+      2,
+      -5,
+      2,
+      -1
+    ]
+  }
+}

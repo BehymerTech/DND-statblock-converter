@@ -1,0 +1,112 @@
+{
+  "name": "Malenti",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 56: Raiders of the Fever Sea",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "aquatic",
+  "alignment": "LE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 15,
+    "notes": "dex +3, natural +2",
+    "touch": 13,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 15,
+    "formula": "2d10+4"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 17,
+    "con": 14,
+    "int": 14,
+    "wis": 13,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +4, Ref +6, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +6, Disguise +3, Handle Animal +3, Perception +6, Ride +8, Stealth +8, Survival +6, Swim +15",
+    "list": {
+      "Bluff": "+6",
+      "Disguise": "+3",
+      "Handle Animal": "+3",
+      "Perception": "+6",
+      "Ride": "+8",
+      "Stealth": "+8",
+      "Survival": "+6",
+      "Swim": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Aquan",
+    "Common",
+    "speak with sharks"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Deceitful",
+    "Great Fortitude",
+    "Skill Focus (Bluff)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "1 spear +4 (1d8+3/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "1 light crossbow +5 (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A predatory gleam glints in the eyes of this stern-looking aquatic elf.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": 17,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or ambush (1 plus 2-12 sahuagin and 1-4 sharks)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (light crossbow, spear, other treasure)"
+      }
+    ]
+  }
+}

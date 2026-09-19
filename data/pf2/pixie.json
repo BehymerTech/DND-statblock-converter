@@ -1,0 +1,102 @@
+{
+  "name": "Pixie",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 309.",
+  "size": "Small",
+  "type": "Sprite",
+  "subtype": "Fey",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 23,
+    "notes": ""
+  },
+  "hp": {
+    "average": 40,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 feet, fly 45 feet"
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 20,
+    "con": 12,
+    "int": 16,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +8, Ref +14, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +13 (1d20+13); __Deception__: +11 (1d20+11); __Nature__: +10 (1d20+10); __Stealth__: +11 (1d20+11); ",
+    "list": {
+      "Acrobatics": "+13",
+      "Deception": "+11",
+      "Nature": "+10",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Sprinkle Pixie Dust",
+      "text": "⬻ (manipulate); The pixie sprinkles pixie dust onto one of its arrows. If the pixie hits a creature with that arrow before the pixie's next turn, the arrow inflicts one of the following special effects instead of dealing damage. Each effect depends on the target's DC 21 Will save. On a critical hit, the target treats its save result as one degree worse.<ul class='inner-bullet-list'><li>Charm (emotion, enchantment, incapacitation, mental) The target suffers the effects of a charm spell, except it doesn't gain a bonus to its save if the only hostile act was the pixie firing its bow, and the pixie can choose to direct the target's adoration toward another creature rather than itself.</li><li>Memory Loss (divination, mental) On a failed Will save, the target loses the last 5 minutes of its memory.</li><li>Sleep (enchantment, incapacitation, mental, sleep) The target suffers the effects of a 3rd-level sleep spell.</li><li>Subdual (enchantment, mental, nonlethal) The target takes 4d6 (4d6) mental damage, depending on its basic Will save.</li></ul>"
+    },
+    {
+      "name": "Items",
+      "text": "longbow (60 arrows), shortsword;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ shortsword +13 (agile, finesse, magical, versatile s); Damage 1d6+4 (1d6+4) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ longbow +13 (deadly 1d10, magical, range increment 100 feet, reload 0, volley 20 feet); Damage 1d8+4 (1d8+4) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -1,
+      5,
+      1,
+      3,
+      2,
+      3
+    ],
+    "items": "longbow (60 arrows), [[shortsword]];"
+  }
+}

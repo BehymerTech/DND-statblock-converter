@@ -1,0 +1,106 @@
+{
+  "name": "Pech",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Small",
+  "type": "fey",
+  "subtype": "earth",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 16,
+    "notes": "dex +1, natural +4, size +1",
+    "touch": 12,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 27,
+    "formula": "6d6+6"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 13,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +5, Ref +6, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +13, Craft (stonemasonry) +14, Knowledge (dungeoneering) +10, Knowledge (engineering) +10, Perception +10, Profession (miner) +14, Stealth +14",
+    "list": {
+      "Climb": "+13",
+      "Perception": "+10",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Terran",
+    "Undercommon"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 3,
+  "feats": [
+    "Cleave",
+    "Great Fortitude",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk heavy pick +9 (1d4+6/×4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This pale yellow humanoid has blank, bulging white eyes and gangly arms and legs. It clutches a pickaxe in its knobby hands.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 17,
+    "racialModifiers": [
+      "Craft (stonemasonry) 4",
+      "Profession (miner) 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground (Plane of Earth)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, gang (3-4), pack (5-10), or tribe (11-40 plus 50% noncombatants, 1-4 fighters of 2nd-4th level, and 1-2 druids of 2nd-4th level)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (masterwork heavy pick, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "name": "Naga",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "Aquatic",
+  "alignment": "Usually neutral",
+  "cr": "7",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "-1 size, +1 Dex, +5 natural",
+    "touch": 10,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 59,
+    "formula": "7d8+28"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": 50,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares), swim 50 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 13,
+    "con": 18,
+    "int": 10,
+    "wis": 17,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +6, Ref +5, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Concentration +12, Listen +7, Spellcraft +8, Spot +7, Swim +11;",
+    "list": {
+      "Bluff": "+18",
+      "Concentration": "+12",
+      "Diplomacy": "+8",
+      "Disguise": "+4",
+      "Intimidate": "+6",
+      "Listen": "+7",
+      "Sense Motive": "+18",
+      "Spellcraft": "+8",
+      "Spot": "+7",
+      "Swim": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "Darkvision 60 ft.",
+    "Darkvision 60 ft.",
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 5,
+  "feats": [
+    "Alertness",
+    "Combat Casting",
+    "Eschew Materials (B)",
+    "Lightning Reflexes"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Poison, spells"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., detect thoughts, guarded thoughts, immunity to poison, resistance to charm"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Poison, spit, spells"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft."
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Charming gaze, poison, spells"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft."
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Poison, spells"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Sting +7 melee (2d4+2 plus poison)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Sting +7 melee (2d4+2 plus poison) and bite +2 melee (1d4+1)"
+    },
+    {
+      "name": "Attack",
+      "text": "Bite +12 melee (2d6+7 plus poison) or spit +9 ranged touch (poison)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +12 melee (2d6+7 plus poison) or spit +9 ranged touch (poison)"
+    },
+    {
+      "name": "Attack",
+      "text": "Bite +9 melee (2d6+6 plus poison)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +9 melee (2d6+6 plus poison)"
+    },
+    {
+      "name": "Attack",
+      "text": "Bite +7 melee (2d6+4 plus poison)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +7 melee (2d6+4 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "All nagas have long, snakelike bodies covered with glistening scales, and more or less human faces. They range in length from 10 to 20 feet and weigh from 200 to 500 pounds. The eyes of a naga are bright and intelligent, burning with an almost hypnotic inner light.",
+    "grapple": "+12",
+    "spaceReach": "10 ft./5 ft.",
+    "environment": "Temperate aquatic",
+    "organization": "Solitary, pair, or nest (3-4)",
+    "treasure": "Standard",
+    "advancement": "8-10 HD (Large); 11-21 HD (Huge)",
+    "leveladjustment": "---"
+  }
+}

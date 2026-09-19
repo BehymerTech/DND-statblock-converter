@@ -1,0 +1,130 @@
+{
+  "name": "Vildeis",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "angel, extraplanar, good, lawful",
+  "alignment": "LG",
+  "cr": "28",
+  "level": null,
+  "xp": 4915200,
+  "ac": {
+    "value": 44,
+    "notes": "dex +9, dodge +1, natural +25, size -1, deflection vs. evil +4",
+    "touch": 19,
+    "flatFooted": 34
+  },
+  "hp": {
+    "average": 610,
+    "formula": "33d10+429"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 29,
+    "con": 37,
+    "int": 18,
+    "wis": 22,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +31, Ref +20, Will +26",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +45, Bluff +41, Fly +26, Heal +23, Intimidate +41, Knowledge (planes) +40, Knowledge (religion) +40, Perception +42, Sense Motive +42, Sleight of Hand +45, Stealth +41",
+    "list": {
+      "Acrobatics": "+45",
+      "Bluff": "+41",
+      "Fly": "+26",
+      "Heal": "+23",
+      "Intimidate": "+41",
+      "Perception": "+42",
+      "Sense Motive": "+42",
+      "Sleight of Hand": "+45",
+      "Stealth": "+41"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "detect evil",
+    "true seeing",
+    "zealous vision"
+  ],
+  "passivePerception": 52,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "truespeech"
+  ],
+  "initiative": "+13",
+  "babOrProficiency": 33,
+  "feats": [
+    "Blinding Critical",
+    "Combat Casting",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Deadly Aim",
+    "Dodge",
+    "Flyby Attack",
+    "Improved Critical (dagger)",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Power Attack",
+    "Spell Penetration",
+    "Step Up",
+    "Vital Strike",
+    "Weapon Focus (dagger)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "Cicatrix +50/+45/+40/+35 (1d6+17/17-20 plus 1 bleed and 2d6 vicious)"
+    },
+    {
+      "name": "Ranged",
+      "text": "Cicatrix +47 (1d6+17/17-20 plus 1 bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This red-winged angel is blindfolded and wrapped with bloody bandages. What shows of her flesh is scarred with celestial runes.",
+  "meta": {
+    "cmb": "+46",
+    "cmd": 66,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Heaven)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "unique"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (Cicatrix, other treasure)"
+      }
+    ]
+  }
+}

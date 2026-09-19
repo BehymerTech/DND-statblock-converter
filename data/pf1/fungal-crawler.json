@@ -1,0 +1,100 @@
+{
+  "name": "Fungal Crawler",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Pathfinder No. 13: Shadow in the Sky",
+  "size": "Small",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 16,
+    "notes": "dex +5, size +1",
+    "touch": 16,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 26,
+    "formula": "4d8+8"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., climb 40 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 20,
+    "con": 15,
+    "int": 2,
+    "wis": 13,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +3, Ref +6, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Climb +10, Perception +6",
+    "list": {
+      "Acrobatics": "+10",
+      "Climb": "+10",
+      "Perception": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": "+9",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Step Up"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +6 (1d6+2 plus poison), 2 claws +6 (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This giant fanged cricket is caked in pungent fungal growths and topped with a mushroom-like cap.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": "19 (27 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics 14"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or swarm (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

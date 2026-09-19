@@ -1,0 +1,111 @@
+{
+  "name": "Elasmosaurus",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 105.",
+  "size": "Huge",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 125,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 feet, swim 35 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 18,
+    "con": 22,
+    "int": 2,
+    "wis": 20,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +17, Ref +13, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +17 (1d20+17); ",
+    "list": {
+      "Athletics": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 26,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Deep Breath",
+      "text": "The elasmosaurus can hold its breath for 2 hours."
+    },
+    {
+      "name": "Long Neck",
+      "text": "An elasmosaurus's long neck allows it to interact with the surface while its body remains submerged underwater. While submerged no deeper than 15 feet underwater, an elasmosaurus can still stick its head up to breathe. An elasmosaurus gains cover against attacks made against creatures who are above the water's surface while it is underwater, even if its head is above the surface."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲ Jaws only."
+    },
+    {
+      "name": "Drag Below",
+      "text": "⬻ (attack); The elasmosaurus attempts an Athletics check against a grabbed foe's Fortitude DC. If the elasmosaurus succeeds, the foe is forcibly moved 5 feet toward the elasmosaurus's body. If the elasmosaurus critically succeeds, the foe is moved 10 feet towards the elasmosaurus's body."
+    },
+    {
+      "name": "Thrashing Retreat",
+      "text": "⬺ A swimming elasmosaurus thrashes the area around it as it attempts to flee. It makes two paddle Strikes, each of which must be against separate targets, and each of which takes the normal multiple attack penalty. It then Swims up to its swim Speed. This Swim does not trigger reactions based on movement."
+    },
+    {
+      "name": "Elemental, Air",
+      "text": "Some elementals embody aspects of air such as smoke, lightning, and fog."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +17 (reach 15 feet); Damage 2d12+10 (2d12+10) piercing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ paddle +17 Damage 2d6+10 (2d6+10) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      4,
+      6,
+      -4,
+      5,
+      -1
+    ]
+  }
+}

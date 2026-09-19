@@ -1,0 +1,132 @@
+{
+  "name": "Cyclops Lorekeeper",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Monster Codex",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "NE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 18,
+    "notes": "deflection +1, natural +8, size -1",
+    "touch": 10,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 146,
+    "formula": "11d6+10d8+63"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 10,
+    "con": 15,
+    "int": 20,
+    "wis": 15,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +13, Ref +7, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +17, Knowledge (arcana) +29, Knowledge (geography) +17, Knowledge (history) +29, Knowledge (local) +15, Knowledge (nature) +15, Knowledge (planes) +16, Knowledge (religion) +17, Linguistics +19, Perception +29, Sense Motive +27, Spellcraft +25, Survival +6, Use Magic Device +29",
+    "list": {
+      "Appraise": "+17",
+      "Linguistics": "+19",
+      "Perception": "+29",
+      "Sense Motive": "+27",
+      "Spellcraft": "+25",
+      "Survival": "+6",
+      "Use Magic Device": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 39,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Aquan",
+    "Auran",
+    "Celestial",
+    "Common",
+    "Cyclops",
+    "Draconic",
+    "Dwarven",
+    "Elven",
+    "Giant",
+    "Gnoll",
+    "Goblin",
+    "Halfling",
+    "Ignan",
+    "Infernal",
+    "Orc",
+    "Sylvan",
+    "Terran"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 12,
+  "feats": [
+    "Alertness",
+    "Combat Casting",
+    "Extend Spell",
+    "Improved Initiative",
+    "Improved Natural Armor",
+    "Iron Will",
+    "Magical Aptitude",
+    "Scribe Scroll",
+    "Skill Focus (Knowledge [arcana])",
+    "Skill Focus (Knowledge [history])",
+    "Spell Penetration",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "quarterstaff +15/+10/+5 (1d8+6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk heavy crossbow +12 (2d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Ancient tomes and ornate robes lend this towering one-eyed figure an intellectual air, balanced by his toned muscles and a lingering stench of blood.",
+  "meta": {
+    "race": "Cyclops",
+    "class": "arcanist 11 (Pathfinder RPG Bestiary 52, Pathfinder RPG Advanced Class Guide 8)",
+    "cmb": "+17",
+    "cmd": 28,
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any temperate or tropical"
+      }
+    ]
+  }
+}

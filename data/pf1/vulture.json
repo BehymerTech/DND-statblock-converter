@@ -1,0 +1,99 @@
+{
+  "name": "Vulture",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Small",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 13,
+    "notes": "dex +1, natural +1, size +1",
+    "touch": 12,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 6,
+    "formula": "1d8+2"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 50 ft. (average)"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 14,
+    "int": 2,
+    "wis": 13,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +6, Ref +3, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +7, Perception +9",
+    "list": {
+      "Fly": "+7",
+      "Perception": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 0,
+  "feats": [
+    "Great Fortitude"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +2 (1d6+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This dark-feathered vulture has a bald neck and head, and its long, hooked beak is caked with carrion.",
+  "meta": {
+    "cmb": "+0",
+    "cmd": 11,
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm plains or hills"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or flock (3-24)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

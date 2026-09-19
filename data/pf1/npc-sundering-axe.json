@@ -1,0 +1,92 @@
+{
+  "name": "NPC Sundering Axe",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "alignment": "NE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 18,
+    "notes": "armor +9, dex +1, rage -2",
+    "touch": 9,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 93,
+    "formula": "7d12+42"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 13,
+    "con": 20,
+    "int": 10,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +11, Ref +4, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +5, Climb +10, Craft (weapons) +10, Knowledge (dungeoneering) +5, Perception +12",
+    "list": {
+      "Acrobatics": "+5",
+      "Climb": "+10",
+      "Perception": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 22,
+  "languages": [
+    "Common",
+    "Dwarven"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 7,
+  "feats": [
+    "Armor Proficiency (heavy)",
+    "Greater Sunder",
+    "Improved Sunder",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk adamantine greataxe +13/+8 (1d12+7/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "light hammer +8 (1d4+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Dwarf",
+    "class": "barbarian 7",
+    "cmb": "12 (+16 sunder)",
+    "cmd": "21 (25 vs. bull rush or trip, 23 vs. sunder)"
+  }
+}

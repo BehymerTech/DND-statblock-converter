@@ -1,0 +1,110 @@
+{
+  "name": "Labyrinth Minotaur",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 77: Herald of the Ivory Labyrinth",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "chaotic, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 29,
+    "notes": "dex +4, natural +16, size -1",
+    "touch": 13,
+    "flatFooted": 29
+  },
+  "hp": {
+    "average": 232,
+    "formula": "15d10+150"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 33,
+    "dex": 19,
+    "con": 30,
+    "int": 17,
+    "wis": 26,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +19, Ref +9, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +24, Craft (armor) +21, Craft (weapons) +21, Heal +18, Intimidate +31, Knowledge (engineering) +21, Knowledge (planes) +21, Perception +26, Sense Motive +26, Survival +21",
+    "list": {
+      "Climb": "+24",
+      "Heal": "+18",
+      "Intimidate": "+31",
+      "Perception": "+26",
+      "Sense Motive": "+26",
+      "Survival": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 15,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Greater Bull Rush",
+    "Improved Bull Rush",
+    "Improved Critical (greataxe)",
+    "Intimidating Prowess",
+    "Power Attack",
+    "Quick Bull Rush"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 greataxe +26/+21/+16 (3d6+17/19-20/×3), gore +20 (1d8+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hulking minotaur’s hooves are clad in imposing steel. The massive beast wears a heavy bronze mask that covers most of its face.",
+  "meta": {
+    "cmb": "27 (+31 bull rush)",
+    "cmd": "41 (43 vs. bull rush)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Ivory Labyrinth)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+1 greataxe, other treasure)"
+      }
+    ]
+  }
+}

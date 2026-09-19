@@ -1,0 +1,110 @@
+{
+  "name": "Duergar Taskmaster",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "alignment": "LE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 21,
+    "notes": "armor +5, deflection +1, dex +3, dodge +1, natural +1",
+    "touch": 15,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 64,
+    "formula": "10d8+16"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 17,
+    "con": 12,
+    "int": 12,
+    "wis": 16,
+    "cha": 4
+  },
+  "saves": {
+    "text": "Fort +5, Ref +11, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Climb +9, Disable Device +12, Escape Artist +15, Knowledge (dungeoneering) +10, Perception +16, Perform (dance) +2, Sense Motive +16, Sleight of Hand +15, Stealth +15, Survival +4",
+    "list": {
+      "Acrobatics": "+15",
+      "Climb": "+9",
+      "Disable Device": "+12",
+      "Escape Artist": "+15",
+      "Perception": "+16",
+      "Sense Motive": "+16",
+      "Sleight of Hand": "+15",
+      "Stealth": "+15",
+      "Survival": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Undercommon"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 7,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Exotic Weapon Proficiency (slaver’s crossbow)",
+    "Improved Initiative",
+    "Mobility",
+    "Point-Blank Shot",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 short sword +11/+6 (1d6+2/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 light slaver’s crossbow +11 (1d4+1 nonlethal/19-20 plus entangle)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Duergar",
+    "class": "rogue 6, shadowdancer 4",
+    "cmb": "+8",
+    "cmd": "23 (27 vs. bull rush or trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Giant Bee",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "vermin",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 13,
+    "notes": "dex +2, natural +1",
+    "touch": 12,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 16,
+    "formula": "3d8+3"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 14,
+    "con": 13,
+    "int": "None",
+    "wis": 12,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +4, Ref +3, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +6, Perception +1",
+    "list": {
+      "Fly": "+6",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 11,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "sting +2 (1d4 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Striking yellow and black markings and a coat of bristling hairs cover this immense bee. Its stinger is the size of a dagger blade.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": "14 (22 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, group (2-5), or nest (6-19)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

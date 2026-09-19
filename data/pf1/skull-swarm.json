@@ -1,0 +1,93 @@
+{
+  "name": "Skull Swarm",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 43: Haunting of Harrowstone",
+  "size": "Tiny",
+  "type": "undead",
+  "subtype": "swarm",
+  "alignment": "NE",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, size +2",
+    "touch": 14,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 9,
+    "formula": "2d8"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 40 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 5,
+    "dex": 15,
+    "con": "None",
+    "int": "None",
+    "wis": 10,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +0, Ref +2, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +6, Perception +0",
+    "list": {
+      "Fly": "+6",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 10,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 1,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "swarm (1d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This humanoid head floats silently and ominously, bits of flesh still hanging from its face and graying teeth clattering slightly as it bobs in the air.",
+  "meta": {
+    "cmb": "+1",
+    "cmd": "8 (can't be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or mass (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

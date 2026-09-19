@@ -1,0 +1,112 @@
+{
+  "name": "Onidoshi",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 188.",
+  "size": "Large",
+  "type": "Oni",
+  "subtype": "Fiend, Giant, Humanoid",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 125,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, fly 30 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 18,
+    "int": 16,
+    "wis": 16,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +18, Ref +15, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +15 (1d20+15); __Arcana__: +13 (1d20+13); __Athletics__: +16 (1d20+16); __Deception__: +18 (1d20+18); __Intimidation__: +18 (1d20+18); __Nature__: +17 (1d20+17); ",
+    "list": {
+      "Acrobatics": "+15",
+      "Arcana": "+13",
+      "Athletics": "+16",
+      "Deception": "+18",
+      "Intimidation": "+18",
+      "Nature": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Common",
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "breastplate, composite shortbow with 20 arrows, +1 striking falchion;"
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, polymorph, primal, transmutation); The onidoshi takes on the appearance of an ogre. This doesn't change their Speed or Strike attack and damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ falchion +21 (forceful, magical, reach 10 feet, sweep); Damage 2d10+9 (2d10+9) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +20 (agile, evil, magical, reach 10 feet); Damage 2d8+9 (2d8+9) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ composite shortbow +17 (deadly 1d10, range increment 100 feet, reload 0); Damage 2d6+9 (2d6+9) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      3,
+      4,
+      3,
+      3,
+      4
+    ],
+    "items": "breastplate, composite shortbow with 20 arrows, +1 striking falchion;"
+  }
+}

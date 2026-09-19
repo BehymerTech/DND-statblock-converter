@@ -1,0 +1,99 @@
+{
+  "name": "Drow Priest",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "alignment": "CE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 24,
+    "notes": "armor +9, deflection +2, dex +1, shield +2",
+    "touch": 13,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 31,
+    "formula": "5d8+5"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 12,
+    "con": 12,
+    "int": 14,
+    "wis": 18,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +5, Ref +2, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +3, Diplomacy +6, Intimidate +7, Knowledge (arcana) +6, Knowledge (history) +6, Knowledge (nobility) +6, Knowledge (religion) +10, Perception +11, Sense Motive +12",
+    "list": {
+      "Bluff": "+3",
+      "Diplomacy": "+6",
+      "Intimidate": "+7",
+      "Perception": "+11",
+      "Sense Motive": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Elven",
+    "Undercommon"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 3,
+  "feats": [
+    "Combat Casting",
+    "Extra Channel",
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk flail +4 (1d8)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Drow",
+    "class": "noble cleric 5",
+    "cmb": "+3",
+    "cmd": 14,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "underground"
+      }
+    ]
+  }
+}

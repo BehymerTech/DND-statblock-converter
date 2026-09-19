@@ -1,0 +1,98 @@
+{
+  "name": "NPC Giant Hunter",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "gnome",
+  "alignment": "LG",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 24,
+    "notes": "armor +10, deflection +2, natural +1, size +1",
+    "touch": 13,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 137,
+    "formula": "15d10+50"
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 10,
+    "con": 15,
+    "int": 8,
+    "wis": 12,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +16, Ref +10, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (dungeoneering) +4, Knowledge (local) +4, Perception +13, Stealth +8",
+    "list": {
+      "Perception": "+13",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Common",
+    "Gnome",
+    "Sylvan"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 15,
+  "feats": [
+    "Bleeding Critical",
+    "Critical Focus",
+    "Extra Lay on Hands",
+    "Improved Initiative",
+    "Power Attack",
+    "Toughness",
+    "Vital Strike",
+    "Weapon Focus (gnome hooked hammer)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 shock gnome hooked hammer +22/+17/+12 (1d6+7/×3 plus 1d6 electricity)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 light crossbow +17 (1d6+1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Gnome",
+    "class": "paladin 15",
+    "cmb": "+18",
+    "cmd": 30
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Embolotherium",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 91: Battle of Bloodmarch Hills",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 17,
+    "notes": "natural +8, size -1",
+    "touch": 9,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 59,
+    "formula": "7d8+28"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 11,
+    "con": 18,
+    "int": 2,
+    "wis": 13,
+    "cha": 3
+  },
+  "saves": {
+    "text": "Fort +11, Ref +5, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +10, Swim +12",
+    "list": {
+      "Perception": "+10",
+      "Swim": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 5,
+  "feats": [
+    "Diehard",
+    "Endurance",
+    "Great Fortitude",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +12 (2d6+12)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature is reminiscent of a rhinoceros, but instead of pointed horns on its nose, this creature possesses a blunt, bony protrusion.",
+  "meta": {
+    "cmb": "+14",
+    "cmd": "24 (28 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or herd (3-9)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

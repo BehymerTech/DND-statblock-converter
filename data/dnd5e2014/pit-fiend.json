@@ -1,0 +1,116 @@
+{
+  "name": "Pit Fiend",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Large",
+  "type": "fiend",
+  "subtype": "devil",
+  "alignment": "lawful evil",
+  "cr": "20",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": "natural armor"
+  },
+  "hp": {
+    "average": 300,
+    "formula": "24d10 + 168"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 60,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 14,
+    "con": 24,
+    "int": 22,
+    "wis": 18,
+    "cha": 24
+  },
+  "saves": {
+    "text": "dex +8, con +13, wis +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [
+    "cold",
+    "bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered"
+  ],
+  "immunities": [
+    "fire",
+    "poison"
+  ],
+  "conditionImmunities": [
+    "poisoned"
+  ],
+  "senses": [
+    "truesight 120 ft."
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Infernal",
+    "telepathy 120 ft."
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Fear Aura",
+      "text": "Any creature hostile to the pit fiend that starts its turn within 20 feet of the pit fiend must make a DC 21 Wisdom saving throw, unless the pit fiend is incapacitated. On a failed save, the creature is frightened until the start of its next turn. If a creature's saving throw is successful, the creature is immune to the pit fiend's Fear Aura for the next 24 hours."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The pit fiend has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Magic Weapons",
+      "text": "The pit fiend's weapon attacks are magical."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The pit fiend makes four attacks: one with its bite, one with its claw, one with its mace, and one with its tail."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit: 22 (4d6 + 8) piercing damage. The target must succeed on a DC 21 Constitution saving throw or become poisoned. While poisoned in this way, the target can't regain hit points, and it takes 21 (6d6) poison damage at the start of each of its turns. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 17 (2d8 + 8) slashing damage."
+    },
+    {
+      "name": "Mace",
+      "text": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 15 (2d6 + 8) bludgeoning damage plus 21 (6d6) fire damage."
+    },
+    {
+      "name": "Tail",
+      "text": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 24 (3d10 + 8) bludgeoning damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [
+    {
+      "name": "Innate Spellcasting",
+      "text": "The pit fiend's spellcasting ability is Charisma (spell save DC 21). The pit fiend can innately cast the following spells, requiring no material components:"
+    }
+  ],
+  "description": "",
+  "meta": {}
+}

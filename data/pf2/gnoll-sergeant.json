@@ -1,0 +1,118 @@
+{
+  "name": "Gnoll Sergeant",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 179.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Gnoll",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 60,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +12, Ref +10, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +13 (1d20+13); __Intimidation__: +9 (1d20+9); __Stealth__: +11 (1d20+11); __Survival__: +10 (1d20+10); ",
+    "list": {
+      "Athletics": "+13",
+      "Intimidation": "+9",
+      "Stealth": "+11",
+      "Survival": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Gnoll"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "composite shortbow (20 arrows), hide armor, scimitar;"
+    },
+    {
+      "name": "Bark Orders",
+      "text": "⬻ (auditory, linguistic); The gnoll sergeant commands its allies to reposition. Any allies who hear and understand this order can use a reaction to Step."
+    },
+    {
+      "name": "Pack Attack",
+      "text": "A gnoll hunter deals 1d4 (1d4) extra damage to any creature that's within reach of at least two of the gnoll hunter's allies."
+    },
+    {
+      "name": "Rugged Travel",
+      "text": "A gnoll ignores the first square of difficult terrain it moves into each time it Steps or Strides."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ scimitar +14 (forceful, sweep); Damage 1d6+7 (1d6+7) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +14 (agile); Damage 1d6+7 (1d6+7) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ composite shortbow +12 (deadly 1d10, propulsive, range increment 60 feet, reload 0); Damage 1d6+4 (1d6+4) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      2,
+      0,
+      1,
+      0
+    ],
+    "items": "composite shortbow (20 arrows), hide armor, scimitar;"
+  }
+}

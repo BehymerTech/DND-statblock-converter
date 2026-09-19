@@ -1,0 +1,103 @@
+{
+  "name": "Stranglereed",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Pathfinder No. 82: Secrets of the Sphinx",
+  "size": "Large",
+  "type": "plant",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 23,
+    "notes": "dex +5, natural +9, size -1",
+    "touch": 14,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 114,
+    "formula": "12d8+60"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft., climb 10 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 20,
+    "con": 21,
+    "int": 1,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +13, Ref +11, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +15, Escape Artist +7, Perception +10, Stealth +15, Swim +15",
+    "list": {
+      "Climb": "+15",
+      "Escape Artist": "+7",
+      "Perception": "+10",
+      "Stealth": "+15",
+      "Swim": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [],
+  "initiative": "+9",
+  "babOrProficiency": 9,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Lunge",
+    "Skill Focus (Stealth)",
+    "Stealthy",
+    "Weapon Focus (tendrils)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 tendrils +16 (2d8+7 plus grab), bite +15 (1d8+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This tangled mass of thick reeds extends from a bulbous pod split by a wide, thorn-toothed maw.",
+  "meta": {
+    "cmb": "17 (+21 grapple)",
+    "cmd": "32 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm rivers or lakes"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or patch (2-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

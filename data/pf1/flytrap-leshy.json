@@ -1,0 +1,112 @@
+{
+  "name": "Flytrap Leshy",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Small",
+  "type": "plant",
+  "subtype": "leshy, shapechanger",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +2, natural +4, size +1",
+    "touch": 13,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 39,
+    "formula": "6d8+12"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 15,
+    "con": 14,
+    "int": 10,
+    "wis": 15,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +7, Ref +4, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +8, Perception +11, Stealth +6, Survival +0",
+    "list": {
+      "Intimidate": "+8",
+      "Perception": "+11",
+      "Stealth": "+6",
+      "Survival": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Druidic",
+    "Sylvan",
+    "plantspeech (flytraps)"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 4,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +7 (1d4+1 plus 1d4 acid and digest), 2 flytrap hands +7 (1d3+1 plus 1d3 acid and digest)"
+    },
+    {
+      "name": "Ranged",
+      "text": "acidic spittle +7 (1d4 acid and digest)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This cluster of flytraps has a vaguely humanoid shape. The beady eyes atop the largest flytrap glare menacingly.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": 16,
+    "racialModifiers": [
+      "Stealth 4",
+      "Survival 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm marshes or wetlands"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or cluster (4-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "name": "Unrisen",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "dex -1, natural +9",
+    "touch": 9,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 52,
+    "formula": "7d8+21"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 8,
+    "con": "None",
+    "int": 6,
+    "wis": 17,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +5, Ref +3, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +15, Perception +13",
+    "list": {
+      "Climb": "+15",
+      "Perception": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Common (cannot speak)"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 5,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Step Up"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +10 (1d4+5), 2 claws +10 (1d4+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This grotesque tangle of twisted bones, decayed flesh, and rotted organs is shaped into a vague parody of the human form.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": 19,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or blasphemy (3-14)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

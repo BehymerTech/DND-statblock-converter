@@ -1,0 +1,103 @@
+{
+  "name": "Ardoc Moilant",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 135: Runeplague",
+  "size": "Huge",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 24,
+    "notes": "natural +16, size -2",
+    "touch": 8,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 124,
+    "formula": "13d10+53"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 11,
+    "con": "None",
+    "int": 10,
+    "wis": 18,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +6, Ref +4, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (engineering) +13, Perception +17",
+    "list": {
+      "Perception": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 13,
+  "feats": [
+    "Great Fortitude",
+    "Improved Sunder",
+    "Iron Will",
+    "Lunge",
+    "Power Attack",
+    "Toughness",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +21 (2d6+15/19-20), 2 vise-pincers +21 (1d8+10 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This massive metallic biped stands on thick legs. A wide, serrated shovel serves as the brute’s head, and iron pincers at the ends of its powerful arms snap open and shut.",
+  "meta": {
+    "cmb": "25 (+29 grapple, +27 sunder)",
+    "cmd": "35 (37 vs. bull rush, reposition, sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or fleet (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Quickling",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Small",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 20,
+    "notes": "dex +7, dodge +1, natural +1, size +1",
+    "touch": 19,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 18,
+    "formula": "4d6+4"
+  },
+  "speed": {
+    "walk": 120,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "120 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 24,
+    "con": 13,
+    "int": 15,
+    "wis": 15,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +2, Ref +11, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +14, Bluff +9, Craft (any one) +9, Escape Artist +14, Perception +9, Spellcraft +6, Stealth +18, Survival +4, Use Magic Device +7",
+    "list": {
+      "Acrobatics": "+14",
+      "Bluff": "+9",
+      "Escape Artist": "+14",
+      "Perception": "+9",
+      "Spellcraft": "+6",
+      "Stealth": "+18",
+      "Survival": "+4",
+      "Use Magic Device": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 2,
+  "feats": [
+    "Dodge",
+    "Mobility",
+    "Spring Attack",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "short sword +10 (1d4-1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature resembles a short and slight elf wearing drab clothes and a wicked grin. In a blink, the thing darts from sight.",
+  "meta": {
+    "cmb": "+0",
+    "cmd": 18,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, gang (2-5), or band (4-11 plus one advanced leader)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (blue whinnis poison [4 doses], Small short sword, other treasure)"
+      }
+    ]
+  }
+}

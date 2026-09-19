@@ -1,0 +1,92 @@
+{
+  "name": "NPC Cautious Mage",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 15,
+    "notes": "armor +4, dex +1",
+    "touch": 11,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 9,
+    "formula": "1d6+3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 13,
+    "con": 14,
+    "int": 17,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +2, Ref +1, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (arcana) +7, Knowledge (history) +7, Knowledge (planes) +7, Linguistics +7, Perception +4, Sense Motive +3, Spellcraft +7",
+    "list": {
+      "Linguistics": "+7",
+      "Perception": "+4",
+      "Sense Motive": "+3",
+      "Spellcraft": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 14,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Elven",
+    "Infernal"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 0,
+  "feats": [
+    "Alertness",
+    "Combat Casting",
+    "Improved Initiative",
+    "Scribe Scroll"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "quarterstaff +0 (1d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "wizard 1",
+    "cmb": "+0",
+    "cmd": 11
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Leopard",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 52.",
+  "size": "Medium",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 30,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, climb 20 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 18,
+    "con": 14,
+    "int": 2,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +8, Ref +10, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Athletics__: +7 (1d20+7); __Stealth__: +8 (1d20+8), (Stealth: +11 (1d20+11) in undergrowth); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Athletics": "+7",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Maul",
+      "text": "⬻ The leopard makes two claw Strikes against a creature it has grabbed. Both count toward its multiple attack penalty, but the penalty increases only after both attacks are made."
+    },
+    {
+      "name": "Pounce",
+      "text": "⬻ The leopard Strides and makes a Strike at the end of that movement. If the leopard began this action hidden, it remains hidden until after this ability's Strike."
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "The leopard deals 1d4 (1d4) extra precision damage to flat-footed creatures."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +10 (finesse); Damage 1d10+3 (1d10+3) piercing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +10 (agile, finesse); Damage 1d6+3 (1d6+3) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      4,
+      2,
+      -4,
+      1,
+      -2
+    ]
+  }
+}

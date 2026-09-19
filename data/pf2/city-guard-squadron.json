@@ -1,0 +1,108 @@
+{
+  "name": "City Guard Squadron",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 47.",
+  "size": "Gargantuan",
+  "type": "Troop",
+  "subtype": "Human, Humanoid",
+  "alignment": "LN",
+  "cr": null,
+  "level": "Creature 5",
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 75,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet; troop movement;"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 10,
+    "con": 16,
+    "int": 10,
+    "wis": 14,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +14, Ref +9, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +14 (1d20+14); __Intimidation__: +11 (1d20+11); __Settlement lore__: +9 (1d20+9); ",
+    "list": {
+      "Athletics": "+14",
+      "Intimidation": "+11",
+      "Settlement lore": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 22,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Seek Quarry",
+      "text": "City guards can spend 1 minute to designate a single creature for whom they have a physical description as their quarry. They gain a +2 circumstance bonus to Perception against their quarry."
+    },
+    {
+      "name": "Troop Defenses",
+      "text": ""
+    },
+    {
+      "name": "Fire Crossbows!",
+      "text": "⬺ The city guards draw or reload their crossbows, then launch a ranged attack in the form of a volley. This volley is a 10-foot burst within 120 feet that deals 3d8 (3d8) piercing damage (DC 19 basic Reflex save). When the city guards are reduced to 8 or fewer squares, this area decreases to a 5-foot burst."
+    },
+    {
+      "name": "Form Up",
+      "text": "⬻"
+    },
+    {
+      "name": "Lower Halberds!",
+      "text": "⬻ to ⬽ Frequency once per round Effect The city guards engage in a coordinated melee attack against each enemy within 10 feet, with a DC 19 basic Reflex save. The damage depends on the number of actions. ⬻ 1d10 (1d10) piercing or slashing damage ⬺ 1d10+7 (1d10+7) piercing or slashing damage ⬽ 1d10+10 (1d10+10) piercing or slashing damage."
+    },
+    {
+      "name": "Troop Movement",
+      "text": "Whenever the city guards Stride, they first Form Up as a free action to condense into a 20-foot-by-20-foot area (minus any missing squares), then move up to their Speed. This works just like a Gargantuan creature moving; for instance, if any square of the guards enters difficult terrain, the extra movement cost applies to all the guards."
+    },
+    {
+      "name": "Urban Chasers",
+      "text": "City guards ignore difficult terrain (but not greater difficult terrain) caused by crowds or from movement through narrow spaces such as alleyways."
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      0,
+      3,
+      0,
+      2,
+      2
+    ]
+  }
+}

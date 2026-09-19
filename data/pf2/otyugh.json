@@ -1,0 +1,107 @@
+{
+  "name": "Otyugh",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 258.",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": ""
+  },
+  "hp": {
+    "average": 70,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 14,
+    "con": 18,
+    "int": 6,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +12, Ref +8, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Athletics__: +14 (1d20+14); __Stealth__: +8 (1d20+8), (Stealth: +11 (1d20+11) in lair); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Athletics": "+14",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Stench",
+      "text": "(aura, olfactory); 40 feet. A creature entering the aura must succeed at a DC 20 Fortitude save or be sickened 1 (plus slowed 1 for the same duration on a critical failure). On a success, the creature is temporarily immune to the sickened and slowed effects of this stench for 1 hour. Regardless of the save, while within the aura, creatures take a –2 circumstance penalty to saves against diseases. An otyugh's stench is due to the offal and refuse that it wallows in, so cleaning the creature thoroughly (with create water and sufficient scrubbing, for example) deactivates the aura, while a sufficiently plugged nose allows an individual to avoid exposure to the stench."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 1d6+6 (1d6+6) bludgeoning, DC 22."
+    },
+    {
+      "name": "Reposition",
+      "text": "⬻ The otyugh attempts to move all creatures that it has grabbed into other spaces within the reach of its tentacles, rolling a single Athletics check and comparing the result against each creature's Fortitude DC. On a failure, the creature remains in place, and on a critical failure, the creature is no longer grabbed."
+    },
+    {
+      "name": "Filth Fever",
+      "text": "(disease); Saving Throw DC 20 Fortitude. Stage 1 carrier with no ill effect (1d4 (1d4) hours) Stage 2 sickened 1 (1 day) Stage 3 sickened 1 and slowed 1 as long as it remains sickened (1 day) Stage 4 unconscious ; (1 day)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +14 Damage 2d6+6 (2d6+6) piercing plus filth fever"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tentacle +14 (agile, reach 10 feet); Damage 1d6+6 (1d6+6) bludgeoning plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      2,
+      4,
+      -2,
+      2,
+      -2
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Pard",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Medium",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 20,
+    "notes": "dex +7, dodge +1, natural +2",
+    "touch": 18,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 26,
+    "formula": "4d10+4"
+  },
+  "speed": {
+    "walk": 120,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "120 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 24,
+    "con": 12,
+    "int": 4,
+    "wis": 13,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +5, Ref +11, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Perception +6, Stealth +15",
+    "list": {
+      "Acrobatics": "+15",
+      "Perception": "+6",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "telepathy (empathy) 60 ft."
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 4,
+  "feats": [
+    "Dodge",
+    "Mobility",
+    "Spring Attack",
+    "Weapon Finesse",
+    "Wind Stance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +12 (1d6+2), 2 claws +7 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This brightly-colored feline blur resembles a cheetah with longer fur and lynx-like ears, and seems to scorch the air as it moves.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": "24 (28 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm forests or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or den (1-2 adults and 1-4 cubs)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

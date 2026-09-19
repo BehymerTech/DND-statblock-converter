@@ -1,0 +1,106 @@
+{
+  "name": "Dandasuka",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 274.",
+  "size": "Small",
+  "type": "Rakshasa",
+  "subtype": "Fiend",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 5",
+  "xp": null,
+  "ac": {
+    "value": 23,
+    "notes": ""
+  },
+  "hp": {
+    "average": 60,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, climb 20 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 18,
+    "con": 16,
+    "int": 12,
+    "wis": 12,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +12, Ref +13, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +13 (1d20+13); __Deception__: +14 (1d20+14); __Stealth__: +13 (1d20+13); __Thievery__: +13 (1d20+13); ",
+    "list": {
+      "Acrobatics": "+13",
+      "Deception": "+14",
+      "Stealth": "+13",
+      "Thievery": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Common",
+    "Infernal",
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Thievery",
+      "text": "+13 Str +1, Dex +4, Con +3, Int +1, Wis +1, Cha +3."
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, occult, polymorph, transmutation); The dandasuka takes on the appearance of any Small humanoid. This doesn't change the dandasuka's Speed or its attack and damage modifiers with its Strikes, but it might change the damage type its Strikes deal (typically to bludgeoning). It typically loses its fangs Strike unless the humanoid form has fangs or a similar unarmed attack."
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "The dandasuka deals an extra 1d6 (1d6) precision damage to flat-footed creatures."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +15 (finesse, magical); Damage 2d6+4 (2d6+4) piercing plus 1d6 (1d6) persistent bleed"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +15 (agile, finesse, magical); Damage 2d4+4 (2d4+4) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      4,
+      3,
+      1,
+      1,
+      3
+    ]
+  }
+}

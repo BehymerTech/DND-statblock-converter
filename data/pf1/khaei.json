@@ -1,0 +1,105 @@
+{
+  "name": "Khaei",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Bestiary",
+  "size": "Small",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex +1, natural +3, size +1",
+    "touch": 12,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d10+8"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 13,
+    "con": 14,
+    "int": 7,
+    "wis": 10,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +3, Ref +5, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +7, Stealth +16",
+    "list": {
+      "Perception": "+7",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Undercommon"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 4,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "club +5 (1d4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "sling +6 (1d3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This short, stunted humanoid is bald and has weirdly twisted limbs, its body seeming to fade and come apart at the edges.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": 14,
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground (beneath Kaer Maga)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, gang (3-5), or village (6-30)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "name": "Sahuagin Baron",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "aquatic",
+  "alignment": "LE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 25,
+    "notes": "armor +7, dex +3, natural +5",
+    "touch": 13,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 101,
+    "formula": "9d10+52"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 16,
+    "con": 21,
+    "int": 16,
+    "wis": 13,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +11, Ref +9, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +12, Intimidate +10, Knowledge (nobility) +12, Perception +13, Ride +14, Sense Motive +10, Swim +18",
+    "list": {
+      "Climb": "+12",
+      "Intimidate": "+10",
+      "Perception": "+13",
+      "Ride": "+14",
+      "Sense Motive": "+10",
+      "Swim": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Aquan",
+    "Common",
+    "Infernal",
+    "speak with sharks"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 9,
+  "feats": [
+    "Blood Tide",
+    "Combat Expertise",
+    "Greater Blood Frenzy",
+    "Improved Critical (claw)",
+    "Lunge",
+    "Multiattack",
+    "Power Attack",
+    "Weapon Focus (claw)",
+    "Weapon Specialization (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk trident +17/+12 (1d8+7), claw +16 (1d4+6/19-20 plus 1d6 cold), bite +15 (1d4+4 plus 1d6 cold)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk underwater heavy crossbow +13 (1d10/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Sahuagin",
+    "class": "fighter 7",
+    "cmb": "+16",
+    "cmd": 32,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm ocean"
+      }
+    ]
+  }
+}

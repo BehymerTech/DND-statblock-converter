@@ -1,0 +1,107 @@
+{
+  "name": "Maftet",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Pathfinder No. 15: The Armageddon Echo",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 20,
+    "notes": "armor +4, dex +3, natural +3",
+    "touch": 13,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 68,
+    "formula": "8d10+24"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (poor)"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 17,
+    "con": 16,
+    "int": 10,
+    "wis": 15,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +5, Ref +9, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +10, Knowledge (history) +8, Perception +13, Stealth +18",
+    "list": {
+      "Fly": "+10",
+      "Perception": "+13",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Common",
+    "Sphinx"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 8,
+  "feats": [
+    "Combat Reflexes",
+    "Double Slice",
+    "Improved Two-Weapon Fighting",
+    "Two-Weapon Fighting",
+    "Weapon Focus (scimitar)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk scimitar +11/+11/+6/+6 (1d6+3/18-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Broad hawk wings support this creature with the torso of a bronze-skinned human and the lower body of a tawny, bipedal lion.",
+  "meta": {
+    "cmb": "+11",
+    "cmd": 24,
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate and warm deserts and mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pride (6-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (2 masterwork scimitars, other treasure)"
+      }
+    ]
+  }
+}

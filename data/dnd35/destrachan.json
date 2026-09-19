@@ -1,0 +1,104 @@
+{
+  "name": "Destrachan",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "Usually neutral evil",
+  "cr": "8",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": "-1 size, +1 Dex, +8 natural",
+    "touch": 10,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 60,
+    "formula": "8d8+24"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares)"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 16,
+    "int": 12,
+    "wis": 18,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +5, Ref +5, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Hide +8, Listen +25, Move Silently +7, Survival +9;",
+    "list": {
+      "Hide": "+8",
+      "Listen": "+25",
+      "Move Silently": "+7",
+      "Survival": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Blindsight 100 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 6,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Lightning Reflexes"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Destructive harmonics"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Blindsight 100 ft., immunities, protection from sonics"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Claw +9 melee (1d6+4)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +9 melee (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "The dungeon-dwelling destrachan looks like some bizarre, nonintelligent beast, but it's an incredibly evil and crafty sadist. A destrachan has a pair of complex, three-part ears that it can adjust to be more or less sensitive to various sounds. It is blind, yet hunts with a sense of hearing more precise than most creatures' sight.",
+    "grapple": "+14",
+    "spaceReach": "10 ft./5 ft.",
+    "environment": "Underground",
+    "organization": "Solitary or pack (3-5)",
+    "treasure": "None",
+    "advancement": "9-16 HD (Large); 17-24 HD (Huge)",
+    "leveladjustment": "---"
+  }
+}

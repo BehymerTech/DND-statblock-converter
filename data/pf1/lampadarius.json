@@ -1,0 +1,107 @@
+{
+  "name": "Lampadarius",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Gods",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "evil, extraplanar, kyton, lawful",
+  "alignment": "LE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 16,
+    "notes": "dex +2, dodge +1, natural +3",
+    "touch": 13,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 37,
+    "formula": "5d10+10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 15,
+    "con": 14,
+    "int": 11,
+    "wis": 10,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +6, Ref +3, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Heal +8, Intimidate +9, Knowledge (arcana) +8, Knowledge (planes) +8, Perception +8, Stealth +14",
+    "list": {
+      "Heal": "+8",
+      "Intimidate": "+9",
+      "Perception": "+8",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Infernal",
+    "Shadowtongue"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 5,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +5 (1d6), incorporeal touch +5 (1d6 Strength damage)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Ragged wounds on one side of this leather-clad humanoid’s face and body mark the transition between flesh and shifting shadowstuff.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": 18,
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Shadow Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or choir (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

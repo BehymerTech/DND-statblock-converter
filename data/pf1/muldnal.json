@@ -1,0 +1,111 @@
+{
+  "name": "Muldnal",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 117: Assault on Longshadow",
+  "size": "Small",
+  "type": "outsider",
+  "subtype": "agathion, extraplanar, good",
+  "alignment": "NG",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 14,
+    "notes": "dex -1, natural +4, size +1",
+    "touch": 10,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 38,
+    "formula": "4d10+16"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., burrow 40 ft."
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 9,
+    "con": 19,
+    "int": 10,
+    "wis": 20,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +8, Ref +3, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (traps) +11, Knowledge (engineering) +11, Knowledge (nature) +7, Perception +12, Stealth +10, Survival +12",
+    "list": {
+      "Perception": "+12",
+      "Stealth": "+10",
+      "Survival": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect snares and pits",
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "speak with animals",
+    "truespeech"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 4,
+  "feats": [
+    "Bludgeoner",
+    "Vermin Heart"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk quarterstaff +6 (1d4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This diminutive, small-eyed creature is covered in dense, charcoal-gray fur and wears a dirt-stained smock; its pink nose twitches ceaselessly.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": 12,
+    "racialModifiers": [
+      "Craft (traps) 4",
+      "Knowledge (engineering) 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground (Nirvana)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or labor (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

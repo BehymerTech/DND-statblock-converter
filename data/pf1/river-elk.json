@@ -1,0 +1,97 @@
+{
+  "name": "River Elk",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 31: Stolen Land",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 13,
+    "notes": "dex +2, natural +2, size -1",
+    "touch": 11,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 25,
+    "formula": "3d8+12"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 15,
+    "con": 18,
+    "int": 2,
+    "wis": 15,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +7, Ref +7, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +8, Swim +11",
+    "list": {
+      "Perception": "+8",
+      "Swim": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 18,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 2,
+  "feats": [
+    "Endurance",
+    "Lightning Reflexes",
+    "Run"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +4 (1d8+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This majestic beast stands the height of a man at its shoulders, a many-tipped rack of proud antlers crowning its head.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": "18 (22 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold or temperate plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or herd (3-50)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

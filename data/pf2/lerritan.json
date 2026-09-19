@@ -1,0 +1,121 @@
+{
+  "name": "Lerritan",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 159.",
+  "size": "Gargantuan",
+  "type": "Fire",
+  "subtype": "Earth, Elemental",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 21",
+  "xp": null,
+  "ac": {
+    "value": 46,
+    "notes": ""
+  },
+  "hp": {
+    "average": 490,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 feet"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 20,
+    "con": 24,
+    "int": 14,
+    "wis": 24,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +38, Ref +34, Will +36",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +41 (1d20+41); __Crafting__: +33 (1d20+33); __Intimidation__: +35 (1d20+35); __Religion__: +36 (1d20+36); __Survival__: +38 (1d20+38); ",
+    "list": {
+      "Athletics": "+41",
+      "Crafting": "+33",
+      "Intimidation": "+35",
+      "Religion": "+36",
+      "Survival": "+38"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 45,
+  "languages": [
+    "Common",
+    "Ignan",
+    "Jotun",
+    "Terran"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Tenacious Flames",
+      "text": "(aura, evocation, fire, primal); 100 feet. Creatures in the emanation cannot recover from persistent fire damage."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "+3 greater striking warhammer;"
+    },
+    {
+      "name": "Throw Rock",
+      "text": "⬻ A lerritan can break stony scales off its body to throw; these scales reform at the end of each round, so the lerritan is never without a supply of rocks to hurl."
+    },
+    {
+      "name": "Volcanic Eruption",
+      "text": "⬺ (earth, evocation, fire, primal); The volcano on the lerritan's back erupts and sends lava bombs raining down in a 30-foot emanation, dealing 12d12 (12d12) fire damage. Each creature in the area must attempt a DC 46 Reflex saving throw. The lava globules quickly cool into heavy stones, transforming the area into greater difficult terrain for non-lerritans. The lerritan can't use Volcanic Eruption for 1d4 (1d4) rounds. Critical Success The creature is unaffected. Success The creature takes half damage and is encumbered for 1 round. Failure The creature takes full damage and is immobilized (Escape DC 46). Critical Failure The creature takes double damage and is encased in a rocky crust with lava on the inside. The creature is restrained (Escape DC 46), can't breathe, takes 3d12 (3d12) persistent fire damage, and can't recover from this persistent fire damage until freed."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ warhammer +40 (magical, reach 25 feet, shove); Damage 4d12+18 (4d12+18) bludgeoning plus 2d6 (2d6) persistent fire damage"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +39 (agile, reach 25 feet); Damage 4d10+18 (4d10+18) piercing plus 2d6 (2d6) persistent fire damage"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ rock +39 (brutal, range increment 120 feet); Damage 4d6+18 (4d6+18) bludgeoning plus 2d6 (2d6) persistent fire"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      10,
+      5,
+      7,
+      2,
+      7,
+      4
+    ],
+    "items": "+3 greater striking warhammer;"
+  }
+}

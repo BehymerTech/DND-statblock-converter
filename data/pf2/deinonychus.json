@@ -1,0 +1,97 @@
+{
+  "name": "Deinonychus",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 97.",
+  "size": "Medium",
+  "type": "Dinosaur",
+  "subtype": "Animal",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 30,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 18,
+    "int": 2,
+    "wis": 12,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +10, Ref +9, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Athletics__: +9 (1d20+9), (Athletics: +12 (1d20+12) jumping); __Stealth__: +7 (1d20+7); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Athletics": "+12",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Darting Attack",
+      "text": "⬻ The deinonychus Strides up to 10 feet and then makes a Strike, or makes a Strike and then Strides up to 10 feet."
+    },
+    {
+      "name": "Predator's Advantage",
+      "text": "Bleeding creatures are flat-footed to the deinonychus."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +9 Damage 2d6+3 (2d6+3) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ talon +9 (agile); Damage 1d6+3 (1d6+3) slashing plus 1d4 (1d4) bleed"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      3,
+      4,
+      -4,
+      1,
+      2
+    ]
+  }
+}

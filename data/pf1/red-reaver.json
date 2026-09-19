@@ -1,0 +1,110 @@
+{
+  "name": "Red Reaver",
+  "sourceSystem": "pf1",
+  "source": "Curse of the Crimson Throne (PFRPG), Pathfinder No. 10: A History of Ashes",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 29,
+    "notes": "dex -2, natural +22, size -1",
+    "touch": 7,
+    "flatFooted": 29
+  },
+  "hp": {
+    "average": 184,
+    "formula": "16d10+96"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 20 ft. (clumsy)"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 6,
+    "con": 23,
+    "int": 3,
+    "wis": 13,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +16, Ref +8, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly -1, Perception +8, Survival +8",
+    "list": {
+      "Fly": "-1",
+      "Perception": "+8",
+      "Survival": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Giant (cannot speak)"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 16,
+  "feats": [
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Iron Will",
+    "Power Attack",
+    "Skill Focus (Survival)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +24 (2d6+9/19-20), 2 claws +24 (1d8+9)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Its stooped stance evoking a gorilla-like frame, this massive beast has six tiny eyes and atrophied wings.",
+  "meta": {
+    "cmb": "26 (+28 bull rush)",
+    "cmd": "34 (36 vs. bull rush)",
+    "racialModifiers": [
+      "Perception 8",
+      "Survival 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate hills"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

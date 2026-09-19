@@ -1,0 +1,100 @@
+{
+  "name": "Grimlock",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Monstrous Humanoid",
+  "subtype": "",
+  "alignment": "Often neutral evil",
+  "cr": "1",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "+1 Dex, +4 natural",
+    "touch": 11,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 11,
+    "formula": "2d8+2"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares)"
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 13,
+    "con": 13,
+    "int": 10,
+    "wis": 8,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +1, Ref +4, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +4, Hide +3\\*, Listen +5, Spot +3;",
+    "list": {
+      "Climb": "+4",
+      "Hide": "+3",
+      "Listen": "+5",
+      "Spot": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Blindsight 40 ft.",
+    "scent"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Alertness",
+    "Track (B)"
+  ],
+  "traits": [
+    {
+      "name": "Special Qualities",
+      "text": "Blindsight 40 ft., immunities, scent"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Battleaxe +4 melee (1d8+3/3)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Battleaxe +4 melee (1d8+3/3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "#### Combat",
+    "grapple": "+4",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Underground",
+    "organization": "Gang (2-4), pack (10-20), tribe (10-60 plus 1 leader of 3rd-5th level per 10 adults).",
+    "treasure": "Standard coins; standard goods (gems only); standard items",
+    "advancement": "By character class",
+    "leveladjustment": "+2"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "name": "Mythic Mature Adult Black Dragon",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "mythic, water",
+  "alignment": "CE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 37,
+    "notes": "dex +1, natural +27, size -1",
+    "touch": 10,
+    "flatFooted": 36
+  },
+  "hp": {
+    "average": 260,
+    "formula": "16d12+156"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 200 ft. (poor), swim 60 ft."
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 12,
+    "con": 23,
+    "int": 14,
+    "wis": 17,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +16, Ref +11, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +14, Handle Animal +19, Intimidate +22, Knowledge (arcana) +21, Perception +26, Sense Motive +5, Spellcraft +21, Stealth +22, Swim +36",
+    "list": {
+      "Fly": "+14",
+      "Handle Animal": "+19",
+      "Intimidate": "+22",
+      "Perception": "+26",
+      "Sense Motive": "+5",
+      "Spellcraft": "+21",
+      "Stealth": "+22",
+      "Swim": "+36"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "low-light vision",
+    "mistsight"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Giant"
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 16,
+  "feats": [
+    "Alertness",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Power Attack",
+    "Skill Focus (Stealth)",
+    "Vital Strike",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +26 (2d6+13 plus grab), 2 claws +24 (1d8+9 plus bleed), tail slap +19 (1d8+13 plus bleed), 2 wings +19 (1d6+4 plus bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "26 (+30 grapple)",
+    "cmd": "37 (41 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm marshes"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

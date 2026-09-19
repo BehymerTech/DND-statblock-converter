@@ -1,0 +1,116 @@
+{
+  "name": "Spine Dragon",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea World Guide",
+  "size": "Gargantuan",
+  "type": "dragon",
+  "subtype": "earth",
+  "alignment": "CN",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 31,
+    "notes": "dex +2, dodge +1, natural +22, size -4",
+    "touch": 9,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 248,
+    "formula": "16d12+144"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 15,
+    "con": 29,
+    "int": 16,
+    "wis": 22,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +19, Ref +12, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +22, Bluff +23, Fly +15, Intimidate +23, Knowledge (engineering) +22, Knowledge (nature) +22, Perception +25, Sense Motive +25, Stealth +9",
+    "list": {
+      "Appraise": "+22",
+      "Bluff": "+23",
+      "Fly": "+15",
+      "Intimidate": "+23",
+      "Perception": "+25",
+      "Sense Motive": "+25",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 16,
+  "feats": [
+    "Awesome Blow",
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Bull Rush",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Precise Shot",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +23 (2d8+11), claws +23 (2d6+11), tail slap +18 (2d8+16)"
+    },
+    {
+      "name": "Ranged",
+      "text": "4 spines +14 (2d8+11)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This dragon bears a forest of razor-sharp crystalline spines. Its wings are transparent and seem almost to be made of glass.",
+  "meta": {
+    "cmb": "+31",
+    "cmd": 44,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate hills"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

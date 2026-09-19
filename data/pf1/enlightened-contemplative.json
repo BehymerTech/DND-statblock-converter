@@ -1,0 +1,110 @@
+{
+  "name": "Enlightened Contemplative",
+  "sourceSystem": "pf1",
+  "source": "Occult Bestiary",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 16,
+    "notes": "deflection +5, dex +1",
+    "touch": 16,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 40,
+    "formula": "9d10-9"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 40 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 12,
+    "con": 9,
+    "int": 26,
+    "wis": 17,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +4, Ref +7, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +14, Diplomacy +14, Fly +21, Knowledge (arcana) +17, Knowledge (geography) +17, Knowledge (history) +17, Knowledge (planes) +17, Linguistics +17, Perception +17, Sense Motive +14, Spellcraft +17, Stealth +13",
+    "list": {
+      "Bluff": "+14",
+      "Diplomacy": "+14",
+      "Fly": "+21",
+      "Linguistics": "+17",
+      "Perception": "+17",
+      "Sense Motive": "+14",
+      "Spellcraft": "+17",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision",
+    "thoughtsense"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "telepathy 300 ft.",
+    "tongues"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 9,
+  "feats": [
+    "Alertness",
+    "Combat Casting",
+    "Flyby Attack",
+    "Great Fortitude",
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +9 (1d4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Resembling an enlarged brain with an atrophied humanoid body attached, this floating creature pulses with energy.",
+  "meta": {
+    "cmb": "+9",
+    "cmd": 25,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any urban"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, band (2-5), or entourage (1 plus 2-4 contemplatives)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

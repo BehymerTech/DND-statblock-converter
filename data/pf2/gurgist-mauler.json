@@ -1,0 +1,128 @@
+{
+  "name": "Gurgist Mauler",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 175.",
+  "size": "Medium",
+  "type": "Mortic",
+  "subtype": "Human, Humanoid",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 23,
+    "notes": ""
+  },
+  "hp": {
+    "average": 120,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": 18,
+    "int": 16,
+    "wis": 18,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +14, Ref +12, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +13 (1d20+13); __Athletics__: +17 (1d20+17); __Crafting__: +15 (1d20+15); __Deception__: +14 (1d20+14); __Medicine__: +12 (1d20+12); __Performance__: +12 (1d20+12); ",
+    "list": {
+      "Arcana": "+13",
+      "Athletics": "+17",
+      "Crafting": "+15",
+      "Deception": "+14",
+      "Medicine": "+12",
+      "Performance": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Necril"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Nourishing Feast",
+      "text": "The gurgist spends 1 hour consuming 1 Bulk of raw meat to reverse their body's putrescence. For 1 hour, the gurgist appears to be a pale, bloated human. They have an automatic result of 32 on Deception checks and DCs to pass as a non-mortic human. While under the effects of Nourishing Feast, Rotting Flesh ceases to function."
+    },
+    {
+      "name": "Items",
+      "text": "composite shortbow (20 arrows), hide armor, +1 maul;"
+    },
+    {
+      "name": "Consecration Vulnerability",
+      "text": "An angheuvore in a place of worship dedicated to a non-evil deity or on sacred ground, such as an area blessed by sanctified ground, is slowed 1."
+    },
+    {
+      "name": "Rotting Flesh",
+      "text": "Any creature that hits the gurgist with an unarmed attack, tries to Grapple them, or otherwise touches the gurgist is covered with rotten flesh and putrid fluids. The creature must succeed at a DC 22 Fortitude save or become sickened 1 (sickened 2 on a critical failure)."
+    },
+    {
+      "name": "Calculated Blow",
+      "text": "⬺ The gurgist makes a melee Strike, aiming for their target's weak points and taking their time to line up a precise blow. If this Strike hits, the gurgist deals an additional 1d8 (1d8) precision damage, and the target must succeed at a DC 23 Fortitude save or become clumsy 2 for 1 minute."
+    },
+    {
+      "name": "Death Gasp",
+      "text": "As angheuvore flesh-gnawer, except up to 9 rounds."
+    },
+    {
+      "name": "Tackle",
+      "text": "⬺ The gurgist Strides twice and then attempts to Grapple a creature. On a success, the target is also knocked prone."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ maul +18 (magical, shove); Damage 1d12+8 (1d12+8) bludgeoning plus Knockdown (page 305)"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +17 (agile); Damage 1d8+8 (1d8+8) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ composite shortbow +14 (deadly d10, propulsive, range increment 60 feet); Damage 1d6+5 (1d6+5) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      2,
+      4,
+      3,
+      4,
+      2
+    ],
+    "items": "composite shortbow (20 arrows), hide armor, +1 maul;"
+  }
+}

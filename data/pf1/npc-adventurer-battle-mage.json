@@ -1,0 +1,97 @@
+{
+  "name": "NPC Adventurer (Battle Mage)",
+  "sourceSystem": "pf1",
+  "source": "GameMastery Guide",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 16,
+    "notes": "mage armor +4, dex +2",
+    "touch": 12,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 33,
+    "formula": "6d6+12"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 9,
+    "dex": 14,
+    "con": 12,
+    "int": 17,
+    "wis": 10,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +3, Ref +4, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (Armor) +10, Craft (Weapons) +10, Fly +11, Knowledge (arcana) +12, Knowledge (engineering) +7, Knowledge (geography) +7, Knowledge (history) +7, Perception +6, Ride +6, Spellcraft +12",
+    "list": {
+      "Fly": "+11",
+      "Perception": "+6",
+      "Ride": "+6",
+      "Spellcraft": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 16,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Elven",
+    "Giant"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 3,
+  "feats": [
+    "Combat Casting",
+    "Craft Wand",
+    "Defensive Combat Training",
+    "Improved Initiative",
+    "Scribe Scroll",
+    "Spell Focus (evocation)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +2 (1d4-1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +5 (1d4-1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "evoker 6",
+    "cmb": "+2",
+    "cmd": 17
+  }
+}

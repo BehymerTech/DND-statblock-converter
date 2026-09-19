@@ -1,0 +1,111 @@
+{
+  "name": "Charau-ka",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea World Guide",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "charau-ka",
+  "alignment": "CE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 14,
+    "notes": "dex +1, natural +2, size +1",
+    "touch": 12,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d8+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 13,
+    "con": 14,
+    "int": 8,
+    "wis": 12,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +3, Ref +4, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +14, Fly +0, Perception +2, Stealth +10",
+    "list": {
+      "Climb": "+14",
+      "Fly": "+0",
+      "Perception": "+2",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Abyssal",
+    "Polyglot"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Throw Anything"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "club +5 (1d4+3), bite +0 (1d3+1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +5 (1d4+2/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This limber, shrieking creature has the visage of an enraged monkey, but it walks upright like a man.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": 14,
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, patrol (3-8), or tribe (9-20 plus 1-3 dire apes, 1-3 fighter sub-chieftains of 2nd level, 1 cleric of Angazhan of 3rd-5th level, and 1 chieftain of any class of 4th-8th level)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

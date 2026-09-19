@@ -1,0 +1,129 @@
+{
+  "name": "Yig",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Large",
+  "type": "monstrous humanoid",
+  "subtype": "chaotic, Great Old One, shapechanger",
+  "alignment": "CN",
+  "cr": "27",
+  "level": null,
+  "xp": 3276800,
+  "ac": {
+    "value": 45,
+    "notes": "dex +11, insight +10, natural +15, size -1",
+    "touch": 30,
+    "flatFooted": 34
+  },
+  "hp": {
+    "average": 635,
+    "formula": "31d10+465"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., other_semicolon air walk ft., climb 60 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 38,
+    "dex": 33,
+    "con": 41,
+    "int": 30,
+    "wis": 33,
+    "cha": 30
+  },
+  "saves": {
+    "text": "Fort +27, Ref +28, Will +28",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +42, Climb +56, Handle Animal +41, Heal +42, Intimidate +44, Knowledge (nature) +41, Knowledge (religion) +41, Perception +45, Sense Motive +42, Spellcraft +41, Stealth +41, Survival +45, Swim +56, Use Magic Device +41",
+    "list": {
+      "Acrobatics": "+42",
+      "Climb": "+56",
+      "Handle Animal": "+41",
+      "Heal": "+42",
+      "Intimidate": "+44",
+      "Perception": "+45",
+      "Sense Motive": "+42",
+      "Spellcraft": "+41",
+      "Stealth": "+41",
+      "Survival": "+45",
+      "Swim": "+56",
+      "Use Magic Device": "+41"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 55,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Draconic",
+    "Undercommon",
+    "speak with animals (reptiles only)",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+25",
+  "babOrProficiency": 31,
+  "feats": [
+    "Bleeding Critical",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Great Fortitude",
+    "Greater Sunder",
+    "Greater Vital Strike",
+    "Improved Critical (bite)",
+    "Improved Critical (claw)",
+    "Improved Critical (tail slap)",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Improved Vital Strike",
+    "Power Attack",
+    "Quicken Spell-Like Ability (feeblemind)",
+    "Quicken Spell-Like Ability (poison)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +44 (6d10+21/19-20 plus poison), 2 claws +44 (4d8+21/19-20), tail slap +44 (4d10+21/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This green-scaled humanoid has a long, serpentine neck and head, and its brow is marked by a distinctive crescent shape.",
+  "meta": {
+    "cmb": "46 (+50 sunder)",
+    "cmd": "77 (79 vs. sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

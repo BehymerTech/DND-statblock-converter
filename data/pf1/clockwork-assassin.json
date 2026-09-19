@@ -1,0 +1,106 @@
+{
+  "name": "Clockwork Assassin",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "construct",
+  "subtype": "clockwork",
+  "alignment": "N",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 27,
+    "notes": "dex +8, dodge +2, natural +7",
+    "touch": 20,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 119,
+    "formula": "18d10+20"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 26,
+    "con": "None",
+    "int": "None",
+    "wis": 11,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +6, Ref +16, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +14, Perception +0",
+    "list": {
+      "Climb": "+14",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "mistsight"
+  ],
+  "passivePerception": 10,
+  "languages": [],
+  "initiative": "+12",
+  "babOrProficiency": 18,
+  "feats": [
+    "Improved Critical (rapier)",
+    "Improved Initiative",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 rapier +25/+20/+15/+10 (1d6+7/15-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "4 projectiles +26 (1d4+6/19-20 or smoke)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This sleek, one-eyed construct crouches, ready for battle. Its arms end in weapons-a rapier and a compact crossbow bolt launcher.",
+  "meta": {
+    "cmb": "+24",
+    "cmd": 44,
+    "racialModifiers": [
+      "Perception 20"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or contract (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

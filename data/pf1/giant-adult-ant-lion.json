@@ -1,0 +1,93 @@
+{
+  "name": "Giant Adult Ant Lion",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Bonus Bestiary",
+  "size": "Huge",
+  "type": "vermin",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex +3, natural +8, size -2",
+    "touch": 11,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 85,
+    "formula": "10d8+40"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 16,
+    "con": 19,
+    "int": "None",
+    "wis": 11,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +11, Ref +6, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +3, Perception +0",
+    "list": {
+      "Fly": "+3",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 10,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 7,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +12 (3d8+10)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This spindly insect, borne aloft on four delicate wings, snaps its mandibles in obvious hunger.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": "29 (37 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or cloud (2-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

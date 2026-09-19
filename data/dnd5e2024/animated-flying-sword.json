@@ -1,0 +1,71 @@
+{
+  "name": "Animated Flying Sword",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Small",
+  "type": "Construct",
+  "subtype": "",
+  "alignment": "Unaligned",
+  "cr": "1/4",
+  "level": null,
+  "xp": 50,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 14,
+    "formula": "4d6"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": 50,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft., Fly 50 ft. (hover)"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 15,
+    "con": 11,
+    "int": 1,
+    "wis": 5,
+    "cha": 1
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Blindsight 60 ft."
+  ],
+  "passivePerception": 7,
+  "languages": [],
+  "initiative": "+4 (14)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Slash",
+      "text": "_Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 6 (1d8 + 2) Slashing damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

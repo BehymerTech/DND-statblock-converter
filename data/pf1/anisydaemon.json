@@ -1,0 +1,120 @@
+{
+  "name": "Anisydaemon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 142: Gardens of Gallowspire",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "daemon, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 28,
+    "notes": "natural +15, dex +4, size -1",
+    "touch": 13,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 172,
+    "formula": "15d10+90"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 19,
+    "con": 22,
+    "int": 17,
+    "wis": 16,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +15, Ref +11, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +22, Bluff +23, Intimidate +32, Knowledge (planes) +21, Knowledge (religion) +21, Perception +21, Sense Motive +21, Spellcraft +21, Stealth +32",
+    "list": {
+      "Acrobatics": "+22",
+      "Bluff": "+23",
+      "Intimidate": "+32",
+      "Perception": "+21",
+      "Sense Motive": "+21",
+      "Spellcraft": "+21",
+      "Stealth": "+32"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "arcane sight",
+    "blindsight",
+    "detect good"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft.",
+    "tongues"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 15,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Intimidating Prowess",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Stealthy",
+    "Skill Focus (Stealth)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +23 (1d8+9), 2 bites +23 (2d6+9 plus bleed)"
+    },
+    {
+      "name": "Ranged",
+      "text": "bleed (1d4 Wisdom), devour soul, shadow possession"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This fiend has pitch-black, rubbery skin pulled taut over an immense frame. Arms tipped with glistening claws hang past the creature’s knees, and two constantly whispering mouths rest on its eyeless face.",
+  "meta": {
+    "cmb": "+25",
+    "cmd": 39,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or lurk (3-7)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

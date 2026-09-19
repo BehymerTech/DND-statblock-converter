@@ -1,0 +1,104 @@
+{
+  "name": "Familiar Automaton",
+  "sourceSystem": "pf1",
+  "source": "Construct Handbook",
+  "size": "Tiny",
+  "type": "construct",
+  "subtype": "automaton, extraplanar",
+  "alignment": "LN",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, natural +2",
+    "touch": 12,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 15,
+    "formula": "3d10"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 15,
+    "con": "None",
+    "int": 14,
+    "wis": 10,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +1, Ref +3, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +7, Diplomacy +7, Knowledge (any one) +8, Perception +6, Spellcraft +7, Stealth +8, Use Magic Device +7",
+    "list": {
+      "Climb": "+7",
+      "Diplomacy": "+7",
+      "Perception": "+6",
+      "Spellcraft": "+7",
+      "Stealth": "+8",
+      "Use Magic Device": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Common",
+    "telepathy (touch)"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +5 (1d3-1 plus disease), 2 claws +5 (1d2-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This small construct resembles a house cat. It bears elaborate markings, and the core in its head glows with a warm light.",
+  "meta": {
+    "cmb": "+0",
+    "cmd": 12,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Axis)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

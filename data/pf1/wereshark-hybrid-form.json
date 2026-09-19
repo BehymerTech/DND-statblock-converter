@@ -1,0 +1,90 @@
+{
+  "name": "Wereshark (Hybrid Form)",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Isles of the Shackles",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, shapechanger",
+  "alignment": "CE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 17,
+    "notes": "dex +1, natural +6",
+    "touch": 11,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 36,
+    "formula": "3d10+15"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 12,
+    "con": 16,
+    "int": 8,
+    "wis": 15,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +6, Ref +2, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Survival +8, Swim +11, Perception +2",
+    "list": {
+      "Survival": "+8",
+      "Swim": "+11",
+      "Perception": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "low-light vision",
+    "keen scent"
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 3,
+  "feats": [
+    "Cleave",
+    "Great Cleave",
+    "Power Attack",
+    "Toughness",
+    "Weapon Focus (trident)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk trident +9 (1d8+4), bite +2 (1d8+2 plus curse of lycanthropy)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This muscular creature has a human body, but the head of a ravenous shark, complete with jet-black eyes and razorlike teeth.",
+  "meta": {
+    "cmb": "+7",
+    "cmd": 18
+  }
+}

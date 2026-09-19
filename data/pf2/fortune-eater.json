@@ -1,0 +1,115 @@
+{
+  "name": "Fortune Eater",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 101.",
+  "size": "Large",
+  "type": "Undead",
+  "subtype": "Incorporeal, Spirit",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 100,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 30 feet"
+  },
+  "abilities": {
+    "str": 0,
+    "dex": 22,
+    "con": 10,
+    "int": 14,
+    "wis": 14,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +15, Ref +17, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Deception__: +15 (1d20+15); __Intimidation__: +13 (1d20+13); __Performance__: +15 (1d20+15); __Stealth__: +15 (1d20+15); ",
+    "list": {
+      "Deception": "+15",
+      "Intimidation": "+13",
+      "Performance": "+15",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Languages spoken by the adventurers (typically common",
+    "dwarven",
+    "elven",
+    "and goblin)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Rejuvenation",
+      "text": "(divine, necromancy); Offering the fortune eater a chance to be instrumental in completing a heroic deed releases their component spirits to move on to the afterlife."
+    },
+    {
+      "name": "Unluck Aura",
+      "text": "(aura, divination, divine, mental, misfortune); 20 feet. A creature entering the area must attempt a DC 23 Will save, rolling the save twice and using the worse result. On a successful save, the creature is temporarily immune to fortune eater unluck auras for 24 hours. On a failure, the creature must roll twice and use the worse result on all checks as long as it is within the aura."
+    },
+    {
+      "name": "Luck Osmosis",
+      "text": "⬲ (divination, divine); Trigger A creature affected by the fortune eater's unluck aura has just rolled two d20s for a check and taken the lower result Effect The fortune-eater stores the higher of the two numbers rolled and uses that number in place of their next d20 roll; this is a fortune effect. They can have only one number stored at a time."
+    },
+    {
+      "name": "Team Attack",
+      "text": "⬽ Dead teammates coalesce to attack with phantasmal versions of the weapons they used in life. The fortune eater makes a ghostly longsword Strike, ghostly dagger Strike, and ghostly longbow Strike in any order. Each must target a different creature. Their multiple attack penalty doesn't increase until after all the attacks."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ ghostly longsword +17 (finesse, magical, versatile p); Damage 1d8+8 (1d8+8) slashing plus 1d8 (1d8) negative"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ ghostly light mace +17 (agile, finesse, magical, shove); Damage 1d4+8 (1d4+8) bludgeoning plus 1d8 (1d8) negative"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ ghostly longbow +17 (deadly d10, magical, range increment 100 feet, volley 30 feet); Damage 1d8+4 (1d8+4) piercing plus 1d8 (1d8) negative"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -5,
+      6,
+      0,
+      2,
+      2,
+      4
+    ]
+  }
+}

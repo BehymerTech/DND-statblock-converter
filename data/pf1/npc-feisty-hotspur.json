@@ -1,0 +1,101 @@
+{
+  "name": "NPC Feisty Hotspur",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "halfling",
+  "alignment": "NE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 26,
+    "notes": "armor +6, deflection +1, dex +6, dodge +1, natural +1, size +1",
+    "touch": 19,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 101,
+    "formula": "9d8+4d10+35"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 20,
+    "con": 15,
+    "int": 14,
+    "wis": 12,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +9, Ref +18, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +23, Bluff +17, Climb +1, Diplomacy +17, Disguise +17, Intimidate +17, Knowledge (dungeoneering) +10, Knowledge (local) +10, Knowledge (nobility) +7, Perception +19, Perform (comedy) +5, Perform (sing) +6, Sleight of Hand +13, Stealth +25",
+    "list": {
+      "Acrobatics": "+23",
+      "Bluff": "+17",
+      "Climb": "+1",
+      "Diplomacy": "+17",
+      "Disguise": "+17",
+      "Intimidate": "+17",
+      "Perception": "+19",
+      "Sleight of Hand": "+13",
+      "Stealth": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 29,
+  "languages": [
+    "Common",
+    "Halfling"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 10,
+  "feats": [
+    "Agile Maneuvers",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Dodge",
+    "Greater Feint",
+    "Improved Disarm",
+    "Improved Feint",
+    "Iron Will",
+    "Mobility",
+    "Weapon Finesse",
+    "Weapon Focus (rapier)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 rapier +18/+13 (1d4/18-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Halfling",
+    "class": "rogue 9, duelist 4",
+    "cmb": "14 (+16 to disarm)",
+    "cmd": "25 (27 vs. disarm)"
+  }
+}

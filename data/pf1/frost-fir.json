@@ -1,0 +1,103 @@
+{
+  "name": "Frost Fir",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 67: The Snows of Summer",
+  "size": "Medium",
+  "type": "plant",
+  "subtype": "cold",
+  "alignment": "NE",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 13,
+    "notes": "natural +3",
+    "touch": 10,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 15,
+    "formula": "2d8+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 10,
+    "con": 16,
+    "int": 11,
+    "wis": 12,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +6, Ref +0, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +4, Perception +5, Stealth +6",
+    "list": {
+      "Intimidate": "+4",
+      "Perception": "+5",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Sylvan",
+    "Treant"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 1,
+  "feats": [
+    "Power Attack",
+    "Skill Focus (Intimidate)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +3 (1d6+3 plus sticky resin)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The faint scent of pine sap accompanies this vaguely tree-shaped creature, which stands on two towering trunklike legs. Its arms resemble the branches of a snow-laden conifer.",
+  "meta": {
+    "cmb": "3 (+5 disarm, grapple and steal)",
+    "cmd": 13,
+    "racialModifiers": [
+      "Stealth 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold and temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, stand (3-6), or grove (7-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

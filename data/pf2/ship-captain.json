@@ -1,0 +1,117 @@
+{
+  "name": "Ship Captain",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 243.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "LN",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 23,
+    "notes": ""
+  },
+  "hp": {
+    "average": 90,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 10,
+    "int": 12,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +12, Ref +12, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +10 (1d20+10); __Athletics__: +12 (1d20+12); __Diplomacy__: +11 (1d20+11); __Intimidation__: +13 (1d20+13); __Survival__: +10 (1d20+10); __Sailing lore__: +17 (1d20+17); ",
+    "list": {
+      "Acrobatics": "+10",
+      "Athletics": "+12",
+      "Diplomacy": "+11",
+      "Intimidation": "+13",
+      "Survival": "+10",
+      "Sailing lore": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 22,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Survival",
+      "text": "+10 Str +4, Dex +2, Con +0, Int +1, Wis +2, Cha +3 Items dagger, hand crossbow (10 bolts), leather armor, +1 rapier."
+    },
+    {
+      "name": "Items",
+      "text": "dagger, hand crossbow (10 bolts), leather armor, +1 rapier;"
+    },
+    {
+      "name": "Bravery",
+      "text": "When the pirate rolls a success on a Will save against a fear effect, they get a critical success instead. In addition, anytime they gain the frightened condition, reduce its value by 1."
+    },
+    {
+      "name": "Dual Disarm",
+      "text": "⬺ The captain makes two Strikes, one with their rapier and one with their main-gauche (in either order). If both Strikes hit, the ship captain can attempt to Disarm the target. Their multiple attack penalty increases only after all the attacks are made."
+    },
+    {
+      "name": "No Quarter!",
+      "text": "⬻ (auditory, concentrate, emotion, linguistic, mental); The captain orders their shipmates to fight without mercy. All allied creatures of equal or lower level within 20 feet of the ship captain gain a +1 status bonus to attack rolls and damage rolls until the end of the ship captain's next turn."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ rapier +17 (deadly 1d8, disarm, magical); Damage 1d6+10 (1d6+10) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ main-gauche +16 (agile, disarm, parry, versatile s); Damage 1d4+10 (1d4+10) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ hand crossbow +14 (range increment 60 feet, reload 1); Damage 1d6+6 (1d6+6) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      0,
+      1,
+      2,
+      3
+    ],
+    "items": "dagger, hand crossbow (10 bolts), leather armor, +1 rapier;"
+  }
+}

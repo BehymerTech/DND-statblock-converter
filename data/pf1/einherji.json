@@ -1,0 +1,112 @@
+{
+  "name": "Einherji",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "extraplanar",
+  "alignment": "CN",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 24,
+    "notes": "armor +7, dex +3, shield +4",
+    "touch": 13,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 123,
+    "formula": "13d10+52"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 16,
+    "con": 19,
+    "int": 10,
+    "wis": 14,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +12, Ref +11, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +16, Knowledge (engineering) +16, Knowledge (planes) +16, Perception +18, Ride +16, Survival +18",
+    "list": {
+      "Intimidate": "+16",
+      "Perception": "+18",
+      "Ride": "+16",
+      "Survival": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "deathwatch"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Celestial",
+    "Common"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 13,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Iron Will",
+    "Power Attack",
+    "Stand Still",
+    "Step Up",
+    "Strike Back"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 battleaxe +19/+14/+9 (1d8+6/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk throwing axe +17 (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Holding a massive battleaxe and shield, this tall, helmed warrior is grim and fierce.",
+  "meta": {
+    "cmb": "+17",
+    "cmd": 30,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, squad (3-6), or warband (7-16)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple (+2 scale mail, +2 heavy wooden shield, +2 battleaxe, masterwork throwing axe)"
+      }
+    ]
+  }
+}

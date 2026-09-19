@@ -1,0 +1,109 @@
+{
+  "name": "River Drake",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 131.",
+  "size": "Medium",
+  "type": "Water",
+  "subtype": "Amphibious, Dragon",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 45,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, fly 50 feet, swim 30 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 18,
+    "con": 14,
+    "int": 8,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +11, Ref +9, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +11 (1d20+11); __Athletics__: +10 (1d20+10); __Intimidation__: +6 (1d20+6); __Stealth__: +9 (1d20+9); __Survival__: +7 (1d20+7); ",
+    "list": {
+      "Acrobatics": "+11",
+      "Athletics": "+10",
+      "Intimidation": "+6",
+      "Stealth": "+9",
+      "Survival": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Tail Lash",
+      "text": "⬲ Trigger A creature within reach of the river drake's tail uses an action to Strike or attempt a skill check. Effect The river drake attempts to Strike the triggering creature with its tail. If it hits, the creature takes a –2 circumstance penalty to the triggering roll."
+    },
+    {
+      "name": "Caustic Mucus",
+      "text": "⬺ (acid, arcane, evocation); The river drake spits a ball of caustic mucus up to a range of 50 feet that explodes in a 10-foot burst. Creatures within the burst take 4d6 (4d6) acid damage (DC 19 basic Reflex save). Those that fail this save also take 1d6 (1d6) persistent acid damage and take a –5-foot status penalty to their Speed. This Speed reduction ends with the persistent acid damage. The river drake can't use Caustic Mucus again for 1d6 (1d6) rounds."
+    },
+    {
+      "name": "Draconic Frenzy",
+      "text": "⬺ The river drake makes one fangs Strike and two tail Strikes in any order."
+    },
+    {
+      "name": "Speed Surge",
+      "text": "⬻ Frequency three times per day Effect The river drake Strides or Flies twice."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +12 Damage 2d8+3 (2d8+3) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +12 (reach 10 feet); Damage 2d6+3 (2d6+3) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      4,
+      2,
+      -1,
+      2,
+      -1
+    ]
+  }
+}

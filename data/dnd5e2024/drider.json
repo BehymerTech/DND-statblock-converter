@@ -1,0 +1,103 @@
+{
+  "name": "Drider",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "alignment": "Chaotic Evil",
+  "cr": "6",
+  "level": null,
+  "xp": 2300,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 123,
+    "formula": "13d10 + 52"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": 30,
+    "burrow": null,
+    "notes": "30 ft., Climb 30 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 19,
+    "con": 18,
+    "int": 13,
+    "wis": 16,
+    "cha": 12
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +6, Stealth +10",
+    "list": {
+      "Perception": "+6",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 120 ft."
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Elvish",
+    "Undercommon"
+  ],
+  "initiative": "+4 (14)",
+  "babOrProficiency": 3,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Spider Climb",
+      "text": "The drider can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": "While in sunlight, the drider has Disadvantage on ability checks and attack rolls."
+    },
+    {
+      "name": "Web Walker",
+      "text": "The drider ignores movement restrictions caused by webs, and the drider knows the location of any other creature in contact with the same web."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The drider makes three attacks, using Foreleg or Poison Burst in any combination."
+    },
+    {
+      "name": "Foreleg",
+      "text": "_Melee Attack Roll:_ +7, reach 10 ft. _Hit:_ 13 (2d8 + 4) Piercing damage."
+    },
+    {
+      "name": "Poison Burst",
+      "text": "_Ranged Attack Roll:_ +6, range 120 ft. _Hit:_ 13 (3d6 + 3) Poison damage."
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Magic of the Spider Queen (Recharge 5–6)",
+      "text": "The drider casts _Darkness_, _Faerie Fire_, or _Web_, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 14). ## Druid"
+    }
+  ],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

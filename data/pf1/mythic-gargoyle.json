@@ -1,0 +1,104 @@
+{
+  "name": "Mythic Gargoyle",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "earth, mythic",
+  "alignment": "CE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +2, natural +6",
+    "touch": 12,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 62,
+    "formula": "5d10+35"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 14,
+    "con": 16,
+    "int": 6,
+    "wis": 11,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +4, Ref +6, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +12, Perception +5, Stealth +11",
+    "list": {
+      "Fly": "+12",
+      "Perception": "+5",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Common",
+    "Terran"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 5,
+  "feats": [
+    "Improved Initiative",
+    "Iron Will",
+    "Skill Focus (Fly)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d4+3), 2 claws +8 (1d6+3), gore +8 (1d4+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This living stone statue takes the shape of a horned and winged humanoid, and green acid drips from its mouth.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": 20,
+    "racialModifiers": [
+      "Stealth 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or wing (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

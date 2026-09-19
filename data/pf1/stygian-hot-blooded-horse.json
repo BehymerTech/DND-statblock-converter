@@ -1,0 +1,99 @@
+{
+  "name": "Stygian Hot-Blooded Horse",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 103: The Hellfire Compact",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, natural +3, size -1",
+    "touch": 11,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 22,
+    "formula": "3d8+9"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 14,
+    "con": 17,
+    "int": 2,
+    "wis": 13,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +6, Ref +5, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +4, Perception +5, Stealth +5",
+    "list": {
+      "Intimidate": "+4",
+      "Perception": "+5",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 15,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 2,
+  "feats": [
+    "Intimidating Prowess",
+    "Run",
+    "Skill Focus (Stealth)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +4 (1d8+3), 2 hooves -1 (1d6+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This dark horse has striking coloring and a ferocious look in its bloodshot eyes.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": "18 (22 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

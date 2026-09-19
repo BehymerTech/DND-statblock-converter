@@ -1,0 +1,102 @@
+{
+  "name": "Athach",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Huge",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "Often chaotic evil",
+  "cr": "8",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": "-2 size, +1 Dex, +3 hide armor, +8 natural",
+    "touch": 9,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 133,
+    "formula": "14d8+70"
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 ft. in hide armor (7 squares); base speed 50 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 13,
+    "con": 21,
+    "int": 7,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +9, Ref +5, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +9, Jump +18, Listen +7, Spot +7;",
+    "list": {
+      "Climb": "+9",
+      "Jump": "+18",
+      "Listen": "+7",
+      "Spot": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 10,
+  "feats": [
+    "Alertness",
+    "Cleave",
+    "Multiweapon Fighting",
+    "Power Attack",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Poison"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Full Attack",
+      "text": "Morningstar +12/+7 melee (3d6+8), and 2 morningstars +12 melee (3d6+4), and bite +12 melee (2d8+4 plus poison); or rock +5 ranged (2d6+8), and 2 rocks +5 ranged (2d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "The athach is a hulking, misshapen biped. An adult stands some 18 feet tall and weighs about 4,500 pounds. Athachs speak a crude dialect of Giant.",
+    "grapple": "+26 Attack:Morningstar +16 melee (3d6+8) or rock +9 ranged (2d6+8)",
+    "spaceReach": "15 ft./15 ft.",
+    "environment": "Temperate hills",
+    "organization": "Solitary, gang (2-4), or tribe (7-12)",
+    "treasure": "1/2 coins; double goods; standard items",
+    "advancement": "15-28 HD (Huge)",
+    "leveladjustment": "+5"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "name": "Elysian Titan",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 268.",
+  "size": "Gargantuan",
+  "type": "Titan",
+  "subtype": "Humanoid",
+  "alignment": "CG",
+  "cr": null,
+  "level": "Creature 21",
+  "xp": null,
+  "ac": {
+    "value": 46,
+    "notes": ""
+  },
+  "hp": {
+    "average": 400,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet; air walk;"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 24,
+    "con": 26,
+    "int": 22,
+    "wis": 26,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +37, Ref +34, Will +35",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +36 (1d20+36); __Athletics__: +43 (1d20+43); __Crafting__: +37 (1d20+37); __Diplomacy__: +37 (1d20+37); __Intimidation__: +35 (1d20+35); __Religion__: +37 (1d20+37); __Survival__: +37 (1d20+37); ",
+    "list": {
+      "Acrobatics": "+36",
+      "Athletics": "+43",
+      "Crafting": "+37",
+      "Diplomacy": "+37",
+      "Intimidation": "+35",
+      "Religion": "+37",
+      "Survival": "+37"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, true seeing"
+  ],
+  "passivePerception": 46,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common; [[telepathy]] 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Impossible Stature",
+      "text": "(aura, divine, illusion, mental); 100 feet. Titans warp perception and distance around them to seem even larger and more imposing. A creature that enters or begins its turn within the emanation must succeed at a DC 44 Will save or its movement toward the titan is movement over difficult terrain (greater difficult terrain on a critical failure) for 1 round."
+    },
+    {
+      "name": "Items",
+      "text": "+2 greater resilient breastplate, +3 greater striking greatpick;"
+    },
+    {
+      "name": "Throw Rock",
+      "text": "⬻ (page 306);"
+    },
+    {
+      "name": "Titanic Grasp",
+      "text": "⬻ The titan makes a fist Strike against a creature affected by their Impossible Stature, even if it's outside of the titan's normal reach. On a hit, the titan automatically Grabs the creature and, if out of their reach, pulls it within reach."
+    },
+    {
+      "name": "Wide Cleave",
+      "text": "⬺ The titan makes a melee weapon Strike against each foe within their reach. This counts as three attacks for the titan's multiple attack penalty."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ greatpick +41 (fatal d12, magical, reach 30 feet); Damage 4d10+20 (4d10+20) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +38 (agile, reach 30 feet); Damage 4d8+20 (4d8+20) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ rock +38 (brutal, range increment 200 feet); Damage 3d12+20 (3d12+20) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      10,
+      7,
+      8,
+      6,
+      8,
+      6
+    ],
+    "items": "+2 greater resilient breastplate, +3 greater striking greatpick;"
+  }
+}

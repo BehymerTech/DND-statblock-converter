@@ -1,0 +1,98 @@
+{
+  "name": "NPC Fighting School (Battle Monk)",
+  "sourceSystem": "pf1",
+  "source": "GameMastery Guide",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "LN",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 19,
+    "notes": "armor +1, dex +2, dodge +1, monk +4",
+    "touch": 18,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 32,
+    "formula": "5d8+10"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 18,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +6, Ref +7, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Climb +7, Escape Artist +7, Perception +12, Sense Motive +12, Stealth +10",
+    "list": {
+      "Acrobatics": "+10",
+      "Climb": "+7",
+      "Escape Artist": "+7",
+      "Perception": "+12",
+      "Sense Motive": "+12",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 22,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 3,
+  "feats": [
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Deflect Arrows",
+    "Dodge",
+    "Improved Unarmed Strike",
+    "Scorpion Style",
+    "Stunning Fist",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "unarmed strike +5 (1d8+1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk light crossbow +6 (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "monk 5",
+    "cmb": "+6",
+    "cmd": 22
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "name": "NPC Shoanti Burn Rider",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "CN",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 12,
+    "notes": "armor +3, dex +1, rage -2",
+    "touch": 9,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 58,
+    "formula": "5d12+20"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 13,
+    "con": 18,
+    "int": 8,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +3, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Handle Animal +8, Knowledge (nature) +7, Perception +9, Ride +9, Survival +9",
+    "list": {
+      "Handle Animal": "+8",
+      "Perception": "+9",
+      "Ride": "+9",
+      "Survival": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 19,
+  "languages": [
+    "Common",
+    "Shoanti"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 5,
+  "feats": [
+    "Mounted Archery",
+    "Mounted Combat",
+    "Ride-By Attack",
+    "Spirited Charge"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk spear +12 (1d8+9/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite longbow +7 (1d8+4/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "barbarian 5",
+    "cmb": "+11",
+    "cmd": 20
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Belker",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Elemental",
+  "subtype": "Air, Extraplanar",
+  "alignment": "Usually neutral evil",
+  "cr": "6",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": "-1 size, +5 Dex, +8 natural",
+    "touch": 14,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 38,
+    "formula": "7d8+7"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 50,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares), fly 50 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 21,
+    "con": 13,
+    "int": 6,
+    "wis": 11,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +3, Ref +10, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Listen +7, Move Silently +9, Spot +7;",
+    "list": {
+      "Listen": "+7",
+      "Move Silently": "+9",
+      "Spot": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 5,
+  "feats": [
+    "Alertness",
+    "Multiattack",
+    "Weapon Finesse"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Smoke claws"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., elemental traits, smoke form"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Wing +9 melee (1d6+2)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 wings +9 melee (1d6+2) and bite +4 melee (1d4+1) and 2 claws +4 melee (1d3+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Belkers are creatures from the Plane of Air. They are composed primarily of smoke. Although undeniably evil, they are very reclusive and usually have no interest in the affairs of others. A belker's winged shape makes it look distinctly demonic. It is about 7 feet long and weighs about 8 pounds.",
+    "grapple": "+11",
+    "spaceReach": "10 ft./10 ft.",
+    "environment": "Elemental Plane of Air",
+    "organization": "Solitary, pair, or clutch (3-4)",
+    "treasure": "None",
+    "advancement": "8-10 HD (Large); 11-21 HD (Huge)",
+    "leveladjustment": "---"
+  }
+}

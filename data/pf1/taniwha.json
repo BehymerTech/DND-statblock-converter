@@ -1,0 +1,105 @@
+{
+  "name": "Taniwha",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "CG",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex +2, natural +8, size -1",
+    "touch": 11,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 68,
+    "formula": "8d10+24"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 14,
+    "con": 16,
+    "int": 12,
+    "wis": 17,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +9, Ref +8, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (nature) +5, Perception +16, Sense Motive +13, Swim +22",
+    "list": {
+      "Perception": "+16",
+      "Sense Motive": "+13",
+      "Swim": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect poison",
+    "low-light vision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Aquan",
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 8,
+  "feats": [
+    "Alertness",
+    "Improved Iron Will",
+    "Iron Will",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +14 (3d6+10)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature has a long, sinuous, eellike body but the scaly head of a crocodile with large, piercing blue eyes.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": 28,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm rivers"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

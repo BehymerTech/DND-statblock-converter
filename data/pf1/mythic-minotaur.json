@@ -1,0 +1,106 @@
+{
+  "name": "Mythic Minotaur",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Large",
+  "type": "monstrous humanoid",
+  "subtype": "mythic",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 17,
+    "notes": "natural +8, size -1",
+    "touch": 9,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 72,
+    "formula": "7d10+34"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 10,
+    "con": 15,
+    "int": 7,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +6, Ref +5, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +5, Perception +12, Stealth +2, Survival +10",
+    "list": {
+      "Intimidate": "+5",
+      "Perception": "+12",
+      "Stealth": "+2",
+      "Survival": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Giant"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 7,
+  "feats": [
+    "Great Fortitude",
+    "Greater Bull Rush",
+    "Improved Bull Rush",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk greataxe +12/+7 (3d6+7/×3), gore +11 (1d6+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "With eyes blazing red and magical runes glowing on its horns, this mighty beast has the body of a man and the head of a bull.",
+  "meta": {
+    "cmb": "13 (+17 bull rush)",
+    "cmd": "23 (25 vs. bull rush)",
+    "racialModifiers": [
+      "Perception 4",
+      "Survival 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate ruins or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk greataxe, other treasure)"
+      }
+    ]
+  }
+}

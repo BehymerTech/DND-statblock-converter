@@ -1,0 +1,88 @@
+{
+  "name": "Vampire Bat Swarm",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 39.",
+  "size": "Large",
+  "type": "Swarm",
+  "subtype": "Animal",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 11,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 feet, fly 30 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 18,
+    "con": 12,
+    "int": 2,
+    "wis": 16,
+    "cha": 4
+  },
+  "saves": {
+    "text": "Fort +6, Ref +9, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Athletics__: +4 (1d20+4), (Athletics: +7 (1d20+7) to Climb); __Stealth__: +7 (1d20+7); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Athletics": "+7",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "precise echolocation 20, low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Echolocation",
+      "text": "A bat swarm can use its hearing as a precise sense at the listed range."
+    },
+    {
+      "name": "Blood Feast",
+      "text": "⬻ Each enemy in the bat swarm's space takes 1d4 (1d4) piercing damage (DC 16 basic Reflex save). Creatures that fail this save also take 1 persistent bleed damage."
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      4,
+      1,
+      -4,
+      3,
+      -3
+    ]
+  }
+}

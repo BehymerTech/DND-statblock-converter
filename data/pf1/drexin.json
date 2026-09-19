@@ -1,0 +1,110 @@
+{
+  "name": "Drexin",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 109: In Search of Sanity",
+  "size": "Small",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 16,
+    "notes": "dex +4, natural +1, size +1",
+    "touch": 15,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 16,
+    "formula": "3d6+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 9,
+    "dex": 18,
+    "con": 13,
+    "int": 14,
+    "wis": 14,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +2, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Bluff +8, Climb +3, Craft (traps) +12, Disable Device +7, Escape Artist +10, Intimidate +9, Knowledge (arcana) +4, Perception +12",
+    "list": {
+      "Acrobatics": "+10",
+      "Bluff": "+8",
+      "Climb": "+3",
+      "Disable Device": "+7",
+      "Escape Artist": "+10",
+      "Intimidate": "+9",
+      "Perception": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Aklo",
+    "Undercommon"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 1,
+  "feats": [
+    "Improved Initiative",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +1 (1d4-1), 2 claws +1 (1d3-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This pale, spindly creature has a vaguely humanoid shape, but with arms unnaturally long for its torso. Strands of long white hair sprout from its bulbous head, and its eyes are pools of liquid darkness.",
+  "meta": {
+    "cmb": "-1",
+    "cmd": 13,
+    "racialModifiers": [
+      "Craft (traps) 4",
+      "Intimidate 4",
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground or urban"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or mob (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

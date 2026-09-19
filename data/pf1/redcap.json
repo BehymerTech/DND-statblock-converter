@@ -1,0 +1,109 @@
+{
+  "name": "Redcap",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Pathfinder No. 4: Fortress of the Stone Giants",
+  "size": "Small",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 20,
+    "notes": "armor +2, dex +4, natural +3, size +1",
+    "touch": 15,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 60,
+    "formula": "8d6+32"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 19,
+    "con": 18,
+    "int": 16,
+    "wis": 13,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +6, Ref +10, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Bluff +13, Climb +15, Escape Artist +15, Intimidate +10, Knowledge (nature) +14, Perception +12, Sense Motive +12, Stealth +19",
+    "list": {
+      "Acrobatics": "+15",
+      "Bluff": "+13",
+      "Climb": "+15",
+      "Escape Artist": "+15",
+      "Intimidate": "+10",
+      "Perception": "+12",
+      "Sense Motive": "+12",
+      "Stealth": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Giant",
+    "Sylvan"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 4,
+  "feats": [
+    "Cleave",
+    "Improved Initiative",
+    "Power Attack",
+    "Weapon Focus (scythe)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "Medium scythe +10 (2d4+10/×4), kick +4 (1d4+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Like some miniscule, wicked old man, this snarling little humanoid wears metal boots and a blood-red pointed cap.",
+  "meta": {
+    "cmb": "+7",
+    "cmd": 21,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests, mountains, or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (leather armor, Medium scythe, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Young Solar Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "fire",
+  "alignment": "LN",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 21,
+    "notes": "dex +2, natural +10, size -1",
+    "touch": 11,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 115,
+    "formula": "11d12+44"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 200 ft. (poor)"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 15,
+    "con": 16,
+    "int": 15,
+    "wis": 12,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +10, Ref +11, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +17, Fly +10, Knowledge (arcana) +16, Knowledge (history) +16, Knowledge (nature) +16, Knowledge (planes) +16, Perception +15, Sense Motive +15",
+    "list": {
+      "Diplomacy": "+17",
+      "Fly": "+10",
+      "Perception": "+15",
+      "Sense Motive": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "see in darkness"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 11,
+  "feats": [
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Multiattack",
+    "Quick Channel",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +16 (1d8+9), 2 claws +16 (1d6+6), 2 wings +14 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This regal dragon glows like the sun. Its burnished wings shimmer the color of flames, and a crown of horns decorates its head.",
+  "meta": {
+    "cmb": "+18",
+    "cmd": "30 (34 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "vacuum"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

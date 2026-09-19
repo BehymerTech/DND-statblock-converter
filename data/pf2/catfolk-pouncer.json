@@ -1,0 +1,111 @@
+{
+  "name": "Catfolk Pouncer",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 54.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Catfolk",
+  "alignment": "CG",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 19,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 18,
+    "con": 12,
+    "int": 8,
+    "wis": 12,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +6, Ref +9, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Athletics__: +6 (1d20+6); __Nature__: +4 (1d20+4); __Stealth__: +7 (1d20+7); __Survival__: +4 (1d20+4); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Athletics": "+6",
+      "Nature": "+4",
+      "Stealth": "+7",
+      "Survival": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Amurrun",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Cat's Luck",
+      "text": "⬲ (fortune); Trigger The catfolk pouncer fails or critically fails a Reflex saving throw. Effect Frequency Once per day. Reroll that saving throw and take the better result."
+    },
+    {
+      "name": "Items",
+      "text": "greataxe, leather armor, spear (3);"
+    },
+    {
+      "name": "Sudden Charge",
+      "text": "⬺ The catfolk pouncer Strides up to double their Speed. If the catfolk ends their movement within melee reach of at least one enemy, they can make a melee Strike against that enemy."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ greataxe +8 (sweep); Damage 1d12+3 (1d12+3) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ dagger +9 (agile, finesse, versatile s); Damage 1d4+3 (1d4+3) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ dagger +9 (agile, thrown 10 feet, versatile s); Damage 1d4+3 (1d4+3) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      4,
+      1,
+      -1,
+      1,
+      1
+    ],
+    "items": "greataxe, leather armor, spear (3);"
+  }
+}

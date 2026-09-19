@@ -1,0 +1,93 @@
+{
+  "name": "Whaler Jellyfish",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Colossal",
+  "type": "vermin",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 32,
+    "notes": "dex +6, natural +24, size -8",
+    "touch": 8,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 270,
+    "formula": "20d8+180"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 30 ft."
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 23,
+    "con": 28,
+    "int": "None",
+    "wis": 25,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +21, Ref +12, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Swim +21, Perception +7",
+    "list": {
+      "Swim": "+21",
+      "Perception": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 15,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "6 tentacles +20 (2d6+13 plus grab and poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous, translucent blob trails a mass of six immense tentacles and a central forest of tendrils below its body.",
+  "meta": {
+    "cmb": "+36",
+    "cmd": "52 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pack (2-4), or bloom (5-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

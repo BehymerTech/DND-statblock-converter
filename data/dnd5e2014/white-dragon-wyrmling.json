@@ -1,0 +1,83 @@
+{
+  "name": "White Dragon Wyrmling",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Medium",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "chaotic evil",
+  "cr": "2",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": "natural armor"
+  },
+  "hp": {
+    "average": 32,
+    "formula": "5d8 + 10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 60,
+    "swim": 30,
+    "climb": null,
+    "burrow": 15,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 10,
+    "con": 14,
+    "int": 5,
+    "wis": 10,
+    "cha": 11
+  },
+  "saves": {
+    "text": "dex +2, con +4, wis +2, cha +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +4, Stealth +2",
+    "list": {
+      "perception": "+4",
+      "stealth": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [
+    "cold"
+  ],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight 10 ft.",
+    "darkvision 60 ft."
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 2 (1d4) cold damage."
+    },
+    {
+      "name": "Cold Breath {@recharge 5}",
+      "text": "The dragon exhales an icy blast of hail in a 15-foot cone. Each creature in that area must make a DC 12 Constitution saving throw, taking 22 (5d8) cold damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

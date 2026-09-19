@@ -1,0 +1,125 @@
+{
+  "name": "Moloch",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "29",
+  "level": null,
+  "xp": 6553600,
+  "ac": {
+    "value": 47,
+    "notes": "deflection +4, dex +7, natural +13, profane +15, size -2",
+    "touch": 34,
+    "flatFooted": 40
+  },
+  "hp": {
+    "average": 731,
+    "formula": "34d10+544"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., other ['air walk'] ft."
+  },
+  "abilities": {
+    "str": 40,
+    "dex": 25,
+    "con": 42,
+    "int": 25,
+    "wis": 34,
+    "cha": 33
+  },
+  "saves": {
+    "text": "Fort +39, Ref +24, Will +35",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +48, Intimidate +48, Knowledge (arcana) +41, Knowledge (history) +41, Knowledge (religion) +41, Knowledge (nobility) +44, Knowledge (planes) +44, Linguistics +44, Perception +49, Sense Motive +49, Spellcraft +44, Survival +46, Use Magic Device +45",
+    "list": {
+      "Bluff": "+48",
+      "Intimidate": "+48",
+      "Linguistics": "+44",
+      "Perception": "+49",
+      "Sense Motive": "+49",
+      "Spellcraft": "+44",
+      "Survival": "+46",
+      "Use Magic Device": "+45"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect chaos",
+    "detect good",
+    "mistsight",
+    "see in darkness",
+    "true seeing"
+  ],
+  "passivePerception": 59,
+  "languages": [
+    "all (language mastery)",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 34,
+  "feats": [
+    "Combat Expertise",
+    "Craft Magic Arms and Armor",
+    "Critical Focus",
+    "Double Slice",
+    "Empower Spell-Like Ability (fire storm)",
+    "Improved Bull Rush",
+    "Improved Critical (battleaxe)",
+    "Improved Critical (longsword)",
+    "Improved Initiative",
+    "Improved Lightning Reflexes",
+    "Improved Two-Weapon Fighting",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Quicken Spell-Like Ability (blade barrier))",
+    "Quicken Spell-Like Ability (Staggering Critical)",
+    "Quicken Spell-Like Ability (Two-Weapon Fighting)",
+    "Quicken Spell-Like Ability (Two- Weapon Rend)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "Goreletch +46/+41/+36/+31 (3d6+18/19-20/×4), Ramithaine +46/+41 (3d6+18/17-20/×3), bite +42 (2d6+7 plus grab and burn), gore +42 (2d6+7 plus burn)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This immense figure appears to be a suit of blackened, diabolic armor filled with shrieking blasts of blistering fire.",
+  "meta": {
+    "cmb": "51 (+53 bull rush)",
+    "cmd": "87 (89 vs. bull rush)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple (Goreletch, Ramithaine, other treasure)"
+      }
+    ]
+  }
+}

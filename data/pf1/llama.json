@@ -1,0 +1,98 @@
+{
+  "name": "Llama",
+  "sourceSystem": "pf1",
+  "source": "Animal Archive",
+  "size": "Medium",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 11,
+    "notes": "dex +1",
+    "touch": 11,
+    "flatFooted": 10
+  },
+  "hp": {
+    "average": 6,
+    "formula": "1d8+2"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 15,
+    "int": 2,
+    "wis": 12,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +4, Ref +3, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +5, Perception +1",
+    "list": {
+      "Acrobatics": "+5",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 11,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 0,
+  "feats": [
+    "Endurance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +1 (1d6+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This shaggy, hoofed quadruped sports an elongated neck and large, crooked teeth.",
+  "meta": {
+    "cmb": "+1",
+    "cmd": "12 (16 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold or temperate hills or mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or herd (3-15)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

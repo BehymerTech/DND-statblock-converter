@@ -1,0 +1,130 @@
+{
+  "name": "Braismois",
+  "sourceSystem": "pf1",
+  "source": "Druma, Profit and Prophecy",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "daemon, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "22",
+  "level": null,
+  "xp": 614400,
+  "ac": {
+    "value": 40,
+    "notes": "deflection +8, dex +10, natural +12",
+    "touch": 28,
+    "flatFooted": 30
+  },
+  "hp": {
+    "average": 377,
+    "formula": "26d10+234"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (perfect), burrow 60 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 30,
+    "con": 28,
+    "int": 25,
+    "wis": 28,
+    "cha": 29
+  },
+  "saves": {
+    "text": "Fort +17, Ref +25, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +20, Bluff +38, Diplomacy +38, Disguise +35, Fly +34, Intimidate +38, Knowledge (history) +20, Knowledge (nobility) +33, Knowledge (planes) +23, Linguistics +36, Perception +38, Profession (barrister) +38, Sense Motive +38, Spellcraft +33, Stealth +39",
+    "list": {
+      "Appraise": "+20",
+      "Bluff": "+38",
+      "Diplomacy": "+38",
+      "Disguise": "+35",
+      "Fly": "+34",
+      "Intimidate": "+38",
+      "Linguistics": "+36",
+      "Perception": "+38",
+      "Sense Motive": "+38",
+      "Spellcraft": "+33",
+      "Stealth": "+39"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 48,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Dwarven",
+    "Elven",
+    "Gnome",
+    "Halfling",
+    "Infernal",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+15",
+  "babOrProficiency": 26,
+  "feats": [
+    "Ability Focus",
+    "Combat Casting",
+    "Combat Expertise",
+    "Deadly Aim",
+    "Greater Vital Strike",
+    "Improved Critical (dagger)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Quicken Spell-Like Ability (mass hold person)",
+    "Quicken Spell-Like Ability (mirror image)",
+    "Quicken Spell-Like Ability (power word kill)",
+    "Vital Strike",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "toxic quill +41/+36/+31/+26 (3d6+15/17-20 plus poison)"
+    },
+    {
+      "name": "Ranged",
+      "text": "toxic quill +41 (3d6+15/17-20 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This humanoid fiend has an overly long torso, black eyes, and a mouth full of razor-sharp teeth. It wears black robes that cover most of its rotting, frostbitten flesh.",
+  "meta": {
+    "cmb": "+31",
+    "cmd": 59,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

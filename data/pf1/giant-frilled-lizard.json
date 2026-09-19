@@ -1,0 +1,103 @@
+{
+  "name": "Giant Frilled Lizard",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +1, natural +8, size -1",
+    "touch": 10,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 59,
+    "formula": "7d8+28"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 13,
+    "con": 19,
+    "int": 2,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +11, Ref +8, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +13, Perception +11, Stealth +8",
+    "list": {
+      "Climb": "+13",
+      "Perception": "+11",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 5,
+  "feats": [
+    "Great Fortitude",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +9 (2d6+5), tail +4 (1d8+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This bright-eyed lizard is larger than a horse. As it hisses in anger, a brightly colored frill extends around its neck.",
+  "meta": {
+    "cmb": "+11",
+    "cmd": "22 (26 vs. trip)",
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forest, plains, or hills"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

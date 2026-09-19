@@ -1,0 +1,108 @@
+{
+  "name": "Nessian Warhound",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "evil, extraplanar, fire, lawful",
+  "alignment": "LE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 24,
+    "notes": "armor +6, dex +2, natural +7, size -1",
+    "touch": 11,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 126,
+    "formula": "12d10+60"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 15,
+    "con": 21,
+    "int": 4,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +13, Ref +10, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +16, Perception +12, Stealth +21, Survival +18",
+    "list": {
+      "Acrobatics": "+16",
+      "Perception": "+12",
+      "Stealth": "+21",
+      "Survival": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Infernal"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 12,
+  "feats": [
+    "Alertness",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Skill Focus (Stealth)",
+    "Skill Focus (Survival)",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +20 (2d6+12/19-20 plus 2d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature resembles a powerfully built wolf the size of a large draft horse, with ebony fur and burning, fiery red eyes.",
+  "meta": {
+    "cmb": "+21",
+    "cmd": "33 (37 vs. trip)",
+    "racialModifiers": [
+      "Stealth 5"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+2 chain shirt barding)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "name": "Adult Cloud Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "air, extraplanar",
+  "alignment": "CN",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 29,
+    "notes": "dex -1, natural +22, size -2",
+    "touch": 7,
+    "flatFooted": 29
+  },
+  "hp": {
+    "average": 184,
+    "formula": "16d12+80"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (poor), swim 40 ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 9,
+    "con": 21,
+    "int": 16,
+    "wis": 20,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +15, Ref +9, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +22, Diplomacy +29, Fly +10, Intimidate +23, Knowledge (planes) +22, Perception +24, Sense Motive +24, Stealth +10, Survival +24, Swim +15",
+    "list": {
+      "Appraise": "+22",
+      "Diplomacy": "+29",
+      "Fly": "+10",
+      "Intimidate": "+23",
+      "Perception": "+24",
+      "Sense Motive": "+24",
+      "Stealth": "+10",
+      "Survival": "+24",
+      "Swim": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "mist vision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Auran",
+    "Common",
+    "Draconic",
+    "Elven"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 16,
+  "feats": [
+    "Critical Focus",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Multiattack",
+    "Power Attack",
+    "Skill Focus (Diplomacy)",
+    "Weapon Focus (bite)",
+    "Weapon Focus (claws)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +22 (2d8+10/19-20), 2 claws +22 (2d6+7), tail slap +19 (2d6+10), 2 wings +19 (1d8+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+25",
+    "cmd": "34 (38 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any sky (Plane of Air)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "name": "Bodak",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "Extraplanar",
+  "alignment": "Always chaotic evil",
+  "cr": "8",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": "+2 Dex, +8 natural",
+    "touch": 12,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 58,
+    "formula": "9d12"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft. (4 squares)"
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 15,
+    "con": null,
+    "int": 6,
+    "wis": 12,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +3, Ref +5, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Listen +11, Move Silently +10, Spot +11;",
+    "list": {
+      "Listen": "+11",
+      "Move Silently": "+10",
+      "Spot": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 4,
+  "feats": [
+    "Alertness",
+    "Dodge",
+    "Improved Initiative",
+    "Weapon Focus (slam)"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Death gaze"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 10/cold iron, darkvision 60 ft., immunity to electricity, resistance to acid 10 and fire 10, undead traits, vulnerability to sunlight"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Slam +6 melee (1d8+1)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Slam +6 melee (1d8+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Bodaks are the undead remnants of humanoids who have been destroyed by the touch of absolute evil.",
+    "grapple": "+5",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "A chaotic evil-aligned plane",
+    "organization": "Solitary or gang (2-4)",
+    "treasure": "None",
+    "advancement": "10-13 HD (Medium); 14-27 HD (Large)",
+    "leveladjustment": "---"
+  }
+}

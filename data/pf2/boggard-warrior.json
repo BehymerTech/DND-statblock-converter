@@ -1,0 +1,116 @@
+{
+  "name": "Boggard Warrior",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 44.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Amphibious, Boggard",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 38,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, swim 25 feet; swamp stride;"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 10,
+    "con": 18,
+    "int": 8,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +10, Ref +5, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +8 (1d20+8); __Intimidation__: +5 (1d20+5); __Stealth__: +6 (1d20+6), (Stealth: +8 (1d20+8) in water); ",
+    "list": {
+      "Athletics": "+8",
+      "Intimidation": "+5",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Boggard"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Swamp Stride",
+      "text": "A boggard scout ignores difficult terrain caused by swamp terrain features."
+    },
+    {
+      "name": "Terrifying Croak",
+      "text": "⬻ (auditory, emotion, fear, mental); As boggard scout, except DC 18."
+    },
+    {
+      "name": "Tongue Grab",
+      "text": "As boggard scout, except AC 15 and 3 HP."
+    },
+    {
+      "name": "Items",
+      "text": "club, javelin (3), studded leather armor;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ club +10 Damage 1d6+6 (1d6+6) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tongue +10 (reach 10 feet); Damage tongue grab"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ javelin +6 (thrown 30 feet); Damage 1d6+4 (1d6+4) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ club +6 (thrown 10 feet); Damage 1d6+6 (1d6+6) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      0,
+      4,
+      -1,
+      2,
+      1
+    ],
+    "items": "club, javelin (3), studded leather armor;"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Giant Fly",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 120.",
+  "size": "Medium",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, climb 20 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 18,
+    "con": 16,
+    "int": 0,
+    "wis": 16,
+    "cha": 0
+  },
+  "saves": {
+    "text": "Fort +6, Ref +9, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Athletics__: +6 (1d20+6); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Athletics": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tremorsense 30"
+  ],
+  "passivePerception": 18,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Avoid the Swat",
+      "text": "⬲ Trigger The giant fly is targeted with a melee or ranged attack by an attacker it can see Effect The giant fly gains a +2 circumstance bonus against the triggering attack. If the attack misses, the giant insect can Fly up to its fly Speed."
+    },
+    {
+      "name": "Fly Pox",
+      "text": "(disease, virulent); Saving Throw DC 16 Fortitude. Stage 1 enfeebled 1 (1 day) Stage 2 as stage 1 (1 day) Stage 3 enfeebled 2 (1 day) Stage 4 as stage 3 (null) Stage 5 enfeebled 2 and fatigued (1 day)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ mandibles +8 Damage 1d6+3 (1d6+3) piercing plus fly pox"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      4,
+      3,
+      -5,
+      3,
+      -5
+    ]
+  }
+}

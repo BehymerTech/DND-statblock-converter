@@ -1,0 +1,110 @@
+{
+  "name": "Pyralisia, the Rain of Embers",
+  "sourceSystem": "pf1",
+  "source": "Mythical Monsters Revisited",
+  "size": "Gargantuan",
+  "type": "magical beast",
+  "subtype": "fire",
+  "alignment": "NE",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 33,
+    "notes": "dex +6, dodge +1, natural +20, size -4",
+    "touch": 13,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 287,
+    "formula": "23d10+161"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 90 ft. (good)"
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 23,
+    "con": 24,
+    "int": 23,
+    "wis": 20,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +20, Ref +19, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +30, Fly +30, Intimidate +30, Knowledge (arcana) +29, Knowledge (nature) +29, Perception +39, Sense Motive +28, Stealth +20",
+    "list": {
+      "Bluff": "+30",
+      "Fly": "+30",
+      "Intimidate": "+30",
+      "Perception": "+39",
+      "Sense Motive": "+28",
+      "Stealth": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "detect magic",
+    "low-light vision",
+    "see invisibility"
+  ],
+  "passivePerception": 49,
+  "languages": [
+    "Auran",
+    "Celestial",
+    "Common",
+    "Ignan"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 23,
+  "feats": [
+    "Blinding Critical",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dodge",
+    "Flyby Attack",
+    "Improved Critical (talon)",
+    "Improved Initiative",
+    "Iron Will",
+    "Mobility",
+    "Power Attack",
+    "Quicken Spell- Like Ability (wall of fire)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +28 (2d8+9 plus 4d6 fire and 4d6 electricity), 2 talons +28 (2d6+9/19-20 plus 4d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This giant ebon bird is streaked in lines of fiery embers and red lightning, clouds of black smoke billowing behind it.",
+  "meta": {
+    "race": "Female",
+    "class": "unique phoenix (Pathfinder RPG Bestiary 227)",
+    "cmb": "+36",
+    "cmd": 53,
+    "racialModifiers": [
+      "Perception 8"
+    ]
+  }
+}

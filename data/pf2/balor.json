@@ -1,0 +1,135 @@
+{
+  "name": "Balor",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 83.",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "Demon",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 20",
+  "xp": null,
+  "ac": {
+    "value": 45,
+    "notes": ""
+  },
+  "hp": {
+    "average": 480,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet, fly 70 feet"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 24,
+    "con": 28,
+    "int": 22,
+    "wis": 22,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +39, Ref +35, Will +34",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +35 (1d20+35); __Athletics__: +37 (1d20+37); __Deception__: +36 (1d20+36); __Diplomacy__: +32 (1d20+32); __Intimidation__: +38 (1d20+38); __Religion__: +32 (1d20+32); __Society__: +32 (1d20+32); __Stealth__: +33 (1d20+33); ",
+    "list": {
+      "Acrobatics": "+35",
+      "Athletics": "+37",
+      "Deception": "+36",
+      "Diplomacy": "+32",
+      "Intimidation": "+38",
+      "Religion": "+32",
+      "Society": "+32",
+      "Stealth": "+33"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, true seeing"
+  ],
+  "passivePerception": 46,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Draconic; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Aura of Flame",
+      "text": "(aura, divine, evocation, fire); 20 feet. A foe that starts its turn in the aura takes 3d6+10 (3d6+10) fire damage, or 6d6+20 (6d6+20) fire damage if the balor has grabbed or restrained it. A creature that hits a balor with an unarmed Strike takes 3d6+10 (3d6+10) fire damage, and weapons that hit a balor take 3d6+10 (3d6+10) fire damage."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲ The balor can use Attack of Opportunity when a creature within their reach uses a concentrate action, in addition to its normal trigger. They can disrupt triggering concentrate actions, and they disrupt actions on any hit, not just a critical hit."
+    },
+    {
+      "name": "Death Throes",
+      "text": "(death, divine, evocation, fire); When a balor dies, their body explodes in a 100-foot aura of intense demonic flame. All creatures and objects in range take 16d10 (16d10) fire damage (DC 45 basic Reflex save). Because the flame is infused with Abyssal energy, creatures in the area apply only half their usual fire resistance. Creatures with immunity to fire use an outcome one degree of success better than what they rolled, instead of gaining the usual benefit of immunity. The bodies of creatures reduced to 0 Hit Points by a balor's death throes are completely incinerated into fine ash."
+    },
+    {
+      "name": "Items",
+      "text": "longsword;"
+    },
+    {
+      "name": "Dimensional Dervish",
+      "text": "A balor can cast their 5th-level innate dimension door with only a single action."
+    },
+    {
+      "name": "Dispelling Strike",
+      "text": "⭓ Frequency once per round Trigger The balor hits a creature, object, or spell effect with a weapon Strike. Effect The balor casts an innate dispel magic on the target of the triggering Strike."
+    },
+    {
+      "name": "Infuse Weapons",
+      "text": "(divine, evocation); Any weapon a balor wields becomes a +3 major striking vorpal weapon made of cold iron and silver while the demon holds it. A weapon that isn't eligible for the vorpal rune doesn't gain its effects. The balor can change its evil damage to chaotic whenever it attacks. The demon can conjure a whip made of flames with an Interact action. This whip gains the same benefits as other weapons the balor wields."
+    },
+    {
+      "name": "Lifedrinker",
+      "text": "⭓ (divine, healing, necromancy); Trigger The balor kills a living creature that is at least 15th level. Effect The balor drinks the triggering creature's life force and regains 10d8+80 (10d8+80) Hit Points."
+    },
+    {
+      "name": "Whip Reposition",
+      "text": "When a balor grabs a creature with a whip Strike, they can move the creature to any space in the whip's reach. The balor can move without ending the grab as long as the creature remains within the whip's reach, and the balor can move the creature to any other space in the whip's reach with an Interact action."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ vorpal cold iron silver longsword +40 (evil, magical, reach 10 feet, versatile p); Damage 4d8+17 (4d8+17) slashing plus 1d6 (1d6) evil"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ cold iron silver flame whip +40 (disarm, evil, fire, magical, reach 20 feet, trip); Damage 4d6+17 (4d6+17) fire plus 1d6 (1d6) evil, Improved Grab, and whip reposition"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      9,
+      7,
+      9,
+      6,
+      6,
+      8
+    ],
+    "items": "longsword;"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "name": "Blood Hag",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 130.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Hag",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 26,
+    "notes": ""
+  },
+  "hp": {
+    "average": 170,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 20,
+    "con": 14,
+    "int": 14,
+    "wis": 16,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +14, Ref +17, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +15 (1d20+15); __Athletics__: +16 (1d20+16); __Deception__: +19 (1d20+19); __Diplomacy__: +17 (1d20+17); __Occultism__: +14 (1d20+14); __Stealth__: +17 (1d20+17); ",
+    "list": {
+      "Acrobatics": "+15",
+      "Athletics": "+16",
+      "Deception": "+19",
+      "Diplomacy": "+17",
+      "Occultism": "+14",
+      "Stealth": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "imprecise bloodsense 90, darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Common",
+    "Infernal",
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Bloodsense",
+      "text": "A blood hag can sense the presence of blood and creatures with blood. She can tell the difference between spilled blood and the blood within a living creature."
+    },
+    {
+      "name": "Coven",
+      "text": "A blood hag adds death ward, fiery body, and nightmare to her coven's spells (page 304)."
+    },
+    {
+      "name": "Borrowed Skin",
+      "text": "A blood hag wears a covering of skin stolen from a humanoid creature she has killed, hiding her true form and granting her the effects of a 4th-level misdirection, with herself as the primary target and the creature whose skin she is wearing as the secondary target. Spreading coarse salt inside the skin prevents the hag from putting it back on, forcing her to keep her fiery form until she kills another humanoid and spends 1 hour turning it into a new disguise."
+    },
+    {
+      "name": "Assume Fiery Form",
+      "text": "⬽ (concentrate, fire, occult, polymorph, transmutation); The blood hag removes her borrowed skin and transforms into a brilliant ball of fire. She becomes amorphous, gains the fire trait and a fly Speed of 60 feet, becomes immune to fire, and emits light as a torch. She loses her melee Strikes and can't Drain Blood, but she deals 3d10 (3d10) fire damage (DC 26 basic Reflex save) to each creature that touches her, as well as to each creature that succeeds at a melee Strike against her with an unarmed attack or from an adjacent space. If her skin is intact, she can return to her normal form by spending a single action that has the manipulate trait while adjacent to the skin. The hag can instead Assume Fiery Form as a single action, bursting through her skin in a blast of flames. Doing so destroys her borrowed skin and deals 9d6 (9d6) fire damage (DC 26 basic Reflex save) in a 20-foot emanation."
+    },
+    {
+      "name": "Drain Blood",
+      "text": "⬻ (necromancy, occult); Requirements A grabbed, paralyzed, restrained, unconscious, or willing creature is within the blood hag's reach Effect The hag sinks her fangs into the creature to drink its blood. This requires a successful Athletics check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The victim becomes drained 1. The hag regains 15 Hit Points, gaining any excess HP as temporary Hit Points that last for 1 hour. Drinking blood from a creature that's already drained doesn't restore any Hit Points to the hag but increases the victim's drained value by 1, killing the victim when it reaches drained 5. A victim's drained condition decreases by 1 per week. A blood transfusion, which requires a successful DC 20 Medicine check and sufficient blood or a blood donor, reduces the drained condition by 1 after 10 minutes."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +18 (agile); Damage 2d8+7 (2d8+7) slashing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +18 Damage 2d12+7 (2d12+7) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ firebolt +19 (agile, fire); Damage 2d10+8 (2d10+8) fire"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      5,
+      2,
+      2,
+      3,
+      5
+    ]
+  }
+}

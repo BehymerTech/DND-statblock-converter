@@ -1,0 +1,106 @@
+{
+  "name": "Dahzagan",
+  "sourceSystem": "pf1",
+  "source": "Belkzen, Hold of the Orc Hordes",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "chaotic, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex +2, natural +7, dodge +1, size -1",
+    "touch": 11,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 76,
+    "formula": "8d10+32"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 14,
+    "con": 18,
+    "int": 7,
+    "wis": 16,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +8, Ref +4, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +8, Intimidate +12, Knowledge (planes) +9, Perception +14",
+    "list": {
+      "Fly": "+8",
+      "Intimidate": "+12",
+      "Perception": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "deathwatch",
+    "scent"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Abyssal",
+    "Orc"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 8,
+  "feats": [
+    "Dodge",
+    "Flyby Attack",
+    "Great Fortitude",
+    "Iron Will",
+    "Power Attack",
+    "Weapon Focus (greatsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk greatsword +13/+8 (2d6+7), 2 claws +12 (1d4+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This winged horror has the upper body of a feral, bloody-mouthed female orc warrior and the lower body of a giant wolf.",
+  "meta": {
+    "cmb": "+14",
+    "cmd": "27 (31 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, trio, or murder (6-8 dahzagans)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk greatsword, other treasure)"
+      }
+    ]
+  }
+}

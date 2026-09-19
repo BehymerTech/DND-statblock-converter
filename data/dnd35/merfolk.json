@@ -1,0 +1,97 @@
+{
+  "name": "Merfolk",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Aquatic",
+  "alignment": "Usually neutral",
+  "cr": "1/2",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 13,
+    "notes": "+1 Dex, +2 leather",
+    "touch": 11,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 6,
+    "formula": "1d8+2"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": 50,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft. (1 square), swim 50 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 13,
+    "con": 14,
+    "int": 10,
+    "wis": 9,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +4, Ref +1, Will -1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Listen +3, Spot +3, Swim +9;",
+    "list": {
+      "Listen": "+3",
+      "Spot": "+3",
+      "Swim": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 1,
+  "feats": [
+    "Alertness"
+  ],
+  "traits": [
+    {
+      "name": "Special Qualities",
+      "text": "Amphibious, low-light vision"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Trident +2 melee (1d8+1) or heavy crossbow +2 ranged (1d10/19-20)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Trident +2 melee (1d8+1) or heavy crossbow +2 ranged (1d10/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A merfolk is about 8 feet long from the top of the head to the end of the tail, and weighs about 400 pounds.",
+    "grapple": "+2",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Temperate aquatic",
+    "organization": "Company (2-4), patrol (11-20 plus 2 3rd-level lieutenants and 1 leader of 3rd-6th level), or band (30-60 plus 1 3rd-level sergeant per 20 adults, 5 5th-level lieutenants, 3 7th-level captains, and 10 porpoises)",
+    "treasure": "Standard",
+    "advancement": "By character class",
+    "leveladjustment": "+1"
+  }
+}

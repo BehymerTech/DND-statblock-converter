@@ -1,0 +1,90 @@
+{
+  "name": "Locathah",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Aquatic",
+  "alignment": "Usually neutral",
+  "cr": "1/2",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 14,
+    "notes": "+1 Dex, +3 natural",
+    "touch": 11,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 9,
+    "formula": "2d8"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": 60,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft. (2 squares), swim 60 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 12,
+    "con": 10,
+    "int": 10,
+    "wis": 13,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +3, Ref +1, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (any One) +6, Listen +6, Spot +6, Swim +8;",
+    "list": {
+      "Listen": "+6",
+      "Spot": "+6",
+      "Swim": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 1,
+  "feats": [
+    "Weapon Focus (longspear)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Longspear +2 melee (1d8/3) or light crossbow +2 ranged (1d8/19-20)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Longspear +2 melee (1d8/3) or light crossbow +2 ranged (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Although humanoid in shape, locathahs are clearly more fish than human. The average locathah stands 5 feet tall and weighs 175 pounds. Females and males look very much alike, although the former can be recognized by the two ochre stripes marking their egg sacs.",
+    "grapple": "+1",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Warm aquatic",
+    "organization": "Company (2-4), patrol (11-20 plus 2 3rd-level sergeants and 1 leader of 3rd-6th level), or tribe (30-100 plus 100% noncombatants plus 1 3rd-level sergeant per 10 adults, 5 5th-level lieutenants, and 3 7th-level captains)",
+    "treasure": "Standard",
+    "advancement": "By character class",
+    "leveladjustment": "+1"
+  }
+}

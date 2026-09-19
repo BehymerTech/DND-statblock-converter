@@ -1,0 +1,116 @@
+{
+  "name": "Humbaba",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Colossal",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 34,
+    "notes": "armor +8, natural +24, size -8",
+    "touch": 2,
+    "flatFooted": 34
+  },
+  "hp": {
+    "average": 341,
+    "formula": "22d10+220"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft.,  40 ft. in armor"
+  },
+  "abilities": {
+    "str": 41,
+    "dex": 16,
+    "con": 30,
+    "int": 11,
+    "wis": 24,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +17, Ref +16, Will +22",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +34, Intimidate +45, Perception +32, Survival +32",
+    "list": {
+      "Climb": "+34",
+      "Intimidate": "+45",
+      "Perception": "+32",
+      "Survival": "+32"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 42,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 22,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Critical Focus",
+    "Improved Bull Rush",
+    "Improved Critical (longsword)",
+    "Improved Initiative",
+    "Intimidating Prowess",
+    "Iron Will",
+    "Power Attack",
+    "Staggering Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "longsword +29/+24/+19/+14 (6d6+22/17-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +18 (2d8+22)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering, horned, lion-faced giant has long, braided hair and is outfitted in various pieces of plate armor.",
+  "meta": {
+    "cmb": "+45",
+    "cmd": 58,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (masterwork half-plate, longsword, other treasure)"
+      }
+    ]
+  }
+}

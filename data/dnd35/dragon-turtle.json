@@ -1,0 +1,113 @@
+{
+  "name": "Dragon Turtle",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Huge",
+  "type": "Dragon",
+  "subtype": "Aquatic",
+  "alignment": "Usually neutral",
+  "cr": "9",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": "-2 size, +17 natural",
+    "touch": 8,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 138,
+    "formula": "12d12+60"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": 30,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft. (4 squares), swim 30 ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 10,
+    "con": 21,
+    "int": 12,
+    "wis": 13,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +13, Ref +8, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +3, Hide +7\\*, Intimidate +16, Listen +16, Search +16, Sense Motive +16, Spot +16, Survival +16 (+18 Following Tracks), Swim +21;",
+    "list": {
+      "Diplomacy": "+3",
+      "Hide": "+7",
+      "Intimidate": "+16",
+      "Listen": "+16",
+      "Search": "+16",
+      "Sense Motive": "+16",
+      "Spot": "+16",
+      "Survival": "+16",
+      "Swim": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 12,
+  "feats": [
+    "Blind -Fight",
+    "Cleave",
+    "Improved Bull Rush",
+    "Power Attack",
+    "Snatch"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Breath weapon, snatch, capsize"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., immunity to fire, *sleep,* and paralysis, low-light vision, scent"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Bite +18 melee (4d6+8)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +18 melee (4d6+8) and 2 claws +13 melee (2d8+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Its rough, deep green shell is much the same color as the deep water the monster favors, and the silver highlights that line the shell resemble light dancing on open water. The turtle's legs, tail, and head are a lighter green, flecked with golden highlights. An adult dragon turtle can measure from 20 to 30 feet from snout to tail, with a shell from 15 to 25 feet in diameter, and can weigh 8,000 to 32,000 pounds.",
+    "grapple": "+28",
+    "spaceReach": "15 ft./10 ft.",
+    "environment": "Temperate aquatic",
+    "organization": "Solitary",
+    "treasure": "Triple standard",
+    "advancement": "13-24 HD (Huge); 25-36 HD (Gargantuan)",
+    "leveladjustment": "---"
+  }
+}

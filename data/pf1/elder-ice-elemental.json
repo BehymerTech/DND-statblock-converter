@@ -1,0 +1,106 @@
+{
+  "name": "Elder Ice Elemental",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "air, cold, elemental, extraplanar, water",
+  "alignment": "N",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 24,
+    "notes": "dex +5, dodge +1, natural +10, size -2",
+    "touch": 14,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 152,
+    "formula": "16d10+64"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., burrow (ice and snow only) 20 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 20,
+    "con": 19,
+    "int": 10,
+    "wis": 11,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +14, Ref +17, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Escape Artist +24, Intimidate +19, Knowledge (planes) +19, Perception +19, Stealth +16, Swim +37",
+    "list": {
+      "Escape Artist": "+24",
+      "Intimidate": "+19",
+      "Perception": "+19",
+      "Stealth": "+16",
+      "Swim": "+37"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "snow vision"
+  ],
+  "passivePerception": 29,
+  "languages": [],
+  "initiative": "+9",
+  "babOrProficiency": 16,
+  "feats": [
+    "Cleave",
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Critical (slam)",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +24 (2d10+10/19-20 plus 2d8 cold)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+28",
+    "cmd": "44 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land or water (Plane of Water)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

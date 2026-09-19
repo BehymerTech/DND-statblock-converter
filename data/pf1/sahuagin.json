@@ -1,0 +1,108 @@
+{
+  "name": "Sahuagin",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "aquatic",
+  "alignment": "LE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 16,
+    "notes": "dex +1, natural +5",
+    "touch": 11,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 15,
+    "formula": "2d10+4"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 13,
+    "con": 14,
+    "int": 14,
+    "wis": 13,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +4, Ref +4, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Handle Animal +1, Perception +6, Ride +6, Stealth +6, Survival +6, Swim +15",
+    "list": {
+      "Handle Animal": "+1",
+      "Perception": "+6",
+      "Ride": "+6",
+      "Stealth": "+6",
+      "Survival": "+6",
+      "Swim": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Aquan",
+    "Common",
+    "speak with sharks"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Great Fortitude"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "trident +4 (1d8+3), bite -1 (1d4+1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "heavy crossbow +3 (1d10/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": 15,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm ocean"
+      },
+      {
+        "name": "Organisation",
+        "desc": "Solitary, pair, team (5-8), patrol (11-20 plus 1 lieutenant of 3rd level and 1-2 sharks), band (20-80 plus 100% noncombatants, 1 lieutenant of 3rd level and 1 chieftain of 4th level per 20 adults, and 1-2 sharks), or tribe (70-160 plus 100% noncombatants, 1 lieutenant of 3rd level per 20 adults, 1 chieftain of 4th level per 40 adults, 9 guards of 4th level, 1-4 underpriestesses of 3rd-6th level, 1 priestess of 7th level, 1 baron of 6th-8th level, and 5-8 sharks)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (trident, heavy crossbow with 10 bolts, other treasure)"
+      }
+    ]
+  }
+}

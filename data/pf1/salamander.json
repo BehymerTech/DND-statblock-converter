@@ -1,0 +1,110 @@
+{
+  "name": "Salamander",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "extraplanar, fire",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 18,
+    "notes": "dex +1, natural +7",
+    "touch": 11,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 76,
+    "formula": "8d10+32"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 13,
+    "con": 18,
+    "int": 14,
+    "wis": 15,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +10, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +12, Bluff +12, Craft (weaponsmithing) +17, Intimidate +12, Knowledge (planes) +13, Perception +16, Sense Motive +13, Stealth +12",
+    "list": {
+      "Acrobatics": "+12",
+      "Bluff": "+12",
+      "Intimidate": "+12",
+      "Perception": "+16",
+      "Sense Motive": "+13",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Common",
+    "Ignan"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 8,
+  "feats": [
+    "Cleave",
+    "Iron Will",
+    "Power Attack",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "spear +11/+6 (1d8+4/×3 plus 1d6 fire), tail slap +6 (2d6+1 plus 1d6 fire and grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This snake-bodied humanoid hisses with anger. Spines of crackling flame dance along the creature’s blackened, fiery-red scales.",
+  "meta": {
+    "cmb": "11 (+15 grapple)",
+    "cmd": "22 (can’t be tripped)",
+    "racialModifiers": [
+      "Craft (armorsmithing) 4",
+      "Craft (blacksmithing) 4",
+      "Craft (weaponsmithing) 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Fire)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cluster (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (spear, other nonflammable treasure)"
+      }
+    ]
+  }
+}

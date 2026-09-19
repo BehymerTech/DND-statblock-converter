@@ -1,0 +1,101 @@
+{
+  "name": "Pegasus",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Usually chaotic good",
+  "cr": "3",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 14,
+    "notes": "-1 size, +2 Dex, +3 natural",
+    "touch": 11,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 34,
+    "formula": "4d10+12"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": 120,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft. (12 squares), fly 120 ft. (average)"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 15,
+    "con": 16,
+    "int": 10,
+    "wis": 13,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +7, Ref +6, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +3, Listen +8, Sense Motive +9, Spot +8;",
+    "list": {
+      "Diplomacy": "+3",
+      "Listen": "+8",
+      "Sense Motive": "+9",
+      "Spot": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 4,
+  "feats": [
+    "Flyby Attack",
+    "Iron Will"
+  ],
+  "traits": [
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., low-light vision, scent, spell-like abilities"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Hoof +7 melee (1d6+4)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 hooves +7 melee (1d6+4) and bite +2 melee (1d3+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "The pegasus is a magnificent winged horse that sometimes serves the cause of good. Though highly prized as aerial steeds, pegasi are wild and shy creatures not easily tamed.",
+    "grapple": "+12",
+    "spaceReach": "10 ft./5 ft.",
+    "environment": "Temperate forests",
+    "organization": "Solitary, pair, or herd (6-10)",
+    "treasure": "None",
+    "advancement": "5-8 HD (Large)",
+    "leveladjustment": "+2 (cohort)"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "name": "Yaenit",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Broken Chains",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex +2, dodge +1, natural +6",
+    "touch": 13,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 76,
+    "formula": "8d10+32"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": 19,
+    "int": 9,
+    "wis": 13,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +10, Ref +8, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +11, Bluff +12, Climb +14, Intimidate +10, Knowledge (planes) +8, Perception +10, Stealth +11",
+    "list": {
+      "Acrobatics": "+11",
+      "Bluff": "+12",
+      "Climb": "+14",
+      "Intimidate": "+10",
+      "Perception": "+10",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see invisibility"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Draconic",
+    "Gnoll",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 8,
+  "feats": [
+    "Cleave",
+    "Dodge",
+    "Iron Will",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk falchion +14/+9 (2d4+7/18-20), bite +8 (1d6+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Patches of fur adorn the sickly flesh of this gangly but muscular hyena-headed humanoid.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": 26,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (the Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pack (2-5), or clan (6-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk falchion, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Shaitan",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 164.",
+  "size": "Large",
+  "type": "Genie",
+  "subtype": "Earth, Elemental",
+  "alignment": "LN",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 110,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, burrow 45 feet, climb 20 feet; earth glide;"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 12,
+    "con": 18,
+    "int": 16,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +18, Ref +12, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +19 (1d20+19); __Crafting__: +14 (1d20+14); __Deception__: +16 (1d20+16); __Nature__: +15 (1d20+15); __Society__: +14 (1d20+14); ",
+    "list": {
+      "Athletics": "+19",
+      "Crafting": "+14",
+      "Deception": "+16",
+      "Nature": "+15",
+      "Society": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, detect magic, imprecise tremorsense 60"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Common",
+    "Terran"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Earth Glide",
+      "text": "The shaitan can Burrow through dirt and stone at its full burrow Speed, leaving no tunnels or signs of its passing."
+    },
+    {
+      "name": "Shove into Stone",
+      "text": "(arcane, earth, transmutation); When the shaitan Pushes a creature into a stone barrier, the target must succeed at a DC 22 Reflex save or become merged with the barrier (as meld with stone). The victim can attempt to Escape (DC 28)."
+    },
+    {
+      "name": "Items",
+      "text": "+1 falchion;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ falchion +20 (forceful +1, magical, reach 10 feet, sweep); Damage 1d10+12 (1d10+12) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +19 (agile, magical, nonlethal, reach 10 feet); Damage 1d4+12 (1d4+12) bludgeoning plus Push 10 feet and shove into stone"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      1,
+      4,
+      3,
+      2,
+      3
+    ],
+    "items": "+1 falchion;"
+  }
+}

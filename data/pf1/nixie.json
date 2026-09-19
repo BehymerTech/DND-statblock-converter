@@ -1,0 +1,107 @@
+{
+  "name": "Nixie",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Bonus Bestiary",
+  "size": "Small",
+  "type": "fey",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 14,
+    "notes": "dex +3, size +1",
+    "touch": 14,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 9,
+    "formula": "2d6+2"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 7,
+    "dex": 16,
+    "con": 13,
+    "int": 12,
+    "wis": 13,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +1, Ref +6, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +9, Craft (any one) +5, Escape Artist +8, Handle Animal +6, Perception +6, Perform (sing) +8, Sense Motive +5, Stealth +12, Swim +10",
+    "list": {
+      "Bluff": "+9",
+      "Escape Artist": "+8",
+      "Handle Animal": "+6",
+      "Perception": "+6",
+      "Sense Motive": "+5",
+      "Stealth": "+12",
+      "Swim": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Aquan",
+    "Sylvan"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 1,
+  "feats": [
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "short sword +5 (1d4-2/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "light crossbow +5 (1d6/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This green-skinned fey has webbed hands and feet. Its hair is the color of seaweed, and is decorated with shells.",
+  "meta": {
+    "cmb": "-2",
+    "cmd": 11,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "gang (2-4), band (6-11), or tribe (20-80)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (light crossbow with 20 bolts, short sword, other treasure)"
+      }
+    ]
+  }
+}

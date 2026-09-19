@@ -1,0 +1,104 @@
+{
+  "name": "NPC Natural Arcanist",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "halfling",
+  "alignment": "NE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 23,
+    "notes": "armor +3, deflection +3, dex +3, dodge +1, natural +2, size +1",
+    "touch": 18,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 137,
+    "formula": "16d6+79"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 16,
+    "con": 14,
+    "int": 12,
+    "wis": 10,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +11, Ref +12, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +5, Bluff +18, Climb +0, Fly +9, Knowledge (arcana) +12, Knowledge (local) +9, Perception +12, Spellcraft +12, Use Magic Device +18",
+    "list": {
+      "Acrobatics": "+5",
+      "Bluff": "+18",
+      "Climb": "+0",
+      "Fly": "+9",
+      "Perception": "+12",
+      "Spellcraft": "+12",
+      "Use Magic Device": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 22,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Halfling"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 8,
+  "feats": [
+    "Combat Casting",
+    "Dodge",
+    "Empower Spell",
+    "Eschew Materials",
+    "Improved Counterspell",
+    "Iron Will",
+    "Maximize Spell",
+    "Quicken Spell",
+    "Silent Spell",
+    "Still Spell",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk spear +8/+3 (1d6-2/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk sling +13/+8 (1d3-2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Halfling",
+    "class": "sorcerer 16",
+    "cmb": "+5",
+    "cmd": 22
+  }
+}

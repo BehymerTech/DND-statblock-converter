@@ -1,0 +1,107 @@
+{
+  "name": "Amphiptere",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 16,
+    "notes": "natural +7, size -1",
+    "touch": 9,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 42,
+    "formula": "5d12+10"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 11,
+    "con": 14,
+    "int": 7,
+    "wis": 12,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +6, Ref +4, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +10, Perception +13, Sense Motive +9, Stealth +4",
+    "list": {
+      "Fly": "+10",
+      "Perception": "+13",
+      "Sense Motive": "+9",
+      "Stealth": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 5,
+  "feats": [
+    "Flyby Attack",
+    "Improved Initiative",
+    "Weapon Focus (tail)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "tail +9 (1d8+4), bite +8 (1d10+4 plus grab), 2 wings +3 (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This snake-bodied dragon has a sinuous tail with a spiked tip. Flared wings attach to its forelimbs, and it lacks rear legs.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": "20 (can’t be tripped)",
+    "racialModifiers": [
+      "Fly 4",
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm deserts, hills, or mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or flight (3-18)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

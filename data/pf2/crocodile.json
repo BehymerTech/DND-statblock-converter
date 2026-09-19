@@ -1,0 +1,100 @@
+{
+  "name": "Crocodile",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 67.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 30,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, swim 25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 16,
+    "int": 0,
+    "wis": 12,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +9, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +8 (1d20+8); __Stealth__: +7 (1d20+7), (Stealth: +11 (1d20+11) in water); ",
+    "list": {
+      "Athletics": "+8",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Aquatic Ambush",
+      "text": "⬻ 35 feet."
+    },
+    {
+      "name": "Death Roll",
+      "text": "⬻ (attack); Requirements The crocodile must have a creature grabbed. Effect The crocodile tucks its legs and rolls rapidly, twisting its victim. It makes a jaws Strike with a +2 circumstance bonus to the attack roll against the grabbed creature. If it hits, it also knocks the creature prone. If it fails, it releases the creature."
+    },
+    {
+      "name": "Deep Breath",
+      "text": "The crocodile can hold its breath for about 2 hours."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +10 Damage 1d10+4 (1d10+4) piercing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +10 (agile); Damage 1d6+4 (1d6+4) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      1,
+      3,
+      -5,
+      1,
+      -4
+    ]
+  }
+}

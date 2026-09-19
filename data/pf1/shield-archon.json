@@ -1,0 +1,111 @@
+{
+  "name": "Shield Archon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "archon, extraplanar, good, lawful",
+  "alignment": "LG",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 29,
+    "notes": "armor +9, dex +1, natural +4, shield +6, size -1",
+    "touch": 10,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 112,
+    "formula": "9d10+63"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 90 ft. (good), other_semicolon 30 ft., fly 60 ft. in armor ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 13,
+    "con": 25,
+    "int": 14,
+    "wis": 16,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +13, Ref +7, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +14, Fly +0, Intimidate +14, Knowledge (religion) +14, Perception +15, Sense Motive +15, Stealth -6, Survival +15",
+    "list": {
+      "Diplomacy": "+14",
+      "Fly": "+0",
+      "Intimidate": "+14",
+      "Perception": "+15",
+      "Sense Motive": "+15",
+      "Stealth": "-6",
+      "Survival": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Iron Will",
+    "Shield Focus",
+    "Stand Still",
+    "Weapon Specialization (shortspear)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+3 shortspear +16/+11 (1d8+10)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This armored giant is sheathed in metal from head to toe. One arm ends in a spear-like blade, the other in a massive shield.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": "26 (30 vs. bull rush and trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Heaven)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or squad (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (full plate, other treasure)"
+      }
+    ]
+  }
+}

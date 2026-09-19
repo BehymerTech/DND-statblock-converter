@@ -1,0 +1,112 @@
+{
+  "name": "Aghasura",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "asura, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 23,
+    "notes": "armor +6, dex +3, natural +6, size -2",
+    "touch": 11,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 161,
+    "formula": "14d10+84"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., swim 30 ft., swim_other 35 ft., swim 20 ft. in armor ft."
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 17,
+    "con": 23,
+    "int": 11,
+    "wis": 14,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +15, Ref +9, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +17, Bluff +19, Escape Artist +6, Intimidate +17, Knowledge (planes) +13, Perception +19, Sense Motive +19, Stealth +9, Swim +17",
+    "list": {
+      "Acrobatics": "+17",
+      "Bluff": "+19",
+      "Escape Artist": "+6",
+      "Intimidate": "+17",
+      "Perception": "+19",
+      "Sense Motive": "+19",
+      "Stealth": "+9",
+      "Swim": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Common",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 14,
+  "feats": [
+    "Cleave",
+    "Critical Focus",
+    "Great Cleave",
+    "Improved Critical (scimitar)",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Weapon Focus (scimitar)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk scimitar +26/+21/+16 (2d6+12/15-20 plus poison), mwk scimitar +26 (2d6+12/15-20 plus poison), bite +19 (2d8+6 plus grab and poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This immense creature looks like a horned rattlesnake, save for its two muscular arms, each of which wields a scimitar.",
+  "meta": {
+    "cmb": "28 (+32 grapple)",
+    "cmd": "41 (can’t be tripped)",
+    "racialModifiers": [
+      "Escape Artist 6",
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or troop (2-9)"
+      }
+    ]
+  }
+}

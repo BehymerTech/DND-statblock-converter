@@ -1,0 +1,116 @@
+{
+  "name": "Adult Forest Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "earth",
+  "alignment": "CE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 30,
+    "notes": "natural +22, size -2",
+    "touch": 8,
+    "flatFooted": 30
+  },
+  "hp": {
+    "average": 229,
+    "formula": "17d12+119"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (poor), burrow 20 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 10,
+    "con": 22,
+    "int": 16,
+    "wis": 17,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +16, Ref +10, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +8, Bluff +23, Climb +37, Escape Artist +2, Fly +12, Intimidate +23, Knowledge (arcana) +14, Knowledge (nature) +14, Perception +23, Spellcraft +23, Stealth +22, Survival +16",
+    "list": {
+      "Acrobatics": "+8",
+      "Bluff": "+23",
+      "Climb": "+37",
+      "Escape Artist": "+2",
+      "Fly": "+12",
+      "Intimidate": "+23",
+      "Perception": "+23",
+      "Spellcraft": "+23",
+      "Stealth": "+22",
+      "Survival": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "tremorsense"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Sylvan"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 17,
+  "feats": [
+    "Improved Initiative",
+    "Improved Natural Armor",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack",
+    "Skill Focus (Stealth)",
+    "Stealthy",
+    "Toughness",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +25 (2d8+13), 2 claws +24 (2d6+9), gore +24 (2d6+13), tail slap +22 (2d6+13)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+28",
+    "cmd": "38 (42 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forest"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Honored of Kaoling",
+  "sourceSystem": "pf1",
+  "source": "Distant Shores",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "goblinoid, native",
+  "alignment": "LE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 19,
+    "notes": "armor +6, dex +3",
+    "touch": 13,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 52,
+    "formula": "4d10+24"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 16,
+    "con": 20,
+    "int": 12,
+    "wis": 15,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +4, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Handle Animal +7, Intimidate +7, Perception +6, Ride +7, Stealth +4, Survival +6",
+    "list": {
+      "Handle Animal": "+7",
+      "Intimidate": "+7",
+      "Perception": "+6",
+      "Ride": "+7",
+      "Stealth": "+4",
+      "Survival": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Giant",
+    "Goblin",
+    "Tien"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 4,
+  "feats": [
+    "Cleave",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk naginata +10 (1d8+5/×4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite longbow +8 (1d8+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Kanabo",
+    "class": "hobgoblin samurai 4 (Pathfinder RPG Ultimate Combat 18)",
+    "cmb": "+9",
+    "cmd": 22
+  }
+}

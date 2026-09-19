@@ -1,0 +1,104 @@
+{
+  "name": "Mutant Goblin",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "goblinoid",
+  "alignment": "NE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 16,
+    "notes": "dex +3, natural +4, rage -2, size +1",
+    "touch": 12,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 37,
+    "formula": "3d12+12"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 30 ft. (clumsy)"
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 17,
+    "con": 18,
+    "int": 8,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +7, Ref +4, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly -4, Intimidate +4, Perception +7, Ride +6, Stealth +13, Swim +10",
+    "list": {
+      "Fly": "-4",
+      "Intimidate": "+4",
+      "Perception": "+7",
+      "Ride": "+6",
+      "Stealth": "+13",
+      "Swim": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Goblin"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +9 (1d3+5)"
+    },
+    {
+      "name": "Ranged",
+      "text": "composite shortbow +7 (1d4+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This goblin has a bizarre amalgamation of asymmetrical parts, including dragonfly wings, a partial arm, and scales.",
+  "meta": {
+    "race": "Mutant",
+    "class": "goblin barbarian 3",
+    "cmb": "+7",
+    "cmd": 18,
+    "racialModifiers": [
+      "Ride 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forest and plains (usually coastal regions)"
+      }
+    ]
+  }
+}

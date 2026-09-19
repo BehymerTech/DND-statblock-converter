@@ -1,0 +1,107 @@
+{
+  "name": "NPC Master Historian",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "alignment": "N",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 19,
+    "notes": "armor +6, deflection +2, dex -1, natural +2",
+    "touch": 11,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 120,
+    "formula": "10d8+7d6+51"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 8,
+    "con": 16,
+    "int": 14,
+    "wis": 16,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +13, Ref +15, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +7, Handle Animal +9, Heal +8, Intimidate +12, Knowledge (dungeoneering) +18, Knowledge (local) +18, Knowledge (religion) +18, Knowledge (engineering) +14, Knowledge (nature) +14, Knowledge (planes) +14, Knowledge (geography) +19, Knowledge (history) +36, Knowledge (nobility) +20, Perception +16, Perform (act) +17, Perform (oratory) +17, Perform (sing) +17, Perform (percussion) +8, Ride +3, Sense Motive +7, Spellcraft +15, Swim +0, Use Magic Device +17",
+    "list": {
+      "Climb": "+7",
+      "Handle Animal": "+9",
+      "Heal": "+8",
+      "Intimidate": "+12",
+      "Perception": "+16",
+      "Ride": "+3",
+      "Sense Motive": "+7",
+      "Spellcraft": "+15",
+      "Swim": "+0",
+      "Use Magic Device": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see invisibility"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Elven",
+    "Giant",
+    "Terran"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 10,
+  "feats": [
+    "Combat Casting",
+    "Combat Expertise",
+    "Extend Spell",
+    "Extra Performance",
+    "Greater Spell Focus (enchantment)",
+    "Heighten Spell",
+    "Lightning Reflexes",
+    "Scribe Scroll",
+    "Skill Focus (Knowledge [history])",
+    "Spell Focus (enchantment)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk short sword +11/+6 (1d6/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Dwarf",
+    "class": "bard 10, loremaster 7",
+    "cmb": "+10",
+    "cmd": "21 (25 vs. bull rush or trip)"
+  }
+}

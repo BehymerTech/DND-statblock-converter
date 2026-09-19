@@ -1,0 +1,105 @@
+{
+  "name": "Hellwasp Swarm",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 133.",
+  "size": "Large",
+  "type": "Swarm",
+  "subtype": "Fiend",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 95,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet; fly 40 feet;"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 22,
+    "int": 4,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +18, Ref +16, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +18 (1d20+18); __Stealth__: +18 (1d20+18); ",
+    "list": {
+      "Acrobatics": "+18",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Infernal (can't speak any language)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Abandon Corpse",
+      "text": "⬻ Requirements The hellwasp swarm is controlling a corpse with Effect"
+    },
+    {
+      "name": "Infest Corpse; Effect",
+      "text": "The hellwasp swarm leaves its host corpse, which dies instantly and becomes a normal corpse in all respects. The hellwasp swarm expands out from that space to its normal size."
+    },
+    {
+      "name": "Hellwasp Stings",
+      "text": "⬻ Each enemy in the swarm's space takes 4d8 (4d8) piercing damage (DC 26 basic Reflex save). Any creature that fails its saving throw is exposed to hellwasp venom."
+    },
+    {
+      "name": "Hellwasp Venom",
+      "text": "(poison); Saving Throw DC 26 Fortitude. Maximum Duration 6 rounds Stage 1 1d8 (1d8) poison damage and clumsy 2 (1 round) Stage 2 2d8 (2d8) poison damage and clumsy 2 (1 round)"
+    },
+    {
+      "name": "Infest Corpse",
+      "text": "⬺ (manipulate); The hellwasp swarm animates the corpse of a Small, Medium, or Large humanoid that protected by gentle repose or similar magic, crawling into its mouth and other orifices. Its size changes to that of the corpse and it loses its piercing and slashing resistances, fly Speed, and Hellwasp Stings. It gains a fist melee Strike with a +18 attack modifier that deals 2d8 (2d8) bludgeoning damage plus 2d8 (2d8) piercing damage and hellwasp venom. The hellwasp swarm gains 40 temporary Hit Points when it Infests a Corpse; when these temporary HP are depleted, the corpse falls apart and the swarm Abandons the Corpse automatically."
+    },
+    {
+      "name": "Torturous Buzz",
+      "text": "⬺ (auditory, emotion, enchantment, incapacitation, occult); The swarm emits a distracting, cacophonous buzzing. Each creature within 20 feet must attempt a DC 26 Will save. Critical Success The creature is unaffected and temporarily immune for 1 minute. Success The creature is unaffected. Failure The creature is confused for 1 round. Critical Failure The creature is confused for 1d4 (1d4) rounds."
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      4,
+      6,
+      -3,
+      2,
+      -2
+    ]
+  }
+}

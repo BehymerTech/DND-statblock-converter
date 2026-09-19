@@ -1,0 +1,96 @@
+{
+  "name": "Kallas Devil",
+  "sourceSystem": "pf1",
+  "source": "Fey Revisited",
+  "size": "Large",
+  "type": "fey",
+  "subtype": "aquatic",
+  "alignment": "NE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 22,
+    "notes": "dex +5, dodge +2, natural +6, size -1",
+    "touch": 16,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 102,
+    "formula": "12d6+60"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., swim 50 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 20,
+    "con": 20,
+    "int": 13,
+    "wis": 15,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +9, Ref +15, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +20, Escape Artist +20, Intimidate +16, Knowledge (nature) +16, Perception +17, Stealth +16, Swim +28",
+    "list": {
+      "Acrobatics": "+20",
+      "Escape Artist": "+20",
+      "Intimidate": "+16",
+      "Perception": "+17",
+      "Stealth": "+16",
+      "Swim": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 6,
+  "feats": [
+    "Dodge",
+    "Lightning Reflexes",
+    "Lightning Stance",
+    "Mobility",
+    "Spring Attack",
+    "Wind Stance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk trident +11/+6 (2d6+5), bite +10 (1d8+5 plus disease), 2 hooves +5 (1d6+2 plus disease)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Growing from the back of a horselike beast is the torso of a sea hag with grossly elongated arms and large, clawed hands. Its tangled web of stringy hair does not hide the disturbing fact that the hideous creature has no skin, and is built of gore and viscera.",
+  "meta": {
+    "race": "Variant",
+    "class": "nuckelavee (Pathfinder RPG Bestiary 3 203)",
+    "cmb": "+12",
+    "cmd": "29 (33 vs. trip)"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Wight",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "alignment": "Always lawful evil",
+  "cr": "3",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "+1 Dex, +4 natural",
+    "touch": 11,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 26,
+    "formula": "4d12"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares)"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": null,
+    "int": 11,
+    "wis": 13,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +1, Ref +2, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Hide +8, Listen +7, Move Silently +16, Spot +7;",
+    "list": {
+      "Hide": "+8",
+      "Listen": "+7",
+      "Move Silently": "+16",
+      "Spot": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Alertness",
+    "Blind -Fight"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Create spawn, energy drain"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., undead traits"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Slam +3 melee (1d4+1 plus energy drain)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Slam +3 melee (1d4+1 plus energy drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A wight's appearance is a weird and twisted reflection of the form it had in life. A wight is about the height and weight of a human.",
+    "grapple": "+3",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Any",
+    "organization": "Solitary, pair, gang (3-5), or pack (6-11)",
+    "treasure": "None",
+    "advancement": "5-8 HD (Medium)",
+    "leveladjustment": "---"
+  }
+}

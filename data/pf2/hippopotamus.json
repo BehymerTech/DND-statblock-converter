@@ -1,0 +1,105 @@
+{
+  "name": "Hippopotamus",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 144.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 5",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 85,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, swim 20 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 14,
+    "con": 22,
+    "int": 2,
+    "wis": 18,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +15, Ref +9, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +13 (1d20+13); __Stealth__: +11 (1d20+11), (Stealth: +13 (1d20+13) in water); __Survival__: +11 (1d20+11); ",
+    "list": {
+      "Athletics": "+13",
+      "Stealth": "+13",
+      "Survival": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Deep Breath",
+      "text": "The hippopotamus can hold its breath for 5 minutes."
+    },
+    {
+      "name": "Aquatic Ambush",
+      "text": "⬻ 30 feet."
+    },
+    {
+      "name": "Capsize",
+      "text": "⬻ (attack); The hippopotamus tries to capsize an adjacent aquatic vessel of its size or smaller. The hippopotamus must succeed at an Athletics check with a DC of 25 (reduced by 5 for each size smaller the vessel is than the hippo) or the pilot's Sailing Lore DC, whichever is higher."
+    },
+    {
+      "name": "Trample",
+      "text": "⬽ Medium or smaller, foot, DC 23."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +15 (deadly d10); Damage 2d8+8 (2d8+8) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ foot +13 Damage 1d10+8 (1d10+8) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      2,
+      6,
+      -4,
+      4,
+      -2
+    ]
+  }
+}

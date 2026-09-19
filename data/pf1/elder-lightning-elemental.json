@@ -1,0 +1,107 @@
+{
+  "name": "Elder Lightning Elemental",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "air, elemental, extraplanar",
+  "alignment": "N",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 25,
+    "notes": "dex +10, dodge +1, natural +6, size -2",
+    "touch": 19,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 136,
+    "formula": "16d10+48"
+  },
+  "speed": {
+    "walk": 100,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 100 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 31,
+    "con": 16,
+    "int": 10,
+    "wis": 11,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +13, Ref +20, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +29, Escape Artist +29, Fly +14, Intimidate +19, Knowledge (planes) +19, Perception +19, Stealth +21",
+    "list": {
+      "Acrobatics": "+29",
+      "Escape Artist": "+29",
+      "Fly": "+14",
+      "Intimidate": "+19",
+      "Perception": "+19",
+      "Stealth": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 29,
+  "languages": [],
+  "initiative": "+14",
+  "babOrProficiency": 16,
+  "feats": [
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Dodge",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Iron Will",
+    "Mobility",
+    "Power Attack",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +24 (2d8+8 plus 2d8 electricity)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+26",
+    "cmd": 47,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Air)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

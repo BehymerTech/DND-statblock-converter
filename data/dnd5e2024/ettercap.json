@@ -1,0 +1,101 @@
+{
+  "name": "Ettercap",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "Monstrosity",
+  "subtype": "",
+  "alignment": "Neutral Evil",
+  "cr": "2",
+  "level": null,
+  "xp": 450,
+  "ac": {
+    "value": 13,
+    "notes": ""
+  },
+  "hp": {
+    "average": 44,
+    "formula": "8d8 + 8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": 30,
+    "burrow": null,
+    "notes": "30 ft., Climb 30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 15,
+    "con": 13,
+    "int": 7,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +3, Stealth +4, Survival +3",
+    "list": {
+      "Perception": "+3",
+      "Stealth": "+4",
+      "Survival": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 13,
+  "languages": [],
+  "initiative": "+2 (12)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Spider Climb",
+      "text": "The ettercap can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+    },
+    {
+      "name": "Web Walker",
+      "text": "The ettercap ignores movement restrictions caused by webs, and the ettercap knows the location of any other creature in contact with the same web."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The ettercap makes one Bite attack and one Claw attack."
+    },
+    {
+      "name": "Bite",
+      "text": "_Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 5 (1d6 + 2) Piercing damage plus 2 (1d4) Poison damage, and the target has the Poisoned condition until the start of the ettercap's next turn."
+    },
+    {
+      "name": "Claw",
+      "text": "_Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 7 (2d4 + 2) Slashing damage."
+    },
+    {
+      "name": "Web Strand (Recharge 5–6)",
+      "text": "_Dexterity Saving Throw:_ DC 12, one Large or smaller creature the ettercap can see within 30 feet. _Failure:_ The target has the Restrained condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Bludgeoning, Poison, and Psychic damage)."
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Reel",
+      "text": "The ettercap pulls one creature within 30 feet of itself that is Restrained by its Web Strand up to 25 feet straight toward itself. ## Ettin"
+    }
+  ],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

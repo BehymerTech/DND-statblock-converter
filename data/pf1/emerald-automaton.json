@@ -1,0 +1,94 @@
+{
+  "name": "Emerald Automaton",
+  "sourceSystem": "pf1",
+  "source": "The Emerald Spire Superdungeon",
+  "size": "Medium",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +1, natural +6",
+    "touch": 11,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 47,
+    "formula": "5d10+20"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 13,
+    "con": "None",
+    "int": "None",
+    "wis": 11,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +1, Ref +2, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 5,
+  "feats": [
+    "Improved Sunder",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "guisarme +10 (2d4+7/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "An eerie green glow shines through the seams of this mechanical creature’s armor.",
+  "meta": {
+    "cmb": "10 (+12 sunder)",
+    "cmd": "21 (23 vs. sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or squad (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental (guisarme, other treasure)"
+      }
+    ]
+  }
+}

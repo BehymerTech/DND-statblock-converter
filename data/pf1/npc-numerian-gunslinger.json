@@ -1,0 +1,107 @@
+{
+  "name": "NPC Numerian Gunslinger",
+  "sourceSystem": "pf1",
+  "source": "Numeria, Land of Fallen Stars",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "CG",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 20,
+    "notes": "armor +4, deflection +1, dex +3, dodge +2",
+    "touch": 16,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 61,
+    "formula": "6d10+24"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 17,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +8, Ref +9, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +11, Craft (mechanical) +9, Knowledge (engineering) +9, Perception +11, Sleight of Hand +11",
+    "list": {
+      "Acrobatics": "+11",
+      "Perception": "+11",
+      "Sleight of Hand": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 21,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 6,
+  "feats": [
+    "Gunsmithing",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Rapid Shot",
+    "Toughness",
+    "Weapon Focus (laser pistol)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk dagger +8/+3 (1d4+1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "laser pistol +10 touch (1d8+3 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hard-eyed stranger holds a strange weapon in his hand that resembles a pistol but glows with a pale blue light.",
+  "meta": {
+    "race": "Human",
+    "class": "gunslinger 6",
+    "cmb": "+7",
+    "cmd": 23,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Numeria)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (oil of magic weapon, potion of cat’s grace, potions of cure moderate wounds [2], antitoxin, mwk chain shirt, laser pistol, mwk dagger, mwk pistol with 20 bullets and 20 paper alchemical cartridges [bullet], cloak of resistance +1, ring of protection +1, black powder horn with 20 doses of black powder, everburning torch, mwk artisan’s tools, 5 Numerian silverdisks worth 100 gp each, 40 gp)"
+      }
+    ]
+  }
+}

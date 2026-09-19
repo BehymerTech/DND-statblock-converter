@@ -1,0 +1,86 @@
+{
+  "name": "Killer Whale",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Huge",
+  "type": "beast",
+  "subtype": "",
+  "alignment": "unaligned",
+  "cr": "3",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 12,
+    "notes": "natural armor"
+  },
+  "hp": {
+    "average": 90,
+    "formula": "12d12 + 12"
+  },
+  "speed": {
+    "walk": 0,
+    "fly": null,
+    "swim": 60,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 10,
+    "con": 13,
+    "int": 3,
+    "wis": 12,
+    "cha": 7
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +3",
+    "list": {
+      "perception": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight 120 ft."
+  ],
+  "passivePerception": 13,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Echolocation",
+      "text": "The whale can't use its blindsight while deafened."
+    },
+    {
+      "name": "Hold Breath",
+      "text": "The whale can hold its breath for 30 minutes."
+    },
+    {
+      "name": "Keen Hearing",
+      "text": "The whale has advantage on Wisdom (Perception) checks that rely on hearing."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 21 (5d6 + 4) piercing damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

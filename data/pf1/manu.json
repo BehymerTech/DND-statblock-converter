@@ -1,0 +1,111 @@
+{
+  "name": "Manu",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "extraplanar, good, lawful, manasaputra",
+  "alignment": "LG",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 27,
+    "notes": "deflection +3, dex +4, dodge +1, soul armor +9",
+    "touch": 27,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 161,
+    "formula": "17d10+68"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 19,
+    "con": 18,
+    "int": 14,
+    "wis": 20,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +9, Ref +14, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +18, Diplomacy +23, Fly +12, Intimidate +17, Knowledge (any one) +20, Knowledge (history) +20, Knowledge (local) +20, Knowledge (planes) +20, Perception +25, Sense Motive +22",
+    "list": {
+      "Acrobatics": "+18",
+      "Diplomacy": "+23",
+      "Fly": "+12",
+      "Intimidate": "+17",
+      "Perception": "+25",
+      "Sense Motive": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Celestial",
+    "Common",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 17,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Initiative",
+    "Mobility",
+    "Power Attack",
+    "Spring Attack",
+    "Whirlwind Attack",
+    "Wind Stance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 slams +18 (1d10+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A toned, regal human radiates a shifting aura of many colors and murmuring voices that seem strangely familiar.",
+  "meta": {
+    "cmb": "+18",
+    "cmd": 45,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Material Plane or Positive Energy Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or round (2-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

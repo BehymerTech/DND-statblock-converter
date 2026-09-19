@@ -1,0 +1,109 @@
+{
+  "name": "NPC Numerian Ascetic",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "android",
+  "alignment": "LN",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 24,
+    "notes": "armor +1, deflection +2, dex +4, dodge +1, monk +3, wis +3",
+    "touch": 23,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 94,
+    "formula": "14d8+28"
+  },
+  "speed": {
+    "walk": 70,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "70 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 18,
+    "con": 12,
+    "int": 10,
+    "wis": 17,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +10, Ref +13, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +18, Climb +17, Heal +15, Perception +16, Sense Motive -1, Stealth +21",
+    "list": {
+      "Acrobatics": "+18",
+      "Climb": "+17",
+      "Heal": "+15",
+      "Perception": "+16",
+      "Sense Motive": "-1",
+      "Stealth": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 10,
+  "feats": [
+    "Agile Maneuvers",
+    "Bonebreaker",
+    "Catch Off-Guard",
+    "Dimensional Agility",
+    "Dodge",
+    "Greater Grapple",
+    "Improved Grapple",
+    "Improved Unarmed Strike",
+    "Jawbreaker",
+    "Mantis Style",
+    "Neckbreaker",
+    "Stunning Fist"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 unarmed strike +15/+10 (2d6+5)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +14 (1d4+3/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Android",
+    "class": "monk 14",
+    "cmb": "18 (+22 grapple)",
+    "cmd": "36 (38 vs. grapple)",
+    "racialModifiers": [
+      "Perception 2",
+      "Sense Motive -4"
+    ]
+  }
+}

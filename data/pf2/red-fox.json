@@ -1,0 +1,90 @@
+{
+  "name": "Red Fox",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 102.",
+  "size": "Tiny",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature -1",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 5,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet"
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 16,
+    "con": 10,
+    "int": 2,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +5, Ref +6, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +6 (1d20+6), (Acrobatics: +8 (1d20+8) to Escape); __Athletics__: +2 (1d20+2), (Athletics: +4 (1d20+4) to High Jump or Long Jump); __Stealth__: +6 (1d20+6); __Survival__: +5 (1d20+5); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Athletics": "+4",
+      "Stealth": "+6",
+      "Survival": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Leaping Pounce",
+      "text": "⬻ The red fox either Strides or Leaps up to its Speed and makes a Strike at the end of that movement. If the fox began this action hidden, it remains hidden until after this ability's Strike."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +9 (agile, finesse); Damage 1d6 (1d6) –2 piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -2,
+      3,
+      0,
+      -4,
+      2,
+      0
+    ]
+  }
+}

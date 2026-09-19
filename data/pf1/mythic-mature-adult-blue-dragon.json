@@ -1,0 +1,115 @@
+{
+  "name": "Mythic Mature Adult Blue Dragon",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "earth, mythic",
+  "alignment": "LE",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 39,
+    "notes": "dex +1, natural +30, size -2",
+    "touch": 9,
+    "flatFooted": 38
+  },
+  "hp": {
+    "average": 295,
+    "formula": "18d12+178"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (poor), burrow 20 ft., other ['sand glide'] ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 12,
+    "con": 23,
+    "int": 16,
+    "wis": 17,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +17, Ref +12, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +24, Fly +14, Intimidate +24, Knowledge (arcana) +15, Knowledge (geography) +24, Knowledge (history) +15, Knowledge (local) +24, Perception +24, Spellcraft +15, Stealth +14, Survival +15",
+    "list": {
+      "Bluff": "+24",
+      "Fly": "+14",
+      "Intimidate": "+24",
+      "Perception": "+24",
+      "Spellcraft": "+15",
+      "Stealth": "+14",
+      "Survival": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Auran",
+    "Common",
+    "Draconic",
+    "Ignan"
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 18,
+  "feats": [
+    "Combat Casting",
+    "Dazzling Display",
+    "Deadly Stroke",
+    "Hover",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Multiattack",
+    "Shatter Defenses",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +26 (2d8+12/19-20), 2 claws +24 (2d6+8), tail slap +22 (2d6+12), 2 wings +22 (1d8+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+28",
+    "cmd": "39 (43 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

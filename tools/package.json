@@ -1,0 +1,13 @@
+{
+  "name": "statblock-converter-tools",
+  "private": true,
+  "type": "module",
+  "description": "Node-only build tooling: regenerates /data from the cloned SRD repos and the 5etools bundle. Not part of the deployed site.",
+  "scripts": {
+    "build-data": "node build-data.mjs",
+    "convert": "node convert-cli.mjs"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}

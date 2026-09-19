@@ -1,0 +1,102 @@
+{
+  "name": "Trox",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Large",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 10,
+    "notes": "armor +2, dex +1, rage -2, size -1",
+    "touch": 8,
+    "flatFooted": 9
+  },
+  "hp": {
+    "average": 17,
+    "formula": "1d12+5"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., burrow 20 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 13,
+    "con": 18,
+    "int": 8,
+    "wis": 10,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +6, Ref +1, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +11, Intimidate +2, Survival +4, Perception +0",
+    "list": {
+      "Climb": "+11",
+      "Intimidate": "+2",
+      "Survival": "+4",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 10,
+  "languages": [
+    "Terran"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 1,
+  "feats": [
+    "Improved Grapple",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "warhammer +7 (2d6+7/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hulking juggernaut has two massively muscled arms and a group of four smaller ones that jut from under its rib cage.",
+  "meta": {
+    "race": "Trox",
+    "class": "barbarian 1",
+    "cmb": "9 (+11 grapple)",
+    "cmd": "18 (20 vs. grapple)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "tropical deserts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, band (2-8), or clan (9-20)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (leather armor, warhammer, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Dockhand",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 224.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 0",
+  "xp": null,
+  "ac": {
+    "value": 14,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 16,
+    "int": 10,
+    "wis": 12,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +7, Ref +5, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +3 (1d20+3); __Athletics__: +5 (1d20+5); __Intimidation__: +3 (1d20+3); __Labor lore__: +4 (1d20+4); ",
+    "list": {
+      "Acrobatics": "+3",
+      "Athletics": "+5",
+      "Intimidation": "+3",
+      "Labor lore": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 13,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Heft Crate",
+      "text": "⬺ (manipulate); Requirements The dockhand is adjacent to a crate Effect The dockhand picks up a crate and heaves it up to 15 feet. Upon landing, the crate breaks open in a 5-foot burst. Each creature within the area takes 2d6 (2d6) bludgeoning damage (DC 13 basic Reflex save), and the area becomes difficult terrain until cleared."
+    },
+    {
+      "name": "Swig",
+      "text": "⬺ (manipulate); The dockhand Interacts to either draw a bottle of alcohol or pick up a nearby unattended bottle of alcohol and drink the whole thing. For 1 minute, the dockhand gains a +2 item bonus to melee damage rolls and saving throws against fear, but they become clumsy 1."
+    },
+    {
+      "name": "Items",
+      "text": "empty bottle (3), leather armor, whiskey (1 bottle);"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +7 (agile, nonlethal); Damage 1d4+3 (1d4+3) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ bottle +5 (agile, thrown 20 feet); Damage 1d6+3 (1d6+3) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      1,
+      3,
+      0,
+      1,
+      1
+    ],
+    "items": "empty bottle (3), leather armor, whiskey (1 bottle);"
+  }
+}

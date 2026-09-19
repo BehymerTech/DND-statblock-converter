@@ -1,0 +1,118 @@
+{
+  "name": "Wendigo",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Pathfinder No. 6: Spires of Xin-Shalast",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "cold, native",
+  "alignment": "CE",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 32,
+    "notes": "dex +9, natural +14, size -1",
+    "touch": 18,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 279,
+    "formula": "18d10+180"
+  },
+  "speed": {
+    "walk": 120,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 120 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 29,
+    "con": 31,
+    "int": 26,
+    "wis": 20,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +21, Ref +22, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +30, Bluff +28, Diplomacy +9, Fly +36, Intimidate +32, Knowledge (arcana) +26, Knowledge (geography) +26, Knowledge (nature) +26, Knowledge (religion) +26, Knowledge (planes) +29, Perception +26, Sense Motive +26, Spellcraft +29, Stealth +26, Survival +26",
+    "list": {
+      "Acrobatics": "+30",
+      "Bluff": "+28",
+      "Diplomacy": "+9",
+      "Fly": "+36",
+      "Intimidate": "+32",
+      "Perception": "+26",
+      "Sense Motive": "+26",
+      "Spellcraft": "+29",
+      "Stealth": "+26",
+      "Survival": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Giant",
+    "telepathy 1 mile"
+  ],
+  "initiative": "+13",
+  "babOrProficiency": 18,
+  "feats": [
+    "Ability Focus (howl)",
+    "Critical Focus",
+    "Flyby Attack",
+    "Improved Critical (bite)",
+    "Improved Critical (claws)",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Persuasive",
+    "Tiring Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +26 (2d8+9/19-20 plus 4d6 cold and grab), 2 claws +26 (2d6+9/19-20 plus 4d6 cold)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hideous shape has the head of a feral elk with jagged teeth and sharp antlers. Its humanoid legs end in blackened, burnt stumps.",
+  "meta": {
+    "cmb": "28 (+32 grapple)",
+    "cmd": 47,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any cold"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

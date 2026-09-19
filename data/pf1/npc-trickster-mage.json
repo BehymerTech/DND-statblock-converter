@@ -1,0 +1,99 @@
+{
+  "name": "NPC Trickster Mage",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "gnome",
+  "alignment": "CE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 16,
+    "notes": "armor +2, dex +2, dodge +1, size +1",
+    "touch": 14,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 46,
+    "formula": "8d6+16"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 14,
+    "con": 12,
+    "int": 12,
+    "wis": 14,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +3, Ref +4, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +12, Knowledge (arcana) +8, Knowledge (nature) +5, Perception +10, Spellcraft +8, Use Magic Device +11",
+    "list": {
+      "Bluff": "+12",
+      "Perception": "+10",
+      "Spellcraft": "+8",
+      "Use Magic Device": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Elven",
+    "Gnome",
+    "Sylvan"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 4,
+  "feats": [
+    "Dodge",
+    "Eschew Materials",
+    "Greater Spell Focus (illusion)",
+    "Iron Will",
+    "Mobility",
+    "Spell Focus (illusion)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "sickle +3 (1d4-2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk light crossbow +8 (1d6/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Gnome",
+    "class": "sorcerer 8",
+    "cmb": "+1",
+    "cmd": 14
+  }
+}

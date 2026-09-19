@@ -1,0 +1,101 @@
+{
+  "name": "Gargoyle Abductor",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 48: Shadows of Gallowspire",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "earth",
+  "alignment": "CE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 24,
+    "notes": "armor +5, dex +4, dodge +1, natural +4",
+    "touch": 15,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 94,
+    "formula": "5d10+5d10+40"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 18,
+    "con": 18,
+    "int": 8,
+    "wis": 9,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +9, Ref +9, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +23, Perception +7, Stealth +17",
+    "list": {
+      "Fly": "+23",
+      "Perception": "+7",
+      "Stealth": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common",
+    "Terran"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 10,
+  "feats": [
+    "Combat Reflexes",
+    "Coordinated Maneuvers",
+    "Dodge",
+    "Fly-By Attack",
+    "Hover",
+    "Improved Initiative",
+    "Lookout",
+    "Skill Focus (Fly)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15 (1d6+5), 2 claws +15 (1d6+5), gore +15 (1d4+5)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 longbow +16/+11 (1d8+2/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The stone statue of a menacing fiend crouches here, as though ready to spring to life and devour innocent passersby. Then it moves-to do just that.",
+  "meta": {
+    "race": "Gargoyle",
+    "class": "fighter 5",
+    "cmb": "+15",
+    "cmd": 30,
+    "racialModifiers": [
+      "Stealth 2"
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "name": "Bulette",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "alignment": "Unaligned",
+  "cr": "5",
+  "level": null,
+  "xp": 1800,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 94,
+    "formula": "9d10 + 45"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": 40,
+    "notes": "40 ft., Burrow 40 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 11,
+    "con": 21,
+    "int": 2,
+    "wis": 10,
+    "cha": 5
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +6",
+    "list": {
+      "Perception": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "Tremorsense 120 ft."
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": "+0 (10)",
+  "babOrProficiency": 3,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The bulette makes two Bite attacks."
+    },
+    {
+      "name": "Bite",
+      "text": "_Melee Attack Roll:_ +7, reach 5 ft. _Hit:_ 17 (2d12 + 4) Piercing damage."
+    },
+    {
+      "name": "Deadly Leap",
+      "text": "The bulette spends 5 feet of movement to jump to a space within 15 feet that contains one or more Large or smaller creatures. _Dexterity Saving Throw:_ DC 15, each creature in the bulette's destination space. _Failure:_ 19 (3d12) Bludgeoning damage, and the target has the Prone condition. _Success:_ Half damage, and the target is pushed 5 feet straight away from the bulette."
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Leap",
+      "text": "The bulette jumps up to 30 feet by spending 10 feet of movement. ## Centaur"
+    }
+  ],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

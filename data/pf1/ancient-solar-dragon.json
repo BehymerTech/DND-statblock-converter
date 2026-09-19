@@ -1,0 +1,122 @@
+{
+  "name": "Ancient Solar Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Gargantuan",
+  "type": "dragon",
+  "subtype": "fire",
+  "alignment": "LN",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 37,
+    "notes": "natural +31, size -4",
+    "touch": 6,
+    "flatFooted": 36
+  },
+  "hp": {
+    "average": 362,
+    "formula": "25d12+200"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 250 ft. (clumsy)"
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 11,
+    "con": 24,
+    "int": 23,
+    "wis": 20,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +21, Ref +16, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +35, Fly +14, Heal +31, Knowledge (arcana) +34, Knowledge (geography) +34, Knowledge (history) +34, Knowledge (local) +34, Knowledge (nature) +34, Knowledge (planes) +34, Knowledge (religion) +34, Linguistics +11, Perception +39, Sense Motive +33",
+    "list": {
+      "Diplomacy": "+35",
+      "Fly": "+14",
+      "Heal": "+31",
+      "Linguistics": "+11",
+      "Perception": "+39",
+      "Sense Motive": "+33"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "see in darkness"
+  ],
+  "passivePerception": 49,
+  "languages": [
+    "Auran",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Elven",
+    "Gnome",
+    "Ignan",
+    "Sylvan",
+    "Terran"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 25,
+  "feats": [
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Maximize Spell",
+    "Multiattack",
+    "Power Attack",
+    "Quick Channel",
+    "Quicken Spell",
+    "Selective Channeling",
+    "Silent Spell",
+    "Skill Focus (Perception)",
+    "Spell Focus (enchantment)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +34 (4d6+19), 2 claws +34 (2d8+13), 2 wings +32 (2d6+6), tail slap +32 (2d8+19)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+42",
+    "cmd": "52 (56 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "vacuum"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

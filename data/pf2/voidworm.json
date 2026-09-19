@@ -1,0 +1,109 @@
+{
+  "name": "Voidworm",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 266.",
+  "size": "Tiny",
+  "type": "Protean",
+  "subtype": "Monitor",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 16,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, fly 40 feet; freedom of movement;"
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 18,
+    "con": 10,
+    "int": 8,
+    "wis": 8,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +5, Ref +9, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Deception__: +6 (1d20+6); __Religion__: +4 (1d20+4); __Stealth__: +7 (1d20+7); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Deception": "+6",
+      "Religion": "+4",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise entropy sense 30"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Abyssal",
+    "Protean"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Entropy Sense",
+      "text": "(divination, divine, prediction); A voidworm can anticipate the most likely presence of a creature through a supernatural insight into chaotic probabilities and chance. This grants it the ability to sense creatures within the listed range. A creature under the effects of nondetection or that is otherwise shielded from divinations and predictions cannot be noticed via entropy sense."
+    },
+    {
+      "name": "Protean Anatomy",
+      "text": "(divine, transmutation); A voidworm's vital organs shift and change shape and position constantly. Immediately after the voidworm takes acid, electricity, or sonic damage, it gains the listed amount of resistance to that damage type. This lasts for 1 hour or until the next time the protean takes damage of one of the other types (in which case its resistance changes to match that type), whichever comes first. The voidworm is immune to polymorph effects unless it is a willing target. If blinded or deafened, the voidworm automatically recovers at the end of its next turn as new sensory organs grow to replace the compromised ones."
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, divine, polymorph, transmutation); The voidworm takes on the appearance of a Tiny animal. This doesn't change its Speed or its attack and damage bonuses with its Strikes, but might change the damage type its Strikes deal."
+    },
+    {
+      "name": "Confounding Lash",
+      "text": "(divine, emotion, enchantment, mental); A creature hit by the voidworm's tail Strike is stupefied 1 for 1 round (stupefied 2 on a critical hit). A successful DC 16 Will save negates this effect and grants temporary immunity to confounding lash for 1 minute."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +9 (chaotic, finesse, magical); Damage 1d8-1 (1d8-1) piercing plus 1d4 (1d4) chaotic"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +9 (chaotic, finesse, magical); Damage 1d4-1 (1d4-1) slashing plus 1d4 (1d4) chaotic and confounding lash"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -1,
+      4,
+      0,
+      -1,
+      -1,
+      1
+    ]
+  }
+}

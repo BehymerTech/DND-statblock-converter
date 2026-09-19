@@ -1,0 +1,110 @@
+{
+  "name": "Octopod Mechanic Drone",
+  "sourceSystem": "pf1",
+  "source": "Construct Handbook",
+  "size": "Medium",
+  "type": "construct",
+  "subtype": "robot",
+  "alignment": "N",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 24,
+    "notes": "dex +3, dodge +1, natural +10",
+    "touch": 14,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 124,
+    "formula": "16d10+36"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": "None",
+    "int": 15,
+    "wis": 5,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +5, Ref +10, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +30, Disable Device +19, Knowledge (engineering) +18, Perception +13",
+    "list": {
+      "Climb": "+30",
+      "Disable Device": "+19",
+      "Perception": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 16,
+  "feats": [
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dodge",
+    "Improved Critical (slams)",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "8 slams +22 (1d4+6/19-20 plus grab)"
+    },
+    {
+      "name": "Ranged",
+      "text": "2 integrated laser pistols +19 touch (2d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This octopus-like robot has eight tentacles that it uses to repair multiple machines at a time.",
+  "meta": {
+    "cmb": "+22",
+    "cmd": "36 (can't be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

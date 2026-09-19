@@ -1,0 +1,105 @@
+{
+  "name": "Spinosaurus",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Gargantuan",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 24,
+    "notes": "dex +2, natural +16, size -4",
+    "touch": 8,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 170,
+    "formula": "20d8+80"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 15,
+    "con": 18,
+    "int": 2,
+    "wis": 13,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +16, Ref +16, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +25, Swim +28",
+    "list": {
+      "Perception": "+25",
+      "Swim": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 35,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 15,
+  "feats": [
+    "Critical Focus",
+    "Diehard",
+    "Endurance",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Run",
+    "Skill Focus (Perception)",
+    "Staggering Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +23 (2d8+12/19-20 plus grab), 2 claws +23 (2d6+12)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This titanic saurian has a crocodilian snout, powerful front claws, and a colorful sail-like ridge that runs down its back.",
+  "meta": {
+    "cmb": "31 (+35 grapple)",
+    "cmd": 43,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forests or swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

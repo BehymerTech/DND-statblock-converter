@@ -1,0 +1,108 @@
+{
+  "name": "Minotaur Marauder",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Monster Codex",
+  "size": "Large",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "armor +3, dex +2, natural +5, size -1",
+    "touch": 11,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 62,
+    "formula": "6d10+2d10+18"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 14,
+    "con": 13,
+    "int": 11,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +6, Ref +10, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Climb +11, Handle Animal +5, Heal +6, Knowledge (geography) +7, Perception +16, Survival +16, Swim +10",
+    "list": {
+      "Acrobatics": "+7",
+      "Climb": "+11",
+      "Handle Animal": "+5",
+      "Heal": "+6",
+      "Perception": "+16",
+      "Survival": "+16",
+      "Swim": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Giant"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 8,
+  "feats": [
+    "Point-Blank Shot",
+    "Power Attack",
+    "Rapid Shot",
+    "Toughness",
+    "Weapon Focus (composite longbow)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 greataxe +12/+7 (3d6+7/×3), gore +11 (1d6+2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite longbow +11/+6 (2d6+6/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The battle-worn axe and scarred leather armor born by this sunbleached minotaur woman mark her as a seasoned combatant.",
+  "meta": {
+    "race": "Minotaur",
+    "class": "ranger 2 (Pathfinder RPG Bestiary 206)",
+    "cmb": "+13",
+    "cmd": 25,
+    "racialModifiers": [
+      "Perception 4",
+      "Survival 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate ruins or underground"
+      }
+    ]
+  }
+}

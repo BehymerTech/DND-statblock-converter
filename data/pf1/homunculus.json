@@ -1,0 +1,100 @@
+{
+  "name": "Homunculus",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Tiny",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "Any alignment (same as creator)",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, size +2",
+    "touch": 14,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 11,
+    "formula": "2d10"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 50 ft. (good)"
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 15,
+    "con": "None",
+    "int": 10,
+    "wis": 12,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +0, Ref +4, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +10, Perception +3, Stealth +12",
+    "list": {
+      "Fly": "+10",
+      "Perception": "+3",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 13,
+  "languages": [
+    "Common (cannot speak)",
+    "telepathic link"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 2,
+  "feats": [
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "1 bite +3 (1d4-1 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This vaguely humanoid creature is about the size of a cat but looks more like a toothy, winged devil.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": 11,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

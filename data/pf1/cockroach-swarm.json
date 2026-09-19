@@ -1,0 +1,99 @@
+{
+  "name": "Cockroach Swarm",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Diminutive",
+  "type": "vermin",
+  "subtype": "swarm",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 16,
+    "notes": "dex +2, size +4",
+    "touch": 16,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 26,
+    "formula": "4d8+8"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 30 ft. (poor), climb 20 ft."
+  },
+  "abilities": {
+    "str": 1,
+    "dex": 15,
+    "con": 14,
+    "int": "None",
+    "wis": 10,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +6, Ref +3, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +10, Fly +4, Perception +4, Stealth +14",
+    "list": {
+      "Climb": "+10",
+      "Fly": "+4",
+      "Perception": "+4",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 14,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 3,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "swarm (1d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Like a pestilent black tide, a ravenous horde of thousands of tiny, clacking cockroaches washes over everything in its path.",
+  "meta": {
+    "cmb": "None",
+    "cmd": "None",
+    "racialModifiers": [
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any temperate, warm, or urban"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or intrusion (3-20 swarms)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

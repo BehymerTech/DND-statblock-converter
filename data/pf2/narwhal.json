@@ -1,0 +1,99 @@
+{
+  "name": "Narwhal",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 184.",
+  "size": "Large",
+  "type": "Aquatic",
+  "subtype": "Animal",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 50,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 60 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 16,
+    "con": 18,
+    "int": 2,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +10, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +10 (1d20+10); ",
+    "list": {
+      "Athletics": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "aquatic echolocation 120, low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Aquatic Echolocation",
+      "text": "A narwhal can use its hearing as a precise sense at the listed range, but only underwater."
+    },
+    {
+      "name": "Deep Breath",
+      "text": "A narwhal can hold its breath for 30 minutes."
+    },
+    {
+      "name": "Impaling Charge",
+      "text": "⬺ The narwhal Swims twice and makes a tusk Strike. If it moved at least 20 feet from its starting position, the narwhal deals an extra 1d10 (1d10) damage on this Strike. A target damaged by Impaling Charge is grabbed until the start of the narwhal's next turn unless it Escapes before then (DC 20). The narwhal can't Grapple to extend the duration of this grab."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ tusk +12 (reach 10 feet); Damage 1d10+5 (1d10+5) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +12 Damage 1d8+5 (1d8+5) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      3,
+      4,
+      -4,
+      3,
+      0
+    ]
+  }
+}

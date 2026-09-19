@@ -1,0 +1,106 @@
+{
+  "name": "Charda",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Pathfinder No. 18: Descent into Midnight",
+  "size": "Small",
+  "type": "monstrous humanoid",
+  "subtype": "aquatic",
+  "alignment": "CN",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "dex +2, natural +7, size +1",
+    "touch": 13,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 85,
+    "formula": "9d10+36"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 15,
+    "con": 19,
+    "int": 11,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +7, Ref +10, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +6, Knowledge (religion) +4, Perception +13, Stealth +18, Survival +10, Swim +18",
+    "list": {
+      "Intimidate": "+6",
+      "Perception": "+13",
+      "Stealth": "+18",
+      "Survival": "+10",
+      "Swim": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Aklo",
+    "Undercommon"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Expertise",
+    "Improved Bull Rush",
+    "Improved Trip",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (1d6+3 plus 1d6 cold), 4 claws +14 (1d4+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Armored in dense, bony plates, this four-armed creature drools wretched strings of black bile from its fanged maw.",
+  "meta": {
+    "cmb": "11 (+19 bull rush and trip)",
+    "cmd": 23,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold aquatic or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, gang (3-5), or tribe (6-14)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

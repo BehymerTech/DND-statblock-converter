@@ -1,0 +1,112 @@
+{
+  "name": "Cyclops Smasher",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Monster Codex",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "NE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 17,
+    "notes": "armor +3, natural +7, rage -2, size -1",
+    "touch": 7,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 155,
+    "formula": "10d8+4d12+84"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 10,
+    "con": 23,
+    "int": 8,
+    "wis": 16,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +19, Ref +6, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +14, Handle Animal +6, Intimidate +6, Knowledge (nature) +4, Perception +22, Ride +5, Sense Motive +5, Survival +10, Swim +14",
+    "list": {
+      "Climb": "+14",
+      "Handle Animal": "+6",
+      "Intimidate": "+6",
+      "Perception": "+22",
+      "Ride": "+5",
+      "Sense Motive": "+5",
+      "Survival": "+10",
+      "Swim": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Common",
+    "Cyclops",
+    "Giant"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 11,
+  "feats": [
+    "Alertness",
+    "Extra Rage",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Power Attack",
+    "Step Up",
+    "Weapon Focus (greatclub)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 greatclub +21/+16/+11 (2d8+14)"
+    },
+    {
+      "name": "Ranged",
+      "text": "longbow +10/+5/+0 (2d6/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Massive even by cyclops standards, this imposing warrior wears the skulls of his victims and wields a terrible club.",
+  "meta": {
+    "race": "Cyclops",
+    "class": "barbarian (breaker) 4 (Pathfinder RPG Bestiary 52, Pathfinder RPG Advanced Player’s Guide 78)",
+    "cmb": "21 (+23 sunder)",
+    "cmd": "29 (31 vs. sunder)",
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any temperate or tropical"
+      }
+    ]
+  }
+}

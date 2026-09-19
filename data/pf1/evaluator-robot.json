@@ -1,0 +1,114 @@
+{
+  "name": "Evaluator Robot",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 90: The Divinity Drive",
+  "size": "Medium",
+  "type": "construct",
+  "subtype": "robot",
+  "alignment": "N",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 27,
+    "notes": "dex +5, natural +12",
+    "touch": 15,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 158,
+    "formula": "16d10+20 plus 50 hp force field"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 120 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 21,
+    "con": "None",
+    "int": 12,
+    "wis": 17,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +5, Ref +10, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +17, Knowledge (local) +12, Perception +18, Sense Motive +25, Stealth +10",
+    "list": {
+      "Fly": "+17",
+      "Perception": "+18",
+      "Sense Motive": "+25",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "superior optics"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Androffan",
+    "Common",
+    "process languages"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 16,
+  "feats": [
+    "Blind-Fight",
+    "Cleave",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack",
+    "Skill Focus (Sense Motive)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bastard sword +22/+17/+12/+7 (1d10+6/19-20 plus stun)"
+    },
+    {
+      "name": "Ranged",
+      "text": "integrated laser rifle +21 ranged touch (4d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "With wings and an unearthly glow, this mechanical being could easily be mistaken for an angel.",
+  "meta": {
+    "cmb": "+22",
+    "cmd": 37,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Numeria)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

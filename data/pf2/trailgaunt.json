@@ -1,0 +1,106 @@
+{
+  "name": "Trailgaunt",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 274.",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 45,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 feet, burrow 10 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 16,
+    "int": 12,
+    "wis": 16,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +12, Ref +6, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Stealth__: +8 (1d20+8); __Survival__: +10 (1d20+10); ",
+    "list": {
+      "Stealth": "+8",
+      "Survival": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tremorsense 60"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Pained Muttering",
+      "text": "(auditory, aura, emotion, fear); 10 feet. The trailgaunt's constant mutters and groans of pain are deeply unsettling. Each creature that starts its turn in the aura must succeed at a DC 20 Fortitude save or become frightened 1 (frightened 2 on a critical failure). The creature is then temporarily immune for 1 minute."
+    },
+    {
+      "name": "Create Spawn",
+      "text": "(divine, necromancy); Any humanoid creature killed by a trailgaunt and left unburied out of sight of a well-maintained road rises as a free-willed trailgaunt at the next sunset."
+    },
+    {
+      "name": "Dromophobia",
+      "text": "The trailgaunt can't willingly walk on or across a well-maintained road, though it can Burrow under one. If forced onto the surface of such a road, the trailgaunt is fleeing until it's no longer on the road."
+    },
+    {
+      "name": "Share Pain",
+      "text": "A living creature hit by a trailgaunt's jaws Strike must succeed at a DC 20 Fortitude save or suffer intense pain in its legs and feet, taking a –10-foot status penalty to its Speeds, or a –20-foot status penalty on a critical failure."
+    },
+    {
+      "name": "Sure Stride",
+      "text": "A trailgaunt ignores the effects of difficult terrain and greater difficult terrain."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +12 Damage 1d8+6 (1d8+6) piercing plus share pain"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      1,
+      3,
+      1,
+      3,
+      -1
+    ]
+  }
+}

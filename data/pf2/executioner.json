@@ -1,0 +1,98 @@
+{
+  "name": "Executioner",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 236.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "LN",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 23,
+    "notes": ""
+  },
+  "hp": {
+    "average": 105,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": 16,
+    "int": 8,
+    "wis": 14,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +15, Ref +12, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +15 (1d20+15); __Intimidation__: +13 (1d20+13); __Medicine__: +10 (1d20+10); ",
+    "list": {
+      "Athletics": "+15",
+      "Intimidation": "+13",
+      "Medicine": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 22,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Behead",
+      "text": "⬽ Requirements The executioner is adjacent to a dying creature or a creature specifically prepared for a killing blow Effect The executioner Strikes the creature with their greataxe. On a hit, in addition to taking damage, the target must attempt a Fortitude save or be reduced to 0 HP and become dying 1. If the creature was already dying (including if it was reduced to 0 HP by the Strike's damage), the creature's dying value increases by 1, in addition to any increase from the Strike. On a critical failure, the creature dies instantly. If the executioner's Strike was a critical hit, the target uses the outcome for one degree of success worse than the result of their saving throw."
+    },
+    {
+      "name": "Intimidating Strike",
+      "text": "⬺ (emotion, fear, fighter, mental); The executioner makes a melee Strike. If it hits and deals damage, the target is frightened 1, or frightened 2 on a critical hit. Mark for Death ⬻ (concentrate) The executioner marks a single creature they can see for death. The first time each round the executioner Strikes that creature, the Strike deals 1d12 (1d12) additional precision damage. The creature remains marked for death until the executioner is knocked out, marks a different creature for death, or the encounter ends."
+    },
+    {
+      "name": "Items",
+      "text": "+1 greataxe, hood, leather armor;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ greataxe +16 (magical, sweep); Damage 1d12+9 (1d12+9) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      2,
+      3,
+      -1,
+      2,
+      2
+    ],
+    "items": "+1 greataxe, hood, leather armor;"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Giant Slug",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Huge",
+  "type": "vermin",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 20,
+    "notes": "dex -4, natural +16, size -2",
+    "touch": 4,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 102,
+    "formula": "12d8+48"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 2,
+    "con": 18,
+    "int": "None",
+    "wis": 10,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +12, Ref +0, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "-4",
+  "babOrProficiency": 9,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "tongue +15 (2d10+12 plus 2d8 acid)"
+    },
+    {
+      "name": "Ranged",
+      "text": "spit acid +3 (10d6 acid)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This massive, gray-brown slug leaves a viscous trail of slime in its wake as a long rasping tongue tastes the air for prey.",
+  "meta": {
+    "cmb": "+19",
+    "cmd": "25 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate and warm marshes and underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

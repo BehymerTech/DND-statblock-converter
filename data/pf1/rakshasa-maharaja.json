@@ -1,0 +1,126 @@
+{
+  "name": "Rakshasa Maharaja",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Pathfinder No. 9: Escape from Old Korvosa",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "native, rakshasa, shapechanger",
+  "alignment": "LE",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 37,
+    "notes": "deflection +4, dex +9, dodge +1, natural +13",
+    "touch": 24,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 310,
+    "formula": "20d10+200"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 30 ft. (good)"
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 28,
+    "con": 30,
+    "int": 25,
+    "wis": 22,
+    "cha": 29
+  },
+  "saves": {
+    "text": "Fort +16, Ref +21, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +27, Appraise +25, Bluff +35, Diplomacy +30, Disguise +30, Fly +31, Intimidate +30, Knowledge (arcana) +25, Knowledge (history) +25, Knowledge (nobility) +25, Knowledge (religion) +25, Perception +31, Sense Motive +27, Spellcraft +25, Stealth +30",
+    "list": {
+      "Acrobatics": "+27",
+      "Appraise": "+25",
+      "Bluff": "+35",
+      "Diplomacy": "+30",
+      "Disguise": "+30",
+      "Fly": "+31",
+      "Intimidate": "+30",
+      "Perception": "+31",
+      "Sense Motive": "+27",
+      "Spellcraft": "+25",
+      "Stealth": "+30"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision"
+  ],
+  "passivePerception": 41,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Infernal",
+    "Undercommon",
+    "comprehend languages",
+    "tongues"
+  ],
+  "initiative": "+13",
+  "babOrProficiency": 20,
+  "feats": [
+    "Combat Casting",
+    "Combat Reflexes",
+    "Dodge",
+    "Hover",
+    "Improved Critical (falchion)",
+    "Improved Initiative",
+    "Mobility",
+    "Quicken Spell",
+    "Silent Spell",
+    "Still Spell"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+3 falchion +31/+26/+21/+16 (2d4+15/15-20), 4 bites +23 (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Impeccably dressed and bedecked in exotic jewelry, this fiend holds an ornate saber in its backward-facing hands.",
+  "meta": {
+    "cmb": "+28",
+    "cmd": 52,
+    "racialModifiers": [
+      "Bluff 4",
+      "Disguise 8",
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+3 falchion, other treasure)"
+      }
+    ]
+  }
+}

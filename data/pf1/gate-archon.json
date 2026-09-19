@@ -1,0 +1,116 @@
+{
+  "name": "Gate Archon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "archon, extraplanar, good, lawful",
+  "alignment": "LG",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 33,
+    "notes": "armor +9, dex +3, dodge +1, natural +10, deflection vs. evil +2",
+    "touch": 14,
+    "flatFooted": 29
+  },
+  "hp": {
+    "average": 263,
+    "formula": "17d10+170"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 90 ft. (good)"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 17,
+    "con": 31,
+    "int": 18,
+    "wis": 22,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +20, Ref +8, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +17, Fly +24, Intimidate +25, Knowledge (planes) +24, Perception +26, Sense Motive +26, Spellcraft +24, Stealth +20, Survival +26, Use Magic Device +25",
+    "list": {
+      "Acrobatics": "+17",
+      "Fly": "+24",
+      "Intimidate": "+25",
+      "Perception": "+26",
+      "Sense Motive": "+26",
+      "Spellcraft": "+24",
+      "Stealth": "+20",
+      "Survival": "+26",
+      "Use Magic Device": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 17,
+  "feats": [
+    "Combat Expertise",
+    "Dodge",
+    "Improved Critical (greatsword)",
+    "Lunge",
+    "Mobility",
+    "Power Attack",
+    "Shield of Swings",
+    "Spring Attack",
+    "Whirlwind Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+3 conductive greatsword +30/+25/+20/+15 (2d6+18/17-20), 2 wings +22 (1d4+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This masked humanoid being has wings and armor of rune-carved gray stone, and its eyes glow blue.",
+  "meta": {
+    "cmb": "+27",
+    "cmd": 41,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Heaven)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mithral full plate, +3 conductive greatsword, other treasure)"
+      }
+    ]
+  }
+}

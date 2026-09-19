@@ -1,0 +1,104 @@
+{
+  "name": "Cloaker",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "Usually chaotic neutral",
+  "cr": "5",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": "-1 size, +3 Dex, +7 natural",
+    "touch": 12,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 45,
+    "formula": "6d8+18"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": 40,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft. (2 squares), fly 40 ft. (average)"
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 16,
+    "con": 17,
+    "int": 14,
+    "wis": 15,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +5, Ref +5, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Hide +8, Listen +13, Move Silently +12, Spot +13;",
+    "list": {
+      "Hide": "+8",
+      "Listen": "+13",
+      "Move Silently": "+12",
+      "Spot": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+7",
+  "babOrProficiency": 4,
+  "feats": [
+    "Alertness",
+    "Combat Reflexes",
+    "Improved Initiative"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Moan, engulf"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., shadow shift"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Tail slap +8 melee (1d6+5)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Tail slap +8 melee (1d6+5) and bite +3 melee (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "When resting or lying in wait, these creatures are almost impossible to distinguish from common black cloaks (the cloaker's ivory claws look very much like bone clasps). Only when it unfurls does the horrific nature of the creature become apparent.",
+    "grapple": "+13",
+    "spaceReach": "10 ft./10 ft. (5 ft. with bite)",
+    "environment": "Underground",
+    "organization": "Solitary, mob (3-6), or flock (7-12)",
+    "treasure": "Standard",
+    "advancement": "7-9 HD (Large); 10-18 HD (Huge)",
+    "leveladjustment": "---"
+  }
+}

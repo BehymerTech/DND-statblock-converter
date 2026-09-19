@@ -1,0 +1,114 @@
+{
+  "name": "Remorhaz",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 280.",
+  "size": "Huge",
+  "type": "Beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 120,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet, burrow 30 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 14,
+    "con": 20,
+    "int": 4,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +18, Ref +15, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +18 (1d20+18); __Stealth__: +13 (1d20+13); ",
+    "list": {
+      "Athletics": "+18",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tremorsense 60"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Jotun (can't speak any language)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Heat",
+      "text": "(aura, evocation, fire, primal); 5 feet. A creature that starts its turn in the aura takes 1d6 (1d6) fire damage. Whenever the remorhaz takes damage from an enemy, this damage increases to 2d6 (2d6) until the start of its next turn. Any creature that hits a remorhaz with an unarmed Strike takes 2d6 (2d6) fire damage, and a weapon that hits a remorhaz takes 2d6 (2d6) fire damage."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (evocation, fire, primal); The remorhaz unleashes a gout of flame that deals 8d6 (8d6) fire damage in a 30-foot cone (DC 26 basic Reflex save). It can't use."
+    },
+    {
+      "name": "Breath",
+      "text": "Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Ice Tunneler",
+      "text": "A remorhaz can leave a tunnel when it burrows through ice or snow, and it usually does."
+    },
+    {
+      "name": "Swallow Whole",
+      "text": "⬻ Large, 2d8+5 (2d8+5) bludgeoning plus 2d6 (2d6) fire, Rupture 12."
+    },
+    {
+      "name": "Thrash",
+      "text": "⬺ The remorhaz Strikes once with its jaws and once with its tail, each targeting a different creature. Each attack counts toward the remorhaz's multiple attack penalty, but the multiple attack penalty doesn't increase until after all the attacks have been made."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +18 (reach 15 feet); Damage 2d10+9 (2d10+9) piercing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +18 (fire, reach 15 feet); Damage 1d10+3 (1d10+3) bludgeoning plus 2d6 (2d6) fire"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      2,
+      5,
+      -3,
+      1,
+      -2
+    ]
+  }
+}

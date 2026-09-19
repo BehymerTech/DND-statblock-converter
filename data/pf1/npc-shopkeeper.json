@@ -1,0 +1,94 @@
+{
+  "name": "NPC Shopkeeper",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "alignment": "CN",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 13,
+    "notes": "armor +3",
+    "touch": 10,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 15,
+    "formula": "6d6-6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 9,
+    "dex": 10,
+    "con": 8,
+    "int": 14,
+    "wis": 12,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +1, Ref +2, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +11, Bluff +5, Intimidate +5, Knowledge (history) +4, Knowledge (local) +4, Perception +11, Sense Motive +9, Spellcraft +5",
+    "list": {
+      "Appraise": "+11",
+      "Bluff": "+5",
+      "Intimidate": "+5",
+      "Perception": "+11",
+      "Sense Motive": "+9",
+      "Spellcraft": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common",
+    "Elven",
+    "Gnome",
+    "Halfling"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 3,
+  "feats": [
+    "Alertness",
+    "Iron Will",
+    "Skill Focus (Appraise)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk rapier +3 (1d6-1/18-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Elf",
+    "class": "commoner 6",
+    "cmb": "+2",
+    "cmd": 12
+  }
+}

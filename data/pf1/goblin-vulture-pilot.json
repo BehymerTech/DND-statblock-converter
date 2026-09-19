@@ -1,0 +1,109 @@
+{
+  "name": "Goblin Vulture Pilot",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "goblinoid",
+  "alignment": "NE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 21,
+    "notes": "armor +4, dex +4, natural +2, size +1",
+    "touch": 15,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 38,
+    "formula": "4d8+17"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 18,
+    "con": 13,
+    "int": 16,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +5, Ref +8, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +8, Climb +3, Craft (alchemy) +10, Handle Animal +2, Perception +8, Ride +12, Stealth +16",
+    "list": {
+      "Acrobatics": "+8",
+      "Climb": "+3",
+      "Handle Animal": "+2",
+      "Perception": "+8",
+      "Ride": "+12",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Giant",
+    "Gnoll",
+    "Goblin"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 3,
+  "feats": [
+    "Brew Potion",
+    "Mounted Archery",
+    "Mounted Combat",
+    "Throw Anything"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +3 (1d3-1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "bomb +9 (2d6+3 fire plus catch fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Goblin",
+    "class": "alchemist (winged marauder) 4 (Pathfinder RPG Advanced Player’s Guide 26, see page 104)",
+    "cmb": "+1",
+    "cmd": 15,
+    "racialModifiers": [
+      "Ride 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forest and plains (usually coastal regions)"
+      }
+    ]
+  }
+}

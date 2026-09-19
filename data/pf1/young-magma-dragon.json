@@ -1,0 +1,109 @@
+{
+  "name": "Young Magma Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "dragon",
+  "subtype": "extraplanar, fire",
+  "alignment": "CN",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 22,
+    "notes": "dex +2, natural +10",
+    "touch": 12,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 85,
+    "formula": "9d12+27"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 150 ft. (average)"
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 14,
+    "con": 17,
+    "int": 14,
+    "wis": 14,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +11, Ref +8, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +11, Climb +17, Fly +14, Intimidate +13, Perception +14, Sense Motive +14, Stealth +14, Swim +17",
+    "list": {
+      "Acrobatics": "+11",
+      "Climb": "+17",
+      "Fly": "+14",
+      "Intimidate": "+13",
+      "Perception": "+14",
+      "Sense Motive": "+14",
+      "Stealth": "+14",
+      "Swim": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Ignan"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 9,
+  "feats": [
+    "Great Fortitude",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +17 (1d8+12 plus 3 fire), 2 claws +17 (1d6+8), 2 wings +12 (1d4+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Between this dragon’s jet-black scales run glowing rivulets of lava, and veins aglow with heat shine in the membranes of its wings.",
+  "meta": {
+    "cmb": "+14",
+    "cmd": "26 (30 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any mountains or underground (Plane of Fire)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "name": "Marsh Giant",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 125.",
+  "size": "Large",
+  "type": "Humanoid",
+  "subtype": "Amphibious, Giant",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 150,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet, swim 20 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 18,
+    "int": 10,
+    "wis": 16,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +18, Ref +13, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +18 (1d20+18); __Intimidation__: +15 (1d20+15); __Religion__: +17 (1d20+17); ",
+    "list": {
+      "Athletics": "+18",
+      "Intimidation": "+15",
+      "Religion": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Catch Rock",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "+1 striking gaff, sack with 5 rocks;"
+    },
+    {
+      "name": "Hook Shake",
+      "text": "⬻ Requirements A creature adjacent to the marsh giant is prone in water at least 1 foot deep Effect The marsh giant uses its gaff to shake the creature back and forth and hold it underwater. The giant attempts an Athletics check against the target's Fortitude DC. Critical Success The target takes 6d6+14 (6d6+14) piercing damage and loses 5 rounds' worth of air if they were holding their breath. Success The target takes 3d6+14 (3d6+14) piercing damage and loses 3 rounds' worth of air if they were holding their breath. Failure The target is unaffected. Critical Failure As failure, but the giant drops its gaff as well."
+    },
+    {
+      "name": "Throw Rock",
+      "text": "⬻"
+    },
+    {
+      "name": "Twist the Hook",
+      "text": "⬺ The marsh giant makes a melee Strike with its gaff. If it hits, it twists and yanks the gaff to create an awful wound, dealing 3d6 (3d6) persistent bleed damage to the creature."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ gaff +20 (magical, reach 10 feet, trip, versatile p); Damage 2d6+14 (2d6+14) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +20 (agile, reach 10 feet); Damage 2d6+14 (2d6+14) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ rock +20 (brutal, range increment 120 feet); Damage 2d6+14 (2d6+14) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      3,
+      4,
+      0,
+      3,
+      1
+    ],
+    "items": "+1 striking gaff, sack with 5 rocks;"
+  }
+}

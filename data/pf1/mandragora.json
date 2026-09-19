@@ -1,0 +1,104 @@
+{
+  "name": "Mandragora",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Pathfinder No. 17: A Memory of Darkness",
+  "size": "Small",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +4, natural +2, size +1",
+    "touch": 15,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 37,
+    "formula": "5d8+15"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., burrow 10 ft., climb 40 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 18,
+    "con": 17,
+    "int": 8,
+    "wis": 13,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +7, Ref +7, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +10, Perception +9, Stealth +14",
+    "list": {
+      "Climb": "+10",
+      "Perception": "+9",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Abyssal",
+    "Common"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 3,
+  "feats": [
+    "Lightning Reflexes",
+    "Skill Focus (Perception)",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d6+2 plus grab), 2 slam +8 (1d4+2 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This filthy creature resembles a small, wide-mouthed fat child made from leaves, vines, tree bark, dirt, and pallid tubers.",
+  "meta": {
+    "cmb": "4 (+8 grapple)",
+    "cmd": 18,
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold or temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or grove (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

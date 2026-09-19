@@ -1,0 +1,125 @@
+{
+  "name": "Jabberwock",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "air, fire",
+  "alignment": "CE",
+  "cr": "23",
+  "level": null,
+  "xp": 819200,
+  "ac": {
+    "value": 40,
+    "notes": "dex +5, dodge +1, natural +26, size -2",
+    "touch": 14,
+    "flatFooted": 34
+  },
+  "hp": {
+    "average": 455,
+    "formula": "26d12+286"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 80 ft. (poor)"
+  },
+  "abilities": {
+    "str": 37,
+    "dex": 20,
+    "con": 33,
+    "int": 12,
+    "wis": 29,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +26, Ref +20, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +31, Escape Artist +31, Fly +26, Intimidate +37, Knowledge (nature) +30, Perception +38, Sense Motive +38",
+    "list": {
+      "Acrobatics": "+31",
+      "Escape Artist": "+31",
+      "Fly": "+26",
+      "Intimidate": "+37",
+      "Perception": "+38",
+      "Sense Motive": "+38"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision",
+    "low-light vision",
+    "scent",
+    "true seeing"
+  ],
+  "passivePerception": 48,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Draconic",
+    "Gnome",
+    "Sylvan"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 26,
+  "feats": [
+    "Awesome Blow",
+    "Bleeding Critical",
+    "Critical Focus",
+    "Dodge",
+    "Flyby Attack",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Critical (claws)",
+    "Improved Critical (eye rays)",
+    "Mobility",
+    "Power Attack",
+    "Spring Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +37 (4d8+19/19-20/×3), 2 claws +37 (3d6+13/19-20 plus grab), tail slap +32 (2d8+19), 2 wings +32 (1d8+6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "2 eye rays +29 touch (15d6 fire/19-20 plus burn)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This dragon has a long neck and terrible claws. The beast shrieks and babbles, thrashing its tail and wings in a violent manner.",
+  "meta": {
+    "cmb": "41 (+45 grapple)",
+    "cmd": 57,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Pilo",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 85: Fires of Creation",
+  "size": "Small",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 14,
+    "notes": "dex +1, natural +2, size +1",
+    "touch": 12,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d8+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 13,
+    "con": 14,
+    "int": 2,
+    "wis": 14,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +5, Ref +4, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +8",
+    "list": {
+      "Perception": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 18,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Bull Rush",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +4 (1d6+1 plus poison), tail slap -1 (1d4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Sharp quills cover this bright yellow, six-legged animal, and its long, twitching snout probes the air around it.",
+  "meta": {
+    "cmb": "2 (+4 bull rush)",
+    "cmd": "13 (15 vs. bull rush, 21 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any deserts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

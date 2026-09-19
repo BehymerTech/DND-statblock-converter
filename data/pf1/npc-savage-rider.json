@@ -1,0 +1,99 @@
+{
+  "name": "NPC Savage Rider",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "CN",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 17,
+    "notes": "armor +6, dex +1, rage -2, shield +2",
+    "touch": 9,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 194,
+    "formula": "13d12+104"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 13,
+    "con": 24,
+    "int": 10,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +16, Ref +6, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +11, Climb +10, Handle Animal +19, Knowledge (nature) +10, Perception +17, Ride +26, Survival +13, Swim +10",
+    "list": {
+      "Acrobatics": "+11",
+      "Climb": "+10",
+      "Handle Animal": "+19",
+      "Perception": "+17",
+      "Ride": "+26",
+      "Survival": "+13",
+      "Swim": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 27,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 13,
+  "feats": [
+    "Animal Affinity",
+    "Improved Bull Rush",
+    "Mounted Combat",
+    "Power Attack",
+    "Ride-By Attack",
+    "Skill Focus (Ride)",
+    "Spirited Charge",
+    "Unseat"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 lance +21/+16/+11 (1d8+8/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite longbow +15/+10/+5 (1d8+7/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "barbarian 13",
+    "cmb": "+20",
+    "cmd": 29
+  }
+}

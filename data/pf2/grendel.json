@@ -1,0 +1,129 @@
+{
+  "name": "Grendel",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 136.",
+  "size": "Large",
+  "type": "Humanoid",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 19",
+  "xp": null,
+  "ac": {
+    "value": 44,
+    "notes": ""
+  },
+  "hp": {
+    "average": 360,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 20,
+    "con": 24,
+    "int": 10,
+    "wis": 22,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +36, Ref +32, Will +31",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +34 (1d20+34); __Athletics__: +39 (1d20+39); __Intimidation__: +34 (1d20+34); __Stealth__: +34 (1d20+34); __Survival__: +33 (1d20+33); ",
+    "list": {
+      "Acrobatics": "+34",
+      "Athletics": "+39",
+      "Intimidation": "+34",
+      "Stealth": "+34",
+      "Survival": "+33"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, keen hearing 120"
+  ],
+  "passivePerception": 45,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Keen Hearing",
+      "text": "Grendel's hearing is a precise sense to a range of 120 feet."
+    },
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 60 feet, DC 38."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲ Grendel gains an extra reaction at the start of each of his turns that he can use only to make an Attack of Opportunity with his claw. He can't use more than one Attack of Opportunity triggered by the same action."
+    },
+    {
+      "name": "Ferocity",
+      "text": "⬲"
+    },
+    {
+      "name": "Unstoppable",
+      "text": "⬲ Trigger Grendel would take persistent damage or gain one of the following conditions: blinded, clumsy, confused, controlled, dazzled, deafened, doomed, drained, enfeebled, fascinated, fatigued, fleeing, frightened, paralyzed, petrified, sickened, slowed, stunned, or stupefied Effect The persistent damage or condition from the triggering effect doesn't affect Grendel."
+    },
+    {
+      "name": "Hands of the Murderer",
+      "text": "Grendel's fist Strikes deal 18 bludgeoning damage on a failure (but no damage on a critical failure)."
+    },
+    {
+      "name": "Tooth Grind",
+      "text": "⬻ Requirements Grendel is grabbing a creature Effect Grendel makes a bludgeoning jaws Strike against the creature he's grabbing. On a hit, the creature also takes 2d6 (2d6) persistent bleed damage and becomes wounded 1, or increases its wounded value by 1 if already wounded. On a critical hit, the creature instead becomes wounded 2, or increases its wounded value by 2 if already wounded. If a creature dies from Tooth Grind, Grendel regains 40 HP; this is a healing effect."
+    },
+    {
+      "name": "Throw Rock",
+      "text": "⬻"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +37 (agile, magical, reach 10 feet); Damage 4d8+18 (4d8+18) bludgeoning plus Improved Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +37 (magical, reach 10 feet, versatile b); Damage 4d10+18 (4d10+18) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ rock +37 (brutal, range increment 150 feet); Damage 2d12+18 (2d12+18) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      10,
+      5,
+      7,
+      0,
+      6,
+      5
+    ]
+  }
+}

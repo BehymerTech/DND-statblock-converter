@@ -1,0 +1,107 @@
+{
+  "name": "Thin Man",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Bestiary",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +3, dodge +1, natural +3",
+    "touch": 14,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 38,
+    "formula": "7d6+14"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 20 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 15,
+    "int": 8,
+    "wis": 11,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +4, Ref +8, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +14, Escape Artist +17, Perception +10, Stealth +13, Survival +7",
+    "list": {
+      "Climb": "+14",
+      "Escape Artist": "+17",
+      "Perception": "+10",
+      "Stealth": "+13",
+      "Survival": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 3,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Iron Will",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +7 (1d6+4), 2 claws +8 (1d4+4 plus 1d4 bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The creature is unbelievably slender and has teeth filed to points. Its long, gangly arms end in hands with wickedly sharp nails.",
+  "meta": {
+    "cmb": "+7",
+    "cmd": 21,
+    "racialModifiers": [
+      "Escape Artist 4",
+      "Stealth 12"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm plains (Nuat)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or band (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

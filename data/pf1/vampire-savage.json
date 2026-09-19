@@ -1,0 +1,109 @@
+{
+  "name": "Vampire Savage",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "augmented humanoid, human, orc",
+  "alignment": "CE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 21,
+    "notes": "deflection +1, dex +4, dodge +1, natural +7, rage -2",
+    "touch": 14,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 136,
+    "formula": "9d12+72"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 18,
+    "con": "None",
+    "int": 10,
+    "wis": 14,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +13, Ref +10, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +16, Intimidate +20, Knowledge (nature) +12, Perception +24, Sense Motive +12",
+    "list": {
+      "Acrobatics": "+16",
+      "Intimidate": "+20",
+      "Perception": "+24",
+      "Sense Motive": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Common",
+    "Orc"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 9,
+  "feats": [
+    "Alertness",
+    "Cleave",
+    "Dodge",
+    "Greater Bull Rush",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Toughness",
+    "Weapon Focus (slam)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 greataxe +20/+15 (1d12+16/×3), bite +14 (1d4+5 plus energy drain), slam +15 (1d4+5 plus energy drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-orc",
+    "class": "vampire barbarian 9",
+    "cmb": "19 (+23 bull rush)",
+    "cmd": "33 (35 vs. bull rush)",
+    "racialModifiers": [
+      "Bluff 8",
+      "Perception 8",
+      "Sense Motive 8",
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      }
+    ]
+  }
+}

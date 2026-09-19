@@ -1,0 +1,117 @@
+{
+  "name": "Uinuja",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Occult Bestiary",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "azata, chaotic, extraplanar, good",
+  "alignment": "CG",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 30,
+    "notes": "deflection +5, dex +5, natural +11, size -1",
+    "touch": 19,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 207,
+    "formula": "18d10+108"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 21,
+    "con": 22,
+    "int": 17,
+    "wis": 22,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +12, Ref +16, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +26, Diplomacy +26, Fly +32, Knowledge (geography) +24, Knowledge (planes) +24, Knowledge (religion) +24, Perception +27, Sense Motive +27, Stealth +22",
+    "list": {
+      "Bluff": "+26",
+      "Diplomacy": "+26",
+      "Fly": "+32",
+      "Perception": "+27",
+      "Sense Motive": "+27",
+      "Stealth": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see invisibility"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 18,
+  "feats": [
+    "Critical Focus",
+    "Deadly Aim",
+    "Flyby Attack",
+    "Improved Critical (starknife)",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack",
+    "Spell Penetration",
+    "Tiring Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+3 starknife +27/+22/+17/+12 (1d6+10/19-20/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+3 starknife +25 (1d6+10/19-20/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This dark-skinned woman has diaphanous wings, four large eyes-one pair under the other-and a tangle of night-blue hair.",
+  "meta": {
+    "cmb": "+26",
+    "cmd": 46,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Elysium)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or collective (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+3 starknife, other treasure)"
+      }
+    ]
+  }
+}

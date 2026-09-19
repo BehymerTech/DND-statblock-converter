@@ -1,0 +1,123 @@
+{
+  "name": "Tsathoggua",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 111: Dreams of the Yellow King",
+  "size": "Large",
+  "type": "aberration",
+  "subtype": "chaotic, evil, Great Old One",
+  "alignment": "CE",
+  "cr": "29",
+  "level": null,
+  "xp": 6553600,
+  "ac": {
+    "value": 47,
+    "notes": "dex +11, insight +10, natural +17, size -1",
+    "touch": 30,
+    "flatFooted": 36
+  },
+  "hp": {
+    "average": 742,
+    "formula": "33d8+594"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., other_semicolon air walk ft."
+  },
+  "abilities": {
+    "str": 48,
+    "dex": 33,
+    "con": 46,
+    "int": 31,
+    "wis": 32,
+    "cha": 35
+  },
+  "saves": {
+    "text": "Fort +29, Ref +24, Will +29",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +45, Fly +45, Intimidate +48, Knowledge (arcana) +46, Knowledge (dungeoneering) +43, Knowledge (geography) +43, Knowledge (history) +43, Knowledge (nature) +43, Knowledge (religion) +43, Perception +47, Sense Motive +44, Spellcraft +46, Stealth +43, Use Magic Device +45",
+    "list": {
+      "Bluff": "+45",
+      "Fly": "+45",
+      "Intimidate": "+48",
+      "Perception": "+47",
+      "Sense Motive": "+44",
+      "Spellcraft": "+46",
+      "Stealth": "+43",
+      "Use Magic Device": "+45"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness",
+    "true seeing"
+  ],
+  "passivePerception": 57,
+  "languages": [
+    "Aklo",
+    "telepathy 300 ft.",
+    "tongues"
+  ],
+  "initiative": "+21",
+  "babOrProficiency": 24,
+  "feats": [
+    "Arcane Strike",
+    "Blinding Critical",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Empower Spell",
+    "Eschew Materials",
+    "Greater Sunder",
+    "Greater Vital Strike",
+    "Improved Critical (bite)",
+    "Improved Critical (claw)",
+    "Improved Sunder",
+    "Improved Vital Strike",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Quicken Spell",
+    "Quicken Spell-Like Ability (feeblemind)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +42 (8d10+28/18-20/×3 plus feed), 2 claws +42 (5d6+28/18-20/×3 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Neither quite humanoid nor quite toad, this lumbering monstrosity maintains a malevolent expression on its batlike face.",
+  "meta": {
+    "cmb": "44 (+48 sunder)",
+    "cmd": "75 (77 vs. sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Darklands)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

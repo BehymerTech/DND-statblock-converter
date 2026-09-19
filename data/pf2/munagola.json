@@ -1,0 +1,125 @@
+{
+  "name": "Munagola",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 66.",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "Devil",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 11",
+  "xp": null,
+  "ac": {
+    "value": 31,
+    "notes": ""
+  },
+  "hp": {
+    "average": 165,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 22,
+    "con": 22,
+    "int": 16,
+    "wis": 20,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +23, Ref +21, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +23 (1d20+23); __Athletics__: +22 (1d20+22); __Intimidation__: +21 (1d20+21); __Religion__: +18 (1d20+18); __Stealth__: +21 (1d20+21); ",
+    "list": {
+      "Acrobatics": "+23",
+      "Athletics": "+22",
+      "Intimidation": "+21",
+      "Religion": "+18",
+      "Stealth": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal; [[telepathy]] 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "No Escape",
+      "text": "⬲ Trigger A foe within reach moves away from the munagola Effect The munagola Strides or Flies up to their Speed, following the retreating foe and keeping it in reach until the foe stops moving or the munagola has moved their full Speed."
+    },
+    {
+      "name": "Items",
+      "text": "+1 breastplate, +1 striking composite longbow, +1 striking greataxe;"
+    },
+    {
+      "name": "Felling Assault",
+      "text": "When a munagola hits with a melee Strike, they gain Improved Knockdown on all subsequent melee Strikes against that target until the end of the munagola's turn."
+    },
+    {
+      "name": "Flames of Fury",
+      "text": "Any weapon a munagola holds gains the effects of a flaming rune while they hold it."
+    },
+    {
+      "name": "Flight Commander of Dis",
+      "text": "⬻ The munagola directs aerial maneuvers, granting themself and evil allies with fly Speeds a +20-foot status bonus to their fly Speeds for 1 round."
+    },
+    {
+      "name": "Sudden Dive",
+      "text": "⬺ The munagola Flies twice. If they end their flight at a lower elevation than they started and within melee reach of at least one enemy, they can make a melee Strike against that enemy, gaining a +1 circumstance bonus to the Strike."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ flaming greataxe +24 (evil, fire, magical, sweep); Damage 2d12+13 (2d12+13) slashing plus 1d6 (1d6) evil and 1d6 (1d6) fire"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ horn +23 (agile, evil, magical); Damage 2d8+13 (2d8+13) piercing plus 1d6 (1d6) evil"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ flaming composite longbow +23 (deadly d10, evil, fire, magical, range increment 100 feet, reload 0, volley 30 feet); Damage 2d8+6 (2d8+6) piercing plus 1d6 (1d6) evil and 1d6 (1d6) fire"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      6,
+      6,
+      3,
+      5,
+      6
+    ],
+    "items": "+1 breastplate, +1 striking composite longbow, +1 striking greataxe;"
+  }
+}

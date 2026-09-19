@@ -1,0 +1,110 @@
+{
+  "name": "Cecaelia Trapper",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 45.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Amphibious",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 5",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 53,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, swim 35 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 18,
+    "con": 16,
+    "int": 8,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +10, Ref +15, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +13 (1d20+13); __Athletics__: +11 (1d20+11), (Athletics: +13 (1d20+13) to Grapple); __Stealth__: +13 (1d20+13); __Survival__: +9 (1d20+9); ",
+    "list": {
+      "Acrobatics": "+13",
+      "Athletics": "+13",
+      "Stealth": "+13",
+      "Survival": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise wavesense 10"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Aquan",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Cecaelia Jet",
+      "text": "⬺ (move); The cecaelia moves up to 140 feet in a straight line through the water."
+    },
+    {
+      "name": "Hurl Net",
+      "text": "⬻ Requirements The cecaelia is holding a net in two appendages Effect The cecaelia hurls their net, attempting to hamper a foe. The cecaelia makes a ranged Strike (with a +15 modifier) against a Medium or smaller creature within 20 feet. On a hit, the target is flat-footed and takes a –10-foot circumstance penalty to its Speeds. On a critical hit, the creature is instead restrained. The DC to Escape the net is 16. A creature adjacent to the target can Interact with the net to remove it from the target."
+    },
+    {
+      "name": "Ink Cloud",
+      "text": "⬻ The cecaelia emits a cloud of black ink in a 10-foot emanation. This ink cloud has no effect outside of water. Creatures inside the cloud are undetected by creatures using sight or smell, and they can't see or smell while inside the cloud. The cloud dissipates after 1 minute. The cecaelia can't use Ink Cloud again for 2d6 (2d6) rounds."
+    },
+    {
+      "name": "Items",
+      "text": "longspear, net (2);"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ longspear +15 (magical, reach 10 feet); Damage 2d8+7 (2d8+7) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tentacle +15 (agile, reach 10 feet); Damage 2d4+7 (2d4+7) bludgeoning plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      4,
+      3,
+      -1,
+      2,
+      0
+    ],
+    "items": "longspear, net (2);"
+  }
+}

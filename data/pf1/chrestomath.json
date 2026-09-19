@@ -1,0 +1,113 @@
+{
+  "name": "Chrestomath",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 63: The Asylum Stone",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "extraplanar",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 16,
+    "notes": "deflection +6, dex -4, natural +4",
+    "touch": 12,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 95,
+    "formula": "10d10+40"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 10 ft. (average)"
+  },
+  "abilities": {
+    "str": 2,
+    "dex": 2,
+    "con": 19,
+    "int": 25,
+    "wis": 21,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +13, Ref -1, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +19, Fly +9, Knowledge (arcane) +32, Knowledge (history) +32, Knowledge (local) +32, Knowledge (planes) +32, Knowledge (religion) +32, Knowledge (dungeoneering) +29, Knowledge (engineering) +29, Knowledge (geography) +29, Knowledge (nature) +29, Knowledge (nobility) +29, Perception +18, Sense Motive +18, Spellcraft +19",
+    "list": {
+      "Appraise": "+19",
+      "Fly": "+9",
+      "Perception": "+18",
+      "Sense Motive": "+18",
+      "Spellcraft": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "thoughtsense"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Elven",
+    "Infernal",
+    "Thassilonian",
+    "Undercommon",
+    "tongues",
+    "telepathy 1 mile."
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 10,
+  "feats": [
+    "Ability Focus (mind flood)",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This bloated, larval sack of green and pink flesh is wet and curdled, its brainlike wrinkles interrupted by transparent membranes showing dark fluid within.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 19,
+    "racialModifiers": [
+      "Knowledge (all) 10"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, catechumen (1 plus 2-4 caulborn), array (2-4 plus 4-12 caulborn)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

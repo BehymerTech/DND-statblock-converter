@@ -1,0 +1,92 @@
+{
+  "name": "NPC First Guard of Absalom",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LN",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 17,
+    "notes": "armor +6, dex +1",
+    "touch": 11,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 21,
+    "formula": "2d10+6"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 12,
+    "con": 14,
+    "int": 13,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +5, Ref +1, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +3, Intimidate +4, Knowledge (engineering) +6, Profession (soldier) +6, Perception +1",
+    "list": {
+      "Climb": "+3",
+      "Intimidate": "+4",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 11,
+  "languages": [
+    "Common",
+    "any one human language"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Combat Expertise",
+    "Improved Trip",
+    "Iron Will",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk guisarme +5 (2d4+3/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "heavy crossbow +3 (1d10/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "fighter 2",
+    "cmb": "4 (+6 trip)",
+    "cmd": "15 (17 vs. trip)"
+  }
+}

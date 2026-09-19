@@ -1,0 +1,100 @@
+{
+  "name": "Demonologist",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 231.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 100,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 14,
+    "int": 18,
+    "wis": 18,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +13, Ref +12, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +16 (1d20+16); __Diplomacy__: +11 (1d20+11), (Diplomacy: +13 (1d20+13) with demons); __Religion__: +15 (1d20+15); __Academia lore__: +14 (1d20+14); __Demon lore__: +18 (1d20+18); ",
+    "list": {
+      "Arcana": "+16",
+      "Diplomacy": "+13",
+      "Religion": "+15",
+      "Academia lore": "+14",
+      "Demon lore": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 25,
+  "languages": [
+    "Abyssal",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Abyssal Temptation",
+      "text": "(divine, enchantment, mental); Demonic study has garnered the attention of at least one demon that is actively trying to possess the demonologist. When the demonologist publicly espouses the benefits of demonic power (whether they believe it a good thing or not), they gain a +1 status bonus to skill checks, AC, and saves for 1 day. These bonuses don't apply against demons. At the end of the day, the demonologist must attempt a DC 20 Will save, becoming possessed for 1 day on a failure (permanently on a critical failure)."
+    },
+    {
+      "name": "Breach the Abyss",
+      "text": "⭓ Requirements The demonologist's last action was to cast a non-cantrip spell Effect The demonologist siphons energy drawn from the Abyss into their weapon. Until the end of the turn, the weapon deals an extra 2d6 (2d6) damage. Roll 1d20 (1d20) to determine the type: 1–7 acid, 8–9 cold, 10–11 electricity, 12–18 fire, 19–20 negative."
+    },
+    {
+      "name": "Demon Summoning",
+      "text": "The demonologist can cast a 5th-level summon fiend arcane spell to summon a demon. To do so, they must sacrifice two 4th-level prepared spells and voluntarily take 4d12 (4d12) mental damage that can't be reduced or prevented. If the demonologist is unable to Sustain the Spell, including if they're knocked out or killed, the spell continues, but the GM rolls a DC 10 flat check each round, ending the spell on a failure."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ longspear +17 (magical, reach); Damage 1d8+9 (1d8+9) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      1,
+      2,
+      4,
+      4,
+      0
+    ]
+  }
+}

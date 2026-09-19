@@ -1,0 +1,96 @@
+{
+  "name": "Young Havoc Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "chaotic, extraplanar, good",
+  "alignment": "CG",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 25,
+    "notes": "dex +3, natural +13, size -1",
+    "touch": 12,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 133,
+    "formula": "14d12+42"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 200 ft. (poor)"
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 16,
+    "con": 17,
+    "int": 16,
+    "wis": 15,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +12, Ref +14, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +21, Fly +14, Knowledge (local) +20, Knowledge (planes) +20, Perception +19, Perform (comedy) +21, Sense Motive +19, Spellcraft +20, Use Magic Device +21",
+    "list": {
+      "Bluff": "+21",
+      "Fly": "+14",
+      "Perception": "+19",
+      "Sense Motive": "+19",
+      "Spellcraft": "+20",
+      "Use Magic Device": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Sylvan"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 14,
+  "feats": [
+    "Improved Crit. (tail slap)",
+    "Improved Init.",
+    "Lightning Reflexes",
+    "Multiattack",
+    "Power Attack",
+    "Weapon Focus (tail slap)",
+    "Wingover"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +18 (2d6+7), 2 claws +18 (1d8+5), tail slap +17 (1d8+7/19-20 plus trip), 2 wings +16 (1d6+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This dragon’s scales and insectile wings dance with color, while its whiplike tail waves as if stirred by an unseen breeze.",
+  "meta": {
+    "cmb": "+20",
+    "cmd": "33 (37 vs. trip)"
+  }
+}

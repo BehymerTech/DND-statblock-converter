@@ -1,0 +1,114 @@
+{
+  "name": "Korir-Kokembe",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Bestiary",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 24,
+    "notes": "dex +2, natural +14, size -2",
+    "touch": 10,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 136,
+    "formula": "13d12+52"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 80 ft. (good), climb 40 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 15,
+    "con": 18,
+    "int": 10,
+    "wis": 14,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +12, Ref +12, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +21, Fly +15, Intimidate +15, Knowledge (nature) +13, Perception +18, Spellcraft +10, Stealth +10, Survival +10, Swim +25",
+    "list": {
+      "Climb": "+21",
+      "Fly": "+15",
+      "Intimidate": "+15",
+      "Perception": "+18",
+      "Spellcraft": "+10",
+      "Stealth": "+10",
+      "Survival": "+10",
+      "Swim": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 13,
+  "feats": [
+    "Critical Focus",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Sickening Critical",
+    "Wingover"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +18 (2d6+10 plus disease and grab), 2 claws +18 (2d6+7/19-20 plus grab), tail slap +13 (2d6+3 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This green-tined dragon has multiple sets of legs down its long, sinuous body. An oversized gullet bulges in its throat.",
+  "meta": {
+    "cmb": "22 (+26 grapple)",
+    "cmd": "34 (46 vs. trip)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm jungles (Mwangi Expanse)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or nest (2-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

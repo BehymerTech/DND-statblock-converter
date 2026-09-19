@@ -1,0 +1,104 @@
+{
+  "name": "Werespider (Hybrid Form)",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, shapechanger",
+  "alignment": "NE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 19,
+    "notes": "armor +3, dex +4, natural +2",
+    "touch": 14,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 20,
+    "formula": "2d8+8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 19,
+    "con": 17,
+    "int": 8,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +3, Ref +7, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +8, Bluff +4, Climb +6, Disable Device +8, Escape Artist +8, Knowledge (local) +4, Perception +7, Stealth +8",
+    "list": {
+      "Acrobatics": "+8",
+      "Bluff": "+4",
+      "Climb": "+6",
+      "Disable Device": "+8",
+      "Escape Artist": "+8",
+      "Perception": "+7",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 1,
+  "feats": [
+    "Improved Initiative",
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "short sword +3 (1d6+2/19-20), bite -2 (1d6+1 plus curse of entothropy and poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hideous, spider-headed man is covered with bristly black hair, and his elongated mandibles drip with glistening poison.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": 17,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or colony (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (studded leather armor, short sword, 2 doses of Medium spider venom, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Raven",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 221.",
+  "size": "Tiny",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature -1",
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 7,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 4,
+    "dex": 16,
+    "con": 10,
+    "int": 2,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +2, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +5 (1d20+5); __Thievery__: +5 (1d20+5); ",
+    "list": {
+      "Acrobatics": "+5",
+      "Thievery": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 15,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Cunning",
+      "text": "A raven can use simple items as tools, such as poking a stick at an opening to tease out a piece of food. They are also quite adept at stealing objects. A raven can't use Thievery to Palm an Object, Disable a Device, or Pick a Lock, but it can use Thievery to Steal light objects that it can carry in its beak or talons or to accomplish other relatively simple tasks."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ beak +7 (finesse); Damage 1d6 (1d6) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -3,
+      3,
+      0,
+      -4,
+      3,
+      0
+    ]
+  }
+}

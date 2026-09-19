@@ -1,0 +1,101 @@
+{
+  "name": "Skeletal Giant",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 299.",
+  "size": "Large",
+  "type": "Undead",
+  "subtype": "Mindless, Skeleton",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 50,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 12,
+    "con": 16,
+    "int": 0,
+    "wis": 10,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +10, Ref +8, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +12 (1d20+12); __Intimidation__: +9 (1d20+9); ",
+    "list": {
+      "Athletics": "+12",
+      "Intimidation": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Broad Swipe",
+      "text": "⬺ The giant makes two Strikes with its glaive against two adjacent foes, both of whom are within its reach. The multiple attack penalty does not increase until after both attacks are resolved."
+    },
+    {
+      "name": "Terrifying Charge",
+      "text": "⬺ The giant Strides and makes a horns Strike with a +4 circumstance bonus to damage. If the strike hits, the giant attempts to Demoralize the target."
+    },
+    {
+      "name": "Items",
+      "text": "glaive, half plate;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ glaive +12 (deadly d8, forceful, reach 15 feet); Damage 1d8+7 (1d8+7) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ horns +12 (agile); Damage 1d10+5 (1d10+5) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      1,
+      3,
+      -5,
+      0,
+      2
+    ],
+    "items": "glaive, half plate;"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "name": "Salikotal",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 26: The Sixfold Trial",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 23,
+    "notes": "dex +6, dodge +1, natural +6",
+    "touch": 17,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 76,
+    "formula": "9d10+27"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 22,
+    "con": 17,
+    "int": 15,
+    "wis": 19,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +9, Ref +12, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Disable Device +18, Disguise +16, Escape Artist +18, Knowledge (local) +11, Sense Motive +16, Sleight of Hand +18, Stealth +18, Perception +4",
+    "list": {
+      "Acrobatics": "+15",
+      "Disable Device": "+18",
+      "Disguise": "+16",
+      "Escape Artist": "+18",
+      "Sense Motive": "+16",
+      "Sleight of Hand": "+18",
+      "Stealth": "+18",
+      "Perception": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 9,
+  "feats": [
+    "Dodge",
+    "Improved Critical (dagger)",
+    "Improved Initiative",
+    "Mobility",
+    "Wind Stance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 dagger +14/+9 (1d4+5/17-20), tail +8 (1d4+2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 dagger +16 (1d4+5/17-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "On lean limbs the color of spilt blood creeps a being of sinister grace. Eyes like embers and a sneer full of needle-thin teeth gleam from an unmistakably fiendish visage. A pair of crimson wings sprout from the back of the hairless humanoid form, fluttering silently like an assassin’s cloak, while in one hand it clutches the twisted, dagger-like horn of some infernal terror.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": 30,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or team (2-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+1 dagger, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Hag Eye Ooze",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 72: The Witch Queen's Revenge, Bestiary 5",
+  "size": "Small",
+  "type": "ooze",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 6,
+    "notes": "dex -5, size +1",
+    "touch": 6,
+    "flatFooted": 6
+  },
+  "hp": {
+    "average": 34,
+    "formula": "4d8+16"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 1,
+    "con": 18,
+    "int": "None",
+    "wis": 1,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +5, Ref -4, Will -4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +10, Perception -5",
+    "list": {
+      "Climb": "+10",
+      "Perception": "-5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": 5,
+  "languages": [],
+  "initiative": "-5",
+  "babOrProficiency": 3,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +6 (1d4+3 plus paralysis)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A single eye stares unblinking from an amorphous blob. A transparent pseudopod extends from the mass, ready to strike.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": "9 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate marshes or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

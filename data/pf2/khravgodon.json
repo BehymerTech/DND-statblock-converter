@@ -1,0 +1,109 @@
+{
+  "name": "Khravgodon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 192.",
+  "size": "Huge",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 9",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 160,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, burrow 15 feet, climb 15 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 20,
+    "int": 2,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +20, Ref +18, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +21 (1d20+21); __Stealth__: +18 (1d20+18); __Survival__: +18 (1d20+18); ",
+    "list": {
+      "Athletics": "+21",
+      "Stealth": "+18",
+      "Survival": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 28,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Feign Death",
+      "text": "⬲ Trigger The opossum is reduced below 70 HP Effect The khravgodon collapses. It is flat-footed and can use actions that require only its mind, but any other action ends the ruse. A successful DC 18 Perception check to Seek or Medicine check to Recall Knowledge is required to determine that the animal is not, in fact, dead."
+    },
+    {
+      "name": "Revived Retaliation",
+      "text": "⬲ Trigger The opossum is attacked or disturbed by a creature within reach while Feigning Death Effect The opossum Strikes the triggering creature."
+    },
+    {
+      "name": "Crush Chitin",
+      "text": "⬻ Requirements The khravgodon has a creature grabbed or restrained Effect The khravgodon bites the creature, dealing 2d12+9 (2d12+9) piercing damage (DC 28 basic Fortitude save) that ignores the first 5 of the target's Hardness or resistance to physical damage. On a failed save, the target also takes a –2 circumstance penalty to AC for 1 round."
+    },
+    {
+      "name": "Grasping Tail",
+      "text": "A khravgodon can drag a Large or smaller creature it has grabbed with its tail along with it when it Strides."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +21 (deadly d12); Damage 2d12+9 (2d12+9) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +21 (agile); Damage 2d10+9 (2d10+9) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +21 (reach 20 feet); Damage 2d6+9 (2d6+9) bludgeoning plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      3,
+      5,
+      -4,
+      3,
+      0
+    ]
+  }
+}

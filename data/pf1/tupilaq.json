@@ -1,0 +1,94 @@
+{
+  "name": "Tupilaq",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Small",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "dex +4, natural +5, size +1",
+    "touch": 15,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 59,
+    "formula": "9d10+10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 18,
+    "con": "None",
+    "int": "None",
+    "wis": 11,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +3, Ref +7, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Swim +13, Perception +0",
+    "list": {
+      "Swim": "+13",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 10,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 9,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15 (1d8+10/19-20 plus grab), 2 claws +15 (1d4+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This small humanoid figure grinds and clatters as it moves, its body carved from bones decorated with fine scrimshaw.",
+  "meta": {
+    "cmb": "13 (+17 grapple)",
+    "cmd": 27,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

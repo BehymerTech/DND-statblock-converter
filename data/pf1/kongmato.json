@@ -1,0 +1,111 @@
+{
+  "name": "Kongmato",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 42: Sanctum of the Serpent God",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 29,
+    "notes": "dex +3, natural +18, size -2",
+    "touch": 11,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 261,
+    "formula": "18d12+141"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 160 ft. (average)"
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 17,
+    "con": 26,
+    "int": 9,
+    "wis": 14,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +19, Ref +16, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +19, Fly +20, Intimidate +16, Perception +23, Sense Motive +15, Stealth +13, Survival +20",
+    "list": {
+      "Climb": "+19",
+      "Fly": "+20",
+      "Intimidate": "+16",
+      "Perception": "+23",
+      "Sense Motive": "+15",
+      "Stealth": "+13",
+      "Survival": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 18,
+  "feats": [
+    "Flyby Attack",
+    "Hover",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Lightning Reflexes",
+    "Multiattack",
+    "Power Attack",
+    "Snatch",
+    "Wingover"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +28 (2d6+18), 2 claws +26 (1d8+6), tail slap +26 (2d6+6), 2 wings +26 (1d8+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A reptilian creature dives from the sky with a piercing scream. As it hits the ground, wings the width of sails throw up dirt and leaves. The creature’s draconic body tapers to an unmistakably birdlike head with a backward sweeping crest and a beak that resembles a giant military pick. As it moves, the air around it thrums with a high-pitched wail.",
+  "meta": {
+    "cmb": "+32",
+    "cmd": "45 (49 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "tropical forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

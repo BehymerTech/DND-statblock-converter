@@ -1,0 +1,96 @@
+{
+  "name": "Rhinoceros",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 228.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 70,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 10,
+    "con": 18,
+    "int": 2,
+    "wis": 16,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +14, Ref +8, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +12 (1d20+12); __Survival__: +10 (1d20+10); ",
+    "list": {
+      "Athletics": "+12",
+      "Survival": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "imprecise scent 30"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Rhinoceros Charge",
+      "text": "⬺ The rhinoceros Strides twice, then makes a horn Strike. As long as the rhinoceros moved at least 20 feet, the Strike's damage increases to 3d8+6 (3d8+6). A Medium or smaller creature struck by this attack must succeed at a DC 21 Reflex save or be automatically Shoved back 5 feet and knocked prone by the force of the blow."
+    },
+    {
+      "name": "Trample",
+      "text": "⬽ Medium or smaller, foot, DC 18."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ horn +14 Damage 2d8+6 (2d8+6) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ foot +12 Damage 2d6+6 (2d6+6) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      0,
+      4,
+      -4,
+      3,
+      -1
+    ]
+  }
+}

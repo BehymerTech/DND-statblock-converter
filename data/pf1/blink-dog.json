@@ -1,0 +1,101 @@
+{
+  "name": "Blink Dog",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "LG",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, natural +2",
+    "touch": 12,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 22,
+    "formula": "3d10+6"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 15,
+    "con": 14,
+    "int": 10,
+    "wis": 13,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +5, Ref +5, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +7, Stealth +7, Survival +2",
+    "list": {
+      "Perception": "+7",
+      "Stealth": "+7",
+      "Survival": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Sylvan"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 3,
+  "feats": [
+    "Combat Reflexes",
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +4 (1d6+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This sleek canine has a coarse, tawny coat, pointed ears, and pale eyes. A faint blue nimbus seems to dance upon its fur.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": "16 (20 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate plains or forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-14)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

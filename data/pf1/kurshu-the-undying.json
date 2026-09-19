@@ -1,0 +1,123 @@
+{
+  "name": "Kurshu the Undying",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 65: Into the Nightmare Rift",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 30,
+    "notes": "deflection +2, dex +6, natural +13, size -1",
+    "touch": 17,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 229,
+    "formula": "17d10+136"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 23,
+    "con": 26,
+    "int": 31,
+    "wis": 20,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +20, Ref +11, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +24, Escape Artist +23, Fly +21, Heal +22, Intimidate +24, Knowledge (arcana) +30, Knowledge (dungeoneering) +27, Knowledge (history) +27, Knowledge (planes) +30, Knowledge (religion) +27, Perception +25, Sense Motive +25, Spellcraft +30, Stealth +22, Swim +22, Use Magic Device +27",
+    "list": {
+      "Diplomacy": "+24",
+      "Escape Artist": "+23",
+      "Fly": "+21",
+      "Heal": "+22",
+      "Intimidate": "+24",
+      "Perception": "+25",
+      "Sense Motive": "+25",
+      "Spellcraft": "+30",
+      "Stealth": "+22",
+      "Swim": "+22",
+      "Use Magic Device": "+27"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Aklo",
+    "Azlanti",
+    "Draconic",
+    "Infernal",
+    "Terran",
+    "Thassilonian",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 17,
+  "feats": [
+    "Combat Casting",
+    "Combat Reflexes",
+    "Craft Wondrous Item",
+    "Great Fortitude",
+    "Hover",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Iron Will",
+    "Scribe Scroll"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +21 (1d6+5 plus 1d4 Intelligence drain), tail slap +16 (1d8+2 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This large creature has the upper body of a winged woman and the lower body of a snake. She looks withered, like a preserved corpse.",
+  "meta": {
+    "cmb": "23 (+27 grapple)",
+    "cmd": "41 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land (extraplanar)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or cabal (herald and 1d4 charmed outsiders of CR 5 to CR 10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Krenshar",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Usually neutral",
+  "cr": "1",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "+2 Dex, +3 natural",
+    "touch": 12,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 11,
+    "formula": "2d10"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft. (8 squares)"
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 14,
+    "con": 11,
+    "int": 6,
+    "wis": 12,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +3, Ref +5, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Hide +4, Jump +9, Listen +3, Move Silently +6;",
+    "list": {
+      "Hide": "+4",
+      "Jump": "+9",
+      "Listen": "+3",
+      "Move Silently": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 2,
+  "feats": [
+    "Multiattack",
+    "Track (B)"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Scare"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., low-light vision, scent"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Bite +2 melee (1d6)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +2 melee (1d6) and 2 claws +0 melee (1d4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "The krenshar is a strange, catlike carnivore with extremely flexible skin on its head. A typical krenshar measures 4 or 5 feet in length with a long, narrow head. It weighs about 175 pounds.",
+    "grapple": "+2",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Temperate forests",
+    "organization": "Solitary, pair, or pride (6-10)",
+    "treasure": "None",
+    "advancement": "3-4 HD (Medium); 5-8 HD (Large)",
+    "leveladjustment": "+2"
+  }
+}

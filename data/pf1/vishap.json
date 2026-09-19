@@ -1,0 +1,125 @@
+{
+  "name": "Vishap",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Colossal",
+  "type": "dragon",
+  "subtype": "extraplanar",
+  "alignment": "N",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 35,
+    "notes": "dex +2, natural +31, size -8",
+    "touch": 4,
+    "flatFooted": 33
+  },
+  "hp": {
+    "average": 362,
+    "formula": "25d12+200"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 200 ft. (average), other_semicolon ley swim ft., swim 100 ft."
+  },
+  "abilities": {
+    "str": 37,
+    "dex": 15,
+    "con": 26,
+    "int": 18,
+    "wis": 14,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +22, Ref +16, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +21, Fly +22, Intimidate +20, Knowledge (arcana) +32, Knowledge (dungeoneering) +17, Knowledge (engineering) +17, Knowledge (geography) +17, Knowledge (history) +17, Knowledge (nature) +17, Knowledge (religion) +17, Knowledge (local) +8, Knowledge (nobility) +8, Knowledge (planes) +22, Linguistics +10, Perception +30, Sense Motive +20, Spellcraft +32, Swim +49, Use Magic Device +30",
+    "list": {
+      "Climb": "+21",
+      "Fly": "+22",
+      "Intimidate": "+20",
+      "Linguistics": "+10",
+      "Perception": "+30",
+      "Sense Motive": "+20",
+      "Spellcraft": "+32",
+      "Swim": "+49",
+      "Use Magic Device": "+30"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Aquan",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Sylvan",
+    "telepathy 100 ft.",
+    "tongues"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 25,
+  "feats": [
+    "Critical Focus",
+    "Exhausting Critical",
+    "Flyby Attack",
+    "Greater Vital Strike",
+    "Hover",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Multiattack",
+    "Power Attack",
+    "Tiring Critical",
+    "Vital Strike",
+    "Wingover"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +30 (2d8+13/19-20 plus grab and poison), tail slap +28 (4d6+19), 2 wings +28 (2d8+6), 2 claws +30 (2d8+13 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This slender dragon is covered in vivid cerulean scales with four powerful wings to match.",
+  "meta": {
+    "cmb": "46 (+50 grapple)",
+    "cmd": "58 (62 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

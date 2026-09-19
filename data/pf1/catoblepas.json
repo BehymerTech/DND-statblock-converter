@@ -1,0 +1,104 @@
+{
+  "name": "Catoblepas",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 27,
+    "notes": "dex -1, natural +19, size -1",
+    "touch": 8,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 161,
+    "formula": "14d10+84"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 8,
+    "con": 22,
+    "int": 5,
+    "wis": 15,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +15, Ref +8, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +25, Swim +13",
+    "list": {
+      "Perception": "+25",
+      "Swim": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 14,
+  "feats": [
+    "Diehard",
+    "Endurance",
+    "Improved Critical (gore)",
+    "Improved Iron Will",
+    "Iron Will",
+    "Multiattack",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +18 (3d6+5), gore +18 (2d8+5/19-20), 2 hooves +16 (1d8+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This ugly creature has a boar-like head with short antlers, a thick bullish body covered in spines, and cloven hooves on its stumpy legs.",
+  "meta": {
+    "cmb": "+20",
+    "cmd": "29 (33 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or herd (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

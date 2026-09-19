@@ -1,0 +1,104 @@
+{
+  "name": "Psychic Stalker",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Occult Bestiary",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "incorporeal",
+  "alignment": "NE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "deflection +6, dex +4",
+    "touch": 20,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 84,
+    "formula": "8d8+48"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 18,
+    "con": "None",
+    "int": 13,
+    "wis": 15,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +8, Ref +6, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +19, Intimidate +17, Perception +16, Sense Motive +13, Stealth +15",
+    "list": {
+      "Fly": "+19",
+      "Intimidate": "+17",
+      "Perception": "+16",
+      "Sense Motive": "+13",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "thoughtsense"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 6,
+  "feats": [
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "incorporeal touch +10 (1d6 Charisma damage)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This horrific, ghostly skull’s brain pulses within its cranium, the whorls and folds plainly visible through bone.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": "26 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

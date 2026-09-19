@@ -1,0 +1,108 @@
+{
+  "name": "Seugathi",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Into the Darklands",
+  "size": "Large",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "armor +4, dex +5, natural +1, size -1",
+    "touch": 14,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 67,
+    "formula": "9d8+27"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 20,
+    "con": 17,
+    "int": 14,
+    "wis": 17,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +6, Ref +8, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Escape Artist +17, Knowledge (religion) +14, Perception +15, Sense Motive +12, Stealth +13, Use Magic Device +16",
+    "list": {
+      "Escape Artist": "+17",
+      "Perception": "+15",
+      "Sense Motive": "+12",
+      "Stealth": "+13",
+      "Use Magic Device": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect thoughts",
+    "tremorsense"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Aklo",
+    "Undercommon",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 6,
+  "feats": [
+    "Ability Focus (aura of madness)",
+    "Combat Casting",
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk short sword +11/+6 (1d8+3/19-20), bite +5 (1d8+1 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This worm-like monster has a hideous face of eyes and hooked jaws. It wields a wand and a sword in its twin tentacle tails.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": "25 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "single, pair, or expedition (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (masterwork short sword, wand of magic missile [CL 5th, 1d20+30 charges])"
+      }
+    ]
+  }
+}

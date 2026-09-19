@@ -1,0 +1,117 @@
+{
+  "name": "Storm Giant",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Huge",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "CG",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 28,
+    "notes": "armor +6, dex +2, natural +12, size -2",
+    "touch": 10,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 199,
+    "formula": "19d8+114"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., swim 40 ft., swim_other 35 ft., swim 30 ft. in armor ft."
+  },
+  "abilities": {
+    "str": 39,
+    "dex": 14,
+    "con": 23,
+    "int": 16,
+    "wis": 20,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +17, Ref +8, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +18, Climb +17, Craft (any one) +13, Intimidate +20, Perception +27, Perform (sing) +12, Sense Motive +24, Swim +22",
+    "list": {
+      "Acrobatics": "+18",
+      "Climb": "+17",
+      "Intimidate": "+20",
+      "Perception": "+27",
+      "Sense Motive": "+24",
+      "Swim": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Auran",
+    "Common",
+    "Draconic",
+    "Giant"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 14,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Combat Reflexes",
+    "Improved Bull Rush",
+    "Improved Critical (greatsword)",
+    "Improved Sunder",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk greatsword +27/+22/+17 (4d6+21/17-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite longbow +15/+10/+5 (3d6+14/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This giant is a towering, muscular human of heroic proportions, with bronze skin, dark hair, and sparkling green eyes.",
+  "meta": {
+    "cmb": "+30",
+    "cmd": 42,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any warm"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or family (2-5 plus 1 sorcerer or cleric of 7th-10th level, 1-2 rocs, 2-6 griffons, and 2-8 sharks)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk breastplate, mwk composite longbow [+14 Str bonus] with 20 arrows, mwk greatsword, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Dire Weasel",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 17,
+    "notes": "dex +3, natural +5, size -1",
+    "touch": 12,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 32,
+    "formula": "5d8+10"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 16,
+    "con": 14,
+    "int": 2,
+    "wis": 13,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +6, Ref +7, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +9, Perception +11, Stealth +10, Swim +11",
+    "list": {
+      "Climb": "+9",
+      "Perception": "+11",
+      "Stealth": "+10",
+      "Swim": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 3,
+  "feats": [
+    "Combat Reflexes",
+    "Skill Focus (Perception)",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d8+7 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This bear-sized predator is long and low-slung. Its soft fur and intelligent expression contrast with its glistening fangs.",
+  "meta": {
+    "cmb": "9 (+13 grapple)",
+    "cmd": "22 (26 vs. trip)",
+    "racialModifiers": [
+      "Climb 4",
+      "Perception 2",
+      "Stealth 6",
+      "Swim 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or den (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

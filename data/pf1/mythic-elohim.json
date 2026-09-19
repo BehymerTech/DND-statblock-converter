@@ -1,0 +1,119 @@
+{
+  "name": "Mythic Elohim",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "extraplanar, mythic",
+  "alignment": "N",
+  "cr": "23",
+  "level": null,
+  "xp": 819200,
+  "ac": {
+    "value": 39,
+    "notes": "dex +6, dodge +1, insight +5, natural +19, size -2",
+    "touch": 20,
+    "flatFooted": 32
+  },
+  "hp": {
+    "average": 423,
+    "formula": "22d10+302"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 60 ft. (good), swim 30 ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 22,
+    "con": 32,
+    "int": 25,
+    "wis": 29,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +26, Ref +13, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +32, Heal +31, Intimidate +29, Knowledge (arcana) +32, Knowledge (dungeoneering) +32, Knowledge (geography) +32, Knowledge (nature) +32, Knowledge (planes) +32, Perception +34, Sense Motive +34, Spellcraft +29, Stealth +23, Swim +15, Use Magic Device +29",
+    "list": {
+      "Bluff": "+32",
+      "Heal": "+31",
+      "Intimidate": "+29",
+      "Perception": "+34",
+      "Sense Motive": "+34",
+      "Spellcraft": "+29",
+      "Stealth": "+23",
+      "Swim": "+15",
+      "Use Magic Device": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision",
+    "deathwatch",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 44,
+  "languages": [
+    "speak with animals",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+16/-4;  dual initiative",
+  "babOrProficiency": 22,
+  "feats": [
+    "Combat Casting",
+    "Combat Reflexes",
+    "Dodge",
+    "Great FortitudeM",
+    "Greater Vital Strike",
+    "Improved Great Fortitude",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +27 (2d8+7), 8 tentacles +22 (2d8+3 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This one-eyed being is a strange mix of insects, fungi, and other living things shaped into a single winged entity.",
+  "meta": {
+    "cmb": "31 (+35 grapple)",
+    "cmd": "53 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (extraplanar)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or horde (1 plus 5-20 animals, magical beasts, and plants of CR 8-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

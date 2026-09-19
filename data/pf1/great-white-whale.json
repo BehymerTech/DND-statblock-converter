@@ -1,0 +1,104 @@
+{
+  "name": "Great White Whale",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Colossal",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 28,
+    "notes": "dex -2, natural +28, size -8",
+    "touch": 0,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 225,
+    "formula": "18d8+144"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 40 ft."
+  },
+  "abilities": {
+    "str": 50,
+    "dex": 6,
+    "con": 27,
+    "int": 2,
+    "wis": 11,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +21, Ref +9, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +13, Swim +39",
+    "list": {
+      "Perception": "+13",
+      "Swim": "+39"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "low-light vision"
+  ],
+  "passivePerception": 23,
+  "languages": [],
+  "initiative": "-2",
+  "babOrProficiency": 13,
+  "feats": [
+    "Critical Focus",
+    "Diehard",
+    "Endurance",
+    "Great Fortitude",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Iron Will",
+    "Power Attack",
+    "Staggering Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +25 (6d6+20/19-20), tail slap +20 (3d6+10)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This immense whale has an enormous, box-shaped head over a massive, toothy maw. Its rough white hide is laced with scars.",
+  "meta": {
+    "cmb": "+41",
+    "cmd": "49 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pod (3-16)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "name": "Nightcrawler",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Gargantuan",
+  "type": "undead",
+  "subtype": "extraplanar, nightshade",
+  "alignment": "CE",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 33,
+    "notes": "natural +27, size -4",
+    "touch": 6,
+    "flatFooted": 33
+  },
+  "hp": {
+    "average": 312,
+    "formula": "25d8+200"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 60 ft."
+  },
+  "abilities": {
+    "str": 41,
+    "dex": 10,
+    "con": "None",
+    "int": 20,
+    "wis": 21,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +16, Ref +10, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +34, Knowledge (arcana) +33, Knowledge (planes) +30, Knowledge (religion) +33, Perception +33, Sense Motive +33, Spellcraft +33, Stealth +16, Swim +40",
+    "list": {
+      "Intimidate": "+34",
+      "Perception": "+33",
+      "Sense Motive": "+33",
+      "Spellcraft": "+33",
+      "Stealth": "+16",
+      "Swim": "+40"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darksense",
+    "darkvision",
+    "detect magic",
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 43,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 18,
+  "feats": [
+    "Combat Expertise",
+    "Command Undead",
+    "Critical Focus",
+    "Greater Vital Strike",
+    "Improved Critical (bite)",
+    "Improved Critical (sting)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Power Attack",
+    "Quicken Spell-Like Ability (cone of cold)",
+    "Staggering Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +32 (4d10+18/19-20 plus 4d6 cold and grab), sting +32 (4d6+18/19-20 plus 4d6 cold and poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This immense worm is covered with plates of dead-black, chitinous armor. Its toothy maw yawns like a cave.",
+  "meta": {
+    "cmb": "37 (+41 grapple)",
+    "cmd": "47 (can’t be tripped)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Negative Energy Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

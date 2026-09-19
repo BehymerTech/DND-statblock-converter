@@ -1,0 +1,111 @@
+{
+  "name": "Mountain Troll",
+  "sourceSystem": "pf1",
+  "source": "Lands of the Linnorm Kings",
+  "size": "Huge",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "CN",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 29,
+    "notes": "dex +1, natural +20, size -2",
+    "touch": 9,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 207,
+    "formula": "18d8+126"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., burrow 10 ft., climb 40 ft."
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 13,
+    "con": 25,
+    "int": 7,
+    "wis": 16,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +18, Ref +7, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +33, Perception +15",
+    "list": {
+      "Climb": "+33",
+      "Perception": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Giant"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 13,
+  "feats": [
+    "Awesome Blow",
+    "Deadly Aim",
+    "Improved Bull Rush",
+    "Improved Iron Will",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Power Attack",
+    "Quick Draw",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +24 (2d10+13), 2 claws +24 (2d6+13)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +13/+8/+3 (2d8+19)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous, stooped creature has powerful limbs; a mane of gritty brown fur; and a ferocious, tusked underbite.",
+  "meta": {
+    "cmb": "+28",
+    "cmd": 39,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

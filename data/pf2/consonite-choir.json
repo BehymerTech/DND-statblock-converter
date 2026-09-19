@@ -1,0 +1,98 @@
+{
+  "name": "Consonite Choir",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 53.",
+  "size": "Gargantuan",
+  "type": "Swarm",
+  "subtype": "Earth, Elemental",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 13",
+  "xp": null,
+  "ac": {
+    "value": 32,
+    "notes": ""
+  },
+  "hp": {
+    "average": 200,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 20,
+    "con": 26,
+    "int": 6,
+    "wis": 14,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +27, Ref +22, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +24 (1d20+24); __Performance__: +27 (1d20+27); ",
+    "list": {
+      "Acrobatics": "+24",
+      "Performance": "+27"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, precise echolocation 120"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Terran"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Echolocation",
+      "text": "The consonite choir can use hearing as a precise sense at the listed range."
+    },
+    {
+      "name": "Resonant Chimes",
+      "text": "(aura, evocation, sonic); 30 feet. The consonite choir's tones resonate within physical objects. A creature that begins its turn in the aura deals an additional 2d6 (2d6) sonic damage on any Strike using a weapon."
+    },
+    {
+      "name": "Swarming Chimes",
+      "text": "⬻ The swarm deals 4d6 (4d6) slashing damage plus 2d6 (2d6) sonic damage to each enemy in the swarm's space (DC 33 basic Reflex save). On a critical failure, the enemy is also deafened for 1 minute."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Ranged",
+      "text": "⬻ launched blade +26 (magical, range 120 feet, sonic); Damage 6d6 (6d6) piercing plus 2d6 (2d6) sonic"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      5,
+      8,
+      -2,
+      2,
+      6
+    ]
+  }
+}

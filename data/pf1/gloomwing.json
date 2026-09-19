@@ -1,0 +1,101 @@
+{
+  "name": "Gloomwing",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "extraplanar",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 19,
+    "notes": "dex +3, natural +7, size -1",
+    "touch": 12,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 37,
+    "formula": "5d10+10"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 40 ft. (good)"
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 17,
+    "con": 15,
+    "int": 2,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +3, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +5, Perception +9, Stealth +7",
+    "list": {
+      "Fly": "+5",
+      "Perception": "+9",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 5,
+  "feats": [
+    "Ability Focus (confusion)",
+    "Flyby Attack",
+    "Hover"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +6 (1d8+2), 2 claws +6 (1d6+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This immense moth has huge purple wings marked with spiraling black patterns that seem to shift and writhe.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": 21,
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Shadow)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

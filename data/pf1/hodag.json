@@ -1,0 +1,104 @@
+{
+  "name": "Hodag",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Pathfinder No. 32: Rivers Run Red",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex +2, natural +8, size -1",
+    "touch": 11,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 60,
+    "formula": "8d10+16"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 15 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 14,
+    "con": 15,
+    "int": 7,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +8, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +10, Perception +7, Stealth +2, Swim +8",
+    "list": {
+      "Climb": "+10",
+      "Perception": "+7",
+      "Stealth": "+2",
+      "Swim": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common (cannot speak)"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 8,
+  "feats": [
+    "Improved Iron Will",
+    "Iron Will",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +11 (1d8+4), 2 claws +11 (1d6+4), tail slap +11 (1d4+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Spikes cover the body of this vaguely reptilian creature. Its fearsome face features dagger-sharp teeth and glowing red eyes.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": "25 (29 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests or marshes"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

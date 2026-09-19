@@ -1,0 +1,131 @@
+{
+  "name": "Danava Titan",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 270.",
+  "size": "Gargantuan",
+  "type": "Water",
+  "subtype": "Humanoid, Titan",
+  "alignment": "LN",
+  "cr": null,
+  "level": "Creature 23",
+  "xp": null,
+  "ac": {
+    "value": 49,
+    "notes": ""
+  },
+  "hp": {
+    "average": 470,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 feet, swim 40 feet; air walk, water walk;"
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 26,
+    "con": 30,
+    "int": 30,
+    "wis": 26,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +41, Ref +37, Will +37",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +39 (1d20+39); __Arcana__: +43 (1d20+43); __Athletics__: +46 (1d20+46); __Crafting__: +43 (1d20+43); __Nature__: +41 (1d20+41); __Occultism__: +43 (1d20+43); __Religion__: +41 (1d20+41); __Society__: +43 (1d20+43); ",
+    "list": {
+      "Acrobatics": "+39",
+      "Arcana": "+43",
+      "Athletics": "+46",
+      "Crafting": "+43",
+      "Nature": "+41",
+      "Occultism": "+43",
+      "Religion": "+41",
+      "Society": "+43"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, true seeing, imprecise wavesense 100"
+  ],
+  "passivePerception": 51,
+  "languages": [
+    "Abyssal",
+    "Aquan",
+    "Celestial; [[telepathy]] 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Hadalic Presence",
+      "text": "(divine, illusion, mental, water); Creatures that fail their Will save against the titan's Impossible Stature aura also experience the crushing depths and darkness of the ocean floor. Such creatures see as if in an area of darkness (10th level), and the titan can use their wavesense to detect such creatures as a precise sense, even if neither are in water. On a critical failure, the creature is also immobilized."
+    },
+    {
+      "name": "Impossible Stature",
+      "text": "(aura, divine, illusion, mental); 100 feet. Titans warp perception and distance around them to seem even larger and more imposing. A creature that enters or begins its turn within the emanation must succeed at a DC 46 Will save or its movement toward the titan is movement over difficult terrain (greater difficult terrain on a critical failure) for 1 round."
+    },
+    {
+      "name": "Relentless",
+      "text": "The titan is as ever-moving as ocean waves. They're permanently quickened 1, and the extra action can only be used to Stride, Strike, or Sustain a Spell, or as one of the actions necessary to Cast dispel magic."
+    },
+    {
+      "name": "Roiling Rebuke",
+      "text": "⬲ Trigger A creature within 200 feet targets the titan with or includes the titan in the area of an attack, spell, or other effect Effect The titan makes a benthic wave Strike against the triggering creature. If the Strike hits, the titan disrupts the triggering action."
+    },
+    {
+      "name": "Items",
+      "text": "+3 major striking greatclub;"
+    },
+    {
+      "name": "Trample",
+      "text": "⬽ Huge or smaller, foot, DC 46"
+    },
+    {
+      "name": "Wide Cleave",
+      "text": "⬺ The titan makes a melee weapon Strike against each foe within their reach. This counts as three attacks for the titan's multiple attack penalty."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ greatclub +43 (backswing, magical, reach 40 feet, shove); Damage 4d10+20 (4d10+20) bludgeoning plus 2d12 (2d12) cold"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ foot +40 (agile, reach 30 feet); Damage 4d8+20 (4d8+20) bludgeoning plus 2d12 (2d12) cold"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ benthic wave +40 (brutal, magical, range 200 feet, water); Damage 4d6+20 (4d6+20) bludgeoning plus 2d12 (2d12) cold"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      11,
+      8,
+      10,
+      10,
+      8,
+      6
+    ],
+    "items": "+3 major striking greatclub;"
+  }
+}

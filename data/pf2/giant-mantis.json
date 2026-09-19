@@ -1,0 +1,97 @@
+{
+  "name": "Giant Mantis",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 233.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": ""
+  },
+  "hp": {
+    "average": 40,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, climb 25 feet, fly 20 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 16,
+    "con": 16,
+    "int": 0,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +10, Ref +12, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Athletics__: +12 (1d20+12); __Stealth__: +12 (1d20+12); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Athletics": "+12",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Deadly Mandibles",
+      "text": "⬲ Trigger The giant mantis Grabs a creature with its leg. Effect The mantis pulls the creature adjacent to it, then makes a mandibles Strike against the creature."
+    },
+    {
+      "name": "Lunging Strike",
+      "text": "⬺ The giant mantis lunges forward, making a leg Strike with an extended reach of 20 feet."
+    },
+    {
+      "name": "Sudden Strike",
+      "text": "On the first round of combat, creatures that haven't acted are flat-footed to the giant mantis."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ leg +12 (agile, reach 10 feet); Damage 1d10+5 (1d10+5) piercing plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      3,
+      3,
+      -5,
+      2,
+      0
+    ]
+  }
+}

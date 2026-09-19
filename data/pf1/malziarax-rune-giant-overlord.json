@@ -1,0 +1,106 @@
+{
+  "name": "Malziarax, Rune Giant Overlord",
+  "sourceSystem": "pf1",
+  "source": "Giants Revisited",
+  "size": "Gargantuan",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "LE",
+  "cr": "21",
+  "level": null,
+  "xp": 409600,
+  "ac": {
+    "value": 38,
+    "notes": "armor +11, deflection +2, dex +2, natural +17, size -4",
+    "touch": 10,
+    "flatFooted": 36
+  },
+  "hp": {
+    "average": 380,
+    "formula": "20d8+4d10+268"
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 ft.,  50 ft. without armor"
+  },
+  "abilities": {
+    "str": 43,
+    "dex": 14,
+    "con": 32,
+    "int": 18,
+    "wis": 21,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +21, Ref +9, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +22, Craft (weapons) +31, Intimidate +35, Knowledge (history) +31, Knowledge (nobility) +31, Perception +32",
+    "list": {
+      "Acrobatics": "+22",
+      "Intimidate": "+35",
+      "Perception": "+32"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 42,
+  "languages": [
+    "Common",
+    "Giant",
+    "Tien"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 19,
+  "feats": [
+    "Awesome Blow",
+    "Blinding Critical",
+    "Critical Focus",
+    "Improved Bull Rush",
+    "Improved Critical (longsword)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Power Attack",
+    "Quick Draw",
+    "Staggering Critical",
+    "Stunning Critical",
+    "Vital Strike",
+    "Weapon Focus (longsword)",
+    "Weapon Specialization (longsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+3 speed longsword +35/+30/+25/+20 (4d6+21/17-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 spear +18/+13/+8/+3 (4d6+17/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous, ebon-skinned giant is covered in glowing red runes and exotic plate armor.",
+  "meta": {
+    "race": "Female",
+    "class": "rune giant fighter 4",
+    "cmb": "+39",
+    "cmd": 53
+  }
+}

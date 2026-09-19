@@ -1,0 +1,118 @@
+{
+  "name": "Pleroma",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "aeon, extraplanar",
+  "alignment": "N",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 36,
+    "notes": "deflection +6, dex +8, dodge +1, natural +12, size -1",
+    "touch": 24,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 324,
+    "formula": "24d10+192"
+  },
+  "speed": {
+    "walk": 0,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "0 ft., fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 27,
+    "con": 26,
+    "int": 26,
+    "wis": 31,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +24, Ref +18, Will +26",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +30, Bluff +32, Fly +16, Heal +30, Intimidate +27, Knowledge (arcana) +47, Knowledge (dungeoneering) +44, Knowledge (engineering) +44, Knowledge (nature) +47, Knowledge (planes) +47, Knowledge (religion) +47, Perception +41, Sense Motive +39, Spellcraft +30, Stealth +27, Use Magic Device +27",
+    "list": {
+      "Appraise": "+30",
+      "Bluff": "+32",
+      "Fly": "+16",
+      "Heal": "+30",
+      "Intimidate": "+27",
+      "Perception": "+41",
+      "Sense Motive": "+39",
+      "Spellcraft": "+30",
+      "Stealth": "+27",
+      "Use Magic Device": "+27"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 51,
+  "languages": [
+    "envisaging"
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 24,
+  "feats": [
+    "Alertness",
+    "Combat Casting",
+    "Combat Reflexes",
+    "Dodge",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Lightning Stance",
+    "Mobility",
+    "Wind Stance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "touch +30 (20d8 energy)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Within the shadows of this vaguely humanoid figure stir swirling colors and spheres, as if it encompassed all the night sky.",
+  "meta": {
+    "cmb": "+32",
+    "cmd": "57 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Outer Planes)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or tribunal (1 pleroma, 3 akhanas, and 2-5 theletos)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

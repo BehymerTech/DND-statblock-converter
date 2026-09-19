@@ -1,0 +1,110 @@
+{
+  "name": "Ghorazagh",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Pathfinder No. 29: Mother of Flies",
+  "size": "Large",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 26,
+    "notes": "dex +3, natural +14, size -1",
+    "touch": 12,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 187,
+    "formula": "15d8+120"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 40 ft. (perfect), climb 40 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 17,
+    "con": 26,
+    "int": 15,
+    "wis": 17,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +15, Ref +10, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +18, Climb +14, Fly +27, Knowledge (dungeoneering) +17, Perception +21, Stealth +17, Survival +21",
+    "list": {
+      "Bluff": "+18",
+      "Climb": "+14",
+      "Fly": "+27",
+      "Perception": "+21",
+      "Stealth": "+17",
+      "Survival": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "bloodsense",
+    "darkvision"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Aklo",
+    "chemical communication"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 11,
+  "feats": [
+    "Bleeding Critical",
+    "Critical Focus",
+    "Flyby Attack",
+    "Great Fortitude",
+    "Improved Bull Rush",
+    "Lightning Reflexes",
+    "Multiattack",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +16 (2d6+6), 2 claws +16 (1d8+6), 4 tentacles +14 (1d6+3 and grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "With an armored spherical body, numerous tentacular legs, and a multi-eyed visage, this creature is truly hideous.",
+  "meta": {
+    "cmb": "+18",
+    "cmd": 31,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, colony (3-9), or hive (10-40, including 6 brood guards of 17 HD and 1 hive lord of 21 HD)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "name": "Sea Cat",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 56: Raiders of the Fever Sea",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 18,
+    "notes": "dex +1, natural +8, size -1",
+    "touch": 10,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 45,
+    "formula": "6d10+12"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 12,
+    "con": 15,
+    "int": 2,
+    "wis": 13,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +7, Ref +6, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +10, Swim +17",
+    "list": {
+      "Perception": "+10",
+      "Swim": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 20,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 6,
+  "feats": [
+    "Iron Will",
+    "Skill Focus (Perception)",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d8+3), 2 claws +9 (1d4+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This fierce creature merges the front half of a great cat with the tail and other characteristics of a giant fish.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": "21 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm coastlines"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pride (3-15)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

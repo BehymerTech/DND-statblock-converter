@@ -1,0 +1,103 @@
+{
+  "name": "Stone Golem",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 187.",
+  "size": "Large",
+  "type": "Mindless",
+  "subtype": "Construct, Golem",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 11",
+  "xp": null,
+  "ac": {
+    "value": 30,
+    "notes": ""
+  },
+  "hp": {
+    "average": 175,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 8,
+    "con": 18,
+    "int": 0,
+    "wis": 10,
+    "cha": 0
+  },
+  "saves": {
+    "text": "Fort +24, Ref +18, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +26 (1d20+26); ",
+    "list": {
+      "Athletics": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Golem Antimagic",
+      "text": "harmed by cold and water (5d10 (5d10), 2d8 (2d8) from areas and persistent damage); healed by acid (area 2d8 (2d8) HP); slowed by earth."
+    },
+    {
+      "name": "Vulnerable to Stone to Flesh",
+      "text": "A stone to flesh spell negates the golem's golem antimagic and its resistance to physical damage for 1 round. A flesh to stone spell reverses this effect immediately."
+    },
+    {
+      "name": "Impose Paralysis",
+      "text": "⬲ (incapacitation); Trigger The stone golem hits a slowed creature. Effect The creature must succeed at a DC 30 Fortitude save or become paralyzed for 1 round."
+    },
+    {
+      "name": "Inexorable March",
+      "text": "⬻ The stone golem Strides up to its Speed, pushing back each creature whose space it moves into and damaging them if they try to stop its movement. A creature can attempt to bar the way by succeeding at a DC 34 Fortitude save. On a critical success, the resisting creature takes no damage; otherwise it is damaged as if hit by the golem's fist."
+    },
+    {
+      "name": "Slowing Pulse",
+      "text": "⬻ (arcane, concentrate, transmutation); Each creature in a 10-foot emanation must succeed at a DC 30 Fortitude save or be slowed 1 for 1 minute. The golem can't use Slowing Pulse again for 1d4 (1d4) rounds."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +24 (magical, reach 10 feet); Damage 2d10+13 (2d10+13) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      -1,
+      4,
+      -5,
+      0,
+      -5
+    ]
+  }
+}

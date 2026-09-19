@@ -1,0 +1,112 @@
+{
+  "name": "Obambo",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 40: Vaults of Madness",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "incorporeal",
+  "alignment": "LE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 21,
+    "notes": "deflection +7, dex +4",
+    "touch": 21,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 175,
+    "formula": "14d8+112"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 30 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 23,
+    "con": "None",
+    "int": 19,
+    "wis": 18,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +11, Ref +10, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +21, Bluff +24, Craft (alchemy) +10, Diplomacy +15, Fly +18, Knowledge (dungeoneering) +10, Knowledge (geography) +15, Knowledge (history) +15, Knowledge (local) +15, Knowledge (nature) +15, Knowledge (religion) +10, Perception +21, Perform (oratory) +30, Sense Motive +24",
+    "list": {
+      "Appraise": "+21",
+      "Bluff": "+24",
+      "Diplomacy": "+15",
+      "Fly": "+18",
+      "Perception": "+21",
+      "Sense Motive": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Common",
+    "Polyglot",
+    "Sylvan",
+    "speak with animals",
+    "speak with vermin"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 10,
+  "feats": [
+    "Alertness",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Iron Will",
+    "Lunge",
+    "Skill Focus (Perform [oratory])",
+    "Step Up",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "incorporeal touch +16 (1d6 Int drain plus daze)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This spectral creature looks like a scarred and shriveled ruin of an ancient tribal elder, with skin caked with dirt and moss, and long white hair tangled with sticks. Sharp teeth fill its cackling mouth, and its eyes are tiny but bright and piercing. Jungle vines weave through its ghostly body, which appears stuffed with decaying leaves and other plant matter.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": "33 (can't be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or tribe (1 plus 1-2 giant flytraps or 1-3 shambling mounds)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

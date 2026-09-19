@@ -1,0 +1,113 @@
+{
+  "name": "Isonade",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Gargantuan",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "CE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 28,
+    "notes": "dex +1, dodge +1, natural +20, size -4",
+    "touch": 8,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 230,
+    "formula": "20d10+120"
+  },
+  "speed": {
+    "walk": 100,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 100 ft."
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 13,
+    "con": 22,
+    "int": 13,
+    "wis": 20,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +18, Ref +13, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +28, Stealth +18, Swim +43",
+    "list": {
+      "Perception": "+28",
+      "Stealth": "+18",
+      "Swim": "+43"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "keen scent"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Aquan",
+    "Common"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 20,
+  "feats": [
+    "Combat Expertise",
+    "Dodge",
+    "Greater Drag",
+    "Improved Drag",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Mobility",
+    "Skill Focus (Stealth)",
+    "Spring Attack",
+    "Vital Strike",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +29 (2d8+12 plus grab), 2 fins +28 (2d8+12 plus grab), tail slap +23 (2d8+6 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This massive horror looks like a shark protected by a crab carapace, with a tail, flanks, and pectoral fins covered in cruel hooks.",
+  "meta": {
+    "cmb": "36 (+40 drag, grapple)",
+    "cmd": "48 (50 vs. drag)",
+    "racialModifiers": [
+      "Stealth 10"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

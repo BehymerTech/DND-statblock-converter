@@ -1,0 +1,96 @@
+{
+  "name": "Shipwrecker Crab",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Colossal",
+  "type": "vermin",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 27,
+    "notes": "dex +3, natural +22, size -8",
+    "touch": 5,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 189,
+    "formula": "14d8+126"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 38,
+    "dex": 16,
+    "con": 28,
+    "int": "None",
+    "wis": 14,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +18, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +10, Swim +22",
+    "list": {
+      "Perception": "+10",
+      "Swim": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 10,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +16 (2d8+21 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Claws the size of rowboats dominate the form of this massive crab. Barnacles and sea grass cling to the creature’s thick shell.",
+  "meta": {
+    "cmb": "32 (+36 grapple)",
+    "cmd": "45 (61 vs. trip)",
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or cast (2-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

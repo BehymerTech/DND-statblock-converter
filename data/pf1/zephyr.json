@@ -1,0 +1,111 @@
+{
+  "name": "Zephyr",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 101: The Kintargo Contract",
+  "size": "Large",
+  "type": "fey",
+  "subtype": "air, shapechanger",
+  "alignment": "CN",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 27,
+    "notes": "dex +9, dodge +1, natural +8, size -1",
+    "touch": 19,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 168,
+    "formula": "16d6+112"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 200 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 28,
+    "con": 23,
+    "int": 14,
+    "wis": 20,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +11, Ref +19, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +28, Fly +34, Knowledge (geography) +21, Knowledge (nature) +21, Perception +24, Sense Motive +24, Stealth +24, Survival +21",
+    "list": {
+      "Acrobatics": "+28",
+      "Fly": "+34",
+      "Perception": "+24",
+      "Sense Motive": "+24",
+      "Stealth": "+24",
+      "Survival": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "wind senses"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Auran",
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 8,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Flyby Attack",
+    "Mobility",
+    "Run",
+    "Toughness",
+    "Weapon Finesse",
+    "Wind Stance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +16 (1d8+7 plus 2d6 sonic), 2 hooves +16 (1d8+7 plus 2d6 sonic)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This blue-furred horse with a cloudlike mane and tail has gray, humanlike eyes that show obvious intelligence.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": "36 (40 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or herd (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

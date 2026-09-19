@@ -1,0 +1,113 @@
+{
+  "name": "NPC Iron Duelist",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "alignment": "N",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 24,
+    "notes": "armor +8, deflection +1, dex +3, dodge +1, natural +1",
+    "touch": 15,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 159,
+    "formula": "10d10+7d10+61"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 14,
+    "con": 16,
+    "int": 13,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +14, Ref +13, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Appraise +6, Climb +13, Craft (weapons) +9, Diplomacy +3, Disable Device +7, Knowledge (dungeoneering) +9, Knowledge (engineering) +9, Knowledge (history) +6, Perception +11, Perform (percussion) +0, Stealth +7, Survival +6, Swim +9",
+    "list": {
+      "Acrobatics": "+7",
+      "Appraise": "+6",
+      "Climb": "+13",
+      "Diplomacy": "+3",
+      "Disable Device": "+7",
+      "Perception": "+11",
+      "Stealth": "+7",
+      "Survival": "+6",
+      "Swim": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Orc"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 17,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dodge",
+    "Greater Weapon Focus (light pick)",
+    "Improved Critical (light pick)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Lunge",
+    "Mobility",
+    "Spring Attack",
+    "Vital Strike",
+    "Weapon Finesse",
+    "Weapon Focus (light pick)",
+    "Weapon Specialization (light pick)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 flaming frost light pick +27/+22/+17/+12 (1d4+10/19-20/×4 plus 1d6 cold and 1d6 fire)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 light crossbow +20 (1d8+1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Dwarf",
+    "class": "fighter 10, duelist 7",
+    "cmb": "+22",
+    "cmd": "36 (40 vs. bull rush or trip)"
+  }
+}

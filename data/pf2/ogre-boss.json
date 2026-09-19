@@ -1,0 +1,108 @@
+{
+  "name": "Ogre Boss",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 253.",
+  "size": "Large",
+  "type": "Humanoid",
+  "subtype": "Giant",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 130,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 10,
+    "con": 18,
+    "int": 10,
+    "wis": 12,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +17, Ref +12, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +16 (1d20+16); __Stealth__: +11 (1d20+11); ",
+    "list": {
+      "Athletics": "+16",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Common",
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "breastplate, javelin (6), +1 ogre hook;"
+    },
+    {
+      "name": "Bellowing Command",
+      "text": "⬻ (auditory, fear, linguistic); The ogre boss issues a command to hasten their fellows. Each ogre ally who hears and understands this command becomes quickened until the end of that ally's next turn, but can use the extra action only to Step or Stride."
+    },
+    {
+      "name": "Sweeping Hook",
+      "text": "⬲ Trigger The ogre boss successfully Trips a creature using an ogre hook. Effect The ogre boss makes an ogre hook Strike against the creature they tripped."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ ogre hook +19 (deadly 1d10, reach 10 feet, trip); Damage 1d10+11 (1d10+11) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ javelin +12 (thrown 30 feet); Damage 1d6+11 (1d6+11) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      0,
+      4,
+      0,
+      1,
+      1
+    ],
+    "items": "breastplate, javelin (6), +1 ogre hook;"
+  }
+}

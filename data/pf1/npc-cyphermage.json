@@ -1,0 +1,112 @@
+{
+  "name": "NPC Cyphermage",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf, human",
+  "alignment": "NG",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 12,
+    "notes": "dex +2",
+    "touch": 12,
+    "flatFooted": 10
+  },
+  "hp": {
+    "average": 57,
+    "formula": "5d6+4d6+23"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 14,
+    "con": 12,
+    "int": 20,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +7, Ref +6, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +10, Disable Device +12, Fly +6, Knowledge (arcana) +13, Knowledge (dungeoneering) +13, Knowledge (geography) +13, Knowledge (history) +13, Knowledge (planes) +13, Linguistics +13, Perception +16, Spellcraft +19, Use Magic Device +17",
+    "list": {
+      "Climb": "+10",
+      "Disable Device": "+12",
+      "Fly": "+6",
+      "Linguistics": "+13",
+      "Perception": "+16",
+      "Spellcraft": "+19",
+      "Use Magic Device": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Elven",
+    "Giant",
+    "Goblin",
+    "Infernal",
+    "Thassilonian",
+    "Undercommon",
+    "Varisian"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 4,
+  "feats": [
+    "Craft Wand",
+    "Craft Wondrous Item",
+    "Cypher Magic",
+    "Great Fortitude",
+    "Magical Aptitude",
+    "Scribe Scroll",
+    "Skill Focus (Use Magic Device)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk dagger +4 (1d4-1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk dagger +7 (1d4-1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-elf",
+    "class": "wizard 5, cyphermage 4",
+    "cmb": "+3",
+    "cmd": 15
+  }
+}

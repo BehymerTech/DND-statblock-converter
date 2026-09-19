@@ -1,0 +1,111 @@
+{
+  "name": "NPC Dark Nature Priest",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "halfling",
+  "alignment": "NE",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 28,
+    "notes": "armor +4, deflection +3, dex +3, dodge +1, insight +1, shield +5, size +1",
+    "touch": 19,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 156,
+    "formula": "18d8+72"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 16,
+    "con": 16,
+    "int": 12,
+    "wis": 20,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +18, Ref +13, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +4, Climb +8, Fly +12, Handle Animal +6, Heal +13, Knowledge (geography) +14, Knowledge (nature) +16, Linguistics +5, Perception +24, Ride +9, Spellcraft +19, Survival +19, Swim +7",
+    "list": {
+      "Acrobatics": "+4",
+      "Climb": "+8",
+      "Fly": "+12",
+      "Handle Animal": "+6",
+      "Heal": "+13",
+      "Linguistics": "+5",
+      "Perception": "+24",
+      "Ride": "+9",
+      "Spellcraft": "+19",
+      "Survival": "+19",
+      "Swim": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 34,
+  "languages": [
+    "Aquan",
+    "Auran",
+    "Common",
+    "Druidic",
+    "Halfling",
+    "Ignan",
+    "Sylvan",
+    "Terran"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 13,
+  "feats": [
+    "Augment Summoning",
+    "Combat Casting",
+    "Combat Reflexes",
+    "Dodge",
+    "Empower Spell",
+    "Natural Spell",
+    "Spell Focus (conjuration)",
+    "Vital Strike",
+    "Weapon Focus (quarterstaff)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 quarterstaff +15/+10/+5 (1d4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 sling +18/+13/+8 (1d3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Halfling",
+    "class": "druid 18",
+    "cmb": "+11",
+    "cmd": 29
+  }
+}

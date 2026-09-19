@@ -1,0 +1,113 @@
+{
+  "name": "Werebear (Hybrid Form)",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "human, shapechanger",
+  "alignment": "LG",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 23,
+    "notes": "armor +4, dex +2, natural +8, size -1",
+    "touch": 11,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 46,
+    "formula": "4d10+20"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 14,
+    "con": 19,
+    "int": 12,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +6, Ref +6, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +10, Handle Animal +6, Heal +8, Knowledge (nature) +8, Perception +8, Stealth +3, Survival +8, Swim +10",
+    "list": {
+      "Climb": "+10",
+      "Handle Animal": "+6",
+      "Heal": "+8",
+      "Perception": "+8",
+      "Stealth": "+3",
+      "Survival": "+8",
+      "Swim": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 4,
+  "feats": [
+    "Endurance",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Run",
+    "Weapon Focus (battleaxe)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk battleaxe +10 (2d6+5/x3), bite +3 (1d8+2 plus curse of lycanthropy), claw +3 (1d6+2 plus grab)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk throwing axe +7 (1d6+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This humanoid is covered in shaggy fur and carries a heavy axe in one of his clawed hands.",
+  "meta": {
+    "race": "Human",
+    "class": "natural werebear ranger 4",
+    "cmb": "10 (+14 grapple)",
+    "cmd": 22,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, family (3-6), or troupe (3-6 plus 1-4 black or grizzly bears)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (chain shirt, masterwork battleaxe, 2 masterwork throwing axes, other treasure)"
+      }
+    ]
+  }
+}

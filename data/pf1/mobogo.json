@@ -1,0 +1,113 @@
+{
+  "name": "Mobogo",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Pathfinder No. 12: Crown of Fangs",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "CE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 24,
+    "notes": "dex +2, natural +14, size -2",
+    "touch": 10,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 136,
+    "formula": "13d10+65"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 30 ft. (poor), swim 40 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 15,
+    "con": 21,
+    "int": 6,
+    "wis": 15,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +13, Ref +10, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +9, Fly -6, Perception +19, Stealth +0, Swim +17",
+    "list": {
+      "Acrobatics": "+9",
+      "Fly": "-6",
+      "Perception": "+19",
+      "Stealth": "+0",
+      "Swim": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Boggard",
+    "speak with animals"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 13,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Combat Reflexes",
+    "Improved Bull Rush",
+    "Improved Overrun",
+    "Iron Will",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +20 (2d6+9), 2 slams +20 (1d8+9)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This grotesque creature looks like a gigantic toad with leathery wings, fangs, horns, and three bulbous eyes.",
+  "meta": {
+    "cmb": "24 (+28 grapple)",
+    "cmd": "36 (40 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics 8",
+      "Perception 8",
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or gang (2-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

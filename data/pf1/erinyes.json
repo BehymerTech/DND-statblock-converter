@@ -1,0 +1,120 @@
+{
+  "name": "Erinyes",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 23,
+    "notes": "dex +6, dodge +1, natural +6",
+    "touch": 17,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 94,
+    "formula": "9d10+45"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 50 ft. (good)"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 23,
+    "con": 21,
+    "int": 14,
+    "wis": 18,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +11, Ref +12, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +18, Bluff +17, Diplomacy +14, Escape Artist +12, Fly +19, Intimidate +17, Knowledge (planes) +8, Knowledge (religion) +8, Perception +16, Sense Motive +10, Stealth +15",
+    "list": {
+      "Acrobatics": "+18",
+      "Bluff": "+17",
+      "Diplomacy": "+14",
+      "Escape Artist": "+12",
+      "Fly": "+19",
+      "Intimidate": "+17",
+      "Perception": "+16",
+      "Sense Motive": "+10",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness",
+    "true seeing"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Mobility",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Rapid Shot",
+    "Shot on the Run"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 longsword +15/+10 (1d8+8/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 flaming composite longbow +14/+14/+9 (1d8+6/×3 plus 1d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Some calamity has befallen this angelic warrior. Wings stained black shear the air as her merciless eyes search for a target.",
+  "meta": {
+    "cmb": "+14",
+    "cmd": 31,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or trio"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple (+1 longsword, +1 flaming composite longbow [+5 Str bonus], rope)"
+      }
+    ]
+  }
+}

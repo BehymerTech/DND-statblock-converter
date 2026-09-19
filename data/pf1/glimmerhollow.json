@@ -1,0 +1,97 @@
+{
+  "name": "Glimmerhollow",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 117: Assault on Longshadow",
+  "size": "Huge",
+  "type": "ooze",
+  "subtype": "earth, extraplanar",
+  "alignment": "N",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 15,
+    "notes": "dex -5, natural +12, size -2",
+    "touch": 3,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 119,
+    "formula": "14d8+56"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft., burrow 5 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 1,
+    "con": 18,
+    "int": "None",
+    "wis": 1,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +8, Ref -1, Will -1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Stealth -3, Perception -5",
+    "list": {
+      "Stealth": "-3",
+      "Perception": "-5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "tremorsense"
+  ],
+  "passivePerception": 5,
+  "languages": [],
+  "initiative": "-5",
+  "babOrProficiency": 10,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +11 (3d8+4/18-20 plus pull)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "An acidic tang fills the air of this small, glittering cave. Several extremely sharp formations are as large as a human head.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": "20 (can’t be tripped)",
+    "racialModifiers": [
+      "Stealth 10"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground (Plane of Earth)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (gems and crystals)"
+      }
+    ]
+  }
+}

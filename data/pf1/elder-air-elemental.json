@@ -1,0 +1,99 @@
+{
+  "name": "Elder Air Elemental",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "air, elemental, extraplanar",
+  "alignment": "N",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 28,
+    "notes": "dex +11, dodge +1, natural +8, size -2",
+    "touch": 20,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 152,
+    "formula": "16d10+64"
+  },
+  "speed": {
+    "walk": 100,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 100 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 33,
+    "con": 18,
+    "int": 10,
+    "wis": 11,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +14, Ref +21, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +30, Escape Artist +30, Fly +34, Knowledge (planes) +19, Perception +19, Stealth +22",
+    "list": {
+      "Acrobatics": "+30",
+      "Escape Artist": "+30",
+      "Fly": "+34",
+      "Perception": "+19",
+      "Stealth": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 29,
+  "languages": [],
+  "initiative": "+15",
+  "babOrProficiency": 16,
+  "feats": [
+    "Blind-Fight",
+    "Cleave",
+    "Combat Reflexes",
+    "Dodge",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Iron Will",
+    "Mobility",
+    "Power Attack",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +25 (2d8+9)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+27",
+    "cmd": 49,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "Plane of Air"
+      }
+    ]
+  }
+}

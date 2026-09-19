@@ -1,0 +1,108 @@
+{
+  "name": "Isqulug",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 149.",
+  "size": "Medium",
+  "type": "Amphibious",
+  "subtype": "Aberration",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 11",
+  "xp": null,
+  "ac": {
+    "value": 31,
+    "notes": ""
+  },
+  "hp": {
+    "average": 230,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, swim 25 feet; swamp stride;"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 20,
+    "con": 24,
+    "int": 16,
+    "wis": 24,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +24, Ref +20, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +22 (1d20+22); __Athletics__: +24 (1d20+24); __Nature__: +22 (1d20+22); __Survival__: +22 (1d20+22); ",
+    "list": {
+      "Acrobatics": "+22",
+      "Athletics": "+24",
+      "Nature": "+22",
+      "Survival": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision, host scent 30"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Host Scent",
+      "text": "An isqulug can precisely sense any creature infected with isqulugia within 30 feet, and knows the current stage of the disease."
+    },
+    {
+      "name": "Expel Infestation",
+      "text": "⬺ The isqulug expels larvae from the hivemind in its head in a 30-foot cone. Creatures in this area take 6d10 (6d10) piercing damage as the swarm feeds on their flesh (DC 30 basic Reflex save). Any creature that takes damage is exposed to isqulugia. The isqulug becomes stupefied 1 for 1d4 (1d4) rounds, during which it can't Expel Infestation."
+    },
+    {
+      "name": "Isqulugia",
+      "text": "(disease, incapacitation, primal, transmutation, virulent); Saving Throw DC 30 Fortitude. Stage 1 sickened 1 (1 hour) Stage 2 fatigued and sickened 2 (1 day) Stage 3 fatigued and slowed 1 (1 day) Stage 4 paralyzed (1 day) Stage 5 the creature dies, and its body violently transforms into a new isqulug. (null)"
+    },
+    {
+      "name": "Malleability",
+      "text": "The isqulug can Squeeze through tight spaces as if it were a Small creature. While Squeezing, it can move at its full Speed. The isqulug can even Squeeze through spaces that typically fit only a Tiny creature, but does so at the standard speed for Squeezing."
+    },
+    {
+      "name": "Swamp Stride",
+      "text": "An isqulug ignores difficult terrain that's caused by typical features of swamps."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ tentacle +22 (agile, reach 10 feet); Damage 2d12+11 (2d12+11) bludgeoning plus isqulugia"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      5,
+      7,
+      3,
+      7,
+      5
+    ]
+  }
+}

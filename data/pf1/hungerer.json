@@ -1,0 +1,114 @@
+{
+  "name": "Hungerer",
+  "sourceSystem": "pf1",
+  "source": "Rise of the Runelords Anniversary Edition, Pathfinder No. 6: Spires of Xin-Shalast",
+  "size": "Huge",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 31,
+    "notes": "dex +1, dodge +1, natural +21, size -2",
+    "touch": 10,
+    "flatFooted": 29
+  },
+  "hp": {
+    "average": 220,
+    "formula": "21d10+105"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 13,
+    "con": 20,
+    "int": 13,
+    "wis": 18,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +12, Ref +15, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +32, Intimidate +28, Perception +28, Sense Motive +25, Stealth +17",
+    "list": {
+      "Fly": "+32",
+      "Intimidate": "+28",
+      "Perception": "+28",
+      "Sense Motive": "+25",
+      "Stealth": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Giant",
+    "Thassilonian"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 21,
+  "feats": [
+    "Critical Focus",
+    "Dodge",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Mobility",
+    "Power Attack",
+    "Quicken Spell-Like Ability (stinking cloud)",
+    "Staggering Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +29 (2d8+10/19-20/×4 plus 2d6 acid damage and 2 Wisdom drain), 2 claws +29 (1d8+10 plus 2 Wisdom drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A hideous mound of shuddering, pustule-encrusted flesh, this bloated creature’s gaping maw is filled with terrible teeth.",
+  "meta": {
+    "cmb": "+33",
+    "cmd": "45 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or feast (2-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

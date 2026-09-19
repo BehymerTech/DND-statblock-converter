@@ -1,0 +1,113 @@
+{
+  "name": "Mythic Grendel",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Large",
+  "type": "monstrous humanoid",
+  "subtype": "mythic",
+  "alignment": "CE",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 34,
+    "notes": "dex +4, natural +25, size -1",
+    "touch": 13,
+    "flatFooted": 30
+  },
+  "hp": {
+    "average": 340,
+    "formula": "20d10+230"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 19,
+    "con": 26,
+    "int": 9,
+    "wis": 15,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +16, Ref +16, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +19, Intimidate +12, Perception +15, Stealth +24, Swim +31",
+    "list": {
+      "Acrobatics": "+19",
+      "Intimidate": "+12",
+      "Perception": "+15",
+      "Stealth": "+24",
+      "Swim": "+31"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 20,
+  "feats": [
+    "Bleeding Critical",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Exhausting Critical",
+    "Great Fortitude",
+    "Improved Critical (claw)",
+    "Iron Will",
+    "Power Attack",
+    "Skill Focus (Stealth)",
+    "Tiring Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +32 (3d10+13/19-20 plus grab), bite +27 (4d8+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This lurching hulk carries no weapons, but its eyes burn with menace, and its long claws are caked with blood.",
+  "meta": {
+    "cmb": "34 (+38 grapple)",
+    "cmd": 48,
+    "racialModifiers": [
+      "Acrobatics 4",
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

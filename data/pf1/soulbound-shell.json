@@ -1,0 +1,110 @@
+{
+  "name": "Soulbound Shell",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Medium",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 26,
+    "notes": "armor +4, dex +1, natural +11",
+    "touch": 11,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 132,
+    "formula": "15d10+50"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 13,
+    "con": "None",
+    "int": 20,
+    "wis": 10,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +5, Ref +6, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (sculptures) +20, Disguise +16, Knowledge (arcana) +20, Knowledge (engineering) +20, Perception +15, Spellcraft +26, Use Magic Device +16",
+    "list": {
+      "Disguise": "+16",
+      "Perception": "+15",
+      "Spellcraft": "+26",
+      "Use Magic Device": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 15,
+  "feats": [
+    "Combat Casting",
+    "Craft ConstructB",
+    "Greater Spell Focus (conjuration)",
+    "Improved Iron Will",
+    "Iron Will",
+    "Skill Focus (Spellcraft)",
+    "Spell Focus (conjuration)",
+    "Spell Focus (enchantment)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk dagger +17/+12/+7 (1d4+1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This white statue of a bald human is marbled with glowing green veins of energy.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": 27,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or workshop (1 plus 2-8 other constructs)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk dagger, other treasure)"
+      }
+    ]
+  }
+}

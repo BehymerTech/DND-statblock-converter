@@ -1,0 +1,97 @@
+{
+  "name": "NPC Duergar Slaver",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "alignment": "LE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 17,
+    "notes": "armor +6, dex +1",
+    "touch": 11,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 21,
+    "formula": "3d10"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 12,
+    "con": 10,
+    "int": 10,
+    "wis": 15,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +3, Ref +4, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Escape Artist +3, Intimidate +9, Knowledge (dungeoneering) +6, Knowledge (local) +3, Perception +8, Stealth +6, Survival +8",
+    "list": {
+      "Escape Artist": "+3",
+      "Intimidate": "+9",
+      "Perception": "+8",
+      "Stealth": "+6",
+      "Survival": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Undercommon"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 3,
+  "feats": [
+    "Endurance",
+    "Rapid Reload (light crossbow)",
+    "Skill Focus (Intimidate)",
+    "Stealthy"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk light hammer +6 (1d4+2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk light crossbow +5 (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Duergar",
+    "class": "ranger 3",
+    "cmb": "+5",
+    "cmd": "16 (20 vs. bull rush, 20 vs. trip)"
+  }
+}

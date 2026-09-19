@@ -1,0 +1,93 @@
+{
+  "name": "Medium Air Elemental",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "air, elemental, extraplanar",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 19,
+    "notes": "dex +5, dodge +1, natural +3",
+    "touch": 16,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d10+8"
+  },
+  "speed": {
+    "walk": 100,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 100 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 21,
+    "con": 14,
+    "int": 4,
+    "wis": 11,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +6, Ref +9, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +11, Escape Artist +9, Fly +17, Knowledge (planes) +1, Perception +7, Stealth +10",
+    "list": {
+      "Acrobatics": "+11",
+      "Escape Artist": "+9",
+      "Fly": "+17",
+      "Perception": "+7",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": "+9",
+  "babOrProficiency": 4,
+  "feats": [
+    "Dodge",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +9 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 22,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "Plane of Air"
+      }
+    ]
+  }
+}

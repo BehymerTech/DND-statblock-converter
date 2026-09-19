@@ -1,0 +1,114 @@
+{
+  "name": "Zuishin",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "kami, native",
+  "alignment": "LG",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 23,
+    "notes": "armor +6, dex +3, natural +4",
+    "touch": 13,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 123,
+    "formula": "13d10+52"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 30 ft. (perfect, 40 ft. without armor), fly_other perfect, 40 ft. without armor ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 21,
+    "con": 18,
+    "int": 11,
+    "wis": 18,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +8, Ref +13, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +10, Heal +20, Intimidate +18, Knowledge (nature) +16, Perception +20, Sense Motive +20, Stealth +18",
+    "list": {
+      "Fly": "+10",
+      "Heal": "+20",
+      "Intimidate": "+18",
+      "Perception": "+20",
+      "Sense Motive": "+20",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect evil",
+    "see invisibility"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Common",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 13,
+  "feats": [
+    "Improved Initiative",
+    "Improved Precise Shot",
+    "Iron Will",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Rapid Shot",
+    "Weapon Focus (longbow)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 holy halberd +18/+13/+8 (1d10+7/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 holy composite longbow +20/+15/+10 (1d8+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Within this elaborate suit of armor can be seen the partial form of a determined warrior.",
+  "meta": {
+    "cmb": "+17",
+    "cmd": "32 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or warband (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+1 composite longbow [+4 Str], +1 halberd, masterwork breastplate, other treasure)"
+      }
+    ]
+  }
+}

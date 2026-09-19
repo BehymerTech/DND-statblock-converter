@@ -1,0 +1,107 @@
+{
+  "name": "Elder Thing",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 46: Wake of the Watcher",
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": "aquatic",
+  "alignment": "LN",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +2, natural +6",
+    "touch": 12,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 59,
+    "formula": "7d8+28"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 20 ft. (clumsy), swim 40 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 14,
+    "con": 19,
+    "int": 20,
+    "wis": 16,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +8, Ref +4, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Disable Device +9, Fly +4, Heal +10, Knowledge (arcana) +12, Perception +13, Spellcraft +15, Survival +13, Swim +20, Use Magic Device +10",
+    "list": {
+      "Disable Device": "+9",
+      "Fly": "+4",
+      "Heal": "+10",
+      "Perception": "+13",
+      "Spellcraft": "+15",
+      "Survival": "+13",
+      "Swim": "+20",
+      "Use Magic Device": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Elder Thing"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 5,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Endurance",
+    "Great Fortitude"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "5 tentacles +7 (1d4+2 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This strange being has a star-shaped head and numerous writhing appendages arranged radially around its barrel-shaped body.",
+  "meta": {
+    "cmb": "7 (+11 grapple)",
+    "cmd": "19 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, pod (3-8), or expedition (9-16)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

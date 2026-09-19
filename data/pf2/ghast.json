@@ -1,0 +1,113 @@
+{
+  "name": "Ghast",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 169.",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "Ghoul",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 30,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, burrow 5 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 18,
+    "con": 14,
+    "int": 12,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +6, Ref +10, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +10 (1d20+10); __Athletics__: +7 (1d20+7); __Stealth__: +10 (1d20+10); __Survival__: +8 (1d20+8); ",
+    "list": {
+      "Acrobatics": "+10",
+      "Athletics": "+7",
+      "Stealth": "+10",
+      "Survival": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Necril"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Stench",
+      "text": "(aura, olfactory); 10 feet. A creature entering the aura or starting its turn in the aura must succeed at a DC 16 Fortitude save or become sickened 1 (plus slowed 1 as long as it's sickened on a critical failure). While within the aura, the creature takes a –2 circumstance penalty to saves against disease and to recover from the sickened condition. A creature that succeeds at its save is temporarily immune for 1 minute."
+    },
+    {
+      "name": "Consume Flesh",
+      "text": "⬻ (manipulate); Requirements The ghast is adjacent to the corpse of a creature that died within the last hour. Effect The ghast regains 3d6 (3d6) Hit Points. It can regain Hit Points from any given corpse only once."
+    },
+    {
+      "name": "Ghast Fever",
+      "text": "Saving Throw DC 16 Fortitude. Stage 1 carrier with no ill effect (1 day) Stage 2 3d8 (3d8) negative damage and regains half as many Hit Points from all healing (1 day) Stage 3 as stage 2 (1 day) Stage 4 3d8 (3d8) negative damage and gains no benefit from healing (1 day) Stage 5 as stage 4 (1 day) Stage 6 dead, and rises as a b1 the next midnight (undefined)"
+    },
+    {
+      "name": "Paralysis",
+      "text": "(incapacitation, occult, necromancy); Any living creature hit by a ghast's attack must succeed at a DC 15 Fortitude save or become paralyzed. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save."
+    },
+    {
+      "name": "Swift Leap",
+      "text": "⬻ The ghast jumps up to half its Speed. This movement doesn't trigger reactions."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +11 (finesse); Damage 1d6+5 (1d6+5) piercing plus ghast fever and paralysis"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +11 (agile, finesse); Damage 1d4+5 (1d4+5) slashing plus paralysis"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      4,
+      2,
+      1,
+      2,
+      3
+    ]
+  }
+}

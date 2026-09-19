@@ -1,0 +1,78 @@
+{
+  "name": "Lemure",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "Devil",
+  "alignment": "Lawful Evil",
+  "cr": "0",
+  "level": null,
+  "xp": 10,
+  "ac": {
+    "value": 9,
+    "notes": ""
+  },
+  "hp": {
+    "average": 9,
+    "formula": "2d8"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 5,
+    "con": 11,
+    "int": 1,
+    "wis": 11,
+    "cha": 3
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 120 ft. (unimpeded by magical Darkness)"
+  ],
+  "passivePerception": 10,
+  "languages": [
+    "Understands Infernal but can't speak"
+  ],
+  "initiative": "-3 (7)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Hellish Restoration",
+      "text": "If the lemure dies in the Nine Hells, it revives with all its Hit Points in 1d10 days unless it is killed by a creature under the effects of a _Bless_ spell or its remains are sprinkled with Holy Water."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Vile Slime",
+      "text": "_Melee Attack Roll:_ +2, reach 5 ft. _Hit:_ 2 (1d4) Poison damage. ## Lich"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

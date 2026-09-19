@@ -1,0 +1,111 @@
+{
+  "name": "Hellcat",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 21,
+    "notes": "dex +5, dodge +1, natural +6, size -1",
+    "touch": 15,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 85,
+    "formula": "9d10+36"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 21,
+    "con": 19,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +10, Ref +13, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +17, Climb +17, Perception +18, Stealth +17, Survival +14, Swim +17",
+    "list": {
+      "Acrobatics": "+17",
+      "Climb": "+17",
+      "Perception": "+18",
+      "Stealth": "+17",
+      "Survival": "+14",
+      "Swim": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Infernal (can’t speak)",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Mobility"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (1d8+5), 2 claws +13 (1d6+5/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This eerie beast appears to be the animated skeleton of a huge fanged cat, its bones glowing with fire and seething with smoke.",
+  "meta": {
+    "cmb": "15 (+19 grapple)",
+    "cmd": "31 (35 vs. trip)",
+    "racialModifiers": [
+      "Perception 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

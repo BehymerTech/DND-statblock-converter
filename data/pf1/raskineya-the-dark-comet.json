@@ -1,0 +1,108 @@
+{
+  "name": "Raskineya, the Dark Comet",
+  "sourceSystem": "pf1",
+  "source": "Mythic Realms",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "mythic",
+  "alignment": "CE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 35,
+    "notes": "dex +1, natural +26, size -2",
+    "touch": 9,
+    "flatFooted": 34
+  },
+  "hp": {
+    "average": 260,
+    "formula": "16d12+156"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (good), other ['starflight'] ft."
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 12,
+    "con": 23,
+    "int": 20,
+    "wis": 17,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +16, Ref +11, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +17, Bluff +24, Fly +20, Intimidate +24, Knowledge (arcana) +24, Knowledge (planes) +24, Perception +22, Sense Motive +22, Spellcraft +24, Stealth +20, Use Magic Device +24",
+    "list": {
+      "Acrobatics": "+17",
+      "Bluff": "+24",
+      "Fly": "+20",
+      "Intimidate": "+24",
+      "Perception": "+22",
+      "Sense Motive": "+22",
+      "Spellcraft": "+24",
+      "Stealth": "+20",
+      "Use Magic Device": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "see in darkness"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Celestial",
+    "Draconic",
+    "Infernal"
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 16,
+  "feats": [
+    "Flyby Attack",
+    "Hover",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Iron Will",
+    "Multiattack",
+    "Weapon Focus (bite)",
+    "Wingover"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +26 (2d8+15/19-20 plus 2d6 obliteration plus grab), 2 claws +24 (2d6+10), tail slap +22 (2d6+15), 2 wings +22 (1d8+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This spined dragon has black scales that pulse with green light. Her tattered wings show a starscape that whirls in mad patterns.",
+  "meta": {
+    "race": "Female",
+    "class": "adult void dragon (see Pathfinder RPG Bestiary 4)",
+    "cmb": "28 (+32 grapple)",
+    "cmd": "37 (41 vs. grapple or trip)",
+    "racialModifiers": [
+      "Acrobatics 4",
+      "Stealth 8"
+    ]
+  }
+}

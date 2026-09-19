@@ -1,0 +1,103 @@
+{
+  "name": "Clockwork Spy",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Tiny",
+  "type": "construct",
+  "subtype": "clockwork",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 15,
+    "notes": "dex +1, dodge +2, size +2",
+    "touch": 15,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 5,
+    "formula": "1d10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 30 ft. (clumsy)"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 13,
+    "con": "None",
+    "int": "None",
+    "wis": 11,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +0, Ref +3, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +3, Fly -3, Stealth +11, Perception +0",
+    "list": {
+      "Climb": "+3",
+      "Fly": "-3",
+      "Stealth": "+11",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 10,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 1,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +3 (1d2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This tiny steel creature has one oversized eye, a spherical body, and several spiderlike legs of grinding metal.",
+  "meta": {
+    "cmb": "+0",
+    "cmd": 12,
+    "racialModifiers": [
+      "Climb 2",
+      "Stealth 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental (gemstone worth 50 gp)"
+      }
+    ]
+  }
+}

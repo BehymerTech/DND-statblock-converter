@@ -1,0 +1,105 @@
+{
+  "name": "NPC Daggermark Poisoner",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "gnome",
+  "alignment": "LE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 21,
+    "notes": "armor +5, dex +3, dodge +1, shield +1, size +1",
+    "touch": 15,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 60,
+    "formula": "5d8+3d8+21"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 16,
+    "con": 14,
+    "int": 14,
+    "wis": 8,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +6, Ref +9, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +14, Bluff +12, Craft (alchemy) +15, Craft (traps) +10, Disable Device +9, Disguise +7, Heal +3, Knowledge (local) +10, Perception +12, Sense Motive +7, Sleight of Hand +14, Stealth +18",
+    "list": {
+      "Acrobatics": "+14",
+      "Bluff": "+12",
+      "Disable Device": "+9",
+      "Disguise": "+7",
+      "Heal": "+3",
+      "Perception": "+12",
+      "Sense Motive": "+7",
+      "Sleight of Hand": "+14",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Common",
+    "Elven",
+    "Gnome",
+    "Hallit",
+    "Sylvan"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 5,
+  "feats": [
+    "Combat Expertise",
+    "Dodge",
+    "Improved Feint",
+    "Improved Initiative",
+    "Weapon Finesse",
+    "Weapon Focus (rapier)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 rapier +11 (1d4+2/18-20 plus poison)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +9 (1d3+1/19-20 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Gnome",
+    "class": "rogue (poisoner) 5, Daggermark poisoner 3",
+    "cmb": "+5",
+    "cmd": 19
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "name": "Gosreg",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 133.",
+  "size": "Medium",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 11",
+  "xp": null,
+  "ac": {
+    "value": 31,
+    "notes": ""
+  },
+  "hp": {
+    "average": 195,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 22,
+    "con": 16,
+    "int": 22,
+    "wis": 20,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +18, Ref +23, Will +22",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Deception__: +24 (1d20+24); __Diplomacy__: +22 (1d20+22); __Occultism__: +23 (1d20+23); __Society__: +19 (1d20+19); __Stealth__: +23 (1d20+23); ",
+    "list": {
+      "Deception": "+24",
+      "Diplomacy": "+22",
+      "Occultism": "+23",
+      "Society": "+19",
+      "Stealth": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, thoughtsense 60"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Undercommon; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Thoughtsense",
+      "text": "(divination, mental, occult); The gosreg senses a creature's mental essence as a precise sense with the listed range; it cannot sense mindless creatures with thoughtsense."
+    },
+    {
+      "name": "Unsettled Aura",
+      "text": "(aura, mental, occult); 30 feet. Gosregs project a field of discordant energy that unsettles the minds of thinking creatures. Any non-mindless creature within 30 feet of a gosreg takes a –1 status penalty to Will saves."
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, occult, polymorph, transmutation); The gosreg takes on the appearance of any Small or Medium humanoid. This doesn't change its Speed or its attack and damage modifiers with its Strikes, but it might change the damage type its Strikes deal (typically to bludgeoning)."
+    },
+    {
+      "name": "Mind Bolt",
+      "text": "⬺ (illusion, mental, occult); A gosreg concentrates its field of discordant mental energy and projects it into the mind of an enemy within 60 feet. The target takes 6d6 (6d6) mental damage (DC 30 basic Will save). On a critical failure, the creature is also confused for 1d4 (1d4) rounds."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +21 (finesse); Damage 2d10+7 (2d10+7) piercing plus 1d10 (1d10) mental"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +21 (agile, finesse); Damage 2d8+7 (2d8+7) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      6,
+      3,
+      6,
+      5,
+      7
+    ]
+  }
+}

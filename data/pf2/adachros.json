@@ -1,0 +1,115 @@
+{
+  "name": "Adachros",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 95.",
+  "size": "Large",
+  "type": "Astral",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 13",
+  "xp": null,
+  "ac": {
+    "value": 34,
+    "notes": ""
+  },
+  "hp": {
+    "average": 225,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 14,
+    "con": 20,
+    "int": 20,
+    "wis": 20,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +24, Ref +21, Will +26",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +25 (1d20+25); __Deception__: +25 (1d20+25); __Intimidation__: +27 (1d20+27); __Occultism__: +22 (1d20+22); ",
+    "list": {
+      "Athletics": "+25",
+      "Deception": "+25",
+      "Intimidation": "+27",
+      "Occultism": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "imprecise thoughtsense 120"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Daemonic",
+    "Infernal",
+    "Protean",
+    "Requian",
+    "Utopian; [[telepathy]] 120 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Thoughtsense",
+      "text": "(divination, mental, occult); The caulborn senses all non-mindless creatures at the listed range."
+    },
+    {
+      "name": "Self-Absorbed",
+      "text": "The adachros denies any version of reality but their own. If they begin their turn under an enchantment or illusion effect, they immediately attempt to counteract one such effect with a counteract modifier of +23, even if the effect prevents the adachros from acting."
+    },
+    {
+      "name": "Splinter Sycophant",
+      "text": "⬲ Trigger The adachros takes 25 or more bludgeoning, piercing, or slashing damage Effect The attack breaks off part of the adachros's body. This fragment reshapes and animates into an ioton with the minion trait under the adachros's control. The ioton sycophant can't move more than 120 feet from the adachros and crumbles after 1 minute. If the adachros gives it no other commands, the ioton sycophant spends its turn praising the adachros and affirming the adachros's infallibility; this grants the adachros 4d6 (4d6) temporary Hit Points that last for as long as the ioton sycophant exists, and a +1 status bonus to attack rolls, Perception checks, saving throws, and skill checks for 1 round."
+    },
+    {
+      "name": "Fatal Fantasia",
+      "text": "(illusion, mental); An adachros's melee and ranged Strikes gain the fatal d12 trait against any creature affected by the adachros's enchantment or illusion spells, including creatures in the area of a hallucinatory terrain that haven't disbelieved the effect."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +27 (agile, magical, versatile p); Damage 3d10+14 (3d10+14) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ psychic shard +27 (magical, range increment 60 feet); Damage 3d8+14 (3d8+14) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      2,
+      5,
+      5,
+      5,
+      8
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "name": "Banelight",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 27,
+    "notes": "dex +11, natural +6",
+    "touch": 21,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 168,
+    "formula": "16d6+112"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 100 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 32,
+    "con": 25,
+    "int": 21,
+    "wis": 22,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +14, Ref +21, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +30, Bluff +25, Escape Artist +30, Fly +38, Intimidate +22, Knowledge (nature) +24, Perception +25, Sense Motive +25, Spellcraft +21, Stealth +30, Use Magic Device +25",
+    "list": {
+      "Acrobatics": "+30",
+      "Bluff": "+25",
+      "Escape Artist": "+30",
+      "Fly": "+38",
+      "Intimidate": "+22",
+      "Perception": "+25",
+      "Sense Motive": "+25",
+      "Spellcraft": "+21",
+      "Stealth": "+30",
+      "Use Magic Device": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "low-light vision"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Aklo",
+    "Auran",
+    "Common",
+    "Draconic",
+    "Sylvan"
+  ],
+  "initiative": "+15",
+  "babOrProficiency": 8,
+  "feats": [
+    "Combat Reflexes",
+    "Defensive Combat Training",
+    "Great Fortitude",
+    "Improved Great Fortitude",
+    "Improved Initiative",
+    "Quicken Spell-Like Ability (wandering star motes)",
+    "Vital Strike",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 light vortices +19 touch (5d8)"
+    },
+    {
+      "name": "Ranged",
+      "text": "2 light vortices +19 touch (5d8)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature has a dragonfly’s body and a woman’s head and arms. A glowing red vortex gathers between her hands.",
+  "meta": {
+    "cmb": "+9",
+    "cmd": "38 (42 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or witchlight (3-10 plus 4-6 will-o’-wisps or lurkers in light)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

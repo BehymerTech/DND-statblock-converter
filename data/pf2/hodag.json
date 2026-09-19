@@ -1,0 +1,111 @@
+{
+  "name": "Hodag",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 145.",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 90,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, burrow 15 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 18,
+    "con": 20,
+    "int": 6,
+    "wis": 18,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +17, Ref +14, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +15 (1d20+15); __Stealth__: +14 (1d20+14), (Stealth: +16 (1d20+16) in forests); __Survival__: +12 (1d20+12); ",
+    "list": {
+      "Athletics": "+15",
+      "Stealth": "+16",
+      "Survival": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common (can't speak any language)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Trackless",
+      "text": "A hodag sweeps the ground behind it with its tail as it moves, obscuring its tracks. The DCs of checks to Track a hodag are increased by 10."
+    },
+    {
+      "name": "Ferocity",
+      "text": "⬲"
+    },
+    {
+      "name": "Rip and Tear",
+      "text": "⬺ The hodag makes two claw Strikes and one jaws Strike in any order."
+    },
+    {
+      "name": "Toss",
+      "text": "⬺ The hodag Strides, then makes a Strike against a target in reach. If it moves at least 20 feet and succeeds at its Strike, the hodag deals damage normally and then attempts an Athletics check against the creature's Fortitude DC to toss the enemy into the air. On a success, the tossed creature is thrown 10 feet in a straight line in the direction of the hodag's choice and then lands prone. If the creature is knocked into a solid object, it takes 1d6 (1d6) bludgeoning damage as well before landing prone. The hodag can instead toss a creature straight up in the air. The creature lands in the same square where it started, takes 1d6 (1d6) bludgeoning damage, and lands prone."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +17 Damage 2d8+8 (2d8+8) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +17 (agile); Damage 2d6+8 (2d6+8) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ spiked tail +17 (reach 10 feet, versatile p); Damage 2d6+8 (2d6+8) bludgeoning plus Knockdown"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      4,
+      5,
+      -2,
+      4,
+      0
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "name": "Gravitic Globe",
+  "sourceSystem": "pf1",
+  "source": "Tombs of Golarion",
+  "size": "Large",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 18,
+    "notes": "dex -1, natural +10, size -1",
+    "touch": 8,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 140,
+    "formula": "20d10+30"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 8,
+    "con": "None",
+    "int": "None",
+    "wis": 1,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +6, Ref +5, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "-1",
+  "babOrProficiency": 20,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +29 (3d6+15 plus burn)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This large, adamantine sphere is carved to resemble the surface of Golarion, and burns with magical flame.",
+  "meta": {
+    "cmb": "+31",
+    "cmd": "40 (can’t be tripped)"
+  }
+}

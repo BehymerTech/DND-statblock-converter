@@ -1,0 +1,107 @@
+{
+  "name": "Bearded Devil (Barbazu)",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 19,
+    "notes": "dex +2, natural +7",
+    "touch": 12,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 57,
+    "formula": "6d10+24"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 15,
+    "con": 19,
+    "int": 6,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +7, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +13, Intimidate +7, Perception +10, Sense Motive +6, Stealth +11",
+    "list": {
+      "Climb": "+13",
+      "Intimidate": "+7",
+      "Perception": "+10",
+      "Sense Motive": "+6",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 6,
+  "feats": [
+    "Improved Initiative",
+    "Power Attack",
+    "Weapon Focus (glaive)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "glaive +11/+6 melee (1d10+6 plus infernal wound)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This seething devil deftly wields a vicious, saw-toothed glaive, while below its toothy maw writhes a hideous, twitching beard.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": 22,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, squad (3-10), or troop (10-40)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (glaive, other treasure)"
+      }
+    ]
+  }
+}

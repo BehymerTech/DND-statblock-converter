@@ -1,0 +1,126 @@
+{
+  "name": "Dullahan",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 140.",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 28,
+    "notes": ""
+  },
+  "hp": {
+    "average": 95,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 14,
+    "con": 14,
+    "int": 14,
+    "wis": 16,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +13, Ref +15, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +15 (1d20+15); __Intimidation__: +17 (1d20+17); __Stealth__: +13 (1d20+13); __Survival__: +15 (1d20+15); ",
+    "list": {
+      "Athletics": "+15",
+      "Intimidation": "+17",
+      "Stealth": "+13",
+      "Survival": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "lifesense 60"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Necril"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 30 feet, DC 23."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "full plate, +1 hatchet, +1 longsword;"
+    },
+    {
+      "name": "Head Hunter",
+      "text": "Any slashing weapon a dullahan wields becomes keen, and any hatchet it wields becomes returning. If the dullahan kills a creature with a critical hit using a slashing weapon, the target is decapitated as though the dullahan had used Reap on the target. These effects remain only while the dullahan holds the weapon."
+    },
+    {
+      "name": "Reap",
+      "text": "⬺ The dullahan removes the head of a dead creature within reach. Each creature within the area of the dullahan's frightful presence must attempt a new save, even if they are temporarily immune."
+    },
+    {
+      "name": "Summon Steed",
+      "text": "⬺ (conjuration, occult); The dullahan summons a war horse with elite adjustments (page 6) and the fiend trait. This steed remains until it is slain, the dullahan Dismisses it, or the dullahan summons another steed."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ keen longsword +18 (magical, versatile p); Damage 1d8+10 (1d8+10) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ keen returning hatchet +17 (agile, sweep); Damage 1d6+10 (1d6+10) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +18 (agile, nonlethal); Damage 1d4+10 (1d4+10) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ keen returning hatchet +14 (agile, thrown 10 feet); Damage 2d8+10 (2d8+10) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      2,
+      2,
+      2,
+      3,
+      4
+    ],
+    "items": "full plate, +1 hatchet, +1 longsword;"
+  }
+}

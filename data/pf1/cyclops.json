@@ -1,0 +1,112 @@
+{
+  "name": "Cyclops",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "NE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 19,
+    "notes": "armor +4, dex -1, natural +7, size -1",
+    "touch": 8,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 65,
+    "formula": "10d8+20"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 8,
+    "con": 15,
+    "int": 10,
+    "wis": 13,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +9, Ref +2, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +9, Perception +11, Profession (soothsayer) +10, Sense Motive +5, Survival +6",
+    "list": {
+      "Intimidate": "+9",
+      "Perception": "+11",
+      "Sense Motive": "+5",
+      "Survival": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common",
+    "Cyclops",
+    "Giant"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 7,
+  "feats": [
+    "Alertness",
+    "Cleave",
+    "Great Cleave",
+    "Improved Bull Rush",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "greataxe +11/+6 (3d6+7/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "heavy crossbow +5 (2d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A single huge eye stares from the forehead of this nine-foot-tall giant. Below this sole orb, an even larger mouth gapes like a cave.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": 22,
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any temperate or tropical"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or conclave (2-6) or tribe (7-18)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (hide armor, Large greataxe, Large heavy crossbow, other treasure)"
+      }
+    ]
+  }
+}

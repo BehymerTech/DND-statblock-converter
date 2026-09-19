@@ -1,0 +1,111 @@
+{
+  "name": "Feranth",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 90: The Divinity Drive",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 29,
+    "notes": "dex -2, natural +23, size -2",
+    "touch": 6,
+    "flatFooted": 29
+  },
+  "hp": {
+    "average": 218,
+    "formula": "19d10+114"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., burrow 30 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 7,
+    "con": 20,
+    "int": 4,
+    "wis": 17,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +16, Ref +9, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Climb +15, Perception +16",
+    "list": {
+      "Acrobatics": "+10",
+      "Climb": "+15",
+      "Perception": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 26,
+  "languages": [],
+  "initiative": "-2",
+  "babOrProficiency": 19,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Great Cleave",
+    "Improved Bull Rush",
+    "Improved Iron Will",
+    "Iron Will",
+    "Power Attack",
+    "Run",
+    "Stunning Assault",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +25 (2d6+8), 2 claws +25 (1d8+8), gore +25 (2d6+8 plus push)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A droning hum announces the presence of this enormous horned beast. Powerful muscles ripple just beneath its mottled black hide.",
+  "meta": {
+    "cmb": "29 (+31 bull rush)",
+    "cmd": "37 (39 vs. bull rush, 41 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics 8",
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts or mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

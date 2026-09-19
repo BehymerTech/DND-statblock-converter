@@ -1,0 +1,137 @@
+{
+  "name": "Adult Green Dragon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 110.",
+  "size": "Huge",
+  "type": "Dragon",
+  "subtype": "Amphibious",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 12",
+  "xp": null,
+  "ac": {
+    "value": 34,
+    "notes": ""
+  },
+  "hp": {
+    "average": 215,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, fly 160 feet, swim 40 feet; trackless step, woodland stride;"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 16,
+    "int": 18,
+    "wis": 18,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +20, Ref +22, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +19 (1d20+19); __Arcana__: +22 (1d20+22); __Athletics__: +24 (1d20+24); __Deception__: +19 (1d20+19); __Diplomacy__: +23 (1d20+23); __Intimidation__: +23 (1d20+23); __Nature__: +20 (1d20+20); __Occultism__: +24 (1d20+24); __Society__: +22 (1d20+22); __Stealth__: +21 (1d20+21); ",
+    "list": {
+      "Acrobatics": "+19",
+      "Arcana": "+22",
+      "Athletics": "+24",
+      "Deception": "+19",
+      "Diplomacy": "+23",
+      "Intimidation": "+23",
+      "Nature": "+20",
+      "Occultism": "+24",
+      "Society": "+22",
+      "Stealth": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Elven",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 90 feet, DC 31."
+    },
+    {
+      "name": "Twisting Tail",
+      "text": "⬲ Trigger A creature within reach of the dragon's tail uses a move action or leaves a square during a move action it's using. Effect The dragon makes a tail Strike at the creature with a –2 penalty. If it hits, the dragon disrupts the creature's action."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (arcane, evocation, poison); The dragon breathes a toxic cloud that deals 13d6 (13d6) poison damage in a 50-foot cone (DC 31 basic Fortitude save). It can't use Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Draconic Frenzy",
+      "text": "⬺ The dragon makes two claw Strikes and one horn Strike in any order."
+    },
+    {
+      "name": "Draconic Momentum",
+      "text": "The dragon recharges its Breath Weapon whenever it scores a critical hit with a Strike."
+    },
+    {
+      "name": "Trackless Step",
+      "text": "The green dragon always gains the benefits of Cover Tracks in natural surroundings, even while moving at full speed."
+    },
+    {
+      "name": "Woodland Stride",
+      "text": "The green dragon ignores difficult terrain and greater difficult terrain from non-magical foliage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +26 (magical, poison, reach 15 feet); Damage 3d10+12 (3d10+12) piercing plus 3d4 (3d4) poison"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +26 (agile, magical, reach 10 feet); Damage 3d8+12 (3d8+12) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +24 (magical, reach 20 feet); Damage 3d8+10 (3d8+10) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ horn +24 (magical, reach 15 feet); Damage 2d8+10 (2d8+10) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      3,
+      3,
+      4,
+      4,
+      5
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Mute Hag",
+  "sourceSystem": "pf1",
+  "source": "The Harrowing",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "cold",
+  "alignment": "CE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 24,
+    "notes": "dex +5, natural +9",
+    "touch": 15,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 175,
+    "formula": "14d10+84"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 21,
+    "con": 22,
+    "int": 20,
+    "wis": 19,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +12, Ref +14, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +14, Craft (leather) +16, Diplomacy +18, Heal +12, Intimidate +21, Knowledge (arcana) +11, Knowledge (history) +19, Knowledge (local) +11, Knowledge (nature) +11, Perception +21, Sense Motive +18, Sleight of Hand +12, Spellcraft +16, Stealth +18",
+    "list": {
+      "Bluff": "+14",
+      "Diplomacy": "+18",
+      "Heal": "+12",
+      "Intimidate": "+21",
+      "Perception": "+21",
+      "Sense Motive": "+18",
+      "Sleight of Hand": "+12",
+      "Spellcraft": "+16",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "scent"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Draconic",
+    "Giant",
+    "Goblin",
+    "Sylvan (cannot speak)"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 14,
+  "feats": [
+    "Alertness",
+    "Blind-Fight",
+    "Combat Casting",
+    "Empower Spell-Like Ability (cone of cold)",
+    "Great Fortitude",
+    "Persuasive",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +20 (1d6+6 plus 1d4 bleed), bite +20 (1d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Empty eye sockets and jagged teeth punctuate the palpable hate that roils off this twisted, gray-skinned crone.",
+  "meta": {
+    "cmb": "+20",
+    "cmd": 35,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold plains, forests, and marshes"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or coven (3 hags of any kind)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

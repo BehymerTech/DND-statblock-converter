@@ -1,0 +1,95 @@
+{
+  "name": "Nothic",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "neutral evil",
+  "cr": "2",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "natural armor"
+  },
+  "hp": {
+    "average": 45,
+    "formula": "6d8 + 18"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 16,
+    "con": 16,
+    "int": 13,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Arcana +3, Insight +4, Perception +2, Stealth +5",
+    "list": {
+      "arcana": "+3",
+      "insight": "+4",
+      "perception": "+2",
+      "stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "truesight 120 ft."
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Keen Sight",
+      "text": "The nothic has advantage on Wisdom (Perception) checks that rely on sight."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The nothic makes two claw attacks."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
+    },
+    {
+      "name": "Rotting Gaze",
+      "text": "The nothic targets one creature it can see within 30 feet of it. The target must succeed on a DC 12 Constitution saving throw against this magic or take 10 (3d6) necrotic damage."
+    },
+    {
+      "name": "Weird Insight",
+      "text": "The nothic targets one creature it can see within 30 feet of it. The target must contest its Charisma (Deception) check against the nothic's Wisdom (Insight) check. If the nothic wins, it magically learns one fact or secret about the target. The target automatically wins if it is immune to being charmed."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

@@ -1,0 +1,117 @@
+{
+  "name": "Qaur-Ooung",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Colossal",
+  "type": "outsider",
+  "subtype": "aquatic, chaotic, evil, extraplanar, qlippoth",
+  "alignment": "CE",
+  "cr": "23",
+  "level": null,
+  "xp": 819200,
+  "ac": {
+    "value": 40,
+    "notes": "deflection +4, dex +8, natural +26, size -8",
+    "touch": 14,
+    "flatFooted": 32
+  },
+  "hp": {
+    "average": 481,
+    "formula": "26d10+338"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 60 ft. (good), swim 80 ft."
+  },
+  "abilities": {
+    "str": 44,
+    "dex": 27,
+    "con": 36,
+    "int": 21,
+    "wis": 23,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +32, Ref +27, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +44, Knowledge (arcana) +34, Knowledge (geography) +34, Knowledge (nature) +34, Knowledge (planes) +34, Knowledge (religion) +34, Perception +35, Sense Motive +35, Spellcraft +31, Stealth +21, Swim +54",
+    "list": {
+      "Fly": "+44",
+      "Perception": "+35",
+      "Sense Motive": "+35",
+      "Spellcraft": "+31",
+      "Stealth": "+21",
+      "Swim": "+54"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "detect law",
+    "true seeing"
+  ],
+  "passivePerception": 45,
+  "languages": [
+    "Abyssal",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 26,
+  "feats": [
+    "Awesome Blow",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Greater Vital Strike",
+    "Improved Bull Rush",
+    "Improved Critical (slam)",
+    "Improved Critical (tentacle)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Power Attack",
+    "Quicken Spell-Like Ability (heal)",
+    "Staggering Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +35 (6d6+17/19-20 plus poison), 6 tentacles +30 (2d8+8/19-20 plus grab and poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The sides of this tentacled monstrosity-part jellyfish, part mushroom forest-swell with opaque, pulsing blisters.",
+  "meta": {
+    "cmb": "51 (+53 bull rush)",
+    "cmd": "73 (75 vs. bull rush, can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

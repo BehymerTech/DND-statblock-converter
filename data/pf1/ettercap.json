@@ -1,0 +1,103 @@
+{
+  "name": "Ettercap",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex +3, natural +2",
+    "touch": 13,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d8+12"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 17,
+    "con": 17,
+    "int": 6,
+    "wis": 15,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +6, Ref +4, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +14, Craft (trapmaking) +8, Perception +9, Stealth +7",
+    "list": {
+      "Climb": "+14",
+      "Perception": "+9",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 3,
+  "feats": [
+    "Great Fortitude",
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +5 (1d6+2 plus poison), 2 claws +5 (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hideous purple creature walks upright like a man, but its face is that of a spider, and its hands are sickle-shaped claws.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": 18,
+    "racialModifiers": [
+      "Craft (trapmaking) 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or nest (3-6 plus 2-8 giant spiders)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

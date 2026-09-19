@@ -1,0 +1,111 @@
+{
+  "name": "Meladaemon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 59.",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "Daemon",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 11",
+  "xp": null,
+  "ac": {
+    "value": 31,
+    "notes": ""
+  },
+  "hp": {
+    "average": 225,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 50 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 20,
+    "con": 22,
+    "int": 16,
+    "wis": 18,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +23, Ref +20, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +20 (1d20+20); __Deception__: +23 (1d20+23); __Intimidation__: +23 (1d20+23); __Religion__: +20 (1d20+20); __Stealth__: +23 (1d20+23); __Survival__: +19 (1d20+19); ",
+    "list": {
+      "Acrobatics": "+20",
+      "Deception": "+23",
+      "Intimidation": "+23",
+      "Religion": "+20",
+      "Stealth": "+23",
+      "Survival": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise lifesense 30"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Common",
+    "Daemonic; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Consumptive Aura",
+      "text": "(aura, divine); 20 feet. A meladaemon emanates an aura of intense hunger. Each round a creature begins its turn in the aura, it must attempt a DC 27 Fortitude save. On a failure, the creature takes 1d6 (1d6) negative damage (2d6 (2d6) on a critical failure) and becomes fatigued. This fatigue ends as soon as the creature eats any food."
+    },
+    {
+      "name": "Withering Opportunity",
+      "text": "⬲ Trigger The meladaemon is attacked by an adjacent creature and the attack misses Effect The meladaemon swipes at the triggering creature, which must immediately attempt a save against the meladaemon's withering touch."
+    },
+    {
+      "name": "Daemonic Famine",
+      "text": "(disease); Saving Throw DC 29 Fortitude. Stage 1 carrier (1 day) Stage 2 enfeebled 1 (1 day) Stage 3 enfeebled 2 (1 day) Stage 4 as stage 3 (null) Stage 5 enfeebled 3 (1 week)"
+    },
+    {
+      "name": "Withering Touch",
+      "text": "(divine, evil, necromancy); When the meladaemon hits with a claw Strike or a creature begins its turn grabbed by the meladaemon, the creature must attempt a DC 30 Fortitude save. On a failure, the creature takes 1d6 (1d6) negative damage and becomes fatigued. This fatigue ends when the creature drinks."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ bite +24 (evil, magical, reach 10 feet); Damage 2d12+13 (2d12+13) plus 1d6 (1d6) evil and daemonic famine"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +24 (agile, evil, magical, reach 10 feet); Damage 2d8+13 (2d8+13) slashing plus 1d6 (1d6) evil, Grab, and withering touch"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      5,
+      6,
+      3,
+      4,
+      6
+    ]
+  }
+}

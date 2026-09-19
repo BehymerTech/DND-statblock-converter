@@ -1,0 +1,104 @@
+{
+  "name": "Duppy",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Isles of the Shackles",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "incorporeal",
+  "alignment": "CE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "deflection +4, dex +6",
+    "touch": 20,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 76,
+    "formula": "9d8+36"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 40 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 22,
+    "con": "None",
+    "int": 13,
+    "wis": 15,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +7, Ref +11, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +26, Intimidate +16, Perception +14, Sense Motive +14, Stealth +18",
+    "list": {
+      "Fly": "+26",
+      "Intimidate": "+16",
+      "Perception": "+14",
+      "Sense Motive": "+14",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 6,
+  "feats": [
+    "Flyby Attack",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Lunge",
+    "Step Up"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "incorporeal touch +12 (2d8 negative energy plus 1d6 Strength drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This floating, ghostly humanoid’s face is a blend of human and beast. Canine shapes twine around the creature’s legs.",
+  "meta": {
+    "cmb": "+12",
+    "cmd": 26,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm coastlines"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

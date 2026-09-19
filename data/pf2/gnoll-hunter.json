@@ -1,0 +1,110 @@
+{
+  "name": "Gnoll Hunter",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 178.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Gnoll",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 29,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 14,
+    "int": 8,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +7, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Athletics__: +8 (1d20+8); __Intimidation__: +4 (1d20+4); __Stealth__: +7 (1d20+7); __Survival__: +5 (1d20+5); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Athletics": "+8",
+      "Intimidation": "+4",
+      "Stealth": "+7",
+      "Survival": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Gnoll"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Pack Attack",
+      "text": "A gnoll hunter deals 1d4 (1d4) extra damage to any creature that's within reach of at least two of the gnoll hunter's allies."
+    },
+    {
+      "name": "Rugged Travel",
+      "text": "A gnoll ignores the first square of difficult terrain it moves into each time it Steps or Strides."
+    },
+    {
+      "name": "Items",
+      "text": "battle axe, leather armor, shortbow (20 arrows);"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ battle axe +10 (sweep); Damage 1d8+4 (1d8+4) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +10 (agile); Damage 1d8+2 (1d8+2) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ shortbow +10 (deadly 1d10, range increment 60 feet); Damage 1d6 (1d6) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      3,
+      2,
+      -1,
+      1,
+      0
+    ],
+    "items": "battle axe, leather armor, shortbow (20 arrows);"
+  }
+}

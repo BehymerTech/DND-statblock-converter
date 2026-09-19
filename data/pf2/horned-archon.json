@@ -1,0 +1,116 @@
+{
+  "name": "Horned Archon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 27.",
+  "size": "Medium",
+  "type": "Celestial",
+  "subtype": "Archon",
+  "alignment": "LG",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 65,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 18,
+    "con": 16,
+    "int": 12,
+    "wis": 16,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +11, Ref +10, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +12 (1d20+12); __Nature__: +11 (1d20+11); __Religion__: +9 (1d20+9); __Stealth__: +10 (1d20+10); __Survival__: +11 (1d20+11), (Survival: +15 (1d20+15) to Track); ",
+    "list": {
+      "Acrobatics": "+12",
+      "Nature": "+11",
+      "Religion": "+9",
+      "Stealth": "+10",
+      "Survival": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal; tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Menacing Guardian",
+      "text": "(aura, divine, enchantment); 30 feet. Enemies that start their turn in the area or enter it must attempt a DC 19 Will save. On a failure, they take a –1 status penalty to attack rolls, spell rolls, and damage rolls against any other target while in the aura for 24 hours or until they damage the archon, whichever comes first. On a critical failure, they can't use hostile actions against any other target while in the area for 24 hours or until they damage the archon, whichever comes first. Regardless of the result, a creature is then temporarily immune to further menacing guardian auras for 24 hours."
+    },
+    {
+      "name": "Retributive Strike",
+      "text": "⬲ A horned archon can also make a Retributive Strike with its composite longbow."
+    },
+    {
+      "name": "Items",
+      "text": "composite longbow (20 arrows);"
+    },
+    {
+      "name": "Archon's Door",
+      "text": "Once per day, if an archon sees another creature cast dimension door, it can cast an innate dimension door (heightened to 5th level) within 1 round to attempt to follow that creature to the maximum distance of the archon's dimension door. If the archon's dimension door has enough distance, the archon appears the same distance and direction from the creature as before either used dimension door."
+    },
+    {
+      "name": "Touch of Charity",
+      "text": "⬻ (healing, manipulate, necromancy); A horned archon can touch another creature to take on that creature's wounds, transferring up to 30 of the horned archon's HP to the touched creature. The horned archon can't transfer more HP than it currently has."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ horn +11 (magical); Damage 2d8+3 (2d8+3) piercing plus 1d6 (1d6) good and Push"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ composite longbow +14 (deadly 1d10, magical, range increment 100 feet, reload 0, volley); Damage 1d8+4 (1d8+4) piercing plus 1d6 (1d6) good"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      4,
+      3,
+      1,
+      3,
+      1
+    ],
+    "items": "composite longbow (20 arrows);"
+  }
+}

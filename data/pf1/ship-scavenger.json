@@ -1,0 +1,103 @@
+{
+  "name": "Ship Scavenger",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 17,
+    "notes": "armor +4, dex +2, shield +1",
+    "touch": 12,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 51,
+    "formula": "6d10+18"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 15,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +7, Ref +7, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +8, Handle Animal +8, Knowledge (engineering) +6, Knowledge (nature) +9, Perception +9, Stealth +10, Survival +10, Swim +17",
+    "list": {
+      "Climb": "+8",
+      "Handle Animal": "+8",
+      "Perception": "+9",
+      "Stealth": "+10",
+      "Survival": "+10",
+      "Swim": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 19,
+  "languages": [
+    "Aboleth",
+    "Common"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 6,
+  "feats": [
+    "Athletic",
+    "Endurance",
+    "Quick Draw",
+    "Two-Weapon Defense",
+    "Two-Weapon Fighting",
+    "Weapon Focus (shortspear)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 shortspear +8/+3 (1d6+3), mwk short sword +7 (1d6+2/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "shortspear +9/+4 (1d6+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This gillman’s lean, athletic frame speaks to a life of hard work, but his keen eyes and appraising smirk suggest a sharp mind and daring nature.",
+  "meta": {
+    "race": "Gillman",
+    "class": "ranger 6 (Pathfinder RPG Advanced Race Guide 188)",
+    "cmb": "+8",
+    "cmd": 20,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate ocean"
+      }
+    ]
+  }
+}

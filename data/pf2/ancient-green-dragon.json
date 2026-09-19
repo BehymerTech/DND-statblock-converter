@@ -1,0 +1,147 @@
+{
+  "name": "Ancient Green Dragon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 110.",
+  "size": "Gargantuan",
+  "type": "Dragon",
+  "subtype": "Amphibious",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 17",
+  "xp": null,
+  "ac": {
+    "value": 41,
+    "notes": ""
+  },
+  "hp": {
+    "average": 315,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 feet, fly 200 feet, swim 50 feet; trackless step, woodland stride;"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 18,
+    "con": 20,
+    "int": 22,
+    "wis": 20,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +30, Ref +29, Will +32",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +25 (1d20+25); __Arcana__: +32 (1d20+32); __Athletics__: +30 (1d20+30); __Deception__: +27 (1d20+27); __Diplomacy__: +31 (1d20+31); __Intimidation__: +31 (1d20+31); __Nature__: +28 (1d20+28); __Occultism__: +34 (1d20+34); __Society__: +31 (1d20+31); __Stealth__: +29 (1d20+29); ",
+    "list": {
+      "Acrobatics": "+25",
+      "Arcana": "+32",
+      "Athletics": "+30",
+      "Deception": "+27",
+      "Diplomacy": "+31",
+      "Intimidation": "+31",
+      "Nature": "+28",
+      "Occultism": "+34",
+      "Society": "+31",
+      "Stealth": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Draconic",
+    "Elven",
+    "Jotun",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Camouflage",
+      "text": "The dragon can Hide in natural environments even if it doesn't have cover."
+    },
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 90 feet, DC 37."
+    },
+    {
+      "name": "Miasma",
+      "text": "(aura, poison); 20 feet. After the dragon uses its Breath Weapon, a cloud of poison gas continues to emanate from its body for 1 round. Any creature that ends its turn in the miasma takes 4d6 (4d6) poison damage (DC 37 basic Fortitude save). Any creature in the miasma is concealed and treats other creatures as concealed. The dragon can see through this concealment."
+    },
+    {
+      "name": "Twisting Tail",
+      "text": "⬲ Trigger A creature within reach of the dragon's tail uses a move action or leaves a square during a move action it's using. Effect The dragon makes a tail Strike at the creature with a –2 penalty. If it hits, the dragon disrupts the creature's action."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (arcane, evocation, poison); The dragon breathes a toxic cloud that deals 18d6 (18d6) poison damage in a 60-foot cone (DC 37 basic Fortitude save). The Breath Weapon also creates a miasma. The dragon can't use Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Draconic Frenzy",
+      "text": "⬺ The dragon makes two claw Strikes and one horn Strike in any order."
+    },
+    {
+      "name": "Draconic Momentum",
+      "text": "The dragon recharges its Breath Weapon whenever it scores a critical hit with a Strike."
+    },
+    {
+      "name": "Trackless Step",
+      "text": "The green dragon always gains the benefits of Cover Tracks in natural surroundings, even while moving at full speed."
+    },
+    {
+      "name": "Woodland Stride",
+      "text": "The green dragon ignores difficult terrain and greater difficult terrain from non-magical foliage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +33 (magical, poison, reach 20 feet); Damage 3d12+15 (3d12+15) piercing plus 4d4 (4d4) poison"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +33 (agile, magical, reach 15 feet); Damage 3d10+15 (3d10+15) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +31 (magical, reach 25 feet); Damage 3d10+13 (3d10+13) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ horn +31 (magical, reach 20 feet); Damage 2d10+13 (2d10+13) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      4,
+      5,
+      6,
+      5,
+      6
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Leviathan",
+  "sourceSystem": "pf1",
+  "source": "Planar Adventures",
+  "size": "Colossal",
+  "type": "magical beast",
+  "subtype": "water",
+  "alignment": "N",
+  "cr": "30",
+  "level": null,
+  "xp": 9830400,
+  "ac": {
+    "value": 48,
+    "notes": "dex +11, natural +35, size -8",
+    "touch": 13,
+    "flatFooted": 37
+  },
+  "hp": {
+    "average": 765,
+    "formula": "34d10+578"
+  },
+  "speed": {
+    "walk": 100,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 100 ft. (poor), swim 200 ft."
+  },
+  "abilities": {
+    "str": 50,
+    "dex": 33,
+    "con": 44,
+    "int": 15,
+    "wis": 32,
+    "cha": 31
+  },
+  "saves": {
+    "text": "Fort +36, Ref +30, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +36, Perception +48, Sense Motive +45, Swim +65",
+    "list": {
+      "Fly": "+36",
+      "Perception": "+48",
+      "Sense Motive": "+45",
+      "Swim": "+65"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent",
+    "see in darkness",
+    "true seeing"
+  ],
+  "passivePerception": 58,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+15",
+  "babOrProficiency": 34,
+  "feats": [
+    "Combat Reflexes",
+    "Critical Focus",
+    "Greater Bull Rush",
+    "Greater Vital Strike",
+    "Hover",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Critical (slam)",
+    "Improved Critical (tail slap)",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Power Attack",
+    "Staggering Critical",
+    "Vital Strike",
+    "Wingover"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +46 (10d8+30/19-20 plus disjoining bite and grab), slam +46 (10d6+30/19-20), tail slap +41 (6d10+30/19-20 plus dimensional vortex)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This impossibly enormous, whalelike monstrosity glares with a hundred red eyes, its cavernous maw lined with rows of sharp teeth.",
+  "meta": {
+    "cmb": "62 (+66 bull rush)",
+    "cmd": "83 (85 vs. bull rush, can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans (First World)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple (consists of swallowed treasure)"
+      }
+    ]
+  }
+}

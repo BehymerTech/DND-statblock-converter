@@ -1,0 +1,93 @@
+{
+  "name": "NPC Master of Undeath",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "NE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 22,
+    "notes": "armor +9, deflection +1, dex +1, natural +1",
+    "touch": 12,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 146,
+    "formula": "15d8+75"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 12,
+    "con": 18,
+    "int": 10,
+    "wis": 24,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +14, Ref +7, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +5, Intimidate +5, Knowledge (local) +6, Knowledge (religion) +9, Perception +20, Spellcraft +11",
+    "list": {
+      "Bluff": "+5",
+      "Intimidate": "+5",
+      "Perception": "+20",
+      "Spellcraft": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 30,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 11,
+  "feats": [
+    "Combat Casting",
+    "Command Undead",
+    "Critical Focus",
+    "Extra Channel",
+    "Improved Channel",
+    "Improved Critical (scythe)",
+    "Improved Initiative",
+    "Spell Focus (evocation)",
+    "Weapon Focus (scythe)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+3 scythe +17/+12/+7 (2d4+6/19-20/×4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "cleric of Urgathoa 15",
+    "cmb": "+13",
+    "cmd": 25
+  }
+}

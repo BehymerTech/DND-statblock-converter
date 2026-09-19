@@ -1,0 +1,126 @@
+{
+  "name": "Ragathiel",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "angel, extraplanar, good, lawful",
+  "alignment": "LG",
+  "cr": "26",
+  "level": null,
+  "xp": 2457600,
+  "ac": {
+    "value": 44,
+    "notes": "armor +14, deflection +4, dex +9, sacred +9, size -2",
+    "touch": 30,
+    "flatFooted": 35
+  },
+  "hp": {
+    "average": 604,
+    "formula": "31d10+434"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 90 ft. (good)"
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 28,
+    "con": 39,
+    "int": 23,
+    "wis": 22,
+    "cha": 29
+  },
+  "saves": {
+    "text": "Fort +35, Ref +23, Will +27",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +40, Bluff +43, Fly +43, Intimidate +54, Knowledge (nobility) +37, Knowledge (planes) +40, Knowledge (religion) +40, Perception +40, Ride +40, Sense Motive +40, Stealth +35, Survival +40",
+    "list": {
+      "Acrobatics": "+40",
+      "Bluff": "+43",
+      "Fly": "+43",
+      "Intimidate": "+54",
+      "Perception": "+40",
+      "Ride": "+40",
+      "Sense Motive": "+40",
+      "Stealth": "+35",
+      "Survival": "+40"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "detect evil",
+    "low-light vision",
+    "true seeing"
+  ],
+  "passivePerception": 50,
+  "languages": [
+    "Celestial",
+    "Infernal",
+    "telepathy 300 ft.",
+    "truespeech"
+  ],
+  "initiative": "+13",
+  "babOrProficiency": 31,
+  "feats": [
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dazzling Display",
+    "Greater Spell Penetration",
+    "Greater Sunder",
+    "Improved Critical (bastard sword)",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Intimidating Prowess",
+    "Power Attack",
+    "Quicken Spell-Like Ability (blade barrier)",
+    "Shatter Defenses",
+    "Stand Still",
+    "Spell Penetration",
+    "Staggering Critical",
+    "Weapon Focus (bastard sword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+5 evil-outsider-bane flaming burst holy bastard sword +46/+41/+36/+31 (3d8+21/17-20), 5 wings +35 (1d8+5 plus 1d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering angelic general has five wings of fire, a flaming bastard sword, and resplendent golden armor.",
+  "meta": {
+    "cmb": "44 (+48 sunder)",
+    "cmd": "76 (78 vs. sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Heaven)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple (+5 evil-outsider-bane flaming burst holy bastard sword, +5 full plate, other treasure)"
+      }
+    ]
+  }
+}

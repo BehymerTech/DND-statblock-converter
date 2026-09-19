@@ -1,0 +1,117 @@
+{
+  "name": "Seraptis",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Book of the Damned - Volume 2: Lords of Chaos",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 30,
+    "notes": "deflection +4, dex +6, natural +10",
+    "touch": 20,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 217,
+    "formula": "15d10+135"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 23,
+    "con": 28,
+    "int": 16,
+    "wis": 19,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +22, Ref +15, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +24, Bluff +23, Fly +24, Intimidate +23, Knowledge (planes) +21, Knowledge (religion) +21, Perception +30, Sense Motive +22, Stealth +24",
+    "list": {
+      "Acrobatics": "+24",
+      "Bluff": "+23",
+      "Fly": "+24",
+      "Intimidate": "+23",
+      "Perception": "+30",
+      "Sense Motive": "+22",
+      "Stealth": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "deathwatch",
+    "true seeing"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Draconic",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 15,
+  "feats": [
+    "Bleeding Critical",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Improved Critical (scimitar)",
+    "Improved Initiative",
+    "Multiattack",
+    "Power Attack",
+    "Weapon Focus (scimitar)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+3 wounding scimitar +27/+22/+17 (1d6+11/15-20), 3 claws +21 (1d6+4 plus grab), gore +21 (2d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This woman’s flesh is pale and clammy, as if her body had been drained of blood from the fanged slashes on her four arms.",
+  "meta": {
+    "cmb": "21 (+25 grapple)",
+    "cmd": 41,
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or cult (1 plus 2-6 succubi)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+3 wounding scimitar, other)"
+      }
+    ]
+  }
+}

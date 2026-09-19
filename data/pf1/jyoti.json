@@ -1,0 +1,120 @@
+{
+  "name": "Jyoti",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "extraplanar",
+  "alignment": "N",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 24,
+    "notes": "armor +4, dex +5, dodge +1, natural +4",
+    "touch": 16,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 104,
+    "formula": "11d10+44"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 90 ft. (good)"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 20,
+    "con": 19,
+    "int": 12,
+    "wis": 15,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +11, Ref +8, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +9, Heal +16, Intimidate +16, Knowledge (planes) +19, Knowledge (religion) +19, Perception +20, Sense Motive +16, Stealth +19",
+    "list": {
+      "Fly": "+9",
+      "Heal": "+16",
+      "Intimidate": "+16",
+      "Perception": "+20",
+      "Sense Motive": "+16",
+      "Stealth": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Aquan",
+    "Auran",
+    "Common",
+    "Ignan",
+    "Terran"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 11,
+  "feats": [
+    "Combat Casting",
+    "Dodge",
+    "Flyby Attack",
+    "Iron Will",
+    "Mobility",
+    "Wind Stance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 ghost touch spear +14/+9/+4 (1d8+4/×3 plus 1d6 fire), bite +8 (1d6+1 plus 1d6 fire)"
+    },
+    {
+      "name": "Ranged",
+      "text": "ray +16 ranged touch (by spell)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This phoenix-like humanoid is surrounded by a halo of radiant energy. Its spear is tipped with a carved crystal blade.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": 29,
+    "racialModifiers": [
+      "Knowledge (planes) 4",
+      "Knowledge (religion) 4",
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Positive Energy Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or flight (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+1 ghost touch spear, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "name": "Vrock",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 22,
+    "notes": "dex +2, natural +11, size -1",
+    "touch": 11,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 112,
+    "formula": "9d10+63"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 50 ft. (average)"
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 15,
+    "con": 25,
+    "int": 14,
+    "wis": 16,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +13, Ref +10, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +12, Intimidate +15, Knowledge (planes) +14, Perception +23, Sense Motive +15, Spellcraft +14, Stealth +10, Survival +15",
+    "list": {
+      "Fly": "+12",
+      "Intimidate": "+15",
+      "Perception": "+23",
+      "Sense Motive": "+15",
+      "Spellcraft": "+14",
+      "Stealth": "+10",
+      "Survival": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 9,
+  "feats": [
+    "Cleave",
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +13 (2d6+5), bite +13 (1d8+5), 2 talons +13 (1d6+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A cloud of spores and a trail of feathers surrounds this twisted cross between a man and a gigantic vulture.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": 27,
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

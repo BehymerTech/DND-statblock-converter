@@ -1,0 +1,118 @@
+{
+  "name": "Pukwudgie",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 208.",
+  "size": "Small",
+  "type": "Fey",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 100,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 22,
+    "con": 16,
+    "int": 18,
+    "wis": 22,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +12, Ref +15, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Crafting__: +15 (1d20+15); __Deception__: +14 (1d20+14); __Medicine__: +15 (1d20+15); __Nature__: +17 (1d20+17); __Stealth__: +17 (1d20+17); __Thievery__: +15 (1d20+15); ",
+    "list": {
+      "Crafting": "+15",
+      "Deception": "+14",
+      "Medicine": "+15",
+      "Nature": "+17",
+      "Stealth": "+17",
+      "Thievery": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Common",
+    "Elven",
+    "Gnomish",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Defensive Quills",
+      "text": "A creature that hits a pukwudgie with an unarmed Strike or a non-reach melee Strike takes 3d8 (3d8) piercing damage (basic Reflex save). On a critical failure, the creature also takes 1d6 (1d6) persistent poison damage from the poisoned quills."
+    },
+    {
+      "name": "Items",
+      "text": "+1 hatchet, shortbow;"
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, polymorph, primal, transmutation); The pukwudgie takes on the physical form of a giant porcupine (page 207). Their size changes to Medium, they lose their weapon Strikes, and they gain a quill Strike (+18 for 2d8+6 (2d8+6) piercing plus 1d8 (1d8) persistent poison)."
+    },
+    {
+      "name": "Pukwudgie Poison",
+      "text": "(poison); Saving Throw DC 25 Fortitude. Maximum Duration 6 rounds Stage 1 1d6 (1d6) poison damage and stupefied 1 (1 round) Stage 2 1d6 (1d6) poison damage and stupefied 2 (1 round) Stage 3 1d6 (1d6) poison damage, confused, and stupefied 2 (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ hatchet +17 (agile, magical, sweep); Damage 1d6+10 (1d6+10) slashing plus pukwudgie poison"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ hatchet +19 (magical, thrown 10 feet); Damage 1d6+10 (1d6+10) slashing plus pukwudgie poison"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ shortbow +18 (deadly d10, range increment 60 feet); Damage 1d6+6 (1d6+6) piercing plus pukwudgie poison"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      6,
+      3,
+      4,
+      6,
+      3
+    ],
+    "items": "+1 hatchet, shortbow;"
+  }
+}

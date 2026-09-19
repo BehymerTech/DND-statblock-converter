@@ -1,0 +1,113 @@
+{
+  "name": "Hill Giant",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 170.",
+  "size": "Large",
+  "type": "Humanoid",
+  "subtype": "Earth, Giant",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 140,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 10,
+    "con": 18,
+    "int": 6,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +17, Ref +12, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +19 (1d20+19); __Intimidation__: +11 (1d20+11); ",
+    "list": {
+      "Athletics": "+19",
+      "Intimidation": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 23,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Language Common, Jotun",
+      "text": "Skills Athletics +19, Intimidation +11 Str +6, Dex +0, Con +4, Int –2, Wis +2, Cha +0 Items greatclub, hide armor, sack with 5 rocks."
+    },
+    {
+      "name": "Items",
+      "text": "greatclub, hide armor, sack with 5 rocks;"
+    },
+    {
+      "name": "Catch Rock",
+      "text": "⬲"
+    },
+    {
+      "name": "Throw Rock",
+      "text": "⬻"
+    },
+    {
+      "name": "Wide Swing",
+      "text": "⬻ The hill giant makes a single greatclub Strike and compares the attack roll result to the ACs of up to two foes within its reach. This counts as two attacks for the hill giant's multiple attack penalty."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ greatclub +19 (backswing, reach 10 feet, shove); Damage 1d10+14 (1d10+14) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +19 (agile, reach 10 feet); Damage 1d6+4 (1d6+4) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ rock +19 (brutal, range increment 120 feet); Damage 1d8+14 (1d8+14) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      0,
+      4,
+      -2,
+      2,
+      0
+    ],
+    "items": "greatclub, hide armor, sack with 5 rocks;"
+  }
+}

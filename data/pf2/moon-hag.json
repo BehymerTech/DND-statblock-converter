@@ -1,0 +1,111 @@
+{
+  "name": "Moon Hag",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 131.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Fiend, Hag",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 29,
+    "notes": ""
+  },
+  "hp": {
+    "average": 190,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 20,
+    "con": 16,
+    "int": 20,
+    "wis": 22,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +17, Ref +19, Will +22",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Deception__: +19 (1d20+19); __Intimidation__: +17 (1d20+17); __Occultism__: +19 (1d20+19); __Religion__: +22 (1d20+22); __Boneyard lore__: +21 (1d20+21); ",
+    "list": {
+      "Deception": "+19",
+      "Intimidation": "+17",
+      "Occultism": "+19",
+      "Religion": "+22",
+      "Boneyard lore": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Coven",
+      "text": "A moon hag adds plane shift, scrying, and spirit blast to her coven's spells."
+    },
+    {
+      "name": "Ferocity",
+      "text": "⬲"
+    },
+    {
+      "name": "Moonlight's Kiss",
+      "text": "A moon hag in an area illuminated by moonlight gains a +2 status bonus to AC and initiative rolls. In the light of a full moon, she is quickened, and can use the extra action only to Stride or Strike."
+    },
+    {
+      "name": "Dreadful Prediction",
+      "text": "⬻ (curse, enchantment, occult, mental); Frequency once per round; The moon hag howls a series of dreadful, apocalyptic predictions at a single creature within 30 feet, shattering its perceptions of reality. The target must succeed at a DC 29 Will save or become stupefied 2 (stupefied 3 on a critical failure); regardless of the outcome, the creature is then temporarily immune for 24 hours. A creature that can see the moon takes a –2 circumstance penalty to saving throws against Dreadful Prediction. The stupefied condition from Dreadful Prediction persists until the curse is removed."
+    },
+    {
+      "name": "Rend",
+      "text": "⬻ (claw); (page 306)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +23 (agile, magical); Damage 2d12+10 (2d12+10) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      5,
+      3,
+      5,
+      6,
+      3
+    ]
+  }
+}

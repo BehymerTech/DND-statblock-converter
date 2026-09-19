@@ -1,0 +1,108 @@
+{
+  "name": "Ahuizotl",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Pathfinder No. 34: Blood for Blood",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "NE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex +3, natural +7, size -1",
+    "touch": 12,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 68,
+    "formula": "8d10+24"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 50 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 17,
+    "con": 17,
+    "int": 9,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +9, Ref +9, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +9, Stealth +9, Swim +20, Perception +2",
+    "list": {
+      "Bluff": "+9",
+      "Stealth": "+9",
+      "Swim": "+20",
+      "Perception": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 8,
+  "feats": [
+    "Blinding Critical",
+    "Combat Reflexes",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Skill Focus (Stealth)",
+    "Stand Still"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +12 (2d6+5), claw +12 (1d8+5/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This bear-sized beast has a body like a squat simian, a dog’s face, and a long tail that ends in a clawed hand.",
+  "meta": {
+    "cmb": "14 (+18 grapple)",
+    "cmd": "27 (31 vs. trip)",
+    "racialModifiers": [
+      "Bluff 6"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm lakes, rivers, or swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

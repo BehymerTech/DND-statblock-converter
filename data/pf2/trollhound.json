@@ -1,0 +1,94 @@
+{
+  "name": "Trollhound",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 268.",
+  "size": "Medium",
+  "type": "Troll",
+  "subtype": "Beast",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 65,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 20,
+    "int": 2,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +14, Ref +8, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +6 (1d20+6); __Athletics__: +11 (1d20+11); __Stealth__: +8 (1d20+8); __Survival__: +6 (1d20+6); ",
+    "list": {
+      "Acrobatics": "+6",
+      "Athletics": "+11",
+      "Stealth": "+8",
+      "Survival": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Bloodfire Fever",
+      "text": "(disease); Saving Throw DC 18 Fortitude. Stage 1 carrier with no ill effect (1 day) Stage 2 enfeebled 1 (1 day) Stage 3 enfeebled 1 and clumsy 1 (1 day) Stage 4 enfeebled 2 and clumsy 2 (1 day) Stage 5 enfeebled 2, clumsy 2, and fatigued (1 day)"
+    },
+    {
+      "name": "Pack Attack",
+      "text": "The trollhound deals an extra 1d6 (1d6) damage to any creature within reach of at least two of the trollhound's allies."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +11 Damage 1d12+4 (1d12+4) piercing plus Knockdown and bloodfire fever"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      1,
+      5,
+      -4,
+      1,
+      -2
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Crawling Hand",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Diminutive",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 14,
+    "notes": "size +4",
+    "touch": 14,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 9,
+    "formula": "1d8+5"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 40 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 11,
+    "con": "None",
+    "int": 2,
+    "wis": 11,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +2, Ref +0, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +9, Perception +4, Stealth +12, Survival +4",
+    "list": {
+      "Climb": "+9",
+      "Perception": "+4",
+      "Stealth": "+12",
+      "Survival": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Common (can’t speak)"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 0,
+  "feats": [
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "claw +5 (1d1+1 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "With a jolt, this severed hand springs to life, its fingers propelling it forth at great speed like a deformed spider.",
+  "meta": {
+    "cmb": "-4 (+0 grapple)",
+    "cmd": 7,
+    "racialModifiers": [
+      "Survival 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or gang (2-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

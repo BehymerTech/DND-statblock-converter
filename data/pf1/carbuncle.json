@@ -1,0 +1,103 @@
+{
+  "name": "Carbuncle",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Pathfinder No. 31: Stolen Land",
+  "size": "Tiny",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 12,
+    "notes": "dex -2, natural +2, size +2",
+    "touch": 10,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 13,
+    "formula": "2d10+2"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 5,
+    "dex": 7,
+    "con": 12,
+    "int": 6,
+    "wis": 13,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +4, Ref +1, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Stealth +10, Survival +2, Perception +1",
+    "list": {
+      "Stealth": "+10",
+      "Survival": "+2",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 11,
+  "languages": [
+    "empath 30 ft."
+  ],
+  "initiative": "-2",
+  "babOrProficiency": 2,
+  "feats": [
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +1 (1d3-3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This small, awkward reptile with a fist-sized gem jutting from between its two bulging eyes seems both surprised and perplexed.",
+  "meta": {
+    "cmb": "-2",
+    "cmd": "5 (9 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics -4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forests or swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or group (2-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

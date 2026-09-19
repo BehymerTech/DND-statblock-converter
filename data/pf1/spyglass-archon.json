@@ -1,0 +1,112 @@
+{
+  "name": "Spyglass Archon",
+  "sourceSystem": "pf1",
+  "source": "Chronicle of the Righteous",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "archon, extraplanar, good, lawful",
+  "alignment": "LG",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "armor +2, dex +2, natural +1",
+    "touch": 12,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 26,
+    "formula": "4d10+4"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 40 ft. (good)"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 15,
+    "con": 12,
+    "int": 13,
+    "wis": 10,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +2, Ref +6, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +9, Bluff +6, Fly +13, Knowledge (planes) +8, Perception +7, Sense Motive +7, Stealth +12",
+    "list": {
+      "Acrobatics": "+9",
+      "Bluff": "+6",
+      "Fly": "+13",
+      "Perception": "+7",
+      "Sense Motive": "+7",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect evil",
+    "hone senses",
+    "lowlight vision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 4,
+  "feats": [
+    "Skill Focus (Stealth)",
+    "Two-Weapon Fighting"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk longsword +5 (1d8+2/19-20), mwk short sword +5 (1d6+1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "shortbow +6 (1d6/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The movements of this black-skinned humanoid are unnaturally quiet, clearly belonging to one used to slinking unseen and unheard through dark places. Ebon wings and a matching mask complete this figure’s stealthy appearance.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 18,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Heaven)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk longsword, mwk short sword, shortbow, leather armor, other treasure)"
+      }
+    ]
+  }
+}

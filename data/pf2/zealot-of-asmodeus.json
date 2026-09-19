@@ -1,0 +1,112 @@
+{
+  "name": "Zealot Of Asmodeus",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 213.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 58,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 12,
+    "int": 10,
+    "wis": 16,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +9, Ref +7, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +9 (1d20+9); __Deception__: +10 (1d20+10); __Intimidation__: +10 (1d20+10); __Religion__: +10 (1d20+10); __Society__: +7 (1d20+7); ",
+    "list": {
+      "Athletics": "+9",
+      "Deception": "+10",
+      "Intimidation": "+10",
+      "Religion": "+10",
+      "Society": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 19,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Shield Block",
+      "text": "⬲"
+    },
+    {
+      "name": "Swear Vengeance",
+      "text": "⬲ Trigger A creature the zealot can see damages a follower of Asmodeus other than the zealot Effect The zealot gains the effect of a 1st-level true strike spell. If the zealot makes an attack roll against anyone other than the triggering creature, the true strike ends with no effect."
+    },
+    {
+      "name": "Items",
+      "text": "composite shortbow (20 arrows), half plate, mace, steel shield (Hardness 5, HP 20, BT 10);"
+    },
+    {
+      "name": "Channel Smite",
+      "text": "⬺ (divine, necromancy); The zealot expends a prepared harm spell and makes a melee Strike. Instead of the normal effect of the spell, its negative damage is added to the Strike's damage."
+    },
+    {
+      "name": "Deadly Simplicity",
+      "text": "The zealot's mace deals 1d8 (1d8) damage instead of 1d6 (1d6)."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ mace +12 (shove); Damage 1d8+4 (1d8+4) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ composite shortbow +9 (deadly 1d10, propulsive, range increment 60 feet, reload 0); Damage 1d6+2 (1d6+2) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      1,
+      1,
+      0,
+      3,
+      2
+    ],
+    "items": "[[composite-shortbow|composite shortbow]] (20 arrows), [[half-plate|half plate]], [[mace]], [[steel-shield|steel shield]] (Hardness 5, HP 20, BT 10);"
+  }
+}

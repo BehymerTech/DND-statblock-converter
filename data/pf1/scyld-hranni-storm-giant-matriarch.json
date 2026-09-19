@@ -1,0 +1,113 @@
+{
+  "name": "Scyld Hranni, Storm Giant Matriarch",
+  "sourceSystem": "pf1",
+  "source": "Giants Revisited",
+  "size": "Huge",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "CG",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 37,
+    "notes": "armor +8, dex +4, natural +12, shield +5, size -2",
+    "touch": 12,
+    "flatFooted": 33
+  },
+  "hp": {
+    "average": 380,
+    "formula": "19d8+13d8+237"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., swim 40 ft., swim_other 45 ft., swim 40 ft. in armor ft."
+  },
+  "abilities": {
+    "str": 40,
+    "dex": 18,
+    "con": 25,
+    "int": 16,
+    "wis": 30,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +26, Ref +14, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +22, Climb +36, Diplomacy +26, Intimidate +26, Knowledge (history) +16, Knowledge (religion) +16, Perception +33, Sense Motive +33, Spellcraft +16, Swim +31",
+    "list": {
+      "Acrobatics": "+22",
+      "Climb": "+36",
+      "Diplomacy": "+26",
+      "Intimidate": "+26",
+      "Perception": "+33",
+      "Sense Motive": "+33",
+      "Spellcraft": "+16",
+      "Swim": "+31"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 43,
+  "languages": [
+    "Auran",
+    "Common",
+    "Draconic",
+    "Giant"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 23,
+  "feats": [
+    "Bashing Finish",
+    "Channel Smite",
+    "Combat Casting",
+    "Critical Focus",
+    "Deafening Critical",
+    "Improved Critical (trident)",
+    "Improved Shield Bash",
+    "Missile Shield",
+    "Point- Blank Shot",
+    "Power Attack",
+    "Rapid Shot",
+    "Shield Master",
+    "Shield Slam",
+    "Staggering Critical",
+    "Two-Weapon Fighting",
+    "Weapon Focus (trident)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+3 shocking burst trident +40/+35/+30/+25 (3d6+18/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 seeking composite longbow +26/+21/+16/+11 (3d6+16/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This purple-haired giant has dark bronze skin and piercing eyes; she wields an electrified trident and a coral-encrusted shield.",
+  "meta": {
+    "race": "Female",
+    "class": "storm giant cleric of Aegirran 13",
+    "cmb": "+40",
+    "cmd": 54
+  }
+}

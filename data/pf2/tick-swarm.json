@@ -1,0 +1,91 @@
+{
+  "name": "Tick Swarm",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 260.",
+  "size": "Large",
+  "type": "Swarm",
+  "subtype": "Animal",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 9",
+  "xp": null,
+  "ac": {
+    "value": 28,
+    "notes": ""
+  },
+  "hp": {
+    "average": 130,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, climb 25 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 22,
+    "con": 18,
+    "int": 0,
+    "wis": 16,
+    "cha": 0
+  },
+  "saves": {
+    "text": "Fort +19, Ref +19, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +16 (1d20+16); __Stealth__: +19 (1d20+19); ",
+    "list": {
+      "Athletics": "+16",
+      "Stealth": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Cling",
+      "text": "⬲ Trigger A creature leaves the swarm's space Effect The swarm takes 1d6 (1d6) damage as ticks cling to the creature and continue biting, dealing 3d6 (3d6) persistent piercing damage. Immersion in water reduces the DC of the flat check to end this persistent damage to 5, and any area damage dealt to the creature destroys these clinging ticks."
+    },
+    {
+      "name": "Swarming Bites",
+      "text": "⬻ Each enemy in the swarm's space takes 3d6 (3d6) piercing damage (DC 28 basic Reflex save) plus Cling and exposure to tick fever."
+    },
+    {
+      "name": "Tick Fever",
+      "text": "(disease); As giant tick but DC 27."
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      6,
+      4,
+      -5,
+      3,
+      -5
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "name": "Wet-House Emissary",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 12,
+    "notes": "armor +3, dex -1",
+    "touch": 9,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 56,
+    "formula": "9d8+16"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 8,
+    "con": 12,
+    "int": 16,
+    "wis": 14,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +4, Ref +5, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +16, Diplomacy +16, Disable Device +13, Disguise +11, Intimidate +8, Knowledge (arcana) +10, Knowledge (geography) +8, Knowledge (history) +10, Knowledge (local) +10, Knowledge (nobility) +10, Perception +12, Sense Motive +12, Sleight of Hand +13, Stealth +7, Swim +13",
+    "list": {
+      "Bluff": "+16",
+      "Diplomacy": "+16",
+      "Disable Device": "+13",
+      "Disguise": "+11",
+      "Intimidate": "+8",
+      "Perception": "+12",
+      "Sense Motive": "+12",
+      "Sleight of Hand": "+13",
+      "Stealth": "+7",
+      "Swim": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 22,
+  "languages": [
+    "Aboleth",
+    "Aklo",
+    "Aquan",
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 6,
+  "feats": [
+    "Deceitful",
+    "Deft Hands",
+    "Extra Investigator Talent",
+    "Focused Inspiration",
+    "Persuasive"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 sword cane +8/+3 (1d6+2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk light crossbow +6 (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Swathed in striking turquoise robes, this gillwoman has a cold, appraising stare.",
+  "meta": {
+    "race": "Gillman",
+    "class": "aristocrat 2, investigator (mastermind) 7 (Pathfinder RPG Advanced Race Guide 188, Pathfinder RPG Advanced Class Guide 30, 101)",
+    "cmb": "+7",
+    "cmd": 16,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate ocean"
+      }
+    ]
+  }
+}

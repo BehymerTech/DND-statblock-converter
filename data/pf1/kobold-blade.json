@@ -1,0 +1,101 @@
+{
+  "name": "Kobold Blade",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "reptilian",
+  "alignment": "LE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 22,
+    "notes": "armor +6, dex +4, natural +1, size +1",
+    "touch": 15,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d10+4"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 10,
+    "int": 13,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +4, Ref +5, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (trapmaking) +3, Intimidate +6, Knowledge (dungeoneering) +8, Perception +2, Profession (miner) +2, Stealth +13",
+    "list": {
+      "Intimidate": "+6",
+      "Perception": "+2",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 4,
+  "feats": [
+    "Combat Expertise",
+    "Improved Dirty Trick",
+    "Weapon Finesse",
+    "Weapon Focus (rapier)",
+    "Weapon Specialization (rapier)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk rapier +11 (1d4+2/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk light crossbow +10 (1d6/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Kobold",
+    "class": "fighter 4",
+    "cmb": "3 (+5 dirty trick)",
+    "cmd": "17 (19 vs. dirty trick)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate underground or deep forest"
+      }
+    ]
+  }
+}

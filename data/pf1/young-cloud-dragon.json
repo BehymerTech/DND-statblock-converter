@@ -1,0 +1,108 @@
+{
+  "name": "Young Cloud Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "air, extraplanar",
+  "alignment": "CN",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 20,
+    "notes": "natural +11, size -1",
+    "touch": 9,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 95,
+    "formula": "10d12+30"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (poor), swim 40 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 11,
+    "con": 17,
+    "int": 12,
+    "wis": 16,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +10, Ref +7, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +14, Diplomacy +21, Fly +7, Intimidate +15, Knowledge (planes) +14, Perception +16, Stealth +9, Swim +12",
+    "list": {
+      "Appraise": "+14",
+      "Diplomacy": "+21",
+      "Fly": "+7",
+      "Intimidate": "+15",
+      "Perception": "+16",
+      "Stealth": "+9",
+      "Swim": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "mist vision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Auran",
+    "Draconic"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 10,
+  "feats": [
+    "Dazzling Display",
+    "Multiattack",
+    "Power Attack",
+    "Skill Focus (Diplomacy)",
+    "Weapon Focus (claws)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (2d6+6), 2 claws +14 (1d8+4), 2 wings +11 (1d6+2), tail slap +11 (1d8+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The blue-white scales of this four-horned dragon exude wisps of fog. The dragon’s snout is short but filled with sharp teeth.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": "25 (29 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any sky (Plane of Air)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

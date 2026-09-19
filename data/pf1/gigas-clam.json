@@ -1,0 +1,108 @@
+{
+  "name": "Gigas Clam",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 60: From Hell's Heart",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "CN",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 26,
+    "notes": "natural +18, size -2",
+    "touch": 8,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 149,
+    "formula": "13d10+78"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., other_semicolon jet (300 ft.) ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 10,
+    "con": 23,
+    "int": 7,
+    "wis": 18,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +14, Ref +10, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +13, Swim +27",
+    "list": {
+      "Perception": "+13",
+      "Swim": "+27"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Aquan"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 13,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Critical (siphon dart)",
+    "Improved Lightning Reflexes",
+    "Lightning Reflexes",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +20 (2d6+9/19-20), 2 slams +20 (1d8+9 plus grab)"
+    },
+    {
+      "name": "Ranged",
+      "text": "siphon dart +11 (2d6+9/19-20 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This monstrous clam’s conjoined shells open wide enough to swallow a horse. Inside, two tubular siphons flank the thing’s innards, which resemble a fleshy, vaguely humanoid woman, save that instead of a face, it has a singular massive maw filled with rows of ravenous teeth.",
+  "meta": {
+    "cmb": "24 (+28 grapple)",
+    "cmd": "34 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, cluster (2-5), or field (6-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

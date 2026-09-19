@@ -1,0 +1,109 @@
+{
+  "name": "Krooth",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 215.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "Amphibious",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 26,
+    "notes": ""
+  },
+  "hp": {
+    "average": 150,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, swim 30 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 22,
+    "int": 2,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +20, Ref +17, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +18 (1d20+18); __Stealth__: +18 (1d20+18), (Stealth: +20 (1d20+20) in water); __Survival__: +17 (1d20+17), (Survival: +20 (1d20+20) to Track a bleeding creature); ",
+    "list": {
+      "Athletics": "+18",
+      "Stealth": "+20",
+      "Survival": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 60"
+  ],
+  "passivePerception": 26,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲ Tail only."
+    },
+    {
+      "name": "Pain Frenzy",
+      "text": "Whenever the krooth is damaged by a critical hit, it gains a +2 status bonus to attack and damage rolls until the end of its next turn. It can't use reactions while this frenzy lasts."
+    },
+    {
+      "name": "Aquatic Ambush",
+      "text": "⬻"
+    },
+    {
+      "name": "Poison Tooth",
+      "text": "⬻ (poison); Requirements The krooth damaged a creature with its jaws on its most recent action this turn. Effect The krooth snaps off one of its teeth in the creature it hit. The creature takes 1d6 (1d6) persistent bleed damage and is drained 1. Neither can be healed while the tooth remains. Removing the tooth safely requires a successful DC 26 check to Administer First Aid. Instead of ending bleeding or stabilizing, this removes the drained condition, but it doesn't automatically end the bleed damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +20 (deadly 1d10, poison, reach 10 feet); Damage 2d12+9 (2d12+9) piercing plus Poison Tooth"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +20 (agile); Damage 2d8+9 (2d8+9) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +20 (reach 15 feet); Damage 2d8+9 (2d8+9) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      3,
+      6,
+      -4,
+      2,
+      0
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "name": "Red Wyrm Ravener",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Gargantuan",
+  "type": "undead",
+  "subtype": "fire",
+  "alignment": "CE",
+  "cr": "22",
+  "level": null,
+  "xp": 614400,
+  "ac": {
+    "value": 45,
+    "notes": "deflection +4, dex -1, natural +36, size -4",
+    "touch": 9,
+    "flatFooted": 45
+  },
+  "hp": {
+    "average": 337,
+    "formula": "27d8+216"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 250 ft. (clumsy)"
+  },
+  "abilities": {
+    "str": 45,
+    "dex": 8,
+    "con": "None",
+    "int": 24,
+    "wis": 25,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +23, Ref +14, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +37, Bluff +37, Diplomacy +37, Fly +13, Intimidate +45, Knowledge (arcana) +37, Knowledge (history) +37, Knowledge (religion) +34, Perception +45, Sense Motive +37, Spellcraft +37, Stealth +25",
+    "list": {
+      "Appraise": "+37",
+      "Bluff": "+37",
+      "Diplomacy": "+37",
+      "Fly": "+13",
+      "Intimidate": "+45",
+      "Perception": "+45",
+      "Sense Motive": "+37",
+      "Spellcraft": "+37",
+      "Stealth": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "smoke vision"
+  ],
+  "passivePerception": 55,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Common",
+    "Draconic",
+    "Elven",
+    "Giant",
+    "Infernal"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 27,
+  "feats": [
+    "Cleave",
+    "Critical Focus",
+    "Greater Vital Strike",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack",
+    "Quicken Spell",
+    "Staggering Critical",
+    "Stunning Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +40 (4d6+24/17-20), 2 claws +40 (2d8+16/19-20), tail slap +38 (2d8+24/19-20), 2 wings +38 (2d6+8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This immense skeletal dragon rears up to its full, towering height, bones glowing and shimmering with vile green energy.",
+  "meta": {
+    "cmb": "+48",
+    "cmd": "57 (61 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "name": "Cayhound",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Bestiary",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "",
+  "alignment": "CG",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +2, natural +6",
+    "touch": 12,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 51,
+    "formula": "6d10+18"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 15,
+    "con": 16,
+    "int": 8,
+    "wis": 12,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +5, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Intimidate +6, Knowledge (planes) +6, Perception +10, Sense Motive +8, Stealth +10, Survival +8",
+    "list": {
+      "Acrobatics": "+10",
+      "Intimidate": "+6",
+      "Perception": "+10",
+      "Sense Motive": "+8",
+      "Stealth": "+10",
+      "Survival": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Celestial"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 6,
+  "feats": [
+    "Dimensional Agility",
+    "Dimensional Assault",
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +11 (1d10+7 plus 1d6 sonic and trip)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This reddish-colored mastiff stands eye to eye with most dwarves. Within its powerful frame rumbles the distant sound of thunder.",
+  "meta": {
+    "cmb": "+11",
+    "cmd": "23 (27 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Elysium)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

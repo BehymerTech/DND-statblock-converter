@@ -1,0 +1,102 @@
+{
+  "name": "Shoggoth",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 293.",
+  "size": "Huge",
+  "type": "Amphibious",
+  "subtype": "Aberration",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 18",
+  "xp": null,
+  "ac": {
+    "value": 39,
+    "notes": ""
+  },
+  "hp": {
+    "average": 275,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, climb 25 feet, swim 50 feet"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 22,
+    "con": 28,
+    "int": 4,
+    "wis": 22,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +33, Ref +30, Will +30",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +36 (1d20+36); __Intimidation__: +29 (1d20+29); ",
+    "list": {
+      "Athletics": "+36",
+      "Intimidation": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60, imprecise tremorsense 60"
+  ],
+  "passivePerception": 44,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Maddening Cacophony",
+      "text": "(auditory, aura, incapacitation, mental); 60 feet. A shoggoth constantly voices syllables and mutterings that mortals were not meant to hear. A creature entering the aura or starting its turn in the aura must succeed at a DC 38 Will save or become confused for 1 round (2d4 (2d4) rounds on a critical failure). A creature that successfully saves is temporarily immune for 24 hours."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 2d10+15 (2d10+15) bludgeoning."
+    },
+    {
+      "name": "Eat Away",
+      "text": "A creature that begins its turn inside the shoggoth takes 9d6 (9d6) acid damage."
+    },
+    {
+      "name": "Engulf",
+      "text": "⬺ DC 40, 6d6 (6d6) acid, Escape DC 40, Rupture 40."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ pseudopod +35 (magical, reach 30 feet); Damage 4d10+18 (4d10+18) bludgeoning plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      10,
+      6,
+      9,
+      -3,
+      6,
+      1
+    ]
+  }
+}

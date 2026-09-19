@@ -1,0 +1,126 @@
+{
+  "name": "Young Gold Dragon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 124.",
+  "size": "Large",
+  "type": "Fire",
+  "subtype": "Dragon",
+  "alignment": "LG",
+  "cr": null,
+  "level": "Creature 11",
+  "xp": null,
+  "ac": {
+    "value": 32,
+    "notes": ""
+  },
+  "hp": {
+    "average": 230,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, fly 140 feet, swim 40 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 14,
+    "con": 18,
+    "int": 16,
+    "wis": 18,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +22, Ref +20, Will +22",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +17 (1d20+17); __Arcana__: +18 (1d20+18); __Athletics__: +23 (1d20+23); __Diplomacy__: +23 (1d20+23); __Medicine__: +21 (1d20+21); __Religion__: +21 (1d20+21); __Society__: +18 (1d20+18); ",
+    "list": {
+      "Acrobatics": "+17",
+      "Arcana": "+18",
+      "Athletics": "+23",
+      "Diplomacy": "+23",
+      "Medicine": "+21",
+      "Religion": "+21",
+      "Society": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Elven",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 90 feet, DC 27."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲ Jaws only."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ The gold dragon breathes in one of two ways. The dragon can't use Breath Weapon again for 1d4 (1d4) rounds.<ul class='inner-bullet-list'><li>Flame (arcane, evocation, fire); The dragon breathes a blast of flame in a 30-foot cone that deals 11d6 (11d6) fire damage (DC 31 basic Reflex save).</li><li>Weakening Gas (arcane, necromancy); The dragon breathes a blast of weakening gas. Each creature within a 30-foot cone must succeed at a DC 31 Fortitude save or become enfeebled 1 for 1 minute (or enfeebled 2 on a critical failure).</li></ul>"
+    },
+    {
+      "name": "Draconic Frenzy",
+      "text": "⬺ The gold dragon makes two claw Strikes and one horns Strike in any order."
+    },
+    {
+      "name": "Draconic Momentum",
+      "text": "When the gold dragon scores a critical hit with a Strike, it recharges Breath Weapon."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +24 (fire, reach 10 feet); Damage 2d10+12 (2d10+12) piercing plus 2d6 (2d6) fire"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +24 (agile); Damage 2d10+12 (2d10+12) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +22 (reach 10 feet); Damage 2d10+10 (2d10+10) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ horns +22 (agile, reach 10 feet); Damage 1d12+10 (1d12+10) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      2,
+      4,
+      3,
+      4,
+      4
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "name": "NPC Princess",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 12,
+    "notes": "dex +1, dodge +1",
+    "touch": 12,
+    "flatFooted": 10
+  },
+  "hp": {
+    "average": 7,
+    "formula": "2d8-2"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 13,
+    "con": 9,
+    "int": 11,
+    "wis": 10,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort -1, Ref +1, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +6, Diplomacy +10, Knowledge (nobility) +5, Knowledge (religion) +4, Perform (dance) +7, Perform (sing) +6, Perform (string instruments) +6, Ride +5, Sense Motive +4, Perception +0",
+    "list": {
+      "Bluff": "+6",
+      "Diplomacy": "+10",
+      "Ride": "+5",
+      "Sense Motive": "+4",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 10,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 1,
+  "feats": [
+    "Dodge",
+    "Skill Focus (Diplomacy)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "unarmed strike +0 (1d3-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "aristocrat 2",
+    "cmb": "+0",
+    "cmd": 12
+  }
+}

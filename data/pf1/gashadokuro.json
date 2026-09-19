@@ -1,0 +1,107 @@
+{
+  "name": "Gashadokuro",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 54: The Empty Throne",
+  "size": "Huge",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 28,
+    "notes": "natural +20, size -2",
+    "touch": 8,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 180,
+    "formula": "19d8+95"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 11,
+    "con": "None",
+    "int": 6,
+    "wis": 17,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +11, Ref +6, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +23, Intimidate +32, Perception +20",
+    "list": {
+      "Climb": "+23",
+      "Intimidate": "+32",
+      "Perception": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Common (can’t speak)"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 14,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Great Cleave",
+    "Improved Bull Rush",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Intimidating Prowess",
+    "Power Attack",
+    "Vital Strike",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +22 (2d8+10 plus grab), 2 claws +23 (2d6+10/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The bones and skulls of countless smaller creatures dribble from the joints and rib cage of this massive skeleton.",
+  "meta": {
+    "cmb": "26 (+28 bull rush, +30 grapple)",
+    "cmd": "36 (38 vs. bull rush)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

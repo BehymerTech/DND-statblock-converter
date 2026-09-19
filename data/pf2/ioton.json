@@ -1,0 +1,98 @@
+{
+  "name": "Ioton",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 92.",
+  "size": "Tiny",
+  "type": "Incorporeal",
+  "subtype": "Astral",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 0",
+  "xp": null,
+  "ac": {
+    "value": 14,
+    "notes": ""
+  },
+  "hp": {
+    "average": 14,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 30 feet"
+  },
+  "abilities": {
+    "str": 0,
+    "dex": 14,
+    "con": 16,
+    "int": 10,
+    "wis": 8,
+    "cha": 4
+  },
+  "saves": {
+    "text": "Fort +7, Ref +6, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +6 (1d20+6); __Stealth__: +6 (1d20+6); ",
+    "list": {
+      "Acrobatics": "+6",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "imprecise thoughtsense 60"
+  ],
+  "passivePerception": 13,
+  "languages": [
+    "absorbed language"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Absorbed Language",
+      "text": "While a creature is taking persistent damage from the ioton, the ioton gains the ability to speak and understand one of that creature's languages, selected at random."
+    },
+    {
+      "name": "Thoughtsense",
+      "text": "(divination, mental, occult); The ioton senses all non-mindless creatures at the listed range."
+    },
+    {
+      "name": "Leech Thought",
+      "text": "(healing, occult, polymorph, transmutation); While a creature is taking persistent mental damage from the ioton, the ioton takes the shape of a creature familiar to the target, such as an acquaintance, pet, or common animal, though the appearance is imperfect and grants no benefit to Impersonate an individual. While transformed, the ioton loses its incorporeal trait, immunities, and resistances, but it gains an unarmed melee Strike with a +6 attack modifier that deals 1d8+2 (1d8+2) bludgeoning damage. The ioton immediately returns to its original form once no creature is taking persistent mental damage from it."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ touch +6 (agile, magical, mental); Damage 1d4 (1d4) persistent mental damage and leech thought"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -5,
+      2,
+      3,
+      0,
+      -1,
+      -3
+    ]
+  }
+}

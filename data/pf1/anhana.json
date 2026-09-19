@@ -1,0 +1,105 @@
+{
+  "name": "Anhana",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 116: Fangs of War",
+  "size": "Small",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CG",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex +3, dodge +1, size +1",
+    "touch": 15,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 27,
+    "formula": "5d6+10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 17,
+    "con": 14,
+    "int": 13,
+    "wis": 14,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +3, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +12, Fly +13, Perception +12, Perform (sing) +12, Sense Motive +12, Stealth +15, Swim +8",
+    "list": {
+      "Diplomacy": "+12",
+      "Fly": "+13",
+      "Perception": "+12",
+      "Sense Motive": "+12",
+      "Stealth": "+15",
+      "Swim": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Common",
+    "Sylvan",
+    "speak with animals"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 2,
+  "feats": [
+    "Alertness",
+    "Dodge",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "shears +7 (1d8+1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This miniature young woman has white skin; long, braided hair festooned with ribbons; and large, slanted eyes of deep violet. She wears flowing, diaphanous clothing and carries a pair of delicate gardening shears.",
+  "meta": {
+    "cmb": "+1",
+    "cmd": 15,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forest"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or sisterhood (3-15)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Fluxwraith",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 126: Beyond the Veiled Past",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "incorporeal",
+  "alignment": "NE",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 26,
+    "notes": "deflection +6, dex +9, dodge +1",
+    "touch": 26,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 273,
+    "formula": "26d8+156"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 28,
+    "con": "None",
+    "int": 18,
+    "wis": 20,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +14, Ref +17, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +25, Diplomacy +25, Fly +36, Intimidate +28, Knowledge (arcana) +23, Knowledge (dungeoneering) +18, Knowledge (planes) +18, Knowledge (history) +24, Perception +37, Sense Motive +37, Spellcraft +23, Stealth +20",
+    "list": {
+      "Acrobatics": "+25",
+      "Diplomacy": "+25",
+      "Fly": "+36",
+      "Intimidate": "+28",
+      "Perception": "+37",
+      "Sense Motive": "+37",
+      "Spellcraft": "+23",
+      "Stealth": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "lifesense"
+  ],
+  "passivePerception": 47,
+  "languages": [
+    "Ancient Osiriani",
+    "Azlanti",
+    "Common",
+    "Cyclops",
+    "Thassilonian"
+  ],
+  "initiative": "+13",
+  "babOrProficiency": 19,
+  "feats": [
+    "Ability Focus (time shift)",
+    "Alertness",
+    "Combat Casting",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Dodge",
+    "Flyby Attack",
+    "Hover",
+    "Improved Initiative",
+    "Lunge",
+    "Mobility",
+    "Quicken Spell-Like Ability (deja vu)",
+    "Stand Still"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "incorporeal touch +28 (15d6 plus time shift)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hovering, translucent humanoid appears to sleep serenely, even as shards of flickering energy encircle it, each fragment reflecting younger or older versions of itself.",
+  "meta": {
+    "cmb": "+28",
+    "cmd": 45,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or cluster (2-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

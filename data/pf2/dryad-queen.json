@@ -1,0 +1,132 @@
+{
+  "name": "Dryad Queen",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 249.",
+  "size": "Medium",
+  "type": "Plant",
+  "subtype": "Fey, Nymph",
+  "alignment": "CG",
+  "cr": null,
+  "level": "Creature 13",
+  "xp": null,
+  "ac": {
+    "value": 35,
+    "notes": ""
+  },
+  "hp": {
+    "average": 220,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 22,
+    "con": 22,
+    "int": 18,
+    "wis": 18,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +24, Ref +26, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +25 (1d20+25); __Athletics__: +19 (1d20+19); __Crafting__: +23 (1d20+23), (Crafting: +25 (1d20+25) woodworking); __Deception__: +30 (1d20+30); __Diplomacy__: +30 (1d20+30); __Intimidation__: +27 (1d20+27); __Nature__: +24 (1d20+24); __Performance__: +28 (1d20+28); __Stealth__: +25 (1d20+25); __Survival__: +24 (1d20+24); ",
+    "list": {
+      "Acrobatics": "+25",
+      "Athletics": "+19",
+      "Crafting": "+25",
+      "Deception": "+30",
+      "Diplomacy": "+30",
+      "Intimidation": "+27",
+      "Nature": "+24",
+      "Performance": "+28",
+      "Stealth": "+25",
+      "Survival": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Common",
+    "Elven",
+    "Sylvan; speak with plants"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Nature Empathy",
+      "text": "The dryad can use Diplomacy to Make an Impression on and make very simple Requests of animals and plants."
+    },
+    {
+      "name": "Tied to the Land",
+      "text": ""
+    },
+    {
+      "name": "Nymph's Beauty",
+      "text": "(aura, emotion, enchantment, incapacitation, mental, primal, visual); DC 30. On a failed save, the target is immobilized in awe for 1 minute."
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (polymorph, primal, transmutation);"
+    },
+    {
+      "name": "Focus Beauty",
+      "text": "⬻ (emotion, enchantment, incapacitation, mental, primal, visual); On a failed save, if the target was already affected by the dryad queen's beauty, the target suffers the effects of a failed save against charm."
+    },
+    {
+      "name": "Inspiration",
+      "text": "⬽ (emotion, enchantment, mental, primal);"
+    },
+    {
+      "name": "Tree Meld",
+      "text": "⬺ (primal, transmutation); As dryad, except the hamadryad can enter and exit her extradimensional domain from any tree in her domain and she can bring up to eight other creatures with her when she does so."
+    },
+    {
+      "name": "Octopus, Giant",
+      "text": ""
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ branch +27 (finesse, magical); Damage 3d12+8 (3d12+8) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ leaves +27 (conjuration, plant, primal, range increment 60 feet); Damage 3d8+6 (3d8+6) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      6,
+      6,
+      4,
+      4,
+      8
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "name": "Pakalchi",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "evil, extraplanar, sahkil",
+  "alignment": "NE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 22,
+    "notes": "dex +6, natural +6",
+    "touch": 16,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 115,
+    "formula": "11d10+55"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 23,
+    "con": 20,
+    "int": 15,
+    "wis": 16,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +10, Ref +13, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Bluff +15, Climb +16, Diplomacy +15, Intimidate +15, Knowledge (planes) +13, Knowledge (religion) +13, Perception +13, Sense Motive +15, Spellcraft +10, Stealth +20",
+    "list": {
+      "Acrobatics": "+15",
+      "Bluff": "+15",
+      "Climb": "+16",
+      "Diplomacy": "+15",
+      "Intimidate": "+15",
+      "Perception": "+13",
+      "Sense Motive": "+15",
+      "Spellcraft": "+10",
+      "Stealth": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "true seeing"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 11,
+  "feats": [
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Great Fortitude",
+    "Improved Critical (claws)",
+    "Improved Initiative",
+    "Multiattack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +17 (1d6+6/19-20), 4 vines +15 (1d4+3 plus 1d4 bleed and poison)"
+    },
+    {
+      "name": "Ranged",
+      "text": "4 thorns +17 (1d4 plus bleed and poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Thorny vines with tiny red f lowers grow from this emaciated woman and f low like a train behind her.",
+  "meta": {
+    "cmb": "+17",
+    "cmd": 33,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Ethereal Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or plot (3-7)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

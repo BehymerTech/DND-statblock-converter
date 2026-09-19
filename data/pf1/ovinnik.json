@@ -1,0 +1,105 @@
+{
+  "name": "Ovinnik",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Pathfinder No. 67: The Snows of Summer",
+  "size": "Tiny",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 17,
+    "notes": "dex +3, natural +2, size +2",
+    "touch": 15,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 22,
+    "formula": "4d6+8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 17,
+    "con": 15,
+    "int": 9,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +3, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +8, Climb +11, Escape Artist +10, Intimidate +5, Knowledge (local) +4, Knowledge (nature) +4, Perception +9, Stealth +18",
+    "list": {
+      "Acrobatics": "+8",
+      "Climb": "+11",
+      "Escape Artist": "+10",
+      "Intimidate": "+5",
+      "Perception": "+9",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 2,
+  "feats": [
+    "Go Unnoticed",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +7 (1d3+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Covered in sleek black fur, this vaguely feline humanoid holds flickering flames in its clawed hand.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": 14,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

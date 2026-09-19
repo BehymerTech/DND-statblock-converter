@@ -1,0 +1,111 @@
+{
+  "name": "Mite",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Small",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "LE",
+  "cr": "1/4",
+  "level": null,
+  "xp": 100,
+  "ac": {
+    "value": 12,
+    "notes": "dex +1, size +1",
+    "touch": 12,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 3,
+    "formula": "1d6"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 13,
+    "con": 11,
+    "int": 8,
+    "wis": 13,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +0, Ref +3, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +7, Handle Animal +0, Perception +5, Ride +2, Sleight of Hand +9, Stealth +13",
+    "list": {
+      "Climb": "+7",
+      "Handle Animal": "+0",
+      "Perception": "+5",
+      "Ride": "+2",
+      "Sleight of Hand": "+9",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Undercommon"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 0,
+  "feats": [
+    "Point-Blank Shot"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +0 (1d3-1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dart +2 (1d3-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This squat humanoid seems to be nearly all head-an unfortunate circumstance, considering how ugly its puffy blue face is.",
+  "meta": {
+    "cmb": "-2",
+    "cmd": 9,
+    "racialModifiers": [
+      "Sleight of Hand 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, band (2-8), or tribe (9-20 plus 1 chieftain of 2nd-4th level and 2-6 giant vermin)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (dagger, 6 darts, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "name": "Ceustodaemon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "daemon, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 20,
+    "notes": "dex +1, natural +10, size -1",
+    "touch": 10,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 68,
+    "formula": "8d10+24"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 13,
+    "con": 16,
+    "int": 11,
+    "wis": 14,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +9, Ref +3, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +13, Intimidate +11, Knowledge (planes) +9, Perception +15, Sense Motive +15, Stealth +8, Survival +9",
+    "list": {
+      "Bluff": "+13",
+      "Intimidate": "+11",
+      "Perception": "+15",
+      "Sense Motive": "+15",
+      "Stealth": "+8",
+      "Survival": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "detect magic",
+    "see invisibility"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Abyssal",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 8,
+  "feats": [
+    "Alertness",
+    "Blind-Fight",
+    "Power Attack",
+    "Step Up"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +11 (2d6+4), 2 claws +11 (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This brown, shaggy-furred beast stands on slate grey hooves. Its head resembles that of a maniacal horned ape.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": 24,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

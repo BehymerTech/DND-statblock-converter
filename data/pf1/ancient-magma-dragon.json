@@ -1,0 +1,123 @@
+{
+  "name": "Ancient Magma Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "extraplanar, fire",
+  "alignment": "CN",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 39,
+    "notes": "natural +31, size -2",
+    "touch": 8,
+    "flatFooted": 39
+  },
+  "hp": {
+    "average": 310,
+    "formula": "23d12+161"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (poor)"
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 10,
+    "con": 25,
+    "int": 22,
+    "wis": 22,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +22, Ref +13, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +23, Climb +38, Escape Artist +23, Fly +18, Intimidate +31, Knowledge (planes) +32, Perception +32, Sense Motive +32, Sleight of Hand +23, Stealth +18, Survival +32, Swim +38",
+    "list": {
+      "Acrobatics": "+23",
+      "Climb": "+38",
+      "Escape Artist": "+23",
+      "Fly": "+18",
+      "Intimidate": "+31",
+      "Perception": "+32",
+      "Sense Motive": "+32",
+      "Sleight of Hand": "+23",
+      "Stealth": "+18",
+      "Survival": "+32",
+      "Swim": "+38"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 42,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Elven",
+    "Gnome",
+    "Halfling",
+    "Ignan"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 23,
+  "feats": [
+    "Flyby Attack",
+    "Great Fortitude",
+    "Greater Vital Strike",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Critical (claws)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +33 (2d8+18/19-20 plus 10 fire), 2 claws +33 (2d6+12/19-20), tail slap +31 (2d6+18), 2 wings +31 (1d8+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+37",
+    "cmd": "47 (51 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any mountains or underground (Plane of Fire)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

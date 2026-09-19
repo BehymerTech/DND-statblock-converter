@@ -1,0 +1,107 @@
+{
+  "name": "Horla",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Small",
+  "type": "aberration",
+  "subtype": "extraplanar",
+  "alignment": "CE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 18,
+    "notes": "dex +5, natural +2, size +1",
+    "touch": 16,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 104,
+    "formula": "11d8+55"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 30 ft. (good)"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 20,
+    "con": 21,
+    "int": 13,
+    "wis": 18,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +8, Ref +8, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +15, Fly +25, Perception +18, Sense Motive +15, Use Magic Device +15",
+    "list": {
+      "Bluff": "+15",
+      "Fly": "+25",
+      "Perception": "+18",
+      "Sense Motive": "+15",
+      "Use Magic Device": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Aklo",
+    "absorb language",
+    "telepathy 200 ft."
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 8,
+  "feats": [
+    "Agile Maneuvers",
+    "Combat Expertise",
+    "Improved Disarm",
+    "Improved Initiative",
+    "Weapon Finesse",
+    "Weapon Focus (tentacle)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "3 tentacles +15 (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Depression and ennui accompany a barely perceptible sensation of something cold and smooth brushing against the skin.",
+  "meta": {
+    "cmb": "12 (+14 disarm)",
+    "cmd": "24 (26 vs. disarm)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Ethereal plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or invasion (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

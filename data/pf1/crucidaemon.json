@@ -1,0 +1,121 @@
+{
+  "name": "Crucidaemon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "daemon, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 29,
+    "notes": "dex +5, dodge +1, natural +13",
+    "touch": 16,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 212,
+    "formula": "17d10+119"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 21,
+    "con": 24,
+    "int": 16,
+    "wis": 17,
+    "cha": 29
+  },
+  "saves": {
+    "text": "Fort +17, Ref +12, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +29, Craft (traps) +31, Disable Device +25, Escape Artist +7, Intimidate +29, Knowledge (arcana) +11, Knowledge (engineering) +11, Perception +23, Sense Motive +16, Spellcraft +18, Stealth +29, Use Magic Device +19",
+    "list": {
+      "Bluff": "+29",
+      "Disable Device": "+25",
+      "Escape Artist": "+7",
+      "Intimidate": "+29",
+      "Perception": "+23",
+      "Sense Motive": "+16",
+      "Spellcraft": "+18",
+      "Stealth": "+29",
+      "Use Magic Device": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "deathwatch",
+    "detect good",
+    "true seeing"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Abyssal",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 17,
+  "feats": [
+    "Dodge",
+    "Improved Critical (daggers)",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Mobility",
+    "Spring Attack",
+    "Stealthy",
+    "Step Up",
+    "Weapon Focus (daggers)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "daggers +29/+29/+24/+19/+14 (1d4+11/17-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Its body seemingly made of iron, this shapely feminine form has wrists pierced by chains that end in curved blades.",
+  "meta": {
+    "cmb": "+26",
+    "cmd": 42,
+    "racialModifiers": [
+      "Craft (traps) 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or inquisition (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

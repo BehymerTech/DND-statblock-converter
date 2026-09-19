@@ -1,0 +1,108 @@
+{
+  "name": "The Grand Defender",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Gods",
+  "size": "Huge",
+  "type": "construct",
+  "subtype": "extraplanar, herald",
+  "alignment": "LG",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 32,
+    "notes": "dex -1, natural +20, shield +5, size -2",
+    "touch": 7,
+    "flatFooted": 32
+  },
+  "hp": {
+    "average": 157,
+    "formula": "18d10+58"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 9,
+    "con": "None",
+    "int": 15,
+    "wis": 14,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +6, Ref +5, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (dungeoneering) +11, Knowledge (engineering) +11, Knowledge (history) +11, Knowledge (local) +11, Knowledge (nature) +11, Knowledge (religion) +11, Perception +20",
+    "list": {
+      "Perception": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Celestial",
+    "Dwarven",
+    "Ignan",
+    "Terran"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 18,
+  "feats": [
+    "Cleave",
+    "Combat Reflexes",
+    "Great Cleave",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Power Attack",
+    "Stand Still",
+    "Throw Anything",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "warhammer +27/+22/+17/+12 (3d6+11/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Made of polished iron, this mighty golem resembles a keen-eyed dwarf. It carries a warhammer and a shield bearing Torag’s symbol.",
+  "meta": {
+    "cmb": "31 (+33 bull rush)",
+    "cmd": "40 (46 vs. bull rush, 44 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land (Heaven)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

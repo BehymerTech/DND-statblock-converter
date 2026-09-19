@@ -1,0 +1,105 @@
+{
+  "name": "Will-o'-wisp",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 333.",
+  "size": "Small",
+  "type": "Air",
+  "subtype": "Aberration",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 50,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 50 feet"
+  },
+  "abilities": {
+    "str": 0,
+    "dex": 22,
+    "con": 10,
+    "int": 14,
+    "wis": 18,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +10, Ref +16, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +18 (1d20+18); __Deception__: +12 (1d20+12); __Intimidation__: +12 (1d20+12); __Stealth__: +16 (1d20+16); ",
+    "list": {
+      "Acrobatics": "+18",
+      "Deception": "+12",
+      "Intimidation": "+12",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Aklo",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Glow",
+      "text": "(aura, light); 20 feet. A will-o'-wisp is itself naturally invisible, but glows with a colored light, casting bright light in the aura and making it visible."
+    },
+    {
+      "name": "Magic Immunity",
+      "text": "A will-o'-wisp is immune to all spells except faerie fire, glitterdust, magic missile, and maze."
+    },
+    {
+      "name": "Feed on Fear",
+      "text": "⬻ (concentrate); Requirements An enemy is under a fear effect or dying within 15 feet of the will-o'-wisp. Effect The will-o'-wisp feeds on the creature's terror. It regains 2d4 (2d4) Hit Points, and if it has Gone Dark, its glow reignites. A will-o'-wisp can take this action only once per round."
+    },
+    {
+      "name": "Go Dark",
+      "text": "⬻ (concentrate); The will-o'-wisp extinguishes its glow, becoming invisible. It can end this effect with another use of this action. If it uses its shock attack while invisible, the arc of electricity lets any observer determine its location, making the will-o'-wisp only hidden to all observers until it moves."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ shock +17 (electricity, magical); Damage 2d8+4 (2d8+4) electricity"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -5,
+      6,
+      0,
+      2,
+      4,
+      2
+    ]
+  }
+}

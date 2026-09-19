@@ -1,0 +1,96 @@
+{
+  "name": "Incutilis",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 140.",
+  "size": "Tiny",
+  "type": "Amphibious",
+  "subtype": "Aberration",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 21,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 feet, climb 5 feet, swim 40 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 12,
+    "int": 12,
+    "wis": 16,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +7, Ref +7, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +8 (1d20+8); __Deception__: +5 (1d20+5); __Stealth__: +9 (1d20+9); ",
+    "list": {
+      "Athletics": "+8",
+      "Deception": "+5",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Aklo",
+    "Aquan; [[telepathy]] 30 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Abandon Puppet",
+      "text": "⬻ (manipulate); Requirements The incutilis is attached to a puppet Effect The incutilis abandons its puppet, detaching and separating from its nervous system. If the puppet was still alive, it's unconscious and temporarily immune to that incutilis's Puppetmaster ability for 24 hours."
+    },
+    {
+      "name": "Puppetmaster",
+      "text": "⬽ (manipulate); An incutilis drives tendrils into a Small or Medium living creature that's unconscious or restrained by the incutilis. It attaches and injects the unfortunate host with enzymes to take over control of the creature's nervous system, turning the host into a puppet controlled by the incutilis. The puppet becomes dying 2 and is controlled by the incutilis. If the puppet dies, its body remains under the control of the incutilis until it's destroyed or the incutilis Abandons the Puppet. If the puppet recovers from the dying condition, the incutilis immediately Abandons the Puppet. While controlling a puppet, the incutilis is attached to the puppet's head (or elsewhere, if its brain is in an unconventional location) and moves along with it. The puppet uses its own AC, Hit Points, Fortitude and Reflex saves, and physical Strikes, but it uses the incutilis's Will save. The puppet can perform only basic actions and untrained uses of the Athletics and Stealth skills while controlled. Any attack that deals damage to the puppet also deals 1 mental damage to the incutilis. Area effects are applied to both the incutilis and puppet. The incutilis always has lesser cover while in control of a puppet."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ tentacle +8 Damage 1d4+4 (1d4+4) bludgeoning plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      3,
+      1,
+      1,
+      3,
+      -1
+    ]
+  }
+}

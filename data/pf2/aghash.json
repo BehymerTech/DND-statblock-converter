@@ -1,0 +1,107 @@
+{
+  "name": "Aghash",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 69.",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "Div",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 75,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 18,
+    "con": 16,
+    "int": 12,
+    "wis": 14,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +9, Ref +10, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +9 (1d20+9); __Athletics__: +8 (1d20+8); __Deception__: +12 (1d20+12); __Intimidation__: +12 (1d20+12); __Religion__: +10 (1d20+10); __Stealth__: +10 (1d20+10); ",
+    "list": {
+      "Arcana": "+9",
+      "Athletics": "+8",
+      "Deception": "+12",
+      "Intimidation": "+12",
+      "Religion": "+10",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Common",
+    "Daemonic; [[telepathy]] 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Hatred of Beauty",
+      "text": "While aghashes hate all mortals, they particularly despise beautiful objects and beautiful or charismatic mortals. When not in physical peril, an aghash is compelled to destroy art and other works of beauty. An aghash can't enter an area of pristine beauty without first marring it in some way. Given a choice, an aghash attacks a foe with the highest Charisma score first. If barred from doing so by force or some magical effect, they take 1d6 (1d6) mental damage at the end of their turn."
+    },
+    {
+      "name": "Divine Ritual",
+      "text": "DC 21; div pact"
+    },
+    {
+      "name": "Cursed Gaze",
+      "text": "⬺ (divine, concentrate, curse, fear, emotion, enchantment, mental, visual); The aghash fixes their gaze on one creature they can see within 20 feet. The creature must attempt a DC 21 Will save. Critical Success The creature is unaffected. Success The creature takes 2d6 (2d6) mental damage and becomes frightened 1. Failure The creature takes 4d6 (4d6) mental damage and becomes either frightened 2 or stunned 1 (the aghash's choice). Critical Failure The creature takes 8d6 (8d6) mental damage and becomes frightened 2 and stunned 2."
+    },
+    {
+      "name": "Sandstorm",
+      "text": "⬽ (conjuration, divine, earth); Frequency once per day Effect The aghash creates a temporary sandstorm in a 30 foot emanation that lasts for 1 minute. Creatures within the emanation take a –4 circumstance penalty to Perception checks and must succeed at a DC 18 Fortitude save. On a failure, they're forced to hold their breath or else they start suffocating. A creature within the sandstorm at the end of its turn takes 1d6 (1d6) slashing damage. Divs are immune to all effects of an aghash's sandstorm."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +14 (agile, evil, finesse, magical); Damage 1d6+5 (1d6+5) slashing plus 1d6 (1d6) evil"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      4,
+      3,
+      1,
+      2,
+      4
+    ]
+  }
+}

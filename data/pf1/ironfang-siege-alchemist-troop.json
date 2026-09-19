@@ -1,0 +1,116 @@
+{
+  "name": "Ironfang Siege Alchemist Troop",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 120: Vault of the Onyx Citadel",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "goblinoid, troop",
+  "alignment": "LE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 29,
+    "notes": "armor +4, dex +4, dodge +1, natural +10",
+    "touch": 15,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 241,
+    "formula": "21d8+147"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 22,
+    "con": 23,
+    "int": 16,
+    "wis": 13,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +20, Ref +15, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (alchemy) +27, Craft (siege engines) +17, Heal +14, Knowledge (engineering) +24, Perception +22, Stealth +8, Survival +25",
+    "list": {
+      "Heal": "+14",
+      "Perception": "+22",
+      "Stealth": "+8",
+      "Survival": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Giant",
+    "Goblin",
+    "Orc"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 15,
+  "feats": [
+    "Dodge",
+    "Endurance",
+    "Exotic Weapon Proficiency (firedrake)",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Siege Engineer",
+    "Throw Anything",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "troop (5d6+4 plus 3d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A wild-eyed band of hobgoblins cluster tightly around fortified carts containing hoses and reservoirs brimming with strange fluids.",
+  "meta": {
+    "cmb": "+19",
+    "cmd": 36,
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

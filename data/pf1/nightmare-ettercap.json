@@ -1,0 +1,107 @@
+{
+  "name": "Nightmare Ettercap",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +5, natural +2",
+    "touch": 15,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d8+12"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 10 ft. (perfect), climb 30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 21,
+    "con": 17,
+    "int": 8,
+    "wis": 15,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +6, Ref +6, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +14, Craft (trapmaking) +11, Fly +13, Intimidate +5, Perception +9, Stealth +15",
+    "list": {
+      "Climb": "+14",
+      "Fly": "+13",
+      "Intimidate": "+5",
+      "Perception": "+9",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 3,
+  "feats": [
+    "Great Fortitude",
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +5 (1d6+2 plus poison), 2 claws +5 (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This strange humanoid looks like a gangly, distorted caricature of an ettercap, with spiderlike fingers and an enormous wicked grin.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": 20,
+    "racialModifiers": [
+      "Craft (trapmaking) 8",
+      "Intimidate 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or nests (3-6 plus 2-6 giant spiders)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Formless Spawn",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 111: Dreams of the Yellow King",
+  "size": "Huge",
+  "type": "ooze",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 22,
+    "notes": "deflection +5, dex +9, size -2",
+    "touch": 22,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 126,
+    "formula": "12d8+72"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 20 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 29,
+    "con": 22,
+    "int": 15,
+    "wis": 12,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +10, Ref +13, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +20, Knowledge (religion) +14, Perception +13, Stealth +13, Swim +20",
+    "list": {
+      "Climb": "+20",
+      "Perception": "+13",
+      "Stealth": "+13",
+      "Swim": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "blindsight",
+    "tremorsense"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Power Attack",
+    "Weapon Finesse",
+    "Weapon Focus (bite)",
+    "Weapon Focus (tentacle)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +17 (2d6+6 plus grab), 4 tentacles +17 (1d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This shuddering blot of living tar is surrounded by a mass of writhing tendrils, and its maw opens into a dark gullet.",
+  "meta": {
+    "cmb": "+17",
+    "cmd": 36,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate ruins"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or flood (2-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

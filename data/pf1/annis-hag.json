@@ -1,0 +1,105 @@
+{
+  "name": "Annis Hag",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Bonus Bestiary",
+  "size": "Large",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 20,
+    "notes": "dex +1, natural +10, size -1",
+    "touch": 10,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 66,
+    "formula": "7d10+28"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 12,
+    "con": 18,
+    "int": 13,
+    "wis": 13,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +6, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +7, Diplomacy +7, Intimidate +17, Perception +13, Sense Motive +3, Stealth +7",
+    "list": {
+      "Bluff": "+7",
+      "Diplomacy": "+7",
+      "Intimidate": "+17",
+      "Perception": "+13",
+      "Sense Motive": "+3",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 7,
+  "feats": [
+    "Alertness",
+    "Blind-Fight",
+    "Great Fortitude",
+    "Intimidating Prowess"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (1d6+7), 2 claws +13 (1d6+7 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This repulsive, hunchbacked crone has skin the color of a fresh bruise. Despite her hunch, she looms taller than a human.",
+  "meta": {
+    "cmb": "15 (+19 grapple)",
+    "cmd": 26,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold marshes"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or coven (3 hags of any kind)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

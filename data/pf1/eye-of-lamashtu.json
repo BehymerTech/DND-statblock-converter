@@ -1,0 +1,97 @@
+{
+  "name": "Eye of Lamashtu",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "gnoll",
+  "alignment": "CE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "armor +5, dex +1, natural +2",
+    "touch": 11,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 31,
+    "formula": "6d8+4"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 12,
+    "con": 10,
+    "int": 8,
+    "wis": 16,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +7, Ref +2, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Spellcraft +8, Perception +3",
+    "list": {
+      "Spellcraft": "+8",
+      "Perception": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 13,
+  "languages": [
+    "Gnoll"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 4,
+  "feats": [
+    "Combat Casting",
+    "Extra Channel",
+    "Improved Channel"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk falchion +8 (2d4+4/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "javelin +5 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Gnoll",
+    "class": "cleric of Lamashtu 4",
+    "cmb": "+7",
+    "cmd": 18,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm plains or desert"
+      }
+    ]
+  }
+}

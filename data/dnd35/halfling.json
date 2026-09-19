@@ -1,0 +1,101 @@
+{
+  "name": "Halfling",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Small",
+  "type": "Humanoid",
+  "subtype": "Halfling",
+  "alignment": "Usually neutral",
+  "cr": "1/2",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": "+1 size, +1 Dex, +3 studded leather, +1 light shield",
+    "touch": 12,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 5,
+    "formula": "1d8+1"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft. (4 squares)"
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 13,
+    "con": 12,
+    "int": 10,
+    "wis": 9,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +4, Ref +2, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +2, Hide +4, Jump -4, Listen +3, Move Silently +1;",
+    "list": {
+      "Climb": "+2",
+      "Hide": "+4",
+      "Jump": "-4",
+      "Listen": "+3",
+      "Move Silently": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 1,
+  "feats": [
+    "Weapon Focus (longsword)"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Halfling traits"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Halfling traits"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Longsword +3 melee (1d6/19-20)or light crossbow +3 ranged (1d6/19-20)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Longsword +3 melee (1d6/19-20) or light crossbow +3 ranged (1d6/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Halflings stand about 3 feet tall and usually weigh between 30 and 35 pounds. They have brown or black eyes. Halfling men often have long sideburns, but beards are rare among them and mustaches almost unseen. Halflings prefer simple, comfortable, and practical clothes. Unlike members of most races, they prefer actual comfort to shows of wealth. Halflings reach adulthood in their early twenties and generally live into the middle of their second century. Halflings speak Halfling and Common.",
+    "grapple": "-3",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Warm plains, (Deep halfling: Warm hills),(Tallfellow: Temperate forests)",
+    "organization": "Company (2-4), squad (11-20 plus 2 3rd-level sergeants and 1 leader of 3rd-6th level), or band (30-100 plus 100% noncombatants plus 1 3rd-level sergeant per 20 adults, 5 5th-level lieutenants, 3 7th-level captains, 6-10 dogs, and 2-5 riding dogs)",
+    "treasure": "Standard",
+    "advancement": "By character class",
+    "leveladjustment": "+0"
+  }
+}

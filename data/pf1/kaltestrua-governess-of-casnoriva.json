@@ -1,0 +1,108 @@
+{
+  "name": "Kaltestrua, Governess of Casnoriva",
+  "sourceSystem": "pf1",
+  "source": "Demons Revisited",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "21",
+  "level": null,
+  "xp": 409600,
+  "ac": {
+    "value": 38,
+    "notes": "armor +4, deflection +4, dex +6, natural +15, size -1",
+    "touch": 19,
+    "flatFooted": 32
+  },
+  "hp": {
+    "average": 430,
+    "formula": "16d10+7d6+318"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 23,
+    "con": 34,
+    "int": 20,
+    "wis": 20,
+    "cha": 30
+  },
+  "saves": {
+    "text": "Fort +28, Ref +22, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +32, Bluff +36, Diplomacy +36, Fly +30, Intimidate +36, Knowledge (engineering) +26, Knowledge (religion) +31, Perception +39, Sense Motive +31, Stealth +28",
+    "list": {
+      "Acrobatics": "+32",
+      "Bluff": "+36",
+      "Diplomacy": "+36",
+      "Fly": "+30",
+      "Intimidate": "+36",
+      "Perception": "+39",
+      "Sense Motive": "+31",
+      "Stealth": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 49,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Draconic",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 19,
+  "feats": [
+    "Combat Expertise",
+    "Critical Focus",
+    "Eschew Materials",
+    "Greater Disarm",
+    "Greater Trip",
+    "Improved Critical (heavy flail)",
+    "Improved Disarm",
+    "Improved Trip",
+    "Multiweapon Defense",
+    "Power Attack",
+    "Staggering Critical",
+    "Toughness",
+    "Weapon Focus (heavy flail)",
+    "Weapon Focus (flail)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+4 ghost touch unholy heavy flail +31/+26/+21/+16 (2d8+14/17-20), 4 +3 ghost touch flails +29 (2d6+6/19-20), tail slap +20 (2d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This serpent-bodied, six-armed woman is painfully thin, haggard, and gaunt. Bloody sores dot her flesh, and the skulladorned flails she wields drip black liquid.",
+  "meta": {
+    "race": "Female",
+    "class": "marilith sorcerer 7 (Pathfinder RPG Bestiary 63)",
+    "cmb": "27 (+31 disarm, +31 trip)",
+    "cmd": "49 (51 vs. disarm, can’t be tripped)"
+  }
+}

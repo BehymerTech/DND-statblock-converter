@@ -1,0 +1,100 @@
+{
+  "name": "NPC Harrower",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "CG",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 15,
+    "notes": "armor +3, deflection +1, dex +1",
+    "touch": 12,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 62,
+    "formula": "7d8+3d6+17"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 12,
+    "con": 10,
+    "int": 13,
+    "wis": 14,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +4, Ref +8, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +9, Bluff +12, Disguise +12, Intimidate +10, Knowledge (arcana) +12, Knowledge (history) +10, Knowledge (local) +10, Knowledge (nobility) +10, Perform (dance) +12, Perform (oratory) +23, Sleight of Hand +9, Spellcraft +14, Stealth +9, Use Magic Device +8, Perception +2",
+    "list": {
+      "Appraise": "+9",
+      "Bluff": "+12",
+      "Disguise": "+12",
+      "Intimidate": "+10",
+      "Sleight of Hand": "+9",
+      "Spellcraft": "+14",
+      "Stealth": "+9",
+      "Use Magic Device": "+8",
+      "Perception": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 12,
+  "languages": [
+    "Common",
+    "Varisian"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 6,
+  "feats": [
+    "Diviner's Delving",
+    "Fortune Teller",
+    "Harrowed",
+    "Skill Focus (Perform [oratory])",
+    "Spell Focus (divination)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 dagger +6/+1 (1d4/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 dagger +8 (1d4/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "bard 7, harrower 3",
+    "cmb": "+5",
+    "cmd": 17
+  }
+}

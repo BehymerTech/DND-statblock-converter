@@ -1,0 +1,132 @@
+{
+  "name": "Baphomet",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 77: Herald of the Ivory Labyrinth",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "27",
+  "level": null,
+  "xp": 3276800,
+  "ac": {
+    "value": 45,
+    "notes": "deflection +4, dex +11, natural +11, profane +10, size -1",
+    "touch": 34,
+    "flatFooted": 45
+  },
+  "hp": {
+    "average": 643,
+    "formula": "33d10+462"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 50 ft. (good)"
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 32,
+    "con": 38,
+    "int": 37,
+    "wis": 29,
+    "cha": 35
+  },
+  "saves": {
+    "text": "Fort +36, Ref +26, Will +31",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +44, Bluff +48, Diplomacy +48, Fly +49, Handle Animal +45, Intimidate +45, Knowledge (arcana) +49, Knowledge (dungeoneering) +46, Knowledge (geography) +46, Knowledge (history) +46, Knowledge (nobility) +46, Knowledge (planes) +49, Knowledge (religion) +49, Linguistics +46, Perception +53, Sense Motive +45, Spellcraft +49, Stealth +43, Use Magic Device +45",
+    "list": {
+      "Acrobatics": "+44",
+      "Bluff": "+48",
+      "Diplomacy": "+48",
+      "Fly": "+49",
+      "Handle Animal": "+45",
+      "Intimidate": "+45",
+      "Linguistics": "+46",
+      "Perception": "+53",
+      "Sense Motive": "+45",
+      "Spellcraft": "+49",
+      "Stealth": "+43",
+      "Use Magic Device": "+45"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "detect law",
+    "see in darkness",
+    "true seeing"
+  ],
+  "passivePerception": 63,
+  "languages": [
+    "all languages",
+    "speak with animals",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+23",
+  "babOrProficiency": 33,
+  "feats": [
+    "Combat Reflexes",
+    "Craft Construct",
+    "Craft Magic Arms and Armor",
+    "Craft Wondrous Item",
+    "Critical Focus",
+    "Greater Bull Rush",
+    "Greater Weapon Focus (glaive)",
+    "Greater Weapon Specialization (glaive)",
+    "Improved Bull Rush",
+    "Improved Critical (glaive)",
+    "Improved Initiative",
+    "Power Attack",
+    "Quicken Spell-Like Ability (greater dispel magic)",
+    "Scribe Scroll",
+    "Staggering Critical",
+    "Weapon Focus (glaive)",
+    "Weapon Specialization (glaive)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "Aizerghaul +52/+47/+42/+37 (2d8+28/19-20/×3), gore +40 (2d8+6 plus 2d6 fire plus burn), bite +40 (1d8+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Fire burns on the central horn and in the rheumy eyes of this bestial winged demon, who stands more than twice a human’s height.",
+  "meta": {
+    "cmb": "47 (+51 bull rush)",
+    "cmd": "82 (84 vs. bull rush)",
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple (Aizerghaul, 2d6 scrolls, other treasure)"
+      }
+    ]
+  }
+}

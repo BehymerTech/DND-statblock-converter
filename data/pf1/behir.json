@@ -1,0 +1,103 @@
+{
+  "name": "Behir",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "dex +1, natural +12, size -2",
+    "touch": 9,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 105,
+    "formula": "10d10+50"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 12,
+    "con": 21,
+    "int": 7,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +12, Ref +8, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +14, Perception +8, Stealth +5",
+    "list": {
+      "Climb": "+14",
+      "Perception": "+8",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 10,
+  "feats": [
+    "Alertness",
+    "Cleave",
+    "Great Cleave",
+    "Power Attack",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15 (2d6+9 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This slithering, multilegged blue reptile has a fearsome head crowned with two large, curling horns.",
+  "meta": {
+    "cmb": "18 (+22 grapple)",
+    "cmd": "29 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm hills and deserts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

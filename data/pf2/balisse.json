@@ -1,0 +1,110 @@
+{
+  "name": "Balisse",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 18.",
+  "size": "Medium",
+  "type": "Celestial",
+  "subtype": "Angel",
+  "alignment": "NG",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 26,
+    "notes": ""
+  },
+  "hp": {
+    "average": 145,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": 18,
+    "int": 12,
+    "wis": 22,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +16, Ref +12, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +14 (1d20+14); __Diplomacy__: +17 (1d20+17); __Religion__: +18 (1d20+18); ",
+    "list": {
+      "Acrobatics": "+14",
+      "Diplomacy": "+17",
+      "Religion": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal; tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Confessor's Aura",
+      "text": "(aura, divine, enchantment, mental); 20 feet. Creatures in the balisse's aura are subject to zone of truth (DC 23). Additionally, if these creatures choose to honestly express their own conflicted feelings, the aura makes it easier for them to put words to those feelings."
+    },
+    {
+      "name": "Items",
+      "text": "+1 striking scimitar;"
+    },
+    {
+      "name": "Brand of the Impenitent",
+      "text": "⬺ (curse, divine, evocation); Frequency once per day Effect The balisse marks an evil creature within its confessor's aura as irredeemable. It can only do so after a failed attempt to convince the creature to repent. The touched creature takes a –1 status penalty to AC and saves, reduces its resistances by 2, and gains weakness 2 to good damage. The duration depends on the target's DC 26 Will save. Critical Success The creature is unaffected. Success The duration is 1 round. Failure The duration is 1 day. Critical Failure The duration is permanent."
+    },
+    {
+      "name": "Flaming Armament",
+      "text": "(divine, evocation); Any weapon gains the effect of a flaming property rune while a balisse wields it."
+    },
+    {
+      "name": "Guiding Angel",
+      "text": "⬻ (divine, transmutation); While invisible, a balisse can spiritually attach itself to a non-evil mortal. When it does so, it merges with the mortal's body and is unable to use any of its spells and abilities other than to interact with the mortal. It must use Guiding Angel again to leave the mortal. While merged with the mortal, the balisse can take a form of its choice that only the mortal can see, such as a small angel on the mortal's shoulder. Alternatively, it can communicate with the mortal using a bodiless voice only the mortal can hear."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ flaming scimitar +20 (fire, forceful, good, magical, sweep); Damage 2d6+8 (2d6+8) slashing plus 1d6 (1d6) fire and 1d6 (1d6) good"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      2,
+      4,
+      1,
+      6,
+      5
+    ],
+    "items": "+1 striking scimitar;"
+  }
+}

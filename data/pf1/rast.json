@@ -1,0 +1,100 @@
+{
+  "name": "Rast",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "extraplanar, fire",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +1, natural +7",
+    "touch": 11,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 51,
+    "formula": "6d10+18"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 12,
+    "con": 17,
+    "int": 3,
+    "wis": 13,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +8, Ref +6, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +5, Perception +10, Stealth +10",
+    "list": {
+      "Fly": "+5",
+      "Perception": "+10",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Ignan (cannot speak)"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 6,
+  "feats": [
+    "Flyby Attack",
+    "Improved Initiative",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d6+2 plus grab), 4 claws +9 (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This bulbous creature consists of many tangled legs, a bulging body of puffed flesh, and a mouth filled with sharp fangs.",
+  "meta": {
+    "cmb": "8 (+12 grapple)",
+    "cmd": "19 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Fire)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, cluster (3-6), or pack (7-15)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

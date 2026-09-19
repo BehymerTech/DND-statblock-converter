@@ -1,0 +1,96 @@
+{
+  "name": "Moose",
+  "sourceSystem": "pf1",
+  "source": "Animal Archive",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, natural +3, size -1",
+    "touch": 11,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 34,
+    "formula": "4d8+16"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 15,
+    "con": 18,
+    "int": 2,
+    "wis": 14,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +8, Ref +6, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +9",
+    "list": {
+      "Perception": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 3,
+  "feats": [
+    "Endurance",
+    "Run"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +6 (1d8+4), 2 hooves +1 (1d6+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A slightly goofy, bent-nosed face does little to detract from the imposing height and bulk of this ungulate.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": "20 (24 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

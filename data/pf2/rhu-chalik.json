@@ -1,0 +1,105 @@
+{
+  "name": "Rhu-chalik",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 214.",
+  "size": "Small",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 23,
+    "notes": ""
+  },
+  "hp": {
+    "average": 95,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 feet, fly 35 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 18,
+    "int": 14,
+    "wis": 20,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +14, Ref +11, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +13 (1d20+13); __Deception__: +13 (1d20+13); __Diplomacy__: +13 (1d20+13); __Intimidation__: +13 (1d20+13); __Stealth__: +15 (1d20+15); ",
+    "list": {
+      "Athletics": "+13",
+      "Deception": "+13",
+      "Diplomacy": "+13",
+      "Intimidation": "+13",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Aklo; [[telepathy]] 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "No Breath",
+      "text": "A rhu-chalik doesn't breathe and is immune to effects that require breathing (such as inhaled poisons)."
+    },
+    {
+      "name": "Excruciating Enzyme",
+      "text": "(occult, poison); A rhu-chalik's tendrils secrete an enzyme that causes intense pain. A living creature hit by a tendril Strike must succeed at a DC 24 Fortitude save or become sickened 1 from the pain."
+    },
+    {
+      "name": "Project Terror",
+      "text": "⬺ (emotion, enchantment, fear, mental, occult); Requirements The rhu-chalik has successfully affected the target with mind probe, mind reading, or Project Terror in the last minute Effect The rhu-chalik creates nightmarish visions in the target's mind. The target must attempt a DC 24 Will save. Critical Success The target creature is unaffected and temporarily immune to Project Terror for 1 minute. Success The target is unaffected. Failure The target becomes frightened 2. Failing additional saves against this effect increases the frightened condition value by 2; if this would increase the target's frightened value beyond frightened 4, the target is fleeing for 1 round and frightened 4. Critical Failure As failure, but the target becomes unconscious for 30 minutes instead of fleeing."
+    },
+    {
+      "name": "Void Transmission",
+      "text": "(concentrate, enchantment, exploration, mental, occult); Requirements The rhu-chalik is adjacent to an unconscious creature Effect The rhu-chalik spends 10 minutes copying the creature's entire consciousness and mentally sends this copied consciousness through the void of space to their waiting masters. The target creature is deeply disoriented by this procedure, becoming stupefied 2 for 1 day afterward. If the creature is revived or moved away from the rhu-chalik during the process, Void Transmission fails and the target is unaffected."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ tendril +15 (agile); Damage 2d4+6 (2d4+6) bludgeoning plus 1d6 (1d6) mental and excruciating enzyme"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      3,
+      4,
+      2,
+      5,
+      3
+    ]
+  }
+}

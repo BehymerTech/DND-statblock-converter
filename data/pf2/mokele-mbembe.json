@@ -1,0 +1,101 @@
+{
+  "name": "Mokele-mbembe",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 171.",
+  "size": "Huge",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 9",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 172,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, swim 30 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 18,
+    "con": 22,
+    "int": 2,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +21, Ref +15, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +20 (1d20+20); __Stealth__: +19 (1d20+19); __Survival__: +17 (1d20+17); ",
+    "list": {
+      "Athletics": "+20",
+      "Stealth": "+19",
+      "Survival": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 25,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Trample",
+      "text": "⬽ Large or smaller, foot, DC 28"
+    },
+    {
+      "name": "Whip Tail",
+      "text": "⬺ (incapacitation, sonic); The mokele-mbembe cracks its tail, creating a sonic boom in a 5-foot burst centered on a corner within reach of its tail Strike. Each creature in the burst's area must attempt a DC 28 Fortitude save. Mokele-mbembes are immune. Critical Success The creature is unaffected. Success The creature is stunned 1. Failure The creature is stunned 2. Critical Failure The creature is stunned 3."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +22 (reach 15 feet); Damage 2d12+10 (2d12+10) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +22 (agile, reach 20 feet); Damage 2d6+10 (2d6+10) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ foot +22 (reach 10 feet); Damage 2d8+10 (2d8+10) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      4,
+      6,
+      -4,
+      2,
+      0
+    ]
+  }
+}

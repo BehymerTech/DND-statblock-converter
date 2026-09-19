@@ -1,0 +1,101 @@
+{
+  "name": "NPC Cautious Archer",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "alignment": "CN",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 20,
+    "notes": "armor +6, dex +4",
+    "touch": 14,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 47,
+    "formula": "5d10+15"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 14,
+    "int": 15,
+    "wis": 8,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +7, Ref +6, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +5, Craft (bows) +8, Handle Animal +8, Perception +6, Stealth +6, Survival +3, Swim +5",
+    "list": {
+      "Climb": "+5",
+      "Handle Animal": "+8",
+      "Perception": "+6",
+      "Stealth": "+6",
+      "Survival": "+3",
+      "Swim": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Common",
+    "Elven",
+    "Gnome",
+    "Orc"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 5,
+  "feats": [
+    "Deadly Aim",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Rapid Shot",
+    "Weapon Focus (composite longbow)",
+    "Weapon Specialization (composite longbow)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk elven curve blade +8 (1d10+3/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite longbow +10/+10 (1d8+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Elf",
+    "class": "fighter 5",
+    "cmb": "+7",
+    "cmd": 21
+  }
+}

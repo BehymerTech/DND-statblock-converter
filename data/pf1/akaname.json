@@ -1,0 +1,103 @@
+{
+  "name": "Akaname",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Small",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 13,
+    "notes": "dex +2, size +1",
+    "touch": 13,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 13,
+    "formula": "2d8+4"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 15,
+    "con": 15,
+    "int": 10,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +2, Ref +2, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +10, Escape Artist +11, Knowledge (dungeoneering) +5, Perception +6, Stealth +11",
+    "list": {
+      "Climb": "+10",
+      "Escape Artist": "+11",
+      "Perception": "+6",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 1,
+  "feats": [
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "tongue +4 (1d4+3 plus disease and distraction)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This short, spindly creature has warty, brown-red skin and large black eyes. Its long, muscular tongue drags on the ground beneath it.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": 14,
+    "racialModifiers": [
+      "Escape Artist 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any urban or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cult (3-6 plus 1 otyugh)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

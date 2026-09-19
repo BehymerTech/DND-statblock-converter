@@ -1,0 +1,114 @@
+{
+  "name": "NPC Vaultbreaker",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "NE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 24,
+    "notes": "armor +4, deflection +2, dex +5, dodge +1, natural +2",
+    "touch": 18,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 109,
+    "formula": "6d8+4d6+7d6+40"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 9,
+    "dex": 20,
+    "con": 14,
+    "int": 20,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +19, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +18, Appraise +18, Climb +12, Disable Device +25, Disguise +8, Escape Artist +13, Knowledge (arcana) +13, Knowledge (geography) +13, Knowledge (history) +13, Knowledge (local) +13, Knowledge (nature) +13, Knowledge (nobility) +13, Knowledge (planes) +13, Knowledge (religion) +13, Knowledge (dungeoneering) +18, Knowledge (engineering) +18, Perception +21, Sleight of Hand +13, Spellcraft +18, Stealth +25, Survival +6, Swim +7, Use Magic Device +13",
+    "list": {
+      "Acrobatics": "+18",
+      "Appraise": "+18",
+      "Climb": "+12",
+      "Disable Device": "+25",
+      "Disguise": "+8",
+      "Escape Artist": "+13",
+      "Perception": "+21",
+      "Sleight of Hand": "+13",
+      "Spellcraft": "+18",
+      "Stealth": "+25",
+      "Survival": "+6",
+      "Swim": "+7",
+      "Use Magic Device": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 31,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Elf",
+    "Gnome",
+    "Goblin"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 9,
+  "feats": [
+    "Arcane Strike",
+    "Dodge",
+    "Fleet (2)",
+    "Lightning Reflexes",
+    "Mobility",
+    "Point-Blank Shot",
+    "Scribe Scroll",
+    "Spell Focus (transmutation)",
+    "Spring Attack",
+    "Vital Strike",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 frost rapier +15/+10 (1d6/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk dagger +15 (1d4-1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "rogue 6, transmuter 4, arcane trickster 7",
+    "cmb": "+8",
+    "cmd": 26
+  }
+}

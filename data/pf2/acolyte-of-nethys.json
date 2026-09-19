@@ -1,0 +1,90 @@
+{
+  "name": "Acolyte Of Nethys",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 212.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 16,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 14,
+    "con": 8,
+    "int": 14,
+    "wis": 18,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +2, Ref +5, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +5 (1d20+5); __Crafting__: +5 (1d20+5); __Diplomacy__: +4 (1d20+4); __Occultism__: +5 (1d20+5); __Religion__: +7 (1d20+7); ",
+    "list": {
+      "Arcana": "+5",
+      "Crafting": "+5",
+      "Diplomacy": "+4",
+      "Occultism": "+5",
+      "Religion": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 17,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ staff +4 (two-hand d8); Damage 1d4+1 (1d4+1) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ crossbow +5 (range increment 120 feet, reload 1); Damage 1d8 (1d8) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      2,
+      -1,
+      2,
+      4,
+      1
+    ]
+  }
+}

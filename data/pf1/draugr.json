@@ -1,0 +1,100 @@
+{
+  "name": "Draugr",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "water",
+  "alignment": "CE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 14,
+    "notes": "armor +2, natural +2",
+    "touch": 10,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d8+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 10,
+    "con": "None",
+    "int": 8,
+    "wis": 10,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +2, Ref +1, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +9, Perception +6, Stealth +6, Swim +11",
+    "list": {
+      "Climb": "+9",
+      "Perception": "+6",
+      "Stealth": "+6",
+      "Swim": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Common (cannot speak)"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 2,
+  "feats": [
+    "Power Attack",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "greataxe +5 (1d12+4/×3 plus nausea)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This barnacle-encrusted walking corpse looks like a zombie, but is dripping with water and gives off a nauseating stench.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": 15,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any coastal"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or crew (2-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (greataxe, leather armor, other treasure)"
+      }
+    ]
+  }
+}

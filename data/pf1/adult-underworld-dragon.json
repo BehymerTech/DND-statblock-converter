@@ -1,0 +1,112 @@
+{
+  "name": "Adult Underworld Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "fire",
+  "alignment": "LE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 29,
+    "notes": "natural +20, size -1",
+    "touch": 9,
+    "flatFooted": 29
+  },
+  "hp": {
+    "average": 161,
+    "formula": "14d12+70"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (poor), burrow 40 ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 10,
+    "con": 21,
+    "int": 16,
+    "wis": 17,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +14, Ref +9, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +20, Bluff +20, Climb +25, Fly +11, Intimidate +20, Knowledge (dungeoneering) +20, Knowledge (geography) +20, Perception +20, Stealth +19",
+    "list": {
+      "Appraise": "+20",
+      "Bluff": "+20",
+      "Climb": "+25",
+      "Fly": "+11",
+      "Intimidate": "+20",
+      "Perception": "+20",
+      "Stealth": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "smoke vision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Ignan",
+    "Terran"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 14,
+  "feats": [
+    "Improved Critical (claws)",
+    "Improved Initiative",
+    "Improved Natural Armor",
+    "Lunge",
+    "Skill Focus (Stealth)",
+    "Weapon Focus (bite)",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +22 (2d6+12), 2 claws +22 (1d8+8/19-20), gore +21 (1d8+12), tail slap +16 (1d8+12)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+23",
+    "cmd": "33 (37 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

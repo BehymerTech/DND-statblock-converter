@@ -1,0 +1,121 @@
+{
+  "name": "Kraken",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 214.",
+  "size": "Gargantuan",
+  "type": "Beast",
+  "subtype": "Aquatic",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 18",
+  "xp": null,
+  "ac": {
+    "value": 42,
+    "notes": ""
+  },
+  "hp": {
+    "average": 360,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 feet, swim 40 feet"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 18,
+    "con": 28,
+    "int": 20,
+    "wis": 22,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +35, Ref +28, Will +32",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +38 (1d20+38); __Intimidation__: +32 (1d20+32); __Nature__: +35 (1d20+35); __Stealth__: +33 (1d20+33); ",
+    "list": {
+      "Athletics": "+38",
+      "Intimidation": "+32",
+      "Nature": "+35",
+      "Stealth": "+33"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 44,
+  "languages": [
+    "Aquan",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Altered Weather",
+      "text": "(aura, evocation, primal); A kraken reshapes the weather within 2 miles of it, with the effect of the control weather ritual centered on the kraken and based on its emotional state, at the GM's discretion. If the kraken dies, the weather returns to normal immediately."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 2d10+17 (2d10+17) bludgeoning, DC 40. On a failed save, a creature that is holding its breath loses 1d4 (1d4) rounds worth of air."
+    },
+    {
+      "name": "Double Attack",
+      "text": "⬻ The kraken makes two Strikes with two different arms or tentacles, each limb targeting a different creature. Double Attack counts as two attacks toward the kraken's multiple attack penalty for further actions, but the penalty doesn't increase until after both attacks are made. If the kraken subsequently uses the Grab action, it Grabs any number of creatures it hit with Double Attack."
+    },
+    {
+      "name": "Ink Cloud",
+      "text": "⬻ The kraken emits a cloud of black, venomous ink in an 80-foot emanation. This cloud has no effect outside water. Creatures inside the ink cloud are exposed to kraken ink poison and are undetected while inside the cloud. The kraken can't use Ink Cloud again for 2d6 (2d6) rounds, and the cloud dissipates after 1 minute."
+    },
+    {
+      "name": "Jet",
+      "text": "⬻ (move); The kraken moves through the water up to 280 feet in a straight line without triggering reactions."
+    },
+    {
+      "name": "Kraken Ink",
+      "text": "(poison); Saving Throw DC 39 Fortitude. Maximum Duration 10 rounds Stage 1 3d6 (3d6) poison damage and sickened 1 (1 round) Stage 2 4d6 (4d6) poison damage and sickened 2. (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ arm +37 (reach 40 feet, magical); Damage 4d10+17 (4d10+17) bludgeoning plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tentacle +37 (reach 60 feet, agile, magical); Damage 3d10+17 (3d10+17) bludgeoning plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ beak +37 (reach 20 feet, magical); Damage 3d10+17 (3d10+17) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      9,
+      4,
+      9,
+      5,
+      6,
+      5
+    ]
+  }
+}

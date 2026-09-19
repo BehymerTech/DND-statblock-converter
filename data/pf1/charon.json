@@ -1,0 +1,134 @@
+{
+  "name": "Charon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "daemon, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "30",
+  "level": null,
+  "xp": 9830400,
+  "ac": {
+    "value": 48,
+    "notes": "deflection +4, dex +8, natural +10, profane +16",
+    "touch": 38,
+    "flatFooted": 40
+  },
+  "hp": {
+    "average": 774,
+    "formula": "36d10+576"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., other_semicolon air walk, water walk ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 40,
+    "dex": 27,
+    "con": 42,
+    "int": 35,
+    "wis": 32,
+    "cha": 35
+  },
+  "saves": {
+    "text": "Fort +32, Ref +32, Will +35",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +44, Bluff +51, Diplomacy +48, Intimidate +48, Knowledge (arcana) +48, Knowledge (engineering) +48, Knowledge (geography) +48, Knowledge (history) +48, Knowledge (religion) +48, Knowledge (planes) +51, Perception +50, Profession (sailor) +50, Ride +47, Sense Motive +50, Spellcraft +51, Stealth +47, Swim +59, Use Magic Device +51",
+    "list": {
+      "Acrobatics": "+44",
+      "Bluff": "+51",
+      "Diplomacy": "+48",
+      "Intimidate": "+48",
+      "Perception": "+50",
+      "Ride": "+47",
+      "Sense Motive": "+50",
+      "Spellcraft": "+51",
+      "Stealth": "+47",
+      "Swim": "+59",
+      "Use Magic Device": "+51"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "lifesense",
+    "true seeing"
+  ],
+  "passivePerception": 60,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Infernal",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 36,
+  "feats": [
+    "Blinding Critical",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Double Slice",
+    "Greater Bull Rush",
+    "Greater Two- Weapon Fighting",
+    "Improved Bull Rush",
+    "Improved Critical (quarterstaff)",
+    "Improved Initiative",
+    "Improved Two-Weapon Fighting",
+    "Mounted Combat",
+    "Power Attack",
+    "Quicken Spell-Like Ability (circle of death)",
+    "Quicken Spell-Like Ability (telekinesis)",
+    "Ride-By Attack",
+    "Spirited Charge",
+    "Two-Weapon Fighting"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+5 spellstealing unholy quarterstaff +52/+47/+42/+37 (1d6+20/19-20 plus curse of ages), +5 spellstealing unholy quarterstaff +52/+47/+42 (1d6+20/19-20 plus curse of ages)"
+    },
+    {
+      "name": "Ranged",
+      "text": "4 Stygian bolts +44 (10d6 plus memory loss)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This ancient figure is dressed in black, and its eyes are sunken pits that glint with malevolent cunning.",
+  "meta": {
+    "cmb": "51 (+55 bull rush)",
+    "cmd": "89 (91 vs. bull rush)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or mounted (Charon and the Pale Horse)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple (+5 spellstealing unholy quarterstaff, other treasure)"
+      }
+    ]
+  }
+}

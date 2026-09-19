@@ -1,0 +1,108 @@
+{
+  "name": "Nuglub",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Small",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +4, natural +3, size +1",
+    "touch": 15,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d6+9"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 18,
+    "con": 15,
+    "int": 8,
+    "wis": 9,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +3, Ref +7, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Climb +9, Craft (traps) +9, Intimidate +8, Perception +9, Stealth +14",
+    "list": {
+      "Acrobatics": "+10",
+      "Climb": "+9",
+      "Intimidate": "+8",
+      "Perception": "+9",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Undercommon"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 1,
+  "feats": [
+    "Step Up",
+    "Toughness",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +3 (1d4+1 plus grab), 2 claws +4 (1d3+1 plus trip)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hideous, hunchbacked creature has three glowing blue eyes. Oily hair grows from its head and back, covering it like a cloak.",
+  "meta": {
+    "cmb": "1 (+5 grapple and trip)",
+    "cmd": 15,
+    "racialModifiers": [
+      "Craft (traps) 4",
+      "Intimidate 4",
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground or urban"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or mob (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "name": "NPC Lumber Consortium Enforcer",
+  "sourceSystem": "pf1",
+  "source": "Andoran, Birthplace of Freedom",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "NE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "armor +4, dex +1",
+    "touch": 11,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 33,
+    "formula": "4d10+11"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 13,
+    "con": 14,
+    "int": 8,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +7, Ref +6, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Climb +7, Intimidate +11, Perception +5, Profession (woodcutter) +5, Ride +4, Sense Motive +5, Stealth +4, Swim +7",
+    "list": {
+      "Acrobatics": "+7",
+      "Climb": "+7",
+      "Intimidate": "+11",
+      "Perception": "+5",
+      "Ride": "+4",
+      "Sense Motive": "+5",
+      "Stealth": "+4",
+      "Swim": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 15,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 4,
+  "feats": [
+    "Combat Expertise",
+    "Enforcer",
+    "Improved Unarmed Strike",
+    "Intimidating Prowess",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk longspear +9 (1d8+6/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "javelin +5 (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This beefy human brawler has the bearing of a thug.",
+  "meta": {
+    "race": "Human",
+    "class": "brawler 4 (Pathfinder RPG Advanced Class Guide 23)",
+    "cmb": "8 (+9 trip)",
+    "cmd": "19 (20 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forest or urban (especially Darkmoon Vale)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (mwk chain shirt, mwk longspear, handaxe, javelins [3], cloak of resistance +1, other treasure)"
+      }
+    ]
+  }
+}

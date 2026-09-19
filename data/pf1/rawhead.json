@@ -1,0 +1,113 @@
+{
+  "name": "Rawhead",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 29,
+    "notes": "armor +4, dex +6, dodge +1, natural +8",
+    "touch": 17,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 200,
+    "formula": "16d10+112"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., other ['air walk'] ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 23,
+    "con": 24,
+    "int": 18,
+    "wis": 21,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +12, Ref +16, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +22, Bluff +21, Intimidate +24, Knowledge (local) +12, Knowledge (religion) +12, Perception +24, Sense Motive +21, Stealth +31, Survival +24",
+    "list": {
+      "Acrobatics": "+22",
+      "Bluff": "+21",
+      "Intimidate": "+24",
+      "Perception": "+24",
+      "Sense Motive": "+21",
+      "Stealth": "+31",
+      "Survival": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Common",
+    "Infernal"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 16,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Dodge",
+    "Greater Feint",
+    "Improved Feint",
+    "Improved Initiative",
+    "Mobility",
+    "Skill Focus (Stealth)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +23 (1d6+7), 2 claws +23 (1d4+7 plus 1d4 Cha damage)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This slim figure’s proportions are wrong, and its disturbingly long arms end in claws, save for an oversized, boneless index finger.",
+  "meta": {
+    "cmb": "+23",
+    "cmd": 40,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or terror (1 rawhead plus 3-6 bloody bones)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+2 leather armor, other treasure)"
+      }
+    ]
+  }
+}

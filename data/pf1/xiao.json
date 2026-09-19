@@ -1,0 +1,110 @@
+{
+  "name": "Xiao",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Tiny",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 15,
+    "notes": "dex +3, size +2",
+    "touch": 15,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 22,
+    "formula": "3d10+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 30 ft. (good)"
+  },
+  "abilities": {
+    "str": 4,
+    "dex": 16,
+    "con": 14,
+    "int": 7,
+    "wis": 11,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +5, Ref +6, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +11, Disable Device +8, Escape Artist +5, Fly +11, Perception +4, Sleight of Hand +8, Stealth +13",
+    "list": {
+      "Acrobatics": "+11",
+      "Disable Device": "+8",
+      "Escape Artist": "+5",
+      "Fly": "+11",
+      "Perception": "+4",
+      "Sleight of Hand": "+8",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Common (can’t speak)"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 3,
+  "feats": [
+    "Stealthy",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d4-3), 2 slams +8 (1d3-3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This snarling blue-white monkey f lies through the air on a pair of birdlike wings.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": 11,
+    "racialModifiers": [
+      "Acrobatics 8",
+      "Disable Device 4",
+      "Sleight of Hand 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm mountains or forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "individuals, troupe (3-12), flock (13-30)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental (thieves’ tools, shiny trinkets, small pieces of jewelry that catch a xiao’s eye)"
+      }
+    ]
+  }
+}

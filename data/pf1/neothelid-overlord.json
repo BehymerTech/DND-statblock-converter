@@ -1,0 +1,127 @@
+{
+  "name": "Neothelid Overlord",
+  "sourceSystem": "pf1",
+  "source": "Occult Bestiary",
+  "size": "Gargantuan",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 34,
+    "notes": "natural +28, size -4",
+    "touch": 6,
+    "flatFooted": 34
+  },
+  "hp": {
+    "average": 400,
+    "formula": "32d8+256"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 11,
+    "con": 26,
+    "int": 24,
+    "wis": 19,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +20, Ref +12, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +39, Climb +47, Diplomacy +43, Fly +33, Intimidate +46, Knowledge (arcana) +42, Knowledge (dungeoneering) +39, Knowledge (planes) +39, Perception +43, Sense Motive +40, Spellcraft +42",
+    "list": {
+      "Bluff": "+39",
+      "Climb": "+47",
+      "Diplomacy": "+43",
+      "Fly": "+33",
+      "Intimidate": "+46",
+      "Perception": "+43",
+      "Sense Motive": "+40",
+      "Spellcraft": "+42"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "trace teleport"
+  ],
+  "passivePerception": 53,
+  "languages": [
+    "Aboleth",
+    "Abyssal",
+    "Aklo",
+    "Elder Thing",
+    "Infernal",
+    "Orvian",
+    "Terran",
+    "Undercommon",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 24,
+  "feats": [
+    "Alertness",
+    "Cleave",
+    "Great Cleave",
+    "Great Fortitude",
+    "Greater Bull Rush",
+    "Greater Overrun",
+    "Improved Bull Rush",
+    "Improved Critical (tongue)",
+    "Improved Initiative",
+    "Improved Lightning Reflexes",
+    "Improved Overrun",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Persuasive",
+    "Power Attack",
+    "Quicken Spell-Like Ability (mass suggestion)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "6 tongues +32 (3d6+12/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Two disgusting heads rise above this enormous mass of slime-drenched coils and slithering tentacles.",
+  "meta": {
+    "cmb": "40 (+44 bull rush, +44 grapple, +44 overrun)",
+    "cmd": "50 (52 vs. bull rush, 52 vs. overrun)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or conclave (3-5 served by a cult of neothelids and 9-24 seugathi)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

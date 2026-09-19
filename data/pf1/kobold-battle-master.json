@@ -1,0 +1,100 @@
+{
+  "name": "Kobold Battle Master",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "reptilian",
+  "alignment": "LE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 23,
+    "notes": "armor +8, dex +1, natural +1, shield +2, size +1",
+    "touch": 12,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 57,
+    "formula": "7d10+14"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 13,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +7, Ref +4, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (trapmaking) +3, Handle Animal +9, Perception +13, Profession (miner) +3, Ride +5, Stealth +9, Swim +5",
+    "list": {
+      "Handle Animal": "+9",
+      "Perception": "+13",
+      "Ride": "+5",
+      "Stealth": "+9",
+      "Swim": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 7,
+  "feats": [
+    "Draconic Aspect (blue)",
+    "Draconic Breath",
+    "Improved Initiative",
+    "Mounted Combat",
+    "Shield Wall",
+    "Weapon Focus (lance)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 lance +11/+6 (1d6+2/×3), mwk short sword +10/+5 (1d4+1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Kobold",
+    "class": "cavalier 7",
+    "cmb": "+7",
+    "cmd": 18,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate underground or deep forest"
+      }
+    ]
+  }
+}

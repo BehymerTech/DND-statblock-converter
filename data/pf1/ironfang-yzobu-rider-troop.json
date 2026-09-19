@@ -1,0 +1,116 @@
+{
+  "name": "Ironfang Yzobu Rider Troop",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 120: Vault of the Onyx Citadel",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "goblinoid, troop",
+  "alignment": "LE",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 32,
+    "notes": "armor +10, dex +1, natural +8, shield +3",
+    "touch": 11,
+    "flatFooted": 31
+  },
+  "hp": {
+    "average": 300,
+    "formula": "24d8+192"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 21,
+    "con": 26,
+    "int": 13,
+    "wis": 10,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +22, Ref +15, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Handle Animal +15, Intimidate +36, Perception +16, Ride +30, Stealth +3",
+    "list": {
+      "Handle Animal": "+15",
+      "Intimidate": "+36",
+      "Perception": "+16",
+      "Ride": "+30",
+      "Stealth": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Common",
+    "Giant",
+    "Goblin"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 18,
+  "feats": [
+    "Animal Affinity",
+    "Charge Through",
+    "Combat Reflexes",
+    "Endurance",
+    "Greater Overrun",
+    "Improved Bull Rush",
+    "Improved Overrun",
+    "Intimidating Prowess",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Mounted Combat",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "troop (5d6+10 plus bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "These hobgoblin knights ride atop brutish stinking yaks that paw the ground angrily.",
+  "meta": {
+    "cmb": "28 (+30 bull rush, +32 overrun)",
+    "cmd": "43 (45 vs. bull rush or overrun, 47 vs. trip)",
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or division (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

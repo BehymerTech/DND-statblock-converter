@@ -1,0 +1,97 @@
+{
+  "name": "Plagued Horse",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, The Worldwound",
+  "size": "Large",
+  "type": "undead",
+  "subtype": "augmented animal",
+  "alignment": "NE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 14,
+    "notes": "dex +3, natural +2, size -1",
+    "touch": 12,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 16,
+    "formula": "2d8+7"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 16,
+    "con": "None",
+    "int": 2,
+    "wis": 13,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +5, Ref +6, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +6",
+    "list": {
+      "Perception": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 1,
+  "feats": [
+    "Endurance",
+    "Run",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +5 (1d8+5 plus disease), 2 hooves +0 (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The rotting skeleton and muscles of this fanged, decaying horse seem barely able to hold together.",
+  "meta": {
+    "cmb": "+7",
+    "cmd": "20 (24 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or herd (3-30)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

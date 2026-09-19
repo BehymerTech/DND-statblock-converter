@@ -1,0 +1,99 @@
+{
+  "name": "Soulbound Doll",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Pathfinder No. 7: Edge of Anarchy",
+  "size": "Tiny",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N (but see below)",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 15,
+    "notes": "dex +2, natural +1, size +2",
+    "touch": 14,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d10+3"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 7,
+    "dex": 14,
+    "con": "None",
+    "int": 11,
+    "wis": 10,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +1, Ref +3, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +3, Stealth +13",
+    "list": {
+      "Perception": "+3",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 13,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +3 (1d2-2/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This doll’s glass eyes glisten with unmistakable curiosity as it comes to life with a fluid grace.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": 11,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or family (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

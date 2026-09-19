@@ -1,0 +1,90 @@
+{
+  "name": "Pufferfish",
+  "sourceSystem": "pf1",
+  "source": "Ultimate Wilderness, Familiar Folio",
+  "size": "Tiny",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1/4",
+  "level": null,
+  "xp": 100,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, size +2",
+    "touch": 14,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 6,
+    "formula": "1d8+2"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 20 ft."
+  },
+  "abilities": {
+    "str": 4,
+    "dex": 14,
+    "con": 15,
+    "int": 1,
+    "wis": 12,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +4, Ref +4, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +5, Swim +5",
+    "list": {
+      "Perception": "+5",
+      "Swim": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 15,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 0,
+  "feats": [
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This spotted fish has pronounced eyes, a wide mouth, and tiny, brightly colored spikes protruding from its body.",
+  "meta": {
+    "cmb": "+0",
+    "cmd": 7,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or school (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

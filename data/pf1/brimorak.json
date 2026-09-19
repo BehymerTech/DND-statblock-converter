@@ -1,0 +1,109 @@
+{
+  "name": "Brimorak",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Book of the Damned - Volume 2: Lords of Chaos",
+  "size": "Small",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +3, natural +4, size +1",
+    "touch": 14,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 57,
+    "formula": "6d10+24"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 16,
+    "con": 19,
+    "int": 12,
+    "wis": 12,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +9, Ref +8, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +12, Bluff +11, Knowledge (engineering) +10, Knowledge (planes) +10, Perception +18, Sense Motive +10, Stealth +16",
+    "list": {
+      "Acrobatics": "+12",
+      "Bluff": "+11",
+      "Perception": "+18",
+      "Sense Motive": "+10",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Draconic",
+    "Ignan",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 6,
+  "feats": [
+    "Combat Casting",
+    "Improved Initiative",
+    "Weapon Focus (longsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "longsword +11/+6 (1d6+3/19-20 plus 1d6 fire), hoof +5 (1d3+1 plus 1d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This muscular, red-eyed, goat-headed demon wields a burning sword. Fire licks up from its flaming hooves.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": 21,
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, band (2-6), or platoon (7-16)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (longsword, other treasure)"
+      }
+    ]
+  }
+}

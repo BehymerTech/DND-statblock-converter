@@ -1,0 +1,132 @@
+{
+  "name": "Dagon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar, water",
+  "alignment": "CE",
+  "cr": "28",
+  "level": null,
+  "xp": 4915200,
+  "ac": {
+    "value": 46,
+    "notes": "deflection +4, dex +7, natural +15, profane +12, size -2",
+    "touch": 31,
+    "flatFooted": 39
+  },
+  "hp": {
+    "average": 676,
+    "formula": "33d10+495"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., swim 120 ft."
+  },
+  "abilities": {
+    "str": 44,
+    "dex": 25,
+    "con": 40,
+    "int": 29,
+    "wis": 32,
+    "cha": 31
+  },
+  "saves": {
+    "text": "Fort +37, Ref +24, Will +33",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +40, Bluff +46, Intimidate +46, Knowledge (arcana) +45, Knowledge (geography) +42, Knowledge (history) +42, Knowledge (nature) +45, Knowledge (planes) +45, Knowledge (religion) +42, Perception +55, Sense Motive +47, Spellcraft +45, Stealth +35, Swim +61, Use Magic Device +43",
+    "list": {
+      "Acrobatics": "+40",
+      "Bluff": "+46",
+      "Intimidate": "+46",
+      "Perception": "+55",
+      "Sense Motive": "+47",
+      "Spellcraft": "+45",
+      "Stealth": "+35",
+      "Swim": "+61",
+      "Use Magic Device": "+43"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "detect law",
+    "true seeing"
+  ],
+  "passivePerception": 65,
+  "languages": [
+    "Abyssal",
+    "Aquan",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "speak with animals (aquatic animals only)",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 33,
+  "feats": [
+    "Awesome Blow",
+    "Bleeding Critical",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Craft Wondrous Item",
+    "Critical Focus",
+    "Greater Bull Rush",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Critical (tentacle)",
+    "Improved Initiative",
+    "Improved Trip",
+    "Improved Vital Strike",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Quicken Spell-Like Ability (greater dispel magic)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +48 (6d6+17/19-20 plus grab), 4 tentacles +43 (2d6+8/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This demon’s body is a nightmare of writhing tentacles and slippery coils below the leering maw of a deep sea predator.",
+  "meta": {
+    "cmb": "52 (+56 bull rush, +54 disarm, +56 grapple, +54 trip)",
+    "cmd": "87 (89 vs. bull rush, 89 vs. disarm, can’t be tripped)",
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

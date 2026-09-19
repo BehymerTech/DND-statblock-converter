@@ -1,0 +1,115 @@
+{
+  "name": "Mythic Treant",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Huge",
+  "type": "plant",
+  "subtype": "mythic",
+  "alignment": "NG",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 25,
+    "notes": "dex -1, natural +18, size -2",
+    "touch": 7,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 146,
+    "formula": "12d8+92"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 8,
+    "con": 21,
+    "int": 12,
+    "wis": 18,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +13, Ref +3, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +9, Intimidate +9, Knowledge (nature) +9, Perception +17, Sense Motive +10, Stealth -9",
+    "list": {
+      "Diplomacy": "+9",
+      "Intimidate": "+9",
+      "Perception": "+17",
+      "Sense Motive": "+10",
+      "Stealth": "-9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Common",
+    "Sylvan",
+    "Treant",
+    "treespeech"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 9,
+  "feats": [
+    "Alertness",
+    "Improved Critical (slam)",
+    "Improved Sunder",
+    "Iron Will",
+    "Power Attack",
+    "Weapon Focus (slam)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +19 (3d6+10/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +7 (2d6+15)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Standing upright and powerful, this mighty tree-person channels nature’s fury into green energy in its gnarled hands.",
+  "meta": {
+    "cmb": "21 (+23 sunder)",
+    "cmd": "32 (34 vs. sunder)",
+    "racialModifiers": [
+      "Stealth 16"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forest"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or grove (2-7)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

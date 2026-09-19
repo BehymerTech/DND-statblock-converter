@@ -1,0 +1,102 @@
+{
+  "name": "The Would-Be Queen, Almara Kazaar",
+  "sourceSystem": "pf1",
+  "source": "Darklands Revisited",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "alignment": "LE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 21,
+    "notes": "armor +10, natural +1",
+    "touch": 10,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 108,
+    "formula": "11d8+55"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 16,
+    "int": 8,
+    "wis": 16,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +11, Ref +5, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +2, Knowledge (religion) +7, Sense Motive +7, Spellcraft +3, Stealth -1, Perception +3",
+    "list": {
+      "Bluff": "+2",
+      "Sense Motive": "+7",
+      "Spellcraft": "+3",
+      "Stealth": "-1",
+      "Perception": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 13,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Undercommon"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 8,
+  "feats": [
+    "Channel Smite",
+    "Cleave",
+    "Combat Casting",
+    "Furious Focus",
+    "Improved Critical (warhammer)",
+    "Iron Will",
+    "Power Attack",
+    "Toughness",
+    "Vital Strike",
+    "Weapon Focus (warhammer)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 warhammer +14/+9 (1d10+7/19-20/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This gray-skinned dwarf wears iron plates over a set of purple and magenta robes and carries a warhammer.",
+  "meta": {
+    "race": "Female",
+    "class": "duergar warpriest of Droskar 11 (Pathfinder RPG Bestiary 117, Pathfinder RPG Advanced Class Guide 60)",
+    "cmb": "+12",
+    "cmd": "23 (27 vs. bull rush, 27 vs. trip)",
+    "racialModifiers": [
+      "Stealth 4"
+    ]
+  }
+}

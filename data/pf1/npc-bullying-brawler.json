@@ -1,0 +1,96 @@
+{
+  "name": "NPC Bullying Brawler",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LE",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 14,
+    "notes": "dex +1, dodge +1, wis +2",
+    "touch": 14,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 17,
+    "formula": "2d8+5"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 12,
+    "con": 15,
+    "int": 8,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +5, Ref +4, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +5, Bluff +1, Intimidate +5, Perception +7, Sense Motive +7, Stealth +5",
+    "list": {
+      "Acrobatics": "+5",
+      "Bluff": "+1",
+      "Intimidate": "+5",
+      "Perception": "+7",
+      "Sense Motive": "+7",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 17,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 1,
+  "feats": [
+    "Blind-Fight",
+    "Dodge",
+    "Improved Initiative",
+    "Improved Unarmed Strike",
+    "Scorpion Style",
+    "Stunning Fist"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "unarmed strike +5 (1d6+4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "light crossbow +2 (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "monk 2",
+    "cmb": "+5",
+    "cmd": 19
+  }
+}

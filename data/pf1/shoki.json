@@ -1,0 +1,116 @@
+{
+  "name": "Shoki",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Inner Sea Bestiary",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "extraplanar, psychopomp",
+  "alignment": "N",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 25,
+    "notes": "dex +4, dodge +1, natural +10",
+    "touch": 15,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 115,
+    "formula": "10d10+60"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 19,
+    "con": 22,
+    "int": 18,
+    "wis": 21,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +9, Ref +11, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +16, Diplomacy +20, Intimidate +20, Knowledge (arcana) +17, Knowledge (planes) +17, Knowledge (religion) +14, Perception +22, Sense Motive +22, Spellcraft +17, Stealth +17",
+    "list": {
+      "Bluff": "+16",
+      "Diplomacy": "+20",
+      "Intimidate": "+20",
+      "Perception": "+22",
+      "Sense Motive": "+22",
+      "Spellcraft": "+17",
+      "Stealth": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect chaos",
+    "detect evil",
+    "detect good",
+    "detect law",
+    "detect magic",
+    "low-light vision",
+    "spirit-sense"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Infernal"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 10,
+  "feats": [
+    "Alertness",
+    "Combat Casting",
+    "Dodge",
+    "Iron Will",
+    "Persuasive"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 cold iron quarterstaff +19/+14 (1d6+12)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A wooden staff topped with a silver cage containing a ghostly face keeps this grizzled, snail-backed creature upright.",
+  "meta": {
+    "cmb": "+17",
+    "cmd": 32,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Boneyard)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+2 cold iron quarterstaff, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Eaisge",
+  "sourceSystem": "pf1",
+  "source": "Ire of the Storm",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "aquatic",
+  "alignment": "NE",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 12,
+    "notes": "natural +2",
+    "touch": 10,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 16,
+    "formula": "3d8+3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 10,
+    "con": "None",
+    "int": 6,
+    "wis": 8,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +2, Ref +1, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +6, Perception +3, Stealth +5, Swim +6",
+    "list": {
+      "Intimidate": "+6",
+      "Perception": "+3",
+      "Stealth": "+5",
+      "Swim": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 13,
+  "languages": [
+    "Aquan"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 2,
+  "feats": [
+    "Blind-Fight",
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +4 (1d8+3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "gush +2 (1d4+2 plus trip)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Water gushes from the mouth and nose of this bloated creature. Broken wood and jagged nails jut from its half-rotted flesh.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": 14,
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any swamp or water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or wreck (3-15)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

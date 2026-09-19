@@ -1,0 +1,105 @@
+{
+  "name": "Guecubu",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 126.",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "Earth",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 110,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, burrow 15 feet; earth glide;"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 18,
+    "con": 16,
+    "int": 18,
+    "wis": 16,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +17, Ref +16, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +16 (1d20+16); __Athletics__: +18 (1d20+18); __Intimidation__: +15 (1d20+15); __Stealth__: +16 (1d20+16); ",
+    "list": {
+      "Acrobatics": "+16",
+      "Athletics": "+18",
+      "Intimidation": "+15",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tremorsense 60"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Common",
+    "Necril"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Break Ground",
+      "text": "⬺ (arcane, earth, transmutation); The guecubu stomps, and the ground breaks and ripples in a 30-foot emanation, erupting in razor-sharp, crisscrossing spikes of rock that deal 3d8 (3d8) piercing damage to creatures in the area (DC 26 basic Reflex save). The area becomes difficult terrain and hazardous terrain, with each square dealing 3 piercing damage to a creature that moves through it. A guecubu is immune to these effects. Ground under the effects of a consecrate ritual or a circle of protection spell tuned against evil or chaos can't be affected by this ability."
+    },
+    {
+      "name": "Earth Glide",
+      "text": "The guecubu can Burrow through any earthen matter, including rock. When it does so, the guecubu moves at its full burrow Speed, leaving no tunnels or signs of its passing."
+    },
+    {
+      "name": "Shove into Stone",
+      "text": "(arcane, earth, transmutation); When the guecubu successfully Shoves a creature into a stone barrier, the target must succeed at a DC 26 Reflex save or become merged with the barrier, with the effects of meld into stone until the target Escapes (DC 26)."
+    },
+    {
+      "name": "Wrathful Misfortune",
+      "text": "(arcane, curse, enchantment); A creature damaged by a guecubu must succeed at a DC 26 Will save or become cursed with consummate bad luck. The creature becomes clumsy 2. Each time that creature rolls initiative, on their next roll they must roll twice and use the worse result; this is a misfortune effect."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +20 (agile); Damage 2d8+8 (2d8+8) piercing plus wrathful misfortune"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      4,
+      3,
+      4,
+      3,
+      3
+    ]
+  }
+}

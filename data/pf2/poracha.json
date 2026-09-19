@@ -1,0 +1,103 @@
+{
+  "name": "Poracha",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 265.",
+  "size": "Medium",
+  "type": "Beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 23,
+    "notes": ""
+  },
+  "hp": {
+    "average": 50,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 20,
+    "con": 16,
+    "int": 10,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +9, Ref +13, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +13 (1d20+13); __Athletics__: +9 (1d20+9); __Deception__: +11 (1d20+11); __Diplomacy__: +11 (1d20+11); __Stealth__: +13 (1d20+13); __Survival__: +10 (1d20+10); ",
+    "list": {
+      "Acrobatics": "+13",
+      "Athletics": "+9",
+      "Deception": "+11",
+      "Diplomacy": "+11",
+      "Stealth": "+13",
+      "Survival": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tremorsense 10"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Jaunt",
+      "text": "⬻ (conjuration, move, primal, teleportation); The poracha teleports up to 40 feet. It must have line of sight to the space it teleports to. It can't use Jaunt again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Object Meld",
+      "text": "⬺ (primal, transmutation); The poracha touches an adjacent object of enough volume to contain it. It merges into the object indefinitely, and while it's inside, time moves exceptionally slowly for it and it has only limited perception of the outside world. The poracha can sense what's going on outside the object only using tremorsense. The poracha can use only mental actions or Jaunt; if it Jaunts, it leaves the object and appears where it chooses. If a creature Strikes the object, the poracha is expelled unharmed."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +13 (finesse, magical); Damage 2d6+7 (2d6+7) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +13 (agile, finesse, magical); Damage 2d4+7 (2d4+7) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      5,
+      3,
+      0,
+      2,
+      3
+    ]
+  }
+}

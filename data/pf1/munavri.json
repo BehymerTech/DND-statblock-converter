@@ -1,0 +1,104 @@
+{
+  "name": "Munavri",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Occult Bestiary",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "munavri",
+  "alignment": "CG",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 17,
+    "notes": "armor +6, dex +1",
+    "touch": 11,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 11,
+    "formula": "1d8+3"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 14,
+    "int": 12,
+    "wis": 15,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +2, Ref +3, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +7, Diplomacy +7, Knowledge (arcana) +5, Knowledge (dungeoneering) +5, Perception +6, Sense Motive +6, Spellcraft +5",
+    "list": {
+      "Bluff": "+7",
+      "Diplomacy": "+7",
+      "Perception": "+6",
+      "Sense Motive": "+6",
+      "Spellcraft": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Munavri",
+    "Undercommon",
+    "telepathy 60 ft. (other munavris only)"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 0,
+  "feats": [
+    "Intimidating Glance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "rapier +1 (1d6+1/18-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Jade armor covers this lean albino humanoid, and her pale eyes have an eerie gleam.",
+  "meta": {
+    "race": "Female",
+    "class": "munavri mesmerist",
+    "cmb": "+1",
+    "cmd": 12,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, squad (3-7), or crew (10-40)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (breastplate, rapier, other treasure)"
+      }
+    ]
+  }
+}

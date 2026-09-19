@@ -1,0 +1,110 @@
+{
+  "name": "Ahmuuth",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Gods",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "extraplanar, psychopomp",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 18,
+    "notes": "dex +1, natural +3, shield +4",
+    "touch": 11,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 45,
+    "formula": "6d10+12"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 13,
+    "con": 15,
+    "int": 10,
+    "wis": 13,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +9, Ref +3, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (religion) +9, Perception +10, Sense Motive +10, Stealth +10, Survival +10, Use Magic Device +10",
+    "list": {
+      "Perception": "+10",
+      "Sense Motive": "+10",
+      "Stealth": "+10",
+      "Survival": "+10",
+      "Use Magic Device": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "spiritsense"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Infernal"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 6,
+  "feats": [
+    "Great Fortitude",
+    "Iron Will",
+    "Weapon Focus (dagger)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 returning undead-bane dagger +8/+3 (1d4+1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 returning undead-bane dagger +9 (1d4+1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This somberly dressed humanoid wears an ominous mask. Gravestones float near it like heavy shields.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 17,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Boneyard)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or inquisition (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

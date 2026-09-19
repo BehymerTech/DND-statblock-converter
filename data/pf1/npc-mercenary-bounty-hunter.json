@@ -1,0 +1,107 @@
+{
+  "name": "NPC Mercenary (Bounty Hunter)",
+  "sourceSystem": "pf1",
+  "source": "GameMastery Guide",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 22,
+    "notes": "armor +5, dex +5, shield +2",
+    "touch": 15,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 98,
+    "formula": "12d10+32"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 20,
+    "con": 14,
+    "int": 10,
+    "wis": 13,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +10, Ref +13, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +10, Craft (traps) +10, Handle Animal +14, Heal +5, Intimidate +14, Knowledge (geography) +5, Knowledge (local) +1, Knowledge (nature) +5, Linguistics +2, Perception +16, Ride +12, Stealth +24, Survival +16, Swim +6",
+    "list": {
+      "Climb": "+10",
+      "Handle Animal": "+14",
+      "Heal": "+5",
+      "Intimidate": "+14",
+      "Linguistics": "+2",
+      "Perception": "+16",
+      "Ride": "+12",
+      "Stealth": "+24",
+      "Survival": "+16",
+      "Swim": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 26,
+  "languages": [
+    "Common",
+    "Elven",
+    "Halfling"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 12,
+  "feats": [
+    "Deadly Aim",
+    "Endurance",
+    "Improved Precise Shot",
+    "Improved Vital Strike",
+    "Manyshot",
+    "Pinpoint Targeting",
+    "Point Blank Shot",
+    "Precise Shot",
+    "Rapid Shot",
+    "Vital Strike",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk rapier +18/+13/+8 (1d6+2/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 merciful composite longbow +18/+13/+8 (1d8+3/×3 plus 1d6 nonlethal)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "ranger 12",
+    "cmb": "+14",
+    "cmd": 29
+  }
+}

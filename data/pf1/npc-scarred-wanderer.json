@@ -1,0 +1,100 @@
+{
+  "name": "NPC Scarred Wanderer",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "alignment": "CN",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 24,
+    "notes": "armor +7, dex +2, rage -2, shield +7",
+    "touch": 10,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 415,
+    "formula": "20d12+280"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 15,
+    "con": 34,
+    "int": 10,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +28, Ref +12, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +22, Climb +20, Intimidate +20, Linguistics +3, Perception +25, Profession (miner) +5, Survival +6",
+    "list": {
+      "Acrobatics": "+22",
+      "Climb": "+20",
+      "Intimidate": "+20",
+      "Linguistics": "+3",
+      "Perception": "+25",
+      "Survival": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 35,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Giant",
+    "Terran",
+    "Undercommon"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 20,
+  "feats": [
+    "Greater Bull Rush",
+    "Improved Bull Rush",
+    "Improved Shield Bash",
+    "Iron Will",
+    "Lunge",
+    "Power Attack",
+    "Shield Master",
+    "Shield Slam",
+    "Toughness",
+    "Two-Weapon Fighting"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+5 bashing spiked heavy shield +31/+26/+21/+16 (2d6+11)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Dwarf",
+    "class": "barbarian 20",
+    "cmb": "26 (+30 bull rush)",
+    "cmd": "36 (42 vs. bull rush, 40 vs. trip)"
+  }
+}

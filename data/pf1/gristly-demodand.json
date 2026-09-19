@@ -1,0 +1,121 @@
+{
+  "name": "Gristly Demodand",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "chaotic, demodand, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 32,
+    "notes": "armor +1, dex +6, natural +15",
+    "touch": 16,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 264,
+    "formula": "23d10+138"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 50 ft. (average)"
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 22,
+    "con": 23,
+    "int": 17,
+    "wis": 14,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +19, Ref +15, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +21, Bluff +22, Climb +25, Fly +29, Intimidate +40, Knowledge (arcana) +14, Knowledge (planes) +14, Knowledge (religion) +14, Perception +25, Sense Motive +20, Spellcraft +23, Stealth +29, Survival +25",
+    "list": {
+      "Acrobatics": "+21",
+      "Bluff": "+22",
+      "Climb": "+25",
+      "Fly": "+29",
+      "Intimidate": "+40",
+      "Perception": "+25",
+      "Sense Motive": "+20",
+      "Spellcraft": "+23",
+      "Stealth": "+29",
+      "Survival": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "detect magic",
+    "see invisibility"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 23,
+  "feats": [
+    "Combat Reflexes",
+    "Critical Focus",
+    "Improved Critical (maul)",
+    "Improved Initiative",
+    "Intimidating Prowess",
+    "Lightning Reflexes",
+    "Lunge",
+    "Power Attack",
+    "Quicken Spell-Like Ability (excruciating deformation)",
+    "Quicken Spell-Like Ability (pain strike)",
+    "Staggering Critical",
+    "Stunning Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 vicious maul +34/+29/+24/+19 (2d6+16/19-20/×3 plus 2d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This obese humanoid has a wide mouth, batlike wings, and pale fluid seeping from rolls of black, greasy skin.",
+  "meta": {
+    "cmb": "+33",
+    "cmd": 49,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or hunting party (1 gristly demodand plus 2-5 tarry demodands)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk armored kilt, +1 vicious maul, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "name": "Tylosaurus",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 178.",
+  "size": "Gargantuan",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 137,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 feet, swim 80 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 20,
+    "con": 20,
+    "int": 2,
+    "wis": 18,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +17, Ref +19, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +19 (1d20+19); __Stealth__: +19 (1d20+19); ",
+    "list": {
+      "Athletics": "+19",
+      "Stealth": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 28,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Deep Breath",
+      "text": "A platecarpus can hold its breath for 2 hours."
+    },
+    {
+      "name": "Aquatic Drag",
+      "text": "⬻ Requirements The platecarpus has a creature grabbed Effect The platecarpus Swims up to half its Speed, carrying the grabbed creature with it. Strafing Chomp ⬻ The platecarpus Swims up to its Speed, making one jaws Strike at any point along the way. The Strike deals half damage."
+    },
+    {
+      "name": "Swallow Whole",
+      "text": "⬻ (attack); Large, 2d6+5 (2d6+5) bludgeoning, Rupture 18."
+    },
+    {
+      "name": "Vicious Strafe",
+      "text": "⬺ The tylosaurus Swims up to its Speed. It can make one jaws Strike and one tail Strike at any points during its movement, each attacking a different target."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +21 Damage 2d12+10 (2d12+10) piercing plus Improved Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +19 Damage 2d6+10 (2d6+10) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      5,
+      5,
+      -4,
+      4,
+      -2
+    ]
+  }
+}

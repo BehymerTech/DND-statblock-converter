@@ -1,0 +1,120 @@
+{
+  "name": "Faceless Hulk (Ugoroth)",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 110: The Thrushmoor Terror",
+  "size": "Large",
+  "type": "aberration",
+  "subtype": "shapechanger",
+  "alignment": "CE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 18,
+    "notes": "natural +9, size -1",
+    "touch": 9,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 119,
+    "formula": "14d8+56"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 11,
+    "con": 19,
+    "int": 16,
+    "wis": 11,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +8, Ref +4, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +3, Bluff +21, Climb +25, Disguise +25, Escape Artist +17, Intimidate +20, Knowledge (local) +7, Perception +17, Stealth +11, Survival +8, Swim +15",
+    "list": {
+      "Acrobatics": "+3",
+      "Bluff": "+21",
+      "Climb": "+25",
+      "Disguise": "+25",
+      "Escape Artist": "+17",
+      "Intimidate": "+20",
+      "Perception": "+17",
+      "Stealth": "+11",
+      "Survival": "+8",
+      "Swim": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Aquan",
+    "Common"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 10,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Deceitful",
+    "Improved Bull Rush",
+    "Iron Will",
+    "Power Attack",
+    "Throw Anything"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk greataxe +18/+13 (3d6+12/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +10 (1d8+8)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hairless, leathery giant has no discernible features aside from unsettling whorls across its skin and grotesque, slurping tongues where its face should be.",
+  "meta": {
+    "cmb": "19 (+21 bull rush)",
+    "cmd": "29 (31 vs. bull rush)",
+    "racialModifiers": [
+      "Disguise 4",
+      "Escape Artist 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any hills or mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or tribe (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk greataxe, other treasure)"
+      }
+    ]
+  }
+}

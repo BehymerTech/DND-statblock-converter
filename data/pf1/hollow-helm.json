@@ -1,0 +1,83 @@
+{
+  "name": "Hollow Helm",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 47: Ashes at Dawn",
+  "size": "Tiny",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 16,
+    "notes": "dex +1, natural +3, size +2",
+    "touch": 13,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 9,
+    "formula": "2d8"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 30 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": "None",
+    "int": "None",
+    "wis": 10,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +0, Ref +1, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +5, Stealth +12",
+    "list": {
+      "Perception": "+5",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Common (cannot speak)"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 1,
+  "feats": [
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +4 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Though at first appearing to be an ordinary suit of armor, this imposing being begins to move, its lumbering movements slow and methodical.",
+  "meta": {
+    "cmb": "+0",
+    "cmd": "11 (cannot be tripped)"
+  }
+}

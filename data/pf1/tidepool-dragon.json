@@ -1,0 +1,98 @@
+{
+  "name": "Tidepool Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 55: The Wormwood Mutiny",
+  "size": "Tiny",
+  "type": "dragon",
+  "subtype": "aquatic",
+  "alignment": "CN",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex +1, natural +2, size +2",
+    "touch": 13,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d12+4"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 30 ft. (average), swim 60 ft."
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 13,
+    "con": 13,
+    "int": 8,
+    "wis": 14,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +5, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +12, Knowledge (nature) +6, Perception +9, Survival +9, Swim +15",
+    "list": {
+      "Fly": "+12",
+      "Perception": "+9",
+      "Survival": "+9",
+      "Swim": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 4,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +6 (1d3), 2 claws +6 (1d3 plus attach)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This small draconic creature seems better suited for the waves than wind, its wings sweeping along its body like massive fins. Light from the water refracts off its resilient-looking cerulean hide as it snaps crustacean-like claws.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": 13,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm coastlines"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or clutch (3-6)"
+      }
+    ]
+  }
+}

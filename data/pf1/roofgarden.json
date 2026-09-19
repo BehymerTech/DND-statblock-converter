@@ -1,0 +1,105 @@
+{
+  "name": "Roofgarden",
+  "sourceSystem": "pf1",
+  "source": "Taldor, the First Empire",
+  "size": "Medium",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +3, natural +4",
+    "touch": 13,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 105,
+    "formula": "10d8+60"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., climb 10 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 16,
+    "con": 20,
+    "int": 1,
+    "wis": 14,
+    "cha": 3
+  },
+  "saves": {
+    "text": "Fort +12, Ref +6, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +14, Perception +10, Stealth +11",
+    "list": {
+      "Climb": "+14",
+      "Perception": "+10",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 20,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 7,
+  "feats": [
+    "Combat Reflexes",
+    "Iron Will",
+    "Lunge",
+    "Power Attack",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "3 tentacles +13 (1d6+6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "2 volatile pods +10 touch (4d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A thick carpet of moss and vines stretches out from a central tangled mass of plant matter.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": "26 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forest or urban"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

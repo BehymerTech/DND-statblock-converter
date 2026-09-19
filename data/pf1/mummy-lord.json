@@ -1,0 +1,114 @@
+{
+  "name": "Mummy Lord",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Pathfinder No. 84: Pyramid of the Sky Pharaoh",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "augmented human",
+  "alignment": "LE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 24,
+    "notes": "armor +6, deflection +1, dex +2, dodge +1, natural +4",
+    "touch": 14,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 103,
+    "formula": "9d8+63"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": "None",
+    "int": 10,
+    "wis": 20,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +11, Ref +7, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +17, Knowledge (religion) +12, Sense Motive +20, Spellcraft +12, Stealth +16, Perception +5",
+    "list": {
+      "Intimidate": "+17",
+      "Sense Motive": "+20",
+      "Spellcraft": "+12",
+      "Stealth": "+16",
+      "Perception": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 6,
+  "feats": [
+    "Blind-Fight",
+    "Combat Casting",
+    "Dodge",
+    "Improved Channel",
+    "Lightning Reflexes",
+    "Spell Focus (enchantment)",
+    "Spell Focus (necromancy)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 spear +12/+7 (1d8+8/×3 plus insidious mummy rot)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Dirty linen strips swathe this emaciated, once-noble figure from head to toe. Its eyes burn with unholy light.",
+  "meta": {
+    "race": "Male",
+    "class": "human mummy lord cleric 9",
+    "cmb": "+11",
+    "cmd": 25,
+    "racialModifiers": [
+      "Intimidate 8",
+      "Sense Motive 8",
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or court (mummy lord and 6-14 standard mummies or mummified creatures)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (mithral breastplate, +1 spear, headband of inspired wisdom +2, ring of protection +1, scroll of spiritual weapon, scroll of summon monster III)"
+      }
+    ]
+  }
+}

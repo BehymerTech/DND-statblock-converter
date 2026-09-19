@@ -1,0 +1,102 @@
+{
+  "name": "Trollhound",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Pathfinder No. 32: Rivers Run Red",
+  "size": "Medium",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex +1, natural +4",
+    "touch": 11,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d10+8"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 13,
+    "con": 15,
+    "int": 2,
+    "wis": 11,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +6, Ref +5, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +8, Stealth +5, Survival +1",
+    "list": {
+      "Perception": "+8",
+      "Stealth": "+5",
+      "Survival": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 18,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 4,
+  "feats": [
+    "Improved Initiative",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d10+6 plus disease and trip)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Foul-smelling fluids ooze from weeping sores across the scaly skin of this squat, powerful, and vaguely canine beast.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": "19 (23 vs. trip)",
+    "racialModifiers": [
+      "Survival 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

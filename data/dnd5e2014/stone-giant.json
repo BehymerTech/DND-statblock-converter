@@ -1,0 +1,94 @@
+{
+  "name": "Stone Giant",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Huge",
+  "type": "giant",
+  "subtype": "",
+  "alignment": "neutral",
+  "cr": "7",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": "natural armor"
+  },
+  "hp": {
+    "average": 126,
+    "formula": "11d12 + 55"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 15,
+    "con": 20,
+    "int": 10,
+    "wis": 12,
+    "cha": 9
+  },
+  "saves": {
+    "text": "dex +5, con +8, wis +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Athletics +12, Perception +4",
+    "list": {
+      "athletics": "+12",
+      "perception": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft."
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Giant"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Stone Camouflage",
+      "text": "The giant has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The giant makes two greatclub attacks."
+    },
+    {
+      "name": "Greatclub",
+      "text": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage."
+    },
+    {
+      "name": "Rock",
+      "text": "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [
+    {
+      "name": "Rock Catching",
+      "text": "If a rock or similar object is hurled at the giant, the giant can, with a successful DC 10 Dexterity saving throw, catch the missile and take no bludgeoning damage from it."
+    }
+  ],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

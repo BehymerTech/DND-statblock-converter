@@ -1,0 +1,98 @@
+{
+  "name": "NPC Belkzen Warchief",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "orc",
+  "alignment": "CE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 17,
+    "notes": "armor +6, dex +2, natural +1, rage -2",
+    "touch": 10,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 132,
+    "formula": "11d12+55"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 14,
+    "con": 20,
+    "int": 10,
+    "wis": 8,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +12, Ref +5, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +20, Handle Animal +12, Intimidate +20, Perception +13, Ride +14",
+    "list": {
+      "Climb": "+20",
+      "Handle Animal": "+12",
+      "Intimidate": "+20",
+      "Perception": "+13",
+      "Ride": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Common",
+    "Orc"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 11,
+  "feats": [
+    "Dazzling Display",
+    "Improved Bull Rush",
+    "Intimidating Prowess",
+    "Iron Will",
+    "Power Attack",
+    "Weapon Focus (greataxe)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 greataxe +22/+17/+12 (1d12+14/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "javelin +13/+8/+3 (1d6+8)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Orc",
+    "class": "barbarian 11",
+    "cmb": "19 (+21 bull rush)",
+    "cmd": "29 (31 vs. bull rush)"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "name": "Sepid",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 71.",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "Div",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 14",
+  "xp": null,
+  "ac": {
+    "value": 34,
+    "notes": ""
+  },
+  "hp": {
+    "average": 350,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 20,
+    "con": 26,
+    "int": 18,
+    "wis": 18,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +28, Ref +23, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +23 (1d20+23); __Arcana__: +20 (1d20+20); __Athletics__: +28 (1d20+28); __Deception__: +22 (1d20+22); __Intimidation__: +26 (1d20+26); __Religion__: +20 (1d20+20); __Stealth__: +23 (1d20+23); ",
+    "list": {
+      "Acrobatics": "+23",
+      "Arcana": "+20",
+      "Athletics": "+28",
+      "Deception": "+22",
+      "Intimidation": "+26",
+      "Religion": "+20",
+      "Stealth": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Common",
+    "Daemonic; [[telepathy]] 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Blatant Liar",
+      "text": "While all divs delight in lying, sepids are compulsive and predictable liars who always do the opposite of what they claim they'll do. If a sepid is ever forced or compelled to tell the truth, they take 4d8 (4d8) mental damage."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲ A sepid gains an extra reaction each round that they can use only to make an Attack of Opportunity."
+    },
+    {
+      "name": "Deflecting Lie",
+      "text": "⬲ Trigger A creature hits the sepid with a ranged Strike or a ranged spell attack roll Effect The sepid lies in an attempt to divert the attack. They roll a Deception check against the triggering creature's Perception DC. On a success, if the triggering attack roll was a success, it becomes a failure, and if the triggering attack roll was a critical hit, it becomes a normal success."
+    },
+    {
+      "name": "Items",
+      "text": "+2 striking falchion;"
+    },
+    {
+      "name": "Divine Ritual",
+      "text": "DC 34; div pact, create undead (no secondary caster required)"
+    },
+    {
+      "name": "Rain of Debris",
+      "text": "⬺ (divine, evil, evocation); The sepid calls forth a hail of stone, wood, metal, and similar debris in a 40-foot emanation, dealing 10d6 (10d6) bludgeoning damage and 5d6 (5d6) evil damage. Each creature in the area other than the sepid must attempt a basic DC 31 Reflex saving throw. The sepid can't use Rain of Debris again for 1d4 (1d4) rounds."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ falchion +30 (evil, forceful, magical, sweep); Damage 2d10+16 (2d10+16) slashing plus 1d6 (1d6) evil and 1d6 (1d6) mental"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +28 (agile, evil, magical); Damage 3d8+16 (3d8+16) slashing plus 1d6 (1d6) evil and 1d6 (1d6) mental"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      5,
+      8,
+      4,
+      4,
+      6
+    ],
+    "items": "+2 striking falchion;"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "name": "Mamiwa",
+  "sourceSystem": "pf1",
+  "source": "Ire of the Storm",
+  "size": "Tiny",
+  "type": "outsider",
+  "subtype": "air, elemental, native, water",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 15,
+    "notes": "dex +2, dodge +1, size +2",
+    "touch": 15,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d10+3"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 50 ft. (perfect), swim 50 ft."
+  },
+  "abilities": {
+    "str": 7,
+    "dex": 15,
+    "con": 12,
+    "int": 10,
+    "wis": 12,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +4, Ref +5, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +8, Fly +20, Knowledge (nature) +6, Perception +7, Survival +7, Swim +12",
+    "list": {
+      "Acrobatics": "+8",
+      "Fly": "+20",
+      "Perception": "+7",
+      "Survival": "+7",
+      "Swim": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common",
+    "rain speaker",
+    "speak with animals"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 3,
+  "feats": [
+    "Dodge",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +7 (1d3-2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "elemental blast +7 (2d6 cold or electricity)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The tail of this shimmering, salamander-like creature is composed entirely of water.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": "12 (can’t be tripped)",
+    "racialModifiers": [
+      "Acrobatics -8",
+      "Survival 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or stormfront (2-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

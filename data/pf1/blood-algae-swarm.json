@@ -1,0 +1,93 @@
+{
+  "name": "Blood Algae Swarm",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 130: City in the Lion's Eye",
+  "size": "Diminutive",
+  "type": "plant",
+  "subtype": "swarm",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "dex +3, natural +4, size +4",
+    "touch": 17,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 97,
+    "formula": "13d8+39"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 20 ft."
+  },
+  "abilities": {
+    "str": 3,
+    "dex": 16,
+    "con": 16,
+    "int": "None",
+    "wis": 11,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +11, Ref +7, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Swim +11, Perception +10",
+    "list": {
+      "Swim": "+11",
+      "Perception": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 9,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "swarm (3d6 plus distraction)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "An oily substance in the water surrounds this seething red mass of wormlike lumps of algae.",
+  "meta": {
+    "cmb": "None",
+    "cmd": "None",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm rivers"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or colony (2-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

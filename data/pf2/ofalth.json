@@ -1,0 +1,102 @@
+{
+  "name": "Ofalth",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 251.",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 31,
+    "notes": ""
+  },
+  "hp": {
+    "average": 170,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 16,
+    "con": 22,
+    "int": 6,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +22, Ref +17, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +23 (1d20+23); __Stealth__: +19 (1d20+19), (Stealth: +23 (1d20+23) in trash and rubbish); ",
+    "list": {
+      "Athletics": "+23",
+      "Stealth": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Common (can't speak any language)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Putrid Stench",
+      "text": "(aura); 30 feet. A creature entering the aura must succeed at a DC 28 Fortitude save or become sickened 1 until the end of its turn (plus slowed 1 for as long as it is sickened on a critical failure). While within the aura, an affected creature takes a –2 circumstance penalty to saves against disease and to recover from the sickened condition. A creature that succeeds at its save is temporarily immune for 1 minute."
+    },
+    {
+      "name": "Filth Wallow",
+      "text": "A ofalth gains fast healing 2 when in an area with a high concentration of debris, junk, or excrement, such as a refuse heap or sewer."
+    },
+    {
+      "name": "Wretched Weeps",
+      "text": "(disease); Saving Throw DC 26 Fortitude. Stage 1 carrier with no ill effect (1 day) Stage 2 2d8 (2d8) persistent bleed damage every hour and enfeebled 1 (1 day) Stage 3 2d8 (2d8) persistent bleed damage every hour and enfeebled 2 (1 day)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +23 (reach 10 feet); Damage 2d12+13 (2d12+13) bludgeoning plus wretched weeps"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ fling offal +19 (range increment 30 feet); Damage 2d10+7 (2d10+7) bludgeoning plus wretched weeps"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      3,
+      6,
+      -2,
+      2,
+      -2
+    ]
+  }
+}

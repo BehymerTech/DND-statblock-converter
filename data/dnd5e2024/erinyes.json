@@ -1,0 +1,102 @@
+{
+  "name": "Erinyes",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "Devil",
+  "alignment": "Lawful Evil",
+  "cr": "12",
+  "level": null,
+  "xp": 8400,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 178,
+    "formula": "21d8 + 84"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 60,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., Fly 60 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 18,
+    "int": 14,
+    "wis": 14,
+    "cha": 18
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +6, Persuasion +8",
+    "list": {
+      "Perception": "+6",
+      "Persuasion": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Truesight 120 ft."
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Infernal; telepathy 120 ft."
+  ],
+  "initiative": "+7 (17)",
+  "babOrProficiency": 4,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Diabolical Restoration",
+      "text": "If the erinyes dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The erinyes has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Magic Rope",
+      "text": "The erinyes has a magic rope. While bearing it, the erinyes can use the Entangling Rope action. The rope has AC 20, HP 90, and Immunity to Poison and Psychic damage. The rope turns to dust if reduced to 0 Hit Points, if it is 5+ feet away from the erinyes for 1 hour or more, or if the erinyes dies. If the rope is damaged or destroyed, the erinyes can fully restore it when finishing a Short or Long Rest."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The erinyes makes three Withering Sword attacks and can use Entangling Rope."
+    },
+    {
+      "name": "Withering Sword",
+      "text": "_Melee Attack Roll:_ +8, reach 5 ft. _Hit:_ 13 (2d8 + 4) Slashing damage plus 11 (2d10) Necrotic damage."
+    },
+    {
+      "name": "Entangling Rope (Requires Magic Rope)",
+      "text": "_Strength Saving Throw:_ DC 16, one creature the erinyes can see within 120 feet. _Failure:_ 14 (4d6) Force damage, and the target has the Restrained condition until the rope is destroyed, the erinyes uses a Bonus Action to release the target, or the erinyes uses Entangling Rope again."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [
+    {
+      "name": "Parry",
+      "text": "_Trigger:_ The erinyes is hit by a melee attack roll while holding a weapon. _Response:_ The erinyes adds 4 to its AC against that attack, possibly causing it to miss. ## Ettercap"
+    }
+  ],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

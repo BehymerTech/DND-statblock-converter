@@ -1,0 +1,97 @@
+{
+  "name": "Ogre Glutton",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "CE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 20,
+    "notes": "armor +5, deflection +1, dex +2, natural +5, rage -2, size -1",
+    "touch": 10,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 155,
+    "formula": "4d8+8d12+80"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 15,
+    "con": 21,
+    "int": 4,
+    "wis": 12,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +16, Ref +6, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +14, Survival +6",
+    "list": {
+      "Perception": "+14",
+      "Survival": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Giant"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 11,
+  "feats": [
+    "Gluttonous Gobbler",
+    "Greater Grapple",
+    "Improved Grapple",
+    "Improved Unarmed Strike",
+    "Iron Will",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 greataxe +21/+16/+11 (3d6+16/×3), bite +15 (1d8+15 plus animal fury)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Ogre",
+    "class": "barbarian 8",
+    "cmb": "22 (+26 grapple)",
+    "cmd": "33 (35 vs. grapple)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or cold hills"
+      }
+    ]
+  }
+}

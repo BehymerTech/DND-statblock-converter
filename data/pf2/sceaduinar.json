@@ -1,0 +1,109 @@
+{
+  "name": "Sceaduinar",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 233.",
+  "size": "Medium",
+  "type": "Negative",
+  "subtype": "Aberration",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 100,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, fly 60 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 22,
+    "con": 18,
+    "int": 14,
+    "wis": 18,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +16, Ref +18, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +17 (1d20+17); __Athletics__: +13 (1d20+13); __Intimidation__: +13 (1d20+13); __Occultism__: +15 (1d20+15); __Stealth__: +17 (1d20+17); ",
+    "list": {
+      "Acrobatics": "+17",
+      "Athletics": "+13",
+      "Intimidation": "+13",
+      "Occultism": "+15",
+      "Stealth": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision, lifesense 120"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Void Child",
+      "text": "Sceaduinars have neither souls nor the ability to create. A sceaduinar is immune to effects that target a soul (such as bind soul or resurrect) or that require knowledge of a creature's identity (such as scrying), and critically fails Crafting checks."
+    },
+    {
+      "name": "Wing Flash",
+      "text": "⬲ Trigger A creature attempts a melee attack against a sceaduinar or an Effect Acrobatics check to [Tumble Through](../../rules/actions/tumble-through.md) the sceaduinar's space; The sceaduinar flexes its wings to emit a brief pulse of negative energy that deals 4d6 (4d6) negative damage to the triggering creature (DC 22 basic Reflex save)."
+    },
+    {
+      "name": "Drain Life",
+      "text": "(necromancy, occult); When the sceaduinar damages a living creature with its jaws Strike, the sceaduinar gains 5 temporary Hit Points and the creature must succeed at a DC 25 Fortitude save or become drained 1. Further damage dealt to the creature by the sceaduinar increases the drained value by 1 on a failed save, to a maximum of drained 4."
+    },
+    {
+      "name": "Entropic Touch",
+      "text": "Negative damage dealt by a sceaduinar damages undead and creatures with negative healing as if it were positive damage. The sceaduinar's melee Strikes have the benefits of the ghost touch property rune on attacks against incorporeal undead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +18 (agile, finesse, magical); Damage 2d6+4 (2d6+4) piercing plus 2d6 (2d6) negative and drain life"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ wing +18 (agile, finesse, magical, reach 10 feet); Damage 2d6+4 (2d6+4) slashing plus 2d6 (2d6) negative"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      6,
+      4,
+      2,
+      4,
+      0
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "name": "NPC Demon-Blooded Sorcerer",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, orc",
+  "alignment": "CE",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 22,
+    "notes": "armor +5, dex +2, dodge +1, natural +4",
+    "touch": 13,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 152,
+    "formula": "18d6+87"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 14,
+    "int": 8,
+    "wis": 12,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +11, Ref +9, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +6, Intimidate +14, Knowledge (arcana) +3, Knowledge (planes) +5, Linguistics +0, Perception +10, Spellcraft +3",
+    "list": {
+      "Fly": "+6",
+      "Intimidate": "+14",
+      "Linguistics": "+0",
+      "Perception": "+10",
+      "Spellcraft": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Orc"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 9,
+  "feats": [
+    "Augment Summoning",
+    "Combat Casting",
+    "Dodge",
+    "Empower Spell",
+    "Eschew Materials",
+    "Extend Spell",
+    "Great Fortitude",
+    "Greater Spell Focus (conjuration)",
+    "Improved Initiative",
+    "Quicken Spell",
+    "Spell Focus (conjuration)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +12 (1d6+3 plus 1d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-orc",
+    "class": "sorcerer 18",
+    "cmb": "+12",
+    "cmd": 25
+  }
+}

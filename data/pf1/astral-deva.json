@@ -1,0 +1,113 @@
+{
+  "name": "Astral Deva",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "angel, extraplanar, good",
+  "alignment": "NG",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 29,
+    "notes": "dex +4, natural +15, deflection vs. evil +4",
+    "touch": 14,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 172,
+    "formula": "15d10+90"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 100 ft. (good)"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 19,
+    "con": 21,
+    "int": 18,
+    "wis": 18,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +16, Ref +13, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +22, Craft (any one) +22, Diplomacy +24, Fly +26, Intimidate +24, Knowledge (planes) +22, Knowledge (religion) +19, Perception +26, Sense Motive +26, Stealth +22",
+    "list": {
+      "Acrobatics": "+22",
+      "Diplomacy": "+24",
+      "Fly": "+26",
+      "Intimidate": "+24",
+      "Perception": "+26",
+      "Sense Motive": "+26",
+      "Stealth": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 15,
+  "feats": [
+    "Alertness",
+    "Cleave",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack",
+    "Toughness",
+    "Weapon Focus (warhammer)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 disrupting warhammer +26/+21/+16 (1d8+14/×3 plus stun)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This tall, human-like creature has long, feathery wings and a gentle inner radiance that makes it difficult to look directly at.",
+  "meta": {
+    "cmb": "+23",
+    "cmd": 37,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any good-aligned plane"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or squad (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+2 disrupting warhammer)"
+      }
+    ]
+  }
+}

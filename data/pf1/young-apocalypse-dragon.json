@@ -1,0 +1,97 @@
+{
+  "name": "Young Apocalypse Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 137: The City Outside of Time",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "evil, extraplanar",
+  "alignment": "NE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 24,
+    "notes": "dex +1, natural +14, size -1",
+    "touch": 10,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 147,
+    "formula": "13d12+56"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 200 ft. (poor)"
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 12,
+    "con": 19,
+    "int": 16,
+    "wis": 17,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +13, Ref +12, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +20, Fly +12, Know. (planes) +20, Know. (religion) +20, Perception +20, Sense Motive +20, Spellcraft +20, Stealth +14, Survival +20",
+    "list": {
+      "Bluff": "+20",
+      "Fly": "+12",
+      "Perception": "+20",
+      "Sense Motive": "+20",
+      "Spellcraft": "+20",
+      "Stealth": "+14",
+      "Survival": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon sense"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Draconic",
+    "Infernal"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 14,
+  "feats": [
+    "Cleave",
+    "Improved Critical (tail slap)",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Lunge",
+    "Multiattack",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +22 (2d6+13 plus grab), 2 claws +22 (1d8+9), tail slap +20 (1d8+13/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Gangrenous wounds mar this dragon’s twisted body.",
+  "meta": {
+    "cmb": "+24",
+    "cmd": "35 (39 vs. trip)"
+  }
+}

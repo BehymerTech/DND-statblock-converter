@@ -1,0 +1,121 @@
+{
+  "name": "Izfiitar",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "chaotic, extraplanar, protean, shapechanger",
+  "alignment": "CN",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 36,
+    "notes": "dex +10, deflection +4, natural +12",
+    "touch": 24,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 362,
+    "formula": "25d10+225"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 50 ft. (perfect), swim 40 ft."
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 31,
+    "con": 28,
+    "int": 24,
+    "wis": 27,
+    "cha": 28
+  },
+  "saves": {
+    "text": "Fort +27, Ref +22, Will +26",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +38, Bluff +37, Diplomacy +37, Fly +46, Knowledge (arcana) +35, Knowledge (planes) +35, Knowledge (history) +32, Knowledge (religion) +32, Perception +36, Sense Motive +36, Spellcraft +35, Stealth +38, Swim +42",
+    "list": {
+      "Acrobatics": "+38",
+      "Bluff": "+37",
+      "Diplomacy": "+37",
+      "Fly": "+46",
+      "Perception": "+36",
+      "Sense Motive": "+36",
+      "Spellcraft": "+35",
+      "Stealth": "+38",
+      "Swim": "+42"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "detect law",
+    "true seeing"
+  ],
+  "passivePerception": 46,
+  "languages": [
+    "Abyssal",
+    "Protean",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+14",
+  "babOrProficiency": 25,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Flyby Attack",
+    "Greater Vital Strike",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Multiattack",
+    "Power Attack",
+    "Quicken Spell- Like Ability (confusion)",
+    "Quicken Spell- Like Ability (disintegrate)",
+    "Quicken Spell- Like Ability (telekinesis)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +34 (4d6+9/19-20 plus greater warpwave), 6 claws +34 (1d6+9 plus greater warpwave), 2 tail slaps +32 (1d8+4 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This serpentine monster has six arms and is crowned by a halo of ever-changing symbols.",
+  "meta": {
+    "cmb": "+34",
+    "cmd": "58 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Maelstrom)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or chorus (2-3)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

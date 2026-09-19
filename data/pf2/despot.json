@@ -1,0 +1,111 @@
+{
+  "name": "Despot",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 249.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 5",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 56,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 10,
+    "int": 18,
+    "wis": 14,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +9, Ref +9, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +10 (1d20+10); __Deception__: +13 (1d20+13); __Diplomacy__: +12 (1d20+12); __Intimidation__: +13 (1d20+13); __Performance__: +13 (1d20+13); __Society__: +12 (1d20+12); __Warfare lore__: +10 (1d20+10); ",
+    "list": {
+      "Athletics": "+10",
+      "Deception": "+13",
+      "Diplomacy": "+12",
+      "Intimidation": "+13",
+      "Performance": "+13",
+      "Society": "+12",
+      "Warfare lore": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 21,
+  "languages": [
+    "Common",
+    "Infernal"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Society",
+      "text": "+12, Warfare Lore +10 Str +2, Dex +2, Con +0, Int +4, Wis +2, Cha +4 Items lesser darkvision elixir, minor healing potion (2), spiked gauntlet."
+    },
+    {
+      "name": "Persistent Lies",
+      "text": "Any creature deceived by the despot's Deception skill believes the deception more readily on the next day. Any attempts to later attempt a Perception check against the despot's Deception DC take a –2 circumstance penalty, as do other creatures' attempts to convince the creature otherwise, such as through Diplomacy or further Deception."
+    },
+    {
+      "name": "Items",
+      "text": "lesser darkvision elixir, minor healing potion (2), spiked gauntlet;"
+    },
+    {
+      "name": "Bloodline Magic",
+      "text": "When the despot casts a bloodline spell, enthrall, flaming sphere, or charm, either a target takes 1 fire damage per spell level, or the despot gains a +1 status bonus to Deception checks for 1 round."
+    },
+    {
+      "name": "Dangerous Sorcery",
+      "text": "When the despot Casts a Spell from a spell slot, if the spell deals damage and doesn't have a duration, the despot gains a status bonus equal to the spell's level to that spell's damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ spiked gauntlet +11 (agile); Damage 1d4+4 (1d4+4) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      2,
+      0,
+      4,
+      2,
+      4
+    ],
+    "items": "lesser darkvision elixir, minor healing potion (2), spiked gauntlet;"
+  }
+}

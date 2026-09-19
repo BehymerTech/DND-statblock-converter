@@ -1,0 +1,93 @@
+{
+  "name": "Stalk Beetle",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Bestiary",
+  "size": "Medium",
+  "type": "vermin",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 16,
+    "notes": "dex +1, natural +5",
+    "touch": 11,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 22,
+    "formula": "4d8+4"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 10 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 13,
+    "con": 12,
+    "int": "None",
+    "wis": 10,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +5, Ref +2, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +11, Perception +0",
+    "list": {
+      "Climb": "+11",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 10,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 3,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +6 (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This ravenous beetle is the size of a pony, and sports a pair of deadly, serrated mandibles.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": "17 (25 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts (Rahadoum)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, swarm (2-8), or plague (9-20)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

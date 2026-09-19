@@ -1,0 +1,97 @@
+{
+  "name": "Killer Seahorse",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Huge",
+  "type": "animal",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 17,
+    "notes": "armor +8, dex +1, size -2",
+    "touch": 9,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 63,
+    "formula": "6d8+36"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 40 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 12,
+    "con": 21,
+    "int": 1,
+    "wis": 12,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +10, Ref +6, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +13, Swim +16",
+    "list": {
+      "Perception": "+13",
+      "Swim": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 23,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 4,
+  "feats": [
+    "Endurance",
+    "Skill Focus (Perception)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +10 (1d8+8 plus bleed), tail slap +5 (1d6+4 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This elephant-sized sea creature resembles a horse crossed with a fish, with crazed whirling eyes.",
+  "meta": {
+    "cmb": "+14",
+    "cmd": 25,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or school (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

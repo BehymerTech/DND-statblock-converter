@@ -1,0 +1,98 @@
+{
+  "name": "Mythic Owlbear",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "mythic",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 17,
+    "notes": "dex +1, natural +7, size -1",
+    "touch": 10,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 67,
+    "formula": "5d10+40"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 12,
+    "con": 18,
+    "int": 2,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +10, Ref +5, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +12",
+    "list": {
+      "Perception": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 22,
+  "languages": [],
+  "initiative": "+7",
+  "babOrProficiency": 5,
+  "feats": [
+    "Great Fortitude",
+    "Improved Initiative",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +9 (1d8+5), 2 claws +9 (1d6+5 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This beast has the general size and shape of a great bear, yet the head and feathers of an owl.",
+  "meta": {
+    "cmb": "11 (+15 grapple)",
+    "cmd": "22 (26 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

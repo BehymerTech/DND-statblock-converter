@@ -1,0 +1,125 @@
+{
+  "name": "Gang Leader",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 249.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 26,
+    "notes": ""
+  },
+  "hp": {
+    "average": 104,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 18,
+    "con": 14,
+    "int": 14,
+    "wis": 8,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +13, Ref +17, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +13 (1d20+13); __Athletics__: +13 (1d20+13); __Deception__: +15 (1d20+15); __Intimidation__: +17 (1d20+17); __Society__: +11 (1d20+11); __Thievery__: +15 (1d20+15); __Underworld lore__: +15 (1d20+15); ",
+    "list": {
+      "Acrobatics": "+13",
+      "Athletics": "+13",
+      "Deception": "+15",
+      "Intimidation": "+17",
+      "Society": "+11",
+      "Thievery": "+15",
+      "Underworld lore": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 24,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Deny Advantage",
+      "text": "The gang leader isn't flat-footed to creatures of 7th level or lower that are hidden, undetected, flanking, or using surprise attack."
+    },
+    {
+      "name": "Evasion",
+      "text": "When the gang leader rolls a success on a Reflex save, they get a critical success instead."
+    },
+    {
+      "name": "Surprise Attack",
+      "text": "On the first round of combat, if the gang leader rolls Deception or Stealth for initiative, creatures who haven't acted are flat-footed to the gang leader."
+    },
+    {
+      "name": "Nimble Dodge",
+      "text": "⬲ Trigger The gang leader is targeted with an attack by an attacker they can see Effect The gang leader gains a +2 circumstance bonus to AC against the triggering attack."
+    },
+    {
+      "name": "Brutal Rally",
+      "text": "⬲ (auditory, emotion, linguistic, mental); Trigger The gang leader rolls a critical hit against a creature Effect All allies that can see the gang leader gain a +1 circumstance bonus to attack rolls until the start of the gang leader's next turn."
+    },
+    {
+      "name": "Gang Up",
+      "text": "Any enemy is flat-footed against the gang leader's melee attacks due to flanking as long as the enemy is within melee reach of both the gang leader and one of the gang leader's allies."
+    },
+    {
+      "name": "Quick Draw",
+      "text": "⬻ The gang leader Interacts to draw a weapon, then Strikes with that weapon."
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "The gang leader deals an extra 2d6 (2d6) precision damage to flat-footed creatures."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ shortsword +18 (agile, magical, versatile s); Damage 1d6+10 (1d6+10) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ sling +18 (propulsive, range increment 50 feet, reload 1); Damage 1d6+8 (1d6+8) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      4,
+      2,
+      2,
+      -1,
+      4
+    ]
+  }
+}

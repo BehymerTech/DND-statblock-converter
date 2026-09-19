@@ -1,0 +1,127 @@
+{
+  "name": "Barbatos",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "evil, extraplanar, lawful, shapechanger",
+  "alignment": "LE",
+  "cr": "26",
+  "level": null,
+  "xp": 2457600,
+  "ac": {
+    "value": 44,
+    "notes": "deflection +4, dex +9, dodge +1, natural +8, profane +12",
+    "touch": 36,
+    "flatFooted": 34
+  },
+  "hp": {
+    "average": 604,
+    "formula": "31d10+434"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., other_semicolon air walk ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 29,
+    "con": 38,
+    "int": 29,
+    "wis": 30,
+    "cha": 31
+  },
+  "saves": {
+    "text": "Fort +28, Ref +32, Will +31",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +40, Bluff +44, Diplomacy +41, Handle Animal +44, Intimidate +41, Knowledge (arcana) +40, Knowledge (religion) +40, Knowledge (nature) +43, Knowledge (planes) +43, Linguistics +43, Perception +44, Sense Motive +44, Spellcraft +43, Stealth +43, Use Magic Device +41",
+    "list": {
+      "Acrobatics": "+40",
+      "Bluff": "+44",
+      "Diplomacy": "+41",
+      "Handle Animal": "+44",
+      "Intimidate": "+41",
+      "Linguistics": "+43",
+      "Perception": "+44",
+      "Sense Motive": "+44",
+      "Spellcraft": "+43",
+      "Stealth": "+43",
+      "Use Magic Device": "+41"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect chaos",
+    "detect good",
+    "see in darkness",
+    "true seeing"
+  ],
+  "passivePerception": 54,
+  "languages": [
+    "all (language mastery)",
+    "speak with animals",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+13",
+  "babOrProficiency": 31,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Deflect Arrows",
+    "Dodge",
+    "Double Slice",
+    "Greater Trip",
+    "Greater Two-Weapon Fighting",
+    "Improved Critical (quarterstaff)",
+    "Improved Initiative",
+    "Improved Lightning Reflexes",
+    "Improved Trip",
+    "Improved Two- Weapon Fighting",
+    "Lightning Reflexes",
+    "Mobility",
+    "Quicken Spell- Like Ability (contagion)",
+    "Two-Weapon Fighting"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "Eyjatas +41/+41/+41/+36/+36/+31/+31/+26 (1d6+19/19-20), beard +36 (1d8+5 plus bleed and disease)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This humanoid wears a shabby hooded cloak. Within the darkness of its hood, eerie eyes glow and strange shapes twitch.",
+  "meta": {
+    "cmb": "41 (+45 trip)",
+    "cmd": "77 (79 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple (Eyjatas, other treasure)"
+      }
+    ]
+  }
+}

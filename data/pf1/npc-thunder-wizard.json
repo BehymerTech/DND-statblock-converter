@@ -1,0 +1,102 @@
+{
+  "name": "NPC Thunder Wizard",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "halfling",
+  "alignment": "LN",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "armor +4, deflection +1, dex +3, size +1",
+    "touch": 15,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 37,
+    "formula": "7d6+10"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 16,
+    "con": 12,
+    "int": 16,
+    "wis": 13,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +5, Ref +7, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +5, Bluff +6, Climb +0, Knowledge (arcana) +13, Knowledge (dungeoneering) +9, Knowledge (engineering) +7, Knowledge (planes) +8, Perception +10, Spellcraft +13, Stealth +10, Use Magic Device +5",
+    "list": {
+      "Acrobatics": "+5",
+      "Bluff": "+6",
+      "Climb": "+0",
+      "Perception": "+10",
+      "Spellcraft": "+13",
+      "Stealth": "+10",
+      "Use Magic Device": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Goblin",
+    "Halfling",
+    "Infernal"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 3,
+  "feats": [
+    "Combat Casting",
+    "Empower Spell",
+    "Improved Familiar",
+    "Improved Initiative",
+    "Iron Will",
+    "Scribe Scroll"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +2 (1d3-2/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +7 (1d3-2/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Halfling",
+    "class": "evoker 7",
+    "cmb": "+0",
+    "cmd": 14
+  }
+}

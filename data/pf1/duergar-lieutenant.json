@@ -1,0 +1,104 @@
+{
+  "name": "Duergar Lieutenant",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "alignment": "LE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 20,
+    "notes": "armor +5, dex +1, natural +4",
+    "touch": 11,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 61,
+    "formula": "6d10+24"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 16,
+    "int": 10,
+    "wis": 15,
+    "cha": 4
+  },
+  "saves": {
+    "text": "Fort +8, Ref +6, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +11, Handle Animal +6, Knowledge (dungeoneering) +9, Perception +11, Ride +9, Survival +11",
+    "list": {
+      "Climb": "+11",
+      "Handle Animal": "+6",
+      "Perception": "+11",
+      "Ride": "+9",
+      "Survival": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Undercommon"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 6,
+  "feats": [
+    "Cleave",
+    "Endurance",
+    "Mounted Combat",
+    "Power Attack",
+    "Weapon Focus (warhammer)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 warhammer +11/+6 (2d6+4/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk light crossbow +8 (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Duergar",
+    "class": "ranger 6",
+    "cmb": "+9",
+    "cmd": "20 (24 vs. bull rush or trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      }
+    ]
+  }
+}

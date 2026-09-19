@@ -1,0 +1,93 @@
+{
+  "name": "Giant Frilled Lizard",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 229.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 5",
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 75,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, climb 30 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 12,
+    "con": 18,
+    "int": 2,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +13, Ref +12, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +10 (1d20+10); __Athletics__: +14 (1d20+14); __Stealth__: +10 (1d20+10); ",
+    "list": {
+      "Acrobatics": "+10",
+      "Athletics": "+14",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Intimidating Display",
+      "text": "⬺ (auditory, emotion, fear, mental, visual); The giant frilled lizard Strides. If it ends that Stride adjacent to at least one other creature, it suddenly displays its colorful neck frills and issues a frightening hiss. Each adjacent creature must succeed at a DC 21 Will save or become frightened 2 (or frightened 3 on a critical failure). The creature is then temporarily immune to Intimidating Display for 1 minute."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +16 (reach 10 feet); Damage 2d8+7 (2d8+7) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +16 (agile, reach 10 feet); Damage 2d6+7 (2d6+7) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      1,
+      4,
+      -4,
+      2,
+      0
+    ]
+  }
+}

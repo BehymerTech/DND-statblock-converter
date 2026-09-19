@@ -1,0 +1,104 @@
+{
+  "name": "Greater Shadow",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "incorporeal",
+  "alignment": "CE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 18,
+    "notes": "deflection +2, dex +5, dodge +1",
+    "touch": 18,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 58,
+    "formula": "9d8+18"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 40 ft. (good)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 20,
+    "con": "None",
+    "int": 6,
+    "wis": 12,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +5, Ref +8, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +15, Perception +13, Stealth +20",
+    "list": {
+      "Fly": "+15",
+      "Perception": "+13",
+      "Stealth": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 6,
+  "feats": [
+    "Dodge",
+    "Flyby Attack",
+    "Mobility",
+    "Skill Focus (Perception)",
+    "Skill Focus (Stealth)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "incorporeal touch +11 (1d8 Strength)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This shadowy figure sways and moves with an erratic grace, as if lit by an unseen fire.",
+  "meta": {
+    "cmb": "+11",
+    "cmd": 24,
+    "racialModifiers": [
+      "Stealth 4",
+      "Stealth -4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

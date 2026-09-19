@@ -1,0 +1,107 @@
+{
+  "name": "Tanaq Mammoth-Eater, Taiga Giant Shaman",
+  "sourceSystem": "pf1",
+  "source": "Giants Revisited",
+  "size": "Huge",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "CN",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 32,
+    "notes": "armor +5, deflection +4, dex +4, dodge +1, natural +10, size -2",
+    "touch": 17,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 312,
+    "formula": "15d8+10d8+200"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft.,  40 ft. without armor"
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 18,
+    "con": 26,
+    "int": 12,
+    "wis": 21,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +26, Ref +16, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +28, Heal +27, Knowledge (nature) +16, Knowledge (religion) +14, Perception +23, Stealth +9, Survival +29, Use Magic Device +13",
+    "list": {
+      "Climb": "+28",
+      "Heal": "+27",
+      "Perception": "+23",
+      "Stealth": "+9",
+      "Survival": "+29",
+      "Use Magic Device": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 18,
+  "feats": [
+    "Bloody Assault",
+    "Combat Reflexes",
+    "Divine Interference",
+    "Dodge",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Natural Spell",
+    "Power Attack",
+    "Powerful Shape",
+    "Self-Sufficient",
+    "Shot on the Run",
+    "Vital Strike",
+    "Weapon Focus (spear)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bloodstone impaler +30/+25/+20/+15 (3d6+19/19-20/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +20 (2d6+12)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering, gray-skinned giant holds a massive spear, its crimson haft sporting a head of barbed and blackened stone.",
+  "meta": {
+    "race": "Male",
+    "class": "taiga giant druid (mountain druid) 10 (Pathfinder RPG Advanced Player’s Guide 100)",
+    "cmb": "+32",
+    "cmd": "51 (54 vs. movement effects)"
+  }
+}

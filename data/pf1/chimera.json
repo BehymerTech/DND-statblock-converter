@@ -1,0 +1,108 @@
+{
+  "name": "Chimera",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 19,
+    "notes": "dex +1, natural +9, size -1",
+    "touch": 10,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 85,
+    "formula": "9d10+36"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 50 ft. (poor)"
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 12,
+    "con": 17,
+    "int": 4,
+    "wis": 13,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +2, Perception +10, Stealth +4",
+    "list": {
+      "Fly": "+2",
+      "Perception": "+10",
+      "Stealth": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 9,
+  "feats": [
+    "Hover",
+    "Improved Initiative",
+    "Iron Will",
+    "Skill Focus (Perception)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +12 (2d6+4), bite +12 (1d8+4), gore +12 (1d8+4), 2 claws +12 (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This winged monster has the body of a lion, though two more heads flank its central feline one-a dragon and a horned goat.",
+  "meta": {
+    "cmb": "+14",
+    "cmd": "25 (29 vs. trip)",
+    "racialModifiers": [
+      "Perception 2",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate hills"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, pride (3-6), or flight (7-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

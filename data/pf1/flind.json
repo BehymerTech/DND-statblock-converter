@@ -1,0 +1,104 @@
+{
+  "name": "Flind",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "gnoll",
+  "alignment": "NE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 17,
+    "notes": "armor +3, dex +2, natural +2",
+    "touch": 12,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d8+12"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 15,
+    "con": 16,
+    "int": 12,
+    "wis": 15,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +7, Ref +3, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Handle Animal +8, Intimidate +5, Perception +6",
+    "list": {
+      "Handle Animal": "+8",
+      "Intimidate": "+5",
+      "Perception": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Common",
+    "Gnoll"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "flindbar +6 (1d8+6/×2 plus disarm, trip)"
+    },
+    {
+      "name": "Ranged",
+      "text": "composite longbow +5 (1d8+4/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This powerfully built, hyena-like humanoid is larger than the average gnoll and has a cunning, cruel gaze.",
+  "meta": {
+    "cmb": "+7",
+    "cmd": 19,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm plains or deserts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, hunting party (1 flind, 1-4 gnolls and 1-2 hyenas), band (10-100 gnolls [30% flinds and 50% noncombatant children], 1 sergeant of 3rd level per 20 adults, 1 leader of 4th-6th level, and 5-8 hyenas), or tribe (20-200 gnolls [30% flinds and 50% noncombatant children] plus 1 sergeant of 3rd level per 20 gnolls, 1 or 2 lieutenants of 4th or 5th level, 1 leader of 6th-8th level, 7-12 hyenas, and 4-7 hyaenodons)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (studded leather, composite longbow [Str +4] with 20 arrows, flindbar, other treasure)"
+      }
+    ]
+  }
+}

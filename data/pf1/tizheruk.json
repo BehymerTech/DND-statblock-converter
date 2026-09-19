@@ -1,0 +1,102 @@
+{
+  "name": "Tizheruk",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Tears at Bitter Manor",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +3, natural +6, size -1",
+    "touch": 12,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 52,
+    "formula": "5d10+25"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 17,
+    "con": 21,
+    "int": 2,
+    "wis": 13,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +9, Ref +7, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +7, Stealth +6, Swim +19",
+    "list": {
+      "Perception": "+7",
+      "Stealth": "+6",
+      "Swim": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 5,
+  "feats": [
+    "Power Attack",
+    "Skill Focus (Stealth)",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +12 (2d6+10 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This serpentine beast undulates through the water. Its scaly skin and its f lesh are clear, revealing its red-and-brown organs.",
+  "meta": {
+    "cmb": "13 (+17 grapple)",
+    "cmd": "26 (can’t be tripped)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate rivers or marshes"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

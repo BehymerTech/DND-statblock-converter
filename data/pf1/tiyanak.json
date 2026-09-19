@@ -1,0 +1,107 @@
+{
+  "name": "Tiyanak",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Small",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex +5, dodge +1, natural +2, size +1",
+    "touch": 17,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 76,
+    "formula": "9d8+36"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft., fly 40 ft. (good)"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 20,
+    "con": "None",
+    "int": 9,
+    "wis": 13,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +7, Ref +8, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +19, Perception +16, Sense Motive +8, Stealth +21",
+    "list": {
+      "Fly": "+19",
+      "Perception": "+16",
+      "Sense Motive": "+8",
+      "Stealth": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Common",
+    "telepathy 50 ft."
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 6,
+  "feats": [
+    "Dodge",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Shadow Strike",
+    "Skill Focus (Perception)",
+    "Weapon Finesse",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +13 (1d6+5), bite +12 (1d6+5/15-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "With the size and appearance of a small child, this wrinkled grey figure has crimson eyes and jagged teeth.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 22,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

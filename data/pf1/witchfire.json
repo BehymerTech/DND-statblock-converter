@@ -1,0 +1,111 @@
+{
+  "name": "Witchfire",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Pathfinder No. 5: Sins of the Saviors",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "incorporeal",
+  "alignment": "CE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 24,
+    "notes": "deflection +7, dex +6, dodge +1",
+    "touch": 24,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 115,
+    "formula": "10d8+70"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 50 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 22,
+    "con": "None",
+    "int": 17,
+    "wis": 16,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +10, Ref +11, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +17, Fly +14, Intimidate +20, Knowledge (any two) +13, Perception +16, Sense Motive +16, Stealth +19",
+    "list": {
+      "Bluff": "+17",
+      "Fly": "+14",
+      "Intimidate": "+20",
+      "Perception": "+16",
+      "Sense Motive": "+16",
+      "Stealth": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Auran",
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 7,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Mobility"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "incorporeal touch +13 (8d6 fire plus witchflame)"
+    },
+    {
+      "name": "Ranged",
+      "text": "witchflame bolt +13 (8d6 fire plus witchflame)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Bathed in sickly green flames, this insubstantial specter of a beautiful young woman floats just off the ground.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": 31,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any swamps or woodlands"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or coven (3 witchfires and hags-see below)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

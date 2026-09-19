@@ -1,0 +1,126 @@
+{
+  "name": "Ancient Void Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Gargantuan",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 38,
+    "notes": "natural +32, size -4",
+    "touch": 6,
+    "flatFooted": 38
+  },
+  "hp": {
+    "average": 324,
+    "formula": "24d12+168"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 250 ft. (good)"
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 10,
+    "con": 25,
+    "int": 24,
+    "wis": 21,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +21, Ref +16, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +24, Appraise +16, Bluff +34, Diplomacy +25, Fly +25, Intimidate +34, Knowledge (arcana) +34, Knowledge (planes) +34, Knowledge (religion) +34, Perception +38, Sense Motive +32, Spellcraft +34, Stealth +15, Survival +20, Use Magic Device +25",
+    "list": {
+      "Acrobatics": "+24",
+      "Appraise": "+16",
+      "Bluff": "+34",
+      "Diplomacy": "+25",
+      "Fly": "+25",
+      "Intimidate": "+34",
+      "Perception": "+38",
+      "Sense Motive": "+32",
+      "Spellcraft": "+34",
+      "Stealth": "+15",
+      "Survival": "+20",
+      "Use Magic Device": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "see in darkness"
+  ],
+  "passivePerception": 48,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Auran",
+    "Celestial",
+    "Draconic",
+    "Ignan",
+    "Infernal",
+    "Terran"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 24,
+  "feats": [
+    "Combat Casting",
+    "Flyby Attack",
+    "Hover",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Multiattack",
+    "Quicken Spell",
+    "Skill Focus (Perception)",
+    "Weapon Focus (bite)",
+    "Wingover"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +33 (4d6+18/19-20 plus obliterate), 2 claws +32 (2d8+12), 2 wings +30 (2d6+6), tail slap +30 (2d8+18)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+40",
+    "cmd": "50 (54 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "vacuum"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

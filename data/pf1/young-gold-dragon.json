@@ -1,0 +1,102 @@
+{
+  "name": "Young Gold Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "fire",
+  "alignment": "LG",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 23,
+    "notes": "dex +1, natural +13, size -1",
+    "touch": 10,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 126,
+    "formula": "12d12+48"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 200 ft. (poor), swim 60 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 12,
+    "con": 19,
+    "int": 16,
+    "wis": 17,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +12, Ref +9, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +18, Fly +10, Heal +18, Knowledge (local) +18, Knowledge (religion) +18, Perception +22, Sense Motive +22, Spellcraft +18, Swim +30",
+    "list": {
+      "Diplomacy": "+18",
+      "Fly": "+10",
+      "Heal": "+18",
+      "Perception": "+22",
+      "Sense Motive": "+22",
+      "Spellcraft": "+18",
+      "Swim": "+30"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Elven",
+    "Halfling"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 12,
+  "feats": [
+    "Alertness",
+    "Improved Critical (claw)",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +18 (2d6+10), 2 claws +18 (1d8+7/19-20), 2 wings +16 (1d6+3), tail +16 (1d8+10)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Golden scales cover the body of this majestic dragon, and a regal crest of horns arches backward above wise and piercing eyes.",
+  "meta": {
+    "cmb": "+20",
+    "cmd": "31 (35 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm plains"
+      }
+    ]
+  }
+}

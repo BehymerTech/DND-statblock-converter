@@ -1,0 +1,102 @@
+{
+  "name": "Drochtac",
+  "sourceSystem": "pf1",
+  "source": "Gallows of Madness",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 13,
+    "notes": "dex +1, natural +2",
+    "touch": 11,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 13,
+    "formula": "3d6+3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 9,
+    "wis": 12,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +2, Ref +4, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +15, Escape Artist +7, Perception +7, Stealth +7, Survival +4",
+    "list": {
+      "Climb": "+15",
+      "Escape Artist": "+7",
+      "Perception": "+7",
+      "Stealth": "+7",
+      "Survival": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 1,
+  "feats": [
+    "Improved Initiative",
+    "Step Up"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +2 (1d6+1 plus paralysis), 2 claws +2 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "An inordinate number of sinewy limbs, each terminating in clawed feet, protrude from the sides of this slithering creature. Its face is disturbingly demonic.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": "13 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forest"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or nest (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

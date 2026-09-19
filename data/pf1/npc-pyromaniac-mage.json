@@ -1,0 +1,104 @@
+{
+  "name": "NPC Pyromaniac Mage",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "CE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 19,
+    "notes": "armor +4, deflection +1, dex +2, dodge +1, natural +1",
+    "touch": 14,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 81,
+    "formula": "13d6+33"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 14,
+    "int": 22,
+    "wis": 9,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +9, Ref +11, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +5, Craft (alchemy) +19, Fly +18, Knowledge (arcana) +21, Knowledge (engineering) +19, Knowledge (planes) +19, Knowledge (geography) +14, Knowledge (history) +14, Knowledge (local) +14, Knowledge (religion) +14, Perception +12, Sense Motive +4, Spellcraft +19, Stealth +12, Survival +4",
+    "list": {
+      "Climb": "+5",
+      "Fly": "+18",
+      "Perception": "+12",
+      "Sense Motive": "+4",
+      "Spellcraft": "+19",
+      "Stealth": "+12",
+      "Survival": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 22,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Goblin",
+    "Ignan",
+    "Infernal"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 6,
+  "feats": [
+    "Combat Casting",
+    "Craft Wondrous Item",
+    "Dodge",
+    "Greater Spell Focus (evocation)",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Maximize Spell",
+    "Point-Blank Shot",
+    "Scribe Scroll",
+    "Spell Focus (evocation)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "club +6/+1 (1d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "evoker 13",
+    "cmb": "+6",
+    "cmd": 20
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Giant Frog",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 121.",
+  "size": "Medium",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 30,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, swim 25 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 16,
+    "int": 2,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +8, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +5 (1d20+5); __Athletics__: +6 (1d20+6), (Athletics: +10 (1d20+10) to High Jump or Long Jump); __Stealth__: +7 (1d20+7); ",
+    "list": {
+      "Acrobatics": "+5",
+      "Athletics": "+10",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Sticky Feet",
+      "text": "Spear frogs are not flat-footed when Balancing on a narrow surface, and they gain a +4 bonus to Reflex saves to avoid falling."
+    },
+    {
+      "name": "Tongue Grab",
+      "text": "A creature hit by the giant frog's tongue becomes grabbed by the giant frog. The creature isn't immobilized, but it can't move beyond the reach of the frog's tongue. A creature can sever the tongue with a Strike against AC 13 that deals at least 2 slashing damage. This deals no damage to the frog but prevents it from using its tongue Strike until it regrows its tongue, which takes a week."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +8 Damage 1d6+3 (1d6+3) piercing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tongue +8 (reach 15 feet); Damage tongue grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      2,
+      3,
+      -4,
+      2,
+      -1
+    ]
+  }
+}

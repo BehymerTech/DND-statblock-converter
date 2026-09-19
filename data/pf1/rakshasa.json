@@ -1,0 +1,112 @@
+{
+  "name": "Rakshasa",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "native, shapechanger",
+  "alignment": "LE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 25,
+    "notes": "dex +5, dodge +1, natural +9",
+    "touch": 16,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 115,
+    "formula": "10d10+60"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 20,
+    "con": 22,
+    "int": 13,
+    "wis": 13,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +9, Ref +12, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +20, Diplomacy +16, Disguise +24, Perception +14, Perform +16, Sense Motive +14, Stealth +18",
+    "list": {
+      "Bluff": "+20",
+      "Diplomacy": "+16",
+      "Disguise": "+24",
+      "Perception": "+14",
+      "Perform": "+16",
+      "Sense Motive": "+14",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Infernal",
+    "Undercommon"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 10,
+  "feats": [
+    "Combat Expertise",
+    "Dodge",
+    "Improved Critical (kukri)",
+    "Improved Initiative",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 kukri +16/+11 (1d4+4/15-20), claw +10 (1d4+1), bite +10 (1d6+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This figure’s backward-bending fingers and its bestial, snarling visage leave little doubt as to its fiendish nature.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": 29,
+    "racialModifiers": [
+      "Bluff 4",
+      "Disguise 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cult (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+1 kukri, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "name": "Mobogo",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 170.",
+  "size": "Huge",
+  "type": "Beast",
+  "subtype": "Amphibious",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 29,
+    "notes": ""
+  },
+  "hp": {
+    "average": 160,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 20 feet, swim 30 feet; swamp stride;"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 20,
+    "con": 22,
+    "int": 6,
+    "wis": 20,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +22, Ref +17, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +19 (1d20+19); __Athletics__: +23 (1d20+23); __Nature__: +21 (1d20+21); __Stealth__: +19 (1d20+19), (Stealth: +21 (1d20+21) in swamps); ",
+    "list": {
+      "Acrobatics": "+19",
+      "Athletics": "+23",
+      "Nature": "+21",
+      "Stealth": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Boggard; speak with animals"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Song of the Swamp",
+      "text": "⬻ (auditory, emotion, enchantment, mental, primal); Frequency once per 10 minutes; The mobogo unleashes a booming croak. All boggards and mobogos within 50 feet gain a +2 status bonus to damage rolls and saves against fear for 1 round. Other creatures in the area of effect must attempt a DC 27 Will save. Success The creature is unaffected and is temporarily immune for 24 hours. Failure The creature is slowed 1 for 1d4 (1d4) rounds. Critical Failure The creature is slowed 2 for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Swallow Whole",
+      "text": "⬻ (attack); Large, 2d12+6 (2d12+6) bludgeoning, Rupture 19"
+    },
+    {
+      "name": "Swamp Stride",
+      "text": "A mobogo ignores difficult terrain caused by swamp terrain features."
+    },
+    {
+      "name": "Tongue Grab",
+      "text": "A creature hit by the mobogo's tongue becomes grabbed by the mobogo. The creature isn't immobilized, but it can't move beyond the reach of the mobogo's tongue. A creature can sever the tongue with a Strike against AC 27 that deals at least 10 slashing damage. This deals no damage to the mobogo but prevents it from using its tongue Strike until it regrows its tongue, which takes 1 round. The mobogo can move without ending the Grab as long as the creature remains within the tongue's reach."
+    },
+    {
+      "name": "Tongue Reposition",
+      "text": "⬻ The mobogo attempts to move a creature grabbed by its tongue. The mobogo rolls an Athletics check against the creature's Fortitude DC. On a success, the mobogo moves the creature into any space within the tongue's reach. If it wishes, the mobogo can transfer the grabbed creature to its jaws."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +23 (reach 10 feet); Damage 2d12+13 (2d12+13) piercing plus Improved Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tongue +23 (agile, reach 30 feet); Damage 2d6+13 (2d6+13) bludgeoning plus tongue grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      5,
+      6,
+      -2,
+      5,
+      7
+    ]
+  }
+}

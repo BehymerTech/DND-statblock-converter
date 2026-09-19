@@ -1,0 +1,105 @@
+{
+  "name": "Blue Whale",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 59: The Price of Infamy, Bestiary 5",
+  "size": "Colossal",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 26,
+    "notes": "dex -1, natural +25, size -8",
+    "touch": 1,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 184,
+    "formula": "16d8+112"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 40 ft."
+  },
+  "abilities": {
+    "str": 42,
+    "dex": 8,
+    "con": 25,
+    "int": 2,
+    "wis": 13,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +17, Ref +9, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +27, Swim +35",
+    "list": {
+      "Perception": "+27",
+      "Swim": "+35"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 37,
+  "languages": [],
+  "initiative": "-1",
+  "babOrProficiency": 12,
+  "feats": [
+    "Awesome Blow",
+    "Diehard",
+    "Endurance",
+    "Improved Bull Rush",
+    "Iron Will",
+    "Power Attack",
+    "Skill Focus (Perception)",
+    "Weapon Focus (tail slap)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "tail slap +21 (8d6+24 plus stun)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This massive aquatic mammal has bluish-gray coloration, a wide fluke tail, and a wide mouth filled with layers of baleen.",
+  "meta": {
+    "cmb": "+36",
+    "cmd": "45 (can’t be tripped)",
+    "racialModifiers": [
+      "Perception 12"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any ocean"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pod (3-18)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

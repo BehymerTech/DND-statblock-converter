@@ -1,0 +1,112 @@
+{
+  "name": "Minotaur",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 237.",
+  "size": "Large",
+  "type": "Humanoid",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": ""
+  },
+  "hp": {
+    "average": 70,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 10,
+    "con": 16,
+    "int": 6,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +13, Ref +8, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +14 (1d20+14); __Intimidation__: +9 (1d20+9); __Survival__: +12 (1d20+12); ",
+    "list": {
+      "Athletics": "+14",
+      "Intimidation": "+9",
+      "Survival": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Natural Cunning",
+      "text": "A minotaur automatically critically succeeds at Survival checks to avoid becoming lost or to find its way, including those from the maze spell."
+    },
+    {
+      "name": "Items",
+      "text": "greataxe;"
+    },
+    {
+      "name": "Axe Swipe",
+      "text": "⬺ The minotaur swings its axe in a wide arc, making greataxe Strikes against any two foes who are adjacent to each other and within the minotaur's reach. The multiple attack penalty does not increase until after both attacks are resolved."
+    },
+    {
+      "name": "Hunted Fear",
+      "text": "⬻ The minotaur snorts and clomps as it hunts its prey, inspiring terror. The minotaur makes an Intimidation check to Demoralize all living creatures within 60 feet that can hear the minotaur but not see it. Roll once and apply the result to all creatures. If the targets are in a maze or similarly difficult-to-navigate structure, the minotaur gains a +4 circumstance bonus to this check. Creatures that become frightened as a result also take a –2 circumstance penalty to Survival checks to avoid getting lost for 1 minute. This use of Demoralize doesn't have the visual trait. Each target is temporarily immune for 1 minute."
+    },
+    {
+      "name": "Powerful Charge",
+      "text": "⬺ The minotaur Strides twice, then makes a horn Strike. If it moved at least 20 feet from its starting position, the Strike's damage is increased to 2d8+10 (2d8+10)."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ greataxe +14 (reach 10 feet, sweep); Damage 1d12+8 (1d12+8) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ horn +14 Damage 1d8+8 (1d8+8) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      0,
+      3,
+      -2,
+      2,
+      -1
+    ],
+    "items": "greataxe;"
+  }
+}

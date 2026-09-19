@@ -1,0 +1,106 @@
+{
+  "name": "Danse Macabre",
+  "sourceSystem": "pf1",
+  "source": "Curse of the Crimson Throne (PFRPG), Pathfinder No. 11: Skeletons of Scarwall",
+  "size": "Large",
+  "type": "undead",
+  "subtype": "incorporeal",
+  "alignment": "NE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 29,
+    "notes": "deflection +10, dex +9, dodge +1, size -1",
+    "touch": 29,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 203,
+    "formula": "14d8+140"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 40 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 28,
+    "con": "None",
+    "int": 8,
+    "wis": 22,
+    "cha": 30
+  },
+  "saves": {
+    "text": "Fort +14, Ref +13, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +32, Perception +29, Sense Motive +23",
+    "list": {
+      "Fly": "+32",
+      "Perception": "+29",
+      "Sense Motive": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "lifesense"
+  ],
+  "passivePerception": 39,
+  "languages": [
+    "Common",
+    "Necril"
+  ],
+  "initiative": "+13",
+  "babOrProficiency": 10,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Initiative",
+    "Iron Will",
+    "Mobility",
+    "Skill Focus (Perception)",
+    "Spring Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "incorporeal scythe +18/+13 touch (2d6/×4 plus 1d6 Constitution drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Dozens of ghostly figures swirl and cavort, floating through the air as they follow the steps of an ancient, rhythmic dance- seemingly keeping time with the ebb and flow of life itself. Amid this eerie crowd of dancing specters looms a dark-cloaked figure wielding a scythe.",
+  "meta": {
+    "cmb": "+20",
+    "cmd": 41,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

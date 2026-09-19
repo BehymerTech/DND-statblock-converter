@@ -1,0 +1,263 @@
+{
+  "name": "Mephit",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Small",
+  "type": "Outsider",
+  "subtype": "Extraplanar, Water",
+  "alignment": "Usually neutral",
+  "cr": "3",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": "+1 size, +5 natural",
+    "touch": 11,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d8+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 40,
+    "swim": 30,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares), fly 40 ft. (average) , swim 30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 10,
+    "con": 13,
+    "int": 6,
+    "wis": 11,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +4, Ref +3, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +8, Escape Artist +6, Hide +10, Listen +6, Diplomacy +4, Disguise +2 (+4 Acting), Move Silently +6, Spot +6, Swim +10, Use Rope +0 (+2 With Bindings);",
+    "list": {
+      "Bluff": "+8",
+      "Escape Artist": "+6",
+      "Hide": "+10",
+      "Diplomacy": "+4",
+      "Disguise": "+2",
+      "Intimidate": "+4",
+      "Listen": "+6",
+      "Move Silently": "+6",
+      "Spot": "+6",
+      "Use Rope": "+0",
+      "Swim": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 3,
+  "feats": [
+    "Power Attack",
+    "Toughness"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Breath weapon, spell-like abilities, *summon mephit*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 5/magic, darkvision 60 ft., fast healing 2"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Breath weapon, spell-like abilities, *summon mephit*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 5/magic, darkvision 60 ft., fast healing 2"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Breath weapon, spell-like abilities, *summon mephit*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Change size, damage reduction 5/magic, darkvision 60 ft., fast healing 2"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Breath weapon, spell-like abilities, *summon mephit*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 5/magic, darkvision 60 ft., immunity to fire, fast healing 2, vulnerability to cold"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Breath weapon, spell-like abilities, *summon mephit*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 5/magic, darkvision 60 ft., fast healing 2, immunity to cold, vulnerability to fire"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Breath weapon, spell-like abilities, *summon mephit*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 5/magic, darkvision 60 ft., fast healing 2, immunity to fire, vulnerability to cold"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Breath weapon, spell-like abilities, *summon mephit*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 5/magic, darkvision 60 ft., fast healing 2"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Breath weapon, spell-like abilities, *summon mephit*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 5/magic, darkvision 60 ft., fast healing 2"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Breath weapon, spell-like abilities, *summon mephit*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 5/magic, darkvision 60 ft., fast healing 2, immunity to fire, vulnerability to cold"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Breath weapon, spell-like abilities, *summon mephit*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 5/magic, darkvision 60 ft., fast healing 2"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Claw +4 melee (1d3)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +4 melee (1d3)"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +4 melee (1d3)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +4 melee (1d3)"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +7 melee (1d3+3)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +7 melee (1d3+3)"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +4 melee (1d3 and 1d4 fire)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +4 melee (1d3 and 1d4 fire)"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +4 melee (1d3 plus 1d4 cold)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +4 melee (1d3 plus 1d4 cold)"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +4 melee (1d3 plus 1d4 fire)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +4 melee (1d3 plus 1d4 fire)"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +6 melee (1d3+2)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +6 melee (1d3+2)"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +7 melee (1d3+3)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +7 melee (1d3+3)"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +4 melee (1d3 plus 1d4 fire)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +4 melee (1d3 plus 1d4 fire)"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +6 melee (1d3+2)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +6 melee (1d3+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Mephits are minor creatures from the elemental planes.",
+    "grapple": "+1",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Elemental Plane of Water",
+    "organization": "Solitary (1), gang (2-4 mephits of mixed types), or mob (5-12 mephits of mixed types)",
+    "treasure": "Standard",
+    "advancement": "4-6 HD (Small); 7-9 HD (Medium)",
+    "leveladjustment": "+3 (cohort)"
+  }
+}

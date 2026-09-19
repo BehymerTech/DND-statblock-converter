@@ -1,0 +1,115 @@
+{
+  "name": "Satyr",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 18,
+    "notes": "dex +2, dodge +1, natural +5",
+    "touch": 13,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 44,
+    "formula": "8d6+16"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 15,
+    "con": 15,
+    "int": 12,
+    "wis": 14,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +4, Ref +8, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +15, Diplomacy +15, Disguise +9, Intimidate +9, Knowledge (nature) +10, Perception +18, Perform (wind instruments) +19, Stealth +17, Survival +7",
+    "list": {
+      "Bluff": "+15",
+      "Diplomacy": "+15",
+      "Disguise": "+9",
+      "Intimidate": "+9",
+      "Perception": "+18",
+      "Stealth": "+17",
+      "Survival": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 4,
+  "feats": [
+    "Dodge",
+    "Mobility",
+    "Skill Focus (Perception)",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +6 (1d4+2/19-20), horns +1 (1d6+1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "short bow +6 (1d6/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This handsome, grinning man has the furry legs of a goat and a set of curling ram horns extending from his temples.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 18,
+    "racialModifiers": [
+      "Perception 4",
+      "Perform 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, band (3-6), or orgy (7-11)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (dagger, short bow plus 20 arrows, masterwork panpipes, other treasure)"
+      }
+    ]
+  }
+}

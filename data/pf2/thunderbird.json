@@ -1,0 +1,121 @@
+{
+  "name": "Thunderbird",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 259.",
+  "size": "Gargantuan",
+  "type": "Electricity",
+  "subtype": "Air, Beast",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 11",
+  "xp": null,
+  "ac": {
+    "value": 31,
+    "notes": ""
+  },
+  "hp": {
+    "average": 200,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 80 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 16,
+    "con": 24,
+    "int": 16,
+    "wis": 20,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +24, Ref +20, Will +22",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +22 (1d20+22); __Athletics__: +23 (1d20+23); __Intimidation__: +20 (1d20+20); __Nature__: +20 (1d20+20); ",
+    "list": {
+      "Acrobatics": "+22",
+      "Athletics": "+23",
+      "Intimidation": "+20",
+      "Nature": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, stormsight"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Auran",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Stormsight",
+      "text": "Wind, precipitation, and clouds don't impair a thunderbird's vision; it ignores the concealed condition from storms, mist, precipitation, and the like."
+    },
+    {
+      "name": "Storm Aura",
+      "text": "(air, aura, evocation, primal, water); 100 feet. The thunderbird is surrounded by a cyclone of wind and driving rain. This area is greater difficult terrain for flying creatures, who must successfully Maneuver in Flight (DC 27) or be blown 30 feet away from the thunderbird. Creatures on the ground must succeed at a DC 27 Reflex save to perform any move action and are knocked prone on a critical failure. The driving rain in the storm aura imposes a –2 circumstance penalty on Perception checks and extinguishes smaller flames. A thunderbird can deactivate or activate the storm aura as a free action with the concentrate trait."
+    },
+    {
+      "name": "Reactive Shock",
+      "text": "⬲ Trigger A creature enters the thunderbird's reach or uses a move action within their reach Effect A lightning bolt dancing on the thunderbird's body leaps onto the creature, dealing 8d6 (8d6) electricity damage (DC 30 basic Reflex save)."
+    },
+    {
+      "name": "Lightning Blast",
+      "text": "⬺ (evocation, primal); The thunderbird spreads their wings and blasts their foe with thunderous bolts of lightning. Each creature in a 30-foot emanation takes 6d6 (6d6) electricity damage and 6d6 (6d6) sonic damage (DC 30 basic Reflex save). The thunderbird can't use Lightning Blast for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Stormflight",
+      "text": "A thunderbird can move in wind with ease. They don't treat wind as difficult terrain or need to Maneuver in Flight in high winds."
+    },
+    {
+      "name": "Thunderstrike",
+      "text": "A creature that takes damage from a thunderbird's thunderbolt Strike must succeed at a DC 28 Fortitude save or be knocked prone and deafened for 1 round."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ beak +24 Damage 2d6+12 (2d6+12) piercing plus 3d6 (3d6) electricity"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ talon +24 (agile); Damage 2d8+12 (2d8+12) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ thunderbolt +23 (range 200 feet); Damage 3d6 (3d6) electricity and 3d6 (3d6) sonic plus thunderstrike"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      3,
+      7,
+      3,
+      5,
+      3
+    ]
+  }
+}

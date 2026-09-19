@@ -1,0 +1,93 @@
+{
+  "name": "Giant Queen Bee",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "vermin",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 17,
+    "notes": "natural +8, size -1",
+    "touch": 9,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 59,
+    "formula": "7d8+28"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 11,
+    "con": 18,
+    "int": "None",
+    "wis": 12,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +9, Ref +2, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +2, Perception +1",
+    "list": {
+      "Fly": "+2",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 11,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 5,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "sting +8 (1d8+6 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This giant bee is as large as a horse and unusually fat, with light brown stripes on her body.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": "20 (28 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or colony (1 queen and 3-18 giant bees)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental (royal jelly)"
+      }
+    ]
+  }
+}

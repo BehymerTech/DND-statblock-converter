@@ -1,0 +1,110 @@
+{
+  "name": "Lorelei",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 60: From Hell's Heart",
+  "size": "Large",
+  "type": "aberration",
+  "subtype": "aquatic",
+  "alignment": "NE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 27,
+    "notes": "dex +1, natural +17, size -1",
+    "touch": 10,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 162,
+    "formula": "12d8+108"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., climb 20 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 13,
+    "con": 29,
+    "int": 11,
+    "wis": 16,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +13, Ref +5, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +15, Climb +21, Perception +24, Sense Motive +15, Stealth +18, Swim +21",
+    "list": {
+      "Bluff": "+15",
+      "Climb": "+21",
+      "Perception": "+24",
+      "Sense Motive": "+15",
+      "Stealth": "+18",
+      "Swim": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Aquan",
+    "Common"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 9,
+  "feats": [
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack",
+    "Skill Focus (Perception)",
+    "Skill Focus (Stealth)",
+    "Weapon Focus (tentacle)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 tentacles +18 (1d8+9 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This strange creature appears to be a gigantic human head carved from stone, with thick tentacles sprouting from its scalp.",
+  "meta": {
+    "cmb": "+19",
+    "cmd": "30 (can’t be tripped)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any coastlines"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

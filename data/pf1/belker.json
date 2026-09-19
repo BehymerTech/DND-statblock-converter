@@ -1,0 +1,105 @@
+{
+  "name": "Belker",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "air, elemental, evil",
+  "alignment": "NE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 20,
+    "notes": "dex +5, natural +6, size -1",
+    "touch": 14,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 68,
+    "formula": "8d10+24"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 50 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 21,
+    "con": 17,
+    "int": 6,
+    "wis": 11,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +11, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +16, Fly +22, Perception +11, Stealth +16",
+    "list": {
+      "Acrobatics": "+16",
+      "Fly": "+22",
+      "Perception": "+11",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Auran"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 8,
+  "feats": [
+    "Combat Reflexes",
+    "Flyby Attack",
+    "Multiattack",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +12 (1d6+2), 2 claws +12 (1d6+2), 2 wings +10 (1d6+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Dull, red eyes, grasping claws, and leathery wings give a demonic aspect to this creature’s smoky form.",
+  "meta": {
+    "cmb": "+11",
+    "cmd": "26 (can’t be tripped)",
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Air)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or clutch (3-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

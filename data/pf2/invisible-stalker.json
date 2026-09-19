@@ -1,0 +1,99 @@
+{
+  "name": "Invisible Stalker",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 144.",
+  "size": "Medium",
+  "type": "Elemental",
+  "subtype": "Air",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 26,
+    "notes": ""
+  },
+  "hp": {
+    "average": 70,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 25 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 22,
+    "con": 16,
+    "int": 6,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +14, Ref +18, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +16 (1d20+16); __Stealth__: +18 (1d20+18); __Survival__: +15 (1d20+15), (Survival: +19 (1d20+19) to Track); ",
+    "list": {
+      "Acrobatics": "+16",
+      "Stealth": "+18",
+      "Survival": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Auran"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Naturally Invisible",
+      "text": "The invisible stalker is invisible at all times, though when it takes a hostile action of any kind, it is hidden instead of undetected until the start of its next turn, as the vague outline of its humanoid form is faintly visible for a short period of time."
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "The invisible stalker deals 2d6 (2d6) extra precision damage to flat-footed creatures."
+    },
+    {
+      "name": "Swift Tracker",
+      "text": "The invisible stalker moves at full Speed while Tracking."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +18 (agile, finesse); Damage 1d10+5 (1d10+5) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      6,
+      3,
+      -2,
+      2,
+      0
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "name": "NPC Ageless Master",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "human",
+  "alignment": "LN",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 34,
+    "notes": "armor +5, deflection +2, dex +2, dodge +1, monk +5, natural +2, wis +7",
+    "touch": 27,
+    "flatFooted": 31
+  },
+  "hp": {
+    "average": 153,
+    "formula": "20d8+60"
+  },
+  "speed": {
+    "walk": 90,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "90 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 14,
+    "int": 13,
+    "wis": 24,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +18, Ref +18, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +20, Bluff +5, Craft (origami) +14, Diplomacy +5, Heal +19, Knowledge (arcana) +6, Knowledge (history) +14, Knowledge (religion) +9, Linguistics +3, Perception +28, Sense Motive +30, Stealth +18",
+    "list": {
+      "Acrobatics": "+20",
+      "Bluff": "+5",
+      "Diplomacy": "+5",
+      "Heal": "+19",
+      "Linguistics": "+3",
+      "Perception": "+28",
+      "Sense Motive": "+30",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Elven",
+    "tongue of the sun and moon"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 15,
+  "feats": [
+    "Blind-Fight",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Deflect Arrows",
+    "Dodge",
+    "Gorgon’s Fist",
+    "Improved Initiative",
+    "Improved Trip",
+    "Improved Unarmed Strike",
+    "Improved Vital Strike",
+    "Lightning Stance",
+    "Medusa’s Wrath",
+    "Power Attack",
+    "Scorpion Style",
+    "Spring Attack",
+    "Stunning Fist",
+    "Vital Strike",
+    "Weapon Focus (unarmed strike)",
+    "Wind Stance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+3 unarmed strike +23/+18/+13 (2d10+7)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk shuriken +18/+13/+8 (1d2+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "monk 20",
+    "cmb": "24 (+26 trip)",
+    "cmd": "46 (48 vs. trip)"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Giant Seahorse",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 227.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 58,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 30 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 18,
+    "int": 2,
+    "wis": 12,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +11, Ref +10, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +11 (1d20+11); __Stealth__: +10 (1d20+10), (Stealth: +12 (1d20+12) in underwater vegetation); ",
+    "list": {
+      "Athletics": "+11",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Camouflage",
+      "text": "The giant seahorse can change its coloration to match its surroundings. It doesn't need cover to attempt to Hide with a Stealth check."
+    },
+    {
+      "name": "Anchor",
+      "text": "⬻ The seahorse wraps its tail around either a stationary object or its rider. A seahorse anchored to an object gains a +2 circumstance bonus to any defense against effects that would forcibly move it. An anchored rider gains the same benefit against effects that would forcibly knock it off the seahorse. The seahorse remains anchored until it Releases its grip, is knocked unconscious, or either it's forcibly moved away from the object or its rider is forcibly moved off it."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ snout +11 Damage 1d12+4 (1d12+4) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +11 (agile); Damage 1d6+4 (1d6+4) bludgeoning plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      3,
+      4,
+      -4,
+      1,
+      3
+    ]
+  }
+}

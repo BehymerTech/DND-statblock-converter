@@ -1,0 +1,112 @@
+{
+  "name": "Hydrodaemon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "aquatic, daemon, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 20,
+    "notes": "dex +2, natural +9, size -1",
+    "touch": 11,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 95,
+    "formula": "10d10+40"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 40 ft. (average; see glide, below), fly_other average; see glide, below ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 15,
+    "con": 18,
+    "int": 9,
+    "wis": 11,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +11, Ref +9, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +0, Intimidate +14, Knowledge (planes) +10, Perception +15, Sense Motive +12, Stealth +10, Swim +21",
+    "list": {
+      "Fly": "+0",
+      "Intimidate": "+14",
+      "Perception": "+15",
+      "Sense Motive": "+12",
+      "Stealth": "+10",
+      "Swim": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect magic"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Abyssal",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 10,
+  "feats": [
+    "Cleave",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Precise Shot",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (1d8+4 plus grab), 2 claws +13 (1d6+4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "sleep spittle +11 (sleep)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The skin on this frog-like fiend is clammy and its eyes look dead and milky; its wide face is split by a fanged maw.",
+  "meta": {
+    "cmb": "15 (+9 grapple)",
+    "cmd": 27,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, gang (2-5), or mob (6-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "name": "Fire Giant Queen",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "fire, giant",
+  "alignment": "LE",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 31,
+    "notes": "armor +7, deflection +2, dex +2, dodge +1, natural +10, size -1",
+    "touch": 14,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 326,
+    "formula": "15d8+5d10+8d6+204"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 15,
+    "con": 25,
+    "int": 17,
+    "wis": 14,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +22, Ref +10, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +22, Craft (weapons) +11, Diplomacy +21, Intimidate +16, Knowledge (arcana) +24, Perception +33, Spellcraft +34, Use Magic Device +36",
+    "list": {
+      "Climb": "+22",
+      "Diplomacy": "+21",
+      "Intimidate": "+16",
+      "Perception": "+33",
+      "Spellcraft": "+34",
+      "Use Magic Device": "+36"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 43,
+  "languages": [
+    "Common",
+    "Giant",
+    "Infernal"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 20,
+  "feats": [
+    "Cleave",
+    "Combat Casting",
+    "Critical Focus",
+    "Dodge",
+    "Enlarge Spell",
+    "Eschew Materials",
+    "Extend Spell",
+    "Great Cleave",
+    "Improved Critical (heavy mace)",
+    "Improved Overrun",
+    "Improved Sunder",
+    "Iron Will",
+    "Maximize Spell",
+    "Power Attack",
+    "Quicken Spell",
+    "Scribe Scroll",
+    "Stunning Critical",
+    "Tiring Critical",
+    "Weapon Focus (heavy mace)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 dispelling furyborn heavy mace +32/+27/+22/+17 (2d6+12/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +22 (1d8+15 plus 1d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Fire",
+    "class": "giant fighter 5, sorcerer 8",
+    "cmb": "31 (+33 overrun, +33 sunder)",
+    "cmd": "46 (48 vs. overrun, 48 vs. sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm mountains"
+      }
+    ]
+  }
+}

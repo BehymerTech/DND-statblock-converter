@@ -1,0 +1,117 @@
+{
+  "name": "Belier Devil (Bdellavritra)",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Pathfinder No. 12: Crown of Fangs",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 33,
+    "notes": "dex +6, natural +18, size -1",
+    "touch": 15,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 212,
+    "formula": "17d10+119"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 23,
+    "con": 25,
+    "int": 25,
+    "wis": 26,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +17, Ref +11, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +24, Bluff +27, Diplomacy +27, Fly +32, Intimidate +24, Knowledge (arcana) +27, Knowledge (local) +27, Knowledge (nobility) +27, Knowledge (planes) +27, Perception +28, Sense Motive +28, Spellcraft +24, Stealth +22",
+    "list": {
+      "Appraise": "+24",
+      "Bluff": "+27",
+      "Diplomacy": "+27",
+      "Fly": "+32",
+      "Intimidate": "+24",
+      "Perception": "+28",
+      "Sense Motive": "+28",
+      "Spellcraft": "+24",
+      "Stealth": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 17,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Greater Disarm",
+    "Greater Trip",
+    "Improved Critical (tongue)",
+    "Improved Disarm",
+    "Improved Initiative",
+    "Improved Trip",
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +23 (4d8+7), 3 tongues +23 (2d6+7/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This amphisbaenic monstrosity has the body of a slug with a leech’s mouth at one end and a knot of three human heads at the other.",
+  "meta": {
+    "cmb": "25 (+29 grapple)",
+    "cmd": "41 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

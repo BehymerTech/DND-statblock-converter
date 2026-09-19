@@ -1,0 +1,103 @@
+{
+  "name": "Brachiosaurus",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Gargantuan",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 18,
+    "notes": "natural +12, size -4",
+    "touch": 6,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 171,
+    "formula": "18d8+90"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 37,
+    "dex": 10,
+    "con": 21,
+    "int": 2,
+    "wis": 13,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +18, Ref +11, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +28",
+    "list": {
+      "Perception": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 38,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 13,
+  "feats": [
+    "Cleave",
+    "Great Cleave",
+    "Great Fortitude",
+    "Greater Overrun",
+    "Improved Bull Rush",
+    "Iron Will",
+    "Power Attack",
+    "Skill Focus (Perception)",
+    "Weapon Focus (tail)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "tail +22 (4d6+19)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A long tail counterbalances this reptile’s equally long neck, at the end of which a relatively small head pulls food from the treetop.",
+  "meta": {
+    "cmb": "+30",
+    "cmd": "40 (44 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forests or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or herd (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

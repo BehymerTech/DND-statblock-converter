@@ -1,0 +1,91 @@
+{
+  "name": "NPC Shaman",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, orc",
+  "alignment": "NE",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 11,
+    "notes": "armor +2, dex -1",
+    "touch": 9,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 11,
+    "formula": "2d6+4"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 9,
+    "dex": 8,
+    "con": 12,
+    "int": 10,
+    "wis": 15,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +1, Ref +1, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Heal +9, Intimidate +2, Knowledge (religion) +5, Perception +2",
+    "list": {
+      "Heal": "+9",
+      "Intimidate": "+2",
+      "Perception": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Common",
+    "Orc"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 1,
+  "feats": [
+    "Combat Casting"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +0 (1d4-1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dart +0 (1d4-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-orc",
+    "class": "adept 2",
+    "cmb": "+0",
+    "cmd": 9
+  }
+}

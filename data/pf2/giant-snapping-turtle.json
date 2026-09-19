@@ -1,0 +1,99 @@
+{
+  "name": "Giant Snapping Turtle",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 269.",
+  "size": "Gargantuan",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 9",
+  "xp": null,
+  "ac": {
+    "value": 28,
+    "notes": ""
+  },
+  "hp": {
+    "average": 170,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, swim 40 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 10,
+    "con": 18,
+    "int": 2,
+    "wis": 18,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +19, Ref +15, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +20 (1d20+20); ",
+    "list": {
+      "Athletics": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 27,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Deep Breath",
+      "text": "The giant snapping turtle can hold its breath for 2 hours."
+    },
+    {
+      "name": "Capsize",
+      "text": "⬻ (attack, move); The turtle tries to capsize an adjacent aquatic vessel of its size or smaller. The turtle must succeed at a DC 35 Athletics check (reduced by 5 for each size smaller the vessel is than the turtle) or the pilot's Sailing Lore DC, whichever is higher."
+    },
+    {
+      "name": "Shell Defense",
+      "text": "⬻ The snapping turtle retracts its limbs and head into its shell and ends its turn. This increases its AC to 30, but it can't act except to reemerge, which it can do as a single action."
+    },
+    {
+      "name": "Swallow Whole",
+      "text": "⬻ Large, 2d12+7 (2d12+7) bludgeoning, Rupture 30."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +22 Damage 2d12+10 (2d12+10) piercing plus Improved Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      0,
+      4,
+      -4,
+      4,
+      -2
+    ]
+  }
+}

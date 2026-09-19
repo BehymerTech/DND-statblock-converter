@@ -1,0 +1,131 @@
+{
+  "name": "Xoveron",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 73: The Worldwound Incursion",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "27",
+  "level": null,
+  "xp": 3276800,
+  "ac": {
+    "value": 45,
+    "notes": "deflection +4, dex +6, natural +15, profane +12, size -2",
+    "touch": 30,
+    "flatFooted": 39
+  },
+  "hp": {
+    "average": 643,
+    "formula": "33d10+462"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 80 ft. (good)"
+  },
+  "abilities": {
+    "str": 44,
+    "dex": 23,
+    "con": 38,
+    "int": 24,
+    "wis": 32,
+    "cha": 28
+  },
+  "saves": {
+    "text": "Fort +36, Ref +23, Will +33",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +39, Disable Device +42, Fly +42, Intimidate +45, Knowledge (arcana) +40, Knowledge (religion) +40, Knowledge (engineering) +43, Knowledge (planes) +43, Perception +55, Sense Motive +47, Spellcraft +43, Stealth +34, Use Magic Device +42",
+    "list": {
+      "Acrobatics": "+39",
+      "Disable Device": "+42",
+      "Fly": "+42",
+      "Intimidate": "+45",
+      "Perception": "+55",
+      "Sense Motive": "+47",
+      "Spellcraft": "+43",
+      "Stealth": "+34",
+      "Use Magic Device": "+42"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "detect law",
+    "true seeing"
+  ],
+  "passivePerception": 65,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Terran",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 33,
+  "feats": [
+    "Awesome Blow",
+    "Bleeding Critical",
+    "Craft Construct",
+    "Craft Magic Arms and Armor",
+    "Craft Wondrous Item",
+    "Critical Focus",
+    "Greater Bull Rush",
+    "Greater Sunder",
+    "Improved Bull Rush",
+    "Improved Critical (claw)",
+    "Improved Critical (bite)",
+    "Improved Critical (sting)",
+    "Improved Lightning Reflexes",
+    "Improved Sunder",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Quicken Spell-Like Ability (flesh to stone)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 claws +48 (1d8+17/19-20), 4 bites +48 (2d6+17/19-20), sting +48 (1d8+17/19-20 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hulking, four-armed, four-headed, sting-tailed gargoyle stands as tall as a house.",
+  "meta": {
+    "cmb": "52 (+56 bull rush, +56 sunder)",
+    "cmd": "86 (88 vs. bull rush, 88 vs. sunder)",
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Ghahazi, Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

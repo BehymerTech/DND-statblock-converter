@@ -1,0 +1,92 @@
+{
+  "name": "Bloodseeker",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 42.",
+  "size": "Tiny",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature -1",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 6,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 feet, fly 30 feet"
+  },
+  "abilities": {
+    "str": 2,
+    "dex": 16,
+    "con": 10,
+    "int": 0,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +5, Ref +8, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +6 (1d20+6); __Stealth__: +6 (1d20+6); ",
+    "list": {
+      "Acrobatics": "+6",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attach",
+      "text": "When a bloodseeker hits a target larger than itself, its barbed legs attach it to that creature. This is similar to grabbing the creature, but the bloodseeker moves with that creature rather than holding it in place. The bloodseeker is flatfooted while attached. If the bloodseeker is killed or pushed away while attached to a creature it has drained blood from, that creature takes 1 persistent bleed damage. Escaping the attach or removing the bloodseeker in other ways doesn't cause bleed damage."
+    },
+    {
+      "name": "Blood Drain",
+      "text": "⬻ Requirements The bloodseeker is attached to a creature. Effect The bloodseeker uses its proboscis to drain blood from the creature it's attached to. This deals 1d4 (1d4) damage, and the bloodseeker gains temporary Hit Points equal to the damage dealt. A creature that has its blood drained by a bloodseeker is drained 1 until it receives healing (of any kind or amount)."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ barbed leg +8 (finesse); Damage attach"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -4,
+      3,
+      0,
+      -5,
+      1,
+      -2
+    ]
+  }
+}

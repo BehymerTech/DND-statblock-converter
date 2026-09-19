@@ -1,0 +1,106 @@
+{
+  "name": "Belker",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 106.",
+  "size": "Large",
+  "type": "Elemental",
+  "subtype": "Air",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 78,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 20,
+    "con": 16,
+    "int": 6,
+    "wis": 18,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +13, Ref +17, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +15 (1d20+15); __Stealth__: +15 (1d20+15), (Stealth: +17 (1d20+17) in smoke); ",
+    "list": {
+      "Acrobatics": "+15",
+      "Stealth": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, smoke vision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Auran"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Smoke Vision",
+      "text": "The belker ignores the concealed condition from smoke."
+    },
+    {
+      "name": "Smoke Form",
+      "text": "The belker can occupy the same space as other creatures."
+    },
+    {
+      "name": "Noxious Fumes",
+      "text": "⬺ Requirements The belker occupies the same space as a Medium or smaller creature Effect The belker attempts to flow into the creature's lungs; the creature must attempt a DC 23 Fortitude save. On a failure, the creature partially inhales the belker and is immobilized by the pain of the smoke rasping in its throat and lungs. The creature can attempt to exhale the belker by spending an action coughing and succeeding at a DC 23 Fortitude save. Most of the belker remains outside the creature, so the belker can still act normally. If the belker moves out of the creature's space or uses Noxious Fumes again, the creature automatically exhales it."
+    },
+    {
+      "name": "Smoke Slash",
+      "text": "⬻ Requirements The belker is partially inhaled by a creature Effect The belker automatically deals its claw damage to the inhaling creature by forming a claw to slash and scrape the creature from within."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +17 (agile, finesse); Damage 2d10+5 (2d10+5) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ wing +17 (agile, finesse, reach 10 feet); Damage 2d8+5 (2d8+5) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      5,
+      3,
+      -2,
+      4,
+      0
+    ]
+  }
+}

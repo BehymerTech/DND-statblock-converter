@@ -1,0 +1,120 @@
+{
+  "name": "Varklops",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Colossal",
+  "type": "magical beast",
+  "subtype": "fire, kaiju",
+  "alignment": "CE",
+  "cr": "30",
+  "level": null,
+  "xp": 9830400,
+  "ac": {
+    "value": 48,
+    "notes": "dex +13, dodge +1, natural +32, size -8",
+    "touch": 16,
+    "flatFooted": 34
+  },
+  "hp": {
+    "average": 752,
+    "formula": "35d10+560"
+  },
+  "speed": {
+    "walk": 80,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "80 ft., fly 150 ft. (poor), burrow 60 ft."
+  },
+  "abilities": {
+    "str": 48,
+    "dex": 37,
+    "con": 42,
+    "int": 3,
+    "wis": 30,
+    "cha": 29
+  },
+  "saves": {
+    "text": "Fort +35, Ref +32, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +34, Perception +34",
+    "list": {
+      "Fly": "+34",
+      "Perception": "+34"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "mistsight",
+    "tremorsense"
+  ],
+  "passivePerception": 44,
+  "languages": [
+    "Ignan (can’t speak)"
+  ],
+  "initiative": "+17",
+  "babOrProficiency": 35,
+  "feats": [
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dodge",
+    "Greater Bull Rush",
+    "Greater Vital Strike",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Critical (tail slap)",
+    "Improved Critical (wing)",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Lunge",
+    "Multiattack",
+    "Power Attack",
+    "Staggering Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "3 bites +46 (6d6+26/19-20 plus burn), 2 wings +44 (3d8+16/19-20 plus burn), tail slap +46 (4d8+35/19-20/×3 plus burn)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This immense, fiery-orange serpent has three horned heads, a pair of draconic wings, and a long tail tipped with four bony spikes.",
+  "meta": {
+    "cmb": "62 (+66 bull rush)",
+    "cmd": "86 (88 vs. bull rush, can’t be tripped)",
+    "racialModifiers": [
+      "Perception 16"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

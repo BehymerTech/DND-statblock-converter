@@ -1,0 +1,107 @@
+{
+  "name": "Sahuagin High Priestess",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Large",
+  "type": "monstrous humanoid",
+  "subtype": "aquatic",
+  "alignment": "LE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 23,
+    "notes": "armor +7, dex -1, natural +8, size -1",
+    "touch": 8,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 121,
+    "formula": "2d10+7d8+79"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 9,
+    "con": 26,
+    "int": 14,
+    "wis": 20,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +13, Ref +6, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +12, Knowledge (religion) +14, Perception +12, Sense Motive +17, Spellcraft +14, Swim +10",
+    "list": {
+      "Intimidate": "+12",
+      "Perception": "+12",
+      "Sense Motive": "+17",
+      "Spellcraft": "+14",
+      "Swim": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Aquan",
+    "Common",
+    "Elven",
+    "Infernal",
+    "speak with sharks"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 7,
+  "feats": [
+    "Combat Casting",
+    "Extra Channel",
+    "Improved Natural Attack (bite)",
+    "Lightning Reflexes",
+    "Weapon Focus (spear)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 spear +13/+8 (2d6+8/×3), bite +6 (1d8+5)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk underwater heavy crossbow +6 (2d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Giant",
+    "class": "sahuagin cleric 7 (Pathfinder RPG Bestiary 295)",
+    "cmb": "+13",
+    "cmd": 22,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm ocean"
+      }
+    ]
+  }
+}

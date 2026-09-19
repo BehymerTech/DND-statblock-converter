@@ -1,0 +1,102 @@
+{
+  "name": "Venomroach",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 116: Fangs of War",
+  "size": "Large",
+  "type": "vermin",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex +1, natural +5, size -1",
+    "touch": 10,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 31,
+    "formula": "3d8+18"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (poor), climb 40 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 13,
+    "con": 22,
+    "int": "None",
+    "wis": 13,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +9, Ref +2, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +10, Fly -5, Perception +5, Stealth +1",
+    "list": {
+      "Climb": "+10",
+      "Fly": "-5",
+      "Perception": "+5",
+      "Stealth": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 15,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Diehard",
+    "Endurance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +3 (2d6+3 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The brown and black exoskeleton of this roach gleams when exposed to the light.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": "16 (24 vs. trip)",
+    "racialModifiers": [
+      "Perception 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or intrusion (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Annis Hag",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 202.",
+  "size": "Large",
+  "type": "Humanoid",
+  "subtype": "Hag",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 85,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 18,
+    "con": 18,
+    "int": 12,
+    "wis": 18,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +16, Ref +12, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +10 (1d20+10); __Athletics__: +14 (1d20+14), (Athletics: +16 (1d20+16) to Grapple); __Deception__: +11 (1d20+11); __Diplomacy__: +9 (1d20+9); __Intimidation__: +11 (1d20+11); __Stealth__: +14 (1d20+14); ",
+    "list": {
+      "Acrobatics": "+10",
+      "Athletics": "+16",
+      "Deception": "+11",
+      "Diplomacy": "+9",
+      "Intimidation": "+11",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Coven",
+      "text": "An annis hag adds earthbind, passwall, and spellwrack to her coven's spells."
+    },
+    {
+      "name": "Bonds of Iron",
+      "text": "⬺ (attack, conjuration, occult); Once per day, an annis hag can cause a cage built of cold iron fingernails to spring out of nothingness at a range of up to 30 feet, attempting an Athletics check to Grapple against the target's Fortitude DC; if the target has a weakness to cold iron, the annis hag gains a +2 circumstance bonus to this check. Unlike a normal Grapple, the annis hag doesn't need to be within reach and can move as she pleases, and a successful attempt lasts until the creature escapes (DC 24), causing the cage to crumble into rust. Any creature can attempt to destroy the cage by attacking it. It has an AC of 19, Hardness 10, and 40 Hit Points."
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, occult, polymorph, transmutation); The hag can take on the appearance of any Medium female humanoid. This doesn't change her Speed or her attack and damage bonuses with her Strikes but might change the damage type her Strikes deal (typically to bludgeoning)."
+    },
+    {
+      "name": "Rend",
+      "text": "⬻ (claw);"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +16 (agile, cold iron, magical, reach 10 feet); Damage 2d8+6 (2d8+6) slashing plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      4,
+      4,
+      1,
+      4,
+      3
+    ]
+  }
+}

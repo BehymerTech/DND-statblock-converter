@@ -1,0 +1,108 @@
+{
+  "name": "Duergar Hammer",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "alignment": "LE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 26,
+    "notes": "armor +3, deflection +1, dex +4, dodge +1, monk +3, natural +1, wis +2",
+    "touch": 22,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 93,
+    "formula": "12d8+36"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 20,
+    "con": 14,
+    "int": 10,
+    "wis": 15,
+    "cha": 4
+  },
+  "saves": {
+    "text": "Fort +11, Ref +14, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +20, Escape Artist +20, Perception +17, Stealth +20",
+    "list": {
+      "Acrobatics": "+20",
+      "Escape Artist": "+20",
+      "Perception": "+17",
+      "Stealth": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Undercommon"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 9,
+  "feats": [
+    "Dodge",
+    "Gray Dwarf Magic (ironskin)",
+    "Extra Ki",
+    "Improved Initiative",
+    "Improved Unarmed Strike",
+    "Innate Flexibility (2)",
+    "Mobility",
+    "Spring Attack",
+    "Stunning Fist",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "unarmed strike +14/+9 (2d6+2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+2 shuriken +16/+11 (1d2+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Duergar",
+    "class": "monk (gray disciple) 12 (Pathfinder RPG Advanced Race Guide 187)",
+    "cmb": "+14",
+    "cmd": "33 (37 vs. bull rush or trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      }
+    ]
+  }
+}

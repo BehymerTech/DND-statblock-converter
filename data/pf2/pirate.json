@@ -1,0 +1,115 @@
+{
+  "name": "Pirate",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 242.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 32,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 16,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +7, Ref +8, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Athletics__: +8 (1d20+8); __Deception__: +6 (1d20+6); __Intimidation__: +6 (1d20+6); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Athletics": "+8",
+      "Deception": "+6",
+      "Intimidation": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 16,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Lore",
+      "text": "+8 Str +2, Dex +3, Con +1, Int +0, Wis +2, Cha + 2 Items cutlass (functions as a scimitar), dagger, padded armor."
+    },
+    {
+      "name": "Items",
+      "text": "cutlass (functions as a scimitar), dagger, padded armor;"
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Bravery",
+      "text": "When the pirate rolls a success on a Will save against a fear effect, they get a critical success instead. In addition, anytime they gain the frightened condition, reduce its value by 1."
+    },
+    {
+      "name": "Boarding Action",
+      "text": "⬺ The pirate swings on a rope or Strides, moving up to double their Speed. If the pirate boarded or disembarked a boat during this movement, they can make a melee Strike at the end of their movement that deals one extra damage die on a hit."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ cutlass +10 (forceful, sweep); Damage 1d6+5 (1d6+5) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ dagger +11 (agile, versatile s); Damage 1d4+5 (1d4+5) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ dagger +11 (agile, thrown 10 feet, versatile s); Damage 1d4+5 (1d4+5) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      3,
+      1,
+      0,
+      2,
+      2
+    ],
+    "items": "cutlass (functions as a scimitar), dagger, padded armor;"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Server",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 238.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature -1",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 7,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 18,
+    "con": 10,
+    "int": 10,
+    "wis": 12,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +2, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +6 (1d20+6); __Diplomacy__: +4 (1d20+4); __Thievery__: +5 (1d20+5); ",
+    "list": {
+      "Acrobatics": "+6",
+      "Diplomacy": "+4",
+      "Thievery": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 13,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Quick Catch",
+      "text": "⬲ Requirements The server has at least one hand free Trigger An object that the server could hold in one hand is dropped within the server's reach Effect The server catches the dropped object before it hits the floor or leaves their reach."
+    },
+    {
+      "name": "Items",
+      "text": "pewter mug, serving tray;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +6 (agile, nonlethal); Damage 1d4+1 (1d4+1) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ pewter mug +6 (thrown 10 feet); Damage 1d4+1 (1d4+1) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      4,
+      0,
+      0,
+      1,
+      2
+    ],
+    "items": "pewter mug, serving tray;"
+  }
+}

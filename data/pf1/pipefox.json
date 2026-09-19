@@ -1,0 +1,103 @@
+{
+  "name": "Pipefox",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Diminutive",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 17,
+    "notes": "dex +3, size +4",
+    "touch": 17,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 13,
+    "formula": "3d10-3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 1,
+    "dex": 16,
+    "con": 9,
+    "int": 14,
+    "wis": 11,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +2, Ref +6, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +7, Knowledge (arcana) +5, Knowledge (religion) +5, Perception +5, Sense Motive +2, Stealth +19",
+    "list": {
+      "Climb": "+7",
+      "Perception": "+5",
+      "Sense Motive": "+2",
+      "Stealth": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Common",
+    "Draconic",
+    "comprehend languages"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +10 (1d2-5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This furry, minute serpent has a foxlike head and tiny eyes that glitter with intelligence.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": 8,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

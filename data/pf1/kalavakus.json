@@ -1,0 +1,113 @@
+{
+  "name": "Kalavakus",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 25,
+    "notes": "dex +1, natural +14",
+    "touch": 11,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 125,
+    "formula": "10d10+70"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 13,
+    "con": 24,
+    "int": 15,
+    "wis": 17,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +10, Ref +8, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +14, Climb +19, Intimidate +16, Knowledge (planes) +15, Perception +24, Sense Motive +16, Stealth +14, Use Magic Device +16",
+    "list": {
+      "Acrobatics": "+14",
+      "Climb": "+19",
+      "Intimidate": "+16",
+      "Perception": "+24",
+      "Sense Motive": "+16",
+      "Stealth": "+14",
+      "Use Magic Device": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 10,
+  "feats": [
+    "Combat Expertise",
+    "Improved Bull Rush",
+    "Improved Disarm",
+    "Improved Trip",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +16 (1d6+6), 2 claws +16 (1d8+6), gore +16 (2d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This muscular, violet demon walks upon elephantine feet. Large, razor-sharp horns cover its body.",
+  "meta": {
+    "cmb": "16 (+22 disarm)",
+    "cmd": 27,
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (the Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or slaver gang (3-6 kalavakuses plus 10-20 slaves)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

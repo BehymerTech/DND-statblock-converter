@@ -1,0 +1,113 @@
+{
+  "name": "Sewer Blight",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "ooze",
+  "subtype": "blight",
+  "alignment": "CE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 30,
+    "notes": "dex +8, natural +12",
+    "touch": 18,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 229,
+    "formula": "17d8+153"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 26,
+    "con": 29,
+    "int": 16,
+    "wis": 23,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +16, Ref +15, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +38, Intimidate +22, Knowledge (geography) +20, Perception +23, Stealth +25, Swim +21",
+    "list": {
+      "Climb": "+38",
+      "Intimidate": "+22",
+      "Perception": "+23",
+      "Stealth": "+25",
+      "Swim": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Aklo",
+    "Undercommon",
+    "domain telepathy"
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 12,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Great Fortitude",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +25 (2d8+13/19-20 plus 2d6 acid)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "What appears to be a grotesque mass of sewage betrays its true nature with dozens of red eyes and two long, slimy, claw-tipped tentacles.",
+  "meta": {
+    "cmb": "+25",
+    "cmd": "43 (can’t be tripped)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground (sewers)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

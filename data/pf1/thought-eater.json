@@ -1,0 +1,100 @@
+{
+  "name": "Thought Eater",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Tiny",
+  "type": "aberration",
+  "subtype": "extraplanar",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 16,
+    "notes": "dex +4, size +2",
+    "touch": 16,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 18,
+    "formula": "4d8"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 30 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 4,
+    "dex": 19,
+    "con": 10,
+    "int": 7,
+    "wis": 12,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +1, Ref +5, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +16, Perception +8, Stealth +19",
+    "list": {
+      "Fly": "+16",
+      "Perception": "+8",
+      "Stealth": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Aklo (can’t speak)",
+    "telepathy 30 ft."
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +9 (1d3-3 plus eat thoughts)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A nimbus of glowing, intangible matter envelops this strange skeletal creature with a birdlike beak.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": 12,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Ethereal Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or group (1-3)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

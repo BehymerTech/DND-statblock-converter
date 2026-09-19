@@ -1,0 +1,113 @@
+{
+  "name": "Couatl",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Outsider",
+  "subtype": "Native",
+  "alignment": "Always lawful good",
+  "cr": "10",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": "-1 size, +3 Dex, +9 natural",
+    "touch": 12,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 58,
+    "formula": "9d8+18"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": 60,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft. (4 squares), fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 14,
+    "int": 17,
+    "wis": 19,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +8, Ref +9, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Concentration +14, Diplomacy +17, Jump +0, Knowledge (any Two) +15, Listen +16, Search +15, Sense Motive +16, Spellcraft +15 (+17 Scrolls), Spot +16, Survival +4 (+6 Following Tracks), Tumble +15, Use Magic Device +15 (+17 Scrolls);",
+    "list": {
+      "Concentration": "+14",
+      "Diplomacy": "+17",
+      "Jump": "+0",
+      "Listen": "+16",
+      "Search": "+15",
+      "Sense Motive": "+16",
+      "Spellcraft": "+15",
+      "Spot": "+16",
+      "Survival": "+4",
+      "Tumble": "+15",
+      "Use Magic Device": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+7",
+  "babOrProficiency": 9,
+  "feats": [
+    "Dodge",
+    "Empower Spell",
+    "Eschew Materials (B)",
+    "Hover",
+    "Improved Initiative"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Constrict 2d8+6, improved grab, poison, psionics, spells"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., ethereal jaunt, telepathy 90 ft."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Bite +12 melee (1d3+6 plus poison)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +12 melee (1d3+6 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A couatl is about 12 feet long, with a wingspan of about 15 feet. It weighs about 1,800 pounds.",
+    "grapple": "+17",
+    "spaceReach": "10 ft./5 ft.",
+    "environment": "Warm forests",
+    "organization": "Solitary, pair, or flight (3-6)",
+    "treasure": "Standard",
+    "advancement": "10-13 HD (Large); 14-27 HD (Huge)",
+    "leveladjustment": "+7"
+  }
+}

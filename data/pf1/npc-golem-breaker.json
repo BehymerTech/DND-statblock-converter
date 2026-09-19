@@ -1,0 +1,109 @@
+{
+  "name": "NPC Golem-Breaker",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "alignment": "LN",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 31,
+    "notes": "armor +10, deflection +3, dex +2, dodge +1, natural +5",
+    "touch": 16,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 203,
+    "formula": "18d10+100"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 14,
+    "con": 20,
+    "int": 10,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +18, Ref +15, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +19, Climb +14, Heal +10, Knowledge (arcana) +15, Knowledge (dungeoneering) +18, Knowledge (engineering) +10, Knowledge (geography) +8, Knowledge (nature) +8, Perception +20, Stealth +12, Survival +15, Swim +9",
+    "list": {
+      "Acrobatics": "+19",
+      "Climb": "+14",
+      "Heal": "+10",
+      "Perception": "+20",
+      "Stealth": "+12",
+      "Survival": "+15",
+      "Swim": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Common",
+    "Dwarven"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 18,
+  "feats": [
+    "Dodge",
+    "Double Slice",
+    "Endurance",
+    "Greater Two-Weapon Fighting",
+    "Greater Vital Strike",
+    "Improved Critical (dwarven urgrosh)",
+    "Improved Initiative",
+    "Improved Two-Weapon Fighting",
+    "Improved Vital Strike",
+    "Mobility",
+    "Spring Attack",
+    "Two-Weapon Fighting",
+    "Two-Weapon Rend",
+    "Vital Strike",
+    "Weapon Focus (dwarven urgrosh)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 dwarven urgrosh +25/+20/+15/+10 (1d8+8/19-20/×3), +2 dwarven urgrosh +25/+20/+15 (1d6+8/19-20/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 heavy crossbow +21 (1d10+1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Dwarf",
+    "class": "ranger 18",
+    "cmb": "+24",
+    "cmd": "40 (44 vs. bull rush or trip)"
+  }
+}

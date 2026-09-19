@@ -1,0 +1,128 @@
+{
+  "name": "Graveknight",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "augmented humanoid",
+  "alignment": "LE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 25,
+    "notes": "armor +10, dex +1, natural +4",
+    "touch": 11,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 139,
+    "formula": "10d10+80"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 12,
+    "con": 10,
+    "int": 15,
+    "wis": 12,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +13, Ref +6, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +13, Intimidate +25, Knowledge (nobility) +12, Perception +19, Ride +19, Swim +13",
+    "list": {
+      "Climb": "+13",
+      "Intimidate": "+25",
+      "Perception": "+19",
+      "Ride": "+19",
+      "Swim": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Infernal"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 10,
+  "feats": [
+    "Cleave",
+    "Critical Focus",
+    "Dazzling Display",
+    "Greater Weapon Focus (greatsword)",
+    "Improved Initiative",
+    "Mounted Combat",
+    "Power Attack",
+    "Ride-By Attack",
+    "Shatter Defenses",
+    "Spirited Charge",
+    "Toughness",
+    "Trample",
+    "Unseat",
+    "Vital Strike",
+    "Weapon Focus (greatsword)",
+    "Weapon Specialization (greatsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 greatsword +25/+20 (2d6+19 plus 2d6 acid)"
+    },
+    {
+      "name": "Ranged",
+      "text": "composite longbow +14/+9 (1d8+11/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Shadows veil what lurks within the dark, imposing armor of this figure, though two piercing eyes gaze from its closed visor.",
+  "meta": {
+    "race": "Human",
+    "class": "graveknight fighter 10",
+    "cmb": "+20",
+    "cmd": 29,
+    "racialModifiers": [
+      "Intimidate 8",
+      "Perception 8",
+      "Ride 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or troop (graveknight plus 12-24 skeletal champions)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (+1 full plate, +1 greatsword, composite longbow [+8 Str] with 20 arrows, belt of giant strength +2, other treasure)"
+      }
+    ]
+  }
+}

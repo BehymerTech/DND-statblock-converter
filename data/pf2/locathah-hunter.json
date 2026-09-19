@@ -1,0 +1,119 @@
+{
+  "name": "Locathah Hunter",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 164.",
+  "size": "Medium",
+  "type": "Locathah",
+  "subtype": "Amphibious, Humanoid",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": ""
+  },
+  "hp": {
+    "average": 38,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 feet, swim 40 feet; smooth swimmer;"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 10,
+    "int": 12,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +7, Ref +10, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +11 (1d20+11); __Diplomacy__: +5 (1d20+5); __Nature__: +7 (1d20+7); __Stealth__: +8 (1d20+8); __Survival__: +7 (1d20+7); ",
+    "list": {
+      "Athletics": "+11",
+      "Diplomacy": "+5",
+      "Nature": "+7",
+      "Stealth": "+8",
+      "Survival": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Aquan",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Cooperative Hunting",
+      "text": "After the hunter attempts a Strike at a Large or larger target (regardless of success or failure), the next Strike one of the hunter's allies makes against the same target gains a +2 circumstance bonus to the attack roll."
+    },
+    {
+      "name": "Fan Bolt",
+      "text": "The hunter prepares their hooked crossbow bolts with carefully woven seaweed. On a successful crossbow Strike, the bolt embeds and the seaweed fan deploys. The target takes a –10-foot status penalty to its swim Speed. A creature can Interact to attempt a DC Athletics check, removing the bolt on a success."
+    },
+    {
+      "name": "Hunt Prey",
+      "text": "⬻ (concentrate); The locathah hunter designates a single creature they can see and hear, or one they're Tracking, as their prey. The hunter gains a +2 circumstance bonus to Perception checks to Seek the prey and to Survival checks to Track the prey. The first time the locathah hits their designated prey in a round, they deal an additional 1d8 (1d8) precision damage. These effects last until the hunter uses Hunt Prey again."
+    },
+    {
+      "name": "Pack Attack",
+      "text": "The hunter's Strikes deal an additional 1d8 (1d8) damage to creatures within reach of at least two of the hunter's allies."
+    },
+    {
+      "name": "Smooth Swimmer",
+      "text": "The locathah hunter ignores difficult terrain caused by aquatic terrain features."
+    },
+    {
+      "name": "Items",
+      "text": "crossbow (12 fan bolts), longspear, scale mail;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ longspear +11 (reach 10 feet); Damage 1d8+4 (1d8+4) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ crossbow +10 (range increment 120 feet, reload 1); Damage 1d8 (1d8) piercing plus fan bolt"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      3,
+      0,
+      1,
+      2,
+      0
+    ],
+    "items": "crossbow (12 fan bolts), longspear, scale mail;"
+  }
+}

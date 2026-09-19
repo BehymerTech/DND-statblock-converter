@@ -1,0 +1,81 @@
+{
+  "name": "Mummy",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "or Small Undead",
+  "subtype": "",
+  "alignment": "Lawful Evil",
+  "cr": "3",
+  "level": null,
+  "xp": 700,
+  "ac": {
+    "value": 11,
+    "notes": ""
+  },
+  "hp": {
+    "average": 58,
+    "formula": "9d8 + 18"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 8,
+    "con": 15,
+    "int": 6,
+    "wis": 12,
+    "cha": 12
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 11,
+  "languages": [
+    "Common plus two other languages"
+  ],
+  "initiative": "-1 (9)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The mummy makes two Rotting Fist attacks and uses Dreadful Glare."
+    },
+    {
+      "name": "Rotting Fist",
+      "text": "_Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 8 (1d10 + 3) Bludgeoning damage plus 10 (3d6) Necrotic damage. If the target is a creature, it is cursed. While cursed, the target can't regain Hit Points, its Hit Point maximum doesn't return to normal when finishing a Long Rest, and its Hit Point maximum decreases by 10 (3d6) every 24 hours that elapse. A creature dies and turns to dust if reduced to 0 Hit Points by this attack."
+    },
+    {
+      "name": "Dreadful Glare",
+      "text": "_Wisdom Saving Throw:_ DC 11, one creature the mummy can see within 60 feet. _Failure:_ The target has the Frightened condition until the end of the mummy's next turn. _Success:_ The target is immune to this mummy's Dreadful Glare for 24 hours."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

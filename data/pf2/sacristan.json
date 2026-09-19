@@ -1,0 +1,111 @@
+{
+  "name": "Sacristan",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 283.",
+  "size": "Medium",
+  "type": "Velstrac",
+  "subtype": "Fiend",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 30,
+    "notes": ""
+  },
+  "hp": {
+    "average": 175,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 20,
+    "con": 22,
+    "int": 10,
+    "wis": 16,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +22, Ref +19, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +19 (1d20+19); __Athletics__: +22 (1d20+22); __Intimidation__: +18 (1d20+18); __Stealth__: +21 (1d20+21); __Torture lore__: +16 (1d20+16); ",
+    "list": {
+      "Acrobatics": "+19",
+      "Athletics": "+22",
+      "Intimidation": "+18",
+      "Stealth": "+21",
+      "Torture lore": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision, painsight"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Common",
+    "Infernal",
+    "Shadowtongue"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Painsight",
+      "text": "(divination, divine); A velstrac automatically knows whether a creature it sees has any of the doomed, dying, and wounded conditions, as well as the value of those conditions."
+    },
+    {
+      "name": "Staggering Servitude",
+      "text": "(aura, divine, enchantment, fear, mental, visual); 30 feet. When a creature ends its turn in the aura, it sees a vision of the sacristan groveling in pitiable servitude. The creature must succeed at a DC 27 Will save or become stunned 1."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Focus Gaze",
+      "text": "⬻ (concentrate, divine, enchantment, fear, mental, visual); The sacristan stares at a creature they can see within 30 feet. The creature must immediately attempt a Will save against staggering servitude. In addition, if the creature was already stunned, on a failed save its revulsion toward the sacristan's presence causes it to be stupefied 2 for 1 minute. After attempting this save, the creature is then temporarily immune until the start of the sacristan's next turn."
+    },
+    {
+      "name": "Shadow Scream",
+      "text": "⬽ (aura, concentrate, darkness, divine, evocation, mental, sonic); Frequency once per hour Effect The sacristan opens their mouth to unloose the wailing howls and mind-twisting darkness of the Shadow Plane. This creates a 30-foot emanation of darkness and wailing sounds around the sacristan. Creatures with darkvision can't see through this darkness. The sacristan can Sustain Shadow Scream for up to 1 minute. Non-velstrac creatures in the area when the ability is used, as well as those who enter or start their turn in the area, must attempt a DC 28 Will save. Critical Success The creature is unaffected and is then temporarily immune for 24 hours. Success The creature is deafened for 1 round. Failure The creature is confused and deafened for 1 round. Critical Failure The creature takes 20 mental damage, and is confused and deafened for 1 round."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ barbed chain +22 (evil, magical, reach 10 feet, trip, versatile s); Damage 2d8+9 (2d8+9) piercing plus 1d6 (1d6) evil and 2d6 (2d6) persistent bleed"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      5,
+      6,
+      0,
+      3,
+      2
+    ]
+  }
+}

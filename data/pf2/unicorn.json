@@ -1,0 +1,105 @@
+{
+  "name": "Unicorn",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 316.",
+  "size": "Large",
+  "type": "Fey",
+  "subtype": "Beast",
+  "alignment": "CG",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": ""
+  },
+  "hp": {
+    "average": 45,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 45,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "45 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 16,
+    "int": 10,
+    "wis": 18,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +10, Ref +8, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +10 (1d20+10); __Diplomacy__: +11 (1d20+11); __Stealth__: +8 (1d20+8); __Survival__: +9 (1d20+9); ",
+    "list": {
+      "Acrobatics": "+10",
+      "Diplomacy": "+11",
+      "Stealth": "+8",
+      "Survival": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Wild Empathy",
+      "text": "The unicorn has a connection to the creatures of the natural world that allows it to communicate with them. The unicorn can use Diplomacy to Make an Impression on animals and to make very simple Requests of them."
+    },
+    {
+      "name": "Ghost Touch",
+      "text": "A unicorn's Strikes have the effects of a ghost touch property rune."
+    },
+    {
+      "name": "Powerful Charge",
+      "text": "⬺ The unicorn Strides up to double its Speed in a straight line and then makes a horn Strike. If the unicorn moved at least 20 feet, it deals an additional 2d6 (2d6) damage on a hit."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ horn +12 (good, magical); Damage 1d10+4 (1d10+4) piercing plus 1d6 (1d6) good and ghost touch"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ hoof +12 (agile, magical); Damage 1d8+4 (1d8+4) bludgeoning and ghost touch"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      3,
+      3,
+      0,
+      4,
+      4
+    ]
+  }
+}

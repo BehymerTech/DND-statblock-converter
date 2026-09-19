@@ -1,0 +1,117 @@
+{
+  "name": "Chemnosit (The Monarch Worm)",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Bestiary",
+  "size": "Colossal",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "23",
+  "level": null,
+  "xp": 819200,
+  "ac": {
+    "value": 39,
+    "notes": "dex +1, natural +36, size -8",
+    "touch": 3,
+    "flatFooted": 38
+  },
+  "hp": {
+    "average": 472,
+    "formula": "27d10+324"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., burrow 40 ft."
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 13,
+    "con": 34,
+    "int": 5,
+    "wis": 14,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +29, Ref +18, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +20, Perception +27, Swim +17",
+    "list": {
+      "Climb": "+20",
+      "Perception": "+27",
+      "Swim": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 27,
+  "feats": [
+    "Ability Focus (hungry gaze)",
+    "Awesome Blow",
+    "Bleeding Critical",
+    "Blind-Fight",
+    "Critical Focus",
+    "Great Fortitude",
+    "Improved Bull Rush",
+    "Improved Critical (ray)",
+    "Improved Critical (toothed tentacle)",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Weapon Focus (toothed tentacle)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "6 toothed tentacles +33 (2d10+13/19-20 plus grab)"
+    },
+    {
+      "name": "Ranged",
+      "text": "ray +20 (disintegrate/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This massive beast possesses a mouth of rasping teeth and tentacles with biting mouths. In the center of its maw rests a glowing evil eye.",
+  "meta": {
+    "cmb": "48 (+52 grapple, +68 overrun)",
+    "cmd": "59 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Darklands)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "name": "Gylou",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 76.",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "Devil",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 14",
+  "xp": null,
+  "ac": {
+    "value": 36,
+    "notes": ""
+  },
+  "hp": {
+    "average": 240,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet, climb 35 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 24,
+    "con": 18,
+    "int": 20,
+    "wis": 22,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +22, Ref +25, Will +28",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +27 (1d20+27); __Arcana__: +25 (1d20+25); __Athletics__: +28 (1d20+28); __Deception__: +30 (1d20+30); __Diplomacy__: +28 (1d20+28); __Religion__: +26 (1d20+26); __Stealth__: +27 (1d20+27); ",
+    "list": {
+      "Acrobatics": "+27",
+      "Arcana": "+25",
+      "Athletics": "+28",
+      "Deception": "+30",
+      "Diplomacy": "+28",
+      "Religion": "+26",
+      "Stealth": "+27"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision, true seeing"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, divine, polymorph, transmutation); The gylou adopts the appearance of any Small or Medium humanoid. This doesn't change their Speed or the attack and damage modifiers of their Strikes, but it might change the damage type their Strikes deal (typically to bludgeoning)."
+    },
+    {
+      "name": "Indispensable Savvy",
+      "text": "⬲ Frequency once per day Trigger The gylou attempts a skill check but hasn't rolled yet Effect The gylou demonstrates a preternatural ability for the task at hand. They use their Deception modifier for the triggering check and for all skill checks using the same skill thereafter until the next time the gylou uses this ability or until 24 hours have passed, whichever happens first."
+    },
+    {
+      "name": "Tentacle Encage",
+      "text": "⬻ (attack); Requirements The gylou has a Medium or smaller creature grabbed Effect The gylou transfers the grabbed creature into their lower body's net of encaging tentacles, freeing their limbs and tentacles to make Strikes. This has the same effects as Swallow Whole (Medium, 2d12+12 (2d12+12) bludgeoning, Rupture 30), except the encaged creature is not at risk of suffocation, and the gylou can bring the encaged creature with them when they cast dimension door. A gylou can have only one creature encaged at a time."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +30 (agile, evil, finesse, magical); Damage 3d8+12 (3d8+12) slashing plus 1d6 (1d6) evil"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tentacle +30 (evil, magical, reach 10 feet); Damage 3d12+12 (3d12+12) bludgeoning plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      7,
+      4,
+      5,
+      6,
+      8
+    ]
+  }
+}

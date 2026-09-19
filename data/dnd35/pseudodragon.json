@@ -1,0 +1,107 @@
+{
+  "name": "Pseudodragon",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Tiny",
+  "type": "Dragon",
+  "subtype": "",
+  "alignment": "Always neutral good",
+  "cr": "1",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": "+2 size, +2 Dex, +4 natural",
+    "touch": 14,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 15,
+    "formula": "2d12+2"
+  },
+  "speed": {
+    "walk": 15,
+    "fly": 60,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 ft. (3 squares), fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 15,
+    "con": 13,
+    "int": 10,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +4, Ref +5, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +2, Hide +20\\*, Listen +7, Search +6, Sense Motive +7, Spot +7, Survival +1 (+3 Following Tracks);",
+    "list": {
+      "Diplomacy": "+2",
+      "Hide": "+20",
+      "Listen": "+7",
+      "Search": "+6",
+      "Sense Motive": "+7",
+      "Spot": "+7",
+      "Survival": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft.",
+    "low-light vision",
+    "Blindsense 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 2,
+  "feats": [
+    "Weapon Finesse"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Poison"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Blindsense 60 ft., darkvision 60 ft., immunity to *sleep* and paralysis, low-light vision, spell resistance 19, telepathy 60 ft."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Sting +4 melee (1d3-2 plus poison)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Sting +4 melee (1d3-2 plus poison) and bite -1 melee (1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A pseudodragon has a body about 1 foot long, with a 2-foot tail. It weights about 7 pounds.",
+    "grapple": "-8",
+    "spaceReach": "2-1/2 ft./0 ft. (5 ft. with tail)",
+    "environment": "Temperate forests",
+    "organization": "Solitary, pair, or clutch (3-5)",
+    "treasure": "None",
+    "advancement": "3-4 HD (Tiny)",
+    "leveladjustment": "+3"
+  }
+}

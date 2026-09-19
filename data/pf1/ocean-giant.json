@@ -1,0 +1,115 @@
+{
+  "name": "Ocean Giant",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Huge",
+  "type": "humanoid",
+  "subtype": "aquatic, giant",
+  "alignment": "CG or CE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 28,
+    "notes": "natural +20, size -2",
+    "touch": 8,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 218,
+    "formula": "19d8+133"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 40,
+    "dex": 11,
+    "con": 25,
+    "int": 12,
+    "wis": 15,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +18, Ref +8, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +17, Knowledge (nature) +11, Perception +24, Perform (wind) +13, Survival +14, Swim +24",
+    "list": {
+      "Intimidate": "+17",
+      "Perception": "+24",
+      "Survival": "+14",
+      "Swim": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Aquan",
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 14,
+  "feats": [
+    "Augment Summoning (with conch)",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Martial Weapon Proficiency (trident)",
+    "Power Attack",
+    "Vital Strike",
+    "Weapon Focus (trident)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk trident +29/+24/+19 (3d6+22)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +13 (2d8+22)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This blue-skinned giant’s clothing and beard whip about like sails caught in a storm.",
+  "meta": {
+    "cmb": "31 (+33 bull rush)",
+    "cmd": "41 (43 vs. bull rush)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, gang (2-5), family (2-5 plus 35% noncombatants and 1 druid or sorcerer of 4th-7th level)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk trident, other treasure)"
+      }
+    ]
+  }
+}

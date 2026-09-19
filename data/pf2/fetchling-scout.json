@@ -1,0 +1,113 @@
+{
+  "name": "Fetchling Scout",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 117.",
+  "size": "Medium",
+  "type": "Shadow",
+  "subtype": "Fetchling, Humanoid",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 18,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 18,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +5, Ref +9, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Athletics__: +4 (1d20+4); __Deception__: +5 (1d20+5); __Diplomacy__: +5 (1d20+5); __Society__: +3 (1d20+3); __Stealth__: +7 (1d20+7); __Thievery__: +7 (1d20+7); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Athletics": "+4",
+      "Deception": "+5",
+      "Diplomacy": "+5",
+      "Society": "+3",
+      "Stealth": "+7",
+      "Thievery": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Common",
+    "Shadowtongue"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Shadow Blending",
+      "text": "When the fetchling scout is concealed as a result of dim light, the flat check to target them has a DC of 7, not 5."
+    },
+    {
+      "name": "Items",
+      "text": "chain shirt, dagger;"
+    },
+    {
+      "name": "Shadow Stride",
+      "text": "⬻ (illusion, occult, shadow); Requirements The fetchling is in dim light Effect The fetchling Strides. They have a +10-foot status bonus to their Speed during this Stride. The DC from shadow blending increases to 11 during this Stride, and the fetchling remains concealed by dim light until the end of the movement, even if they leave dim light during the Stride."
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "The fetchling scout's Strikes deal an additional 1d6 (1d6) precision damage to flat-footed creatures."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ dagger +9 (agile, finesse, versatile s); Damage 1d4+1 (1d4+1) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ dagger +9 (agile, finesse, thrown 10 feet, versatile s); Damage 1d4+1 (1d4+1) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      4,
+      2,
+      0,
+      0,
+      2
+    ],
+    "items": "chain shirt, dagger;"
+  }
+}

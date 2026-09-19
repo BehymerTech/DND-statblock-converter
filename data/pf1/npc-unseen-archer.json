@@ -1,0 +1,104 @@
+{
+  "name": "NPC Unseen Archer",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf, human",
+  "alignment": "NE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 22,
+    "notes": "armor +5, deflection +1, dex +5, dodge +1",
+    "touch": 17,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 101,
+    "formula": "15d8+30"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 22,
+    "con": 13,
+    "int": 10,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +7, Ref +16, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +24, Climb +20, Disguise +17, Knowledge (dungeoneering) +8, Knowledge (geography) +5, Knowledge (nature) +15, Perception +21, Ride +21, Stealth +30, Swim +10",
+    "list": {
+      "Acrobatics": "+24",
+      "Climb": "+20",
+      "Disguise": "+17",
+      "Perception": "+21",
+      "Ride": "+21",
+      "Stealth": "+30",
+      "Swim": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Common",
+    "Elven"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 11,
+  "feats": [
+    "Dodge",
+    "Improved Precise Shot",
+    "Manyshot",
+    "Mobility",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Rapid Shot",
+    "Shot on the Run",
+    "Skill Focus (Stealth)",
+    "Weapon Focus (composite longbow)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk rapier +14/+9/+4 (1d6+2/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 shock composite longbow +19/+14/+9 (1d8+3/×3 plus 1d6 electricity)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-elf",
+    "class": "rogue 15",
+    "cmb": "+13",
+    "cmd": 31
+  }
+}

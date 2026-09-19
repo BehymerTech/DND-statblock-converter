@@ -1,0 +1,107 @@
+{
+  "name": "Shantak",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "dex +3, natural +10, size -2",
+    "touch": 11,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 104,
+    "formula": "11d10+44"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 80 ft. (average)"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 17,
+    "con": 19,
+    "int": 8,
+    "wis": 17,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +11, Ref +10, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Escape Artist +11, Fly +13, Perception +3",
+    "list": {
+      "Escape Artist": "+11",
+      "Fly": "+13",
+      "Perception": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 13,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 11,
+  "feats": [
+    "Awesome Blow",
+    "Flyby Attack",
+    "Hover",
+    "Improved Bull Rush",
+    "Power Attack",
+    "Wingover"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +17 (2d6+8), 2 talons +17 (1d8+8 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Larger than an elephant, this scaly, bird-like creature has a vaguely horse-like head and vast, slime-encrusted wings.",
+  "meta": {
+    "cmb": "21 (+25 grapple)",
+    "cmd": "34 (42 vs. grapple)",
+    "racialModifiers": [
+      "Escape Artist 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or flock (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

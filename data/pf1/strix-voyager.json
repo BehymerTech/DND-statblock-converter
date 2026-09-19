@@ -1,0 +1,110 @@
+{
+  "name": "Strix Voyager",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "strix",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 19,
+    "notes": "armor +5, dex +2, natural +1, shield +1",
+    "touch": 12,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 27,
+    "formula": "6d8"
+  },
+  "speed": {
+    "walk": 0,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "0 ft., fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 8,
+    "int": 14,
+    "wis": 13,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +1, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +11, Climb +5, Handle Animal +4, Heal +3, Knowledge (local) +9, Knowledge (nature) +14, Knowledge (planes) +9, Knowledge (religion) +9, Linguistics +8, Perception +9, Perform (dance) +11, Perform (oratory) +14, Spellcraft +10, Stealth -1, Survival +6",
+    "list": {
+      "Acrobatics": "+11",
+      "Climb": "+5",
+      "Handle Animal": "+4",
+      "Heal": "+3",
+      "Linguistics": "+8",
+      "Perception": "+9",
+      "Spellcraft": "+10",
+      "Stealth": "-1",
+      "Survival": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Auran",
+    "Common",
+    "Elven",
+    "Hallit",
+    "Skald",
+    "Strix"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 4,
+  "feats": [
+    "Augment Summoning",
+    "Skill Focus (Perform [oratory])",
+    "Spell Focus (conjuration)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk spear +5 (1d6/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk sling +7 (1d4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The attire of this winged man, whose wooden mask is carved into an eerie smile, is devoid of the stark-white bones commonly worn by his people.",
+  "meta": {
+    "race": "Strix",
+    "class": "bard 6 (Pathfinder RPG Advanced Race Guide 200)",
+    "cmb": "+4",
+    "cmd": 16,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate mountains"
+      }
+    ]
+  }
+}

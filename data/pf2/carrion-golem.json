@@ -1,0 +1,103 @@
+{
+  "name": "Carrion Golem",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 128.",
+  "size": "Medium",
+  "type": "Mindless",
+  "subtype": "Construct, Golem",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 60,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 6,
+    "con": 16,
+    "int": 0,
+    "wis": 10,
+    "cha": 0
+  },
+  "saves": {
+    "text": "Fort +13, Ref +8, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +14 (1d20+14); ",
+    "list": {
+      "Athletics": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Golem Antimagic",
+      "text": "harmed by fire (4d6 (4d6), 1d8 (1d8) from areas or persistent damage); healed by electricity (area 1d6 (1d6) HP); slowed by cold."
+    },
+    {
+      "name": "Stench",
+      "text": "(aura, olfactory); 40 feet. A creature entering the aura or starting its turn in the aura must succeed at a DC 19 Fortitude save or become sickened 1 (plus slowed 1 for as long as it's sickened on a critical failure). While within the aura, affected creatures take a –2 circumstance penalty to saves against disease and to recover from the sickened condition. A creature that succeeds at its save is temporarily immune for 1 minute."
+    },
+    {
+      "name": "Vulnerable to Gentle Repose",
+      "text": "Casting a gentle repose spell on a carrion golem causes it to grow stiff. The golem attempts a DC 19 Fortitude save. It's unaffected on a critical success, slowed 1 for 1d4 (1d4) rounds on a success, and on a failure is immobilized and slowed for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Filth Fever",
+      "text": "(disease); Saving Throw DC 19 Fortitude. Stage 1 carrier with no ill effect (1d4 (1d4) hours) Stage 2 sickened 1 (1 day) Stage 3 sickened 1 and slowed 1 as long as it remains sickened (1 day) Stage 4 unconscious (1 day)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +14 (magical); Damage 2d10+4 (2d10+4) piercing plus filth fever"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +14 (agile, magical); Damage 2d6+4 (2d6+4) slashing plus filth fever"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      -2,
+      3,
+      -5,
+      0,
+      -5
+    ]
+  }
+}

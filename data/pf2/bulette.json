@@ -1,0 +1,100 @@
+{
+  "name": "Bulette",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 48.",
+  "size": "Huge",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 30,
+    "notes": ""
+  },
+  "hp": {
+    "average": 120,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, burrow 30 feet; powerful jumper;"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 14,
+    "con": 22,
+    "int": 2,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +20, Ref +16, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +16 (1d20+16); __Athletics__: +21 (1d20+21); ",
+    "list": {
+      "Acrobatics": "+16",
+      "Athletics": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 26,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Favored Prey",
+      "text": "A bulette gains a +1 circumstance bonus to attack and damage rolls with its jaws against a specific type of creature designated as its favorite food. Unless otherwise stated, a bulette's favored prey is halflings. Elves are never a favored prey for bulettes."
+    },
+    {
+      "name": "Leaping Charge",
+      "text": "⬺ The bulette attempts a High Jump or Long Jump. If it's adjacent to an enemy at the apex of its High Jump or at the end of its Long Jump, it can make a claw Strike against the enemy at that moment. If the bulette jumps at least 5 feet vertically or at least 20 feet horizontally, it can attempt two claw Strikes instead of one. The bulette's multiple attack penalty doesn't increase until it has made all the claw Strikes that are part of its Leaping Charge."
+    },
+    {
+      "name": "Powerful Jumper",
+      "text": "A bulette jumps 10 feet up on a successful High Jump, or 20 feet up on a critical success."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +21 Damage 2d10+10 (2d10+10) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +21 (agile); Damage 2d8+10 (2d8+10) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      2,
+      6,
+      -4,
+      2,
+      -2
+    ]
+  }
+}

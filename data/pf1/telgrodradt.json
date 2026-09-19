@@ -1,0 +1,107 @@
+{
+  "name": "Telgrodradt",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 100: A Song of Silver",
+  "size": "Large",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex +2, natural +8, size -1",
+    "touch": 11,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 67,
+    "formula": "9d8+27"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 10 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 15,
+    "con": 16,
+    "int": 9,
+    "wis": 13,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +6, Ref +5, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +8, Knowledge (religion) +8, Perception +10, Stealth +10",
+    "list": {
+      "Intimidate": "+8",
+      "Perception": "+10",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Necril",
+    "Undercommon"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 6,
+  "feats": [
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Power Attack",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +10 (1d6+4), bite +9 (1d8+4 plus disease)"
+    },
+    {
+      "name": "Ranged",
+      "text": "negative energy ray +7 touch (3d6 negative energy)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This monster resembles a gigantic, writhing grub, its translucent flesh rippling disgustingly. It has four elongated tentacles and a toothy maw.",
+  "meta": {
+    "cmb": "+11",
+    "cmd": 23,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, gathering (3-12), or settlement (12-30 telgrodradts and 200-500 zombies and skeletons)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

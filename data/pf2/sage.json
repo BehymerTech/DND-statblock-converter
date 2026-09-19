@@ -1,0 +1,106 @@
+{
+  "name": "Sage",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 241.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 86,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 12,
+    "int": 18,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +10, Ref +12, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +12 (1d20+12); __Diplomacy__: +13 (1d20+13); __Medicine__: +12 (1d20+12); __Nature__: +14 (1d20+14); __Occultism__: +12 (1d20+12); __Religion__: +12 (1d20+12); __Society__: +14 (1d20+14); ",
+    "list": {
+      "Arcana": "+12",
+      "Diplomacy": "+13",
+      "Medicine": "+12",
+      "Nature": "+14",
+      "Occultism": "+12",
+      "Religion": "+12",
+      "Society": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 24,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Religion",
+      "text": "+12, Society +14 Str +2, Dex +2, Con +1, Int +4, Wis +3, Cha +0 Items religious symbol, +1 staff."
+    },
+    {
+      "name": "Items",
+      "text": "religious symbol, +1 staff;"
+    },
+    {
+      "name": "Timely Advice",
+      "text": "⬲ (auditory, concentrate, linguistic, mental); Trigger An ally is about to attempt an attack roll or skill check and has not yet rolled Effect The sage gives the ally a savvy piece of advice, providing valuable insight. The ally gains a +2 circumstance bonus to the triggering roll."
+    },
+    {
+      "name": "Sage's Analysis",
+      "text": "⬻ (concentrate); The sage studies a creature, attempting an Arcana, Nature, Occultism, Religion, or Society check against the creature's Recall Knowledge DC. On a success, the sage gains a +2 circumstance bonus to attack rolls and AC against that creature and deals an additional 2d6 (2d6) damage to the creature with weapon attacks. These benefits last for 1 minute or until the sage uses this ability again."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ staff +12 (magical, two-hand d8); Damage 1d4+5 (1d4+5) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      2,
+      1,
+      4,
+      3,
+      0
+    ],
+    "items": "religious symbol, +1 staff;"
+  }
+}

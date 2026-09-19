@@ -1,0 +1,116 @@
+{
+  "name": "Millindemalion",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 169.",
+  "size": "Small",
+  "type": "Fey",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 13",
+  "xp": null,
+  "ac": {
+    "value": 34,
+    "notes": ""
+  },
+  "hp": {
+    "average": 275,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 26,
+    "con": 12,
+    "int": 24,
+    "wis": 18,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +20, Ref +27, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Crafting__: +28 (1d20+28); __Occultism__: +24 (1d20+24); __Society__: +24 (1d20+24); __Stealth__: +27 (1d20+27); __Millinery lore__: +30 (1d20+30); ",
+    "list": {
+      "Crafting": "+28",
+      "Occultism": "+24",
+      "Society": "+24",
+      "Stealth": "+27",
+      "Millinery lore": "+30"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲ The millindemalion can use Hat Toss against the triggering creature instead of making a Strike, making a melee attack roll with a +27 modifier to do so."
+    },
+    {
+      "name": "Unsettling Mind",
+      "text": "Attempting to touch the frenetic mind of a millindemalion is a dangerous task. When the millindemalion succeeds at a saving throw against a mental effect, the creature originating that effect takes 4d6 (4d6) mental damage."
+    },
+    {
+      "name": "Items",
+      "text": "+1 striking felt shears (as dagger);"
+    },
+    {
+      "name": "Hat Toss",
+      "text": "⬻ (enchantment, manipulate, mental, primal); The millindemalion quickly crafts a mind-altering hat in combat and tosses it onto a target with a flick of their wrist. The millindemalion chooses one of the effects below and makes a ranged attack roll with a +27 modifier and a range increment of 20 feet. On a hit, the target must succeed at a DC 33 Will saving throw or experience the listed effect for 1d4+1 (1d4+1) rounds. If the millindemalion critically succeeds at the ranged Strike, the target takes a –4 circumstance penalty on the save. A target can only wear one millindemalion hat at a time; a new hat replaces any previous hat. The hat can't be removed before the condition ends, but when the condition ends (or on a successful save), the hat falls to pieces.<ul class='inner-bullet-list'><li>Befuddling Bowler The hat clouds the target's mind; the target becomes stupefied 2.</li><li>Bewitching Beret The target is infatuated with their new hat and its creator, becoming fascinated by the millindemalion and the beret.</li><li>Dazzling Deerstalker The target can barely see with the hat falling down over its eyes and gains the dazzled condition.</li><li>Fettering Fedora The target feels a heavy weight pressing down on them from the hat and takes a –10-foot circumstance penalty to their Speeds.</li><li>Tiring Tricorne The target grows sleepy and becomes slowed 1.</li></ul>"
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "A millindemalion deals an extra 4d6 (4d6) precision damage to flat-footed creatures."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ felt shears +27 (agile, finesse, magic, versatile s); Damage 2d4+14 (2d4+14) piercing plus 1d6 (1d6) mental"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ felt shears +27 (agile, magic, thrown 10 feet); Damage 2d4+10 (2d4+10) piercing plus 1d6 (1d6) mental"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      8,
+      1,
+      7,
+      4,
+      2
+    ],
+    "items": "+1 striking felt shears (as dagger);"
+  }
+}

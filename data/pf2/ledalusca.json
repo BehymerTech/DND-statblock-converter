@@ -1,0 +1,113 @@
+{
+  "name": "Ledalusca",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 159.",
+  "size": "Medium",
+  "type": "Water",
+  "subtype": "Cold, Elemental",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 40,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, swim 30 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +8, Ref +9, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Athletics__: +8 (1d20+8); __Deception__: +5 (1d20+5); __Stealth__: +9 (1d20+9); __Thievery__: +7 (1d20+7); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Athletics": "+8",
+      "Deception": "+5",
+      "Stealth": "+9",
+      "Thievery": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Aquan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Recall Reflection",
+      "text": "(illusion, primal); A ledalusca can recall and replay any reflection ever cast on its surface, although it must still Seek to consciously notice fine or significant details."
+    },
+    {
+      "name": "Shell Block",
+      "text": "⬲ Requirements The ledalusca's shell is frozen (see Freeze Shell) Trigger The ledalusca takes physical damage from an attack Effect The ledalusca angles their shell to absorb the blow, gaining resistance 5 to the triggering damage. If they takes bludgeoning or fire damage after applying this resistance, their frozen shell shatters until they freezes a new one."
+    },
+    {
+      "name": "Freeze Shell",
+      "text": "⬻ (cold, manipulate); The ledalusca freezes their surface into a translucent, faintly colored ice sculpture matching the mirror image of a Medium creature or object they have seen before. While in this form, instead of a wave, they have the following Strike: Melee ⬻ ice shell +10, Damage 1d6+4 (1d6+4) physical plus 1d4 (1d4) cold The physical damage is a type that matches the new shape of the ledalusca's frozen shell. The ledalusca can revert to their liquid form by taking this action again."
+    },
+    {
+      "name": "Hold Still",
+      "text": "⬻ (concentrate); Until the next time they act, the ledalusca appears to be either an ice sculpture (if under the effects of Freeze Shell) or a pool of still water (if not). They have an automatic result of 28 on Deception checks and DCs to pass as what they appear to be."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ wave +10 Damage 1d6+4 (1d6+4) bludgeoning plus Push 5 feet"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ ice shard +9 (deadly d6, thrown 20 feet); Damage 1d6+4 (1d6+4) piercing plus 1d4 (1d4) cold"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ ice shell +10 Damage 1d6+4 (1d6+4) physical plus 1d4 (1d4) cold"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      3,
+      2,
+      0,
+      2,
+      1
+    ]
+  }
+}

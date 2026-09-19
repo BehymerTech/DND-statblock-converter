@@ -1,0 +1,126 @@
+{
+  "name": "Mythic Wyrm Red Dragon",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Gargantuan",
+  "type": "dragon",
+  "subtype": "fire, mythic",
+  "alignment": "CE",
+  "cr": "25",
+  "level": null,
+  "xp": 1638400,
+  "ac": {
+    "value": 50,
+    "notes": "dex -2, natural +46, size -4",
+    "touch": 4,
+    "flatFooted": 50
+  },
+  "hp": {
+    "average": 518,
+    "formula": "27d12+343"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 250 ft. (clumsy)"
+  },
+  "abilities": {
+    "str": 45,
+    "dex": 6,
+    "con": 29,
+    "int": 20,
+    "wis": 21,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +24, Ref +13, Will +22",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +35, Bluff +37, Diplomacy +37, Fly +14, Intimidate +37, Knowledge (arcana) +35, Knowledge (history) +35, Perception +35, Sense Motive +35, Spellcraft +35, Stealth +16",
+    "list": {
+      "Appraise": "+35",
+      "Bluff": "+37",
+      "Diplomacy": "+37",
+      "Fly": "+14",
+      "Intimidate": "+37",
+      "Perception": "+35",
+      "Sense Motive": "+35",
+      "Spellcraft": "+35",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision",
+    "low-light vision",
+    "smoke vision",
+    "x-ray vision"
+  ],
+  "passivePerception": 45,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Giant",
+    "Orc"
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 27,
+  "feats": [
+    "Cleave",
+    "Critical Focus",
+    "Greater Vital Strike",
+    "Improved Critical (bite)",
+    "Improved Critical (claws)",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack",
+    "Quicken Spell",
+    "Staggering Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +40 (4d6+25/18-20 plus bleed and grab), 2 claws +40 (2d8+17/19-20 plus bleed and grab), 2 wings +38 (2d6+8), tail slap +38 (2d8+25)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A ruddy glow emanates from beneath this dragon’s red, gemencrusted scales, like lava visible between cracks of cooling stone.",
+  "meta": {
+    "cmb": "48 (+52 grapple)",
+    "cmd": "56 (60 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

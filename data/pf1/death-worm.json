@@ -1,0 +1,109 @@
+{
+  "name": "Death Worm",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex +1, natural +9, size -1",
+    "touch": 10,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 68,
+    "formula": "8d10+24"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., burrow 20 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 13,
+    "con": 16,
+    "int": 3,
+    "wis": 11,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +9, Ref +7, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +11, Stealth -3",
+    "list": {
+      "Perception": "+11",
+      "Stealth": "-3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Terran"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 8,
+  "feats": [
+    "Cleave",
+    "Improved Overrun",
+    "Iron Will",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +11 (2d8+6 plus poison)"
+    },
+    {
+      "name": "Ranged",
+      "text": "electrical jolt +8 ranged touch (4d6 electricity)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This large worm’s body is muscular and scaly, its mouth a nightmare of row upon row of triangular teeth.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": 24,
+    "racialModifiers": [
+      "Stealth 16"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts, plains, or hills"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

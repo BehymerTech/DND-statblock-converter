@@ -1,0 +1,103 @@
+{
+  "name": "Drow Demonic Champion",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "alignment": "CE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 25,
+    "notes": "armor +10, dex +1, shield +4",
+    "touch": 11,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 79,
+    "formula": "10d10+20"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 8,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +11, Ref +7, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +0, Climb +3, Intimidate +11, Perception +11, Stealth +8",
+    "list": {
+      "Acrobatics": "+0",
+      "Climb": "+3",
+      "Intimidate": "+11",
+      "Perception": "+11",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Elven",
+    "Undercommon"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 10,
+  "feats": [
+    "Channel Smite",
+    "Improved Critical (scimitar)",
+    "Improved Initiative",
+    "Shield Focus",
+    "Weapon Focus (scimitar)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 scimitar +16/+11 (1d6+5/15-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "heavy crossbow +12 (1d10/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Drow",
+    "class": "antipaladin 10 (Pathfinder RPG Advanced Player’s Guide 118)",
+    "cmb": "+14",
+    "cmd": 25,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "underground"
+      }
+    ]
+  }
+}

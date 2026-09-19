@@ -1,0 +1,97 @@
+{
+  "name": "Sea Crawler",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 121: The Lost Outpost",
+  "size": "Medium",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 12,
+    "notes": "dex +2",
+    "touch": 12,
+    "flatFooted": 10
+  },
+  "hp": {
+    "average": 11,
+    "formula": "2d8+2"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., climb 30 ft., swim 10 ft."
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 15,
+    "con": 13,
+    "int": 2,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +4, Ref +5, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +8, Perception +6, Swim +8",
+    "list": {
+      "Climb": "+8",
+      "Perception": "+6",
+      "Swim": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 1,
+  "feats": [
+    "Multiattack",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +3 (1d6), 2 tentacles +1 (1d4 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This furred creature has long tentacles that are covered in ridges and suction discs in place of arms, legs, and a tail.",
+  "meta": {
+    "cmb": "+1",
+    "cmd": 13,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate coasts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

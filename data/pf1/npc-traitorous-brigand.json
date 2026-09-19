@@ -1,0 +1,96 @@
+{
+  "name": "NPC Traitorous Brigand",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, orc",
+  "alignment": "NE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 17,
+    "notes": "armor +6",
+    "touch": 11,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 30,
+    "formula": "3d10+9"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 12,
+    "con": 14,
+    "int": 10,
+    "wis": 8,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +5, Ref +2, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +5, Intimidate +9, Survival +3, Swim +5, Perception -1",
+    "list": {
+      "Climb": "+5",
+      "Intimidate": "+9",
+      "Survival": "+3",
+      "Swim": "+5",
+      "Perception": "-1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 9,
+  "languages": [
+    "Common",
+    "Orc"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 3,
+  "feats": [
+    "Cleave",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk greataxe +7 (1d12+4/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "javelin +4 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-orc",
+    "class": "fighter 3",
+    "cmb": "+6",
+    "cmd": 17
+  }
+}

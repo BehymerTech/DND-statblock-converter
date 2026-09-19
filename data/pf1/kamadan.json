@@ -1,0 +1,105 @@
+{
+  "name": "Kamadan",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +2, dodge +1, natural +5, size -1",
+    "touch": 12,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 42,
+    "formula": "5d10+15"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 15,
+    "con": 16,
+    "int": 5,
+    "wis": 12,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +7, Ref +6, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +6, Perception +8, Stealth +6",
+    "list": {
+      "Acrobatics": "+6",
+      "Perception": "+8",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 5,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Mobility"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +7 (1d6+3), 2 claws +7 (1d3+3), snakes +2 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This large leopard has six colorful snakes, hissing and ready to strike, sprouting from its shoulders.",
+  "meta": {
+    "cmb": "+9",
+    "cmd": "22 (26 vs. trip)",
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-9)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

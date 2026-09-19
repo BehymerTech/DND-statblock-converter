@@ -1,0 +1,101 @@
+{
+  "name": "Kaprosuchus",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Huge",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 19,
+    "notes": "dex +1, natural +10, size -2",
+    "touch": 9,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 59,
+    "formula": "7d8+28"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 12,
+    "con": 19,
+    "int": 1,
+    "wis": 14,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +9, Ref +6, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +13, Stealth +6",
+    "list": {
+      "Perception": "+13",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 23,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 5,
+  "feats": [
+    "Improved Initiative",
+    "Power Attack",
+    "Skill Focus (Perception)",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +11 (2d6+7), tail slap +5 (2d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This massive, squat crocodilian has forward facing eyes, jutting teeth, and a pronounced snout.",
+  "meta": {
+    "cmb": "+14",
+    "cmd": "25 (29 vs. trip)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or colony (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

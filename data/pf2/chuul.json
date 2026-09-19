@@ -1,0 +1,110 @@
+{
+  "name": "Chuul",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 64.",
+  "size": "Large",
+  "type": "Amphibious",
+  "subtype": "Aberration",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 28,
+    "notes": ""
+  },
+  "hp": {
+    "average": 100,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet; swim 25 feet;"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 18,
+    "int": 10,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +18, Ref +15, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +17 (1d20+17); __Nature__: +13 (1d20+13); __Stealth__: +14 (1d20+14); __Survival__: +13 (1d20+13); ",
+    "list": {
+      "Athletics": "+17",
+      "Nature": "+13",
+      "Stealth": "+14",
+      "Survival": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tremorsense 30"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Aklo",
+    "Common (or undercommon",
+    "for darklands variants)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 1d8+9 (1d8+9) bludgeoning, DC 25 (grabbed by claws only)"
+    },
+    {
+      "name": "Mandibles",
+      "text": "⬻ Requirements A creature is grabbed and paralyzed by the chuul's tentacles. Effect The creature takes 3d6 (3d6) piercing damage."
+    },
+    {
+      "name": "Paralytic Venom",
+      "text": "(incapacitation, poison); Saving Throw DC 25 Fortitude. Maximum Duration 6 rounds Stage 1 paralyzed. (1 round)"
+    },
+    {
+      "name": "Tentacle Transfer",
+      "text": "⬻ Requirements The chuul has a creature grabbed. Effect The chuul transfers the grabbed creature from its claws to its tentacles, or vice versa. A creature is exposed to the chuul's paralytic venom when transferred into the tentacles and at the start of each of the chuul's turns if it remains grabbed by the tentacles."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claws +19 (reach 10 feet); Damage 2d8+9 (2d8+9) bludgeoning plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      3,
+      4,
+      0,
+      2,
+      -1
+    ]
+  }
+}

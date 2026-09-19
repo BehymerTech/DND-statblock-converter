@@ -1,0 +1,105 @@
+{
+  "name": "Xulgath Boss",
+  "sourceSystem": "pf2",
+  "source": "_Troubles In Otari_.",
+  "size": "Medium",
+  "type": "Xulgath",
+  "subtype": "Humanoid",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": ""
+  },
+  "hp": {
+    "average": 44,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 14,
+    "int": 8,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +9, Ref +6, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +11 (1d20+11); __Intimidation__: +6 (1d20+6); __Stealth__: +6 (1d20+6); ",
+    "list": {
+      "Athletics": "+11",
+      "Intimidation": "+6",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Stench",
+      "text": "A creature that comes within 30 feet of the xulgath and can smell the xulgath must attempt a DC 19 Fortitude save. On a failure, the creature takes a –1 status penalty to all checks and DCs until it uses an action to retch. A creature that succeeds at its save isn't affected by any xulgaths' stenches for 1 minute."
+    },
+    {
+      "name": "Stride",
+      "text": "⬻ 25 feet"
+    },
+    {
+      "name": "Melee Strike",
+      "text": "⬻ (sweep); Damage 1d10+6 (1d10+6) slashing Melee Strike ⬻ jaws +11, Damage 1d6+6 (1d6+6) piercing Melee Strike ⬻ claw +11 (agile), Damage 1d4+6 (1d4+6) slashing"
+    },
+    {
+      "name": "Ranged Strike",
+      "text": "⬻ (thrown 30 feet); Damage 1d6+4 (1d6+4) piercing"
+    },
+    {
+      "name": "Swipe",
+      "text": "⬺ The xulgath boss makes two Strikes with their greataxe against two adjacent foes, both of whom are within their reach, with a +1 circumstance bonus. The second attack uses the same multiple attack penalty as the first, but attacks the xulgath boss makes after this take a –10 multiple attack penalty (or a –8 multiple attack penalty for its claw)."
+    },
+    {
+      "name": "Items",
+      "text": "breastplate, greataxe, javelin (4);"
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      1,
+      2,
+      -1,
+      2,
+      1
+    ],
+    "items": "breastplate, greataxe, javelin (4);"
+  }
+}

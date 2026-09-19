@@ -1,0 +1,90 @@
+{
+  "name": "Earth Mephit",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 150.",
+  "size": "Small",
+  "type": "Elemental",
+  "subtype": "Earth",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, burrow 20 feet, fly 15 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 8,
+    "con": 14,
+    "int": 6,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +8, Ref +4, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +6 (1d20+6); __Stealth__: +2 (1d20+2); ",
+    "list": {
+      "Athletics": "+6",
+      "Stealth": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tremorsense 30"
+  ],
+  "passivePerception": 13,
+  "languages": [
+    "Terran"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (arcane, earth); The earth mephit breathes rocks in a 15-foot cone that deals 2d6 (2d6) bludgeoning damage to each creature within the area (DC 17 basic Reflex save). The earth mephit can't use Breath Weapon again for 1d4 (1d4) rounds."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +8 Damage 1d6+3 (1d6+3) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      -1,
+      2,
+      -2,
+      0,
+      -1
+    ]
+  }
+}

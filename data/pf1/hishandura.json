@@ -1,0 +1,118 @@
+{
+  "name": "Hishandura",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 136: Temple of the Peacock Spirit",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "asura, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 30,
+    "notes": "dex +3, natural +18, size -1",
+    "touch": 12,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 207,
+    "formula": "18d10+108"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 16,
+    "con": 23,
+    "int": 13,
+    "wis": 18,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +17, Ref +11, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Escape Artist +9, Intimidate +27, Knowledge (local) +13, Knowledge (planes) +13, Knowledge (religion) +22, Perception +29, Sense Motive +25, Spellcraft +19, Use Magic Device +27",
+    "list": {
+      "Escape Artist": "+9",
+      "Intimidate": "+27",
+      "Perception": "+29",
+      "Sense Motive": "+25",
+      "Spellcraft": "+19",
+      "Use Magic Device": "+27"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent",
+    "scent of carnage",
+    "smoke sight"
+  ],
+  "passivePerception": 39,
+  "languages": [
+    "Common",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 18,
+  "feats": [
+    "Combat Reflexes",
+    "Critical Focus",
+    "Improved Critical (punching dagger)",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Multiweapon Fighting",
+    "Nimble Moves",
+    "Power Attack",
+    "Staggering Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 punching dagger +23/+18/+13/+8 (1d6+8/19-20/×3), 3 +1 punching daggers +23 (1d6+4/19-20/×3), bite +19 (2d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This muscular fiend has two vertically mirrored faces, four arms, and a quartet of sinister punching daggers",
+  "meta": {
+    "cmb": "+26",
+    "cmd": 39,
+    "racialModifiers": [
+      "Escape Artist 6",
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (4 +1 punching daggers, other treasure)"
+      }
+    ]
+  }
+}

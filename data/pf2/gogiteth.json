@@ -1,0 +1,108 @@
+{
+  "name": "Gogiteth",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 183.",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 12",
+  "xp": null,
+  "ac": {
+    "value": 31,
+    "notes": ""
+  },
+  "hp": {
+    "average": 250,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet; climb 30 feet;"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 18,
+    "int": 6,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +25, Ref +22, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +19 (1d20+19); __Athletics__: +24 (1d20+24); __Stealth__: +21 (1d20+21); __Survival__: +17 (1d20+17), (Survival: +24 (1d20+24) to Track); ",
+    "list": {
+      "Acrobatics": "+19",
+      "Athletics": "+24",
+      "Stealth": "+21",
+      "Survival": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Undercommon (can't speak)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Skittering Reposition",
+      "text": "⬲ (move); Trigger A creature that starts its move outside the gogiteth's reach moves into its reach. Effect The gogiteth moves 10 feet. This does not trigger reactions."
+    },
+    {
+      "name": "Carry Off Prey",
+      "text": "The gogiteth can move at its full Speed while it has a creature grabbed in its jaws, bringing the grabbed creature along."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 3d6+12 (3d6+12) bludgeoning, DC 32."
+    },
+    {
+      "name": "Skittering Assault",
+      "text": "⬺ The gogiteth Strides three times. Once per Stride, it can attempt a leg Strike against a creature in its reach at any point during the Stride; it must make each attack against a different creature, but it doesn't apply its multiple attack penalty until after making all its Strikes. If any of the Strikes result in a critical failure, Skittering Assault ends."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +26 Damage 3d10+12 (3d10+12) piercing plus Improved Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ leg +26 (agile, reach 10 feet); Damage 3d6+12 (3d6+12) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      3,
+      4,
+      -2,
+      1,
+      0
+    ]
+  }
+}

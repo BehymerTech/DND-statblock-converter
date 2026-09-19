@@ -1,0 +1,103 @@
+{
+  "name": "NPC Elemental Priest",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "halfling",
+  "alignment": "CN",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 21,
+    "notes": "armor +7, deflection +1, natural +2, size +1",
+    "touch": 12,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 155,
+    "formula": "16d8+80"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 10,
+    "con": 18,
+    "int": 12,
+    "wis": 25,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +17, Ref +10, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +1, Climb +0, Diplomacy +10, Knowledge (arcana) +9, Knowledge (nature) +6, Knowledge (planes) +14, Linguistics +5, Perception +19, Spellcraft +9, Stealth +5, Swim +3",
+    "list": {
+      "Acrobatics": "+1",
+      "Climb": "+0",
+      "Diplomacy": "+10",
+      "Linguistics": "+5",
+      "Perception": "+19",
+      "Spellcraft": "+9",
+      "Stealth": "+5",
+      "Swim": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 29,
+  "languages": [
+    "Aquan",
+    "Auran",
+    "Common",
+    "Halfling"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 12,
+  "feats": [
+    "Augment Summoning",
+    "Combat Casting",
+    "Elemental Channel (air)",
+    "Elemental Channel (water)",
+    "Extra Channel",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Spell Focus (conjuration)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk quarterstaff +13/+8/+3 (1d4-1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk light crossbow +14 (1d6/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Halfling",
+    "class": "cleric of Gozreh 16",
+    "cmb": "+10",
+    "cmd": 21
+  }
+}

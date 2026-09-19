@@ -1,0 +1,98 @@
+{
+  "name": "Clockwork Overseer",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 123: The Flooded Cathedral",
+  "size": "Medium",
+  "type": "construct",
+  "subtype": "clockwork",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 21,
+    "notes": "dex +2, dodge +2, natural +7",
+    "touch": 14,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 75,
+    "formula": "10d10+20"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 14,
+    "con": "None",
+    "int": "None",
+    "wis": 13,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +4, Ref +8, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +12, Perception +1",
+    "list": {
+      "Climb": "+12",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 11,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 10,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "lash +15 (1d4+5 plus trip), slam +15 (1d6+5 plus push)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "One arm of this six-limbed clockwork construct ends in a broad fist, and the other extends into an articulated metal lash.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": 29,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, crew (1 plus 2-5 clockwork servants), or deployment (1-2 plus 2-5 clockwork soldiers)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Duneshaker Solifugid",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 246.",
+  "size": "Gargantuan",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 18",
+  "xp": null,
+  "ac": {
+    "value": 42,
+    "notes": ""
+  },
+  "hp": {
+    "average": 340,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 feet, burrow 25 feet, climb 25 feet"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 24,
+    "con": 24,
+    "int": 0,
+    "wis": 18,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +31, Ref +33, Will +28",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +33 (1d20+33); __Athletics__: +35 (1d20+35); __Stealth__: +33 (1d20+33), (Stealth: +37 (1d20+37) in deserts); ",
+    "list": {
+      "Acrobatics": "+33",
+      "Athletics": "+35",
+      "Stealth": "+37"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tremorsense 30"
+  ],
+  "passivePerception": 40,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Earth Shaker",
+      "text": "Each turn, the first time the duneshaker solifugid is adjacent to a Large or smaller creature during a move action it's using, that creature must succeed at a DC 39 Reflex save or fall prone."
+    },
+    {
+      "name": "Pounce",
+      "text": "⬻ The duneshaker solifugid Strides and makes a Strike at the end of that movement. If the duneshaker solifugid began this action hidden, it remains hidden until after this ability's Strike."
+    },
+    {
+      "name": "Rend",
+      "text": "⬻ (claw);"
+    },
+    {
+      "name": "Venom Spray",
+      "text": "⬺ (poison); The duneshaker solifugid spews toxic barbs at all creatures in a 30-foot cone. Each creature within the area takes 10d6 (10d6) poison damage (DC 39 basic Fortitude save). A creature that fails its saving throw is blinded for 1d6 (1d6) rounds (or permanently on a critical failure). The duneshaker solifugid can't use Venom Spray again for 1d4 (1d4) rounds."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +35 (reach 10 feet); Damage 4d10+17 (4d10+17) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +35 (agile, reach 20 feet); Damage 3d10+17 (3d10+17) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      9,
+      7,
+      7,
+      -5,
+      4,
+      -4
+    ]
+  }
+}

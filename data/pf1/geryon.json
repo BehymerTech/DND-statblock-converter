@@ -1,0 +1,126 @@
+{
+  "name": "Geryon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "aquatic, devil, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "29",
+  "level": null,
+  "xp": 6553600,
+  "ac": {
+    "value": 47,
+    "notes": "deflection +4, dex +5, natural +8, profane +15, shield +7, size -2",
+    "touch": 32,
+    "flatFooted": 42
+  },
+  "hp": {
+    "average": 731,
+    "formula": "34d10+544"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., swim 50 ft., other ['air walk'] ft."
+  },
+  "abilities": {
+    "str": 38,
+    "dex": 21,
+    "con": 42,
+    "int": 33,
+    "wis": 30,
+    "cha": 33
+  },
+  "saves": {
+    "text": "Fort +31, Ref +28, Will +33",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +48, Diplomacy +48, Intimidate +48, Know. (arcana) +45, Know. (dungeoneering) +45, Know. (engineering) +45, Know. (geography) +45, Know. (history) +45, Know. (local) +45, Know. (nature) +45, Know. (nobility) +45, Know. (religion) +45, Know. (planes) +48, Linguistics +48, Perception +47, Sense Motive +47, Spellcraft +48, Swim +21",
+    "list": {
+      "Bluff": "+48",
+      "Diplomacy": "+48",
+      "Intimidate": "+48",
+      "Linguistics": "+48",
+      "Perception": "+47",
+      "Sense Motive": "+47",
+      "Spellcraft": "+48",
+      "Swim": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect chaos",
+    "detect good",
+    "scent",
+    "see in darkness",
+    "true seeing"
+  ],
+  "passivePerception": 57,
+  "languages": [
+    "all (language mastery)",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 34,
+  "feats": [
+    "Blinding Critical",
+    "Combat Expertise",
+    "Critical Focus",
+    "Double Slice",
+    "Greater Disarm",
+    "Greater Trip",
+    "Improved Critical (flail)",
+    "Improved Critical (heavy shield)",
+    "Improved Critical (tail slap)",
+    "Improved Disarm",
+    "Improved Initiative",
+    "Improved Shield Bash",
+    "Improved Trip",
+    "Improved Two-Weapon Fighting",
+    "Power Attack",
+    "Quicken Spell-Like Ability (mindwipe)",
+    "Spellbreaker",
+    "Two-Weapon Fighting"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+5 cruel dispelling burst unholy flail +47/+42/+37/+32 (3d6+19/19-20), +1 heavy shield +43/+38 (2d6+15/19-20), 3 claws +41 (1d6+7), 3 tail slaps +41 (2d6+7/19-20 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This tripartite being has three humanoid bodies engulfed from the waist down by a tangle of three immense serpents.",
+  "meta": {
+    "cmb": "50 (+54 disarm, trip)",
+    "cmd": "84 (86 vs. disarm, can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple (+5 arrow deflection bashing heavy steel shield, +5 cruel dispelling burst unholy flail, Horn of Lies, other treasure)"
+      }
+    ]
+  }
+}

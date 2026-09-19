@@ -1,0 +1,93 @@
+{
+  "name": "Wererat",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "or Small Monstrosity",
+  "subtype": "Lycanthrope",
+  "alignment": "Lawful Evil",
+  "cr": "2",
+  "level": null,
+  "xp": 450,
+  "ac": {
+    "value": 13,
+    "notes": ""
+  },
+  "hp": {
+    "average": 60,
+    "formula": "11d8 + 11"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": 30,
+    "burrow": null,
+    "notes": "30 ft., Climb 30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 12,
+    "int": 11,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +4, Stealth +5",
+    "list": {
+      "Perception": "+4",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Common (can't speak in rat form)"
+  ],
+  "initiative": "+3 (13)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The wererat makes two attacks, using Scratch or Hand Crossbow in any combination. It can replace one attack with a Bite attack."
+    },
+    {
+      "name": "Bite (Rat or Hybrid Form Only)",
+      "text": "_Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 8 (2d4 + 3) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. _Constitution Saving Throw:_ DC 11. _Failure:_ The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a **Wererat** under the GM's control and has 10 Hit Points. _Success:_ The target is immune to this wererat's curse for 24 hours."
+    },
+    {
+      "name": "Scratch",
+      "text": "_Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 6 (1d6 + 3) Slashing damage."
+    },
+    {
+      "name": "Hand Crossbow (Humanoid or Hybrid Form Only)",
+      "text": "_Ranged Attack Roll:_ +5, range 30/120 ft. _Hit:_ 6 (1d6 + 3) Piercing damage."
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Shape-Shift",
+      "text": "The wererat shape-shifts into a Medium rat-humanoid hybrid or a Small rat, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. ## Weretiger"
+    }
+  ],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

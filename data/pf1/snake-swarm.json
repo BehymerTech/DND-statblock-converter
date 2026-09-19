@@ -1,0 +1,104 @@
+{
+  "name": "Snake Swarm",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Pathfinder No. 39: The City of Seven Spears",
+  "size": "Tiny",
+  "type": "animal",
+  "subtype": "swarm",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 15,
+    "notes": "dex +2, natural +1, size +2",
+    "touch": 14,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 16,
+    "formula": "3d8+3"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., climb 20 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 9,
+    "dex": 15,
+    "con": 12,
+    "int": 1,
+    "wis": 12,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +4, Ref +7, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +14, Perception +9, Stealth +18, Swim +10",
+    "list": {
+      "Climb": "+14",
+      "Perception": "+9",
+      "Stealth": "+18",
+      "Swim": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "swarm (1d6 plus distraction)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Hissing menacingly, this mass of snakes resembles a pile of slithering tentacles.",
+  "meta": {
+    "cmb": "None",
+    "cmd": "None",
+    "racialModifiers": [
+      "Perception 4",
+      "Stealth 4",
+      "uses Dex to modify Climb and Swim"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or nest (2-4 swarms)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

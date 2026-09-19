@@ -1,0 +1,123 @@
+{
+  "name": "Chimera",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 63.",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 135,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 14,
+    "con": 18,
+    "int": 4,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +18, Ref +16, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +14 (1d20+14); __Athletics__: +18 (1d20+18); __Stealth__: +18 (1d20+18); ",
+    "list": {
+      "Acrobatics": "+14",
+      "Athletics": "+18",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Three Headed",
+      "text": "Any ability that would sever a chimera's head (such as a critical hit with a vorpal weapon) severs one head at random. Losing a head doesn't kill a chimera (as long as it has one head left), but it does prevent it from making Strikes with the lost head or using the head's Breath Weapon."
+    },
+    {
+      "name": "Triple Opportunity",
+      "text": "A chimera gains 2 extra reactions each round that it can use only to make Attacks of Opportunity. It must use a different head for each reaction, and it can't use more than one on the same triggering action. If it loses one of its heads, it also loses one of these extra reactions."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (arcane, evocation); The chimera breathes a cone or line that deals 9d6 (9d6) damage to all creatures in the area (DC 26 basic save of a type indicated below). The color of the chimera's dragon head determines the area of the Breath Weapon, the type of damage it deals, and the type of save to avoid it. The chimera can't use Breath Weapon again for 1d4 (1d4) rounds.<ul class='inner-bullet-list'><li>Black 60-foot line of acid (Reflex)</li><li>Blue 60-foot line of electricity (Reflex)</li><li>Green 30-foot cone of poison (Fortitude)</li><li>Red 30-foot cone of fire (Reflex)</li><li>White 30-foot cone of cold (Reflex)</li></ul>"
+    },
+    {
+      "name": "Draconic Bite",
+      "text": "A chimera's dragon head deals an extra 2d6 (2d6) damage of a type matching the dragon's color (see Breath Weapon)."
+    },
+    {
+      "name": "Three-Headed Strike",
+      "text": "⬺ The chimera makes a Strike with its dragon jaws, lion jaws, and goat horns, each at a –2 penalty and targeting a different creature. These Strikes count as only one attack for the chimera's multiple attack penalty, and the penalty doesn't increase until after it has made all three attacks."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ dragon jaws +20 Damage 2d6+9 (2d6+9) piercing plus 2d6 (2d6) energy damage (see draconic bite)"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ lion jaws +20 Damage 2d10+9 (2d10+9) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ goat horns +20 Damage 2d10+9 (2d10+9) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +20 (agile); Damage 2d6+9 (2d6+9) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      2,
+      4,
+      -3,
+      2,
+      0
+    ]
+  }
+}

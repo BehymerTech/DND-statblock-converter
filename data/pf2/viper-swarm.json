@@ -1,0 +1,91 @@
+{
+  "name": "Viper Swarm",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 249.",
+  "size": "Large",
+  "type": "Swarm",
+  "subtype": "Animal",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 50,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, climb 30 feet, swim 30 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 20,
+    "con": 16,
+    "int": 2,
+    "wis": 14,
+    "cha": 4
+  },
+  "saves": {
+    "text": "Fort +11, Ref +13, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +13 (1d20+13); __Stealth__: +11 (1d20+11); ",
+    "list": {
+      "Acrobatics": "+13",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 60"
+  ],
+  "passivePerception": 22,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Venom Spritz",
+      "text": "⬺ The vipers spray venom from their fangs in a defensive display. Each creature in a 10-foot cone is exposed to viper swarm venom but gains a +2 circumstance bonus to its initial saving throw against the poison."
+    },
+    {
+      "name": "Venomous Fangs",
+      "text": "⬻ Each enemy in the swarm's space takes 2d8 (2d8) piercing damage (DC 21 basic Reflex save) plus viper swarm venom."
+    },
+    {
+      "name": "Viper Swarm Venom",
+      "text": "(poison); Saving Throw DC 21 Fortitude. Maximum Duration 6 rounds Stage 1 1d4 (1d4) poison damage (1 round) Stage 2 1d6 (1d6) poison damage and clumsy 1 (1 round) Stage 3 2d4 (2d4) poison damage, clumsy 2, and enfeebled 1 (1 round)"
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      5,
+      3,
+      -4,
+      2,
+      -3
+    ]
+  }
+}

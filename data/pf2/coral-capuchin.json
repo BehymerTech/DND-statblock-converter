@@ -1,0 +1,96 @@
+{
+  "name": "Coral Capuchin",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 54.",
+  "size": "Tiny",
+  "type": "Beast",
+  "subtype": "Amphibious",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, climb 15 feet, fly 15 feet, swim 15 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 12,
+    "int": 6,
+    "wis": 16,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +4, Ref +9, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Athletics__: +3 (1d20+3); __Stealth__: +7 (1d20+7); __Thievery__: +7 (1d20+7); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Athletics": "+3",
+      "Stealth": "+7",
+      "Thievery": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Moisture Dependency",
+      "text": "A coral capuchin must stay in or near water, or else it begins drying out. It can remain away from water for only 12 hours before its membranous skin starts to turn brittle and flake, taking 1d6 (1d6) damage per hour until it is doused in water."
+    },
+    {
+      "name": "Capuchin's Curse",
+      "text": "(curse, divine, transmutation); If a capuchin damages a creature with its jaws Strike, the creature gains both a blessing and a curse that last for 1d6 (1d6) hours. While the blessing doubles the amount of time that the affected creature can hold its breath, the curse imposes a quickened version of the capuchin's moisture dependency, taking 1d6 (1d6) damage every 10 minutes they go without water. A cursed creature can fully immerse itself in water as a 3-action activity to attempt a DC 17 Fortitude save, ending both the blessing and the curse on a success."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +9 (agile, finesse); Damage 1d8 (1d8) piercing plus capuchin's curse"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      4,
+      1,
+      -2,
+      3,
+      1
+    ]
+  }
+}

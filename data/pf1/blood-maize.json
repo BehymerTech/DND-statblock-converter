@@ -1,0 +1,101 @@
+{
+  "name": "Blood Maize",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 121: The Lost Outpost",
+  "size": "Medium",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 12,
+    "notes": "dex +2",
+    "touch": 12,
+    "flatFooted": 10
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d8+6"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 14,
+    "con": 13,
+    "int": 2,
+    "wis": 11,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +4, Ref +3, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +4, Stealth +12",
+    "list": {
+      "Perception": "+4",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 14,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 2,
+  "feats": [
+    "Skill Focus (Stealth)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "3 slams +3 (1d4+1 plus bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Razor-sharp leaves dripping in blood span the length of this cornstalk, while a snakelike root digs into the soft ground.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": 15,
+    "racialModifiers": [
+      "Stealth 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or patch (2-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

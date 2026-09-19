@@ -1,0 +1,115 @@
+{
+  "name": "NPC Risen Guard",
+  "sourceSystem": "pf1",
+  "source": "Osirion, Legacy of the Pharaohs",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LN",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 21,
+    "notes": "armor +8, dex +1, shield +2",
+    "touch": 11,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 49,
+    "formula": "6d10+12"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 14,
+    "int": 13,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +8, Ref +5, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Heal +6, Intimidate +8, Knowledge (local) +7, Perception +6, Sense Motive +6",
+    "list": {
+      "Heal": "+6",
+      "Intimidate": "+8",
+      "Perception": "+6",
+      "Sense Motive": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 16,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Osiriani"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 6,
+  "feats": [
+    "Bodyguard",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Exotic Weapon Proficiency (khopesh)",
+    "Greater Trip",
+    "Improved Trip",
+    "In Harm’s Way",
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 khopesh +11/+6 (1d8+5/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "heavy crossbow +8 (1d10/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This warrior’s armor resembles the carapace of a mighty beetle. She wields a khopesh in one hand and a large shield in the other.",
+  "meta": {
+    "race": "Human",
+    "class": "fighter 6",
+    "cmb": "9 (+13 trip)",
+    "cmd": "21 (23 vs. trip)",
+    "racialModifiers": [
+      "Intimidate 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Osirion)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, squad (3), team (6-12), escort (3-12 with government dignitary), or royal detail (24+ with pharaoh)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (half-plate, heavy wooden shield, +1 khopesh, heavy crossbow with 10 bolts, cloak of resistance +1, potion of bull’s strength, potion of cure moderate wounds, 72 gp)"
+      }
+    ]
+  }
+}

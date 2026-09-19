@@ -1,0 +1,102 @@
+{
+  "name": "Grizzly Bear",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 16,
+    "notes": "dex +1, natural +6, size -1",
+    "touch": 10,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 42,
+    "formula": "5d8+20"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 13,
+    "con": 19,
+    "int": 2,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +8, Ref +5, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +6, Survival +5, Swim +14",
+    "list": {
+      "Perception": "+6",
+      "Survival": "+5",
+      "Swim": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 3,
+  "feats": [
+    "Endurance",
+    "Run",
+    "Skill Focus (Survival)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +7 (1d6+5 plus grab), bite +7 (1d6+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Broad, powerful muscles move beneath this massive bear’s brown fur, promising both speed and lethal force.",
+  "meta": {
+    "cmb": "9 (+13 grapple)",
+    "cmd": "20 (24 vs. trip)",
+    "racialModifiers": [
+      "Swim 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

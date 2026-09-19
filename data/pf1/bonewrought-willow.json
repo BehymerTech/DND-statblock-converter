@@ -1,0 +1,103 @@
+{
+  "name": "Bonewrought Willow",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 139: The Dead Road",
+  "size": "Large",
+  "type": "plant",
+  "subtype": "extraplanar",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "natural +6, size -1",
+    "touch": 9,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 32,
+    "formula": "5d8+10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 10,
+    "con": 14,
+    "int": 5,
+    "wis": 12,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +6, Ref +1, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +12, Perception +8",
+    "list": {
+      "Intimidate": "+12",
+      "Perception": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "spiritsense"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common (can't speak)"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 3,
+  "feats": [
+    "Cleave",
+    "Improved Bull Rush",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +6 (2d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This weeping willow tree has a pale and mottled trunk that is contorted into twisted and torturous forms, and long branches made of bones and fibrous fronds.",
+  "meta": {
+    "cmb": "8 (+10 bull rush)",
+    "cmd": "18 (20 vs. bull rush)",
+    "racialModifiers": [
+      "Intimidate 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land (The Boneyard)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or copse (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

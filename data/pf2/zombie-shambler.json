@@ -1,0 +1,91 @@
+{
+  "name": "Zombie Shambler",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 340.",
+  "size": "Medium",
+  "type": "Zombie",
+  "subtype": "Mindless, Undead",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature -1",
+  "xp": null,
+  "ac": {
+    "value": 12,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 6,
+    "con": 14,
+    "int": 0,
+    "wis": 10,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +6, Ref +0, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +5 (1d20+5); ",
+    "list": {
+      "Athletics": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 10,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Slow",
+      "text": "A zombie is permanently slowed 1 and can't use reactions."
+    },
+    {
+      "name": "Jaws",
+      "text": "⬻ (attack); Requirements The zombie has a creature grabbed or restrained. Effect The zombie makes a jaws unarmed melee Strike against the grabbed or restrained creature with an attack modifier of +7 that deals 1d8+3 (1d8+3) piercing damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +7 Damage 1d6+3 (1d6+3) bludgeoning plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      -2,
+      2,
+      -5,
+      0,
+      -2
+    ]
+  }
+}

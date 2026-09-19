@@ -1,0 +1,99 @@
+{
+  "name": "Scarecrow",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 232.",
+  "size": "Medium",
+  "type": "Construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 60,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": 16,
+    "int": 2,
+    "wis": 16,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +13, Ref +8, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +12 (1d20+12); ",
+    "list": {
+      "Athletics": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Scarecrow's Leer",
+      "text": "(aura, emotion, fear, mental, occult, visual); 40 feet. The scarecrow's eyes flicker with an unnerving glow. A creature can't reduce its frightened condition below 1 as long as it is in the aura's emanation. When a creature enters or starts its turn in the aura, it must attempt a DC 18 Will save. Birds and other avian creatures take a –2 circumstance penalty to this save. Critical Success The creature is unaffected and is then temporarily immune for 24 hours. Success The creature is frightened 1. Failure The creature is frightened 2 and is fascinated by the scarecrow until the end of its next turn. Critical Failure As failure, but frightened 3."
+    },
+    {
+      "name": "Baleful Glow",
+      "text": "⭓ (concentrate, mental, occult); The scarecrow's head bursts into ghostly, heatless flame that sheds bright light in a 20-foot emanation (and dim light to the next 20 feet). If the scarecrow uses this ability on the first round of combat, any creature that has not acted yet is startled and becomes flat-footed against the scarecrow for 1 round. It can suppress the light by using this action again."
+    },
+    {
+      "name": "Clawing Fear",
+      "text": "The scarecrow's strikes deal an additional 1d6 (1d6) mental damage to frightened creatures."
+    },
+    {
+      "name": "Mundane Appearance",
+      "text": "⬻ (concentrate); Until it acts, the scarecrow resembles an ordinary scarecrow. It has an automatic result of 32 on Deception checks and DCs to pass as an ordinary scarecrow."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +13 (versatile s); Damage 2d6+7 (2d6+7) bludgeoning plus clawing fear"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      2,
+      3,
+      -4,
+      3,
+      -2
+    ]
+  }
+}

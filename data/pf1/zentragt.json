@@ -1,0 +1,109 @@
+{
+  "name": "Zentragt",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Gods",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "chaotic, extraplanar",
+  "alignment": "CN",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 19,
+    "notes": "dex +1, natural +9, size -1",
+    "touch": 10,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 39,
+    "formula": "6d10+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 12,
+    "con": 13,
+    "int": 8,
+    "wis": 11,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +6, Ref +3, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +12, Intimidate +9, Knowledge (planes) +5, Knowledge (religion) +5, Perception +9, Swim +16",
+    "list": {
+      "Climb": "+12",
+      "Intimidate": "+9",
+      "Perception": "+9",
+      "Swim": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "speak with animals (bears only)"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 6,
+  "feats": [
+    "Improved Initiative",
+    "Improved Sunder",
+    "Power Attack",
+    "Weapon Focus (claws)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d6+3), 2 claws +9 (1d6+3 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This ferocious ursine brute has blade-like metallic teeth and appears to be covered in overlapping iron plates.",
+  "meta": {
+    "cmb": "10 (+14 grapple, +12 sunder)",
+    "cmd": "21 (23 vs. sunder, 25 vs. trip)",
+    "racialModifiers": [
+      "Swim 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Elysium)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

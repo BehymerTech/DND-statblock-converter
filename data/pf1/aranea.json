@@ -1,0 +1,109 @@
+{
+  "name": "Aranea",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "magical beast",
+  "subtype": "shapechanger",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 20,
+    "notes": "armor +4, dex +3, natural +3",
+    "touch": 13,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 37,
+    "formula": "5d10+10"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 17,
+    "con": 14,
+    "int": 14,
+    "wis": 13,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +6, Ref +7, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +9, Climb +14, Escape Artist +8, Knowledge (arcana) +7, Perception +9, Stealth +9",
+    "list": {
+      "Acrobatics": "+9",
+      "Climb": "+14",
+      "Escape Artist": "+8",
+      "Perception": "+9",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 5,
+  "feats": [
+    "Eschew Materials",
+    "Improved Initiative",
+    "Iron Will",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d6 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This bloated spider has a hunchbacked body and a gleam of intelligence in its multiple eyes.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": 18,
+    "racialModifiers": [
+      "Acrobatics 2",
+      "Perception 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "tropical forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or colony (2-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

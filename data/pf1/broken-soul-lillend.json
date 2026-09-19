@@ -1,0 +1,117 @@
+{
+  "name": "Broken Soul Lillend",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "azata, chaotic, extraplanar, evil",
+  "alignment": "CE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 24,
+    "notes": "dex +3, natural +12, size -1",
+    "touch": 12,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 101,
+    "formula": "7d10+63"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 17,
+    "con": 27,
+    "int": 14,
+    "wis": 8,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +12, Ref +10, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +15, Fly +11, Intimidate +13, Knowledge (nature) +9, Perception +9, Perform (string) +17, Sense Motive +9, Stealth +9, Survival +10",
+    "list": {
+      "Bluff": "+15",
+      "Fly": "+11",
+      "Intimidate": "+13",
+      "Perception": "+9",
+      "Sense Motive": "+9",
+      "Stealth": "+9",
+      "Survival": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 7,
+  "feats": [
+    "Combat Casting",
+    "Diehard",
+    "Endurance",
+    "Great Fortitude",
+    "Hover",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 longsword +12/+7 (2d6+8/19-20), tail slap +6 (2d6+2 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Once a beautiful celestial with the torso of a winged woman and a snakelike body below, this creature is a mess of blood and scars.",
+  "meta": {
+    "cmb": "13 (+17 grapple)",
+    "cmd": "26 (can’t be tripped)",
+    "racialModifiers": [
+      "Intimidate 8",
+      "Survival 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+1 longsword, masterwork harp, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Centaur",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 20,
+    "notes": "armor +6, dex +2, natural +1, shield +2, size -1",
+    "touch": 11,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d10+8"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft.,  35 ft. in armor"
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 14,
+    "con": 15,
+    "int": 11,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +3, Ref +6, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +5, Intimidate +6, Knowledge (nature) +4, Perception +7, Survival +9",
+    "list": {
+      "Diplomacy": "+5",
+      "Intimidate": "+6",
+      "Perception": "+7",
+      "Survival": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common",
+    "Elven",
+    "Sylvan"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 4,
+  "feats": [
+    "Improved Initiative",
+    "Run"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "longsword +5 (1d8+2/19-20), 2 hooves +0 (1d6+1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "spear +5 (1d8+2/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature has the sun-bronzed upper body of a seasoned warrior and the lower body of a sleek warhorse.",
+  "meta": {
+    "cmb": "+7",
+    "cmd": "19 (23 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests and plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, band (3-10), tribe (11-30 plus 3 hunters of 3rd level and 1 leader of 6th level)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (breastplate, heavy steel shield, longsword, spear, other treasure)"
+      }
+    ]
+  }
+}

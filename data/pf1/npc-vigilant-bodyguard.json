@@ -1,0 +1,96 @@
+{
+  "name": "NPC Vigilant Bodyguard",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LN",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 20,
+    "notes": "armor +4, dex +1, dodge +1, wis +4",
+    "touch": 16,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 20,
+    "formula": "3d8+3"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 13,
+    "con": 12,
+    "int": 10,
+    "wis": 19,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +4, Ref +4, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Climb +6, Intimidate +5, Perception +10, Sense Motive +10, Stealth +7, Survival +5, Swim +6",
+    "list": {
+      "Acrobatics": "+7",
+      "Climb": "+6",
+      "Intimidate": "+5",
+      "Perception": "+10",
+      "Sense Motive": "+10",
+      "Stealth": "+7",
+      "Survival": "+5",
+      "Swim": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 20,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 2,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Initiative",
+    "Improved Unarmed Strike",
+    "Stunning Fist",
+    "Weapon Focus (unarmed strike)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "unarmed strike +5 (1d6+2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "shuriken +3 (1d2+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "monk 3",
+    "cmb": "+5",
+    "cmd": 20
+  }
+}

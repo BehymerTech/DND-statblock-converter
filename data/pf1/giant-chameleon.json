@@ -1,0 +1,100 @@
+{
+  "name": "Giant Chameleon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, natural +3, size -1",
+    "touch": 11,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 34,
+    "formula": "4d8+16"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 40 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 15,
+    "con": 18,
+    "int": 2,
+    "wis": 11,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +8, Ref +6, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +15, Perception +4, Stealth +18",
+    "list": {
+      "Climb": "+15",
+      "Perception": "+4",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 14,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Skill Focus (Stealth)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +5 (2d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Nearly invisible in its surroundings, this scaly lizard’s eyes dart about independently of each other.",
+  "meta": {
+    "cmb": "7 (+11 grapple)",
+    "cmd": "19 (23 vs. trip)",
+    "racialModifiers": [
+      "Stealth 12"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forests and mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or blend (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

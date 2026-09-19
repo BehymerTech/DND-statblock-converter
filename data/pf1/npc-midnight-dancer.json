@@ -1,0 +1,106 @@
+{
+  "name": "NPC Midnight Dancer",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, orc",
+  "alignment": "NE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 20,
+    "notes": "armor +5, deflection +1, dex +2, dodge +1, natural +1",
+    "touch": 14,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 71,
+    "formula": "9d8+4d8+9"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 10,
+    "int": 15,
+    "wis": 8,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +4, Ref +12, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Climb +10, Disable Device +12, Disguise +10, Intimidate +6, Knowledge (dungeoneering) +19, Knowledge (local) +14, Perception +15, Perform (act) +15, Perform (dance) +14, Sleight of Hand +10, Stealth +23, Swim +7, Use Magic Device +17",
+    "list": {
+      "Acrobatics": "+15",
+      "Climb": "+10",
+      "Disable Device": "+12",
+      "Disguise": "+10",
+      "Intimidate": "+6",
+      "Perception": "+15",
+      "Sleight of Hand": "+10",
+      "Stealth": "+23",
+      "Swim": "+7",
+      "Use Magic Device": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see invisibility"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Common",
+    "Goblin",
+    "Orc"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Casting",
+    "Combat Reflexes",
+    "Dodge",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Mobility",
+    "Spell Focus (enchantment)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 dagger +12/+7 (1d4+3/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 light crossbow +12 (1d8+1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-orc",
+    "class": "bard 9, shadowdancer 4",
+    "cmb": "+11",
+    "cmd": 25
+  }
+}

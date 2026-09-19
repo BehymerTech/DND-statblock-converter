@@ -1,0 +1,109 @@
+{
+  "name": "Morbai",
+  "sourceSystem": "pf1",
+  "source": "Concordance of Rivals",
+  "size": "Small",
+  "type": "outsider",
+  "subtype": "extraplanar, psychopomp",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 20,
+    "notes": "dex +4, natural +5, size +1",
+    "touch": 15,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 68,
+    "formula": "8d10+40"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 20 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 18,
+    "con": 21,
+    "int": 14,
+    "wis": 17,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +13, Ref +6, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (alchemy) +13, Craft (poison) +13, Fly +14, Heal +17, Knowledge (nature) +13, Knowledge (planes) +13, Perception +14, Profession (herbalist) +14, Sense Motive +14",
+    "list": {
+      "Fly": "+14",
+      "Heal": "+17",
+      "Perception": "+14",
+      "Sense Motive": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "spiritsense"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Inf"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 8,
+  "feats": [
+    "Great Fortitude",
+    "Improved Channel",
+    "Selective Channeling",
+    "Skill Focus (Heal)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "cane +10/+5 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hunched, barefoot old woman leans heavily on her gnarled staff. She wears two plague masks on opposite sides of her head.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": 22,
+    "racialModifiers": [
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Boneyard)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or team (3-9)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

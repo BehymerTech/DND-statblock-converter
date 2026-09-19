@@ -1,0 +1,87 @@
+{
+  "name": "Severed Head",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 30.",
+  "size": "Tiny",
+  "type": "Undead",
+  "subtype": "Mindless",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature -1",
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 7,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 feet, fly 25 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 14,
+    "con": 10,
+    "int": 0,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +4, Ref +6, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +6 (1d20+6), (Acrobatics: +8 (1d20+8) to Maneuver in Flight); ",
+    "list": {
+      "Acrobatics": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Gnash",
+      "text": "⬻ Requirements The beheaded's previous action was a jaws Strike that dealt damage to its target Effect The severed head makes a second jaws Strike as it violently shakes itself, trying to rip away a mouthful of flesh. On a success, the target takes an additional 1d4 (1d4) slashing damage and 1 persistent bleed damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +6 (agile, finesse); Damage 1d4+1 (1d4+1) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      2,
+      0,
+      -5,
+      2,
+      0
+    ]
+  }
+}

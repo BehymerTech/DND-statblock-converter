@@ -1,0 +1,95 @@
+{
+  "name": "Lizardfolk",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Reptilian",
+  "alignment": "Usually neutral",
+  "cr": "1",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "+5 natural",
+    "touch": null,
+    "flatFooted": null
+  },
+  "hp": {
+    "average": 11,
+    "formula": "2d8+2"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares)"
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 10,
+    "con": 13,
+    "int": 9,
+    "wis": 10,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +1, Ref +3, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Balance +4, Jump +5, Swim +2;",
+    "list": {
+      "Balance": "+4",
+      "Jump": "+5",
+      "Swim": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 1,
+  "feats": [
+    "Multiattack"
+  ],
+  "traits": [
+    {
+      "name": "Special Qualities",
+      "text": "Hold breath"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Claw +2 melee (1d4+1) or club +2 melee (1d6+1) or javelin +1 ranged (1d6+1)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +2 melee (1d4+1) and bite +0 melee (1d4); or club +2 melee (1d6+1) and bite +0 melee (1d4); or javelin +1 ranged (1d6+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A lizardfolk is usually 6 to 7 feet tall with green, gray, or brown scales. Its tail is used for balance and is 3 to 4 feet long. A lizardfolk can weigh from 200 to 250 pounds.",
+    "grapple": "+2",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Temperate marshes",
+    "organization": "Gang (2-3), band (6-10 plus 50% noncombatants plus 1 leader of 3rd-6th level), or tribe (30-60 plus 2 lieutenants of 3rd-6th level and 1 leader of 4th-10th level)",
+    "treasure": "50% coins; 50% goods; 50% items",
+    "advancement": "By character class",
+    "leveladjustment": "+1"
+  }
+}

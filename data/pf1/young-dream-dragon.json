@@ -1,0 +1,96 @@
+{
+  "name": "Young Dream Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "extraplanar",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 22,
+    "notes": "dex +1, natural +12, size -1",
+    "touch": 10,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 104,
+    "formula": "11d12+33"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (poor)"
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 13,
+    "con": 16,
+    "int": 16,
+    "wis": 15,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +10, Ref +8, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +18, Diplomacy +18, Fly +9, Intimidate +18, Knowledge (arcana) +17, Knowledge (planes) +17, Perception +22, Sense Motive +16, Stealth +11",
+    "list": {
+      "Bluff": "+18",
+      "Diplomacy": "+18",
+      "Fly": "+9",
+      "Intimidate": "+18",
+      "Perception": "+22",
+      "Sense Motive": "+16",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "dreamsight"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 11,
+  "feats": [
+    "Flyby Attack",
+    "Improved Initiative",
+    "Multiattack",
+    "Power Attack",
+    "Skill Focus (Perception)",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15 (2d6+6), 2 claws +14 (1d8+4), 2 wings +12 (1d6+2), tail slap +12 (1d8+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Clouds trail from the edges of this graceful, nearly fanciful creature in hypnotizing patterns.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": "27 (31 vs. trip)"
+  }
+}

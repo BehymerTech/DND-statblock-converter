@@ -1,0 +1,90 @@
+{
+  "name": "Patchwork Insect Swarm",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 109: In Search of Sanity",
+  "size": "Diminutive",
+  "type": "vermin",
+  "subtype": "swarm",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 13,
+    "notes": "dex -1, size +4",
+    "touch": 13,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 9,
+    "formula": "2d8"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., burrow 20 ft."
+  },
+  "abilities": {
+    "str": 3,
+    "dex": 9,
+    "con": 11,
+    "int": "None",
+    "wis": 12,
+    "cha": 4
+  },
+  "saves": {
+    "text": "Fort +3, Ref -1, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "-1",
+  "babOrProficiency": 1,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "swarm (1d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This collection of insects is composed of a variety of centipedes, beetles, and other bugs, each of which bears humanoid arms, legs, eyes, or even faces.",
+  "meta": {
+    "cmb": "None",
+    "cmd": "None",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, cluster (2-8), or epidemic (9-20)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

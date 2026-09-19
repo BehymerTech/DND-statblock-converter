@@ -1,0 +1,97 @@
+{
+  "name": "Raven Swarm",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Tiny",
+  "type": "animal",
+  "subtype": "swarm",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, size +2",
+    "touch": 14,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 27,
+    "formula": "5d8+5"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 40 ft. (average)"
+  },
+  "abilities": {
+    "str": 3,
+    "dex": 15,
+    "con": 12,
+    "int": 2,
+    "wis": 15,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +5, Ref +8, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +11, Perception +11",
+    "list": {
+      "Fly": "+11",
+      "Perception": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "swarm (1d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The pitch-black birds that make up this torrent of claws and feathers glare ominously from hundreds of beady eyes.",
+  "meta": {
+    "cmb": "None",
+    "cmd": "None",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any temperate"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or unkindness (2-6 swarms)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

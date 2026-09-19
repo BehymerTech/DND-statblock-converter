@@ -1,0 +1,134 @@
+{
+  "name": "Young Cloud Dragon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 89.",
+  "size": "Large",
+  "type": "Elemental",
+  "subtype": "Air, Dragon",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 30,
+    "notes": ""
+  },
+  "hp": {
+    "average": 175,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, fly 140 feet; cloud walk;"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 14,
+    "con": 20,
+    "int": 14,
+    "wis": 18,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +21, Ref +18, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +20 (1d20+20); __Athletics__: +21 (1d20+21); __Deception__: +20 (1d20+20); __Diplomacy__: +18 (1d20+18); __Intimidation__: +22 (1d20+22); __Nature__: +18 (1d20+18); __Stealth__: +18 (1d20+18); __Survival__: +16 (1d20+16); ",
+    "list": {
+      "Acrobatics": "+20",
+      "Athletics": "+21",
+      "Deception": "+20",
+      "Diplomacy": "+18",
+      "Intimidation": "+22",
+      "Nature": "+18",
+      "Stealth": "+18",
+      "Survival": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, mist vision, imprecise scent 60"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Auran",
+    "Common",
+    "Draconic"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Mist Vision",
+      "text": "Fog and mist don't impair a cloud dragon's vision; they ignore the concealed condition from fog and mist."
+    },
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 90 feet, DC 26."
+    },
+    {
+      "name": "Deflecting Cloud",
+      "text": "⬲ Requirements The dragon is aware of the attack and has a free wing Trigger The dragon is the target of a ranged attack Effect The cloud dragon flexes a wing and creates a billowing cloud of mist. The dragon is treated as if they were hidden for the purposes of resolving the triggering attack, so normally the attacker must succeed at a DC 11 flat check to target them. The dragon also gains a +4 circumstance bonus to AC against the triggering attack."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (electricity, evocation, primal); The dragon breathes a thundercloud that deals 11d6 (11d6) electricity damage in a 40-foot cone (DC 29 basic Reflex save). They can't use Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Cloud Walk",
+      "text": "The cloud dragon can tread on clouds or fog as though on solid ground."
+    },
+    {
+      "name": "Draconic Frenzy",
+      "text": "⬺ The dragon makes two claw Strikes and one horn Strike in any order."
+    },
+    {
+      "name": "Draconic Momentum",
+      "text": "The dragon recharges their Breath Weapon whenever they score a critical hit with a Strike."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +23 (electricity, reach 10 feet); Damage 2d10+13 (2d10+13) piercing plus 1d12 (1d12) electricity"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +23 (agile); Damage 2d8+13 (2d8+13) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +21 (reach 15 feet); Damage 2d12+13 (2d12+13) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ horn +21 (deadly d8, reach 10 feet); Damage 1d12+11 (1d12+11) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      2,
+      5,
+      2,
+      4,
+      4
+    ]
+  }
+}

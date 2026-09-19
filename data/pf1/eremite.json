@@ -1,0 +1,117 @@
+{
+  "name": "Eremite",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "evil, extraplanar, kyton, lawful",
+  "alignment": "LE",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 38,
+    "notes": "dex +8, dodge +1, natural +19",
+    "touch": 19,
+    "flatFooted": 29
+  },
+  "hp": {
+    "average": 310,
+    "formula": "20d10+200"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 27,
+    "con": 30,
+    "int": 22,
+    "wis": 21,
+    "cha": 33
+  },
+  "saves": {
+    "text": "Fort +22, Ref +16, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +34, Diplomacy +34, Fly +12, Heal +28, Intimidate +34, Knowledge (arcana) +16, Knowledge (dungeoneering) +16, Knowledge (nature) +16, Knowledge (planes) +29, Knowledge (religion) +16, Perception +34, Sense Motive +28, Spellcraft +29, Stealth +31, Use Magic Device +31",
+    "list": {
+      "Bluff": "+34",
+      "Diplomacy": "+34",
+      "Fly": "+12",
+      "Heal": "+28",
+      "Intimidate": "+34",
+      "Perception": "+34",
+      "Sense Motive": "+28",
+      "Spellcraft": "+29",
+      "Stealth": "+31",
+      "Use Magic Device": "+31"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 44,
+  "languages": [
+    "Common",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 20,
+  "feats": [
+    "Combat Casting",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Critical (claws)",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Skill Focus (Perception)",
+    "Spell Penetration"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +30 (2d6+10 plus pain), 2 claws +30 (2d6+10/19-20 plus grab and pain), 2 wings +25 (1d8+5 plus pain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This blood-soaked humanoid is festooned with razored shards of metal. Skeletal wings protrude from its bleeding shoulders.",
+  "meta": {
+    "cmb": "30 (+34 grapple)",
+    "cmd": 49,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Shadow)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cell (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

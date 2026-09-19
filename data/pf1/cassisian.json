@@ -1,0 +1,105 @@
+{
+  "name": "Cassisian",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Small",
+  "type": "outsider",
+  "subtype": "angel, extraplanar, good",
+  "alignment": "NG",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 14,
+    "notes": "natural +3, size +1",
+    "touch": 11,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 13,
+    "formula": "2d10+2"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 3,
+    "dex": 11,
+    "con": 12,
+    "int": 6,
+    "wis": 11,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +4, Ref +3, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +2, Fly +10, Knowledge (planes) +2, Knowledge (religion) +2, Perception +5, Sense Motive +4, Stealth +8",
+    "list": {
+      "Diplomacy": "+2",
+      "Fly": "+10",
+      "Perception": "+5",
+      "Sense Motive": "+4",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect evil",
+    "low-light vision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 2,
+  "feats": [
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam -1 (1d3-4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This finely crafted golden helm is decorated with intricate filigree, and flutters gracefully through the air on feathered wings.",
+  "meta": {
+    "cmb": "-3",
+    "cmd": "7 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any good-aligned plane"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or squad (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

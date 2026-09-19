@@ -1,0 +1,95 @@
+{
+  "name": "NPC Knight of Ozem",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LG",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 24,
+    "notes": "armor +10, shield +4",
+    "touch": 10,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 69,
+    "formula": "8d10+21"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 10,
+    "con": 14,
+    "int": 8,
+    "wis": 12,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +12, Ref +6, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +14, Heal +5, Knowledge (religion) +7, Perception +6, Sense Motive +7",
+    "list": {
+      "Diplomacy": "+14",
+      "Heal": "+5",
+      "Perception": "+6",
+      "Sense Motive": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 16,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 8,
+  "feats": [
+    "Extra Mercy",
+    "Improved Shield Bash",
+    "Power Attack",
+    "Shield Focus",
+    "Shield Wall",
+    "Vital Strike",
+    "Weapon Focus (longsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 longsword +13/+8 (1d8+4/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "javelin +8 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "paladin of Iomedae 5, Knight of Ozem 3",
+    "cmb": "+11",
+    "cmd": 21
+  }
+}

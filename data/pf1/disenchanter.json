@@ -1,0 +1,100 @@
+{
+  "name": "Disenchanter",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Misfit Monsters Redeemed",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex +3, natural +3, size -1",
+    "touch": 12,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d10+8"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 17,
+    "con": 14,
+    "int": 5,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +6, Ref +7, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Escape Artist +5, Perception +9",
+    "list": {
+      "Escape Artist": "+5",
+      "Perception": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect magic",
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "none"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 4,
+  "feats": [
+    "Iron Will",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "trunk +7 touch (disenchant), 2 hooves +2 (1d6+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This blue-furred creature sports a short trunk and a camel-like body. The air around it seems to shimmer with magical energy.",
+  "meta": {
+    "cmb": "+9",
+    "cmd": "22 (26 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or family (2 adults and 1-2 calves with the young creature template)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Marut",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 10.",
+  "size": "Large",
+  "type": "Monitor",
+  "subtype": "Aeon, Inevitable",
+  "alignment": "LN",
+  "cr": null,
+  "level": "Creature 15",
+  "xp": null,
+  "ac": {
+    "value": 37,
+    "notes": ""
+  },
+  "hp": {
+    "average": 230,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet; air walk;"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 18,
+    "con": 22,
+    "int": 12,
+    "wis": 20,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +27, Ref +25, Will +26",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +31 (1d20+31); __Diplomacy__: +27 (1d20+27); __Intimidation__: +29 (1d20+29); __Religion__: +26 (1d20+26); __Survival__: +28 (1d20+28); __Axis lore__: +22 (1d20+22); ",
+    "list": {
+      "Athletics": "+31",
+      "Diplomacy": "+27",
+      "Intimidation": "+29",
+      "Religion": "+26",
+      "Survival": "+28",
+      "Axis lore": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, true seeing"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Celestial",
+    "Infernal",
+    "Utopian; truespeech"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Truespeech",
+      "text": "A zelekhut can speak with and understand any creature with a language."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Final End",
+      "text": "The marut is anathema to beings that unnaturally extend their existence, including undead. Its fists bypass such creatures' resistances to damage and apply the creatures' highest weakness to damage. If a marut kills a creature that rejuvenates, like a lich or ghost, it always knows that the creature isn't fully defeated."
+    },
+    {
+      "name": "Fists of Thunder and Lightning",
+      "text": "(divine, evocation, incapacitation); Each time the marut makes a fist Strike, it chooses either lightning or thunder. If it chooses lightning, the attack deals an additional 2d12 (2d12) electricity damage and the target must succeed at a DC 33 Fortitude save or be blinded for 1 minute. If it chooses thunder, the attack deals an additional 3d8 (3d8) sonic damage and the target must succeed at a DC 36 Fortitude save or be deafened for 1 minute."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +30 (lawful, magical, reach 10 feet); Damage 3d8+11 (3d8+11) bludgeoning plus 1d6 (1d6) lawful and fists of thunder and lightning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      4,
+      6,
+      1,
+      5,
+      6
+    ]
+  }
+}

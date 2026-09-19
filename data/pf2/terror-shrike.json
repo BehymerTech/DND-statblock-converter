@@ -1,0 +1,104 @@
+{
+  "name": "Terror Shrike",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 264.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": ""
+  },
+  "hp": {
+    "average": 60,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 18,
+    "con": 16,
+    "int": 2,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +13, Ref +12, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +12 (1d20+12); __Athletics__: +13 (1d20+13); ",
+    "list": {
+      "Acrobatics": "+12",
+      "Athletics": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Sprint",
+      "text": "⬺ Frequency once per minute Effect The terror bird Strides three times in a straight line."
+    },
+    {
+      "name": "Stunning Screech",
+      "text": "⬻ (auditory, emotion, fear, mental); The terror shrike unleashes a haunting screech that causes prey to freeze in fear. Each creature in a 30-foot emanation other than terror birds must attempt a DC 19 Will save. Regardless of the result, creatures are then temporarily immune for 1 minute. Critical Success The creature is unaffected. Success The creature is flat-footed until the start of its turn. Failure The creature is stunned 1. Critical Failure The creature is stunned 2."
+    },
+    {
+      "name": "Sudden Charge",
+      "text": "⬺ The terror shrike Strides twice. If it ends its movement within melee reach of one creature, it can make a melee Strike against that creature."
+    },
+    {
+      "name": "Tearing Clutch",
+      "text": "As terror bird, except 1d8 (1d8) persistent bleed damage on a critical hit."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ beak +13 (reach 10 feet); Damage 2d8+5 (2d8+5) piercing plus tearing clutch"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ talon +13 (agile); Damage 2d6+5 (2d6+5) piercing plus Knockdown"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      4,
+      3,
+      -4,
+      1,
+      0
+    ]
+  }
+}

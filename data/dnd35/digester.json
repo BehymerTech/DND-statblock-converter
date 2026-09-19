@@ -1,0 +1,106 @@
+{
+  "name": "Digester",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Always neutral",
+  "cr": "6",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": "+2 Dex, +5 natural",
+    "touch": 12,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 68,
+    "formula": "8d10+24"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft. (12 squares)"
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 15,
+    "con": 17,
+    "int": 2,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +10, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Hide +9, Listen +6, Jump +21, Spot +6;",
+    "list": {
+      "Hide": "+9",
+      "Listen": "+6",
+      "Jump": "+21",
+      "Spot": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 8,
+  "feats": [
+    "Alertness",
+    "Improved Initiative",
+    "Lightning Reflexes"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Acid spray"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., immunity to acid, low-light vision, scent"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Claw +11 melee (1d8+4)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Claw +11 melee (1d8+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A digester stands about 5 feet tall and is 7 feet long from snout to tail. It weighs about 350 pounds,",
+    "grapple": "+11",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Warm forests",
+    "organization": "Solitary or pack (3-6)",
+    "treasure": "None",
+    "advancement": "9-12 HD (Medium); 13-24 HD (Large)",
+    "leveladjustment": "---"
+  }
+}

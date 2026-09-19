@@ -1,0 +1,104 @@
+{
+  "name": "Festrog",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 98.",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 24,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +7, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +5 (1d20+5); __Athletics__: +7 (1d20+7); __Stealth__: +7 (1d20+7); __Survival__: +5 (1d20+5); ",
+    "list": {
+      "Acrobatics": "+5",
+      "Athletics": "+7",
+      "Stealth": "+7",
+      "Survival": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Diseased Pustules",
+      "text": "(disease, poison); Whenever the festrog takes piercing or slashing damage, creatures adjacent to the festrog take 1d4 (1d4) poison damage (DC 14 basic Reflex save)."
+    },
+    {
+      "name": "Feast",
+      "text": "⬻ (manipulate); Requirements The festrog's last action was a jaws Strike that damaged a living creature Effect The festrog tears into the creature's flesh and gulps it down voraciously, dealing 1d4 (1d4) slashing damage to the creature and gaining temporary Hit Points equal to the damage dealt. These temporary HP last for 1 minute."
+    },
+    {
+      "name": "On All Fours",
+      "text": "⬻ Requirements The festrog has nothing in their hands Effect The festrog Strides with a +10-foot circumstance bonus to their Speed."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +9 Damage 1d6+4 (1d6+4) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +9 (agile); Damage 1d4+4 (1d4+4) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      2,
+      0,
+      1,
+      1
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Weasel",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 291.",
+  "size": "Tiny",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature -1",
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 7,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 16,
+    "con": 14,
+    "int": 2,
+    "wis": 10,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +4, Ref +7, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +5 (1d20+5), (Acrobatics: +7 (1d20+7) to Escape); __Athletics__: +4 (1d20+4); __Stealth__: +5 (1d20+5); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Athletics": "+4",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 60"
+  ],
+  "passivePerception": 14,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Lithe",
+      "text": "A weasel treats any tight space it can barely fit its head in or wider as difficult terrain and doesn't need to Squeeze to move through it."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 1d4 (1d4) piercing, DC 15"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +7 (agile, finesse); Damage 1d4+2 (1d4+2) piercing plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      3,
+      2,
+      -4,
+      0,
+      1
+    ]
+  }
+}

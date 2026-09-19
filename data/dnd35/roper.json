@@ -1,0 +1,106 @@
+{
+  "name": "Roper",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Usually chaotic evil",
+  "cr": "12",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": "-1 size, +1 Dex, +14 natural",
+    "touch": 10,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 85,
+    "formula": "10d10+30"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft. (2 squares)"
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 13,
+    "con": 17,
+    "int": 12,
+    "wis": 16,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +10, Ref +8, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +12, Hide +10\\*, Listen +13, Spot +13;",
+    "list": {
+      "Climb": "+12",
+      "Hide": "+10",
+      "Listen": "+13",
+      "Spot": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 10,
+  "feats": [
+    "Alertness",
+    "Improved Initiative",
+    "Iron Will",
+    "Weapon Focus (strand)"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Drag, strands, weakness"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., immunity to electricity, low-light vision, resistance to cold 10, spell resistance 30, vulnerability to fire"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Strand +11 ranged touch (drag) or bite +13 melee (2d6+6)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "6 strands +11 ranged touch (drag) and bite +13 melee (2d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A roper stands some 9 feet tall and tapers from 3 or 4 feet in diameter at the base to 1 foot across at the top. It weighs 2,200 pounds. A roper's coloration and temperature change to match the features of the surrounding cave.",
+    "grapple": "+18",
+    "spaceReach": "10 ft./10 ft. (50 ft. with strand)",
+    "environment": "Underground",
+    "organization": "Solitary, pair, or cluster (3-6)",
+    "treasure": "No coins; 50% goods (stone only); no items",
+    "advancement": "11-15 HD (Large); 16-30 HD (Huge)",
+    "leveladjustment": "---"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Lich Newt",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 115: Trail of the Hunted",
+  "size": "Tiny",
+  "type": "animal",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "1/4",
+  "level": null,
+  "xp": 100,
+  "ac": {
+    "value": 13,
+    "notes": "dex +1, size +2",
+    "touch": 13,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 5,
+    "formula": "1d8+1"
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 2,
+    "dex": 12,
+    "con": 13,
+    "int": 1,
+    "wis": 12,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +3, Ref +3, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +4, Stealth +13, Swim +9",
+    "list": {
+      "Perception": "+4",
+      "Stealth": "+13",
+      "Swim": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 14,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 0,
+  "feats": [
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam -2 (1d2-4 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Two sharp ridges of bone run along the back of this foot-long, black-and-white speckled newt.",
+  "meta": {
+    "cmb": "-1",
+    "cmd": "5 (9 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate marshes or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or ning (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

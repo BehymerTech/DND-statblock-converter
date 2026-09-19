@@ -1,0 +1,111 @@
+{
+  "name": "Temerdaemon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Book of the Damned - Volume 3: Horsemen of the Apocalypse",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "daemon, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 29,
+    "notes": "dex +6, natural +14, size -1",
+    "touch": 15,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 195,
+    "formula": "17d10+102"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., other_semicolon air walk ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 22,
+    "con": 23,
+    "int": 13,
+    "wis": 24,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +16, Ref +13, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +25, Intimidate +25, Knowledge (planes) +21, Knowledge (religion) +21, Perception +27, Sense Motive +27, Stealth +22",
+    "list": {
+      "Bluff": "+25",
+      "Intimidate": "+25",
+      "Perception": "+27",
+      "Sense Motive": "+27",
+      "Stealth": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Abyssal",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 17,
+  "feats": [
+    "Blinding Critical",
+    "Combat Expertise",
+    "Critical Focus",
+    "Improved Critical (scythe)",
+    "Improved Initiative",
+    "Improved Trip",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Weapon Focus (scythe)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 scythe +23/+18/+13/+8 (2d4+8/19-20/×4 plus confusion), 2 claws +16 (1d4+2 plus confusion)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This humanoid creature’s limbs-four arms and four legs-bend in awkward configurations. It wields a scythe in its largest arms.",
+  "meta": {
+    "cmb": "23 (+25 trip)",
+    "cmd": "39 (45 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or trapper gang (3 temerdaemons and 10-16 cacodaemons)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+1 scythe, other treasure)"
+      }
+    ]
+  }
+}

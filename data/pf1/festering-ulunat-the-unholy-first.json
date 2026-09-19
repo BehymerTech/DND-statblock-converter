@@ -1,0 +1,115 @@
+{
+  "name": "Festering Ulunat (The Unholy First)",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 84: Pyramid of the Sky Pharaoh",
+  "size": "Colossal",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "24",
+  "level": null,
+  "xp": 1228800,
+  "ac": {
+    "value": 42,
+    "notes": "dex +5, natural +35, size -8",
+    "touch": 7,
+    "flatFooted": 37
+  },
+  "hp": {
+    "average": 525,
+    "formula": "30d10+360"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 90 ft. (poor), climb 60 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 38,
+    "dex": 21,
+    "con": 35,
+    "int": 3,
+    "wis": 30,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +29, Ref +24, Will +22",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +26, Fly +8, Perception +42, Swim +22",
+    "list": {
+      "Climb": "+26",
+      "Fly": "+8",
+      "Perception": "+42",
+      "Swim": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 52,
+  "languages": [
+    "Aklo (can’t speak)"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 30,
+  "feats": [
+    "Awesome Blow",
+    "Blind-Fight",
+    "Critical Focus",
+    "Greater Sunder",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Critical (claws)",
+    "Improved Sunder",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Staggering Critical",
+    "Stunning Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +36 (4d8+14/19-20 plus 6d6 acid), 4 claws +36 (4d6+14/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "52 (+54 bull rush, +56 sunder)",
+    "cmd": "67 (69 vs. bull rush, 69 vs. sunder, 83 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Sothis)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "unique"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

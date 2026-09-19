@@ -1,0 +1,112 @@
+{
+  "name": "Ancient Copper Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "earth",
+  "alignment": "CG",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 39,
+    "notes": "natural +31, size -2",
+    "touch": 8,
+    "flatFooted": 39
+  },
+  "hp": {
+    "average": 310,
+    "formula": "23d12+161"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (poor), other_semicolon climb stone ft."
+  },
+  "abilities": {
+    "str": 33,
+    "dex": 10,
+    "con": 25,
+    "int": 22,
+    "wis": 23,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +20, Ref +13, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +32, Craft (traps) +42, Diplomacy +32, Fly +18, Knowledge (geography) +32, Knowledge (history) +32, Perception +32, Perform (comedy) +29, Sense Motive +32, Spellcraft +32, Stealth +18, Use Magic Device +32",
+    "list": {
+      "Bluff": "+32",
+      "Diplomacy": "+32",
+      "Fly": "+18",
+      "Perception": "+32",
+      "Sense Motive": "+32",
+      "Spellcraft": "+32",
+      "Stealth": "+18",
+      "Use Magic Device": "+32"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 42,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Elven",
+    "Giant",
+    "Gnome",
+    "Halfling"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 23,
+  "feats": [
+    "Combat Expertise",
+    "Greater Trip",
+    "Imp. Critical (bite)",
+    "Imp. Critical (claw)",
+    "Improved Disarm",
+    "Imp. Initiative",
+    "Imp. Trip",
+    "Improved Vital Strike",
+    "Power Attack",
+    "Quicken Spell",
+    "Spell Focus (illusion)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +32 (2d8+16/19-20), 2 claws +32 (2d6+11/19-20), 2 wings +27 (1d8+5), tail slap +27 (2d6+16)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+36",
+    "cmd": "46 (50 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm hills"
+      }
+    ]
+  }
+}

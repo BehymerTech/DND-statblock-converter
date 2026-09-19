@@ -1,0 +1,114 @@
+{
+  "name": "Dero Stalker",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 84.",
+  "size": "Small",
+  "type": "Humanoid",
+  "subtype": "Dero",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 30,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 16,
+    "int": 10,
+    "wis": 8,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +7, Ref +10, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Medicine__: +3 (1d20+3); __Stealth__: +8 (1d20+8); __Thievery__: +8 (1d20+8); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Medicine": "+3",
+      "Stealth": "+8",
+      "Thievery": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Aklo",
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Vulnerable to Sunlight",
+      "text": "A dero stalker takes 4 damage for every hour they're exposed to sunlight."
+    },
+    {
+      "name": "Nimble Dodge",
+      "text": "⬲ Requirements The dero stalker is not encumbered. Trigger A creature targets the dero with an attack and the dero can see the attacker. Effect The dero dodges out of the way, gaining a +2 circumstance bonus to AC against the triggering attack."
+    },
+    {
+      "name": "Items",
+      "text": "aklys, giant centipede venom (4 doses), hand crossbow (20 bolts;"
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "A dero stalker deals 1d6 (1d6) extra precision damage to flat-footed creatures."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ aklys +8 (trip); Damage 1d6+2 (1d6+2) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ aklys +10 (ranged trip, tethered, thrown 20 feet; page 85); Damage 1d6+2 (1d6+2) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ hand crossbow +10 (range increment 60 feet, reload 1); Damage 1d6 (1d6) piercing plus giant centipede venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      4,
+      3,
+      0,
+      -1,
+      1
+    ],
+    "items": "[[aklys]], [[giant-centipede-venom|giant centipede venom]] (4 doses), [[hand-crossbow|hand crossbow]] (20 [[bolt|bolts]];"
+  }
+}

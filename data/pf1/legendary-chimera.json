@@ -1,0 +1,97 @@
+{
+  "name": "Legendary Chimera",
+  "sourceSystem": "pf1",
+  "source": "Mythical Monsters Revisited",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 26,
+    "notes": "natural +18, size -2",
+    "touch": 8,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 178,
+    "formula": "17d10+85"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 10,
+    "con": 21,
+    "int": 5,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +15, Ref +12, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +20, Stealth +2",
+    "list": {
+      "Perception": "+20",
+      "Stealth": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 17,
+  "feats": [
+    "Cleave",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Skill Focus (Perception)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +23 (2d8+8/19-20 plus grab), bite +23 (2d6+8 plus burn), 2 claws +23 (1d8+8), gore +23 (2d6+8)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This abomination has the head and foreparts of a great lion, an additional head and hindquarters of a ram, and a red dragon’s head sprouting from its tail.",
+  "meta": {
+    "cmb": "27 (+31 grapple)",
+    "cmd": 37,
+    "racialModifiers": [
+      "Stealth 4"
+    ]
+  }
+}

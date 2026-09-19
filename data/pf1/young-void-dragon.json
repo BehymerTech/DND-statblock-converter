@@ -1,0 +1,113 @@
+{
+  "name": "Young Void Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 22,
+    "notes": "dex +2, natural +11, size -1",
+    "touch": 11,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 95,
+    "formula": "10d12+30"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (good)"
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 14,
+    "con": 17,
+    "int": 16,
+    "wis": 13,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +10, Ref +9, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +12, Bluff +16, Diplomacy +13, Fly +19, Intimidate +16, Knowledge (arcana) +13, Knowledge (planes) +13, Perception +14, Sense Motive +14, Spellcraft +11, Stealth +11, Survival +8",
+    "list": {
+      "Acrobatics": "+12",
+      "Bluff": "+16",
+      "Diplomacy": "+13",
+      "Fly": "+19",
+      "Intimidate": "+16",
+      "Perception": "+14",
+      "Sense Motive": "+14",
+      "Spellcraft": "+11",
+      "Stealth": "+11",
+      "Survival": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "see in darkness"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Draconic",
+    "Infernal"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 10,
+  "feats": [
+    "Flyby Attack",
+    "Iron Will",
+    "Multiattack",
+    "Weapon Focus (bite)",
+    "Wingover"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15 (2d6+7 plus obliterate), 2 claws +14 (1d8+5), 2 wings +12 (1d6+2), tail slap +12 (1d8+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This dragon’s ebony scales and horns are flecked with a substance that glows an eerie green. The folds of its wings ref lect a starry sky.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": "28 (32 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "vacuum"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

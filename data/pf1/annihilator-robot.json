@@ -1,0 +1,118 @@
+{
+  "name": "Annihilator Robot",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Inner Sea Bestiary",
+  "size": "Gargantuan",
+  "type": "construct",
+  "subtype": "robot",
+  "alignment": "N",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 31,
+    "notes": "dex +2, dodge +1, natural +22, size -4",
+    "touch": 9,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 170,
+    "formula": "20d10+60"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., other_semicolon booster jets ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 15,
+    "con": "None",
+    "int": 14,
+    "wis": 13,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +8, Ref +8, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +28, Climb +20, Intimidate +15, Perception +24, Sense Motive +24",
+    "list": {
+      "Acrobatics": "+28",
+      "Climb": "+20",
+      "Intimidate": "+15",
+      "Perception": "+24",
+      "Sense Motive": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 20,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Deadly Aim",
+    "Dodge",
+    "Great Fortitude",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Mobility",
+    "Skill Focus (Acrobatics)",
+    "Weapon Focus (chain gun)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +28 (2d6+12/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "2 integrated chain guns +19 (8d6/×4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The tip of this towering, scorpion-like construct’s tail thrums with otherworldly energy.",
+  "meta": {
+    "cmb": "+36",
+    "cmd": "49 (57 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

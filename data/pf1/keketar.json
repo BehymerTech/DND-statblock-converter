@@ -1,0 +1,117 @@
+{
+  "name": "Keketar",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, The Great Beyond - A Guide to the Multiverse",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "chaotic, extraplanar, protean, shapechanger",
+  "alignment": "CN",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 32,
+    "notes": "dex +5, natural +18, size -1",
+    "touch": 14,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 287,
+    "formula": "23d10+161"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 40 ft. (perfect), swim 40 ft."
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 21,
+    "con": 24,
+    "int": 20,
+    "wis": 25,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +22, Ref +14, Will +22",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +31, Bluff +33, Diplomacy +33, Fly +11, Intimidate +33, Knowledge (arcana) +31, Knowledge (planes) +31, Knowledge (any two) +28, Perception +33, Stealth +27, Swim +40",
+    "list": {
+      "Acrobatics": "+31",
+      "Bluff": "+33",
+      "Diplomacy": "+33",
+      "Fly": "+11",
+      "Intimidate": "+33",
+      "Perception": "+33",
+      "Stealth": "+27",
+      "Swim": "+40"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision"
+  ],
+  "passivePerception": 43,
+  "languages": [
+    "Abyssal",
+    "Protean",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 23,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Empower Spell-like Ability (chaos hammer)",
+    "Great Fortitude",
+    "Improved Bull Rush",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Multiattack",
+    "Power Attack",
+    "Quicken Spell-like Ability (confusion)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +31 (4d8+9 plus warpwave), 2 claws +31 (2d6+9 plus warpwave), tail slap +29 (2d8+4 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Colors dance over this serpentine creature’s scales. A strange crown of energy glows above the thing’s reptilian head.",
+  "meta": {
+    "cmb": "33 (+35 bull rush, +37 grapple)",
+    "cmd": "48 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Limbo)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or chorus (2-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

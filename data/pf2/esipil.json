@@ -1,0 +1,106 @@
+{
+  "name": "Esipil",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 218.",
+  "size": "Tiny",
+  "type": "Sahkil",
+  "subtype": "Fiend",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 16,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 14,
+    "int": 12,
+    "wis": 14,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +7, Ref +9, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Intimidation__: +7 (1d20+7); __Stealth__: +7 (1d20+7); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Intimidation": "+7",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Infernal",
+    "Requian; telepathy"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Easy to Call",
+      "text": "A sahkil's level is considered 2 lower for the purpose of being conjured by the planar binding ritual (and potentially other rituals, at the GM's discretion), but it is always free to attack or leave instead of negotiate unless the primary caster's check is a critical success."
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, divine, polymorph, transmutation); The esipil transforms into a Tiny cat, dog, or other unassuming domestic animal (page 304). This doesn't affect the esipil's statistics, but it could change the damage type of its Strikes."
+    },
+    {
+      "name": "Skip Between",
+      "text": "⬻ (conjuration, divine, teleportation); The sahkil moves from the Material Plane to the Ethereal Plane or vice-versa, with the effects of ethereal jaunt except that the effect has an unlimited duration and can be Dismissed. A summoned sahkil can't use Skip Between."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +9 (finesse, versatile p); Damage 1d8 (1d8) slashing plus 1d4 (1d4) evil and Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +9 (agile, finesse); Damage 1d6 (1d6) slashing plus 1d4 (1d4) evil"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      4,
+      2,
+      1,
+      2,
+      2
+    ]
+  }
+}

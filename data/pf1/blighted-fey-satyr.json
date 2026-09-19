@@ -1,0 +1,118 @@
+{
+  "name": "Blighted Fey (Satyr)",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Bestiary",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 20,
+    "notes": "dex +2, dodge +1, natural +7",
+    "touch": 13,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 76,
+    "formula": "8d8+40"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 15,
+    "con": 19,
+    "int": 12,
+    "wis": 14,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +6, Ref +8, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +16, Diplomacy +16, Disguise +10, Intimidate +10, Knowledge (nature) +12, Perception +20, Perform (wind) +20, Stealth +19, Survival +7",
+    "list": {
+      "Bluff": "+16",
+      "Diplomacy": "+16",
+      "Disguise": "+10",
+      "Intimidate": "+10",
+      "Perception": "+20",
+      "Stealth": "+19",
+      "Survival": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 4,
+  "feats": [
+    "Dodge",
+    "Mobility",
+    "Skill Focus (Perception)",
+    "Toughness",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +6 (1d4+4/19-20), horns +1 (1d6+2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "shortbow +6 (1d6/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Ropes of fungus and patches of sickly mold cover this wan satyr.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": 21,
+    "racialModifiers": [
+      "Knowledge (nature) 2",
+      "Perception 6",
+      "Perform (wind) 4",
+      "Stealth 6"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests (Nirmathas)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, band (3-6), or orgy (7-11)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (dagger, shortbow plus 20 arrows, masterwork panpipes, other treasure)"
+      }
+    ]
+  }
+}

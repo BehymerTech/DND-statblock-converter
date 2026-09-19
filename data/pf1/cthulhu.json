@@ -1,0 +1,120 @@
+{
+  "name": "Cthulhu",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Colossal",
+  "type": "aberration",
+  "subtype": "chaotic, evil, Great Old One",
+  "alignment": "CE",
+  "cr": "30",
+  "level": null,
+  "xp": 9830400,
+  "ac": {
+    "value": 49,
+    "notes": "deflection +12, dex +5, insight +10, natural +20, size -8",
+    "touch": 29,
+    "flatFooted": 44
+  },
+  "hp": {
+    "average": 774,
+    "formula": "36d8+612"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 200 ft. (average), swim 60 ft."
+  },
+  "abilities": {
+    "str": 56,
+    "dex": 21,
+    "con": 45,
+    "int": 31,
+    "wis": 36,
+    "cha": 34
+  },
+  "saves": {
+    "text": "Fort +29, Ref +29, Will +33",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +36, Knowledge (arcana) +49, Knowledge (dungeoneering) +46, Knowledge (engineering) +46, Knowledge (geography) +46, Knowledge (history) +46, Knowledge (nature) +46, Knowledge (planes) +46, Knowledge (religion) +46, Perception +52, Sense Motive +49, Spellcraft +49, Swim +70, Use Magic Device +48",
+    "list": {
+      "Fly": "+36",
+      "Perception": "+52",
+      "Sense Motive": "+49",
+      "Spellcraft": "+49",
+      "Swim": "+70",
+      "Use Magic Device": "+48"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 62,
+  "languages": [
+    "Aklo",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+15",
+  "babOrProficiency": 27,
+  "feats": [
+    "Ability Focus (nightmare)",
+    "Awesome Blow",
+    "Combat Reflexes",
+    "Craft Wondrous Item",
+    "Critical Focus",
+    "Flyby Attack",
+    "Greater Sunder",
+    "Greater Vital Strike",
+    "Hover",
+    "Improved Bull Rush",
+    "Improved Critical (claw)",
+    "Improved Critical (tentacle)",
+    "Improved Sunder",
+    "Improved Vital Strike",
+    "Power Attack",
+    "Quicken Spell-Like Ability (feeblemind)",
+    "Staggering Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +42 (4d6+23/19-20 plus grab), 4 tentacles +42 (2d10+34/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering impossibility, neither quite octopus nor dragon nor giant but something far worse, must surely herald the end of times.",
+  "meta": {
+    "cmb": "58 (+60 bull rush, +62 grapple or sunder)",
+    "cmd": "97 (99 vs. bull rush or sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (R’lyeh)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "name": "NPC Cutthroat Lawyer",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf, human",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 9,
+    "notes": "dex -1",
+    "touch": 9,
+    "flatFooted": 9
+  },
+  "hp": {
+    "average": 40,
+    "formula": "9d8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 9,
+    "dex": 8,
+    "con": 10,
+    "int": 12,
+    "wis": 12,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +3, Ref +2, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +21, Diplomacy +23, Intimidate +20, Knowledge (history) +8, Knowledge (local) +9, Knowledge (nobility) +9, Linguistics +6, Perception +12, Profession (barrister) +13, Sense Motive +15, Spellcraft +8",
+    "list": {
+      "Bluff": "+21",
+      "Diplomacy": "+23",
+      "Intimidate": "+20",
+      "Linguistics": "+6",
+      "Perception": "+12",
+      "Sense Motive": "+15",
+      "Spellcraft": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Elven",
+    "Gnome",
+    "Halfling",
+    "Infernal"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 6,
+  "feats": [
+    "Alertness",
+    "Iron Will",
+    "Martial Weapon Proficiency (rapier)",
+    "Persuasive",
+    "Skill Focus (Bluff)",
+    "Skill Focus (Diplomacy)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk rapier +6/+1 (1d6-1/18-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-elf",
+    "class": "expert 9",
+    "cmb": "+5",
+    "cmd": 14
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Marax",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 90: The Divinity Drive",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 25,
+    "notes": "dex +2, natural +14, size -1",
+    "touch": 11,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 152,
+    "formula": "16d8+80"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 15,
+    "con": 21,
+    "int": 2,
+    "wis": 15,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +17, Ref +12, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +20, Stealth +10",
+    "list": {
+      "Perception": "+20",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 30,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 12,
+  "feats": [
+    "Bleeding Critical",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Endurance",
+    "Great Fortitude",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Multiattack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +20 (2d6+9/19-20), 2 talons +20 (1d8+9), tail barbs +18 (1d6+4 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Dense, bony growths line the back of this bipedal predator. Between its gnashing, toothy underbite, scythe-like claws, and spiked tail, no part of this beast offers mercy.",
+  "meta": {
+    "cmb": "+22",
+    "cmd": 34,
+    "racialModifiers": [
+      "Perception 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forests or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

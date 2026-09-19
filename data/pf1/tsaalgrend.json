@@ -1,0 +1,100 @@
+{
+  "name": "Tsaalgrend",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Pathfinder No. 85: Fires of Creation",
+  "size": "Small",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, natural +1, size +1",
+    "touch": 13,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d8+6"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 40 ft. (poor), climb 10 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 15,
+    "con": 15,
+    "int": 3,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +5, Ref +3, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +10, Fly +5, Perception +4",
+    "list": {
+      "Climb": "+10",
+      "Fly": "+5",
+      "Perception": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "spore communication"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 2,
+  "feats": [
+    "Flyby Attack",
+    "Multiattack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +5 (1d4+2 plus grab), 2 tendrils +3 (1d4+1 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Strange, translucent gas bladders carry this tangle of thorny, purple vines and clumps of mold through the air.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": "15 (17 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, cluster (3-6), or pod (7-20)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

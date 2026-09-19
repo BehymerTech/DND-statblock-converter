@@ -1,0 +1,106 @@
+{
+  "name": "Pyrogeist",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 130: City in the Lion's Eye",
+  "size": "Large",
+  "type": "undead",
+  "subtype": "incorporeal",
+  "alignment": "CE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 23,
+    "notes": "deflection +7, dex +6, dodge +1, size -1",
+    "touch": 23,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 126,
+    "formula": "11d8+77"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 50 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 23,
+    "con": "None",
+    "int": 17,
+    "wis": 21,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +10, Ref +9, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +18, Fly +26, Intimidate +27, Knowledge (engineering) +14, Perception +23, Sense Motive +23, Stealth +16",
+    "list": {
+      "Bluff": "+18",
+      "Fly": "+26",
+      "Intimidate": "+27",
+      "Perception": "+23",
+      "Sense Motive": "+23",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 8,
+  "feats": [
+    "Alertness",
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Initiative",
+    "Mobility",
+    "Skill Focus (Intimidate)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "incorporeal touch +13 (10d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A malevolent face emerges from within this roiling mass of ghostly fire. Several smaller faces writhe within the flames.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": "33 (can't be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

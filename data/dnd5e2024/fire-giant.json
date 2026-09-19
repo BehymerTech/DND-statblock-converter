@@ -1,0 +1,82 @@
+{
+  "name": "Fire Giant",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Huge",
+  "type": "Giant",
+  "subtype": "",
+  "alignment": "Lawful Evil",
+  "cr": "9",
+  "level": null,
+  "xp": 5000,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 162,
+    "formula": "13d12 + 78"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 9,
+    "con": 23,
+    "int": 10,
+    "wis": 14,
+    "cha": 13
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Athletics +11, Perception +6",
+    "list": {
+      "Athletics": "+11",
+      "Perception": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 16,
+  "languages": [
+    "Giant"
+  ],
+  "initiative": "+3 (13)",
+  "babOrProficiency": 4,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The giant makes two attacks, using Flame Sword or Hammer Throw in any combination."
+    },
+    {
+      "name": "Flame Sword",
+      "text": "_Melee Attack Roll:_ +11, reach 10 ft. _Hit:_ 21 (4d6 + 7) Slashing damage plus 10 (3d6) Fire damage."
+    },
+    {
+      "name": "Hammer Throw",
+      "text": "_Ranged Attack Roll:_ +11, range 60/240 ft. _Hit:_ 23 (3d10 + 7) Bludgeoning damage plus 4 (1d8) Fire damage, and the target is pushed up to 15 feet straight away from the giant and has Disadvantage on the next attack roll it makes before the end of its next turn. ## Flesh Golem"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

@@ -1,0 +1,109 @@
+{
+  "name": "Triton",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "native, water",
+  "alignment": "NG",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 14,
+    "notes": "natural +4",
+    "touch": 10,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d10+3"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 10,
+    "con": 12,
+    "int": 13,
+    "wis": 13,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +4, Ref +1, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (any one) +7, Diplomacy +6, Perception +7, Ride +6, Sense Motive +7, Stealth +6, Survival +7, Swim +9",
+    "list": {
+      "Diplomacy": "+6",
+      "Perception": "+7",
+      "Ride": "+6",
+      "Sense Motive": "+7",
+      "Stealth": "+6",
+      "Survival": "+7",
+      "Swim": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Aquan",
+    "Common"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 3,
+  "feats": [
+    "Mounted Combat",
+    "Ride-By Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk trident +5 (1d8+1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "heavy crossbow +3 (1d10/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This scaly, finned humanoid has an athletic build and blue-green coloration. Its legs end in wide flippers rather than feet.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": 14,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, company (2-5), squad (6-11), or band (12-21 plus 2-16 dolphins)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (masterwork trident, heavy crossbow with 10 bolts, other treasure)"
+      }
+    ]
+  }
+}

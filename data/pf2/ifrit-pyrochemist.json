@@ -1,0 +1,106 @@
+{
+  "name": "Ifrit Pyrochemist",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 200.",
+  "size": "Medium",
+  "type": "Ifrit",
+  "subtype": "Human, Humanoid",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 18,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 14,
+    "int": 16,
+    "wis": 10,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +5, Ref +6, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +6 (1d20+6); __Crafting__: +6 (1d20+6); __Intimidation__: +4 (1d20+4); __Nature__: +3 (1d20+3); __Survival__: +3 (1d20+3); __Thievery__: +6 (1d20+6); ",
+    "list": {
+      "Acrobatics": "+6",
+      "Crafting": "+6",
+      "Intimidation": "+4",
+      "Nature": "+3",
+      "Survival": "+3",
+      "Thievery": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 13,
+  "languages": [
+    "Common",
+    "Ignan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Infused Items",
+      "text": "An ifrit pyrochemist carries the following infused items, which last for 24 hours or until the next time the pyrochemist makes their daily preparations: lesser alchemist's fire (5), lesser elixir of life (2), lesser smokestick."
+    },
+    {
+      "name": "Items",
+      "text": "alchemist's tools, dagger, flint and steel, formula book, studded leather;"
+    },
+    {
+      "name": "Quick Bomber",
+      "text": "⬻ The ifrit pyrochemist draws an alchemical bomb with an Interact action and throws it as a ranged Strike."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ dagger +8 (agile, finesse, thrown 10 feet, versatile s); Damage 1d4 (1d4) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ lesser alchemist's fire +8 (range increment 30 feet); Damage 1d8 (1d8) fire plus 1 persistent fire damage and 1 fire splash damage"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      3,
+      2,
+      3,
+      0,
+      1
+    ],
+    "items": "  An ifrit pyrochemist carries the following infused items, which last for 24 hours or until the next time the pyrochemist makes their daily preparations: lesser alchemist's fire (5), lesser elixir of life (2), lesser smokestick."
+  }
+}

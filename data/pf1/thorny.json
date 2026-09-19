@@ -1,0 +1,89 @@
+{
+  "name": "Thorny",
+  "sourceSystem": "pf1",
+  "source": "Darklands Revisited",
+  "size": "Medium",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 16,
+    "notes": "dex +3, natural +3",
+    "touch": 13,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 26,
+    "formula": "4d8+8"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 16,
+    "con": 14,
+    "int": 6,
+    "wis": 9,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +6, Ref +4, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Perception -1",
+    "list": {
+      "Acrobatics": "+7",
+      "Perception": "-1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 9,
+  "languages": [
+    "Vegepygmy (can’t speak)"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 3,
+  "feats": [
+    "Point-Blank Shot",
+    "Precise Shot"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +4 (1d6+1 plus poison and trip)"
+    },
+    {
+      "name": "Ranged",
+      "text": "thorn cluster +6 (1d3 per thorn/19-20 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This mass of plant matter has the general shape and build of an oversized dog. Lacking a head of any kind, its bulk is covered in jagged thorns protruding from its fungal surface.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": "17 (21 vs. trip)"
+  }
+}

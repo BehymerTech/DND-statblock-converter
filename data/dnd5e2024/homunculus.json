@@ -1,0 +1,78 @@
+{
+  "name": "Homunculus",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Tiny",
+  "type": "Construct",
+  "subtype": "",
+  "alignment": "Neutral",
+  "cr": "0",
+  "level": null,
+  "xp": 10,
+  "ac": {
+    "value": 13,
+    "notes": ""
+  },
+  "hp": {
+    "average": 4,
+    "formula": "1d4 + 2"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": 40,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., Fly 40 ft."
+  },
+  "abilities": {
+    "str": 4,
+    "dex": 15,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 7
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 10,
+  "languages": [
+    "Understands Common plus one other language but can't speak"
+  ],
+  "initiative": "+2 (12)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Telepathic Bond",
+      "text": "While the homunculus is on the same plane of existence as its master, the two of them can communicate telepathically with each other."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "_Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 1 Piercing damage, and the target is subjected to the following effect. _Constitution Saving Throw:_ DC 12. _Failure:_ The target has the Poisoned condition until the end of the homunculus's next turn. _Failure by 5 or More:_ The target has the Poisoned condition for 1 minute. While Poisoned, the target has the Unconscious condition, which ends early if the target takes any damage. ## Horned Devil"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

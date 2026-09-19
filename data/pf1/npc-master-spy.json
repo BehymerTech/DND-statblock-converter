@@ -1,0 +1,106 @@
+{
+  "name": "NPC Master Spy",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LE",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 24,
+    "notes": "armor +7, deflection +3, dex +3, dodge +1",
+    "touch": 17,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 137,
+    "formula": "19d8+48"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 14,
+    "int": 14,
+    "wis": 10,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +13, Ref +17, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +20, Diplomacy +26, Disable Device +24, Escape Artist +15, Knowledge (arcane) +15, Knowledge (history) +15, Knowledge (nature) +15, Knowledge (nobility) +15, Knowledge (planes) +15, Knowledge (local) +26, Perception +13, Perform (act) +35, Perform (dance) +25, Perform (oratory) +25, Sense Motive +6, Spellcraft +20, Stealth +24, Use Magic Device +25",
+    "list": {
+      "Bluff": "+20",
+      "Diplomacy": "+26",
+      "Disable Device": "+24",
+      "Escape Artist": "+15",
+      "Perception": "+13",
+      "Sense Motive": "+6",
+      "Spellcraft": "+20",
+      "Stealth": "+24",
+      "Use Magic Device": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 23,
+  "languages": [
+    "Auran",
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 14,
+  "feats": [
+    "Dodge",
+    "Great Fortitude",
+    "Greater Spell Focus (enchantment)",
+    "Improved Initiative",
+    "Quicken Spell",
+    "Silent Spell",
+    "Skill Focus (Perform [act])",
+    "Spell Focus (enchantment)",
+    "Still Spell",
+    "Weapon Finesse",
+    "Weapon Focus (rapier)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 rapier +20/+15/+10 (1d6+2/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+2 dagger +19/+14 (1d4+2/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "bard 19",
+    "cmb": "+14",
+    "cmd": 31
+  }
+}

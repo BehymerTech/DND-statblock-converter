@@ -1,0 +1,105 @@
+{
+  "name": "Deinosuchus",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 58: Island of Empty Eyes",
+  "size": "Gargantuan",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "dex +1, natural +14, size -4",
+    "touch": 7,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 104,
+    "formula": "11d8+55"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 12,
+    "con": 21,
+    "int": 1,
+    "wis": 15,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +12, Ref +10, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +14, Stealth +0, Swim +21",
+    "list": {
+      "Perception": "+14",
+      "Stealth": "+0",
+      "Swim": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 24,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 8,
+  "feats": [
+    "Awesome Blow (tail slap only)",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Skill Focus (Perception)",
+    "Skill Focus (Stealth)",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +18 (2d6+13 plus grab), tail slap +12 (2d8+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This immense reptile, an alligator of overwhelming size, emerges from the water with rapidly snapping jaws that grind menacingly between each bite.",
+  "meta": {
+    "cmb": "25 (+29 grapple)",
+    "cmd": "36 (40 vs. trip)",
+    "racialModifiers": [
+      "Stealth 12"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or float (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

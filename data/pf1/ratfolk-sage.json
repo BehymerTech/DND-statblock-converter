@@ -1,0 +1,122 @@
+{
+  "name": "Ratfolk Sage",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "ratfolk",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 17,
+    "notes": "armor +4, dex +2, size +1",
+    "touch": 13,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 48,
+    "formula": "7d6+21"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 14,
+    "con": 13,
+    "int": 20,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +6, Ref +5, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +15, Climb +6, Craft (alchemy) +7, Knowledge (arcana) +12, Knowledge (geography) +12, Knowledge (history) +12, Knowledge (planes) +12, Linguistics +15, Perception +4, Spellcraft +15, Stealth +13",
+    "list": {
+      "Appraise": "+15",
+      "Climb": "+6",
+      "Linguistics": "+15",
+      "Perception": "+4",
+      "Spellcraft": "+15",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Common",
+    "Dark Folk",
+    "Draconic",
+    "Dwarven",
+    "Giant",
+    "Gnoll",
+    "Goblin",
+    "Infernal",
+    "Sylvan",
+    "Terran",
+    "Undercommon"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 3,
+  "feats": [
+    "Craft Wondrous Item",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Scribe Scroll",
+    "Spell Penetration",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk quarterstaff +3 (1d4-2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "light crossbow +6 (1d6/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Ratfolk",
+    "class": "diviner 7",
+    "cmb": "+0",
+    "cmd": 12,
+    "racialModifiers": [
+      "Climb 8",
+      "Craft (alchemy) 2",
+      "Perception 2",
+      "Use Magic Device 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts or urban"
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "NPC Razmiran Priest",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 12,
+    "notes": "dex +2",
+    "touch": 12,
+    "flatFooted": 10
+  },
+  "hp": {
+    "average": 61,
+    "formula": "6d6+4d8+20"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 14,
+    "con": 14,
+    "int": 12,
+    "wis": 10,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +6, Ref +6, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +21, Diplomacy +12, Intimidate +18, Knowledge (history) +5, Knowledge (religion) +10, Perception +10, Sense Motive +7, Sleight of Hand +3, Spellcraft +10, Use Magic Device +25",
+    "list": {
+      "Bluff": "+21",
+      "Diplomacy": "+12",
+      "Intimidate": "+18",
+      "Perception": "+10",
+      "Sense Motive": "+7",
+      "Sleight of Hand": "+3",
+      "Spellcraft": "+10",
+      "Use Magic Device": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Hallit"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 6,
+  "feats": [
+    "Combat Casting",
+    "Empower Spell",
+    "Eschew Materials",
+    "False Casting",
+    "Magical Aptitude",
+    "Silent Spell",
+    "Weapon Focus (ray)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk heavy mace +6/+1 (1d8-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "sorcerer 6, Razmiran priest 4",
+    "cmb": "+5",
+    "cmd": 17
+  }
+}

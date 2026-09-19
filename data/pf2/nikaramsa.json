@@ -1,0 +1,109 @@
+{
+  "name": "Nikaramsa",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 25.",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "Asura",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 14",
+  "xp": null,
+  "ac": {
+    "value": 35,
+    "notes": ""
+  },
+  "hp": {
+    "average": 315,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 16,
+    "con": 14,
+    "int": 12,
+    "wis": 20,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +22, Ref +25, Will +27",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +24 (1d20+24); __Deception__: +28 (1d20+28); __Religion__: +25 (1d20+25); __Stealth__: +25 (1d20+25); ",
+    "list": {
+      "Athletics": "+24",
+      "Deception": "+28",
+      "Religion": "+25",
+      "Stealth": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, detect alignment, see invisibility"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Common",
+    "Infernal; [[telepathy]] 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Towering Stance",
+      "text": "(divine, illusion); A nikaramsa is in fact a Medium creature, but appears as a Large creature due to the force of their personality. A creature interacting with the nikaramsa can attempt a DC 36 Will save to see the nikaramsa as they truly are. If the creature succeeds, the reach of nikaramsa's attacks against that foe decrease to 5 feet (10 feet for their tongue). If all creatures in the nikaramsa's vicinity successfully disbelieving illusions|0|disbelieve this illusion, the nikaramsa becomes Medium and enfeebled 2 for as long as everyone sees their true form."
+    },
+    {
+      "name": "Pervert Miracle",
+      "text": "⬲ (curse, divine); Trigger A foe within 60 feet casts bless or a beneficial spell that the nikaramsa could cast to remove an affliction or condition (such as neutralize poison) Effect The nikaramsa attempts to counteract the enemy's spell (counteract modifier +24 and counteract level 7). If the nikaramsa succeeds, the triggering creature is subjected to the effects of a bane spell or the effect it was trying to remove."
+    },
+    {
+      "name": "Sap Mind",
+      "text": "⬻ (divine, enchantment, mental); The nikaramsa focuses their gaze on one creature within 60 feet. That target must attempt a DC 34 Will save. Regardless of the outcome of the saving throw, the target then becomes temporarily immune for 1 day. Critical Success The nikaramsa is caught off guard by the strength of the target's resistance and becomes stupefied 2 until the end of their next turn. Success The target resists the nikaramsa's influence. Failure The target's focus and willpower drain away; it becomes stupefied 2 for 1 minute. Critical Failure As failure, but the target becomes stupefied 3 for 1 hour."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +29 (reach 10 feet); Damage 3d10+14 (3d10+14) piercing plus 2d6 (2d6) evil"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +29 (agile, reach 10 feet); Damage 3d6+14 (3d6+14) slashing plus 2d6 (2d6) evil"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tongue +29 (reach 20 feet); Damage 3d6+14 (3d6+14) bludgeoning plus 2d6 (2d6) evil plus Improved Knockdown (page 305)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      3,
+      2,
+      1,
+      5,
+      8
+    ]
+  }
+}

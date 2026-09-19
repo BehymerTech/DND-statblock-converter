@@ -1,0 +1,97 @@
+{
+  "name": "Half-Dragon",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "Dragon",
+  "subtype": "",
+  "alignment": "Neutral",
+  "cr": "5",
+  "level": null,
+  "xp": 1800,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 105,
+    "formula": "14d8 + 42"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 14,
+    "con": 16,
+    "int": 10,
+    "wis": 15,
+    "cha": 14
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Athletics +7, Perception +5, Stealth +5",
+    "list": {
+      "Athletics": "+7",
+      "Perception": "+5",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Blindsight 10 ft.",
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+5 (15)",
+  "babOrProficiency": 3,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Draconic Origin",
+      "text": "The half-dragon is related to a type of dragon associated with one of the following damage types (GM's choice): Acid, Cold, Fire, Lightning, or Poison. This choice affects other aspects of the stat block."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The half-dragon makes two Claw attacks."
+    },
+    {
+      "name": "Claw",
+      "text": "_Melee Attack Roll:_ +7, reach 10 ft. _Hit:_ 6 (1d4 + 4) Slashing damage plus 7 (2d6) damage of the type chosen for the Draconic Origin trait."
+    },
+    {
+      "name": "Dragon's Breath (Recharge 5–6)",
+      "text": "_Dexterity Saving Throw:_ DC 14, each creature in a 30-foot Cone. _Failure:_ 28 (8d6) damage of the type chosen for the Draconic Origin trait. _Success:_ Half damage."
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Leap",
+      "text": "The half-dragon jumps up to 30 feet by spending 10 feet of movement. ## Harpy"
+    }
+  ],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Ghoul Huntsmaster",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "armor +3, dex +5, natural +2",
+    "touch": 15,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 80,
+    "formula": "2d8+6d10+38"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 20,
+    "con": "None",
+    "int": 13,
+    "wis": 16,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +9, Ref +10, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +13, Climb +13, Disable Device +13, Perception +14, Stealth +16, Survival +14, Swim +9",
+    "list": {
+      "Acrobatics": "+13",
+      "Climb": "+13",
+      "Disable Device": "+13",
+      "Perception": "+14",
+      "Stealth": "+16",
+      "Survival": "+14",
+      "Swim": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Undercommon"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 7,
+  "feats": [
+    "Corpse Companion",
+    "Endurance",
+    "Improved Natural Attack (claw)",
+    "Point-Blank Shot",
+    "Rapid Shot",
+    "Weapon Finesse",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 bite +13 (1d6+3 plus disease and paralysis), 2 +1 claws +14 (1d8+3 plus paralysis)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite longbow +13/+8 (1d8+2/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Ghoul",
+    "class": "ranger 6",
+    "cmb": "+9",
+    "cmd": 24,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      }
+    ]
+  }
+}

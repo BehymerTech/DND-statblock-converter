@@ -1,0 +1,91 @@
+{
+  "name": "Tiberolith",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 56: Raiders of the Fever Sea",
+  "size": "Huge",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 24,
+    "notes": "natural +16, size -2",
+    "touch": 8,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 111,
+    "formula": "13d10+40"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 11,
+    "con": "None",
+    "int": "None",
+    "wis": 11,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +4, Ref +4, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 13,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +19 (3d8+8)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A bizarre thrum echoes from somewhere deep within this towering stone hulk, and blue liquid runs down its shuddering body.",
+  "meta": {
+    "cmb": "+23",
+    "cmd": 33,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any coastlines or water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or squad (3-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

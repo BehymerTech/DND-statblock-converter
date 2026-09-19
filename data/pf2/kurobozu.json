@@ -1,0 +1,108 @@
+{
+  "name": "Kurobozu",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 157.",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 90,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 18,
+    "con": 14,
+    "int": 12,
+    "wis": 18,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +12, Ref +16, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +14 (1d20+14); __Athletics__: +15 (1d20+15); __Stealth__: +14 (1d20+14); __Monastic lore__: +11 (1d20+11); ",
+    "list": {
+      "Acrobatics": "+14",
+      "Athletics": "+15",
+      "Stealth": "+14",
+      "Monastic lore": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Black Apoxia",
+      "text": "(disease); Saving Throw DC 24 Fortitude. Stage 1 carrier with no ill effect (1 day) Stage 2 drained 1 and fatigued (1 day) Stage 3 drained 2 and fatigued (1 day)"
+    },
+    {
+      "name": "Brawling Critical",
+      "text": "When the kurobozu scores a critical hit with an unarmed attack, the target must succeed at a DC 22 Fortitude save or be slowed 1 until the end of its next turn."
+    },
+    {
+      "name": "Sagebane",
+      "text": "(necromancy, occult); When the kurobozu damages a living creature with an unarmed Strike, the target must succeed at a DC 24 Fortitude save or become stupefied 1 for 1 minute. Further damage dealt by the kurobozu resets the duration to 1 minute and increases the stupefied value by 1 on a failed save, to a maximum of stupefied 4."
+    },
+    {
+      "name": "Steal Breath",
+      "text": "⬺ (incapacitation, necromancy, occult); Requirements The kurobozu is adjacent to a living creature that is paralyzed, slowed, stunned, or unconscious Effect The kurobozu leans over and sucks the breath from the target, who must attempt a DC 22 Fortitude save. Regardless of the result, the creature is exposed to black apoxia and its breath reeks of carrion for 1 minute. Critical Success The creature is unaffected. Success The creature can't speak for 1 minute. Failure The creature becomes sickened 2 and can't speak for 1 minute. Critical Failure As failure, plus the creature falls unconscious and begins suffocating."
+    },
+    {
+      "name": "Stunning Flurry",
+      "text": "⬻ Frequency once per round Effect The kurobozu makes two unarmed Strikes. If both hit the same creature, combine their damage for the purpose of resistances and weaknesses, and the target must succeed at a DC 22 Fortitude save or be stunned 1 (or stunned 3 on a critical failure); this save has the incapacitation trait."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +17 (agile, magical); Damage 1d6+8 (1d6+8) bludgeoning plus 1d4 (1d4) negative and sagebane"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      4,
+      2,
+      1,
+      4,
+      2
+    ]
+  }
+}

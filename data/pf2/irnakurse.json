@@ -1,0 +1,117 @@
+{
+  "name": "Irnakurse",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 118.",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 9",
+  "xp": null,
+  "ac": {
+    "value": 28,
+    "notes": ""
+  },
+  "hp": {
+    "average": 152,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 20,
+    "con": 16,
+    "int": 6,
+    "wis": 16,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +20, Ref +18, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +20 (1d20+20); __Athletics__: +20 (1d20+20); __Stealth__: +20 (1d20+20); ",
+    "list": {
+      "Acrobatics": "+20",
+      "Athletics": "+20",
+      "Stealth": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Abyssal",
+    "Elven",
+    "Undercommon (can't speak"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Mind Lash",
+      "text": "(emotion, enchantment, mental, occult); A non-evil creature hit by an irnakurse's tentacle is overwhelmed with corrupted images of a ruined life and must succeed at a DC 28 Will save or be stunned 2 (or stunned 4 on a critical failure). After attempting this save, a creature is temporarily immune to Mind Lash for 24 hours."
+    },
+    {
+      "name": "Rend",
+      "text": "⬻ (tentacle);"
+    },
+    {
+      "name": "Soul Scream",
+      "text": "⬺ (auditory, concentrate, emotion, enchantment, mental, occult); Frequency once per day Effect The irnakurse unleashes an alien shriek of nightmarish horror and pain. All non-evil creatures within a 10-foot emanation must attempt a DC 28 Will save. The irnakurse can."
+    },
+    {
+      "name": "Sustain Soul",
+      "text": "Scream for up to 6 rounds; each time it does, it repeats the effect. Critical Success The creature is unaffected, and is temporarily immune to Soul Scream for 24 hours. Success The creature is stupefied 1 for 1 round. Failure The creature is stupefied 1. Further failed saves against Soul Scream increase the condition value by 1, to a maximum of stupefied 4. Each time the character gets a full night's rest, the stupefied condition gained from Soul Scream decreases by 1. Critical Failure As failure, except the stupefied value increases by 2 instead of by 1."
+    },
+    {
+      "name": "Storm of Tentacles",
+      "text": "⬺ The irnakurse makes up to four tentacle Strikes, each against a different target. These attacks count toward the irnakurse's multiple attack penalty, but the multiple attack penalty doesn't increase until after it makes all of its attacks."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +20 (reach 10 feet); Damage 2d12+11 (2d12+11) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tentacle +20 (agile, reach 20 feet); Damage 2d8+11 (2d8+11) slashing plus mind lash"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      5,
+      3,
+      -2,
+      3,
+      4
+    ]
+  }
+}

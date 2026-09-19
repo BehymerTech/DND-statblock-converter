@@ -1,0 +1,110 @@
+{
+  "name": "Deva",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Medium",
+  "type": "celestial",
+  "subtype": "",
+  "alignment": "lawful good",
+  "cr": "10",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": "natural armor"
+  },
+  "hp": {
+    "average": 136,
+    "formula": "16d8 + 64"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 90,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 18,
+    "con": 18,
+    "int": 17,
+    "wis": 20,
+    "cha": 20
+  },
+  "saves": {
+    "text": "wis +9, cha +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Insight +9, Perception +9",
+    "list": {
+      "insight": "+9",
+      "perception": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [
+    "radiant",
+    "bludgeoning, piercing, slashing from nonmagical attacks"
+  ],
+  "immunities": [],
+  "conditionImmunities": [
+    "charmed",
+    "exhaustion",
+    "frightened"
+  ],
+  "senses": [
+    "darkvision 120 ft."
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "all",
+    "telepathy 120 ft."
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Angelic Weapons",
+      "text": "The deva's weapon attacks are magical. When the deva hits with any weapon, the weapon deals an extra 4d8 radiant damage (included in the attack)."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The deva has advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The deva makes two melee attacks."
+    },
+    {
+      "name": "Mace",
+      "text": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage plus 18 (4d8) radiant damage."
+    },
+    {
+      "name": "Healing Touch (3/Day)",
+      "text": "The deva touches another creature. The target magically regains 20 (4d8 + 2) hit points and is freed from any curse, disease, poison, blindness, or deafness."
+    },
+    {
+      "name": "Change Shape",
+      "text": "The deva magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the deva's choice).\nIn a new form, the deva retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and special senses are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [
+    {
+      "name": "Innate Spellcasting",
+      "text": "The deva's spellcasting ability is Charisma (spell save DC 17). The deva can innately cast the following spells, requiring only verbal components:"
+    }
+  ],
+  "description": "",
+  "meta": {}
+}

@@ -1,0 +1,121 @@
+{
+  "name": "Einherji",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 89.",
+  "size": "Medium",
+  "type": "Monitor",
+  "subtype": "Aesir",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 30,
+    "notes": ""
+  },
+  "hp": {
+    "average": 175,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 18,
+    "con": 22,
+    "int": 10,
+    "wis": 12,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +22, Ref +18, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +25 (1d20+25); __Crafting__: +16 (1d20+16); __Intimidation__: +21 (1d20+21); ",
+    "list": {
+      "Athletics": "+25",
+      "Crafting": "+16",
+      "Intimidation": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Common",
+    "Hallit",
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Shield Block",
+      "text": "⬲ (page 306);"
+    },
+    {
+      "name": "Challenge Foe",
+      "text": "⬻ The einherji challenges one creature they can see to single combat, attempting to Demoralize that target. This target remains the einherji's foe until it's defeated, it flees, or the encounter ends. The einherji gains a circumstance bonus to damage equal to their number of weapon damage dice against their designated foe but takes an equivalent circumstance penalty to damage against any other creature. If the einherji is defeated by their challenged foe, the shame causes them to lose use of their champion devotion spells for 1 week or until they challenge the same foe again and emerge victorious, whichever comes first."
+    },
+    {
+      "name": "Jotun Slayer",
+      "text": "The einherji has a +4 circumstance bonus to damage rolls made against giants and creatures that are at least two sizes larger than the einherji."
+    },
+    {
+      "name": "Instant Repair",
+      "text": "⬻ The einherji Repairs their shield. They can't use this ability if the shield is completely destroyed."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ longsword +24 (versatile p); Damage 2d8+13 (2d8+13) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +23 (agile); Damage 2d6+13 (2d6+13) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ dagger +24 (agile, versatile s); Damage 2d4+13 (2d4+13) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ dagger +21 (agile, thrown 10 feet, versatile s); Damage 2d4+13 (2d4+13) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      4,
+      6,
+      0,
+      1,
+      3
+    ]
+  }
+}

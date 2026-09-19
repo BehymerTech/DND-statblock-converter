@@ -1,0 +1,101 @@
+{
+  "name": "Karkinoi",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Large",
+  "type": "monstrous humanoid",
+  "subtype": "aquatic",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "natural +10, size -1",
+    "touch": 9,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 76,
+    "formula": "8d10+32"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., other_semicolon sideways scuttle ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 10,
+    "con": 16,
+    "int": 6,
+    "wis": 10,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +6, Ref +6, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +9, Perception +11, Swim +21",
+    "list": {
+      "Intimidate": "+9",
+      "Perception": "+11",
+      "Swim": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Aquan"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 8,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Critical (claw)",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "claw +13 (1d10+9/19-20 plus grab), slam +13 (1d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hulking mix of ogre and crab has one huge pincer that snaps menacingly, while its other arm is a twisted, humanlike hand.",
+  "meta": {
+    "cmb": "15 (+19 grapple)",
+    "cmd": 25,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, gang (2-6), or tribe (3-18)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

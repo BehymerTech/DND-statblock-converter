@@ -1,0 +1,301 @@
+{
+  "name": "Dire Animal",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "Always neutral",
+  "cr": "4",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": "-1 size, +3 Dex, +4 natural",
+    "touch": 12,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 45,
+    "formula": "5d8+23"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 40,
+    "swim": 60,
+    "climb": 10,
+    "burrow": 10,
+    "notes": "30 ft. (6 squares), climb 10 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 17,
+    "con": 19,
+    "int": 2,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +14, Listen +7, Spot +7;",
+    "list": {
+      "Climb": "+14",
+      "Listen": "+7",
+      "Move Silently": "+4",
+      "Spot": "+7",
+      "Hide": "+0",
+      "Swim": "+10",
+      "Jump": "+14",
+      "Survival": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Low-light vision",
+    "scent",
+    "Low-light vision",
+    "scent",
+    "Blindsense 40 ft.",
+    "Low-light vision",
+    "scent",
+    "Low-light vision",
+    "scent",
+    "Low-light vision",
+    "scent",
+    "Low-light vision",
+    "scent",
+    "scent",
+    "Low-light vision",
+    "scent",
+    "Low-light vision",
+    "scent",
+    "Low-light vision",
+    "scent",
+    "Low-light vision",
+    "scent"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 3,
+  "feats": [
+    "Alertness",
+    "Toughness",
+    "Track (B)"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Rend 2d6+9"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Low-light vision, scent"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Rage"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Low-light vision, scent"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Blindsense 40 ft."
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Improved grab"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Low-light vision, scent"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Ferocity"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Low-light vision, scent"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Improved grab, pounce, rake 1d6+3"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Low-light vision, scent"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Disease"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Low-light vision, scent"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Improved grab, swallow whole"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Keen scent"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Improved grab, pounce, rake 2d4+4"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Low-light vision, scent"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Attach, blood drain"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Low-light vision, scent"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Trip"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Low-light vision, scent"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Rage"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Low-light vision, scent"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Claw +8 melee (1d6+6)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +8 melee (1d6+6) and bite +3 melee (1d8+3)"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +4 melee (1d4+2)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +4 melee (1d4+2) and bite -1 melee (1d6+1)"
+    },
+    {
+      "name": "Attack",
+      "text": "Bite +5 melee (1d8+4)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +5 melee (1d8+4)"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +19 melee (2d4+10)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +19 melee (2d4+10) and bite +13 melee (2d8+5)"
+    },
+    {
+      "name": "Attack",
+      "text": "Gore +12 melee (1d8+12)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Gore +12 melee (1d8+12)"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +13 melee (1d6+7)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +13 melee (1d6+7) and bite +7 melee (1d8+3)"
+    },
+    {
+      "name": "Attack",
+      "text": "Bite +4 melee (1d4 plus disease)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +4 melee (1d4 plus disease)"
+    },
+    {
+      "name": "Attack",
+      "text": "Bite +18 melee (2d8+9)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +18 melee (2d8+9)"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +20 melee (2d4+8)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +20 melee (2d4+8) and bite +14 melee (2d6+4)"
+    },
+    {
+      "name": "Attack",
+      "text": "Bite +6 melee (1d6+3)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +6 melee (1d6+3)"
+    },
+    {
+      "name": "Attack",
+      "text": "Bite +11 melee (1d8+10)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +11 melee (1d8+10)"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +8 melee (1d6+6)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +8 melee (1d6+6) and bite +3 melee (1d8+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Dire animals are larger, tougher, meaner versions of ordinary animals. Each kind tends to have a feral, prehistoric, or even demonic appearance.",
+    "grapple": "+13",
+    "spaceReach": "10 ft./5 ft.",
+    "environment": "Cold forests",
+    "organization": "Solitary or pair",
+    "treasure": "None",
+    "advancement": "6-15 HD (Large)",
+    "leveladjustment": "---"
+  }
+}

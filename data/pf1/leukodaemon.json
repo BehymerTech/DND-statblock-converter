@@ -1,0 +1,116 @@
+{
+  "name": "Leukodaemon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Pathfinder No. 8: Seven Days to the Grave",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "daemon, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 23,
+    "notes": "dex +7, natural +7, size -1",
+    "touch": 16,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 115,
+    "formula": "10d10+60"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 24,
+    "con": 23,
+    "int": 16,
+    "wis": 21,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +9, Ref +14, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +18, Heal +18, Intimidate +16, Knowledge (planes) +16, Perception +22, Sense Motive +22, Stealth +16, Survival +15, Use Magic Device +16",
+    "list": {
+      "Fly": "+18",
+      "Heal": "+18",
+      "Intimidate": "+16",
+      "Perception": "+22",
+      "Sense Motive": "+22",
+      "Stealth": "+16",
+      "Survival": "+15",
+      "Use Magic Device": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "deathwatch",
+    "detect good"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Abyssal",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 10,
+  "feats": [
+    "Alertness",
+    "Hover",
+    "Improved Initiative",
+    "Point-Blank Shot",
+    "Weapon Focus (longbow)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +16 (1d8+7), 2 claws +16 (1d6+7)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 composite longbow +18/+13 (2d6+8/×3 plus contagion)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This human-shaped beast has a horse’s skull for a head. It walks on cracked hooves and bears the rotting wings of a carrion bird.",
+  "meta": {
+    "cmb": "+18",
+    "cmd": 35,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or wake (2-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+1 composite longbow, other treasure)"
+      }
+    ]
+  }
+}

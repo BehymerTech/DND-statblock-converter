@@ -1,0 +1,111 @@
+{
+  "name": "Hollow One",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 112: The Whisper Out of Time",
+  "size": "Medium",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 26,
+    "notes": "dex +5, dodge +1, natural +10",
+    "touch": 16,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 117,
+    "formula": "15d10+35"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 21,
+    "con": "None",
+    "int": 16,
+    "wis": 11,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +5, Ref +10, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +21, Disguise +4, Intimidate +17, Perception +15, Sense Motive +15, Stealth +20",
+    "list": {
+      "Bluff": "+21",
+      "Disguise": "+4",
+      "Intimidate": "+17",
+      "Perception": "+15",
+      "Sense Motive": "+15",
+      "Stealth": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Kelish"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 15,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Deceitful",
+    "Dodge",
+    "Improved Critical (slam)",
+    "Improved Feint",
+    "Improved Initiative",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +22 (1d8+7/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The faint chemical smell lingering on this creature’s skin hints that it is not simply a normal person. Small, almost imperceptible flaws suggest that the creature’s skin is somehow stretched over an invisible frame.",
+  "meta": {
+    "cmb": "+22",
+    "cmd": 38,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

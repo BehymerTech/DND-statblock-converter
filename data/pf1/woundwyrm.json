@@ -1,0 +1,114 @@
+{
+  "name": "Woundwyrm",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Bestiary",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "chaotic, evil",
+  "alignment": "CE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 30,
+    "notes": "dex +1, dodge +1, natural +20, size -2",
+    "touch": 10,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 225,
+    "formula": "18d12+108"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (average), burrow 30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 13,
+    "con": 22,
+    "int": 14,
+    "wis": 13,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +17, Ref +12, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +19, Bluff +18, Diplomacy +15, Fly +18, Intimidate +26, Knowledge (planes) +23, Perception +22, Spellcraft +23, Survival +22, Swim +22",
+    "list": {
+      "Acrobatics": "+19",
+      "Bluff": "+18",
+      "Diplomacy": "+15",
+      "Fly": "+18",
+      "Intimidate": "+26",
+      "Perception": "+22",
+      "Spellcraft": "+23",
+      "Survival": "+22",
+      "Swim": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 18,
+  "feats": [
+    "Blind-Fight",
+    "Critical Focus",
+    "Dodge",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Power Attack",
+    "Snatch",
+    "Staggering Critical",
+    "Stunning Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +26 (2d8+10), 2 claws +26 (2d6+10), tail slap +21 (2d8+5), 2 wings +21 (1d8+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This massive, eyeless draconic creature is covered in purplehued scales and sharp, spiky protrusions.",
+  "meta": {
+    "cmb": "+30",
+    "cmd": "42 (46 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (the Worldwound)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

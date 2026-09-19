@@ -1,0 +1,115 @@
+{
+  "name": "Wyvern",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 133.",
+  "size": "Large",
+  "type": "Dragon",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 95,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, fly 60 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": 18,
+    "int": 6,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +16, Ref +12, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +14 (1d20+14); __Athletics__: +15 (1d20+15); __Stealth__: +12 (1d20+12); ",
+    "list": {
+      "Acrobatics": "+14",
+      "Athletics": "+15",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Savage",
+      "text": "⬲ Trigger A creature grabbed by the wyvern critically fails a skill check to Escape. Effect The wyvern makes a stinger Strike against the triggering creature."
+    },
+    {
+      "name": "Powerful Dive",
+      "text": "⬺ (move); The wyvern Flies up to its fly Speed and must both move forward at least 20 feet and descend at least 10 feet. If it ends the movement within melee reach of at least one enemy its size or smaller, it can make a claw Strike against that enemy. If the claw hits, as a free action the wyvern can either automatically Grab the target or knock it prone."
+    },
+    {
+      "name": "Punishing Momentum",
+      "text": "⬻ Requirements The wyvern grabbed a creature this turn using Powerful Dive. Effect The wyvern can Fly at half Speed while holding the creature in its claws, carrying that creature along with it and dropping it at the end of its movement. Alternatively, the wyvern can Strike the creature with its stinger with a +2 circumstance bonus."
+    },
+    {
+      "name": "Wyvern Venom",
+      "text": "(poison); Saving Throw DC 22 Fortitude. Maximum Duration 6 rounds Stage 1 5d6 (5d6) poison damage (1 round) Stage 2 6d6 (6d6) poison damage (1 round) Stage 3 8d6 (8d6) poison damage (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +17 Damage 2d12+5 (2d12+5) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +17 Damage 2d8+5 (2d8+5) slashing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ stinger +15 (agile, reach 10 feet); Damage 2d6+5 (2d6+5) piercing plus wyvern venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      2,
+      4,
+      -2,
+      3,
+      0
+    ]
+  }
+}

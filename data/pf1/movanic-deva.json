@@ -1,0 +1,115 @@
+{
+  "name": "Movanic Deva",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "angel, extraplanar, good",
+  "alignment": "NG",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 24,
+    "notes": "dex +3, natural +11, deflection vs. evil +4",
+    "touch": 13,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 126,
+    "formula": "12d10+60"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 17,
+    "con": 18,
+    "int": 17,
+    "wis": 17,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +12, Ref +11, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +19, Fly +22, Intimidate +19, Knowledge (planes) +18, Knowledge (religion) +18, Perception +26, Sense Motive +22, Stealth +18, Survival +18",
+    "list": {
+      "Diplomacy": "+19",
+      "Fly": "+22",
+      "Intimidate": "+19",
+      "Perception": "+26",
+      "Sense Motive": "+22",
+      "Stealth": "+18",
+      "Survival": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect evil",
+    "low-light vision"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 12,
+  "feats": [
+    "Cleave",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack",
+    "Toughness",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 flaming greatsword +17/+12/+7 (2d6+7/19-20 plus 1d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This angel is all sharp lines and angles, muscular but lean, with large wings and a mighty flaming greatsword.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": 29,
+    "racialModifiers": [
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any good-aligned plane"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or squad (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+1 flaming greatsword, other treasure)"
+      }
+    ]
+  }
+}

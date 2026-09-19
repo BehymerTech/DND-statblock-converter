@@ -1,0 +1,103 @@
+{
+  "name": "NPC King",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 18,
+    "notes": "armor +7, deflection +1",
+    "touch": 11,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 50,
+    "formula": "10d8+5"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 11,
+    "con": 10,
+    "int": 14,
+    "wis": 10,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +6, Ref +4, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +10, Diplomacy +19, Intimidate +12, Knowledge (geography) +10, Knowledge (history) +10, Knowledge (local) +6, Knowledge (nobility) +15, Knowledge (religion) +8, Linguistics +9, Perception +10, Perform (dance) +6, Perform (oratory) +10, Ride +6, Sense Motive +17",
+    "list": {
+      "Bluff": "+10",
+      "Diplomacy": "+19",
+      "Intimidate": "+12",
+      "Linguistics": "+9",
+      "Perception": "+10",
+      "Ride": "+6",
+      "Sense Motive": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Elven",
+    "Giant",
+    "Gnome",
+    "Halfling",
+    "Sylvan"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 7,
+  "feats": [
+    "Alertness",
+    "Great Fortitude",
+    "Iron Will",
+    "Persuasive",
+    "Vital Strike",
+    "Weapon Focus (longsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk longsword +8/+3 (1d8-1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk dagger +8/+3 (1d4-1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "aristocrat 10",
+    "cmb": "+6",
+    "cmd": 17
+  }
+}

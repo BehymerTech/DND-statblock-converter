@@ -1,0 +1,105 @@
+{
+  "name": "Grizzled Rider",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "goblinoid",
+  "alignment": "NE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 22,
+    "notes": "armor +5, dex +4, shield +2, size +1",
+    "touch": 15,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 47,
+    "formula": "6d10+10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 13,
+    "int": 10,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +6, Ref +9, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +7, Handle Animal +7, Perception +10, Ride +16, Stealth +20, Survival +10, Swim +7",
+    "list": {
+      "Climb": "+7",
+      "Handle Animal": "+7",
+      "Perception": "+10",
+      "Ride": "+16",
+      "Stealth": "+20",
+      "Survival": "+10",
+      "Swim": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Goblin"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 6,
+  "feats": [
+    "Endurance",
+    "Mounted Archery",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Rapid Shot",
+    "Ride-By Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk horsechopper +5 (1d8+3/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite shortbow +12/+7 (1d4+2/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Goblin",
+    "class": "ranger 6",
+    "cmb": "+7",
+    "cmd": 21,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forest and plains (usually coastal regions)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Gnoll Cultist",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 179.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Gnoll",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 45,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 10,
+    "int": 10,
+    "wis": 16,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +8, Ref +6, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Intimidation__: +7 (1d20+7); __Medicine__: +7 (1d20+7); __Religion__: +10 (1d20+10); __Stealth__: +7 (1d20+7); __Survival__: +8 (1d20+8); ",
+    "list": {
+      "Intimidation": "+7",
+      "Medicine": "+7",
+      "Religion": "+10",
+      "Stealth": "+7",
+      "Survival": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Gnoll"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Pack Attack",
+      "text": "A gnoll hunter deals 1d4 (1d4) extra damage to any creature that's within reach of at least two of the gnoll hunter's allies."
+    },
+    {
+      "name": "Rugged Travel",
+      "text": "A gnoll ignores the first square of difficult terrain it moves into each time it Steps or Strides."
+    },
+    {
+      "name": "Items",
+      "text": "falchion, hide armor, wooden religious symbol;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ falchion +10 (forceful, sweep); Damage 1d10+3 (1d10+3) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +10 (agile); Damage 1d6+3 (1d6+3) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      2,
+      0,
+      0,
+      3,
+      2
+    ],
+    "items": "falchion, hide armor, wooden religious symbol;"
+  }
+}

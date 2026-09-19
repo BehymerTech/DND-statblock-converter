@@ -1,0 +1,103 @@
+{
+  "name": "Tetrolimulus",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 58: Island of Empty Eyes",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "NE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 27,
+    "notes": "dex +4, natural +14, size -1",
+    "touch": 13,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 147,
+    "formula": "14d10+70"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., swim 50 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 18,
+    "con": 21,
+    "int": 3,
+    "wis": 12,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +16, Ref +13, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +10, Perception +7, Survival +14",
+    "list": {
+      "Climb": "+10",
+      "Perception": "+7",
+      "Survival": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": "+8",
+  "babOrProficiency": 14,
+  "feats": [
+    "Endurance",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Iron Will",
+    "Lunge",
+    "Multiattack",
+    "Run"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +19 (2d6+6/×4), sting +17 (1d6+3 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "From a body like a strange crab sprouts the torso of a praying mantis, clad in coral-colored crustacean armor. Swaying hypnotically, it rattles razor-sharp claws and raises its long, rapier-like tail stinger.",
+  "meta": {
+    "cmb": "+21",
+    "cmd": 35,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate coasts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "name": "Mythic Danava",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Colossal",
+  "type": "outsider",
+  "subtype": "extraplanar, lawful, mythic",
+  "alignment": "LN",
+  "cr": "24",
+  "level": null,
+  "xp": 1228800,
+  "ac": {
+    "value": 48,
+    "notes": "deflection +9, dex +12, dodge +1, natural +24, size -8",
+    "touch": 24,
+    "flatFooted": 35
+  },
+  "hp": {
+    "average": 545,
+    "formula": "26d10+402"
+  },
+  "speed": {
+    "walk": 90,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "90 ft."
+  },
+  "abilities": {
+    "str": 47,
+    "dex": 34,
+    "con": 35,
+    "int": 27,
+    "wis": 28,
+    "cha": 34
+  },
+  "saves": {
+    "text": "Fort +27, Ref +21, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +44, Craft (any one) +37, Diplomacy +38, Intimidate +41, Knowledge (any one other) +34, Knowledge (arcana) +34, Knowledge (engineering) +34, Knowledge (nature) +34, Knowledge (planes) +37, Perception +38, Sense Motive +38, Spellcraft +37, Swim +47, Use Magic Device +41",
+    "list": {
+      "Climb": "+44",
+      "Diplomacy": "+38",
+      "Intimidate": "+41",
+      "Perception": "+38",
+      "Sense Motive": "+38",
+      "Spellcraft": "+37",
+      "Swim": "+47",
+      "Use Magic Device": "+41"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 48,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Infernal",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+21/+1;  dual initiative",
+  "babOrProficiency": 26,
+  "feats": [
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dazing Assault",
+    "Greater Sunder",
+    "Greater Vital Strike",
+    "Improved Critical (tetsubo)",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Improved Vital Strike",
+    "Power Attack",
+    "Quicken Spell-Like Ability (chain lightning)",
+    "Quicken Spell-Like Ability (heal)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+3 axiomatic tetsubo +40/+40/+35/+30/+25 (6d8+30/19-20 ×5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "52 (+56 sunder)",
+    "cmd": "74 (76 vs. sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+3 axiomatic tetsubo, danava mantle, other treasure)"
+      }
+    ]
+  }
+}

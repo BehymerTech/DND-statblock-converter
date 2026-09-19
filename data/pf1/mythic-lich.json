@@ -1,0 +1,119 @@
+{
+  "name": "Mythic Lich",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "augmented humanoid, human, mythic",
+  "alignment": "LE",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 36,
+    "notes": "armor +7, deflection +2, dex +2, natural +15",
+    "touch": 14,
+    "flatFooted": 34
+  },
+  "hp": {
+    "average": 209,
+    "formula": "13d8+147"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 14,
+    "con": "None",
+    "int": 15,
+    "wis": 26,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +16, Ref +9, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Heal +16, Intimidate +18, Knowledge (arcana) +18, Knowledge (religion) +18, Perception +29, Sense Motive +27, Spellcraft +26, Stealth +9",
+    "list": {
+      "Heal": "+16",
+      "Intimidate": "+18",
+      "Perception": "+29",
+      "Sense Motive": "+27",
+      "Spellcraft": "+26",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "spell perception"
+  ],
+  "passivePerception": 39,
+  "languages": [
+    "Abyssal",
+    "Common"
+  ],
+  "initiative": "+13",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Casting",
+    "Craft Wondrous Item",
+    "Extra Channel",
+    "Improved Channel",
+    "Improved Initiative",
+    "Iron Will",
+    "Mythic Spell Lore",
+    "Spell Focus (necromancy)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 heavy mace +9/+4 (1d8), touch +3 (1d8+6 plus paralyzing touch)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This armored undead human wields a heavy mace and wears the trappings of a devil-worshiper.",
+  "meta": {
+    "race": "Human",
+    "class": "lich cleric of Asmodeus 13",
+    "cmb": "+8",
+    "cmd": 22,
+    "racialModifiers": [
+      "Perception 8",
+      "Sense Motive 8",
+      "Spellcraft 8",
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (potions of invisibility [2], +3 chain shirt, +1 heavy mace, amulet of natural armor +3, belt of incredible dexterity +2, cloak of resistance +3, headband of mental prowess +4 [Wis, Cha], ring of protection +2, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Orc Chieftain",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "orc",
+  "alignment": "CE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 24,
+    "notes": "armor +11, dex +3",
+    "touch": 13,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 99,
+    "formula": "10d10+40"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 14,
+    "int": 8,
+    "wis": 6,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +6, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +12, Perception +3",
+    "list": {
+      "Intimidate": "+12",
+      "Perception": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 13,
+  "languages": [
+    "Common",
+    "Orc"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 10,
+  "feats": [
+    "Cleave",
+    "Cleaving Finish",
+    "Grudge Fighter",
+    "Improved Critical (orc double axe)",
+    "Improved Initiative",
+    "Intimidating Prowess",
+    "Orc Weapon Expertise (killer)",
+    "Power Attack",
+    "Toughness",
+    "Two-Weapon Fighting",
+    "Weapon Focus (orc double axe)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 orc double axe +18/+13 (1d8+9/19-20/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite shortbow +15/+10 (1d6+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Orc",
+    "class": "fighter 10",
+    "cmb": "+14",
+    "cmd": 27,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate hills, mountains, or underground"
+      }
+    ]
+  }
+}

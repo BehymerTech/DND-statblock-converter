@@ -1,0 +1,90 @@
+{
+  "name": "NPC Enforcer",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "NE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "armor +4, dex +1",
+    "touch": 11,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 27,
+    "formula": "5d6+10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 11,
+    "int": 9,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +2, Ref +5, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +4, Knowledge (local) +4, Knowledge (religion) +3, Perception +4",
+    "list": {
+      "Intimidate": "+4",
+      "Perception": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 14,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Cleave",
+    "Light Armor Proficiency",
+    "Power Attack",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk club +7 (1d6+6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +3 (1d4+4/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "adept 5",
+    "cmb": "+6",
+    "cmd": 17
+  }
+}

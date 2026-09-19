@@ -1,0 +1,99 @@
+{
+  "name": "Slurk",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 301.",
+  "size": "Medium",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 35,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, climb 30 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 18,
+    "int": 2,
+    "wis": 10,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +10, Ref +6, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +6 (1d20+6), (Acrobatics: +8 (1d20+8) to Escape); __Athletics__: +8 (1d20+8); __Stealth__: +5 (1d20+5); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Athletics": "+8",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Draconic (can't speak any language)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Belly Grease",
+      "text": "⬽ The slurk extrudes a slippery grease from its ventral glands to coat the floor under it and in a 5-foot emanation, turning the affected area into uneven ground for 10 minutes, after which it dries to a putrid crust. The DC to Balance across the slime is 18."
+    },
+    {
+      "name": "Entangling Slime",
+      "text": "A creature struck by a slurk's slime squirt becomes clumsy 1 and takes a –5-foot penalty to Speed for 1 hour or until the slime is removed. The slime can be removed with a total of three Interact actions by the entangled creature or creatures adjacent to the creature. These actions don't need to be consecutive or made by the same creature."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ tusks +11 (deadly 1d10); Damage 1d8+4 (1d8+4) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ slime squirt +9 (range increment 30 feet); Damage entangling slime"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      4,
+      -4,
+      0,
+      0
+    ]
+  }
+}

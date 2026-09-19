@@ -1,0 +1,86 @@
+{
+  "name": "Inquisitor Troop",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 100: A Song of Silver",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, troop",
+  "alignment": "LE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 22,
+    "notes": "armor +9, dex +2, profane +1",
+    "touch": 13,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 114,
+    "formula": "12d8+60"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 15,
+    "con": 19,
+    "int": 10,
+    "wis": 18,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +10, Ref +6, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (religion) +12, Perception +22",
+    "list": {
+      "Perception": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 32,
+  "languages": [
+    "Common",
+    "Infernal"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Reflexes",
+    "Great Fortitude",
+    "Improved Iron Will",
+    "Iron Will",
+    "Skill Focus (Perception)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "troop (3d6+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A column of soldiers clad in the black and red of House Thrune move together, their weapons at the ready in a coordinated front.",
+  "meta": {
+    "cmb": "+14",
+    "cmd": 27
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "NPC Gray Maiden",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 24,
+    "notes": "armor +10, dex +1, shield +3",
+    "touch": 11,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 80,
+    "formula": "8d10+32"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 13,
+    "con": 14,
+    "int": 13,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +9, Ref +6, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +11, Intimidate +10, Ride +8, Swim +11, Perception +0",
+    "list": {
+      "Climb": "+11",
+      "Intimidate": "+10",
+      "Ride": "+8",
+      "Swim": "+11",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 10,
+  "languages": [
+    "Common",
+    "Varisian"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 8,
+  "feats": [
+    "Exotic Weapon Proficiency (bastard sword)",
+    "Improved Critical (bastard sword)",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Toughness",
+    "Vital Strike",
+    "Weapon Focus (bastard sword)",
+    "Weapon Specialization (bastard sword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 bastard sword +15/+10 (1d10+8/17-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "fighter 8",
+    "cmb": "+12",
+    "cmd": 23
+  }
+}

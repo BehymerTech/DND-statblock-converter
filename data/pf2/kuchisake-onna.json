@@ -1,0 +1,113 @@
+{
+  "name": "Kuchisake-onna",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 156.",
+  "size": "Medium",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 14",
+  "xp": null,
+  "ac": {
+    "value": 36,
+    "notes": ""
+  },
+  "hp": {
+    "average": 252,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 26,
+    "con": 18,
+    "int": 20,
+    "wis": 22,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +22, Ref +28, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +28 (1d20+28); __Athletics__: +22 (1d20+22); __Intimidation__: +27 (1d20+27); __Stealth__: +26 (1d20+26); ",
+    "list": {
+      "Acrobatics": "+28",
+      "Athletics": "+22",
+      "Intimidation": "+27",
+      "Stealth": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Compulsive Counting",
+      "text": "When numerous small items are scattered before the kuchisake-onna, they compulsively begins to count them. The kuchisakeonna becomes flat-footed to all creatures for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Items",
+      "text": "silver scissors (2);"
+    },
+    {
+      "name": "Rend",
+      "text": "⬻ silver scissors"
+    },
+    {
+      "name": "Am I Pretty?",
+      "text": "⬻ The kuchisake-onna asks a single adjacent target, \"Am I pretty?\" The target must attempt a DC 35 Will save. If it fails, it is immobilized for 1 round, and if it critically fails, it is paralyzed for 1 round, though still able to respond to the question; this is a mental effect. If the target responds \"No,\" the kuchisake-onna makes two silver scissors Strikes against the target. If the target responds \"Yes,\" the kuchisake-onna makes no Strikes this turn and must use Even Now? as their next action (waiting until the first action of their next turn, if necessary). If the target otherwise responds in a confusing or noncommittal manner, the kuchisake-onna becomes flat-footed to all creatures for 1 round but can otherwise act normally."
+    },
+    {
+      "name": "Even Now?",
+      "text": "⬻ Requirements An adjacent creature previously targeted by Am I Pretty? answered \"Yes\" Effect The kuchisake-onna takes off their mask, revealing their slit face and asking, \"Even now?\" The target must attempt a DC 35 Will save. If it fails, it is immobilized for 1 round, and if it critically fails, it is paralyzed for 1 round, though still able to respond to the question; this is a mental effect. Whether the target responds \"Yes\" or \"No,\" the kuchisake-onna makes two silver scissors Strikes against the target."
+    },
+    {
+      "name": "Lingering Enmity",
+      "text": "The kuchisake-onna's silver scissors Strikes are manifestations of the toxic malice that created them and vanish when the kuchisake-onna is destroyed. When the kuchisake-onna has less than half their maximum Hit Points remaining, this concentrated enmity begins to leak out and make their attacks more vicious. Their silver scissors Strikes deal 6d6 (6d6) persistent bleed damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ silver scissors +30 (agile, backstabber, fatal d12, finesse); Damage 3d6+12 (3d6+12) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      8,
+      4,
+      5,
+      6,
+      5
+    ],
+    "items": "silver scissors (2);"
+  }
+}

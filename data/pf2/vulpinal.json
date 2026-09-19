@@ -1,0 +1,110 @@
+{
+  "name": "Vulpinal",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 11.",
+  "size": "Small",
+  "type": "Celestial",
+  "subtype": "Agathion",
+  "alignment": "NG",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 105,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 18,
+    "int": 20,
+    "wis": 16,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +12, Ref +14, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +12 (1d20+12); __Arcana__: +15 (1d20+15); __Deception__: +14 (1d20+14); __Medicine__: +11 (1d20+11); __Performance__: +16 (1d20+16); __Religion__: +13 (1d20+13); __Society__: +13 (1d20+13); __Stealth__: +12 (1d20+12); __Nirvana lore__: +15 (1d20+15); ",
+    "list": {
+      "Acrobatics": "+12",
+      "Arcana": "+15",
+      "Deception": "+14",
+      "Medicine": "+11",
+      "Performance": "+16",
+      "Religion": "+13",
+      "Society": "+13",
+      "Stealth": "+12",
+      "Nirvana lore": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal; speak with animals",
+    "tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Fox's Cunning",
+      "text": "A vulpinal's core value is cunning. They can apply their knowledge and stories from their extensive travels to just about any situation in an instant. Before spending any other action on their turn, the vulpinal can Recall Knowledge as a free action."
+    },
+    {
+      "name": "Items",
+      "text": "handheld instrument;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +15 (finesse, good, magical); Damage 2d10+4 (2d10+4) piercing plus 1d6 (1d6) good"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +15 (agile, finesse, good, magical); Damage 2d6+4 (2d6+4) slashing plus 1d6 (1d6) good"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      4,
+      4,
+      5,
+      3,
+      6
+    ],
+    "items": "handheld instrument;"
+  }
+}

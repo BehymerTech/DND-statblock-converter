@@ -1,0 +1,113 @@
+{
+  "name": "Stygira",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 255.",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "Earth",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 26,
+    "notes": ""
+  },
+  "hp": {
+    "average": 80,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 18,
+    "con": 20,
+    "int": 18,
+    "wis": 22,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +15, Ref +13, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +15 (1d20+15); __Deception__: +15 (1d20+15); __Nature__: +17 (1d20+17); __Occultism__: +17 (1d20+17); __Gem lore__: +17 (1d20+17); ",
+    "list": {
+      "Athletics": "+15",
+      "Deception": "+15",
+      "Nature": "+17",
+      "Occultism": "+17",
+      "Gem lore": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "gemsight"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Aklo",
+    "Cyclops",
+    "Jotun",
+    "Terran"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Gemsight",
+      "text": "As long as the stygira holds a gemstone, they can see through the gem with darkvision and the effects of true seeing. The stygira is blind when they are not holding a gem in a hand."
+    },
+    {
+      "name": "Items",
+      "text": "gemstone (worth 25 gp);"
+    },
+    {
+      "name": "Light Sickness",
+      "text": "A stygira in an area of bright light is sickened 1."
+    },
+    {
+      "name": "Gem Gaze",
+      "text": "⬻ (emotion, fear, mental, primal); The stygira holds aloft a gem and gazes into the mind of a creature within 30 feet, infusing the creature's thoughts with visions of the creature's own dead body slowly petrifying. The creature must succeed at a DC 25 Will save or become frightened 1 (frightened 2 on a critical failure)."
+    },
+    {
+      "name": "Stone Curse",
+      "text": "(curse, primal, transmutation); Wounds dealt by the stygira's claws leave the flesh bleached of color and turn the blood that runs from them dark gray. Each time a creature is damaged by the stygira's claw Strike, it must succeed at a DC 25 Fortitude save or become permanently slowed 1 (slowed 2 on a critical failure) as its flesh stiffens like stone. If a creature is reduced to 0 Hit Points from the stygira's claw Strike and fails the saving throw against stone curse, it is petrified. A creature that spends 8 hours in direct sunlight can attempt a new saving throw to remove the effects of stone curse, even if it has been petrified."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +17 (agile); Damage 2d6+10 (2d6+10) slashing plus stone curse"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      4,
+      5,
+      4,
+      6,
+      2
+    ],
+    "items": "gemstone (worth 25 gp);"
+  }
+}

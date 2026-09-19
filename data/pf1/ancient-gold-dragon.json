@@ -1,0 +1,109 @@
+{
+  "name": "Ancient Gold Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Gargantuan",
+  "type": "dragon",
+  "subtype": "fire",
+  "alignment": "LG",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 39,
+    "notes": "dex -1, natural +34, size -4",
+    "touch": 5,
+    "flatFooted": 39
+  },
+  "hp": {
+    "average": 377,
+    "formula": "26d12+208"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 250 ft. (clumsy), swim 60 ft."
+  },
+  "abilities": {
+    "str": 39,
+    "dex": 8,
+    "con": 27,
+    "int": 24,
+    "wis": 25,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +23, Ref +14, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +36, Fly +13, Heal +36, Knowledge (arcana) +36, Knowledge (history) +36, Knowledge (local) +36, Knowledge (nobility) +36, Knowledge (planes) +36, Knowledge (religion) +36, Perception +40, Sense Motive +40, Spellcraft +36, Swim +51",
+    "list": {
+      "Diplomacy": "+36",
+      "Fly": "+13",
+      "Heal": "+36",
+      "Perception": "+40",
+      "Sense Motive": "+40",
+      "Spellcraft": "+36",
+      "Swim": "+51"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 50,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "5 more"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 26,
+  "feats": [
+    "Alertness",
+    "Critical Focus",
+    "Extend Spell",
+    "Improved Critical (bite)",
+    "Improved Critical (claw)",
+    "Improved Critical (wing)",
+    "Improved Critical (tail)",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack",
+    "Quicken Spell",
+    "Staggering Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +36 (4d6+21/19-20), 2 claws +36 (2d8+14/19-20), 2 wings +34 (2d6+7/19-20), tail +34 (2d8+21/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+44",
+    "cmd": "53 (57 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm plains"
+      }
+    ]
+  }
+}

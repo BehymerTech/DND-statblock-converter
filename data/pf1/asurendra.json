@@ -1,0 +1,135 @@
+{
+  "name": "Asurendra",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "asura, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 35,
+    "notes": "deflection +5, dex +8, dodge +1, insight +3, natural +10, size -2",
+    "touch": 25,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 385,
+    "formula": "22d10+264"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 50 ft. (perfect), climb 50 ft., swim 50 ft."
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 26,
+    "con": 34,
+    "int": 25,
+    "wis": 25,
+    "cha": 31
+  },
+  "saves": {
+    "text": "Fort +25, Ref +17, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +31, Bluff +33, Climb +21, Diplomacy +30, Escape Artist +14, Fly +35, Intimidate +33, Knowledge (arcana) +27, Knowledge (history) +13, Knowledge (planes) +30, Knowledge (religion) +27, Perception +34, Perform (dance) +33, Sense Motive +30, Spellcraft +27, Stealth +23, Swim +21, Use Magic Device +30",
+    "list": {
+      "Acrobatics": "+31",
+      "Bluff": "+33",
+      "Climb": "+21",
+      "Diplomacy": "+30",
+      "Escape Artist": "+14",
+      "Fly": "+35",
+      "Intimidate": "+33",
+      "Perception": "+34",
+      "Sense Motive": "+30",
+      "Spellcraft": "+27",
+      "Stealth": "+23",
+      "Swim": "+21",
+      "Use Magic Device": "+30"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision",
+    "low-light vision",
+    "scent",
+    "true seeing"
+  ],
+  "passivePerception": 44,
+  "languages": [
+    "Common",
+    "Infernal",
+    "tongues",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 22,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Deflect Arrows",
+    "Dodge",
+    "Great Cleave",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Mobility",
+    "Power Attack",
+    "Quicken Spell-Like Ability (baleful polymorph)",
+    "Quicken Spell-Like Ability (blade barrier)",
+    "Quicken Spell-Like Ability (death knell)",
+    "Snatch Arrows",
+    "Spring Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +33 (2d6+13 plus grab and poison), 6 claws +33 (2d6+13 plus curse)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This four-armed humanoid horror is garbed in golden armor and surrounded by a nimbus of floating, glowing weaponry.",
+  "meta": {
+    "cmb": "37 (+41 grapple)",
+    "cmd": 64,
+    "racialModifiers": [
+      "Escape Artist 6",
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

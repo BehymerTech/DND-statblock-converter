@@ -1,0 +1,115 @@
+{
+  "name": "Legion Archon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "archon, extraplanar, good, lawful",
+  "alignment": "LG",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 23,
+    "notes": "armor +9, dex +1, natural +3, deflection vs. evil +2",
+    "touch": 11,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 76,
+    "formula": "8d10+32"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 90 ft. (average)"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 19,
+    "int": 10,
+    "wis": 15,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +10, Ref +3, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +14, Fly +12, Intimidate +14, Knowledge (religion) +11, Perception +13, Sense Motive +9, Survival +9",
+    "list": {
+      "Diplomacy": "+14",
+      "Fly": "+12",
+      "Intimidate": "+14",
+      "Perception": "+13",
+      "Sense Motive": "+9",
+      "Survival": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect evil",
+    "low-light vision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 8,
+  "feats": [
+    "Improved Bull Rush",
+    "Improved Critical (greatsword)",
+    "Power Attack",
+    "Vital Strike",
+    "Weapon Focus (greatsword)",
+    "Whirlwind Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 flaming burst greatsword +13/+8 (2d6+5/17-20 plus 1d6 fire)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 flaming javelin +10 (1d6+4 plus 1d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This celestial knight bears a flaming blade as it flies through the air on metallic wings that seem to grow from its armor.",
+  "meta": {
+    "cmb": "+11",
+    "cmd": 22,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Heaven)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or squad (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (masterwork full plate, other treasure)"
+      }
+    ]
+  }
+}

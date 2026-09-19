@@ -1,0 +1,107 @@
+{
+  "name": "Nucol",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 220.",
+  "size": "Medium",
+  "type": "Sahkil",
+  "subtype": "Fiend",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": ""
+  },
+  "hp": {
+    "average": 75,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 16,
+    "int": 10,
+    "wis": 16,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +13, Ref +10, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +12 (1d20+12); __Deception__: +10 (1d20+10); __Intimidation__: +12 (1d20+12); __Stealth__: +10 (1d20+10); ",
+    "list": {
+      "Athletics": "+12",
+      "Deception": "+10",
+      "Intimidation": "+12",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 100"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Infernal",
+    "Requian; [[telepathy]] 60 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Easy to Call",
+      "text": "A sahkil's level is considered 2 lower for the purpose of being conjured by the planar binding ritual (and potentially other rituals, at the GM's discretion), but it is always free to attack or leave instead of negotiate unless the primary caster's check is a critical success."
+    },
+    {
+      "name": "Nervous Consumption",
+      "text": "(disease, divine, emotion, enchantment, mental); Saving Throw DC 21 Fortitude. Stage 1 sickened 1 and stupefied 1 (1 day) Stage 2 clumsy 1 and stupefied 2 (1 day) Stage 3 clumsy 2 and stupefied 3 (1 day)"
+    },
+    {
+      "name": "Skip Between",
+      "text": "⬻ (conjuration, divine, teleportation); The sahkil moves from the Material Plane to the Ethereal Plane or vice-versa, with the effects of ethereal jaunt except that the effect has an unlimited duration and can be Dismissed. A summoned sahkil can't use Skip Between."
+    },
+    {
+      "name": "Spray Pus",
+      "text": "⬻ The nucol flexes one of its infected wounds, releasing a spray of pus in a 15-foot cone or targeting an individual creature within 30 feet. A creature targeted or in the area is exposed to nervous consumption."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ tusk +12 (deadly d10); Damage 2d8+6 (2d8+6) piercing plus 1d4 (1d4) evil and nervous consumption"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      3,
+      0,
+      3,
+      2
+    ]
+  }
+}

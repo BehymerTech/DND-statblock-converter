@@ -1,0 +1,102 @@
+{
+  "name": "Adult Apocalypse Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 137: The City Outside of Time",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "evil, extraplanar",
+  "alignment": "NE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 31,
+    "notes": "natural +23, size -2",
+    "touch": 8,
+    "flatFooted": 31
+  },
+  "hp": {
+    "average": 250,
+    "formula": "20d12+120"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 200 ft. (poor)"
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 10,
+    "con": 23,
+    "int": 20,
+    "wis": 21,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +18, Ref +14, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +28, Fly +15, Intimidate +28, Knowledge (planes) +28, Knowledge (religion) +28, Perception +28, Sense Motive +28, Spellcraft +28, Stealth +15, Survival +28, Use Magic Device +28",
+    "list": {
+      "Bluff": "+28",
+      "Fly": "+15",
+      "Intimidate": "+28",
+      "Perception": "+28",
+      "Sense Motive": "+28",
+      "Spellcraft": "+28",
+      "Stealth": "+15",
+      "Survival": "+28",
+      "Use Magic Device": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Draconic",
+    "Infernal"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 20,
+  "feats": [
+    "Cleave",
+    "Critical Focus",
+    "Improved Critical (tail slap)",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Lunge",
+    "Multiattack",
+    "Power Attack",
+    "Tiring Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +30 (2d8+18 plus grab), 2 claws +30 (2d6+12), tail slap +28 (2d6+18/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Gangrenous wounds mar this dragon’s twisted body.",
+  "meta": {
+    "cmb": "+24",
+    "cmd": "44 (48 vs. trip)"
+  }
+}

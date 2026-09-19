@@ -1,0 +1,108 @@
+{
+  "name": "Thyrlien",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Gods",
+  "size": "Small",
+  "type": "outsider",
+  "subtype": "azata, chaotic, extraplanar, good, shapechanger",
+  "alignment": "CG",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 16,
+    "notes": "dex +2, natural +3, size +1",
+    "touch": 13,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 39,
+    "formula": "6d10+6"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 40 ft. (good)"
+  },
+  "abilities": {
+    "str": 9,
+    "dex": 15,
+    "con": 12,
+    "int": 12,
+    "wis": 15,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +3, Ref +7, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +11, Fly +8, Knowledge (planes) +10, Knowledge (religion) +10, Perception +11, Perform (any one) +11, Stealth +15, Survival +11",
+    "list": {
+      "Acrobatics": "+11",
+      "Fly": "+8",
+      "Perception": "+11",
+      "Stealth": "+15",
+      "Survival": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect evil",
+    "detect magic",
+    "low-light vision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 6,
+  "feats": [
+    "Flyby Attack",
+    "Improved Initiative",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +9 (1d3-1 plus poison), 2 wings +4 (1d4-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This fey-looking humanoid is colored in shades of gray. Its wings are decorated with colored motes resembling a starry night sky.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": 16,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Elysium)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or squad (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

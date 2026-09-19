@@ -1,0 +1,78 @@
+{
+  "name": "Ogre",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Large",
+  "type": "Giant",
+  "subtype": "",
+  "alignment": "Chaotic Evil",
+  "cr": "2",
+  "level": null,
+  "xp": 450,
+  "ac": {
+    "value": 11,
+    "notes": ""
+  },
+  "hp": {
+    "average": 68,
+    "formula": "8d10 + 24"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 8,
+    "con": 16,
+    "int": 5,
+    "wis": 7,
+    "cha": 7
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 8,
+  "languages": [
+    "Common",
+    "Giant"
+  ],
+  "initiative": "-1 (9)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Greatclub",
+      "text": "_Melee Attack Roll:_ +6, reach 5 ft. _Hit:_ 13 (2d8 + 4) Bludgeoning damage."
+    },
+    {
+      "name": "Javelin",
+      "text": "_Melee or Ranged Attack Roll:_ +6, reach 5 ft. or range 30/120 ft. _Hit:_ 11 (2d6 + 4) Piercing damage. ## Oni"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

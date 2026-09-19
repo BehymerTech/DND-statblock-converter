@@ -1,0 +1,112 @@
+{
+  "name": "Nereid",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "water",
+  "alignment": "CN",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 25,
+    "notes": "deflection +5, dex +9, dodge +1",
+    "touch": 25,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 126,
+    "formula": "12d6+84"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 29,
+    "con": 24,
+    "int": 14,
+    "wis": 22,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +11, Ref +17, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +20, Escape Artist +24, Knowledge (nature) +17, Perception +21, Perform (sing) +20, Sense Motive +21, Stealth +24, Swim +23",
+    "list": {
+      "Bluff": "+20",
+      "Escape Artist": "+24",
+      "Perception": "+21",
+      "Sense Motive": "+21",
+      "Stealth": "+24",
+      "Swim": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Aquan",
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 6,
+  "feats": [
+    "Ability Focus (beguiling aura)",
+    "Agile Maneuvers",
+    "Defensive Combat Training",
+    "Dodge",
+    "Mobility",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "touch +10 (poison)"
+    },
+    {
+      "name": "Ranged",
+      "text": "spray +15 touch (poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This beautiful woman has pearlescent skin and long, dark hair. Her nudity is barely hidden by a diaphanous, wet shawl.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": 37,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any aquatic"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or troupe (1 nereid plus 1 giant squid, 1 giant octopus, 1 giant moray eel, or an orca)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

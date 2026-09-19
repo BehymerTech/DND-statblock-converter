@@ -1,0 +1,111 @@
+{
+  "name": "Intellect Devourer",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Small",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 22,
+    "notes": "dex +6, natural +5, size +1",
+    "touch": 17,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 84,
+    "formula": "8d8+48"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 23,
+    "con": 21,
+    "int": 16,
+    "wis": 10,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +7, Ref +8, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +19, Disguise +11, Knowledge (local) +14, Perception +19, Sense Motive +8, Stealth +29, Use Magic Device +11",
+    "list": {
+      "Bluff": "+19",
+      "Disguise": "+11",
+      "Perception": "+19",
+      "Sense Motive": "+8",
+      "Stealth": "+29",
+      "Use Magic Device": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "detect magic"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Undercommon (cannot speak)",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 6,
+  "feats": [
+    "Improved Initiative",
+    "Iron Will",
+    "Toughness",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 claws +13 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Devoid of a head, or any features at all save for four short, clawed legs, this creature’s body looks like a large, glistening brain.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": "22 (26 vs. trip)",
+    "racialModifiers": [
+      "Bluff 8",
+      "Perception 8",
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, brood (2-6), or tribe (7-16)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

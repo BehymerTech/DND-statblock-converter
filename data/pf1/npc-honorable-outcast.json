@@ -1,0 +1,92 @@
+{
+  "name": "NPC Honorable Outcast",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, orc",
+  "alignment": "LG",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 16,
+    "notes": "armor +7, dex -1",
+    "touch": 9,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 23,
+    "formula": "2d10+8"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 8,
+    "con": 16,
+    "int": 10,
+    "wis": 12,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +7, Ref +0, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Heal +5, Intimidate +3, Perception +2, Sense Motive +6",
+    "list": {
+      "Heal": "+5",
+      "Intimidate": "+3",
+      "Perception": "+2",
+      "Sense Motive": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Common",
+    "Orc"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk greataxe +5 (1d12+3/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "shortbow +1 (1d6/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-orc",
+    "class": "paladin of Torag 2",
+    "cmb": "+4",
+    "cmd": 13
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Purrodaemon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 62.",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "Daemon",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 18",
+  "xp": null,
+  "ac": {
+    "value": 43,
+    "notes": ""
+  },
+  "hp": {
+    "average": 335,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 50 feet"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 22,
+    "con": 24,
+    "int": 18,
+    "wis": 24,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +33, Ref +30, Will +29",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +37 (1d20+37); __Intimidation__: +35 (1d20+35); __Religion__: +30 (1d20+30); __Stealth__: +34 (1d20+34); __Survival__: +33 (1d20+33); __Warfare lore__: +32 (1d20+32); ",
+    "list": {
+      "Athletics": "+37",
+      "Intimidation": "+35",
+      "Religion": "+30",
+      "Stealth": "+34",
+      "Survival": "+33",
+      "Warfare lore": "+32"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, true seeing"
+  ],
+  "passivePerception": 43,
+  "languages": [
+    "Common",
+    "Daemonic; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Hurl Weapon",
+      "text": "⬻ (divine, evocation); The purrodaemon causes a weapon that has steeped in their flesh (see Steep Weapon) to telekinetically launch from their flesh. The purrodaemon makes a hurled weapon Strike without using their hands."
+    },
+    {
+      "name": "Recall Weapon",
+      "text": "⬻ (evocation); Requirements A steeped weapon that's no longer sheathed in the purrodaemon's body is within 120 feet of the daemon Effect The steeped weapon swiftly flies through the air to resheath itself in the purrodaemon's body. If a creature is along this flight path, the purrodaemon can make a hurled weapon Strike against the target; if it hits, the weapon drops to the ground in a square adjacent to the creature."
+    },
+    {
+      "name": "Steep Weapon",
+      "text": "⬻ (manipulate); The purrodaemon sheathes a weapon in their own flesh. This deals no damage to the purrodaemon, which can have up to 10 weapons sheathed in their body at a time. A steeped weapon must be one that deals piercing or slashing damage. If a purrodaemon Interacts to crush a soul gem, one weapon of their choice sheathed in their flesh becomes enchanted with the daemon's fiendish power and becomes a +2 greater striking weapon that can be used in place of their glaive or hurled at targets (with a +2 item bonus to the hurled weapon's attack modifier and an extra d10 of damage). This magical quality fades 24 hours after it ceases being sheathed in the daemon's living body. A steeped weapon can be Disarmed."
+    },
+    {
+      "name": "Twist the Blade",
+      "text": "⬲ Requirements The purrodaemon has fewer than 10 weapons sheathed in their body Trigger The purrodaemon is hit with a weapon that deals piercing damage Effect The purrodaemon seizes the triggering weapon. The weapon's wielder must attempt a DC 40 Reflex save. On a failure, the weapon is disarmed and falls to an adjacent square. On a critical failure, the weapon is sheathed in the purrodaemon's body as though the daemon had used Steep Weapon. an ability. Cacodaemons (Pathfinder Bestiary 70) are the most common also be created by spells like bind soul. If a daemon crushes a soul gem."
+    },
+    {
+      "name": "Items",
+      "text": "+2 greater striking glaive, soul gem (2), steeped weapon (7–10);"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ glaive +37 (deadly d8, evil, forceful, magical, reach 15 feet); Damage 3d8+17 (3d8+17) slashing plus 2d6 (2d6) evil and 4d6 (4d6) persistent bleed"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ hurled weapon +35 (deadly 1d10, evil, magical, propulsive, range 120 feet); Damage 2d10+12 (2d10+12) piercing plus 1d6 (1d6) evil and 4d6 (4d6) persistent bleed"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      9,
+      6,
+      7,
+      4,
+      7,
+      7
+    ],
+    "items": "+2 greater striking glaive, soul gem (2), steeped weapon (7–10);"
+  }
+}

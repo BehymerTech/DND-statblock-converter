@@ -1,0 +1,82 @@
+{
+  "name": "Hermit Crab Swarm",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 58.",
+  "size": "Large",
+  "type": "Swarm",
+  "subtype": "Amphibious, Animal",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 42,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, swim 15 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 16,
+    "int": 2,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +13, Ref +10, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +12 (1d20+12); ",
+    "list": {
+      "Athletics": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tremorsense 15"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Swarming Snips",
+      "text": "⬻ Each enemy in the swarm's space takes 2d8 (2d8) piercing damage (DC 20 basic Reflex save). Creatures that fail this save also take 1d4 (1d4) persistent bleed damage."
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      3,
+      -4,
+      1,
+      -1
+    ]
+  }
+}

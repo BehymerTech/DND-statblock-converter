@@ -1,0 +1,93 @@
+{
+  "name": "Blindheim",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 39.",
+  "size": "Small",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 27,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, climb 15 feet, swim 15 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 16,
+    "con": 16,
+    "int": 2,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +9, Ref +9, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Athletics__: +6 (1d20+6), (Athletics: +9 (1d20+9) to Leap or Swim); __Stealth__: +7 (1d20+7); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Athletics": "+9",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Spotlight",
+      "text": "⬻ (concentrate, light); Bright light shines from the blindheim's eyes in a 30-foot emanation (also creating dim light to 60 feet). Each creature in the bright light when the blindheim uses this action, or who enters it while the light continues, must attempt a DC 18 Fortitude save. It is then temporarily immune for 1 hour. This light remains until the blindheim dims its eyes by using this action again. Critical Success The creature is unaffected. Success The creature is dazzled for 1 round. Failure The creature is blinded for 1d4 (1d4) rounds. Critical Failure The creature is blinded for 1 hour."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +10 Damage 1d12+2 (1d12+2) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +11 (agile, finesse); Damage 1d8+2 (1d8+2) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      3,
+      3,
+      -4,
+      1,
+      -2
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "name": "NPC Murderous Scythe",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf, human",
+  "alignment": "NE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 26,
+    "notes": "armor +12, deflection +2, natural +2",
+    "touch": 12,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 144,
+    "formula": "4d8+6d10+7d8+57"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 10,
+    "con": 16,
+    "int": 14,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +15, Ref +8, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +13, Disguise +1, Fly +3, Knowledge (geography) +10, Knowledge (local) +7, Knowledge (religion) +7, Knowledge (nature) +12, Perception +24, Sense Motive +19, Stealth +21, Survival +12, Swim +13",
+    "list": {
+      "Climb": "+13",
+      "Disguise": "+1",
+      "Fly": "+3",
+      "Perception": "+24",
+      "Sense Motive": "+19",
+      "Stealth": "+21",
+      "Survival": "+12",
+      "Swim": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Common",
+    "Elven",
+    "Goblin",
+    "Sylvan"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 14,
+  "feats": [
+    "Combat Expertise",
+    "Critical Focus",
+    "Disruptive",
+    "Greater Trip",
+    "Improved Critical (scythe)",
+    "Improved Initiative",
+    "Improved Trip",
+    "Improved Vital Strike",
+    "Natural Spell",
+    "Power Attack",
+    "Skill Focus (Stealth)",
+    "Vital Strike",
+    "Weapon Focus (scythe)",
+    "Weapon Specialization (scythe)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 scythe +25/+20/+15 (2d4+15/19-20/×4 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-elf",
+    "class": "druid 4, fighter 6, assassin 7",
+    "cmb": "21 (+25 trip)",
+    "cmd": "33 (35 vs. trip)"
+  }
+}

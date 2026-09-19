@@ -1,0 +1,109 @@
+{
+  "name": "Sepsidaemon",
+  "sourceSystem": "pf1",
+  "source": "Book of the Damned",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "daemon, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "dex +4, natural +6",
+    "touch": 14,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 85,
+    "formula": "9d10+36"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 19,
+    "con": 18,
+    "int": 13,
+    "wis": 14,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +10, Ref +10, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +16, Intimidate +15, Knowledge (planes) +13, Perception +14, Stealth +16, Survival +14, Swim +24",
+    "list": {
+      "Climb": "+16",
+      "Intimidate": "+15",
+      "Perception": "+14",
+      "Stealth": "+16",
+      "Survival": "+14",
+      "Swim": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dakrvision",
+    "scent"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Abyssal",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 9,
+  "feats": [
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (1d8+4 plus 1d6 acid and disease), 2 claws +14 (1d4+4/19-20 plus 1d6 acid and disease)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A long-beaked, crested head on a twisted neck rises from a formless, glowing mass of a body. Now and then, a grasping claw extends forth.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": 27,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or infection (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

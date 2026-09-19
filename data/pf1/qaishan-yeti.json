@@ -1,0 +1,103 @@
+{
+  "name": "Qaishan Yeti",
+  "sourceSystem": "pf1",
+  "source": "Mystery Monsters Revisited",
+  "size": "Large",
+  "type": "monstrous humanoid",
+  "subtype": "cold",
+  "alignment": "LN",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 22,
+    "notes": "dex +2, monk +1, wis +3, natural +7, size -1",
+    "touch": 15,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 93,
+    "formula": "6d10+5d8+38"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 14,
+    "con": 17,
+    "int": 9,
+    "wis": 16,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +11, Ref +11, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Climb +24, Intimidate +8, Perception +12, Stealth +10, Survival +11",
+    "list": {
+      "Acrobatics": "+10",
+      "Climb": "+24",
+      "Intimidate": "+8",
+      "Perception": "+12",
+      "Stealth": "+10",
+      "Survival": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 9,
+  "feats": [
+    "Cleave",
+    "Combat Reflexes",
+    "Deflect Arrows",
+    "Feral Combat Training",
+    "Great Fortitude",
+    "Improved Critical (claw)",
+    "Improved Unarmed Strike",
+    "Power Attack",
+    "Stunning Fist",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 +1 claws +17 (1d6+8/19-20 plus 1d6 cold)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This furry hominid’s orange eyes blaze not with fury but with wisdom, and the white hair around its face is streaked with gray.",
+  "meta": {
+    "race": "Yeti",
+    "class": "monk 5",
+    "cmb": "+19",
+    "cmd": 33,
+    "racialModifiers": [
+      "Acrobatics 13",
+      "Stealth 4"
+    ]
+  }
+}

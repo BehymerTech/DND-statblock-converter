@@ -1,0 +1,117 @@
+{
+  "name": "Mezlan",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 167.",
+  "size": "Medium",
+  "type": "Ooze",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 14",
+  "xp": null,
+  "ac": {
+    "value": 31,
+    "notes": ""
+  },
+  "hp": {
+    "average": 260,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 22,
+    "con": 20,
+    "int": 18,
+    "wis": 20,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +25, Ref +28, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +28 (1d20+28); __Deception__: +27 (1d20+27), (Deception: +31 (1d20+31) to Impersonate); __Occultism__: +24 (1d20+24); __Stealth__: +28 (1d20+28); ",
+    "list": {
+      "Athletics": "+28",
+      "Deception": "+31",
+      "Occultism": "+24",
+      "Stealth": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Aklo",
+    "Azlanti; polyglot"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Polyglot",
+      "text": "A mezlan can speak and understand any language they hear spoken after listening to the language for 1 minute. These languages fade from their mind after 24 hours."
+    },
+    {
+      "name": "Absorb Spell",
+      "text": "⬲ Trigger The mezlan succeeds at a saving throw against a single-target spell Effect The mezlan absorbs the spell, nullifying its effect and storing it for later. They can Cast the Spell using the original caster's spell attack modifier and DC. They can store only one spell at a time, but they can absorb a new spell to replace the spell they currently have stored. A willing caster can allow the mezlan to Absorb a Spell without requiring a save."
+    },
+    {
+      "name": "Discorporate",
+      "text": "When the mezlan is reduced to 0 Hit Points, their body dissolves into colorless slime and begins seeping into nearby cracks or porous surfaces. If this material is not immediately contained or destroyed, the mezlan will eventually re-form, though they may lie dormant for years or even decades before doing so."
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, polymorph, transmutation); The mezlan assumes the form of any Medium or Small creature, excluding those with the elemental, incorporeal, or swarm traits but including specific individuals whose appearance they've seen. This doesn't change the mezlan's Speed or their attack and damage bonus with their Strikes, but the damage type dealt by their Strikes might change based on their new form (page 304)."
+    },
+    {
+      "name": "Extend Limb",
+      "text": "⬻ The mezlan extends one of their limbs, granting themself a reach of 20 feet with their polymorphic appendages until the end of their next turn."
+    },
+    {
+      "name": "Viscous Trap",
+      "text": "A creature hit by the mezlan's ooze globule takes a –15-foot circumstance penalty to all Speeds for 1 minute. On a critical hit, a target standing on a solid surface also becomes immobilized, while a target Flying via wings falls to the ground and becomes unable to Fly. A target can end all effects by Escaping (DC 32) or spending a total of 3 Interact actions to free itself."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ polymorphic appendage +30 (magical, versatile p, versatile s); Damage 3d12+14 (3d12+14) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ ooze globule +28 (range increment 30 feet); Damage viscous trap"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      6,
+      5,
+      4,
+      5,
+      5
+    ]
+  }
+}

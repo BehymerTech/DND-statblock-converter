@@ -1,0 +1,100 @@
+{
+  "name": "Nalfeshnee",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "Demon",
+  "alignment": "Chaotic Evil",
+  "cr": "13",
+  "level": null,
+  "xp": 10000,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 184,
+    "formula": "16d10 + 96"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": 30,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., Fly 30 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 10,
+    "con": 22,
+    "int": 19,
+    "wis": 12,
+    "cha": 15
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Truesight 120 ft."
+  ],
+  "passivePerception": 11,
+  "languages": [
+    "Abyssal; telepathy 120 ft."
+  ],
+  "initiative": "+5 (15)",
+  "babOrProficiency": 5,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Demonic Restoration",
+      "text": "If the nalfeshnee dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The nalfeshnee has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The nalfeshnee makes three Rend attacks."
+    },
+    {
+      "name": "Rend",
+      "text": "_Melee Attack Roll:_ +10, reach 10 ft. _Hit:_ 16 (2d10 + 5) Slashing damage plus 11 (2d10) Force damage."
+    },
+    {
+      "name": "Teleport",
+      "text": "The nalfeshnee teleports up to 120 feet to an unoccupied space it can see."
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Horror Nimbus (Recharge 5–6)",
+      "text": "_Wisdom Saving Throw:_ DC 15, each creature in a 15-foot Emanation originating from the nalfeshnee. _Failure:_ 28 (8d6) Psychic damage, and the target has the Frightened condition for 1 minute, until it takes damage, or until it ends its turn with the nalfeshnee out of line of sight. _Success:_ The target is immune to this nalfeshnee's Horror Nimbus for 24 hours."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Pursuit",
+      "text": "Trigger: Another creature the nalfeshnee can see ends its move within 120 feet of the nalfeshnee. Response: The nalfeshnee uses Teleport, but its destination space must be within 10 feet of the triggering creature. ## Night Hag"
+    }
+  ],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

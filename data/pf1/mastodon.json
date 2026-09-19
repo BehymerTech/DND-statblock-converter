@@ -1,0 +1,101 @@
+{
+  "name": "Mastodon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Huge",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 21,
+    "notes": "dex +1, natural +12, size -2",
+    "touch": 9,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 133,
+    "formula": "14d8+70"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 12,
+    "con": 21,
+    "int": 2,
+    "wis": 13,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +14, Ref +10, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +24",
+    "list": {
+      "Perception": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 34,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 10,
+  "feats": [
+    "Endurance",
+    "Improved Bull Rush",
+    "Improved Iron Will",
+    "Iron Will",
+    "Power Attack",
+    "Skill Focus (Perception)",
+    "Weapon Focus (gore)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +21 (2d8+12), slam +20 (2d6+12)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature is larger than a normal elephant, with enormous sweeping tusks and shaggy brown fur on its body.",
+  "meta": {
+    "cmb": "+24",
+    "cmd": "35 (39 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold or temperate forests and plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or herd (6-30)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

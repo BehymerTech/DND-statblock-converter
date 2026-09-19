@@ -1,0 +1,107 @@
+{
+  "name": "Quelaunt",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 273.",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 15",
+  "xp": null,
+  "ac": {
+    "value": 36,
+    "notes": ""
+  },
+  "hp": {
+    "average": 305,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet; air walk;"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 20,
+    "con": 18,
+    "int": 20,
+    "wis": 22,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +27, Ref +26, Will +31",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Deception__: +30 (1d20+30); __Intimidation__: +30 (1d20+30); __Occultism__: +27 (1d20+27); ",
+    "list": {
+      "Deception": "+30",
+      "Intimidation": "+30",
+      "Occultism": "+27"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "imprecise tremorsense 60"
+  ],
+  "passivePerception": 39,
+  "languages": [
+    "Aklo (can't speak any language); telepathy"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Emotional Focus",
+      "text": "The quelaunt can cast the following cleric domain spells as 8th-level occult innate spells at will without spending Focus Points: blind ambition, captivating adoration, and delusional pride."
+    },
+    {
+      "name": "Emotional Frenzy",
+      "text": "⬽ The quelaunt casts up to three spells chosen from its at-will innate spells and its emotional focus spells."
+    },
+    {
+      "name": "Feed on Emotion",
+      "text": "⬻ (attack, emotion, incapacitation, mental); Frequency once per round Effect The quelaunt feeds on the emotional unrest of a single creature within 30 feet that's under a harmful emotion effect. The target must succeed at a DC 37 Will save or take 4d10 (4d10) mental damage and be stunned for 1 round. If the target fails its saving throw, the quelaunt regains the same number of Hit Points and Feed on Emotion does not cost the quelaunt an action, allowing it to use another action this turn."
+    },
+    {
+      "name": "Rapid Strikes",
+      "text": "⬺ (attack); The quelaunt makes three melee Strikes, each against a different target within reach. The multiple attack penalty applies to each attack, but increases only after all the attacks have been made."
+    },
+    {
+      "name": "Spiral of Despair",
+      "text": "⭓ (emotion, mental); Trigger A creature fails a saving throw to resist one of the quelaunt's innate spells or emotional focus spells. Effect As the quelaunt invades the triggering creature's mind and plants the seeds of negative emotions, it also strips away the target's feelings of hope or positivity. The quelaunt can immediately end a single emotion effect from which the triggering creature is benefiting."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +30 (agile, magical, reach 10 feet); Damage 3d8+12 (3d8+12) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      5,
+      4,
+      5,
+      6,
+      8
+    ]
+  }
+}

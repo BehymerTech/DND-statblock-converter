@@ -1,0 +1,97 @@
+{
+  "name": "Commoner",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 214.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature -1",
+  "xp": null,
+  "ac": {
+    "value": 13,
+    "notes": ""
+  },
+  "hp": {
+    "average": 10,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +6, Ref +3, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +5 (1d20+5); __Society__: +2 (1d20+2); __Lore (any one related to their trade)__: +6 (1d20+6); ",
+    "list": {
+      "Athletics": "+5",
+      "Society": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 13,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Power of the Mob",
+      "text": "When three or more commoners are adjacent to each other, each commoner gets a +1 circumstance bonus to Athletic checks to Shove, attack rolls, and damage rolls."
+    },
+    {
+      "name": "Items",
+      "text": "sickle;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ sickle +5 (agile, trip); Damage 1d4+2 (1d4+2) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ rock +3 (thrown 10 feet); Damage 1d4+2 (1d4+2) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      1,
+      2,
+      0,
+      1,
+      0
+    ],
+    "items": "sickle;"
+  }
+}

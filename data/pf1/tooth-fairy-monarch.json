@@ -1,0 +1,105 @@
+{
+  "name": "Tooth Fairy Monarch",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 139: The Dead Road",
+  "size": "Small",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex +4, size +1",
+    "touch": 15,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 27,
+    "formula": "5d6+10"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 50 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 15,
+    "int": 11,
+    "wis": 15,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +3, Ref +8, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +12, Escape Artist +11, Fly +13, Perception +10, Sense Motive +9, Stealth +15, Use Magic Device +10",
+    "list": {
+      "Bluff": "+12",
+      "Escape Artist": "+11",
+      "Fly": "+13",
+      "Perception": "+10",
+      "Sense Motive": "+9",
+      "Stealth": "+15",
+      "Use Magic Device": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 2,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Skill Focus (Bluff)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "scepter +6 (1d6+3), bite +5 (1d6+2 plus paralysis)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Resembling a gaunt humanoid from the waist up and a fleshy insect from the waist down, this child-sized creature has enormous black eyes and a large jaw with a lolling tongue. It wears a crown made of humanoid teeth and clutches a tooth-studded scepter.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": "17 (25 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any urban"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or court (1 plus 2-12 tooth fairies)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

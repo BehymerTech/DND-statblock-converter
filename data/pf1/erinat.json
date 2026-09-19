@@ -1,0 +1,108 @@
+{
+  "name": "Erinat",
+  "sourceSystem": "pf1",
+  "source": "Andoran, Birthplace of Freedom",
+  "size": "Tiny",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 15,
+    "notes": "dex +3, size +2",
+    "touch": 15,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d6+9"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 16,
+    "con": 15,
+    "int": 8,
+    "wis": 9,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +3, Ref +6, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +9, Bluff +8, Perception +5, Sleight of Hand +13, Stealth +20",
+    "list": {
+      "Acrobatics": "+9",
+      "Bluff": "+8",
+      "Perception": "+5",
+      "Sleight of Hand": "+13",
+      "Stealth": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Undercommon"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 1,
+  "feats": [
+    "Power Attack",
+    "Skill Focus (Stealth)",
+    "Toughness",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "spiked chain +6 (1d4+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The pockets of this urchin are stuffed with worthless objects.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": 14,
+    "racialModifiers": [
+      "Sleight of Hand 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground or urban"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or mob (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (spiked chain, other treasure)"
+      }
+    ]
+  }
+}

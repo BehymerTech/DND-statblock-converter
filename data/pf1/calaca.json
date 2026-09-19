@@ -1,0 +1,115 @@
+{
+  "name": "Calaca",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 143: Borne by the Sun's Grace",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "extraplanar, psychopomp",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "dex +3, natural +8",
+    "touch": 13,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 103,
+    "formula": "11d10+44"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 17,
+    "con": 17,
+    "int": 16,
+    "wis": 15,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +7, Ref +10, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +18, Diplomacy +22, Disguise +18, Intimidate +19, Knowledge (planes) +17, Perception +16, Perform (string instruments) +18, Profession (musician) +16, Sense Motive +16",
+    "list": {
+      "Bluff": "+18",
+      "Diplomacy": "+22",
+      "Disguise": "+18",
+      "Intimidate": "+19",
+      "Perception": "+16",
+      "Sense Motive": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "spiritsense"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Infernal",
+    "tongues"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 11,
+  "feats": [
+    "Combat Expertise",
+    "Ensemble",
+    "Improved Disarm",
+    "Iron Will",
+    "Lingering Performance",
+    "Persuasive"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +11 (1d8)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+14 (1d8/×4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This figure wears a fine suit, vest, gloves, and ascot and has a guitar at the ready. The creature’s face is hidden by an intricately decorated skull mask.",
+  "meta": {
+    "cmb": "11 (+13 disarm)",
+    "cmd": "24 (26 vs. disarm)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (the Boneyard)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or band (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

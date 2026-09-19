@@ -1,0 +1,112 @@
+{
+  "name": "Baykok",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 29.",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 9",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 200,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 18,
+    "con": 20,
+    "int": 10,
+    "wis": 18,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +20, Ref +19, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +17 (1d20+17); __Athletics__: +19 (1d20+19); __Stealth__: +17 (1d20+17); ",
+    "list": {
+      "Acrobatics": "+17",
+      "Athletics": "+19",
+      "Stealth": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 120 feet, DC 25."
+    },
+    {
+      "name": "Items",
+      "text": "+1 striking greatclub, +1 longbow;"
+    },
+    {
+      "name": "Arrow of Despair",
+      "text": "(emotion, enchantment, fear, incapacitation, mental, occult); A baykok creates an invisible arrow of bone as it draws its bow. A frightened creature hit by the arrow is stricken with loneliness and despair and must attempt a DC 26 Will save; if the Strike was a critical hit, the target uses the outcome one degree of success worse than the result of its save. Critical Success The creature is unaffected. Success The creature is slowed 1 for 1 round. Failure The creature's frightened value increases by 1 (to a maximum of 4), and it is slowed 1 until its frightened condition ends. Critical Failure As failure, but the creature is paralyzed until its frightened condition ends. At the start of each of its turns, it can end the paralyzed condition early with a successful DC 26 Will save."
+    },
+    {
+      "name": "Devour Life",
+      "text": "⬻ (curse, necromancy, occult); Requirements The baykok is adjacent to a paralyzed, restrained, or unconscious living humanoid Effect The baykok touches the target and devours part of its life force. The target must succeed at a DC 26 Fortitude save or be afflicted with the baykok's wasting curse. If the target fails and wasn't already affected by the wasting curse, the baykok gains 20 temporary Hit Points that last for 1 hour."
+    },
+    {
+      "name": "Wasting Curse",
+      "text": "(curse, necromancy, occult); The baykok steals life from its victim and leaves listless dread in its place. If a target fails its save against Devour Life, it becomes drained 1. Each time the target gets a full night's rest, it must succeed at a DC 26 Fortitude save or its drained value increases rather than decreasing. The curse ends if the creature recovers from the drained condition, but if the creature would reach drained 5 from this effect, it dies."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ greatclub +21 (backswing, magical, shove); Damage 2d10+9 (2d10+9) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ longbow +21 (deadly d10, magical, volley 30 feet); Damage 1d8+6 (1d8+6) piercing plus 1d8 (1d8) mental and arrow of despair"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      4,
+      5,
+      0,
+      4,
+      1
+    ],
+    "items": "+1 striking greatclub, +1 longbow;"
+  }
+}

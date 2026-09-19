@@ -1,0 +1,100 @@
+{
+  "name": "Phantom Beast",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 203.",
+  "size": "Medium",
+  "type": "Spirit",
+  "subtype": "Ethereal, Incorporeal, Phantom",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 26,
+    "notes": ""
+  },
+  "hp": {
+    "average": 120,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 35 feet"
+  },
+  "abilities": {
+    "str": 0,
+    "dex": 22,
+    "con": 12,
+    "int": 10,
+    "wis": 18,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +13, Ref +18, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Diplomacy__: +16 (1d20+16); __Intimidation__: +18 (1d20+18); __Occultism__: +14 (1d20+14); __Thievery__: +18 (1d20+18); ",
+    "list": {
+      "Diplomacy": "+16",
+      "Intimidation": "+18",
+      "Occultism": "+14",
+      "Thievery": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "[[telepathy]] 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Walk the Ethereal Line",
+      "text": "⬺ The phantom walks the thin line between the Ethereal Plane and Material Planes in order to exist on both planes simultaneously. They can shift back to solely the Ethereal Plane by using this ability again."
+    },
+    {
+      "name": "Susceptible to Death",
+      "text": "Though phantoms aren't alive, neither are they undead, and they are uniquely vulnerable to the effects of death. A phantom whose Hit Points are reduced to 0 as a result of a death effect (such as from a spell like finger of death) is immediately whisked away to the River of Souls, where their soul resumes the usual path to the afterlife."
+    },
+    {
+      "name": "Grab Item",
+      "text": "⬻ The phantom beast attempts to Steal one item of up to 1 Bulk from a creature, even if the creature is in combat, though the object still must not be one that is actively in use. If they succeed, they carry the object along with them telekinetically."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ phantom horn +18 (agile, finesse, force, magical); Damage 2d8+8 (2d8+8) force"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -5,
+      6,
+      1,
+      0,
+      4,
+      6
+    ]
+  }
+}

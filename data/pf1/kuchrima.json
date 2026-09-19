@@ -1,0 +1,110 @@
+{
+  "name": "Kuchrima",
+  "sourceSystem": "pf1",
+  "source": "Rise of the Runelords Anniversary Edition, Pathfinder No. 6: Spires of Xin-Shalast",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 22,
+    "notes": "dex +6, natural +6",
+    "touch": 16,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 104,
+    "formula": "11d10+44"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 22,
+    "con": 19,
+    "int": 7,
+    "wis": 9,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +7, Ref +13, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +24, Perception +19",
+    "list": {
+      "Fly": "+24",
+      "Perception": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Common",
+    "Giant",
+    "Thassilonian"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 11,
+  "feats": [
+    "Deadly Aim",
+    "Improved Initiative",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Rapid Shot",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +16 (1d6+5 plus disease), 2 talons +16 (1d4+5)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk Large composite longbow +18/+13/+8 (2d6+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This vaguely humanoid creature has a vulture’s head and wings for arms, and wields an enormous bow in its taloned feet.",
+  "meta": {
+    "cmb": "16 (+20 grapple)",
+    "cmd": 32,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, flight (3-7), or gluttony (8-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

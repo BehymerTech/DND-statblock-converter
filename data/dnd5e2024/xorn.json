@@ -1,0 +1,99 @@
+{
+  "name": "Xorn",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "Elemental",
+  "subtype": "",
+  "alignment": "Neutral",
+  "cr": "5",
+  "level": null,
+  "xp": 1800,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 84,
+    "formula": "8d8 + 48"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": 20,
+    "notes": "20 ft., Burrow 20 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 10,
+    "con": 22,
+    "int": 11,
+    "wis": 10,
+    "cha": 11
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +6, Stealth +6",
+    "list": {
+      "Perception": "+6",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "Tremorsense 60 ft."
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Primordial (Terran)"
+  ],
+  "initiative": "+0 (10)",
+  "babOrProficiency": 3,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Earth Glide",
+      "text": "The xorn can burrow through nonmagical, unworked earth and stone. While doing so, the xorn doesn't disturb the material it moves through."
+    },
+    {
+      "name": "Treasure Sense",
+      "text": "The xorn can pinpoint the location of precious metals and stones within 60 feet of itself."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The xorn makes one Bite attack and three Claw attacks."
+    },
+    {
+      "name": "Bite",
+      "text": "_Melee Attack Roll:_ +6, reach 5 ft. _Hit:_ 17 (4d6 + 3) Piercing damage."
+    },
+    {
+      "name": "Claw",
+      "text": "_Melee Attack Roll:_ +6, reach 5 ft. _Hit:_ 8 (1d10 + 3) Slashing damage."
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Charge",
+      "text": "The xorn moves up to its Speed or Burrow Speed straight toward an enemy it can sense. ## Zombies"
+    }
+  ],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

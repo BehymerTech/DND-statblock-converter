@@ -1,0 +1,103 @@
+{
+  "name": "NPC Guildmaster",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "alignment": "LE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 23,
+    "notes": "armor +5, deflection +1, dex +4, dodge +1, natural +1, shield +1",
+    "touch": 16,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 114,
+    "formula": "13d8+52"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 14,
+    "int": 13,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +7, Ref +13, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +20, Bluff +17, Climb +8, Disable Device +19, Disguise +9, Knowledge (arcana) +6, Knowledge (dungeoneering) +5, Knowledge (history) +2, Knowledge (local) +14, Perception +18, Sense Motive +18, Sleight of Hand +12, Stealth +20, Swim +8, Use Magic Device +9",
+    "list": {
+      "Acrobatics": "+20",
+      "Bluff": "+17",
+      "Climb": "+8",
+      "Disable Device": "+19",
+      "Disguise": "+9",
+      "Perception": "+18",
+      "Sense Motive": "+18",
+      "Sleight of Hand": "+12",
+      "Stealth": "+20",
+      "Swim": "+8",
+      "Use Magic Device": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 9,
+  "feats": [
+    "Dodge",
+    "Improved Critical (short sword)",
+    "Improved Two-Weapon Fighting",
+    "Iron Will",
+    "Toughness",
+    "Two-Weapon Defense",
+    "Two-Weapon Fighting",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 short sword +12/+7 (1d6+1/17-20), +1 short sword +12/+7 (1d6+1/17-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +13/+8 (1d4/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Dwarf",
+    "class": "rogue 13",
+    "cmb": "+9",
+    "cmd": "25 (29 vs. bull rush or trip)"
+  }
+}

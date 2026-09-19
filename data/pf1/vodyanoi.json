@@ -1,0 +1,111 @@
+{
+  "name": "Vodyanoi",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "aquatic",
+  "alignment": "CN",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 19,
+    "notes": "dex +4, dodge +1, natural +4",
+    "touch": 15,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 51,
+    "formula": "6d10+18"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 50 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 19,
+    "con": 17,
+    "int": 13,
+    "wis": 20,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +5, Ref +9, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +3, Heal +18, Knowledge (arcana) +3, Knowledge (nature) +5, Perception +14, Sense Motive +11, Swim +18",
+    "list": {
+      "Diplomacy": "+3",
+      "Heal": "+18",
+      "Perception": "+14",
+      "Sense Motive": "+11",
+      "Swim": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Aquan",
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 6,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Skill Focus (Heal)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "shortspear +9/+4 (1d6+4), bite +4 (1d8+1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "shortspear +10 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This humanoid salamander carries a gnarled staff in one hand. Tendrils drape its chin, resembling the beard of an eccentric hermit.",
+  "meta": {
+    "cmb": "+9",
+    "cmd": 24,
+    "racialModifiers": [
+      "Heal 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any rivers or marshes"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or family (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

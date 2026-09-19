@@ -1,0 +1,99 @@
+{
+  "name": "Farmer",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 224.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 0",
+  "xp": null,
+  "ac": {
+    "value": 14,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 16,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +7, Ref +5, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +5 (1d20+5); __Nature__: +4 (1d20+4); __Survival__: +4 (1d20+4); __Farming lore__: +4 (1d20+4); ",
+    "list": {
+      "Athletics": "+5",
+      "Nature": "+4",
+      "Survival": "+4",
+      "Farming lore": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 16,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Pitch Bale",
+      "text": "⬻ Requirements The farmer's last action was a successful pitchfork Strike Effect The farmer moves the creature they hit with their pitchfork up to 5 feet, and the target falls prone. The target can attempt a DC 13 Reflex save to avoid falling prone, and avoids being moved altogether on a critical success."
+    },
+    {
+      "name": "Items",
+      "text": "apple (4), leather armor, pitchfork;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ pitchfork +6 (reach 10 feet); Damage 1d6+3 (1d6+3) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ apple +5 (agile, nonlethal, thrown 20 feet); Damage 1d4+3 (1d4+3) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      1,
+      3,
+      0,
+      2,
+      0
+    ],
+    "items": "apple (4), leather armor, pitchfork;"
+  }
+}

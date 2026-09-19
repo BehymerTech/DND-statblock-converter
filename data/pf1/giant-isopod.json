@@ -1,0 +1,94 @@
+{
+  "name": "Giant Isopod",
+  "sourceSystem": "pf1",
+  "source": "Ultimate Wilderness, Pathfinder No. 55: The Wormwood Mutiny",
+  "size": "Tiny",
+  "type": "vermin",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "1/8",
+  "level": null,
+  "xp": 50,
+  "ac": {
+    "value": 14,
+    "notes": "dex -1, natural +3, size +2",
+    "touch": 11,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 6,
+    "formula": "1d8+2"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 10 ft."
+  },
+  "abilities": {
+    "str": 5,
+    "dex": 9,
+    "con": 14,
+    "int": "None",
+    "wis": 11,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +4, Ref -1, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Swim +5, Perception +0",
+    "list": {
+      "Swim": "+5",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 10,
+  "languages": [],
+  "initiative": "-1",
+  "babOrProficiency": 0,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite -1 (1d3-3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This many-legged crustacean is the size of a sewer rat, its body protected by several thick shell-like plates.",
+  "meta": {
+    "cmb": "-3",
+    "cmd": "4 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any ocean"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or scuttle (3-20)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Basilisk",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 38.",
+  "size": "Medium",
+  "type": "Beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 5",
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 75,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 8,
+    "con": 20,
+    "int": 4,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +14, Ref +8, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +13 (1d20+13); __Stealth__: +8 (1d20+8); ",
+    "list": {
+      "Athletics": "+13",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Petrifying Glance",
+      "text": "⬲ (arcane, aura, transmutation, visual); Trigger A creature within 30 feet that the basilisk can see starts its turn. Effect The target must attempt a DC 20 Fortitude save. If it fails, it's slow 1 for 1 minute as its body slowly stiffens."
+    },
+    {
+      "name": "Petrifying Gaze",
+      "text": "⬺ (arcane, concentrate, incapacitation, transmutation, visual); The basilisk stares at a creature it can see within 30 feet. That creature must attempt a DC 22 Fortitude save. If it fails and has not already been slowed by Petrifying Glance or this ability, it becomes slowed 1. If the creature was already slowed by this ability or Petrifying Glance, a failed save causes the creature to be petrified permanently. A creature petrified in this manner that is coated (not just splashed) with fresh basilisk blood (taken from a basilisk that has been dead no longer than 1 hour) is instantly restored to flesh. A single basilisk contains enough blood to coat 1d3 (1d3) Medium creatures in this manner."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +15 Damage 2d8+4 (2d8+4) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      -1,
+      5,
+      -3,
+      2,
+      1
+    ]
+  }
+}

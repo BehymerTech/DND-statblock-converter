@@ -1,0 +1,98 @@
+{
+  "name": "Gnoll Bruiser",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "gnoll",
+  "alignment": "CE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, dodge +1, natural +1",
+    "touch": 13,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 27,
+    "formula": "3d8+1d10+9"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 14,
+    "con": 15,
+    "int": 6,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +7, Ref +4, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +9, Perception +5, Survival +8",
+    "list": {
+      "Acrobatics": "+9",
+      "Perception": "+5",
+      "Survival": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Gnoll"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 2,
+  "feats": [
+    "Dodge",
+    "Mobility",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "greatclub +6 (1d10+6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "javelin +4 (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Gnoll",
+    "class": "fighter 1, rogue 1",
+    "cmb": "+6",
+    "cmd": 19,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm plains or desert"
+      }
+    ]
+  }
+}

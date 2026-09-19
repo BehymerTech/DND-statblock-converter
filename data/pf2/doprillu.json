@@ -1,0 +1,110 @@
+{
+  "name": "Doprillu",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 85.",
+  "size": "Medium",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 14",
+  "xp": null,
+  "ac": {
+    "value": 36,
+    "notes": ""
+  },
+  "hp": {
+    "average": 260,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, climb 40 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 22,
+    "con": 24,
+    "int": 12,
+    "wis": 18,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +27, Ref +28, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +26 (1d20+26); __Athletics__: +30 (1d20+30); __Intimidation__: +22 (1d20+22); __Stealth__: +24 (1d20+24); ",
+    "list": {
+      "Acrobatics": "+26",
+      "Athletics": "+30",
+      "Intimidation": "+22",
+      "Stealth": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, see invisibility"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Mask of Power",
+      "text": "A doprillu's unique wooden mask is the source of its power. A doprillu deprived of its mask loses its regeneration and its immunity to enfeebled and slowed, and it immediately becomes enfeebled 1. The enfeebled value increases by 1 at the start of each of the doprillu's turns, to a maximum of enfeebled 4. If the mask is put back on, the doprillu immediately regains its abilities and loses the enfeebled condition. A creature can pull off the mask with a successful DC 34 Athletics check to Force Open."
+    },
+    {
+      "name": "Volcanic Veins",
+      "text": "(fire); Fiery magma runs through the doprillu's veins. A creature that starts its turn grabbed by the doprillu takes 7d6 (7d6) fire damage."
+    },
+    {
+      "name": "Deflect Arrow",
+      "text": "⬲ Requirements The doprillu is aware of the attack, isn't flat-footed against it, and has a hand free Trigger The doprillu is the target of a physical ranged attack Effect The doprillu gains a +4 circumstance bonus to its AC against the triggering attack."
+    },
+    {
+      "name": "Body Strike",
+      "text": "⬻ Requirements The doprillu has a creature grabbed Effect The doprillu swings the grabbed creature as a weapon. This Strike has a +30 attack modifier and deals 3d8+16 (3d8+16) bludgeoning damage. The Strike is magical and has a reach of 10 feet. On a hit, the grabbed creature takes half the damage dealt to the target."
+    },
+    {
+      "name": "Whirlwind Throw",
+      "text": "⬺ Requirements The doprillu has a creature grabbed Effect The doprillu whirls the grabbed creature about, making a Body Strike against each creature in reach. After that Strike, the doprillu can hurl the grabbed creature up to 50 feet as a ranged Strike. This Strike has the same attack modifier and damage as Body Strike, but has the thrown 20 feet weapon trait."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +30 (agile, magical); Damage 3d8+16 (3d8+16) plus 2d6 (2d6) fire and Improved Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      6,
+      7,
+      1,
+      4,
+      2
+    ]
+  }
+}

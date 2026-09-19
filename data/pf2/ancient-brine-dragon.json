@@ -1,0 +1,139 @@
+{
+  "name": "Ancient Brine Dragon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 88.",
+  "size": "Gargantuan",
+  "type": "Water",
+  "subtype": "Amphibious, Dragon, Elemental",
+  "alignment": "LN",
+  "cr": null,
+  "level": "Creature 17",
+  "xp": null,
+  "ac": {
+    "value": 40,
+    "notes": ""
+  },
+  "hp": {
+    "average": 330,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 feet, fly 140 feet, swim 70 feet"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 20,
+    "con": 22,
+    "int": 20,
+    "wis": 20,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +31, Ref +30, Will +30",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +28 (1d20+28); __Athletics__: +32 (1d20+32); __Deception__: +32 (1d20+32); __Intimidation__: +34 (1d20+34); __Nature__: +30 (1d20+30); __Society__: +30 (1d20+30); __Survival__: +29 (1d20+29); ",
+    "list": {
+      "Acrobatics": "+28",
+      "Athletics": "+32",
+      "Deception": "+32",
+      "Intimidation": "+34",
+      "Nature": "+30",
+      "Society": "+30",
+      "Survival": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60"
+  ],
+  "passivePerception": 42,
+  "languages": [
+    "Aquan",
+    "Common",
+    "Draconic",
+    "Sylvan",
+    "Utopian"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 90 feet, DC 36."
+    },
+    {
+      "name": "Brine Spit",
+      "text": "⬲ Trigger A creature the brine dragon observes within 30 feet uses a concentrate action Effect The dragon spits a glob of caustic salt water at the creature. The creature takes 7d6 (7d6) acid damage (DC 36 basic Reflex save). On a failure, the concentrate action is disrupted."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (acid, evocation, primal); The dragon breathes a spray of acidic salt water that deals 18d6 (18d6) acid damage in a 120-foot line (DC 38 basic Reflex save). They can't use Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Capsize",
+      "text": "⬻ (attack); The dragon tries to capsize an adjacent aquatic vessel of their size or smaller. They must succeed at an Athletics check with a DC of 35 (reduced by 5 for each size smaller the vessel is than the dragon) or the pilot's Sailing Lore DC, whichever is higher."
+    },
+    {
+      "name": "Desiccating Bite",
+      "text": "⬺ The dragon makes a jaws Strike. On a hit, the target takes 6d6 (6d6) persistent acid damage, and is sickened 3 from the pain of salt and brine in its wounds."
+    },
+    {
+      "name": "Draconic Frenzy",
+      "text": "⬺ The dragon makes two claw Strikes and one wing Strike in any order."
+    },
+    {
+      "name": "Draconic Momentum",
+      "text": "The dragon recharges their Breath Weapon whenever they score a critical hit with a Strike."
+    },
+    {
+      "name": "Painful Strikes",
+      "text": "(acid); The brine dragon's body is encrusted with salty, acidic crystals. When a target takes damage from one of the dragon's melee Strikes, it must succeed at a DC 38 Fortitude Save or be stunned 1 (stunned 3 on a critical failure). The target then becomes temporarily immune for 1 minute."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +34 (acid, magical, reach 20 feet); Damage 3d10+17 (3d10+17) piercing plus 5d4 (5d4) acid"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +34 (agile, magical, reach 15 feet); Damage 3d10+17 (3d10+17) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +32 (magical, reach 25 feet); Damage 3d12+17 (3d12+17) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ wing +32 (magical, reach 20 feet); Damage 2d12+17 (2d12+17) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      9,
+      5,
+      6,
+      5,
+      5,
+      6
+    ]
+  }
+}

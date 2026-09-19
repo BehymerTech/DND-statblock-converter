@@ -1,0 +1,102 @@
+{
+  "name": "Dvorovoi",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 137.",
+  "size": "Small",
+  "type": "Fey",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 44,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 12,
+    "int": 8,
+    "wis": 10,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +10, Ref +9, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Crafting__: +8 (1d20+8); __Nature__: +9 (1d20+9); __Stealth__: +9 (1d20+9); __Household lore__: +11 (1d20+11); ",
+    "list": {
+      "Crafting": "+8",
+      "Nature": "+9",
+      "Stealth": "+9",
+      "Household lore": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "imprecise tremorsense within their entire bound yard"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Master of the Yard",
+      "text": "As domovoi, except the dvorovoi helps or causes trouble in the yard, milking or scaring cows, protecting or scattering tools, and so forth. Items pitchfork."
+    },
+    {
+      "name": "Items",
+      "text": "pitchfork;"
+    },
+    {
+      "name": "Shy",
+      "text": "A domovoi is naturally invisible while within sight of their bound home. The domovoi can become visible, or even selectively visible—allowing some people to see them."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ pitchfork +12 Damage 1d8+6 (1d8+6) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      2,
+      1,
+      -1,
+      0,
+      1
+    ],
+    "items": "pitchfork;"
+  }
+}

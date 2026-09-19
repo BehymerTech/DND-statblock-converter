@@ -1,0 +1,109 @@
+{
+  "name": "Sire Devil (Patraavex)",
+  "sourceSystem": "pf1",
+  "source": "Cheliax, the Infernal Empire",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, lawful, shapechanger",
+  "alignment": "LE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 21,
+    "notes": "dex +5, natural +6",
+    "touch": 15,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 84,
+    "formula": "8d10+40"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 20,
+    "con": 21,
+    "int": 14,
+    "wis": 15,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +11, Ref +11, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +15, Diplomacy +11, Disguise +11, Intimidate +15, Knowledge (local) +10, Knowledge (nobility) +13, Knowledge (planes) +13, Perception +13, Sense Motive +13",
+    "list": {
+      "Bluff": "+15",
+      "Diplomacy": "+11",
+      "Disguise": "+11",
+      "Intimidate": "+15",
+      "Perception": "+13",
+      "Sense Motive": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness",
+    "see invisibility"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 8,
+  "feats": [
+    "Cleave",
+    "Combat Reflexes",
+    "Improved Critical (claw)",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 heavy flail +16/+11 (1d10+11/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This fiend is a horrendous amalgamation of snapping claws and writhing tendrils with a disgusting fanged mouth running vertically across its torso.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": 30,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+1 heavy flail, other treasure)"
+      }
+    ]
+  }
+}

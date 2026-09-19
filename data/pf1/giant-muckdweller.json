@@ -1,0 +1,104 @@
+{
+  "name": "Giant Muckdweller",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 15,
+    "notes": "dex +2, natural +4, size -1",
+    "touch": 11,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 22,
+    "formula": "3d10+6"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 15,
+    "int": 9,
+    "wis": 12,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +5, Ref +5, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +6, Perception +10, Swim +15",
+    "list": {
+      "Acrobatics": "+6",
+      "Perception": "+10",
+      "Swim": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 3,
+  "feats": [
+    "Iron Will",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +5 (2d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This massive lizard has pale, spotted flesh and spines around its face that form a spiky frill.",
+  "meta": {
+    "cmb": "+7",
+    "cmd": "19 (23 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics 4",
+      "Swim 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate marshes"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pack (3-7), or swarm (8-17)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

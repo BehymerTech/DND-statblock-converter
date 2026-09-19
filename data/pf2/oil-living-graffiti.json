@@ -1,0 +1,104 @@
+{
+  "name": "Oil Living Graffiti",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 162.",
+  "size": "Medium",
+  "type": "Construct",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 50,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 12,
+    "int": 6,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +8, Ref +11, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +11 (1d20+11); __Crafting__: +5 (1d20+5); __Deception__: +10 (1d20+10); __Stealth__: +11 (1d20+11); ",
+    "list": {
+      "Acrobatics": "+11",
+      "Crafting": "+5",
+      "Deception": "+10",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Common (can't speak any language)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Backdrop",
+      "text": "When a creature attempts to Strike a living graffiti and critically misses, the attacker hits the surface (a canvas, wall, or so on) behind the living graffiti. This might damage the surface or the attacker's weapon, at the GM's discretion."
+    },
+    {
+      "name": "Surface-Bound",
+      "text": "A living graffiti can move only along flat surfaces. If the surface it's on is destroyed (such as a portrait hit by a fireball spell or a wall being smashed), the graffiti takes 2d6 (2d6) damage and is shunted to the nearest flat surface. If there is no flat surface within 5 feet, the graffiti is destroyed."
+    },
+    {
+      "name": "Splatter",
+      "text": "A living graffiti splatters into a creature's face with its splatter Strike. On a hit, the target is dazzled for 1 round or until it Interacts to remove the paint from its face."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +11 (agile, finesse); Damage 2d4+4 (2d4+4) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ splatter +11 (nonlethal, range increment 20 feet); Damage 1d4+4 (1d4+4) plus splatter"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      4,
+      1,
+      -2,
+      2,
+      1
+    ]
+  }
+}

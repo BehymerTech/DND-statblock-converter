@@ -1,0 +1,95 @@
+{
+  "name": "Yzobu",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 13,
+    "notes": "dex +1, natural +3, size -1",
+    "touch": 10,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 13,
+    "formula": "2d8+4"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 13,
+    "con": 14,
+    "int": 1,
+    "wis": 12,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +5, Ref +4, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +6",
+    "list": {
+      "Perception": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 1,
+  "feats": [
+    "Weapon Focus (gore)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +3 (1d8+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This four-legged animal with a long-horned, bovine head looks like a cross between a horse and a long-haired yak.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": 15,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold hills and plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or herd (3-30)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

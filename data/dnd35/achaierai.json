@@ -1,0 +1,109 @@
+{
+  "name": "Achaierai",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Outsider",
+  "subtype": "Evil, Extraplanar, Lawful",
+  "alignment": "Always lawful evil",
+  "cr": "5",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": "-1 size, +1 Dex, +10 natural",
+    "touch": 10,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 39,
+    "formula": "6d8+12"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft. (10 squares)"
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 13,
+    "con": 14,
+    "int": 11,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +7, Ref +6, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Balance +10, Climb +13, Diplomacy +5, Hide +6, Jump +21, Listen +11, Move Silently +10, Sense Motive +11, Spot +11;",
+    "list": {
+      "Balance": "+10",
+      "Climb": "+13",
+      "Diplomacy": "+5",
+      "Hide": "+6",
+      "Jump": "+21",
+      "Listen": "+11",
+      "Move Silently": "+10",
+      "Sense Motive": "+11",
+      "Spot": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 6,
+  "feats": [
+    "Dodge",
+    "Mobility",
+    "Spring Attack"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Black cloud"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., spell resistance 19"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Claw +9 melee (2d6+4)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +9 melee (2d6+4) and bite +4 melee (4d6+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Achaierais are massive, 15-foot-tall flightless birds that inhabit lawful planes of battle and are only occasionally encountered elsewhere.",
+    "grapple": "+14",
+    "spaceReach": "10 ft./10 ft.",
+    "environment": "A lawful-aligned plane",
+    "organization": "Solitary or flock (5-8)",
+    "treasure": "Double standard",
+    "advancement": "7-12 HD (Large); 13-18 HD (Huge)",
+    "leveladjustment": "---"
+  }
+}

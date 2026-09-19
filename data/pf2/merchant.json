@@ -1,0 +1,104 @@
+{
+  "name": "Merchant",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 244.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature -1",
+  "xp": null,
+  "ac": {
+    "value": 13,
+    "notes": ""
+  },
+  "hp": {
+    "average": 7,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 10,
+    "con": 8,
+    "int": 14,
+    "wis": 14,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +1, Ref +2, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Deception__: +10 (1d20+10); __Diplomacy__: +12 (1d20+12); __Performance__: +8 (1d20+8); __Society__: +8 (1d20+8); __Mercantile lore__: +10 (1d20+10); ",
+    "list": {
+      "Deception": "+10",
+      "Diplomacy": "+12",
+      "Performance": "+8",
+      "Society": "+8",
+      "Mercantile lore": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 16,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Appraising Eye",
+      "text": "The merchant can use Mercantile Lore to Recall Knowledge about items, including determining their value. They can also attempt to Identify Magic using."
+    },
+    {
+      "name": "Mercantile",
+      "text": "compendium/skills.md#Lore and can do so without first knowing whether the item is magical."
+    },
+    {
+      "name": "Items",
+      "text": "crossbow (10 bolts), padded armor;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +4 (agile, nonlethal, unarmed); Damage 1d4+2 (1d4+2) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ crossbow +4 (range increment 120 feet, reload 1); Damage 1d8 (1d8) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      0,
+      -1,
+      2,
+      2,
+      4
+    ],
+    "items": "crossbow (10 bolts), padded armor;"
+  }
+}

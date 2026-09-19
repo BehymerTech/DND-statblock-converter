@@ -1,0 +1,112 @@
+{
+  "name": "Vampire Spawn",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "alignment": "Always evil (any)",
+  "cr": "4",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "+2 Dex, +3 natural",
+    "touch": 12,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 29,
+    "formula": "4d12+3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares)"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": null,
+    "int": 13,
+    "wis": 13,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +1, Ref +5, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +6, Climb +8, Craft Or Profession (any One) +4, Diplomacy +4, Hide +10, Jump +8, Listen +11, Move Silently +10, Search +8, Sense Motive +11, Spot +11;",
+    "list": {
+      "Bluff": "+6",
+      "Climb": "+8",
+      "Diplomacy": "+4",
+      "Hide": "+10",
+      "Jump": "+8",
+      "Listen": "+11",
+      "Move Silently": "+10",
+      "Search": "+8",
+      "Sense Motive": "+11",
+      "Spot": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 2,
+  "feats": [
+    "Alertness (B)",
+    "Improved Initiative (B)",
+    "Lightning Reflexes (B)",
+    "Skill Focus (selected Craft Or Profession Skill)",
+    "Toughness"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Blood drain, domination, energy drain"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "+2 turn resistance, damage reduction 5/silver, darkvision 60 ft., fast healing 2, gaseous form, resistance to cold 10 and electricity 10, spider climb, undead traits"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Slam +5 melee (1d6+4 plus energy drain)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Slam +5 melee (1d6+4 plus energy drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Vampire spawn are undead creatures that come into being when vampires slay mortals. Like their creators, spawn remain bound to their coffins and to the soil of their graves. Vampire spawn appear much as they did in life, although their features are often hardened, with a predatory look.",
+    "grapple": "+5",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Any",
+    "organization": "Solitary or pack (2-5)",
+    "treasure": "Standard",
+    "advancement": "---",
+    "leveladjustment": "---"
+  }
+}

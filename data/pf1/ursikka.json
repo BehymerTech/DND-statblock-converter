@@ -1,0 +1,103 @@
+{
+  "name": "Ursikka",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Pathfinder No. 70: The Frozen Stars",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 24,
+    "notes": "natural +16, size -2",
+    "touch": 8,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 138,
+    "formula": "12d10+72"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., burrow 20 ft."
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 11,
+    "con": 22,
+    "int": 2,
+    "wis": 13,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +14, Ref +10, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +15, Perception +15",
+    "list": {
+      "Climb": "+15",
+      "Perception": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent",
+    "tremorsense"
+  ],
+  "passivePerception": 25,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 12,
+  "feats": [
+    "Awesome Blow",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Snatch"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +21 (2d6+11 plus freezing saliva), 2 claws +21 (1d8+11)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This insectlike creature is covered in downy white fur. A pair of eyes gleams above a three-part mouth that drips viscous f luid.",
+  "meta": {
+    "cmb": "25 (+27 bull rush)",
+    "cmd": "35 (37 vs. bull rush, 39 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any cold land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or hive (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

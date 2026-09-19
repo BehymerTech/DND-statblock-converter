@@ -1,0 +1,108 @@
+{
+  "name": "Delver",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Huge",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "Usually neutral",
+  "cr": "9",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": "-2 size, +1 Dex, +15 natural",
+    "touch": 9,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 145,
+    "formula": "15d8+78"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": 10,
+    "notes": "30 ft. (6 squares), burrow 10 ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 13,
+    "con": 21,
+    "int": 14,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +12, Ref +6, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (dungeoneering) +14, Knowledge (nature) +4, Listen +20, Move Silently +17, Spot +20, Survival +14 (+16 Underground);",
+    "list": {
+      "Listen": "+20",
+      "Move Silently": "+17",
+      "Spot": "+20",
+      "Survival": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "tremorsense 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 11,
+  "feats": [
+    "Alertness",
+    "Blind -Fight",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Power Attack",
+    "Toughness"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Corrosive slime"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., immunity to acid, stone shape, tremorsense 60 ft."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Slam +17 melee (1d6+8 plus 2d6 acid)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 slams +17 melee (1d6+8 plus 2d6 acid)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A delver is about 15 feet long and 10 feet wide. It weighs about 6,000 pounds.",
+    "grapple": "+27",
+    "spaceReach": "15 ft./10 ft.",
+    "environment": "Underground",
+    "organization": "Solitary",
+    "treasure": "None",
+    "advancement": "16-30 HD (Huge); 31-45 HD (Gargantuan)",
+    "leveladjustment": "---"
+  }
+}

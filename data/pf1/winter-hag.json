@@ -1,0 +1,115 @@
+{
+  "name": "Winter Hag",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "cold",
+  "alignment": "CE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "dex +1, natural +9",
+    "touch": 11,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 85,
+    "formula": "10d10+30"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 13,
+    "con": 16,
+    "int": 16,
+    "wis": 13,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +8, Ref +8, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +18, Craft (alchemy) +11, Diplomacy +9, Disguise +11, Intimidate +17, Knowledge (arcana) +8, Perception +18, Ride +9, Sense Motive +8, Spellcraft +8, Stealth +9",
+    "list": {
+      "Bluff": "+18",
+      "Diplomacy": "+9",
+      "Disguise": "+11",
+      "Intimidate": "+17",
+      "Perception": "+18",
+      "Ride": "+9",
+      "Sense Motive": "+8",
+      "Spellcraft": "+8",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see invisibility",
+    "snow vision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 10,
+  "feats": [
+    "Alertness",
+    "Blind-Fight",
+    "Combat Casting",
+    "Deceitful",
+    "Great Fortitude"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 frost quarterstaff +15/+10 (1d6+6 plus 1d6 cold)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This woman has black, frostbitten skin, white hair, and a black ice staff decorated with bones and gems.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": 24,
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold forests or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, patrol (1 plus 1 winter wolf), or coven (3 hags of any type)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

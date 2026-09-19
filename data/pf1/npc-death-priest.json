@@ -1,0 +1,93 @@
+{
+  "name": "NPC Death Priest",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "NE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 20,
+    "notes": "armor +7, deflection +1, dex +2",
+    "touch": 13,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 89,
+    "formula": "9d8+27"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 15,
+    "con": 18,
+    "int": 10,
+    "wis": 19,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +11, Ref +6, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (alchemy) +6, Heal +10, Intimidate +7, Knowledge (religion) +12, Perception +10",
+    "list": {
+      "Heal": "+10",
+      "Intimidate": "+7",
+      "Perception": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 20,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 6,
+  "feats": [
+    "Combat Casting",
+    "Command Undead",
+    "Greater Spell Focus (necromancy)",
+    "Improved Channel",
+    "Improved Initiative",
+    "Spell Focus (necromancy)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +5/+0 (1d4-1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "light crossbow +8 (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "cleric of Urgathoa 9",
+    "cmb": "+5",
+    "cmd": 18
+  }
+}

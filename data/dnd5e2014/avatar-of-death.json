@@ -1,0 +1,93 @@
+{
+  "name": "Avatar of Death",
+  "sourceSystem": "dnd5e2014",
+  "source": "DMG",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "neutral evil",
+  "cr": null,
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": ""
+  },
+  "hp": {
+    "average": null,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 60,
+    "fly": 60,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 16,
+    "int": 16,
+    "wis": 16,
+    "cha": 16
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [
+    "necrotic",
+    "poison"
+  ],
+  "conditionImmunities": [
+    "charmed",
+    "frightened",
+    "paralyzed",
+    "petrified",
+    "poisoned",
+    "unconscious"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "truesight 60 ft."
+  ],
+  "passivePerception": 13,
+  "languages": [
+    "all languages known to its summoner"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Incorporeal Movement",
+      "text": "The avatar can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+    },
+    {
+      "name": "Turn Immunity",
+      "text": "The avatar is immune to features that turn undead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Reaping Scythe",
+      "text": "The avatar sweeps its spectral scythe through a creature within 5 feet of it, dealing 7 (1d8 + 3) slashing damage plus 4 (1d8) necrotic damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

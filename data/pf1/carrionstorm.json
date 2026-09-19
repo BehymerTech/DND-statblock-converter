@@ -1,0 +1,97 @@
+{
+  "name": "Carrionstorm",
+  "sourceSystem": "pf1",
+  "source": "Rise of the Runelords Anniversary Edition, Pathfinder No. 2: The Skinsaw Murders",
+  "size": "Tiny",
+  "type": "undead",
+  "subtype": "swarm",
+  "alignment": "NE",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 12,
+    "notes": "size +2",
+    "touch": 12,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 11,
+    "formula": "2d8+2"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 40 ft. (good)"
+  },
+  "abilities": {
+    "str": 1,
+    "dex": 11,
+    "con": "None",
+    "int": 2,
+    "wis": 14,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +1, Ref +0, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +12, Perception +6",
+    "list": {
+      "Fly": "+12",
+      "Perception": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Necril"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 1,
+  "feats": [
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "swarm (1d6 plus distraction)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Bits of feather and flesh buzz around this swarm of rotting ravens like flies, countless lifeless eyes staring out from the chaos.",
+  "meta": {
+    "cmb": "-1",
+    "cmd": "4 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any near ghouls"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, flock (2-4 swarms), or murder (5-12 swarms)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

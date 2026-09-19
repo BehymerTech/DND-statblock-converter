@@ -1,0 +1,127 @@
+{
+  "name": "Szuriel",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "daemon, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "28",
+  "level": null,
+  "xp": 4915200,
+  "ac": {
+    "value": 46,
+    "notes": "deflection +4, dex +9, natural +11, profane +12",
+    "touch": 35,
+    "flatFooted": 37
+  },
+  "hp": {
+    "average": 676,
+    "formula": "33d10+495"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 46,
+    "dex": 29,
+    "con": 40,
+    "int": 29,
+    "wis": 30,
+    "cha": 31
+  },
+  "saves": {
+    "text": "Fort +30, Ref +31, Will +32",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +45, Bluff +46, Fly +49, Intimidate +46, Knowledge (arcana) +42, Knowledge (engineering) +42, Knowledge (history) +42, Knowledge (religion) +42, Knowledge (planes) +45, Perception +46, Ride +45, Sense Motive +46, Spellcraft +42, Stealth +45, Use Magic Device +46",
+    "list": {
+      "Acrobatics": "+45",
+      "Bluff": "+46",
+      "Fly": "+49",
+      "Intimidate": "+46",
+      "Perception": "+46",
+      "Ride": "+45",
+      "Sense Motive": "+46",
+      "Spellcraft": "+42",
+      "Stealth": "+45",
+      "Use Magic Device": "+46"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "true seeing"
+  ],
+  "passivePerception": 56,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Infernal",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+13",
+  "babOrProficiency": 33,
+  "feats": [
+    "Blinding Critical",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Critical Mastery",
+    "Flyby Attack",
+    "Greater Weapon Focus (greatsword)",
+    "Greater Weapon Specialization (greatsword)",
+    "Improved Critical (greatsword)",
+    "Improved Initiative",
+    "Mounted Combat",
+    "Quicken Spell-Like Ability (telekinesis)",
+    "Ride-By Attack",
+    "Spirited Charge",
+    "Staggering Critical",
+    "Weapon Focus (greatsword)",
+    "Weapon Specialization (greatsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "Lamentation of the Faithless +58/+58/+53/+48/+43 (2d6+36/17-20), 2 wings +46 (1d6+9 plus energy drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This blond woman’s pitch-black eyes weep tears of blood, and a massive pair of raven’s wings spreads from her shoulders.",
+  "meta": {
+    "cmb": "+51",
+    "cmd": 86,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or mounted (Szuriel and the Red Horse)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple (Lamentation of the Faithless, other treasure)"
+      }
+    ]
+  }
+}

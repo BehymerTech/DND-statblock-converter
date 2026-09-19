@@ -1,0 +1,122 @@
+{
+  "name": "Young Black Dragon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 105.",
+  "size": "Large",
+  "type": "Dragon",
+  "subtype": "Acid, Amphibious",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 125,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, fly 100 feet, swim 40 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 18,
+    "int": 12,
+    "wis": 14,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +17, Ref +12, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +14 (1d20+14); __Arcana__: +12 (1d20+12); __Athletics__: +17 (1d20+17); __Deception__: +15 (1d20+15); __Intimidation__: +15 (1d20+15); __Stealth__: +16 (1d20+16); ",
+    "list": {
+      "Acrobatics": "+14",
+      "Arcana": "+12",
+      "Athletics": "+17",
+      "Deception": "+15",
+      "Intimidation": "+15",
+      "Stealth": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 90 feet, DC 23."
+    },
+    {
+      "name": "Tail Lash",
+      "text": "⬲ Trigger A creature within reach of the dragon's tail takes an action to Strike or attempt a skill check Effect The dragon Strikes with its tail at the triggering creature at a –2 penalty. If it hits, the creature takes a –2 circumstance penalty to the triggering roll."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (acid, arcane, evocation); The dragon breathes a spray of acid that deals 8d6 (8d6) acid damage in a 60-foot line (DC 25 basic Reflex save). It can't use Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Draconic Frenzy",
+      "text": "⬺ The dragon makes two claw Strikes and one horns Strike in any order."
+    },
+    {
+      "name": "Draconic Momentum",
+      "text": "The dragon recharges its Breath Weapon whenever it scores a critical hit with a Strike."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +19 (acid, reach 10 feet); Damage 2d10+9 (2d10+9) piercing plus 1d6 (1d6) acid"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +19 (agile); Damage 2d6+9 (2d6+9) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +17 (reach 15 feet); Damage 2d8+7 (2d8+7) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ horns +17 (reach 10 feet); Damage 1d8+7 (1d8+7) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      3,
+      4,
+      1,
+      2,
+      2
+    ]
+  }
+}

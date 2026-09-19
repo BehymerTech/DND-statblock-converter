@@ -1,0 +1,102 @@
+{
+  "name": "Ginever",
+  "sourceSystem": "pf1",
+  "source": "Taldor, the First Empire",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 17,
+    "notes": "dex +2, luck +5",
+    "touch": 17,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 63,
+    "formula": "6d10+30"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 15,
+    "con": 21,
+    "int": 8,
+    "wis": 14,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +7, Ref +7, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Disguise +2, Intimidate +9, Perception +4, Sense Motive +4, Stealth +10, Survival +10",
+    "list": {
+      "Disguise": "+2",
+      "Intimidate": "+9",
+      "Perception": "+4",
+      "Sense Motive": "+4",
+      "Stealth": "+10",
+      "Survival": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 14,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 6,
+  "feats": [
+    "Ability Focus (inebriate)",
+    "Alertness",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "touch +10 (inebriate)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This lanky, yellow-eyed drunk sways unsteadily, draped in the stink of barley and fermentation.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": 27,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any urban"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or gang (2-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

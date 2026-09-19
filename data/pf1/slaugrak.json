@@ -1,0 +1,107 @@
+{
+  "name": "Slaugrak",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "chaotic, evil, extraplanar, native",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex +1, natural +9, size -1",
+    "touch": 10,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 68,
+    "formula": "8d10+24"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 12,
+    "con": 17,
+    "int": 5,
+    "wis": 13,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +9, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +12, Intimidate +13, Stealth +8, Swim +12, Perception +1",
+    "list": {
+      "Climb": "+12",
+      "Intimidate": "+13",
+      "Stealth": "+8",
+      "Swim": "+12",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness"
+  ],
+  "passivePerception": 11,
+  "languages": [
+    "Abyssal"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 8,
+  "feats": [
+    "Diehard",
+    "Endurance",
+    "Iron Will",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (1d10+5/19-20 plus 1d6 acid and corrupting bite), 2 claws +12 (1d6+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hulking reptilian humanoid’s torso bristles with twitching vestigial limbs, milk-white eyes, and drooling half-formed mouths. The creature’s oversized maw is filled with curved teeth reminiscent of sickle blades.",
+  "meta": {
+    "cmb": "+14",
+    "cmd": 25,
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

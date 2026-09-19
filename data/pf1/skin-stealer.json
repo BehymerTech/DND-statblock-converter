@@ -1,0 +1,113 @@
+{
+  "name": "Skin Stealer",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 44: Trial of the Beast",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 15,
+    "notes": "dex +3, natural +2",
+    "touch": 13,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 18,
+    "formula": "4d6+4"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 17,
+    "con": 13,
+    "int": 16,
+    "wis": 10,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +2, Ref +7, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Bluff +12, Disguise +16, Escape Artist +10, Heal +8, Perception +7, Sense Motive +7, Sleight of Hand +10, Stealth +14",
+    "list": {
+      "Acrobatics": "+10",
+      "Bluff": "+12",
+      "Disguise": "+16",
+      "Escape Artist": "+10",
+      "Heal": "+8",
+      "Perception": "+7",
+      "Sense Motive": "+7",
+      "Sleight of Hand": "+10",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Elven",
+    "Sylvan"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 2,
+  "feats": [
+    "Deceitful",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +5 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Dark pink flesh drawn tightly across its emaciated body, this being resembles a gaunt human stripped of its skin, its pulsing muscles completely exposed.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": 16,
+    "racialModifiers": [
+      "Disguise 4",
+      "Heal 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

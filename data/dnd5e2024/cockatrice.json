@@ -1,0 +1,71 @@
+{
+  "name": "Cockatrice",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Small",
+  "type": "Monstrosity",
+  "subtype": "",
+  "alignment": "Unaligned",
+  "cr": "1/2",
+  "level": null,
+  "xp": 100,
+  "ac": {
+    "value": 11,
+    "notes": ""
+  },
+  "hp": {
+    "average": 22,
+    "formula": "5d6 + 5"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": 40,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., Fly 40 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 12,
+    "con": 12,
+    "int": 2,
+    "wis": 13,
+    "cha": 5
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 11,
+  "languages": [],
+  "initiative": "+1 (11)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Petrifying Bite",
+      "text": "_Melee Attack Roll:_ +3, reach 5 ft. _Hit:_ 3 (1d4 + 1) Piercing damage. If the target is a creature, it is subjected to the following effect. _Constitution Saving Throw:_ DC 11. _First Failure:_ The target has the Restrained condition. The target repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. _Second Failure:_ The target has the Petrified condition, instead of the Restrained condition, for 24 hours. ## Commoner"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

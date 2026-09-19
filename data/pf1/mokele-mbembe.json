@@ -1,0 +1,106 @@
+{
+  "name": "Mokele-Mbembe",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Pathfinder No. 39: The City of Seven Spears, Mystery Monsters Revisited",
+  "size": "Huge",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 23,
+    "notes": "dex +1, natural +14, size -2",
+    "touch": 9,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 119,
+    "formula": "14d8+56"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 13,
+    "con": 18,
+    "int": 2,
+    "wis": 15,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +13, Ref +12, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +15, Stealth +3, Swim +19",
+    "list": {
+      "Perception": "+15",
+      "Stealth": "+3",
+      "Swim": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 25,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 10,
+  "feats": [
+    "Awesome Blow",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +19 (2d8+11), tail slap +14 (2d8+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This long-necked creature has an even longer tail, as well as a row of spines along its back and countless sharp fangs.",
+  "meta": {
+    "cmb": "23 (+25 bull rush)",
+    "cmd": "34 (36 vs. bull rush)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "tropical lakes or rivers"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

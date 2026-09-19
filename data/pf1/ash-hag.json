@@ -1,0 +1,109 @@
+{
+  "name": "Ash Hag",
+  "sourceSystem": "pf1",
+  "source": "Cheliax, the Infernal Empire",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "LE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 17,
+    "notes": "dex +1, natural +6",
+    "touch": 11,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 52,
+    "formula": "7d10+14"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 12,
+    "con": 14,
+    "int": 17,
+    "wis": 15,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +4, Ref +6, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +6, Diplomacy +5, Disguise +10, Intimidate +7, Knowledge (arcana) +10, Perception +14, Sense Motive +11, Spellcraft +10, Stealth +8",
+    "list": {
+      "Bluff": "+6",
+      "Diplomacy": "+5",
+      "Disguise": "+10",
+      "Intimidate": "+7",
+      "Perception": "+14",
+      "Sense Motive": "+11",
+      "Spellcraft": "+10",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Giant",
+    "tongues"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 7,
+  "feats": [
+    "Alertness",
+    "Combat Casting",
+    "Deceitful",
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +9 (1d6+2), 2 claws +9 (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This spindly, hunched crone’s skin is a sickly gray color, as is her stringy hair, which is peppered with globs of what appear to be ashes.",
+  "meta": {
+    "cmb": "+9",
+    "cmd": 20,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any urban or ruins"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or coven (3 hags of any kind)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Breathless Orchid",
+  "sourceSystem": "pf1",
+  "source": "Gallows of Madness",
+  "size": "Medium",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 13,
+    "notes": "dex +3",
+    "touch": 13,
+    "flatFooted": 10
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d8+6"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 17,
+    "con": 14,
+    "int": "None",
+    "wis": 13,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +5, Ref +4, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 2,
+  "feats": [
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +5 (1d4 plus attach)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This colorful plant has long, thin leaves and three prominent, bright pink pistils that reach elegantly toward the sky.",
+  "meta": {
+    "cmb": "2 (+10 grapple when attached)",
+    "cmd": "15 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or patch (2-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

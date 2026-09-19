@@ -1,0 +1,122 @@
+{
+  "name": "Prism Dragon",
+  "sourceSystem": "pf1",
+  "source": "Occult Bestiary",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "extraplanar",
+  "alignment": "CN",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 35,
+    "notes": "dex +1, natural +26, size -2",
+    "touch": 9,
+    "flatFooted": 34
+  },
+  "hp": {
+    "average": 283,
+    "formula": "21d12+147"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 200 ft. (poor), climb 30 ft."
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 12,
+    "con": 25,
+    "int": 20,
+    "wis": 21,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +21, Ref +15, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +35, Climb +31, Diplomacy +22, Disguise +22, Fly +16, Intimidate +31, Knowledge (dungeoneering) +28, Knowledge (history) +28, Knowledge (nobility) +28, Perception +28, Sense Motive +28, Stealth +16, Survival +28",
+    "list": {
+      "Bluff": "+35",
+      "Climb": "+31",
+      "Diplomacy": "+22",
+      "Disguise": "+22",
+      "Fly": "+16",
+      "Intimidate": "+31",
+      "Perception": "+28",
+      "Sense Motive": "+28",
+      "Stealth": "+16",
+      "Survival": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Aklo",
+    "Auran",
+    "Common",
+    "Draconic",
+    "Elven",
+    "Terran"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 21,
+  "feats": [
+    "Deceitful",
+    "Great Fortitude",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Lightning Reflexes",
+    "Multiattack",
+    "Power Attack",
+    "Psychic Combatant",
+    "Vital Strike",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +30 (2d6+10/19-20), 2 claws +29 (1d8+10), tail slap +27 (2d6+5), 2 wings +27 (1d8+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The facets of this crystalline dragon’s body reflect fascinating and sparkling patterns.",
+  "meta": {
+    "cmb": "+33",
+    "cmd": 44,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any mountain or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

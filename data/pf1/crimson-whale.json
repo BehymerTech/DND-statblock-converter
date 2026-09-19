@@ -1,0 +1,103 @@
+{
+  "name": "Crimson Whale",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 59: The Price of Infamy",
+  "size": "Gargantuan",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 22,
+    "notes": "dex -2, natural +18, size -4",
+    "touch": 4,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 105,
+    "formula": "10d8+60"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 40 ft."
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 7,
+    "con": 21,
+    "int": 2,
+    "wis": 13,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +12, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +21, Swim +29",
+    "list": {
+      "Perception": "+21",
+      "Swim": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "low-light vision"
+  ],
+  "passivePerception": 31,
+  "languages": [],
+  "initiative": "-2",
+  "babOrProficiency": 7,
+  "feats": [
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Toughness",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +17 (2d8+26 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Similar to other whales in many ways, this giant aquatic beast is notable for its enormous teeth, menacingly strong jaws, and blood-red skin.",
+  "meta": {
+    "cmb": "24 (+28 grapple)",
+    "cmd": "32 (can’t be tripped)",
+    "racialModifiers": [
+      "Perception 12"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any ocean"
+      },
+      {
+        "name": "Organisation",
+        "desc": "single, pair, or pod (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

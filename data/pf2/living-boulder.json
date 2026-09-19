@@ -1,0 +1,92 @@
+{
+  "name": "Living Boulder",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 108.",
+  "size": "Small",
+  "type": "Elemental",
+  "subtype": "Earth",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 36,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, burrow 20 feet; earth glide;"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 8,
+    "con": 18,
+    "int": 2,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +10, Ref +5, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +8 (1d20+8); __Stealth__: +5 (1d20+5), (Stealth: +7 (1d20+7) in rocky areas); ",
+    "list": {
+      "Athletics": "+8",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, tremorsense 30"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Earth Glide",
+      "text": "A living boulder can Burrow through earthen matter, including rock. When it does so, it moves at its full burrow Speed, leaving no tunnels or signs of its passing."
+    },
+    {
+      "name": "Rolling Charge",
+      "text": "⬺ The living boulder Strides twice, and can then make a Strike with its jaws. This jaws Strike gains Knockdown."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +10 Damage 1d8+6 (1d8+6) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      -1,
+      4,
+      -4,
+      2,
+      -1
+    ]
+  }
+}

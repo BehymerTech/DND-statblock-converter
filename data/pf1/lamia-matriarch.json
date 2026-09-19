@@ -1,0 +1,118 @@
+{
+  "name": "Lamia Matriarch",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Pathfinder No. 2: The Skinsaw Murders",
+  "size": "Large",
+  "type": "monstrous humanoid",
+  "subtype": "shapechanger",
+  "alignment": "CE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "dex +4, natural +8, size -1",
+    "touch": 13,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 102,
+    "formula": "12d10+36"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 40 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 19,
+    "con": 17,
+    "int": 16,
+    "wis": 16,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +7, Ref +12, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +8, Bluff +21, Climb +13, Diplomacy +11, Disguise +11, Intimidate +20, Knowledge (any one) +15, Knowledge (arcana) +15, Spellcraft +15, Swim +13, Use Magic Device +21, Perception +3",
+    "list": {
+      "Acrobatics": "+8",
+      "Bluff": "+21",
+      "Climb": "+13",
+      "Diplomacy": "+11",
+      "Disguise": "+11",
+      "Intimidate": "+20",
+      "Spellcraft": "+15",
+      "Swim": "+13",
+      "Use Magic Device": "+21",
+      "Perception": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 13,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 12,
+  "feats": [
+    "Double Slice",
+    "Extend Spell",
+    "Improved Critical (scimitar)",
+    "Improved Two-Weapon Fighting",
+    "Two-Weapon Fighting",
+    "Weapon Focus (scimitar)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 scimitars +14/+14/+9/+9/+4 (1d6+6/15-20 plus 1 Wisdom drain on first hit each round)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature looks like a beautiful human woman from the waist up, but below is the body and tail of an immense snake.",
+  "meta": {
+    "cmb": "+18",
+    "cmd": "32 (can’t be tripped)",
+    "racialModifiers": [
+      "Acrobatics 4",
+      "Bluff 4",
+      "Use Magic Device 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cult (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (two +1 scimitars, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Vrykolakas",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Pathfinder No. 29: Mother of Flies",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "shapechanger",
+  "alignment": "NE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 23,
+    "notes": "dex +4, dodge +1, natural +8",
+    "touch": 15,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 126,
+    "formula": "12d8+72"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 19,
+    "con": "None",
+    "int": 7,
+    "wis": 18,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +10, Ref +10, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +25, Disguise +15, Escape Artist +6, Perception +13, Stealth +15",
+    "list": {
+      "Climb": "+25",
+      "Disguise": "+15",
+      "Escape Artist": "+6",
+      "Perception": "+13",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 9,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Mobility",
+    "Stealthy",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +17 (1d6+8 plus energy drain), 2 claws +18 (1d8+8)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This twisted, barely-humanoid monstrosity has rancid-looking flesh, an unnaturally long neck, and a mouth full of fangs.",
+  "meta": {
+    "cmb": "+17",
+    "cmd": 32,
+    "racialModifiers": [
+      "Disguise 10"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

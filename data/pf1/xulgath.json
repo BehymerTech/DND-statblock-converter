@@ -1,0 +1,110 @@
+{
+  "name": "Xulgath",
+  "sourceSystem": "pf1",
+  "source": "Occult Bestiary",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "reptilian",
+  "alignment": "CE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 19,
+    "notes": "dex +3, natural +6",
+    "touch": 13,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 45,
+    "formula": "6d8+18"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 17,
+    "con": 16,
+    "int": 13,
+    "wis": 15,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +8, Ref +5, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Handle Animal +12, Perception +11, Ride +5, Stealth +13",
+    "list": {
+      "Handle Animal": "+12",
+      "Perception": "+11",
+      "Ride": "+5",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Draconic",
+    "Undercommon",
+    "telepathy 30 ft. (see Psychogenic Secretions below)"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 4,
+  "feats": [
+    "Animal Affinity",
+    "Iron Will",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "spear +8 (1d8+6/×3), bite +3 (1d6+2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "spear +7 (1d8+4/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A rigid crest runs from the head of this bipedal lizard to the tip of its long tail, and oil glistens on its scales.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": 21,
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground (Deep Tolguth)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or clutch (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

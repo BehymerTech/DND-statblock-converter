@@ -1,0 +1,88 @@
+{
+  "name": "Giant Leech",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 156.",
+  "size": "Medium",
+  "type": "Animal",
+  "subtype": "Amphibious",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 32,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 feet, swim 20 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 16,
+    "int": 0,
+    "wis": 12,
+    "cha": 0
+  },
+  "saves": {
+    "text": "Fort +9, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +8 (1d20+8); __Stealth__: +7 (1d20+7); ",
+    "list": {
+      "Athletics": "+8",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "tremorsense 30"
+  ],
+  "passivePerception": 15,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Blood Drain",
+      "text": "⬻ Requirements The giant leech has a creature grabbed or restrained Effect The giant leech drains blood from the creature it has grabbed. This deals 2d4 (2d4) damage. A creature that has its blood drained by a giant leech is drained 1 until it receives any kind or amount of healing."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ mouth +10 Damage 1d4+6 (1d4+6) piercing plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      1,
+      3,
+      -5,
+      1,
+      -5
+    ]
+  }
+}

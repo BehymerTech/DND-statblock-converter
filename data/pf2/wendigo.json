@@ -1,0 +1,118 @@
+{
+  "name": "Wendigo",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 327.",
+  "size": "Large",
+  "type": "Cold",
+  "subtype": "Beast",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 17",
+  "xp": null,
+  "ac": {
+    "value": 40,
+    "notes": ""
+  },
+  "hp": {
+    "average": 315,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 100,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 100 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 24,
+    "con": 28,
+    "int": 22,
+    "wis": 20,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +32, Ref +30, Will +26",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +32 (1d20+32); __Deception__: +29 (1d20+29); __Intimidation__: +33 (1d20+33); __Nature__: +28 (1d20+28); __Occultism__: +29 (1d20+29); __Religion__: +28 (1d20+28); __Stealth__: +30 (1d20+30); __Survival__: +30 (1d20+30); ",
+    "list": {
+      "Acrobatics": "+32",
+      "Deception": "+29",
+      "Intimidation": "+33",
+      "Nature": "+28",
+      "Occultism": "+29",
+      "Religion": "+28",
+      "Stealth": "+30",
+      "Survival": "+30"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, heatsight 60"
+  ],
+  "passivePerception": 42,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Jotun; telepathy 1 mile"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Heatsight",
+      "text": "(divination, primal); Heatsight is a precise sense that sees heat signatures."
+    },
+    {
+      "name": "Dream Haunting",
+      "text": "A target that fails its save against the wendigo's nightmare is exposed to wendigo torment."
+    },
+    {
+      "name": "Howl",
+      "text": "⬽ (auditory, concentrate, enchantment, fear, incapacitation, mental, primal); Frequency three times per day Effect The wendigo unleashes a forlorn howl that can be heard up to 1 mile away. Any creature that hears the howl must succeed at a DC 38 Will save or be frightened 1. Any creature that critically fails and is within 120 feet of the wendigo is instead frightened 3, and is also fleeing for 1d4 (1d4) rounds (or until it's no longer frightened, whichever comes first). A creature frightened by a wendigo's howl still naturally recovers from its fright but can't reduce it below frightened 1 in this way until 1 hour has passed or magic is used. Whether it succeeds or fails its save, a creature is then temporarily immune to that wendigo's Howl for 24 hours."
+    },
+    {
+      "name": "Ride the Wind",
+      "text": "⬲ (air, concentrate, primal, transmutation); Trigger The wendigo casts wind walk while it has Grabbed a foe. Effect The wendigo attempts to turn the grabbed creature into wind and carry it along as part of the action. If the target succeeds at a DC 38 Will save, it prevents itself from being transformed; in this case, the wendigo still transforms, automatically releasing the victim. A creature forced to Ride the Wind along with the wendigo is exposed to wendigo torment. The target can attempt a new Will save each round to return to normal, though it immediately becomes corporeal and begins falling if it succeeds."
+    },
+    {
+      "name": "Wendigo Torment",
+      "text": "(curse, enchantment, mental, primal); Saving Throw DC 38 Will. Stage 1 Stupefied 4 (1 day) Stage 2 As stage 1 (1 day) Stage 3 The creature searches for an individual of its own ancestry to kill and devour. (null)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +33 (cold, magical, reach 10 feet); Damage 3d10+12 (3d10+12) piercing plus 2d6 (2d6) cold"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +33 (cold, magical, agile, reach 10 feet); Damage 3d8+12 (3d8+12) slashing plus 2d6 (2d6) cold and Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      7,
+      9,
+      6,
+      5,
+      6
+    ]
+  }
+}

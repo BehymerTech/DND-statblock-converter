@@ -1,0 +1,109 @@
+{
+  "name": "Ibshaunet",
+  "sourceSystem": "pf1",
+  "source": "Concordance of Rivals",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "chaotic, extraplanar, protean, shapechanger",
+  "alignment": "CN",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 27,
+    "notes": "dex +6, dodge +1, natural +12, size -2",
+    "touch": 15,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 149,
+    "formula": "13d10+78"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 30 ft. (perfect), swim 30 ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 22,
+    "con": 22,
+    "int": 13,
+    "wis": 16,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +14, Ref +14, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +22, Fly +26, Intimidate +19, Knowledge (planes) +17, Perception +19, Survival +19, Swim +29",
+    "list": {
+      "Acrobatics": "+22",
+      "Fly": "+26",
+      "Intimidate": "+19",
+      "Perception": "+19",
+      "Survival": "+19",
+      "Swim": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "detect law"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Protean"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 13,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Mobility",
+    "Power Attack",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +20 (1d8+8/19-20 plus grab), 2 claws +19 (1d6+8), tail slap +14 (1d8+4 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This nightmarish serpentine creature bears crackling wings of chaotic energy and bristling fins of insubstantial fire.",
+  "meta": {
+    "cmb": "23 (+27 grapple)",
+    "cmd": "40 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Maelstrom)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or devouring (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

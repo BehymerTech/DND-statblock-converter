@@ -1,0 +1,115 @@
+{
+  "name": "Troll King",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 315.",
+  "size": "Large",
+  "type": "Troll",
+  "subtype": "Giant",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 28,
+    "notes": ""
+  },
+  "hp": {
+    "average": 220,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 16,
+    "con": 24,
+    "int": 8,
+    "wis": 12,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +23, Ref +17, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +21 (1d20+21); __Intimidation__: +22 (1d20+22); __Survival__: +17 (1d20+17); ",
+    "list": {
+      "Athletics": "+21",
+      "Intimidation": "+22",
+      "Survival": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Vigorous Shake",
+      "text": "⬲ Trigger The troll king takes persistent acid or fire damage. Effect The troll king shakes itself to remove persistent acid or fire effects. The troll king immediately attempts a DC 15 flat check to end the persistent damage that triggered this reaction. If the troll king succeeds at this check, it can immediately use Primordial Roar as part of this reaction."
+    },
+    {
+      "name": "Rend",
+      "text": "⬻ (claw);"
+    },
+    {
+      "name": "Forced Regeneration",
+      "text": "⬻ (concentrate); Requirements The troll king's regeneration is not currently deactivated. Effect The troll king regains 15 HP."
+    },
+    {
+      "name": "Primordial Roar",
+      "text": "⬻ (auditory, emotion, fear, mental); The troll king unleashes a bestial roar. Each non-troll creature within 100 feet must attempt a DC 29 Will save. The creature is then temporarily immune for 10 minutes. Critical Success The creature is unaffected. Success The creature is frightened 1. Failure The creature is frightened 2. Critical Failure The creature is frightened 3."
+    },
+    {
+      "name": "Unstoppable Charge",
+      "text": "⬽ The troll king Strides twice in a straight line. It can make up to two claw Strikes during this movement and one jaws Strike at the end of its movement. It can't Strike the same creature more than once."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +23 (reach 10 feet); Damage 2d12+13 (2d12+13) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +23 (agile, reach 10 feet); Damage 2d8+13 (2d8+13) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      3,
+      7,
+      -1,
+      1,
+      4
+    ]
+  }
+}

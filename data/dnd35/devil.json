@@ -1,0 +1,291 @@
+{
+  "name": "Devil",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Outsider",
+  "subtype": "Evil, Extraplanar, Lawful",
+  "alignment": "Always lawful evil",
+  "cr": "20",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 14,
+    "notes": "+4 natural",
+    "touch": 10,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 225,
+    "formula": "18d8+144"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": 60,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft. (8 squares), fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 37,
+    "dex": 27,
+    "con": 27,
+    "int": 26,
+    "wis": 26,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +19, Ref +19, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Balance +10, Bluff +29, Climb +34, Concentration +29, Diplomacy +10, Disguise +29 (+31 Acting), Hide +25, Intimidate +31, Jump +40, Knowledge (arcana) +29, Knowledge (nature) +10, Knowledge (the Planes) +29, Knowledge (religion) +29, Listen +29, Move Silently +29, Search +29, Spellcraft +31, Spot +29, Survival +8 (+10 On Other Planes, 3.5 Skill List#| +10 When Tracking), Tumble +31;",
+    "list": {
+      "Concentration": "+29",
+      "Diplomacy": "+10",
+      "Hide": "+25",
+      "Intimidate": "+31",
+      "Listen": "+29",
+      "Move Silently": "+29",
+      "Search": "+29",
+      "Sense Motive": "+23",
+      "Spot": "+29",
+      "Survival": "+8",
+      "Climb": "+34",
+      "Bluff": "+29",
+      "Disguise": "+29",
+      "Escape Artist": "+17",
+      "Use Rope": "+5",
+      "Balance": "+10",
+      "Jump": "+40",
+      "Swim": "+17",
+      "Spellcraft": "+31",
+      "Tumble": "+31"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "scent",
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "darkvision 60 ft.",
+    "darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+12",
+  "babOrProficiency": 18,
+  "feats": [
+    "Cleave",
+    "Great Cleave",
+    "Improved Initiative",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack",
+    "Quicken Spell -Like Ability (*fireball*)"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Fear, improved grab, impale 3d8+9, *summon devil*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Barbed defense, damage reduction 10/good, darkvision 60 ft., immunity to fire and poison, resistance to acid 10 and cold 10, see in darkness, spell resistance 23, spell-like abilities, telepathy 100 ft."
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Infernal wound, beard, battle frenzy, *summon devil*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 5/silver or good, darkvision 60 ft., immunity to fire and poison, resistance to acid 10 and cold 10, see in darkness, spell resistance 17, telepathy 100 ft."
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Spell-like abilities, fear aura, poison, *summon devil*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 10/good, darkvision 60 ft., immunity to fire and poison, resistance to acid 10 and cold 10, see in darkness, spell resistance 21, telepathy 100 ft."
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Dancing chains, unnerving gaze"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 5/silver or good, darkvision 60 ft., immunity to cold, regeneration 2, spell resistance 18"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Entangle, spell-like abilities, *summon devil*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 5/good, darkvision 60 ft., immunity to fire and poison, resistance to acid 10 and cold 10, see in darkness, spell resistance 20, telepathy 100 ft., true seeing"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Improved grab, pounce, rake 1d8+3"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 5/good, darkvision 60 ft., invisible in light, resistance to fire 10, scent, spell resistance 19, telepathy 100 ft."
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Fear aura, infernal wound, spell-like abilities, stun, *summon devil*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 10/good and silver, darkvision 60 ft., immunity to fire and poison, resistance to acid 10 and cold 10, regeneration 5, see in darkness, spell resistance 28, telepathy 100 ft."
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Fear aura, slow, spell-like abilities, *summon devil*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 10/good, darkvision 60 ft., immunity to fire and poison, resistance to acid 10 and cold 10, regeneration 5, see in darkness, spell resistance 25, telepathy 100 ft."
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Poison, spell-like abilities"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Alternate form, damage reduction 5/good or silver, darkvision 60 ft., fast healing 2, immunity to poison, resistance to fire 5"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 5/good or silver, darkvision 60 ft., immunity to fire and poison, mindless, resistance to acid 10 and cold 10, mindless, see in darkness"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Constrict 2d8+26, fear aura, improved grab, spell-like abilities, *summon devil*"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 15/good and silver, darkvision 60 ft., immunity to fire and poison, resistance to acid 10 and cold 10, regeneration 5, see in darkness, spell resistance 32, telepathy 100 ft."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Claw +18 melee (2d8+6 plus fear)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +18 melee (2d8+6 plus fear)"
+    },
+    {
+      "name": "Attack",
+      "text": "Glaive +9 melee (1d10+3 plus infernal wound) or claw +8 melee (1d6+2)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Glaive +9/+4 melee (1d10+3 plus infernal wound) or 2 claws +8 melee (1d6+2)"
+    },
+    {
+      "name": "Attack",
+      "text": "Bite +14 melee (1d8+5)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +14 melee (1d8+5) and 2 claws +12 melee (1d4+2) and sting +12 melee (3d4+2 plus poison)"
+    },
+    {
+      "name": "Attack",
+      "text": "Chain +10 melee (2d4+2/19-20)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 chains +10 melee (2d4+2/19-20)"
+    },
+    {
+      "name": "Attack",
+      "text": "Longsword +14 melee (1d8+5/19-20) or *+1 flaming composite longbow* (+5 Str bonus) +15 ranged (1d8+6/x3 plus 1d6 fire) or rope +14 ranged (entangle)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Longsword +14/+9 melee (1d8+5/19-20) or *+1 flaming composite longbow* (+5 Str bonus) +15/+10 ranged (1d8+6/x3 plus 1d6 fire) or rope +14 ranged (entangle)"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +13 melee (1d8+6)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +13 melee (1d8+6) and bite +8 melee (2d8+3)"
+    },
+    {
+      "name": "Attack",
+      "text": "Spiked chain +25 melee (2d6+15 plus stun) or claw +24 melee (2d6+10) or tail +24 melee (2d6+10 plus infernal wound)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Spiked chain +25/+20/+15 melee (2d6+15 plus stun) and bite +22 melee (2d8+5) and tail +22 melee (2d6+5 plus infernal wound); or 2 claws +24 melee (2d6+10) and bite + 22 melee (2d8+5) and tail +22 melee (2d6+5 plus infernal wound)"
+    },
+    {
+      "name": "Attack",
+      "text": "Spear +20 melee (2d6+9/x3 plus slow) or claw +19 melee (1d10+6)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Spear +20/+15/+10 melee (2d6+9/x3 plus slow) and bite +14 melee (2d6+3) and tail +14 melee (3d6+3 plus slow); or 2 claws +19 melee (1d10+6) and bite +14 melee (2d6+3) and tail +14 melee (3d6+3 plus slow)"
+    },
+    {
+      "name": "Attack",
+      "text": "Sting +8 melee (1d4 plus poison)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Sting +8 melee (1d4 plus poison)"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +2 melee (1d4)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +2 melee (1d4)"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +30 melee (2d8+13)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +30 melee (2d8+13) and 2 wings +28 melee (2d6+6) and bite +28 melee (4d6+6 plus poison plus disease) and tail slap +28 melee (2d8+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Devils are fiends from lawful evil-aligned planes.",
+    "grapple": "+35",
+    "spaceReach": "10 ft./10 ft.",
+    "environment": "A lawful evil-aligned plane",
+    "organization": "Solitary, pair, team (3-4), or troupe (1-2 pit fiends, 2-5 horned devils, and 2-5 barbed devils)",
+    "treasure": "Standard coins; double goods; standard items",
+    "advancement": "19-36 HD (Large); 37-54 HD (Huge)",
+    "leveladjustment": "---"
+  }
+}

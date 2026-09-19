@@ -1,0 +1,88 @@
+{
+  "name": "Spark Bat",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 106.",
+  "size": "Tiny",
+  "type": "Elemental",
+  "subtype": "Air",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 18,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 feet, fly 50 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 12,
+    "int": 2,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +5, Ref +11, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +9 (1d20+9); __Stealth__: +9 (1d20+9); ",
+    "list": {
+      "Acrobatics": "+9",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Arc Lightning",
+      "text": "[(move, electricity, primal, transmutation) The spark bat transforms into lightning that arcs to a large piece of metal within 100 feet, such as a suit of metal armor or a metal weapon. The bat then returns to its normal form in a space adjacent to the metal. This movement doesn't trigger reactions."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +11 (agile, finesse); Damage 1d4+5 (1d4+5) electricity"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      3,
+      1,
+      -4,
+      1,
+      0
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Earthen Destrier",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 108.",
+  "size": "Large",
+  "type": "Elemental",
+  "subtype": "Earth",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": ""
+  },
+  "hp": {
+    "average": 72,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 feet, burrow 30 feet; earth glide;"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 18,
+    "int": 8,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +14, Ref +9, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +12 (1d20+12); ",
+    "list": {
+      "Athletics": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tremorsense 60"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Terran"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Earth Glide",
+      "text": "An earthen destrier can Burrow through earthen matter, including rock. When it does so, it moves at its full burrow Speed, leaving no tunnels or signs of its passing."
+    },
+    {
+      "name": "Lancing Charge",
+      "text": "If the destrier moved at least 10 feet directly before its lance arm Strike, it gains a +2 circumstance bonus to its damage roll."
+    },
+    {
+      "name": "Tilting Strike",
+      "text": "⬲ Trigger The earthen destrier tramples a creature Effect The earthen destrier makes a lance arm Strike against the creature it's trampling at a –5 penalty."
+    },
+    {
+      "name": "Trample",
+      "text": "⬽ Medium or smaller, hoof, DC 20."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ lance arm +14 (deadly d8, reach 10 feet); Damage 2d8+6 (2d8+6) piercing and lancing charge"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ hoof +14 Damage 2d6+6 (2d6+6) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      1,
+      4,
+      -1,
+      3,
+      0
+    ]
+  }
+}

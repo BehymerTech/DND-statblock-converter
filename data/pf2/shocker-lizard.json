@@ -1,0 +1,109 @@
+{
+  "name": "Shocker Lizard",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 240.",
+  "size": "Small",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 32,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet, climb 15 feet, swim 15 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 18,
+    "con": 16,
+    "int": 2,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +7, Ref +10, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Athletics__: +5 (1d20+5); __Stealth__: +8 (1d20+8); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Athletics": "+5",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater electrolocation 20, low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Greater Electrolocation",
+      "text": "A shocker lizard can sense minute electrical charges in living creatures, which it can use as a precise sense at a range of 20 feet. This distance increases to 100 feet against any creature that has used an electricity effect within the last minute."
+    },
+    {
+      "name": "Amplify Voltage",
+      "text": "⬲ Trigger A shocker lizard within 20 feet makes a shock Strike or uses Discharge Effect The shocker lizard lends some of its electrical power to the nearby lizard. This either causes the other lizard's shock Strike to lose the nonlethal trait or increases the DC of its Discharge to 20."
+    },
+    {
+      "name": "Discharge",
+      "text": "⬺ (electricity); The shocker lizard releases a blast of lightning from its body. Creatures within a 10-foot emanation take 3d6 (3d6) electricity damage (DC 18 basic Reflex save). The shocker lizard can't use Discharge for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Shocking Burst",
+      "text": "⬽ (electricity, evocation, primal); The shocker lizard hunkers down and begins to spark with electricity, which it releases in a 10-foot emanation that deals 3d8 (3d8) electricity damage (DC 18 basic Reflex save). The shocker lizard can't use."
+    },
+    {
+      "name": "Shocking",
+      "text": "Burst again for 1 minute. Up to four shocker lizards can combine their Shocking Bursts. In this case, the lizards can delay the release of their electricity until any other shocker lizard within 30 feet completes its Shocking Burst. The combined Shocking Bursts create an emanation with the combined area from all participating shocker lizards. For each additional shocker lizard that joins the burst, the damage increases by 3d8 (3d8) and the save DC increases by 1 (to a maximum of four lizards dealing 12d8 (12d8) damage with a DC 21 save)."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +10 (agile, finesse); Damage 1d8+3 (1d8+3) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ shock +10 (nonlethal, range increment 5 feet); Damage 2d6 (2d6) electricity"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      4,
+      3,
+      -4,
+      3,
+      0
+    ]
+  }
+}

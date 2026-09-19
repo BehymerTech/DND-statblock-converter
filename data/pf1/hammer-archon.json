@@ -1,0 +1,115 @@
+{
+  "name": "Hammer Archon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 107: Scourge of the Godclaw",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "archon, extraplanar, good, lawful",
+  "alignment": "LG",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 33,
+    "notes": "armor +11, dex +1, natural +12, size -1",
+    "touch": 10,
+    "flatFooted": 32
+  },
+  "hp": {
+    "average": 310,
+    "formula": "20d10+200"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 90 ft. (good)"
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 13,
+    "con": 30,
+    "int": 16,
+    "wis": 20,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +16, Ref +13, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +27, Fly +21, Intimidate +27, Knowledge (engineering) +26, Knowledge (history) +26, Knowledge (planes) +26, Perception +28, Sense Motive +28, Survival +28",
+    "list": {
+      "Diplomacy": "+27",
+      "Fly": "+21",
+      "Intimidate": "+27",
+      "Perception": "+28",
+      "Sense Motive": "+28",
+      "Survival": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect evil",
+    "low-light vision"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 20,
+  "feats": [
+    "Cleave",
+    "Great Cleave",
+    "Greater Sunder",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Improved Vital Strike",
+    "Power Attack",
+    "Sundering Strike",
+    "Vital Strike",
+    "Weapon Focus (lucerne hammer)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+4 impact lucerne hammer +30/+25/+20/+15 (4d6+13)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This stern-looking humanoid wears a suit of armor decorated with sharp lines. He wields a hammer-headed polearm with a wicked spike on its reverse side.",
+  "meta": {
+    "cmb": "27 (+31 bull rush, +31 sunder)",
+    "cmd": "38 (40 vs. sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Heaven)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or squad (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+2 full plate, +4 impact lucerne hammer, other treasure)"
+      }
+    ]
+  }
+}

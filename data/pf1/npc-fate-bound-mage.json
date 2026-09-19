@@ -1,0 +1,105 @@
+{
+  "name": "NPC Fate-Bound Mage",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "N",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 24,
+    "notes": "armor +4, deflection +3, dex +1, dodge +1, insight +2, natural +3",
+    "touch": 17,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 122,
+    "formula": "19d6+53"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 13,
+    "con": 12,
+    "int": 14,
+    "wis": 15,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +10, Ref +14, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +20, Diplomacy +17, Fly +11, Intimidate +20, Knowledge (arcana) +15, Knowledge (history) +15, Perception +21, Spellcraft +24",
+    "list": {
+      "Bluff": "+20",
+      "Diplomacy": "+17",
+      "Fly": "+11",
+      "Intimidate": "+20",
+      "Perception": "+21",
+      "Spellcraft": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 31,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Elven",
+    "Infernal"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Casting",
+    "Combat Expertise",
+    "Diehard",
+    "Dodge",
+    "Eschew Materials",
+    "Greater Spell Focus (evocation)",
+    "Improved Initiative",
+    "Improved Lightning Reflexes",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Maximize Spell",
+    "Mobility",
+    "Quicken Spell",
+    "Silent Spell",
+    "Spell Focus (evocation)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "staff of fire +8/+3 (1d6-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "sorcerer 19",
+    "cmb": "+8",
+    "cmd": 25
+  }
+}

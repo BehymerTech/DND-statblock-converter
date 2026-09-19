@@ -1,0 +1,116 @@
+{
+  "name": "Ashen Forgemaster",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 138: Rise of New Thassilon",
+  "size": "Large",
+  "type": "undead",
+  "subtype": "extraplanar, fire",
+  "alignment": "CE",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 32,
+    "notes": "dex +5, natural +18, size -1",
+    "touch": 14,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 290,
+    "formula": "20d8+200"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 21,
+    "con": "None",
+    "int": 23,
+    "wis": 8,
+    "cha": 31
+  },
+  "saves": {
+    "text": "Fort +16, Ref +11, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +20, Craft (armorsmithing) +34, Craft (blacksmithing) +34, Craft (weaponsmithing) +34, Intimidate +23, Knowledge (engineering) +26, Knowledge (planes) +26, Perception +28, Spellcraft +29",
+    "list": {
+      "Bluff": "+20",
+      "Intimidate": "+23",
+      "Perception": "+28",
+      "Spellcraft": "+29"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "smoke vision"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Common",
+    "Ignan"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 15,
+  "feats": [
+    "Cleave",
+    "Combat Reflexes",
+    "Craft Magic Arms and ArmorB",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Power Attack",
+    "Quicken Spell-Like Ability (detonate)",
+    "Skill Focus (Perception)",
+    "Vital Strike",
+    "Weapon Focus (spear)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 impervious transformative spear +28/+23/+18 (2d6+17/×3 plus 2d6 fire), tail slap +20 (3d6+5 plus 2d6 fire and grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hulking, serpentine creature resembles an oversized salamander devoid of color. Its flesh is pockmarked with coal-like scales and metallic piercings, and it carries a fearsome spear.",
+  "meta": {
+    "cmb": "26 (+30 grapple)",
+    "cmd": 41,
+    "racialModifiers": [
+      "Craft (armorsmithing) 8",
+      "Craft (blacksmithing) 8",
+      "Craft (weaponsmithing) 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cluster (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+2 impervious transformative spear, other nonflammable treasure)"
+      }
+    ]
+  }
+}

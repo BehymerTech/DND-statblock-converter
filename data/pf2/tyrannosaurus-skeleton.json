@@ -1,0 +1,99 @@
+{
+  "name": "Tyrannosaurus Skeleton",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 236.",
+  "size": "Gargantuan",
+  "type": "Undead",
+  "subtype": "Mindless, Skeleton",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 9",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 140,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 10,
+    "con": 20,
+    "int": 0,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +20, Ref +13, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +22 (1d20+22); ",
+    "list": {
+      "Athletics": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Radiant",
+      "text": "Fire that laid waste to Skills Athletics +22 Str +7, Dex +0, Con +5, Int –5, Wis +2, Cha +0."
+    },
+    {
+      "name": "Rib Skewer",
+      "text": "⬻ The tyrannosaurus skeleton bends down, attempting to skewer one adjacent creature on one of its massive ribs. The creature takes 2d10+9 (2d10+9) piercing damage (DC 28 basic Reflex save). If the creature fails its save and is Medium or smaller, it's also impaled and stuck to the rib. It moves with the skeleton and takes 2d6 (2d6) persistent bleed damage until it either Escapes or someone uses Force Open to break the rib (either is DC 28)."
+    },
+    {
+      "name": "Trample",
+      "text": "⬽ Huge or smaller, foot, DC 28"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +20 (deadly d12, reach 20 feet); Damage 2d12+9 (2d12+9) piercing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ foot +20 (reach 15 feet); Damage 2d10+9 (2d10+9) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      0,
+      5,
+      -5,
+      2,
+      0
+    ]
+  }
+}

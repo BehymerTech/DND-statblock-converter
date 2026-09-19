@@ -1,0 +1,89 @@
+{
+  "name": "NPC Dwarven Rager",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "alignment": "CN",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 18,
+    "notes": "armor +6, dex +2, rage -2, shield +2",
+    "touch": 10,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 28,
+    "formula": "2d12+10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 15,
+    "con": 19,
+    "int": 10,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +7, Ref +2, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +3, Knowledge (dungeoneering) +2, Knowledge (engineering) +2, Perception +7, Survival +6",
+    "list": {
+      "Climb": "+3",
+      "Perception": "+7",
+      "Survival": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 17,
+  "languages": [
+    "Common",
+    "Dwarven"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 2,
+  "feats": [
+    "Two-Weapon Fighting"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk dwarven waraxe +7 (1d10+4/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "throwing axe +4 (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Dwarf",
+    "class": "barbarian 2",
+    "cmb": "+6",
+    "cmd": "16 (20 vs. bull rush or trip)"
+  }
+}

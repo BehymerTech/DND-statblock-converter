@@ -1,0 +1,111 @@
+{
+  "name": "Terotricus",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 311.",
+  "size": "Gargantuan",
+  "type": "Fungus",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 19",
+  "xp": null,
+  "ac": {
+    "value": 42,
+    "notes": ""
+  },
+  "hp": {
+    "average": 370,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet; burrow 25 feet, climb 25 feet, swim 35 feet;"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 20,
+    "con": 28,
+    "int": 8,
+    "wis": 22,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +34, Ref +28, Will +33",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +37 (1d20+37); __Deception__: +32 (1d20+32); __Intimidation__: +35 (1d20+35); __Nature__: +31 (1d20+31); __Survival__: +31 (1d20+31); ",
+    "list": {
+      "Athletics": "+37",
+      "Deception": "+32",
+      "Intimidation": "+35",
+      "Nature": "+31",
+      "Survival": "+31"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tremorsense 120"
+  ],
+  "passivePerception": 41,
+  "languages": [
+    "Abyssal",
+    "Elven",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Spore Cloud",
+      "text": "(aura, disease); 30 feet. A creature entering the aura or starting its turn there is exposed to spore blight."
+    },
+    {
+      "name": "Infest Environs",
+      "text": "⬺ (healing, necromancy, primal); Requirements The terotricus is in a swamp or forested area. Frequency once per day Effect The terotricus drains nutrients from nearby trees and undergrowth while simultaneously infesting them with fungal growth. All non-magical plant life (though not plant creatures) within a 60-foot emanation withers and sprouts foul mold and slimy mushrooms, removing any cover and concealment provided by trees and undergrowth. The terotricus is healed 200 Hit Points."
+    },
+    {
+      "name": "Spore Blight",
+      "text": "(disease); Saving Throw DC 40 Fortitude. Stage 1 enfeebled 2 (1 day) Stage 2 enfeebled 4 and slowed 1 (1 day) Stage 3 controlled by the terotricus (as dominate; (null)"
+    },
+    {
+      "name": "Sticky Spores",
+      "text": "A creature hit by a terotricus's spores must succeed at a DC 40 Reflex save or take a –10-foot status penalty to all its Speeds for 1 minute. On a critical failure, the creature is immobilized until it Escapes (DC 40)."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ tentacle +37 (chaotic, evil, magical, reach 20 feet); Damage 4d10+16 (4d10+16) bludgeoning plus 2d6 (2d6) chaotic, 2d6 (2d6) evil, and Improved Grab or Improved Push 20 feet (40 feet on a critical hit)"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ spores +37 (chaotic, evil, magical, range increment 80 feet); Damage 4d8+6 (4d8+6) poison plus 2d6 (2d6) chaotic, 2d6 (2d6) evil, spore blight, and sticky spores"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      10,
+      5,
+      9,
+      -1,
+      6,
+      5
+    ]
+  }
+}

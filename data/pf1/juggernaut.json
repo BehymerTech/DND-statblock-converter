@@ -1,0 +1,91 @@
+{
+  "name": "Juggernaut",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Gargantuan",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 26,
+    "notes": "natural +20, size -4",
+    "touch": 6,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 142,
+    "formula": "15d10+60"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 11,
+    "con": "None",
+    "int": "None",
+    "wis": 18,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +5, Ref +5, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 15,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +24 (4d6+19 plus wounding)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This oppressive construct rumbles forth on deadly rollers, crushing everything in its path.",
+  "meta": {
+    "cmb": "+32",
+    "cmd": "42 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

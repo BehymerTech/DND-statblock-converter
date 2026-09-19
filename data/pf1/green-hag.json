@@ -1,0 +1,107 @@
+{
+  "name": "Green Hag",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 19,
+    "notes": "dex +1, natural +8",
+    "touch": 11,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 58,
+    "formula": "9d10+9"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 12,
+    "con": 12,
+    "int": 15,
+    "wis": 13,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +6, Ref +7, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +13, Disguise +13, Knowledge (arcana) +11, Perception +15, Sense Motive +9, Stealth +13, Swim +18",
+    "list": {
+      "Bluff": "+13",
+      "Disguise": "+13",
+      "Perception": "+15",
+      "Sense Motive": "+9",
+      "Stealth": "+13",
+      "Swim": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 9,
+  "feats": [
+    "Alertness",
+    "Blind-Fight",
+    "Combat Casting",
+    "Deceitful",
+    "Great Fortitude"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +13 (1d4+4 plus weakness)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Knots of dark, moldering hair spill over the features of this sickly, thin, green-skinned crone.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": 24,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate marshes"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or coven (3 hags of any kind)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

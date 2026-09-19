@@ -1,0 +1,99 @@
+{
+  "name": "Incubus",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "",
+  "alignment": "Neutral Evil",
+  "cr": "4",
+  "level": null,
+  "xp": 1100,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 66,
+    "formula": "12d8 + 12"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 60,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., Fly 60 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 17,
+    "con": 13,
+    "int": 15,
+    "wis": 12,
+    "cha": 20
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Deception +9, Insight +5, Perception +5, Persuasion +9, Stealth +7",
+    "list": {
+      "Deception": "+9",
+      "Insight": "+5",
+      "Perception": "+5",
+      "Persuasion": "+9",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Infernal; telepathy 60 ft."
+  ],
+  "initiative": "+3 (13)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Succubus Form",
+      "text": "When the incubus finishes a Long Rest, it can shape-shift into a **Succubus**, using that stat block instead of this one. Any equipment it is wearing or carrying isn't transformed."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The incubus makes two Restless Touch attacks."
+    },
+    {
+      "name": "Restless Touch",
+      "text": "_Melee Attack Roll:_ +7, reach 5 ft. _Hit:_ 15 (3d6 + 5) Psychic damage, and the target is cursed for 24 hours or until the incubus dies. Until the curse ends, the target gains no benefit from finishing Short Rests."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The incubus casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 15): <br> &emsp;**At Will:** _Disguise Self, Etherealness_ <br> &emsp;**1/Day Each:** _Dream, Hypnotic Pattern_"
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Nightmare (Recharge 6)",
+      "text": "_Wisdom Saving Throw:_ DC 15, one creature the incubus can see within 60 feet. _Failure:_ If the target has 20 Hit Points or fewer, it has the Unconscious condition for 1 hour, until it takes damage, or until a creature within 5 feet of it takes an action to wake it. Otherwise, the target takes 18 (4d8) Psychic damage. ## Invisible Stalker"
+    }
+  ],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

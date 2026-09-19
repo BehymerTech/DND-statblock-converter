@@ -1,0 +1,106 @@
+{
+  "name": "Shambling Mound",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Plant",
+  "subtype": "",
+  "alignment": "Usually neutral",
+  "cr": "6",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": "-1 size, +11 natural",
+    "touch": 9,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 60,
+    "formula": "8d8+24"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": 20,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft. (4 squares), swim 20 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 10,
+    "con": 17,
+    "int": 7,
+    "wis": 10,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +9, Ref +2, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Shamblers have a +4 racial bonus on Hide, Listen, and Move Silently checks. \\*They have a +12 racial bonus on Hide checks when in a swampy or forested area.",
+    "list": {
+      "Hide": "+3",
+      "Listen": "+8",
+      "Move Silently": "+8",
+      "Shamblers have a": "+4",
+      "They have a": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 6,
+  "feats": [
+    "Iron Will",
+    "Power Attack",
+    "Weapon Focus (slam)"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Improved grab, constrict 2d6+7"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., immunity to electricity, low-light vision, plant traits, resistance to fire 10"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Slam +11 melee (2d6+5)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 slams +11 melee (2d6+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Shambling mounds, also called shamblers, appear to be heaps of rotting vegetation. They are actually intelligent, carnivorous plants.",
+    "grapple": "+15",
+    "spaceReach": "10 ft./10 ft.",
+    "environment": "Temperate marshes",
+    "organization": "Solitary",
+    "treasure": "1/10th coins; 50% goods; 50% items",
+    "advancement": "9-12 HD (Large); 13-24 HD (Huge)",
+    "leveladjustment": "+6"
+  }
+}

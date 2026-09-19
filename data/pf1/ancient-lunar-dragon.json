@@ -1,0 +1,121 @@
+{
+  "name": "Ancient Lunar Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Gargantuan",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 37,
+    "notes": "dex -2, natural +33, size -4",
+    "touch": 4,
+    "flatFooted": 37
+  },
+  "hp": {
+    "average": 348,
+    "formula": "24d12+192"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 250 ft. (clumsy), burrow 20 ft."
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 7,
+    "con": 24,
+    "int": 24,
+    "wis": 26,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +21, Ref +12, Will +22",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +34, Diplomacy +34, Fly +11, Intimidate +34, Knowledge (arcana) +30, Knowledge (geography) +30, Knowledge (history) +30, Knowledge (local) +30, Knowledge (nature) +30, Knowledge (planes) +30, Perception +35, Sense Motive +35, Spellcraft +34, Use Magic Device +34",
+    "list": {
+      "Bluff": "+34",
+      "Diplomacy": "+34",
+      "Fly": "+11",
+      "Intimidate": "+34",
+      "Perception": "+35",
+      "Sense Motive": "+35",
+      "Spellcraft": "+34",
+      "Use Magic Device": "+34"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "see in darkness"
+  ],
+  "passivePerception": 45,
+  "languages": [
+    "Aklo",
+    "Aquan",
+    "Auran",
+    "Common",
+    "Draconic",
+    "Ignan",
+    "Terran"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 24,
+  "feats": [
+    "Arcane Strike",
+    "Combat Casting",
+    "Dazing Assault",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Multiattack",
+    "Power Attack",
+    "Quicken Spell-Like Ability (moonstruck)",
+    "Toughness",
+    "Vital Strike",
+    "Wingover"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +32 (4d6+18), 2 claws +32 (2d8+12), 2 wings +30 (2d8+6), tail slap +30 (2d8+18)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+40",
+    "cmd": "48 (52 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "vacuum"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Ancient Astral Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Gargantuan",
+  "type": "dragon",
+  "subtype": "extraplanar",
+  "alignment": "N",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 37,
+    "notes": "natural +31, size -4",
+    "touch": 6,
+    "flatFooted": 37
+  },
+  "hp": {
+    "average": 348,
+    "formula": "24d12+192"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 250 ft. (clumsy)"
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 10,
+    "con": 24,
+    "int": 25,
+    "wis": 24,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +21, Ref +14, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +34, Bluff +32, Diplomacy +32, Fly +13, Intimidate +32, Knowledge (arcana) +34, Knowledge (history) +34, Knowledge (nobility) +34, Knowledge (planes) +34, Knowledge (religion) +34, Perception +34, Sense Motive +34, Stealth +15",
+    "list": {
+      "Appraise": "+34",
+      "Bluff": "+32",
+      "Diplomacy": "+32",
+      "Fly": "+13",
+      "Intimidate": "+32",
+      "Perception": "+34",
+      "Sense Motive": "+34",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "see invisibility"
+  ],
+  "passivePerception": 44,
+  "languages": [
+    "Aklo",
+    "Auran",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 24,
+  "feats": [
+    "Cleave",
+    "Flyby Attack",
+    "Great Cleave",
+    "Improved Initiative",
+    "Iron Will",
+    "Lunge",
+    "Multiattack",
+    "Power Attack",
+    "Snatch",
+    "Toughness",
+    "Vital Strike",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +33 (4d6+18), 2 claws +32 (2d8+12), 2 wings +30 (2d6+6), tail slap +30 (2d8+18)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+40",
+    "cmd": "50 (54 vs. trip)"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "name": "Treerazer",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 312.",
+  "size": "Huge",
+  "type": "Fiend",
+  "subtype": "Amphibious, Demon",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 25",
+  "xp": null,
+  "ac": {
+    "value": 54,
+    "notes": ""
+  },
+  "hp": {
+    "average": 550,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 feet, fly 60 feet, swim 40 feet; freedom of movement;"
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 28,
+    "con": 32,
+    "int": 24,
+    "wis": 26,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +42, Ref +40, Will +43",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +40 (1d20+40); __Arcana__: +38 (1d20+38); __Athletics__: +45 (1d20+45); __Intimidation__: +46 (1d20+46); __Nature__: +49 (1d20+49); __Occultism__: +38 (1d20+38); __Religion__: +45 (1d20+45); __Stealth__: +40 (1d20+40); ",
+    "list": {
+      "Acrobatics": "+40",
+      "Arcana": "+38",
+      "Athletics": "+45",
+      "Intimidation": "+46",
+      "Nature": "+49",
+      "Occultism": "+38",
+      "Religion": "+45",
+      "Stealth": "+40"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, true seeing"
+  ],
+  "passivePerception": 56,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Elven",
+    "Sylvan; telepathy 300 ft."
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Aura of Corruption",
+      "text": "(aura, plant, primal, transmutation); 120 feet. Plants near Treerazer twist, deform, and transform into thorny or fungoid parodies of their natural shapes. A living creature in this area must succeed at a DC 47 Fortitude save each round or become partially transformed into plantlike matter. Those who fail this saving throw are treated as if they were plants for the purposes of any effect that particularly harms or inconveniences plant creatures more than other creatures, but do not gain any benefits of being plant creatures. This effect lasts as long as the creature remains within the area of corruption and for 1 minute thereafter."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "Blackaxe (page 313);"
+    },
+    {
+      "name": "Defoliation",
+      "text": "⬺ (primal, necromancy, plant); Treerazer exudes a pulse of sickly green light in a 30-foot-radius emanation. All plants in the area (including creatures under the effect of his aura of corruption) blacken and wither. Non-creature plants immediately wither and die. Plant creatures take 20d8 (20d8) negative damage with a DC 49 basic Fortitude save. A creature that fails its save is doomed 1 for 1 minute and sickened 3. Treerazer can choose to exclude any number of plants in the area from this effect, and generally does so to preserve twisted and corrupted plants or fungi, or plant creatures that are allied to his cause. Treerazer can't use Defoliation for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Dispelling Strike",
+      "text": "⭓ (abjuration, primal); Frequency once per round Trigger Treerazer hits a creature, object, or spell effect with a weapon Strike or a defoliation attack. Effect Treerazer casts his innate dispel magic, targeting the creature he hit with his Strike or one spell affecting that creature."
+    },
+    {
+      "name": "Staggering Strike",
+      "text": "When Treerazer scores a critical hit with a melee attack, the target is stunned 2."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ Blackaxe +47 (acid, chaotic, evil, magical, reach 15 feet, sweep; page 313); Damage 4d12+15 (4d12+15) slashing plus 1d6 (1d6) acid, 1d6 (1d6) chaotic, and 1d6 (1d6) evil, and 2d6 (2d6) slashing vs. plants"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +45 (agile, chaotic, evil, magical, reach 15 feet); Damage 4d10+18 (4d10+18) slashing plus 2d6 (2d6) chaotic and 2d6 (2d6) evil"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      12,
+      9,
+      11,
+      7,
+      8,
+      8
+    ],
+    "items": "Blackaxe (page 313);"
+  }
+}

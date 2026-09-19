@@ -1,0 +1,132 @@
+{
+  "name": "Krampus",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 154.",
+  "size": "Large",
+  "type": "Humanoid",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 21",
+  "xp": null,
+  "ac": {
+    "value": 46,
+    "notes": ""
+  },
+  "hp": {
+    "average": 380,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 feet; air walk, snowstep;"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 24,
+    "con": 30,
+    "int": 22,
+    "wis": 22,
+    "cha": 30
+  },
+  "saves": {
+    "text": "Fort +39, Ref +34, Will +35",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +36 (1d20+36); __Athletics__: +39 (1d20+39); __Intimidation__: +42 (1d20+42); __Society__: +35 (1d20+35); __Stealth__: +39 (1d20+39); __Survival__: +38 (1d20+38); __Festival lore__: +35 (1d20+35); ",
+    "list": {
+      "Acrobatics": "+36",
+      "Athletics": "+39",
+      "Intimidation": "+42",
+      "Society": "+35",
+      "Stealth": "+39",
+      "Survival": "+38",
+      "Festival lore": "+35"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blizzard sight, imprecise scent 60, see invisibility"
+  ],
+  "passivePerception": 48,
+  "languages": [
+    "Common; tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Blizzard Sight",
+      "text": "Krampus ignores circumstance penalties to visual Perception checks due to ice or snow, as well as concealment due to ice or snow."
+    },
+    {
+      "name": "Items",
+      "text": "+3 greater striking cold iron spiked chain;"
+    },
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 120 feet, DC 42 (page 305)"
+    },
+    {
+      "name": "Limited Immortality",
+      "text": "Though Krampus still needs to eat, drink, and sleep, he doesn't age and can't die of old age. If Krampus is killed, a new Krampus forms elsewhere in the world after a year's time. The new Krampus retains the memories of the previous iteration and likely holds a grudge against whoever killed him the year before. If a method to disrupt this cycle exists, it has yet to be discovered by mortals."
+    },
+    {
+      "name": "Improved Grab",
+      "text": "⬻"
+    },
+    {
+      "name": "Capture",
+      "text": "⬻ (attack); Requirements Krampus has a Medium or smaller creature grabbed Effect Krampus attempts to stuff the grabbed creature into his basket, attempting an Athletics check against the target's Reflex DC. If he succeeds, the creature is shoved into Krampus's basket and Krampus's spiked chain or claw is freed for future Strikes. The captured creature is grabbed, slowed 1, and subjected to Krampus's regression ability (see below) at the start of each round it is captured. If the victim Escapes (DC 48), it climbs out of the basket. A captured creature can attack the interior of the basket, but only with unarmed attacks or weapons of light Bulk or less, against an AC of 40. If the captured creature deals 40 slashing or piercing damage, the basket is broken and all the creatures inside spill out. A creature that gets free by either Escaping or by someone breaking the basket is deposited in a square of their choosing adjacent to Krampus. The basket is an extradimensional space, so the weight of the creatures within doesn't count against Krampus's Bulk limit. Up to four Small creatures or two Medium creatures can fit in the basket at one time. Krampus can Repair the basket as a 2-action activity that doesn't require tools. If the basket is lost or destroyed, Krampus can create a new one with 1 hour of work. The basket functions as a normal sack if used by anyone other than Krampus."
+    },
+    {
+      "name": "Punish the Naughty",
+      "text": "⬻ (concentrate); Krampus designates a single target he can see as \"naughty.\" He gains a +2 circumstance bonus to Perception checks when he Seeks the naughty target and a +2 circumstance bonus to Survival checks to Track the naughty target. On melee attacks against the naughty target, Krampus's spiked chain gains the agile trait. In addition, when Krampus Grabs the naughty target, he can attempt to Capture them as a free action. Krampus can have only one naughty target at a time."
+    },
+    {
+      "name": "Regression",
+      "text": "(curse, polymorph, primal, transmutation); A creature that starts their turn Captured in Krampus's basket must attempt a DC 44 Fortitude save or be regressed back to their childhood. The target shrinks one size. In addition, all of the target's proficiencies of expert and better are reduced to trained, which might restrict the use of certain feats. The effect persists for 24 hours, after which the target regains their normal size and their proficiencies return to normal. A creature currently under the effects of regression can't be further affected by this ability. Snowstep Krampus ignores difficult terrain and greater difficult terrain caused by snow and ice, and he leaves no tracks when moving through areas of snow or ice."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ spiked chain +42 (disarm, evil, finesse, magical, reach 60 feet, trip); Damage 3d8+18 (3d8+18) slashing plus Improved Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +41 (agile, magical, reach 10 feet); Damage 4d6+25 (4d6+25) slashing plus"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ horn +41 (magical); Damage 4d10+25 (4d10+25) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      10,
+      7,
+      10,
+      6,
+      6,
+      10
+    ],
+    "items": "+3 greater striking cold iron spiked chain;"
+  }
+}

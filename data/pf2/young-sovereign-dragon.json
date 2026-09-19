@@ -1,0 +1,132 @@
+{
+  "name": "Young Sovereign Dragon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 81.",
+  "size": "Large",
+  "type": "Earth",
+  "subtype": "Dragon",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 11",
+  "xp": null,
+  "ac": {
+    "value": 31,
+    "notes": ""
+  },
+  "hp": {
+    "average": 195,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, fly 120 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 16,
+    "con": 20,
+    "int": 16,
+    "wis": 20,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +22, Ref +18, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +18 (1d20+18); __Athletics__: +22 (1d20+22); __Deception__: +21 (1d20+21); __Diplomacy__: +25 (1d20+25); __Intimidation__: +23 (1d20+23); __Occultism__: +18 (1d20+18); __Society__: +20 (1d20+20); __Stealth__: +18 (1d20+18); __Survival__: +20 (1d20+20); ",
+    "list": {
+      "Acrobatics": "+18",
+      "Athletics": "+22",
+      "Deception": "+21",
+      "Diplomacy": "+25",
+      "Intimidation": "+23",
+      "Occultism": "+18",
+      "Society": "+20",
+      "Stealth": "+18",
+      "Survival": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 90 feet, DC 28."
+    },
+    {
+      "name": "Violent Retort",
+      "text": "⬲ Trigger A creature within the sovereign dragon's reach critically hits the dragon Effect The sovereign dragon makes a claw or tail Strike against the creature, after applying all the effects of the critical hit to the dragon."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (evocation, mental, occult); The dragon unleashes a roar charged with psychic energy, dealing 12d6 (12d6) mental damage in a 30-foot cone (DC 30 basic Will save). The dragon can't use Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Coiling Frenzy",
+      "text": "⬺ The dragon makes one claw Strike and one tail Strike in either order, each against the same target. If either Strike hits, the dragon automatically Grabs the target."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 2d8+10 (2d8+10) bludgeoning, DC 26"
+    },
+    {
+      "name": "Draconic Momentum",
+      "text": "The dragon recharges their Breath Weapon whenever they score a critical hit with a Strike."
+    },
+    {
+      "name": "Gleaming Armor",
+      "text": "⬻ (evocation, light, occult); Frequency once per hour Effect The dragon's golden armor glows with a protective golden light. The dragon gains a +2 status bonus to AC and resistance 10 to energy damage. Each enemy in a 20-foot emanation must succeed at a DC 30 Fortitude save or be dazzled. All these effects last until the end of the dragon's next turn."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +24 (reach 10 feet); Damage 2d8+13 (2d8+13) piercing plus 2d6 (2d6) mental"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +24 (agile); Damage 2d8+13 (2d8+13) slashing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +24 (reach 20 feet); Damage 2d8+13 (2d8+13) bludgeoning plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      3,
+      5,
+      3,
+      5,
+      6
+    ]
+  }
+}

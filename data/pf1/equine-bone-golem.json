@@ -1,0 +1,84 @@
+{
+  "name": "Equine Bone Golem",
+  "sourceSystem": "pf1",
+  "source": "Tombs of Golarion",
+  "size": "Large",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 23,
+    "notes": "dex +2, natural +12, size -1",
+    "touch": 11,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 118,
+    "formula": "16d10+30"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 15,
+    "con": ".",
+    "int": ".",
+    "wis": 10,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +5, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 16,
+  "feats": [
+    "Improved InitiativeSpecial AbilitiesStaggering Stomp (Ex) An opponent hit by an equine bone golem’s hoof attack must succeed at a DC 23 Fortitude saving throw or be staggered for 1 round. The save DC is Strength-based.DescriptionAlthough bone golems are usually constructed in a humanoid shape",
+    "they can be fashioned into other forms. Among cultures that revere horses",
+    "equine bone golems are often a prized variant. Equine bone golems are constructed from the skeleton of a large horse",
+    "reinforced with bones from smaller creatures and sealed with sinew and resin. The hooves are weighted with stone or metal to deliver devastating stomp attacks."
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +21 (1d8+6), 2 hooves +16 (2d6+3 plus staggered)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This mass of bones is shaped like a horse, with bizarre limbs.",
+  "meta": {
+    "race": "Advanced",
+    "class": "variant bone golem (Pathfinder RPG Bestiary 3 133)",
+    "cmb": "+23",
+    "cmd": "35 (39 vs. trip)"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Lantern Archon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Small",
+  "type": "outsider",
+  "subtype": "archon, extraplanar, good, lawful",
+  "alignment": "LG",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 15,
+    "notes": "natural +4, size +1, deflect vs. evil +2",
+    "touch": 11,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 13,
+    "formula": "2d10+2"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 1,
+    "dex": 11,
+    "con": 12,
+    "int": 6,
+    "wis": 11,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +4, Ref +3, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +5, Fly +14, Knowledge (planes) +3, Perception +4, Sense Motive +5",
+    "list": {
+      "Diplomacy": "+5",
+      "Fly": "+14",
+      "Perception": "+4",
+      "Sense Motive": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Ranged",
+      "text": "2 light rays +3 ranged touch (1d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Shedding a warm and calming radiance, this orb of light moves with a preternatural silence and otherworldly grace.",
+  "meta": {
+    "cmb": "-4",
+    "cmd": 6,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Heaven)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or squad (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

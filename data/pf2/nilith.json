@@ -1,0 +1,99 @@
+{
+  "name": "Nilith",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 245.",
+  "size": "Medium",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 32,
+    "notes": ""
+  },
+  "hp": {
+    "average": 150,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, climb 30 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 20,
+    "con": 18,
+    "int": 16,
+    "wis": 16,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +17, Ref +20, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +21 (1d20+21); __Athletics__: +17 (1d20+17); __Intimidation__: +23 (1d20+23); __Occultism__: +19 (1d20+19); __Stealth__: +21 (1d20+21); __Survival__: +17 (1d20+17); ",
+    "list": {
+      "Acrobatics": "+21",
+      "Athletics": "+17",
+      "Intimidation": "+23",
+      "Occultism": "+19",
+      "Stealth": "+21",
+      "Survival": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Aklo",
+    "Common; telepathy 30 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Mind Crush",
+      "text": "⬻ (enchantment, mental, occult); Requirements The nilith has a creature grabbed. Effect The nilith reaches into the mind of the grabbed creature and implants disjointed images of the victim's worst fears and nightmares. The grabbed creature takes 6d6 (6d6) mental damage (DC 31 basic Will save). On a critical failure, the target is also affected as though by feeblemind, and it must attempt a second Will save against that effect."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +23 (agile, finesse, magical); Damage 2d10+9 (2d10+9) slashing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +23 (finesse, magical); Damage 2d12+9 (2d12+9) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      5,
+      4,
+      3,
+      3,
+      5
+    ]
+  }
+}

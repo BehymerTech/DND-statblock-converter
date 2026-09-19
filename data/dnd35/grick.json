@@ -1,0 +1,100 @@
+{
+  "name": "Grick",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "Usually neutral",
+  "cr": "3",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": "+2 Dex, +4 natural",
+    "touch": 12,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 9,
+    "formula": "2d8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": 20,
+    "burrow": null,
+    "notes": "30 ft. (6 squares), climb 20 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 11,
+    "int": 3,
+    "wis": 14,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +0, Ref +2, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +10, Hide +3\\*, Listen +6, Spot +6;",
+    "list": {
+      "Climb": "+10",
+      "Hide": "+3",
+      "Listen": "+6",
+      "Spot": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft.",
+    "scent"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 1,
+  "feats": [
+    "Alertness",
+    "Track (B)"
+  ],
+  "traits": [
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 10/magic, darkvision 60 ft., scent"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Tentacle +3 melee (1d4+2)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "4 tentacles +3 melee (1d4+2); bite -2 melee (1d3+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "An adult grick is about 8 feet long from the tips of its tentacles to the end of its body and weighs some 200 pounds. Its body coloration is uniformly dark, with a pale underbelly.",
+    "grapple": "+3",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Underground",
+    "organization": "Solitary or cluster (2-4)",
+    "treasure": "1/10 coins; 50% goods; 50% items",
+    "advancement": "3-4 HD (Medium); 5-6 HD (Large)",
+    "leveladjustment": "---"
+  }
+}

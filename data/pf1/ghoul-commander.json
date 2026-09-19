@@ -1,0 +1,102 @@
+{
+  "name": "Ghoul Commander",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "armor +6, dex +3, natural +2",
+    "touch": 13,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 99,
+    "formula": "2d8+7d10+52"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 17,
+    "con": "None",
+    "int": 13,
+    "wis": 16,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +13, Ref +9, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +11, Intimidate +16, Perception +15, Ride +12",
+    "list": {
+      "Bluff": "+11",
+      "Intimidate": "+16",
+      "Perception": "+15",
+      "Ride": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Common",
+    "Undercommon"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 8,
+  "feats": [
+    "Cleave",
+    "Improved Critical (greataxe)",
+    "Power Attack",
+    "Toughness",
+    "Weapon Focus (greataxe)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk greataxe +15/+10 (1d12+7/19-20/×3), bite +8 (1d6+2 plus disease and paralysis)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite shortbow +12/+7 (1d6+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Ghoul",
+    "class": "antipaladin 7 (Pathfinder RPG Advanced Player’s Guide 118)",
+    "cmb": "+13",
+    "cmd": 26,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      }
+    ]
+  }
+}

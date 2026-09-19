@@ -1,0 +1,99 @@
+{
+  "name": "Spectre",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "incorporeal",
+  "alignment": "LE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 15,
+    "notes": "deflection +2, dex +3",
+    "touch": 15,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 52,
+    "formula": "8d8+16"
+  },
+  "speed": {
+    "walk": 80,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 80 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 16,
+    "con": "None",
+    "int": 14,
+    "wis": 16,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +4, Ref +5, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +11, Intimidate +13, Knowledge (history) +10, Knowledge (religion) +13, Perception +17, Stealth +14, Survival +11",
+    "list": {
+      "Fly": "+11",
+      "Intimidate": "+13",
+      "Perception": "+17",
+      "Stealth": "+14",
+      "Survival": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 6,
+  "feats": [
+    "Blind-Fight",
+    "Improved Initiative",
+    "Skill Focus (Perception)",
+    "Weapon Focus (touch)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "incorporeal touch +10 (1d8 plus energy drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This translucent, ghostly figure fades into view from the damp mist, its face distorted by wrath into a hideous mask.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 21,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, gang (3-6), or swarm (7-12)"
+      }
+    ]
+  }
+}

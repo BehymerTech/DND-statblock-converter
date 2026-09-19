@@ -1,0 +1,104 @@
+{
+  "name": "Man-Eating Aurochs",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 74: Sword of Valor",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "natural +6, size -1",
+    "touch": 9,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 31,
+    "formula": "3d10+15"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 10,
+    "con": 21,
+    "int": 4,
+    "wis": 15,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +8, Ref +3, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +11, Survival +0",
+    "list": {
+      "Perception": "+11",
+      "Survival": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Abyssal",
+    "Common (can’t speak)"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 3,
+  "feats": [
+    "Endurance",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d8+6), gore +8 (1d8+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "No ordinary bovine, this hulking beast has bloodstained horns and sharpened teeth. Its eyes show a malign intelligence.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": "20 (24 vs. trip)",
+    "racialModifiers": [
+      "Survival 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or herd (3-30)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

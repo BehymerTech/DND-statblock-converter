@@ -1,0 +1,119 @@
+{
+  "name": "Corbayrant",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 132: The Six-Legend Soul",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 30,
+    "notes": "dex +5, dodge +1, natural +16, size -2",
+    "touch": 14,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 237,
+    "formula": "19d10+133"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 20,
+    "con": 25,
+    "int": 14,
+    "wis": 19,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +18, Ref +16, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +14, Climb +18, Intimidate +22, Perception +30, Sense Motive +12, Stealth +25, Survival +11",
+    "list": {
+      "Acrobatics": "+14",
+      "Climb": "+18",
+      "Intimidate": "+22",
+      "Perception": "+30",
+      "Sense Motive": "+12",
+      "Stealth": "+25",
+      "Survival": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 19,
+  "feats": [
+    "Alertness",
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Mobility",
+    "Point-Blank Shot",
+    "Skill Focus (Stealth)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +27 (2d8+10 plus grab), sting +27 (2d8+10 plus poison), 2 spines +27 (2d6+10 plus contagious paralysis)"
+    },
+    {
+      "name": "Ranged",
+      "text": "4 spines +22 (2d8+10 plus contagious paralysis)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous scorpion-like creature has legs like jagged bark and a moss-colored body. It barbed tail drips foul-smelling venom and its wide mouth has multiple hinged jaws.",
+  "meta": {
+    "cmb": "31 (+35 grapple)",
+    "cmd": "47 (59 vs. trip)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

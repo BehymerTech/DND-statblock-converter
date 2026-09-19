@@ -1,0 +1,103 @@
+{
+  "name": "Thoqqua",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Elemental",
+  "subtype": "Earth, Extraplanar, Fire",
+  "alignment": "Usually neutral",
+  "cr": "2",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": "+1 Dex, +7 natural",
+    "touch": 11,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 16,
+    "formula": "3d8+3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": 20,
+    "notes": "30 ft. (6 squares), burrow 20 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 13,
+    "con": 13,
+    "int": 6,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +4, Ref +2, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Listen +5, Move Silently +3, Survival +3;",
+    "list": {
+      "Listen": "+5",
+      "Move Silently": "+3",
+      "Survival": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "tremorsense 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Alertness",
+    "Track"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Heat, burn"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., elemental traits, immunity to fire, tremorsense 60 ft., vulnerability to cold"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Slam +4 melee (1d6+3 plus 2d6 fire)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Slam +4 melee (1d6+3 plus 2d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A thoqqua is about 1 foot in diameter and 4 to 5 feet long. It weighs about 200 pounds.",
+    "grapple": "+4",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Elemental Plane of Fire",
+    "organization": "Solitary or pair",
+    "treasure": "None",
+    "advancement": "4-9 HD (Large)",
+    "leveladjustment": "---"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "name": "Kelpie’s Wrath",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 55: The Wormwood Mutiny",
+  "size": "Colossal",
+  "type": "outsider",
+  "subtype": "chaotic, extraplanar, water",
+  "alignment": "CN",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 30,
+    "notes": "deflection +5, dex -1, natural +24, size -8",
+    "touch": 6,
+    "flatFooted": 30
+  },
+  "hp": {
+    "average": 297,
+    "formula": "18d10+198"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 60 ft., other_semicolon rush ft."
+  },
+  "abilities": {
+    "str": 40,
+    "dex": 8,
+    "con": 32,
+    "int": 9,
+    "wis": 15,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +22, Ref +5, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (engineering) +11, Knowledge (nature) +11, Knowledge (planes) +11, Perception +23, Sense Motive +14, Survival +23, Swim +44",
+    "list": {
+      "Perception": "+23",
+      "Sense Motive": "+14",
+      "Survival": "+23",
+      "Swim": "+44"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense",
+    "keen scent"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Common",
+    "telepathy 200 ft."
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 18,
+  "feats": [
+    "Combat Casting",
+    "Combat Reflexes",
+    "Disruptive",
+    "Greater Overrun",
+    "Improved Initiative",
+    "Improved Overrun",
+    "Power Attack",
+    "Spellbreaker",
+    "Stand Still"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "3 incorporeal touch +25 (3d6 plus 3d6 electricity and 3d6 fire)"
+    },
+    {
+      "name": "Ranged",
+      "text": "telekinesis +21 (varies)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The skull of some many-fanged sea monster adorns the bow of this ominous pirate vessel, a grim ship made all the more disturbing by its apparent lack of a crew.",
+  "meta": {
+    "cmb": "+41",
+    "cmd": 55,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

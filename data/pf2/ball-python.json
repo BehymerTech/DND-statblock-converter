@@ -1,0 +1,98 @@
+{
+  "name": "Ball Python",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 302.",
+  "size": "Medium",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, climb 20 feet, swim 20 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 16,
+    "int": 2,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +8, Ref +10, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +6 (1d20+6); __Athletics__: +6 (1d20+6); __Stealth__: +6 (1d20+6); __Survival__: +4 (1d20+4); ",
+    "list": {
+      "Acrobatics": "+6",
+      "Athletics": "+6",
+      "Stealth": "+6",
+      "Survival": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Tighten Coils",
+      "text": "⬲ Trigger A creature grabbed or restrained by the ball python attempts to Escape. Effect The DC of the Escape check is increased by 2."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 1d8 (1d8) bludgeoning, DC 17."
+    },
+    {
+      "name": "Wrap in Coils",
+      "text": "⬻ Requirements A Medium or smaller creature is grabbed or restrained in the ball python's jaws. Effect The ball python moves the creature into its coils, freeing its jaws to make attacks, then uses Constrict against the creature. The ball python's coils can hold one creature."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +8 Damage 1d8+3 (1d8+3) piercing plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      3,
+      3,
+      -4,
+      1,
+      -2
+    ]
+  }
+}

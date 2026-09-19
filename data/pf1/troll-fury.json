@@ -1,0 +1,100 @@
+{
+  "name": "Troll Fury",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "CE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "armor +5, dex +2, natural +5, size -1",
+    "touch": 11,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 156,
+    "formula": "12d8+102"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 14,
+    "con": 27,
+    "int": 8,
+    "wis": 16,
+    "cha": 4
+  },
+  "saves": {
+    "text": "Fort +19, Ref +7, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +5, Knowledge (nature) +6, Perception +24, Survival +10",
+    "list": {
+      "Intimidate": "+5",
+      "Perception": "+24",
+      "Survival": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Druidic",
+    "Giant"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 8,
+  "feats": [
+    "Combat Casting",
+    "Greater Spell Focus (evocation)",
+    "Improved Initiative",
+    "Iron Will",
+    "Skill Focus (Perception)",
+    "Spell Focus (evocation)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (1d8+6), 2 claws +13 (1d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Troll",
+    "class": "druid (troll fury) 6 (see page 224)",
+    "cmb": "+15",
+    "cmd": 27,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold mountains"
+      }
+    ]
+  }
+}

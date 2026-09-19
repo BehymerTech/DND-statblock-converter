@@ -1,0 +1,108 @@
+{
+  "name": "Aghash",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "div, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 18,
+    "notes": "dex +2, natural +6",
+    "touch": 12,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 42,
+    "formula": "5d10+15"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 15,
+    "con": 16,
+    "int": 13,
+    "wis": 13,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +4, Ref +6, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +10, Disguise +12, Intimidate +10, Knowledge (arcana) +7, Knowledge (planes) +7, Perception +11, Sense Motive +9, Spellcraft +9, Stealth +10",
+    "list": {
+      "Bluff": "+10",
+      "Disguise": "+12",
+      "Intimidate": "+10",
+      "Perception": "+11",
+      "Sense Motive": "+9",
+      "Spellcraft": "+9",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 5,
+  "feats": [
+    "Alertness",
+    "Iron Will",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +8 (1d6+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Draped in rags and hunched over on goatlike legs, this creature possesses a featureless face, save for a large eye ringed by fangs.",
+  "meta": {
+    "cmb": "+7",
+    "cmd": 19,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "name": "Seaweed Leshy",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Small",
+  "type": "plant",
+  "subtype": "aquatic, leshy, shapechanger",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "armor +1, dex +1, natural +2, size +1",
+    "touch": 12,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d8+12"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 13,
+    "con": 14,
+    "int": 9,
+    "wis": 15,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +6, Ref +2, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +7, Stealth +9, Survival +3, Swim +8",
+    "list": {
+      "Perception": "+7",
+      "Stealth": "+9",
+      "Survival": "+3",
+      "Swim": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Druidic",
+    "Sylvan",
+    "plantspeech (seaweed)"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 3,
+  "feats": [
+    "Ability Focus (water jet)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +4 (1d6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "water jet +5 touch (1 plus blind)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This vaguely humanoid plant creature has a body formed of soggy green seaweed and wears crude armor made from seashells.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": 13,
+    "racialModifiers": [
+      "Stealth 4",
+      "Survival 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any ocean or coastline"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or patch (2-16)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

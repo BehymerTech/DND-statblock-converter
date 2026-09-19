@@ -1,0 +1,101 @@
+{
+  "name": "Chosen of Lamashtu",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "gnoll",
+  "alignment": "CE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 22,
+    "notes": "armor +10, deflection +1, dex -1, natural +2",
+    "touch": 10,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 95,
+    "formula": "13d8+37"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 8,
+    "con": 14,
+    "int": 8,
+    "wis": 16,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +13, Ref +3, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +8, Spellcraft +10",
+    "list": {
+      "Perception": "+8",
+      "Spellcraft": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Gnoll"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 9,
+  "feats": [
+    "Cleave",
+    "Combat Casting",
+    "Extra Channel",
+    "Iron Will",
+    "Power Attack",
+    "Selective Channeling",
+    "Weapon Focus (falchion)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 falchion +15/+10 (2d4+7/18-20), +1 spear +14/+9 (1d8+5/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 spear +9 (1d8+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Gnoll",
+    "class": "cleric of Lamashtu 11",
+    "cmb": "+13",
+    "cmd": 23,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm plains or desert"
+      }
+    ]
+  }
+}

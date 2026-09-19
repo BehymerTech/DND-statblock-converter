@@ -1,0 +1,108 @@
+{
+  "name": "Scitalis",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 27,
+    "notes": "dex +4, natural +10, size -1",
+    "touch": 17,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 175,
+    "formula": "14d12+84"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., other_semicolon fly 60 ft. (good) ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 19,
+    "con": 22,
+    "int": 9,
+    "wis": 15,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +15, Ref +13, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +19, Intimidate +15, Perception +19, Sense Motive +17, Stealth +15, Survival +17",
+    "list": {
+      "Fly": "+19",
+      "Intimidate": "+15",
+      "Perception": "+19",
+      "Sense Motive": "+17",
+      "Stealth": "+15",
+      "Survival": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 14,
+  "feats": [
+    "Combat Reflexes",
+    "Flyby Attack",
+    "Hover",
+    "Improved Initiative",
+    "Multiattack",
+    "Power Attack",
+    "Wingover"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 frills +21 (2d6+8), gore +21 (1d8+8), bite +21 (2d6+8 plus sedative), tail slap +19 (1d8+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This ophidian dragon’s scales and frills form a brightly colored pattern, backlit like stained glass by the creature’s inner glow.",
+  "meta": {
+    "cmb": "+23",
+    "cmd": "37 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, den (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

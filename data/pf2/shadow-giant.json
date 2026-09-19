@@ -1,0 +1,117 @@
+{
+  "name": "Shadow Giant",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 127.",
+  "size": "Large",
+  "type": "Shadow",
+  "subtype": "Giant, Humanoid",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 13",
+  "xp": null,
+  "ac": {
+    "value": 33,
+    "notes": ""
+  },
+  "hp": {
+    "average": 275,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 14,
+    "con": 20,
+    "int": 10,
+    "wis": 12,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +25, Ref +20, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +27 (1d20+27); __Intimidation__: +22 (1d20+22); __Stealth__: +21 (1d20+21), (Stealth: +23 (1d20+23) to Hide in dim light); ",
+    "list": {
+      "Athletics": "+27",
+      "Intimidation": "+22",
+      "Stealth": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Common",
+    "Jotun",
+    "Shadowtongue"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Catch Rock",
+      "text": "⬲"
+    },
+    {
+      "name": "Pall of Shadow",
+      "text": "(divine, necromancy, shadow); When a shadow giant hits with a melee Strike, the target must succeed at a DC 30 Fortitude save or become drained 1 and take a –1 status penalty to Perception checks involving sight as long as they remain drained. On a critical failure, this condition doesn't heal naturally and can be removed only with magic."
+    },
+    {
+      "name": "Shadowcloak",
+      "text": "⬻ (divine, illusion, shadow); The shadow giant becomes shrouded in shadows and becomes concealed. As the nature of this effect leaves the giant's location obvious, it can't use this concealment to Hide or Sneak. This effect lasts for 1 minute or until it is exposed to direct sunlight, whichever comes first."
+    },
+    {
+      "name": "Throw Rock",
+      "text": "⬻"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ spiked chain +27 (disarm, reach 10 feet, trip); Damage 3d8+18 (3d8+18) slashing plus pall of shadow"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +26 (agile, reach 10 feet); Damage 3d8+18 (3d8+18) bludgeoning plus pall of shadow"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ rock +26 (brutal, range increment 120 feet); Damage 2d8+18 (2d8+18) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      2,
+      5,
+      0,
+      1,
+      3
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "name": "Lizardfolk Defender",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 230.",
+  "size": "Medium",
+  "type": "Lizardfolk",
+  "subtype": "Humanoid",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 21,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, swim 15 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 16,
+    "int": 8,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +5 (1d20+5); __Athletics__: +6 (1d20+6); __Survival__: +5 (1d20+5); ",
+    "list": {
+      "Acrobatics": "+5",
+      "Athletics": "+6",
+      "Survival": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 17,
+  "languages": [
+    "Draconic",
+    "Iruxi"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Shield Block",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "flail, javelin (3), wooden shield (Hardness 3, HP 12, BT 6);"
+    },
+    {
+      "name": "Deep Breath",
+      "text": "A lizardfolk defender can hold their breath for 175 rounds (17-1/2 minutes)."
+    },
+    {
+      "name": "Terrain Advantage",
+      "text": "Non-lizardfolk creatures in difficult terrain and non-lizardfolk creatures that are in water and lack a swim Speed are flat-footed to the lizardfolk defender."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ flail +8 (disarm, sweep, trip); Damage 1d6+3 (1d6+3) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +8 Damage 1d6+3 (1d6+3) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +8 (agile); Damage 1d4+3 (1d4+3) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ javelin +7 (thrown 30 feet); Damage 1d6+3 (1d6+3) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      2,
+      3,
+      -1,
+      2,
+      0
+    ],
+    "items": "flail, javelin (3), wooden shield (Hardness 3, HP 12, BT 6);"
+  }
+}

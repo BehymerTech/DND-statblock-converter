@@ -1,0 +1,111 @@
+{
+  "name": "Kobold Chieftain",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "reptilian",
+  "alignment": "LE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 26,
+    "notes": "armor +7, dex +4, natural +1, shield +3, size +1",
+    "touch": 15,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 72,
+    "formula": "5d10+4d8+23"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 18,
+    "con": 12,
+    "int": 13,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +6, Ref +9, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +11, Craft (trapmaking) +3, Disable Device +2, Disguise +6, Intimidate +6, Linguistics +7, Perception +14, Profession (miner) +2, Sense Motive +6, Sleight of Hand +7, Stealth +17, Use Magic Device +5",
+    "list": {
+      "Bluff": "+11",
+      "Disable Device": "+2",
+      "Disguise": "+6",
+      "Intimidate": "+6",
+      "Linguistics": "+7",
+      "Perception": "+14",
+      "Sense Motive": "+6",
+      "Sleight of Hand": "+7",
+      "Stealth": "+17",
+      "Use Magic Device": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Dark Folk",
+    "Draconic",
+    "Dwarven",
+    ""
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 7,
+  "feats": [
+    "Combat Expertise",
+    "Diehard",
+    "Endurance",
+    "Greater Feint",
+    "Improved Feint",
+    "Toughness",
+    "Vital Strike",
+    "Weapon Finesse",
+    "Weapon Focus (rapier)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 rapier +15/+10 (1d4+2/18-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Kobold",
+    "class": "fighter 5, rogue 3, assassin 1",
+    "cmb": "+6",
+    "cmd": 20,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate underground or deep forest"
+      }
+    ]
+  }
+}

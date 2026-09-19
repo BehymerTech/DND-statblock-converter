@@ -1,0 +1,107 @@
+{
+  "name": "Psychoplasmic Behir",
+  "sourceSystem": "pf1",
+  "source": "Occult Bestiary",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "augmented magical beast, extraplanar",
+  "alignment": "N",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 25,
+    "notes": "dex +3, natural +14, size -2",
+    "touch": 11,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 105,
+    "formula": "10d10+50"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (fly on Astral Plane only), climb 20 ft., fly_other fly on Astral Plane only ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 16,
+    "con": 21,
+    "int": 11,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +12, Ref +10, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +14, Knowledge (planes) +10, Perception +6, Stealth +7, Survival +15",
+    "list": {
+      "Climb": "+14",
+      "Perception": "+6",
+      "Stealth": "+7",
+      "Survival": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 10,
+  "feats": [
+    "Alertness",
+    "Cleave",
+    "Great Cleave",
+    "Power Attack",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15 (2d6+9 plus grab and mindlock)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The silver dust that makes up this giant six-legged reptile continuously dissipates into the air, but without depleting the creature’s mass.",
+  "meta": {
+    "cmb": "18 (+22 grapple)",
+    "cmd": "31 (can’t be tripped)",
+    "racialModifiers": [
+      "Survival 5"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Astral Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

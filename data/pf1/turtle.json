@@ -1,0 +1,95 @@
+{
+  "name": "Turtle",
+  "sourceSystem": "pf1",
+  "source": "Ultimate Magic",
+  "size": "Tiny",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1/6",
+  "level": null,
+  "xp": 65,
+  "ac": {
+    "value": 16,
+    "notes": "dex -2, natural +6, size +2",
+    "touch": 10,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 3,
+    "formula": "1d8-1"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 3,
+    "dex": 6,
+    "con": 8,
+    "int": 2,
+    "wis": 12,
+    "cha": 3
+  },
+  "saves": {
+    "text": "Fort +1, Ref +0, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +4, Swim +10",
+    "list": {
+      "Perception": "+4",
+      "Swim": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 14,
+  "languages": [],
+  "initiative": "-2",
+  "babOrProficiency": 0,
+  "feats": [
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite -2 (1d3-4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "-4",
+    "cmd": "2 (6 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or tropical forests, oceans, and rivers"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Darkmantle",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Small",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Always neutral",
+  "cr": "1",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": "+1 size, +6 natural",
+    "touch": 11,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 6,
+    "formula": "1d10+1"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": 30,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft. (4 squares), fly 30 ft. (poor)"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 10,
+    "con": 13,
+    "int": 2,
+    "wis": 10,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +3, Ref +2, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Hide +10, Listen +5\\*, Spot +5\\*;",
+    "list": {
+      "Hide": "+10",
+      "Listen": "+5",
+      "Spot": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Blindsight 90 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 1,
+  "feats": [
+    "Improved Initiative"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Darkness, improved grab, constrict 1d4+4"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Blindsight 90 ft."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Slam +5 melee (1d4+4)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Slam +5 melee (1d4+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "The darkmantle hangs from a ceiling by a muscular \"foot\" at the top of its body. It can look like a stalactite, by holding its tentacles stiffly under itself, or like a lump of rock, spreading its tentacles so the membrane between them covers its body. Its shell and skin usually resemble limestone, but a darkmantle can change its color to match almost any type of stony background.",
+    "grapple": "+0",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Underground",
+    "organization": "Solitary, pair, clutch (3-9), or swarm (6-15)",
+    "treasure": "None",
+    "advancement": "2-3 HD (Small)",
+    "leveladjustment": "---"
+  }
+}

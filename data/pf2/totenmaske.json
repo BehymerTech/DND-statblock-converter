@@ -1,0 +1,101 @@
+{
+  "name": "Totenmaske",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 262.",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 128,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 22,
+    "con": 14,
+    "int": 12,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +15, Ref +17, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +15 (1d20+15); __Deception__: +17 (1d20+17); __Stealth__: +17 (1d20+17); __Thievery__: +15 (1d20+15); ",
+    "list": {
+      "Acrobatics": "+15",
+      "Deception": "+17",
+      "Stealth": "+17",
+      "Thievery": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Common",
+    "Necril"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Drink Flesh",
+      "text": "⬻ (divine, necromancy); Requirements The totenmaske hit the same enemy with two claw Strikes this turn and is still adjacent to it Effect The totenmaske drains flesh from the creature's body. The creature becomes sickened 2 and drained 1 unless it succeeds at a DC 25 Fortitude save (sickened 2 and drained 2 on a critical failure)."
+    },
+    {
+      "name": "Living Form",
+      "text": "⬻ (concentrate, divine, polymorph, transmutation); The totenmaske takes the appearance of a Medium or smaller humanoid creature. This is either its form from before it became undead, or the form of the last creature it successfully hit with Drink Flesh. This doesn't change the totenmaske's Speed or the attack and damage bonuses for its Strikes, but might change the damage type its Strikes deal (typically to bludgeoning)."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +18 (finesse); Damage 2d6+7 (2d6+7) piercing plus 2d6 (2d6) negative"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +18 (agile, finesse); Damage 2d8+7 (2d8+7) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      6,
+      2,
+      1,
+      2,
+      3
+    ]
+  }
+}

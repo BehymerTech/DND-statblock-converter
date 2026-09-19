@@ -1,0 +1,116 @@
+{
+  "name": "Pakalchi",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 220.",
+  "size": "Medium",
+  "type": "Sahkil",
+  "subtype": "Fiend",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 9",
+  "xp": null,
+  "ac": {
+    "value": 26,
+    "notes": ""
+  },
+  "hp": {
+    "average": 140,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 20,
+    "con": 18,
+    "int": 14,
+    "wis": 16,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +17, Ref +18, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +18 (1d20+18); __Deception__: +21 (1d20+21); __Diplomacy__: +21 (1d20+21); __Intimidation__: +21 (1d20+21); __Stealth__: +18 (1d20+18); ",
+    "list": {
+      "Acrobatics": "+18",
+      "Deception": "+21",
+      "Diplomacy": "+21",
+      "Intimidation": "+21",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, true seeing"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Infernal",
+    "Requian; telepathy 100"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Easy to Call",
+      "text": "A sahkil's level is considered 2 lower for the purpose of being conjured by the planar binding ritual (and potentially other rituals, at the GM's discretion), but it is always free to attack or leave instead of negotiate unless the primary caster's check is a critical success."
+    },
+    {
+      "name": "Entangling Train",
+      "text": "⬲ Trigger A creature moves adjacent to the pakalchi Effect Writhing, pitch-black vines wrap around the creature. The creature takes 1d6 (1d6) slashing damage and takes a –15-foot circumstance penalty to its Speeds until the end of its next turn."
+    },
+    {
+      "name": "Betrayal Toxin",
+      "text": "(divine, enchantment, mental, poison); Saving Throw DC 28 Fortitude. Maximum Duration 6 rounds Stage 1 stupefied 1 (1 round) Stage 2 stupefied 2 (1 round)"
+    },
+    {
+      "name": "Skip Between",
+      "text": "⬻ (conjuration, divine, teleportation); The sahkil moves from the Material Plane to the Ethereal Plane or vice-versa, with the effects of ethereal jaunt except that the effect has an unlimited duration and can be Dismissed. A summoned sahkil can't use Skip Between."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ vine +18 (finesse, reach, versatile p); Damage 2d10+6 (2d10+6) slashing plus 1d6 (1d6) evil, 1d6 (1d6) persistent bleed, and betrayal toxin"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +18 (agile, finesse); Damage 2d10+6 (2d10+6) slashing plus 1d6 (1d6) evil"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ thorn +18 (agile, range increment 50 feet); Damage 2d4+6 (2d4+6) piercing plus 1d6 (1d6) evil, 1d6 (1d6) persistent bleed, and betrayal toxin"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      5,
+      4,
+      2,
+      3,
+      6
+    ]
+  }
+}

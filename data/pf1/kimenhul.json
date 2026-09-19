@@ -1,0 +1,122 @@
+{
+  "name": "Kimenhul",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "evil, extraplanar, sahkil",
+  "alignment": "NE",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 37,
+    "notes": "dex +9, natural +20, size -2",
+    "touch": 17,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 362,
+    "formula": "25d10+225"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., climb 50 ft."
+  },
+  "abilities": {
+    "str": 33,
+    "dex": 29,
+    "con": 29,
+    "int": 22,
+    "wis": 28,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +23, Ref +17, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +26, Bluff +36, Climb +37, Diplomacy +36, Intimidate +36, Knowledge (arcana) +20, Knowledge (religion) +20, Knowledge (dungeoneering) +10, Knowledge (nature) +10, Knowledge (nobility) +10, Knowledge (local) +23, Knowledge (planes) +23, Perception +37, Sense Motive +37, Spellcraft +31, Stealth +29, Use Magic Device +33",
+    "list": {
+      "Acrobatics": "+26",
+      "Bluff": "+36",
+      "Climb": "+37",
+      "Diplomacy": "+36",
+      "Intimidate": "+36",
+      "Perception": "+37",
+      "Sense Motive": "+37",
+      "Spellcraft": "+31",
+      "Stealth": "+29",
+      "Use Magic Device": "+33"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "true seeing"
+  ],
+  "passivePerception": 47,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Infernal",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 25,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dazing Assault",
+    "Dazzling Display",
+    "Greater Trip",
+    "Improved Critical (claw)",
+    "Improved Trip",
+    "Power Attack",
+    "Staggering Critical",
+    "Stunning Critical",
+    "Weapon Focus (bite)",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "3 bites +35 (2d8+11 plus grab), 4 claws +35 (1d8+11/19-20 plus 1d3 Charisma bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Three monstrous, misshapen skulls top a twisted trunk balanced on three leglike splinters of flesh and bone.",
+  "meta": {
+    "cmb": "38 (+42 trip)",
+    "cmd": "57 (61 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Ethereal Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

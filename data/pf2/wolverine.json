@@ -1,0 +1,100 @@
+{
+  "name": "Wolverine",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 295.",
+  "size": "Medium",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 34,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, burrow 10 feet, climb 10 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 16,
+    "int": 2,
+    "wis": 10,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +9, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +7 (1d20+7); __Stealth__: +7 (1d20+7); ",
+    "list": {
+      "Athletics": "+7",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 18,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Pounce",
+      "text": "⬻ The wolverine Strides and makes a Strike at the end of that movement. If the wolverine begins this action hidden, it remains hidden until after the attack."
+    },
+    {
+      "name": "Rend",
+      "text": "⬻ (claw);"
+    },
+    {
+      "name": "Wolverine Rage",
+      "text": "⬻ (concentrate, emotion, mental); The wolverine enters a state of pure rage that lasts either for 1 minute, until there are no enemies it can perceive, or until it falls unconscious, whichever comes first. While raging, the wolverine has AC 17, its jaws Strike deals 1d8+7 (1d8+7) damage, and its claw Strike deals 1d6+7 (1d6+7) damage. While raging, the wolverine can't use actions that have the concentrate trait, except for Seek. After it's stopped raging, a wolverine can't use Wolverine Rage again for 1 minute."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +11 Damage 1d8+5 (1d8+5) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +11 (agile); Damage 1d6+5 (1d6+5) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      3,
+      3,
+      -4,
+      0,
+      -2
+    ]
+  }
+}

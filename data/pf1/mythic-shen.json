@@ -1,0 +1,128 @@
+{
+  "name": "Mythic Shen",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Gargantuan",
+  "type": "dragon",
+  "subtype": "aquatic, mythic, water",
+  "alignment": "N",
+  "cr": "24",
+  "level": null,
+  "xp": 1228800,
+  "ac": {
+    "value": 44,
+    "notes": "dex +2, natural +38, size -4",
+    "touch": 8,
+    "flatFooted": 44
+  },
+  "hp": {
+    "average": 568,
+    "formula": "29d12+380"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 250 ft. (average), swim 80 ft."
+  },
+  "abilities": {
+    "str": 41,
+    "dex": 14,
+    "con": 30,
+    "int": 23,
+    "wis": 22,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +26, Ref +20, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +38, Disable Device +31, Fly +28, Intimidate +38, Knowledge (arcana) +38, Knowledge (geography) +38, Knowledge (history) +38, Knowledge (nature) +38, Perception +38, Sense Motive +38, Stealth +22, Swim +55",
+    "list": {
+      "Bluff": "+38",
+      "Disable Device": "+31",
+      "Fly": "+28",
+      "Intimidate": "+38",
+      "Perception": "+38",
+      "Sense Motive": "+38",
+      "Stealth": "+22",
+      "Swim": "+55"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "mistsight",
+    "scent",
+    "see invisibility",
+    "true seeing"
+  ],
+  "passivePerception": 48,
+  "languages": [
+    "Aquan",
+    "Auran",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Sylvan",
+    "Terran"
+  ],
+  "initiative": "+15",
+  "babOrProficiency": 29,
+  "feats": [
+    "Flyby Attack",
+    "Greater Spell Focus (illusion)",
+    "Improved Critical (bite)",
+    "Improved Critical (claws)",
+    "Improved InitiativeM",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Lunge",
+    "Multiattack",
+    "Power Attack",
+    "Snatch",
+    "Spell Focus (illusion)",
+    "Vital Strike",
+    "Weapon Focus (bite)",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +41 (2d10+22/19-20), 2 claws +41 (2d8+15/19-20), gore +40 (2d10+22), tail slap +38 (2d10+22)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+48",
+    "cmd": "60 (64 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

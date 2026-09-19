@@ -1,0 +1,104 @@
+{
+  "name": "Adult Blue Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "earth",
+  "alignment": "LE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 28,
+    "notes": "natural +20, size -2",
+    "touch": 8,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 184,
+    "formula": "16d12+80"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (poor), burrow 20 ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 10,
+    "con": 21,
+    "int": 16,
+    "wis": 17,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +15, Ref +10, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +22, Fly +11, Intimidate +22, Knowledge (local) +22, Knowledge (geography) +22, Perception +22, Spellcraft +22, Stealth +11, Survival +22",
+    "list": {
+      "Bluff": "+22",
+      "Fly": "+11",
+      "Intimidate": "+22",
+      "Perception": "+22",
+      "Spellcraft": "+22",
+      "Stealth": "+11",
+      "Survival": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Auran",
+    "Common",
+    "Draconic",
+    "Giant"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 16,
+  "feats": [
+    "Combat Casting",
+    "Dazzling Display",
+    "Deadly Stroke",
+    "Hover",
+    "Improved Initiative",
+    "Multiattack",
+    "Shatter Defenses",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +23 (2d8+12), 2 claws +22 (2d6+8), 2 wings +20 (1d8+4), tail slap +20 (2d6+12)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+26",
+    "cmd": "36 (40 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts"
+      }
+    ]
+  }
+}

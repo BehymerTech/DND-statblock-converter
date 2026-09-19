@@ -1,0 +1,108 @@
+{
+  "name": "Camulatz",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 39: The City of Seven Spears",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 22,
+    "notes": "dex +3, natural +10, size -1",
+    "touch": 12,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 114,
+    "formula": "12d10+48"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 80 ft. (average)"
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 17,
+    "con": 18,
+    "int": 8,
+    "wis": 15,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +12, Ref +11, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +5, Fly +7, Perception +14",
+    "list": {
+      "Bluff": "+5",
+      "Fly": "+7",
+      "Perception": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Abyssal",
+    "Auran"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 12,
+  "feats": [
+    "Bleeding Critical",
+    "Critical Focus",
+    "Flyby Attack",
+    "Improved Critical (bite)",
+    "Improved Natural Attack (bite)",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +18 (2d6+6/19-20 plus 2d6 bleed), 2 talons +17 (1d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Vibrant blue and yellow feathers adorn the body of this giant, parrot-like bird, but its curved beak and powerful talons are instead adorned with dried blood and gore.",
+  "meta": {
+    "cmb": "+19",
+    "cmd": 32,
+    "racialModifiers": [
+      "Bluff 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "tropical jungles"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, flight (2-5), or aerie (6-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

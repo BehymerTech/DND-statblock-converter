@@ -1,0 +1,109 @@
+{
+  "name": "Slurk",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Crown of the Kobold King",
+  "size": "Medium",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 15,
+    "notes": "dex +2, natural +3",
+    "touch": 12,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 17,
+    "formula": "2d10+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 14,
+    "con": 17,
+    "int": 3,
+    "wis": 10,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +6, Ref +5, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +16, Climb +14, Escape Artist +6, Perception +0",
+    "list": {
+      "Acrobatics": "+16",
+      "Climb": "+14",
+      "Escape Artist": "+6",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 10,
+  "languages": [
+    "Boggard (can’t speak)"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Improved Overrun"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +4 (2d6+3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "slime squirt +4 ranged touch"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This disgusting beast looks like a slime-covered toad, but with two walrus-like tusks jutting from its upper jaw.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": "16 (20 vs. bull rush, grapple, overrun, and trip)",
+    "racialModifiers": [
+      "Acrobatics 10",
+      "Escape Artist 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate swamps or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "name": "Shambler",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 290.",
+  "size": "Large",
+  "type": "Plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 120,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, swim 20 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 12,
+    "con": 20,
+    "int": 6,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +17, Ref +11, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +16 (1d20+16); __Stealth__: +12 (1d20+12), (Stealth: +18 (1d20+18) in forests or swamps); ",
+    "list": {
+      "Athletics": "+16",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Common",
+    "Elven",
+    "Sylvan (can't speak any language)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Mound",
+      "text": "When it's not in danger, the shambler spends 1 minute settling into a pile that looks like a lump of loose vegetation. While it is in this form, creatures must actively Seek and succeed at a DC 22 Perception check (DC 28 in forests or swamps) to detect the shambler's true nature."
+    },
+    {
+      "name": "Electric Surge",
+      "text": "Whenever the shambler would take electricity damage or is targeted with an electricity effect, it gains 12 temporary HP and is quickened until the end of its next turn. It can use its extra action to Stride, Strike, or Swim."
+    },
+    {
+      "name": "Shamble",
+      "text": "⬲ Requirements The shambler is in mound form. Trigger A creature unaware of the shambler's true nature comes within 10 feet. Effect The shambler makes a vine Strike against the creature. Then roll initiative."
+    },
+    {
+      "name": "Vine Lash",
+      "text": "⬺ The shambler makes a vine Strike against each creature within reach. Its multiple attack penalty increases only after all the attacks."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ vine +17 (reach 10 feet); Damage 2d8+8 (2d8+8) bludgeoning plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      1,
+      5,
+      -2,
+      2,
+      -1
+    ]
+  }
+}

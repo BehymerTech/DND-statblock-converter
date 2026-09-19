@@ -1,0 +1,116 @@
+{
+  "name": "Mastermind",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 247.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 54,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 10,
+    "int": 18,
+    "wis": 14,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +6, Ref +11, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +13 (1d20+13); __Deception__: +15 (1d20+15); __Diplomacy__: +15 (1d20+15); __Intimidation__: +15 (1d20+15); __Performance__: +17 (1d20+17); __Religion__: +11 (1d20+11); __Society__: +17 (1d20+17); __Stealth__: +9 (1d20+9); __Thievery__: +9 (1d20+9); ",
+    "list": {
+      "Arcana": "+13",
+      "Deception": "+15",
+      "Diplomacy": "+15",
+      "Intimidation": "+15",
+      "Performance": "+17",
+      "Religion": "+11",
+      "Society": "+17",
+      "Stealth": "+9",
+      "Thievery": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 20,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Lore",
+      "text": "+17 Str +0, Dex +3, Con +0, Int +4, Wis +2, Cha +4 Items chain shirt, disguise kit, hand crossbow (10 bolts), shortsword."
+    },
+    {
+      "name": "Versatile Performance",
+      "text": "The mastermind can use Performance instead of Diplomacy to Make an Impression and instead of Intimidation to Demoralize. The mastermind can also use an acting Performance instead of Deception to Impersonate."
+    },
+    {
+      "name": "Items",
+      "text": "chain shirt, disguise kit, hand crossbow (10 bolts), shortsword;"
+    },
+    {
+      "name": "Scoundrel's Feint",
+      "text": "When the mastermind successfully Feints, the target is flat-footed against the mastermind's melee attacks until the end of the mastermind's next turn. On a critical success, the target is flat-footed against all melee attacks for that time, not just the mastermind's."
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "The mastermind deals an extra 1d6 (1d6) precision damage to flat-footed creatures."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ shortsword +13 (agile, finesse, versatile s); Damage 1d6+6 (1d6+6) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ hand crossbow +13 (range increment 60 feet, reload 1); Damage 1d6+3 (1d6+3) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      3,
+      0,
+      4,
+      2,
+      4
+    ],
+    "items": "chain shirt, disguise kit, hand crossbow (10 bolts), shortsword;"
+  }
+}

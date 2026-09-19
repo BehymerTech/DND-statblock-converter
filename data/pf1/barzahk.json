@@ -1,0 +1,116 @@
+{
+  "name": "Barzahk",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 143: Borne by the Sun's Grace",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "extraplanar, psychopomp, shapechanger",
+  "alignment": "N",
+  "cr": "28",
+  "level": null,
+  "xp": 4915200,
+  "ac": {
+    "value": 46,
+    "notes": "armor +4, deflection +5, dex +10, dodge +1, natural +16",
+    "touch": 26,
+    "flatFooted": 35
+  },
+  "hp": {
+    "average": 676,
+    "formula": "33d10+495"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 31,
+    "con": 40,
+    "int": 31,
+    "wis": 32,
+    "cha": 33
+  },
+  "saves": {
+    "text": "Fort +33, Ref +23, Will +31",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (mapmaking) +46, Diplomacy +47, Fly +54, Knowledge (arcana) +46, Knowledge (dungeoneering) +46, Knowledge (geography) +46, Knowledge (history) +43, Knowledge (local) +43, Knowledge (planes) +46, Linguistics +43, Perception +47, Sense Motive +57, Spellcraft +43, Stealth +46, Survival +44, Use Magic Device +44",
+    "list": {
+      "Diplomacy": "+47",
+      "Fly": "+54",
+      "Linguistics": "+43",
+      "Perception": "+47",
+      "Sense Motive": "+57",
+      "Spellcraft": "+43",
+      "Stealth": "+46",
+      "Survival": "+44",
+      "Use Magic Device": "+44"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect chaos",
+    "detect evil",
+    "detect good",
+    "detect law",
+    "detect thoughts",
+    "detect undead",
+    "low-light vision",
+    "spiritsense",
+    "true seeing"
+  ],
+  "passivePerception": 57,
+  "languages": [
+    "all",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+20",
+  "babOrProficiency": 33,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Dodge",
+    "Empower Spell-Like Ability (circle of death)",
+    "Empower Spell-Like Ability (undeath to death)",
+    "Greater Disarm",
+    "Improved Disarm",
+    "Improved Iron Will",
+    "Improved Lightning Reflexes",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Mobility",
+    "Quicken Spell-Like Ability (maze)",
+    "Spring Attack",
+    "Stand Still",
+    "Wind Stance",
+    "Sidestep"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "Surcease of Sorrows +43/+38/+33/+28 (2d6+15), bite +43 (2d6+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Feathered arms emerge from the shoulders of this hunched raven, clutching a key of bone.",
+  "meta": {
+    "cmb": "43 (+47 disarm)",
+    "cmd": "69 (71 vs. disarm)"
+  }
+}

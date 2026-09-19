@@ -1,0 +1,99 @@
+{
+  "name": "Leprechaun",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 158.",
+  "size": "Small",
+  "type": "Fey",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 25,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 18,
+    "con": 12,
+    "int": 16,
+    "wis": 16,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +8, Ref +11, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Deception__: +9 (1d20+9); __Nature__: +7 (1d20+7); __Performance__: +9 (1d20+9); __Thievery__: +8 (1d20+8); __Gold lore__: +7 (1d20+7); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Deception": "+9",
+      "Nature": "+7",
+      "Performance": "+9",
+      "Thievery": "+8",
+      "Gold lore": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Create Object",
+      "text": "⬺ (conjuration, manipulate, primal); Frequency three times per day Effect The leprechaun produces an item out of their hat, from behind their jacket, from within a hole in a tree stump, or from any other unexpected location. This conjured item must be no more than 1 Bulk and must be made of relatively commonplace material (such as cloth, wood, stone, or even low-value metal like iron or lead). It can't rely on intricate artistry or complex moving parts, never fulfills a Cost or the like, and can't be made of precious materials or materials with a rarity of uncommon or higher. The created object is temporary and lasts for 1 hour or until the leprechaun creates a new item, whichever comes first."
+    },
+    {
+      "name": "Leprechaun Magic",
+      "text": "When a leprechaun uses their innate spells to deceive, trick, or humiliate a creature, the spell DC increases to 20 and the attack modifier to +11."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ club +7 Damage 1d6+3 (1d6+3) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      4,
+      1,
+      3,
+      3,
+      4
+    ]
+  }
+}

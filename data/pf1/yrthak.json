@@ -1,0 +1,109 @@
+{
+  "name": "Yrthak",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 23,
+    "notes": "dex +2, dodge +1, natural +12, size -2",
+    "touch": 11,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 114,
+    "formula": "12d10+48"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 14,
+    "con": 18,
+    "int": 7,
+    "wis": 15,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +12, Ref +12, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +7, Perception +18",
+    "list": {
+      "Fly": "+7",
+      "Perception": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 12,
+  "feats": [
+    "Dodge",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +17 (2d6+7), 2 claws +17 (1d8+7)"
+    },
+    {
+      "name": "Ranged",
+      "text": "sonic lance +12 ranged touch (8d6 sonic)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This flying reptile has large, leathery wings and a vibrantly colored crest on its horned, narrow-snouted head.",
+  "meta": {
+    "cmb": "+21",
+    "cmd": "34 (38 vs. trip)",
+    "racialModifiers": [
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate deserts, hills, or mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or clutch (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

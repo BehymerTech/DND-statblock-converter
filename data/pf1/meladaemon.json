@@ -1,0 +1,116 @@
+{
+  "name": "Meladaemon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Beyond the Vault of Souls",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "daemon, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 25,
+    "notes": "dex +6, natural +10, size -1",
+    "touch": 15,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 147,
+    "formula": "14d10+70"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 22,
+    "con": 21,
+    "int": 21,
+    "wis": 17,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +11, Ref +15, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +21, Fly +17, Heal +11, Intimidate +21, Knowledge (planes) +22, Knowledge (religion) +22, Perception +20, Sense Motive +20, Spellcraft +22, Stealth +19, Survival +20, Use Magic Device +14",
+    "list": {
+      "Bluff": "+21",
+      "Fly": "+17",
+      "Heal": "+11",
+      "Intimidate": "+21",
+      "Perception": "+20",
+      "Sense Motive": "+20",
+      "Spellcraft": "+22",
+      "Stealth": "+19",
+      "Survival": "+20",
+      "Use Magic Device": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "detect magic"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Abyssal",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 14,
+  "feats": [
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Great Fortitude",
+    "Improved Critical (bite)",
+    "Iron Will",
+    "Quicken Spell-Like Ability (magic missile)",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +20 (2d8+6/19-20 plus disease), 2 claws +19 (2d6+6 plus hunger)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This foul creature looks like an emaciated humanoid with the head of a jackal.",
+  "meta": {
+    "cmb": "+21",
+    "cmd": 37,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pack (2-5), or cabal (6-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

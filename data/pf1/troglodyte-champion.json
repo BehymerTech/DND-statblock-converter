@@ -1,0 +1,105 @@
+{
+  "name": "Troglodyte Champion",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "reptilian",
+  "alignment": "CE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 23,
+    "notes": "armor +6, dex +1, natural +6",
+    "touch": 11,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 82,
+    "formula": "2d8+6d10+40"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 18,
+    "int": 8,
+    "wis": 13,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +13, Ref +4, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Handle Animal +6, Intimidate +6, Perception +3, Ride +6, Stealth +3",
+    "list": {
+      "Handle Animal": "+6",
+      "Intimidate": "+6",
+      "Perception": "+3",
+      "Ride": "+6",
+      "Stealth": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 13,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 7,
+  "feats": [
+    "Improved Bull Rush",
+    "Mounted Combat",
+    "Power Attack",
+    "Quick Draw",
+    "Ride-By Attack",
+    "Spirited Charge",
+    "Toughness",
+    "Unseat"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk lance +13/+8 (1d8+5/×3), bite +6 (1d4+2), claw +6 (1d4+2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "javelin +9/+4 (1d6+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Troglodyte",
+    "class": "fighter 6",
+    "cmb": "11 (+13 bull rush)",
+    "cmd": "22 (24 vs. bull rush)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      }
+    ]
+  }
+}

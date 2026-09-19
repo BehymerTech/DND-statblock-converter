@@ -1,0 +1,113 @@
+{
+  "name": "NPC Warren Chief",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "gnome",
+  "alignment": "LN",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 30,
+    "notes": "armor +4, deflection +2, dex +2, dodge +1, monk +4, natural +2, size +1, wis +4",
+    "touch": 24,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 104,
+    "formula": "17d8+24"
+  },
+  "speed": {
+    "walk": 70,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "70 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 15,
+    "con": 12,
+    "int": 12,
+    "wis": 18,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +13, Ref +14, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +20, Climb +16, Craft (pottery) +8, Diplomacy +4, Disable Device +7, Knowledge (dungeoneering) +6, Knowledge (engineering) +6, Knowledge (history) +7, Perception +23, Sense Motive +15, Stealth +24, Survival +8, Swim +7",
+    "list": {
+      "Acrobatics": "+20",
+      "Climb": "+16",
+      "Diplomacy": "+4",
+      "Disable Device": "+7",
+      "Perception": "+23",
+      "Sense Motive": "+15",
+      "Stealth": "+24",
+      "Survival": "+8",
+      "Swim": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 33,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Gnome",
+    "Sylvan",
+    "tongue of the sun and moon"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 12,
+  "feats": [
+    "Acrobatic Steps",
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Deadly Aim",
+    "Dodge",
+    "Improved Trip",
+    "Improved Unarmed Strike",
+    "Mobility",
+    "Nimble Moves",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Precise Shot",
+    "Scorpion Style",
+    "Spring Attack",
+    "Stunning Fist",
+    "Weapon Focus (unarmed strike)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 unarmed strike +18/+13/+8 (2d6+4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk shuriken +16/+11/+6 (1d1+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Gnome",
+    "class": "monk 17",
+    "cmb": "19 (+21 trip)",
+    "cmd": "37 (39 vs. trip)"
+  }
+}

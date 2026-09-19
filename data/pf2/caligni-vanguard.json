@@ -1,0 +1,116 @@
+{
+  "name": "Caligni Vanguard",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 40.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Caligni",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 5",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 50,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 8,
+    "con": 16,
+    "int": 12,
+    "wis": 18,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +14, Ref +8, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +14 (1d20+14); __Stealth__: +8 (1d20+8); ",
+    "list": {
+      "Athletics": "+14",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "echolocation 60, no vision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Caligni",
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Echolocation",
+      "text": "A caligni vanguard can use their hearing as a precise sense at the listed range."
+    },
+    {
+      "name": "Items",
+      "text": "composite longbow (40 arrows), full plate (see death blaze), greatsword;"
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Death Blaze",
+      "text": "When the vanguard dies, their body combusts in a blaze of fire and armor shrapnel. All creatures within a 10-foot emanation take 3d6 (3d6) fire damage and 3d6 (3d6) piercing damage (DC 19 basic Reflex save). The vanguard's armor is destroyed in the blaze, but their other gear is unaffected and left in a pile where they died."
+    },
+    {
+      "name": "Call to Arms",
+      "text": "⬻ (auditory, mental); Each caligni within 30 feet of the vanguard gains the Attack of Opportunity reaction until the end of the vanguard's next turn. Once a caligni has used this Attack of Opportunity, that caligni is temporarily immune to the same vanguard's Call to Arms for 10 minutes."
+    },
+    {
+      "name": "Shadowed Blade",
+      "text": "⬺ (darkness); The vanguard makes a melee Strike, channeling shadowy essence into their weapon or unarmed attack to envelop the target. If the Strike hits, the target must succeed at a DC 19 Fortitude save or become blinded until the end of its next turn."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ greatsword +16 (versatile p); Damage 1d12+8 (1d12+8) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ composite longbow +10 (deadly d10, range increment 100 feet, volley); Damage 1d8+5 (1d8+5) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      -1,
+      3,
+      1,
+      4,
+      1
+    ],
+    "items": "composite longbow (40 arrows), full plate (see death blaze), greatsword;"
+  }
+}

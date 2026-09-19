@@ -1,0 +1,90 @@
+{
+  "name": "Giant Vulture",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Large",
+  "type": "beast",
+  "subtype": "",
+  "alignment": "neutral evil",
+  "cr": "1",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 10,
+    "notes": ""
+  },
+  "hp": {
+    "average": 22,
+    "formula": "3d10 + 6"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": 60,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 10,
+    "con": 15,
+    "int": 6,
+    "wis": 12,
+    "cha": 7
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +3",
+    "list": {
+      "perception": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 13,
+  "languages": [
+    "understands Common but can't speak"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Keen Sight and Smell",
+      "text": "The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell."
+    },
+    {
+      "name": "Pack Tactics",
+      "text": "The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally isn't incapacitated."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The vulture makes two attacks: one with its beak and one with its talons."
+    },
+    {
+      "name": "Beak",
+      "text": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage."
+    },
+    {
+      "name": "Talons",
+      "text": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

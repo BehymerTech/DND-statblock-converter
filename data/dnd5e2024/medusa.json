@@ -1,0 +1,93 @@
+{
+  "name": "Medusa",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "Monstrosity",
+  "subtype": "",
+  "alignment": "Lawful Evil",
+  "cr": "6",
+  "level": null,
+  "xp": 2300,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 127,
+    "formula": "17d8 + 51"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 17,
+    "con": 16,
+    "int": 12,
+    "wis": 13,
+    "cha": 15
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Deception +5, Perception +4, Stealth +6",
+    "list": {
+      "Deception": "+5",
+      "Perception": "+4",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 150 ft."
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Common plus one other language"
+  ],
+  "initiative": "+6 (16)",
+  "babOrProficiency": 3,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The medusa makes two Claw attacks and one Snake Hair attack, or it makes three Poison Ray attacks."
+    },
+    {
+      "name": "Claw",
+      "text": "_Melee Attack Roll:_ +6, reach 5 ft. _Hit:_ 10 (2d6 + 3) Slashing damage."
+    },
+    {
+      "name": "Snake Hair",
+      "text": "_Melee Attack Roll:_ +6, reach 5 ft. _Hit:_ 5 (1d4 + 3) Piercing damage plus 14 (4d6) Poison damage."
+    },
+    {
+      "name": "Poison Ray",
+      "text": "_Ranged Attack Roll:_ +5, range 150 ft. _Hit:_ 11 (2d8 + 2) Poison damage."
+    },
+    {
+      "name": "Petrifying Gaze (Recharge 5–6)",
+      "text": "_Constitution Saving Throw:_ DC 13, each creature in a 30-foot Cone. If the medusa sees its reflection in the Cone, the medusa must make this save. _First Failure:_ The target has the Restrained condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. _Second Failure:_ The target has the Petrified condition instead of the Restrained condition. ## Mephits"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

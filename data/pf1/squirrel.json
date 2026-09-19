@@ -1,0 +1,96 @@
+{
+  "name": "Squirrel",
+  "sourceSystem": "pf1",
+  "source": "Ultimate Wilderness, Animal Archive",
+  "size": "Diminutive",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1/8",
+  "level": null,
+  "xp": 50,
+  "ac": {
+    "value": 18,
+    "notes": "dex +4, size +4",
+    "touch": 18,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 3,
+    "formula": "1d8-1"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 2,
+    "dex": 19,
+    "con": 9,
+    "int": 2,
+    "wis": 12,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +1, Ref +6, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +8, Climb +12, Perception +1",
+    "list": {
+      "Acrobatics": "+8",
+      "Climb": "+12",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 11,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 0,
+  "feats": [
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d2-4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A small, bright-eyed bundle of fur, this woodland creature has a bushy tail as big as the rest of its body.",
+  "meta": {
+    "cmb": "+0",
+    "cmd": "6 (10 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or scurry (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

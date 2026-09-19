@@ -1,0 +1,114 @@
+{
+  "name": "Reckless Scientist",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 249.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 23,
+    "notes": ""
+  },
+  "hp": {
+    "average": 92,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 18,
+    "con": 20,
+    "int": 20,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +17, Ref +14, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +12 (1d20+12); __Crafting__: +17 (1d20+17); __Deception__: +9 (1d20+9); __Medicine__: +10 (1d20+10); __Stealth__: +12 (1d20+12); __Engineering lore__: +15 (1d20+15); __Underworld lore__: +13 (1d20+13); ",
+    "list": {
+      "Acrobatics": "+12",
+      "Crafting": "+17",
+      "Deception": "+9",
+      "Medicine": "+10",
+      "Stealth": "+12",
+      "Engineering lore": "+15",
+      "Underworld lore": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 20,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Stealth",
+      "text": "+12, Underworld Lore +13 Str +1, Dex +4, Con +5, Int +5, Wis +2, Cha –1 Items alchemist's tools, moderate antidote, moderate antiplague, bandolier, +1 sickle, work coat (functions as padded armor)"
+    },
+    {
+      "name": "Infused Items",
+      "text": "A reckless scientist carries the following infused items: 2 moderate acid flasks, 2 moderate alchemist's fires, 1 lesser bomber's eye elixir, 2 moderate frost vials, and 3 lesser elixirs of life. These items last for 24 hours, or until the next time the scientist makes their daily preparations."
+    },
+    {
+      "name": "Unstable Compounds",
+      "text": "When an attacker scores a critical hit against the reckless scientist, one of the scientist's poorly stowed alchemical items bursts. The GM determines the item randomly. If it was a bomb, the alchemist takes damage from the bomb, and any creature adjacent to the alchemist takes the splash damage. Any other item is simply wasted."
+    },
+    {
+      "name": "Quick Bomber",
+      "text": "⬻ The reckless scientist Interacts to draw a bomb, then Strikes with it."
+    },
+    {
+      "name": "Reckless Alchemy",
+      "text": "⬻ (concentrate, manipulate); Requirements The reckless scientist is holding a bomb or elixir Effect The reckless scientist combines the bomb with another bomb or the elixir with another elixir. They can Interact to draw a second bomb or elixir if necessary as part of this action. They attempt a DC 28 Crafting check, destroying both component items to create one new item. If a viable resulting item isn't used by the end of the scientist's next turn, it explodes as described under critical failure. Critical Success The new item has the full effect of both component items when used. Success The new item combines both items, but halves the effect of each. (This halves damage for bombs, the amount of healing of elixirs of life, or the duration for effects that can't have their value halved. Details are determined by the GM.) Failure The new item is inert. Critical Failure The new item immediately explodes, dealing 3d6 (3d6) piercing damage to the reckless scientist."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ sickle +17 (agile, finesse, magical, trip); Damage 1d4+7 (1d4+7) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ alchemical bomb +16 (range increment 20 feet, splash); Damage varies by bomb"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      4,
+      5,
+      5,
+      2,
+      -1
+    ],
+    "items": "  A reckless scientist carries the following infused items: 2 moderate acid flasks, 2 moderate alchemist's fires, 1 lesser bomber's eye elixir, 2 moderate frost vials, and 3 lesser elixirs of life. These items last for 24 hours, or until the next time the scientist makes their daily preparations."
+  }
+}

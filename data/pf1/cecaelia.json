@@ -1,0 +1,107 @@
+{
+  "name": "Cecaelia",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "aquatic",
+  "alignment": "CN",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +4, natural +4",
+    "touch": 14,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 45,
+    "formula": "6d10+12"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 40 ft., jet 200 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 19,
+    "con": 14,
+    "int": 9,
+    "wis": 12,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +4, Ref +9, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Stealth +13, Survival +10, Swim +20, Perception +1",
+    "list": {
+      "Stealth": "+13",
+      "Survival": "+10",
+      "Swim": "+20",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tentacle sense"
+  ],
+  "passivePerception": 11,
+  "languages": [
+    "Aquan",
+    "Common"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 6,
+  "feats": [
+    "Combat Reflexes",
+    "Weapon Focus (spear)",
+    "Weapon Focus (tentacles)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk spear +11/+6 (1d8+4/×3), 2 tentacles +5 (1d4+1 plus grab)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk spear +12 (1d8+3/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "In place of legs, this handsome humanoid sports an octopus’s eight writhing tentacles.",
+  "meta": {
+    "cmb": "9 (+13 grapple)",
+    "cmd": "23 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or hunting party (2-7)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (masterwork spear, other treasure)"
+      }
+    ]
+  }
+}

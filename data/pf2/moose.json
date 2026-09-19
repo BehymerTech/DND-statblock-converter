@@ -1,0 +1,104 @@
+{
+  "name": "Moose",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 173.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 50,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 16,
+    "con": 18,
+    "int": 2,
+    "wis": 10,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +11, Ref +10, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +12 (1d20+12), (Athletics: +14 (1d20+14) to Swim); __Intimidation__: +8 (1d20+8); ",
+    "list": {
+      "Athletics": "+14",
+      "Intimidation": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 60"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Cold Adaptation",
+      "text": "The moose reduces the effects it suffers from cold environments by one step."
+    },
+    {
+      "name": "Kick Back",
+      "text": "⬻ The moose bucks and kicks back with both hind hooves, making a Strike with a –2 circumstance penalty to the attack roll. If it hits, it deals an extra 1d8 (1d8) bludgeoning damage. This counts as two attacks when calculating the moose's multiple attack penalty."
+    },
+    {
+      "name": "Thundering Charge",
+      "text": "⬺ The moose Strides twice and then makes an antler Strike. A Medium or smaller creature damaged by this attack must succeed at a DC 18 Fortitude save or be stunned 1."
+    },
+    {
+      "name": "Trample",
+      "text": "⬽ Medium or smaller, hoof, DC 20"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ antler +12 Damage 1d10+7 (1d10+7) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ hoof +12 Damage 1d8+7 (1d8+7) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      3,
+      4,
+      -4,
+      0,
+      1
+    ]
+  }
+}

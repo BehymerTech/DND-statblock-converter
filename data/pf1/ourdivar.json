@@ -1,0 +1,106 @@
+{
+  "name": "Ourdivar",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Pathfinder No. 92: The Hill Giant's Pledge",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "chaotic, extraplanar, protean, shapechanger",
+  "alignment": "CN",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +1, natural +7, size -1",
+    "touch": 10,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 42,
+    "formula": "5d10+15"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 30 ft. (perfect), swim 30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 13,
+    "con": 16,
+    "int": 11,
+    "wis": 15,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +4, Ref +5, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +10, Fly +15, Intimidate +10, Perception +10, Sense Motive +10, Stealth +5, Swim +12",
+    "list": {
+      "Bluff": "+10",
+      "Fly": "+15",
+      "Intimidate": "+10",
+      "Perception": "+10",
+      "Sense Motive": "+10",
+      "Stealth": "+5",
+      "Swim": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Abyssal",
+    "Protean"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 5,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +8 (1d6+4), tail slap +3 (1d8+2 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The upper body of this creature is that of a multicolored bestial humanoid, while its lower section ends in a serpentine tail.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": 21,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Maelstrom)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or breach (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

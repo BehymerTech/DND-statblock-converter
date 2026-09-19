@@ -1,0 +1,107 @@
+{
+  "name": "Ancient Red Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Gargantuan",
+  "type": "dragon",
+  "subtype": "fire",
+  "alignment": "CE",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 38,
+    "notes": "dex -1, natural +33, size -4",
+    "touch": 5,
+    "flatFooted": 38
+  },
+  "hp": {
+    "average": 362,
+    "formula": "25d12+200"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 250 ft. (clumsy)"
+  },
+  "abilities": {
+    "str": 39,
+    "dex": 8,
+    "con": 27,
+    "int": 20,
+    "wis": 21,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +22, Ref +13, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +33, Bluff +33, Diplomacy +33, Fly +11, Intimidate +33, Knowledge (arcana) +33, Knowledge (history) +33, Perception +33, Sense Motive +33, Spellcraft +33, Stealth +15",
+    "list": {
+      "Appraise": "+33",
+      "Bluff": "+33",
+      "Diplomacy": "+33",
+      "Fly": "+11",
+      "Intimidate": "+33",
+      "Perception": "+33",
+      "Sense Motive": "+33",
+      "Spellcraft": "+33",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "smoke vision"
+  ],
+  "passivePerception": 43,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 25,
+  "feats": [
+    "Cleave",
+    "Critical Focus",
+    "Greater Vital Strike",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack",
+    "Quicken Spell",
+    "Staggering Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +35 (4d6+21/19-20), 2 claws +35 (2d8+14), 2 wings +33 (2d6+7), tail slap +33 (2d8+21)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+43",
+    "cmd": "52 (56 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm mountains"
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Twig Blight",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Small",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "neutral evil",
+  "cr": "1/8",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 13,
+    "notes": "natural armor"
+  },
+  "hp": {
+    "average": 4,
+    "formula": "1d6 + 1"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 13,
+    "con": 12,
+    "int": 4,
+    "wis": 8,
+    "cha": 3
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Stealth +3",
+    "list": {
+      "stealth": "+3"
+    }
+  },
+  "vulnerabilities": [
+    "fire"
+  ],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [
+    "blinded",
+    "deafened"
+  ],
+  "senses": [
+    "blindsight 60 ft. (blind beyond this radius)"
+  ],
+  "passivePerception": 9,
+  "languages": [
+    "understands Common but can't speak"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "False Appearance",
+      "text": "While the blight remains motionless, it is indistinguishable from a dead shrub."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Claws",
+      "text": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

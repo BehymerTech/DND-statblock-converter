@@ -1,0 +1,124 @@
+{
+  "name": "Star Archon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 24.",
+  "size": "Medium",
+  "type": "Celestial",
+  "subtype": "Archon",
+  "alignment": "LG",
+  "cr": null,
+  "level": "Creature 19",
+  "xp": null,
+  "ac": {
+    "value": 43,
+    "notes": ""
+  },
+  "hp": {
+    "average": 400,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet, fly 75 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 28,
+    "con": 22,
+    "int": 28,
+    "wis": 28,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +31, Ref +34, Will +34",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +31 (1d20+31); __Arcana__: +33 (1d20+33); __Athletics__: +37 (1d20+37); __Diplomacy__: +33 (1d20+33); __Intimidation__: +33 (1d20+33); __Occultism__: +33 (1d20+33); __Religion__: +37 (1d20+37); __Society__: +33 (1d20+33); __Warfare lore__: +39 (1d20+39); ",
+    "list": {
+      "Acrobatics": "+31",
+      "Arcana": "+33",
+      "Athletics": "+37",
+      "Diplomacy": "+33",
+      "Intimidation": "+33",
+      "Occultism": "+33",
+      "Religion": "+37",
+      "Society": "+33",
+      "Warfare lore": "+39"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, true seeing"
+  ],
+  "passivePerception": 45,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal; tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Blinding Soul",
+      "text": "(divine, evocation, light, visual); Whenever the star archon takes slashing damage, bright light pours from their wounds. Non-archons within 10 feet must attempt a DC 38 Fortitude save. On a failure, a creature is dazzled for 1 round. On a critical failure, the creature is blinded for 1d4 (1d4) rounds instead. The creature is then temporarily immune for 1 round."
+    },
+    {
+      "name": "Explosive Rebirth",
+      "text": "(death, divine, evocation, fire, good); When killed, the star archon explodes in a blinding flash of holy energy that deals 12d6 (12d6) fire damage and 12d6 (12d6) good damage to anything in a 100-foot emanation, with a DC 40 basic Reflex save. A non-archon creature that sees the explosion and critically fails its save is permanently blinded as well. The slain star archon reincarnates 1d4 (1d4) rounds later as a shield archon (Bestiary 29)."
+    },
+    {
+      "name": "Retributive Strike",
+      "text": "⬲ A star archon can also make a Retributive Strike by throwing its starknife, and the enemy and ally can be within 60 feet instead of 15 feet."
+    },
+    {
+      "name": "Items",
+      "text": "+2 greater resilient full plate, +2 greater striking returning starknife;"
+    },
+    {
+      "name": "Archon's Door",
+      "text": "Once per day, if an archon sees another creature cast dimension door, the archon can use dimension door (heightened to 5th level) within 1 round to attempt to follow that creature to the maximum distance of the archon's dimension door. If the archon's dimension door has enough distance, the archon appears the same distance and direction from the creature as before either creature used dimension door."
+    },
+    {
+      "name": "Prudent Asterism",
+      "text": "⬺ The star archon calculates a celestial constellation and sends their starknife flying along that path from one foe to the next. It makes a starknife Strike against a target within 60 feet. If the Strike hits, it can make another Strike at a different target within 60 feet of the first target, and so on, until it misses with a Strike or runs out of targets it hasn't attacked within range of the most recent target. The star archon can attack a given target only once per use of this ability. These attacks don't apply any range increment penalty, and the star archon resolves all the attacks before increasing the multiple attack penalty."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ returning starknife +38 (agile, deadly 1d8, finesse, good, magical, reach 10 feet, versatile s); Damage 3d4+16 (3d4+16) piercing plus 2d6 (2d6) good and 3d6 (3d6) fire"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ starknife +38 (agile, deadly 1d8, good, magical, thrown 60 feet, versatile s); Damage 3d4+16 (3d4+16) piercing plus 2d6 (2d6) good and 3d6 (3d6) fire"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      9,
+      6,
+      9,
+      9,
+      6
+    ],
+    "items": "+2 greater resilient full plate, +2 greater striking returning starknife;"
+  }
+}

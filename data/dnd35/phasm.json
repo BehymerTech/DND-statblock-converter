@@ -1,0 +1,108 @@
+{
+  "name": "Phasm",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Aberration",
+  "subtype": "Shapechanger",
+  "alignment": "Usually chaotic neutral",
+  "cr": "7",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": "+2 Dex, +5 natural",
+    "touch": 12,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 97,
+    "formula": "15d8+30"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares)"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 15,
+    "con": 15,
+    "int": 16,
+    "wis": 15,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +11, Ref +11, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +20, Climb +7, Craft (any One) +12, Diplomacy +12, Disguise +20 (+22 Acting)\\*, Intimidate +4, Knowledge (any One) +18, Listen +12, Spot +12, Survival +8;",
+    "list": {
+      "Bluff": "+20",
+      "Climb": "+7",
+      "Diplomacy": "+12",
+      "Disguise": "+20",
+      "Intimidate": "+4",
+      "Listen": "+12",
+      "Spot": "+12",
+      "Survival": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "tremorsense 60 ft.",
+    "scent"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 11,
+  "feats": [
+    "Alertness",
+    "Blind -Fight",
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Initiative",
+    "Mobility"
+  ],
+  "traits": [
+    {
+      "name": "Special Qualities",
+      "text": "Alternate form, amorphous, resilient, scent, telepathy 100 ft., tremorsense 60 ft."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Slam +12 melee (1d3+1)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Slam +12 melee (1d3+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A phasm is an amorphous creature that can assume the guise of almost any other creature or object. A phasm in its natural form is about 5 feet in diameter and 2 feet high at the center. Swirls of color indicate sensory organs. In this form, a phasm slithers about like an ooze and can attack with a pseudopod. It weighs about 400 pounds.",
+    "grapple": "+12",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Underground",
+    "organization": "Solitary",
+    "treasure": "Standard",
+    "advancement": "15-21 HD (Huge); 22-45 HD (Gargantuan)",
+    "leveladjustment": "---"
+  }
+}

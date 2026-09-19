@@ -1,0 +1,105 @@
+{
+  "name": "Bonethorn",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 27,
+    "notes": "dex +6, dodge +1, natural +10",
+    "touch": 17,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 150,
+    "formula": "20d8+60"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 23,
+    "con": 17,
+    "int": 2,
+    "wis": 16,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +15, Ref +14, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +22, Stealth +19",
+    "list": {
+      "Perception": "+22",
+      "Stealth": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "lifesense",
+    "low-light vision"
+  ],
+  "passivePerception": 32,
+  "languages": [],
+  "initiative": "+10",
+  "babOrProficiency": 15,
+  "feats": [
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dodge",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Mobility",
+    "Sickening Critical",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +24 (2d6+9 plus spores), 2 claws +24 (2d6+9/19-20 plus spores)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Ligaments of stringy black fungus connect the bones of this filthy skeleton. In numerous places, the fungus has formed thorny growths.",
+  "meta": {
+    "cmb": "+24",
+    "cmd": 41,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, gang (2-6), or pack (7-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

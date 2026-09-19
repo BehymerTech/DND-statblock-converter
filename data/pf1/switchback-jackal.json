@@ -1,0 +1,101 @@
+{
+  "name": "Switchback Jackal",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 115: Trail of the Hunted",
+  "size": "Small",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, natural +1, size +1",
+    "touch": 13,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 7,
+    "formula": "1d8+3"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 15,
+    "con": 16,
+    "int": 2,
+    "wis": 15,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +5, Ref +4, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Stealth +5, Survival +3, Perception +5",
+    "list": {
+      "Stealth": "+5",
+      "Survival": "+3",
+      "Perception": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 15,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 0,
+  "feats": [
+    "Skill Focus (Stealth)",
+    "Overwhelm"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +1 (1d4), 2 claws +1 (1d3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Resembling a small, half-starved wolf, this canine stares with deep intensity and undeniable hunger.",
+  "meta": {
+    "cmb": "-1",
+    "cmd": "11 (15 vs. trip)",
+    "racialModifiers": [
+      "Survival 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate and warm plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (5-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

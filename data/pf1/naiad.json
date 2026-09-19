@@ -1,0 +1,113 @@
+{
+  "name": "Naiad",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "water",
+  "alignment": "NG",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 13,
+    "notes": "dex +3",
+    "touch": 13,
+    "flatFooted": 10
+  },
+  "hp": {
+    "average": 9,
+    "formula": "1d8+1"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 16,
+    "con": 13,
+    "int": 12,
+    "wis": 10,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +1, Ref +5, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +7, Handle Animal +6, Knowledge (nature) +8, Perception +4, Perform (wind instruments) +9, Sense Motive +4, Stealth +7, Swim +7",
+    "list": {
+      "Diplomacy": "+7",
+      "Handle Animal": "+6",
+      "Perception": "+4",
+      "Sense Motive": "+4",
+      "Stealth": "+7",
+      "Swim": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Aquan",
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 0,
+  "feats": [
+    "Combat Casting"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger -2 (1d4-2/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +3 (1d4-2/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This lovely woman’s skin appears to be made of water. She has a fluid grace and wears clothing of woven reeds and leaves.",
+  "meta": {
+    "race": "Naiad",
+    "class": "bard 1",
+    "cmb": "-2",
+    "cmd": 11,
+    "racialModifiers": [
+      "Handle Animal 2",
+      "Knowledge (nature) 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any freshwater"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or current (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (dagger, mwk flute, other treasure)"
+      }
+    ]
+  }
+}

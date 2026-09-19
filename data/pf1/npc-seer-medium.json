@@ -1,0 +1,95 @@
+{
+  "name": "NPC Seer (Medium)",
+  "sourceSystem": "pf1",
+  "source": "GameMastery Guide",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 21,
+    "notes": "armor +7, dex +1, shield +3",
+    "touch": 11,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 22,
+    "formula": "5d8"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 12,
+    "con": 10,
+    "int": 14,
+    "wis": 17,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +5, Ref +3, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +10, Heal +11, Knowledge (planes) +9, Knowledge (religion) +9, Perception +8, Profession (midwife) +9, Sense Motive +13, Spellcraft +6",
+    "list": {
+      "Diplomacy": "+10",
+      "Heal": "+11",
+      "Perception": "+8",
+      "Sense Motive": "+13",
+      "Spellcraft": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 18,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Infernal"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 3,
+  "feats": [
+    "Alertness",
+    "Extra Channel",
+    "Shield Focus",
+    "Turn Undead"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "light mace +2 (1d6-1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dart +4 (1d4-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "cleric 5",
+    "cmb": "+2",
+    "cmd": 13
+  }
+}

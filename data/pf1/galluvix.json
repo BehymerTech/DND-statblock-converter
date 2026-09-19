@@ -1,0 +1,105 @@
+{
+  "name": "Galluvix",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 128: Songbird, Scion, Saboteur",
+  "size": "Tiny",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 14,
+    "notes": "dex +2, size +2",
+    "touch": 14,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 16,
+    "formula": "3d10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 20 ft. (clumsy)"
+  },
+  "abilities": {
+    "str": 7,
+    "dex": 14,
+    "con": 11,
+    "int": 15,
+    "wis": 10,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +3, Ref +5, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +6, Disguise +6, Escape Artist +4, Fly +2, Perception +5, Stealth +18",
+    "list": {
+      "Bluff": "+6",
+      "Disguise": "+6",
+      "Escape Artist": "+4",
+      "Fly": "+2",
+      "Perception": "+5",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Common",
+    "Sylvan",
+    "Undercommon"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 3,
+  "feats": [
+    "Deceitful",
+    "Stealthy"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +3 (1d6-2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This curious-looking creature has the body and plumage of a rooster but sports the cunning features of a fox from the neck up.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": 11,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or skulk (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

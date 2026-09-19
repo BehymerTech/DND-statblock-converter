@@ -1,0 +1,113 @@
+{
+  "name": "Savage Great Cyclops",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 58: Island of Empty Eyes",
+  "size": "Huge",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "CE",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 25,
+    "notes": "armor +4, dex +2, natural +13, rage -2, size -2",
+    "touch": 8,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 368,
+    "formula": "17d8+6d12+253"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft."
+  },
+  "abilities": {
+    "str": 44,
+    "dex": 15,
+    "con": 33,
+    "int": 6,
+    "wis": 16,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +21, Ref +11, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +23, Intimidate +14, Perception +23",
+    "list": {
+      "Climb": "+23",
+      "Intimidate": "+14",
+      "Perception": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 33,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 18,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Critical Focus",
+    "Diehard",
+    "Endurance",
+    "Improved Bull Rush",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Staggering Critical",
+    "Vital Strike",
+    "Weapon Focus (greatclub)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk Huge greatclub +35/+30/+25/+20 (3d8+25), gore +33 (1d8+8)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +18 (2d6+19)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Towering nearly 40 feet tall, this monster bellows a horrid war cry as blood vessels bloom crimson in his single, rage-filled eye.",
+  "meta": {
+    "race": "Barbarian",
+    "class": 6,
+    "cmb": "+37",
+    "cmd": 47,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any temperate or tropical"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (masterwork greatclub, hide armor, other treasure)"
+      }
+    ]
+  }
+}

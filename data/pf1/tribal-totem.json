@@ -1,0 +1,91 @@
+{
+  "name": "Tribal Totem",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 39: The City of Seven Spears",
+  "size": "Medium",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex +2, natural +7",
+    "touch": 12,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 69,
+    "formula": "9d10+20"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 14,
+    "con": "None",
+    "int": "None",
+    "wis": 13,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +3, Ref +5, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 9,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +12 (1d10+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "With the splintering sound of dry, cracking wood, a human-sized graven image lurches to life. Its features shift and reform with every step, cycling through a variety of faces both strange and oddly familiar. Bits of feather, leaves, and decorative stone embellish its surface, and the strong smell of lacquer and resin assaults the senses as it draws near with a menacing, ponderous gait.",
+  "meta": {
+    "cmb": "+12",
+    "cmd": 24,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or gang (2-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

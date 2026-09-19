@@ -1,0 +1,91 @@
+{
+  "name": "Merrow",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "alignment": "Chaotic Evil",
+  "cr": "2",
+  "level": null,
+  "xp": 450,
+  "ac": {
+    "value": 13,
+    "notes": ""
+  },
+  "hp": {
+    "average": 45,
+    "formula": "6d10 + 12"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": 40,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., Swim 40 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 15,
+    "con": 15,
+    "int": 8,
+    "wis": 10,
+    "cha": 9
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 10,
+  "languages": [
+    "Abyssal",
+    "Primordial (Aquan)"
+  ],
+  "initiative": "+2 (12)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The merrow can breathe air and water."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The merrow makes two attacks, using Bite, Claw, or Harpoon in any combination."
+    },
+    {
+      "name": "Bite",
+      "text": "_Melee Attack Roll:_ +6, reach 5 ft. _Hit:_ 6 (1d4 + 4) Piercing damage, and the target has the Poisoned condition until the end of the merrow's next turn."
+    },
+    {
+      "name": "Claw",
+      "text": "_Melee Attack Roll:_ +6, reach 5 ft. _Hit:_ 9 (2d4 + 4) Slashing damage."
+    },
+    {
+      "name": "Harpoon",
+      "text": "_Melee or Ranged Attack Roll:_ +6, reach 5 ft. or range 20/60 ft. _Hit:_ 11 (2d6 + 4) Piercing damage. If the target is a Large or smaller creature, the merrow pulls the target up to 15 feet straight toward itself. ## Mimic"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

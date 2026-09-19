@@ -1,0 +1,104 @@
+{
+  "name": "Twigjack",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Tiny",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 17,
+    "notes": "dex +3, natural +2, size +2",
+    "touch": 15,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 27,
+    "formula": "5d6+10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 16,
+    "con": 15,
+    "int": 11,
+    "wis": 14,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +3, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +11, Climb +7, Disable Device +8, Knowledge (nature) +8, Perception +10, Stealth +22",
+    "list": {
+      "Acrobatics": "+11",
+      "Climb": "+7",
+      "Disable Device": "+8",
+      "Perception": "+10",
+      "Stealth": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 2,
+  "feats": [
+    "Agile Maneuvers",
+    "Skill Focus (Stealth)",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "spear +3 (1d4-1/x3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This tiny, vaguely humanoid creature seems to be made completely of bundles of sticks wound with thorny vines.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": 12,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

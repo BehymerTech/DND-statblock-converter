@@ -1,0 +1,109 @@
+{
+  "name": "Jailer",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 234.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "LN",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": ""
+  },
+  "hp": {
+    "average": 45,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +10, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +11 (1d20+11); __Diplomacy__: +5 (1d20+5); __Intimidation__: +7 (1d20+7); ",
+    "list": {
+      "Athletics": "+11",
+      "Diplomacy": "+5",
+      "Intimidation": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 19,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Efficient Capture",
+      "text": "⬽ (attack, manipulate); Requirements The jailer has manacles in hand and is adjacent to a creature Effect The jailer attempts to bind the creature's wrists or ankles with the manacles. If the jailer succeeds at an attack roll with a +9 modifier against the target's AC, they apply the manacles."
+    },
+    {
+      "name": "Intimidating Strike",
+      "text": "⬺ (emotion, fear, fighter, mental); The jailer makes a melee Strike. If it hits and deals damage, the target is frightened 1, or frightened 2 on a critical hit."
+    },
+    {
+      "name": "Subdue Prisoners",
+      "text": "The jailer doesn't take the normal penalty for making a nonlethal attack when attacking with their club."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ club +11 Damage 1d6+8 (1d6+8) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ crossbow +10 (range increment 120 feet, reload 1); Damage 1d8+4 (1d8+4) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ club +10 (thrown 10 feet); Damage 1d6+6 (1d6+6) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      3,
+      1,
+      0,
+      2,
+      0
+    ]
+  }
+}

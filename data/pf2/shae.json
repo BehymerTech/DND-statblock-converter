@@ -1,0 +1,126 @@
+{
+  "name": "Shae",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 230.",
+  "size": "Medium",
+  "type": "Shadow",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 45,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 35 feet; swift steps, tenebral form;"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 20,
+    "con": 12,
+    "int": 16,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +9, Ref +11, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +13 (1d20+13); __Deception__: +9 (1d20+9); __Occultism__: +11 (1d20+11); __Stealth__: +13 (1d20+13); __Shadow plane lore__: +11 (1d20+11); ",
+    "list": {
+      "Acrobatics": "+13",
+      "Deception": "+9",
+      "Occultism": "+11",
+      "Stealth": "+13",
+      "Shadow plane lore": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Aklo",
+    "Auran",
+    "Common",
+    "Shae",
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Shadow Shift",
+      "text": "Being made partially of shadow themselves, shae are concealed in dim light or darkness even to creatures that can see clearly in those light levels."
+    },
+    {
+      "name": "Items",
+      "text": "dagger (5);"
+    },
+    {
+      "name": "Counterattack",
+      "text": "⬲ Requirements The shae is aware of the attack Trigger The shae is targeted by an attack from an adjacent creature that misses due to the shae being concealed Effect The shae makes a Strike against the attacker."
+    },
+    {
+      "name": "Slip",
+      "text": "⬲ Trigger A creature moves adjacent to the shae Effect The shae teleports to a clear space adjacent to another creature they can see within 30 feet."
+    },
+    {
+      "name": "Bide",
+      "text": "⬺ The shae prepares to take action against their foes, watching their opponent and waiting for the right opportunity to respond. The shae gains a second reaction until the start of their next turn, though they still can't use more than one reaction on the same triggering action."
+    },
+    {
+      "name": "Swift Steps",
+      "text": "The shae's movement doesn't trigger reactions."
+    },
+    {
+      "name": "Tenebral Form",
+      "text": "The shae can Fly at full Speed in gaseous form."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ dagger +13 (agile, finesse, versatile s); Damage 1d4+5 (1d4+5) piercing and 1d6 (1d6) cold"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ dagger +13 (agile, thrown 10 feet, versatile s); Damage 1d4+5 (1d4+5) piercing and 1d6 (1d6) cold"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      5,
+      1,
+      3,
+      2,
+      3
+    ],
+    "items": "dagger (5);"
+  }
+}

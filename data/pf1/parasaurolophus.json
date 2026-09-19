@@ -1,0 +1,97 @@
+{
+  "name": "Parasaurolophus",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Huge",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +2, natural +7, size -1",
+    "touch": 10,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 45,
+    "formula": "6d8+18"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 14,
+    "con": 17,
+    "int": 2,
+    "wis": 13,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +7, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +13",
+    "list": {
+      "Perception": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 23,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 4,
+  "feats": [
+    "Improved Bull Rush",
+    "Power Attack",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "tail slap +8 (2d6+9)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This thick-bodied dinosaur has a whip-like tail and a long neck, its head topped by the crest of a backward-curving horn.",
+  "meta": {
+    "cmb": "+12",
+    "cmd": "24 (28 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forests or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or herd (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

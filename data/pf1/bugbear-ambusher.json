@@ -1,0 +1,109 @@
+{
+  "name": "Bugbear Ambusher",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "goblinoid",
+  "alignment": "CE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 25,
+    "notes": "armor +5, deflection +1, dex +2, dodge +1, natural +5, shield +1",
+    "touch": 14,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 90,
+    "formula": "3d8+8d10+33"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": 16,
+    "int": 10,
+    "wis": 16,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +11, Ref +12, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +11, Disable Device +18, Intimidate +15, Perception +11, Stealth +18, Survival +11",
+    "list": {
+      "Climb": "+11",
+      "Disable Device": "+18",
+      "Intimidate": "+15",
+      "Perception": "+11",
+      "Stealth": "+18",
+      "Survival": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common",
+    "Goblin"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 10,
+  "feats": [
+    "Dodge",
+    "Double Slice",
+    "Endurance",
+    "Improved Initiative",
+    "Improved Natural Armor",
+    "Quick Draw",
+    "Two-Weapon Defense",
+    "Two-Weapon Fighting",
+    "Two-Weapon Rend"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 longsword +14/+9 (1d8+6/19-20), +1 short sword +14 (1d6+3/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk dagger +11 (1d4+5/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Bugbear",
+    "class": "ranger (trapper) 8 (Pathfinder RPG Ultimate Magic 65)",
+    "cmb": "+15",
+    "cmd": 27,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate mountains"
+      }
+    ]
+  }
+}

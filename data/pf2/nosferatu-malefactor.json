@@ -1,0 +1,120 @@
+{
+  "name": "Nosferatu Malefactor",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 285.",
+  "size": "Medium",
+  "type": "Vampire",
+  "subtype": "Undead",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 30,
+    "notes": ""
+  },
+  "hp": {
+    "average": 135,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, climb 25 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 24,
+    "con": 16,
+    "int": 24,
+    "wis": 20,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +17, Ref +21, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +21 (1d20+21); __Arcana__: +21 (1d20+21); __Athletics__: +19 (1d20+19); __Deception__: +17 (1d20+17); __Intimidation__: +19 (1d20+19); __Stealth__: +23 (1d20+23); ",
+    "list": {
+      "Acrobatics": "+21",
+      "Arcana": "+21",
+      "Athletics": "+19",
+      "Deception": "+17",
+      "Intimidation": "+19",
+      "Stealth": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Necril; [[telepathy]] 60 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Nosferatu Vulnerabilities",
+      "text": ""
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, divine, polymorph, transmutation); DC 29."
+    },
+    {
+      "name": "Command Thrall",
+      "text": "⭓ (auditory, divine, mental);"
+    },
+    {
+      "name": "Dominate",
+      "text": "⬺ (divine, enchantment, incapacitation, mental, visual); DC 29."
+    },
+    {
+      "name": "Drink Blood",
+      "text": "⬻ (divine, necromancy); When Drinking Blood, the nosferatu malefactor regains 13 HP."
+    },
+    {
+      "name": "Plague of Ancients",
+      "text": "(disease, virulent); DC 29."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +23 (finesse); Damage 2d12+11 (2d12+11) piercing plus Drink Blood"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +23 (agile, finesse); Damage 2d10+11 (2d10+11) piercing plus plague of ancients"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      7,
+      3,
+      7,
+      5,
+      3
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Giant Jellyfish",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 152.",
+  "size": "Large",
+  "type": "Mindless",
+  "subtype": "Animal, Aquatic",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 165,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 20 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 18,
+    "con": 22,
+    "int": 0,
+    "wis": 10,
+    "cha": 0
+  },
+  "saves": {
+    "text": "Fort +17, Ref +15, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +15 (1d20+15); __Athletics__: +17 (1d20+17); __Stealth__: +15 (1d20+15); ",
+    "list": {
+      "Acrobatics": "+15",
+      "Athletics": "+17",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 22,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Jellyfish Venom",
+      "text": "(poison); Saving Throw DC 25 Fortitude. Maximum Duration 6 rounds Stage 1 2d8 (2d8) poison damage and clumsy 1 (1 round) Stage 2 3d6 (3d6) poison damage and clumsy 2 (1 round) Stage 3 2d10 (2d10) poison damage and paralyzed (1 round)"
+    },
+    {
+      "name": "Squeeze",
+      "text": "A giant jellyfish can fit into tight spaces as if it were a Medium creature. It can move at its full Speed while Squeezing."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ tentacle +18 (agile, reach 20 feet); Damage 2d8+8 (2d8+8) bludgeoning plus jellyfish venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      4,
+      6,
+      -5,
+      0,
+      -5
+    ]
+  }
+}

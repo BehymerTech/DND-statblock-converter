@@ -1,0 +1,102 @@
+{
+  "name": "Mist Stalker",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 114.",
+  "size": "Medium",
+  "type": "Water",
+  "subtype": "Amphibious, Elemental",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": ""
+  },
+  "hp": {
+    "average": 58,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, climb 20 feet, swim 30 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 18,
+    "con": 14,
+    "int": 12,
+    "wis": 20,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +10, Ref +12, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +11 (1d20+11); __Stealth__: +12 (1d20+12); ",
+    "list": {
+      "Athletics": "+11",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, mist vision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Aquan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Mist Cloud",
+      "text": "(aura, conjuration, primal, water); 15 feet. The mist stalker is surrounded by mist. Creatures in the aura are concealed. If wind disperses the aura, it returns automatically at the start of the mist stalker's turn. This cloud is suppressed in water."
+    },
+    {
+      "name": "Mist Vision",
+      "text": "The mist stalker ignores the concealed condition from mist and fog."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 1d8+4 (1d8+4) bludgeoning, DC 21."
+    },
+    {
+      "name": "Solidify Mist",
+      "text": "⬻ (primal, transmutation, water); The mist stalker makes its mist cloud congeal, causing the aura to be difficult terrain until the start of the mist stalker's next turn. In addition, the mist stalker can make the mist even thicker around a single Medium or smaller creature within the cloud. The creature must succeed at a DC 20 Reflex save or become immobilized until it Escapes or it is no longer in the mist cloud's emanation."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ tentacle +14 (finesse, sweep, reach 10 feet); Damage 2d8+4 (2d8+4) bludgeoning plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      4,
+      2,
+      1,
+      5,
+      0
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "name": "Alghollthu Master",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 14.",
+  "size": "Huge",
+  "type": "Aquatic",
+  "subtype": "Aberration",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 23,
+    "notes": ""
+  },
+  "hp": {
+    "average": 135,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 feet, swim 60 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 12,
+    "con": 22,
+    "int": 16,
+    "wis": 20,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +15, Ref +10, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +16 (1d20+16); __Deception__: +15 (1d20+15); __Intimidation__: +15 (1d20+15); __Occultism__: +16 (1d20+16); __Lore (any one subcategory)__: +14 (1d20+14); ",
+    "list": {
+      "Athletics": "+16",
+      "Deception": "+15",
+      "Intimidation": "+15",
+      "Occultism": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Aklo",
+    "Alghollthu",
+    "Aquan",
+    "Common",
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Mucus Cloud",
+      "text": "(aura, disease); 5 feet. While underwater, an aboleth exudes a cloud of transparent slime. An air-breathing creature adjacent to an aboleth must succeed at a DC 25 Fortitude save each round or lose the ability to breathe air but gain the ability to breathe water for 3 hours."
+    },
+    {
+      "name": "Slime",
+      "text": "(curse, occult, virulent); Saving Throw DC 25 Fortitude. Stage 1 no ill effect (1 round) Stage 2 the victim's skin softens, inflicting drained 1 (1 round) Stage 3 the victim's skin transforms into a clear, slimy membrane, inflicting drained 2 until the curse ends; every hour this membrane remains dry, the creature's drained condition increases by 1 (permanent)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ tentacle +16 (agile, magical, reach 15 feet); Damage 2d8+10 (2d8+10) bludgeoning plus slime"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      1,
+      6,
+      3,
+      5,
+      4
+    ]
+  }
+}

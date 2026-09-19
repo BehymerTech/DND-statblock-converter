@@ -1,0 +1,113 @@
+{
+  "name": "Leonal",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Outsider",
+  "subtype": "Extraplanar, Good",
+  "alignment": "Always neutral good",
+  "cr": "12",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": "+3 Dex, +14 natural",
+    "touch": null,
+    "flatFooted": null
+  },
+  "hp": {
+    "average": 114,
+    "formula": "12d8+60"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft. (12 squares)"
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 17,
+    "con": 20,
+    "int": 14,
+    "wis": 14,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +13 (+17 against poison), Ref +11, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Balance +22, Concentration +12, Diplomacy +4, Hide +22, Intimidate +10, Jump +35, Knowledge (any) +17, Listen +17, Move Silently +22, Sense Motive +17, Spot +17, Survival +17;",
+    "list": {
+      "Balance": "+22",
+      "Concentration": "+12",
+      "Diplomacy": "+4",
+      "Hide": "+22",
+      "Intimidate": "+10",
+      "Jump": "+35",
+      "Listen": "+17",
+      "Move Silently": "+22",
+      "Sense Motive": "+17",
+      "Spot": "+17",
+      "Survival": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 12,
+  "feats": [
+    "Ability Focus (roar)",
+    "Dodge",
+    "Mobility",
+    "Spring Attack",
+    "Track"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Roar, pounce, improved grab, rake 1d6+8, spell-like abilities"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 10/evil and silver, darkvision 60 ft., immunity to electricity and petrification, lay on hands, lowlight vision, protective aura, resistance to cold 10 and sonic 10, speak with animals, spell resistance 28"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Claw +20 melee (1d6+8)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +20 melee (1d6+8) and bite +15 melee (1d8+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "#### Combat",
+    "grapple": "+20",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "A good-aligned plane.",
+    "organization": "Solitary or pride (4-9)",
+    "treasure": "No coins; double goods; standard items",
+    "advancement": "13-18 HD (Medium); 19-36 HD (Large)",
+    "leveladjustment": "---"
+  }
+}

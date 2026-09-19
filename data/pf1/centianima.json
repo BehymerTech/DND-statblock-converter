@@ -1,0 +1,101 @@
+{
+  "name": "Centianima",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 103: The Hellfire Compact",
+  "size": "Large",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +2, natural +6, size -1",
+    "touch": 11,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 32,
+    "formula": "5d8+10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 15,
+    "con": "None",
+    "int": 8,
+    "wis": 13,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +5, Ref +3, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +10, Perception +9, Stealth +6",
+    "list": {
+      "Intimidate": "+10",
+      "Perception": "+9",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Common (can’t speak)"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 3,
+  "feats": [
+    "Great Fortitude",
+    "Improved Initiative",
+    "Step Up"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 bites +7 (1d8+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This bony horror has two skulls on either end of its long, fleshless body. Dozens of twitching, claw-tipped legs carry its centipede-like form.",
+  "meta": {
+    "cmb": "+9",
+    "cmd": "21 (+24 vs trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any ruins"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

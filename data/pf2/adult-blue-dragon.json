@@ -1,0 +1,135 @@
+{
+  "name": "Adult Blue Dragon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 108.",
+  "size": "Huge",
+  "type": "Electricity",
+  "subtype": "Dragon",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 13",
+  "xp": null,
+  "ac": {
+    "value": 34,
+    "notes": ""
+  },
+  "hp": {
+    "average": 260,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, burrow 20 feet, fly 150 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 18,
+    "int": 18,
+    "wis": 16,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +24, Ref +23, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +22 (1d20+22); __Arcana__: +25 (1d20+25); __Deception__: +26 (1d20+26); __Diplomacy__: +26 (1d20+26); __Intimidation__: +24 (1d20+24); __Society__: +23 (1d20+23); __Stealth__: +20 (1d20+20); __Survival__: +22 (1d20+22); ",
+    "list": {
+      "Acrobatics": "+22",
+      "Arcana": "+25",
+      "Deception": "+26",
+      "Diplomacy": "+26",
+      "Intimidation": "+24",
+      "Society": "+23",
+      "Stealth": "+20",
+      "Survival": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Auran",
+    "Common",
+    "Draconic",
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Sound Imitation",
+      "text": "The dragon can mimic any sound it has heard. It must succeed at a Deception check with a +4 circumstance bonus to do so."
+    },
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 90 feet, DC 32."
+    },
+    {
+      "name": "Wing Deflection",
+      "text": "⬲ Trigger The dragon is targeted with an attack. Effect The dragon raises its wing, gaining a +2 circumstance bonus to AC against the triggering attack. If the dragon is Flying, it descends 10 feet after the attack is complete."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (arcane, electricity, evocation); The dragon breathes lightning that deals 9d12 (9d12) electricity damage in a 100-foot line (DC 33 basic Reflex save). It can't use Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Desert Thirst",
+      "text": "(arcane, transmutation); When casting create water, the dragon can attempt to destroy liquid instead of creating it, turning an equal amount of liquid into sand. This destroys liquid magic or alchemical items if they're of a lower level than the dragon (a creature can attempt a DC 32 Will save to protect all liquids in its possession). This doesn't affect the liquids in a creature's body."
+    },
+    {
+      "name": "Draconic Frenzy",
+      "text": "⬺ The dragon makes two claw Strikes and one horns Strike in any order."
+    },
+    {
+      "name": "Draconic Momentum",
+      "text": "The dragon recharges its Breath Weapon whenever it scores a critical hit with a Strike."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +27 (electricity, magical, reach 15 feet); Damage 3d8+12 (3d8+12) piercing plus 1d12 (1d12) electricity"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +27 (magical, agile, reach 10 feet); Damage 3d8+12 (3d8+12) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +25 (magical, reach 20 feet); Damage 3d8+10 (3d8+10) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ horns +25 (magical, reach 15 feet); Damage 2d8+10 (2d8+10) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      3,
+      4,
+      4,
+      3,
+      5
+    ]
+  }
+}

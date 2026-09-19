@@ -1,0 +1,106 @@
+{
+  "name": "Tyrannosaurus",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Gargantuan",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 21,
+    "notes": "dex +1, natural +14, size -4",
+    "touch": 7,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 153,
+    "formula": "18d8+72"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 13,
+    "con": 19,
+    "int": 2,
+    "wis": 15,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +15, Ref +12, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +37",
+    "list": {
+      "Perception": "+37"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 47,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 13,
+  "feats": [
+    "Bleeding Critical",
+    "Critical Focus",
+    "Diehard",
+    "Endurance",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Iron Will",
+    "Run",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +20 (4d6+22/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This bipedal dinosaur’s front arms seem small compared to the rest of its bulk, but its enormous head is all teeth.",
+  "meta": {
+    "cmb": "28 (+32 grapple)",
+    "cmd": 39,
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forest and plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

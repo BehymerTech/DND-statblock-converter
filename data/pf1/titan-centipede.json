@@ -1,0 +1,98 @@
+{
+  "name": "Titan Centipede",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Colossal",
+  "type": "vermin",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 21,
+    "notes": "natural +19, size -8",
+    "touch": 2,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 135,
+    "formula": "10d8+90"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., climb 60 ft."
+  },
+  "abilities": {
+    "str": 43,
+    "dex": 11,
+    "con": 29,
+    "int": "None",
+    "wis": 10,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +16, Ref +3, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +24, Perception +4, Stealth -8",
+    "list": {
+      "Climb": "+24",
+      "Perception": "+4",
+      "Stealth": "-8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 14,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 7,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15 (4d6+24 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A writhing, seemingly endless segmented monstrosity crawls forth, its great mandibles clacking as it spies prey.",
+  "meta": {
+    "cmb": "+31",
+    "cmd": "41 (can’t be tripped)",
+    "racialModifiers": [
+      "Perception 4",
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm forests or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or colony (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

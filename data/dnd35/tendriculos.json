@@ -1,0 +1,105 @@
+{
+  "name": "Tendriculos",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Huge",
+  "type": "Plant",
+  "subtype": "",
+  "alignment": "Always neutral",
+  "cr": "6",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": "-2 size, -1 Dex, +9 natural",
+    "touch": 7,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 94,
+    "formula": "9d8+54"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft. (4 squares)"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 9,
+    "con": 22,
+    "int": 3,
+    "wis": 8,
+    "cha": 3
+  },
+  "saves": {
+    "text": "Fort +12, Ref +2, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Hide +9, Listen +1, Move Silently +1, Spot +1;",
+    "list": {
+      "Hide": "+9",
+      "Listen": "+1",
+      "Move Silently": "+1",
+      "Spot": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "-1",
+  "babOrProficiency": 6,
+  "feats": [
+    "Alertness",
+    "Iron Will",
+    "Power Attack",
+    "Stealthy"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Improved grab, paralysis, swallow whole"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Low-light vision, plant traits, regeneration 10"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Bite +13 melee (2d8+9) and 2 tendrils +8 melee (1d6+4)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +13 melee (2d8+9) and 2 tendrils +8 melee (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A tendriculos can rear up to a height of 15 feet. It weighs about 3,500 pounds.",
+    "grapple": "+23",
+    "spaceReach": "15 ft./15 ft.",
+    "environment": "Temperate forests",
+    "organization": "Solitary",
+    "treasure": "1/10th coins; 50% goods; 50% items",
+    "advancement": "10-16 HD (Huge); 17-27 HD (Gargantuan)",
+    "leveladjustment": "---"
+  }
+}

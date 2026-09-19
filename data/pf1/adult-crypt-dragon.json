@@ -1,0 +1,101 @@
+{
+  "name": "Adult Crypt Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Huge",
+  "type": "dragon",
+  "subtype": "extraplanar",
+  "alignment": "N",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 31,
+    "notes": "natural +23, size -2",
+    "touch": 8,
+    "flatFooted": 31
+  },
+  "hp": {
+    "average": 250,
+    "formula": "20d12+120"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 200 ft. (poor)"
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 10,
+    "con": 23,
+    "int": 20,
+    "wis": 25,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +18, Ref +14, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +28, Fly +15, Intimidate +28, Knowledge (engineering) +28, Knowledge (history) +28, Knowledge (planes) +28, Knowledge (religion) +28, Perception +34, Sense Motive +34, Spellcraft +28, Stealth +15",
+    "list": {
+      "Diplomacy": "+28",
+      "Fly": "+15",
+      "Intimidate": "+28",
+      "Perception": "+34",
+      "Sense Motive": "+34",
+      "Spellcraft": "+28",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 44,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 20,
+  "feats": [
+    "Alertness",
+    "Critical Focus",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Lightning Reflexes",
+    "Multiattack",
+    "Step Up",
+    "Vital Strike",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +28 (2d8+13/19-20), 2 claws +27 (2d6+9), tail slap +25 (2d6+13), 2 wings +25 (1d8+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This dragon’s scales are the color of weathered bone, and its hide stretches tautly and painfully over its emaciated form.",
+  "meta": {
+    "cmb": "+31",
+    "cmd": "41 (45 vs. trip)"
+  }
+}

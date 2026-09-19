@@ -1,0 +1,103 @@
+{
+  "name": "Ogre",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "CE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 17,
+    "notes": "armor +4, dex -1, natural +5, size -1",
+    "touch": 8,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d8+12"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft.,  40 ft. base"
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 8,
+    "con": 15,
+    "int": 6,
+    "wis": 10,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +6, Ref +0, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +7, Perception +5",
+    "list": {
+      "Climb": "+7",
+      "Perception": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Giant"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 3,
+  "feats": [
+    "Iron Will",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "greatclub +7 (2d8+7)"
+    },
+    {
+      "name": "Ranged",
+      "text": "javelin +1 (1d8+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This lumbering giant’s beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth.",
+  "meta": {
+    "cmb": "+9",
+    "cmd": 18,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or cold hills"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, gang (3-4), or family (5-16)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (hide armor, greatclub, 4 javelins, other treasure)"
+      }
+    ]
+  }
+}

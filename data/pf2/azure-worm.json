@@ -1,0 +1,120 @@
+{
+  "name": "Azure Worm",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 57.",
+  "size": "Gargantuan",
+  "type": "Animal",
+  "subtype": "Amphibious",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 15",
+  "xp": null,
+  "ac": {
+    "value": 35,
+    "notes": ""
+  },
+  "hp": {
+    "average": 320,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, burrow 40 feet, swim 60 feet"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 8,
+    "con": 26,
+    "int": 0,
+    "wis": 8,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +32, Ref +20, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +33 (1d20+33); __Stealth__: +20 (1d20+20), (Stealth: +25 (1d20+25) in water); ",
+    "list": {
+      "Athletics": "+33",
+      "Stealth": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tremorsense 100"
+  ],
+  "passivePerception": 32,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Inexorable",
+      "text": "The purple worm recovers from the paralyzed, slowed, and stunned conditions at the end of its turn. It's also immune to penalties to its Speeds and the immobilized condition, and it ignores difficult terrain and greater difficult terrain."
+    },
+    {
+      "name": "Shake It Off",
+      "text": "⬲ Frequency once per day Trigger The purple worm would be affected by a condition or adverse effect (such as baleful polymorph). Effect The purple worm negates the triggering condition or effect. s from artifacts, deities, or a similarly powerful source can't be avoided in this way."
+    },
+    {
+      "name": "Azure Worm Venom",
+      "text": "(poison); Saving Throw DC 37 Fortitude. Maximum Duration 6 rounds Stage 1 3d6 (3d6) poison damage and clumsy 2 (1 round) Stage 2 4d6 (4d6) poison damage and clumsy 2 (1 round) Stage 3 6d6 (6d6) poison damage and clumsy 2 (1 round)"
+    },
+    {
+      "name": "Breach",
+      "text": "⬺ The azure worm Swims up to its swim Speed, then Leaps vertically out of the water up to 30 feet, making a Strike against a creature at the apex of the jump (this lets it attack a creature within 45 feet of the water's surface). After the Strike, the worm splashes back down. It can use Improved Grab on this Strike and follow it up with Fast Swallow."
+    },
+    {
+      "name": "Fast Swallow",
+      "text": "⬲ Trigger The worm Grabs a creature. Effect The worm uses Swallow Whole."
+    },
+    {
+      "name": "Swallow Whole",
+      "text": "⬻ Huge, 3d8+10 (3d8+10) bludgeoning, Rupture 27."
+    },
+    {
+      "name": "Thrash",
+      "text": "⬺ The worm makes a Strike once against each creature in its reach. It can Strike up to once with its jaws, up to once with its stinger, and any number of times with its body. Each attack counts toward the worm's multiple attack penalty, but the multiple attack penalty doesn't increase until after it makes all the attacks."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +31 (deadly 2d10, reach 15 feet); Damage 3d12+16 (3d12+16) piercing plus Improved Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ stinger +31 (agile, poison, reach 15 feet); Damage 4d6+16 (4d6+16) piercing plus azure worm venom"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ body +29 (reach 15 feet); Damage 2d8+14 (2d8+14) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      10,
+      -1,
+      8,
+      -5,
+      -1,
+      -1
+    ]
+  }
+}

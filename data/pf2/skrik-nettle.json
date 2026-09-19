@@ -1,0 +1,99 @@
+{
+  "name": "Skrik Nettle",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 242.",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 130,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 feet, fly 25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 20,
+    "con": 14,
+    "int": 2,
+    "wis": 18,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +10, Ref +17, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +16 (1d20+16); ",
+    "list": {
+      "Acrobatics": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "motionsense 30"
+  ],
+  "passivePerception": 26,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Motionsense",
+      "text": "A flying skrik nettle can detect the movement of nearby creatures and objects from the tiny gusts of wind created by their movements. This is a precise sense at the listed range, but it works only against creatures and objects that moved through air in the previous round."
+    },
+    {
+      "name": "Spill Venom",
+      "text": "⬲ Trigger The skrik nettle takes piercing or slashing damage Effect The skrik nettle ejects its venom onto an adjacent creature. That creature is exposed to skrik nettle venom."
+    },
+    {
+      "name": "Negate Levitation",
+      "text": "⬻ (evocation, primal); The skrik nettle attempts to counteract (with a modifier of +17) a single effect currently levitating a creature it can detect with its motionsense."
+    },
+    {
+      "name": "Skrik Nettle Venom",
+      "text": "(evocation, poison, primal); Saving Throw DC 27 Fortitude. Maximum Duration 6 rounds Stage 1 clumsy 1 and levitate upward 5 feet (1 round) Stage 2 clumsy 2 and levitate upward 10 feet (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ beak +17 (agile, finesse, reach 10 feet); Damage 2d8+6 (2d8+6) piercing plus skrik nettle venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      5,
+      2,
+      -4,
+      4,
+      0
+    ]
+  }
+}

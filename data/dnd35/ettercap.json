@@ -1,0 +1,103 @@
+{
+  "name": "Ettercap",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "Usually neutral evil",
+  "cr": "3",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 14,
+    "notes": "+3 Dex, +1 natural",
+    "touch": 13,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 27,
+    "formula": "5d8+5"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": 30,
+    "burrow": null,
+    "notes": "30 ft. (6 squares), climb 30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 17,
+    "con": 13,
+    "int": 6,
+    "wis": 15,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +4, Ref +4, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +10, Craft (trapmaking) +4, Hide +9, Listen +4, Spot +8;",
+    "list": {
+      "Climb": "+10",
+      "Hide": "+9",
+      "Listen": "+4",
+      "Spot": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 3,
+  "feats": [
+    "Great Fortitude",
+    "Multiattack"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Poison, web"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Low-light vision"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Bite +5 melee (1d8+2 plus poison)"
+    },
+    {
+      "name": "Attack",
+      "text": "Bite +5 melee (1d8+2 plus poison) and 2 claws +3 melee (1d3+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "An ettercap is about 6 feet tall and weighs about 200 pounds.",
+    "grapple": "+5",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Warm forests",
+    "organization": "Solitary, pair, or troupe (1-2 plus 2-4 Medium monstrous spiders)",
+    "treasure": "Standard",
+    "advancement": "6-7 HD (Medium); 8-15 HD (Large)",
+    "leveladjustment": "+4"
+  }
+}

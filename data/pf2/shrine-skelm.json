@@ -1,0 +1,109 @@
+{
+  "name": "Shrine Skelm",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 239.",
+  "size": "Medium",
+  "type": "Skelm",
+  "subtype": "Humanoid",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 5",
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 80,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 16,
+    "con": 18,
+    "int": 18,
+    "wis": 14,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +13, Ref +12, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +12 (1d20+12); __Deception__: +14 (1d20+14); __Intimidation__: +14 (1d20+14); __Occultism__: +11 (1d20+11); __Religion__: +11 (1d20+11); __Stealth__: +12 (1d20+12); __Thievery__: +12 (1d20+12); ",
+    "list": {
+      "Athletics": "+12",
+      "Deception": "+14",
+      "Intimidation": "+14",
+      "Occultism": "+11",
+      "Religion": "+11",
+      "Stealth": "+12",
+      "Thievery": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "imprecise scent 30"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Aklo",
+    "Common; [[telepathy]] 30 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Seize Prayer",
+      "text": "⬲ (abjuration, concentrate, occult); Trigger A creature the shrine skelm can hear within 30 feet Casts a divine Spell with a verbal component Effect The shrine skelm utters an incantation and attempts to counteract the triggering spell (counteract modifier +14, counteract level 3rd). If he successfully counteracts the spell, the skelm and the caster each take 1d8 (1d8) mental damage per level of the triggering spell, and if the spell had one or more targets, the skelm learns its effect and can allow the spell's effects to continue with himself as the only target (any other effect is still counteracted)."
+    },
+    {
+      "name": "Items",
+      "text": "silver religious symbol;"
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, occult, polymorph, transmutation); The street skelm can take on the appearance of any Medium male humanoid (page 304). This doesn't change his Speed or his attack and damage bonuses with his Strikes but might change the damage type his Strikes deal."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +15 (agile, magical); Damage 2d4+7 (2d4+7) bludgeoning plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ antler +15 (magical); Damage 2d8+7 (2d8+7) piercing plus Knockdown (page 305)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      3,
+      4,
+      4,
+      2,
+      5
+    ],
+    "items": "silver religious symbol;"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "name": "Nightripper",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Bestiary",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "24",
+  "level": null,
+  "xp": 1228800,
+  "ac": {
+    "value": 42,
+    "notes": "deflection +4, dex +11, natural +17",
+    "touch": 25,
+    "flatFooted": 31
+  },
+  "hp": {
+    "average": 526,
+    "formula": "27d10+378"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft."
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 32,
+    "con": 39,
+    "int": 18,
+    "wis": 23,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +27, Ref +30, Will +25",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +41, Intimidate +37, Knowledge (history) +31, Knowledge (local) +31, Knowledge (religion) +31, Knowledge (nobility) +34, Perception +36, Sense Motive +36, Stealth +41, Use Magic Device +37",
+    "list": {
+      "Acrobatics": "+41",
+      "Intimidate": "+37",
+      "Perception": "+36",
+      "Sense Motive": "+36",
+      "Stealth": "+41",
+      "Use Magic Device": "+37"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "detect law",
+    "true seeing"
+  ],
+  "passivePerception": 46,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 27,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Dazzling Display",
+    "Deadly Stroke",
+    "Exotic Weapon Proficiency (bastard sword)",
+    "Greater Feint",
+    "Greater Weapon Focus (bastard sword)",
+    "Greater Weapon Specialization (bastard sword)",
+    "Improved Critical (bastard sword)",
+    "Improved Critical (claw)",
+    "Improved Critical (talon)",
+    "Improved Disarm",
+    "Improved Feint",
+    "Power Attack",
+    "Quick Draw",
+    "Quicken Spell- Like Ability (blade barrier)",
+    "Shatter Defenses",
+    "Weapon Focus (bastard sword)",
+    "Weapon Specialization (bastard sword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+5 vorpal bastard sword +43/+38/+33/+28 (1d10+18/17-20), claw +31 (2d6+4/19-20 plus 2d6 bleed), 2 talons +31 (1d6+4/19-20 plus 2d6 bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Twin talons attached to grotesque back-appendages drip blood from this hideously emaciated, jackal-legged albino demon.",
+  "meta": {
+    "cmb": "+36",
+    "cmd": 61,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Kurnugia)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple (+5 keen vorpal bastard sword, other treasure)"
+      }
+    ]
+  }
+}

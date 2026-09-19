@@ -1,0 +1,164 @@
+{
+  "name": "Sphinx",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Always chaotic evil",
+  "cr": "5",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": "-1 size, +2 Dex, +8 natural",
+    "touch": 11,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 67,
+    "formula": "9d10+18"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 90,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares), fly 90 ft. (poor)"
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 14,
+    "con": 15,
+    "int": 6,
+    "wis": 15,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +8, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Listen +10, Spot +14;",
+    "list": {
+      "Intimidate": "+13",
+      "Listen": "+10",
+      "Spot": "+14",
+      "Survival": "+18",
+      "Bluff": "+15",
+      "Concentration": "+12",
+      "Diplomacy": "+8",
+      "Disguise": "+4",
+      "Sense Motive": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "low-light vision",
+    "Darkvision 60 ft.",
+    "low-light vision",
+    "Darkvision 60 ft.",
+    "low-light vision",
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 9,
+  "feats": [
+    "Alertness",
+    "Cleave",
+    "Flyby Attack",
+    "Power Attack"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Pounce, rake 2d4+3, roar, spells"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., low-light vision"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Pounce, rake 1d6+3"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., low-light vision"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Pounce, rake 1d6+2, spell-like abilities"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., low-light vision"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Pounce, rake 1d6+2"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., lowlight vision"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Claw +18 melee (2d4+7)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +18 melee (2d4+7)"
+    },
+    {
+      "name": "Attack",
+      "text": "Gore +15 melee (2d6+6)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Gore +15 melee (2d6+6) and 2 claws +10 melee (1d6+3)"
+    },
+    {
+      "name": "Attack",
+      "text": "Claw +11 melee (1d6+4)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +11 melee (1d6+4)"
+    },
+    {
+      "name": "Attack",
+      "text": "Bite +13 melee (1d10+5)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +13 melee (1d10+5) and 2 claws +8 melee (1d6+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Sphinxes are enigmatic creatures with great, feathery wings and leonine bodies. All sphinxes are territorial, but the more intelligent ones can differentiate between deliberate intrusion and temporary or inadvertent trespass.",
+    "grapple": "+18",
+    "spaceReach": "10 ft./5 ft.",
+    "environment": "Warm deserts",
+    "organization": "Solitary, pair, or flock (4-7)",
+    "treasure": "None",
+    "advancement": "10-14 HD (Large); 15-27 HD (Huge)",
+    "leveladjustment": "+3 (cohort)"
+  }
+}

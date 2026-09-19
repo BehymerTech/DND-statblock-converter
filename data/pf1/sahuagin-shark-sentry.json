@@ -1,0 +1,107 @@
+{
+  "name": "Sahuagin Shark Sentry",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "aquatic",
+  "alignment": "LE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 23,
+    "notes": "armor +4, dex +2, natural +7",
+    "touch": 12,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 61,
+    "formula": "6d10+28"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": 17,
+    "int": 12,
+    "wis": 13,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +8, Ref +10, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +9, Handle Animal +10, Intimidate +10, Knowledge (nature) +10, Perception +10, Stealth +11, Survival +10, Swim +17",
+    "list": {
+      "Climb": "+9",
+      "Handle Animal": "+10",
+      "Intimidate": "+10",
+      "Perception": "+10",
+      "Stealth": "+11",
+      "Survival": "+10",
+      "Swim": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Aquan",
+    "Common",
+    "speak with sharks"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 6,
+  "feats": [
+    "Aquatic Advantage",
+    "Combat Reflexes",
+    "Endurance",
+    "Improved Natural Attack (claw)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 +1 claws +12 (1d6+6), +1 bite +12 (1d4+6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk underwater heavy crossbow +9 (1d10/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Sahuagin",
+    "class": "ranger 4",
+    "cmb": "+11",
+    "cmd": 23,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm ocean"
+      }
+    ]
+  }
+}

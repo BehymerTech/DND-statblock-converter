@@ -1,0 +1,93 @@
+{
+  "name": "Cinder Rat",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 148.",
+  "size": "Small",
+  "type": "Fire",
+  "subtype": "Elemental",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 45,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 16,
+    "con": 14,
+    "int": 2,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +12, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +10 (1d20+10); __Stealth__: +10 (1d20+10); __Survival__: +9 (1d20+9); ",
+    "list": {
+      "Acrobatics": "+10",
+      "Stealth": "+10",
+      "Survival": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, smoke vision"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Smoke Vision",
+      "text": "The cinder rat ignores the concealed condition from smoke."
+    },
+    {
+      "name": "Fetid Fumes",
+      "text": "(aura, fire); 5 feet. A creature that enters the aura or begins its turn there must succeed at a DC 22 Fortitude save or become sickened 1. Everything within the aura, including the cinder rat, is concealed by smoke."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +10 (finesse); Damage 1d8+4 (1d8+4) fire plus 1d4 (1d4) persistent fire"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      3,
+      2,
+      -4,
+      2,
+      0
+    ]
+  }
+}

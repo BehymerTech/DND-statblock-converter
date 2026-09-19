@@ -1,0 +1,108 @@
+{
+  "name": "Yurei",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 27,
+    "notes": "dex +7, dodge +5, natural +5",
+    "touch": 22,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 157,
+    "formula": "15d8+90"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 25,
+    "con": "None",
+    "int": 14,
+    "wis": 21,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +11, Ref +14, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +22, Climb +18, Intimidate +24, Perception +23, Sense Motive +23, Stealth +25",
+    "list": {
+      "Acrobatics": "+22",
+      "Climb": "+18",
+      "Intimidate": "+24",
+      "Perception": "+23",
+      "Sense Motive": "+23",
+      "Stealth": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 11,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Mobility",
+    "Spring Attack",
+    "Step Up"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "painful grasp +11 touch (12d6 plus sickened)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Long black hair obscures the face of this pale woman. With each motion, her body twitches and jerks.",
+  "meta": {
+    "cmb": "+11",
+    "cmd": 33,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or haunting (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Planetar",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Large",
+  "type": "Celestial",
+  "subtype": "Angel",
+  "alignment": "Lawful Good",
+  "cr": "16",
+  "level": null,
+  "xp": 15000,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 262,
+    "formula": "21d10 + 147"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": 120,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., Fly 120 ft. (hover)"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 20,
+    "con": 24,
+    "int": 19,
+    "wis": 22,
+    "cha": 25
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +11",
+    "list": {
+      "Perception": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Truesight 120 ft."
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "All; telepathy 120 ft."
+  ],
+  "initiative": "+10 (20)",
+  "babOrProficiency": 5,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Divine Awareness",
+      "text": "The planetar knows if it hears a lie."
+    },
+    {
+      "name": "Exalted Restoration",
+      "text": "If the planetar dies outside Mount Celestia, its body disappears, and it gains a new body instantly, reviving with all its Hit Points somewhere in Mount Celestia."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The planetar has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The planetar makes three Radiant Sword attacks or uses Holy Burst twice."
+    },
+    {
+      "name": "Radiant Sword",
+      "text": "_Melee Attack Roll:_ +12, reach 10 ft. _Hit:_ 14 (2d6 + 7) Slashing damage plus 18 (4d8) Radiant damage."
+    },
+    {
+      "name": "Holy Burst",
+      "text": "_Dexterity Saving Throw:_ DC 20, each enemy in a 20-foot-radius Sphere centered on a point the planetar can see within 120 feet. _Failure:_ 24 (7d6) Radiant damage. _Success:_ Half damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The planetar casts one of the following spells, requiring no Material components and using Charisma as spellcasting ability (spell save DC 20): <br> &emsp;**At Will:** _Detect Evil and Good_ <br> &emsp;**1/Day Each:** _Commune_, _Control Weather_, _Dispel Evil and Good_, _Raise Dead_"
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Divine Aid (2/Day)",
+      "text": "The planetar casts _Cure Wounds_, _Invisibility_, _Lesser Restoration_, or _Remove Curse_, using the same spellcasting ability as Spellcasting. ## Priests"
+    }
+  ],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

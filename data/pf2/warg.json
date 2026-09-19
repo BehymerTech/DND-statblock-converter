@@ -1,0 +1,104 @@
+{
+  "name": "Warg",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 322.",
+  "size": "Medium",
+  "type": "Beast",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 36,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 16,
+    "int": 8,
+    "wis": 14,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +11, Ref +9, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Athletics__: +8 (1d20+8); __Deception__: +6 (1d20+6); __Intimidation__: +6 (1d20+6); __Stealth__: +7 (1d20+7); __Survival__: +8 (1d20+8); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Athletics": "+8",
+      "Deception": "+6",
+      "Intimidation": "+6",
+      "Stealth": "+7",
+      "Survival": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Goblin",
+    "Orcish"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Avenging Bite",
+      "text": "⬲ Trigger A creature within reach of the warg's jaws attacks one of the warg's allies. Effect The warg makes a jaws Strike against the triggering creature."
+    },
+    {
+      "name": "Pack Attack",
+      "text": "The warg's Strikes deal 1d4 (1d4) extra damage to creatures within the reach of at least two of the warg's allies."
+    },
+    {
+      "name": "Swallow Whole",
+      "text": "⬻ (attack); Small, 1d6+2 (1d6+2) bludgeoning, Rupture 9."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +11 Damage 1d8+4 (1d8+4) piercing plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      3,
+      3,
+      -1,
+      2,
+      2
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Tzitzimitl",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Gargantuan",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 35,
+    "notes": "dex +5, natural +24, size -4",
+    "touch": 11,
+    "flatFooted": 30
+  },
+  "hp": {
+    "average": 319,
+    "formula": "22d8+220"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 39,
+    "dex": 21,
+    "con": "None",
+    "int": 20,
+    "wis": 23,
+    "cha": 30
+  },
+  "saves": {
+    "text": "Fort +17, Ref +14, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +35, Knowledge (arcana) +28, Knowledge (nature) +27, Knowledge (planes) +25, Knowledge (religion) +30, Perception +31, Sense Motive +31, Spellcraft +23, Survival +21, Use Magic Device +30",
+    "list": {
+      "Fly": "+35",
+      "Perception": "+31",
+      "Sense Motive": "+31",
+      "Spellcraft": "+23",
+      "Survival": "+21",
+      "Use Magic Device": "+30"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "arcane sight",
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 41,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Celestial",
+    "Common"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 16,
+  "feats": [
+    "Awesome Blow",
+    "Combat Reflexes",
+    "Improved Bull Rush",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Precise Shot",
+    "Vital Strike",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +26 (2d8+14 plus 3d6 electricity and energy drain), 2 claws +27 (2d6+14/19-20 plus 3d6 electricity)"
+    },
+    {
+      "name": "Ranged",
+      "text": "eye beam +17 touch (10d6 electricity and 10d6 force)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Crusted with rock, this immense skeletal figure flies swiftly through the air, strange gasses clinging to its nightmarish form.",
+  "meta": {
+    "cmb": "+29",
+    "cmd": 44,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

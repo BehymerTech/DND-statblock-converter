@@ -1,0 +1,112 @@
+{
+  "name": "Half-Fiend Scion",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Monster Codex",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "native",
+  "alignment": "NE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 23,
+    "notes": "armor +8, dex +2, natural +3",
+    "touch": 12,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 157,
+    "formula": "12d8+3d10+87"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 45 ft. (good)"
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 16,
+    "con": 19,
+    "int": 14,
+    "wis": 24,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +15, Ref +12, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics -1, Bluff +14, Fly +7, Intimidate +19, Knowledge (dungeoneering) +7, Knowledge (planes) +17, Knowledge (religion) +17, Perception +20, Sense Motive +16, Spellcraft +16",
+    "list": {
+      "Acrobatics": "-1",
+      "Bluff": "+14",
+      "Fly": "+7",
+      "Intimidate": "+19",
+      "Perception": "+20",
+      "Sense Motive": "+16",
+      "Spellcraft": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Aklo",
+    "Elven",
+    "Infernal",
+    "Orvian",
+    "Undercommon"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 12,
+  "feats": [
+    "Augment Summoning",
+    "Combat Casting",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Siphoning Blade",
+    "Spell Focus (conjuration)",
+    "Step Up",
+    "Toughness",
+    "Vital Strike",
+    "Voracious Blade",
+    "Weapon Focus (rhoka sword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 vicious rhoka sword +20/+15/+10 (1d10+7/18-20 plus 2d6), bite +13 (1d6+3), claw +13 (1d4+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The scent of death pours from this disheveled woman. Leather straps dotted with iron buckles bind her lean form.",
+  "meta": {
+    "race": "Half-fiend",
+    "class": "urdefhan warpriest of Szuriel 12 (Pathfinder RPG Bestiary 171, Pathfinder RPG Bestiary 2 276, Pathfinder RPG Advanced Class Guide 60)",
+    "cmb": "+18",
+    "cmd": 31,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land (Abaddon)"
+      }
+    ]
+  }
+}

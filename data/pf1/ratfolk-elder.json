@@ -1,0 +1,109 @@
+{
+  "name": "Ratfolk Elder",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "ratfolk",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 19,
+    "notes": "armor +7, shield +1, size +1",
+    "touch": 11,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 80,
+    "formula": "9d8+36"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 14,
+    "int": 12,
+    "wis": 18,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +12, Ref +5, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +5, Craft (alchemy) +3, Diplomacy +14, Heal +12, Knowledge (religion) +9, Perception +6, Sense Motive +14, Use Magic Device +4",
+    "list": {
+      "Appraise": "+5",
+      "Diplomacy": "+14",
+      "Heal": "+12",
+      "Perception": "+6",
+      "Sense Motive": "+14",
+      "Use Magic Device": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Celestial",
+    "Common"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 6,
+  "feats": [
+    "Extra Channel",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Selective Channeling",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk light mace +8/+3 (1d4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "light crossbow +7 (1d6/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Ratfolk",
+    "class": "cleric of Abadar 9",
+    "cmb": "+5",
+    "cmd": 15,
+    "racialModifiers": [
+      "Craft (alchemy) 2",
+      "Perception 2",
+      "Use Magic Device 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts or urban"
+      }
+    ]
+  }
+}

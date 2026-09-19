@@ -1,0 +1,100 @@
+{
+  "name": "Elasmotherium",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Huge",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 23,
+    "notes": "natural +15, size -2",
+    "touch": 8,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 115,
+    "formula": "11d8+66"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 10,
+    "con": 23,
+    "int": 2,
+    "wis": 17,
+    "cha": 3
+  },
+  "saves": {
+    "text": "Fort +15, Ref +7, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +17",
+    "list": {
+      "Perception": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 27,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 8,
+  "feats": [
+    "Diehard",
+    "Endurance",
+    "Great Fortitude",
+    "Improved Critical (gore)",
+    "Improved Initiative",
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +18 (6d6+18/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This lumbering, four-legged, rhino-like beast has thick hide and a single immense horn protruding from the top of its head.",
+  "meta": {
+    "cmb": "+22",
+    "cmd": "32 (36 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or herd (3-9)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

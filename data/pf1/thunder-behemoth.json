@@ -1,0 +1,117 @@
+{
+  "name": "Thunder Behemoth",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Colossal",
+  "type": "magical beast",
+  "subtype": "behemoth, earth",
+  "alignment": "N",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 35,
+    "notes": "dex -2, natural +35, size -8",
+    "touch": 0,
+    "flatFooted": 35
+  },
+  "hp": {
+    "average": 337,
+    "formula": "25d10+200"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 30 ft."
+  },
+  "abilities": {
+    "str": 43,
+    "dex": 6,
+    "con": 26,
+    "int": 3,
+    "wis": 14,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +22, Ref +12, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +27, Survival +14, Swim +20",
+    "list": {
+      "Perception": "+27",
+      "Survival": "+14",
+      "Swim": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 37,
+  "languages": [],
+  "initiative": "-2",
+  "babOrProficiency": 25,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Great Cleave",
+    "Greater Bull Rush",
+    "Greater Overrun",
+    "Greater Sunder",
+    "Improved Bull Rush",
+    "Improved Overrun",
+    "Improved Sunder",
+    "Iron Will",
+    "Lunge",
+    "Power Attack",
+    "Snatch"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +33 (4d6+16 plus grab), gore +33 (4d6+16), 2 stomps +28 (2d8+8 plus trip)"
+    },
+    {
+      "name": "Ranged",
+      "text": "4 rocks +15 (3d6+24 plus stun)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous beast has rocky, armored plates on its body. Elaborate horns crown its horrific head.",
+  "meta": {
+    "cmb": "49 (+53 bull rush, grapple, overrun, or sunder)",
+    "cmd": "57 (59 vs. bull rush, overrun, or sunder, 61 vs. trip)",
+    "racialModifiers": [
+      "Perception 10"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

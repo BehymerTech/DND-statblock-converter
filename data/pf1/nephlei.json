@@ -1,0 +1,110 @@
+{
+  "name": "Nephlei",
+  "sourceSystem": "pf1",
+  "source": "Planes of Power",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "air, extraplanar",
+  "alignment": "CN",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 20,
+    "notes": "deflection +4, dex +4, natural +3, size -1",
+    "touch": 17,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 115,
+    "formula": "11d10+55"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 40 ft. (good)"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 19,
+    "con": 20,
+    "int": 16,
+    "wis": 15,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +12, Ref +15, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +18, Bluff +19, Fly +20, Intimidate +19, Knowledge (nature) +17, Knowledge (planes) +17, Perception +16, Sense Motive +16, Stealth +14",
+    "list": {
+      "Acrobatics": "+18",
+      "Bluff": "+19",
+      "Fly": "+20",
+      "Intimidate": "+19",
+      "Perception": "+16",
+      "Sense Motive": "+16",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Auran",
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 11,
+  "feats": [
+    "Agile Maneuvers",
+    "Combat Casting",
+    "Flyby Attack",
+    "Greater Spell Focus (evocation)",
+    "Spell Focus (evocation)",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 shocking burst scorpion whip +12/+7/+2 (1d6+2 plus 1d6 electricity)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A mighty woman of refined beauty hovers in the air, her skin whorled with blue markings.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": 31,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any sky (Plane of Air)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

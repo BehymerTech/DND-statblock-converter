@@ -1,0 +1,95 @@
+{
+  "name": "NPC Coliseum (Gladiator)",
+  "sourceSystem": "pf1",
+  "source": "GameMastery Guide",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 21,
+    "notes": "armor +7, dex +3, dodge +1, rage -2, shield +2",
+    "touch": 12,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 57,
+    "formula": "3d12+3d10+21"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 16,
+    "con": 17,
+    "int": 8,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +5, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Climb +8, Intimidate +5, Perception +10, Swim +8",
+    "list": {
+      "Acrobatics": "+10",
+      "Climb": "+8",
+      "Intimidate": "+5",
+      "Perception": "+10",
+      "Swim": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 20,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 6,
+  "feats": [
+    "Dodge",
+    "Double Slice",
+    "Improved Shield Bash",
+    "Shield Focus",
+    "Two-Weapon Fighting",
+    "Weapon Focus (trident)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk trident +13/+8 (1d8+5)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk trident +11 (1d8+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "barbarian 3, fighter 3",
+    "cmb": "+11",
+    "cmd": 25
+  }
+}

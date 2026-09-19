@@ -1,0 +1,119 @@
+{
+  "name": "Tomb Giant",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 110.",
+  "size": "Large",
+  "type": "Humanoid",
+  "subtype": "Giant",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 12",
+  "xp": null,
+  "ac": {
+    "value": 32,
+    "notes": ""
+  },
+  "hp": {
+    "average": 255,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 16,
+    "con": 22,
+    "int": 16,
+    "wis": 24,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +22, Ref +19, Will +25",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +25 (1d20+25); __Medicine__: +25 (1d20+25); __Religion__: +25 (1d20+25); __Stealth__: +21 (1d20+21); ",
+    "list": {
+      "Athletics": "+25",
+      "Medicine": "+25",
+      "Religion": "+25",
+      "Stealth": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise lifesense 60"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Common",
+    "Jotun",
+    "Necril"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Catch Rock",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "+1 striking scythe, black onyx gems worth 300 gp;"
+    },
+    {
+      "name": "Dooming Touch",
+      "text": "(divine, necromancy); The tomb giant's claws carry the accursed power of their foul gods. A creature hit by the tomb giant's claw Strike becomes doomed 1."
+    },
+    {
+      "name": "Font of Death",
+      "text": "⬽ (divine, necromancy, negative); The tomb giant turns the spiritual tide on a creature that has just died, temporarily transforming it into a volatile vessel of negative energy. The tomb giant touches a creature that died in the past 24 hours, infusing its flesh and bone with negative energy. Once during the next hour, the tomb giant can spend a single action (from any distance) to release this negative energy from the corpse in an explosion that deals 10d8 (10d8) negative energy in a 15-foot burst (DC 32 basic Fortitude save); if not released before the end of the hour, the energy dissipates harmlessly. The tomb giant can't use Font of Death while a previous corpse remains infused."
+    },
+    {
+      "name": "Throw Rock",
+      "text": "⬻ (page 306);"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ scythe +27 (deadly d10, magical, reach 10 feet, trip); Damage 2d10+13 (2d10+13) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +26 (agile, reach 10 feet); Damage 3d6+13 (3d6+13) slashing plus dooming touch"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ rock +24 (brutal, range increment 120 feet); Damage 3d8+13 (3d8+13) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      3,
+      6,
+      3,
+      7,
+      4
+    ],
+    "items": "+1 striking scythe, black onyx gems worth 300 gp;"
+  }
+}

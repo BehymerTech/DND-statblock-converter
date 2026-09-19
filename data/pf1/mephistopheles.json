@@ -1,0 +1,130 @@
+{
+  "name": "Mephistopheles",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "30",
+  "level": null,
+  "xp": 9830400,
+  "ac": {
+    "value": 48,
+    "notes": "deflection +4, dex +10, dodge +1, natural +8, profane +16, size -1",
+    "touch": 40,
+    "flatFooted": 37
+  },
+  "hp": {
+    "average": 752,
+    "formula": "35d10+560"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 100 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 42,
+    "dex": 30,
+    "con": 43,
+    "int": 35,
+    "wis": 34,
+    "cha": 39
+  },
+  "saves": {
+    "text": "Fort +31, Ref +33, Will +37",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +56, Diplomacy +52, Disguise +56, Fly +54, Intimidate +52, Knowledge (arcana) +47, Knowledge (history) +47, Knowledge (local) +47, Knowledge (nobility) +47, Knowledge (religion) +47, Knowledge (planes) +50, Linguistics +50, Perception +50, Sense Motive +50, Sleight of Hand +45, Spellcraft +47, Stealth +44, Use Magic Device +49",
+    "list": {
+      "Bluff": "+56",
+      "Diplomacy": "+52",
+      "Disguise": "+56",
+      "Fly": "+54",
+      "Intimidate": "+52",
+      "Linguistics": "+50",
+      "Perception": "+50",
+      "Sense Motive": "+50",
+      "Sleight of Hand": "+45",
+      "Spellcraft": "+47",
+      "Stealth": "+44",
+      "Use Magic Device": "+49"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect chaos",
+    "detect good",
+    "discern lies",
+    "see in darkness",
+    "true seeing"
+  ],
+  "passivePerception": 60,
+  "languages": [
+    "all (language mastery)",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+14",
+  "babOrProficiency": 35,
+  "feats": [
+    "Combat Expertise",
+    "Craft Construct",
+    "Craft Magic Arms and Armor",
+    "Craft Rod",
+    "Craft Wondrous Item",
+    "Critical Focus",
+    "Deceitful",
+    "Dodge",
+    "Flyby Attack",
+    "Forge Ring",
+    "Improved Critical (trident)",
+    "Improved Critical (wing)",
+    "Improved Initiative",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack",
+    "Quicken Spell-Like Ability (dominate person)",
+    "Staggering Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+5 axiomatic flaming unholy trident +55/+50/+45/+40 (2d6+29/19-20 plus 1d6 fire), gore +50 (2d8+8), 6 wings +48 (1d8+8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This red-skinned devil has three sets of curving horns atop his brow and three mismatched pairs of wings.",
+  "meta": {
+    "cmb": "+52",
+    "cmd": 93,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple (+5 axiomatic flaming unholy trident, Visineir, other treasure)"
+      }
+    ]
+  }
+}

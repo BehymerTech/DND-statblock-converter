@@ -1,0 +1,104 @@
+{
+  "name": "Shoggti",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 213.",
+  "size": "Large",
+  "type": "Qlippoth",
+  "subtype": "Amphibious, Fiend",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 105,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, swim 25 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 18,
+    "con": 14,
+    "int": 18,
+    "wis": 14,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +16, Ref +12, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +17 (1d20+17); __Intimidation__: +17 (1d20+17); __Occultism__: +15 (1d20+15); __Stealth__: +15 (1d20+15); ",
+    "list": {
+      "Acrobatics": "+17",
+      "Intimidation": "+17",
+      "Occultism": "+15",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Abyssal; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Braincloud",
+      "text": "⬻ (attack, enchantment, mental, occult, open); The shoggti caresses a creature with a tentacle and supernaturally erodes the creature's capability for thought as it does so. The target must succeed at a DC 25 Will save or become stupefied 2, with an unlimited duration. The target can attempt the save to remove the stupefied condition again once per day when it makes its daily preparations."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 1d10+8 (1d10+8) bludgeoning, DC 25."
+    },
+    {
+      "name": "Fascinating Display",
+      "text": "⬺ (concentrate, emotion, enchantment, fear, mental, occult, visual); The shoggti writhes its tentacles and shifts its coloration to put on an unnaturally fascinating hypnotic display. Creatures in a 30-foot emanation must attempt a DC 25 Will save, after which they are temporarily immune to further Fascinating Displays for 1 minute. Critical Success The creature is unaffected. Success The creature is sickened 1. Failure The creature is fascinated for 1 minute. Once the fascination effect ends, the creature is sickened 1. Critical Failure The creature is fascinated for 1 minute, can't use reactions while fascinated, and is sickened 2 once the fascination ends."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ bite +18 (chaotic, magical, reach 10 feet); Damage 2d12+8 (2d12+8) piercing plus 1d6 (1d6) chaotic"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ pincer +18 (agile, chaotic, magical, reach 10 feet, versatile b); Damage 2d8+8 (2d8+8) slashing plus 1d6 (1d6) chaotic and Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      4,
+      2,
+      4,
+      2,
+      6
+    ]
+  }
+}

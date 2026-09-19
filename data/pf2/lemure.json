@@ -1,0 +1,87 @@
+{
+  "name": "Lemure",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 86.",
+  "size": "Medium",
+  "type": "Mindless",
+  "subtype": "Devil, Fiend",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 0",
+  "xp": null,
+  "ac": {
+    "value": 13,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 10,
+    "con": 16,
+    "int": 0,
+    "wis": 10,
+    "cha": 4
+  },
+  "saves": {
+    "text": "Fort +10, Ref +5, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +5 (1d20+5); ",
+    "list": {
+      "Athletics": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision"
+  ],
+  "passivePerception": 10,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Subservience",
+      "text": "Lemures have little drive of their own, but other devils can take command of them. A non-lemure devil can issue a command to all lemures within 60 feet of it with a single action, which has the auditory and concentrate traits. The devil picks one of the following orders lemures can understand, and the lemures follow that order. The command and its effects end once the commander is out of the lemure's sight, a new command is issued by the same or another devil, or the lemure dies.<ul class='inner-bullet-list'><li>Kill The lemure attacks one target the commander singles out and gains a +1 circumstance bonus to attack rolls against the target.</li><li>Defend The lemure circles the commander and attacks any creature that comes near. It gains a +1 circumstance bonus to AC and saves.</li><li>Fetch The lemure gains a +10–foot circumstance bonus to its Speed and attempts to get an object or person the commander singles out. It attacks anyone and anything that gets in the way.</li><li>Work The lemure performs drudge work dictated by the commander.</li></ul>"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +7 (evil, magical); Damage 1d4+2 (1d4+2) slashing plus 1 evil"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      0,
+      3,
+      -5,
+      0,
+      -3
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "name": "Apostate Devil (Deimavigga)",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Book of the Damned - Volume 1: Princes of Darkness",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 46,
+    "notes": "armor +14, dex +10, natural +12",
+    "touch": 20,
+    "flatFooted": 36
+  },
+  "hp": {
+    "average": 261,
+    "formula": "18d10+162"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 31,
+    "con": 28,
+    "int": 21,
+    "wis": 24,
+    "cha": 28
+  },
+  "saves": {
+    "text": "Fort +20, Ref +16, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +28, Bluff +30, Diplomacy +34, Disguise +27, Fly +18, Intimidate +34, Knowledge (history) +26, Knowledge (planes) +26, Knowledge (religion) +26, Perception +28, Sense Motive +28, Stealth +36",
+    "list": {
+      "Acrobatics": "+28",
+      "Bluff": "+30",
+      "Diplomacy": "+34",
+      "Disguise": "+27",
+      "Fly": "+18",
+      "Intimidate": "+34",
+      "Perception": "+28",
+      "Sense Motive": "+28",
+      "Stealth": "+36"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "indomitable oration",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+14",
+  "babOrProficiency": 18,
+  "feats": [
+    "Agile Maneuvers",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Improved Critical (claw)",
+    "Improved Disarm",
+    "Improved Initiative",
+    "Iron Will",
+    "Persuasive",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +28 (1d8+9/19-20 plus 1d6 Wisdom drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A grim metal mask floats above ceremonial armor that shifts and writhes, and long blades form fingers on gauntleted hands.",
+  "meta": {
+    "cmb": "+28",
+    "cmd": 47,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+5 shadow full plate, other treasure)"
+      }
+    ]
+  }
+}

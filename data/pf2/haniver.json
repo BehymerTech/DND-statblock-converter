@@ -1,0 +1,95 @@
+{
+  "name": "Haniver",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 120.",
+  "size": "Tiny",
+  "type": "Gremlin",
+  "subtype": "Amphibious, Fey",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature -1",
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 9,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 feet, fly 20 feet, swim 20 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 16,
+    "con": 14,
+    "int": 8,
+    "wis": 12,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +4, Ref +7, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +5 (1d20+5); __Deception__: +4 (1d20+4); __Nature__: +3 (1d20+3); __Stealth__: +5 (1d20+5); __Thievery__: +5 (1d20+5), (Thievery: +7 (1d20+7) to Steal); ",
+    "list": {
+      "Acrobatics": "+5",
+      "Deception": "+4",
+      "Nature": "+3",
+      "Stealth": "+5",
+      "Thievery": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Aquan",
+    "Common",
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Rearrange Possessions",
+      "text": "⬻ (or); ⬺ (manipulate) The haniver attempts to Steal a small object off a target's person. If they succeed, they also rifle through and rearrange the contents of the target's pockets, pouches, and other containers. The next time the target attempts to draw a weapon or retrieve a worn item, doing so requires two Interact actions instead of one. The haniver can Steal an object that's closely guarded using this action without the –5 penalty, though not objects that would be extremely noticeable or time-consuming to remove. They can spend 2 actions instead of 1 to use this ability to Steal from a creature in combat or otherwise on guard."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ bite +7 (agile, finesse); Damage 1d4+1 (1d4+1) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      3,
+      2,
+      -1,
+      1,
+      2
+    ]
+  }
+}

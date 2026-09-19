@@ -1,0 +1,129 @@
+{
+  "name": "Wild Hunt Monarch",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "wild hunt",
+  "alignment": "CN",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 34,
+    "notes": "deflection +8, dex +7, dodge +1, natural +8",
+    "touch": 26,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 325,
+    "formula": "26d6+234"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 33,
+    "dex": 25,
+    "con": 28,
+    "int": 22,
+    "wis": 26,
+    "cha": 27
+  },
+  "saves": {
+    "text": "Fort +19, Ref +22, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +36, Diplomacy +37, Intimidate +34, Knowledge (geography) +35, Knowledge (nature) +35, Perception +37, Perform (wind) +37, Ride +33, Sense Motive +37, Stealth +36, Survival +34, Use Magic Device +37",
+    "list": {
+      "Acrobatics": "+36",
+      "Diplomacy": "+37",
+      "Intimidate": "+34",
+      "Perception": "+37",
+      "Ride": "+33",
+      "Sense Motive": "+37",
+      "Stealth": "+36",
+      "Survival": "+34",
+      "Use Magic Device": "+37"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greensight",
+    "low-light vision",
+    "mistsight",
+    "scent",
+    "see in darkness"
+  ],
+  "passivePerception": 47,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Draconic",
+    "Sylvan",
+    "speak with animals",
+    "speak with plants"
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 13,
+  "feats": [
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dodge",
+    "Furious Focus",
+    "Great Fortitude",
+    "Improved Critical (glaive)",
+    "Improved Initiative",
+    "Power Attack",
+    "Quicken Spell-Like Ability (charm monster)",
+    "Step Up",
+    "Tiring Critical",
+    "Weapon Focus (glaive)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "monarch’s glaive +30/+25/+20 (1d10+21/19-20/×3 plus 2d6), gore +19 (1d8+5)"
+    },
+    {
+      "name": "Ranged",
+      "text": "monarch’s glaive +26 (1d10+21/19-20/×3 plus 2d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This limber and regal humanoid has an elk’s antlers, long pointed ears, flowing white hair, and luminescent green eyes.",
+  "meta": {
+    "cmb": "+24",
+    "cmd": 50,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or wild hunt"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+3 glaive, other treasure)"
+      }
+    ]
+  }
+}

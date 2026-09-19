@@ -1,0 +1,94 @@
+{
+  "name": "Mole (FF)",
+  "sourceSystem": "pf1",
+  "source": "Familiar Folio",
+  "size": "Tiny",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1/6",
+  "level": null,
+  "xp": 65,
+  "ac": {
+    "value": 12,
+    "notes": "size +2",
+    "touch": 12,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 6,
+    "formula": "1d8+2"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., burrow 10 ft."
+  },
+  "abilities": {
+    "str": 5,
+    "dex": 11,
+    "con": 14,
+    "int": 2,
+    "wis": 10,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +4, Ref +2, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +7",
+    "list": {
+      "Perception": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 0,
+  "feats": [
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "claw -1 (1d2-3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This brown, apparently eyeless rodent has a furry cylindrical body, a pointed snout, and large, thick paws that end in digging claws.",
+  "meta": {
+    "cmb": "-2",
+    "cmd": 5,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or labor (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

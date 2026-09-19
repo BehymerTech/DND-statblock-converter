@@ -1,0 +1,91 @@
+{
+  "name": "Ooze Mephit",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 113.",
+  "size": "Small",
+  "type": "Water",
+  "subtype": "Amphibious, Earth, Elemental",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 14,
+    "notes": ""
+  },
+  "hp": {
+    "average": 24,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, fly 20 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 14,
+    "int": 6,
+    "wis": 10,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +7, Ref +4, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +6 (1d20+6); __Diplomacy__: +7 (1d20+7); ",
+    "list": {
+      "Athletics": "+6",
+      "Diplomacy": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 13,
+  "languages": [
+    "Aquan",
+    "Terran"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (arcane, poison); The ooze mephit spits toxic slime in a 15-foot cone that deals 2d6 (2d6) poison damage to each creature within the area (DC 17 basic Reflex save). The ooze mephit can't use Breath Weapon again for 1d4 (1d4) rounds."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +8 Damage 1d6+3 (1d6+3) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      1,
+      2,
+      -2,
+      0,
+      2
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Drocha Swarm",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 75: Demon's Heresy",
+  "size": "Tiny",
+  "type": "undead",
+  "subtype": "incorporeal, swarm",
+  "alignment": "CE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "deflection +4, dex +4, size +2",
+    "touch": 20,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 76,
+    "formula": "9d8+36"
+  },
+  "speed": {
+    "walk": 0,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "0 ft., fly 30 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 18,
+    "con": "None",
+    "int": "None",
+    "wis": 15,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +7, Ref +7, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +16, Perception +2",
+    "list": {
+      "Fly": "+16",
+      "Perception": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 12,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 6,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "swarm (4d6 plus blood drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Hundreds of twisted, distorted faces roil in a miserable cloud, screaming of their unquiet deaths.",
+  "meta": {
+    "cmb": "None",
+    "cmd": "None",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pack (2-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

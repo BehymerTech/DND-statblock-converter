@@ -1,0 +1,110 @@
+{
+  "name": "Chained Spirit",
+  "sourceSystem": "pf1",
+  "source": "Curse of the Crimson Throne (PFRPG), Pathfinder No. 11: Skeletons of Scarwall",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "incorporeal",
+  "alignment": "LE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 30,
+    "notes": "deflection +8, dex +4, profane +8",
+    "touch": 30,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 200,
+    "formula": "16d8+128"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 19,
+    "con": "None",
+    "int": 15,
+    "wis": 20,
+    "cha": 27
+  },
+  "saves": {
+    "text": "Fort +13, Ref +11, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +24, Diplomacy +24, Fly +31, Knowledge (history) +18, Perception +30, Stealth +23",
+    "list": {
+      "Bluff": "+24",
+      "Diplomacy": "+24",
+      "Fly": "+31",
+      "Perception": "+30",
+      "Stealth": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "spectral sight",
+    "spiritsense"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Common",
+    "Necril"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 12,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Improved Critical (chain)",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Skill Focus (Perception)",
+    "Weapon Focus (incorporeal touch)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "incorporeal touch +17 (1d6 Charisma drain), 4 chains +23 (2d4+7/19-20 plus 1 Charisma drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This humanoid figure’s body fades into mist below the hips, while its upper, ghostly torso is bound in lengths of writhing chains.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": 42,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary plus up to 4 spirit anchors"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

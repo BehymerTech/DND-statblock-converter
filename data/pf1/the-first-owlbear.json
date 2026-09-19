@@ -1,0 +1,103 @@
+{
+  "name": "The First Owlbear",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "mythic",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 23,
+    "notes": "dex +2, natural +12, size -1",
+    "touch": 11,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 165,
+    "formula": "10d10+110"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 14,
+    "con": 24,
+    "int": 2,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +16, Ref +9, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +5, Perception +16",
+    "list": {
+      "Fly": "+5",
+      "Perception": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 26,
+  "languages": [],
+  "initiative": "+10",
+  "babOrProficiency": 10,
+  "feats": [
+    "Great Fortitude",
+    "Improved Initiative",
+    "Iron Will",
+    "Skill Focus (Perception)",
+    "Weapon Focus (claws)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +17 (2d6+8), 2 claws +18 (1d8+8 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This owlbear seems lean and especially mean, and moves with a spookily silent grace.",
+  "meta": {
+    "race": "Advanced",
+    "class": "mythic owlbear",
+    "cmb": "19 (+23 grapple)",
+    "cmd": "31 (35 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

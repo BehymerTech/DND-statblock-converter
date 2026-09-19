@@ -1,0 +1,138 @@
+{
+  "name": "Dweomercat",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 103.",
+  "size": "Medium",
+  "type": "Beast",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 25,
+    "notes": ""
+  },
+  "hp": {
+    "average": 100,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 18,
+    "con": 16,
+    "int": 16,
+    "wis": 18,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +12, Ref +17, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +17 (1d20+17); __Arcana__: +16 (1d20+16); __Nature__: +15 (1d20+15); __Stealth__: +17 (1d20+17); __Survival__: +15 (1d20+15); ",
+    "list": {
+      "Acrobatics": "+17",
+      "Arcana": "+16",
+      "Nature": "+15",
+      "Stealth": "+17",
+      "Survival": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, detect magic, imprecise scent 30"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Alter Dweomer",
+      "text": "⬲ (abjuration, arcane); Trigger The dweomercat is targeted by a spell or is within the area of a spell as it is cast Effect The dweomercat gains an effect related to the school of the triggering spell. This effect occurs before the dweomercat is affected by the triggering spell. The effect lasts for 1 minute, until the dweomercat uses this ability again, or until the dweomercat Dismisses the effect, whichever comes first."
+    },
+    {
+      "name": "Abjuration",
+      "text": "The dweomercat gains a +1 status bonus to AC."
+    },
+    {
+      "name": "Conjuration",
+      "text": "A cloud of fog appears in a 5-foot burst centered on a corner of the dweomercat's space. Anything in the cloud is concealed."
+    },
+    {
+      "name": "Divination",
+      "text": "The dweomercat gains a +1 status bonus to all skill checks."
+    },
+    {
+      "name": "Enchantment",
+      "text": "The dweomercat gains a +1 status bonus to all saves."
+    },
+    {
+      "name": "Evocation",
+      "text": "Magical feedback deals 4d6 (4d6) force damage to the triggering spellcaster (DC 22 basic Reflex save)."
+    },
+    {
+      "name": "Illusion",
+      "text": "The dweomercat becomes invisible. This effect ends if the dweomercat uses a hostile action, in addition to the normal end conditions."
+    },
+    {
+      "name": "Necromancy",
+      "text": "The dweomercat gains 10 temporary HP."
+    },
+    {
+      "name": "Transmutation",
+      "text": "The dweomercat gains a +1 status bonus to all attack rolls."
+    },
+    {
+      "name": "Dweomer Leap",
+      "text": "⬺ (arcane, conjuration, teleportation); The dweomercat casts dimension door, then can make a melee Strike against one creature adjacent to it at the end of its teleport. If the dweomercat ends its teleport adjacent to a creature under an ongoing spell effect or who cast a spell since the dweomercat's last turn, this does not expend a casting of dimension door."
+    },
+    {
+      "name": "Pounce",
+      "text": "⬻ The dweomercat Strides and makes a Strike at the end of that movement. If the dweomercat began this action hidden, it remains hidden until after this ability's Strike."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +17 (magical); Damage 2d10+7 (2d10+7) piercing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +17 (agile, magical); Damage 2d8+7 (2d8+7) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      4,
+      3,
+      3,
+      4,
+      5
+    ]
+  }
+}

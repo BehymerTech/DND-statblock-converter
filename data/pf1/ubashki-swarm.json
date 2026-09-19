@@ -1,0 +1,101 @@
+{
+  "name": "Ubashki Swarm",
+  "sourceSystem": "pf1",
+  "source": "Lost Kingdoms",
+  "size": "Tiny",
+  "type": "undead",
+  "subtype": "swarm",
+  "alignment": "NE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 15,
+    "notes": "dex +3, size +2",
+    "touch": 15,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d8+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 5,
+    "dex": 17,
+    "con": "None",
+    "int": 2,
+    "wis": 10,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +3, Ref +6, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +5, Perception +5, Stealth +15",
+    "list": {
+      "Climb": "+5",
+      "Perception": "+5",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 15,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 2,
+  "feats": [
+    "Lightning Reflexes",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "swarm +7 (1d6 plus distraction and disease)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "No flavor text",
+  "meta": {
+    "cmb": "None",
+    "cmd": "None",
+    "racialModifiers": [
+      "Climb 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or nuisance (3-5 swarms plus 1 ubashki lynx)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

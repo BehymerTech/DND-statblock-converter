@@ -1,0 +1,142 @@
+{
+  "name": "Nocticula",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 76: The Midnight Isles",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "30",
+  "level": null,
+  "xp": 9830400,
+  "ac": {
+    "value": 48,
+    "notes": "deflection +4, dex +13, natural +7, profane +14",
+    "touch": 41,
+    "flatFooted": 35
+  },
+  "hp": {
+    "average": 774,
+    "formula": "36d10+576"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 90 ft. (good)"
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 36,
+    "con": 42,
+    "int": 35,
+    "wis": 32,
+    "cha": 40
+  },
+  "saves": {
+    "text": "Fort +32, Ref +37, Will +35",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +52, Bluff +62, Diplomacy +54, Disguise +51, Fly +56, Intimidate +51, Knowledge (arcana) +48, Knowledge (local) +48, Knowledge (nobility) +48, Knowledge (planes) +51, Knowledge (religion) +51, Perception +58, Perform (dance) +51, Sense Motive +50, Sleight of Hand +49, Spellcraft +48, Stealth +52, Use Magic Device +54",
+    "list": {
+      "Acrobatics": "+52",
+      "Bluff": "+62",
+      "Diplomacy": "+54",
+      "Disguise": "+51",
+      "Fly": "+56",
+      "Intimidate": "+51",
+      "Perception": "+58",
+      "Sense Motive": "+50",
+      "Sleight of Hand": "+49",
+      "Spellcraft": "+48",
+      "Stealth": "+52",
+      "Use Magic Device": "+54"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "detect law",
+    "see in darkness",
+    "true seeing"
+  ],
+  "passivePerception": 68,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Undercommon",
+    "telepathy 300 ft.",
+    "tongues"
+  ],
+  "initiative": "+13",
+  "babOrProficiency": 36,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Craft Construct",
+    "Craft Magic Arms and Armor",
+    "Craft Wondrous Item",
+    "Critical Focus",
+    "Deadly Aim",
+    "Flyby Attack",
+    "Greater Feint",
+    "Improved Critical (hand crossbow)",
+    "Improved Critical (sting)",
+    "Improved Feint",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Quicken Spell-Like Ability (mass suggestion)",
+    "Rapid Reload (hand crossbow)",
+    "Rapid Shot",
+    "Staggering Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +48 (1d8+12 plus 1d4 Cha drain), 3 stings +48 (2d6+12/19-20 plus poison), 2 hooves +43 (1d4+6 plus 1d6 fire and burn), 2 wings +43 (1d4+6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "Shadowkiss +54/+49/+44/+39 (1d4+20/17-20 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This frighteningly majestic creature spreads wide her runeadorned wings. Molten iron weeps from her hooves, and her three tails are studded with barbs.",
+  "meta": {
+    "cmb": "+48",
+    "cmd": 89,
+    "racialModifiers": [
+      "Bluff 8",
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple (Shadowkiss, 100,000 gp in various jewelry, other treasure)"
+      }
+    ]
+  }
+}

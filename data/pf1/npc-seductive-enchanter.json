@@ -1,0 +1,103 @@
+{
+  "name": "NPC Seductive Enchanter",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "alignment": "NE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 19,
+    "notes": "armor +4, deflection +1, dex +3, natural +1",
+    "touch": 14,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 40,
+    "formula": "8d6+10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 12,
+    "int": 18,
+    "wis": 8,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +4, Ref +6, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +8, Bluff +9, Diplomacy +6, Knowledge (arcana) +15, Knowledge (local) +11, Knowledge (nobility) +11, Perception +9, Perform (dance) +4, Sense Motive +3, Spellcraft +15",
+    "list": {
+      "Acrobatics": "+8",
+      "Bluff": "+9",
+      "Diplomacy": "+6",
+      "Perception": "+9",
+      "Sense Motive": "+3",
+      "Spellcraft": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Elven",
+    "Gnome",
+    "Orc",
+    "Sylvan"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 4,
+  "feats": [
+    "Combat Casting",
+    "Craft Wand",
+    "Improved Initiative",
+    "Iron Will",
+    "Scribe Scroll",
+    "Spell Focus (enchantment)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "rapier +4 (1d6/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +7 (1d4/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Elf",
+    "class": "enchanter 8",
+    "cmb": "+4",
+    "cmd": 18
+  }
+}

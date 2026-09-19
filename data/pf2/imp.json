@@ -1,0 +1,105 @@
+{
+  "name": "Imp",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 87.",
+  "size": "Tiny",
+  "type": "Fiend",
+  "subtype": "Devil",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 15,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, fly 30 feet"
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 18,
+    "con": 10,
+    "int": 12,
+    "wis": 14,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +5, Ref +9, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Arcana__: +6 (1d20+6); __Deception__: +7 (1d20+7); __Religion__: +5 (1d20+5); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Arcana": "+6",
+      "Deception": "+7",
+      "Religion": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common",
+    "Infernal; telepathy (touch)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, divine, polymorph, transmutation); <ul class='inner-bullet-list'><li>Boar size Medium; scent (imprecise) 30 feet; Speed 40 feet; Melee tusk +9 (finesse), Damage 1d10-1 (1d10-1) piercing</li><li>Giant Spider size Medium; Speed 25 feet, climb 25 feet; Melee fangs +9 (finesse, poison), Damage 1d6-1 (1d6-1) piercing plus 1d4 (1d4) poison</li><li>Rat scent; Speed 20 feet; Melee jaws +9 (agile, finesse), Damage 1 piercing</li><li>Raven scent; Speed 10 feet, fly 40 feet; Melee beak +9 (finesse), Damage 1 piercing</li></ul>"
+    },
+    {
+      "name": "Diabolic Healing",
+      "text": "⬻ (concentrate, divine, healing, necromancy); Frequency once per round Effect The imp regains 1d6 (1d6) Hit Points."
+    },
+    {
+      "name": "Imp Venom",
+      "text": "(poison); Saving Throw DC 16 Fortitude. Maximum Duration 6 rounds Stage 1 1d6 (1d6) poison and clumsy 1 (1 round) Stage 2 1d6 (1d6) poison damage, clumsy 1, and slowed 1 (1 round)"
+    },
+    {
+      "name": "Infernal Temptation",
+      "text": "⬻ (divine, concentrate, enchantment, evil, fortune); Frequency once per day Effect The imp offers a non-fiend within 15 feet a bargain, granting a boon of good luck if the creature accepts. The boon lasts for 1 hour once accepted. If the creature dies while the boon is in place, its soul travels to Hell, where it is bound for eternity and unable to be raised or resurrected except by wish or similar magic. Once during the hour, the creature can roll an attack roll or saving throw twice and use the higher result."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ stinger +9 (agile, evil, finesse, magical); Damage 1d4-1 (1d4-1) piercing plus 1d4 (1d4) evil and imp venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -1,
+      4,
+      0,
+      1,
+      2,
+      2
+    ]
+  }
+}

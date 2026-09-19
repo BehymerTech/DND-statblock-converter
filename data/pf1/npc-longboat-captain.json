@@ -1,0 +1,111 @@
+{
+  "name": "NPC Longboat Captain",
+  "sourceSystem": "pf1",
+  "source": "Lands of the Linnorm Kings",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "CN",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "armor +4, dex +3",
+    "touch": 13,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 42,
+    "formula": "5d10++10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 16,
+    "con": 14,
+    "int": 13,
+    "wis": 8,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +6, Ref +4, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (carpentry) +9, Intimidate +11, Profession (sailor) +7, Sense Motive +4, Swim +9, Perception -1",
+    "list": {
+      "Intimidate": "+11",
+      "Sense Motive": "+4",
+      "Swim": "+9",
+      "Perception": "-1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 9,
+  "languages": [
+    "Aquan",
+    "Common",
+    "Skald"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 5,
+  "feats": [
+    "Deadly Aim",
+    "Iron Will",
+    "Persuasive",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Weapon Focus (composite longbow)",
+    "Weapon Specialization (composite longbow)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk battleaxe +7 (1d8+1/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 composite longbow +11 (1d8+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This proud Ulfen captain stands alert on the deck of her dragonprowed longship, bow at the ready.",
+  "meta": {
+    "race": "Human",
+    "class": "fighter 5",
+    "cmb": "+6",
+    "cmd": 19,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or raid (one longboat captain and 2d6 Ulfen raiders)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (masterwork chain shirt, +1 composite longbow with 20 arrows, masterwork battleaxe, potions of cure moderate wounds [2], other treasure)"
+      }
+    ]
+  }
+}

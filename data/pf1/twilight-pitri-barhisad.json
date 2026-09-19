@@ -1,0 +1,119 @@
+{
+  "name": "Twilight Pitri (Barhisad)",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "extraplanar, good, lawful, manasaputra",
+  "alignment": "LG",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 36,
+    "notes": "dex +8, dodge +1, shield +4, size -1, wis +14",
+    "touch": 32,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 300,
+    "formula": "24d10+168"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 27,
+    "con": 24,
+    "int": 18,
+    "wis": 26,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +15, Ref +22, Will +22",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +32, Fly +41, Intimidate +25, Knowledge (arcana) +31, Knowledge (dungeoneering) +31, Knowledge (history) +31, Knowledge (planes) +31, Perception +35, Spellcraft +31, Stealth +31",
+    "list": {
+      "Acrobatics": "+32",
+      "Fly": "+41",
+      "Intimidate": "+25",
+      "Perception": "+35",
+      "Spellcraft": "+31",
+      "Stealth": "+31"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 45,
+  "languages": [
+    "Aklo",
+    "Celestial",
+    "Common",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 24,
+  "feats": [
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dodge",
+    "Improved Critical (unarmed strike)",
+    "Improved Initiative",
+    "Improved Unarmed Strike",
+    "Improved Vital Strike",
+    "Mobility",
+    "Stunning Critical",
+    "Stunning Fist",
+    "Vital Strike",
+    "Weapon Focus (unarmed strike)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "unarmed strike +28/+23/+18/+13 (2d10+8/19-20/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "lunar rays +31/+26/+21/+16 touch (8d6 cold and 8d6 positive energy)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Cerulean light surrounds this towering four-armed figure in a vibrant corona.",
+  "meta": {
+    "cmb": "+29",
+    "cmd": 62,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Positive Energy Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

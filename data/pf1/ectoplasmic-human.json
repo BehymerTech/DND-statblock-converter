@@ -1,0 +1,92 @@
+{
+  "name": "Ectoplasmic Human",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 12,
+    "notes": "natural +2",
+    "touch": 10,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 7,
+    "formula": "1d8+3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., other_semicolon air walk ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 11,
+    "con": "None",
+    "int": "None",
+    "wis": 10,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +0, Ref +0, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 0,
+  "feats": [
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +3 (1d4+3 plus horrifying ooze)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This slimy, shifting mass has the shape of a humanoid, but is made out of what appears to be some form of sticky rope or cloth.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": 13,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or haunt (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

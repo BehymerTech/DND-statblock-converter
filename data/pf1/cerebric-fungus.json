@@ -1,0 +1,101 @@
+{
+  "name": "Cerebric Fungus",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Medium",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "natural +5",
+    "touch": 10,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d8+12"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 11,
+    "con": 16,
+    "int": 15,
+    "wis": 20,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +7, Ref +1, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +6, Diplomacy +6, Perception +12, Stealth +7",
+    "list": {
+      "Bluff": "+6",
+      "Diplomacy": "+6",
+      "Perception": "+12",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "telepathy 100 ft."
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Multiattack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +5 (1d6+2), 2 tendrils +3 (1d4+1 plus pull)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A swollen, brainlike bulb encrusted with fungal shelves squats atop several ropy legs. A wide mouth bisects the bulb’s crown.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": "15 (21 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or colony (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

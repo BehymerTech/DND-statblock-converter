@@ -1,0 +1,106 @@
+{
+  "name": "Frost Drake",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "cold",
+  "alignment": "CE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "dex +1, natural +10, size -1",
+    "touch": 10,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 84,
+    "formula": "8d12+32"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 60 ft. (average), burrow 20 ft., burrow_other snow only ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 13,
+    "con": 18,
+    "int": 8,
+    "wis": 9,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +10, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +17, Fly +10, Intimidate +12, Perception +10, Stealth +8",
+    "list": {
+      "Climb": "+17",
+      "Fly": "+10",
+      "Intimidate": "+12",
+      "Perception": "+10",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent",
+    "snow vision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 8,
+  "feats": [
+    "Flyby Attack",
+    "Improved Initiative",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (2d6+6 plus 1d6 cold), tail slap +8 (1d8+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This two-legged dragon has dull blue scales tinged with bright blue ice. A freezing mist issues from between its powerful jaws.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": 26,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or rampage (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

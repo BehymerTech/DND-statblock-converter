@@ -1,0 +1,106 @@
+{
+  "name": "Worg",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Usually neutral evil",
+  "cr": "2",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 14,
+    "notes": "+2 Dex, +2 natural",
+    "touch": 12,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d10+8"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft. (10 squares)"
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 15,
+    "con": 15,
+    "int": 6,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +6, Ref +6, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Hide +4, Listen +6, Move Silently +6, Spot +6, Survival +2\\*;",
+    "list": {
+      "Hide": "+4",
+      "Listen": "+6",
+      "Move Silently": "+6",
+      "Spot": "+6",
+      "Survival": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 4,
+  "feats": [
+    "Alertness",
+    "Track"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Trip"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., low-light vision, scent"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Bite +7 melee (1d6+4)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +7 melee (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A typical worg has gray or black fur, grows to 5 feet long and stands 3 feet tall at the shoulder. It weighs 300 pounds.",
+    "grapple": "+7",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Temperate plains",
+    "organization": "Solitary, pair, or pack (6-11)",
+    "treasure": "1/10 coins; 50% goods; 50% items",
+    "advancement": "5-6 HD (Medium); 7-12 HD (Large)",
+    "leveladjustment": "+1 (cohort)"
+  }
+}

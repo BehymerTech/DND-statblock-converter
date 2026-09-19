@@ -1,0 +1,101 @@
+{
+  "name": "Derro",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Small",
+  "type": "Monstrous Humanoid",
+  "subtype": "",
+  "alignment": "Usually chaotic evil",
+  "cr": "3",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": "+1 size, +2 Dex, +2 natural, +3 studded leather armor, +1 buckler",
+    "touch": 13,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 16,
+    "formula": "3d8+3"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft. (4 squares)"
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 14,
+    "con": 13,
+    "int": 10,
+    "wis": 5,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +2, Ref +5, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +5, Hide +10, Listen +1, Move Silently +8;",
+    "list": {
+      "Bluff": "+5",
+      "Hide": "+10",
+      "Listen": "+1",
+      "Move Silently": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 3,
+  "feats": [
+    "Blind -Fight",
+    "Improved Initiative"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Poison use, spell-like abilities, sneak attack +1d6"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Madness, spell resistance 15 vulnerability to sunlight"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Short sword +4 melee (1d4/19-20) or repeating light crossbow +6 ranged (1d6/19-20 plus poison)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Short sword +4 melee (1d4/19-20) or repeating light crossbow +6 ranged (1d6/19-20 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Derro are afflicted by a form of racial madness, which most often manifests as delusions of grandeur coupled with an overpowering urge to inflict torment on other creatures. Derro are capable of holding their murderous impulses in check for short periods of time in order to cooperate with creatures of other races, but such arrangements rarely last more than a few weeks. Of course, no derro is capable of recognizing that he is out of his mind.",
+    "grapple": "-1",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Underground",
+    "organization": "Team (2-4), squad (5-8 plus 1 3rd-level sorcerer), or band (11-20 plus 30% noncombatants plus 3 3rd-level sorcerers and 1 sorcerer of 5th-8th level)",
+    "treasure": "Standard coins; double goods; standard items",
+    "advancement": "By character class",
+    "leveladjustment": "--- (+2 if sane)"
+  }
+}

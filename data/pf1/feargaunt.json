@@ -1,0 +1,107 @@
+{
+  "name": "Feargaunt",
+  "sourceSystem": "pf1",
+  "source": "Occult Bestiary",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "extraplanar, incorporeal",
+  "alignment": "CE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 23,
+    "notes": "deflection +7, dex +5, dodge +1, size -1",
+    "touch": 23,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 102,
+    "formula": "12d10+36"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 40 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 21,
+    "con": 17,
+    "int": 12,
+    "wis": 16,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +7, Ref +13, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +19, Fly +26, Intimidate +19, Knowledge (planes) +16, Perception +18, Sense Motive +18, Stealth +22",
+    "list": {
+      "Bluff": "+19",
+      "Fly": "+26",
+      "Intimidate": "+19",
+      "Perception": "+18",
+      "Sense Motive": "+18",
+      "Stealth": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Common (can’t speak)",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 12,
+  "feats": [
+    "Blind-Fight",
+    "Dodge",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Lunge",
+    "Skill Focus (Stealth)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "tormenting touch +16 (6d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hulking shadow exudes a palpable menace, its form twisting into the shapes of hooks, grasping hands, and writhing tentacles.",
+  "meta": {
+    "cmb": "+18",
+    "cmd": 37,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Dimension of Dreams)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

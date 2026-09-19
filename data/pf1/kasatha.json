@@ -1,0 +1,104 @@
+{
+  "name": "Kasatha",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "kasatha",
+  "alignment": "LN",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 18,
+    "notes": "dex +3, dodge +2, wis +3",
+    "touch": 18,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 10,
+    "formula": "1d8+2"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 17,
+    "con": 12,
+    "int": 10,
+    "wis": 16,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +3, Ref +5, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Climb +5, Escape Artist +7, Survival +4, Perception +3",
+    "list": {
+      "Acrobatics": "+7",
+      "Climb": "+5",
+      "Escape Artist": "+7",
+      "Survival": "+4",
+      "Perception": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 13,
+  "languages": [
+    "Common",
+    "Kasatha"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 0,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Unarmed Strike",
+    "Stunning Fist",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "sai +3 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This strange, four-armed humanoid is sleek and muscled, with two spiked blades raised to strike.",
+  "meta": {
+    "race": "Male",
+    "class": "kasatha monk 1",
+    "cmb": "+1",
+    "cmd": 19,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, band (2-6), sect (2-20), or tribe (20-60)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (sais [2], other treasure)"
+      }
+    ]
+  }
+}

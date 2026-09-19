@@ -1,0 +1,100 @@
+{
+  "name": "Sprite",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 308.",
+  "size": "Tiny",
+  "type": "Sprite",
+  "subtype": "Fey",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature -1",
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 11,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 4,
+    "dex": 18,
+    "con": 10,
+    "int": 6,
+    "wis": 10,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +2, Ref +8, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +6 (1d20+6); __Stealth__: +6 (1d20+6); ",
+    "list": {
+      "Acrobatics": "+6",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Luminous Fire",
+      "text": "(evocation, light, primal); A sprite naturally sheds light like a torch. The sprite can extinguish, rekindle, or change the color of this light using a single action, which has the concentrate trait. While this light is extinguished, the sprite's Strikes don't deal fire damage and they can't use their luminous spark Strike."
+    },
+    {
+      "name": "Items",
+      "text": "rapier;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ rapier +8 (deadly 1d8, disarm, finesse, fire, magical); Damage 1d6-3 (1d6-3) piercing plus 1 fire"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ luminous spark +8 (fire, light, range 20 feet); Damage 1d4 (1d4) fire"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -3,
+      4,
+      0,
+      -2,
+      0,
+      2
+    ],
+    "items": "rapier;"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "name": "Spiral Centurion",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 250.",
+  "size": "Medium",
+  "type": "Mindless",
+  "subtype": "Construct",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 11",
+  "xp": null,
+  "ac": {
+    "value": 31,
+    "notes": ""
+  },
+  "hp": {
+    "average": 170,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 22,
+    "con": 20,
+    "int": 0,
+    "wis": 14,
+    "cha": 0
+  },
+  "saves": {
+    "text": "Fort +22, Ref +25, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +23 (1d20+23); __Athletics__: +23 (1d20+23); ",
+    "list": {
+      "Acrobatics": "+23",
+      "Athletics": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 30,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Top-Heavy",
+      "text": "A spiral centurion's top-like design makes it susceptible to effects that would cause it to fall prone. The DC of any attempt to knock the spiral centurion prone is reduced by 5. If the spiral centurion attempts a check or saving throw to resist being knocked prone, it takes a –5 status penalty. A spiral centurion that has been knocked prone can't use any actions other than to attempt to Stand, but it must succeed at a DC 30 Acrobatics check to do so."
+    },
+    {
+      "name": "Hurl Blade",
+      "text": "⬺ The spiral centurion hurls one of its blades with an angled spin to ensure a swooping flight path. The blade deals 6d6 (6d6) slashing damage to each creature in a 40-foot line (DC 30 basic Reflex save). At the start of the spiral centurion's next turn, the blade swoops around and returns along the same flight path, again dealing 6d6 (6d6) slashing damage (DC 30 basic Reflex save) to each creature along the same line."
+    },
+    {
+      "name": "Rev Up",
+      "text": "⬻ Requirements The spiral centurion has not acted yet this turn Effect The spiral centurion Strides up to its Speed. It then gains a +2 circumstance bonus to attack and damage rolls until the end of its turn."
+    },
+    {
+      "name": "Trample",
+      "text": "⬽ Medium or smaller, blade, DC 30."
+    },
+    {
+      "name": "Whirling Death",
+      "text": "⬽ The spiral centurion spins furiously in place, its blades extended to slice through nearby creatures. It makes up to five melee blade Strikes. No single creature can be targeted by more than one blade Strike during one use of this ability. These attacks count toward the spiral centurion's multiple attack penalty, but the multiple attack penalty doesn't increase until after all the attacks are made."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ blade +23 (agile, sweep); Damage 2d12+12 (2d12+12) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      6,
+      5,
+      -5,
+      2,
+      -5
+    ]
+  }
+}

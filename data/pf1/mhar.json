@@ -1,0 +1,122 @@
+{
+  "name": "Mhar",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 138: Rise of New Thassilon",
+  "size": "Colossal",
+  "type": "aberration",
+  "subtype": "chaotic, evil, Great Old One",
+  "alignment": "CE",
+  "cr": "26",
+  "level": null,
+  "xp": 2457600,
+  "ac": {
+    "value": 43,
+    "notes": "dex +1, insight +10, natural +30, size -8",
+    "touch": 13,
+    "flatFooted": 42
+  },
+  "hp": {
+    "average": 592,
+    "formula": "32d8+448"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., burrow 120 ft."
+  },
+  "abilities": {
+    "str": 42,
+    "dex": 13,
+    "con": 38,
+    "int": 28,
+    "wis": 31,
+    "cha": 29
+  },
+  "saves": {
+    "text": "Fort +24, Ref +13, Will +28",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +51, Intimidate +44, Knowledge (arcana) +41, Knowledge (geography) +41, Knowledge (history) +41, Knowledge (local) +41, Knowledge (nature) +41, Knowledge (planes) +41, Perception +45, Sense Motive +42, Stealth +20, Survival +45, Swim +51",
+    "list": {
+      "Climb": "+51",
+      "Intimidate": "+44",
+      "Perception": "+45",
+      "Sense Motive": "+42",
+      "Stealth": "+20",
+      "Survival": "+45",
+      "Swim": "+51"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 55,
+  "languages": [
+    "Aklo",
+    "Ignan",
+    "Terran",
+    "telepathy (100 ft.)"
+  ],
+  "initiative": "+15",
+  "babOrProficiency": 24,
+  "feats": [
+    "Awesome Blow",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Greater Bull Rush",
+    "Greater Vital Strike",
+    "Improved Bull Rush",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Improved Lightning Reflexes",
+    "Improved Vital Strike",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Quicken Spell-Like Ability (feeblemind)",
+    "Stunning Critical",
+    "Vital Strike",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 claws +33 (4d12+16/19-20 plus 2d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Eight pairs of crystalline legs support this enormous volcano. The volcano’s crater constantly spews smoke and roiling lava.",
+  "meta": {
+    "cmb": "48 (+52 bull rush)",
+    "cmd": "69 (71 vs. bull rush, can't be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

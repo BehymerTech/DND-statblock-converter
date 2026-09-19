@@ -1,0 +1,94 @@
+{
+  "name": "Awakened Tree",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 25.",
+  "size": "Huge",
+  "type": "Plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 100,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 8,
+    "con": 22,
+    "int": 0,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +16, Ref +9, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +14 (1d20+14); __Stealth__: +9 (1d20+9), (Stealth: +14 (1d20+14) in forests); ",
+    "list": {
+      "Athletics": "+14",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Arboreal (can't speak any language)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Axe Vulnerability",
+      "text": "An awakened tree takes 5 additional damage from axes."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ branch +16 (reach 15 feet); Damage 2d8+6 (2d8+6) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ root +16 (trip); Damage 2d6+6 (2d6+6) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      -1,
+      6,
+      -5,
+      3,
+      0
+    ]
+  }
+}

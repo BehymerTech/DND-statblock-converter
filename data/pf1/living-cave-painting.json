@@ -1,0 +1,100 @@
+{
+  "name": "Living Cave Painting",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 93: Forge of the Giant God",
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 18,
+    "notes": "deflection +2, dex +5, dodge +1",
+    "touch": 18,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 39,
+    "formula": "6d8+12"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 21,
+    "con": 14,
+    "int": 5,
+    "wis": 12,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +4, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +8, Perception +5, Stealth +13",
+    "list": {
+      "Climb": "+8",
+      "Perception": "+5",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Terran (can’t speak)"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 4,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Mobility"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "ocherous touch +9 touch (1d6 plus 2d6 bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The painted ochre lines of this stylized bison seem to shift and flow, giving the primitive drawing an eerie sense of life and otherworldly majesty.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": "22 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or collection (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

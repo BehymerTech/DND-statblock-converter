@@ -1,0 +1,104 @@
+{
+  "name": "Oni",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "",
+  "alignment": "Lawful Evil",
+  "cr": "7",
+  "level": null,
+  "xp": 2900,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 119,
+    "formula": "14d10 + 42"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 30,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., Fly 30 ft. (hover)"
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 11,
+    "con": 16,
+    "int": 14,
+    "wis": 12,
+    "cha": 15
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Arcana +5, Deception +8, Perception +4",
+    "list": {
+      "Arcana": "+5",
+      "Deception": "+8",
+      "Perception": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+0 (10)",
+  "babOrProficiency": 3,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Regeneration",
+      "text": "The oni regains 10 Hit Points at the start of each of its turns if it has at least 1 Hit Point."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The oni makes two Claw or Nightmare Ray attacks. It can replace one attack with a use of Spellcasting."
+    },
+    {
+      "name": "Claw",
+      "text": "_Melee Attack Roll:_ +7, reach 10 ft. _Hit:_ 10 (1d12 + 4) Slashing damage plus 9 (2d8) Necrotic damage."
+    },
+    {
+      "name": "Nightmare Ray",
+      "text": "_Ranged Attack Roll:_ +5, range 60 ft. _Hit:_ 9 (2d6 + 2) Psychic damage, and the target has the Frightened condition until the start of the oni's next turn."
+    },
+    {
+      "name": "Shape-Shift",
+      "text": "The oni shape-shifts into a Small or Medium Humanoid or a Large Giant, or it returns to its true form. Other than its size, its game statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The oni casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 13): <br> &emsp;**1/Day Each:** _Charm Person_ (level 2 version), _Darkness_, _Gaseous Form_, _Sleep_"
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Invisibility",
+      "text": "The oni casts _Invisibility_ on itself, requiring no spell components and using the same spellcasting ability as Spellcasting. ## Otyugh"
+    }
+  ],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

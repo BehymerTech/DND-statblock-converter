@@ -1,0 +1,109 @@
+{
+  "name": "Host Devil, Greater (Magaav)",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Book of the Damned - Volume 1: Princes of Darkness",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 23,
+    "notes": "dex +4, dodge +1, natural +8",
+    "touch": 15,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 59,
+    "formula": "7d10+21"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 50 ft. (average)"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 19,
+    "con": 16,
+    "int": 10,
+    "wis": 12,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +8, Ref +9, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +14, Escape Artist +14, Fly +14, Intimidate +10, Perception +11, Stealth +14",
+    "list": {
+      "Acrobatics": "+14",
+      "Escape Artist": "+14",
+      "Fly": "+14",
+      "Intimidate": "+10",
+      "Perception": "+11",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect magic",
+    "see in darkness"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 7,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Hover",
+    "Mobility"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk ranseur +12/+7 (2d4+6/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Twisted horns rise from the skinless head of this winged creature, and noxious fumes leak from between its yellowed fangs.",
+  "meta": {
+    "cmb": "+11",
+    "cmd": 26,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or flock (2-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk ranseur, other treasure)"
+      }
+    ]
+  }
+}

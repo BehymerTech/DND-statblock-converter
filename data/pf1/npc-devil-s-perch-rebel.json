@@ -1,0 +1,100 @@
+{
+  "name": "NPC Devil’s Perch Rebel",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "strix",
+  "alignment": "CN",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 15,
+    "notes": "deflection +1, dex +3, dodge +1",
+    "touch": 15,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 30,
+    "formula": "5d6+10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 16,
+    "con": 13,
+    "int": 16,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +2, Ref +4, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +11, Intimidate +7, Knowledge (arcana) +8, Knowledge (history) +8, Knowledge (nature) +8, Perception +7, Sense Motive +3, Spellcraft +11, Stealth +0",
+    "list": {
+      "Fly": "+11",
+      "Intimidate": "+7",
+      "Perception": "+7",
+      "Sense Motive": "+3",
+      "Spellcraft": "+11",
+      "Stealth": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Auran",
+    "Common",
+    "Infernal",
+    "Strix"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 2,
+  "feats": [
+    "Alertness",
+    "Combat Casting",
+    "Dodge",
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk spear +2 (1d8-1/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dart +5 (1d4-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Strix",
+    "class": "witch 5",
+    "cmb": "+1",
+    "cmd": 16
+  }
+}

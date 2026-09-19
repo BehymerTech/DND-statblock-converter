@@ -1,0 +1,109 @@
+{
+  "name": "Tidehawk",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 266.",
+  "size": "Huge",
+  "type": "Water",
+  "subtype": "Amphibious, Beast",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 12",
+  "xp": null,
+  "ac": {
+    "value": 32,
+    "notes": ""
+  },
+  "hp": {
+    "average": 213,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 50 feet, swim 50 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 24,
+    "con": 20,
+    "int": 18,
+    "wis": 22,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +21, Ref +25, Will +22",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +23 (1d20+23); __Athletics__: +21 (1d20+21); __Nature__: +24 (1d20+24); ",
+    "list": {
+      "Acrobatics": "+23",
+      "Athletics": "+21",
+      "Nature": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise wavesense 120"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Aquan",
+    "Auran",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Self-Resurrection",
+      "text": "(healing, necromancy, primal); When a tidehawk dies, it melts into a torrent of rainwater. If this rain falls into a body of water, such as an ocean or lake, the tidehawk returns to life fully healed 1d4 (1d4) rounds later, as if subject to a 6th-level resurrect ritual. Self-resurrection happens only if there are remains to resurrect; for instance, a tidehawk killed by a disintegrate spell can't use this ability. A tidehawk that dies while above land must wait until its rainwater runs or seeps into an appropriate body of water to self-resurrect. A tidehawk can self-resurrect only once per year."
+    },
+    {
+      "name": "Oceanic Armor",
+      "text": "⬻ (abjuration, primal, water); Requirements The tidehawk is within 120 feet of a body of water at least as large as it is Effect The tidehawk draws water to itself, wrapping its feathers like a suit of armor. The tidehawk gains a +2 circumstance bonus to AC until the start of its next turn. If the tidehawk takes damage from a melee Strike while under this effect, this water armor explodes outward, dealing 4d8 (4d8) bludgeoning damage (DC 32 basic Reflex save) to the attacking creature and ending the circumstance bonus to AC."
+    },
+    {
+      "name": "Typhoon Dive",
+      "text": "⬺ (evocation, primal, water); Requirements The tidehawk is Flying Effect The tidehawk Flies up to its Speed, diving below the surface of deep water (such as a sea or ocean), causing a surging wave that deals 6d6 (6d6) bludgeoning damage (DC 32 basic Reflex save) to each creature within a 60-foot emanation of where the tidehawk entered the water. The area becomes difficult terrain until the start of the tidehawk's next turn while the water surges and runs off."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ beak +26 (finesse, magical, reach 15 feet); Damage 3d12+11 (3d12+11) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ talon +26 (agile, finesse, magical, reach 15 feet); Damage 3d8+11 (3d8+11) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ break swell +26 (range increment 30 feet); Damage 3d8+11 (3d8+11) bludgeoning plus Knockdown (page 305)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      7,
+      5,
+      4,
+      6,
+      4
+    ]
+  }
+}

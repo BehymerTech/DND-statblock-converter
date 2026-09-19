@@ -1,0 +1,130 @@
+{
+  "name": "Werebat",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 293.",
+  "size": "Medium",
+  "type": "Werecreature",
+  "subtype": "Beast, Human, Humanoid",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 35,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 16,
+    "int": 12,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +10, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Athletics__: +6 (1d20+6); __Deception__: +4 (1d20+4); __Society__: +5 (1d20+5); __Stealth__: +8 (1d20+8); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Athletics": "+6",
+      "Deception": "+4",
+      "Society": "+5",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "precise echolocation 40, low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Common; bat empathy"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Bat Empathy",
+      "text": "(divination, primal); A werebat can communicate with bats."
+    },
+    {
+      "name": "Echolocation",
+      "text": "A werebat can use their hearing as a precise sense at the listed range."
+    },
+    {
+      "name": "Items",
+      "text": "dagger (3), studded leather;"
+    },
+    {
+      "name": "Wing Thrash",
+      "text": "⬲ Trigger An adjacent enemy damages the werebat Effect The werebat makes one or two wing Strikes, each against a different adjacent creature."
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, polymorph, primal, transmutation); Human with fist for 1d4+2 (1d4+2) bludgeoning and no fly Speed, or Medium giant bat with Speed 15 feet and fly 30 feet."
+    },
+    {
+      "name": "Curse of the Werebat",
+      "text": "(curse, necromancy, primal); Saving Throw DC 15 Fortitude."
+    },
+    {
+      "name": "Moon Frenzy",
+      "text": "(polymorph, primal, transmutation);"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +10 (finesse); Damage 1d8+4 (1d8+4) slashing plus curse of the werebat"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ wing +10 (agile, finesse); Damage 1d6+4 (1d6+4) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ dagger +10 (agile, finesse, versatile s); Damage 1d4+4 (1d4+4) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ dagger +10 (agile, thrown 10 feet, versatile s); Damage 1d4+4 (1d4+4) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      4,
+      3,
+      1,
+      3,
+      0
+    ],
+    "items": "dagger (3), studded leather;"
+  }
+}

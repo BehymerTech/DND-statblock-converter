@@ -1,0 +1,107 @@
+{
+  "name": "Karumzek",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Gods",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "evil, extraplanar, shapechanger",
+  "alignment": "NE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +2, natural +5",
+    "touch": 12,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 37,
+    "formula": "5d10+10"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 14,
+    "con": 15,
+    "int": 8,
+    "wis": 13,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +6, Ref +6, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +10, Craft (alchemy) +7, Knowledge (nature) +7, Knowledge (religion) +7, Perception +9, Stealth +14",
+    "list": {
+      "Climb": "+10",
+      "Perception": "+9",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "sense poison"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Abyssal",
+    "Infernal",
+    "Undercommon"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 5,
+  "feats": [
+    "Improved Initiative",
+    "Point-Blank Shot",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d8+3 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This human-sized spider has a red eyes, spindly legs, and cloaklike folds of black flesh that obscure its head.",
+  "meta": {
+    "cmb": "+7",
+    "cmd": "19 (31 vs. trip)",
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Axis)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or swarm (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (usually alchemical weapons)"
+      }
+    ]
+  }
+}

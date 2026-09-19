@@ -1,0 +1,113 @@
+{
+  "name": "Jotund Troll",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Huge",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "CE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 30,
+    "notes": "dex -1, natural +23, size -2",
+    "touch": 7,
+    "flatFooted": 30
+  },
+  "hp": {
+    "average": 216,
+    "formula": "16d8+144"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 8,
+    "con": 29,
+    "int": 10,
+    "wis": 17,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +16, Ref +6, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +29, Perception +26",
+    "list": {
+      "Climb": "+29",
+      "Perception": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Giant"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 12,
+  "feats": [
+    "Awesome Blow",
+    "Great Fortitude",
+    "Improved Bull Rush",
+    "Improved Critical (club)",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "club +20/+15/+10 (2d6+10/19-20), bite +15 (2d6+5 plus grab), claw +15 (1d8+5 plus grab)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +10 (2d8+15)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This immense green-skinned brute wields a tree branch for a club and has nine heads, each filled with jutting teeth and tusks.",
+  "meta": {
+    "cmb": "24 (+28 grapple)",
+    "cmd": 33,
+    "racialModifiers": [
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold hills or mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or war party (1 jotund troll plus 2-5 hill giants or 3-12 ogres)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (club, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Mythic Aboleth",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Huge",
+  "type": "aberration",
+  "subtype": "aquatic, mythic",
+  "alignment": "LE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 23,
+    "notes": "dex +1, natural +14, size -2",
+    "touch": 9,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 118,
+    "formula": "9d8+78"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 12,
+    "con": 22,
+    "int": 15,
+    "wis": 17,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +9, Ref +6, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +13, Intimidate +16, Knowledge (any one) +14, Perception +15, Spellcraft +14, Swim +25",
+    "list": {
+      "Bluff": "+13",
+      "Intimidate": "+16",
+      "Perception": "+15",
+      "Spellcraft": "+14",
+      "Swim": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Aboleth",
+    "Aklo",
+    "Aquan",
+    "Undercommon"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 6,
+  "feats": [
+    "Combat Casting",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Weapon Focus (tentacle)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 tentacles +11 (1d8+5 plus slime)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A foul mist surrounds this huge, three-eyed, tentacled fish creature, and plates of hardened slime guard its body.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": 24,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any aquatic"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, brood (3-6), or shoal (7-19)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

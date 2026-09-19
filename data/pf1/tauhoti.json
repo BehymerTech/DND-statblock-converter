@@ -1,0 +1,96 @@
+{
+  "name": "Tauhoti",
+  "sourceSystem": "pf1",
+  "source": "Druma, Profit and Prophecy",
+  "size": "Diminutive",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1/6",
+  "level": null,
+  "xp": 65,
+  "ac": {
+    "value": 17,
+    "notes": "dex +3, size +4",
+    "touch": 17,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 3,
+    "formula": "1d8-1"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., burrow 5 ft."
+  },
+  "abilities": {
+    "str": 1,
+    "dex": 16,
+    "con": 8,
+    "int": 2,
+    "wis": 15,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +1, Ref +5, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +8, Sense Motive +4",
+    "list": {
+      "Perception": "+8",
+      "Sense Motive": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 18,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 0,
+  "feats": [
+    "Alertness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite -1 (1d2-5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This fluffy squirrel has a round body with long tufts atop its ears.",
+  "meta": {
+    "cmb": "-1",
+    "cmd": "4 (8 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests or hills"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or emporium (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

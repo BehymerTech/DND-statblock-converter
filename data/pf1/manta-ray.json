@@ -1,0 +1,97 @@
+{
+  "name": "Manta Ray",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 13,
+    "notes": "dex +1, natural +3, size -1",
+    "touch": 10,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d8+6"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "swim 60 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 13,
+    "con": 15,
+    "int": 1,
+    "wis": 13,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +5, Ref +4, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +6, Swim +15",
+    "list": {
+      "Perception": "+6",
+      "Swim": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Bull Rush",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "tail slap +4 (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Gliding gracefully through the water on wing-like fins, this large ray scoops up tiny morsels in its wide mouth.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 17,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or flight (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

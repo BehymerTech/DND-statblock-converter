@@ -1,0 +1,99 @@
+{
+  "name": "Gorgon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 20,
+    "notes": "natural +11, size -1",
+    "touch": 9,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 100,
+    "formula": "8d10+56"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 10,
+    "con": 24,
+    "int": 2,
+    "wis": 16,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +13, Ref +6, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +17",
+    "list": {
+      "Perception": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 27,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 8,
+  "feats": [
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +14 (2d8+7), 2 hooves +9 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This bull-like creature seems to be made of interlocking metallic plates. Faint plumes of green smoke puff from its mouth.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": 26,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate plains, rocky hills, and underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, pack (3-4), or herd (5-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

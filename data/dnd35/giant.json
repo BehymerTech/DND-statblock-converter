@@ -1,0 +1,185 @@
+{
+  "name": "Giant",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Huge",
+  "type": "Giant",
+  "subtype": "",
+  "alignment": "Often chaotic good",
+  "cr": "13",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": "-2 size, +2 Dex, +12 natural, +5 breastplate",
+    "touch": 10,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 199,
+    "formula": "19d8+114"
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": 30,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 ft. (7 squares), swim 30 ft. (6 squares) in breastplate; base speed 50 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 39,
+    "dex": 14,
+    "con": 23,
+    "int": 16,
+    "wis": 20,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +17, Ref +8, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +20, Concentration +26, Craft (any One) +13, Diplomacy +4, Intimidate +12, Jump +24, Listen +15, Perform (sing) +12, Sense Motive +15, Spot +25, Swim +18\\*;",
+    "list": {
+      "Climb": "+20",
+      "Diplomacy": "+4",
+      "Intimidate": "+12",
+      "Listen": "+15",
+      "Sense Motive": "+15",
+      "Spot": "+25",
+      "Jump": "+24",
+      "Hide": "+6",
+      "Ride": "+11",
+      "Concentration": "+26",
+      "Swim": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Low-light vision",
+    "scent",
+    "low-light vision",
+    "Low-light vision",
+    "Darkvision 60 ft.",
+    "low-light vision",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 14,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Combat Reflexes",
+    "Improved Bull Rush",
+    "Improved Sunder",
+    "Iron Will",
+    "Power Attack"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Rock throwing, spell-like abilities"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Low-light vision, oversized weapon, rock catching, scent"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Rock throwing"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Immunity to fire, low-light vision, rock catching, vulnerability to cold"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Rock throwing"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Low-light vision, rock catching"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Rock throwing"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., low-light vision, rock catching"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Spell-like abilities"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Freedom of movement, immunity to electricity, low-light vision, rock catching, water breathing"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Gargantuan morningstar +22 melee (4d6+18) or slam +22 melee (1d6+12) or rock +12 ranged (2d8+12)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Gargantuan morningstar +22/+17/+12 melee (4d6+18) or 2 slams +22 melee (1d6+12) or rock +12 ranged (2d8+12)"
+    },
+    {
+      "name": "Attack",
+      "text": "Greatsword +20 melee (3d6+15) or slam +20 melee (1d4+10) or rock +10 ranged (2d6+10 plus 2d6 fire)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Greatsword +20/+15/+10 melee (3d6+15) or 2 slams +20 melee (1d4+10) or rock +10 ranged (2d6+10 plus 2d6 fire)"
+    },
+    {
+      "name": "Attack",
+      "text": "Greatclub +16 melee (2d8+10) or slam +15 melee (1d4+7) or rock +8 ranged (2d6+7)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Greatclub +16/+11 melee (2d8+10) or 2 slams +15 melee (1d4+7) or rock +8 ranged (2d6+7)"
+    },
+    {
+      "name": "Attack",
+      "text": "Greatclub +17 melee (2d8+12) or slam +17 melee (1d4+8) or rock +11 ranged (2d8+12)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Greatclub +17/+12 melee (2d8+12) or 2 slams +17 melee (1d4+8) or rock +11 ranged (2d8+12)"
+    },
+    {
+      "name": "Attack",
+      "text": "Greatsword +26 melee (4d6+21/19-20) or slam +26 melee (1d6+14) or composite longbow (+14 Str bonus) +14 ranged (3d6+14/x3)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Greatsword +26/+21/+16 melee (4d6+21/19-20) or 2 slams +26 melee (1d6+14) or composite longbow (+14 Str bonus) +14/+9/+4 ranged (3d6+14/x3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "All giants speak Giant. Those with Intelligence scores of 10 or higher also speak Common.",
+    "grapple": "+36",
+    "spaceReach": "15 ft./15 ft.",
+    "environment": "Warm mountains",
+    "organization": "Solitary or family (2-4 plus 35% noncombatants plus 1 sorcerer or cleric of 7th-10th level plus 1-2 rocs, 2-5 griffons, or 2-8 sea cats)",
+    "treasure": "Standard coins; double goods; standard items",
+    "advancement": "By character class",
+    "leveladjustment": "---"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "name": "Kitsune Trickster",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 150.",
+  "size": "Medium",
+  "type": "Kitsune",
+  "subtype": "Humanoid",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 24,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 10,
+    "int": 10,
+    "wis": 14,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +6, Ref +10, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Deception__: +10 (1d20+10); __Diplomacy__: +8 (1d20+8); __Nature__: +6 (1d20+6); __Thievery__: +8 (1d20+8); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Deception": "+10",
+      "Diplomacy": "+8",
+      "Nature": "+6",
+      "Thievery": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, divine, polymorph, transmutation); The kitsune trickster transforms into the tailless form of a specific Medium human. The tailless form can't be altered and resembles the kitsune's fox-like humanoid form. While the kitsune trickster's alternate form is a Medium human, some kitsune have tailless forms of other humanoids, or a fox alternate form."
+    },
+    {
+      "name": "Items",
+      "text": "dagger, flute;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +10 (finesse); Damage 1d6+2 (1d6+2) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ dagger +10 (agile, finesse, versatile s); Damage 1d4+2 (1d4+2) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ dagger +10 (agile, thrown 10 feet, versatile s); Damage 1d4+2 (1d4+2) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ foxfire +12 (range 20 feet); Damage 1d4+2 (1d4+2) fire"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      4,
+      0,
+      0,
+      2,
+      4
+    ],
+    "items": "dagger, flute;"
+  }
+}

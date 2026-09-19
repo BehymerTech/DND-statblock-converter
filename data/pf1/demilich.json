@@ -1,0 +1,110 @@
+{
+  "name": "Demilich",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Tiny",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 25,
+    "notes": "dex +3, dodge +1, natural +4, profane +5, size +2",
+    "touch": 21,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 142,
+    "formula": "15d8+75"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 30 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 17,
+    "con": "None",
+    "int": 21,
+    "wis": 20,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +15, Ref +15, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +20, Fly +23, Knowledge (arcana) +23, Knowledge (dungeoneering) +20, Knowledge (history) +15, Knowledge (planes) +15, Knowledge (religion) +18, Perception +27, Sense Motive +27, Spellcraft +23, Stealth +24",
+    "list": {
+      "Bluff": "+20",
+      "Fly": "+23",
+      "Perception": "+27",
+      "Sense Motive": "+27",
+      "Spellcraft": "+23",
+      "Stealth": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Common",
+    "Draconic",
+    "Giant",
+    "Infernal"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 11,
+  "feats": [
+    "Ability Focus (devour soul)",
+    "Alertness",
+    "Defensive Combat Training",
+    "Dodge",
+    "Flyby AttackB",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Mobility"
+  ],
+  "traits": [],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Glittering jewels encrust this leering skull as it floats up into the air on a swirling vortex of dust and shimmering magic.",
+  "meta": {
+    "cmb": "+12",
+    "cmd": 30,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

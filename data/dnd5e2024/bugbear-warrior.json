@@ -1,0 +1,86 @@
+{
+  "name": "Bugbear Warrior",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "Goblinoid",
+  "alignment": "Chaotic Evil",
+  "cr": "1",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 14,
+    "notes": ""
+  },
+  "hp": {
+    "average": 33,
+    "formula": "6d8 + 6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 14,
+    "con": 13,
+    "int": 8,
+    "wis": 11,
+    "cha": 9
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Stealth +6, Survival +2",
+    "list": {
+      "Stealth": "+6",
+      "Survival": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 10,
+  "languages": [
+    "Common",
+    "Goblin"
+  ],
+  "initiative": "+2 (12)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Abduct",
+      "text": "The bugbear needn't spend extra movement to move a creature it is grappling."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Grab",
+      "text": "_Melee Attack Roll:_ +4, reach 10 ft. _Hit:_ 9 (2d6 + 2) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12)."
+    },
+    {
+      "name": "Light Hammer",
+      "text": "_Melee or Ranged Attack Roll:_ +4 (with Advantage if the target is Grappled by the bugbear), reach 10 ft. or range 20/60 ft. _Hit:_ 9 (3d4 + 2) Bludgeoning damage. ## Bulette"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Orc War Drummer",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "orc",
+  "alignment": "CE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "armor +4, dex +1",
+    "touch": 11,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 25,
+    "formula": "4d8+4"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 12,
+    "con": 8,
+    "int": 12,
+    "wis": 8,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +1, Ref +6, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +9, Intimidate +9, Knowledge (arcana) +10, Perception +6, Perform (percussion) +11, Sense Motive +6, Spellcraft +8",
+    "list": {
+      "Bluff": "+9",
+      "Intimidate": "+9",
+      "Perception": "+6",
+      "Sense Motive": "+6",
+      "Spellcraft": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Common",
+    "Goblin",
+    "Orc"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 3,
+  "feats": [
+    "Spell Focus (enchantment)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk scimitar +7 (1d6+3/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "javelin +4 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Orc",
+    "class": "bard (savage skald) 4 (Pathfinder RPG Advanced Player’s Guide 84)",
+    "cmb": "+6",
+    "cmd": 17,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate hills, mountains, or underground"
+      }
+    ]
+  }
+}

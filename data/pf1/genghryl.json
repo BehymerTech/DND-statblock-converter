@@ -1,0 +1,111 @@
+{
+  "name": "Genghryl",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 117: Assault on Longshadow",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 23,
+    "notes": "dex +2, natural +12, size -1",
+    "touch": 11,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 152,
+    "formula": "16d10+64"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., burrow 20 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 15,
+    "con": 19,
+    "int": 6,
+    "wis": 14,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +14, Ref +12, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Disguise +9, Perception +16, Stealth +5",
+    "list": {
+      "Disguise": "+9",
+      "Perception": "+16",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Terran (can’t speak)"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 16,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack",
+    "Skill Focus (Disguise)",
+    "Skill Focus (Perception)",
+    "Weapon Focus (tentacle)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +20 (2d8+5), 4 tentacles +19 (1d8+2 plus grab or pull)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A mix of burly and slender tentacles extend from the body of this large, wormlike creature. Rows of frightful fangs line the maw beneath its sharp beak.",
+  "meta": {
+    "cmb": "22 (+26 grapple)",
+    "cmd": "34 (can’t be tripped)",
+    "racialModifiers": [
+      "Disguise 8",
+      "Stealth 5"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

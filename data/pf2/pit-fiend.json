@@ -1,0 +1,140 @@
+{
+  "name": "Pit Fiend",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 92.",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "Devil",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 20",
+  "xp": null,
+  "ac": {
+    "value": 46,
+    "notes": ""
+  },
+  "hp": {
+    "average": 335,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet, fly 50 feet"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 26,
+    "con": 28,
+    "int": 26,
+    "wis": 28,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +37, Ref +32, Will +35",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +34 (1d20+34); __Arcana__: +32 (1d20+32); __Athletics__: +33 (1d20+33); __Deception__: +39 (1d20+39); __Diplomacy__: +34 (1d20+34); __Intimidation__: +39 (1d20+39); __Religion__: +37 (1d20+37); __Society__: +36 (1d20+36); __Stealth__: +34 (1d20+34); ",
+    "list": {
+      "Acrobatics": "+34",
+      "Arcana": "+32",
+      "Athletics": "+33",
+      "Deception": "+39",
+      "Diplomacy": "+34",
+      "Intimidation": "+39",
+      "Religion": "+37",
+      "Society": "+36",
+      "Stealth": "+34"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision, true seeing"
+  ],
+  "passivePerception": 47,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Commander's Aura",
+      "text": "(aura, divine, enchantment); 100 feet. Commanded or allied evil creatures in the aura of lower level than the pit fiend gain a +1 circumstance bonus to attack rolls, damage rolls, AC, saves, and skill checks."
+    },
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, divine, emotion, enchantment, fear, mental); 20 feet, DC 42."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲ The pit fiend can make an Attack of Opportunity when a creature within reach uses a concentrate action, in addition to the usual trigger. The devil can disrupt triggering concentrate actions, and they disrupt actions on any hit, not only a critical hit."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 2d10+17 (2d10+17) bludgeoning plus 2d6 (2d6) evil, DC 43."
+    },
+    {
+      "name": "Devil Shaping",
+      "text": "(divine, downtime, transmutation); The pit fiend reshapes a large number of lemures within a 600-foot radius into more powerful devils to swell Hell's legions. The pit fiend must have available the number of lemures listed on the table in the sidebar on page 92. The pit fiend can shape 100 lemures per day, to a maximum of 1,100 lemures in 11 days. Devils created in this way are in thrall to the pit fiend and follow its orders, with the exception of created pit fiends or other devils of similar power, which are always independent. As a result, few pit fiends choose to create peers. At the end of the Devil Shaping activity, the pit fiend attempts an incredibly hard Religion check of the desired devilʼs level, with results as follows. Critical Success The pit fiend shapes two devils from the massed lemures instead of one. Success The pit fiend shapes a devil of the desired type and level. Failure The devil shaped from the lemures is 2 levels lower than the intended devil. Critical Failure The pit fiend fails to shape any devils and draws the ire of an archdevil for its waste of resources."
+    },
+    {
+      "name": "Fast Swoop",
+      "text": "⬻ The pit fiend Flies and makes a wing Strike at any point during its movement."
+    },
+    {
+      "name": "Masterful Quickened Casting",
+      "text": "⭓ (concentrate); Frequency once per round Effect If the pit fiendʼs next action is to cast an 8th-level or lower innate spell, reduce the number of actions to cast it by 1 (minimum 1 action)."
+    },
+    {
+      "name": "Pit Fiend Venom",
+      "text": "(poison); Saving Throw DC 43 Fortitude. Maximum Duration 10 rounds Stage 1 6d6 (6d6) poison damage and drained 1 (1 round) Stage 2 7d6 (7d6) poison damage and drained 2 (1 round) Stage 3 8d6 (8d6) poison damage and drained 3 (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +40 (evil, magical, poison, reach 10 feet); Damage 4d10+17 (4d10+17) piercing plus 2d6 (2d6) evil and pit fiend venom"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +38 (agile, evil, magical, reach 10 feet); Damage 4d6+17 (4d6+17) slashing plus 2d6 (2d6) evil"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +36 (evil, magical, reach 10 feet); Damage 4d10+17 (4d10+17) bludgeoning plus 2d6 (2d6) evil and Improved Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ wing +36 (evil, magical, reach 15 feet); Damage 4d6+17 (4d6+17) slashing plus 2d6 (2d6) evil"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      9,
+      8,
+      9,
+      8,
+      9,
+      8
+    ]
+  }
+}

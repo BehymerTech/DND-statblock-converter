@@ -1,0 +1,103 @@
+{
+  "name": "Terra-cotta Garrison",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 263.",
+  "size": "Gargantuan",
+  "type": "Troop",
+  "subtype": "Construct",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 13",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 240,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet; troop movement;"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 14,
+    "con": 22,
+    "int": 14,
+    "wis": 16,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +25, Ref +19, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +26 (1d20+26); __Intimidation__: +23 (1d20+23); ",
+    "list": {
+      "Athletics": "+26",
+      "Intimidation": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 32,
+  "languages": [
+    "Common (can't speak any language)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Shield Block",
+      "text": "⬲ (page 306);"
+    },
+    {
+      "name": "Troop Defenses",
+      "text": "(page 306);"
+    },
+    {
+      "name": "Form Up",
+      "text": "⬻"
+    },
+    {
+      "name": "Raise Shields",
+      "text": "⬻ The troop raises steel shields, with the effects of Raise a Shield. Strike as One ⬻ to ⬽ Frequency once per round; The garrison makes a melee attack against each enemy within 5 feet (DC 30 basic Reflex save). The damage depends on the number of actions. ⬻ 2d8 (2d8) slashing damage ⬺ 3d8+10 (3d8+10) slashing damage ⬽ 4d8+13 (4d8+13) slashing damage."
+    },
+    {
+      "name": "Troop Movement",
+      "text": "Whenever a troop Strides, it first Forms Up as a free action to condense into a 20-foot-by-20-foot area (minus any missing squares), then moves up to its Speed. This works just like a Gargantuan creature moving; for instance, if any square enters difficult terrain, the extra movement cost applies to the whole troop."
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      2,
+      6,
+      2,
+      3,
+      4
+    ]
+  }
+}

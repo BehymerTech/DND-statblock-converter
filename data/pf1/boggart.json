@@ -1,0 +1,112 @@
+{
+  "name": "Boggart",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Occult Bestiary",
+  "size": "Small",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 16,
+    "notes": "dex +5, size +1",
+    "touch": 16,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 31,
+    "formula": "7d6+7"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 20,
+    "con": 13,
+    "int": 14,
+    "wis": 10,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +3, Ref +10, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +13, Bluff +10, Climb +12, Craft (traps) +10, Handle Animal +8, Intimidate +11, Knowledge (geography) +8, Knowledge (nature) +9, Perception +12, Sense Motive +4, Stealth +23, Swim +16",
+    "list": {
+      "Acrobatics": "+13",
+      "Bluff": "+10",
+      "Climb": "+12",
+      "Handle Animal": "+8",
+      "Intimidate": "+11",
+      "Perception": "+12",
+      "Sense Motive": "+4",
+      "Stealth": "+23",
+      "Swim": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 3,
+  "feats": [
+    "Agile Maneuvers",
+    "Combat Expertise",
+    "Improved Drag",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +9 (1d3+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This gangly, long-armed creature has a face like a calf’s, but with large, forward-facing eyes and a mane of lank hair.",
+  "meta": {
+    "cmb": "7 (+9 drag)",
+    "cmd": "19 (21 vs. drag)",
+    "racialModifiers": [
+      "Perception 2",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests or swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, gang (2-5), or band (6-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

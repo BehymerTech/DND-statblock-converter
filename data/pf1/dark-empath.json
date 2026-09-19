@@ -1,0 +1,105 @@
+{
+  "name": "Dark Empath",
+  "sourceSystem": "pf1",
+  "source": "Occult Bestiary",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "dark folk",
+  "alignment": "CN",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 15,
+    "notes": "dex +4, size +1",
+    "touch": 15,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d8+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 9,
+    "dex": 19,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +3, Ref +7, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +7, Perception +9, Stealth +14",
+    "list": {
+      "Climb": "+7",
+      "Perception": "+9",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "see in darkness"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Dark Folk",
+    "Undercommon"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 2,
+  "feats": [
+    "Empath",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk dagger +8 (1d3-1/19-20 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This gaunt, hunched humanoid’s unblinking eyes stare out from a pale face wrapped in dark cloth.",
+  "meta": {
+    "cmb": "+0",
+    "cmd": 15,
+    "racialModifiers": [
+      "Climb 4",
+      "Perception 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, gang (3-6), or clan (20-80 dark creepers plus 1 dark stalker and dark empath per 20 dark creepers)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk dagger, black smear [2 doses, Bestiary 54], other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Dreamthief Hag",
+  "sourceSystem": "pf1",
+  "source": "Occult Bestiary",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "evil, extraplanar",
+  "alignment": "NE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 27,
+    "notes": "dex +6, natural +11",
+    "touch": 16,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 149,
+    "formula": "13d10+78"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., other_semicolon fly 20 ft. (clumsy) ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 23,
+    "con": 22,
+    "int": 20,
+    "wis": 18,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +14, Ref +10, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +25, Diplomacy +21, Disguise +25, Fly -2, Intimidate +21, Knowledge (arcana) +21, Knowledge (planes) +21, Perception +20, Ride +19, Sense Motive +20, Spellcraft +18, Stealth +22",
+    "list": {
+      "Bluff": "+25",
+      "Diplomacy": "+21",
+      "Disguise": "+25",
+      "Fly": "-2",
+      "Intimidate": "+21",
+      "Perception": "+20",
+      "Ride": "+19",
+      "Sense Motive": "+20",
+      "Spellcraft": "+18",
+      "Stealth": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see alignment"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Celestial",
+    "Common",
+    "Infernal"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 13,
+  "feats": [
+    "Combat Casting",
+    "Deceitful",
+    "Flyby Attack",
+    "Improved Critical (bite)",
+    "Mounted Combat",
+    "Trample",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +20 (2d10+6/19-20 plus mind block), 2 claws +14 (2d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hideously gaunt woman has tangled white hair, goatlike horns, and menacing eyes that blaze with green light.",
+  "meta": {
+    "cmb": "+19",
+    "cmd": 35,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Dimension of Dreams)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, mounted (1 plus 1 advanced nightmare), or coven (1 plus 2 hags of any type)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

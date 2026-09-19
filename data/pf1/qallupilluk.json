@@ -1,0 +1,109 @@
+{
+  "name": "Qallupilluk",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 51: The Hungry Storm",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "aquatic",
+  "alignment": "LE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 19,
+    "notes": "dex +2, natural +7",
+    "touch": 12,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 76,
+    "formula": "8d10+32"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": 19,
+    "int": 13,
+    "wis": 15,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +6, Ref +10, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (nature) +9, Perception +13, Stealth +13, Survival +13, Swim +23",
+    "list": {
+      "Perception": "+13",
+      "Stealth": "+13",
+      "Survival": "+13",
+      "Swim": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Aklo",
+    "Aquan",
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 8,
+  "feats": [
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Lightning Reflexes",
+    "Stand Still"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (1d6+5), 2 claws +13 (1d6+5 plus grab)"
+    },
+    {
+      "name": "Ranged",
+      "text": "javelin +10 (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hag’s lumpy hide, tangled black hair, and ragged garments drip with icy water, though she has a curiously sweet smell.",
+  "meta": {
+    "cmb": "13 (+17 grapple)",
+    "cmd": 25,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, family (2-6 plus 1-4 aquatic monsters)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

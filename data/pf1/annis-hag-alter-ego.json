@@ -1,0 +1,111 @@
+{
+  "name": "Annis Hag Alter Ego",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Occult Bestiary",
+  "size": "Large",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 20,
+    "notes": "dex +3, natural +8, size -1",
+    "touch": 12,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 75,
+    "formula": "7d10+37"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 16,
+    "con": "None",
+    "int": 13,
+    "wis": 13,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +4, Ref +8, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +7, Diplomacy +7, Disguise +0, Intimidate +14, Perception +10, Sense Motive +3, Stealth +6",
+    "list": {
+      "Bluff": "+7",
+      "Diplomacy": "+7",
+      "Disguise": "+0",
+      "Intimidate": "+14",
+      "Perception": "+10",
+      "Sense Motive": "+3",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "sense progenitor"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 7,
+  "feats": [
+    "Alertness",
+    "Blind-Fight",
+    "Great Fortitude",
+    "Intimidating Prowess",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (1d6+7), 2 claws +13 (1d6+7 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This stringy-haired hag stands as tall as an ogre. Her expression is vacant, as though her warty face were merely a mask.",
+  "meta": {
+    "cmb": "15 (+19 grapple)",
+    "cmd": 28,
+    "racialModifiers": [
+      "Disguise 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

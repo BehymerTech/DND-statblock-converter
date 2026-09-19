@@ -1,0 +1,96 @@
+{
+  "name": "NPC Scholar (Hedge Wizard)",
+  "sourceSystem": "pf1",
+  "source": "GameMastery Guide",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 11,
+    "notes": "dex +1",
+    "touch": 11,
+    "flatFooted": 10
+  },
+  "hp": {
+    "average": 22,
+    "formula": "5d6+5"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 13,
+    "con": 12,
+    "int": 18,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +3, Ref +3, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +12, Craft (alchemy) +15, Knowledge (arcana) +12, Knowledge (dungeoneering) +10, Knowledge (geography) +10, Knowledge (history) +10, Knowledge (local) +10, Perception +6, Profession (herbalist) +10, Spellcraft +12",
+    "list": {
+      "Appraise": "+12",
+      "Perception": "+6",
+      "Spellcraft": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 16,
+  "languages": [
+    "Aquan",
+    "Common",
+    "Elven",
+    "Gnome",
+    "Sylvan"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 2,
+  "feats": [
+    "Brew Potion",
+    "Combat Casting",
+    "Defensive Combat Training",
+    "Scribe Scroll",
+    "Skill Focus (Craft [alchemy])"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +2 (1d4/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +3 (1d4/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "commoner 2, wizard 3",
+    "cmb": "+2",
+    "cmd": 16
+  }
+}

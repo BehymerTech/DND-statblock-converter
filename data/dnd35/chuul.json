@@ -1,0 +1,105 @@
+{
+  "name": "Chuul",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "Aquatic",
+  "alignment": "Usually chaotic evil",
+  "cr": "7",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": "-1 size, +3 Dex, +10 natural",
+    "touch": 12,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 93,
+    "formula": "11d8+44"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": 20,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares), swim 20 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 16,
+    "con": 18,
+    "int": 10,
+    "wis": 14,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +7, Ref +6, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Hide +13, Listen +11, Spot +11, Swim +13;",
+    "list": {
+      "Hide": "+13",
+      "Listen": "+11",
+      "Spot": "+11",
+      "Swim": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+7",
+  "babOrProficiency": 8,
+  "feats": [
+    "Alertness",
+    "Blind -Fight",
+    "Combat Reflexes",
+    "Improved Initiative"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Constrict 3d6+5, improved grab, paralytic tentacles"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Amphibious, darkvision 60 ft., immunity to poison"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Claw +12 melee (2d6+5)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +12 melee (2d6+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A horrible mix of crustacean, insect, and serpent, the chuul is an abomination that lurks submerged or partially submerged, awaiting intelligent prey to devour. Although amphibious, chuuls are not good swimmers and actually prefer to be on land or in very shallow water when they attack. A chuul is about 8 feet long and weighs 650 pounds.",
+    "grapple": "+17",
+    "spaceReach": "10 ft./5 ft.",
+    "environment": "Temperate marshes",
+    "organization": "Solitary, pair, or pack (3-5)",
+    "treasure": "1/10th coins; 50% goods; standard items",
+    "advancement": "12-16 HD (Large); 17-33 HD (Huge)",
+    "leveladjustment": "---"
+  }
+}

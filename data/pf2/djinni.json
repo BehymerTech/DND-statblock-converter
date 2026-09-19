@@ -1,0 +1,114 @@
+{
+  "name": "Djinni",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 163.",
+  "size": "Large",
+  "type": "Genie",
+  "subtype": "Air, Elemental",
+  "alignment": "CG",
+  "cr": null,
+  "level": "Creature 5",
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 71,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 20,
+    "con": 14,
+    "int": 14,
+    "wis": 14,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +9, Ref +14, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +14 (1d20+14); __Arcana__: +11 (1d20+11); __Athletics__: +11 (1d20+11); __Crafting__: +9 (1d20+9); __Deception__: +11 (1d20+11); __Diplomacy__: +13 (1d20+13); __Society__: +9 (1d20+9); __Stealth__: +12 (1d20+12); ",
+    "list": {
+      "Acrobatics": "+14",
+      "Arcana": "+11",
+      "Athletics": "+11",
+      "Crafting": "+9",
+      "Deception": "+11",
+      "Diplomacy": "+13",
+      "Society": "+9",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, detect magic"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Auran",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Whirlwind",
+      "text": "(air, arcane, aura, evocation); 20 feet. All squares in the djinni's aura are difficult terrain for Striding and Flying creatures. Creatures with the air trait are immune."
+    },
+    {
+      "name": "Items",
+      "text": "scimitar;"
+    },
+    {
+      "name": "Hurricane Blast",
+      "text": "⬻ (air, arcane, evocation); Frequency once per round Effect The djinni all creatures in its whirlwind pushes back 20 feet, or forces all creatures in the aura to move 20 feet clockwise or counterclockwise. Each creature must attempt a DC 21 Fortitude save. On a success, it avoids being moved, and on a critical failure it falls prone in addition to being moved. Creatures with the air trait are immune."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ scimitar +15 (forceful +1, reach 10 feet, sweep); Damage 1d6+10 (1d6+10) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +16 (agile, finesse, magical, nonlethal, reach 10 feet); Damage 1d4+10 (1d4+10) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ crashing wind +15 (air, arcane, evocation, range increment 20 feet); Damage 1d8+6 (1d8+6) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      5,
+      2,
+      2,
+      2,
+      4
+    ],
+    "items": "scimitar;"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Young Black Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "dragon",
+  "subtype": "water",
+  "alignment": "CE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 21,
+    "notes": "dex +2, natural +9",
+    "touch": 12,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 76,
+    "formula": "8d12+24"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 150 ft. (average), swim 60 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 14,
+    "con": 17,
+    "int": 10,
+    "wis": 13,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +8, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +13, Handle Animal +8, Intimidate +11, Perception +14, Stealth +16, Swim +23",
+    "list": {
+      "Fly": "+13",
+      "Handle Animal": "+8",
+      "Intimidate": "+11",
+      "Perception": "+14",
+      "Stealth": "+16",
+      "Swim": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 8,
+  "feats": [
+    "Alertness",
+    "Improved Initiative",
+    "Skill Focus (Stealth)",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (1d8+6), 2 claws +12 (1d6+4), 2 wings +7 (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Hissing green acid drips from the fanged maw of this black-scaled, horned dragon.",
+  "meta": {
+    "cmb": "+12",
+    "cmd": "24 (28 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm marshes"
+      }
+    ]
+  }
+}

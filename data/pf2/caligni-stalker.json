@@ -1,0 +1,114 @@
+{
+  "name": "Caligni Stalker",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 51.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Caligni",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 60,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 20,
+    "con": 14,
+    "int": 8,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +10, Ref +13, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +13 (1d20+13); __Athletics__: +8 (1d20+8); __Stealth__: +13 (1d20+13); __Thievery__: +11 (1d20+11); ",
+    "list": {
+      "Acrobatics": "+13",
+      "Athletics": "+8",
+      "Stealth": "+13",
+      "Thievery": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision, light blindness"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Caligni",
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Death Flame",
+      "text": "(light); When the stalker dies, their body combusts in a flash of white-hot flame. All creatures in a 20-foot burst take 5d6 (5d6) fire damage (DC 21 basic Reflex save) The stalker's gear and treasure are unaffected by the flames and are left in a pile where they died."
+    },
+    {
+      "name": "Items",
+      "text": "black smear poison (6 doses; see below), leather armor, shortsword (2);"
+    },
+    {
+      "name": "Double Slice",
+      "text": "⬺ The caligni stalker makes two Strikes against the same target, one with each of their shortswords. The stalker combines the damage of any attacks that hit and applies precision damage, resistances, and weaknesses only once. Both attacks count toward the stalker's multiple attack penalty, but the penalty increases only after both attacks."
+    },
+    {
+      "name": "Encircling Command",
+      "text": "⬻ (auditory); Each caligni creeper within 30 feet of the stalker can Step. Each creeper can benefit from Encircling Command only once per round."
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "The caligni stalker deals 1d6 (1d6) extra precision damage to flat-footed creatures."
+    },
+    {
+      "name": "Black Smear Poison",
+      "text": "Many calignis use a debilitating poison crafted from subterranean fungi."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ shortsword +13 (agile, finesse, versatile s); Damage 1d6+7 (1d6+7) piercing plus black smear poison (see below)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      5,
+      2,
+      -1,
+      2,
+      1
+    ],
+    "items": "black smear poison (6 doses; see below), leather armor, shortsword (2);"
+  }
+}

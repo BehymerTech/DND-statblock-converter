@@ -1,0 +1,116 @@
+{
+  "name": "Hellknight Cavalry Brigade",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 44.",
+  "size": "Gargantuan",
+  "type": "Troop",
+  "subtype": "Animal, Human, Humanoid",
+  "alignment": "LN",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 135,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet; troop movement;"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 12,
+    "con": 18,
+    "int": 14,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +18, Ref +13, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +13 (1d20+13); __Athletics__: +18 (1d20+18); __Intimidation__: +17 (1d20+17); __Religion__: +12 (1d20+12); __Society__: +12 (1d20+12); __Hell lore__: +12 (1d20+12); ",
+    "list": {
+      "Acrobatics": "+13",
+      "Athletics": "+18",
+      "Intimidation": "+17",
+      "Religion": "+12",
+      "Society": "+12",
+      "Hell lore": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 26,
+  "languages": [
+    "Common",
+    "Infernal"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Troop Defenses",
+      "text": "(page 306);"
+    },
+    {
+      "name": "Arrow Volley",
+      "text": "⬺ The Hellknights draw or reload their longbows, then launch a ranged attack in the form of a volley. This volley is a 10-foot burst within 100 feet that deals 4d8 (4d8) piercing damage (DC 23 basic Reflex save). When the troop is reduced to 8 or fewer squares, this area decreases to a 5-foot burst."
+    },
+    {
+      "name": "Form Up",
+      "text": "⬻"
+    },
+    {
+      "name": "Lance Charge",
+      "text": "⬽ The brigade Forms Up, then Strides twice with a +10-foot circumstance bonus to its Speed. If it moves at least 10 feet, the brigade deals 3d8+13 (3d8+13) piercing damage (DC 26 basic Reflex save) to each enemy within 10 feet of the brigade at the end of its movement."
+    },
+    {
+      "name": "Mounted Troop",
+      "text": "Effects that target only animals or only humanoids may not work on the cavalry brigade, subject to the GM's discretion."
+    },
+    {
+      "name": "Swing from the Saddle",
+      "text": "⬻ to ⬽ Frequency once per round Effect The brigade engages in a coordinated melee attack against each enemy within 10 feet (DC 23 basic Reflex save). The damage depends on the number of actions.<ul class='inner-bullet-list'><li>⬻ 2d6 (2d6) slashing damage</li><li>⬺ 2d6+10 (2d6+10) slashing damage</li><li>⬽ 3d6+13 (3d6+13) slashing damage.</li></ul>"
+    },
+    {
+      "name": "Trailblazing Stride",
+      "text": "While moving on land, the Hellknight cavalry brigade ignores the effects of non-magical difficult terrain."
+    },
+    {
+      "name": "Troop Movement",
+      "text": "Whenever the cavalry brigade Strides, the brigade first Forms Up as a free action to condense into a 20-foot-by-20-foot area (minus any missing squares), then moves. This works just like a Gargantuan creature moving; for instance, if any square of the brigade enters difficult terrain, the extra movement cost applies to the whole brigade."
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      1,
+      4,
+      2,
+      2,
+      3
+    ]
+  }
+}

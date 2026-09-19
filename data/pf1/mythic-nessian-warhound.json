@@ -1,0 +1,110 @@
+{
+  "name": "Mythic Nessian Warhound",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "evil, extraplanar, fire, lawful, mythic",
+  "alignment": "LE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 28,
+    "notes": "armor +6, dex +2, natural +11, size -1",
+    "touch": 11,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 166,
+    "formula": "12d10+100"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 29,
+    "dex": 15,
+    "con": 21,
+    "int": 4,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +13, Ref +10, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Perception +14, Sense Motive +4, Stealth +17, Survival +17",
+    "list": {
+      "Acrobatics": "+15",
+      "Perception": "+14",
+      "Sense Motive": "+4",
+      "Stealth": "+17",
+      "Survival": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent",
+    "see in darkness"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Infernal"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 12,
+  "feats": [
+    "Alertness",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Skill Focus (Stealth)",
+    "Skill Focus (Survival)",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +22 (2d8+9/18-20 plus burn plus trip), 2 claws +20 (2d6+9 plus burn)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This brawny hound is wreathed in flames, and its footsteps leave burning prints that sputter and smoke.",
+  "meta": {
+    "cmb": "+22",
+    "cmd": "34 (38 vs. trip)",
+    "racialModifiers": [
+      "Stealth 5"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pack (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+2 chain shirt barding)"
+      }
+    ]
+  }
+}

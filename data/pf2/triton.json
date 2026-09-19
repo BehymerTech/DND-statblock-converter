@@ -1,0 +1,107 @@
+{
+  "name": "Triton",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 263.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Amphibious",
+  "alignment": "NG",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 30,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 feet, swim 35 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +5, Ref +11, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +8 (1d20+8); __Crafting__: +4 (1d20+4); __Diplomacy__: +6 (1d20+6); __Nature__: +6 (1d20+6); __Stealth__: +9 (1d20+9); ",
+    "list": {
+      "Athletics": "+8",
+      "Crafting": "+4",
+      "Diplomacy": "+6",
+      "Nature": "+6",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Aquan",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Defender of the Seas",
+      "text": "⬻ The triton Interacts to raise their trident, gaining a +1 circumstance bonus to AC until the start of their next turn. During this time, any of their allies also gains the bonus while adjacent to the triton."
+    },
+    {
+      "name": "Summon Aquatic Ally",
+      "text": "⬽ (conjuration, primal); Frequency once per day Effect The triton blows into a conch shell, casting a 2ndlevel summon animal spell. The triton can summon only an aquatic creature, such as a dolphin (page 84), octopus (page 187), ray (page 226), sea snake (page 245), or electric eel (Bestiary 142). This creature remains until it is slain, the triton Dismisses it, or the triton summons another ally."
+    },
+    {
+      "name": "Items",
+      "text": "conch shell, shell armor (hide armor), trident;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ trident +10 Damage 1d8+6 (1d8+6) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ trident +9 (thrown 20 feet); Damage 1d8+6 (1d8+6) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      3,
+      1,
+      0,
+      2,
+      0
+    ],
+    "items": "conch shell, shell armor (hide armor), trident;"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "name": "Seru",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Small",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex +2, dodge +1, natural +1, size +1",
+    "touch": 14,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 22,
+    "formula": "3d10+6"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 40 ft. (average)"
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 15,
+    "con": 14,
+    "int": 11,
+    "wis": 13,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +5, Ref +5, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +7, Fly +4, Perception +10, Stealth +10",
+    "list": {
+      "Bluff": "+7",
+      "Fly": "+4",
+      "Perception": "+10",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Aklo",
+    "Common (can’t speak any language)",
+    "telepathy 60 ft."
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 3,
+  "feats": [
+    "Dodge",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +6 (1d4-2 plus poison)"
+    },
+    {
+      "name": "Ranged",
+      "text": "spit venom +6 ranged touch (poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The sound of flapping wings and an angry hiss accompany the appearance of this flying snake.",
+  "meta": {
+    "cmb": "+0",
+    "cmd": 13,
+    "racialModifiers": [
+      "Bluff 4",
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land (jungles, swamps, or underground)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or nest (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

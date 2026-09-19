@@ -1,0 +1,94 @@
+{
+  "name": "Sawdust Slough",
+  "sourceSystem": "pf1",
+  "source": "Andoran, Birthplace of Freedom",
+  "size": "Large",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 12,
+    "notes": "dex -1, natural +4, size -1",
+    "touch": 8,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 57,
+    "formula": "6d8+30"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 8,
+    "con": 21,
+    "int": "None",
+    "wis": 1,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +10, Ref +1, Will -3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +12, Perception -5",
+    "list": {
+      "Climb": "+12",
+      "Perception": "-5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 5,
+  "languages": [],
+  "initiative": "-1",
+  "babOrProficiency": 4,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +7 (1d6+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A cloud of fine dust particles hangs in the air around this seething mass of sawdust and wood shavings.",
+  "meta": {
+    "cmb": "+9",
+    "cmd": "18 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forest"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cascade (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

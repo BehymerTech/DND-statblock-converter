@@ -1,0 +1,116 @@
+{
+  "name": "Ostiarius",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 281.",
+  "size": "Medium",
+  "type": "Velstrac",
+  "subtype": "Fiend",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 5",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 67,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 14,
+    "int": 14,
+    "wis": 18,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +9, Ref +15, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +13 (1d20+13); __Deception__: +12 (1d20+12); __Diplomacy__: +12 (1d20+12); __Intimidation__: +16 (1d20+16); __Religion__: +11 (1d20+11); __Torture lore__: +11 (1d20+11); ",
+    "list": {
+      "Acrobatics": "+13",
+      "Deception": "+12",
+      "Diplomacy": "+12",
+      "Intimidation": "+16",
+      "Religion": "+11",
+      "Torture lore": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "greater darkvision, painsight, sense portal"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Common",
+    "Infernal",
+    "Shadowtongue; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Painsight",
+      "text": "(divination, divine); A velstrac automatically knows whether a creature it sees has any of the doomed, dying, and wounded conditions, as well as the value of those conditions."
+    },
+    {
+      "name": "Sense Portal",
+      "text": "(divination, divine); The ostiarius always knows the direction and distance to the closest portal between the Shadow."
+    },
+    {
+      "name": "Plane and the Material Plane.",
+      "text": "This sense functions only on these two planes."
+    },
+    {
+      "name": "Whispering Wounds",
+      "text": "(aura, divine, enchantment, mental, visual); 30 feet. When a creature ends its turn in the aura, it hears the wounds on the ostiarius's body whisper obscene truths. The creature must succeed at a DC 21 Will save or become sickened 1."
+    },
+    {
+      "name": "Compel Courage",
+      "text": "⬻ (auditory, divine, emotion, enchantment, linguistic, mental); The ostiarius inspires their willing allies and themself by whispering words of courage from their wounds. The ostiarius and their allies in a 50-foot emanation gain a +1 status bonus to attack rolls, damage rolls, and saves against fear effects. The ostiarius can Sustain Compel Courage. Non-velstracs who accept this compelled courage find bleeding wounds opening on their own bodies to whisper in thanks. They take 1 persistent bleed damage and can't attempt a flat check to end this damage as long as they're compelled."
+    },
+    {
+      "name": "Focus Gaze",
+      "text": "⬻ (concentrate, divine, enchantment, fear, mental, visual); The ostiarius stares at a creature they can see within 30 feet. The creature must immediately attempt a Will save against whispering wounds. In addition, if the creature was already sickened and fails its save, the creature is fascinated by the ostiarius and can't use hostile actions. This fascination lasts for 1 round or until the ostiarius takes any hostile action against the creature or the creature's allies. Whether the creature succeeds at or fails the save, it is temporarily immune for 1 hour."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +13 (agile, evil, finesse, magical); Damage 2d6+2 (2d6+2) slashing plus 2d6 (2d6) persistent bleed"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      4,
+      2,
+      2,
+      4,
+      5
+    ]
+  }
+}

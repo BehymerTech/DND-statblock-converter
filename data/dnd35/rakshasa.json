@@ -1,0 +1,110 @@
+{
+  "name": "Rakshasa",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Outsider",
+  "subtype": "Native",
+  "alignment": "Always lawful evil",
+  "cr": "10",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": "+2 Dex, +9 natural",
+    "touch": 12,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 52,
+    "formula": "7d8+21"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft. (8 squares)"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 14,
+    "con": 16,
+    "int": 13,
+    "wis": 13,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +8, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +17\\*, Concentration +13, Diplomacy +7, Disguise +17 (+19 Acting)\\*, Intimidate +5, Listen +13, Move Silently +13, Perform (oratory) +13, Sense Motive +11, Spellcraft +11, Spot +11;",
+    "list": {
+      "Bluff": "+17",
+      "Concentration": "+13",
+      "Diplomacy": "+7",
+      "Disguise": "+17",
+      "Intimidate": "+5",
+      "Listen": "+13",
+      "Move Silently": "+13",
+      "Sense Motive": "+11",
+      "Spellcraft": "+11",
+      "Spot": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 7,
+  "feats": [
+    "Alertness",
+    "Combat Casting",
+    "Dodge"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Detect thoughts, spells"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Change shape, damage reduction 15/good and piercing, darkvision 60 ft., spell resistance 27"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Claw +8 melee (1d4+1)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +8 melee (1d4+1) and bite +3 melee (1d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A closer look at a rakshasa reveals that the palms of its hands are where the backs of the hands would be on a human.",
+    "grapple": "+8",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Warm marshes",
+    "organization": "Solitary",
+    "treasure": "Standard coins; double goods; standard items",
+    "advancement": "By character class",
+    "leveladjustment": "+7"
+  }
+}

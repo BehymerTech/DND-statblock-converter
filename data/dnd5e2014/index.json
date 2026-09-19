@@ -1,0 +1,2333 @@
+[
+  {
+    "slug": "aboleth",
+    "name": "Aboleth",
+    "cr": "10",
+    "size": "Large",
+    "type": "aberration"
+  },
+  {
+    "slug": "acolyte",
+    "name": "Acolyte",
+    "cr": "1/4",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "adult-black-dragon",
+    "name": "Adult Black Dragon",
+    "cr": "14",
+    "size": "Huge",
+    "type": "dragon"
+  },
+  {
+    "slug": "adult-blue-dragon",
+    "name": "Adult Blue Dragon",
+    "cr": "16",
+    "size": "Huge",
+    "type": "dragon"
+  },
+  {
+    "slug": "adult-brass-dragon",
+    "name": "Adult Brass Dragon",
+    "cr": "13",
+    "size": "Huge",
+    "type": "dragon"
+  },
+  {
+    "slug": "adult-bronze-dragon",
+    "name": "Adult Bronze Dragon",
+    "cr": "15",
+    "size": "Huge",
+    "type": "dragon"
+  },
+  {
+    "slug": "adult-copper-dragon",
+    "name": "Adult Copper Dragon",
+    "cr": "14",
+    "size": "Huge",
+    "type": "dragon"
+  },
+  {
+    "slug": "adult-gold-dragon",
+    "name": "Adult Gold Dragon",
+    "cr": "17",
+    "size": "Huge",
+    "type": "dragon"
+  },
+  {
+    "slug": "adult-green-dragon",
+    "name": "Adult Green Dragon",
+    "cr": "15",
+    "size": "Huge",
+    "type": "dragon"
+  },
+  {
+    "slug": "adult-red-dragon",
+    "name": "Adult Red Dragon",
+    "cr": "17",
+    "size": "Huge",
+    "type": "dragon"
+  },
+  {
+    "slug": "adult-silver-dragon",
+    "name": "Adult Silver Dragon",
+    "cr": "16",
+    "size": "Huge",
+    "type": "dragon"
+  },
+  {
+    "slug": "adult-white-dragon",
+    "name": "Adult White Dragon",
+    "cr": "13",
+    "size": "Huge",
+    "type": "dragon"
+  },
+  {
+    "slug": "air-elemental",
+    "name": "Air Elemental",
+    "cr": "5",
+    "size": "Large",
+    "type": "elemental"
+  },
+  {
+    "slug": "allosaurus",
+    "name": "Allosaurus",
+    "cr": "2",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "ancient-black-dragon",
+    "name": "Ancient Black Dragon",
+    "cr": "21",
+    "size": "Gargantuan",
+    "type": "dragon"
+  },
+  {
+    "slug": "ancient-blue-dragon",
+    "name": "Ancient Blue Dragon",
+    "cr": "23",
+    "size": "Gargantuan",
+    "type": "dragon"
+  },
+  {
+    "slug": "ancient-brass-dragon",
+    "name": "Ancient Brass Dragon",
+    "cr": "20",
+    "size": "Gargantuan",
+    "type": "dragon"
+  },
+  {
+    "slug": "ancient-bronze-dragon",
+    "name": "Ancient Bronze Dragon",
+    "cr": "22",
+    "size": "Gargantuan",
+    "type": "dragon"
+  },
+  {
+    "slug": "ancient-copper-dragon",
+    "name": "Ancient Copper Dragon",
+    "cr": "21",
+    "size": "Gargantuan",
+    "type": "dragon"
+  },
+  {
+    "slug": "ancient-gold-dragon",
+    "name": "Ancient Gold Dragon",
+    "cr": "24",
+    "size": "Gargantuan",
+    "type": "dragon"
+  },
+  {
+    "slug": "ancient-green-dragon",
+    "name": "Ancient Green Dragon",
+    "cr": "22",
+    "size": "Gargantuan",
+    "type": "dragon"
+  },
+  {
+    "slug": "ancient-red-dragon",
+    "name": "Ancient Red Dragon",
+    "cr": "24",
+    "size": "Gargantuan",
+    "type": "dragon"
+  },
+  {
+    "slug": "ancient-silver-dragon",
+    "name": "Ancient Silver Dragon",
+    "cr": "23",
+    "size": "Gargantuan",
+    "type": "dragon"
+  },
+  {
+    "slug": "ancient-white-dragon",
+    "name": "Ancient White Dragon",
+    "cr": "20",
+    "size": "Gargantuan",
+    "type": "dragon"
+  },
+  {
+    "slug": "androsphinx",
+    "name": "Androsphinx",
+    "cr": "17",
+    "size": "Large",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "animated-armor",
+    "name": "Animated Armor",
+    "cr": "1",
+    "size": "Medium",
+    "type": "construct"
+  },
+  {
+    "slug": "ankheg",
+    "name": "Ankheg",
+    "cr": "2",
+    "size": "Large",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "ankylosaurus",
+    "name": "Ankylosaurus",
+    "cr": "3",
+    "size": "Huge",
+    "type": "beast"
+  },
+  {
+    "slug": "ape",
+    "name": "Ape",
+    "cr": "1/2",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "archmage",
+    "name": "Archmage",
+    "cr": "12",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "assassin",
+    "name": "Assassin",
+    "cr": "8",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "avatar-of-death",
+    "name": "Avatar of Death",
+    "cr": null,
+    "size": "Medium",
+    "type": "undead"
+  },
+  {
+    "slug": "awakened-shrub",
+    "name": "Awakened Shrub",
+    "cr": "0",
+    "size": "Small",
+    "type": "plant"
+  },
+  {
+    "slug": "awakened-tree",
+    "name": "Awakened Tree",
+    "cr": "2",
+    "size": "Huge",
+    "type": "plant"
+  },
+  {
+    "slug": "axe-beak",
+    "name": "Axe Beak",
+    "cr": "1/4",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "azer",
+    "name": "Azer",
+    "cr": "2",
+    "size": "Medium",
+    "type": "elemental"
+  },
+  {
+    "slug": "baboon",
+    "name": "Baboon",
+    "cr": "0",
+    "size": "Small",
+    "type": "beast"
+  },
+  {
+    "slug": "badger",
+    "name": "Badger",
+    "cr": "0",
+    "size": "Tiny",
+    "type": "beast"
+  },
+  {
+    "slug": "balor",
+    "name": "Balor",
+    "cr": "19",
+    "size": "Huge",
+    "type": "fiend"
+  },
+  {
+    "slug": "bandit",
+    "name": "Bandit",
+    "cr": "1/8",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "bandit-captain",
+    "name": "Bandit Captain",
+    "cr": "2",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "banshee",
+    "name": "Banshee",
+    "cr": "4",
+    "size": "Medium",
+    "type": "undead"
+  },
+  {
+    "slug": "barbed-devil",
+    "name": "Barbed Devil",
+    "cr": "5",
+    "size": "Medium",
+    "type": "fiend"
+  },
+  {
+    "slug": "basilisk",
+    "name": "Basilisk",
+    "cr": "3",
+    "size": "Medium",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "bat",
+    "name": "Bat",
+    "cr": "0",
+    "size": "Tiny",
+    "type": "beast"
+  },
+  {
+    "slug": "bearded-devil",
+    "name": "Bearded Devil",
+    "cr": "3",
+    "size": "Medium",
+    "type": "fiend"
+  },
+  {
+    "slug": "behir",
+    "name": "Behir",
+    "cr": "11",
+    "size": "Huge",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "berserker",
+    "name": "Berserker",
+    "cr": "2",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "black-bear",
+    "name": "Black Bear",
+    "cr": "1/2",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "black-dragon-wyrmling",
+    "name": "Black Dragon Wyrmling",
+    "cr": "2",
+    "size": "Medium",
+    "type": "dragon"
+  },
+  {
+    "slug": "black-pudding",
+    "name": "Black Pudding",
+    "cr": "4",
+    "size": "Large",
+    "type": "ooze"
+  },
+  {
+    "slug": "blink-dog",
+    "name": "Blink Dog",
+    "cr": "1/4",
+    "size": "Medium",
+    "type": "fey"
+  },
+  {
+    "slug": "blood-hawk",
+    "name": "Blood Hawk",
+    "cr": "1/8",
+    "size": "Small",
+    "type": "beast"
+  },
+  {
+    "slug": "blue-dragon-wyrmling",
+    "name": "Blue Dragon Wyrmling",
+    "cr": "3",
+    "size": "Medium",
+    "type": "dragon"
+  },
+  {
+    "slug": "boar",
+    "name": "Boar",
+    "cr": "1/4",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "bone-devil",
+    "name": "Bone Devil",
+    "cr": "9",
+    "size": "Large",
+    "type": "fiend"
+  },
+  {
+    "slug": "brass-dragon-wyrmling",
+    "name": "Brass Dragon Wyrmling",
+    "cr": "1",
+    "size": "Medium",
+    "type": "dragon"
+  },
+  {
+    "slug": "bronze-dragon-wyrmling",
+    "name": "Bronze Dragon Wyrmling",
+    "cr": "2",
+    "size": "Medium",
+    "type": "dragon"
+  },
+  {
+    "slug": "brown-bear",
+    "name": "Brown Bear",
+    "cr": "1",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "bugbear",
+    "name": "Bugbear",
+    "cr": "1",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "bulette",
+    "name": "Bulette",
+    "cr": "5",
+    "size": "Large",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "camel",
+    "name": "Camel",
+    "cr": "1/8",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "cat",
+    "name": "Cat",
+    "cr": "0",
+    "size": "Tiny",
+    "type": "beast"
+  },
+  {
+    "slug": "centaur",
+    "name": "Centaur",
+    "cr": "2",
+    "size": "Large",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "chain-devil",
+    "name": "Chain Devil",
+    "cr": "8",
+    "size": "Medium",
+    "type": "fiend"
+  },
+  {
+    "slug": "chimera",
+    "name": "Chimera",
+    "cr": "6",
+    "size": "Large",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "chuul",
+    "name": "Chuul",
+    "cr": "4",
+    "size": "Large",
+    "type": "aberration"
+  },
+  {
+    "slug": "clay-golem",
+    "name": "Clay Golem",
+    "cr": "9",
+    "size": "Large",
+    "type": "construct"
+  },
+  {
+    "slug": "cloaker",
+    "name": "Cloaker",
+    "cr": "8",
+    "size": "Large",
+    "type": "aberration"
+  },
+  {
+    "slug": "cloud-giant",
+    "name": "Cloud Giant",
+    "cr": "9",
+    "size": "Huge",
+    "type": "giant"
+  },
+  {
+    "slug": "cockatrice",
+    "name": "Cockatrice",
+    "cr": "1/2",
+    "size": "Small",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "commoner",
+    "name": "Commoner",
+    "cr": "0",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "constrictor-snake",
+    "name": "Constrictor Snake",
+    "cr": "1/4",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "copper-dragon-wyrmling",
+    "name": "Copper Dragon Wyrmling",
+    "cr": "1",
+    "size": "Medium",
+    "type": "dragon"
+  },
+  {
+    "slug": "couatl",
+    "name": "Couatl",
+    "cr": "4",
+    "size": "Medium",
+    "type": "celestial"
+  },
+  {
+    "slug": "crab",
+    "name": "Crab",
+    "cr": "0",
+    "size": "Tiny",
+    "type": "beast"
+  },
+  {
+    "slug": "crocodile",
+    "name": "Crocodile",
+    "cr": "1/2",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "cult-fanatic",
+    "name": "Cult Fanatic",
+    "cr": "2",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "cultist",
+    "name": "Cultist",
+    "cr": "1/8",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "cyclops",
+    "name": "Cyclops",
+    "cr": "6",
+    "size": "Huge",
+    "type": "giant"
+  },
+  {
+    "slug": "darkmantle",
+    "name": "Darkmantle",
+    "cr": "1/2",
+    "size": "Small",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "death-dog",
+    "name": "Death Dog",
+    "cr": "1",
+    "size": "Medium",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "deep-gnome-svirfneblin",
+    "name": "Deep Gnome (Svirfneblin)",
+    "cr": "1/2",
+    "size": "Small",
+    "type": "humanoid"
+  },
+  {
+    "slug": "deer",
+    "name": "Deer",
+    "cr": "0",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "deva",
+    "name": "Deva",
+    "cr": "10",
+    "size": "Medium",
+    "type": "celestial"
+  },
+  {
+    "slug": "dire-wolf",
+    "name": "Dire Wolf",
+    "cr": "1",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "djinni",
+    "name": "Djinni",
+    "cr": "11",
+    "size": "Large",
+    "type": "elemental"
+  },
+  {
+    "slug": "doppelganger",
+    "name": "Doppelganger",
+    "cr": "3",
+    "size": "Medium",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "draft-horse",
+    "name": "Draft Horse",
+    "cr": "1/4",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "dragon-turtle",
+    "name": "Dragon Turtle",
+    "cr": "17",
+    "size": "Gargantuan",
+    "type": "dragon"
+  },
+  {
+    "slug": "dretch",
+    "name": "Dretch",
+    "cr": "1/4",
+    "size": "Small",
+    "type": "fiend"
+  },
+  {
+    "slug": "drider",
+    "name": "Drider",
+    "cr": "6",
+    "size": "Large",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "drow",
+    "name": "Drow",
+    "cr": "1/4",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "druid",
+    "name": "Druid",
+    "cr": "2",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "dryad",
+    "name": "Dryad",
+    "cr": "1",
+    "size": "Medium",
+    "type": "fey"
+  },
+  {
+    "slug": "duergar",
+    "name": "Duergar",
+    "cr": "1",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "dust-mephit",
+    "name": "Dust Mephit",
+    "cr": "1/2",
+    "size": "Small",
+    "type": "elemental"
+  },
+  {
+    "slug": "eagle",
+    "name": "Eagle",
+    "cr": "0",
+    "size": "Small",
+    "type": "beast"
+  },
+  {
+    "slug": "earth-elemental",
+    "name": "Earth Elemental",
+    "cr": "5",
+    "size": "Large",
+    "type": "elemental"
+  },
+  {
+    "slug": "efreeti",
+    "name": "Efreeti",
+    "cr": "11",
+    "size": "Large",
+    "type": "elemental"
+  },
+  {
+    "slug": "elephant",
+    "name": "Elephant",
+    "cr": "4",
+    "size": "Huge",
+    "type": "beast"
+  },
+  {
+    "slug": "elk",
+    "name": "Elk",
+    "cr": "1/4",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "erinyes",
+    "name": "Erinyes",
+    "cr": "12",
+    "size": "Medium",
+    "type": "fiend"
+  },
+  {
+    "slug": "ettercap",
+    "name": "Ettercap",
+    "cr": "2",
+    "size": "Medium",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "ettin",
+    "name": "Ettin",
+    "cr": "4",
+    "size": "Large",
+    "type": "giant"
+  },
+  {
+    "slug": "fire-elemental",
+    "name": "Fire Elemental",
+    "cr": "5",
+    "size": "Large",
+    "type": "elemental"
+  },
+  {
+    "slug": "fire-giant",
+    "name": "Fire Giant",
+    "cr": "9",
+    "size": "Huge",
+    "type": "giant"
+  },
+  {
+    "slug": "flameskull",
+    "name": "Flameskull",
+    "cr": "4",
+    "size": "Tiny",
+    "type": "undead"
+  },
+  {
+    "slug": "flesh-golem",
+    "name": "Flesh Golem",
+    "cr": "5",
+    "size": "Medium",
+    "type": "construct"
+  },
+  {
+    "slug": "flying-snake",
+    "name": "Flying Snake",
+    "cr": "1/8",
+    "size": "Tiny",
+    "type": "beast"
+  },
+  {
+    "slug": "flying-sword",
+    "name": "Flying Sword",
+    "cr": "1/4",
+    "size": "Small",
+    "type": "construct"
+  },
+  {
+    "slug": "frog",
+    "name": "Frog",
+    "cr": "0",
+    "size": "Tiny",
+    "type": "beast"
+  },
+  {
+    "slug": "frost-giant",
+    "name": "Frost Giant",
+    "cr": "8",
+    "size": "Huge",
+    "type": "giant"
+  },
+  {
+    "slug": "gargoyle",
+    "name": "Gargoyle",
+    "cr": "2",
+    "size": "Medium",
+    "type": "elemental"
+  },
+  {
+    "slug": "gelatinous-cube",
+    "name": "Gelatinous Cube",
+    "cr": "2",
+    "size": "Large",
+    "type": "ooze"
+  },
+  {
+    "slug": "ghast",
+    "name": "Ghast",
+    "cr": "2",
+    "size": "Medium",
+    "type": "undead"
+  },
+  {
+    "slug": "ghost",
+    "name": "Ghost",
+    "cr": "4",
+    "size": "Medium",
+    "type": "undead"
+  },
+  {
+    "slug": "ghoul",
+    "name": "Ghoul",
+    "cr": "1",
+    "size": "Medium",
+    "type": "undead"
+  },
+  {
+    "slug": "giant-ape",
+    "name": "Giant Ape",
+    "cr": "7",
+    "size": "Huge",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-badger",
+    "name": "Giant Badger",
+    "cr": "1/4",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-bat",
+    "name": "Giant Bat",
+    "cr": "1/4",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-boar",
+    "name": "Giant Boar",
+    "cr": "2",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-centipede",
+    "name": "Giant Centipede",
+    "cr": "1/4",
+    "size": "Small",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-constrictor-snake",
+    "name": "Giant Constrictor Snake",
+    "cr": "2",
+    "size": "Huge",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-crab",
+    "name": "Giant Crab",
+    "cr": "1/8",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-crocodile",
+    "name": "Giant Crocodile",
+    "cr": "5",
+    "size": "Huge",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-eagle",
+    "name": "Giant Eagle",
+    "cr": "1",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-elk",
+    "name": "Giant Elk",
+    "cr": "2",
+    "size": "Huge",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-fire-beetle",
+    "name": "Giant Fire Beetle",
+    "cr": "0",
+    "size": "Small",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-frog",
+    "name": "Giant Frog",
+    "cr": "1/4",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-goat",
+    "name": "Giant Goat",
+    "cr": "1/2",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-hyena",
+    "name": "Giant Hyena",
+    "cr": "1",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-lizard",
+    "name": "Giant Lizard",
+    "cr": "1/4",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-octopus",
+    "name": "Giant Octopus",
+    "cr": "1",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-owl",
+    "name": "Giant Owl",
+    "cr": "1/4",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-poisonous-snake",
+    "name": "Giant Poisonous Snake",
+    "cr": "1/4",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-rat",
+    "name": "Giant Rat",
+    "cr": "1/8",
+    "size": "Small",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-scorpion",
+    "name": "Giant Scorpion",
+    "cr": "3",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-sea-horse",
+    "name": "Giant Sea Horse",
+    "cr": "1/2",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-shark",
+    "name": "Giant Shark",
+    "cr": "5",
+    "size": "Huge",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-spider",
+    "name": "Giant Spider",
+    "cr": "1",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-toad",
+    "name": "Giant Toad",
+    "cr": "1",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-vulture",
+    "name": "Giant Vulture",
+    "cr": "1",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-wasp",
+    "name": "Giant Wasp",
+    "cr": "1/2",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-weasel",
+    "name": "Giant Weasel",
+    "cr": "1/8",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "giant-wolf-spider",
+    "name": "Giant Wolf Spider",
+    "cr": "1/4",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "gibbering-mouther",
+    "name": "Gibbering Mouther",
+    "cr": "2",
+    "size": "Medium",
+    "type": "aberration"
+  },
+  {
+    "slug": "glabrezu",
+    "name": "Glabrezu",
+    "cr": "9",
+    "size": "Large",
+    "type": "fiend"
+  },
+  {
+    "slug": "gladiator",
+    "name": "Gladiator",
+    "cr": "5",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "gnoll",
+    "name": "Gnoll",
+    "cr": "1/2",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "goat",
+    "name": "Goat",
+    "cr": "0",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "goblin",
+    "name": "Goblin",
+    "cr": "1/4",
+    "size": "Small",
+    "type": "humanoid"
+  },
+  {
+    "slug": "gold-dragon-wyrmling",
+    "name": "Gold Dragon Wyrmling",
+    "cr": "3",
+    "size": "Medium",
+    "type": "dragon"
+  },
+  {
+    "slug": "gorgon",
+    "name": "Gorgon",
+    "cr": "5",
+    "size": "Large",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "gray-ooze",
+    "name": "Gray Ooze",
+    "cr": "1/2",
+    "size": "Medium",
+    "type": "ooze"
+  },
+  {
+    "slug": "green-dragon-wyrmling",
+    "name": "Green Dragon Wyrmling",
+    "cr": "2",
+    "size": "Medium",
+    "type": "dragon"
+  },
+  {
+    "slug": "green-hag",
+    "name": "Green Hag",
+    "cr": "3",
+    "size": "Medium",
+    "type": "fey"
+  },
+  {
+    "slug": "grick",
+    "name": "Grick",
+    "cr": "2",
+    "size": "Medium",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "griffon",
+    "name": "Griffon",
+    "cr": "2",
+    "size": "Large",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "grimlock",
+    "name": "Grimlock",
+    "cr": "1/4",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "guard",
+    "name": "Guard",
+    "cr": "1/8",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "guardian-naga",
+    "name": "Guardian Naga",
+    "cr": "10",
+    "size": "Large",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "gynosphinx",
+    "name": "Gynosphinx",
+    "cr": "11",
+    "size": "Large",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "half-red-dragon-veteran",
+    "name": "Half-Red Dragon Veteran",
+    "cr": "5",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "harpy",
+    "name": "Harpy",
+    "cr": "1",
+    "size": "Medium",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "hawk",
+    "name": "Hawk",
+    "cr": "0",
+    "size": "Tiny",
+    "type": "beast"
+  },
+  {
+    "slug": "hell-hound",
+    "name": "Hell Hound",
+    "cr": "3",
+    "size": "Medium",
+    "type": "fiend"
+  },
+  {
+    "slug": "hezrou",
+    "name": "Hezrou",
+    "cr": "8",
+    "size": "Large",
+    "type": "fiend"
+  },
+  {
+    "slug": "hill-giant",
+    "name": "Hill Giant",
+    "cr": "5",
+    "size": "Huge",
+    "type": "giant"
+  },
+  {
+    "slug": "hippogriff",
+    "name": "Hippogriff",
+    "cr": "1",
+    "size": "Large",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "hobgoblin",
+    "name": "Hobgoblin",
+    "cr": "1/2",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "homunculus",
+    "name": "Homunculus",
+    "cr": "0",
+    "size": "Tiny",
+    "type": "construct"
+  },
+  {
+    "slug": "horned-devil",
+    "name": "Horned Devil",
+    "cr": "11",
+    "size": "Large",
+    "type": "fiend"
+  },
+  {
+    "slug": "hunter-shark",
+    "name": "Hunter Shark",
+    "cr": "2",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "hydra",
+    "name": "Hydra",
+    "cr": "8",
+    "size": "Huge",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "hyena",
+    "name": "Hyena",
+    "cr": "0",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "ice-devil",
+    "name": "Ice Devil",
+    "cr": "14",
+    "size": "Large",
+    "type": "fiend"
+  },
+  {
+    "slug": "ice-mephit",
+    "name": "Ice Mephit",
+    "cr": "1/2",
+    "size": "Small",
+    "type": "elemental"
+  },
+  {
+    "slug": "imp",
+    "name": "Imp",
+    "cr": "1",
+    "size": "Tiny",
+    "type": "fiend"
+  },
+  {
+    "slug": "incubus",
+    "name": "Incubus",
+    "cr": "4",
+    "size": "Medium",
+    "type": "fiend"
+  },
+  {
+    "slug": "invisible-stalker",
+    "name": "Invisible Stalker",
+    "cr": "6",
+    "size": "Medium",
+    "type": "elemental"
+  },
+  {
+    "slug": "iron-golem",
+    "name": "Iron Golem",
+    "cr": "16",
+    "size": "Large",
+    "type": "construct"
+  },
+  {
+    "slug": "jackal",
+    "name": "Jackal",
+    "cr": "0",
+    "size": "Small",
+    "type": "beast"
+  },
+  {
+    "slug": "killer-whale",
+    "name": "Killer Whale",
+    "cr": "3",
+    "size": "Huge",
+    "type": "beast"
+  },
+  {
+    "slug": "knight",
+    "name": "Knight",
+    "cr": "3",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "kobold",
+    "name": "Kobold",
+    "cr": "1/8",
+    "size": "Small",
+    "type": "humanoid"
+  },
+  {
+    "slug": "kraken",
+    "name": "Kraken",
+    "cr": "23",
+    "size": "Gargantuan",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "lamia",
+    "name": "Lamia",
+    "cr": "4",
+    "size": "Large",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "lemure",
+    "name": "Lemure",
+    "cr": "0",
+    "size": "Medium",
+    "type": "fiend"
+  },
+  {
+    "slug": "lich",
+    "name": "Lich",
+    "cr": "21",
+    "size": "Medium",
+    "type": "undead"
+  },
+  {
+    "slug": "lion",
+    "name": "Lion",
+    "cr": "1",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "lizard",
+    "name": "Lizard",
+    "cr": "0",
+    "size": "Tiny",
+    "type": "beast"
+  },
+  {
+    "slug": "lizardfolk",
+    "name": "Lizardfolk",
+    "cr": "1/2",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "mage",
+    "name": "Mage",
+    "cr": "6",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "magma-mephit",
+    "name": "Magma Mephit",
+    "cr": "1/2",
+    "size": "Small",
+    "type": "elemental"
+  },
+  {
+    "slug": "magmin",
+    "name": "Magmin",
+    "cr": "1/2",
+    "size": "Small",
+    "type": "elemental"
+  },
+  {
+    "slug": "mammoth",
+    "name": "Mammoth",
+    "cr": "6",
+    "size": "Huge",
+    "type": "beast"
+  },
+  {
+    "slug": "manticore",
+    "name": "Manticore",
+    "cr": "3",
+    "size": "Large",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "marilith",
+    "name": "Marilith",
+    "cr": "16",
+    "size": "Large",
+    "type": "fiend"
+  },
+  {
+    "slug": "mastiff",
+    "name": "Mastiff",
+    "cr": "1/8",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "medusa",
+    "name": "Medusa",
+    "cr": "6",
+    "size": "Medium",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "merfolk",
+    "name": "Merfolk",
+    "cr": "1/8",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "merrow",
+    "name": "Merrow",
+    "cr": "2",
+    "size": "Large",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "mimic",
+    "name": "Mimic",
+    "cr": "2",
+    "size": "Medium",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "minotaur",
+    "name": "Minotaur",
+    "cr": "3",
+    "size": "Large",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "minotaur-skeleton",
+    "name": "Minotaur Skeleton",
+    "cr": "2",
+    "size": "Large",
+    "type": "undead"
+  },
+  {
+    "slug": "mule",
+    "name": "Mule",
+    "cr": "1/8",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "mummy",
+    "name": "Mummy",
+    "cr": "3",
+    "size": "Medium",
+    "type": "undead"
+  },
+  {
+    "slug": "mummy-lord",
+    "name": "Mummy Lord",
+    "cr": "15",
+    "size": "Medium",
+    "type": "undead"
+  },
+  {
+    "slug": "nalfeshnee",
+    "name": "Nalfeshnee",
+    "cr": "13",
+    "size": "Large",
+    "type": "fiend"
+  },
+  {
+    "slug": "night-hag",
+    "name": "Night Hag",
+    "cr": "5",
+    "size": "Medium",
+    "type": "fiend"
+  },
+  {
+    "slug": "nightmare",
+    "name": "Nightmare",
+    "cr": "3",
+    "size": "Large",
+    "type": "fiend"
+  },
+  {
+    "slug": "noble",
+    "name": "Noble",
+    "cr": "1/8",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "nothic",
+    "name": "Nothic",
+    "cr": "2",
+    "size": "Medium",
+    "type": "aberration"
+  },
+  {
+    "slug": "ochre-jelly",
+    "name": "Ochre Jelly",
+    "cr": "2",
+    "size": "Large",
+    "type": "ooze"
+  },
+  {
+    "slug": "octopus",
+    "name": "Octopus",
+    "cr": "0",
+    "size": "Small",
+    "type": "beast"
+  },
+  {
+    "slug": "ogre",
+    "name": "Ogre",
+    "cr": "2",
+    "size": "Large",
+    "type": "giant"
+  },
+  {
+    "slug": "ogre-zombie",
+    "name": "Ogre Zombie",
+    "cr": "2",
+    "size": "Large",
+    "type": "undead"
+  },
+  {
+    "slug": "oni",
+    "name": "Oni",
+    "cr": "7",
+    "size": "Large",
+    "type": "giant"
+  },
+  {
+    "slug": "orc",
+    "name": "Orc",
+    "cr": "1/2",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "otyugh",
+    "name": "Otyugh",
+    "cr": "5",
+    "size": "Large",
+    "type": "aberration"
+  },
+  {
+    "slug": "owl",
+    "name": "Owl",
+    "cr": "0",
+    "size": "Tiny",
+    "type": "beast"
+  },
+  {
+    "slug": "owlbear",
+    "name": "Owlbear",
+    "cr": "3",
+    "size": "Large",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "panther",
+    "name": "Panther",
+    "cr": "1/4",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "pegasus",
+    "name": "Pegasus",
+    "cr": "2",
+    "size": "Large",
+    "type": "celestial"
+  },
+  {
+    "slug": "phase-spider",
+    "name": "Phase Spider",
+    "cr": "3",
+    "size": "Large",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "pit-fiend",
+    "name": "Pit Fiend",
+    "cr": "20",
+    "size": "Large",
+    "type": "fiend"
+  },
+  {
+    "slug": "planetar",
+    "name": "Planetar",
+    "cr": "16",
+    "size": "Large",
+    "type": "celestial"
+  },
+  {
+    "slug": "plesiosaurus",
+    "name": "Plesiosaurus",
+    "cr": "2",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "poisonous-snake",
+    "name": "Poisonous Snake",
+    "cr": "1/8",
+    "size": "Tiny",
+    "type": "beast"
+  },
+  {
+    "slug": "polar-bear",
+    "name": "Polar Bear",
+    "cr": "2",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "pony",
+    "name": "Pony",
+    "cr": "1/8",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "priest",
+    "name": "Priest",
+    "cr": "2",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "pseudodragon",
+    "name": "Pseudodragon",
+    "cr": "1/4",
+    "size": "Tiny",
+    "type": "dragon"
+  },
+  {
+    "slug": "pteranodon",
+    "name": "Pteranodon",
+    "cr": "1/4",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "purple-worm",
+    "name": "Purple Worm",
+    "cr": "15",
+    "size": "Gargantuan",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "quasit",
+    "name": "Quasit",
+    "cr": "1",
+    "size": "Tiny",
+    "type": "fiend"
+  },
+  {
+    "slug": "quipper",
+    "name": "Quipper",
+    "cr": "0",
+    "size": "Tiny",
+    "type": "beast"
+  },
+  {
+    "slug": "rakshasa",
+    "name": "Rakshasa",
+    "cr": "13",
+    "size": "Medium",
+    "type": "fiend"
+  },
+  {
+    "slug": "rat",
+    "name": "Rat",
+    "cr": "0",
+    "size": "Tiny",
+    "type": "beast"
+  },
+  {
+    "slug": "raven",
+    "name": "Raven",
+    "cr": "0",
+    "size": "Tiny",
+    "type": "beast"
+  },
+  {
+    "slug": "red-dragon-wyrmling",
+    "name": "Red Dragon Wyrmling",
+    "cr": "4",
+    "size": "Medium",
+    "type": "dragon"
+  },
+  {
+    "slug": "reef-shark",
+    "name": "Reef Shark",
+    "cr": "1/2",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "remorhaz",
+    "name": "Remorhaz",
+    "cr": "11",
+    "size": "Huge",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "rhinoceros",
+    "name": "Rhinoceros",
+    "cr": "2",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "riding-horse",
+    "name": "Riding Horse",
+    "cr": "1/4",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "roc",
+    "name": "Roc",
+    "cr": "11",
+    "size": "Gargantuan",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "roper",
+    "name": "Roper",
+    "cr": "5",
+    "size": "Large",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "rug-of-smothering",
+    "name": "Rug of Smothering",
+    "cr": "2",
+    "size": "Large",
+    "type": "construct"
+  },
+  {
+    "slug": "rust-monster",
+    "name": "Rust Monster",
+    "cr": "1/2",
+    "size": "Medium",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "saber-toothed-tiger",
+    "name": "Saber-Toothed Tiger",
+    "cr": "2",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "sahuagin",
+    "name": "Sahuagin",
+    "cr": "1/2",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "salamander",
+    "name": "Salamander",
+    "cr": "5",
+    "size": "Large",
+    "type": "elemental"
+  },
+  {
+    "slug": "satyr",
+    "name": "Satyr",
+    "cr": "1/2",
+    "size": "Medium",
+    "type": "fey"
+  },
+  {
+    "slug": "scorpion",
+    "name": "Scorpion",
+    "cr": "0",
+    "size": "Tiny",
+    "type": "beast"
+  },
+  {
+    "slug": "scout",
+    "name": "Scout",
+    "cr": "1/2",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "sea-hag",
+    "name": "Sea Hag",
+    "cr": "2",
+    "size": "Medium",
+    "type": "fey"
+  },
+  {
+    "slug": "sea-horse",
+    "name": "Sea Horse",
+    "cr": "0",
+    "size": "Tiny",
+    "type": "beast"
+  },
+  {
+    "slug": "shadow",
+    "name": "Shadow",
+    "cr": "1/2",
+    "size": "Medium",
+    "type": "undead"
+  },
+  {
+    "slug": "shambling-mound",
+    "name": "Shambling Mound",
+    "cr": "5",
+    "size": "Large",
+    "type": "plant"
+  },
+  {
+    "slug": "shield-guardian",
+    "name": "Shield Guardian",
+    "cr": "7",
+    "size": "Large",
+    "type": "construct"
+  },
+  {
+    "slug": "shrieker",
+    "name": "Shrieker",
+    "cr": "0",
+    "size": "Medium",
+    "type": "plant"
+  },
+  {
+    "slug": "silver-dragon-wyrmling",
+    "name": "Silver Dragon Wyrmling",
+    "cr": "2",
+    "size": "Medium",
+    "type": "dragon"
+  },
+  {
+    "slug": "skeleton",
+    "name": "Skeleton",
+    "cr": "1/4",
+    "size": "Medium",
+    "type": "undead"
+  },
+  {
+    "slug": "solar",
+    "name": "Solar",
+    "cr": "21",
+    "size": "Large",
+    "type": "celestial"
+  },
+  {
+    "slug": "spectator",
+    "name": "Spectator",
+    "cr": "3",
+    "size": "Medium",
+    "type": "aberration"
+  },
+  {
+    "slug": "specter",
+    "name": "Specter",
+    "cr": "1",
+    "size": "Medium",
+    "type": "undead"
+  },
+  {
+    "slug": "spider",
+    "name": "Spider",
+    "cr": "0",
+    "size": "Tiny",
+    "type": "beast"
+  },
+  {
+    "slug": "spirit-naga",
+    "name": "Spirit Naga",
+    "cr": "8",
+    "size": "Large",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "sprite",
+    "name": "Sprite",
+    "cr": "1/4",
+    "size": "Tiny",
+    "type": "fey"
+  },
+  {
+    "slug": "spy",
+    "name": "Spy",
+    "cr": "1",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "steam-mephit",
+    "name": "Steam Mephit",
+    "cr": "1/4",
+    "size": "Small",
+    "type": "elemental"
+  },
+  {
+    "slug": "stirge",
+    "name": "Stirge",
+    "cr": "1/8",
+    "size": "Tiny",
+    "type": "beast"
+  },
+  {
+    "slug": "stone-giant",
+    "name": "Stone Giant",
+    "cr": "7",
+    "size": "Huge",
+    "type": "giant"
+  },
+  {
+    "slug": "stone-golem",
+    "name": "Stone Golem",
+    "cr": "10",
+    "size": "Large",
+    "type": "construct"
+  },
+  {
+    "slug": "storm-giant",
+    "name": "Storm Giant",
+    "cr": "13",
+    "size": "Huge",
+    "type": "giant"
+  },
+  {
+    "slug": "succubus",
+    "name": "Succubus",
+    "cr": "4",
+    "size": "Medium",
+    "type": "fiend"
+  },
+  {
+    "slug": "swarm-of-bats",
+    "name": "Swarm of Bats",
+    "cr": "1/4",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "swarm-of-beetles",
+    "name": "Swarm of Beetles",
+    "cr": "1/2",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "swarm-of-centipedes",
+    "name": "Swarm of Centipedes",
+    "cr": "1/2",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "swarm-of-insects",
+    "name": "Swarm of Insects",
+    "cr": "1/2",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "swarm-of-poisonous-snakes",
+    "name": "Swarm of Poisonous Snakes",
+    "cr": "2",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "swarm-of-quippers",
+    "name": "Swarm of Quippers",
+    "cr": "1",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "swarm-of-rats",
+    "name": "Swarm of Rats",
+    "cr": "1/4",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "swarm-of-ravens",
+    "name": "Swarm of Ravens",
+    "cr": "1/4",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "swarm-of-spiders",
+    "name": "Swarm of Spiders",
+    "cr": "1/2",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "swarm-of-wasps",
+    "name": "Swarm of Wasps",
+    "cr": "1/2",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "tarrasque",
+    "name": "Tarrasque",
+    "cr": "30",
+    "size": "Gargantuan",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "thug",
+    "name": "Thug",
+    "cr": "1/2",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "tiger",
+    "name": "Tiger",
+    "cr": "1",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "treant",
+    "name": "Treant",
+    "cr": "9",
+    "size": "Huge",
+    "type": "plant"
+  },
+  {
+    "slug": "tribal-warrior",
+    "name": "Tribal Warrior",
+    "cr": "1/8",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "triceratops",
+    "name": "Triceratops",
+    "cr": "5",
+    "size": "Huge",
+    "type": "beast"
+  },
+  {
+    "slug": "troll",
+    "name": "Troll",
+    "cr": "5",
+    "size": "Large",
+    "type": "giant"
+  },
+  {
+    "slug": "twig-blight",
+    "name": "Twig Blight",
+    "cr": "1/8",
+    "size": "Small",
+    "type": "plant"
+  },
+  {
+    "slug": "tyrannosaurus-rex",
+    "name": "Tyrannosaurus Rex",
+    "cr": "8",
+    "size": "Huge",
+    "type": "beast"
+  },
+  {
+    "slug": "unicorn",
+    "name": "Unicorn",
+    "cr": "5",
+    "size": "Large",
+    "type": "celestial"
+  },
+  {
+    "slug": "vampire",
+    "name": "Vampire",
+    "cr": "13",
+    "size": "Medium",
+    "type": "undead"
+  },
+  {
+    "slug": "vampire-spawn",
+    "name": "Vampire Spawn",
+    "cr": "5",
+    "size": "Medium",
+    "type": "undead"
+  },
+  {
+    "slug": "veteran",
+    "name": "Veteran",
+    "cr": "3",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "violet-fungus",
+    "name": "Violet Fungus",
+    "cr": "1/4",
+    "size": "Medium",
+    "type": "plant"
+  },
+  {
+    "slug": "vrock",
+    "name": "Vrock",
+    "cr": "6",
+    "size": "Large",
+    "type": "fiend"
+  },
+  {
+    "slug": "vulture",
+    "name": "Vulture",
+    "cr": "0",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "warhorse",
+    "name": "Warhorse",
+    "cr": "1/2",
+    "size": "Large",
+    "type": "beast"
+  },
+  {
+    "slug": "warhorse-skeleton",
+    "name": "Warhorse Skeleton",
+    "cr": "1/2",
+    "size": "Large",
+    "type": "undead"
+  },
+  {
+    "slug": "water-elemental",
+    "name": "Water Elemental",
+    "cr": "5",
+    "size": "Large",
+    "type": "elemental"
+  },
+  {
+    "slug": "weasel",
+    "name": "Weasel",
+    "cr": "0",
+    "size": "Tiny",
+    "type": "beast"
+  },
+  {
+    "slug": "werebear",
+    "name": "Werebear",
+    "cr": "5",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "wereboar",
+    "name": "Wereboar",
+    "cr": "4",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "wererat",
+    "name": "Wererat",
+    "cr": "2",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "weretiger",
+    "name": "Weretiger",
+    "cr": "4",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "werewolf",
+    "name": "Werewolf",
+    "cr": "3",
+    "size": "Medium",
+    "type": "humanoid"
+  },
+  {
+    "slug": "white-dragon-wyrmling",
+    "name": "White Dragon Wyrmling",
+    "cr": "2",
+    "size": "Medium",
+    "type": "dragon"
+  },
+  {
+    "slug": "wight",
+    "name": "Wight",
+    "cr": "3",
+    "size": "Medium",
+    "type": "undead"
+  },
+  {
+    "slug": "will-o-wisp",
+    "name": "Will-o'-Wisp",
+    "cr": "2",
+    "size": "Tiny",
+    "type": "undead"
+  },
+  {
+    "slug": "winter-wolf",
+    "name": "Winter Wolf",
+    "cr": "3",
+    "size": "Large",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "wolf",
+    "name": "Wolf",
+    "cr": "1/4",
+    "size": "Medium",
+    "type": "beast"
+  },
+  {
+    "slug": "worg",
+    "name": "Worg",
+    "cr": "1/2",
+    "size": "Large",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "wraith",
+    "name": "Wraith",
+    "cr": "5",
+    "size": "Medium",
+    "type": "undead"
+  },
+  {
+    "slug": "wyvern",
+    "name": "Wyvern",
+    "cr": "6",
+    "size": "Large",
+    "type": "dragon"
+  },
+  {
+    "slug": "xorn",
+    "name": "Xorn",
+    "cr": "5",
+    "size": "Medium",
+    "type": "elemental"
+  },
+  {
+    "slug": "yeti",
+    "name": "Yeti",
+    "cr": "3",
+    "size": "Large",
+    "type": "monstrosity"
+  },
+  {
+    "slug": "young-black-dragon",
+    "name": "Young Black Dragon",
+    "cr": "7",
+    "size": "Large",
+    "type": "dragon"
+  },
+  {
+    "slug": "young-blue-dragon",
+    "name": "Young Blue Dragon",
+    "cr": "9",
+    "size": "Large",
+    "type": "dragon"
+  },
+  {
+    "slug": "young-brass-dragon",
+    "name": "Young Brass Dragon",
+    "cr": "6",
+    "size": "Large",
+    "type": "dragon"
+  },
+  {
+    "slug": "young-bronze-dragon",
+    "name": "Young Bronze Dragon",
+    "cr": "8",
+    "size": "Large",
+    "type": "dragon"
+  },
+  {
+    "slug": "young-copper-dragon",
+    "name": "Young Copper Dragon",
+    "cr": "7",
+    "size": "Large",
+    "type": "dragon"
+  },
+  {
+    "slug": "young-gold-dragon",
+    "name": "Young Gold Dragon",
+    "cr": "10",
+    "size": "Large",
+    "type": "dragon"
+  },
+  {
+    "slug": "young-green-dragon",
+    "name": "Young Green Dragon",
+    "cr": "8",
+    "size": "Large",
+    "type": "dragon"
+  },
+  {
+    "slug": "young-red-dragon",
+    "name": "Young Red Dragon",
+    "cr": "10",
+    "size": "Large",
+    "type": "dragon"
+  },
+  {
+    "slug": "young-silver-dragon",
+    "name": "Young Silver Dragon",
+    "cr": "9",
+    "size": "Large",
+    "type": "dragon"
+  },
+  {
+    "slug": "young-white-dragon",
+    "name": "Young White Dragon",
+    "cr": "6",
+    "size": "Large",
+    "type": "dragon"
+  },
+  {
+    "slug": "zombie",
+    "name": "Zombie",
+    "cr": "1/4",
+    "size": "Medium",
+    "type": "undead"
+  }
+]

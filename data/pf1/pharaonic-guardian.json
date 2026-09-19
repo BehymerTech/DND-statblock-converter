@@ -1,0 +1,110 @@
+{
+  "name": "Pharaonic Guardian",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Osirion, Legacy of the Pharaohs",
+  "size": "Large",
+  "type": "undead",
+  "subtype": "incorporeal",
+  "alignment": "LE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 25,
+    "notes": "deflection +5, dex +7, shield +4, size -1",
+    "touch": 21,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 142,
+    "formula": "15d8+75"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 30 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 25,
+    "con": "None",
+    "int": 13,
+    "wis": 16,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +10, Ref +12, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +13, Intimidate +23, Knowledge (history) +16, Knowledge (religion) +19, Perception +21, Sense Motive +21",
+    "list": {
+      "Fly": "+13",
+      "Intimidate": "+23",
+      "Perception": "+21",
+      "Sense Motive": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Aklo",
+    "Auran",
+    "Celestial",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 11,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Improved Critical (longsword)",
+    "Improved Vital Strike",
+    "Stand Still",
+    "Step Up",
+    "Vital Strike",
+    "Weapon Focus (longsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+3 ghost touch speed longsword +19/+19/+14/+9 (2d6+8/17-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This translucent humanoid figure has an animal’s head. Rising from its back are wings of chilling white light.",
+  "meta": {
+    "cmb": "+19",
+    "cmd": 34,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm ruins"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or patrol (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk light steel shield, mwk longsword, other treasure)"
+      }
+    ]
+  }
+}

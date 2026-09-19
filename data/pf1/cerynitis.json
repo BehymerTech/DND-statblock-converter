@@ -1,0 +1,114 @@
+{
+  "name": "Cerynitis",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 25,
+    "notes": "dex +10, dodge +1, natural +1, sacred +4, size -1",
+    "touch": 24,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 76,
+    "formula": "9d10+27"
+  },
+  "speed": {
+    "walk": 180,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "180 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 31,
+    "con": 16,
+    "int": 11,
+    "wis": 20,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +9, Ref +16, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +16, Escape Artist +21, Knowledge (religion) +5, Perception +17, Stealth +10, Survival +8",
+    "list": {
+      "Acrobatics": "+16",
+      "Escape Artist": "+21",
+      "Perception": "+17",
+      "Stealth": "+10",
+      "Survival": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent",
+    "see invisibility"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Sylvan",
+    "speak with animals"
+  ],
+  "initiative": "+18",
+  "babOrProficiency": 9,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Lightning Stance",
+    "Mobility",
+    "Run",
+    "Wind Stance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +12 (1d8+6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This sleek and graceful doe possesses long, metallic antlers and a shiny, golden pelt.",
+  "meta": {
+    "cmb": "+14",
+    "cmd": "39 (43 vs. trip)",
+    "racialModifiers": [
+      "Acrobatics 60",
+      "Escape Artist 10",
+      "Knowledge (religion) 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any plains, hills, or forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental (horns and pelt)"
+      }
+    ]
+  }
+}

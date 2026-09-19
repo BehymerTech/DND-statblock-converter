@@ -1,0 +1,97 @@
+{
+  "name": "Deep Gnome (Svirfneblin)",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "gnome",
+  "alignment": "neutral good",
+  "cr": "1/2",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "chain shirt"
+  },
+  "hp": {
+    "average": 16,
+    "formula": "3d6 + 6"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 14,
+    "con": 14,
+    "int": 12,
+    "wis": 10,
+    "cha": 9
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Investigation +3, Perception +2, Stealth +4",
+    "list": {
+      "investigation": "+3",
+      "perception": "+2",
+      "stealth": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 120 ft."
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Gnomish",
+    "Terran",
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Stone Camouflage",
+      "text": "The gnome has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+    },
+    {
+      "name": "Gnome Cunning",
+      "text": "The gnome has advantage on Intelligence, Wisdom, and Charisma saving throws against magic."
+    }
+  ],
+  "actions": [
+    {
+      "name": "War Pick",
+      "text": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+    },
+    {
+      "name": "Poisoned Dart",
+      "text": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [
+    {
+      "name": "Innate Spellcasting",
+      "text": "The gnome's innate spellcasting ability is Intelligence (spell save DC 11). It can innately cast the following spells, requiring no material components:"
+    }
+  ],
+  "description": "",
+  "meta": {}
+}

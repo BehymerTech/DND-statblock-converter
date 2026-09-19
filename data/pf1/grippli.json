@@ -1,0 +1,112 @@
+{
+  "name": "Grippli",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "grippli",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 16,
+    "notes": "armor +2, dex +3, size +1",
+    "touch": 14,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 12,
+    "formula": "1d10+2"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 17,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +3, Ref +5, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +4, Climb +13, Handle Animal +3, Heal +7, Perception +5, Stealth +11, Survival +7",
+    "list": {
+      "Acrobatics": "+4",
+      "Climb": "+13",
+      "Handle Animal": "+3",
+      "Heal": "+7",
+      "Perception": "+5",
+      "Stealth": "+11",
+      "Survival": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Common",
+    "Grippli"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 1,
+  "feats": [
+    "Self-Sufficient"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "short sword +3 (1d4+1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dart +5 (1d3+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Its slick skin a mottled pattern of bright colors, this agile, frog-like humanoid carries a bow and wears leather armor.",
+  "meta": {
+    "race": "Grippli",
+    "class": "ranger 1",
+    "cmb": "+1",
+    "cmd": 14,
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forests or marshes"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, gang (2-5), pack (6-11), or tribe (21-30 plus 1 cleric leader of 3rd level)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (leather armor, 4 darts, net, short sword, other treasure)"
+      }
+    ]
+  }
+}

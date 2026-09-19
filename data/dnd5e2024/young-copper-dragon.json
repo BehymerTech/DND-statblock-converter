@@ -1,0 +1,91 @@
+{
+  "name": "Young Copper Dragon",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Large",
+  "type": "Dragon",
+  "subtype": "Metallic",
+  "alignment": "Chaotic Good",
+  "cr": "7",
+  "level": null,
+  "xp": 2900,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 119,
+    "formula": "14d10 + 42"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": 80,
+    "swim": null,
+    "climb": 40,
+    "burrow": null,
+    "notes": "40 ft., Climb 40 ft., Fly 80 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 12,
+    "con": 17,
+    "int": 16,
+    "wis": 13,
+    "cha": 15
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Deception +5, Perception +7, Stealth +4",
+    "list": {
+      "Deception": "+5",
+      "Perception": "+7",
+      "Stealth": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Blindsight 30 ft.",
+    "Darkvision 120 ft."
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+4 (14)",
+  "babOrProficiency": 3,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks. It can replace one attack with a use of Slowing Breath."
+    },
+    {
+      "name": "Rend",
+      "text": "_Melee Attack Roll:_ +7, reach 10 ft. _Hit:_ 15 (2d10 + 4) Slashing damage."
+    },
+    {
+      "name": "Acid Breath (Recharge 5–6)",
+      "text": "_Dexterity Saving Throw:_ DC 14, each creature in a 40-foot-long, 5-foot-wide Line. _Failure:_ 40 (9d8) Acid damage. _Success:_ Half damage."
+    },
+    {
+      "name": "Slowing Breath",
+      "text": "_Constitution Saving Throw:_ DC 14, each creature in a 30-foot Cone. _Failure:_ The target can't take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both. This effect lasts until the end of its next turn."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

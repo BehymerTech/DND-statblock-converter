@@ -1,0 +1,120 @@
+{
+  "name": "Valkyrie",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 281.",
+  "size": "Medium",
+  "type": "Monitor",
+  "subtype": "Aesir",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 12",
+  "xp": null,
+  "ac": {
+    "value": 33,
+    "notes": ""
+  },
+  "hp": {
+    "average": 215,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 60 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 20,
+    "con": 20,
+    "int": 16,
+    "wis": 18,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +24, Ref +20, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +25 (1d20+25); __Athletics__: +25 (1d20+25); __Diplomacy__: +23 (1d20+23); __Intimidation__: +23 (1d20+23); __Religion__: +22 (1d20+22); ",
+    "list": {
+      "Acrobatics": "+25",
+      "Athletics": "+25",
+      "Diplomacy": "+23",
+      "Intimidation": "+23",
+      "Religion": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Common",
+    "Jotun; ravenspeaker",
+    "tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Claimer of the Slain",
+      "text": "(divine, necromancy); Valkyries can detect the souls of those recently slain in combat. A valkyrie spends 10 minutes praying over the body of a creature who has been dead for no more than 12 hours; if that creature is worthy of becoming an einherji and of the appropriate alignment, the valkyrie transforms that creature into an einherji."
+    },
+    {
+      "name": "Ravenspeaker",
+      "text": "(divination, divine); Valkyries use ravens as servants and spies. They can speak with ravens, and they can have up to three raven servitors who follow their commands. Valkyries can constantly observe whatever their commanded ravens sense."
+    },
+    {
+      "name": "Items",
+      "text": "+1 resilient breastplate, +1 striking returning spear;"
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Recall the Fallen",
+      "text": "⬲ (divine, healing, necromancy); Frequency once per day Trigger An allied creature within 60 feet who isn't a construct or undead is reduced to 0 Hit Points and their dying value is 2 or less Effect The valkyrie restores 5d10 (5d10) Hit Points to the target."
+    },
+    {
+      "name": "Storm of Battle",
+      "text": "⬺ (divine, electricity, evocation); The valkyrie hurls her spear into the air, creating a massive storm in a 100-foot burst. Spears of lightning rain down upon enemies in the area, dealing 4d12 (4d12) electricity damage (DC 32 basic Reflex save)."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ spear +28 (magical); Damage 2d6+15 (2d6+15) piercing plus 1d12 (1d12) electricity"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ spear +26 (magical, thrown 20 feet); Damage 2d6+15 (2d6+15) piercing plus 1d12 (1d12) electricity"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      5,
+      5,
+      3,
+      4,
+      5
+    ],
+    "items": "+1 resilient breastplate, +1 striking returning spear;"
+  }
+}

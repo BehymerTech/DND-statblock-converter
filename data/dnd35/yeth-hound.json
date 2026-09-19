@@ -1,0 +1,104 @@
+{
+  "name": "Yeth Hound",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Outsider",
+  "subtype": "Extraplanar, Evil",
+  "alignment": "Always neutral evil",
+  "cr": "3",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": "+2 Dex, +8 natural",
+    "touch": 12,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d8+6"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": 60,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft. (8 squares), fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 15,
+    "con": 15,
+    "int": 6,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +5, Ref +5, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Listen +11, Spot +11, Search +7, Survival +11 (+13 Following Tracks)\\*;",
+    "list": {
+      "Listen": "+11",
+      "Spot": "+11",
+      "Search": "+7",
+      "Survival": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft.",
+    "scent"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Track"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Bay, trip"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 10/silver, darkvision 60 ft., flight, scent"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Bite +6 melee (1d8+4)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +6 melee (1d8+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A yeth hound stands 5 feet tall at the shoulder and weighs about 400 pounds.",
+    "grapple": "+6",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "An evil-aligned plane",
+    "organization": "Solitary, pair, or pack (6-11)",
+    "treasure": "None",
+    "advancement": "4-6 HD (Medium); 7-9 HD (Large)",
+    "leveladjustment": "+3 (cohort)"
+  }
+}

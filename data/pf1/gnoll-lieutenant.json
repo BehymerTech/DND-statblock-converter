@@ -1,0 +1,101 @@
+{
+  "name": "Gnoll Lieutenant",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "gnoll",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 20,
+    "notes": "armor +7, dex +1, natural +1, shield +1",
+    "touch": 11,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 55,
+    "formula": "2d8+5d10+19"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 12,
+    "con": 15,
+    "int": 6,
+    "wis": 10,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +10, Ref +3, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +16, Perception +0",
+    "list": {
+      "Intimidate": "+16",
+      "Perception": "+0"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 10,
+  "languages": [
+    "Gnoll"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 6,
+  "feats": [
+    "Dazzling Display",
+    "Exotic Weapon Proficiency (whip)",
+    "Improved Whip Mastery",
+    "Intimidating Prowess",
+    "Power Attack",
+    "Weapon Focus (whip)",
+    "Whip Mastery"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 scorpion whip +14/+9 (1d4 +9)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk javelin +8/+3 (1d6+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Gnoll",
+    "class": "fighter 5",
+    "cmb": "+11",
+    "cmd": 22,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm plains or desert"
+      }
+    ]
+  }
+}

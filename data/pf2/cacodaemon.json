@@ -1,0 +1,101 @@
+{
+  "name": "Cacodaemon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 70.",
+  "size": "Tiny",
+  "type": "Fiend",
+  "subtype": "Daemon",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 22,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 14,
+    "int": 8,
+    "wis": 12,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +7, Ref +8, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Deception__: +5 (1d20+5); __Religion__: +6 (1d20+6); __Stealth__: +8 (1d20+8); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Deception": "+5",
+      "Religion": "+6",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Common",
+    "Daemonic; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Cacodaemonia",
+      "text": "(disease); Saving Throw DC 17 Fortitude. Stage 1 carrier (1 day) Stage 2 stupefied 1 (1 day) Stage 3 stupefied 2 (1 day)"
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, divine, polymorph, transmutation); <ul class='inner-bullet-list'><li>Lizard Speed 20 feet; Melee jaws +8 (agile, finesse), Damage 1d8+1 (1d8+1) piercing</li><li>Octopus size Small; Speed 20 feet, swim 30 feet; Melee tentacle +8 (finesse), Damage 1d8+1 (1d8+1) bludgeoning plus Grab; Melee beak +8 (agile, finesse), Damage 1d6 (1d6) piercing plus 2 poison</li><li>Scorpion size Small; Speed 30 feet; Melee pincer +8 (agile, finesse), Damage 1d6+1 (1d6+1) bludgeoning plus Grab; Melee stinger +8 (agile, finesse), Damage 1d6+1 (1d6+1) piercing plus 1d4 (1d4) poison</li></ul>"
+    },
+    {
+      "name": "Soul Lock",
+      "text": "⬽ (death, divine, necromancy); Once per day, a cacodaemon can ingest the soul of a sentient creature within 30 feet that died within the last minute. When it does, the cacodaemon grows a fist-sized soul gem (Hardness 2, HP 8) in its gut and can regurgitate it at any time as an Interact action. Destroying the gem frees the soul within but does not return the deceased creature to life. The caster of a spell to return a creature to life whose soul is trapped within a soul gem must succeed at a DC 30 Religion check. On a success, the soul gem shatters and the creature is returned to life as normal for the spell. By using an Interact action, a fiend can ingest a soul gem it is holding, condemning the soul to the fiend's home plane. The fiend gains fast healing 5 for 1 minute."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +8 (agile, disease, evil, finesse, magical); Damage 1d8 (1d8) piercing plus 1d4 (1d4) evil and cacodaemonia"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      3,
+      2,
+      -1,
+      1,
+      2
+    ]
+  }
+}

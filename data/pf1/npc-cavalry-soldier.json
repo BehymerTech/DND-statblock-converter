@@ -1,0 +1,96 @@
+{
+  "name": "NPC Cavalry Soldier",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf, human",
+  "alignment": "LN",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 21,
+    "notes": "armor +9, shield +2",
+    "touch": 10,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 67,
+    "formula": "9d10+18"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 10,
+    "con": 12,
+    "int": 11,
+    "wis": 8,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +7, Ref +3, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Handle Animal +8, Perception +8, Ride +6",
+    "list": {
+      "Handle Animal": "+8",
+      "Perception": "+8",
+      "Ride": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Elven"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 9,
+  "feats": [
+    "Iron Will",
+    "Mounted Archery",
+    "Mounted Combat",
+    "Ride-By Attack",
+    "Skill Focus (Perception)",
+    "Spirited Charge"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 lance +13/+8 (1d8+5/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite shortbow +10/+5 (1d6+3/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-elf",
+    "class": "warrior 9",
+    "cmb": "+12",
+    "cmd": 22
+  }
+}

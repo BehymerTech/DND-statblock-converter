@@ -1,0 +1,99 @@
+{
+  "name": "NPC Chain Mauler",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "CE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 21,
+    "notes": "armor +4, deflection +1, dex +5, natural +1",
+    "touch": 16,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 108,
+    "formula": "14d8+42"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 22,
+    "con": 12,
+    "int": 13,
+    "wis": 8,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +6, Ref +16, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +23, Climb +19, Disable Device +23, Escape Artist +23, Intimidate +17, Knowledge (dungeoneering) +8, Knowledge (local) +9, Knowledge (religion) +6, Perception +16, Sleight of Hand +23, Stealth +23, Survival +13, Swim +19",
+    "list": {
+      "Acrobatics": "+23",
+      "Climb": "+19",
+      "Disable Device": "+23",
+      "Escape Artist": "+23",
+      "Intimidate": "+17",
+      "Perception": "+16",
+      "Sleight of Hand": "+23",
+      "Stealth": "+23",
+      "Survival": "+13",
+      "Swim": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 26,
+  "languages": [],
+  "initiative": "+10",
+  "babOrProficiency": 10,
+  "feats": [
+    "Combat Expertise",
+    "Exotic Weapon Proficiency (spiked chain)",
+    "Greater Disarm",
+    "Greater Trip",
+    "Improved Critical (spiked chain)",
+    "Improved Disarm",
+    "Improved Initiative",
+    "Improved Trip",
+    "Toughness",
+    "Weapon Finesse",
+    "Weapon Focus (spiked chain)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 vicious spiked chain +19/+14 (2d4+5/19-20 plus 2d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "rogue 14",
+    "cmb": "12 (+16 disarm or trip)",
+    "cmd": "29 (31 vs. disarm or trip)"
+  }
+}

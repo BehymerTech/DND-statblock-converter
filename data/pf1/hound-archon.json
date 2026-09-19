@@ -1,0 +1,113 @@
+{
+  "name": "Hound Archon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "archon, extraplanar, good, lawful",
+  "alignment": "LG",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 19,
+    "notes": "natural +9, deflection vs. evil +2",
+    "touch": 10,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 39,
+    "formula": "6d10+6"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 10,
+    "con": 13,
+    "int": 10,
+    "wis": 13,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +6, Ref +5, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +9, Intimidate +10, Perception +10, Sense Motive +10, Stealth +13, Survival +14",
+    "list": {
+      "Acrobatics": "+9",
+      "Intimidate": "+10",
+      "Perception": "+10",
+      "Sense Motive": "+10",
+      "Stealth": "+13",
+      "Survival": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect evil",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 6,
+  "feats": [
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d8+3), slam +8 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This canine-headed humanoid’s well-groomed appearance and polished greatsword show it to be more than a common beast.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": 18,
+    "racialModifiers": [
+      "Stealth 4",
+      "Survival 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Heaven)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or squad (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (masterwork greatsword, other treasure)"
+      }
+    ]
+  }
+}

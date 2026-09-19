@@ -1,0 +1,95 @@
+{
+  "name": "NPC Chelish Opera Singer",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 15,
+    "notes": "armor +3, deflection +1, dex +1",
+    "touch": 12,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 45,
+    "formula": "6d8+15"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 12,
+    "con": 14,
+    "int": 13,
+    "wis": 8,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +5, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +6, Intimidate +13, Knowledge (history) +13, Knowledge (local) +13, Knowledge (nobility) +13, Linguistics +5, Perform (act) +16, Perform (dance) +13, Perform (sing) +16, Sleight of Hand +10, Perception -1",
+    "list": {
+      "Appraise": "+6",
+      "Intimidate": "+13",
+      "Linguistics": "+5",
+      "Sleight of Hand": "+10",
+      "Perception": "-1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 9,
+  "languages": [
+    "Azlanti",
+    "Common",
+    "Infernal"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 4,
+  "feats": [
+    "Combat Expertise",
+    "Skill Focus (Perform [act])",
+    "Skill Focus (Perform [sing])",
+    "Spell Focus (enchantment)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk rapier +5 (1d6/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +5 (1d4/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "bard 6",
+    "cmb": "+4",
+    "cmd": 16
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "name": "Sinspawn",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 297.",
+  "size": "Medium",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 30,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 18,
+    "int": 10,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +10, Ref +9, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +9 (1d20+9); __Athletics__: +8 (1d20+8); __Stealth__: +9 (1d20+9); __Survival__: +6 (1d20+6); ",
+    "list": {
+      "Acrobatics": "+9",
+      "Athletics": "+8",
+      "Stealth": "+9",
+      "Survival": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise sin scent 30"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Sin Scent",
+      "text": "A sinspawn can smell creatures that reflect its sin, as the scent ability. The GM determines which creatures are appropriately sinful."
+    },
+    {
+      "name": "Items",
+      "text": "one weapon determined by its sin;"
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Sinful Bite",
+      "text": "(arcane, emotion, mental); A creature hit by the jaws of a sinspawn must attempt a DC 18 Will save as it is assailed by sinful thoughts. Success Sickened 1. Critical Success Unaffected. Failure Sickened 2. Critical Failure Sickened 2 plus an additional penalty, determined by the sinspawn's sin, while it remains sickened."
+    },
+    {
+      "name": "Sin",
+      "text": "A sinspawn gains an additional skill based on its sin, as well as a weapon that reflects the preferences of its kinds' ancient creators. The seven sins and the benefits they confer upon a sinspawn are noted in the Sinspawn Sins section."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +10 (agile); Damage 1d8+4 (1d8+4) piercing plus sinful bite"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +10 Damage 1d6+4 (1d6+4) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      3,
+      4,
+      0,
+      2,
+      1
+    ],
+    "items": "one weapon determined by its sin;"
+  }
+}

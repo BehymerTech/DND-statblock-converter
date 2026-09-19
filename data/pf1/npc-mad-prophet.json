@@ -1,0 +1,100 @@
+{
+  "name": "NPC Mad Prophet",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "gnome",
+  "alignment": "CE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 19,
+    "notes": "armor +5, dex +1, natural +2, size +1",
+    "touch": 12,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 97,
+    "formula": "9d8+4d8+35"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 12,
+    "con": 12,
+    "int": 14,
+    "wis": 19,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +11, Ref +7, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +11, Diplomacy +11, Heal +12, Intimidate +11, Knowledge (arcana) +12, Knowledge (dungeoneering) +12, Knowledge (history) +12, Knowledge (planes) +17, Knowledge (religion) +17, Linguistics +8, Perception +17, Perform (oratory) +11, Profession (scribe) +14",
+    "list": {
+      "Bluff": "+11",
+      "Diplomacy": "+11",
+      "Heal": "+12",
+      "Intimidate": "+11",
+      "Linguistics": "+8",
+      "Perception": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Common",
+    "Draconic",
+    "Gnome",
+    "Sylvan"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Casting",
+    "Command Undead",
+    "Extra Channel",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Spell Focus (necromancy)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 heavy mace +9/+4 (1d6-1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Gnome",
+    "class": "cleric of the Old Cults 9, Pathfinder chronicler 4",
+    "cmb": "+6",
+    "cmd": 17
+  }
+}

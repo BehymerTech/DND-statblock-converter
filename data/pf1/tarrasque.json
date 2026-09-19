@@ -1,0 +1,120 @@
+{
+  "name": "Tarrasque",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Gods, Pathfinder RPG Bestiary",
+  "size": "Colossal",
+  "type": "magical beast",
+  "subtype": "spawn of Rovagug [see page 275]",
+  "alignment": "CE",
+  "cr": "25",
+  "level": null,
+  "xp": 1638400,
+  "ac": {
+    "value": 40,
+    "notes": "dex +3, natural +35, size -8",
+    "touch": 5,
+    "flatFooted": 37
+  },
+  "hp": {
+    "average": 525,
+    "formula": "30d10+360"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 41,
+    "dex": 16,
+    "con": 34,
+    "int": 3,
+    "wis": 15,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +31, Ref +22, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +3, Perception +43",
+    "list": {
+      "Acrobatics": "+3",
+      "Perception": "+43"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 53,
+  "languages": [
+    "Aklo (can’t speak)"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 30,
+  "feats": [
+    "Awesome Blow",
+    "Blind-Fight",
+    "Bleeding Critical",
+    "Cleave",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Great Cleave",
+    "Great Fortitude",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Run",
+    "Staggering Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +37 (4d8+15/15-20/×3 plus grab), 2 claws +37 (1d12+15), 2 gores +37 (1d10+15), tail slap +32 (3d8+7)"
+    },
+    {
+      "name": "Ranged",
+      "text": "6 spines +25 (2d10+15/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This immense reptilian beast towers over its surroundings, all teeth and horns and claws and thrashing spiked tail.",
+  "meta": {
+    "cmb": "53 (+57 grapple)",
+    "cmd": 66,
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

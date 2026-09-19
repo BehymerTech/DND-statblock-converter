@@ -1,0 +1,98 @@
+{
+  "name": "NPC Tavern (Barkeep)",
+  "sourceSystem": "pf1",
+  "source": "GameMastery Guide",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 13,
+    "notes": "armor +3",
+    "touch": 10,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 23,
+    "formula": "4d8+1d10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 9,
+    "dex": 11,
+    "con": 10,
+    "int": 12,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +5, Ref +1, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +8, Handle Animal +5, Intimidate +5, Knowledge (local) +9, Linguistics +6, Perception +10, Perform (comedy) +6, Perform (oratory) +6, Profession (barkeep) +13, Ride +5, Sense Motive +10, Sleight of Hand +5",
+    "list": {
+      "Bluff": "+8",
+      "Handle Animal": "+5",
+      "Intimidate": "+5",
+      "Linguistics": "+6",
+      "Perception": "+10",
+      "Ride": "+5",
+      "Sense Motive": "+10",
+      "Sleight of Hand": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Dwarf",
+    "Halfling"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 4,
+  "feats": [
+    "Great Fortitude",
+    "Quick Draw",
+    "Rapid Reload",
+    "Skill Focus (Profession [barkeep])"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "sap +3 (1d6-1 nonlethal)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk heavy crossbow +5 (1d10/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "expert 4, warrior 1",
+    "cmb": "+3",
+    "cmd": 13
+  }
+}

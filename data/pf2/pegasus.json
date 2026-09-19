@@ -1,0 +1,102 @@
+{
+  "name": "Pegasus",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 260.",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "alignment": "NG",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 55,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, fly 80 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 18,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +9, Ref +11, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +11 (1d20+11); __Athletics__: +10 (1d20+10); ",
+    "list": {
+      "Acrobatics": "+11",
+      "Athletics": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Common (can't speak any language)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Buck",
+      "text": "⬲ DC 19."
+    },
+    {
+      "name": "Assisted Mount",
+      "text": "⬻ Requirements The pegasus is Flying without a rider. Effect The pegasus Flies. At any point during the movement, it can allow a willing adjacent creature to Mount it. That creature must use a reaction to do so."
+    },
+    {
+      "name": "Gallop",
+      "text": "⬺ The pegasus uses 2 move actions, each of which can be either Stride or Fly. It gains a +20-foot circumstance bonus to its Speeds during a Gallop."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ hoof +10 Damage 1d8+5 (1d8+5) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ wing +10 (agile); Damage 1d6+5 (1d6+5) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      4,
+      2,
+      0,
+      2,
+      3
+    ]
+  }
+}

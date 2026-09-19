@@ -1,0 +1,110 @@
+{
+  "name": "Leaf Leshy",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Small",
+  "type": "plant",
+  "subtype": "leshy, shapechanger",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 13,
+    "notes": "armor +1, dex +1, size +1",
+    "touch": 12,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 5,
+    "formula": "1d8+1"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 10 ft. (clumsy), other_semicolon glide ft., climb 10 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 13,
+    "con": 12,
+    "int": 5,
+    "wis": 12,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +3, Ref +1, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly -1, Stealth +5, Survival +1, Perception +1",
+    "list": {
+      "Fly": "-1",
+      "Stealth": "+5",
+      "Survival": "+1",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 11,
+  "languages": [
+    "Druidic",
+    "Sylvan",
+    "plantspeech (trees)"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 0,
+  "feats": [
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "shortspear +2 (1d4-2/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "seedpods +2 touch (1 plus deafen)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This little plant person is clad in a winglike leaf cloak and pinecone armor, wielding a twig as a makeshift spear.",
+  "meta": {
+    "cmb": "-3",
+    "cmd": 8,
+    "racialModifiers": [
+      "Stealth 4",
+      "Survival 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forest or hill"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or grove (2-16)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

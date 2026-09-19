@@ -1,0 +1,102 @@
+{
+  "name": "NPC Arcane Experimenter",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "gnome",
+  "alignment": "CE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 19,
+    "notes": "armor +7, dex +3, rage -2, size +1",
+    "touch": 12,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 191,
+    "formula": "14d12+95"
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 17,
+    "con": 22,
+    "int": 8,
+    "wis": 12,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +16, Ref +8, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +17, Climb +6, Craft (alchemy) +5, Knowledge (arcana) +0, Perception +20, Spellcraft +0, Stealth +5, Survival +5, Use Magic Device +18",
+    "list": {
+      "Acrobatics": "+17",
+      "Climb": "+6",
+      "Perception": "+20",
+      "Spellcraft": "+0",
+      "Stealth": "+5",
+      "Survival": "+5",
+      "Use Magic Device": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Common",
+    "Gnome",
+    "Sylvan"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 14,
+  "feats": [
+    "Double Slice",
+    "Improved Critical (gnome hooked hammer)",
+    "Improved Two-Weapon Fighting",
+    "Power Attack",
+    "Skill Focus (Use Magic Device)",
+    "Two-Weapon Fighting",
+    "Two-Weapon Rend"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 thundering gnome hooked hammer +21/+16/+11 (1d4+8/19-20/×4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite longbow +19/+14/+9 (1d6+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Gnome",
+    "class": "barbarian 14",
+    "cmb": "+18",
+    "cmd": 29
+  }
+}

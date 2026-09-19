@@ -1,0 +1,110 @@
+{
+  "name": "Elder Deep One",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Gargantuan",
+  "type": "monstrous humanoid",
+  "subtype": "aquatic, deep one",
+  "alignment": "CE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 29,
+    "notes": "deflection +4, dex +1, natural +18, size -4",
+    "touch": 11,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 202,
+    "formula": "15d8+135"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 12,
+    "con": 28,
+    "int": 19,
+    "wis": 23,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +18, Ref +16, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +22, Knowledge (arcana) +19, Knowledge (religion) +19, Perception +24, Sense Motive +21, Stealth +7, Swim +39, Use Magic Device +19",
+    "list": {
+      "Intimidate": "+22",
+      "Perception": "+24",
+      "Sense Motive": "+21",
+      "Stealth": "+7",
+      "Swim": "+39",
+      "Use Magic Device": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Aklo",
+    "Common"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 15,
+  "feats": [
+    "Awesome Blow",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +24 (2d8+13/19-20), 2 claws +24 (2d6+13/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The frame of this immense monstrosity is humanoid, but its ichthyic visage is that of a deep-sea predator.",
+  "meta": {
+    "cmb": "32 (+34 bull rush)",
+    "cmd": "47 (49 vs. bull rush)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

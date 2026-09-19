@@ -1,0 +1,107 @@
+{
+  "name": "NPC Pirate (Sailor)",
+  "sourceSystem": "pf1",
+  "source": "Isles of the Shackles",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "CN",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 16,
+    "notes": "armor +2, dex +3, dodge +1",
+    "touch": 14,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 9,
+    "formula": "1d8+1"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 16,
+    "con": 13,
+    "int": 12,
+    "wis": 10,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +1, Ref +5, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Bluff +3, Climb +6, Diplomacy +3, Disable Device +7, Escape Artist +7, Intimidate +3, Knowledge (local) +5, Perception +4, Sense Motive +4, Swim +6",
+    "list": {
+      "Acrobatics": "+7",
+      "Bluff": "+3",
+      "Climb": "+6",
+      "Diplomacy": "+3",
+      "Disable Device": "+7",
+      "Escape Artist": "+7",
+      "Intimidate": "+3",
+      "Perception": "+4",
+      "Sense Motive": "+4",
+      "Swim": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 14,
+  "languages": [
+    "Common",
+    "Polyglot"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 0,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "falchion +2 (2d4+3/18-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This rugged character is clad in colorful, mismatched clothing, his hair tied back in a bandana.",
+  "meta": {
+    "race": "Human",
+    "class": "rogue 1",
+    "cmb": "+2",
+    "cmd": 16,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans or coastlines"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (leather armor, falchion, masterwork dagger, other treasure)"
+      }
+    ]
+  }
+}

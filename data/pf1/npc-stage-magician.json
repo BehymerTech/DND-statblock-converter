@@ -1,0 +1,105 @@
+{
+  "name": "NPC Stage Magician",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, orc",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "armor +3, deflection +1, dex +5, dodge +1, natural +1",
+    "touch": 17,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 51,
+    "formula": "4d8+3d8+2d6+9"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 21,
+    "con": 13,
+    "int": 14,
+    "wis": 8,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +6, Ref +15, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +19, Disable Device +19, Escape Artist +19, Handle Animal +5, Intimidate +6, Knowledge (arcana) +13, Perception +13, Perform (comedy) +11, Ride +8, Sense Motive +8, Sleight of Hand +19, Stealth +19, Swim +6, Use Magic Device +16",
+    "list": {
+      "Acrobatics": "+19",
+      "Disable Device": "+19",
+      "Escape Artist": "+19",
+      "Handle Animal": "+5",
+      "Intimidate": "+6",
+      "Perception": "+13",
+      "Ride": "+8",
+      "Sense Motive": "+8",
+      "Sleight of Hand": "+19",
+      "Stealth": "+19",
+      "Swim": "+6",
+      "Use Magic Device": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Goblin"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 6,
+  "feats": [
+    "Catch Off-Guard",
+    "Combat Casting",
+    "Dodge",
+    "Improved Initiative",
+    "Throw Anything"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 light mace +9/+4 (1d6+1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +13 (1d4/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-orc",
+    "class": "bard 4, rogue 3, arcane trickster 2",
+    "cmb": "+6",
+    "cmd": 23
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Derro Brainwasher",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Monster Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "derro",
+  "alignment": "CE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 22,
+    "notes": "armor +4, dex +4, dodge +1, natural +2, size +1",
+    "touch": 16,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 39,
+    "formula": "3d8+2d8+17"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 19,
+    "con": 16,
+    "int": 12,
+    "wis": 7,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +4, Ref +8, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +8, Bluff +12, Disguise +10, Escape Artist +7, Knowledge (geography) +6, Knowledge (local) +6, Linguistics +5, Perception +2, Perform (oratory) +13, Stealth +12, Use Magic Device +11",
+    "list": {
+      "Acrobatics": "+8",
+      "Bluff": "+12",
+      "Disguise": "+10",
+      "Escape Artist": "+7",
+      "Linguistics": "+5",
+      "Perception": "+2",
+      "Stealth": "+12",
+      "Use Magic Device": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Undercommon"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 3,
+  "feats": [
+    "Combat Casting",
+    "Dodge",
+    "Extra Performance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "aklys +4 (1d6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "repeating light crossbow +8 (1d6/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This pallid woman’s clothing is adorned with leather straps, wicked barbs, and surgical tools. Her eyes twinkle with madness.",
+  "meta": {
+    "race": "Derro",
+    "class": "bard 2 (Pathfinder RPG Bestiary 70)",
+    "cmb": "+2",
+    "cmd": 17,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      }
+    ]
+  }
+}

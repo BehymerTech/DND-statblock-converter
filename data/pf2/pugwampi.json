@@ -1,0 +1,103 @@
+{
+  "name": "Pugwampi",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 193.",
+  "size": "Tiny",
+  "type": "Gremlin",
+  "subtype": "Fey",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 0",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 17,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 4,
+    "dex": 16,
+    "con": 10,
+    "int": 10,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +5, Ref +8, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Crafting__: +2 (1d20+2); __Deception__: +2 (1d20+2); __Nature__: +4 (1d20+4); __Stealth__: +5 (1d20+5); __Thievery__: +5 (1d20+5); ",
+    "list": {
+      "Crafting": "+2",
+      "Deception": "+2",
+      "Nature": "+4",
+      "Stealth": "+5",
+      "Thievery": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Gnoll",
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Unluck Aura",
+      "text": "(aura, divination, mental, misfortune, primal); 20 feet. Creatures other than animals, gremlins, and gnolls in the aura become extremely unlucky (DC 16 Will save; creature must roll this Will save twice and take the worse result). On a successful save, the creature is temporarily immune to pugwampi unluck auras for 24 hours. On a failure, the creature must roll twice and take the worse result on all checks as long as it is within the aura."
+    },
+    {
+      "name": "Items",
+      "text": "shortbow (60 arrows), shortsword;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ shortsword +8 (agile, finesse, magical, versatile s); Damage 1d6-3 (1d6-3) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ shortbow +8 (deadly 1d10, magical, range increment 60 feet, reload 0); Damage 1d6 (1d6) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -3,
+      3,
+      0,
+      0,
+      2,
+      -2
+    ],
+    "items": "shortbow (60 arrows), [[shortsword]];"
+  }
+}

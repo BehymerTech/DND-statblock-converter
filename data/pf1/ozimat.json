@@ -1,0 +1,110 @@
+{
+  "name": "Ozimat",
+  "sourceSystem": "pf1",
+  "source": "Planes of Power",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "earth, elemental, extraplanar, incorporeal",
+  "alignment": "N",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 22,
+    "notes": "deflection +6, dex +5, dodge +1",
+    "touch": 22,
+    "flatFooted": 166
+  },
+  "hp": {
+    "average": 168,
+    "formula": "16d10+80"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 30 ft. (good), other ['30 ft'] ft."
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 20,
+    "con": 19,
+    "int": 14,
+    "wis": 19,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +16, Ref +17, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +21, Appraise +18, Fly +28, Intimidate +22, Knowledge (dungeoneering) +18, Knowledge (planes) +21, Perception +23, Stealth +24",
+    "list": {
+      "Acrobatics": "+21",
+      "Appraise": "+18",
+      "Fly": "+28",
+      "Intimidate": "+22",
+      "Perception": "+23",
+      "Stealth": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Common",
+    "Terran"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 16,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Flyby Attack",
+    "Great Fortitude",
+    "Hover",
+    "Lightning Reflexes",
+    "Toughness",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "calcifying touch +21 (1d8 Dex)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Chunks of rock spin about a humanoid form of vibrant green light.",
+  "meta": {
+    "cmb": "+21",
+    "cmd": 38,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Earth)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

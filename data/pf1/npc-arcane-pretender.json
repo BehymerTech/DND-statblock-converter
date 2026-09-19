@@ -1,0 +1,105 @@
+{
+  "name": "NPC Arcane Pretender",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "halfling",
+  "alignment": "CN",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 22,
+    "notes": "armor +7, dex +2, dodge +1, natural +1, size +1",
+    "touch": 14,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 123,
+    "formula": "14d10+42"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 14,
+    "con": 14,
+    "int": 14,
+    "wis": 8,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +16, Ref +13, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +20, Bluff +19, Climb +8, Fly +12, Knowledge (arcana) +16, Perception +3, Spellcraft +18, Use Magic Device +25",
+    "list": {
+      "Acrobatics": "+20",
+      "Bluff": "+19",
+      "Climb": "+8",
+      "Fly": "+12",
+      "Perception": "+3",
+      "Spellcraft": "+18",
+      "Use Magic Device": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 13,
+  "languages": [
+    "Common",
+    "Elven",
+    "Goblin",
+    "Halfling"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 14,
+  "feats": [
+    "Combat Expertise",
+    "Dodge",
+    "Exotic Weapon Proficiency (bastard sword)",
+    "Greater Disarm",
+    "Improved Disarm",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Mobility",
+    "Penetrating Strike",
+    "Skill Focus (Use Magic Device)",
+    "Strike Back",
+    "Toughness",
+    "Weapon Focus (bastard sword)",
+    "Weapon Specialization (bastard sword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 bastard sword +26/+21/+16 (1d8+10/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Halfling",
+    "class": "fighter 14",
+    "cmb": "19 (+23 disarm)",
+    "cmd": "32 (+34 vs. disarm)"
+  }
+}

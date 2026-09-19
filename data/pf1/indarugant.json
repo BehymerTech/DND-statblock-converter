@@ -1,0 +1,115 @@
+{
+  "name": "Indarugant",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 94: Ice Tomb of the Giant Queen",
+  "size": "Huge",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 29,
+    "notes": "armor +4, dex +2, dodge +1, natural +14, size -2",
+    "touch": 11,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 190,
+    "formula": "20d8+100"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft.,  40 ft. without armor"
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 14,
+    "con": "None",
+    "int": 12,
+    "wis": 19,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +10, Ref +10, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +17, Intimidate +37, Knowledge (religion) +7, Perception +27, Sense Motive +17, Stealth +14, Survival +24",
+    "list": {
+      "Climb": "+17",
+      "Intimidate": "+37",
+      "Perception": "+27",
+      "Sense Motive": "+17",
+      "Stealth": "+14",
+      "Survival": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 15,
+  "feats": [
+    "Combat Reflexes",
+    "Dodge",
+    "Intimidating Prowess",
+    "Lightning Reflexes",
+    "Mobility",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Precise Shot",
+    "Toughness",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "battleaxe +23/+18/+13 (3d6+15/19-20/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +16 (2d6+10)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Taut, leathery skin clings to the skeleton of this giant, whose hide garments only partially conceal the simple geometric tattoos and ancient battle scars that decorate his flesh.",
+  "meta": {
+    "cmb": "+27",
+    "cmd": 40,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or warband (1 indarugant and 2-6 taiga giants)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (hide armor, spear)"
+      }
+    ]
+  }
+}

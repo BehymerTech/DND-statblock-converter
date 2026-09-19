@@ -1,0 +1,110 @@
+{
+  "name": "Ossumental (Earth)",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 83: The Slave Trenches of Hakotep",
+  "size": "Large",
+  "type": "undead",
+  "subtype": "earth",
+  "alignment": "NE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 27,
+    "notes": "dex +3, natural +15, size -1",
+    "touch": 12,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 161,
+    "formula": "17d8+85"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., burrow 30 ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 17,
+    "con": "None",
+    "int": 9,
+    "wis": 14,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +10, Ref +8, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +14, Intimidate +16, Knowledge (planes) +16, Perception +26, Sense Motive +4, Stealth +10",
+    "list": {
+      "Climb": "+14",
+      "Intimidate": "+16",
+      "Perception": "+26",
+      "Sense Motive": "+4",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Ancient Osiriani",
+    "Terran"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 12,
+  "feats": [
+    "Alertness",
+    "Awesome Blow",
+    "Cleave",
+    "Greater Bull Rush",
+    "Improved Bull Rush",
+    "Improved Critical (slams)",
+    "Improved Overrun",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 slams +21 (1d8+10/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering collection of sun-bleached bones is assembled in a humanoid form.",
+  "meta": {
+    "cmb": "23 (+27 bull rush, +25 overrun)",
+    "cmd": "36 (38 vs. bull rush, 38 vs. overrun)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts (Osirion)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or gang (2-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Ettin",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 156.",
+  "size": "Large",
+  "type": "Humanoid",
+  "subtype": "Giant",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 110,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 8,
+    "con": 18,
+    "int": 6,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +16, Ref +11, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +16 (1d20+16); __Intimidation__: +10 (1d20+10); ",
+    "list": {
+      "Athletics": "+16",
+      "Intimidation": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Pidgin of goblin",
+    "Jotun",
+    "And orcish"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Independent Brains",
+      "text": "Each of an ettin's heads rolls its own initiative and has its own turn. Neither head can Delay. At the start of a head's turn, that head gets 2 actions and 1 reaction. Each brain controls one of the ettin's arms, but both can move the legs. Any ability that would sever an ettin's head (such as the vorpal weapon property) doesn't cause the ettin to die if it still has its other head, but does cause it to lose the turns, actions, and reactions of the severed head. Mental effects that target a single creature affect only one of the ettin's heads. Items flail (2)"
+    },
+    {
+      "name": "Items",
+      "text": "flail (2);"
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ flail +16 (disarm, reach 10 feet, sweep, trip); Damage 2d6+10 (2d6+10) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +16 (agile, reach 10 feet); Damage 1d6+10 (1d6+10) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      -1,
+      4,
+      -2,
+      2,
+      0
+    ],
+    "items": "flail (2);"
+  }
+}

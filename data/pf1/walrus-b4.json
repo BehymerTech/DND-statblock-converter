@@ -1,0 +1,96 @@
+{
+  "name": "Walrus (B4)",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 17,
+    "notes": "natural +8, size -1",
+    "touch": 9,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d8+12"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 11,
+    "con": 16,
+    "int": 2,
+    "wis": 13,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +7, Ref +4, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +7, Swim +17",
+    "list": {
+      "Perception": "+7",
+      "Swim": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": "+0",
+  "babOrProficiency": 3,
+  "feats": [
+    "Endurance",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d8+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Two long tusks jut from the mouth of this bulky, bewhiskered creature. It walks clumsily on flippers instead of feet.",
+  "meta": {
+    "cmb": "+9",
+    "cmd": "19 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or herd (3-24)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

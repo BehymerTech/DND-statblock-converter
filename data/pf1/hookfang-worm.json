@@ -1,0 +1,96 @@
+{
+  "name": "Hookfang Worm",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Huge",
+  "type": "vermin",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 20,
+    "notes": "dex +4, natural +8, size -2",
+    "touch": 12,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 85,
+    "formula": "9d8+45"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 50 ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 19,
+    "con": 21,
+    "int": "None",
+    "wis": 16,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +11, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Swim +16, Perception +3",
+    "list": {
+      "Swim": "+16",
+      "Perception": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 13,
+  "languages": [],
+  "initiative": "+8",
+  "babOrProficiency": 6,
+  "feats": [
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +12 (2d8+12 plus grab and poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This long, orange, segmented worm’s colorful head unfolds like a horrific flower to reveal five large, black, hooklike teeth.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": "30 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or shoal (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "name": "Young Forest Dragon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 74.",
+  "size": "Large",
+  "type": "Plant",
+  "subtype": "Dragon",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 30,
+    "notes": ""
+  },
+  "hp": {
+    "average": 195,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, fly 100 feet; woodland stride;"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 14,
+    "con": 20,
+    "int": 14,
+    "wis": 18,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +21, Ref +16, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +18 (1d20+18); __Athletics__: +21 (1d20+21); __Deception__: +17 (1d20+17); __Intimidation__: +19 (1d20+19); __Nature__: +22 (1d20+22); __Stealth__: +18 (1d20+18), (Stealth: +22 (1d20+22) in forests); __Survival__: +16 (1d20+16); ",
+    "list": {
+      "Acrobatics": "+18",
+      "Athletics": "+21",
+      "Deception": "+17",
+      "Intimidation": "+19",
+      "Nature": "+22",
+      "Stealth": "+22",
+      "Survival": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Frightful Presence",
+      "text": "⬲ (aura, emotion, fear, mental); 90 feet, DC 27. Animals, fungi, and plants take a –2 circumstance penalty to the save."
+    },
+    {
+      "name": "Fed by Water",
+      "text": "⬲ (healing, necromancy, primal); Frequency once per hour Trigger The forest dragon is targeted with a water spell or effect Effect The forest dragon gains 30 temporary Hit Points."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (evocation, primal); The dragon unleashes a swarm of insects that deals 10d6 (10d6) piercing damage in a 30-foot cone (DC 29 basic Reflex save) before dispersing. A creature that critically fails is stunned 2 from the insects' venom; this is a poison effect. The dragon can't use Breath Weapon again for 1d4 (1d4) rounds."
+    },
+    {
+      "name": "Coiling Frenzy",
+      "text": "⬺ The dragon makes one claw Strike and one tail Strike in either order, each against the same target. If either Strike hits, the dragon automatically Grabs the target."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 2d8+8 (2d8+8) bludgeoning, DC 29"
+    },
+    {
+      "name": "Draconic Momentum",
+      "text": "The dragon recharges their Breath Weapon whenever they score a critical hit with a Strike."
+    },
+    {
+      "name": "Woodland Stride",
+      "text": "The forest dragon ignores difficult terrain and greater difficult terrain from non-magical foliage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +23 (reach 10 feet); Damage 2d10+12 (2d10+12) piercing plus 1d6 (1d6) poison"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +23 (agile); Damage 2d8+12 (2d8+12) slashing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +23 (reach 20 feet); Damage 2d8+12 (2d8+12) bludgeoning plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      2,
+      5,
+      2,
+      4,
+      3
+    ]
+  }
+}

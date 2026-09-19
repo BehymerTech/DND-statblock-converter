@@ -1,0 +1,102 @@
+{
+  "name": "Derro Magister",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Occult Bestiary",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "derro",
+  "alignment": "CE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 19,
+    "notes": "armor +2, dex +3, natural +3, size +1",
+    "touch": 14,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 52,
+    "formula": "7d8+21"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 17,
+    "con": 16,
+    "int": 16,
+    "wis": 5,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +7, Ref +5, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (alchemy) +13, Knowledge (arcana) +10, Perception +4, Spellcraft +10, Stealth +14",
+    "list": {
+      "Perception": "+4",
+      "Spellcraft": "+10",
+      "Stealth": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Aklo",
+    "Undercommon"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 5,
+  "feats": [
+    "Combat Casting",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk quarterstaff +10 (1d4+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This pale blue humanoid has bright white eyes and wild, white hair adorned with a spiked, gem-encrusted coronet.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 19,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, squad (1 plus 5-8 derros), or cabal (3 plus 11-20 derros)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (leather armor, mwk club, robes, other treasure)"
+      }
+    ]
+  }
+}

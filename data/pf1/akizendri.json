@@ -1,0 +1,107 @@
+{
+  "name": "Akizendri",
+  "sourceSystem": "pf1",
+  "source": "Concordance of Rivals",
+  "size": "Small",
+  "type": "outsider",
+  "subtype": "chaotic, extraplanar, protean, shapechanger",
+  "alignment": "CN",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 16,
+    "notes": "dex +3, natural +2, size +1",
+    "touch": 14,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 30,
+    "formula": "4d10+8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 30 ft. (perfect), swim 30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 17,
+    "con": 15,
+    "int": 15,
+    "wis": 14,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +3, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Disguise +9, Fly +20, Perception +9, Sleight of Hand +10, Spellcraft +6, Stealth +14, Swim +14",
+    "list": {
+      "Acrobatics": "+10",
+      "Disguise": "+9",
+      "Fly": "+20",
+      "Perception": "+9",
+      "Sleight of Hand": "+10",
+      "Spellcraft": "+6",
+      "Stealth": "+14",
+      "Swim": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "detect law"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Abyssal",
+    "Protean"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 4,
+  "feats": [
+    "Improved Initiative",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d6+2 plus 1d2 Wisdom damage), tail +7 (1d6+1 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This cackling protean’s serpentine body is surrounded by flowing, illuminated script pulled from nearby tomes and pages.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": "18 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Maelstrom)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or garble (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "name": "Lunar Naga",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 178.",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 100,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 18,
+    "int": 12,
+    "wis": 18,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +15, Ref +16, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +14 (1d20+14); __Deception__: +15 (1d20+15); __Diplomacy__: +15 (1d20+15); __Nature__: +13 (1d20+13); __Survival__: +14 (1d20+14); __Astronomy lore__: +11 (1d20+11); ",
+    "list": {
+      "Acrobatics": "+14",
+      "Deception": "+15",
+      "Diplomacy": "+15",
+      "Nature": "+13",
+      "Survival": "+14",
+      "Astronomy lore": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Aklo",
+    "Celestial",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Hypnosis",
+      "text": "⬺ (concentrate, enchantment, incapacitation, mental, primal, visual); Frequency once per day Effect The lunar naga twists the coils of their serpentine body, causing the starlike motes on their scales to shift and move as they glow brighter, creating a mesmerizing swirl of light and darkness. All creatures within a 30-foot emanation must succeed at a DC 21 Will save or become fascinated until the end of the naga's next turn (on a critical failure, fascinated creatures drop whatever items they are carrying as well). The lunar naga can Sustain a Spell on Hypnosis. If the naga moves, affected creatures are compelled to remain within 30 feet of the naga and must spend each of its actions moving closer to the naga as expediently as possible on its next turn. If a creature is unable to end its turn within 30 feet of the naga, the effect ends for that creature."
+    },
+    {
+      "name": "Lunar Naga Venom",
+      "text": "(poison, sleep); Saving Throw DC 24 Fortitude. Maximum Duration 6 rounds Stage 1 stupefied 1 (1 round) Stage 2 as stage 1 (1 round) Stage 3 stupefied 2 (1 round) Stage 4 unconscious (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +16 (agile, finesse); Damage 2d6+8 (2d6+8) piercing plus lunar naga venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      4,
+      4,
+      1,
+      4,
+      3
+    ]
+  }
+}

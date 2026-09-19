@@ -1,0 +1,98 @@
+{
+  "name": "Kapoacinth Hunter",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 48: Shadows of Gallowspire",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "aquatic, earth",
+  "alignment": "CE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 18,
+    "notes": "dex +4, natural +4",
+    "touch": 14,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 66,
+    "formula": "5d10+2d10+28"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 18,
+    "con": 18,
+    "int": 6,
+    "wis": 9,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +8, Ref +10, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Stealth +14, Swim +17, Perception -1",
+    "list": {
+      "Stealth": "+14",
+      "Swim": "+17",
+      "Perception": "-1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 9,
+  "languages": [
+    "Common",
+    "Terran"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 7,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Point-Blank Shot",
+    "Skill Focus (Swim)",
+    "Weapon Focus (spear)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "spear +12/+7 (1d8+4/×3), bite +11 (1d4+4), gore +11 (1d4+4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "1 spear +12/+7 (1d8+4/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The stone statue of a menacing fiend crouches here, as though ready to spring to life and devour innocent passersby. Then it moves-to do just that.",
+  "meta": {
+    "race": "Gargoyle",
+    "class": "fighter 2",
+    "cmb": "+11",
+    "cmd": 25,
+    "racialModifiers": [
+      "Stealth 2"
+    ]
+  }
+}

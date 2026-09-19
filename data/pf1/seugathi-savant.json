@@ -1,0 +1,112 @@
+{
+  "name": "Seugathi Savant",
+  "sourceSystem": "pf1",
+  "source": "Occult Bestiary",
+  "size": "Huge",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 23,
+    "notes": "dex +6, dodge +1, natural +8, size -2",
+    "touch": 15,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 142,
+    "formula": "15d8+75"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 22,
+    "con": 21,
+    "int": 15,
+    "wis": 18,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +12, Ref +11, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +13, Intimidate +25, Knowledge (religion) +16, Perception +20, Sense Motive +19, Stealth +16, Use Magic Device +19",
+    "list": {
+      "Bluff": "+13",
+      "Intimidate": "+25",
+      "Perception": "+20",
+      "Sense Motive": "+19",
+      "Stealth": "+16",
+      "Use Magic Device": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Aklo",
+    "Terran",
+    "Undercommon",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 11,
+  "feats": [
+    "Combat Casting",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Dodge",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Intimidating Prowess",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 short sword +16/+11/+6 (2d6+7/19-20), bite +10 (2d6+3 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Hundreds of legs support this hulking, bruise-colored worm.",
+  "meta": {
+    "cmb": "+19",
+    "cmd": "36 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+1 short sword, wand of searing light [CL 10th, 1d20+10 charges], other treasure)"
+      }
+    ]
+  }
+}

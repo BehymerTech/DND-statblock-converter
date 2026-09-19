@@ -1,0 +1,93 @@
+{
+  "name": "Deep Gnome Rockwarden",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 75.",
+  "size": "Small",
+  "type": "Humanoid",
+  "subtype": "Gnome",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 5",
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 63,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 14,
+    "con": 16,
+    "int": 10,
+    "wis": 20,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +12, Ref +9, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Crafting__: +9 (1d20+9); __Diplomacy__: +11 (1d20+11); __Nature__: +14 (1d20+14); __Stealth__: +9 (1d20+9); ",
+    "list": {
+      "Crafting": "+9",
+      "Diplomacy": "+11",
+      "Nature": "+14",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Gnomish",
+    "Terran",
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ pick +10 (fatal d10); Damage 1d6 (1d6) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ sling +11 (propulsive, range increment 50 feet); Damage 1d6 (1d6) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      2,
+      3,
+      0,
+      5,
+      2
+    ]
+  }
+}

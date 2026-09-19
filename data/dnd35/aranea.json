@@ -1,0 +1,107 @@
+{
+  "name": "Aranea",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Magical Beast",
+  "subtype": "Shapechanger",
+  "alignment": "Usually neutral",
+  "cr": "4",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 13,
+    "notes": "+2 Dex, +1 natural",
+    "touch": 12,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 22,
+    "formula": "3d10+6"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": 25,
+    "burrow": null,
+    "notes": "50 ft. (10 squares), climb 25 ft."
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 15,
+    "con": 14,
+    "int": 14,
+    "wis": 13,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +5, Ref +5, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +14, Concentration +8, Escape Artist +5, Jump +13, Listen +6, Spot +6;",
+    "list": {
+      "Climb": "+14",
+      "Concentration": "+8",
+      "Escape Artist": "+5",
+      "Jump": "+13",
+      "Listen": "+6",
+      "Spot": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft.",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 3,
+  "feats": [
+    "Improved Initiative",
+    "Iron Will (B)",
+    "Weapon Finesse"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Poison, spells, web"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Change shape, darkvision 60 ft., low-light vision"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Bite +5 melee (1d6 plus poison) or web +5 ranged"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Bite +5 melee (1d6 plus poison) or web +5 ranged"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "An aranea is an intelligent, shapechanging spider with sorcerous powers. In its natural form, an aranea resembles a big spider, with a humpbacked body a little bigger than a human torso. It has fanged mandibles like a normal spider. Two small arms, each about 2 feet long, lie below the mandibles. Each arm has a hand with four many-jointed fingers and a double-jointed thumb.",
+    "grapple": "+3",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Temperate forests",
+    "organization": "Solitary or colony (3-6)",
+    "treasure": "Standard coins; double goods; standard items",
+    "advancement": "By character class",
+    "leveladjustment": "+4"
+  }
+}

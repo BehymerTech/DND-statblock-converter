@@ -1,0 +1,110 @@
+{
+  "name": "Tanuki",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "shapechanger",
+  "alignment": "CN",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +3, natural +3, shield +1",
+    "touch": 13,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 47,
+    "formula": "5d10+20"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 17,
+    "con": 18,
+    "int": 13,
+    "wis": 14,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +5, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +7, Diplomacy +6, Knowledge (nature) +5, Perception +8, Perform (percussion) +8, Sense Motive +4, Spellcraft +4, Stealth +10",
+    "list": {
+      "Bluff": "+7",
+      "Diplomacy": "+6",
+      "Perception": "+8",
+      "Sense Motive": "+4",
+      "Spellcraft": "+4",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect poison",
+    "low-light vision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Tanuki"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 5,
+  "feats": [
+    "Two-Weapon Defense",
+    "Two-Weapon Fighting",
+    "Weapon Focus (quarterstaff)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk quarterstaff +7 (1d6+2), mwk quarterstaff +7 (1d6+1), slam +2 (1d6+1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "sling +8 (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Short and pudgy, this raccoonlike humanoid wields a stout quarterstaff and weaves a little as if intoxicated.",
+  "meta": {
+    "cmb": "+7",
+    "cmd": 20,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests or urban"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gathering (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (masterwork quarterstaff, 4 gulps of sake in a gourd, other treasure)"
+      }
+    ]
+  }
+}

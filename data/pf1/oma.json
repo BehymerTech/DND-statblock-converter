@@ -1,0 +1,105 @@
+{
+  "name": "Oma",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Distant Worlds",
+  "size": "Colossal",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 30,
+    "notes": "dex -2, natural +30, size -8",
+    "touch": 0,
+    "flatFooted": 30
+  },
+  "hp": {
+    "average": 290,
+    "formula": "20d10+180"
+  },
+  "speed": {
+    "walk": 200,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 200 ft. (average)"
+  },
+  "abilities": {
+    "str": 52,
+    "dex": 7,
+    "con": 29,
+    "int": 2,
+    "wis": 12,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +23, Ref +10, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly -10, Perception +24",
+    "list": {
+      "Fly": "-10",
+      "Perception": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 34,
+  "languages": [],
+  "initiative": "-2",
+  "babOrProficiency": 20,
+  "feats": [
+    "Awesome Blow",
+    "Critical Focus",
+    "Diehard",
+    "Endurance",
+    "Flyby Attack",
+    "Great Fortitude",
+    "Improved Bull Rush",
+    "Power Attack",
+    "Staggering Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +33 (4d6+21 plus 2d6 electricity and grab), tail slap +28 (4d6+10)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This whale-like creature floats ponderously, arcs of brilliant energy filling its mouth and rolling down its body.",
+  "meta": {
+    "cmb": "49 (+51 bull rush, +53 grapple)",
+    "cmd": "57 (59 vs. bull rush, can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "gas giants or vacuum"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pod (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

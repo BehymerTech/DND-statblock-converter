@@ -1,0 +1,101 @@
+{
+  "name": "Calathgar",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 34: Blood for Blood",
+  "size": "Small",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 16,
+    "notes": "dex +4, natural +1, size +1",
+    "touch": 15,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 39,
+    "formula": "6d8+12"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 19,
+    "con": 14,
+    "int": 6,
+    "wis": 15,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +6, Ref +6, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Stealth +17, Perception +2",
+    "list": {
+      "Stealth": "+17",
+      "Perception": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Sylvan (cannot speak)"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 4,
+  "feats": [
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "flower +7 (1d6+2 plus 1d6 cold), 2 tendrils +7 (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The acrid scent of vinegar wafts from this shield-sized blossom. Amid shocking blue petals slowly twitches a cluster of sharp stamens arranged like a ring of teeth within a leafy muzzle.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": "19 (21 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, growth (2-8), garden (9-25)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

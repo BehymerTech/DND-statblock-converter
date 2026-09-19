@@ -1,0 +1,108 @@
+{
+  "name": "Mist Drake",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "air",
+  "alignment": "NE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 19,
+    "notes": "dex +2, dodge +1, natural +7, size -1",
+    "touch": 12,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 57,
+    "formula": "6d12+18"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 80 ft. (average)"
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 15,
+    "con": 16,
+    "int": 9,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +9, Intimidate +9, Perception +10, Stealth +7, Survival +10",
+    "list": {
+      "Fly": "+9",
+      "Intimidate": "+9",
+      "Perception": "+10",
+      "Stealth": "+7",
+      "Survival": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "fogvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 6,
+  "feats": [
+    "Dodge",
+    "Flyby Attack",
+    "Hover"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +9 (2d6+4), tail slap +4 (1d8+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This lanky dragon’s dappled grayish scales and sprawling wings shift and fade in color, blending in with the mist.",
+  "meta": {
+    "cmb": "+11",
+    "cmd": 24,
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold or temperate coasts, hills, or marshes"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or rampage (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

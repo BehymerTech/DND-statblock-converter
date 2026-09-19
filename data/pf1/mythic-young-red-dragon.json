@@ -1,0 +1,112 @@
+{
+  "name": "Mythic Young Red Dragon",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "fire, mythic",
+  "alignment": "CE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 27,
+    "notes": "dex +1, natural +17, size -1",
+    "touch": 10,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 165,
+    "formula": "11d12+94"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (poor)"
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 12,
+    "con": 19,
+    "int": 12,
+    "wis": 13,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +11, Ref +8, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +15, Bluff +16, Fly +9, Intimidate +16, Perception +15, Sense Motive +15, Stealth +11",
+    "list": {
+      "Appraise": "+15",
+      "Bluff": "+16",
+      "Fly": "+9",
+      "Intimidate": "+16",
+      "Perception": "+15",
+      "Sense Motive": "+15",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "low-light vision",
+    "smoke vision",
+    "x-ray vision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 11,
+  "feats": [
+    "Cleave",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +18 (2d6+10 plus grab), 2 claws +18 (1d8+8 plus grab), tail slap +13 (1d8+12), 2 wings +13 (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A ruddy glow emanates from beneath this dragon’s red, gemencrusted scales, like lava visible between cracks of cooling stone.",
+  "meta": {
+    "cmb": "20 (+24 grapple)",
+    "cmd": "31 (35 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

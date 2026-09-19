@@ -1,0 +1,94 @@
+{
+  "name": "Bugbear Echohusk",
+  "sourceSystem": "pf1",
+  "source": "Occult Bestiary",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 15,
+    "notes": "armor +2, dex +1, natural +1, shield +1",
+    "touch": 11,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d8+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 13,
+    "con": "None",
+    "int": "None",
+    "wis": 10,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +3, Ref +2, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "morningstar +6 (1d8+4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "javelin +3 (1d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hulking humanoid’s body is covered in decaying skin and filthy fur. Its milky-white eyes show no hint of intelligence.",
+  "meta": {
+    "cmb": "+6",
+    "cmd": 17,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "any"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (leather armor, light wooden shield, 3 javelins,morningstar, other treasure)"
+      }
+    ]
+  }
+}

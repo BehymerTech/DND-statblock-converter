@@ -1,0 +1,102 @@
+{
+  "name": "Revenant",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Pathfinder No. 2: The Skinsaw Murders",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "LE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex +3, natural +6",
+    "touch": 13,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 76,
+    "formula": "9d8+36"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 17,
+    "con": "None",
+    "int": 7,
+    "wis": 12,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +7, Ref +6, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +16, Perception +13",
+    "list": {
+      "Intimidate": "+16",
+      "Perception": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "sense murderer"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 6,
+  "feats": [
+    "Cleave",
+    "Improved Initiative",
+    "Power Attack",
+    "Step Up",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +14 (1d8+7 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This shambling corpse is twisted and mutilated. Fingers of sharpened bone reach out with malevolent intent.",
+  "meta": {
+    "cmb": "13 (+17 grapple)",
+    "cmd": 26,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

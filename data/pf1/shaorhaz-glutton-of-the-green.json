@@ -1,0 +1,120 @@
+{
+  "name": "Shaorhaz, Glutton of the Green",
+  "sourceSystem": "pf1",
+  "source": "Demons Revisited",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "23",
+  "level": null,
+  "xp": 819200,
+  "ac": {
+    "value": 42,
+    "notes": "armor +10, dex +3, dodge +1, natural +19, size -1",
+    "touch": 13,
+    "flatFooted": 38
+  },
+  "hp": {
+    "average": 489,
+    "formula": "19d10+9d8+345"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 38,
+    "dex": 27,
+    "con": 34,
+    "int": 22,
+    "wis": 28,
+    "cha": 28
+  },
+  "saves": {
+    "text": "Fort +24, Ref +22, Will +26",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +36, Fly +42, Intimidate +44, Knowledge (dungeoneering) +37, Knowledge (nature) +37, Knowledge (planes) +37, Knowledge (religion) +37, Linguistics +10, Perception +44, Sense Motive +44, Spellcraft +37, Stealth +37, Use Magic Device +37",
+    "list": {
+      "Acrobatics": "+36",
+      "Fly": "+42",
+      "Intimidate": "+44",
+      "Linguistics": "+10",
+      "Perception": "+44",
+      "Sense Motive": "+44",
+      "Spellcraft": "+37",
+      "Stealth": "+37",
+      "Use Magic Device": "+37"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "true seeing"
+  ],
+  "passivePerception": 54,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Celestial",
+    "Draconic",
+    "Druidic",
+    "Sylvan",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+21",
+  "babOrProficiency": 25,
+  "feats": [
+    "Combat Expertise",
+    "Critical Focus",
+    "Dodge",
+    "Flyby Attack",
+    "Greater Vital Strike",
+    "Improved Critical (black flame knife)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Mobility",
+    "Multiattack",
+    "Outflank",
+    "Power Attack",
+    "Precise Strike",
+    "Quicken Spell-Like Ability (enervation)",
+    "Staggering Critical",
+    "Swap Places",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 black flame knife +39/+34/+29/+24 (1d6+15/17-20 plus energy drain), 3 +1 black flame knives +39 (1d6+8 plus energy drain), bite +36 (1d8+7), sting +36 (1d6+7 plus madness)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This four-armed nightmare stands with an elegance that seems out of place, given its demonic visage. Huge black wings fan behind its back, and flickering black blades burn in its hands.",
+  "meta": {
+    "race": "Male",
+    "class": "vrolikai inquisitor of Cyth-V’sug 9 (Pathfinder RPG Bestiary 2 81)",
+    "cmb": "+40",
+    "cmd": 59,
+    "racialModifiers": [
+      "Perception 8",
+      "Stealth 8"
+    ]
+  }
+}

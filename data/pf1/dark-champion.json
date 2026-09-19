@@ -1,0 +1,109 @@
+{
+  "name": "Dark Champion",
+  "sourceSystem": "pf1",
+  "source": "Cradle of Night",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dark folk",
+  "alignment": "LE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 20,
+    "notes": "armor +9, dex +1",
+    "touch": 11,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 59,
+    "formula": "7d8+28"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 12,
+    "con": 18,
+    "int": 8,
+    "wis": 11,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +9, Ref +3, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +8, Stealth +2",
+    "list": {
+      "Perception": "+8",
+      "Stealth": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Undercommon",
+    "Dark Folk"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 7,
+  "feats": [
+    "Cleave",
+    "Disruptive",
+    "Iron Will",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk greatsword +11/+6 (2d6+4/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "heavy crossbow +8 (1d10/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This gaunt humanoid’s body is entirely cased in black plate armor. Its open-faced helm reveals its pale skin and shallow, fleshy hollows where its eyes should be.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": 21,
+    "racialModifiers": [
+      "Perception 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, patrol (2-6), or platoon (8-16)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (full plate, masterwork greatsword, heavy crossbow with 20 bolts, other treasure)"
+      }
+    ]
+  }
+}

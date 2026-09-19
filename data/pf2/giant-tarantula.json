@@ -1,0 +1,97 @@
+{
+  "name": "Giant Tarantula",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 307.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 135,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, climb 30 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 12,
+    "con": 20,
+    "int": 0,
+    "wis": 14,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +15, Ref +13, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +9 (1d20+9); __Athletics__: +16 (1d20+16); __Stealth__: +11 (1d20+11); ",
+    "list": {
+      "Acrobatics": "+9",
+      "Athletics": "+16",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Hair Barrage",
+      "text": "⬺ The tarantula flicks its legs, flinging spiky hairs in a 15-foot cone. This deals 4d6 (4d6) piercing damage with a DC 25 basic Reflex save."
+    },
+    {
+      "name": "Giant Tarantula Venom",
+      "text": "(poison); Saving Throw DC 23 Fortitude. Maximum Duration 8 rounds Stage 1 1d6 (1d6) poison (1 round) Stage 2 1d6 (1d6) poison, flat-footed, and clumsy 1 (1 round) Stage 3 1d6 (1d6) poison, flat-footed, and clumsy 2 (null) Stage 4 1d6 (1d6) poison and paralyzed. (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +17 Damage 2d8+8 (2d8+8) piercing plus giant tarantula venom"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ leg +17 (reach 10 feet); Damage 1d12+8 (1d12+8) bludgeoning plus Knockdown"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      1,
+      5,
+      -5,
+      2,
+      -4
+    ]
+  }
+}

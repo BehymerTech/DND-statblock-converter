@@ -1,0 +1,103 @@
+{
+  "name": "Mobat",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "dex +2, natural +4, size -1",
+    "touch": 11,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 34,
+    "formula": "4d10+12"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 40 ft. (good)"
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 15,
+    "con": 16,
+    "int": 6,
+    "wis": 13,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +7, Ref +6, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +8, Perception +6, Stealth +5",
+    "list": {
+      "Fly": "+8",
+      "Perception": "+6",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Undercommon (cannot speak)"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 4,
+  "feats": [
+    "Flyby Attack",
+    "Skill Focus (Stealth)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +6 (2d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This bat has a wingspan the length of two humans, over-sized ears, and a squat, upturned snout with rows of needle-like teeth.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": 20,
+    "racialModifiers": [
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm forests, hills, or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or colony (2-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

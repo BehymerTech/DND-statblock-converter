@@ -1,0 +1,107 @@
+{
+  "name": "Morgodea",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 99: Dance of the Damned",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 19,
+    "notes": "dex +5, natural +4",
+    "touch": 15,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 33,
+    "formula": "6d6+12"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 21,
+    "con": 15,
+    "int": 8,
+    "wis": 12,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +4, Ref +10, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +11, Disguise +15, Knowledge (local) +8, Perception +8, Sense Motive +8, Stealth +12",
+    "list": {
+      "Bluff": "+11",
+      "Disguise": "+15",
+      "Perception": "+8",
+      "Sense Motive": "+8",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Aklo",
+    "Common"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 3,
+  "feats": [
+    "Multiattack",
+    "Weapon Finesse",
+    "Weapon Focus (stings)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "claw +8 (1d6 plus grab), 2 stings +7 (1d4 plus morgod jelly)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Amid this hissing cloud of glistening cockroaches is a disheveled vagrant with wasplike stingers extending from its palms.",
+  "meta": {
+    "cmb": "3 (+7 to grapple)",
+    "cmd": 18,
+    "racialModifiers": [
+      "Disguise 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any urban"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or infestation (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

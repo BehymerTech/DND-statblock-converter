@@ -1,0 +1,112 @@
+{
+  "name": "Reptial",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Small",
+  "type": "outsider",
+  "subtype": "agathion, extraplanar, good",
+  "alignment": "NG",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 19,
+    "notes": "dex +3, dodge +1, natural +4, size +1",
+    "touch": 15,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 37,
+    "formula": "5d10+10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 17,
+    "con": 14,
+    "int": 19,
+    "wis": 16,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +3, Ref +7, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Climb +9, Diplomacy +9, Intimidate +12, Knowledge (arcana) +9, Knowledge (geography) +6, Knowledge (history) +6, Knowledge (nature) +6, Knowledge (nobility) +6, Knowledge (religion) +6, Knowledge (planes) +12, Perception +11, Sense Motive +11, Spellcraft +12, Stealth +15",
+    "list": {
+      "Acrobatics": "+10",
+      "Climb": "+9",
+      "Diplomacy": "+9",
+      "Intimidate": "+12",
+      "Perception": "+11",
+      "Sense Motive": "+11",
+      "Spellcraft": "+12",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "speak with animals",
+    "truespeech"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 5,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Scribe Scroll",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +9 (1d4+1), 2 claws +9 (1d3+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This iguana-headed scholar wears a robe of frills and scales covered in baubles and trinkets.",
+  "meta": {
+    "cmb": "+5",
+    "cmd": 19,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land (Nirvana)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or mess (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

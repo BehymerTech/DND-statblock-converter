@@ -1,0 +1,123 @@
+{
+  "name": "Anemos",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "air, elemental, extraplanar",
+  "alignment": "N",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 34,
+    "notes": "deflection +10, dex +10, natural +4",
+    "touch": 30,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 341,
+    "formula": "22d10+220"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 480 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 31,
+    "con": 30,
+    "int": 23,
+    "wis": 26,
+    "cha": 31
+  },
+  "saves": {
+    "text": "Fort +23, Ref +23, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +35, Fly +43, Knowledge (geography) +31, Knowledge (nature) +31, Knowledge (planes) +31, Perception +33, Perform (wind instruments) +37, Sense Motive +33, Spellcraft +28, Stealth +35, Survival +30, Use Magic Device +35",
+    "list": {
+      "Acrobatics": "+35",
+      "Fly": "+43",
+      "Perception": "+33",
+      "Sense Motive": "+33",
+      "Spellcraft": "+28",
+      "Stealth": "+35",
+      "Survival": "+30",
+      "Use Magic Device": "+35"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision"
+  ],
+  "passivePerception": 43,
+  "languages": [
+    "Aquan",
+    "Auran",
+    "Common",
+    "Ignan",
+    "Sylvan",
+    "Terran"
+  ],
+  "initiative": "+14",
+  "babOrProficiency": 22,
+  "feats": [
+    "Combat Reflexes",
+    "Deadly Aim",
+    "Flyby Attack",
+    "Improved Critical (kinetic blast)",
+    "Improved Critical (spear)",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Improved Precise Shot",
+    "Iron Will",
+    "Point-Blank Shot",
+    "Precise Shot"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+5 shock thundering spear +31/+26/+21/+16 (1d8+11/19-20/×3 plus 1d6 electricity)"
+    },
+    {
+      "name": "Ranged",
+      "text": "thunderstorm blast +32 (20d6+30/19-20 bludgeoning)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Strong winds whip around this majestic being, and lightning crackles from her eyes and flickers along her skin.",
+  "meta": {
+    "cmb": "+26",
+    "cmd": 57,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any sky (Plane of Air or Material Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or council (4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Seaweed Leshy",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 161.",
+  "size": "Small",
+  "type": "Plant",
+  "subtype": "Amphibious, Leshy",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 45,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, swim 20 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 16,
+    "int": 10,
+    "wis": 16,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +8, Ref +11, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +9 (1d20+9); __Nature__: +10 (1d20+10); __Stealth__: +9 (1d20+9); __Survival__: +8 (1d20+8); __Ocean lore__: +9 (1d20+9); ",
+    "list": {
+      "Athletics": "+9",
+      "Nature": "+10",
+      "Stealth": "+9",
+      "Survival": "+8",
+      "Ocean lore": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Aquan",
+    "Common",
+    "Druidic",
+    "Sylvan; speak with plants (seaweed only)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Verdant Burst",
+      "text": "As vine leshy, except plants regain 3d8 (3d8) Hit Points and the area sprouts seaweed instead of vines."
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, polymorph, primal, transmutation); As vine leshy, except the seaweed leshy transforms into a patch of seaweed."
+    },
+    {
+      "name": "Sea Spray",
+      "text": "A seaweed leshy's water jet has enough salt in it to temporarily impair their target's vision. On a hit, the target must succeed at a DC 20 Fortitude save or be dazzled for 1 minute or until it spends 3 Interact actions wiping the salt out of its eyes. On a critical hit, a target that fails its Fortitude save is also blinded for 1 round."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ seaweed strand +11 (agile, finesse, reach 10 feet); Damage 1d8+4 (1d8+4) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ water jet +11 (range increment 30 feet); Damage 1d8+4 (1d8+4) bludgeoning plus sea spray"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      4,
+      3,
+      0,
+      3,
+      1
+    ]
+  }
+}

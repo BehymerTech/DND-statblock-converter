@@ -1,0 +1,101 @@
+{
+  "name": "Quetzalcoatlus",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Pathfinder No. 37: Souls for Smuggler's Shiv",
+  "size": "Huge",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 19,
+    "notes": "dex +3, dodge +1, natural +7, size -2",
+    "touch": 12,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 82,
+    "formula": "11d8+33"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 50 ft. (clumsy)"
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 17,
+    "con": 17,
+    "int": 2,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +10, Ref +12, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +0, Perception +13",
+    "list": {
+      "Fly": "+0",
+      "Perception": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 23,
+  "languages": [],
+  "initiative": "+7",
+  "babOrProficiency": 8,
+  "feats": [
+    "Dodge",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Lunge",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +13 (2d8+7/×3), 2 wings +8 (1d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This immense flying reptile has a staggering wingspan and a brightly colored head with a razor-sharp beak.",
+  "meta": {
+    "cmb": "+17",
+    "cmd": 31,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm coastlines, plains, or swamps"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or flock (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

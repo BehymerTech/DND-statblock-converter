@@ -1,0 +1,132 @@
+{
+  "name": "Werecrocodile",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 293.",
+  "size": "Large",
+  "type": "Werecreature",
+  "subtype": "Beast, Human, Humanoid",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 55,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, swim 25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 16,
+    "int": 10,
+    "wis": 16,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +9, Ref +5, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +8 (1d20+8); __Intimidation__: +7 (1d20+7); __Stealth__: +5 (1d20+5), (Stealth: +8 (1d20+8) in water); ",
+    "list": {
+      "Athletics": "+8",
+      "Intimidation": "+7",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common; crocodile empathy"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Crocodile Empathy",
+      "text": "(divination, primal); A werecrocodile can communicate with alligators, caimans, and crocodiles."
+    },
+    {
+      "name": "Deep Breath",
+      "text": "A werecrocodile can hold their breath for about 2 hours."
+    },
+    {
+      "name": "Items",
+      "text": "hatchet (3), leather armor;"
+    },
+    {
+      "name": "Aquatic Ambush",
+      "text": "⬻ 30 feet"
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, polymorph, primal, transmutation); Medium human with fist for 1d4+2 (1d4+2) bludgeoning, or crocodile with jaws for 2d6+4 (2d6+4) piercing."
+    },
+    {
+      "name": "Curse of the Werecrocodile",
+      "text": "(curse, necromancy, primal); Saving Throw DC 15 Fortitude."
+    },
+    {
+      "name": "Moon Frenzy",
+      "text": "(polymorph, primal, transmutation);"
+    },
+    {
+      "name": "Twisting Thrash",
+      "text": "⬻ Requirements The werecrocodile has a creature grabbed Effect The werecrocodile makes a jaws Strike with a +2 circumstance bonus to the attack roll against the grabbed creature. If this Strike hits, it also knocks the target prone. If it fails, the werecrocodile releases the target."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +10 Damage 1d10+4 (1d10+4) piercing plus curse of the werecrocodile and Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +10 (agile); Damage 1d6+4 (1d6+4) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ hatchet +10 (agile, sweep); Damage 1d6+4 (1d6+4) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ hatchet +7 (agile, sweep, thrown 10 feet); Damage 1d6+4 (1d6+4) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      1,
+      3,
+      0,
+      3,
+      1
+    ],
+    "items": "hatchet (3), leather armor;"
+  }
+}

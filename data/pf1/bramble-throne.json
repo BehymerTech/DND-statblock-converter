@@ -1,0 +1,108 @@
+{
+  "name": "Bramble Throne",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 132: The Six-Legend Soul",
+  "size": "Huge",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 30,
+    "notes": "dex +6, natural +16, size -2",
+    "touch": 14,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 230,
+    "formula": "20d8+140"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft."
+  },
+  "abilities": {
+    "str": 33,
+    "dex": 22,
+    "con": 25,
+    "int": 4,
+    "wis": 18,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +19, Ref +12, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +17, Stealth +11",
+    "list": {
+      "Perception": "+17",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "thoughtsense",
+    "tremorsense"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 15,
+  "feats": [
+    "Awesome Blow",
+    "Combat Reflexes",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Power Attack",
+    "Vital Strike",
+    "Weapon Focus (bite)",
+    "Weapon Focus (vines)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +25 (2d6+11 plus grab), 4 vines +25 (1d8+11 plus bleed and grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The low branches of this stout tree form the shape of a throne. Gold-trimmed leaves and thick vines grow on the branches.",
+  "meta": {
+    "cmb": "28 (+30 bull rush)",
+    "cmd": "44 (46 vs. bull rush, can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

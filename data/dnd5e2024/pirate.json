@@ -1,0 +1,79 @@
+{
+  "name": "Pirate",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "or Small Humanoid",
+  "subtype": "",
+  "alignment": "Neutral",
+  "cr": "1",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 14,
+    "notes": ""
+  },
+  "hp": {
+    "average": 33,
+    "formula": "6d8 + 6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 12,
+    "int": 8,
+    "wis": 12,
+    "cha": 14
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 11,
+  "languages": [
+    "Common plus one other language"
+  ],
+  "initiative": "+5 (15)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The pirate makes two Dagger attacks. It can replace one attack with a use of Enthralling Panache."
+    },
+    {
+      "name": "Dagger",
+      "text": "_Melee or Ranged Attack Roll:_ +5, reach 5 ft. or range 20/60 ft. _Hit:_ 5 (1d4 + 3) Piercing damage."
+    },
+    {
+      "name": "Enthralling Panache",
+      "text": "_Wisdom Saving Throw:_ DC 12, one creature the pirate can see within 30 feet. _Failure:_ The target has the Charmed condition until the start of the pirate's next turn."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

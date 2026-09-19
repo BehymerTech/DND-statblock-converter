@@ -1,0 +1,118 @@
+{
+  "name": "Mythic Nalfeshnee",
+  "sourceSystem": "pf1",
+  "source": "Mythic Adventures",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar, mythic",
+  "alignment": "CE",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 36,
+    "notes": "deflection +4, dex +1, natural +23, size -2",
+    "touch": 13,
+    "flatFooted": 35
+  },
+  "hp": {
+    "average": 287,
+    "formula": "15d10+205"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 40 ft. (poor)"
+  },
+  "abilities": {
+    "str": 40,
+    "dex": 13,
+    "con": 29,
+    "int": 23,
+    "wis": 22,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +22, Ref +10, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +25, Diplomacy +25, Fly +11, Intimidate +22, Knowledge (arcana) +24, Knowledge (planes) +24, Knowledge (any one other) +21, Perception +32, Sense Motive +24, Spellcraft +24, Stealth +11, Use Magic Device +25",
+    "list": {
+      "Bluff": "+25",
+      "Diplomacy": "+25",
+      "Fly": "+11",
+      "Intimidate": "+22",
+      "Perception": "+32",
+      "Sense Motive": "+24",
+      "Spellcraft": "+24",
+      "Stealth": "+11",
+      "Use Magic Device": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 42,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Draconic",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 15,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Critical (claws)",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +28 (3d8+15/18-20), 2 claws +28 (2d6+15/19-20 plus steal)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This porcine demon has huge tusks and tiny wings, and its furred flesh oozes with greasy black-and-purple energy.",
+  "meta": {
+    "cmb": "32 (+34 bull rush)",
+    "cmd": "47 (49 vs. bull rush)",
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or warband (1 nalfeshnee, 1 hezrou, and 2-5 vrocks)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "name": "Leaf Leshy",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 218.",
+  "size": "Small",
+  "type": "Plant",
+  "subtype": "Leshy",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 0",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 15,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet; glide;"
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 14,
+    "con": 14,
+    "int": 6,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +6, Ref +6, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +4 (1d20+4); __Nature__: +4 (1d20+4); __Stealth__: +4 (1d20+4); ",
+    "list": {
+      "Acrobatics": "+4",
+      "Nature": "+4",
+      "Stealth": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Common",
+    "Druidic",
+    "Sylvan; speak with plants (trees only)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Verdant Burst",
+      "text": "(healing); When a leaf leshy dies, a burst of primal energy explodes from its body, restoring 1d4 (1d4) Hit Points to each plant creature in a 30-foot emanation. This area is filled with tree saplings, becoming difficult terrain. If the terrain is not a viable environment for these trees, they wither after 24 hours."
+    },
+    {
+      "name": "Items",
+      "text": "longspear;"
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, polymorph, primal, transmutation); The leaf leshy transforms into a Small tree. This ability otherwise uses the effects of tree shape."
+    },
+    {
+      "name": "Deafening Blow",
+      "text": "When a leaf leshy hits with its seedpod Strike, the target must attempt a DC 16 Fortitude save. Critical Success The target is unaffected and temporarily immune for 24 hours. Success The target is unaffected. Failure The target is deafened for 1 round. Critical Failure The target is deafened for 1 minute."
+    },
+    {
+      "name": "Glide",
+      "text": "⬻ (move); The leshy glides gently through the air, moving 5 feet toward the ground and up to 25 feet forward. As long as the leshy spends at least 1 action gliding each round, it remains in the air at the end of each turn. For the purpose of determining damage from falls, a leaf leshy always treats falls as if they were 20 feet shorter."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ longspear +3 (reach 10 feet); Damage 1d8-1 (1d8-1) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ seedpod +6 (range increment 30 feet); Damage 1d6 (1d6) bludgeoning plus deafening blow"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -1,
+      2,
+      2,
+      -2,
+      2,
+      1
+    ],
+    "items": "longspear;"
+  }
+}

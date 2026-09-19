@@ -1,0 +1,116 @@
+{
+  "name": "Qolok",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "evil, extraplanar, sahkil",
+  "alignment": "NE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 31,
+    "notes": "dex +4, natural +18, size -1",
+    "touch": 13,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 243,
+    "formula": "18d10+144"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 19,
+    "con": 27,
+    "int": 16,
+    "wis": 22,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +16, Ref +17, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +26, Diplomacy +26, Intimidate +35, Knowledge (arcana) +12, Knowledge (planes) +24, Knowledge (religion) +15, Perception +27, Sense Motive +27, Spellcraft +15, Stealth +21, Use Magic Device +17",
+    "list": {
+      "Bluff": "+26",
+      "Diplomacy": "+26",
+      "Intimidate": "+35",
+      "Perception": "+27",
+      "Sense Motive": "+27",
+      "Spellcraft": "+15",
+      "Stealth": "+21",
+      "Use Magic Device": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "true seeing"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 18,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Great Fortitude",
+    "Greater Trip",
+    "Improved Initiative",
+    "Improved Trip",
+    "Intimidating Prowess",
+    "Lightning Reflexes",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +26 (1d8+9), tongue +26 (2d6+9 plus grab), bite +26 (1d8+9), 2 claws +26 (1d6+9)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Terrible jaws ringed with clawed arms open atop this towering mass of f lesh. A probing tongue f lops from another orifice.",
+  "meta": {
+    "cmb": "28 (+32 trip)",
+    "cmd": "42 (44 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Ethereal Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or terror (2-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

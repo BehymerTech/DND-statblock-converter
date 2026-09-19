@@ -1,0 +1,108 @@
+{
+  "name": "Ostiarius",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 64: Beyond the Doomsday Door",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "evil, extraplanar, kyton, lawful",
+  "alignment": "LE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +2, natural +2, shield +4",
+    "touch": 12,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 52,
+    "formula": "7d10+14"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 15,
+    "con": 14,
+    "int": 19,
+    "wis": 18,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +7, Ref +4, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +14, Diplomacy +14, Escape Artist +9, Heal +14, Intimidate +14, Knowledge (planes) +14, Perception +16, Perform (oratory) +14, Sense Motive +16, Stealth +12",
+    "list": {
+      "Bluff": "+14",
+      "Diplomacy": "+14",
+      "Escape Artist": "+9",
+      "Heal": "+14",
+      "Intimidate": "+14",
+      "Perception": "+16",
+      "Sense Motive": "+16",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Common",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 7,
+  "feats": [
+    "Alertness",
+    "Blind- Fight",
+    "Improved Initiative",
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 touches +2 (1 plus bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Cloaked in shadows, every curve and sculpted muscle of this creature suggests some new gasping pleasure or titillating torture.",
+  "meta": {
+    "cmb": "+7",
+    "cmd": 19,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Shadow)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or synod (5-9)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

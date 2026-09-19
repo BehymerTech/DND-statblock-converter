@@ -1,0 +1,103 @@
+{
+  "name": "Dunagh",
+  "sourceSystem": "pf1",
+  "source": "Daughters of Fury",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "incorporeal, kami, native",
+  "alignment": "LN",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 16,
+    "notes": "deflection +3, dex +3",
+    "touch": 16,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 37,
+    "formula": "5d10+10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 30 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 17,
+    "con": 14,
+    "int": 11,
+    "wis": 17,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +3, Ref +7, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +19, Intimidate +11, Knowledge (local) +8, Perception +13, Sense Motive +13, Stealth +11",
+    "list": {
+      "Fly": "+19",
+      "Intimidate": "+11",
+      "Perception": "+13",
+      "Sense Motive": "+13",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Common",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 5,
+  "feats": [
+    "Alertness",
+    "Flyby Attack",
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "incorporeal touch +8 (2d6 cold plus dunagh’s curse)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This spectral woman holds a silver urn and floats in midair with an unearthly grace and demanding presence.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": 21,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any urban"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

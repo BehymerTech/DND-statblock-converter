@@ -1,0 +1,107 @@
+{
+  "name": "Monster Hunter",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 227.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 23,
+    "notes": ""
+  },
+  "hp": {
+    "average": 108,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 16,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +15, Ref +11, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +15 (1d20+15); __Stealth__: +13 (1d20+13); __Survival__: +11 (1d20+11); __Monster lore__: +13 (1d20+13); ",
+    "list": {
+      "Athletics": "+15",
+      "Stealth": "+13",
+      "Survival": "+11",
+      "Monster lore": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 23,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "composite longbow (20 arrows), +1 greataxe, hide armor;"
+    },
+    {
+      "name": "Rage",
+      "text": "⬻ (concentrate, emotion, mental); Requirements The monster hunter isn't fatigued or raging Effect The monster hunter gains 9 temporary Hit Points that last until the rage ends. While raging, they deal 8 additional damage with melee attacks, gain a +10-foot status bonus to their Speed, and take a –1 penalty to AC. The monster hunter can't use concentrate actions except Seek and rage actions. The rage lasts for 1 minute, until there are no enemies the monster hunter can perceive, or until the monster hunter falls unconscious. Once the rage ends, the monster hunter can't Rage again for 1 minute."
+    },
+    {
+      "name": "Sudden Charge",
+      "text": "⬺ The monster hunter Strides twice and makes a melee Strike."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ greataxe +15 (magical, sweep); Damage 1d12+8 (1d12+8) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ composite longbow +14 (deadly d10, propulsive, range increment 100 feet, reload 0, volley 30 feet); Damage 1d8+6 (1d8+6) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      3,
+      3,
+      1,
+      1,
+      1
+    ],
+    "items": "composite longbow (20 arrows), +1 greataxe, hide armor;"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "name": "Shemhazian",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 80.",
+  "size": "Gargantuan",
+  "type": "Fiend",
+  "subtype": "Demon",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 16",
+  "xp": null,
+  "ac": {
+    "value": 39,
+    "notes": ""
+  },
+  "hp": {
+    "average": 350,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet, climb 20 feet, fly 35 feet"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 20,
+    "con": 24,
+    "int": 10,
+    "wis": 22,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +32, Ref +26, Will +27",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +31 (1d20+31); __Deception__: +25 (1d20+25); __Intimidation__: +27 (1d20+27); __Medicine__: +28 (1d20+28); __Religion__: +30 (1d20+30); ",
+    "list": {
+      "Athletics": "+31",
+      "Deception": "+25",
+      "Intimidation": "+27",
+      "Medicine": "+28",
+      "Religion": "+30"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60, true seeing"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Draconic; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Paralyzing Gaze",
+      "text": "(aura, divine, enchantment, visual); 30 feet. A non-evil creature that ends its turn in the aura must attempt a DC 35 Fortitude save. If it fails, it's slowed 1 for 1 round, and if it critically fails, it is instead paralyzed for 1 round."
+    },
+    {
+      "name": "Succor Vulnerability",
+      "text": "A shemhazian's mutilation is a part of them, and they can't bear to see it reversed. The first time each round that a creature heals from damage the shemhazian dealt on their last turn, the demon takes 3d6 (3d6) mental damage."
+    },
+    {
+      "name": "Tail Whip",
+      "text": "⬲ Trigger A creature within reach of the shemhazian's tail leaves a square during a move action it's using. Effect The shemhazian attempts to Trip the triggering creature. On a success, the creature also takes damage as if the shemhazian had hit with a tail Strike, and if the creature was flying, it falls 30 feet."
+    },
+    {
+      "name": "Enfeebling Bite",
+      "text": "(divine, necromancy); If the shemhazian's jaws Strike damages a creature, the target is enfeebled 3. The target can attempt a DC 37 Fortitude save to reduce this to enfeebled 1 (or be unaffected on a critical success)."
+    },
+    {
+      "name": "Focused Gaze",
+      "text": "⬻ (concentrate, divine, enchantment, incapacitation, visual); The shemhazian focuses their gaze on a non-evil creature they can see within 30 feet. If that creature isn't already slowed by the shemhazian's paralyzing gaze, it must attempt a save against the shemhazian's paralyzing gaze. If that creature is slowed, it must succeed at a DC 35 Fortitude save or be paralyzed for 1 round. A shemhazian can't use this ability against the same creature more than once per round."
+    },
+    {
+      "name": "Rend",
+      "text": "⬻ (claw);"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws (evil, magical, reach <20 feet>) +33 Damage 3d12+17 (3d12+17) piercing plus 1d6 (1d6) evil and enfeebling bite"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw (agile, evil, magical, reach <20 feet>) +33 Damage 3d8+17 (3d8+17) slashing plus 1d6 (1d6) evil"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ pincer (evil, magical, reach <20 feet>) +33 Damage 3d8+17 (3d8+17) bludgeoning plus 1d6 (1d6) evil and Improved Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail (evil, magical, reach <30 feet>) +33 Damage 3d6+17 (3d6+17) slashing plus 1d6 (1d6) evil"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      9,
+      5,
+      7,
+      0,
+      6,
+      3
+    ]
+  }
+}

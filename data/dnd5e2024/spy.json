@@ -1,0 +1,87 @@
+{
+  "name": "Spy",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "or Small Humanoid",
+  "subtype": "",
+  "alignment": "Neutral",
+  "cr": "1",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 12,
+    "notes": ""
+  },
+  "hp": {
+    "average": 27,
+    "formula": "6d8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": 30,
+    "burrow": null,
+    "notes": "30 ft., Climb 30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 15,
+    "con": 10,
+    "int": 12,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Deception +5, Insight +4, Investigation +5, Perception +6, Sleight of Hand +4, Stealth +6",
+    "list": {
+      "Deception": "+5",
+      "Insight": "+4",
+      "Investigation": "+5",
+      "Perception": "+6",
+      "Sleight of Hand": "+4",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 16,
+  "languages": [
+    "Common plus one other language"
+  ],
+  "initiative": "+4 (14)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Shortsword",
+      "text": "_Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage."
+    },
+    {
+      "name": "Hand Crossbow",
+      "text": "_Ranged Attack Roll:_ +4, range 30/120 ft. _Hit:_ 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage."
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Cunning Action",
+      "text": "The spy takes the Dash, Disengage, or Hide action. ## Stirge"
+    }
+  ],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

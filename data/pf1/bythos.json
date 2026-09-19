@@ -1,0 +1,114 @@
+{
+  "name": "Bythos",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "aeon, extraplanar",
+  "alignment": "N",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 31,
+    "notes": "deflection +4, dex +4, dodge +1, natural +13, size -1",
+    "touch": 18,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 207,
+    "formula": "18d10+108"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 40 ft. (good)"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 19,
+    "con": 21,
+    "int": 24,
+    "wis": 28,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +18, Ref +12, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +26, Fly +6, Heal +30, Intimidate +26, Knowledge (arcana) +33, Knowledge (nature) +33, Knowledge (religion) +33, Knowledge (history) +36, Knowledge (planes) +36, Perception +30, Sense Motive +30, Spellcraft +28, Stealth +21, Use Magic Device +23",
+    "list": {
+      "Bluff": "+26",
+      "Fly": "+6",
+      "Heal": "+30",
+      "Intimidate": "+26",
+      "Perception": "+30",
+      "Sense Motive": "+30",
+      "Spellcraft": "+28",
+      "Stealth": "+21",
+      "Use Magic Device": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "envisaging"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 18,
+  "feats": [
+    "Combat Casting",
+    "Combat Reflexes",
+    "Dodge",
+    "Great Fortitude",
+    "Hover",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Mobility",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 slams +23 (1d6+6 plus 1d6 cold and aging strike)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A shimmering, colorless mass congeals to form a four-armed humanoid shape with an eye-like pattern in its torso.",
+  "meta": {
+    "cmb": "+25",
+    "cmd": "44 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Outer Planes)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or tribunal (3 bythos)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

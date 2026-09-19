@@ -1,0 +1,105 @@
+{
+  "name": "Reptoid",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "reptilian, shapechanger",
+  "alignment": "LE",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 11,
+    "notes": "natural +1",
+    "touch": 10,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 7,
+    "formula": "1d8-1"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 10,
+    "con": 8,
+    "int": 14,
+    "wis": 13,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +1, Ref +2, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +8, Diplomacy +7, Knowledge (local) +6, Knowledge (nobility) +6, Linguistics +6, Perception +5, Sense Motive +5, Use Magic Device +7",
+    "list": {
+      "Bluff": "+8",
+      "Diplomacy": "+7",
+      "Linguistics": "+6",
+      "Perception": "+5",
+      "Sense Motive": "+5",
+      "Use Magic Device": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Common",
+    "Elven",
+    "Reptoid"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 0,
+  "feats": [
+    "Great Fortitude"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +1 (1d3+1), 2 claws +1 (1d3+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This gaunt, scaled humanoid has reptilian eyes, a barely perceptible nose, and a wide, lipless mouth filled with sharp teeth.",
+  "meta": {
+    "race": "Reptoid",
+    "class": "mesmerist 1",
+    "cmb": "+1",
+    "cmd": 11,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cabal (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear"
+      }
+    ]
+  }
+}

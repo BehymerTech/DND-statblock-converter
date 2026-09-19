@@ -1,0 +1,110 @@
+{
+  "name": "Alp",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 24,
+    "notes": "dex +8, dodge +1, natural +5",
+    "touch": 19,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 123,
+    "formula": "13d6+78"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 27,
+    "con": 23,
+    "int": 10,
+    "wis": 8,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +10, Ref +16, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +24, Climb +18, Escape Artist +24, Intimidate +16, Perception +15, Stealth +24",
+    "list": {
+      "Acrobatics": "+24",
+      "Climb": "+18",
+      "Escape Artist": "+24",
+      "Intimidate": "+16",
+      "Perception": "+15",
+      "Stealth": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Aklo",
+    "Common",
+    "telepathy 30 ft."
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 6,
+  "feats": [
+    "Agile Maneuvers",
+    "Dodge",
+    "Improved Initiative",
+    "Iron Will",
+    "Mobility",
+    "Spring Attack",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +17 (1d6+5), 2 claws +17 (1d4+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hoofed creature’s large yellow eyes are set in a noseless face above a grinning, fang-filled mouth.",
+  "meta": {
+    "cmb": "+12",
+    "cmd": 27,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or visitation (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "name": "Ironfang Magehunter Troop",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 120: Vault of the Onyx Citadel",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "goblinoid, troop",
+  "alignment": "LE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 28,
+    "notes": "armor +5, dex +5, natural +8",
+    "touch": 15,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 199,
+    "formula": "19d8+114"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 20,
+    "con": 20,
+    "int": 11,
+    "wis": 16,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +16, Ref +13, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (arcana) +10, Perception +12, Spellcraft +19, Stealth +9",
+    "list": {
+      "Perception": "+12",
+      "Spellcraft": "+19",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Common",
+    "Goblin"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 14,
+  "feats": [
+    "Combat Reflexes",
+    "Diehard",
+    "Disruptive",
+    "Endurance",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Spellbreaker",
+    "Step Up",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "troop (4d6+3 plus distraction)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This grim band of hobgoblin hunters is equipped with sturdy armor and well-used weapons.",
+  "meta": {
+    "cmb": "+17",
+    "cmd": 32,
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or division (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Titanic Whip Spider",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Colossal",
+  "type": "vermin",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 31,
+    "notes": "dex +7, natural +22, size -8",
+    "touch": 9,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 250,
+    "formula": "20d8+160"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 44,
+    "dex": 24,
+    "con": 27,
+    "int": "None",
+    "wis": 11,
+    "cha": 3
+  },
+  "saves": {
+    "text": "Fort +20, Ref +13, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +25, Perception +16",
+    "list": {
+      "Climb": "+25",
+      "Perception": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [],
+  "initiative": "+7",
+  "babOrProficiency": 15,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +24 (4d6+17 plus poison), 2 claws +24 (2d8+17 plus grab), 2 whip legs +19 touch (1d4, see below)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Two of this spiderlike creature’s spindly legs are whiplike feelers, and it has two hooked appendages lined with spines.",
+  "meta": {
+    "cmb": "+40",
+    "cmd": "57 (65 vs. trip)",
+    "racialModifiers": [
+      "Perception 16"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm hills"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

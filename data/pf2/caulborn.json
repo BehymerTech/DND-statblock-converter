@@ -1,0 +1,120 @@
+{
+  "name": "Caulborn",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 94.",
+  "size": "Medium",
+  "type": "Astral",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 7",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 105,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 16,
+    "int": 22,
+    "wis": 20,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +12, Ref +15, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +17 (1d20+17); __Deception__: +15 (1d20+15); __Intimidation__: +15 (1d20+15); __Nature__: +16 (1d20+16); __Occultism__: +19 (1d20+19); __Religion__: +14 (1d20+14); __Society__: +17 (1d20+17); ",
+    "list": {
+      "Arcana": "+17",
+      "Deception": "+15",
+      "Intimidation": "+15",
+      "Nature": "+16",
+      "Occultism": "+19",
+      "Religion": "+14",
+      "Society": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "no vision, precise thoughtsense 120"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Celestial",
+    "Common",
+    "Daemonic",
+    "Draconic",
+    "Infernal",
+    "Protean",
+    "Requian",
+    "Utopian; telepathy"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Collective Sense",
+      "text": "(divination, mental, occult); Caulborn are aware of all other caulborn within 300 feet, with the effects of a status spell, and they can perceive anything within the other caulborns' thoughtsense. If two or more caulborn are within range of each others' thoughtsense, they can't be flanked."
+    },
+    {
+      "name": "Thoughtsense",
+      "text": "(divination, mental, occult); The caulborn senses all non-mindless creatures at the listed range."
+    },
+    {
+      "name": "Consume Thoughts",
+      "text": "⬻ (mental); Requirements The caulborn's last action was a successful hand Strike Effect The caulborn steals some of the psychic energy from the creature it hit. The target must attempt a DC 25 Will save; regardless of the outcome, the creature is temporarily immune to Consume Thoughts for 1 minute. Success The target is unaffected. Failure The target becomes stupefied 2 for 1 minute, and the caulborn regains 1d12 (1d12) Hit Points. Critical Failure As failure, but the target is stupefied 3 for 1 minute and the caulborn regains 2d12 (2d12) Hit Points. If the target was already stupefied when the caulborn used this ability, the target is also confused for 1 round."
+    },
+    {
+      "name": "Cooperative Scrying",
+      "text": "(divination, occult, scrying); Three or more caulborn adjacent to each other can collectively cast scrying once per day (DC 25), with no limit to the duration so long as at least three caulborn remain adjacent and use no actions other than to Sustain the Spell. The daily limit applies to all caulborn who participated, meaning none of them can participate in another scrying that day."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +17 (agile, finesse); Damage 2d10+5 (2d10+5) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ hand +17 (finesse, mental); Damage 2d12 (2d12) mental"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      4,
+      3,
+      6,
+      5,
+      4
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Moonflower",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Pathfinder No. 14: Children of the Void",
+  "size": "Huge",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "natural +13, size -2",
+    "touch": 8,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 104,
+    "formula": "11d8+55"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 10,
+    "con": 21,
+    "int": 5,
+    "wis": 12,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +12, Ref +3, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +9, Stealth +4",
+    "list": {
+      "Perception": "+9",
+      "Stealth": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "telepathy (1 mile",
+    "other moonflowers only)"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 8,
+  "feats": [
+    "Blind-Fight",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Multiattack",
+    "Power Attack",
+    "Skill Focus (Stealth)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15 (2d6+9 plus grab), 2 tentacles +13 (1d8+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A twisted trunk clustered with bulbous blossoms holds up a gaping mouth ready to swallow a victim whole.",
+  "meta": {
+    "cmb": "19 (+23 grapple)",
+    "cmd": "29 (can’t be tripped)",
+    "racialModifiers": [
+      "Stealth 16"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or cluster (2-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Galvo",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 103.",
+  "size": "Medium",
+  "type": "Amphibious",
+  "subtype": "Aberration",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 9",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 158,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, swim 30 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 22,
+    "con": 16,
+    "int": 6,
+    "wis": 18,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +18, Ref +21, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +19 (1d20+19); __Athletics__: +19 (1d20+19); __Stealth__: +19 (1d20+19); ",
+    "list": {
+      "Acrobatics": "+19",
+      "Athletics": "+19",
+      "Stealth": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Aquan (can't speak any language)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Electrical Field",
+      "text": "(electricity, aura); 5 feet, 1d12 (1d12) electricity damage (DC 26 basic Reflex)"
+    },
+    {
+      "name": "Squirming Embrace",
+      "text": "⬺ The galvo Strides, ending its movement sharing a space with another creature, and deals 3d6 (3d6) piercing plus 2d12 (2d12) electricity damage to the creature. The creature must attempt a DC 28 basic Reflex save."
+    },
+    {
+      "name": "Swarm Shape",
+      "text": "⬻ (concentrate); The galvo collapses into a shapeless swarm of eels. It drops all held, worn, and carried items. While discorporated, the galvo can't use attack actions, but it can move through areas small enough for its individual eels to fit without having to Squeeze. It can use Swarm Shape again to coalesce back into its normal form."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ eel jaws +21 (agile, finesse); Damage 2d6+7 (2d6+7) piercing plus 1d12 (1d12) electricity"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ eel dart +21 (agile, thrown 20 feet); Damage 1d6+7 (1d6+7) piercing plus 1d12 (1d12) electricity"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      6,
+      3,
+      -2,
+      4,
+      -1
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Megaloceros",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Pathfinder No. 31: Stolen Land",
+  "size": "Large",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 16,
+    "notes": "dex +2, natural +5, size -1",
+    "touch": 11,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 34,
+    "formula": "4d8+16"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 15,
+    "con": 18,
+    "int": 2,
+    "wis": 15,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +8, Ref +8, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +9",
+    "list": {
+      "Perception": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 3,
+  "feats": [
+    "Endurance",
+    "Lightning Reflexes",
+    "Run"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +7 (2d6+5), 2 hooves +2 (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The massive and majestic elk stands fully the height of a human at its shoulder, and its antlers stretch over ten feet across.",
+  "meta": {
+    "cmb": "+9",
+    "cmd": "21 (25 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold or temperate forest and plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or herd (3-50)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "name": "Boggle",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Small",
+  "type": "fey",
+  "subtype": "shapechanger",
+  "alignment": "CN",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "dex +6, dodge +1, natural +3, size +1",
+    "touch": 18,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 102,
+    "formula": "12d6+60"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 23,
+    "con": 21,
+    "int": 12,
+    "wis": 8,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +9, Ref +14, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +21, Bluff +18, Climb +20, Escape Artist +15, Perception +14, Perform (comedy) +18, Sense Motive +14, Sleight of Hand +21",
+    "list": {
+      "Acrobatics": "+21",
+      "Bluff": "+18",
+      "Climb": "+20",
+      "Escape Artist": "+15",
+      "Perception": "+14",
+      "Sense Motive": "+14",
+      "Sleight of Hand": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Gnome",
+    "Sylvan"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 6,
+  "feats": [
+    "Combat Casting",
+    "Dodge",
+    "Iron Will",
+    "Mobility",
+    "Throw Anything",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15 (1d4+5), gore +15 (1d6+5), 2 claws +15 (1d4+5)"
+    },
+    {
+      "name": "Ranged",
+      "text": "thrown object +13 (1d3+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This small, goatlike man has curved horns, hoofed feet, and a ratlike tail.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": 25,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

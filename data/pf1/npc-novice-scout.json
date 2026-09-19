@@ -1,0 +1,93 @@
+{
+  "name": "NPC Novice Scout",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf, human",
+  "alignment": "LN",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 16,
+    "notes": "armor +3, dex +3",
+    "touch": 13,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 12,
+    "formula": "1d10+2"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 17,
+    "con": 12,
+    "int": 10,
+    "wis": 13,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +3, Ref +5, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +6, Knowledge (local) +1, Knowledge (nature) +4, Perception +10, Stealth +7, Survival +5",
+    "list": {
+      "Climb": "+6",
+      "Perception": "+10",
+      "Stealth": "+7",
+      "Survival": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Elven"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 1,
+  "feats": [
+    "Point-Blank Shot",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "longsword +3 (1d8+3/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "longbow +4 (1d8/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-elf",
+    "class": "ranger 1",
+    "cmb": "+3",
+    "cmd": 16
+  }
+}

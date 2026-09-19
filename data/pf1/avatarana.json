@@ -1,0 +1,115 @@
+{
+  "name": "Avatarana",
+  "sourceSystem": "pf1",
+  "source": "Occult Bestiary",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "native, rakshasa, shapechanger",
+  "alignment": "LE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 26,
+    "notes": "dex +4, dodge +1, natural +11",
+    "touch": 15,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 157,
+    "formula": "15d10+75"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 19,
+    "con": 20,
+    "int": 13,
+    "wis": 14,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +14, Ref +11, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +26, Diplomacy +22, Disguise +30, Knowledge (religion) +19, Perception +20, Sense Motive +20, Stealth +22",
+    "list": {
+      "Bluff": "+26",
+      "Diplomacy": "+22",
+      "Disguise": "+30",
+      "Perception": "+20",
+      "Sense Motive": "+20",
+      "Stealth": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Common",
+    "Infernal",
+    "Undercommon",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 15,
+  "feats": [
+    "Dodge",
+    "Greater Grapple",
+    "Heighten Spell",
+    "Improved Grapple",
+    "Improved Initiative",
+    "Improved Unarmed Strike",
+    "Lightning Reflexes",
+    "Step Up"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 claws +21 (1d6+6 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Instead of legs, this bald, emaciated humanoid has a second set of long, muscular arms and a leathery flap covering its face.",
+  "meta": {
+    "cmb": "21 (+29 grapple)",
+    "cmd": "36 (38 vs. grapple)",
+    "racialModifiers": [
+      "Bluff 4",
+      "Disguise 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, cult (1 plus 6-36 humanoid followers)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

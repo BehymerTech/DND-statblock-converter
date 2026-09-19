@@ -1,0 +1,104 @@
+{
+  "name": "Judge",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 224.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "LN",
+  "cr": null,
+  "level": "Creature -1",
+  "xp": null,
+  "ac": {
+    "value": 13,
+    "notes": ""
+  },
+  "hp": {
+    "average": 9,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 8,
+    "con": 12,
+    "int": 18,
+    "wis": 18,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +5, Ref +1, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Deception__: +8 (1d20+8); __Diplomacy__: +12 (1d20+12); __Intimidation__: +12 (1d20+12); __Society__: +14 (1d20+14); __Legal lore__: +16 (1d20+16); ",
+    "list": {
+      "Deception": "+8",
+      "Diplomacy": "+12",
+      "Intimidation": "+12",
+      "Society": "+14",
+      "Legal lore": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 18,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Group Impression",
+      "text": "When the judge Makes an Impression, they can compare their Diplomacy check result to the Will DCs of up to four targets instead of one."
+    },
+    {
+      "name": "Items",
+      "text": "books (law and rhetoric; worth 3 gp), gavel, judge's robes;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ gavel +4 Damage 1d4 (1d4) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +4 (agile, nonlethal); Damage 1d4 (1d4) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ gavel +3 (thrown 10 feet); Damage 1d4 (1d4) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      -1,
+      1,
+      4,
+      4,
+      2
+    ],
+    "items": "books (law and rhetoric; worth 3 gp), gavel, judge's robes;"
+  }
+}

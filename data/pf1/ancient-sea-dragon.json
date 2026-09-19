@@ -1,0 +1,122 @@
+{
+  "name": "Ancient Sea Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Gargantuan",
+  "type": "dragon",
+  "subtype": "water",
+  "alignment": "CG",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 37,
+    "notes": "dex -1, natural +32, size -4",
+    "touch": 5,
+    "flatFooted": 37
+  },
+  "hp": {
+    "average": 310,
+    "formula": "23d12+161"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 250 ft. (clumsy), swim 100 ft."
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 8,
+    "con": 25,
+    "int": 24,
+    "wis": 25,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +22, Ref +14, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +33, Diplomacy +33, Fly +11, Intimidate +33, Knowledge (arcana) +33, Knowledge (geography) +33, Knowledge (history) +33, Knowledge (nature) +33, Perception +37, Sense Motive +37, Stealth +13, Survival +33, Swim +46",
+    "list": {
+      "Bluff": "+33",
+      "Diplomacy": "+33",
+      "Fly": "+11",
+      "Intimidate": "+33",
+      "Perception": "+37",
+      "Sense Motive": "+37",
+      "Stealth": "+13",
+      "Survival": "+33",
+      "Swim": "+46"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 47,
+  "languages": [
+    "Aquan",
+    "Auran",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Elven",
+    "Gnome",
+    "Sylvan"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 23,
+  "feats": [
+    "Alertness",
+    "Flyby Attack",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Lunge",
+    "Multiattack",
+    "Power Attack",
+    "Snatch",
+    "Weapon Focus (bite)",
+    "Weapon Focus (claws)",
+    "Weapon Focus (gore)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +32 (4d6+18), 2 claws +32 (2d8+12), gore +32 (2d8+18), tail slap +29 (2d8+18)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+39",
+    "cmd": "48 (52 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

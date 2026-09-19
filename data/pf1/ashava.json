@@ -1,0 +1,136 @@
+{
+  "name": "Ashava",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 134: It Came from Hollow Mountain",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "azata, chaotic, extraplanar, good",
+  "alignment": "CG",
+  "cr": "28",
+  "level": null,
+  "xp": 4915200,
+  "ac": {
+    "value": 49,
+    "notes": "dex +15, dodge +1, natural +8, sacred +15",
+    "touch": 41,
+    "flatFooted": 33
+  },
+  "hp": {
+    "average": 676,
+    "formula": "33d10+495"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 150 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 41,
+    "con": 40,
+    "int": 28,
+    "wis": 31,
+    "cha": 40
+  },
+  "saves": {
+    "text": "Fort +26, Ref +33, Will +30",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +55, Bluff +51, Diplomacy +48, Escape Artist +48, Fly +63, Heal +43, Intimidate +48, Knowledge (arcana) +45, Knowledge (nature) +45, Knowledge (planes) +45, Knowledge (religion) +45, Perception +46, Perform (dance) +54, Sense Motive +46, Stealth +51",
+    "list": {
+      "Acrobatics": "+55",
+      "Bluff": "+51",
+      "Diplomacy": "+48",
+      "Escape Artist": "+48",
+      "Fly": "+63",
+      "Heal": "+43",
+      "Intimidate": "+48",
+      "Perception": "+46",
+      "Sense Motive": "+46",
+      "Stealth": "+51"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "detect evil",
+    "detect law",
+    "low-light vision",
+    "see in darkness",
+    "true seeing"
+  ],
+  "passivePerception": 56,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "telepathy 300 ft.",
+    "truespeech"
+  ],
+  "initiative": "+34",
+  "babOrProficiency": 33,
+  "feats": [
+    "Acrobatic",
+    "Agile Maneuvers",
+    "Combat Expertise",
+    "Dodge",
+    "Flyby Attack",
+    "Greater Feint",
+    "Improved Critical (javelin)",
+    "Improved Feint",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Stance",
+    "Mobility",
+    "Point-Blank Shot",
+    "Quicken Spell-Like Ability (moonstruck)",
+    "Sidestep",
+    "Skill Focus (Perform [dance])",
+    "Wind Stance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "moonlight javelin +46/+41/+36/+31 (4d6+28/19-20 plus dazzled)"
+    },
+    {
+      "name": "Ranged",
+      "text": "moonlight javelin +53/+48/+43/+38 (4d6+28/19-20 plus dazzled)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This graceful humanoid woman wears a flowing gown of sparkling starlight and a circlet of moss.",
+  "meta": {
+    "cmb": "+48",
+    "cmd": 82,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Elysium)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

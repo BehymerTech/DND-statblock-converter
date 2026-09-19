@@ -1,0 +1,103 @@
+{
+  "name": "Purple Worm",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Gargantuan",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 26,
+    "notes": "dex -2, natural +22, size -4",
+    "touch": 4,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 200,
+    "formula": "16d10+112"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., burrow 20 ft., swim 10 ft."
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 6,
+    "con": 25,
+    "int": 1,
+    "wis": 8,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +17, Ref +8, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +18, Swim +20",
+    "list": {
+      "Perception": "+18",
+      "Swim": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 28,
+  "languages": [],
+  "initiative": "-2",
+  "babOrProficiency": 16,
+  "feats": [
+    "Awesome Blow",
+    "Critical Focus",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Power Attack",
+    "Staggering Critical",
+    "Weapon Focus (bite)",
+    "Weapon Focus (sting)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +25 (4d8+12/19-20 plus grab), sting +25 (2d8+12 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous worm is covered with dark purple plates of chitinous armor. Its giant, tooth-filled mouth is the size of an ox.",
+  "meta": {
+    "cmb": "32 (+36 grapple)",
+    "cmd": "40 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

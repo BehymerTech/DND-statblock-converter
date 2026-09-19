@@ -1,0 +1,110 @@
+{
+  "name": "Fire Giant",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "fire, giant",
+  "alignment": "LE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 24,
+    "notes": "armor +8, dex -1, natural +8, size -1",
+    "touch": 8,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 142,
+    "formula": "15d8+75"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft.,  30 ft. in armor"
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 9,
+    "con": 21,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +14, Ref +4, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +14, Craft (any one) +8, Intimidate +11, Perception +14",
+    "list": {
+      "Climb": "+14",
+      "Intimidate": "+11",
+      "Perception": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Giant"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 11,
+  "feats": [
+    "Cleave",
+    "Great Cleave",
+    "Improved Overrun",
+    "Improved Sunder",
+    "Iron Will",
+    "Martial Weapon Proficiency (greatsword)",
+    "Power Attack",
+    "Weapon Focus (greatsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "greatsword +21/+16/+11 (3d6+15)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +10 (1d8+15 plus 1d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to be made of fire.",
+  "meta": {
+    "cmb": "+22",
+    "cmd": 31,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, gang (2-5), band (6-12 plus 35% noncombatants and 1 adept or cleric of 1st-2nd level), raiding party (6-12 plus 1 adept or sorcerer of 3rd-5th level, 2-5 hell hounds, and 2-3 trolls or ettins), or tribe (20-30 plus 1 adept, cleric, or sorcerer of 6th-7th level; 1 fighter or ranger of 8th-9th level as king; and 17-38 hell hounds, 12-22 trolls, 7-12 ettins, and 1-2 young red dragons)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (half-plate, greatsword, other treasure)"
+      }
+    ]
+  }
+}

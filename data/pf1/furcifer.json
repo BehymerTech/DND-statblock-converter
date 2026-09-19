@@ -1,0 +1,111 @@
+{
+  "name": "Furcifer",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 142: Gardens of Gallowspire",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 27,
+    "notes": "dex +5, natural +14, size -2",
+    "touch": 13,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 171,
+    "formula": "18d10+72"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 40 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 21,
+    "con": 18,
+    "int": 5,
+    "wis": 19,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +15, Ref +16, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +23, Perception +16, Stealth +21",
+    "list": {
+      "Climb": "+23",
+      "Perception": "+16",
+      "Stealth": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Sylvan (can’t speak)"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 18,
+  "feats": [
+    "Combat Reflexes",
+    "Critical Focus",
+    "Endurance",
+    "Improved Initiative",
+    "Iron Will",
+    "Run",
+    "Skill Focus (Perception)",
+    "Skill Focus (Stealth)",
+    "Staggering Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +22 (2d6+6), 2 claws +22 (1d8+6), tail slap +17 (2d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Twisting vines and vibrant flowers grow from the back of this titanic, multicolored reptile. A sickly-sweet scent fills the swirling air around it.",
+  "meta": {
+    "cmb": "+26",
+    "cmd": "41 (45 vs. trip)",
+    "racialModifiers": [
+      "Stealth 12"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forest"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

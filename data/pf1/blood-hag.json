@@ -1,0 +1,112 @@
+{
+  "name": "Blood Hag",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "shapechanger",
+  "alignment": "NE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 23,
+    "notes": "dex +6, dodge +1, natural +6",
+    "touch": 17,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 90,
+    "formula": "12d10+24"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (perfect; in fiery form only), fly_other perfect; in fiery form only ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 22,
+    "con": 15,
+    "int": 14,
+    "wis": 17,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +6, Ref +14, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +18, Bluff +16, Disguise +16, Fly +14, Intimidate +19, Perception +18, Stealth +21",
+    "list": {
+      "Acrobatics": "+18",
+      "Bluff": "+16",
+      "Disguise": "+16",
+      "Fly": "+14",
+      "Intimidate": "+19",
+      "Perception": "+18",
+      "Stealth": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "detect magic"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Giant",
+    "Infernal"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 12,
+  "feats": [
+    "Agile Maneuvers",
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Initiative",
+    "Mobility",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +18 (2d4+4), 2 claws +18 (1d6+4 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This woman would be pretty if it were not for her sharp teeth and nails, and her ghastly pale skin.",
+  "meta": {
+    "cmb": "18 (+22 grapple)",
+    "cmd": 33,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or coven (3 hags of any kind)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

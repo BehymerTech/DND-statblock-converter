@@ -1,0 +1,100 @@
+{
+  "name": "Ovinnik",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 137.",
+  "size": "Tiny",
+  "type": "Fey",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": ""
+  },
+  "hp": {
+    "average": 59,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, climb 20 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 20,
+    "con": 10,
+    "int": 14,
+    "wis": 20,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +8, Ref +13, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Intimidation__: +11 (1d20+11); __Stealth__: +13 (1d20+13); __Household lore__: +12 (1d20+12); ",
+    "list": {
+      "Intimidation": "+11",
+      "Stealth": "+13",
+      "Household lore": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "imprecise tremorsense within their entire bound granary or storeroom"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Master of the Granary",
+      "text": "As domovoi, except the ovinnik preserves food from vermin and mold or causes devastating fires and infestations."
+    },
+    {
+      "name": "Shy",
+      "text": "A domovoi is naturally invisible while within sight of their bound home. The domovoi can become visible, or even selectively visible—allowing some people to see them."
+    },
+    {
+      "name": "Raise Grain Cloud",
+      "text": "⬺ While in their bound storeroom or granary, the ovinnik slams a paw against the ground, stirring up a cloud of grain dust in an 20-foot emanation. Within this cloud, they gain a +4 status bonus to any fire damage they deal. The ovinnik doubles their fire resistance against this increased damage. The grain cloud dissipates after the first such effect or after 1 minute if no such effects occur."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +13 (agile, finesse, magical); Damage 2d6+2 (2d6+2) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      5,
+      0,
+      2,
+      5,
+      3
+    ]
+  }
+}

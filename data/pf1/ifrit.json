@@ -1,0 +1,103 @@
+{
+  "name": "Ifrit",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "native",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 13,
+    "notes": "dex +3",
+    "touch": 13,
+    "flatFooted": 10
+  },
+  "hp": {
+    "average": 8,
+    "formula": "1d6+2"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 12,
+    "int": 13,
+    "wis": 6,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +1, Ref +3, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +7, Knowledge (arcana) +5, Spellcraft +5, Perception -2",
+    "list": {
+      "Bluff": "+7",
+      "Spellcraft": "+5",
+      "Perception": "-2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 8,
+  "languages": [
+    "Common",
+    "Gnome",
+    "Ignan"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 0,
+  "feats": [
+    "Eschew Materials",
+    "Martial Weapon Proficiency (scimitar)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "scimitar +0 (1d6/18-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This muscular, fiery-skinned man has flaming hair and spotted horns upon his brow.",
+  "meta": {
+    "race": "Ifrit",
+    "class": "sorcerer 1",
+    "cmb": "+0",
+    "cmd": 13,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (scimitar, other treasure)"
+      }
+    ]
+  }
+}

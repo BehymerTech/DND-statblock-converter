@@ -1,0 +1,110 @@
+{
+  "name": "Harmona",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 132.",
+  "size": "Tiny",
+  "type": "Fey",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 11",
+  "xp": null,
+  "ac": {
+    "value": 30,
+    "notes": ""
+  },
+  "hp": {
+    "average": 190,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 feet, fly 60 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 22,
+    "con": 16,
+    "int": 20,
+    "wis": 24,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +18, Ref +21, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +23 (1d20+23); __Arcana__: +20 (1d20+20); __Diplomacy__: +22 (1d20+22); __Nature__: +24 (1d20+24); __Performance__: +22 (1d20+22); __Stealth__: +23 (1d20+23); ",
+    "list": {
+      "Acrobatics": "+23",
+      "Arcana": "+20",
+      "Diplomacy": "+22",
+      "Nature": "+24",
+      "Performance": "+22",
+      "Stealth": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Sylvan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Flit Back",
+      "text": "⬲ Trigger A creature enters the harmona's space or an adjacent square Effect The harmona Flies 10 feet away from the triggering creature."
+    },
+    {
+      "name": "Push",
+      "text": "⬻"
+    },
+    {
+      "name": "Concussive Blow",
+      "text": "⬺ (evocation, primal, sonic); The harmona makes a beak Strike, channeling disruptive sound waves into the blow. On a hit, the target must succeed at a DC 30 Fortitude save or become stunned 1 (stunned 2 on a critical failure). After this Strike, the harmona can Fly up to half their fly Speed."
+    },
+    {
+      "name": "Subsonic Pulse",
+      "text": "⬺ (evocation, primal); The harmona beats their wings rapidly towards the ground, creating a nearly inaudible rumble and sending a wave of shaking earth to overwhelm their enemies. Each creature in a 15-foot emanation must succeed at a DC 30 basic Fortitude save or take 6d6 (6d6) sonic damage. A creature that fails its save is knocked prone from the shaking ground."
+    },
+    {
+      "name": "Ultrasonic Thrust",
+      "text": "⬺ (evocation, primal, sonic); The harmona beats their wings skyward, creating a spiraling vibration. Each creature in a 30-foot cone must attempt a DC 30 Reflex save as the high-frequency blast flings them up and away. Critical Success The creature is unaffected. Success The creature is pushed 5 feet away and knocked off balance, becoming flat-footed until the start of their next turn. Failure Sonic waves fling the creature 15 feet back from the harmona. The creature takes 6d6 (6d6) bludgeoning damage from the fall and lands prone. Critical Failure As failure, but the creature is flung 30 feet and takes double damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ beak +23 (finesse, magical); Damage 2d6+6 (2d6+6) piercing plus 2d6 (2d6) sonic"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      6,
+      3,
+      5,
+      7,
+      5
+    ]
+  }
+}

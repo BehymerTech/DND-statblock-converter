@@ -1,0 +1,127 @@
+{
+  "name": "Night Hag",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 202.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Fiend, Hag",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 9",
+  "xp": null,
+  "ac": {
+    "value": 28,
+    "notes": ""
+  },
+  "hp": {
+    "average": 170,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 18,
+    "con": 22,
+    "int": 18,
+    "wis": 20,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +19, Ref +17, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +18 (1d20+18); __Deception__: +18 (1d20+18); __Diplomacy__: +18 (1d20+18); __Intimidation__: +14 (1d20+14); __Occultism__: +20 (1d20+20); __Religion__: +20 (1d20+20); ",
+    "list": {
+      "Arcana": "+18",
+      "Deception": "+18",
+      "Diplomacy": "+18",
+      "Intimidation": "+14",
+      "Occultism": "+20",
+      "Religion": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Abyssal",
+    "Aklo",
+    "Celestial",
+    "Common",
+    "Infernal"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Coven",
+      "text": "A night hag adds dominate, nightmare, scrying, and spellwrack to her coven's spells."
+    },
+    {
+      "name": "Nightmare Rider",
+      "text": "When a night hag rides a nightmare, the nightmare also gains the night hag's status bonus to saves against magic, and both the hag and rider benefit when the night hag uses her heartstone's ethereal jaunt innate spell."
+    },
+    {
+      "name": "Items",
+      "text": "heartstone;"
+    },
+    {
+      "name": "Abyssal Plague",
+      "text": "(disease); Saving Throw DC 28 Fortitude. Stage 1 Drained 1 (1 day) Stage 2 Drained increases by 2 (1 day)"
+    },
+    {
+      "name": "Change Shape",
+      "text": "⬻ (concentrate, occult, polymorph, transmutation); The night hag can take on the appearance of any Medium female humanoid. This doesn't change her Speed or her attack and damage bonuses with her Strikes, but might change the damage type her Strikes deal (typically to bludgeoning)."
+    },
+    {
+      "name": "Dream Haunting",
+      "text": "(enchantment, occult, mental); If a night hag is ethereal and hovering over a sleeping chaotic or evil creature, she can ride the victim's back until dawn. The creature endures tormenting dreams as the hag casts nightmare on it, and is exposed to abyssal plague. Any drained caused by dream haunting is cumulative. Only an ethereal being can confront the night hag and stop her dream haunting."
+    },
+    {
+      "name": "Spell Ambush",
+      "text": "A creature flat-footed to the night hag takes a –2 circumstance penalty to checks and DCs to defend against her spells."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +20 (magical); Damage 2d8+8 (2d8+8) piercing plus 1d6 (1d6) evil and Abyssal plague"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +20 (agile, magical); Damage 2d10+8 (2d10+8) slashing plus 1d6 (1d6) evil"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      4,
+      6,
+      4,
+      5,
+      3
+    ],
+    "items": "heartstone;"
+  }
+}

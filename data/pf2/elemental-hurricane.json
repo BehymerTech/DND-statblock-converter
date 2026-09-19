@@ -1,0 +1,110 @@
+{
+  "name": "Elemental Hurricane",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 145.",
+  "size": "Huge",
+  "type": "Elemental",
+  "subtype": "Air",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 11",
+  "xp": null,
+  "ac": {
+    "value": 32,
+    "notes": ""
+  },
+  "hp": {
+    "average": 140,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 100,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 100 feet; swiftness;"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 24,
+    "con": 18,
+    "int": 10,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +19, Ref +24, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +24 (1d20+24); __Stealth__: +22 (1d20+22); ",
+    "list": {
+      "Acrobatics": "+24",
+      "Stealth": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Auran"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "High Winds",
+      "text": "(air, aura); 20 feet. Air within the emanation is difficult terrain for Flying creatures that do not have the air trait."
+    },
+    {
+      "name": "Disperse",
+      "text": "⬲ Trigger The living whirlwind takes damage from a hostile action. Effect The elemental hurricane disperses. Until the end of the current turn, it can't be attacked or targeted, doesn't take up space, and any auras or emanations it has are suppressed. At the end of the turn, the elemental hurricane reforms in any space in which it can fit within 100 feet of where it dispersed and any auras or emanations it has are restored as long as their duration didn't run out while it was dispersed."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (air); The elemental breathes a 30-foot cone of air. Creatures in the cone must succeed at a DC 29 Fortitude save or be knocked away from the elemental. A creature knocked into a solid object stops moving and takes 10d6 (10d6) bludgeoning damage. The elemental hurricane can't use Breath Weapon again for 1d4 (1d4) rounds. Critical Success The creature is unaffected. Success The creature is Pushed 20 feet. Failure The creature is Pushed 40 feet. Critical Failure The creature is Pushed 40 feet and knocked prone."
+    },
+    {
+      "name": "Swiftness",
+      "text": "The elemental's movement doesn't trigger reactions."
+    },
+    {
+      "name": "Elemental, Earth",
+      "text": "Earth elementals make excellent bodyguards for adventuresome spelunkers and are ideal protectors of important subterranean locations such as vaults and treasuries."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ gust +24 (finesse, reach 20 feet); Damage 2d10+12 (2d10+12) bludgeoning plus Push 10 feet"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ lightning lash +24 (range increment 75 feet); Damage 2d12+6 (2d12+6) electricity"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      7,
+      4,
+      0,
+      3,
+      0
+    ]
+  }
+}

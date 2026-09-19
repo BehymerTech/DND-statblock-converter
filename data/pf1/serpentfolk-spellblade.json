@@ -1,0 +1,121 @@
+{
+  "name": "Serpentfolk Spellblade",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 26,
+    "notes": "armor +7, deflection +1, dex +3, dodge +1, natural +4",
+    "touch": 15,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 160,
+    "formula": "5d10+9d8+93"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 23,
+    "con": 21,
+    "int": 20,
+    "wis": 13,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +15, Ref +14, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +10, Climb +10, Craft (alchemy) +13, Disguise +9, Escape Artist +19, Intimidate +15, Knowledge (arcana) +18, Knowledge (dungeoneering) +12, Knowledge (history) +8, Knowledge (nobility) +6, Perception +18, Sense Motive +8, Spellcraft +16, Stealth +15, Survival +8, Swim +4, Use Magic Device +15",
+    "list": {
+      "Acrobatics": "+10",
+      "Climb": "+10",
+      "Disguise": "+9",
+      "Escape Artist": "+19",
+      "Intimidate": "+15",
+      "Perception": "+18",
+      "Sense Motive": "+8",
+      "Spellcraft": "+16",
+      "Stealth": "+15",
+      "Survival": "+8",
+      "Swim": "+4",
+      "Use Magic Device": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Draconic",
+    "Undercommon",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 11,
+  "feats": [
+    "Combat Expertise",
+    "Craft Magic Arms and Armor",
+    "Dodge",
+    "Great Fortitude",
+    "Improved Critical (scimitar)",
+    "Improved Initiative",
+    "Toughness",
+    "Weapon Focus (scimitar)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 corrosive scimitar +17/+12/+7 (1d6+5/15-20 plus 1d6 acid), bite +9 (1d6+1 plus poison)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite longbow +19/+14/+9 (1d8+4/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Advanced",
+    "class": "serpentfolk magus 9 (Pathfinder RPG Ultimate Magic 9)",
+    "cmb": "+14",
+    "cmd": 32,
+    "racialModifiers": [
+      "Escape Artist 8",
+      "Use Magic Device 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land (usually jungles or underground)"
+      }
+    ]
+  }
+}

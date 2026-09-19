@@ -1,0 +1,108 @@
+{
+  "name": "Veldenar",
+  "sourceSystem": "pf1",
+  "source": "Planes of Power",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "air, extraplanar",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 25,
+    "notes": "dex +3, natural +14, size -2",
+    "touch": 11,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 137,
+    "formula": "11d10+77"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 30 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 16,
+    "con": 24,
+    "int": 7,
+    "wis": 16,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +14, Ref +12, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +6, Fly +7, Perception +19, Stealth +12",
+    "list": {
+      "Acrobatics": "+6",
+      "Fly": "+7",
+      "Perception": "+19",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 29,
+  "languages": [],
+  "initiative": "+7",
+  "babOrProficiency": 11,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +20 (2d6+10/19-20 plus grab), tail slap +14 (2d6+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This massive, translucent froglike creature has an incredibly wide, tooth-filled maw and six eyes.",
+  "meta": {
+    "cmb": "+23",
+    "cmd": "36 (can't be tripped)",
+    "racialModifiers": [
+      "Perception 8",
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Air)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pair"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

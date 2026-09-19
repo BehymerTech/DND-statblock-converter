@@ -1,0 +1,114 @@
+{
+  "name": "Plankta",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Colossal",
+  "type": "aberration",
+  "subtype": "aquatic, earth",
+  "alignment": "NE",
+  "cr": "17",
+  "level": null,
+  "xp": 102400,
+  "ac": {
+    "value": 36,
+    "notes": "cover +8, dex +1, natural +25, size -8",
+    "touch": 11,
+    "flatFooted": 36
+  },
+  "hp": {
+    "average": 313,
+    "formula": "19d8+228"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 50,
+    "dex": 13,
+    "con": 34,
+    "int": 13,
+    "wis": 28,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +18, Ref +13, Will +20",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +36, Knowledge (history) +13, Knowledge (nature) +10, Perception +31, Stealth +7, Survival +31, Swim +38",
+    "list": {
+      "Climb": "+36",
+      "Perception": "+31",
+      "Stealth": "+7",
+      "Survival": "+31",
+      "Swim": "+38"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 41,
+  "languages": [
+    "Aquan",
+    "Terran"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 14,
+  "feats": [
+    "Blind-Fight",
+    "Critical Focus",
+    "Dazing Assault",
+    "Improved Critical (slam)",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Snatch",
+    "Staggering Critical",
+    "Weapon Focus (slam)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +27 (4d6+20/19-20), bite +26 (4d6+20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The shattered remnants of buildings and statues can be seen in this shuddering mass of wet, rugged rock.",
+  "meta": {
+    "cmb": "+42",
+    "cmd": "61 (can’t be tripped)",
+    "racialModifiers": [
+      "Stealth 20"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Valharut",
+  "sourceSystem": "pf1",
+  "source": "Planar Adventures",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "extraplanar, inevitable, lawful",
+  "alignment": "LN",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 25,
+    "notes": "dex +6, natural +9",
+    "touch": 16,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 138,
+    "formula": "12d10+72"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., other_semicolon air walk ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 22,
+    "con": 22,
+    "int": 11,
+    "wis": 20,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +14, Ref +10, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +21, Intimidate +20, Knowledge (planes) +15, Perception +20, Sense Motive +20, Swim +17",
+    "list": {
+      "Acrobatics": "+21",
+      "Intimidate": "+20",
+      "Perception": "+20",
+      "Sense Motive": "+20",
+      "Swim": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "truespeech"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 12,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Critical (valharut hook)",
+    "Improved Initiative",
+    "Power Attack",
+    "Two-Weapon Fighting",
+    "Weapon Focus (valharut hook)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 valharut hook +17/+12/+7 (1d8+6/19-20/×3), +1 valharut hook +16 (1d8+3/19-20/×3), +1 dagger +16 (1d4+3/19-20), slam +12 (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This four-armed faceless woman has flesh that appears to be made of pale marble veined with traceries of blue lines.",
+  "meta": {
+    "cmb": "+17",
+    "cmd": 33,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Axis)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or barrage (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+1/+1 valharut hook, +1 dagger, other treasure)"
+      }
+    ]
+  }
+}

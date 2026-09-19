@@ -1,0 +1,112 @@
+{
+  "name": "Ancient Red Dragon",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Gargantuan",
+  "type": "Dragon",
+  "subtype": "Chromatic",
+  "alignment": "Chaotic Evil",
+  "cr": "24",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 507,
+    "formula": "26d20 + 234"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": 80,
+    "swim": null,
+    "climb": 40,
+    "burrow": null,
+    "notes": "40 ft., Climb 40 ft., Fly 80 ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 10,
+    "con": 29,
+    "int": 18,
+    "wis": 10,
+    "cha": 27
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +16, Stealth +7",
+    "list": {
+      "Perception": "+16",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Blindsight 60 ft.",
+    "Darkvision 120 ft."
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+14 (24)",
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Legendary Resistance (4/Day, or 5/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast _Scorching Ray_ (level 3 version)."
+    },
+    {
+      "name": "Rend",
+      "text": "_Melee Attack Roll:_ +17, reach 15 ft. _Hit:_ 19 (2d8 + 10) Slashing damage plus 10 (3d6) Fire damage."
+    },
+    {
+      "name": "Fire Breath (Recharge 5–6)",
+      "text": "_Dexterity Saving Throw:_ DC 24, each creature in a 90-foot Cone. _Failure:_ 91 (26d6) Fire damage. _Success:_ Half damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 23, +15 to hit with spell attacks): <br> &emsp;**At Will:** _Command_ (level 2 version), _Detect Magic_, _Scorching Ray_ (level 3 version) <br> &emsp;**1/Day Each:** _Fireball_ (level 6 version), _Scrying_"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [
+    {
+      "name": "",
+      "text": "_Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns._"
+    },
+    {
+      "name": "Commanding Presence",
+      "text": "The dragon uses Spellcasting to cast _Command_ (level 2 version). The dragon can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Fiery Rays",
+      "text": "The dragon uses Spellcasting to cast _Scorching Ray_ (level 3 version). The dragon can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Pounce",
+      "text": "The dragon moves up to half its Speed, and it makes one Rend attack. ## Remorhaz"
+    }
+  ],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

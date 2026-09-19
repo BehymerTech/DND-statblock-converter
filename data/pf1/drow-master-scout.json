@@ -1,0 +1,108 @@
+{
+  "name": "Drow Master Scout",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "alignment": "CE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 19,
+    "notes": "armor +4, deflection +1, dex +4",
+    "touch": 15,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 55,
+    "formula": "8d8+16"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 12,
+    "int": 10,
+    "wis": 12,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +3, Ref +10, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Climb +10, Disable Device +13, Knowledge (dungeoneering) +9, Knowledge (geography) +2, Knowledge (local) +7, Linguistics +5, Perception +14, Sense Motive +9, Stealth +15, Survival +7, Swim +9",
+    "list": {
+      "Acrobatics": "+15",
+      "Climb": "+10",
+      "Disable Device": "+13",
+      "Linguistics": "+5",
+      "Perception": "+14",
+      "Sense Motive": "+9",
+      "Stealth": "+15",
+      "Survival": "+7",
+      "Swim": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Elven",
+    "Undercommon"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 6,
+  "feats": [
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Rapid Shot",
+    "Weapon Focus (short sword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk short sword +10/+5 (1d6+2/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 composite shortbow +11/+6 (1d6+3/×3 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Drow",
+    "class": "rogue (sniper) 8 (Pathfinder RPG Advanced Player’s Guide 134)",
+    "cmb": "+8",
+    "cmd": 23,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "underground"
+      }
+    ]
+  }
+}

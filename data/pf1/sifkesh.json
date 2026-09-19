@@ -1,0 +1,129 @@
+{
+  "name": "Sifkesh",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 75: Demon's Heresy",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "28",
+  "level": null,
+  "xp": 4915200,
+  "ac": {
+    "value": 49,
+    "notes": "deflection +4, dex +12, dodge +1, natural +6, profane +16",
+    "touch": 43,
+    "flatFooted": 36
+  },
+  "hp": {
+    "average": 666,
+    "formula": "31d10+496"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 120 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 35,
+    "con": 42,
+    "int": 33,
+    "wis": 29,
+    "cha": 36
+  },
+  "saves": {
+    "text": "Fort +30, Ref +33, Will +30",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +46, Bluff +47, Diplomacy +47, Fly +54, Intimidate +44, Knowledge (arcana) +42, Knowledge (engineering) +42, Knowledge (history) +42, Knowledge (local) +42, Knowledge (nobility) +45, Knowledge (planes) +45, Knowledge (religion) +42, Perception +51, Sense Motive +43, Spellcraft +45, Stealth +46, Use Magic Device +44",
+    "list": {
+      "Acrobatics": "+46",
+      "Bluff": "+47",
+      "Diplomacy": "+47",
+      "Fly": "+54",
+      "Intimidate": "+44",
+      "Perception": "+51",
+      "Sense Motive": "+43",
+      "Spellcraft": "+45",
+      "Stealth": "+46",
+      "Use Magic Device": "+44"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "detect law",
+    "true seeing"
+  ],
+  "passivePerception": 61,
+  "languages": [
+    "Abyssal (can’t speak)",
+    "Celestial (can’t speak)",
+    "Common (can’t speak)",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 31,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Craft Construct",
+    "Craft Magic Arms and Armor",
+    "Craft Wondrous Item",
+    "Critical Focus",
+    "Dodge",
+    "Improved Critical (war razor)",
+    "Improved Critical (claw)",
+    "Mobility",
+    "Power Attack",
+    "Quicken Spell-Like Ability (dominate person)",
+    "Quicken Spell-Like Ability (suggestion)",
+    "Spring Attack",
+    "Staggering Critical",
+    "Whirlwind Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+5 unholy speed war razor +47/+42/+37/+32 (1d4+27/19-20), claw +42 (4d6+27/19-20 plus 1d4 Cha drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This gaunt woman has blood-soaked hair, eyes and lips stitched shut with wire, and severed limbs that float nearby as if they were still attached.",
+  "meta": {
+    "cmb": "+42",
+    "cmd": "85 (can’t be tripped)",
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple (+5 unholy speed war razor, other treasure)"
+      }
+    ]
+  }
+}

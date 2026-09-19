@@ -1,0 +1,102 @@
+{
+  "name": "NPC Swampwalker",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf, human",
+  "alignment": "CE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 19,
+    "notes": "armor +4, deflection +1, dex +1, natural +3",
+    "touch": 12,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 81,
+    "formula": "9d10+27"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +8, Ref +7, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +12, Handle Animal +6, Knowledge (nature) +12, Perception +16, Stealth +16, Survival +14, Swim +16",
+    "list": {
+      "Climb": "+12",
+      "Handle Animal": "+6",
+      "Perception": "+16",
+      "Stealth": "+16",
+      "Survival": "+14",
+      "Swim": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Common",
+    "Elven"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 9,
+  "feats": [
+    "Deadly Aim",
+    "Endurance",
+    "Exotic Weapon Proficiency (spiked chain)",
+    "Improved Critical (composite longbow)",
+    "Point-Blank Shot",
+    "Rapid Shot",
+    "Skill Focus (Stealth)",
+    "Vital Strike",
+    "Weapon Focus (composite longbow)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk spiked chain +14/+9 (2d4+6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 composite longbow +12/+7 (1d8+5/19-20/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-elf",
+    "class": "ranger 9",
+    "cmb": "+13",
+    "cmd": 25
+  }
+}

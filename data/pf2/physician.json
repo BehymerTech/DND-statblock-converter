@@ -1,0 +1,106 @@
+{
+  "name": "Physician",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 221.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature -1",
+  "xp": null,
+  "ac": {
+    "value": 13,
+    "notes": ""
+  },
+  "hp": {
+    "average": 9,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 12,
+    "con": 12,
+    "int": 18,
+    "wis": 14,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +9, Ref +3, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Diplomacy__: +8 (1d20+8); __Medicine__: +12 (1d20+12); __Society__: +10 (1d20+10); ",
+    "list": {
+      "Diplomacy": "+8",
+      "Medicine": "+12",
+      "Society": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 16,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Bedside Manner",
+      "text": "A physician has a +2 circumstance bonus to Diplomacy checks to Make an Impression on or make a Request of a diseased, poisoned, or wounded creature."
+    },
+    {
+      "name": "Doctor's Hand",
+      "text": "When the physician rolls a critical failure on a check to Treat Disease, Treat."
+    },
+    {
+      "name": "Poison, or Treat",
+      "text": "Wounds, they get a failure instead."
+    },
+    {
+      "name": "Items",
+      "text": "minor elixirs of life (2), healer's tools, medical textbook;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +5 (agile, nonlethal); Damage 1d4-1 (1d4-1) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ medical textbook +5 (nonlethal, thrown 10 feet); Damage 1d4-1 (1d4-1) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -1,
+      1,
+      1,
+      4,
+      2,
+      2
+    ],
+    "items": "minor elixirs of life (2), healer's tools, medical textbook;"
+  }
+}

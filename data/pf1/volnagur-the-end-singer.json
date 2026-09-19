@@ -1,0 +1,117 @@
+{
+  "name": "Volnagur (The End-Singer)",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Bestiary",
+  "size": "Colossal",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "22",
+  "level": null,
+  "xp": 614400,
+  "ac": {
+    "value": 39,
+    "notes": "dex +6, dodge +1, natural +30, size -8",
+    "touch": 9,
+    "flatFooted": 32
+  },
+  "hp": {
+    "average": 437,
+    "formula": "25d10+300"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 100 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 22,
+    "con": 35,
+    "int": 7,
+    "wis": 14,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +26, Ref +20, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +19, Perception +20",
+    "list": {
+      "Fly": "+19",
+      "Perception": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "blindsense",
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 25,
+  "feats": [
+    "Ability Focus (eye ray)",
+    "Dodge",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Improved Precise Shot",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Mobility",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Precise Shot",
+    "Snatch",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +29 (4d6+12), 3 razor tongues +29 (2d6+12/18-20/×3 plus 1d6 bleed, 1 Con bleed, and blood rage), 6 wings +24 (2d8+6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "4 eye rays +23 (4d6 sonic/18-20 plus nausea)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This immense creature’s warty body is shaped like a many-pointed star, and from it sprout nearly a dozen different wings.",
+  "meta": {
+    "cmb": "+45",
+    "cmd": "62 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Casmaron)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "name": "NPC Brutal Warlord",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, orc",
+  "alignment": "LE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 27,
+    "notes": "armor +10, dex +2, shield +5",
+    "touch": 12,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 141,
+    "formula": "13d10+65"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 15,
+    "con": 18,
+    "int": 10,
+    "wis": 8,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +15, Ref +9, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +21, Sense Motive +14, Perception +1",
+    "list": {
+      "Intimidate": "+21",
+      "Sense Motive": "+14",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 11,
+  "languages": [
+    "Common",
+    "Orc"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 13,
+  "feats": [
+    "Critical Focus",
+    "Disruptive",
+    "Improved Critical (flail)",
+    "Improved Shield Bash",
+    "Iron Will",
+    "Shield Focus",
+    "Shield Master",
+    "Shield Slam",
+    "Spellbreaker",
+    "Staggering Critical",
+    "Step Up",
+    "Two-Weapon Fighting",
+    "Weapon Focus (flail)",
+    "Weapon Specialization (flail)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 vicious flail +20/+15/+10 (1d8+10/19-20 plus 2d6), lion’s shield +23 (1d4+6 plus bull rush attempt)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk throwing axe +19 (1d6+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-orc",
+    "class": "fighter 13",
+    "cmb": "+19",
+    "cmd": 29
+  }
+}

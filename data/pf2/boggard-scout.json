@@ -1,0 +1,113 @@
+{
+  "name": "Boggard Scout",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 44.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Amphibious, Boggard",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 24,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, swim 25 feet; swamp stride;"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 18,
+    "int": 8,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +9, Ref +5, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +5 (1d20+5); __Athletics__: +8 (1d20+8); __Stealth__: +7 (1d20+7), (Stealth: +9 (1d20+9) in water); ",
+    "list": {
+      "Acrobatics": "+5",
+      "Athletics": "+8",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Boggard",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Swamp Stride",
+      "text": "A boggard scout ignores difficult terrain caused by swamp terrain features."
+    },
+    {
+      "name": "Terrifying Croak",
+      "text": "⬻ (auditory, emotion, fear, mental); The boggard scout unleashes a terrifying croak. Any non-boggard within 30 feet becomes frightened 1 unless they succeed at a DC 17 Will save; those who critically succeed are temporarily immune for 1 minute."
+    },
+    {
+      "name": "Tongue Grab",
+      "text": "If the boggard scout hits a creature with its tongue, that creature becomes grabbed by the boggard. Unlike with a normal grab, the creature isn't immobilized, but it can't move beyond the reach of the boggard's tongue. A creature can sever the tongue by hitting AC 13 and dealing at least 2 slashing damage. Though this doesn't deal any damage to the boggard, it prevents it from using its tongue Strike until it regrows its tongue, which takes a week."
+    },
+    {
+      "name": "Items",
+      "text": "leather armor, morningstar, sling (10 bullets);"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ morningstar +8 (versatile p); Damage 1d6+3 (1d6+3) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tongue +8 (reach 10 feet); Damage tongue grab"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ sling +7 (propulsive, reload 1, range increment 50 feet); Damage 1d6+1 (1d6+1) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      2,
+      4,
+      -1,
+      2,
+      0
+    ],
+    "items": "leather armor, morningstar, sling (10 bullets);"
+  }
+}

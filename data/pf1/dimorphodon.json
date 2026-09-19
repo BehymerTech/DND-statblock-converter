@@ -1,0 +1,96 @@
+{
+  "name": "Dimorphodon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 37: Souls for Smuggler's Shiv",
+  "size": "Medium",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 14,
+    "notes": "dex +3, natural +1",
+    "touch": 13,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 11,
+    "formula": "2d8+2"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 30 ft. (average)"
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 17,
+    "con": 12,
+    "int": 2,
+    "wis": 13,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +4, Ref +6, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +7, Perception +5",
+    "list": {
+      "Fly": "+7",
+      "Perception": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 15,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 1,
+  "feats": [
+    "Flyby Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +3 (1d6+3 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The head of this colorful red and purple flying reptile is overly large, and its jaws are lined with tiny sharp teeth.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": 16,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm coasts or forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or flock (3-9)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

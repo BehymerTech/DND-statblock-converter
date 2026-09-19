@@ -1,0 +1,117 @@
+{
+  "name": "Yaddithian",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 15,
+    "notes": "deflection +1, dex +2, natural +2",
+    "touch": 13,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 61,
+    "formula": "9d6+27"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 14,
+    "con": 15,
+    "int": 19,
+    "wis": 8,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +5, Ref +5, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (arcana) +18, Knowledge (dungeoneering) +18, Knowledge (history) +18, Knowledge (planes) +18, Perception +11, Spellcraft +18",
+    "list": {
+      "Perception": "+11",
+      "Spellcraft": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Aklo",
+    "Elder Thing",
+    "Mi-go",
+    "Yaddithian",
+    "Yithian"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 4,
+  "feats": [
+    "Combat Casting",
+    "Craft Wondrous Item",
+    "Eschew Materials",
+    "Scribe Scroll",
+    "Silent Spell",
+    "Skill Focus (Perception)",
+    "Spell Penetration"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 dagger +6 (1d4+2), claw +0 (1d4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 dagger +7 (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This insectile biped has a tapir-like snout and is unmistakably alien in appearance, despite its vaguely humanoid shape.",
+  "meta": {
+    "race": "Yaddithian",
+    "class": "wizard 9",
+    "cmb": "+5",
+    "cmd": 18,
+    "racialModifiers": [
+      "Knowledge (all) 2",
+      "Spellcraft 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or conclave (3-16)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (+1 dagger, amulet of natural armor +1, handy haversack, ring of protection +1, wand of acid arrow [50 charges], other treasure)"
+      }
+    ]
+  }
+}

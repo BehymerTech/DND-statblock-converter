@@ -1,0 +1,115 @@
+{
+  "name": "Zuishin",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 144.",
+  "size": "Medium",
+  "type": "Spirit",
+  "subtype": "Kami",
+  "alignment": "LG",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 30,
+    "notes": ""
+  },
+  "hp": {
+    "average": 200,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 25 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 24,
+    "con": 20,
+    "int": 12,
+    "wis": 20,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +19, Ref +23, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +23 (1d20+23); __Athletics__: +22 (1d20+22); __Intimidation__: +19 (1d20+19); __Medicine__: +21 (1d20+21); __Nature__: +21 (1d20+21); __Stealth__: +21 (1d20+21); ",
+    "list": {
+      "Acrobatics": "+23",
+      "Athletics": "+22",
+      "Intimidation": "+19",
+      "Medicine": "+21",
+      "Nature": "+21",
+      "Stealth": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Common; [[telepathy]] 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Ward",
+      "text": "(abjuration, divine); Every kami is bound to a ward: a specific animal, plant, object, or location. A kami can merge with or emerge from their ward as a single action, which has the concentrate trait. While merged, the kami can observe their surroundings with their usual senses as well as the senses of their ward, but can't move, communicate with, or control their ward. Additionally, a kami merged with their ward recovers Hit Points each minute as if they spent an entire day resting. A zuishin's ward is a specific gate, doorway, or shrine."
+    },
+    {
+      "name": "Items",
+      "text": "+1 breastplate, +1 composite longbow, +1 katana;"
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Healing Arrow",
+      "text": "⬺ (divine, healing, necromancy); The zuishin blesses an arrow with healing magic and makes a composite longbow Strike against an ally. If it hits, rather than dealing damage, the arrow is infused with the effects of one of the following of the zuishin's innate divine spells: breath of life, heal, remove disease, or remove paralysis. The zuishin must have the spell available to cast, and using this ability expends the spell. If the zuishin rolls a failure on the attack roll against an ally who's aware of the arrow and wants to be hit, the attack hits, but on a critical failure, it still misses."
+    },
+    {
+      "name": "Holy Weaponry",
+      "text": "(divine, enchantment, evocation, good); Any weapon becomes a striking holy weapon while the zuishin wields it. A zuishin creates arrows out of nothing as part of their attacks with any bow they wield."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ katana +23 (deadly d8, magical, two-hand d10, versatile p); Damage 2d6+9 (2d6+9) slashing plus 1d6 (1d6) good"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ composite longbow +24 (deadly d10, magical, range increment 100 feet, reload 0, volley 30 feet); Damage 2d8+9 (2d8+9) piercing plus 1d6 (1d6) good"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      7,
+      5,
+      1,
+      5,
+      3
+    ],
+    "items": "+1 breastplate, +1 composite longbow, +1 katana;"
+  }
+}

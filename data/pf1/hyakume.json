@@ -1,0 +1,119 @@
+{
+  "name": "Hyakume",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Large",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 32,
+    "notes": "dex +8, dodge +1, natural +14, size -1",
+    "touch": 18,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 218,
+    "formula": "19d8+133"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 27,
+    "con": 24,
+    "int": 19,
+    "wis": 22,
+    "cha": 29
+  },
+  "saves": {
+    "text": "Fort +13, Ref +14, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +23, Bluff +21, Craft (any) +10, Diplomacy +17, Intimidate +24, Knowledge (arcana) +12, Knowledge (planes) +12, Knowledge (religion) +12, Knowledge (geography) +10, Knowledge (history) +10, Perception +19, Sense Motive +17, Spellcraft +22, Stealth +15, Survival +17, Swim +8, Use Magic Device +17",
+    "list": {
+      "Acrobatics": "+23",
+      "Bluff": "+21",
+      "Diplomacy": "+17",
+      "Intimidate": "+24",
+      "Perception": "+19",
+      "Sense Motive": "+17",
+      "Spellcraft": "+22",
+      "Stealth": "+15",
+      "Survival": "+17",
+      "Swim": "+8",
+      "Use Magic Device": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Common",
+    "Undercommon",
+    "telepathy 60 ft."
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 14,
+  "feats": [
+    "Combat Casting",
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Initiative",
+    "Improved Unarmed Strike",
+    "Mobility",
+    "Skill Focus (Sense Motive)",
+    "Stunning Fist",
+    "Weapon Focus (slam)",
+    "Wind Stance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +18 (3d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This bloated creature’s eyes protrude from between the fleshy fat rolls of its neckless, hulking form.",
+  "meta": {
+    "cmb": "+19",
+    "cmd": 38,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or enclave (2-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

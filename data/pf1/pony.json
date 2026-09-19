@@ -1,0 +1,96 @@
+{
+  "name": "Pony",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 11,
+    "notes": "dex +1",
+    "touch": 11,
+    "flatFooted": 10
+  },
+  "hp": {
+    "average": 13,
+    "formula": "2d8+4"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 13,
+    "con": 14,
+    "int": 2,
+    "wis": 11,
+    "cha": 4
+  },
+  "saves": {
+    "text": "Fort +5, Ref +4, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +5",
+    "list": {
+      "Perception": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 15,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 1,
+  "feats": [
+    "Endurance",
+    "Run"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 hooves -3 (1d3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This squat equine plods forward with large, curious eyes. As it nears, it extends its muzzle, clearly expecting a treat.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": "13 (17 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or herd (3-30)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "name": "NPC Mercenary Healer",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "LE",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 17,
+    "notes": "armor +6, dex +1",
+    "touch": 11,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 9,
+    "formula": "1d8+1"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 12,
+    "con": 13,
+    "int": 10,
+    "wis": 14,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +3, Ref +1, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +4, Diplomacy +7, Knowledge (religion) +4, Spellcraft +4, Perception +2",
+    "list": {
+      "Appraise": "+4",
+      "Diplomacy": "+7",
+      "Spellcraft": "+4",
+      "Perception": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 12,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 0,
+  "feats": [
+    "Selective Channeling",
+    "Weapon Focus (light crossbow)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "morningstar -1 (1d8-1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "light crossbow +2 (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "cleric of Abadar 1",
+    "cmb": "-1",
+    "cmd": 10
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "name": "NPC Creeping Death",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "alignment": "NE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 31,
+    "notes": "armor +7, deflection +2, dex +3, dodge +1, natural +5, shield +3",
+    "touch": 16,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 96,
+    "formula": "15d8+25"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 16,
+    "con": 12,
+    "int": 12,
+    "wis": 20,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +12, Ref +10, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +5, Fly +7, Handle Animal +9, Heal +13, Knowledge (geography) +10, Knowledge (nature) +14, Knowledge (planes) +9, Perception +18, Ride +6, Spellcraft +14, Survival +19, Swim +5",
+    "list": {
+      "Climb": "+5",
+      "Fly": "+7",
+      "Handle Animal": "+9",
+      "Heal": "+13",
+      "Perception": "+18",
+      "Ride": "+6",
+      "Spellcraft": "+14",
+      "Survival": "+19",
+      "Swim": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Druidic",
+    "Elven"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 11,
+  "feats": [
+    "Blind-Fight",
+    "Combat Casting",
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Initiative",
+    "Natural Spell",
+    "Power Attack",
+    "Spell Penetration"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 cold iron scythe +13/+8/+3 (2d4+2/×4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Elf",
+    "class": "druid 15",
+    "cmb": "+12",
+    "cmd": 28
+  }
+}

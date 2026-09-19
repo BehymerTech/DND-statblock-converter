@@ -1,0 +1,117 @@
+{
+  "name": "Behemoth Hippopotamus",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 144.",
+  "size": "Huge",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 29,
+    "notes": ""
+  },
+  "hp": {
+    "average": 190,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet, swim 35 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 18,
+    "con": 24,
+    "int": 2,
+    "wis": 20,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +22, Ref +17, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +23 (1d20+23); __Stealth__: +18 (1d20+18), (Stealth: +20 (1d20+20) in water); __Survival__: +17 (1d20+17); ",
+    "list": {
+      "Athletics": "+23",
+      "Stealth": "+20",
+      "Survival": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 29,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Deep Breath",
+      "text": "The behemoth hippopotamus can hold its breath for 1 hour."
+    },
+    {
+      "name": "Aquatic Ambush",
+      "text": "⬻ 40 feet."
+    },
+    {
+      "name": "Capsize",
+      "text": "⬻ (attack); As hippopotamus (DC 30 for a Huge vessel)."
+    },
+    {
+      "name": "Double Chomp",
+      "text": "⬻ The behemoth hippo makes a jaws Strike targeting two creatures adjacent to each other. Roll the attack and damage once, and apply it to each creature separately."
+    },
+    {
+      "name": "An Engulfing",
+      "text": "Chomp counts as two attacks for the multiple attack penalty."
+    },
+    {
+      "name": "Swallow Whole",
+      "text": "⬻ Medium, 2d12+10 (2d12+10) bludgeoning, Rupture 26."
+    },
+    {
+      "name": "Trample",
+      "text": "⬽ Large or smaller, foot, DC 29."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +23 (deadly d12, reach 10 feet); Damage 2d12+10 (2d12+10) piercing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ foot +21 Damage 2d8+9 (2d8+9) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      4,
+      7,
+      -4,
+      5,
+      -2
+    ]
+  }
+}

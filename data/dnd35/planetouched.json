@@ -1,0 +1,123 @@
+{
+  "name": "Planetouched",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Outsider",
+  "subtype": "Native",
+  "alignment": "Usually evil (any)",
+  "cr": "1/2",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "+1 Dex, +3 studded leather, +1 light shield",
+    "touch": 11,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 5,
+    "formula": "1d8+1"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares)"
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 9,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +3, Ref +1, Will -1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +4, Hide +5, Move Silently +1, Sleight Of Hand +1;",
+    "list": {
+      "Heal": "+4",
+      "Listen": "+3",
+      "Ride": "+1",
+      "Spot": "+3",
+      "Bluff": "+4",
+      "Hide": "+5",
+      "Move Silently": "+1",
+      "Sleight Of Hand": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 1,
+  "feats": [
+    "Weapon Focus (rapier)"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Daylight"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., resistance to acid 5, cold 5, and electricity 5"
+    },
+    {
+      "name": "Special Attacks",
+      "text": "Darkness"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., resistance to cold 5, electricity 5, and fire 5"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Longsword +2 melee (1d8+1/19-20) or light crossbow +1 ranged (1d8/19-20)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Longsword +2 melee (1d8+1/19-20) or light crossbow +1 ranged (1d8/19-20)"
+    },
+    {
+      "name": "Attack",
+      "text": "Rapier +3 melee (1d6+1/18-20) or light crossbow +2 ranged (1d8/19-20)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Rapier +3 melee (1d6+1/18-20) or light crossbow +2 ranged (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "Planetouched is a general word to describe someone who can trace his or her bloodline back to an outsider, usually a fiend or celestial.",
+    "grapple": "+2",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Temperate plains",
+    "organization": "Solitary, pair, or gang (3-4)",
+    "treasure": "Standard",
+    "advancement": "By character class",
+    "leveladjustment": "+1"
+  }
+}

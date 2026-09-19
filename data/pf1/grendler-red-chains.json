@@ -1,0 +1,103 @@
+{
+  "name": "Grendler Red-Chains",
+  "sourceSystem": "pf1",
+  "source": "Fey Revisited",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 26,
+    "notes": "armor +2, dex +4, natural +10",
+    "touch": 14,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 147,
+    "formula": "14d6+98"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 19,
+    "con": 22,
+    "int": 16,
+    "wis": 11,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +10, Ref +13, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +21, Bluff +18, Climb +23, Escape Artist +21, Intimidate +15, Knowledge (nature) +20, Perception +17, Sense Motive +17, Stealth +21",
+    "list": {
+      "Acrobatics": "+21",
+      "Bluff": "+18",
+      "Climb": "+23",
+      "Escape Artist": "+21",
+      "Intimidate": "+15",
+      "Perception": "+17",
+      "Sense Motive": "+17",
+      "Stealth": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Giant",
+    "Sylvan"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 7,
+  "feats": [
+    "Cleave",
+    "Improved Initiative",
+    "Power Attack",
+    "Step Up",
+    "Toughness",
+    "Vital Strike",
+    "Weapon Focus (scythe)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk scythe +15/+10 (2d4+13/×4), kick +8 (1d6+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Shards of broken manacles, links of chain, and iron flails are imbedded in this hideous, human-sized man’s ruddy flesh. Rivulets of congealing blood run from its soaked cap down its mangled face and neck, soaking its tangled white beard; in its arms looms a rusty but clearly sharp scythe.",
+  "meta": {
+    "race": "Male",
+    "class": "advanced redcap (Pathfinder RPG Bestiary 2 233)",
+    "cmb": "+13",
+    "cmd": 27,
+    "racialModifiers": [
+      "Acrobatics 12"
+    ]
+  }
+}

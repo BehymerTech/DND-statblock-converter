@@ -1,0 +1,127 @@
+{
+  "name": "Mordiggian",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 110: The Thrushmoor Terror",
+  "size": "Gargantuan",
+  "type": "aberration",
+  "subtype": "chaotic, evil, Great Old One, incorporeal",
+  "alignment": "CE",
+  "cr": "30",
+  "level": null,
+  "xp": 9830400,
+  "ac": {
+    "value": 47,
+    "notes": "deflection +13, dex +15, dodge +1, insight +12, size -4",
+    "touch": 47,
+    "flatFooted": 31
+  },
+  "hp": {
+    "average": 752,
+    "formula": "35d8+595"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 40,
+    "con": 44,
+    "int": 33,
+    "wis": 34,
+    "cha": 37
+  },
+  "saves": {
+    "text": "Fort +28, Ref +26, Will +31",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +53, Bluff +48, Diplomacy +48, Fly +55, Knowledge (arcana) +46, Knowledge (geography) +46, Knowledge (history) +46, Knowledge (local) +46, Knowledge (nobility) +46, Knowledge (religion) +49, Perception +50, Sense Motive +47, Spellcraft +49, Stealth +41, Use Magic Device +48",
+    "list": {
+      "Acrobatics": "+53",
+      "Bluff": "+48",
+      "Diplomacy": "+48",
+      "Fly": "+55",
+      "Perception": "+50",
+      "Sense Motive": "+47",
+      "Spellcraft": "+49",
+      "Stealth": "+41",
+      "Use Magic Device": "+48"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision",
+    "see in darkness",
+    "true seeing"
+  ],
+  "passivePerception": 60,
+  "languages": [
+    "Aklo",
+    "Necril",
+    "speak with dead",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+31",
+  "babOrProficiency": 26,
+  "feats": [
+    "Ability Focus (slay living)",
+    "Blinding Critical",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dodge",
+    "Greater Disarm",
+    "Greater Vital Strike",
+    "Improved Critical (tentacle)",
+    "Improved Disarm",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Mobility",
+    "Quicken Spell-Like Ability (deeper darkness)",
+    "Quicken Spell-Like Ability (feeblemind)",
+    "Quicken Spell-Like Ability (slay living)",
+    "Vital Strike",
+    "Weapon Focus (tentacle)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "6 +5 tentacles +43 (5d6+18/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This massive wormlike creature appears to be made of solid darkness that sucks surrounding light into its body to be forever extinguished.",
+  "meta": {
+    "cmb": "45 (+49 disarm)",
+    "cmd": "81 (83 vs. disarm)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Comozant Wyrd",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 57: Tempest Rising",
+  "size": "Small",
+  "type": "outsider",
+  "subtype": "air, elemental, extraplanar, incorporeal",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 18,
+    "notes": "deflection +4, dex +3, size +1",
+    "touch": 18,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 27,
+    "formula": "5d10"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 30 ft. (good)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 17,
+    "con": 10,
+    "int": 8,
+    "wis": 17,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +1, Ref +9, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +7, Fly +17, Knowledge (nature) +3, Knowledge (planes) +7, Perception +13, Sense Motive +11",
+    "list": {
+      "Diplomacy": "+7",
+      "Fly": "+17",
+      "Perception": "+13",
+      "Sense Motive": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Auran"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 5,
+  "feats": [
+    "Alertness",
+    "Improved Initiative",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Ranged",
+      "text": "lightning lash +8 (2d8 electricity damage)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The only real feature of this flaring of electrical energy is a vaguely humanoid face that flickers and plays within its shifting mass.",
+  "meta": {
+    "cmb": "+7",
+    "cmd": "21 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans (during storms)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

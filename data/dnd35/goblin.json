@@ -1,0 +1,99 @@
+{
+  "name": "Goblin",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Small",
+  "type": "Humanoid",
+  "subtype": "Goblinoid",
+  "alignment": "Usually neutral evil",
+  "cr": "1/3",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "+1 size, +1 Dex, +2 leather armor, +1 light shield",
+    "touch": 12,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 5,
+    "formula": "1d8+1"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft. (6 squares)"
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 13,
+    "con": 12,
+    "int": 10,
+    "wis": 9,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +3, Ref +1, Will -1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Hide +5, Listen +2, Move Silently +5, Ride +4, Spot +2;",
+    "list": {
+      "Hide": "+5",
+      "Listen": "+2",
+      "Move Silently": "+5",
+      "Ride": "+4",
+      "Spot": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 1,
+  "feats": [
+    "Alertness"
+  ],
+  "traits": [
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Morningstar +2 melee (1d6) or javelin +3 ranged (1d4)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Morningstar +2 melee (1d6) or javelin +3 ranged (1d4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A goblin stands 3 to 3-1/2 feet tall and weigh 40 to 45 pounds. Its eyes are usually dull and glazed, varying in color from red to yellow. A goblin's skin color ranges from yellow through any shade of orange to a deep red; usually all members of a single tribe are about the same color. Goblins wear clothing of dark leather, tending toward drab, soiled-looking colors. Goblins speak Goblin; those with Intelligence scores of 12 or higher also speak Common.",
+    "grapple": "-3",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "Temperate plains",
+    "organization": "Gang (4-9), band (10-100 plus 100% noncombatants plus 1 3rd-level sergeant per 20 adults and 1 leader of 4th-6th level), warband (10-24 with worg mounts), or tribe (40-400 plus 100% noncombatants plus 1 3rd-level sergeant per 20 adults, 1 or 2 lieutenants of 4th or 5th level, 1 leader of 6th-8th level, 10-24 worgs, and 2-4 dire wolves)",
+    "treasure": "Standard",
+    "advancement": "By character class",
+    "leveladjustment": "+0"
+  }
+}

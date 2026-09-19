@@ -1,0 +1,103 @@
+{
+  "name": "Duergar Bombardier",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "alignment": "LE",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 22,
+    "notes": "armor +2, dex +4, natural +6",
+    "touch": 14,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 18,
+    "formula": "2d8+6"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 16,
+    "con": 15,
+    "int": 15,
+    "wis": 10,
+    "cha": 4
+  },
+  "saves": {
+    "text": "Fort +5, Ref +7, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (alchemy) +7, Disable Device +8, Heal +4, Knowledge (arcana) +7, Perception +6, Survival +4",
+    "list": {
+      "Disable Device": "+8",
+      "Heal": "+4",
+      "Perception": "+6",
+      "Survival": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Undercommon"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 1,
+  "feats": [
+    "Brew Potion",
+    "Extra Bombs",
+    "Throw Anything"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "light mace +2 (1d6+1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "bomb +6 (1d6+2 acid or fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Duergar",
+    "class": "alchemist 2 (Pathfinder RPG Advanced Player’s Guide 26)",
+    "cmb": "+2",
+    "cmd": "16 (20 vs. bull rush or trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      }
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "name": "Suli",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Qadira, Gateway to the East",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "native",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 17,
+    "notes": "armor +6, dex +1",
+    "touch": 11,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 11,
+    "formula": "1d10+1"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft.,  30 ft. without armor"
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 12,
+    "con": 11,
+    "int": 10,
+    "wis": 9,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +2, Ref +3, Will -1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +3, Knowledge (geography) +4, Knowledge (nature) +4, Ride +0, Sense Motive +2, Survival +3, Perception -1",
+    "list": {
+      "Diplomacy": "+3",
+      "Ride": "+0",
+      "Sense Motive": "+2",
+      "Survival": "+3",
+      "Perception": "-1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 9,
+  "languages": [
+    "Common plus one elemental language"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 1,
+  "feats": [
+    "Weapon Focus (scimitar)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "scimitar +4 (1d6+3/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "shortbow +2 (1d6/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This fine-featured humanoid wears exotic clothing and has flashing eyes; his arms are sheathed in a blaze of crackling flames.",
+  "meta": {
+    "race": "Suli",
+    "class": "ranger 1",
+    "cmb": "+3",
+    "cmd": 14,
+    "racialModifiers": [
+      "Diplomacy 2",
+      "Sense Motive 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "single, pair, or group (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (chainmail, scimitar, short bow with 20 arrows, other treasure)"
+      }
+    ]
+  }
+}

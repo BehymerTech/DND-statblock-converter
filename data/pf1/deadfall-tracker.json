@@ -1,0 +1,108 @@
+{
+  "name": "Deadfall Tracker",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Monster Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 22,
+    "notes": "armor +2, dex +4, dodge +1, natural +2, shield +2, size +1",
+    "touch": 16,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 53,
+    "formula": "3d8+4d10+18"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 18,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +8, Ref +12, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +13, Climb +17, Craft (traps) +8, Knowledge (geography) +5, Knowledge (local) +5, Perception +10, Stealth +17, Survival +11",
+    "list": {
+      "Acrobatics": "+13",
+      "Climb": "+17",
+      "Perception": "+10",
+      "Stealth": "+17",
+      "Survival": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Abyssal",
+    "Polyglot"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 6,
+  "feats": [
+    "Dodge",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Rapid Shot",
+    "Throw Anything"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk scimitar +12/+7 (1d4+4/18-20), bite +6 (1d3+6)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite shortbow +10/+5 (1d4+4/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A noxious fluid drips from the vicious arrows of this feral ape-like humanoid.",
+  "meta": {
+    "race": "Charau-ka",
+    "class": "slayer 4 (Pathfinder Campaign Setting: The Inner Sea World Guide 308, Pathfinder RPG Advanced Class Guide 53)",
+    "cmb": "+9",
+    "cmd": 24,
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forests"
+      }
+    ]
+  }
+}

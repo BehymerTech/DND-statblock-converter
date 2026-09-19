@@ -1,0 +1,105 @@
+{
+  "name": "Dryad",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 246.",
+  "size": "Medium",
+  "type": "Plant",
+  "subtype": "Fey, Nymph",
+  "alignment": "CG",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 55,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 12,
+    "int": 14,
+    "wis": 16,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +6, Ref +11, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +9 (1d20+9); __Athletics__: +5 (1d20+5); __Crafting__: +7 (1d20+7), (Crafting: +9 (1d20+9) woodworking); __Diplomacy__: +9 (1d20+9); __Nature__: +13 (1d20+13); __Stealth__: +9 (1d20+9); __Survival__: +12 (1d20+12); ",
+    "list": {
+      "Acrobatics": "+9",
+      "Athletics": "+5",
+      "Crafting": "+9",
+      "Diplomacy": "+9",
+      "Nature": "+13",
+      "Stealth": "+9",
+      "Survival": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Elven",
+    "Sylvan; speak with plants"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Nature Empathy",
+      "text": "The dryad can use Diplomacy to Make an Impression on and make very simple Requests of animals and plants."
+    },
+    {
+      "name": "Tree Dependent",
+      "text": "A dryad is mystically bonded to a single great tree and must remain within 300 feet of it. If she moves beyond that range, she becomes sickened 1 and is unable to recover. She must attempt a DC 18 Fortitude save every hour or increase the sickened value by 1 (to a maximum of sickened 4). After 24 hours, she becomes drained 1, with this value increasing by 1 every additional 24 hours. A dryad can perform a 24-hour ritual to bond herself to a new tree."
+    },
+    {
+      "name": "Tree Meld",
+      "text": "⬺ (primal, transmutation); The dryad touches a tree of enough volume to contain her and merges into it for as long as she wishes. She can Cast a Spell while inside as long as the spell doesn't require a line of effect outside the tree. She can hear, but not see, what's going on outside the tree. She can Dismiss this effect. Significant physical damage dealt to the tree expels the dryad from the tree and deals 3d6 (3d6) damage to her. Passwall expels the dryad without dealing damage. If a dryad uses this ability on her bonded tree, she instead enters an extradimensional living space within the tree; Tree Meld gains the extradimensional trait. A dryad can bring up to two other creatures with her when entering her home within her bonded tree. The dryad can still be expelled from this space as above."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ branch +12 (finesse, magical); Damage 1d12+2 (1d12+2) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      4,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

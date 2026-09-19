@@ -1,0 +1,111 @@
+{
+  "name": "Medusa Animus Shade",
+  "sourceSystem": "pf1",
+  "source": "Occult Bestiary, Bestiary 6",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "incorporeal",
+  "alignment": "CE",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 16,
+    "notes": "deflection +4, dex +2",
+    "touch": 16,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 76,
+    "formula": "8d10+32"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 30 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 15,
+    "con": "None",
+    "int": 12,
+    "wis": 13,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +6, Ref +8, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +10, Disguise +15, Intimidate +23, Perception +24, Stealth +13",
+    "list": {
+      "Bluff": "+10",
+      "Disguise": "+15",
+      "Intimidate": "+23",
+      "Perception": "+24",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 8,
+  "feats": [
+    "Improved Initiative",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "incorporeal touch +10 (animus insinuation, DC 16)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rend psyche +10 touch (9d6 plus 1d6 Charisma damage, DC 18)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The snakes that form this spectral medusa’s hair knot and writhe, and her eyes burn with uncontrollable rage.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": 20,
+    "racialModifiers": [
+      "Intimidate 8",
+      "Perception 12"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate marshes and underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

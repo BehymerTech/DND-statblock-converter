@@ -1,0 +1,98 @@
+{
+  "name": "Skittergoat",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 91: Battle of Bloodmarch Hills",
+  "size": "Small",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 13,
+    "notes": "dex +2, size +1",
+    "touch": 13,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 9,
+    "formula": "2d8"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 14,
+    "con": 11,
+    "int": 2,
+    "wis": 11,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +3, Ref +5, Will +0",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Escape Artist +6, Perception +4",
+    "list": {
+      "Escape Artist": "+6",
+      "Perception": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 14,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 1,
+  "feats": [
+    "Skill Focus (Escape Artist)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +3 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This small goat has sharp horns that wrap around its head to point forward, making it resemble a tiny bull.",
+  "meta": {
+    "cmb": "+1",
+    "cmd": "13 (17 vs. trip)",
+    "racialModifiers": [
+      "Escape Artist 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate hills or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or herd (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "name": "Akilep, Lady of Stone",
+  "sourceSystem": "pf1",
+  "source": "Mythical Monsters Revisited",
+  "size": "Gargantuan",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 28,
+    "notes": "dex -1, natural +23, size -4",
+    "touch": 5,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 207,
+    "formula": "18d10+108"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (poor)"
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 8,
+    "con": 22,
+    "int": 27,
+    "wis": 21,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +17, Ref +10, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +23, Fly +10, Intimidate +23, Knowledge (arcana) +26, Knowledge (engineering) +17, Knowledge (history) +26, Knowledge (local) +26, Knowledge (religion) +15, Linguistics +10, Perception +30, Sense Motive +16, Spellcraft +26, Use Magic Device +14",
+    "list": {
+      "Diplomacy": "+23",
+      "Fly": "+10",
+      "Intimidate": "+23",
+      "Linguistics": "+10",
+      "Perception": "+30",
+      "Sense Motive": "+16",
+      "Spellcraft": "+26",
+      "Use Magic Device": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Aklo",
+    "Ancient Osiriani",
+    "Celestial",
+    "Common",
+    "Cyclops",
+    "Draconic",
+    "Elven",
+    "Infernal",
+    "Osiriani",
+    "Kelish",
+    "Polyglot",
+    "Sphinx"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 18,
+  "feats": [
+    "Alertness",
+    "Cleave",
+    "Combat Casting",
+    "Flyby Attack",
+    "Hover",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +26 (4d6+12/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This beautiful female sphinx appears both wise and thoughtful.",
+  "meta": {
+    "race": "Female",
+    "class": "unique gynosphinx (Pathfinder RPG Bestiary 257)",
+    "cmb": "34 (+38 grapple)",
+    "cmd": "43 (47 vs. trip)"
+  }
+}

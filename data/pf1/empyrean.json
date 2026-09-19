@@ -1,0 +1,127 @@
+{
+  "name": "Empyrean",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "angel, extraplanar, good",
+  "alignment": "NG",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 38,
+    "notes": "dex +8, insight +7, sacred +14, size -1, deflection vs. evil +4",
+    "touch": 38,
+    "flatFooted": 30
+  },
+  "hp": {
+    "average": 387,
+    "formula": "25d10+250"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 120 ft. (good)"
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 27,
+    "con": 30,
+    "int": 23,
+    "wis": 30,
+    "cha": 25
+  },
+  "saves": {
+    "text": "Fort +24, Ref +18, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (any) +34, Diplomacy +35, Disguise +15, Fly +23, Heal +17, Knowledge (history) +34, Knowledge (planes) +34, Knowledge (religion) +34, Perception +38, Perform (any one) +35, Sense Motive +38, Spellcraft +31, Stealth +32, Use Magic Device +32",
+    "list": {
+      "Diplomacy": "+35",
+      "Disguise": "+15",
+      "Fly": "+23",
+      "Heal": "+17",
+      "Perception": "+38",
+      "Sense Motive": "+38",
+      "Spellcraft": "+31",
+      "Stealth": "+32",
+      "Use Magic Device": "+32"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "detect evil",
+    "detect snares and pits",
+    "true seeing"
+  ],
+  "passivePerception": 48,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+12",
+  "babOrProficiency": 25,
+  "feats": [
+    "Combat Reflexes",
+    "Dazing Assault",
+    "Deadly Aim",
+    "Furious Focus",
+    "Improved Critical (halberd)",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Manyshot",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Quicken Spell",
+    "Rapid Shot",
+    "Weapon Focus (halberd)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 holy merciful halberd +36/+31/+26/+21 (2d8+16/19-20/×3) or"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 holy merciful composite longbow +33/+28/+23/+18 (2d6+11/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Light spills out through cracks in this humanoid being’s clothing and armor, and its four wings are composed of wispy blue light.",
+  "meta": {
+    "cmb": "+36",
+    "cmd": 75,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any good-aligned planes"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (mwk halberd, mwk composite longbow [+10 Str], other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "name": "Trelmarixian",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "daemon, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "27",
+  "level": null,
+  "xp": 3276800,
+  "ac": {
+    "value": 45,
+    "notes": "deflection +4, dex +9, natural +10, profane +12",
+    "touch": 35,
+    "flatFooted": 36
+  },
+  "hp": {
+    "average": 656,
+    "formula": "32d10+480"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 30 ft. (average)"
+  },
+  "abilities": {
+    "str": 38,
+    "dex": 29,
+    "con": 40,
+    "int": 31,
+    "wis": 32,
+    "cha": 31
+  },
+  "saves": {
+    "text": "Fort +29, Ref +31, Will +33",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +41, Bluff +45, Fly +44, Intimidate +45, Knowledge (arcana) +42, Knowledge (dungeoneering) +42, Knowledge (engineering) +42, Knowledge (history) +42, Knowledge (religion) +42, Knowledge (planes) +45, Perception +46, Ride +44, Sense Motive +46, Spellcraft +45, Stealth +44, Use Magic Device +45",
+    "list": {
+      "Acrobatics": "+41",
+      "Bluff": "+45",
+      "Fly": "+44",
+      "Intimidate": "+45",
+      "Perception": "+46",
+      "Ride": "+44",
+      "Sense Motive": "+46",
+      "Spellcraft": "+45",
+      "Stealth": "+44",
+      "Use Magic Device": "+45"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "true seeing"
+  ],
+  "passivePerception": 56,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Infernal",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+13",
+  "babOrProficiency": 32,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Greater Vital Strike",
+    "Improved Critical (bite)",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Improved Trip",
+    "Improved Vital Strike",
+    "Mounted Combat",
+    "Power Attack",
+    "Quicken Spell-Like Ability (hunger for flesh)",
+    "Ride-By Attack",
+    "Spirited Charge",
+    "Tiring Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "3 bites +46 (4d6+21/19-20 plus energy drain), 2 claws +46 (3d8+14/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This starving-thin man has a trio of jackal’s heads with jagged, crystalline teeth. His oily black flesh ripples disturbingly.",
+  "meta": {
+    "cmb": "46 (+48 trip)",
+    "cmd": "81 (83 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or mounted (Trelmarixian and the Black Horse)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

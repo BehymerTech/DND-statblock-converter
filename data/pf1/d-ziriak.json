@@ -1,0 +1,104 @@
+{
+  "name": "D’ziriak",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "extraplanar",
+  "alignment": "N",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 16,
+    "notes": "dex +2, natural +4",
+    "touch": 12,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 26,
+    "formula": "4d10+4"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 15,
+    "con": 12,
+    "int": 13,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +2, Ref +6, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +8, Knowledge (arcana) +8, Knowledge (planes) +8, Perception +9, Sense Motive +9, Stealth +9, Survival +7, Use Magic Device +8",
+    "list": {
+      "Climb": "+8",
+      "Perception": "+9",
+      "Sense Motive": "+9",
+      "Stealth": "+9",
+      "Survival": "+7",
+      "Use Magic Device": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "D’ziriak",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 4,
+  "feats": [
+    "Combat Reflexes",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +6 (1d6+1 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This four-armed creature looks like a cross between a human and a black and ochre termite. Its body and arms display glowing runes.",
+  "meta": {
+    "cmb": "5 (+9 grapple)",
+    "cmd": 17,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land (Plane of Shadow)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, swarm (3-20), or hive (21-100)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

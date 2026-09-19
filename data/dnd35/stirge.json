@@ -1,0 +1,103 @@
+{
+  "name": "Stirge",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Tiny",
+  "type": "Magical Beast",
+  "subtype": "",
+  "alignment": "Always neutral",
+  "cr": "1/2",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": "+2 size, +4 Dex",
+    "touch": 16,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 5,
+    "formula": "1d10"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": 40,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft (2 squares), fly 40 ft. (average)"
+  },
+  "abilities": {
+    "str": 3,
+    "dex": 19,
+    "con": 10,
+    "int": 1,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +2, Ref +6, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Hide +14, Listen +4, Spot +4;",
+    "list": {
+      "Hide": "+14",
+      "Listen": "+4",
+      "Spot": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 1,
+  "feats": [
+    "Alertness",
+    "Weapon Finesse (B)"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Attach, blood drain"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., low-light vision"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Touch +7 melee (attach)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Touch +7 melee (attach)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A stirge's coloration ranges from rust-red to reddish-brown, with a dirty yellow underside. The proboscis is pink at the tip, fading to gray at its base.",
+    "grapple": "-11 (+1 when attached)",
+    "spaceReach": "2-1/2 ft./0 ft.",
+    "environment": "Warm marshes",
+    "organization": "Colony (2-4), flock (5-8), or storm (9-14)",
+    "treasure": "None",
+    "advancement": "---",
+    "leveladjustment": "---"
+  }
+}

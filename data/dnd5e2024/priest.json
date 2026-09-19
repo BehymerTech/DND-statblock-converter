@@ -1,0 +1,92 @@
+{
+  "name": "Priest",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "or Small Humanoid",
+  "subtype": "Cleric",
+  "alignment": "Neutral",
+  "cr": "2",
+  "level": null,
+  "xp": 450,
+  "ac": {
+    "value": 13,
+    "notes": ""
+  },
+  "hp": {
+    "average": 38,
+    "formula": "7d8 + 7"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 10,
+    "con": 12,
+    "int": 13,
+    "wis": 16,
+    "cha": 13
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Medicine +7, Perception +5, Religion +5",
+    "list": {
+      "Medicine": "+7",
+      "Perception": "+5",
+      "Religion": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 15,
+  "languages": [
+    "Common plus one other language"
+  ],
+  "initiative": "+0 (10)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The priest makes two attacks, using Mace or Radiant Flame in any combination."
+    },
+    {
+      "name": "Mace",
+      "text": "_Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 6 (1d6 + 3) Bludgeoning damage plus 5 (2d4) Radiant damage."
+    },
+    {
+      "name": "Radiant Flame",
+      "text": "_Ranged Attack Roll:_ +5, range 60 ft. _Hit:_ 11 (2d10) Radiant damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The priest casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 13): <br> &emsp;**At Will:** _Light, Thaumaturgy_ <br> &emsp;**1/Day:** _Spirit Guardians_"
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Divine Aid (3/Day)",
+      "text": "The priest casts _Bless, Dispel Magic, Healing Word,_ or _Lesser Restoration,_ using the same spellcasting ability as Spellcasting. ## Pseudodragon"
+    }
+  ],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

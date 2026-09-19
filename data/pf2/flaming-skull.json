@@ -1,0 +1,98 @@
+{
+  "name": "Flaming Skull",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 30.",
+  "size": "Tiny",
+  "type": "Undead",
+  "subtype": "Mindless",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 30,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 feet, fly 30 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 18,
+    "con": 12,
+    "int": 0,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +5, Ref +10, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8), (Acrobatics: +10 (1d20+10) to Maneuver in Flight); ",
+    "list": {
+      "Acrobatics": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Common",
+    "Necril"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Fiery Explosion",
+      "text": "When destroyed, a flaming skull explodes in a blast of fire and bone that deals 1d6 (1d6) piercing damage plus 1d6 (1d6) fire damage to each adjacent creature (DC 18 basic Reflex save)."
+    },
+    {
+      "name": "Flaming Shroud",
+      "text": "A flaming skull is shrouded in hideous flames. It deals 1d6 (1d6) fire damage to any unattended item it touches and on a forehead Strike. On a critical hit with a Strike, the target catches fire, taking 1d4 (1d4) persistent fire damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ forehead +10 (finesse); Damage 1d6+3 (1d6+3) bludgeoning plus 1d6 (1d6) fire"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ spitfire +10 (agile, fire); Damage 1d12+2 (1d12+2) fire"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      4,
+      1,
+      -5,
+      3,
+      0
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "name": "Caligni",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dark folk",
+  "alignment": "CN",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 15,
+    "notes": "armor +2, dex +3",
+    "touch": 13,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 12,
+    "formula": "1d8+4"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 17,
+    "con": 16,
+    "int": 10,
+    "wis": 8,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +3, Ref +5, Will -1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Bluff +4, Climb +5, Disguise +4, Escape Artist +7, Knowledge (dungeoneering) +4, Perception +3, Stealth +7",
+    "list": {
+      "Acrobatics": "+7",
+      "Bluff": "+4",
+      "Climb": "+5",
+      "Disguise": "+4",
+      "Escape Artist": "+7",
+      "Perception": "+3",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "see in darkness"
+  ],
+  "passivePerception": 13,
+  "languages": [
+    "Common",
+    "Dark Folk"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 0,
+  "feats": [
+    "Improved Initiative"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "short sword +1 (1d6+1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dart +3 (1d4+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Beneath ragged shreds, this lean figure’s chalky skin darkens to charred hues at the extremities.",
+  "meta": {
+    "race": "Caligni",
+    "class": "rogue 1",
+    "cmb": "+1",
+    "cmd": 14,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, family (2-4), or dark folk community (2-4 plus 20-40 other dark folk)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (short sword, darts [10], leather armor, thieves’ tools, other treasure)"
+      }
+    ]
+  }
+}

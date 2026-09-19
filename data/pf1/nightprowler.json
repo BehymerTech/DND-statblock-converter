@@ -1,0 +1,116 @@
+{
+  "name": "Nightprowler",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 102: Breaking the Bones of Hell",
+  "size": "Large",
+  "type": "undead",
+  "subtype": "extraplanar, nightshade",
+  "alignment": "CE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 25,
+    "notes": "dex +5, dodge +1, natural +10, size -1",
+    "touch": 15,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 136,
+    "formula": "13d8+78"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 20,
+    "con": "None",
+    "int": 14,
+    "wis": 19,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +10, Ref +11, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +18, Climb +23, Knowledge (religion) +18, Perception +20, Stealth +23, Survival +17",
+    "list": {
+      "Acrobatics": "+18",
+      "Climb": "+23",
+      "Perception": "+20",
+      "Stealth": "+23",
+      "Survival": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darksense",
+    "darkvision",
+    "detect magic",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Reflexes",
+    "Command Undead",
+    "Dodge",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Power Attack",
+    "Skill Focus (Stealth)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +18 (3d6+10/19-20 plus creeping dark and grab), 2 claws +18 (1d8+10 plus creeping dark)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This bulky predator’s feline form is cloaked in shadows, save for its red eyes, which glow with a baleful hatred.",
+  "meta": {
+    "cmb": "+17",
+    "cmd": 33,
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Negative Energy Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or pride (3-9)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

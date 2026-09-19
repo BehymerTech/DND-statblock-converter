@@ -1,0 +1,107 @@
+{
+  "name": "Fire Giant Strongarm",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "fire, giant",
+  "alignment": "LE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 31,
+    "notes": "armor +9, deflection +1, dex +1, natural +8, shield +3, size -1",
+    "touch": 11,
+    "flatFooted": 30
+  },
+  "hp": {
+    "average": 158,
+    "formula": "15d8+3d10+75"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 13,
+    "con": 19,
+    "int": 12,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +16, Ref +7, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +22, Craft (weapons) +9, Intimidate +21, Perception +24",
+    "list": {
+      "Climb": "+22",
+      "Intimidate": "+21",
+      "Perception": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 14,
+  "feats": [
+    "Improved Overrun",
+    "Impact Critical Shot",
+    "Improved Sunder",
+    "Iron Will",
+    "Point-Blank Shot",
+    "Power Attack",
+    "Precise Shot",
+    "Quick Draw",
+    "Smoking Boulder",
+    "Target of Opportunity",
+    "Weapon Focus (warhammer)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 flaming warhammer +27/+22/+17 (2d6+13/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +15/+10/+5 (1d8+18 plus 1d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Fire",
+    "class": "giant fighter 3",
+    "cmb": "27 (+29 overrun, +29 sunder)",
+    "cmd": "39 (41 vs. overrun, 41 vs. sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm mountains"
+      }
+    ]
+  }
+}

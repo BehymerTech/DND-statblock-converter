@@ -1,0 +1,88 @@
+{
+  "name": "Giant Cockroach",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 53.",
+  "size": "Small",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, climb 25 feet, fly 15 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 16,
+    "con": 12,
+    "int": 0,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +6, Ref +8, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +6 (1d20+6); __Stealth__: +8 (1d20+8); ",
+    "list": {
+      "Acrobatics": "+6",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Scurry",
+      "text": "⬲ Trigger The giant cockroach is targeted by a melee attack Effect The giant cockroach gains a +2 circumstance bonus to AC against the triggering attack. After the attack resolves, the cockroach Strides, Climbs, or Flies up to 10 feet."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ mandibles +8 (agile, finesse); Damage 1d6+1 (1d6+1) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      3,
+      1,
+      -5,
+      1,
+      -1
+    ]
+  }
+}

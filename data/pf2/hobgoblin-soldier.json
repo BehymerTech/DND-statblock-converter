@@ -1,0 +1,108 @@
+{
+  "name": "Hobgoblin Soldier",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 206.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Goblin",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 20,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +5, Ref +6, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +6 (1d20+6); __Stealth__: +6 (1d20+6); ",
+    "list": {
+      "Athletics": "+6",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common",
+    "Goblin"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Shield Block",
+      "text": "⬲"
+    },
+    {
+      "name": "Formation",
+      "text": "When it's adjacent to at least two other allies, the hobgoblin soldier gains a +1 circumstance bonus to AC and saving throws. This bonus increases to +2 to Reflex saves against area effects."
+    },
+    {
+      "name": "Items",
+      "text": "hide armor, longsword, shortbow (10 arrows), wooden shield (Hardness 3, HP 12, BT 6);"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ longsword +8 (versatile p); Damage 1d8+3 (1d8+3) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ shortbow +8 (deadly 1d10, range increment 60 feet, reload 0); Damage 1d6 (1d6) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      3,
+      2,
+      0,
+      2,
+      -1
+    ],
+    "items": "hide armor, longsword, shortbow (10 arrows), wooden shield (Hardness 3, HP 12, BT 6);"
+  }
+}

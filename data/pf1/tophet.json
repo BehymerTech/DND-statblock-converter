@@ -1,0 +1,91 @@
+{
+  "name": "Tophet",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Pathfinder No. 21: The Jackal's Price",
+  "size": "Large",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 24,
+    "notes": "dex -1, natural +16, size -1",
+    "touch": 8,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 107,
+    "formula": "14d10+30"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 8,
+    "con": "None",
+    "int": "None",
+    "wis": 12,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +4, Ref +3, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "-1",
+  "babOrProficiency": 14,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +21 (2d6+8 plus grab), 2 slams +21 (1d6+8)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A distended metal maw filled with blunt, sculpted teeth stretches across the upper portion of this rotund iron effigy.",
+  "meta": {
+    "cmb": "23 (+27 grapple)",
+    "cmd": "32 (36 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or prison (2-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

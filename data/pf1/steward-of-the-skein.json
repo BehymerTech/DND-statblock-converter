@@ -1,0 +1,120 @@
+{
+  "name": "Steward of the Skein",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Gods, Pathfinder No. 44: Trial of the Beast",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "extraplanar, herald, psychopomp, shapechanger",
+  "alignment": "N",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 31,
+    "notes": "deflection +4, dex +3, dodge +1, insight +5, natural +8",
+    "touch": 23,
+    "flatFooted": 27
+  },
+  "hp": {
+    "average": 199,
+    "formula": "19d10+95"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 150 ft. (average)"
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 16,
+    "con": 20,
+    "int": 18,
+    "wis": 21,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +15, Ref +20, Will +22",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +19, Diplomacy +16, Fly +15, Handle Animal +16, Heal +27, Intimidate +28, Knowledge (history) +26, Knowledge (planes) +26, Knowledge (religion) +26, Knowledge (nature) +13, Perception +27, Sense Motive +27, Stealth +15",
+    "list": {
+      "Bluff": "+19",
+      "Diplomacy": "+16",
+      "Fly": "+15",
+      "Handle Animal": "+16",
+      "Heal": "+27",
+      "Intimidate": "+28",
+      "Perception": "+27",
+      "Sense Motive": "+27",
+      "Stealth": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision",
+    "detect chaos/evil/good/law",
+    "spiritsense"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 19,
+  "feats": [
+    "Combat Casting",
+    "Combat Expertise",
+    "Dodge",
+    "Improved Disarm",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Mobility",
+    "Spell Penetration"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +26 (2d10+7 plus gaze)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Skulls adorn the armor of this winged woman. Her helm reveals nothing of her features but a pair of glowing eyes.",
+  "meta": {
+    "cmb": "26 (+28 disarm)",
+    "cmd": "49 (51 vs. disarm)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Boneyard)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

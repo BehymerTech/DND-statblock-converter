@@ -1,0 +1,102 @@
+{
+  "name": "Young Bronze Dragon",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "water",
+  "alignment": "LG",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 21,
+    "notes": "dex +1, natural +11, size -1",
+    "touch": 10,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 95,
+    "formula": "10d12+30"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (poor), swim 60 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 12,
+    "con": 17,
+    "int": 16,
+    "wis": 17,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +10, Ref +8, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +16, Fly +8, Intimidate +16, Knowl. (arcana) +16, Perception +20, Sense Motive +20, Spellcraft +16, Stealth +10, Swim +26",
+    "list": {
+      "Diplomacy": "+16",
+      "Fly": "+8",
+      "Intimidate": "+16",
+      "Perception": "+20",
+      "Sense Motive": "+20",
+      "Spellcraft": "+16",
+      "Stealth": "+10",
+      "Swim": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses"
+  ],
+  "passivePerception": 30,
+  "languages": [
+    "Aquan",
+    "Common",
+    "Draconic",
+    "Elven"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 10,
+  "feats": [
+    "Alertness",
+    "Flyby Attack",
+    "Multiattack",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +14 (2d6+7), 2 claws +14 (1d8+5), 2 wings +12 (1d6+2), tail +12 (1d8+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This sleek dragon is covered in dull metallic scales that range in color from shining bronze to mottled blue.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": "27 (31 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate coastlines"
+      }
+    ]
+  }
+}

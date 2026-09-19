@@ -1,0 +1,111 @@
+{
+  "name": "Nosferatu Thrall",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 284.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 135,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 14,
+    "int": 14,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +16, Ref +17, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +13 (1d20+13); __Athletics__: +14 (1d20+14); __Deception__: +15 (1d20+15); __Religion__: +14 (1d20+14); ",
+    "list": {
+      "Acrobatics": "+13",
+      "Athletics": "+14",
+      "Deception": "+15",
+      "Religion": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 26,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Mindbound",
+      "text": ""
+    },
+    {
+      "name": "Mortal Shield",
+      "text": "⬲"
+    },
+    {
+      "name": "Rally",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "+1 striking greatclub;"
+    },
+    {
+      "name": "Swing Back",
+      "text": "⬻ Requirements The nosferatu thrall's last action was a greatclub Strike that missed Frequency once per round Effect The nosferatu thrall makes another greatclub Strike against the same target, using the previous Strike's multiple attack penalty."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ greatclub +19 (backswing, magical, shove); Damage 2d10+10 (2d10+10) bludgeoning"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +18 (agile, nonlethal); Damage 2d6+10 (2d6+10) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      3,
+      2,
+      2,
+      2,
+      1
+    ],
+    "items": "+1 striking greatclub;"
+  }
+}

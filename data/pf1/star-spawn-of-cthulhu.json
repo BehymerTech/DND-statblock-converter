@@ -1,0 +1,116 @@
+{
+  "name": "Star-Spawn of Cthulhu",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 46: Wake of the Watcher",
+  "size": "Huge",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "20",
+  "level": null,
+  "xp": 307200,
+  "ac": {
+    "value": 36,
+    "notes": "dex +1, natural +27, size -2",
+    "touch": 9,
+    "flatFooted": 35
+  },
+  "hp": {
+    "average": 362,
+    "formula": "25d8+250"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (average), swim 40 ft."
+  },
+  "abilities": {
+    "str": 42,
+    "dex": 13,
+    "con": 30,
+    "int": 23,
+    "wis": 29,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +18, Ref +9, Will +25",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +25, Intimidate +35, Knowledge (arcana) +31, Knowledge (geography) +31, Knowledge (planes) +31, Perception +37, Sense Motive +34, Spellcraft +34, Swim +52, Use Magic Device +32",
+    "list": {
+      "Fly": "+25",
+      "Intimidate": "+35",
+      "Perception": "+37",
+      "Sense Motive": "+34",
+      "Spellcraft": "+34",
+      "Swim": "+52",
+      "Use Magic Device": "+32"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision"
+  ],
+  "passivePerception": 47,
+  "languages": [
+    "Aklo",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 18,
+  "feats": [
+    "Awesome Blow",
+    "Critical Focus",
+    "Greater Vital Strike",
+    "Improved Bull Rush",
+    "Improved Critical (claw)",
+    "Improved Critical (tentacle)",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Power Attack",
+    "Staggering Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +32 (2d6+16/19-20), 6 tentacles +27 (1d8+8/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A mountainous form, this hideous creature is humanoid in general shape, but its hateful face is a writhing mass of tentacles.",
+  "meta": {
+    "cmb": "36 (+38 bull rush, +40 grapple)",
+    "cmd": 47,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cult (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

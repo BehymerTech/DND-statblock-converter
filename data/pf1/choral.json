@@ -1,0 +1,112 @@
+{
+  "name": "Choral",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Chronicle of the Righteous",
+  "size": "Small",
+  "type": "outsider",
+  "subtype": "angel, extraplanar, good",
+  "alignment": "NG",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "dex +3, natural +5, size +1, deflection vs. evil +4",
+    "touch": 14,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 68,
+    "formula": "8d10+24"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 16,
+    "con": 15,
+    "int": 16,
+    "wis": 16,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +6, Ref +9, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +14, Diplomacy +14, Escape Artist +11, Fly +20, Knowledge (planes) +14, Knowledge (religion) +14, Perception +16, Perform (sing) +14, Sense Motive +16",
+    "list": {
+      "Acrobatics": "+14",
+      "Diplomacy": "+14",
+      "Escape Artist": "+11",
+      "Fly": "+20",
+      "Perception": "+16",
+      "Sense Motive": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect evil"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 8,
+  "feats": [
+    "Alertness",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +10 (1d3+1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "piercing hymn +12 touch (4d6 sonic plus deafened)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This shimmering being looks like a miniature human with broad, iridescent wings and hair that slowly ripples through the air.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": 21,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any good-aligned planes"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solo, duet, or Ensemble (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

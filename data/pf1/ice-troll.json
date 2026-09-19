@@ -1,0 +1,101 @@
+{
+  "name": "Ice Troll",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "cold, giant",
+  "alignment": "CE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +4, natural +4, size -1",
+    "touch": 13,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 45,
+    "formula": "6d8+18"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 18,
+    "con": 16,
+    "int": 9,
+    "wis": 10,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +8, Ref +8, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +7, Perception +9, Survival +4",
+    "list": {
+      "Intimidate": "+7",
+      "Perception": "+9",
+      "Survival": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Giant"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 4,
+  "feats": [
+    "Intimidating Prowess",
+    "Lightning Reflexes",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "battleaxe +7 (2d6+4), bite +2 (1d6+2), claw +2 (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This large creature has light blue-green skin and cold, piercing eyes. Dressed in rough furs, its tusked jaw juts forth in a long underbite.",
+  "meta": {
+    "cmb": "+9",
+    "cmd": 23,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold mountains or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or band (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

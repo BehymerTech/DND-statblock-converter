@@ -1,0 +1,94 @@
+{
+  "name": "Plague Locust Swarm",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 79: The Half-Dead City",
+  "size": "Fine",
+  "type": "vermin",
+  "subtype": "swarm",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 22,
+    "notes": "dex +4, size +8",
+    "touch": 22,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 90,
+    "formula": "12d8+36"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 40 ft. (average), climb 10 ft."
+  },
+  "abilities": {
+    "str": 1,
+    "dex": 18,
+    "con": 17,
+    "int": "None",
+    "wis": 13,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +11, Ref +8, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +12, Fly +12, Perception +1",
+    "list": {
+      "Climb": "+12",
+      "Fly": "+12",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 11,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 9,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "swarm (4d6 plus distraction)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Buzzing with an ear-shattering drone, this cloud is full of particularly vicious-looking locusts.",
+  "meta": {
+    "cmb": "None",
+    "cmd": "None",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts or plains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or calamity (3-64)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Dreamspawn Hungry Fog",
+  "sourceSystem": "pf1",
+  "source": "The House on Hook Street",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "extraplanar Pathfinder RPG Bestiary 3 152",
+  "alignment": "NE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 7,
+    "notes": "dex -1, size -2",
+    "touch": 7,
+    "flatFooted": 7
+  },
+  "hp": {
+    "average": 59,
+    "formula": "7d8+28"
+  },
+  "speed": {
+    "walk": 0,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "0 ft., fly 15 ft. (perfect)"
+  },
+  "abilities": {
+    "str": "None",
+    "dex": 8,
+    "con": 18,
+    "int": "None",
+    "wis": 1,
+    "cha": 3
+  },
+  "saves": {
+    "text": "Fort +6, Ref +1, Will -3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +3, Perception -5",
+    "list": {
+      "Fly": "+3",
+      "Perception": "-5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision",
+    "thoughtsense"
+  ],
+  "passivePerception": 5,
+  "languages": [],
+  "initiative": "-1",
+  "babOrProficiency": 5,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+3 touch (6d6 negative energy)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A miasma of swirling, nightmarish shapes spill forth from the torn-asunder jaws of a corpse the mists drag in their wake.",
+  "meta": {
+    "cmb": "+7",
+    "cmd": "16 (can’t be tripped)"
+  }
+}

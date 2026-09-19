@@ -1,0 +1,123 @@
+{
+  "name": "Mogaru",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Colossal",
+  "type": "magical beast",
+  "subtype": "kaiju, water",
+  "alignment": "CN",
+  "cr": "28",
+  "level": null,
+  "xp": 4915200,
+  "ac": {
+    "value": 47,
+    "notes": "dex +5, natural +40, size -8",
+    "touch": 7,
+    "flatFooted": 42
+  },
+  "hp": {
+    "average": 697,
+    "formula": "34d10+510"
+  },
+  "speed": {
+    "walk": 100,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "100 ft., swim 100 ft."
+  },
+  "abilities": {
+    "str": 50,
+    "dex": 21,
+    "con": 41,
+    "int": 3,
+    "wis": 30,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +34, Ref +24, Will +23",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +45, Swim +49",
+    "list": {
+      "Perception": "+45",
+      "Swim": "+49"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "see invisibility",
+    "sense kaiju"
+  ],
+  "passivePerception": 55,
+  "languages": [
+    "Aquan (can’t speak)"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 34,
+  "feats": [
+    "Combat Reflexes",
+    "Critical Focus",
+    "Greater Bull Rush",
+    "Greater Sunder",
+    "Greater Vital Strike",
+    "Improved Bull Rush",
+    "Improved Critical (bite)",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Improved Sunder",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack",
+    "Staggering Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +46 (8d6+20/19-20 plus grab), 2 claws +46 (4d8+20/19-20), 2 tail slaps +44 (6d6+10/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "firebolts +31 touch (damage variable; see below)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering saurian lumbers on its hind legs, its twin tails thrashing and the spines on its back glowing with red energy.",
+  "meta": {
+    "cmb": "62 (+66 bull rush, +66 grapple, +66 sunder)",
+    "cmd": "79 (81 vs. bull rush, 81 vs. sunder)",
+    "racialModifiers": [
+      "Perception 16"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm forests or water"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

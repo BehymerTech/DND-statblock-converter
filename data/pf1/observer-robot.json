@@ -1,0 +1,110 @@
+{
+  "name": "Observer Robot",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 86: Lords of Rust",
+  "size": "Tiny",
+  "type": "construct",
+  "subtype": "robot",
+  "alignment": "N",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +2, natural +4, size +2",
+    "touch": 14,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 16,
+    "formula": "3d10"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 60 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 15,
+    "con": "None",
+    "int": 10,
+    "wis": 17,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +1, Ref +5, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +14, Perception +15, Sense Motive +5, Stealth +11, Survival +5",
+    "list": {
+      "Fly": "+14",
+      "Perception": "+15",
+      "Sense Motive": "+5",
+      "Stealth": "+11",
+      "Survival": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Androffan",
+    "Common"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 3,
+  "feats": [
+    "Alertness",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +6 (1d2+1), integrated laser torch +6 (1d10)"
+    },
+    {
+      "name": "Ranged",
+      "text": "integrated stun gun +7 (1d8 plus nonlethal)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This small robot is reminiscent of a beetle with a pair of pincers extending from the front of its body.",
+  "meta": {
+    "cmb": "+3",
+    "cmd": "14 (22 vs. trip)",
+    "racialModifiers": [
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Numeria)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or deployment (2-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

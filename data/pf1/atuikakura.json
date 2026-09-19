@@ -1,0 +1,111 @@
+{
+  "name": "Atuikakura",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Gargantuan",
+  "type": "magical beast",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 29,
+    "notes": "dex +7, natural +16, size -4",
+    "touch": 13,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 207,
+    "formula": "18d10+108"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., swim 120 ft."
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 25,
+    "con": 22,
+    "int": 3,
+    "wis": 18,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +17, Ref +18, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +16, Stealth +15, Swim +21",
+    "list": {
+      "Perception": "+16",
+      "Stealth": "+15",
+      "Swim": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "tremorsense"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Aquan"
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 18,
+  "feats": [
+    "Combat Reflexes",
+    "Critical Focus",
+    "Improved Critical (slam)",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack",
+    "Staggering Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +27 (3d6+13 plus poison), slam +27 (2d8+13/19-20 plus poison), tentacles +25 (2d6+6 plus grab and poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This enormous red wormlike creature has several rows of white spines and a circular mouth filled with hooked teeth.",
+  "meta": {
+    "cmb": "35 (+39 grapple)",
+    "cmd": "52 (can’t be tripped)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

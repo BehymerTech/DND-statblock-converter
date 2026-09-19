@@ -1,0 +1,115 @@
+{
+  "name": "Thanadaemon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 61.",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "Daemon",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 13",
+  "xp": null,
+  "ac": {
+    "value": 34,
+    "notes": ""
+  },
+  "hp": {
+    "average": 270,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet; air walk;"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 22,
+    "con": 18,
+    "int": 16,
+    "wis": 20,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +21, Ref +23, Will +26",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Arcana__: +22 (1d20+22); __Deception__: +26 (1d20+26); __Intimidation__: +26 (1d20+26); __Religion__: +22 (1d20+22); __Styx lore__: +24 (1d20+24); ",
+    "list": {
+      "Arcana": "+22",
+      "Deception": "+26",
+      "Intimidation": "+26",
+      "Religion": "+22",
+      "Styx lore": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, true seeing"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Common",
+    "Daemonic; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Terrifying Gaze",
+      "text": "(aura, divine, emotion, enchantment, fear, mental, visual); 30 feet. When a creature ends its turn in the aura, it must attempt a DC 30 Will save. If the creature fails, it becomes frightened 2. The creature is then temporarily immune to terrifying gaze (but not Focus Gaze) for 24 hours."
+    },
+    {
+      "name": "Items",
+      "text": "+1 striking bo staff, soul gem (2);"
+    },
+    {
+      "name": "Draining Strike",
+      "text": "(divine, necromancy); When a thanadaemon damages a living creature with a melee Strike, the creature must succeed at a DC 33 Fortitude save or become drained 1. Further damage dealt by the thanadaemon increases the drained condition value by 1 on a failed save, to a maximum of drained 4."
+    },
+    {
+      "name": "Focus Gaze",
+      "text": "⬻ (concentrate, divine, fear, visual); The thanadaemon glares at a single creature they can see within 30 feet. The target must immediately attempt a DC 33 Will save against the thanadaemon's terrifying gaze. If the target was already frightened, a failed save causes it to become fleeing for 1d4 (1d4) rounds. After attempting its save, the creature is temporarily immune to this ability until the start of the thanadaemon's next turn."
+    },
+    {
+      "name": "Soul Crush",
+      "text": "⬺ (manipulate); Requirements The thanadaemon has a soul gem Effect The thanadaemon crushes the soul gem in one hand and gains fast healing 15 for 1 minute."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ bo staff +28 (evil, magical, parry, reach 10 feet, trip); Damage 3d8+14 (3d8+14) bludgeoning plus 1d6 (1d6) negative, 1d6 (1d6) evil, and draining strike"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +27 (agile, evil, finesse, magical); Damage 3d6+14 (3d6+14) slashing plus 1d6 (1d6) evil and draining strike"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      6,
+      4,
+      3,
+      5,
+      7
+    ],
+    "items": "+1 striking bo staff, soul gem (2);"
+  }
+}

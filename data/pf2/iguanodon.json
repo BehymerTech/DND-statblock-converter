@@ -1,0 +1,91 @@
+{
+  "name": "Iguanodon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 82.",
+  "size": "Huge",
+  "type": "Dinosaur",
+  "subtype": "Animal",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 95,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 18,
+    "con": 18,
+    "int": 2,
+    "wis": 18,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +16, Ref +12, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +15 (1d20+15); ",
+    "list": {
+      "Athletics": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 24,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Gouging Lunge",
+      "text": "⬺ The iguanodon makes a thumb spike Strike at an adjacent foe and then Strides up to 15 feet, dragging its thumb spike across the foe to gouge out a brutal wound. If this Strike hits, it deals an extra 1d8 (1d8) points of slashing damage and the following Stride does not trigger reactions from the creature struck. This thumb spike Strike counts as two attacks when calculating the iguanodon's multiple attack penalty."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ thumb spike +17 (deadly d10, reach 10 feet); Damage 2d8+9 (2d8+9) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +15 (reach 15 feet); Damage 2d10+9 (2d10+9) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      4,
+      4,
+      -4,
+      4,
+      0
+    ]
+  }
+}

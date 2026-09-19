@@ -1,0 +1,116 @@
+{
+  "name": "Mother’s Maw",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Gods",
+  "size": "Large",
+  "type": "undead",
+  "subtype": "evil, extraplanar, herald",
+  "alignment": "NE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 30,
+    "notes": "dex +7, natural +14, size -1",
+    "touch": 16,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 189,
+    "formula": "18d8+108"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 40 ft. (average)"
+  },
+  "abilities": {
+    "str": 33,
+    "dex": 25,
+    "con": "None",
+    "int": 21,
+    "wis": 20,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +13, Ref +16, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +25, Fly +26, Intimidate +27, Knowledge (planes) +23, Knowledge (religion) +26, Perception +26, Profession (cook) +23, Sense Motive +26, Stealth +24",
+    "list": {
+      "Acrobatics": "+25",
+      "Fly": "+26",
+      "Intimidate": "+27",
+      "Perception": "+26",
+      "Sense Motive": "+26",
+      "Stealth": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent",
+    "lifesense"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Infernal",
+    "Necril"
+  ],
+  "initiative": "+11",
+  "babOrProficiency": 13,
+  "feats": [
+    "Cleave",
+    "Command Undead",
+    "Critical Focus",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Staggering Critical",
+    "Stunning Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +24 (5d6+17/19-20 plus bleed, disease, drain, and grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This skull is as large as an ogre and surrounded by buzzing flies. Its bat wings carry it through the air as easily as those of a vulture.",
+  "meta": {
+    "cmb": "+25",
+    "cmd": "42 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

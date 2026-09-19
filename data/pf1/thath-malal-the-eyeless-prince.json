@@ -1,0 +1,101 @@
+{
+  "name": "Thath-Malal, the Eyeless Prince",
+  "sourceSystem": "pf1",
+  "source": "Darklands Revisited",
+  "size": "Huge",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 28,
+    "notes": "natural +20, size -2",
+    "touch": 8,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 178,
+    "formula": "17d8+102"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 11,
+    "con": 22,
+    "int": 16,
+    "wis": 15,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +13, Ref +5, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +22, Climb +28, Diplomacy +22, Intimidate +25, Knowledge (arcana) +23, Perception +22, Spellcraft +23",
+    "list": {
+      "Bluff": "+22",
+      "Climb": "+28",
+      "Diplomacy": "+22",
+      "Intimidate": "+25",
+      "Perception": "+22",
+      "Spellcraft": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "trace teleport"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Aklo",
+    "Orvian",
+    "Undercommon",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 12,
+  "feats": [
+    "Cleave",
+    "Great Cleave",
+    "Great Fortitude",
+    "Improved Bull Rush",
+    "Improved Critical (tongue)",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack",
+    "Quicken Spell-Like Ability (suggestion)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 tongues +13 (2d6+8/19-20 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This immense, eyeless worm is covered in a midnight blue hide. Four barbed tongues wriggle out from its open, lily-shaped maw.",
+  "meta": {
+    "race": "Variant",
+    "class": "young neothelid (Pathfinder RPG Bestiary 295, 214)",
+    "cmb": "22 (+24 bull rush)",
+    "cmd": "32 (34 vs. bull rush, can’t be tripped)"
+  }
+}

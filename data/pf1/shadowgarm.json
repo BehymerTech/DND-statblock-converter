@@ -1,0 +1,102 @@
+{
+  "name": "Shadowgarm",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 25: The Bastards of Erebus",
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": "extraplanar",
+  "alignment": "NE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 14,
+    "notes": "armor +2, dex +2",
+    "touch": 12,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d8+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 15,
+    "con": 14,
+    "int": 5,
+    "wis": 14,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +3, Ref +5, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +14, Perception +6, Stealth +6",
+    "list": {
+      "Climb": "+14",
+      "Perception": "+6",
+      "Stealth": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 16,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "3 claws +4 (1d4+2 plus shadow slime)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This amorphous creature loosely resembles a cross between a large snake and an insect. It has black oily skin, and parts of its very flesh blend seamlessly into the shadows. Its constantly moving, writhing form makes it difficult to identify from a distance.",
+  "meta": {
+    "cmb": "+4",
+    "cmd": 16,
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Plane of Shadow)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or gathering (2-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

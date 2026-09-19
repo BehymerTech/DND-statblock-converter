@@ -1,0 +1,115 @@
+{
+  "name": "Basavan",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 136: Temple of the Peacock Spirit",
+  "size": "Huge",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "NG",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 30,
+    "notes": "dex +4, natural +18, size -2",
+    "touch": 12,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 230,
+    "formula": "20d10+120"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 18,
+    "con": 22,
+    "int": 16,
+    "wis": 19,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +14, Ref +16, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +20, Craft (any one) +16, Handle Animal +23, Intimidate +16, Knowledge (geography) +13, Knowledge (nature) +26, Perception +27, Stealth +9, Survival +27, Swim +20",
+    "list": {
+      "Climb": "+20",
+      "Handle Animal": "+23",
+      "Intimidate": "+16",
+      "Perception": "+27",
+      "Stealth": "+9",
+      "Survival": "+27",
+      "Swim": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "harmony with the land"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Common",
+    "Giant",
+    "Sylvan",
+    "Terran"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 20,
+  "feats": [
+    "Acrobatic Steps",
+    "Awesome Blow",
+    "Bristling Bull Rush",
+    "Cleave",
+    "Combat Reflexes",
+    "Great Fortitude",
+    "Improved Bull Rush",
+    "Iron Will",
+    "Nimble Moves",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "quarterstaff +25/+20/+15/+10 (2d6+10)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "An unkempt mass of hair covers this towering giant. Its humanlike face bears a peaceful yet stern countenance.",
+  "meta": {
+    "cmb": "29 (+31 bull rush)",
+    "cmd": "43 (45 vs. bull rush)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests or mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or family (3-5 plus 1d3 mastodons or rocs)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (quarterstaff, other treasures)"
+      }
+    ]
+  }
+}

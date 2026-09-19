@@ -1,0 +1,111 @@
+{
+  "name": "Desert Giant",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 109.",
+  "size": "Large",
+  "type": "Humanoid",
+  "subtype": "Giant",
+  "alignment": "LN",
+  "cr": null,
+  "level": "Creature 9",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 185,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 22,
+    "con": 20,
+    "int": 16,
+    "wis": 18,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +18, Ref +21, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +21 (1d20+21); __Intimidation__: +15 (1d20+15); __Survival__: +19 (1d20+19); __Desert lore__: +18 (1d20+18); ",
+    "list": {
+      "Acrobatics": "+21",
+      "Intimidation": "+15",
+      "Survival": "+19",
+      "Desert lore": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 29,
+  "languages": [
+    "Common",
+    "Jotun"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Catch Rock",
+      "text": "⬲"
+    },
+    {
+      "name": "Sand Spin",
+      "text": "⬻ Requirements The desert giant is standing in sandy terrain Effect The desert giant spins around and stirs up loose sand in a 10-foot emanation. Until the beginning of the giant's next turn, creatures in the area are concealed, and other creatures are concealed to them."
+    },
+    {
+      "name": "Sandwalking",
+      "text": "Desert giants have adapted to the loose sands of the desert and can move across them with ease. Desert giants ignore non-magical difficult terrain and uneven ground caused by sand."
+    },
+    {
+      "name": "Scimitar Blitz",
+      "text": "⬺ The desert giant Strides up to their Speed, Striking once with each of their scimitars at any point during the movement."
+    },
+    {
+      "name": "Throw Rock",
+      "text": "⬻ (page 306);"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ scimitar +21 (forceful, magical, reach 10 feet, sweep); Damage 2d6+12 (2d6+12) slashing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ rock +19 (brutal, range increment 120 feet); Damage 2d8+12 (2d8+12) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      6,
+      5,
+      3,
+      4,
+      0
+    ]
+  }
+}

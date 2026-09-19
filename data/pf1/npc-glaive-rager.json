@@ -1,0 +1,101 @@
+{
+  "name": "NPC Glaive Rager",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "gnome",
+  "alignment": "CN",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 17,
+    "notes": "armor +7, dex +1, rage -2, size +1",
+    "touch": 10,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 105,
+    "formula": "8d12+48"
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 13,
+    "con": 20,
+    "int": 13,
+    "wis": 10,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +12, Ref +4, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +5, Climb +8, Craft (ships) +5, Intimidate +5, Knowledge (nature) +10, Linguistics +3, Perception +12, Profession (sailor) +5, Survival +10, Swim +10",
+    "list": {
+      "Acrobatics": "+5",
+      "Climb": "+8",
+      "Intimidate": "+5",
+      "Linguistics": "+3",
+      "Perception": "+12",
+      "Survival": "+10",
+      "Swim": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Aquan",
+    "Auran",
+    "Common",
+    "Gnome",
+    "Sylvan"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 8,
+  "feats": [
+    "Combat Expertise",
+    "Greater Trip",
+    "Improved Trip",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk cold iron glaive +15/+10 (1d8+7/×3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite longbow +11/+6 (1d6+5/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Gnome",
+    "class": "barbarian 8",
+    "cmb": "12 (+16 trip)",
+    "cmd": "21 (23 vs. trip)"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "name": "Lamia",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 20,
+    "notes": "dex +3, dodge +1, natural +7, size -1",
+    "touch": 13,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 67,
+    "formula": "9d10+18"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 14,
+    "int": 13,
+    "wis": 17,
+    "cha": 13
+  },
+  "saves": {
+    "text": "Fort +7, Ref +9, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +9, Diplomacy +4, Disguise +6, Intimidate +10, Knowledge (religion) +4, Perception +15, Stealth +15, Survival +12",
+    "list": {
+      "Bluff": "+9",
+      "Diplomacy": "+4",
+      "Disguise": "+6",
+      "Intimidate": "+10",
+      "Perception": "+15",
+      "Stealth": "+15",
+      "Survival": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Abyssal",
+    "Common"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 9,
+  "feats": [
+    "Dodge",
+    "Great Fortitude",
+    "Iron Will",
+    "Mobility",
+    "Spring Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 dagger +13/+8 (1d4+4/19-20), touch +7 (1d4 Wisdom drain), 2 claws +7 (1d4+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature’s upper torso is that of a comely woman with cat’s eyes and sharp fangs, while her lower body is that of a lion.",
+  "meta": {
+    "cmb": "+14",
+    "cmd": "28 (32 vs. trip)",
+    "racialModifiers": [
+      "Bluff 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate deserts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cult (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+1 dagger, other treasure)"
+      }
+    ]
+  }
+}

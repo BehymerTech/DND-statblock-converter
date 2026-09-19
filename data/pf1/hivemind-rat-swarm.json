@@ -1,0 +1,114 @@
+{
+  "name": "Hivemind Rat Swarm",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Tiny",
+  "type": "magical beast",
+  "subtype": "swarm",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 20,
+    "notes": "dex +2, insight +6, size +2",
+    "touch": 20,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 76,
+    "formula": "9d10+27"
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 ft., climb 15 ft., swim 15 ft."
+  },
+  "abilities": {
+    "str": 2,
+    "dex": 15,
+    "con": 14,
+    "int": 17,
+    "wis": 13,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +10, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +14, Climb +14, Knowledge (arcana) +15, Perception +16, Stealth +22, Swim +10",
+    "list": {
+      "Acrobatics": "+14",
+      "Climb": "+14",
+      "Perception": "+16",
+      "Stealth": "+22",
+      "Swim": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent",
+    "thoughtsense"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Goblin",
+    "Halfling",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Casting",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Skill Focus (Perception)",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "swarm (2d6 plus disease and distraction)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A swarm of rats groups around a barrel, every pair of red eyes staring intently at one rat in the center of the mass.",
+  "meta": {
+    "cmb": "None",
+    "cmd": "None",
+    "racialModifiers": [
+      "Stealth 10"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or infestation (2-5 swarms)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

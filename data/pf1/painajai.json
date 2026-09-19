@@ -1,0 +1,116 @@
+{
+  "name": "Painajai",
+  "sourceSystem": "pf1",
+  "source": "Occult Bestiary",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 28,
+    "notes": "dex +3, natural +16, size -1",
+    "touch": 12,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 203,
+    "formula": "14d10+126"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., climb 40 ft."
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 16,
+    "con": 29,
+    "int": 18,
+    "wis": 18,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +18, Ref +12, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +20, Bluff +21, Climb +33, Intimidate +21, Knowledge (local) +18, Knowledge (nature) +18, Knowledge (planes) +21, Perception +21, Stealth +16, Survival +21",
+    "list": {
+      "Acrobatics": "+20",
+      "Bluff": "+21",
+      "Climb": "+33",
+      "Intimidate": "+21",
+      "Perception": "+21",
+      "Stealth": "+16",
+      "Survival": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "true seeing"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Draconic",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 14,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Critical (spear)",
+    "Improved Initiative",
+    "Improved Vital Strike",
+    "Iron Will",
+    "Vital Strike",
+    "Weapon Focus (spear)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 cold iron spear +23/+18/+13 (2d6+13/19-20/×3), bite +16 (1d8+4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 cold iron spear +18 (2d6+9/19-20/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The eight spider eyes of this pale, towering humanoid glisten hungrily, and its mouth contains dozens of sharp teeth. It carries a barbed spear with a long, clinking chain attached to its end.",
+  "meta": {
+    "cmb": "+23",
+    "cmd": 36,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss or Dimension of Dreams)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+1 cold iron spear, other treasure)"
+      }
+    ]
+  }
+}

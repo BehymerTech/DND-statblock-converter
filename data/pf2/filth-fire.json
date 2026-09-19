@@ -1,0 +1,98 @@
+{
+  "name": "Filth Fire",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 110.",
+  "size": "Medium",
+  "type": "Fire",
+  "subtype": "Elemental",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 70,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 20,
+    "con": 18,
+    "int": 6,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +12, Ref +13, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +13 (1d20+13); __Athletics__: +9 (1d20+9); ",
+    "list": {
+      "Acrobatics": "+13",
+      "Athletics": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, smoke vision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Ignan (can't speak any language)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Smoke Vision",
+      "text": "The filth fire ignores the concealed condition from smoke."
+    },
+    {
+      "name": "Noxious Burst",
+      "text": "⬺ Toxic materials and churning rubbish within the filth fire's body explode in one of three ways. The filth fire chooses the effect, but it can't make the same choice twice in a row.<ul class='inner-bullet-list'><li>Fiery Beam (evocation, fire, primal) The filth fire expels a 30-foot line of flame that deals 3d6 (3d6) fire damage with a DC 21 basic Reflex save.</li><li>Shrapnel Blast (evocation, primal) The filth fire shoots jagged rubbish out in a 5-foot emanation that deals 2d12 (2d12) piercing damage with a DC 21 basic Reflex save.</li><li>Toxic Fumes (evocation, poison, primal) The filth fire belches a 15-foot cone of toxic smoke that deals 2d6 (2d6) poison damage (DC 21 basic Fortitude save). A creature that fails is also sickened 1 (or sickened 2 on a critical failure).</li></ul>"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ burning lash +13 (finesse); Damage 2d6+3 (2d6+3) bludgeoning plus 1d6 (1d6) persistent fire"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ ember ball +13 (fire, range increment 20 feet); Damage 1d6+3 (1d6+3) bludgeoning plus 1d6 (1d6) persistent fire"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      5,
+      4,
+      -2,
+      3,
+      0
+    ]
+  }
+}

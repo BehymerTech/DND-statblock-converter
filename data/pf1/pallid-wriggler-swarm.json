@@ -1,0 +1,97 @@
+{
+  "name": "Pallid Wriggler Swarm",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 109: In Search of Sanity",
+  "size": "Diminutive",
+  "type": "aberration",
+  "subtype": "swarm",
+  "alignment": "NE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 16,
+    "notes": "dex +2, size +4",
+    "touch": 16,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 13,
+    "formula": "3d8"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., fly 40 ft. (good), burrow 10 ft."
+  },
+  "abilities": {
+    "str": 3,
+    "dex": 15,
+    "con": 11,
+    "int": 2,
+    "wis": 14,
+    "cha": 4
+  },
+  "saves": {
+    "text": "Fort +3, Ref +3, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +12, Perception +11",
+    "list": {
+      "Fly": "+12",
+      "Perception": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "scent"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 2,
+  "feats": [
+    "Great Fortitude",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "swarm (1d6)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "These writhing, many-winged worms have no heads other than pairs of large nostrils that make a constant, droning snorting.",
+  "meta": {
+    "cmb": "None",
+    "cmd": "None",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or cloud (2-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

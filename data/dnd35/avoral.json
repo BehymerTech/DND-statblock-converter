@@ -1,0 +1,114 @@
+{
+  "name": "Avoral",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Medium",
+  "type": "Outsider",
+  "subtype": "Extraplanar, Good",
+  "alignment": "Always neutral good",
+  "cr": "9",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": "+6 Dex, +8 natural",
+    "touch": 16,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 66,
+    "formula": "7d8+35"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": 90,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft. (8 squares), fly 90 ft. (good)"
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 23,
+    "con": 20,
+    "int": 15,
+    "wis": 16,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +10 (+14 against poison), Ref +11, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +13, Concentration +15, Diplomacy +7, Disguise +3 (+5 Acting), Handle Animal +13, Hide +16, Intimidate +5, Knowledge (any One) +12, Listen +13, Move Silently +16, Ride +8, Sense Motive +13, Spellcraft +12, Spot +21;",
+    "list": {
+      "Bluff": "+13",
+      "Concentration": "+15",
+      "Diplomacy": "+7",
+      "Disguise": "+3",
+      "Handle Animal": "+13",
+      "Hide": "+16",
+      "Intimidate": "+5",
+      "Listen": "+13",
+      "Move Silently": "+16",
+      "Ride": "+8",
+      "Sense Motive": "+13",
+      "Spellcraft": "+12",
+      "Spot": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision 60 ft.",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 7,
+  "feats": [
+    "Empower Spell -Like Ability (*magic Missile*)",
+    "Flyby Attack",
+    "Weapon Finesse"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Spell-like abilities, fear aura"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Damage reduction 10/evil or silver, darkvision 60 ft., immunity to electricity and petrification, lay on hands, low-light vision, resistance to cold 10 and sonic 10, speak with animals, spell resistance 25, true seeing"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Claw +13 melee (2d6+2) or wing +13 melee (2d8+2)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "2 claws +13 melee (2d6+2) or 2 wings +13 melee (2d8+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "An avoral's bones are strong but hollow, so even the largest specimens weigh no more than 120 pounds. An avoral is about 7 feet tall. Each of an avoral's wings has a small hand at the midpoint. When the wings are folded, these appendages are about where human hands would be and can do nearly anything hands can do.",
+    "grapple": "+9",
+    "spaceReach": "5 ft./5 ft.",
+    "environment": "A good-aligned plane.",
+    "organization": "Solitary, pair, or squad (3-5)",
+    "treasure": "No coins; double goods; standard items",
+    "advancement": "8-14 HD (Medium); 15-21 HD (Large)",
+    "leveladjustment": "---"
+  }
+}

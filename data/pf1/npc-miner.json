@@ -1,0 +1,88 @@
+{
+  "name": "NPC Miner",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "alignment": "CN",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 11,
+    "notes": "armor +2, dex -1",
+    "touch": 9,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 16,
+    "formula": "3d6+6"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 8,
+    "con": 14,
+    "int": 9,
+    "wis": 13,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +3, Ref +0, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +3, Climb +5, Knowledge (dungeoneering) +0, Perception +5, Profession (miner) +9",
+    "list": {
+      "Appraise": "+3",
+      "Climb": "+5",
+      "Perception": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Common",
+    "Dwarven"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 1,
+  "feats": [
+    "Skill Focus (Appraise)",
+    "Skill Focus (Profession [miner])"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "miner’s pick -2 (1d6+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Dwarf",
+    "class": "commoner 3",
+    "cmb": "+2",
+    "cmd": "11 (15 vs. bull rush or trip)"
+  }
+}

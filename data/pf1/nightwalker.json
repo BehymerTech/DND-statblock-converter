@@ -1,0 +1,120 @@
+{
+  "name": "Nightwalker",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Huge",
+  "type": "undead",
+  "subtype": "extraplanar, nightshade",
+  "alignment": "CE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 31,
+    "notes": "dex +2, natural +21, size -2",
+    "touch": 10,
+    "flatFooted": 29
+  },
+  "hp": {
+    "average": 241,
+    "formula": "21d8+147"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 14,
+    "con": "None",
+    "int": 20,
+    "wis": 21,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +14, Ref +11, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +29, Knowledge (arcana) +29, Knowledge (planes) +26, Knowledge (religion) +29, Perception +29, Sense Motive +29, Spellcraft +29, Stealth +18, Swim +33",
+    "list": {
+      "Intimidate": "+29",
+      "Perception": "+29",
+      "Sense Motive": "+29",
+      "Spellcraft": "+29",
+      "Stealth": "+18",
+      "Swim": "+33"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darksense",
+    "darkvision",
+    "detect magic",
+    "low-light vision"
+  ],
+  "passivePerception": 39,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 15,
+  "feats": [
+    "Combat Expertise",
+    "Command Undead",
+    "Greater Sunder",
+    "Greater Vital Strike",
+    "Improved Critical (claws)",
+    "Improved Disarm",
+    "Improved Sunder",
+    "Improved Vital Strike",
+    "Power Attack",
+    "Quicken Spell-Like Ability (unholy blight)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +28 (3d6+15/19-20 plus 4d6 cold)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering, night-black giant has demonic features, including a huge pair of ram-like horns. Its arms end in massive blades.",
+  "meta": {
+    "cmb": "+29",
+    "cmd": 41,
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Negative Energy Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

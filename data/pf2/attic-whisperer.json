@@ -1,0 +1,108 @@
+{
+  "name": "Attic Whisperer",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 28.",
+  "size": "Small",
+  "type": "Undead",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 60,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 20,
+    "con": 10,
+    "int": 14,
+    "wis": 18,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +8, Ref +13, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Deception__: +11 (1d20+11); __Society__: +10 (1d20+10); __Stealth__: +13 (1d20+13); ",
+    "list": {
+      "Deception": "+11",
+      "Society": "+10",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Necril"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Aura of Sobs",
+      "text": "(auditory, aura, emotion, enchantment, mental, occult); 10 feet. An attic whisperer enshrouds itself in a tapestry of stolen voices. Each living creature that enters or starts their turn in the aura must succeed at a DC 19 Will save or the unnerving, bitter sobs render them distraught and they become stupefied 1 for as long as they remain within the aura. A creature that succeeds is temporarily immune for 1 hour. The attic whisperer can activate or deactivate the aura with a single free action, which has the concentrate trait."
+    },
+    {
+      "name": "Whispered Despair",
+      "text": "⬲ Trigger A creature with an active emotion effect enters an attic whisperer's aura of sobs Effect The attic whisperer attempts to counteract the emotion effect, with a counteract modifier of +13."
+    },
+    {
+      "name": "Steal Breath",
+      "text": "(curse, incapacitation, necromancy, occult); The attic whisperer siphons the breath from living creatures, sapping their strength. A living creature hit by a jaws Strike must attempt a DC 21 Fortitude save. Critical Success The target is unaffected. Success The target is enfeebled 1 for 1 round. Failure The target is enfeebled 1 for 24 hours and fatigued. Critical Failure The target is enfeebled 1 for 24 hours, is fatigued, and falls unconscious."
+    },
+    {
+      "name": "Steal Voice",
+      "text": "(curse, necromancy, occult); When an attic whisperer hits a living creature with a bony hand Strike, it tries to pull the victim's voice into its aura. The victim must attempt a DC 21 Will save. Critical Success The target is unaffected. Success The target's voice is weak for 1 minute. Anytime it attempts an action with the auditory trait, it must succeed at a DC 5 flat check or the action is lost. Failure The target loses the ability to speak for 1 hour, until the curse is removed, or until the attic whisperer is destroyed, whichever comes first. During this time, the attic whisperer can perfectly mimic the target's voice, and the target takes a –2 circumstance penalty to saving throws against that attic whisperer's aura of sobs. Critical Failure As failure, but the effects lasts until the attic whisperer is destroyed or the curse is removed."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +15 (agile, finesse); Damage 2d8 (2d8) piercing plus steal breath"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ bony hand (agile) +13 Damage 2d10 (2d10) negative plus steal voice"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      5,
+      0,
+      2,
+      4,
+      3
+    ]
+  }
+}

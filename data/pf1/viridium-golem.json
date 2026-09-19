@@ -1,0 +1,79 @@
+{
+  "name": "Viridium Golem",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Huge",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 33,
+    "notes": "dex +5, natural +20, size -2",
+    "touch": 13,
+    "flatFooted": 28
+  },
+  "hp": {
+    "average": 222,
+    "formula": "28d10+68"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 20,
+    "con": "None",
+    "int": "None",
+    "wis": 11,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +9, Ref +14, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 28,
+  "feats": [
+    "ToughnessEcologyEnvironment any"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "sword +38 (4d6+12/19-20 plus bleed and disease), shield +38 (4d6+12/×3 plus disease and stun), 2 slams +38 (2d6+12 plus disease)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This green glass statue has four arms, one of which forms a jagged sword and another that ends in a formidable shield.",
+  "meta": {
+    "cmb": "+42",
+    "cmd": 57
+  }
+}

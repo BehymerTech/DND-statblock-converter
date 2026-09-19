@@ -1,0 +1,110 @@
+{
+  "name": "Axiomite",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, The Great Beyond - A Guide to the Multiverse",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "extraplanar, lawful",
+  "alignment": "LN",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "dex +4, dodge +1, natural +6",
+    "touch": 15,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 85,
+    "formula": "10d10+30"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 30 ft. (good)"
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 19,
+    "con": 16,
+    "int": 21,
+    "wis": 20,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +6, Ref +11, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (any one) +18, Diplomacy +18, Fly +8, Knowledge (any three) +15, Knowledge (planes) +18, Perception +18, Sense Motive +18, Spellcraft +18, Stealth +17, Survival +18",
+    "list": {
+      "Diplomacy": "+18",
+      "Fly": "+8",
+      "Perception": "+18",
+      "Sense Motive": "+18",
+      "Spellcraft": "+18",
+      "Stealth": "+17",
+      "Survival": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 28,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 10,
+  "feats": [
+    "Dodge",
+    "Empower Spell-Like Ability (order’s wrath)",
+    "Improved Initiative",
+    "Iron Will",
+    "Mobility"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 longsword +16/+11 (1d8+7/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "As this lithe humanoid moves, its flesh shimmers and wavers, temporarily breaking apart into motes of shimmering light.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": 30,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (lawful plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or team (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+1 longsword, other treasure)"
+      }
+    ]
+  }
+}

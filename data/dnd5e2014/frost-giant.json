@@ -1,0 +1,84 @@
+{
+  "name": "Frost Giant",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Huge",
+  "type": "giant",
+  "subtype": "",
+  "alignment": "neutral evil",
+  "cr": "8",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": "patchwork armor"
+  },
+  "hp": {
+    "average": 138,
+    "formula": "12d12 + 60"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 9,
+    "con": 21,
+    "int": 9,
+    "wis": 10,
+    "cha": 12
+  },
+  "saves": {
+    "text": "con +8, wis +3, cha +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Athletics +9, Perception +3",
+    "list": {
+      "athletics": "+9",
+      "perception": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [
+    "cold"
+  ],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 13,
+  "languages": [
+    "Giant"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The giant makes two greataxe attacks."
+    },
+    {
+      "name": "Greataxe",
+      "text": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 25 (3d12 + 6) slashing damage."
+    },
+    {
+      "name": "Rock",
+      "text": "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

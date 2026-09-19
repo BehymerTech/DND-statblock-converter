@@ -1,0 +1,105 @@
+{
+  "name": "Gray Render",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "dex +1, natural +11, size -1",
+    "touch": 10,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 100,
+    "formula": "8d10+56"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 13,
+    "con": 24,
+    "int": 3,
+    "wis": 14,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +13, Ref +7, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +13, Survival +6",
+    "list": {
+      "Perception": "+13",
+      "Survival": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Giant"
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 8,
+  "feats": [
+    "Awesome Blow",
+    "Improved Bull Rush",
+    "Power Attack",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +14 (2d6+7), 2 claws +15 (1d8+7 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hulking beast has slick, gray, hairless skin. Its numerous yellow eyes and wide toothy maw are its only facial features.",
+  "meta": {
+    "cmb": "16 (+20 grapple)",
+    "cmd": 27,
+    "racialModifiers": [
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate marshes"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (plus bonded creatures if any)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

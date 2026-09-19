@@ -1,0 +1,113 @@
+{
+  "name": "NPC Master Storycrafter",
+  "sourceSystem": "pf1",
+  "source": "NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf, human",
+  "alignment": "N",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 22,
+    "notes": "armor +5, deflection +3, dex +2, natural +2",
+    "touch": 15,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 86,
+    "formula": "10d6+7d8+17"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 14,
+    "con": 12,
+    "int": 14,
+    "wis": 10,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +10, Ref +13, Will +15",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +9, Bluff +17, Diplomacy +17, Knowledge (arcana) +15, Knowledge (dungeoneering) +15, Knowledge (geography) +15, Knowledge (history) +15, Knowledge (local) +15, Knowledge (nature) +15, Knowledge (nobility) +15, Knowledge (planes) +15, Knowledge (religion) +15, Linguistics +10, Perception +23, Perform (oratory) +17, Perform (string) +17, Profession (scribe) +10, Sense Motive +7, Spellcraft +12, Stealth +14, Survival +10, Use Magic Device +22",
+    "list": {
+      "Acrobatics": "+9",
+      "Bluff": "+17",
+      "Diplomacy": "+17",
+      "Linguistics": "+10",
+      "Perception": "+23",
+      "Sense Motive": "+7",
+      "Spellcraft": "+12",
+      "Stealth": "+14",
+      "Survival": "+10",
+      "Use Magic Device": "+22"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Dwarven",
+    "Elf",
+    "Gnome",
+    "Halfling",
+    "Orc"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 10,
+  "feats": [
+    "Arcane Armor Training",
+    "Combat Casting",
+    "Enlarge Spell",
+    "Eschew Materials",
+    "Extend Spell",
+    "Extra Performance",
+    "Greater Spell Focus (illusion)",
+    "Silent Spell",
+    "Skill Focus (Perception)",
+    "Spell Focus (illusion)",
+    "Widen Spell"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "quarterstaff +11/+6 (1d6-1)"
+    },
+    {
+      "name": "Ranged",
+      "text": "dagger +14/+9 (1d4-1/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-elf",
+    "class": "sorcerer 10, Pathfinder chronicler 7",
+    "cmb": "+9",
+    "cmd": 24
+  }
+}

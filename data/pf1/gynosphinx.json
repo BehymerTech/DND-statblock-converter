@@ -1,0 +1,110 @@
+{
+  "name": "Gynosphinx",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Large",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "dex +1, natural +11, size -1",
+    "touch": 10,
+    "flatFooted": 20
+  },
+  "hp": {
+    "average": 102,
+    "formula": "12d10+36"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (poor)"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 13,
+    "con": 16,
+    "int": 18,
+    "wis": 19,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +11, Ref +9, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +14, Diplomacy +14, Fly +7, Intimidate +14, Knowledge (any two) +6, Perception +21, Sense Motive +19, Spellcraft +12",
+    "list": {
+      "Bluff": "+14",
+      "Diplomacy": "+14",
+      "Fly": "+7",
+      "Intimidate": "+14",
+      "Perception": "+21",
+      "Sense Motive": "+19",
+      "Spellcraft": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Sphinx"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 12,
+  "feats": [
+    "Alertness",
+    "Combat Casting",
+    "Hover",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 claws +17 (2d6+6/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature has the body of a lion, the wings of a falcon, and the head and torso of a beautiful human woman.",
+  "meta": {
+    "cmb": "+19",
+    "cmd": "30 (34 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts and hills"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cult (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

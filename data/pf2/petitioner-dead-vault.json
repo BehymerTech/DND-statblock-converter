@@ -1,0 +1,87 @@
+{
+  "name": "Petitioner (Dead Vault)",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 198.",
+  "size": "Medium",
+  "type": "",
+  "subtype": "",
+  "alignment": "",
+  "cr": null,
+  "level": "Creature ",
+  "xp": null,
+  "ac": {
+    "value": 15,
+    "notes": ""
+  },
+  "hp": {
+    "average": 22,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 14,
+    "int": 14,
+    "wis": 14,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +7, Ref +7, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Abyssal"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Rend",
+      "text": "⬻ bite"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ bite +7 Damage 1d8+2 (1d8+2) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  }
+}

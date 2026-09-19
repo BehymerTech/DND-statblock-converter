@@ -1,0 +1,108 @@
+{
+  "name": "Sahuagin Lieutenant",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "aquatic",
+  "alignment": "LE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 20,
+    "notes": "armor +2, dex +3, natural +5",
+    "touch": 13,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 50,
+    "formula": "5d10+23"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., swim 60 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 16,
+    "con": 17,
+    "int": 12,
+    "wis": 15,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +6, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +10, Handle Animal +4, Intimidate +11, Perception +10, Ride +7, Stealth +7, Survival +6, Swim +16",
+    "list": {
+      "Climb": "+10",
+      "Handle Animal": "+4",
+      "Intimidate": "+11",
+      "Perception": "+10",
+      "Ride": "+7",
+      "Stealth": "+7",
+      "Survival": "+6",
+      "Swim": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Aquan",
+    "Common",
+    "speak with sharks"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 5,
+  "feats": [
+    "Greater Blood Frenzy",
+    "Intimidating Prowess",
+    "Power Attack",
+    "Toughness",
+    "Weapon Focus (trident)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 trident +11 (1d8+7), bite +4 (1d4+2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk underwater heavy crossbow +9 (1d10/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Sahuagin",
+    "class": "fighter 3",
+    "cmb": "+9",
+    "cmd": 22,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm ocean"
+      }
+    ]
+  }
+}

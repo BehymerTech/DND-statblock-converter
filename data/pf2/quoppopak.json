@@ -1,0 +1,115 @@
+{
+  "name": "Quoppopak",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 219.",
+  "size": "Large",
+  "type": "Aquatic",
+  "subtype": "Aberration",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 11",
+  "xp": null,
+  "ac": {
+    "value": 31,
+    "notes": ""
+  },
+  "hp": {
+    "average": 195,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 feet, swim 40 feet, water glide 30 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 22,
+    "con": 20,
+    "int": 6,
+    "wis": 20,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +22, Ref +23, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +23 (1d20+23); __Athletics__: +22 (1d20+22); __Stealth__: +23 (1d20+23); ",
+    "list": {
+      "Acrobatics": "+23",
+      "Athletics": "+22",
+      "Stealth": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Aquan"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲ Tentacle only."
+    },
+    {
+      "name": "Flooding Thrust",
+      "text": "⬺ Requirements The quoppopak's ventral tube is in water Effect The quoppopak uses Tentacle Stab against a creature within reach; if either of these Strikes hits, the creature must attempt a DC 30 Reflex save. On a failed save, the quoppopak shoots water through its tentacles into the creature, dealing 2d6+5 (2d6+5) bludgeoning damage and making the creature sickened 1 as its internal organs fill with water (double damage and sickened 2 on a critical failure)."
+    },
+    {
+      "name": "Tentacle Stab",
+      "text": "⬻ Frequency once per round Effect The quoppopak makes two tentacle Strikes against the same creature. These Strikes deal piercing damage instead of bludgeoning, and the quoppopak can't Grab with them. Its multiple attack penalty doesn't increase until after both attacks."
+    },
+    {
+      "name": "Water Glide",
+      "text": "The quoppopak can stand and move on the surface of water or other liquids without falling through. It can go underwater if it wishes, but it must Swim to do so."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ beak +24 (reach 10 feet); Damage 3d8+13 (3d8+13) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tentacle +24 (agile, reach 15 feet); Damage 2d8+13 (2d8+13) bludgeoning plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ ventral tube +24 (reach 10 feet); Damage 2d6+13 (2d6+13) slashing plus 1d6 (1d6) persistent bleed"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ water jet +23 (range 100 feet, water); Damage 2d6+13 (2d6+13) bludgeoning plus"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      6,
+      5,
+      -2,
+      5,
+      0
+    ]
+  }
+}

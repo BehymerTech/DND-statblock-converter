@@ -1,0 +1,124 @@
+{
+  "name": "Simurgh",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3, Pathfinder No. 24: The Final Wish",
+  "size": "Gargantuan",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "NG",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 34,
+    "notes": "dex +3, dodge +1, natural +24, size -4",
+    "touch": 10,
+    "flatFooted": 30
+  },
+  "hp": {
+    "average": 324,
+    "formula": "24d10+192"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 120 ft. (good)"
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 16,
+    "con": 27,
+    "int": 16,
+    "wis": 19,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +22, Ref +17, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +26, Fly +7, Heal +14, Knowledge (arcana) +33, Knowledge (dungeoneering) +21, Knowledge (all others) +15, Perception +27, Perform (sing) +19, Survival +14",
+    "list": {
+      "Diplomacy": "+26",
+      "Fly": "+7",
+      "Heal": "+14",
+      "Perception": "+27",
+      "Survival": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect evil",
+    "detect magic",
+    "low-light vision"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "tongues"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 24,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Dodge",
+    "Flyby Attack",
+    "Hover",
+    "Improved Disarm",
+    "Improved Initiative",
+    "Iron Will",
+    "Mobility",
+    "Multiattack",
+    "Snatch",
+    "Wingover"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +32 (2d8+12 plus 2d6 fire), 2 claws +32 (2d8+12 plus 2d6 fire), tail slap +30 (1d4+6 plus banishing swipe)"
+    },
+    {
+      "name": "Ranged",
+      "text": "glaring ray +23 touch (20d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This massive creature has the body of a resplendent bird but the head of a regal canine.",
+  "meta": {
+    "cmb": "+40",
+    "cmd": 54,
+    "racialModifiers": [
+      "Knowledge (all) 10"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts or mountains"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

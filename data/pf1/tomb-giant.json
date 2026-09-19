@@ -1,0 +1,112 @@
+{
+  "name": "Tomb Giant",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 94: Ice Tomb of the Giant Queen, Bestiary 6",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "giant",
+  "alignment": "NE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 28,
+    "notes": "armor +6, dex +3, natural +10, size -1",
+    "touch": 12,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 162,
+    "formula": "13d8+104"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft.,  30 ft. in armor"
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 17,
+    "con": 26,
+    "int": 13,
+    "wis": 19,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +16, Ref +7, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +12, Heal +12, Knowledge (religion) +14, Perception +15, Stealth +5, Survival +10",
+    "list": {
+      "Climb": "+12",
+      "Heal": "+12",
+      "Perception": "+15",
+      "Stealth": "+5",
+      "Survival": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 9,
+  "feats": [
+    "Combat Expertise",
+    "Improved Critical (scythe)",
+    "Improved Iron Will",
+    "Improved Trip",
+    "Iron Will",
+    "Martial Weapon Proficiency (scythe)",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk scythe +20/+15 (2d6+16/19-20/×4 plus energy drain)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +12 (1d8+11)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering, lean figure is hairless and has smooth, milky white skin. A scythe gleams in her hands.",
+  "meta": {
+    "cmb": "21 (+23 trip)",
+    "cmd": "34 (36 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or cabal (3-13)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk breastplate, mwk scythe)"
+      }
+    ]
+  }
+}

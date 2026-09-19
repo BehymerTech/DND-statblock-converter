@@ -1,0 +1,96 @@
+{
+  "name": "Harrow Reader",
+  "sourceSystem": "pf2",
+  "source": "_Gamemastery Guide_, page 228.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Human",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature -1",
+  "xp": null,
+  "ac": {
+    "value": 13,
+    "notes": ""
+  },
+  "hp": {
+    "average": 9,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 14,
+    "con": 12,
+    "int": 14,
+    "wis": 16,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +3, Ref +6, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Diplomacy__: +8 (1d20+8); __Occultism__: +7 (1d20+7); __Performance__: +10 (1d20+10); __Society__: +7 (1d20+7); __Fortune-telling lore__: +11 (1d20+11); ",
+    "list": {
+      "Diplomacy": "+8",
+      "Occultism": "+7",
+      "Performance": "+10",
+      "Society": "+7",
+      "telling lore": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 17,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Fated Doom",
+      "text": "While harrow readers try to avoid combat, no throw of the cards can avoid fate, so a harrow reader learns how to best survive. In the harrow reader's first encounter each day, they gain a +1 status bonus to their initiative roll, their attack rolls, and their AC."
+    },
+    {
+      "name": "Items",
+      "text": "harrow deck, sickle;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ sickle +7 (agile, finesse, trip); Damage 1d4+1 (1d4+1) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      2,
+      1,
+      2,
+      3,
+      3
+    ],
+    "items": "harrow deck, sickle;"
+  }
+}

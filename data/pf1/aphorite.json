@@ -1,0 +1,103 @@
+{
+  "name": "Aphorite",
+  "sourceSystem": "pf1",
+  "source": "Planar Adventures",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "native",
+  "alignment": "LN",
+  "cr": "1/2",
+  "level": null,
+  "xp": 200,
+  "ac": {
+    "value": 13,
+    "notes": "armor +4, dex -1",
+    "touch": 9,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 13,
+    "formula": "1d10+3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 8,
+    "con": 14,
+    "int": 14,
+    "wis": 13,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +4, Ref -1, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (armor) +8, Knowledge (engineering) +6, Knowledge (planes) +3, Perception +2",
+    "list": {
+      "Perception": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Celestial",
+    "Common"
+  ],
+  "initiative": "-1",
+  "babOrProficiency": 1,
+  "feats": [
+    "Iron Will",
+    "Weapon Focus (warhammer)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "cold iron warhammer +5 (1d8+3/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The shimmering flesh of this gold-skinned figure flashes with points of light that seem, at times, to create strange runic shapes.",
+  "meta": {
+    "race": "Aphorite",
+    "class": "fighter 1",
+    "cmb": "+4",
+    "cmd": 13,
+    "racialModifiers": [
+      "Craft (armor) 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Axis)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or guild (2-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (chain shirt, warhammer, other treasure)"
+      }
+    ]
+  }
+}

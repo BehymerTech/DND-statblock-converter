@@ -1,0 +1,115 @@
+{
+  "name": "Hell Gigas",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 30: The Twice-Damned Prince",
+  "size": "Gargantuan",
+  "type": "humanoid",
+  "subtype": "evil, extraplanar, giant, lawful",
+  "alignment": "LE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 29,
+    "notes": "armor +6, dex +3, natural +14, size -4",
+    "touch": 9,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 237,
+    "formula": "19d8+152"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft."
+  },
+  "abilities": {
+    "str": 37,
+    "dex": 16,
+    "con": 26,
+    "int": 20,
+    "wis": 22,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +19, Ref +11, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +35, Knowledge (planes) +21, Perception +29, Sense Motive +0, Stealth +0, Survival +28",
+    "list": {
+      "Climb": "+35",
+      "Perception": "+29",
+      "Sense Motive": "+0",
+      "Stealth": "+0",
+      "Survival": "+28"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 39,
+  "languages": [
+    "Common",
+    "Giant",
+    "Infernal"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 14,
+  "feats": [
+    "Alertness",
+    "Awesome Blow",
+    "Catch Off-Guard",
+    "Combat Reflexes",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Improvised Weapon Mastery",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Throw Anything"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk ranseur +24/+19/+14 (4d6+19)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +14 (2d6+19 plus 6d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A giant like a mountain of corpses thunders into view. Armor crafted from the twisted bones of a hundred gigantic victims girds a twisted humanoid body covered in angry red burns and the jagged scars of crippling battles. Despite its wounds, the surviving figure exerts a terrible strength, hefting its grisly armor with ease.",
+  "meta": {
+    "cmb": "+31",
+    "cmd": 44,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-7)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk breastplate, mwk ranseur, other treasure)"
+      }
+    ]
+  }
+}

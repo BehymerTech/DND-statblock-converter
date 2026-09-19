@@ -1,0 +1,117 @@
+{
+  "name": "Janni",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 162.",
+  "size": "Medium",
+  "type": "Genie",
+  "subtype": "Elemental",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 20,
+    "notes": ""
+  },
+  "hp": {
+    "average": 60,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, fly 15 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 14,
+    "int": 14,
+    "wis": 16,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +12, Ref +10, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Arcana__: +10 (1d20+10); __Crafting__: +8 (1d20+8); __Deception__: +7 (1d20+7); __Survival__: +11 (1d20+11); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Arcana": "+10",
+      "Crafting": "+8",
+      "Deception": "+7",
+      "Survival": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common",
+    "One elemental language (aquan",
+    "auran",
+    "ignan",
+    "or terran)",
+    "One planar language (abyssal",
+    "celestial",
+    "or infernal); telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Elemental Endurance",
+      "text": "A janni can survive on any Elemental Plane for up to 48 hours, after which it takes 1 damage per hour until it leaves or dies."
+    },
+    {
+      "name": "Items",
+      "text": "composite shortbow (20 arrows), scimitar;"
+    },
+    {
+      "name": "Change Size",
+      "text": "⬺ (arcane, concentrate, polymorph, transmutation); Frequency once per day Effect The janni changes a creature's size. This works as a 4th-level enlarge or shrink spell but can target an unwilling creature (DC 21 Fortitude save negates)."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ scimitar +14 (forceful +1, sweep); Damage 1d6+10 (1d6+10) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fist +14 (agile, magical, nonlethal); Damage 1d4+10 (1d4+10) bludgeoning"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ composite shortbow +12 (deadly 1d10, propulsive, range increment 60 feet, reload 0); Damage 1d6+5 (1d6+5) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      2,
+      2,
+      3,
+      1
+    ],
+    "items": "composite shortbow (20 arrows), scimitar;"
+  }
+}

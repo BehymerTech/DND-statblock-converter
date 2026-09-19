@@ -1,0 +1,106 @@
+{
+  "name": "Vemerak",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Into the Darklands",
+  "size": "Huge",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 29,
+    "notes": "dex +3, natural +18, size -2",
+    "touch": 11,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 195,
+    "formula": "17d8+119"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., burrow 20 ft., climb 40 ft."
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 17,
+    "con": 23,
+    "int": 5,
+    "wis": 16,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +13, Ref +8, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +19, Perception +23",
+    "list": {
+      "Climb": "+19",
+      "Perception": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "tremorsense"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Aklo"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 12,
+  "feats": [
+    "Awesome Blow",
+    "Great Fortitude",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Multiattack",
+    "Power Attack",
+    "Toughness",
+    "Weapon Focus (bite)",
+    "Weapon Focus (claws)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +22 (2d6+11), 2 claws +22 (1d8+11 plus grab), 3 tentacles +19 (1d6+5 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This huge monstrosity seems like some alien, clawed insect, with vaguely humanoid features and three tentacular tails.",
+  "meta": {
+    "cmb": "25 (+29 grapple)",
+    "cmd": "38 (50 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Balisse",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Chronicle of the Righteous",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "angel, extraplanar, good",
+  "alignment": "NG",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "dex +2, dodge +1, natural +8, deflection vs. evil +4",
+    "touch": 13,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 95,
+    "formula": "10d10+40"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 15,
+    "con": 18,
+    "int": 13,
+    "wis": 16,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +11, Ref +7, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Diplomacy +17, Fly +19, Knowledge (planes) +14, Knowledge (religion) +14, Perception +16, Sense Motive +16",
+    "list": {
+      "Acrobatics": "+15",
+      "Diplomacy": "+17",
+      "Fly": "+19",
+      "Perception": "+16",
+      "Sense Motive": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect evil"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal",
+    "truespeech"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 10,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Mobility",
+    "Power Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 flaming heavy mace +14/+9 (1d8+4 plus 1d6 fire)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This celestial being is obscured by darkness, but its wings glow brilliantly, silhouetting a stern individual with shining eyes.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": 26,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any good-aligned planes"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (+1 flaming heavy mace, other treasure)"
+      }
+    ]
+  }
+}

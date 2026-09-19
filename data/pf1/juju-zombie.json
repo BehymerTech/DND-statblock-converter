@@ -1,0 +1,113 @@
+{
+  "name": "Juju Zombie",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "augmented human",
+  "alignment": "NE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 18,
+    "notes": "dex +4, dodge +1, natural +3",
+    "touch": 15,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 15,
+    "formula": "2d8+3"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 19,
+    "con": "None",
+    "int": 8,
+    "wis": 13,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +0, Ref +7, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +8, Climb +16, Disable Device +8, Intimidate +5, Perception +6, Sleight of Hand +9, Stealth +8, Survival +3, Swim +8, Use Magic Device +5",
+    "list": {
+      "Acrobatics": "+8",
+      "Climb": "+16",
+      "Disable Device": "+8",
+      "Intimidate": "+5",
+      "Perception": "+6",
+      "Sleight of Hand": "+9",
+      "Stealth": "+8",
+      "Survival": "+3",
+      "Swim": "+8",
+      "Use Magic Device": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 1,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Toughness",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk short sword +6 (1d6+4/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This wretched human figure has tight leathery skin, sunken eyes, and an emaciated frame, yet it moves with eerie alacrity.",
+  "meta": {
+    "race": "Human",
+    "class": "juju zombie rogue 2",
+    "cmb": "+5",
+    "cmd": 19,
+    "racialModifiers": [
+      "Climb 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (masterwork short sword, other treasure)"
+      }
+    ]
+  }
+}

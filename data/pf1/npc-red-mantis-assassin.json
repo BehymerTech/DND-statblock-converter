@@ -1,0 +1,110 @@
+{
+  "name": "NPC Red Mantis Assassin",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea NPC Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf, human",
+  "alignment": "LE",
+  "cr": "13",
+  "level": null,
+  "xp": 25600,
+  "ac": {
+    "value": 23,
+    "notes": "armor +6, deflection +1, dex +3, dodge +1, natural +1, shield +1",
+    "touch": 15,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 101,
+    "formula": "14d8+35"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 12,
+    "int": 13,
+    "wis": 8,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +5, Ref +12, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +25, Bluff +25, Disguise +19, Escape Artist +20, Intimidate +19, Perception +22, Sense Motive +1, Sleight of Hand +20, Stealth +25",
+    "list": {
+      "Acrobatics": "+25",
+      "Bluff": "+25",
+      "Disguise": "+19",
+      "Escape Artist": "+20",
+      "Intimidate": "+19",
+      "Perception": "+22",
+      "Sense Motive": "+1",
+      "Sleight of Hand": "+20",
+      "Stealth": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "Common",
+    "Elven",
+    "Infernal"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 10,
+  "feats": [
+    "Alertness",
+    "Combat Expertise",
+    "Dodge",
+    "Exotic Weapon Proficiency (sawtooth sabre)",
+    "Greater Weapon Focus (sawtooth sabre)",
+    "Greater Weapon Specialization (sawtooth sabre)",
+    "Improved Feint",
+    "Skill Focus (Bluff)",
+    "Toughness",
+    "Two-Weapon Defense",
+    "Two-Weapon Fighting",
+    "Weapon Focus (sawtooth sabre)",
+    "Weapon Specialization (sawtooth sabre)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 sawtooth sabre +14/+9 (1d8+8/19-20), +1 sawtooth sabre +14 (1d8+6/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk hand crossbow +14 (1d4/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-elf",
+    "class": "rogue 7, Red Mantis assassin 7",
+    "cmb": "+13",
+    "cmd": 28
+  }
+}

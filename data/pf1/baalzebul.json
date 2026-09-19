@@ -1,0 +1,130 @@
+{
+  "name": "Baalzebul",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "30",
+  "level": null,
+  "xp": 9830400,
+  "ac": {
+    "value": 48,
+    "notes": "deflection +4, dex +10, dodge +1, natural +8, profane +16, size -1",
+    "touch": 40,
+    "flatFooted": 37
+  },
+  "hp": {
+    "average": 717,
+    "formula": "35d10+525"
+  },
+  "speed": {
+    "walk": 120,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 120 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 30,
+    "con": 41,
+    "int": 35,
+    "wis": 32,
+    "cha": 35
+  },
+  "saves": {
+    "text": "Fort +30, Ref +30, Will +36",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +48, Bluff +56, Diplomacy +50, Disguise +50, Fly +54, Intimidate +50, Knowledge (arcana) +47, Knowledge (history) +47, Knowledge (local) +47, Knowledge (nobility) +47, Knowledge (religion) +47, Knowledge (planes) +50, Linguistics +50, Perception +49, Sense Motive +49, Spellcraft +47, Stealth +44, Use Magic Device +47",
+    "list": {
+      "Acrobatics": "+48",
+      "Bluff": "+56",
+      "Diplomacy": "+50",
+      "Disguise": "+50",
+      "Fly": "+54",
+      "Intimidate": "+50",
+      "Linguistics": "+50",
+      "Perception": "+49",
+      "Sense Motive": "+49",
+      "Spellcraft": "+47",
+      "Stealth": "+44",
+      "Use Magic Device": "+47"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "darkvision",
+    "detect chaos",
+    "detect good",
+    "see in darkness",
+    "true seeing"
+  ],
+  "passivePerception": 59,
+  "languages": [
+    "all (language mastery)",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+14",
+  "babOrProficiency": 35,
+  "feats": [
+    "Critical Focus",
+    "Dazzling Display",
+    "Dodge",
+    "Empower Spell- Like Ability (cone of cold)",
+    "Flyby Attack",
+    "Improved Critical (longsword)",
+    "Improved Initiative",
+    "Improved Iron Will",
+    "Iron Will",
+    "Lightning Stance",
+    "Mobility",
+    "Power Attack",
+    "Quicken Spell-Like Ability (freezing sphere)",
+    "Shatter Defenses",
+    "Sickening Critical",
+    "Skill Focus (Bluff)",
+    "Weapon Focus (longsword)",
+    "Wind Stance"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+5 adamantine good-outsider-bane icy burst unholy longsword +53/+48/+43/+38 (2d6+24/17-20 plus 1d6 cold)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This swarm of droning black f lies teems in the semblance of a winged angel with glowing red eyes.",
+  "meta": {
+    "cmb": "+49",
+    "cmd": "90 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple (+5 adamantine good-outsider-bane icy burst unholy longsword, other treasure)"
+      }
+    ]
+  }
+}

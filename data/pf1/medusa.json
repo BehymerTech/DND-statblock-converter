@@ -1,0 +1,111 @@
+{
+  "name": "Medusa",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "LE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 15,
+    "notes": "dex +2, natural +3",
+    "touch": 12,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 76,
+    "formula": "8d10+32"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 15,
+    "con": 18,
+    "int": 12,
+    "wis": 13,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +6, Ref +8, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +10, Disguise +10, Intimidate +13, Perception +16, Stealth +13",
+    "list": {
+      "Bluff": "+10",
+      "Disguise": "+10",
+      "Intimidate": "+13",
+      "Perception": "+16",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "all-around vision",
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 8,
+  "feats": [
+    "Improved Initiative",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +10/+5 (1d4/19-20), snake bite +5 (1d4 plus poison)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk longbow +11/+6 (1d8/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This slender, attractive woman has strangely glowing eyes and a full head of hissing snakes for hair.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": 20,
+    "racialModifiers": [
+      "Perception 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate marshes and underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (dagger, masterwork longbow with 20 arrows, other treasure)"
+      }
+    ]
+  }
+}

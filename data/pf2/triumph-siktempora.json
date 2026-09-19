@@ -1,0 +1,115 @@
+{
+  "name": "Triumph Siktempora",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 233.",
+  "size": "Small",
+  "type": "Time",
+  "subtype": "Siktempora",
+  "alignment": "LN",
+  "cr": null,
+  "level": "Creature 14",
+  "xp": null,
+  "ac": {
+    "value": 35,
+    "notes": ""
+  },
+  "hp": {
+    "average": 190,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 feet; air walk;"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 18,
+    "con": 20,
+    "int": 18,
+    "wis": 18,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +25, Ref +24, Will +26",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +24 (1d20+24); __Athletics__: +30 (1d20+30); __Diplomacy__: +23 (1d20+23); __Intimidation__: +27 (1d20+27); __Medicine__: +22 (1d20+22); __Performance__: +25 (1d20+25); __Dimension of time lore__: +24 (1d20+24); ",
+    "list": {
+      "Acrobatics": "+24",
+      "Athletics": "+30",
+      "Diplomacy": "+23",
+      "Intimidation": "+27",
+      "Medicine": "+22",
+      "Performance": "+25",
+      "Dimension of time lore": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 34,
+  "languages": [
+    "Aklo (can't speak any language); telepathy 200 feet (page 308)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Temporal Sense",
+      "text": "A siktempora can always roll Dimension."
+    },
+    {
+      "name": "Cheaters Never Prosper",
+      "text": "(aura, divination, occult); 50 feet. A creature within the aura who uses or benefits from an effect with the fortune trait must succeed at a DC 34 Will save or become slowed 1 for 1 round (slowed 2 on a critical failure)."
+    },
+    {
+      "name": "Clinch Victory",
+      "text": "⬲ Trigger A creature within the triumph siktempora's reach uses an action that would restore Hit Points Effect The triumph siktempora makes a glorious fist Strike against the triggering creature. On a critical success, this Strike also disrupts the triggering action."
+    },
+    {
+      "name": "Uncanny Pounce",
+      "text": "⭓ Trigger The misery siktempora rolls Dimension of Time Lore for initiative Effect The misery siktempora Strides once and makes a claw Strike, in either order."
+    },
+    {
+      "name": "Vie for Victory",
+      "text": "⬺ The triumph siktempora pushes themself beyond their limits to secure victory over a chosen foe. They choose one target they can see and reach with a single Stride action. They attempt to Demoralize that target, ignoring the typical limitations on distance and with no penalty for not sharing a language with the target. They then Stride and attempt one Athletics attack action (such as Grapple or Disarm) against the target."
+    },
+    {
+      "name": "Winning Smile",
+      "text": "⬺ (emotion, enchantment, mental, occult); The triumph siktempora flashes their disarming grin at one creature within 15 feet. The target takes 10d8 (10d8) mental damage (DC 34 basic Will save). On a failure, the target's attacks against the triumph siktempora also become nonlethal until the end of the target's next turn."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ glorious fist +30 Damage 3d12+16 (3d12+16) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      4,
+      5,
+      4,
+      4,
+      5
+    ]
+  }
+}

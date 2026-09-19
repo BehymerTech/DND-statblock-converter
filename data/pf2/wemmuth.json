@@ -1,0 +1,109 @@
+{
+  "name": "Wemmuth",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 326.",
+  "size": "Huge",
+  "type": "Plant",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 15",
+  "xp": null,
+  "ac": {
+    "value": 37,
+    "notes": ""
+  },
+  "hp": {
+    "average": 335,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, burrow 25 feet, climb 25 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 22,
+    "con": 22,
+    "int": 6,
+    "wis": 18,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +27, Ref +27, Will +24",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +30 (1d20+30); __Deception__: +28 (1d20+28); __Stealth__: +30 (1d20+30); __Survival__: +27 (1d20+27); ",
+    "list": {
+      "Athletics": "+30",
+      "Deception": "+28",
+      "Stealth": "+30",
+      "Survival": "+27"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tremorsense 60"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "Aklo",
+    "Sylvan (can't speak any language)"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Blood Leech",
+      "text": "⬲ Trigger The wemmuth deals damage to a creature with Constrict. Effect The wemmuth heals a number of Hit Points equal to half the total damage dealt by Constrict."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 2d12+10 (2d12+10), DC 37."
+    },
+    {
+      "name": "Engulf",
+      "text": "⬺ DC 37, 4d8 (4d8) bludgeoning, Escape DC 35, Rupture 36."
+    },
+    {
+      "name": "Thorny Mass",
+      "text": "Whenever a creature within 10 feet attempts a melee attack against a wemmuth or uses Acrobatics to [Tumble Through](../../../rules/actions/tumble-through.md) its space, that creature takes 1d12+10 (1d12+10) piercing damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ pummel +29 (fatal d12, reach 15 feet, sweep); Damage 4d12+10 (4d12+10) bludgeoning plus Improved Grab"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ boulder +27 (fatal d12, range increment 60 feet); Damage 4d10+10 (4d10+10) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      6,
+      6,
+      -2,
+      4,
+      2
+    ]
+  }
+}

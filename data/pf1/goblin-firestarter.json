@@ -1,0 +1,104 @@
+{
+  "name": "Goblin Firestarter",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "goblinoid",
+  "alignment": "NE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 20,
+    "notes": "armor +3, dex +5, dodge +1, size +1",
+    "touch": 17,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 36,
+    "formula": "5d8+10"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 20,
+    "con": 14,
+    "int": 8,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +3, Ref +9, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +13, Climb +8, Disable Device +13, Escape Artist +13, Perception +9, Sleight of Hand +13, Stealth +17, Swim +8",
+    "list": {
+      "Acrobatics": "+13",
+      "Climb": "+8",
+      "Disable Device": "+13",
+      "Escape Artist": "+13",
+      "Perception": "+9",
+      "Sleight of Hand": "+13",
+      "Stealth": "+17",
+      "Swim": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Goblin"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 3,
+  "feats": [
+    "Dodge",
+    "Improved Initiative",
+    "Two-Weapon Fighting",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk dogslicer +8 (1d4/19-20), mwk dogslicer +8 (1d4/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "shortbow +9 (1d4/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Goblin",
+    "class": "rogue 5",
+    "cmb": "+2",
+    "cmd": 18,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forest and plains (usually coastal regions)"
+      }
+    ]
+  }
+}

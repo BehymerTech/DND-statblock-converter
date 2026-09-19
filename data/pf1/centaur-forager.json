@@ -1,0 +1,106 @@
+{
+  "name": "Centaur Forager",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Monster Codex",
+  "size": "Large",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 17,
+    "notes": "armor +3, dex +3, natural +2, size -1",
+    "touch": 12,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 69,
+    "formula": "4d10+3d10+31"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 16,
+    "con": 19,
+    "int": 11,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +8, Ref +10, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +4, Heal +8, Intimidate +4, Knowledge (geography) +6, Knowledge (nature) +6, Perception +13, Stealth +9, Survival +13",
+    "list": {
+      "Diplomacy": "+4",
+      "Heal": "+8",
+      "Intimidate": "+4",
+      "Perception": "+13",
+      "Stealth": "+9",
+      "Survival": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Common",
+    "Elven",
+    "Sylvan"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 7,
+  "feats": [
+    "Cleave",
+    "Endurance",
+    "Lunge",
+    "Power Attack",
+    "Quick Draw",
+    "Rapid Shot"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "greatsword +10/+5 (2d6+6/19-20), 2 hooves +5 (1d6+2)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk composite longbow +10/+5 (1d8+4/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Swirling markings cover the armor and flanks of this imposing centaur. A bow and sword, both heavy enough to suit her powerful frame, hang from her body.",
+  "meta": {
+    "race": "Centaur",
+    "class": "ranger 3 (Pathfinder RPG Bestiary 42)",
+    "cmb": "+12",
+    "cmd": "25 (29 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests and plains"
+      }
+    ]
+  }
+}

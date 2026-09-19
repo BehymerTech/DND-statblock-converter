@@ -1,0 +1,120 @@
+{
+  "name": "Tataka",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "native, rakshasa, shapechanger",
+  "alignment": "LE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 28,
+    "notes": "dex +3, dodge +1, natural +15, size -1",
+    "touch": 13,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 225,
+    "formula": "18d10+126"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., other_semicolon air walk ft."
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 16,
+    "con": 25,
+    "int": 13,
+    "wis": 13,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +18, Ref +9, Will +12",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +18, Bluff +23, Climb +17, Disguise +26, Intimidate +23, Knowledge (religion) +10, Perception +19, Sense Motive +19, Survival +16, Swim +18",
+    "list": {
+      "Acrobatics": "+18",
+      "Bluff": "+23",
+      "Climb": "+17",
+      "Disguise": "+26",
+      "Intimidate": "+23",
+      "Perception": "+19",
+      "Sense Motive": "+19",
+      "Survival": "+16",
+      "Swim": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent",
+    "true seeing"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Common",
+    "Infernal",
+    "Undercommon"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 18,
+  "feats": [
+    "Cleave",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dodge",
+    "Great Cleave",
+    "Improved Critical (unarmed strike)",
+    "Improved Vital Strike",
+    "Power Attack",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "unarmed strike +24/+19/+14/+9 (2d6+7/19-20), bite +19 (1d8+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering, blue-skinned woman has backward-facing hands and a feral, animal-like visage with exaggerated features.",
+  "meta": {
+    "cmb": "+26",
+    "cmd": 40,
+    "racialModifiers": [
+      "Bluff 4",
+      "Disguise 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, patrol (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

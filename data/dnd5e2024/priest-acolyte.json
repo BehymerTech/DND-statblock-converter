@@ -1,0 +1,87 @@
+{
+  "name": "Priest Acolyte",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "or Small Humanoid",
+  "subtype": "Cleric",
+  "alignment": "Neutral",
+  "cr": "1/4",
+  "level": null,
+  "xp": 50,
+  "ac": {
+    "value": 13,
+    "notes": ""
+  },
+  "hp": {
+    "average": 11,
+    "formula": "2d8 + 2"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 10,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 11
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Medicine +4, Religion +2",
+    "list": {
+      "Medicine": "+4",
+      "Religion": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 12,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+0 (10)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Mace",
+      "text": "_Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 5 (1d6 + 2) Bludgeoning damage plus 2 (1d4) Radiant damage."
+    },
+    {
+      "name": "Radiant Flame",
+      "text": "_Ranged Attack Roll:_ +4, range 60 ft. _Hit:_ 7 (2d6) Radiant damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The priest casts one of the following spells, using Wisdom as the spellcasting ability: <br> &emsp;**At Will:** _Light, Thaumaturgy_"
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Divine Aid (1/Day)",
+      "text": "The priest casts _Bless, Healing Word,_ or _Sanctuary,_ using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

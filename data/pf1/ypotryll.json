@@ -1,0 +1,113 @@
+{
+  "name": "Ypotryll",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Huge",
+  "type": "magical beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 29,
+    "notes": "dex -1, natural +22, size -2",
+    "touch": 7,
+    "flatFooted": 29
+  },
+  "hp": {
+    "average": 253,
+    "formula": "22d10+132"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft."
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 9,
+    "con": 21,
+    "int": 2,
+    "wis": 10,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +21, Ref +12, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +6, Perception +12, Survival +4, Swim +23",
+    "list": {
+      "Acrobatics": "+6",
+      "Perception": "+12",
+      "Survival": "+4",
+      "Swim": "+23"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 22,
+  "languages": [],
+  "initiative": "-1",
+  "babOrProficiency": 22,
+  "feats": [
+    "Charge Through",
+    "Endurance",
+    "Great Fortitude",
+    "Greater Overrun",
+    "Improved Bull Rush",
+    "Improved Overrun",
+    "Iron Will",
+    "Multiattack",
+    "Power Attack",
+    "Run",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +31 (4d8+16 plus push), 2 hooves +29 (2d8+11), tail slap +29 (2d6+5 plus push)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This ugly creature’s porcine head features multiple horns and tusks. Its muscular body ripples with raw power.",
+  "meta": {
+    "cmb": "35 (+37 bull rush, +39 overrun)",
+    "cmd": "44 (46 vs. bull rush, 46 vs. overrun)",
+    "racialModifiers": [
+      "Acrobatics 12",
+      "Swim 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate marshes, hills, or coasts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, herd (3-16)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

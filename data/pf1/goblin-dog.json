@@ -1,0 +1,96 @@
+{
+  "name": "Goblin Dog",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary, Pathfinder No. 1: Burnt Offerings",
+  "size": "Medium",
+  "type": "animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 13,
+    "notes": "dex +2, natural +1",
+    "touch": 12,
+    "flatFooted": 11
+  },
+  "hp": {
+    "average": 9,
+    "formula": "1d8+5"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft."
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 14,
+    "con": 15,
+    "int": 2,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +4, Ref +4, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Stealth +6, Perception +1",
+    "list": {
+      "Stealth": "+6",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": 11,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 0,
+  "feats": [
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +2 (1d6+3 plus allergic reaction)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This mangy canine’s face has the same flat nose, beady eyes, and protruding teeth as a rat grown grotesquely large.",
+  "meta": {
+    "cmb": "+2",
+    "cmd": 14,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forest, swamp, or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or pack (2-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

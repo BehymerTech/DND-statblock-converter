@@ -1,0 +1,133 @@
+{
+  "name": "Kostchtchie",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Huge",
+  "type": "outsider",
+  "subtype": "chaotic, cold, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "26",
+  "level": null,
+  "xp": 2457600,
+  "ac": {
+    "value": 44,
+    "notes": "deflection +4, dex +6, natural +14, profane +12, size -2",
+    "touch": 30,
+    "flatFooted": 38
+  },
+  "hp": {
+    "average": 604,
+    "formula": "31d10+434"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., climb 60 ft."
+  },
+  "abilities": {
+    "str": 48,
+    "dex": 23,
+    "con": 38,
+    "int": 25,
+    "wis": 30,
+    "cha": 27
+  },
+  "saves": {
+    "text": "Fort +35, Ref +20, Will +31",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +42, Climb +58, Intimidate +42, Knowledge (arcana) +41, Knowledge (engineering) +38, Knowledge (local) +41, Knowledge (planes) +41, Knowledge (religion) +38, Perception +52, Sense Motive +44, Spellcraft +41, Stealth +32, Use Magic Device +39",
+    "list": {
+      "Bluff": "+42",
+      "Climb": "+58",
+      "Intimidate": "+42",
+      "Perception": "+52",
+      "Sense Motive": "+44",
+      "Spellcraft": "+41",
+      "Stealth": "+32",
+      "Use Magic Device": "+39"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "detect law",
+    "true seeing"
+  ],
+  "passivePerception": 62,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Giant",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 31,
+  "feats": [
+    "Awesome Blow",
+    "Catch Off-Guard",
+    "Craft Construct",
+    "Craft Magic Arms and Armor",
+    "Craft Wondrous Item",
+    "Critical Focus",
+    "Greater Sunder",
+    "Greater Vital Strike",
+    "Improved Bull Rush",
+    "Improved Critical (warhammer)",
+    "Improved Sunder",
+    "Improved Vital Strike",
+    "Power Attack",
+    "Quick Draw",
+    "Staggering Critical",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+5 adamantine icy burst warhammer +53/+48/+43/+38 (3d6+24/19-20/×3 plus 1d6 cold), slam +48 (1d8+19 plus grab)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +37/+32/+27/+22 (2d6+19)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering giant with twisted legs has human skulls woven into his beard and holds an immense warhammer.",
+  "meta": {
+    "cmb": "52 (+54 bull rush, +56 grapple, +56 sunder)",
+    "cmd": "86 (88 vs. bull rush, 88 vs. sunder)",
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any cold (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple (+5 adamantine icy burst warhammer, other treasure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "name": "Etheroot",
+  "sourceSystem": "pf1",
+  "source": "Planar Adventures",
+  "size": "Large",
+  "type": "plant",
+  "subtype": "extraplanar",
+  "alignment": "N",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "dex +6, natural +6, size -1",
+    "touch": 15,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 95,
+    "formula": "10d8+50"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 23,
+    "con": 20,
+    "int": 15,
+    "wis": 18,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +12, Ref +11, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (planes) +12, Perception +17, Sense Motive +14, Spellcraft +12",
+    "list": {
+      "Perception": "+17",
+      "Sense Motive": "+14",
+      "Spellcraft": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "see invisibility"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "telepathy 100 ft."
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 7,
+  "feats": [
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Multiattack",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +12 (1d8+4 plus incite emotion), 6 tentacles +10 (1d4+2 plus trip)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This leafy bush bears flowers of a variety of shapes and colors, one of which resembles a toothy mouth at the end of a long stalk.",
+  "meta": {
+    "cmb": "+12",
+    "cmd": "28 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Ethereal Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

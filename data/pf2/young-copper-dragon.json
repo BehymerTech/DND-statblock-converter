@@ -1,0 +1,125 @@
+{
+  "name": "Young Copper Dragon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 121.",
+  "size": "Large",
+  "type": "Earth",
+  "subtype": "Dragon",
+  "alignment": "CG",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 150,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, fly 120 feet; climb stone 30 feet;"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 16,
+    "con": 14,
+    "int": 14,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +16, Ref +17, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +17 (1d20+17); __Athletics__: +17 (1d20+17); __Crafting__: +14 (1d20+14); __Deception__: +15 (1d20+15); __Performance__: +16 (1d20+16); __Society__: +16 (1d20+16); __Stealth__: +17 (1d20+17); ",
+    "list": {
+      "Acrobatics": "+17",
+      "Athletics": "+17",
+      "Crafting": "+14",
+      "Deception": "+15",
+      "Performance": "+16",
+      "Society": "+16",
+      "Stealth": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 60"
+  ],
+  "passivePerception": 26,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Gnomish"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Frightful Presence",
+      "text": "(aura, emotion, fear, mental); 90 feet, DC 23."
+    },
+    {
+      "name": "Twisting Tail",
+      "text": "⬲ Trigger A creature within reach of the copper dragon's tail uses a move action or leaves a square during a move action it's using. Effect The dragon makes a tail Strike at the creature with a –2 penalty. If it hits, the dragon disrupts the triggering action."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ The copper dragon breathes in one of two ways. The dragon can't use Breath Weapon again for 1d4 (1d4) rounds.<ul class='inner-bullet-list'><li>Acid (acid, arcane, evocation); The dragon breathes acid in a 60-foot line that deals 8d6 (8d6) acid damage (DC 26 basic Fortitude save).</li><li>Slowing Gas (arcane, transmutation); The dragon breathes a 60-foot line of slowing gas. Each creature in the area must succeed at a DC 26 Fortitude save or be slowed 1 for 1 round (or slowed 2 on a critical failure).</li></ul>"
+    },
+    {
+      "name": "Climb Stone",
+      "text": "The dragon's climb speed functions only when climbing stone surfaces."
+    },
+    {
+      "name": "Draconic Frenzy",
+      "text": "⬺ The dragon makes two claw Strikes and one tail Strike in any order."
+    },
+    {
+      "name": "Draconic Momentum",
+      "text": "When the dragon scores a critical hit with a Strike, it recharges Breath Weapon."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +20 (acid, reach 10 feet); Damage 2d8+8 (2d8+8) piercing plus 1d8 (1d8) acid"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +20 (agile); Damage 2d6+8 (2d6+8) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +18 (reach 15 feet); Damage 1d8+7 (1d8+7) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      3,
+      2,
+      2,
+      2,
+      3
+    ]
+  }
+}

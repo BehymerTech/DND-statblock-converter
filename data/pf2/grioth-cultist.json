@@ -1,0 +1,122 @@
+{
+  "name": "Grioth Cultist",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 123.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Grioth",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 40,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet, fly 30 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 14,
+    "int": 14,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +7, Ref +10, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Occultism__: +9 (1d20+9); __Religion__: +10 (1d20+10); __Stealth__: +10 (1d20+10); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Occultism": "+9",
+      "Religion": "+10",
+      "Stealth": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "precise echolocation 20, greater darkvision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Aklo",
+    "Grioth; [[telepathy]] 30 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Echolocation",
+      "text": "A grioth can use its hearing as a precise sense at the listed range."
+    },
+    {
+      "name": "Items",
+      "text": "voidglass kukri;"
+    },
+    {
+      "name": "Light Blindness",
+      "text": ""
+    },
+    {
+      "name": "No Breath",
+      "text": "A grioth doesn't breathe except to speak and is immune to effects that require breathing (such as an inhaled poison)."
+    },
+    {
+      "name": "Grioth Venom",
+      "text": "(emotion, fear, mental, poison); Saving Throw DC 20 Fortitude. Maximum Duration 6 rounds Stage 1 frightened 1 (1 round) Stage 2 frightened 2 (1 round) Stage 3 frightened 3 (1 round)"
+    },
+    {
+      "name": "Shock Mind",
+      "text": "⬺ (enchantment, mental, occult); The grioth scout makes a Strike with a voidglass weapon. If the Strike hits, it deals an additional 2d6 (2d6) mental damage, and the target must succeed at a DC 20 Will save (this has the incapacitation trait) or become confused for 1 round."
+    },
+    {
+      "name": "Invoke Haunter of the Dark",
+      "text": "⬺ (divine, enchantment, mental, visual); Frequency once per day Effect The grioth cultist waves a hand in a complex pattern to invoke dark powers, dealing 3d8 (3d8) mental damage. Each nongrioth creature within 20 feet must attempt a DC 20 Will save. Critical Success The creature is unaffected. Success The creature takes half damage. Failure The creature takes full damage and becomes stupefied 1 for 1 round. Critical Failure The creature takes double damage and becomes stupefied 1 for 1 minute."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ kukri +10 (agile, finesse, trip); Damage 1d6+2 (1d6+2) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +10 (agile, finesse); Damage 1d8+2 (1d8+2) piercing plus grioth venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      3,
+      2,
+      2,
+      3,
+      0
+    ],
+    "items": "voidglass kukri;"
+  }
+}

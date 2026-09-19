@@ -1,0 +1,112 @@
+{
+  "name": "Mythic Chaneque",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Small",
+  "type": "fey",
+  "subtype": "mythic",
+  "alignment": "NE",
+  "cr": "1",
+  "level": null,
+  "xp": 400,
+  "ac": {
+    "value": 15,
+    "notes": "dex +3, natural +1, size +1",
+    "touch": 14,
+    "flatFooted": 12
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d6+9"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 60 ft. (clumsy), climb 20 ft."
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 17,
+    "con": 10,
+    "int": 13,
+    "wis": 14,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +1, Ref +6, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +9, Bluff +5, Climb +12, Fly +3, Perception +8, Sense Motive +8, Stealth +13",
+    "list": {
+      "Acrobatics": "+9",
+      "Bluff": "+5",
+      "Climb": "+12",
+      "Fly": "+3",
+      "Perception": "+8",
+      "Sense Motive": "+8",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 1,
+  "feats": [
+    "Toughness",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "claw +5 (1d3+3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "thrown skull +5 (1d4+3 plus steal soul)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature appears to be a cross between a pixie and a bat with charred flesh. Around its waist dangle tiny fairy skull trophies.",
+  "meta": {
+    "cmb": "-2",
+    "cmd": 11,
+    "racialModifiers": [
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or gang (2-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

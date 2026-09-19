@@ -1,0 +1,110 @@
+{
+  "name": "Young Forest Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "earth",
+  "alignment": "CE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 22,
+    "notes": "dex +1, natural +12, size -1",
+    "touch": 10,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 126,
+    "formula": "11d12+55"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 200 ft. (poor), burrow 20 ft., climb 30 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 12,
+    "con": 18,
+    "int": 12,
+    "wis": 13,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +11, Ref +8, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Bluff +15, Climb +28, Fly -5, Intimidate +15, Knowledge (arcana) +9, Knowledge (nature) +9, Perception +15, Stealth +17, Survival +10",
+    "list": {
+      "Acrobatics": "+7",
+      "Bluff": "+15",
+      "Climb": "+28",
+      "Fly": "-5",
+      "Intimidate": "+15",
+      "Perception": "+15",
+      "Stealth": "+17",
+      "Survival": "+10"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "tremorsense"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 11,
+  "feats": [
+    "Improved Initiative",
+    "Multiattack",
+    "Power Attack",
+    "Skill Focus (Stealth)",
+    "Toughness",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +17 (2d6+9), 2 claws +16 (1d8+6), gore +16 (1d8+9), tail slap +14 (1d8+9)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This massive serpentine and wingless creature has jade scales and antlers, and sounds like grinding stones as it stalks forth.",
+  "meta": {
+    "cmb": "+18",
+    "cmd": "29 (33 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any forest"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

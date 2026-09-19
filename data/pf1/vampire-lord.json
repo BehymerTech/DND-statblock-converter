@@ -1,0 +1,122 @@
+{
+  "name": "Vampire Lord",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "augmented humanoid, elf, human",
+  "alignment": "NE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 28,
+    "notes": "armor +7, deflection +1, dex +2, dodge +1, natural +7",
+    "touch": 14,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 150,
+    "formula": "14d8+84"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 14,
+    "con": "None",
+    "int": 18,
+    "wis": 15,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +16, Ref +10, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +12, Intimidate +22, Knowledge (arcana) +21, Knowledge (dungeoneering) +21, Knowledge (local) +11, Knowledge (nobility) +11, Perception +35, Sense Motive +12, Spellcraft +21, Use Magic Device +15",
+    "list": {
+      "Diplomacy": "+12",
+      "Intimidate": "+22",
+      "Perception": "+35",
+      "Sense Motive": "+12",
+      "Spellcraft": "+21",
+      "Use Magic Device": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 45,
+  "languages": [
+    "Common",
+    "Dwarven",
+    "Elven",
+    "Giant",
+    "Sylvan",
+    "Undercommon"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 10,
+  "feats": [
+    "Alertness",
+    "Combat Casting",
+    "Critical Focus",
+    "Disruptive",
+    "Dodge",
+    "Flanking Foil",
+    "Improved Critical (longsword)",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Mobility",
+    "Power Attack",
+    "Skill Focus (Perception)",
+    "SpellbreakerB",
+    "ToughnessB",
+    "Weapon Focus (longsword)",
+    "Weapon Specialization (longsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 frost longsword +20/+15 (1d8+11/17-20 plus 2d6), slam +13 (1d4+8 plus energy drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Half-elf",
+    "class": "vampire magus 14 (Pathfinder RPG Ultimate Magic 9)",
+    "cmb": "+18",
+    "cmd": 32,
+    "racialModifiers": [
+      "Bluff 8",
+      "Perception 8",
+      "Sense Motive 8",
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      }
+    ]
+  }
+}

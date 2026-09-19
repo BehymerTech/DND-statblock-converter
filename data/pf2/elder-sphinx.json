@@ -1,0 +1,116 @@
+{
+  "name": "Elder Sphinx",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 250.",
+  "size": "Huge",
+  "type": "Beast",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 16",
+  "xp": null,
+  "ac": {
+    "value": 38,
+    "notes": ""
+  },
+  "hp": {
+    "average": 300,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, fly 60 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 20,
+    "con": 22,
+    "int": 26,
+    "wis": 28,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +28, Ref +25, Will +31",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +30 (1d20+30); __Deception__: +28 (1d20+28); __Diplomacy__: +30 (1d20+30); __Intimidation__: +28 (1d20+28); __Occultism__: +30 (1d20+30); __Bardic lore__: +32 (1d20+32); ",
+    "list": {
+      "Athletics": "+30",
+      "Deception": "+28",
+      "Diplomacy": "+30",
+      "Intimidation": "+28",
+      "Occultism": "+30",
+      "Bardic lore": "+32"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, true seeing"
+  ],
+  "passivePerception": 41,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Sphinx; tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Bardic Lore",
+      "text": "Sphinxes are naturally curious, and their love of puzzles and mysteries leads them to gather information on a broad range of topics. Sphinxes have the Bardic Lore bard feat, allowing them to Recall Knowledge on any topic."
+    },
+    {
+      "name": "Guardian Monolith",
+      "text": "⬺ The elder sphinx transforms their body into stone or back to flesh. In stone form, the sphinx is paralyzed but has Hardness 14 and gains immunity to bleed, clumsy, disease, drained, enfeebled, fatigued, negative damage, petrified, poison, sickened, and wounded. They don't age or require food, water, or sleep. They can perceive their surroundings and cast their innate spells. Stone to flesh turns the elder sphinx from stone form back to flesh, and flesh to stone turns it from flesh form to stone form."
+    },
+    {
+      "name": "Idols of Stone",
+      "text": "When the sphinx casts shape stone, they can shape the stone into a magical duplicate of themself. When they cast clairaudience, clairvoyance, locate, or ventriloquism, they can make the effect come from any duplicate, instead of themself. The elder sphinx can concentrate for 1 minute to transfer their consciousness to any duplicate; the sphinx is then in their stone form from Guardian Monolith in that statue. The sphinx can have no more than four duplicate statues at a time. Casting shape stone at that point causes the oldest duplicate to crumble to dust."
+    },
+    {
+      "name": "Pose a Riddle",
+      "text": "⬺ (enchantment, incapacitation, linguistic, mental, occult); Frequency once per minute Effect The sphinx recites a riddle and compels up to 10 creatures within 30 feet to answer (DC 37 Will save). The GM either runs the riddle out of character by timing the players' attempts, or picks an appropriate associated skill for the riddle, such as Religion for a riddle involving divine mysteries. The sphinx gains a +2 circumstance bonus to attack rolls and damage rolls against any creature that answers incorrectly even once. This bonus lasts for 1 day. Critical Success The creature is unaffected, but it can choose to try to help solve the riddle. Success The creature attempts to answer the riddle. Each round spending at least one action attempting a Recall Knowledge check with the chosen skill (or working on the answer, if using an out of game riddle). This lasts for 1 minute, until the creature successfully answers the riddle, or until an enemy takes a hostile action against the creature, whichever comes first. Failure As success but the creature must spend at least two actions each round attempting to answer. Critical Failure As failure, but up to 1 hour."
+    },
+    {
+      "name": "Pounce",
+      "text": "⬻ The elder sphinx Strides and makes a Strike at the end of that movement. If they began this action hidden, they remain hidden until after the attack."
+    },
+    {
+      "name": "Warding Glyph",
+      "text": "Once per day, an elder sphinx can create a magical symbol as though casting a heightened glyph of warding. The sphinx usually shapes it to the form of a riddle and sets the password to the answer. A creature that doesn't speak the password must succeed at a DC 37 Will save or be affected by one of the following spells, chosen by the sphinx when creating the symbol: visions of danger (7th), spirit blast (6th), synaptic pulse (5th), charm (4th), fear (3rd), phantom pain (3rd), or sleep (3rd). The sphinx learns the identity of any creature that answers the riddle and tends to be friendly to them."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ claw +32 (agile); Damage 3d8+16 (3d8+16) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      5,
+      6,
+      8,
+      9,
+      6
+    ]
+  }
+}

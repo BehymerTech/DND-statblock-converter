@@ -1,0 +1,102 @@
+{
+  "name": "Iron Rhinoceros",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 95: Anvil of Fire",
+  "size": "Huge",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 25,
+    "notes": "dex +1, natural +16, size -2",
+    "touch": 9,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 131,
+    "formula": "14d10+54"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 12,
+    "con": "None",
+    "int": 1,
+    "wis": 11,
+    "cha": 5
+  },
+  "saves": {
+    "text": "Fort +6, Ref +7, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +4, Perception +14",
+    "list": {
+      "Intimidate": "+4",
+      "Perception": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 24,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 14,
+  "feats": [
+    "Great Fortitude",
+    "Improved Critical (gore)",
+    "Intimidating Prowess",
+    "Lightning Reflexes",
+    "Multiattack",
+    "Power Attack",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +21 (3d8+9/19-20), 2 chains +19 (2d6+4 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Dangling chains cover the riveted iron body of this massive rhinoceros like thick, woolly fur. Its hollow eyes glow-windows into a mighty furnace-and smoke that smells suspiciously like burning flesh billows from its smokestack horns.",
+  "meta": {
+    "cmb": "25 (+29 grapple)",
+    "cmd": "36 (40 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm mountains or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Animate Dream",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 18.",
+  "size": "Medium",
+  "type": "Incorporeal",
+  "subtype": "Dream",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 24,
+    "notes": ""
+  },
+  "hp": {
+    "average": 110,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 40 feet"
+  },
+  "abilities": {
+    "str": 0,
+    "dex": 18,
+    "con": 16,
+    "int": 10,
+    "wis": 14,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +15, Ref +18, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +14 (1d20+14); __Deception__: +18 (1d20+18); __Intimidation__: +18 (1d20+18); __Occultism__: +12 (1d20+12); __Stealth__: +18 (1d20+18); ",
+    "list": {
+      "Acrobatics": "+14",
+      "Deception": "+18",
+      "Intimidation": "+18",
+      "Occultism": "+12",
+      "Stealth": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Endless Nightmare",
+      "text": "(curse, emotion, enchantment, fear, mental, occult); Saving Throw DC 26 Fortitude. Stage 1 fatigued (1 day) Stage 2 fatigued and stupefied 1 (1 day) Stage 3 The victim falls asleep and can't be awakened as long as they remain at this stage. (1 day)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ nightmare tendril +20 (agile, finesse); Damage 4d8 (4d8) negative plus endless nightmare"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -5,
+      4,
+      3,
+      0,
+      2,
+      6
+    ]
+  }
+}

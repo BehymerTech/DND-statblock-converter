@@ -1,0 +1,109 @@
+{
+  "name": "Sump Steward",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 141: Last Watch",
+  "size": "Large",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 23,
+    "notes": "dex +2, natural +12, size -1",
+    "touch": 11,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 105,
+    "formula": "14d8+42"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 15,
+    "con": 16,
+    "int": 11,
+    "wis": 14,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +12, Ref +8, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +14, Perform (sing) +8, Sense Motive +11, Stealth +8",
+    "list": {
+      "Perception": "+14",
+      "Sense Motive": "+11",
+      "Stealth": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 24,
+  "languages": [
+    "Common",
+    "Sylvan",
+    "speak with plants"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 10,
+  "feats": [
+    "Alertness",
+    "Blind-Fight",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Quicken Spell-Like Ability (entangle)",
+    "Weapon Focus (greatclub)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "greatclub +15/+10 (2d8+7)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This hunched giant has spindly limbs covered in moss and a riot of vines and mushrooms for a torso. It has two bright red mushrooms growing where its eyes should be, and it sports a long beard of woven grass.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": 28,
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any swamp or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or choir (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (greatclub, other treasure)"
+      }
+    ]
+  }
+}

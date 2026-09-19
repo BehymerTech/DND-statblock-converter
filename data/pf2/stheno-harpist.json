@@ -1,0 +1,107 @@
+{
+  "name": "Stheno Harpist",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 258.",
+  "size": "Medium",
+  "type": "Stheno",
+  "subtype": "Humanoid",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 1",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 19,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 16,
+    "int": 12,
+    "wis": 8,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +8, Ref +7, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Crafting__: +4 (1d20+4); __Diplomacy__: +7 (1d20+7); __Performance__: +7 (1d20+7), (Performance: +8 (1d20+8) for stringed instruments); __Stealth__: +5 (1d20+5); ",
+    "list": {
+      "Crafting": "+4",
+      "Diplomacy": "+7",
+      "Performance": "+8",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 14,
+  "languages": [
+    "Common; speak with snakes"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Snake Search",
+      "text": "When the stheno harpist Searches or Seeks, their snakes try to help too, rolling a separate Perception check with a modifier of –1 instead of +4. If the snakes notice something, they try to notify the stheno, though they are no more intelligent than normal snakes and might find different things interesting than the stheno does."
+    },
+    {
+      "name": "Speak With Snakes",
+      "text": "The stheno harpist can communicate with snakes, including the ones in their hair, and can use Diplomacy to Make an Impression on snakes and Request things from snakes. Items harp, leather armor, rapier, shortbow."
+    },
+    {
+      "name": "Items",
+      "text": "harp, leather armor, rapier, shortbow;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ rapier +7 (deadly d8, disarm, finesse); Damage 1d6 (1d6) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ snake fangs +7 (agile, finesse); Damage 1d4 (1d4) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ shortbow +7 (deadly d10, range increment 60 feet, reload 0); Damage 1d6 (1d6) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      0,
+      2,
+      3,
+      1,
+      -1,
+      4
+    ],
+    "items": "harp, leather armor, rapier, shortbow;"
+  }
+}

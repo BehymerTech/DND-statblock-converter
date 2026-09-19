@@ -1,0 +1,112 @@
+{
+  "name": "Veranallia",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 31.",
+  "size": "Medium",
+  "type": "Celestial",
+  "subtype": "Azata",
+  "alignment": "CG",
+  "cr": null,
+  "level": "Creature 20",
+  "xp": null,
+  "ac": {
+    "value": 45,
+    "notes": ""
+  },
+  "hp": {
+    "average": 475,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, fly 40 feet"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 22,
+    "con": 26,
+    "int": 22,
+    "wis": 30,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +36, Ref +34, Will +38",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +34 (1d20+34); __Deception__: +36 (1d20+36); __Diplomacy__: +38 (1d20+38); __Intimidation__: +36 (1d20+36); __Medicine__: +36 (1d20+36); __Nature__: +34 (1d20+34); __Survival__: +38 (1d20+38); __Elysium lore__: +36 (1d20+36); ",
+    "list": {
+      "Athletics": "+34",
+      "Deception": "+36",
+      "Diplomacy": "+38",
+      "Intimidation": "+36",
+      "Medicine": "+36",
+      "Nature": "+34",
+      "Survival": "+38",
+      "Elysium lore": "+36"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tremorsense 120"
+  ],
+  "passivePerception": 48,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal; speak with animals",
+    "speak with"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Alter Weather",
+      "text": "⬽ Frequency three times per day Effect The veranallia dramatically alters weather patterns in the surrounding area, producing any of the results of a successful 9th-level control weather ritual."
+    },
+    {
+      "name": "Rebirth",
+      "text": "(divine, necromancy); Frequency once per day Effect The veranallia spends a minute to encase a creature that has been dead for no more than a year in a cocoon. After 24 hours, the creature is restored to life, and the cocoon explodes in a shower of colorful blossoms. If the veranallia's chooses, Rebirth can change the creature's ancestry or heritage, typically into an aasimar."
+    },
+    {
+      "name": "Items",
+      "text": "+3 greater striking sickle;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ sickle +39 (agile, finesse, trip); Damage 3d4+16 (3d4+16) slashing plus 4d6 (4d6) cold and 1d6 (1d6) good"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ vine +39 (reach 20 feet); Damage 4d12+16 (4d12+16) bludgeoning plus 1d6 (1d6) good and Improved Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      8,
+      6,
+      8,
+      6,
+      10,
+      8
+    ],
+    "items": "+3 greater striking sickle;"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "name": "Crone Queen",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5, Pathfinder No. 72: The Witch Queen's Revenge",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "cold",
+  "alignment": "NE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 30,
+    "notes": "armor +4, dex +5, dodge +1, natural +10",
+    "touch": 16,
+    "flatFooted": 24
+  },
+  "hp": {
+    "average": 209,
+    "formula": "22d8+110"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 20,
+    "con": "None",
+    "int": 19,
+    "wis": 17,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +13, Ref +14, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +29, Knowledge (arcana) +27, Knowledge (history) +27, Knowledge (nobility) +27, Perception +32, Sense Motive +32, Spellcraft +29, Stealth +30",
+    "list": {
+      "Intimidate": "+29",
+      "Perception": "+32",
+      "Sense Motive": "+32",
+      "Spellcraft": "+29",
+      "Stealth": "+30"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "lifesense"
+  ],
+  "passivePerception": 42,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Draconic",
+    "Giant",
+    "Sylvan"
+  ],
+  "initiative": "+9",
+  "babOrProficiency": 16,
+  "feats": [
+    "Alertness",
+    "Combat Casting",
+    "Dodge",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Lunge",
+    "Mobility",
+    "Power Attack",
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "ice staff +27/+22/+17/+12 (1d6+14 plus 1d6 cold and energy drain)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "A cold, hateful light burns in the eye sockets of this corpse-like creature, whose withered skin is stretched over its icy bones.",
+  "meta": {
+    "cmb": "+22",
+    "cmd": 38,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "cold ruins"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, coven (3-6), or court (12-14)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

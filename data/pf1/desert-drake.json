@@ -1,0 +1,107 @@
+{
+  "name": "Desert Drake",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Large",
+  "type": "dragon",
+  "subtype": "earth",
+  "alignment": "NE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 21,
+    "notes": "dex +2, natural +10, size -1",
+    "touch": 11,
+    "flatFooted": 19
+  },
+  "hp": {
+    "average": 103,
+    "formula": "9d12+45"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (average), burrow 20 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 15,
+    "con": 21,
+    "int": 8,
+    "wis": 11,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +11, Ref +8, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +12, Intimidate +13, Perception +12, Stealth +10, Survival +12",
+    "list": {
+      "Fly": "+12",
+      "Intimidate": "+13",
+      "Perception": "+12",
+      "Stealth": "+10",
+      "Survival": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "scent",
+    "tremorsense"
+  ],
+  "passivePerception": 22,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 9,
+  "feats": [
+    "Dazzling Display",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack",
+    "Weapon Focus (bite)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +15 (2d6+9/19-20 plus 1d10 electricity), tail slap +9 (1d8+3 plus push)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This sleek dragon has scales mottled in desert colors, lacks forelimbs, and sports massive wings on its lissome back.",
+  "meta": {
+    "cmb": "+16",
+    "cmd": 28,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm deserts"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or rampage (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

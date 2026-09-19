@@ -1,0 +1,93 @@
+{
+  "name": "Frostfallen Mammoth",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 51: The Hungry Storm",
+  "size": "Huge",
+  "type": "undead",
+  "subtype": "cold",
+  "alignment": "NE",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 25,
+    "notes": "dex +1, natural +16, size -2",
+    "touch": 9,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 91,
+    "formula": "14d8+28"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft."
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 12,
+    "con": "None",
+    "int": "None",
+    "wis": 10,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +5, Ref +5, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "lifesense"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 10,
+  "feats": [
+    "Toughness"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "gore +21 (2d8+13 plus 3d6 cold), slam +21 (2d6+13 plus 3d6 cold)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This frozen mammoth erupts into movement, its bones armored with plates of ice and eyes burning with cold flames.",
+  "meta": {
+    "cmb": "+25",
+    "cmd": "36 (40 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any cold land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or drove (3-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

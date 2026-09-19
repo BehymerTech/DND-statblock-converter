@@ -1,0 +1,105 @@
+{
+  "name": "NPC Criminal (Slayer)",
+  "sourceSystem": "pf1",
+  "source": "GameMastery Guide",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "NE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 18,
+    "notes": "armor +4, dex +4",
+    "touch": 14,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 63,
+    "formula": "5d10+4d8+18"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 14,
+    "int": 12,
+    "wis": 8,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +7, Ref +10, Will +1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +15, Bluff +5, Climb +15, Craft (alchemy) +5, Disable Device +10, Disguise +10, Escape Artist +10, Intimidate +10, Perception +10, Sleight of Hand +15, Stealth +21, Survival +10, Swim +6",
+    "list": {
+      "Acrobatics": "+15",
+      "Bluff": "+5",
+      "Climb": "+15",
+      "Disable Device": "+10",
+      "Disguise": "+10",
+      "Escape Artist": "+10",
+      "Intimidate": "+10",
+      "Perception": "+10",
+      "Sleight of Hand": "+15",
+      "Stealth": "+21",
+      "Survival": "+10",
+      "Swim": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 20,
+  "languages": [
+    "Common",
+    "Elven"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 8,
+  "feats": [
+    "Deadly Aim",
+    "Endurance",
+    "Improved Critical (kukri)",
+    "Improved Initiative",
+    "Improved Two-Weapon Fighting",
+    "Point Blank Shot",
+    "Two-Weapon Fighting",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 kukri +13/+8 (1d4+3/15-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 composite shortbow +13/+8 (1d6+3/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "ranger 5, assassin 4",
+    "cmb": "+10",
+    "cmd": 24
+  }
+}

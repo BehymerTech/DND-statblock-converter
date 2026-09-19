@@ -1,0 +1,116 @@
+{
+  "name": "Obcisidaemon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6, Book of the Damned - Volume 3: Horsemen of the Apocalypse",
+  "size": "Gargantuan",
+  "type": "outsider",
+  "subtype": "daemon, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "19",
+  "level": null,
+  "xp": 204800,
+  "ac": {
+    "value": 34,
+    "notes": "deflection +4, dex +4, natural +20, size -4",
+    "touch": 14,
+    "flatFooted": 30
+  },
+  "hp": {
+    "average": 319,
+    "formula": "22d10+198"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (average)"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 19,
+    "con": 28,
+    "int": 13,
+    "wis": 21,
+    "cha": 24
+  },
+  "saves": {
+    "text": "Fort +26, Ref +15, Will +22",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +32, Fly +23, Intimidate +32, Knowledge (history) +15, Knowledge (planes) +15, Perception +30, Sense Motive +30, Spellcraft +26",
+    "list": {
+      "Bluff": "+32",
+      "Fly": "+23",
+      "Intimidate": "+32",
+      "Perception": "+30",
+      "Sense Motive": "+30",
+      "Spellcraft": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "deathwatch",
+    "true seeing"
+  ],
+  "passivePerception": 40,
+  "languages": [
+    "Abyssal",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 22,
+  "feats": [
+    "Bleeding Critical",
+    "Critical Focus",
+    "Greater Sunder",
+    "Greater Vital Strike",
+    "Improved Critical (halberd)",
+    "Improved Sunder",
+    "Improved Vital Strike",
+    "Power Attack",
+    "Quicken Spell-Like Ability (cloudkill)",
+    "Vital Strike",
+    "Weapon Focus (halberd)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 unholy halberd +28/+23/+18/+13 (4d8+13/19-20/×3 plus inherit soul), bite +21 (2d8+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This massive fiend has eagle wings, a tusked canine face, and a muscular frame. It wields an immense, cruel-looking halberd.",
+  "meta": {
+    "cmb": "34 (+38 sunder)",
+    "cmd": "52 (54 vs. sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or holocaust (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+1 unholy halberd, other treasure)"
+      }
+    ]
+  }
+}

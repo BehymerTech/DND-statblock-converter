@@ -1,0 +1,112 @@
+{
+  "name": "Clockwork Dragon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 51.",
+  "size": "Huge",
+  "type": "Mindless",
+  "subtype": "Clockwork, Construct",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 16",
+  "xp": null,
+  "ac": {
+    "value": 39,
+    "notes": ""
+  },
+  "hp": {
+    "average": 265,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, fly 120 feet"
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 20,
+    "con": 20,
+    "int": 0,
+    "wis": 18,
+    "cha": 0
+  },
+  "saves": {
+    "text": "Fort +30, Ref +28, Will +25",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +29 (1d20+29); __Athletics__: +33 (1d20+33); ",
+    "list": {
+      "Acrobatics": "+29",
+      "Athletics": "+33"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 38,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Self-Destruct",
+      "text": "⬲ Trigger The clockwork dragon is reduced to 0 Hit Points Effect A clockwork dragon must use this reaction unless specifically programmed otherwise by its creator; ; The dragon screeches to a stop and emits a steady, loud ticking sound. At the beginning of what would have been its next turn, the dragon explodes, dealing 12d10 (12d10) piercing damage in a 40-foot emanation (DC 37 basic Reflex save). An adjacent creature can cancel the self-destruct sequence by succeeding at a DC 37 Thievery check to [Disable a Device](../../rules/actions/disable-a-device.md)."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ (arcane, evocation, fire); The clockwork dragon breathes a spray of flaming oil that deals 16d6 (16d6) fire damage in a 40-foot cone (DC 37 basic Reflex save). Creatures that fail their saves are covered in burning oil and take 2d6 (2d6) persistent fire damage. The clockwork dragon can't use Breath Weapon again for 2 rounds."
+    },
+    {
+      "name": "Draconic Frenzy",
+      "text": "⬺ The clockwork dragon makes two claw Strikes and one wing Strike in any order."
+    },
+    {
+      "name": "Spearing Tail",
+      "text": "⬺ The clockwork dragon attacks with the sharp point of its tail. It makes a tail Strike against each creature in a 20-foot line, rolling the attack roll once and applying the result to each target. Any creature hit takes 4d6 (4d6) persistent bleed damage (doubled on a critical hit) This counts as two attacks for the dragon's multiple attack penalty."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ adamantine jaws +33 (reach 15 feet); Damage 3d12+17 (3d12+17) piercing."
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ adamantine claw +33 (agile, reach 10 feet); Damage 3d8+17 (3d8+17) slashing."
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +31 (reach 20 feet); Damage 3d12+15 (3d12+15) bludgeoning."
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ wing +31 (agile, reach 15 feet); Damage 2d10+15 (2d10+15) piercing."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      9,
+      5,
+      5,
+      -5,
+      4,
+      -5
+    ]
+  }
+}

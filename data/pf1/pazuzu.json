@@ -1,0 +1,134 @@
+{
+  "name": "Pazuzu",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "air, chaotic, demon, evil, extraplanar",
+  "alignment": "CE",
+  "cr": "30",
+  "level": null,
+  "xp": 9830400,
+  "ac": {
+    "value": 48,
+    "notes": "deflection +4, dex +9, natural +10, profane +16, size -1",
+    "touch": 38,
+    "flatFooted": 39
+  },
+  "hp": {
+    "average": 752,
+    "formula": "35d10+560"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft., fly 150 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 40,
+    "dex": 28,
+    "con": 42,
+    "int": 33,
+    "wis": 34,
+    "cha": 36
+  },
+  "saves": {
+    "text": "Fort +31, Ref +32, Will +35",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +47, Bluff +51, Diplomacy +51, Fly +53, Intimidate +48, Knowledge (arcana) +49, Knowledge (local) +46, Knowledge (nature) +46, Knowledge (nobility) +46, Knowledge (planes) +49, Knowledge (religion) +46, Perception +58, Sense Motive +50, Spellcraft +49, Stealth +43, Survival +47, Use Magic Device +48",
+    "list": {
+      "Acrobatics": "+47",
+      "Bluff": "+51",
+      "Diplomacy": "+51",
+      "Fly": "+53",
+      "Intimidate": "+48",
+      "Perception": "+58",
+      "Sense Motive": "+50",
+      "Spellcraft": "+49",
+      "Stealth": "+43",
+      "Survival": "+47",
+      "Use Magic Device": "+48"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "detect law",
+    "true seeing"
+  ],
+  "passivePerception": 68,
+  "languages": [
+    "Abyssal",
+    "Auran",
+    "Celestial",
+    "Common",
+    "Draconic",
+    "telepathy 300 ft."
+  ],
+  "initiative": "+13",
+  "babOrProficiency": 35,
+  "feats": [
+    "Bleeding Critical",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Craft Construct",
+    "Craft Magic Arms and Armor",
+    "Craft Rod",
+    "Craft Wondrous Item",
+    "Critical Focus",
+    "Flyby Attack",
+    "Greater Sunder",
+    "Greater Vital Strike",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Improved Vital Strike",
+    "Multiattack",
+    "Power Attack",
+    "Quicken Spell-Like Ability (dominate person)",
+    "Vital Strike"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+5 anarchic keen unholy longsword +54/+49/+44/+39 (2d6+20/17-20), bite +49 (2d6+15), claw +49 (1d6+15), sting +49 (2d8+15 plus poison), 2 talons +49 (1d6+15)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Held aloft by four great feathered wings, this hawk-faced fiend has a scorpion’s tail and carries a black metal scepter.",
+  "meta": {
+    "cmb": "51 (+55 sunder)",
+    "cmd": "92 (94 vs. sunder)",
+    "racialModifiers": [
+      "Perception 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary (unique)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple (Scepter of Shibaxet, other treasure)"
+      }
+    ]
+  }
+}

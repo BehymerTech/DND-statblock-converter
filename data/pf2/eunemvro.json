@@ -1,0 +1,110 @@
+{
+  "name": "Eunemvro",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 96.",
+  "size": "Medium",
+  "type": "Positive",
+  "subtype": "Humanoid",
+  "alignment": "LN",
+  "cr": null,
+  "level": "Creature 5",
+  "xp": null,
+  "ac": {
+    "value": 22,
+    "notes": ""
+  },
+  "hp": {
+    "average": 78,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 20,
+    "con": 18,
+    "int": 16,
+    "wis": 14,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +13, Ref +14, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +14 (1d20+14); __Athletics__: +13 (1d20+13); __Intimidation__: +10 (1d20+10); __Positive energy plane lore__: +12 (1d20+12); __Stealth__: +12 (1d20+12); __Undead lore__: +14 (1d20+14); ",
+    "list": {
+      "Acrobatics": "+14",
+      "Athletics": "+13",
+      "Intimidation": "+10",
+      "Positive energy plane lore": "+12",
+      "Stealth": "+12",
+      "Undead lore": "+14"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Retributive Suplex",
+      "text": "⬲ Trigger A Medium or smaller creature attempts a melee Strike against the eunemvro and the attack roll is a critical failure Effect The eunemvro seizes the triggering creature, using the attacker's momentum to send them flailing overhead. The triggering creature must succeed at a DC 23 Reflex save or be forcibly moved to a space on the opposite side of the eunemvro, landing prone."
+    },
+    {
+      "name": "Blessed Strikes",
+      "text": "The eunemvro's Strikes deal damage that's either bludgeoning or positive—whichever deals more damage to the target creature."
+    },
+    {
+      "name": "Tide of Creation",
+      "text": "⬺ (evocation, light, occult, positive); Requirements The eunemvro isn't fatigued Effect The eunemvro channels from their soul a blast of searing positive energy, bathing their enemies in a wave of blinding light and cosmic power. The eunemvro creates either a 10-foot cone or a 30-foot line, dealing 6d8 (6d8) positive damage (DC 22 basic Fortitude save). A creature that critically fails its save is blinded for 1d4 (1d4) rounds. After using this ability, the eunemvro becomes fatigued."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fist +14 (agile, magical); Damage 2d6+6 (2d6+6) bludgeoning or positive"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ foot +14 (magical); Damage 2d8+6 (2d8+6) bludgeoning or positive plus Knockdown (page 305)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      5,
+      4,
+      3,
+      2,
+      3
+    ]
+  }
+}

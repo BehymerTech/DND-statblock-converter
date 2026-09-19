@@ -1,0 +1,108 @@
+{
+  "name": "Bibliodaemon",
+  "sourceSystem": "pf1",
+  "source": "Druma, Profit and Prophecy",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "daemon, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "8",
+  "level": null,
+  "xp": 4800,
+  "ac": {
+    "value": 22,
+    "notes": "dex +3, dodge +1, natural +8",
+    "touch": 14,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 85,
+    "formula": "10d10+30"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 17,
+    "con": 16,
+    "int": 14,
+    "wis": 15,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +6, Ref +10, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +15, Intimidate +12, Knowledge (nobility) +15, Linguistics +15, Perception +15, Profession (barrister) +15, Sense Motive +15, Spellcraft +15",
+    "list": {
+      "Bluff": "+15",
+      "Intimidate": "+12",
+      "Linguistics": "+15",
+      "Perception": "+15",
+      "Sense Motive": "+15",
+      "Spellcraft": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect thoughts"
+  ],
+  "passivePerception": 25,
+  "languages": [
+    "Abyssal",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 10,
+  "feats": [
+    "Dodge",
+    "Improved Critical (light mace)",
+    "Mobility",
+    "Vital Strike",
+    "Weapon Focus (light mace)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+1 light mace +15/+10 (1d6+4/19-20), 2 claws +8 (1d6+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Flowing black robes hang all around this four-armed, weasel-faced humanoid. Feathers that resemble quills emerge from each knuckle of its clawed upper hands.",
+  "meta": {
+    "cmb": "+13",
+    "cmd": 27,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, partners, or firm (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+1 light mace, other treasure)"
+      }
+    ]
+  }
+}

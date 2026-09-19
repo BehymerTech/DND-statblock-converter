@@ -1,0 +1,110 @@
+{
+  "name": "Witchwyrd",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2, Pathfinder No. 14: Children of the Void",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "LN",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "armor +4, dex +2, natural +3",
+    "touch": 12,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 68,
+    "formula": "8d10+24"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 15,
+    "con": 17,
+    "int": 18,
+    "wis": 13,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +7, Ref +8, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +12, Bluff +13, Diplomacy +11, Intimidate +18, Knowledge (arcana) +12, Knowledge (geography) +12, Knowledge (planes) +12, Perception +8, Sense Motive +5, Use Magic Device +9",
+    "list": {
+      "Appraise": "+12",
+      "Bluff": "+13",
+      "Diplomacy": "+11",
+      "Intimidate": "+18",
+      "Perception": "+8",
+      "Sense Motive": "+5",
+      "Use Magic Device": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect magic"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Draconic",
+    "one or more planar languages",
+    "tongues"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 8,
+  "feats": [
+    "Deflect Arrows",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Iron Will",
+    "Persuasive"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "ranseur +11/+6 (2d4+4/×3), 2 slams +6 (1d4+1 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This gray-skinned humanoid wears fine red robes. The being has four arms, each ending in a three-fingered hand.",
+  "meta": {
+    "cmb": "11 (+15 grapple)",
+    "cmd": 23,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, entourage (1 witchwyrd and 2-5 humanoid guards), or enclave (2-5 witchwyrds and 11-20 humanoid guards)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

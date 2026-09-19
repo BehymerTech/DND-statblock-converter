@@ -1,0 +1,112 @@
+{
+  "name": "Dread Wraith",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 298.",
+  "size": "Large",
+  "type": "Wraith",
+  "subtype": "Incorporeal, Undead",
+  "alignment": "LE",
+  "cr": null,
+  "level": "Creature 9",
+  "xp": null,
+  "ac": {
+    "value": 28,
+    "notes": ""
+  },
+  "hp": {
+    "average": 130,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "fly 60 feet"
+  },
+  "abilities": {
+    "str": 0,
+    "dex": 22,
+    "con": 16,
+    "int": 16,
+    "wis": 18,
+    "cha": 22
+  },
+  "saves": {
+    "text": "Fort +16, Ref +19, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +19 (1d20+19); __Intimidation__: +21 (1d20+21); __Stealth__: +19 (1d20+19); ",
+    "list": {
+      "Acrobatics": "+19",
+      "Intimidation": "+21",
+      "Stealth": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, lifesense 60"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Common",
+    "Necril"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Draining Presence",
+      "text": "(aura, negative); 10 feet. A creature entering the aura must succeed at a DC 26 Fortitude save or become drained 1. It recovers after it has been out of the aura for 1 minute. This drained condition value is cumulative with the drained value caused by drain life, but not with multiple draining presence auras. A creature that succeeds at its save is temporarily immune to draining presence for 24 hours."
+    },
+    {
+      "name": "Sunlight Powerlessness",
+      "text": "A dread wraith caught in sunlight is stunned 2 and clumsy 2."
+    },
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Absorb Wraith",
+      "text": "⬺ The dread wraith extends its hand toward another wraith creature within 100 feet. The target wraith dissolves and streaks toward the dread wraith in a straight line, dealing 6d10 (6d10) negative damage to each creature along the line (DC 28 basic Fortitude save). The dread wraith absorbs the essence of the target wraith, becoming quickened and gaining a +10-foot status bonus to its fly Speed for a number of rounds equal to the level of the absorbed wraith. It can use its extra action only to Fly or Strike. An unwilling target can attempt a DC 28 Will save to resist being absorbed."
+    },
+    {
+      "name": "Drain Life",
+      "text": "(divine, necromancy); When the dread wraith damages a living creature with its spectral hand Strike, the wraith gains 10 temporary Hit Points and the target must succeed at a DC 28 Fortitude save or become drained 1. Further damage dealt by the wraith increases the drained condition value by 1 on a failed save, to a maximum of drained 4."
+    },
+    {
+      "name": "Wraith Spawn",
+      "text": "(divine, necromancy); A living humanoid slain by a wraith's spectral hand Strike rises as a wraith spawn after 1d4 (1d4) rounds. This wraith spawn is under the command of the dread wraith that killed it. It doesn't have drain life or wraith spawn. If the creator of the wraith spawn dies, the wraith spawn becomes a full-fledged, autonomous wraith; it regains its free will and gains drain life and wraith spawn."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ spectral hand +21 (finesse, reach 10 feet); Damage 2d10+7 (2d10+7) negative plus drain life"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      -5,
+      6,
+      3,
+      3,
+      4,
+      6
+    ]
+  }
+}

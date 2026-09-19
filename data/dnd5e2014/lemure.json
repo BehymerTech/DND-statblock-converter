@@ -1,0 +1,91 @@
+{
+  "name": "Lemure",
+  "sourceSystem": "dnd5e2014",
+  "source": "MM",
+  "size": "Medium",
+  "type": "fiend",
+  "subtype": "devil",
+  "alignment": "lawful evil",
+  "cr": "0",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 7,
+    "notes": ""
+  },
+  "hp": {
+    "average": 13,
+    "formula": "3d8"
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": ""
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 5,
+    "con": 11,
+    "int": 1,
+    "wis": 11,
+    "cha": 3
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [
+    "cold"
+  ],
+  "immunities": [
+    "fire",
+    "poison"
+  ],
+  "conditionImmunities": [
+    "charmed",
+    "frightened",
+    "poisoned"
+  ],
+  "senses": [
+    "darkvision 120 ft."
+  ],
+  "passivePerception": 10,
+  "languages": [
+    "understands Infernal but can't speak"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Devil's Sight",
+      "text": "Magical darkness doesn't impede the lemure's darkvision."
+    },
+    {
+      "name": "Hellish Rejuvenation",
+      "text": "A lemure that dies in the Nine Hells comes back to life with all its hit points in 1d10 days unless it is killed by a good-aligned creature with a bless spell cast on that creature or its remains are sprinkled with Holy Water (Flask)."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Fist",
+      "text": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

@@ -1,0 +1,104 @@
+{
+  "name": "Boggard Farcroaker",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "boggard",
+  "alignment": "CE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 15,
+    "notes": "armor +2, natural +3",
+    "touch": 10,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 32,
+    "formula": "5d8+10"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., swim 30 ft."
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 11,
+    "con": 14,
+    "int": 12,
+    "wis": 13,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +5, Ref +4, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +6, Diplomacy +8, Knowledge (geography) +7, Knowledge (history) +7, Knowledge (nature) +7, Knowledge (nobility) +7, Linguistics +5, Perception +11, Perform (sing) +13, Stealth +5, Swim +9",
+    "list": {
+      "Acrobatics": "+6",
+      "Diplomacy": "+8",
+      "Linguistics": "+5",
+      "Perception": "+11",
+      "Stealth": "+5",
+      "Swim": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Boggard",
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 3,
+  "feats": [
+    "Skill Focus (Perform [sing])",
+    "Sonic Croak",
+    "Throat Pouch"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk shortspear +5 (1d6+1), tongue -1 touch (sticky tongue)"
+    },
+    {
+      "name": "Ranged",
+      "text": "shortspear +4 (1d6+1)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Boggard",
+    "class": "bard 2",
+    "cmb": "+4",
+    "cmd": 14,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate marshes"
+      }
+    ]
+  }
+}

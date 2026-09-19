@@ -1,0 +1,105 @@
+{
+  "name": "Pixie Circle",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 140: Eulogy for Roslar's Coffer",
+  "size": "Huge",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 21,
+    "notes": "dex -2, natural +15, size -2",
+    "touch": 6,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 85,
+    "formula": "10d8+40"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 7,
+    "con": 18,
+    "int": 6,
+    "wis": 15,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +11, Ref +1, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +10, Stealth +1",
+    "list": {
+      "Perception": "+10",
+      "Stealth": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "low-light vision"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Sylvan (can’t speak)"
+  ],
+  "initiative": "-2",
+  "babOrProficiency": 7,
+  "feats": [
+    "Diehard",
+    "Endurance",
+    "Iron Will",
+    "Skill Focus (Stealth)",
+    "Weapon Focus (vine)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Ranged",
+      "text": "4 vines +11 touch (1d6+5 plus withering)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Heart-shaped leaves and drooping clusters of purple and pink flowers emitting a faint scent of honey and fruit drape over the bone-white trees of a dead grove buried under heavy vines.",
+  "meta": {
+    "cmb": "+14",
+    "cmd": "22 (can't be tripped)",
+    "racialModifiers": [
+      "Stealth 20"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests and jungles"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

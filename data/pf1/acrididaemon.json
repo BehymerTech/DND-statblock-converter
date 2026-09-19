@@ -1,0 +1,116 @@
+{
+  "name": "Acrididaemon",
+  "sourceSystem": "pf1",
+  "source": "Feast of Dust",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "daemon, evil, extraplanar",
+  "alignment": "NE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 28,
+    "notes": "dex +6, dodge +1, natural +12, size -1",
+    "touch": 16,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 200,
+    "formula": "16d10+112"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 60 ft. (good)"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 23,
+    "con": 24,
+    "int": 14,
+    "wis": 18,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +17, Ref +18, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +20, Fly +15, Intimidate +21, Knowledge (planes) +21, Perception +23, Spellcraft +18, Stealth +21, Survival +20, Use Magic Device +21",
+    "list": {
+      "Bluff": "+20",
+      "Fly": "+15",
+      "Intimidate": "+21",
+      "Perception": "+23",
+      "Spellcraft": "+18",
+      "Stealth": "+21",
+      "Survival": "+20",
+      "Use Magic Device": "+21"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect good",
+    "detect magic",
+    "see invisibility"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Abyssal",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 16,
+  "feats": [
+    "Blind-Fight",
+    "Combat Reflexes",
+    "Dodge",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Mobility"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +20 (2d6+5/19-20), 2 claws +20 (1d8+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This wicked creature has the claws and mandibles of an enormous insect, and its lower body is made entirely of swarming locusts.",
+  "meta": {
+    "cmb": "+22",
+    "cmd": "39 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pack (2-5), swarm (6-12)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

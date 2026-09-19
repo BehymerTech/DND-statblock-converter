@@ -1,0 +1,71 @@
+{
+  "name": "Awakened Shrub",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Small",
+  "type": "Plant",
+  "subtype": "",
+  "alignment": "Neutral",
+  "cr": "0",
+  "level": null,
+  "xp": 10,
+  "ac": {
+    "value": 9,
+    "notes": ""
+  },
+  "hp": {
+    "average": 10,
+    "formula": "3d6"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 3,
+    "dex": 8,
+    "con": 11,
+    "int": 10,
+    "wis": 10,
+    "cha": 6
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 10,
+  "languages": [
+    "Common plus one other language"
+  ],
+  "initiative": "-1 (9)",
+  "babOrProficiency": 2,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Rake",
+      "text": "_Melee Attack Roll:_ +1, reach 5 ft. _Hit:_ 1 Slashing damage."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

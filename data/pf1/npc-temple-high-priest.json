@@ -1,0 +1,106 @@
+{
+  "name": "NPC Temple (High Priest)",
+  "sourceSystem": "pf1",
+  "source": "GameMastery Guide",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "LN",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 15,
+    "notes": "armor +3, shield +2",
+    "touch": 10,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 90,
+    "formula": "13d8+32"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 10,
+    "con": 15,
+    "int": 12,
+    "wis": 24,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +13, Ref +7, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +11, Heal +11, Knowledge (arcana) +6, Knowledge (local) +10, Knowledge (nobility) +10, Knowledge (religion) +16, Linguistics +10, Perception +15, Sense Motive +15, Spellcraft +16",
+    "list": {
+      "Diplomacy": "+11",
+      "Heal": "+11",
+      "Linguistics": "+10",
+      "Perception": "+15",
+      "Sense Motive": "+15",
+      "Spellcraft": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [],
+  "passivePerception": 25,
+  "languages": [
+    "Aquan",
+    "Auran",
+    "Celestial",
+    "Common",
+    "Ignan",
+    "Infernal",
+    "Sylvan",
+    "Terran"
+  ],
+  "initiative": "+0",
+  "babOrProficiency": 9,
+  "feats": [
+    "Augment Summoning",
+    "Craft Rod",
+    "Craft Wand",
+    "Craft Wondrous Item",
+    "Leadership",
+    "Selective Channeling",
+    "Spell Focus (conjuration)",
+    "Spell Penetration",
+    "Turn Undead"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "dagger +8 (1d4-1/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "light crossbow +9 (1d8/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Human",
+    "class": "cleric 13",
+    "cmb": "+8",
+    "cmd": 18
+  }
+}

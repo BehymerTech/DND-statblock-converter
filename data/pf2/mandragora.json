@@ -1,0 +1,112 @@
+{
+  "name": "Mandragora",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 170.",
+  "size": "Small",
+  "type": "Plant",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 60,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, burrow 10 feet, climb 30 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 20,
+    "con": 16,
+    "int": 8,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +11, Ref +13, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +10 (1d20+10); __Athletics__: +10 (1d20+10); __Stealth__: +12 (1d20+12), (Stealth: +20 (1d20+20) in vegetation); ",
+    "list": {
+      "Acrobatics": "+10",
+      "Athletics": "+10",
+      "Stealth": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blood scent, low-light vision"
+  ],
+  "passivePerception": 21,
+  "languages": [
+    "Abyssal",
+    "Common"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Blood Scent",
+      "text": "A mandragora can smell creatures with blood as an imprecise sense at a range of 30 feet, and it can smell demons, fey, and sorcerers with blood as a precise sense at a range of 30 feet."
+    },
+    {
+      "name": "Vulnerability to Supernatural Darkness",
+      "text": "Whenever a mandragora begins its turn in an area of magical darkness, it is slowed 1 on that turn."
+    },
+    {
+      "name": "Blood Drain",
+      "text": "⬻ Requirements The mandragora has a creature grabbed Effect The mandragora drains blood from the creature it has grabbed, dealing 2d6 (2d6) damage. If the creature is a demon, fey, or sorcerer, the mandragora gains temporary Hit Points equal to the damage dealt. A creature that has its blood drained by a mandragora is drained 1 until it receives healing of any kind or amount."
+    },
+    {
+      "name": "Mandragora Venom",
+      "text": "(poison); Saving Throw DC 21 Fortitude. Maximum Duration 6 rounds Stage 1 1d6 (1d6) poison damage and stupefied 1 (1 round) Stage 2 1d6 (1d6) poison damage, confused, and stupefied 1 (1 round) Stage 3 2d6 (2d6) poison damage, confused, and stupefied 1 (1 round)"
+    },
+    {
+      "name": "Piercing Shriek",
+      "text": "⬻ (auditory, evocation, mental, primal); Frequency once per day; The mandragora emits an unsettling shriek. Each non-mandragora creature within 30 feet must attempt a DC 25 Will save. Critical Success The creature is unaffected. Success The creature is sickened 1. Failure The creature is sickened 2. Critical Failure The creature is sickened 2 and slowed 1. As long as the creature remains sickened, this slowed condition value can't be reduced below 1."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +14 (finesse); Damage 2d8+4 (2d8+4) piercing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ thorny vine +14 (agile, finesse, reach 10 feet); Damage 2d4+4 (2d4+4) slashing plus mandragora venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      5,
+      3,
+      -1,
+      2,
+      0
+    ]
+  }
+}

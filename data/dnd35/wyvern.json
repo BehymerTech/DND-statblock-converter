@@ -1,0 +1,107 @@
+{
+  "name": "Wyvern",
+  "sourceSystem": "dnd35",
+  "source": "",
+  "size": "Large",
+  "type": "Dragon",
+  "subtype": "",
+  "alignment": "Usually neutral",
+  "cr": "6",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": "-1 size, +1 Dex, +8 natural",
+    "touch": 10,
+    "flatFooted": 17
+  },
+  "hp": {
+    "average": 59,
+    "formula": "7d12+14"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": 60,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft. (4 squares), fly 60 ft. (poor)"
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 12,
+    "con": 15,
+    "int": 6,
+    "wis": 12,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +7, Ref +6, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Hide +7, Listen +13, Move Silently +11, Spot +16;",
+    "list": {
+      "Hide": "+7",
+      "Listen": "+13",
+      "Move Silently": "+11",
+      "Spot": "+16"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Darkvision 60 ft.",
+    "low-light vision",
+    "scent"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+1",
+  "babOrProficiency": 7,
+  "feats": [
+    "Ability Focus (poison)",
+    "Alertness",
+    "Flyby Attack",
+    "Multiattack (B)"
+  ],
+  "traits": [
+    {
+      "name": "Special Attacks",
+      "text": "Poison, improved grab"
+    },
+    {
+      "name": "Special Qualities",
+      "text": "Darkvision 60 ft., immunity to *sleep* and paralysis, low-light vision, scent"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Attack",
+      "text": "Sting +10 melee (1d6+4 plus poison) or talon +10 melee (2d6+4) or bite +10 melee (2d8+4)"
+    },
+    {
+      "name": "Full Attack",
+      "text": "Sting +10 melee (1d6+4 plus poison) and bite +8 melee (2d8+4) and 2 wings +8 melee (1d8+2) and 2 talons +8 melee (2d6+4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "variantLabel": "A distant cousin to the true dragons, the wyvern is a huge flying lizard with a poisonous stinger in its tail.",
+    "grapple": "+15",
+    "spaceReach": "10 ft./5 ft.",
+    "environment": "Warm hills",
+    "organization": "Solitary, pair, or flight (3-6)",
+    "treasure": "Standard",
+    "advancement": "8-10 HD (Huge); 11-21 HD (Gargantuan)",
+    "leveladjustment": "---"
+  }
+}

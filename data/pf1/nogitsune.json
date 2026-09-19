@@ -1,0 +1,119 @@
+{
+  "name": "Nogitsune",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 50: Night of Frozen Shadows",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "kitsune, native, oni, shapechanger",
+  "alignment": "NE",
+  "cr": "7",
+  "level": null,
+  "xp": 3200,
+  "ac": {
+    "value": 21,
+    "notes": "dex +7, dodge +1, natural +3",
+    "touch": 18,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 80,
+    "formula": "7d10+42"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., climb 50 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 25,
+    "con": 22,
+    "int": 17,
+    "wis": 16,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +8, Ref +12, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +17, Appraise +5, Bluff +14, Climb +16, Diplomacy +7, Disable Device +16, Disguise +13, Escape Artist +17, Knowledge (arcana) +5, Knowledge (local) +6, Perception +13, Sense Motive +11, Sleight of Hand +10, Stealth +17, Swim +5",
+    "list": {
+      "Acrobatics": "+17",
+      "Appraise": "+5",
+      "Bluff": "+14",
+      "Climb": "+16",
+      "Diplomacy": "+7",
+      "Disable Device": "+16",
+      "Disguise": "+13",
+      "Escape Artist": "+17",
+      "Perception": "+13",
+      "Sense Motive": "+11",
+      "Sleight of Hand": "+10",
+      "Stealth": "+17",
+      "Swim": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 23,
+  "languages": [
+    "Common",
+    "Draconic",
+    "Fey",
+    "Giant"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 7,
+  "feats": [
+    "Dodge",
+    "Mobility",
+    "Spring Attack",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +14 (1d6+4), 2 claws +14 (1d4+2 plus poison)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk dart +15/+10 (1d4+4 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This fox-headed humanoid has a sleek, feminine form that moves with seductive grace. As she steps into a defensive posture, a mass of bushy tails flicks at the air above her back and she reveals teeth flecked with blood.",
+  "meta": {
+    "cmb": "+11",
+    "cmd": 29,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any urban"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (four masterwork darts, 5 doses of blue whinnis poison, other treasure)"
+      }
+    ]
+  }
+}

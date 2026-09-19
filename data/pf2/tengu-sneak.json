@@ -1,0 +1,113 @@
+{
+  "name": "Tengu Sneak",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 310.",
+  "size": "Medium",
+  "type": "Tengu",
+  "subtype": "Humanoid",
+  "alignment": "CN",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 27,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 12,
+    "int": 12,
+    "wis": 10,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +7, Ref +10, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +8 (1d20+8); __Athletics__: +6 (1d20+6); __Deception__: +7 (1d20+7); __Diplomacy__: +5 (1d20+5); __Society__: +5 (1d20+5); __Stealth__: +8 (1d20+8); __Thievery__: +8 (1d20+8); ",
+    "list": {
+      "Acrobatics": "+8",
+      "Athletics": "+6",
+      "Deception": "+7",
+      "Diplomacy": "+5",
+      "Society": "+5",
+      "Stealth": "+8",
+      "Thievery": "+8"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 16,
+  "languages": [
+    "Common",
+    "Tengu; plus two others"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Sneak Attack",
+      "text": "The tengu deals 1d6 (1d6) extra precision damage to flat-footed creatures."
+    },
+    {
+      "name": "Surprise Attacker",
+      "text": "On the first round of combat, creatures that haven't acted yet are flat-footed to the tengu."
+    },
+    {
+      "name": "Items",
+      "text": "rapier, shortbow, studded leather armor;"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ rapier +10 (deadly 1d8, disarm, finesse); Damage 1d6+2 (1d6+2) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ beak +10 (finesse); Damage 1d4+2 (1d4+2) piercing"
+    },
+    {
+      "name": "Ranged",
+      "text": "⬻ shortbow +10 (deadly 1d10, range increment 60 feet, reload 0); Damage 1d6 (1d6) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      2,
+      4,
+      1,
+      1,
+      0,
+      1
+    ],
+    "items": "rapier, shortbow, studded leather armor;"
+  }
+}

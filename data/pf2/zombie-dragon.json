@@ -1,0 +1,100 @@
+{
+  "name": "Zombie Dragon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 303.",
+  "size": "Huge",
+  "type": "Zombie",
+  "subtype": "Dragon, Mindless, Undead",
+  "alignment": "NE",
+  "cr": null,
+  "level": "Creature 9",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 210,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, fly 50 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 18,
+    "int": 0,
+    "wis": 16,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +19, Ref +18, Will +16",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +16 (1d20+16); __Athletics__: +19 (1d20+19); ",
+    "list": {
+      "Acrobatics": "+16",
+      "Athletics": "+19"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 26,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Slow",
+      "text": "A zombie dragon is permanently slowed 1 and can't use reactions."
+    },
+    {
+      "name": "Breath Weapon",
+      "text": "⬺ The zombie dragon breathes a wave of fetid viscera that deals 5d6 (5d6) bludgeoning and 5d6 (5d6) poison damage (DC 28 basic Reflex save). A creature that critically fails is also sickened 2. The zombie dragon can't use Breath Weapon again for 1d4 (1d4) rounds."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ upper jaw +21 (reach 15 feet); Damage 2d10+12 (2d10+12) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +21 (agile, reach 10 feet); Damage 2d8+12 (2d8+12) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +19 (reach 20 feet); Damage 2d6+10 (2d6+10) bludgeoning"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      3,
+      4,
+      -5,
+      3,
+      -2
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "name": "Mix Couatl",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 56.",
+  "size": "Large",
+  "type": "Couatl",
+  "subtype": "Beast",
+  "alignment": "CG",
+  "cr": null,
+  "level": "Creature 8",
+  "xp": null,
+  "ac": {
+    "value": 27,
+    "notes": ""
+  },
+  "hp": {
+    "average": 135,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 15,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "15 feet, fly 50 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 18,
+    "int": 18,
+    "wis": 20,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +14, Ref +15, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +15 (1d20+15); __Arcana__: +18 (1d20+18); __Diplomacy__: +20 (1d20+20); __Nature__: +21 (1d20+21); __Occultism__: +18 (1d20+18); __Society__: +16 (1d20+16); __Stealth__: +17 (1d20+17); __Survival__: +15 (1d20+15); ",
+    "list": {
+      "Acrobatics": "+15",
+      "Arcana": "+18",
+      "Diplomacy": "+20",
+      "Nature": "+21",
+      "Occultism": "+18",
+      "Society": "+16",
+      "Stealth": "+17",
+      "Survival": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic; [[telepathy]] 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Star Child",
+      "text": "The mix couatl is difficult to discern against starry skies. The mix couatl can Hide in the air at night without cover or being concealed."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 2d10+4 (2d10+4) bludgeoning, DC 26"
+    },
+    {
+      "name": "Gift of Knowledge",
+      "text": "When a mix couatl casts modify memory on a willing creature, the mix couatl can Sustain the Spell to modify memories for up to 60 continuous minutes. A mix couatl can grant knowledge of a particular skill to the target as part of the spell. The mix couatl chooses Engineering Lore, Farming Lore, Fishing Lore, Hunting Lore, or Mercantile Lore. The target becomes permanently trained in the chosen skill. A creature can benefit from Gift of Knowledge only once."
+    },
+    {
+      "name": "Mix Couatl Venom",
+      "text": "(poison); Saving Throw DC 26 Fortitude. Maximum Duration 6 rounds Stage 1 1d6 (1d6) poison damage and stupefied 1 (1 round) Stage 2 2d6 (2d6) poison damage, stunned 1, and stupefied 1 (1 round) Stage 3 2d8 (2d8) poison damage, stunned 1, and stupefied 2 (1 round)"
+    },
+    {
+      "name": "Wrap in Coils",
+      "text": "⬻ Requirements The mix couatl has a Medium or smaller creature grabbed or restrained in their jaws Effect The mix couatl moves the creature into their coils, freeing their jaws to make attacks, then uses Constrict against the creature. The mix couatl can hold as many creatures in their coils as will fit in their space."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +20 (magical); Damage 2d10+9 (2d10+9) piercing plus mix couatl venom and Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      3,
+      4,
+      4,
+      5,
+      4
+    ]
+  }
+}

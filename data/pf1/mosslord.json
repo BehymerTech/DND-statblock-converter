@@ -1,0 +1,121 @@
+{
+  "name": "Mosslord",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 6",
+  "size": "Large",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "LE",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 33,
+    "notes": "dex +9, dodge +1, natural +14, size -1",
+    "touch": 19,
+    "flatFooted": 23
+  },
+  "hp": {
+    "average": 312,
+    "formula": "25d8+200"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 28,
+    "con": 26,
+    "int": 27,
+    "wis": 25,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +22, Ref +17, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +36, Intimidate +31, Knowledge (arcana) +33, Knowledge (geography) +33, Knowledge (nature) +33, Perception +35, Sense Motive +32, Spellcraft +33, Stealth +33, Survival +32",
+    "list": {
+      "Climb": "+36",
+      "Intimidate": "+31",
+      "Perception": "+35",
+      "Sense Motive": "+32",
+      "Spellcraft": "+33",
+      "Stealth": "+33",
+      "Survival": "+32"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "greensight",
+    "low-light vision",
+    "see invisibility"
+  ],
+  "passivePerception": 45,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Sylvan",
+    "speak with plants",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+13",
+  "babOrProficiency": 18,
+  "feats": [
+    "Combat Casting",
+    "Combat Reflexes",
+    "Critical Focus",
+    "Dodge",
+    "Greater Sunder",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Iron Will",
+    "Mobility",
+    "Power Attack",
+    "Quicken Spell-Like Ability (fungal infestation)",
+    "Staggering Critical"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "4 claws +28 (2d8+11/19-20 plus curse)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This towering, four-armed humanoid seems to be made of moss and splintered wood, its face sinister and mouthless.",
+  "meta": {
+    "cmb": "30 (+34 sunder)",
+    "cmd": "50 (52 vs. sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

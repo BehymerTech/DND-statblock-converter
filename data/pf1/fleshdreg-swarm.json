@@ -1,0 +1,97 @@
+{
+  "name": "Fleshdreg Swarm",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 61: Shards of Sin",
+  "size": "Tiny",
+  "type": "aberration",
+  "subtype": "swarm",
+  "alignment": "NE",
+  "cr": "2",
+  "level": null,
+  "xp": 600,
+  "ac": {
+    "value": 15,
+    "notes": "dex +1, natural +2, size +2",
+    "touch": 13,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 19,
+    "formula": "3d8+6"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 10 ft."
+  },
+  "abilities": {
+    "str": 2,
+    "dex": 13,
+    "con": 15,
+    "int": 2,
+    "wis": 11,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +3, Ref +4, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +5, Stealth +13",
+    "list": {
+      "Perception": "+5",
+      "Stealth": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "sin-scent"
+  ],
+  "passivePerception": 15,
+  "languages": [],
+  "initiative": "+5",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "swarm (1d6 plus distraction)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Hundreds of wads of squirming flesh with flailing appendages move together in a cluster of teeth and claws.",
+  "meta": {
+    "cmb": "None",
+    "cmd": "None",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any ruins"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or infestation (3-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

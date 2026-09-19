@@ -1,0 +1,117 @@
+{
+  "name": "Abyss Gigas",
+  "sourceSystem": "pf1",
+  "source": "The Witchwar Legacy",
+  "size": "Gargantuan",
+  "type": "humanoid",
+  "subtype": "chaotic, evil, extraplanar, giant",
+  "alignment": "CE",
+  "cr": "16",
+  "level": null,
+  "xp": 76800,
+  "ac": {
+    "value": 31,
+    "notes": "armor +9, dex +1, natural +15, size -4",
+    "touch": 7,
+    "flatFooted": 30
+  },
+  "hp": {
+    "average": 283,
+    "formula": "21d8+189"
+  },
+  "speed": {
+    "walk": 60,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "60 ft.,  50 ft. in armor"
+  },
+  "abilities": {
+    "str": 37,
+    "dex": 12,
+    "con": 28,
+    "int": 20,
+    "wis": 17,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +21, Ref +8, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +32, Intimidate +26, Knowledge (planes) +26, Perception +27, Sense Motive +24, Stealth +5, Survival +27",
+    "list": {
+      "Climb": "+32",
+      "Intimidate": "+26",
+      "Perception": "+27",
+      "Sense Motive": "+24",
+      "Stealth": "+5",
+      "Survival": "+27"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Giant"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 15,
+  "feats": [
+    "Awesome Blow",
+    "Catch Off-Guard",
+    "Combat Reflexes",
+    "Greater Sunder",
+    "Improved Bull Rush",
+    "Improved Critical (warhammer)",
+    "Improved Initiative",
+    "Improved Sunder",
+    "Power Attack",
+    "Stand Still",
+    "Throw Anything"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk adamantine warhammer +25/+20/+15 (4d6+19/19-20/x3), bite +19 (2d8+6 plus wrenching spasms)"
+    },
+    {
+      "name": "Ranged",
+      "text": "rock +13 (4d6+19)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This ebon-skinned monstrosity has a gaping maw with  boar-like tusks and a wide nose beneath a furrowed brow that lacks any sort of eyes or visible visual organs. Its corded muscles twist and writhe beneath its smooth, hairless jet hide, giving its frame a gnarled, unbalanced asymmetry. It moves with a loping gait, however, and wears its armor, composed of thick, welded plates, effortlessly.",
+  "meta": {
+    "cmb": "32 (+34 bull rush, +36 sunder)",
+    "cmd": "43 (45 vs. bull rush and sunder)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abyss)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (3-7)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (adamantine full plate, adamantine warhammer, other treasure)"
+      }
+    ]
+  }
+}

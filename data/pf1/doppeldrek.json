@@ -1,0 +1,96 @@
+{
+  "name": "Doppeldrek",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 5",
+  "size": "Medium",
+  "type": "ooze",
+  "subtype": "shapechanger",
+  "alignment": "N",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 14,
+    "notes": "dex +4",
+    "touch": 14,
+    "flatFooted": 10
+  },
+  "hp": {
+    "average": 73,
+    "formula": "7d8+42"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 19,
+    "con": 22,
+    "int": "None",
+    "wis": 15,
+    "cha": 11
+  },
+  "saves": {
+    "text": "Fort +8, Ref +6, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Disguise +8, Perception +2",
+    "list": {
+      "Disguise": "+8",
+      "Perception": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": 12,
+  "languages": [],
+  "initiative": "+4",
+  "babOrProficiency": 5,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +10 (1d6+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "The half-formed shape a snarling dog rises out of this pile of grayish foam.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": "24 (can’t be tripped)",
+    "racialModifiers": [
+      "Disguise 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or group (1 disguised as a creature plus an assortment of creatures of that type)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Silver Dragon Wyrmling",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Medium",
+  "type": "Dragon",
+  "subtype": "Metallic",
+  "alignment": "Lawful Good",
+  "cr": "2",
+  "level": null,
+  "xp": null,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 45,
+    "formula": "6d8 + 18"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 60,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., Fly 60 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 10,
+    "con": 17,
+    "int": 12,
+    "wis": 11,
+    "cha": 15
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +4, Stealth +2",
+    "list": {
+      "Perception": "+4",
+      "Stealth": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Blindsight 10 ft.",
+    "Darkvision 60 ft."
+  ],
+  "passivePerception": 14,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": "+2 (12)",
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes two Rend attacks."
+    },
+    {
+      "name": "Rend",
+      "text": "_Melee Attack Roll:_ +6, reach 5 ft. _Hit:_ 9 (1d10 + 4) Piercing damage."
+    },
+    {
+      "name": "Cold Breath (Recharge 5–6)",
+      "text": "_Constitution Saving Throw:_ DC 13, each creature in a 15-foot Cone. _Failure:_ 18 (4d8) Cold damage. _Success:_ Half damage."
+    },
+    {
+      "name": "Paralyzing Breath",
+      "text": "_Constitution Saving Throw:_ DC 13, each creature in a 15-foot Cone. _First Failure:_ The target has the Incapacitated condition until the end of its next turn, when it repeats the save. _Second Failure:_ The target has the Paralyzed condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Thanegraves Looter",
+  "sourceSystem": "pf1",
+  "source": "Inner Sea Monster Codex",
+  "size": "Large",
+  "type": "humanoid",
+  "subtype": "cold, giant",
+  "alignment": "CE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 18,
+    "notes": "dex +4, natural +5, size -1",
+    "touch": 13,
+    "flatFooted": 14
+  },
+  "hp": {
+    "average": 45,
+    "formula": "6d8+18"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 18,
+    "con": 16,
+    "int": 7,
+    "wis": 10,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +8, Ref +8, Will +2",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Intimidate +9, Perception +9",
+    "list": {
+      "Intimidate": "+9",
+      "Perception": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Giant"
+  ],
+  "initiative": "+4",
+  "babOrProficiency": 4,
+  "feats": [
+    "Intimidating Prowess",
+    "Lightning Reflexes",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +8 (1d6+5), 2 claws +8 (1d4+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This blue-skinned humanoid’s hulking figure is covered in patches of thick ice, and its jutting jaw dominates its monstrous face.",
+  "meta": {
+    "race": "Half-ogre",
+    "class": "ice troll (page 47, Pathfinder RPG Bestiary 2 271)",
+    "cmb": "+10",
+    "cmd": "24 (28 vs. bull rush, 28 vs. overrun, 28 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      }
+    ]
+  }
+}

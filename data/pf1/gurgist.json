@@ -1,0 +1,109 @@
+{
+  "name": "Gurgist",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 140: Eulogy for Roslar's Coffer",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, mortic",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 19,
+    "notes": "armor +3, dex +3, natural +3",
+    "touch": 13,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 76,
+    "formula": "9d8+36"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 17,
+    "con": 18,
+    "int": 17,
+    "wis": 14,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +10, Ref +6, Will +5",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Craft (leatherworking) +18, Disguise +7, Knowledge (nature) +12, Stealth +15, Survival +14, Perception +2",
+    "list": {
+      "Disguise": "+7",
+      "Stealth": "+15",
+      "Survival": "+14",
+      "Perception": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 12,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 6,
+  "feats": [
+    "Improved Initiative",
+    "Improved Two-Weapon Fighting",
+    "Quick Draw",
+    "Skill Focus (Craft [leatherworking])",
+    "Signature Skill (Craft [leatherworking])",
+    "Two-Weapon Fighting",
+    "Weapon Focus (dagger)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk dagger +10/+5 (1d4+4/19-20), mwk dagger +10/+5 (1d4+2/19-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk longbow +10/+5 (1d8/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This woman’s clothing is a jumbled quilt of fine fabrics and elegant stitching, topped with a magnificent mask of painted wood and feathers. Bruises and sores cover her skin.",
+  "meta": {
+    "cmb": "+10",
+    "cmd": 23,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, hunting party (3-5) or patrol (7-9 gurgists with 1-2 trained animals or magical beasts such as ankhegs or griffons)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (studded leather armor, two mwk daggers, mwk longbow, other treasure)"
+      }
+    ]
+  }
+}

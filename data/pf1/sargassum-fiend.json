@@ -1,0 +1,105 @@
+{
+  "name": "Sargassum Fiend",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 3",
+  "size": "Large",
+  "type": "plant",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 24,
+    "notes": "dex +2, dodge +1, natural +12, size -1",
+    "touch": 12,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 123,
+    "formula": "13d8+65"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., climb 20 ft., swim 40 ft."
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 14,
+    "con": 20,
+    "int": 2,
+    "wis": 11,
+    "cha": 15
+  },
+  "saves": {
+    "text": "Fort +15, Ref +8, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +19, Escape Artist +4, Perception +11, Stealth +7, Swim +15",
+    "list": {
+      "Climb": "+19",
+      "Escape Artist": "+4",
+      "Perception": "+11",
+      "Stealth": "+7",
+      "Swim": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsense",
+    "tremorsense"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": "+6",
+  "babOrProficiency": 9,
+  "feats": [
+    "Dodge",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Skill Focus (Perception)",
+    "Stealthy",
+    "Weapon Focus (slam)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +16 (2d8+7 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This shifting mass of green seaweed transforms from the shape of a humanoid back to a patch of algae, continually changing.",
+  "meta": {
+    "cmb": "17 (+25 grapple)",
+    "cmd": "30 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or bed (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental (1d6 sargassum fiend bulbs, other treasure)"
+      }
+    ]
+  }
+}

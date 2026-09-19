@@ -1,0 +1,95 @@
+{
+  "name": "Giant Dragonfly",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "vermin",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +2, natural +5",
+    "touch": 12,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 45,
+    "formula": "7d8+14"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., fly 80 ft. (perfect)"
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 15,
+    "con": 14,
+    "int": "None",
+    "wis": 12,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +7, Ref +4, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Fly +10, Perception +1",
+    "list": {
+      "Fly": "+10",
+      "Perception": "+1"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 11,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 5,
+  "feats": [
+    "Flyby Attack"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +9 (2d8+6 plus grab)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This glittering blue dragonfly is about the size of a horse and is large enough to carry off small farm animals or people.",
+  "meta": {
+    "cmb": "9 (+13 grappling, or +17 grappling on a charge)",
+    "cmd": "21 (29 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or flight (2-5)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

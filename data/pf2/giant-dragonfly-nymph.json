@@ -1,0 +1,88 @@
+{
+  "name": "Giant Dragonfly Nymph",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 98.",
+  "size": "Small",
+  "type": "Aquatic",
+  "subtype": "Animal",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 46,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 feet, swim 30 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 18,
+    "int": 0,
+    "wis": 12,
+    "cha": 0
+  },
+  "saves": {
+    "text": "Fort +11, Ref +9, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +10 (1d20+10); __Stealth__: +9 (1d20+9), (Stealth: +11 (1d20+11) in water); ",
+    "list": {
+      "Athletics": "+10",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise wavesense 30"
+  ],
+  "passivePerception": 18,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Extend Mandibles",
+      "text": "⬻ The giant dragonfly nymph extends its jaws to a surprising distance. The dragonfly nymph makes a mandibles Strike with a reach of 10 feet, but the mandibles lose the agile trait for this Strike."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ mandibles +12 (agile); Damage 1d10+6 (1d10+6) piercing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      2,
+      4,
+      -5,
+      1,
+      -5
+    ]
+  }
+}

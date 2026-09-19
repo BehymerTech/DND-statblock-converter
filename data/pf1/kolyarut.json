@@ -1,0 +1,110 @@
+{
+  "name": "Kolyarut",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "extraplanar, inevitable, lawful",
+  "alignment": "LN",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 26,
+    "notes": "dex +4, natural +12",
+    "touch": 14,
+    "flatFooted": 22
+  },
+  "hp": {
+    "average": 158,
+    "formula": "12d10+92"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 19,
+    "con": 23,
+    "int": 10,
+    "wis": 17,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +14, Ref +10, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Diplomacy +22, Disguise +22, Knowledge (planes) +15, Perception +22, Sense Motive +22, Survival +18",
+    "list": {
+      "Diplomacy": "+22",
+      "Disguise": "+22",
+      "Perception": "+22",
+      "Sense Motive": "+22",
+      "Survival": "+18"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 32,
+  "languages": [
+    "truespeech"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 12,
+  "feats": [
+    "Alertness",
+    "Combat Casting",
+    "Combat Reflexes",
+    "Improved Initiative",
+    "Lightning Reflexes",
+    "Quicken Spell-Like Ability (suggestion)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 bastard sword +20/+15/+10 (1d10+8/19-20), slam +13 (2d6+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Beneath its cloak, this man-shaped creature appears to be part statue and part metallic machine.",
+  "meta": {
+    "cmb": "+18",
+    "cmd": 32,
+    "racialModifiers": [
+      "Diplomacy 4",
+      "Disguise 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or inquisition (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+2 bastard sword, other treasure)"
+      }
+    ]
+  }
+}

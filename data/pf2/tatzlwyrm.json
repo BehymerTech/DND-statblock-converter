@@ -1,0 +1,101 @@
+{
+  "name": "Tatzlwyrm",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 256.",
+  "size": "Medium",
+  "type": "Dragon",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 30,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet, climb 30 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 16,
+    "int": 4,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +11, Ref +5, Will +8",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Athletics__: +8 (1d20+8); __Crafting__: +4 (1d20+4); __Intimidation__: +6 (1d20+6); __Stealth__: +7 (1d20+7); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Athletics": "+8",
+      "Crafting": "+4",
+      "Intimidation": "+6",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Draconic"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Natural Camouflage",
+      "text": "A tatzlwyrm's green, gray, and brown scales provide it natural camouflage. In areas of dense undergrowth, a tatzlwyrm can move at its full Speed when Sneaking, and it gains a +4 circumstance bonus to Hide."
+    },
+    {
+      "name": "Poison Gasp",
+      "text": "⬻ The tatzlwyrm belches a puff of poisonous vapor into the face of an adjacent creature, which must attempt a DC 15 Fortitude save; the creature takes a –2 circumstance penalty to this save if it's grabbed or flat-footed. The tatzlwyrm can't use Poison Gasp again for 2 rounds. Critical Success The target is unaffected. Success The target is sickened 1. Failure The target takes 2d6 (2d6) poison damage and is enfeebled 1 for 1 round. Critical Failure The target takes 4d6 (4d6) poison damage and is enfeebled 1 for 1 minute."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +10 (magical); Damage 1d8+6 (1d8+6) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +10 (agile, magical); Damage 1d6+6 (1d6+6) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      1,
+      3,
+      -3,
+      2,
+      0
+    ]
+  }
+}

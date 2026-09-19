@@ -1,0 +1,114 @@
+{
+  "name": "Trumpet Archon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 23.",
+  "size": "Medium",
+  "type": "Celestial",
+  "subtype": "Archon",
+  "alignment": "LG",
+  "cr": null,
+  "level": "Creature 14",
+  "xp": null,
+  "ac": {
+    "value": 36,
+    "notes": ""
+  },
+  "hp": {
+    "average": 285,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 35,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "35 feet, fly 60 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 20,
+    "con": 20,
+    "int": 16,
+    "wis": 22,
+    "cha": 26
+  },
+  "saves": {
+    "text": "Fort +24, Ref +24, Will +27",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +25 (1d20+25); __Diplomacy__: +29 (1d20+29); __Intimidation__: +28 (1d20+28); __Nature__: +23 (1d20+23); __Performance__: +31 (1d20+31); __Religion__: +23 (1d20+23); __Stealth__: +25 (1d20+25); ",
+    "list": {
+      "Acrobatics": "+25",
+      "Diplomacy": "+29",
+      "Intimidation": "+28",
+      "Nature": "+23",
+      "Performance": "+31",
+      "Religion": "+23",
+      "Stealth": "+25"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 36,
+  "languages": [
+    "Celestial",
+    "Draconic",
+    "Infernal; tongues"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Retributive Strike",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "+2 striking bastard sword, +1 resilient full plate, virtuoso trumpet;"
+    },
+    {
+      "name": "Archon's Door",
+      "text": "Once per day, if an archon sees another creature cast dimension door, the archon can use dimension door (heightened to 5th level) within 1 round to attempt to follow that creature to the maximum distance of the archon's dimension door. If the archon's dimension door has enough distance, the archon appears the same distance and direction from the creature as before either creature used dimension door."
+    },
+    {
+      "name": "Kind Word",
+      "text": "⬻ (auditory, divine, emotion, enchantment, linguistic, mental); The trumpet archon offers an ally praise or encouragement. The archon attempts to counteract one emotion effect on the ally (with a counteract modifier of +24), and the archon and the ally both gain a +1 status bonus to attack rolls and saving throws for 1 round."
+    },
+    {
+      "name": "Trumpet Blast",
+      "text": "⬻ (auditory, divine, emotion, enchantment, mental); The trumpet archon blows mightily on their horn, creating a tone of such beauty and grandeur those who hear it are paralyzed in awe. Non-archons within 100 feet must attempt a DC 34 Fortitude save. They are temporarily immune for 10 minutes. Critical Success The creature is unaffected. Success The creature is flat-footed. Failure The creature is stunned 1 and flat-footed as long as it's stunned. Critical Failure The creature is paralyzed for 1 round."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ bastard sword +29 (good, magical, versatile p); Damage 2d12+13 (2d12+13) slashing plus 2d6 (2d6) sonic and 1d6 (1d6) good"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      5,
+      5,
+      3,
+      6,
+      8
+    ],
+    "items": "+2 striking bastard sword, +1 resilient full plate, virtuoso trumpet;"
+  }
+}

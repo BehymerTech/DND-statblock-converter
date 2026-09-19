@@ -1,0 +1,101 @@
+{
+  "name": "Coven Ooze",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 72: The Witch Queen's Revenge",
+  "size": "Large",
+  "type": "ooze",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "9",
+  "level": null,
+  "xp": 6400,
+  "ac": {
+    "value": 4,
+    "notes": "dex -5, size -1",
+    "touch": 4,
+    "flatFooted": 4
+  },
+  "hp": {
+    "average": 115,
+    "formula": "11d8+66"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., climb 20 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 1,
+    "con": 22,
+    "int": 2,
+    "wis": 3,
+    "cha": 1
+  },
+  "saves": {
+    "text": "Fort +9, Ref -2, Will -1",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +12, Perception +7, Swim +5",
+    "list": {
+      "Climb": "+12",
+      "Perception": "+7",
+      "Swim": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": "-5",
+  "babOrProficiency": 8,
+  "feats": [
+    "Cleave",
+    "Great Cleave",
+    "Improved Critical (slam)",
+    "Power Attack",
+    "Skill Focus (Perception)",
+    "Weapon Focus (slam)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +11 (1d8+4/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This eerily disturbing gelatinous blob lumbers forward. Three disembodied eyes float within its mass, seemingly scanning back and forth with each surge of movement.",
+  "meta": {
+    "cmb": "+12",
+    "cmd": "17 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate marshes or underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

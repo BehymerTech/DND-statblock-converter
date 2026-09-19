@@ -1,0 +1,115 @@
+{
+  "name": "Serpentfolk High Priest",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 28,
+    "notes": "armor +8, dex +3, natural +4, shield +3",
+    "touch": 13,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 182,
+    "formula": "5d10+10d8+110"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 23,
+    "con": 20,
+    "int": 16,
+    "wis": 22,
+    "cha": 20
+  },
+  "saves": {
+    "text": "Fort +15, Ref +13, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +7, Diplomacy +15, Disguise +10, Escape Artist +15, Intimidate +10, Knowledge (arcana) +9, Knowledge (nobility) +9, Knowledge (planes) +9, Knowledge (history) +10, Knowledge (religion) +15, Perception +21, Sense Motive +15, Spellcraft +15, Stealth +11, Use Magic Device +15",
+    "list": {
+      "Acrobatics": "+7",
+      "Diplomacy": "+15",
+      "Disguise": "+10",
+      "Escape Artist": "+15",
+      "Intimidate": "+10",
+      "Perception": "+21",
+      "Sense Motive": "+15",
+      "Spellcraft": "+15",
+      "Stealth": "+11",
+      "Use Magic Device": "+15"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent"
+  ],
+  "passivePerception": 31,
+  "languages": [
+    "Aklo",
+    "Common",
+    "Draconic",
+    "Undercommon",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 12,
+  "feats": [
+    "Combat Casting",
+    "Extra Channel",
+    "Great Fortitude",
+    "Improved Channel",
+    "Improved Initiative",
+    "Selective Channeling",
+    "Toughness",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+3 unholy light mace +24/+19/+14/+9 (1d6+6), bite +16 (1d6+3 plus poison)"
+    },
+    {
+      "name": "Ranged",
+      "text": "mwk light crossbow +22 (1d8+3/19-20)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Advanced",
+    "class": "serpentfolk cleric 10",
+    "cmb": "+12",
+    "cmd": 28,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land (usually jungles or underground)"
+      }
+    ]
+  }
+}

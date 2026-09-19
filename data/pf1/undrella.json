@@ -1,0 +1,101 @@
+{
+  "name": "Undrella",
+  "sourceSystem": "pf1",
+  "source": "Mythical Monsters Revisited",
+  "size": "Medium",
+  "type": "monstrous humanoid",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 24,
+    "notes": "armor +6, deflection +1, dex +5, dodge +1, natural +1",
+    "touch": 17,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 118,
+    "formula": "7d10+7d10+42"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 80 ft. (average)"
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 20,
+    "con": 16,
+    "int": 7,
+    "wis": 14,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +12, Ref +15, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +24, Fly +22, Intimidate +8, Knowledge (local) +1, Perception +19, Perform (sing) +6, Stealth +9",
+    "list": {
+      "Bluff": "+24",
+      "Fly": "+22",
+      "Intimidate": "+8",
+      "Perception": "+19",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Common"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 14,
+  "feats": [
+    "Dodge",
+    "Endurance",
+    "Flyby Attack",
+    "Great Fortitude",
+    "Manyshot",
+    "Point-Blank Shot",
+    "Precise Shot",
+    "Rapid Shot",
+    "Skill Focus (Bluff)",
+    "Weapon Focus (longbow)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk morningstar +15/+10/+5 (1d8)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+1 frost longbow +21/+16/+11 (1d8+1/×3 plus 1d6 cold)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This fierce and feral-looking woman has huge wings and clawed hands and feet, and carries a wicked-looking longbow.",
+  "meta": {
+    "race": "Female",
+    "class": "harpy ranger 7",
+    "cmb": "+14",
+    "cmd": 31
+  }
+}

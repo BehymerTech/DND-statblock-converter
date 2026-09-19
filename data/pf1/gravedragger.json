@@ -1,0 +1,121 @@
+{
+  "name": "Gravedragger",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 89: Palace of Fallen Stars",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "evil, herald",
+  "alignment": "NE",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 29,
+    "notes": "dex +4, luck +4, natural +12, size -1",
+    "touch": 17,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 195,
+    "formula": "17d10+102"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "50 ft., fly 30 ft. (average)"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 19,
+    "con": 22,
+    "int": 17,
+    "wis": 16,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +15, Ref +18, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +21, Bluff +24, Fly +2, Handle Animal +15, Intimidate +21, Knowledge (history) +15, Knowledge (planes) +15, Knowledge (religion) +23, Perception +23, Perform (dance) +12, Sleight of Hand +24, Stealth +20",
+    "list": {
+      "Acrobatics": "+21",
+      "Bluff": "+24",
+      "Fly": "+2",
+      "Handle Animal": "+15",
+      "Intimidate": "+21",
+      "Perception": "+23",
+      "Sleight of Hand": "+24",
+      "Stealth": "+20"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "scent",
+    "see in darkness"
+  ],
+  "passivePerception": 33,
+  "languages": [
+    "Abyssal",
+    "Celestial",
+    "Common",
+    "Infernal",
+    "telepathy 60 ft."
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 17,
+  "feats": [
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Improved Critical (heavy pick)",
+    "Improved Dirty Trick",
+    "Improved Drag",
+    "Improved Initiative",
+    "Power Attack",
+    "Vital Strike",
+    "Weapon Focus (heavy pick)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+2 heavy pick +24/+19/+14/+9 (1d8+7/19-20/×4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+2 heavy pick +23/+18/+13/+8 (1d8+2/19-20/×4)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature’s body rises from the ground in an amorphous mass of grave dirt and eroded bone. Its upper half is humanoid-shaped and wields an enormous pick made from a giant’s rib and skull.",
+  "meta": {
+    "cmb": "23 (+25 dirty trick, +25 drag)",
+    "cmd": "37 (39 vs. dirty trick, 39 vs. drag)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Abaddon or Astral Plane)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (+2 heavy pick, other treasure)"
+      }
+    ]
+  }
+}

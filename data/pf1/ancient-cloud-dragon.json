@@ -1,0 +1,119 @@
+{
+  "name": "Ancient Cloud Dragon",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 2",
+  "size": "Gargantuan",
+  "type": "dragon",
+  "subtype": "air, extraplanar",
+  "alignment": "CN",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 36,
+    "notes": "dex -2, natural +32, size -4",
+    "touch": 4,
+    "flatFooted": 36
+  },
+  "hp": {
+    "average": 324,
+    "formula": "24d12+168"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., fly 250 ft. (clumsy), swim 40 ft."
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 7,
+    "con": 25,
+    "int": 20,
+    "wis": 24,
+    "cha": 23
+  },
+  "saves": {
+    "text": "Fort +21, Ref +12, Will +21",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +32, Diplomacy +39, Fly +11, Intimidate +33, Knowledge (local) +32, Knowledge (planes) +32, Perception +34, Sense Motive +34, Stealth +13, Survival +34, Swim +46",
+    "list": {
+      "Appraise": "+32",
+      "Diplomacy": "+39",
+      "Fly": "+11",
+      "Intimidate": "+33",
+      "Perception": "+34",
+      "Sense Motive": "+34",
+      "Stealth": "+13",
+      "Survival": "+34",
+      "Swim": "+46"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "dragon senses",
+    "mist vision"
+  ],
+  "passivePerception": 44,
+  "languages": [
+    "Auran",
+    "Common",
+    "Draconic",
+    "Elven"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 24,
+  "feats": [
+    "Critical Focus",
+    "Dazzling Display",
+    "Flyby Attack",
+    "Improved Critical (bite)",
+    "Improved Initiative",
+    "Multiattack",
+    "Power Attack",
+    "Skill Focus (Diplomacy)",
+    "Snatch",
+    "Staggering Critical",
+    "Weapon Focus (bite)",
+    "Weapon Focus (claws)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +32 (4d6+16/19-20 plus 2d6 sonic), 2 claws +32 (2d8+11), tail slap +29 (2d8+16), 2 wings +29 (2d6+5)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "cmb": "+39",
+    "cmd": "47 (51 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any sky (Plane of Air)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "triple"
+      }
+    ]
+  }
+}

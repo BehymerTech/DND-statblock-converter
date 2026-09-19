@@ -1,0 +1,105 @@
+{
+  "name": "Hobgoblin Lieutenant",
+  "sourceSystem": "pf1",
+  "source": "Monster Codex",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "goblinoid",
+  "alignment": "LE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "armor +5, dex +2",
+    "touch": 12,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 47,
+    "formula": "5d10+15"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 15,
+    "con": 16,
+    "int": 10,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +8, Ref +7, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +5, Climb +9, Intimidate +7, Perception +9, Stealth +12, Survival +9, Swim +9",
+    "list": {
+      "Acrobatics": "+5",
+      "Climb": "+9",
+      "Intimidate": "+7",
+      "Perception": "+9",
+      "Stealth": "+12",
+      "Survival": "+9",
+      "Swim": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 19,
+  "languages": [
+    "Common",
+    "Goblin"
+  ],
+  "initiative": "+2",
+  "babOrProficiency": 5,
+  "feats": [
+    "Combat Reflexes",
+    "Double Slice",
+    "Endurance",
+    "Two-Weapon Fighting",
+    "Weapon Focus (sickle)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 mwk sickles +8 (1d6+3)"
+    },
+    {
+      "name": "Ranged",
+      "text": "longbow +7 (1d8/×3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Hobgoblin",
+    "class": "ranger 5",
+    "cmb": "+8",
+    "cmd": 20,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate hills"
+      }
+    ]
+  }
+}

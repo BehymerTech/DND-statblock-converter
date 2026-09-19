@@ -1,0 +1,112 @@
+{
+  "name": "Agnoia",
+  "sourceSystem": "pf1",
+  "source": "Concordance of Rivals",
+  "size": "Large",
+  "type": "outsider",
+  "subtype": "aeon, extraplanar",
+  "alignment": "N",
+  "cr": "14",
+  "level": null,
+  "xp": 38400,
+  "ac": {
+    "value": 29,
+    "notes": "deflection +4, dex +4, natural +12, size -1",
+    "touch": 17,
+    "flatFooted": 25
+  },
+  "hp": {
+    "average": 200,
+    "formula": "16d10+112"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 40 ft. (good)"
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 19,
+    "con": 24,
+    "int": 25,
+    "wis": 22,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +14, Ref +14, Will +18",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +26, Fly +17, Intimidate +24, Knowledge (arcana) +34, Knowledge (dungeoneering) +26, Knowledge (engineering) +26, Knowledge (geography) +26, Knowledge (history) +34, Knowledge (local) +26, Knowledge (nature) +26, Knowledge (nobility) +26, Knowledge (planes) +34, Knowledge (religion) +26, Perception +25, Sense Motive +25, Spellcraft +15, Stealth +19, Use Magic Device +13",
+    "list": {
+      "Appraise": "+26",
+      "Fly": "+17",
+      "Intimidate": "+24",
+      "Perception": "+25",
+      "Sense Motive": "+25",
+      "Spellcraft": "+15",
+      "Stealth": "+19",
+      "Use Magic Device": "+13"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "detect magic",
+    "detect thoughts"
+  ],
+  "passivePerception": 35,
+  "languages": [
+    "envisaging"
+  ],
+  "initiative": "+8",
+  "babOrProficiency": 16,
+  "feats": [
+    "Combat Casting",
+    "Combat Expertise",
+    "Combat Reflexes",
+    "Great Fortitude",
+    "Improved Initiative",
+    "Iron Will",
+    "Power Attack",
+    "Quicken Spell-Like Ability (touch of idiocy)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "3 claws +23 (2d6+8 plus bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This cylindrical creature of pale fog and dark shadow stands on three clawed feet. Three pale arms jut from around the column, each ending in a hand with long, black claws.",
+  "meta": {
+    "cmb": "+25",
+    "cmd": "43 (45 vs. trip)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Outer Planes)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or forgetting (3-8)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "none"
+      }
+    ]
+  }
+}

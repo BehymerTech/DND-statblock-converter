@@ -1,0 +1,96 @@
+{
+  "name": "Platecarpus",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 3_, page 178.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 46,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 feet, swim 35 feet"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 18,
+    "con": 16,
+    "int": 2,
+    "wis": 14,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +10, Ref +11, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +10 (1d20+10); __Stealth__: +11 (1d20+11); ",
+    "list": {
+      "Athletics": "+10",
+      "Stealth": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Deep Breath",
+      "text": "A platecarpus can hold its breath for 2 hours."
+    },
+    {
+      "name": "Aquatic Drag",
+      "text": "⬻ Requirements The platecarpus has a creature grabbed Effect The platecarpus Swims up to half its Speed, carrying the grabbed creature with it. Strafing Chomp ⬻ The platecarpus Swims up to its Speed, making one jaws Strike at any point along the way. The Strike deals half damage."
+    },
+    {
+      "name": "Swallow Whole",
+      "text": "⬻ (attack); Medium, 1d6+2 (1d6+2) bludgeoning, Rupture 10."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +12 Damage 1d12+5 (1d12+5) piercing plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      5,
+      4,
+      3,
+      -4,
+      2,
+      -2
+    ]
+  }
+}

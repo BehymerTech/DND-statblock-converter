@@ -1,0 +1,98 @@
+{
+  "name": "Scrapshell",
+  "sourceSystem": "pf1",
+  "source": "Seers of the Drowned City",
+  "size": "Large",
+  "type": "vermin",
+  "subtype": "aquatic",
+  "alignment": "N",
+  "cr": "6",
+  "level": null,
+  "xp": 2400,
+  "ac": {
+    "value": 23,
+    "notes": "armor +4, dex +2, natural +8, size -1",
+    "touch": 11,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 60,
+    "formula": "8d8+24"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "5 ft., swim 20 ft."
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 14,
+    "con": 17,
+    "int": "None",
+    "wis": 14,
+    "cha": 9
+  },
+  "saves": {
+    "text": "Fort +9, Ref +4, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Stealth +6, Swim +16, Perception +2",
+    "list": {
+      "Stealth": "+6",
+      "Swim": "+16",
+      "Perception": "+2"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision"
+  ],
+  "passivePerception": 12,
+  "languages": [],
+  "initiative": "+2",
+  "babOrProficiency": 6,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "tongue +13 (2d6+12/-18-20 plus bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This strange oysterlike mollusk has a long, thin tongue, tipped with a blade, that slides from between the shell halves.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": "27 (can't be tripped)",
+    "racialModifiers": [
+      "Stealth 8"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "warm oceans"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or bed (3-10)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Clockwork Excavator",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 117: Assault on Longshadow",
+  "size": "Huge",
+  "type": "construct",
+  "subtype": "clockwork",
+  "alignment": "N",
+  "cr": "10",
+  "level": null,
+  "xp": 9600,
+  "ac": {
+    "value": 23,
+    "notes": "dex -1, dodge +2, natural +14, size -2",
+    "touch": 9,
+    "flatFooted": 21
+  },
+  "hp": {
+    "average": 111,
+    "formula": "13d10+40"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft., burrow 10 ft."
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 8,
+    "con": "None",
+    "int": "None",
+    "wis": 11,
+    "cha": 7
+  },
+  "saves": {
+    "text": "Fort +4, Ref +5, Will +4",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "",
+    "list": {}
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "low-light vision",
+    "metal sense"
+  ],
+  "passivePerception": null,
+  "languages": [],
+  "initiative": "+3",
+  "babOrProficiency": 13,
+  "feats": [
+    "Improved Initiative",
+    "Lightning Reflexes"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "2 slams +21 (1d8+10 plus grab), drill +21 (2d6+10)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Set atop spoked wheels, this huge contraption has two hinged arms that appear to be designed to shovel rocks into its open maw. Gleaming drills set around the construct’s base look like they could easily break apart stone, and a gleaming scope of dark-hued glass projects from the end of a jointed arm.",
+  "meta": {
+    "cmb": "+25",
+    "cmd": 36,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or crew (2-4)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "incidental"
+      }
+    ]
+  }
+}

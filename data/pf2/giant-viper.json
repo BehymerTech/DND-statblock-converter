@@ -1,0 +1,98 @@
+{
+  "name": "Giant Viper",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 303.",
+  "size": "Medium",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 2",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 26,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, climb 20 feet, swim 20 feet"
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 18,
+    "con": 16,
+    "int": 2,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +8, Ref +11, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +9 (1d20+9); __Athletics__: +8 (1d20+8); __Stealth__: +8 (1d20+8); __Survival__: +6 (1d20+6); ",
+    "list": {
+      "Acrobatics": "+9",
+      "Athletics": "+8",
+      "Stealth": "+8",
+      "Survival": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 17,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲ Trigger A creature within the monster's reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using. Effect As Attack of Opportunity, but the snake can use this reaction only if it's Coiled."
+    },
+    {
+      "name": "Coil",
+      "text": "⬻ The giant viper uses an action to coil itself, increasing its reach with its fangs from 5 to 10 feet. After the giant viper Strikes with its fangs, it becomes uncoiled."
+    },
+    {
+      "name": "Giant Viper Venom",
+      "text": "(poison); Saving Throw DC 17 Fortitude. Maximum Duration 6 rounds Stage 1 1d6 (1d6) poison (1 round) Stage 2 1d6 (1d6) poison and drained 1. (null)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +11 (finesse); Damage 1d8+3 (1d8+3) piercing plus giant viper venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      3,
+      4,
+      3,
+      -4,
+      1,
+      -2
+    ]
+  }
+}

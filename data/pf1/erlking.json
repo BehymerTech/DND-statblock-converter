@@ -1,0 +1,130 @@
+{
+  "name": "Erlking",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "CN",
+  "cr": "18",
+  "level": null,
+  "xp": 153600,
+  "ac": {
+    "value": 34,
+    "notes": "armor +7, dex +4, dodge +1, natural +12, deflection vs. evil or law +2",
+    "touch": 15,
+    "flatFooted": 29
+  },
+  "hp": {
+    "average": 270,
+    "formula": "20d6+200"
+  },
+  "speed": {
+    "walk": 70,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "70 ft., fly 90 ft. (good)"
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 25,
+    "con": 28,
+    "int": 19,
+    "wis": 20,
+    "cha": 21
+  },
+  "saves": {
+    "text": "Fort +15, Ref +20, Will +17",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Acrobatics +19, Bluff +18, Climb +12, Diplomacy +13, Fly +18, Handle Animal +15, Heal +10, Intimidate +25, Knowledge (geography) +17, Knowledge (nature) +27, Knowledge (nobility) +9, Perception +28, Perform (any one) +13, Ride +16, Sense Motive +18, Spellcraft +14, Stealth +29, Survival +15, Swim +17",
+    "list": {
+      "Acrobatics": "+19",
+      "Bluff": "+18",
+      "Climb": "+12",
+      "Diplomacy": "+13",
+      "Fly": "+18",
+      "Handle Animal": "+15",
+      "Heal": "+10",
+      "Intimidate": "+25",
+      "Perception": "+28",
+      "Ride": "+16",
+      "Sense Motive": "+18",
+      "Spellcraft": "+14",
+      "Stealth": "+29",
+      "Survival": "+15",
+      "Swim": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 38,
+  "languages": [
+    "Common",
+    "Elven",
+    "Sylvan",
+    "speak with animals",
+    "speak with plants"
+  ],
+  "initiative": "+7",
+  "babOrProficiency": 10,
+  "feats": [
+    "Critical Focus",
+    "Disruptive",
+    "Greater Weapon Focus (longsword)",
+    "Greater Weapon Specialization (longsword)",
+    "Power Attack",
+    "Spellbreaker",
+    "Toughness",
+    "Vital Strike",
+    "Weapon Focus (longsword)",
+    "Weapon Specialization (longsword)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "+3 cold iron keen longsword +20/+20/+15 (1d8+12/17-20 plus bleed)"
+    },
+    {
+      "name": "Ranged",
+      "text": "+3 ironwood longbow +20/+20/+15 (1d8+3/×3 plus bleed)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Birdlike wings covered with autumnal leaves instead of feathers extend from the back of this regal, elf-like humanoid.",
+  "meta": {
+    "cmb": "+15",
+    "cmd": 33,
+    "racialModifiers": [
+      "Acrobatics 16"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, squad (1 plus 2-12 centaurs, 2-12 satyrs, and 1-2 treants), or army (1 plus 4-24 centaurs, 4-24 satyrs, and 2-5 treants)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double (ironwood chain shirt, ironwood longbow, ironwood longsword, other treasure)"
+      }
+    ]
+  }
+}

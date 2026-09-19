@@ -1,0 +1,96 @@
+{
+  "name": "Young Bronze Dragon",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Large",
+  "type": "Dragon",
+  "subtype": "Metallic",
+  "alignment": "Lawful Good",
+  "cr": "8",
+  "level": null,
+  "xp": 3900,
+  "ac": {
+    "value": 17,
+    "notes": ""
+  },
+  "hp": {
+    "average": 142,
+    "formula": "15d10 + 60"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": 80,
+    "swim": 40,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., Fly 80 ft., Swim 40 ft."
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 10,
+    "con": 19,
+    "int": 14,
+    "wis": 13,
+    "cha": 17
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Insight +4, Perception +7, Stealth +3",
+    "list": {
+      "Insight": "+4",
+      "Perception": "+7",
+      "Stealth": "+3"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Blindsight 30 ft.",
+    "Darkvision 120 ft."
+  ],
+  "passivePerception": 17,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+3 (13)",
+  "babOrProficiency": 3,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The dragon can breathe air and water."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks. It can replace one attack with a use of Repulsion Breath."
+    },
+    {
+      "name": "Rend",
+      "text": "_Melee Attack Roll:_ +8, reach 10 ft. _Hit:_ 16 (2d10 + 5) Slashing damage."
+    },
+    {
+      "name": "Lightning Breath (Recharge 5–6)",
+      "text": "_Dexterity Saving Throw:_ DC 15, each creature in a 60-foot-long, 5-foot-wide Line. _Failure:_ 49 (9d10) Lightning damage. _Success:_ Half damage."
+    },
+    {
+      "name": "Repulsion Breath",
+      "text": "_Strength Saving Throw:_ DC 15, each creature in a 30-foot Cone. _Failure:_ The target is pushed up to 40 feet straight away from the dragon and has the Prone condition."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

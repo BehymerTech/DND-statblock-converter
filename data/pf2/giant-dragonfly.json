@@ -1,0 +1,97 @@
+{
+  "name": "Giant Dragonfly",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 98.",
+  "size": "Medium",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 4",
+  "xp": null,
+  "ac": {
+    "value": 21,
+    "notes": ""
+  },
+  "hp": {
+    "average": 60,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 feet, fly 60 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 18,
+    "con": 14,
+    "int": 0,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +12, Ref +14, Will +9",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +10 (1d20+10), (Acrobatics: +12 (1d20+12) to Maneuver in Flight); __Athletics__: +12 (1d20+12); __Stealth__: +12 (1d20+12); ",
+    "list": {
+      "Acrobatics": "+12",
+      "Athletics": "+12",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise wavesense 30"
+  ],
+  "passivePerception": 21,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Clutch",
+      "text": "⬻ Requirements The giant dragonfly has a Medium or smaller creature grabbed in its mandibles Effect The dragonfly tries to transfer the grabbed creature to be clutched by its legs. The giant dragonfly attempts an Athletics check against the creature's Reflex DC. On a success, it transfers the creature (which remains grabbed) to its legs, freeing its mandibles to attack. The dragonfly can have only one creature clutched at a time."
+    },
+    {
+      "name": "Snatch",
+      "text": "The giant dragonfly can Fly at half Speed while it has a creature grabbed or restrained by Clutch, carrying that creature along with it."
+    },
+    {
+      "name": "Swoop",
+      "text": "⬺ The giant dragonfly Flies up to its Speed and makes one mandible Strike at any point during that movement."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ mandibles +14 Damage 1d12+7 (1d12+7) piercing plus Grab"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      4,
+      2,
+      -5,
+      3,
+      0
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "name": "Gambling Devil (Magadaz)",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 97: In Hell's Bright Shadow",
+  "size": "Medium",
+  "type": "outsider",
+  "subtype": "devil, evil, extraplanar, lawful",
+  "alignment": "LE",
+  "cr": "4",
+  "level": null,
+  "xp": 1200,
+  "ac": {
+    "value": 17,
+    "notes": "dex +1, luck +1, natural +5",
+    "touch": 12,
+    "flatFooted": 16
+  },
+  "hp": {
+    "average": 42,
+    "formula": "5d10+15"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 13,
+    "con": 17,
+    "int": 14,
+    "wis": 10,
+    "cha": 19
+  },
+  "saves": {
+    "text": "Fort +4, Ref +5, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Appraise +10, Bluff +12, Diplomacy +9, Intimidate +12, Perception +10, Profession (gambler) +8, Sense Motive +10, Sleight of Hand +11",
+    "list": {
+      "Appraise": "+10",
+      "Bluff": "+12",
+      "Diplomacy": "+9",
+      "Intimidate": "+12",
+      "Perception": "+10",
+      "Sense Motive": "+10",
+      "Sleight of Hand": "+11"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision",
+    "see in darkness"
+  ],
+  "passivePerception": 20,
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Infernal",
+    "telepathy 100 ft."
+  ],
+  "initiative": "+1",
+  "babOrProficiency": 5,
+  "feats": [
+    "Alertness",
+    "Deft Hands",
+    "Iron Will"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "slam +8 (2d6+4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "thrown coin +6 (1d4+3)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This creature resembles a man crafted entirely of gold. Some of its features seem warped, as if the creature had been melted and then reformed.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": 19,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any (Hell)"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or table (3-9)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "double"
+      }
+    ]
+  }
+}

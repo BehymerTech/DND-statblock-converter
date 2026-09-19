@@ -1,0 +1,103 @@
+{
+  "name": "Derro",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "derro",
+  "alignment": "CE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 17,
+    "notes": "armor +2, dex +2, natural +2, size +1",
+    "touch": 13,
+    "flatFooted": 15
+  },
+  "hp": {
+    "average": 25,
+    "formula": "3d8+12"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 15,
+    "con": 18,
+    "int": 10,
+    "wis": 5,
+    "cha": 16
+  },
+  "saves": {
+    "text": "Fort +5, Ref +3, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Perception +0, Stealth +9",
+    "list": {
+      "Perception": "+0",
+      "Stealth": "+9"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 10,
+  "languages": [
+    "Aklo",
+    "Undercommon"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 2,
+  "feats": [
+    "Improved Initiative",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "short sword +5 (1d4)"
+    },
+    {
+      "name": "Ranged",
+      "text": "repeating light crossbow +5 (1d6/19-20 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This pale blue humanoid has bulging white eyes, wild hair, four-fingered hands, and a large hooked club.",
+  "meta": {
+    "cmb": "+1",
+    "cmd": 13,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, team (2-4), squad (5-8 plus 1 sorcerer of 3rd-5th level), or band (11-20 plus 30% noncombatants plus 3 sorcerers of 3rd-8th level)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "NPC Gear (leather armor, short sword or aklys, repeating light crossbow with 10 poisoned bolts, other treasure)"
+      }
+    ]
+  }
+}

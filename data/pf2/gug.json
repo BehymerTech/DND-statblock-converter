@@ -1,0 +1,108 @@
+{
+  "name": "Gug",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 198.",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 10",
+  "xp": null,
+  "ac": {
+    "value": 30,
+    "notes": ""
+  },
+  "hp": {
+    "average": 175,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet, climb 20 feet"
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 16,
+    "con": 22,
+    "int": 10,
+    "wis": 16,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +22, Ref +17, Will +19",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +19 (1d20+19), (Acrobatics: +23 (1d20+23) to Squeeze); __Athletics__: +23 (1d20+23); __Stealth__: +19 (1d20+19); __Survival__: +17 (1d20+17); ",
+    "list": {
+      "Acrobatics": "+23",
+      "Athletics": "+23",
+      "Stealth": "+19",
+      "Survival": "+17"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 29,
+  "languages": [
+    "Undercommon"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Eerie Flexibility",
+      "text": "Despite its size, the gug's multiple joints allow it to fit through tight spaces as if it were a Medium creature. While Squeezing, it can move at its full Speed."
+    },
+    {
+      "name": "Furious Claws",
+      "text": "⬺ The gug makes up to four claw Strikes, each against a different target. These attacks all count toward the gug's multiple attack penalty, but the penalty doesn't increase until after the gug makes all its attacks."
+    },
+    {
+      "name": "Rend",
+      "text": "⬻ (claw);"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ jaws +23 (reach 15 feet); Damage 2d12+13 (2d12+13) piercing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +23 (agile, reach 15 feet); Damage 2d8+13 (2d8+13) slashing"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      7,
+      3,
+      6,
+      0,
+      3,
+      0
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "name": "Aapoph Serpentfolk",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 238.",
+  "size": "Medium",
+  "type": "Serpentfolk",
+  "subtype": "Humanoid, Mutant",
+  "alignment": "CE",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 60,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 25,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "25 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 16,
+    "int": 4,
+    "wis": 12,
+    "cha": 8
+  },
+  "saves": {
+    "text": "Fort +10, Ref +7, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +7 (1d20+7); __Athletics__: +11 (1d20+11); __Intimidation__: +6 (1d20+6); ",
+    "list": {
+      "Acrobatics": "+7",
+      "Athletics": "+11",
+      "Intimidation": "+6"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise scent 30"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Aklo",
+    "Undercommon; telepathy 100 feet"
+  ],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲"
+    },
+    {
+      "name": "Items",
+      "text": "scimitar;"
+    },
+    {
+      "name": "Serpentfolk Venom",
+      "text": "(poison); Saving Throw DC 20 Fortitude. Maximum Duration 6 rounds Stage 1 1d4 (1d4) poison damage and enfeebled 1 (1 round) Stage 2 2d4 (2d4) poison damage and enfeebled 1 (1 round)"
+    },
+    {
+      "name": "Slithering Attack",
+      "text": "⬻ The aapoph serpentfolk makes one scimitar or fangs Strike and one tail Strike, each targeting a different creature. These attacks both count toward the aapoph's multiple attack penalty, but the penalty doesn't increase until after the aapoph makes both attacks."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ scimitar +11 (forceful, sweep); Damage 1d6+6 (1d6+6) slashing"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +11 Damage 1d8+6 (1d8+6) piercing plus serpentfolk venom"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ tail +11 (agile); Damage 1d6+6 (1d6+6) bludgeoning plus Knockdown"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      3,
+      -3,
+      1,
+      -1
+    ],
+    "items": "scimitar;"
+  }
+}

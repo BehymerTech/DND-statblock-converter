@@ -1,0 +1,112 @@
+{
+  "name": "Larabay",
+  "sourceSystem": "pf1",
+  "source": "Isles of the Shackles",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "shapechanger",
+  "alignment": "CN",
+  "cr": "11",
+  "level": null,
+  "xp": 12800,
+  "ac": {
+    "value": 25,
+    "notes": "dex +6, dodge +1, natural +8",
+    "touch": 17,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 144,
+    "formula": "17d6+85"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 50 ft. (good)"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 22,
+    "con": 21,
+    "int": 15,
+    "wis": 16,
+    "cha": 17
+  },
+  "saves": {
+    "text": "Fort +10, Ref +16, Will +13",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +23, Diplomacy +23, Disguise +23, Fly +30, Knowledge (nature) +22, Perception +27, Sense Motive +27, Stealth +26",
+    "list": {
+      "Bluff": "+23",
+      "Diplomacy": "+23",
+      "Disguise": "+23",
+      "Fly": "+30",
+      "Perception": "+27",
+      "Sense Motive": "+27",
+      "Stealth": "+26"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision"
+  ],
+  "passivePerception": 37,
+  "languages": [
+    "Common",
+    "Polyglot",
+    "Sylvan"
+  ],
+  "initiative": "+10",
+  "babOrProficiency": 8,
+  "feats": [
+    "Agile Maneuvers",
+    "Alertness",
+    "Combat Reflexes",
+    "Dodge",
+    "Flyby Attack",
+    "Improved Initiative",
+    "Mobility",
+    "Weapon Finesse",
+    "Weapon Focus (rapier)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "rapier +15/+10 (1d6+4/18-20 plus mischief )"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "This pale, blond-haired humanoid possesses bright blue eyes, needlelike teeth, and the large, multicolored wings of a parrot.",
+  "meta": {
+    "cmb": "+14",
+    "cmd": 29,
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate or warm coastlines or forests"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or rabble (3-6)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

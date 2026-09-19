@@ -1,0 +1,100 @@
+{
+  "name": "Giant Scorpion",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 285.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 3",
+  "xp": null,
+  "ac": {
+    "value": 19,
+    "notes": ""
+  },
+  "hp": {
+    "average": 45,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 40,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 feet"
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 16,
+    "int": 0,
+    "wis": 14,
+    "cha": 2
+  },
+  "saves": {
+    "text": "Fort +12, Ref +9, Will +7",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +11 (1d20+11); __Stealth__: +7 (1d20+7); ",
+    "list": {
+      "Athletics": "+11",
+      "Stealth": "+7"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision, imprecise tremorsense 60"
+  ],
+  "passivePerception": 19,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Attack of Opportunity",
+      "text": "⬲ Stinger only."
+    },
+    {
+      "name": "Constrict",
+      "text": "⬻ 1d6+4 (1d6+4) bludgeoning, DC 20."
+    },
+    {
+      "name": "Giant Scorpion Venom",
+      "text": "(poison); Saving Throw DC 18 Fortitude. Maximum Duration 6 rounds Stage 1 1d10 (1d10) poison damage and enfeebled 1 (1 round) Stage 2 2d10 (2d10) poison damage and enfeebled 1 (1 round) Stage 3 2d10 (2d10) poison damage and enfeebled 2 (1 round)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ pincer +11 (agile, reach 10 feet); Damage 1d8+6 (1d8+6) slashing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ stinger +11 (reach 10 feet); Damage 1d6+6 (1d6+6) piercing plus giant scorpion venom"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      4,
+      2,
+      3,
+      -5,
+      2,
+      -4
+    ]
+  }
+}

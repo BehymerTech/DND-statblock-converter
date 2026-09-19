@@ -1,0 +1,91 @@
+{
+  "name": "Young Silver Dragon",
+  "sourceSystem": "dnd5e2024",
+  "source": "",
+  "size": "Large",
+  "type": "Dragon",
+  "subtype": "Metallic",
+  "alignment": "Lawful Good",
+  "cr": "9",
+  "level": null,
+  "xp": 5000,
+  "ac": {
+    "value": 18,
+    "notes": ""
+  },
+  "hp": {
+    "average": 168,
+    "formula": "16d10 + 80"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": 80,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "40 ft., Fly 80 ft."
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 10,
+    "con": 21,
+    "int": 14,
+    "wis": 11,
+    "cha": 19
+  },
+  "saves": {
+    "text": "",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "History +6, Perception +8, Stealth +4",
+    "list": {
+      "History": "+6",
+      "Perception": "+8",
+      "Stealth": "+4"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "Blindsight 30 ft.",
+    "Darkvision 120 ft."
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "initiative": "+4 (14)",
+  "babOrProficiency": 4,
+  "feats": [],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks. It can replace one attack with a use of Paralyzing Breath."
+    },
+    {
+      "name": "Rend",
+      "text": "_Melee Attack Roll:_ +10, reach 10 ft. _Hit:_ 15 (2d8 + 6) Slashing damage."
+    },
+    {
+      "name": "Cold Breath (Recharge 5–6)",
+      "text": "_Constitution Saving Throw:_ DC 17, each creature in a 30-foot Cone. _Failure:_ 49 (11d8) Cold damage. _Success:_ Half damage."
+    },
+    {
+      "name": "Paralyzing Breath",
+      "text": "_Constitution Saving Throw:_ DC 17, each creature in a 30-foot Cone. _First Failure:_ The target has the Incapacitated condition until the end of its next turn, when it repeats the save. _Second Failure:_ The target has the Paralyzed condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {}
+}

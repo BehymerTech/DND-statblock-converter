@@ -1,0 +1,91 @@
+{
+  "name": "Snapping Turtle",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary 2_, page 269.",
+  "size": "Tiny",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature -1",
+  "xp": null,
+  "ac": {
+    "value": 16,
+    "notes": ""
+  },
+  "hp": {
+    "average": 9,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 feet, swim 20 feet"
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 8,
+    "con": 18,
+    "int": 2,
+    "wis": 12,
+    "cha": 6
+  },
+  "saves": {
+    "text": "Fort +8, Ref +1, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Athletics__: +5 (1d20+5); __Stealth__: +3 (1d20+3), (Stealth: +5 (1d20+5) in water); ",
+    "list": {
+      "Athletics": "+5",
+      "Stealth": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 30"
+  ],
+  "passivePerception": 13,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Deep Breath",
+      "text": "The snapping turtle can hold its breath for 30 minutes."
+    },
+    {
+      "name": "Clench Jaws",
+      "text": "⬻ Requirements The snapping turtle damaged a creature with a jaws Effect Strike in its previous action; The snapping turtle clenches its jaws down and automatically deals an additional 1d4 (1d4) bludgeoning damage to the creature it just bit."
+    },
+    {
+      "name": "Shell Defense",
+      "text": "⬻ The snapping turtle retracts its limbs and head into its shell and ends its turn. This increases its AC to 18, but it can't act except to reemerge, which it can do as a single action."
+    }
+  ],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      1,
+      -1,
+      4,
+      -4,
+      1,
+      -2
+    ]
+  }
+}

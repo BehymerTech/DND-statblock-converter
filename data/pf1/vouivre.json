@@ -1,0 +1,110 @@
+{
+  "name": "Vouivre",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4, Pathfinder No. 30: The Twice-Damned Prince",
+  "size": "Large",
+  "type": "monstrous humanoid",
+  "subtype": "aquatic",
+  "alignment": "CE",
+  "cr": "12",
+  "level": null,
+  "xp": 19200,
+  "ac": {
+    "value": 27,
+    "notes": "dex +1, natural +17, size -1",
+    "touch": 10,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 152,
+    "formula": "16d10+64"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft., fly 40 ft. (poor), swim 50 ft."
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 13,
+    "con": 18,
+    "int": 11,
+    "wis": 14,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +9, Ref +11, Will +14",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Bluff +20, Fly +6, Intimidate +15, Perception +17, Sense Motive +10, Stealth +12, Swim +12",
+    "list": {
+      "Bluff": "+20",
+      "Fly": "+6",
+      "Intimidate": "+15",
+      "Perception": "+17",
+      "Sense Motive": "+10",
+      "Stealth": "+12",
+      "Swim": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 27,
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "initiative": "+5",
+  "babOrProficiency": 16,
+  "feats": [
+    "Critical Focus",
+    "Deafening Critical",
+    "Great Fortitude",
+    "Improved Critical (claw)",
+    "Improved Initiative",
+    "Iron Will",
+    "Weapon Focus (bite)",
+    "Weapon Focus (claw)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "bite +20 (3d6+4 plus grab), 2 claws +20 (2d6+4/19-20), 2 wings +14 (1d8+2)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "One half of this creature is a nude woman, and the other is the front end of a slithering, winged dragon.",
+  "meta": {
+    "cmb": "21 (+25 grapple)",
+    "cmd": "32 (can’t be tripped)",
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "temperate forests, lakes, or rivers"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary or harem (1 plus 4-10 snakes)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

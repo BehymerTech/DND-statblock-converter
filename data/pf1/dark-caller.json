@@ -1,0 +1,110 @@
+{
+  "name": "Dark Caller",
+  "sourceSystem": "pf1",
+  "source": "Bestiary 4",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dark folk",
+  "alignment": "CE",
+  "cr": "5",
+  "level": null,
+  "xp": 1600,
+  "ac": {
+    "value": 17,
+    "notes": "dex +3, dodge +1, natural +3",
+    "touch": 14,
+    "flatFooted": 13
+  },
+  "hp": {
+    "average": 52,
+    "formula": "8d8+16"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 ft."
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 17,
+    "con": 14,
+    "int": 13,
+    "wis": 13,
+    "cha": 18
+  },
+  "saves": {
+    "text": "Fort +4, Ref +9, Will +3",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Climb +6, Intimidate +5, Knowledge (arcana) +9, Knowledge (planes) +9, Perception +8, Stealth +10, Use Magic Device +5",
+    "list": {
+      "Climb": "+6",
+      "Intimidate": "+5",
+      "Perception": "+8",
+      "Stealth": "+10",
+      "Use Magic Device": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "detect magic",
+    "see in darkness"
+  ],
+  "passivePerception": 18,
+  "languages": [
+    "Dark Folk",
+    "Undercommon"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 6,
+  "feats": [
+    "Augment Summoning",
+    "Dodge",
+    "Spell Focus (conjuration)",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk dagger +10/+5 (1d4+2/19-20 plus black smear poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Wrapped in tatters of dark musty robes, this humanoid figure weaves malevolent magic.",
+  "meta": {
+    "cmb": "+8",
+    "cmd": 22,
+    "racialModifiers": [
+      "Climb 4",
+      "Perception 4",
+      "Stealth 4"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any underground"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary, pair, or gang (1 plus 2-5 dark stalkers), or clan (20-80 dark creepers plus 1 dark stalker and dark caller per 20 dark creepers)"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard (mwk dagger, black smear [2 doses; Pathfinder RPG Bestiary 54], other gear)"
+      }
+    ]
+  }
+}

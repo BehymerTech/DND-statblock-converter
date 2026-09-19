@@ -1,0 +1,101 @@
+{
+  "name": "Drow Noble",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder RPG Bestiary",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "alignment": "CE",
+  "cr": "3",
+  "level": null,
+  "xp": 800,
+  "ac": {
+    "value": 21,
+    "notes": "armor +6, dex +3, shield +2",
+    "touch": 13,
+    "flatFooted": 18
+  },
+  "hp": {
+    "average": 20,
+    "formula": "3d8+3"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "20 ft."
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 17,
+    "con": 12,
+    "int": 10,
+    "wis": 17,
+    "cha": 12
+  },
+  "saves": {
+    "text": "Fort +4, Ref +4, Will +6",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Knowledge (religion) +6, Sense Motive +9, Spellcraft +6, Perception +5",
+    "list": {
+      "Sense Motive": "+9",
+      "Spellcraft": "+6",
+      "Perception": "+5"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "darkvision"
+  ],
+  "passivePerception": 15,
+  "languages": [
+    "Elven",
+    "Undercommon"
+  ],
+  "initiative": "+3",
+  "babOrProficiency": 2,
+  "feats": [
+    "Channel Smite",
+    "Weapon Finesse"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "mwk rapier +4 (1d6+1/18-20)"
+    },
+    {
+      "name": "Ranged",
+      "text": "hand crossbow +5 (1d4/19-20 plus poison)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "race": "Female",
+    "class": "drow noble cleric 3",
+    "cmb": "+3",
+    "cmd": 16,
+    "racialModifiers": [
+      "Perception 2"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "underground"
+      }
+    ]
+  }
+}

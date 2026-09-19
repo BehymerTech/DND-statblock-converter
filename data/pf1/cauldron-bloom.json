@@ -1,0 +1,116 @@
+{
+  "name": "Cauldron Bloom",
+  "sourceSystem": "pf1",
+  "source": "Pathfinder No. 142: Gardens of Gallowspire",
+  "size": "Colossal",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "N",
+  "cr": "15",
+  "level": null,
+  "xp": 51200,
+  "ac": {
+    "value": 28,
+    "notes": "dex +2, natural +24, size -8",
+    "touch": 4,
+    "flatFooted": 26
+  },
+  "hp": {
+    "average": 231,
+    "formula": "22d8+132"
+  },
+  "speed": {
+    "walk": 10,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "10 ft., burrow 10 ft."
+  },
+  "abilities": {
+    "str": 42,
+    "dex": 15,
+    "con": 27,
+    "int": 15,
+    "wis": 14,
+    "cha": 14
+  },
+  "saves": {
+    "text": "Fort +21, Ref +11, Will +11",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "Handle Animal +13, Perception +33, Perform (percussion) +13, Stealth +11, Survival +24",
+    "list": {
+      "Handle Animal": "+13",
+      "Perception": "+33",
+      "Stealth": "+11",
+      "Survival": "+24"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "blindsight",
+    "low-light vision",
+    "tremorsense 1 mi.",
+    "true seeing"
+  ],
+  "passivePerception": 43,
+  "languages": [
+    "Sylvan",
+    "Terran (can’t speak)"
+  ],
+  "initiative": "+6",
+  "babOrProficiency": 16,
+  "feats": [
+    "Awesome Blow",
+    "Cleave",
+    "Combat Expertise",
+    "Great Cleave",
+    "Greater Bull Rush",
+    "Improved Bull Rush",
+    "Improved Initiative",
+    "Iron Will",
+    "Lightning Reflexes",
+    "Power Attack",
+    "Skill Focus (Perception)"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "3 slams +24 (2d8+16)"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "Three thick vines sprout from this massive cylindrical plant’s base. Ruddy light flickers beneath its sloping armored sides, and it exudes a palpable aura of magic.",
+  "meta": {
+    "cmb": "40 (+44 bull rush)",
+    "cmd": "52 (54 vs. bull rush)",
+    "racialModifiers": [
+      "Stealth 20"
+    ],
+    "ecology": [
+      {
+        "name": "Environment",
+        "desc": "any cold land"
+      },
+      {
+        "name": "Organisation",
+        "desc": "solitary"
+      },
+      {
+        "name": "Treasure",
+        "desc": "standard"
+      }
+    ]
+  }
+}

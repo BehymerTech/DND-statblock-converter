@@ -1,0 +1,105 @@
+{
+  "name": "Smilodon",
+  "sourceSystem": "pf2",
+  "source": "_Bestiary_, page 53.",
+  "size": "Large",
+  "type": "Animal",
+  "subtype": "",
+  "alignment": "N",
+  "cr": null,
+  "level": "Creature 6",
+  "xp": null,
+  "ac": {
+    "value": 23,
+    "notes": ""
+  },
+  "hp": {
+    "average": 110,
+    "formula": ""
+  },
+  "speed": {
+    "walk": 30,
+    "fly": null,
+    "swim": null,
+    "climb": null,
+    "burrow": null,
+    "notes": "30 feet"
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 14,
+    "con": 16,
+    "int": 2,
+    "wis": 14,
+    "cha": 10
+  },
+  "saves": {
+    "text": "Fort +15, Ref +12, Will +10",
+    "fort": null,
+    "ref": null,
+    "will": null
+  },
+  "skills": {
+    "text": "__Acrobatics__: +12 (1d20+12); __Athletics__: +16 (1d20+16); __Stealth__: +12 (1d20+12); ",
+    "list": {
+      "Acrobatics": "+12",
+      "Athletics": "+16",
+      "Stealth": "+12"
+    }
+  },
+  "vulnerabilities": [],
+  "resistances": [],
+  "immunities": [],
+  "conditionImmunities": [],
+  "senses": [
+    "low-light vision, imprecise scent 60"
+  ],
+  "passivePerception": 24,
+  "languages": [],
+  "initiative": null,
+  "babOrProficiency": null,
+  "feats": [],
+  "traits": [
+    {
+      "name": "Grab",
+      "text": ""
+    },
+    {
+      "name": "Pierce Armor",
+      "text": "⬻ The smilodon makes a fangs Strike against a creature it is grabbing. If the attack hits, the creature is knocked prone; if the creature is wearing armor with hardness 10 or lower, the armor is broken. If this Strike breaks a creature's armor or damages a creature who is unarmored or wearing broken armor, the creature also takes 2d6 (2d6) persistent bleed damage. This Strike doesn't further damage armor that's already broken."
+    },
+    {
+      "name": "Pounce",
+      "text": "⬻ The smilodon Strides and makes a Strike at the end of that movement. If the smilodon began this action hidden, it remains hidden until after this ability's Strike."
+    },
+    {
+      "name": "Sneak Attack",
+      "text": "The smilodon deals 1d6 (1d6) extra precision damage to creatures that are flat-footed."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Melee",
+      "text": "⬻ fangs +16 Damage 2d10+6 (2d10+6) piercing plus Grab"
+    },
+    {
+      "name": "Melee",
+      "text": "⬻ claw +16 (agile); Damage 2d8+6 (2d8+6) slashing plus"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendaryActions": [],
+  "spellcasting": [],
+  "description": "",
+  "meta": {
+    "pf2AbilityMods": [
+      6,
+      2,
+      3,
+      -4,
+      2,
+      0
+    ]
+  }
+}
