@@ -50,6 +50,7 @@ toCombo.setValue("dnd5e2014", SYSTEMS.find((s) => s.id === "dnd5e2014").label);
 let monsterIndex = [];
 let sourceCreature = null;
 const sourceSummary = document.getElementById("source-summary");
+const sourcePreviewEl = document.getElementById("source-preview");
 
 const monsterCombo = createCombobox(document.querySelector('[data-combobox="monster-search"]'), {
 	placeholder: "Type to search…",
@@ -67,8 +68,10 @@ const monsterCombo = createCombobox(document.querySelector('[data-combobox="mons
 			const res = await fetch(`data/${system}/${slug}.json`);
 			sourceCreature = await res.json();
 			sourceSummary.textContent = `Loaded "${label}" — ready to convert.`;
+			await showSource(sourceCreature, system);
 		} catch (err) {
 			sourceCreature = null;
+			sourcePreviewEl.innerHTML = "";
 			sourceSummary.textContent = `Couldn't load "${label}": ${err.message}`;
 		}
 	},
@@ -77,6 +80,7 @@ const monsterCombo = createCombobox(document.querySelector('[data-combobox="mons
 async function onFromSystemChange(system) {
 	monsterCombo.clear();
 	sourceCreature = null;
+	sourcePreviewEl.innerHTML = "";
 	sourceSummary.textContent = "Loading monster list…";
 	try {
 		const res = await fetch(`data/${system}/index.json`);
@@ -144,6 +148,23 @@ function showWarnings(warnings) {
 	warningsEl.innerHTML = `<strong>Conversion notes</strong><ul>${warnings.map((w) => `<li>${w.replace(/&/g, "&amp;").replace(/</g, "&lt;")}</li>`).join("")}</ul>`;
 }
 
+// Render the imported creature back out in its own system's layout so it can be eyeballed
+// against the converted result (same-system export skips recomputation).
+async function showSource(creature, fromSystem) {
+	if (!creature) {
+		sourcePreviewEl.innerHTML = "";
+		return;
+	}
+	try {
+		const template = await loadTemplate(fromSystem);
+		const { context } = exportCreature(creature, fromSystem);
+		sourcePreviewEl.innerHTML = renderMarkdownPreview(render(template, context));
+	} catch (err) {
+		console.error("Couldn't render source stat block:", err);
+		sourcePreviewEl.innerHTML = "";
+	}
+}
+
 function showOutput(markdown) {
 	markdownEl.value = markdown;
 	previewEl.innerHTML = renderMarkdownPreview(markdown);
@@ -174,9 +195,11 @@ document.getElementById("convert-btn").addEventListener("click", async () => {
 		const markdown = render(template, context);
 		showOutput(markdown);
 		showWarnings(warnings);
+		await showSource(creature, fromSystem);
 	} catch (err) {
 		showWarnings([err.message]);
 		showOutput("");
+		showSource(null);
 	}
 });
 

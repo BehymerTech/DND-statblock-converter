@@ -13,6 +13,7 @@
 // framing in DnD_Conversions_1.0.md: conversion is "more art than science."
 
 import { emptyCreature, SYSTEMS } from "./schema.js";
+import { cleanMarkup } from "./util.js";
 import { parseDnd5eText } from "./importers/dnd5eText.js";
 import { parseDnd35Text } from "./importers/dnd35.js";
 import { parsePf1PastedText, parsePf2PastedText } from "./importers/pf.js";
@@ -28,7 +29,8 @@ export const CONVERTIBLE_SYSTEMS = ["dnd35", "pf1", "dnd5e2014", "dnd5e2024"];
 export const CONVERTIBLE_TARGETS = CONVERTIBLE_SYSTEMS;
 
 /** Parse pasted stat block text for a given source system into the canonical schema. */
-export function importPastedText(text, fromSystem) {
+export function importPastedText(rawText, fromSystem) {
+	const text = cleanMarkup(rawText);
 	let creature;
 	switch (fromSystem) {
 		case "dnd5e2014":

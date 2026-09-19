@@ -137,3 +137,26 @@ export function titleCase(str) {
 export function clean(str) {
 	return String(str ?? "").replace(/\s+/g, " ").trim();
 }
+
+const ENTITIES = {
+	amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " ", ensp: " ", emsp: " ", thinsp: " ",
+	ndash: "–", mdash: "—", minus: "-", hellip: "…", rsquo: "'", lsquo: "'", ldquo: '"', rdquo: '"',
+	times: "×", middot: "·", bull: "•",
+};
+
+/**
+ * Clean pasted stat block text of markup left over from web/VTT exports: line-break and block tags
+ * become spaces, other HTML tags are dropped, HTML entities (&emsp;, &amp;, &#8212;) are decoded, and
+ * 5etools {@tags} are flattened. Deliberately leaves markdown (**bold**, _italic_) alone — importers handle it.
+ */
+export function cleanMarkup(text) {
+	if (!text) return text;
+	return stripTags(String(text))
+		.replace(/<\s*(?:br|\/?p|\/?div|\/?li|\/?ul|\/?ol|\/?tr|hr)\b[^>]*>/gi, " ")
+		.replace(/<\/?[a-z][^>]*>/gi, "")
+		.replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+		.replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
+		.replace(/&([a-z]+);/gi, (m, name) => ENTITIES[name.toLowerCase()] ?? m)
+		.replace(/[ \t\u00a0\u2002\u2003]+/g, " ")
+		.replace(/ *\n */g, "\n");
+}

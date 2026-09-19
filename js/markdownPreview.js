@@ -19,7 +19,7 @@ function inline(text) {
 }
 
 function renderPipeTable(lines) {
-	const rows = lines.filter((l) => !/^\|?\s*:?-{2,}:?\s*(\|\s*:?-{2,}:?\s*)*\|?$/.test(l));
+	const rows = lines.filter((l) => !/^\|?\s*:?-+:?\s*(\|\s*:?-+:?\s*)*\|?$/.test(l));
 	const cellsOf = (l) => l.replace(/^\||\|$/g, "").split("|").map((c) => c.trim());
 	const [headerRow, ...bodyRows] = rows;
 	let html = "<table><thead><tr>";

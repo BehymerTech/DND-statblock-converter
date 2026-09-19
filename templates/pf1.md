@@ -1,32 +1,30 @@
-## {{name}}
-CR {{cr}}{{#if xp}}; XP {{xp}}{{/if}}
+## 🐉 {{name}}
+*{{size}} {{type}}{{#if subtype}} ({{subtype}}){{/if}}, {{alignment}}*
 
-**{{alignment}} {{size}} {{type}}{{#if subtype}} ({{subtype}}){{/if}}**
-**Init** {{initiative}}{{#if senses}}; **Senses** {{senses}}{{/if}}
+| 🛡️ AC | ❤️ HP | 👟 Speed | ⚡ Init | ⚔️ BAB | 🤼 CMB | 🧱 CMD | 🏆 CR |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|{{ac}}{{#if touch}} (touch {{touch}}{{#if flatFooted}}, flat-footed {{flatFooted}}{{/if}}){{/if}}|{{hpAverage}} ({{hpFormula}})|{{speedText}}|{{initiative}}|{{bab}}|{{cmb}}|{{cmd}}|{{cr}}{{#if xp}} ({{xp}} XP){{/if}}|
 
-**DEFENSE**
+| 💪 STR | 🏃 DEX | 🫀 CON | 🧠 INT | 👁️ WIS | 🎭 CHA |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|{{abilities.str}} ({{mod abilities.str}})|{{abilities.dex}} ({{mod abilities.dex}})|{{abilities.con}} ({{mod abilities.con}})|{{abilities.int}} ({{mod abilities.int}})|{{abilities.wis}} ({{mod abilities.wis}})|{{abilities.cha}} ({{mod abilities.cha}})|
 
-**AC** {{ac}}{{#if acNotes}} ({{acNotes}}){{/if}}{{#if touch}}, touch {{touch}}{{/if}}{{#if flatFooted}}, flat-footed {{flatFooted}}{{/if}}
-**hp** {{hpAverage}} ({{hpFormula}})
-{{saves}}
+{{#if acNotes}}🧱 **AC Breakdown** {{acNotes}}
 
-**OFFENSE**
+{{/if}}🎯 **Saves** {{saves}}
 
-**Speed** {{speedText}}
-{{#each actions}}**{{name}}** {{text}}
-{{/each}}
+{{#if skillsText}}🛠️ **Skills** {{skillsText}}
 
-**STATISTICS**
+{{/if}}{{#if feats}}🏅 **Feats** {{feats}}
 
-**Str** {{abilities.str}}, **Dex** {{abilities.dex}}, **Con** {{abilities.con}}, **Int** {{abilities.int}}, **Wis** {{abilities.wis}}, **Cha** {{abilities.cha}}
-**Base Atk** {{bab}}; **CMB** {{cmb}}; **CMD** {{cmd}}
-{{#if feats}}**Feats** {{feats}}
-{{/if}}{{#if skillsText}}**Skills** {{skillsText}}
-{{/if}}{{#if languages}}**Languages** {{languages}}
-{{/if}}
+{{/if}}{{#if senses}}🔍 **Senses** {{senses}}
 
-{{#if traits}}**SPECIAL ABILITIES**
+{{/if}}{{#if languages}}🗣️ **Languages** {{languages}}
 
-{{#each traits}}**{{name}}** {{text}}
+{{/if}}{{#if traits}}### ✨ Traits
+{{#each traits}}**{{name}}.** {{text}}
+
+{{/each}}{{/if}}{{#if actions}}### ⚔️ Actions
+{{#each actions}}**{{name}}.** {{text}}
 
 {{/each}}{{/if}}
