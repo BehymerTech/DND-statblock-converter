@@ -107,6 +107,19 @@ or changing importer logic:
 cd tools && npm install && node build-data.mjs
 ```
 
+## Hosting on Proxmox
+
+`deploy/proxmox-create-lxc.sh` (run as root on the Proxmox host) creates a tiny
+Debian 12 LXC with nginx that serves the site and re-pulls this repo from GitHub
+on every container boot:
+
+```
+./deploy/proxmox-create-lxc.sh -i 210 -n statblock -s local-lvm -b vmbr0
+```
+
+It prints the container's URL when done. Pick up new commits with
+`pct reboot <CTID>` or `pct exec <CTID> -- systemctl restart statblock-update`.
+
 ## Reference materials
 
 Where possible, reference official SRD documentation:
