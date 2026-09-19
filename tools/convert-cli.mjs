@@ -7,6 +7,8 @@
 //   node convert-cli.mjs --from pf1 --to dnd35 --search "Goblin"
 //   node convert-cli.mjs --from dnd5e2024 --to dnd5e2014 --file block.txt
 //   cat block.txt | node convert-cli.mjs --from dnd35 --to pf1
+//   node convert-cli.mjs --kind item --from dnd35 --to dnd5e2024 --search "Chainmail"
+//   node convert-cli.mjs --kind item --from dnd5e2014 --to pf1 --file item.txt
 //   node convert-cli.mjs --list-systems
 //   node convert-cli.mjs --from pf1 --search goblin --list-matches
 
@@ -14,7 +16,7 @@ import { readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
-import { importPastedText, exportCreature, SYSTEMS, CONVERTIBLE_TARGETS } from "../src/convert.js";
+import { importPastedText, exportCreature, importPastedItem, exportItem, SYSTEMS, CONVERTIBLE_TARGETS } from "../src/convert.js";
 import { render } from "../src/templateEngine.js";
 
 const ROOT = dirname(dirname(fileURLToPath(import.meta.url)));
@@ -50,6 +52,12 @@ function loadIndex(system) {
 	return JSON.parse(readFileSync(file, "utf8"));
 }
 
+function loadItems(system) {
+	const file = join(ROOT, "data", system, "items.json");
+	if (!existsSync(file)) return [];
+	return JSON.parse(readFileSync(file, "utf8"));
+}
+
 function loadCreature(system, slug) {
 	return JSON.parse(readFileSync(join(ROOT, "data", system, `${slug}.json`), "utf8"));
 }
@@ -60,6 +68,7 @@ function fail(msg) {
 }
 
 const args = parseArgs(process.argv.slice(2));
+const KIND = args.kind === "item" ? "item" : "monster";
 
 if (args["list-systems"]) {
 	console.log(SYSTEMS.map((s) => `${s.id}\t${s.label}`).join("\n"));
@@ -74,7 +83,25 @@ if (!CONVERTIBLE_TARGETS.includes(args.from)) {
 
 let creature;
 
-if (args.search) {
+if (KIND === "item") {
+	if (args.search) {
+		const query = String(args.search).toLowerCase();
+		const items = loadItems(args.from);
+		const matches = items.filter((m) => m.name.toLowerCase().includes(query));
+		if (args["list-matches"]) {
+			console.log(matches.map((m) => `${m.slug}\t${m.name}\t${m.category}`).join("\n"));
+			process.exit(0);
+		}
+		if (!matches.length) fail(`no ${args.from} item matching "${args.search}" (PF1 has no searchable items yet — paste the item text instead)`);
+		const exact = matches.find((m) => m.name.toLowerCase() === query);
+		if (!exact && matches.length > 1) fail(`${matches.length} matches for "${args.search}" — pass --list-matches to see them, or narrow the query`);
+		creature = exact || matches[0];
+	} else {
+		const text = args.file ? readFileSync(args.file, "utf8") : args.text || readStdin();
+		if (!text.trim()) fail("provide an item via --file, --text, --search, or stdin");
+		creature = importPastedItem(text, args.from);
+	}
+} else if (args.search) {
 	const index = loadIndex(args.from);
 	const query = String(args.search).toLowerCase();
 	const matches = index.filter((m) => m.name.toLowerCase().includes(query));
@@ -102,12 +129,12 @@ if (!CONVERTIBLE_TARGETS.includes(args.to)) {
 	fail(`"${args.to}" isn't a supported conversion target yet (supported: ${CONVERTIBLE_TARGETS.join(", ")})`);
 }
 
-const templatePath = join(ROOT, "templates", `${args.to}.md`);
+const templatePath = join(ROOT, "templates", KIND === "item" ? "item.md" : `${args.to}.md`);
 const template = readFileSync(templatePath, "utf8");
 
 let result;
 try {
-	result = exportCreature(creature, args.to);
+	result = KIND === "item" ? exportItem(creature, args.to) : exportCreature(creature, args.to);
 } catch (err) {
 	fail(err.message);
 }

@@ -13,6 +13,11 @@
 		<button id="theme-toggle" class="icon-button" type="button" aria-label="Toggle light/dark theme" title="Toggle theme">🌓</button>
 	</header>
 
+	<div class="kind-toggle mode-toggle" role="tablist" aria-label="What to convert">
+		<button type="button" class="mode-tab active" data-kind="monster" role="tab" aria-selected="true">🐉 Monsters</button>
+		<button type="button" class="mode-tab" data-kind="item" role="tab" aria-selected="false">🎒 Items &amp; equipment</button>
+	</div>
+
 	<main class="converter">
 		<section class="panel" aria-labelledby="from-heading">
 			<h2 id="from-heading">From</h2>
@@ -29,7 +34,7 @@
 
 			<div class="mode-panel" data-panel="search">
 				<label class="field">
-					<span>Monster</span>
+					<span id="monster-label">Monster</span>
 					<div class="combobox" data-combobox="monster-search"></div>
 				</label>
 				<p class="hint" id="source-summary"></p>
@@ -37,12 +42,12 @@
 
 			<div class="mode-panel" data-panel="paste" hidden>
 				<label class="field">
-					<span>Pasted stat block text</span>
-					<textarea id="paste-input" rows="14" placeholder="Paste a stat block in the source system's usual SRD format..."></textarea>
+					<span id="paste-label">Pasted stat block text</span>
+					<textarea id="paste-input" rows="14" placeholder="Paste in the source system's usual SRD format..."></textarea>
 				</label>
 			</div>
 
-			<h3 class="preview-label">Source stat block</h3>
+			<h3 class="preview-label" data-kind-label data-monster-label="Source stat block" data-item-label="Source item">Source stat block</h3>
 			<div id="source-preview" class="statblock-preview"></div>
 		</section>
 

@@ -14,6 +14,7 @@ import yaml from "js-yaml";
 import { fromFiveToolsJson } from "../src/importers/dnd5e2014Json.js";
 import { parseDnd5e2024Markdown } from "../src/importers/dnd5e2024Md.js";
 import { parseDnd35CompendiumFile } from "../src/importers/dnd35.js";
+import { fromFiveToolsItem, parseDnd5e2024Equipment, parseDnd5e2024MagicItems, parseDnd35Equipment, parseDnd35MagicItems } from "../src/importers/items.js";
 import { extractStatblockYamlSource, parsePf1Yaml, parsePf2Yaml } from "../src/importers/pf.js";
 
 const ROOT = dirname(dirname(fileURLToPath(import.meta.url)));
@@ -127,6 +128,69 @@ function buildPfSystem(systemId, repoName, parseYaml) {
 	}
 	writeSystem(systemId, creatures);
 }
+
+// ---- Items: one items.json per system (a flat array — small enough to load whole and search in the browser) ----
+
+function writeItems(systemId, items) {
+	const seen = new Map();
+	const out = [];
+	for (const it of items) {
+		if (!it || !it.name) continue;
+		let slug = slugify(it.name);
+		const n = seen.get(slug) || 0;
+		seen.set(slug, n + 1);
+		if (n > 0) slug = `${slug}-${n + 1}`;
+		out.push({ slug, ...it });
+	}
+	out.sort((a, b) => a.name.localeCompare(b.name));
+	mkdirSync(join(DATA, systemId), { recursive: true });
+	writeFileSync(join(DATA, systemId, "items.json"), JSON.stringify(out));
+	const counts = out.reduce((acc, it) => ({ ...acc, [it.category]: (acc[it.category] || 0) + 1 }), {});
+	console.log(`${systemId}: wrote ${out.length} items`, counts);
+}
+
+function buildItems5e2014() {
+	const dir = join(FIVETOOLS, "data");
+	if (!existsSync(join(dir, "items.json"))) return console.warn("Skipping dnd5e2014 items: 5etools bundle not found at", dir);
+	const base = JSON.parse(readFileSync(join(dir, "items-base.json"), "utf8")).baseitem || [];
+	const magic = JSON.parse(readFileSync(join(dir, "items.json"), "utf8")).item || [];
+	const keep = (i) => (i.srd || i.basicRules) && !i._copy;
+	writeItems("dnd5e2014", [...base.filter(keep), ...magic.filter(keep)].map(fromFiveToolsItem));
+}
+
+function buildItems5e2024() {
+	const dir = join(SRD, "dnd-5e-srd-markdown");
+	if (!existsSync(join(dir, "equipment.md"))) return console.warn("Skipping dnd5e2024 items: not cloned at", dir);
+	writeItems("dnd5e2024", [
+		...parseDnd5e2024Equipment(readFileSync(join(dir, "equipment.md"), "utf8")),
+		...parseDnd5e2024MagicItems(readFileSync(join(dir, "magic-items.md"), "utf8")),
+	]);
+}
+
+function buildItems35() {
+	const root = join(SRD, "DnD-3.5-SRD-Markdown");
+	const equip = join(root, "Basic Rules and Legal", "equipment.md");
+	if (!existsSync(equip)) return console.warn("Skipping dnd35 items: not cloned at", equip);
+	const items = parseDnd35Equipment(readFileSync(equip, "utf8"));
+	const magicDir = join(root, "3.5 Compendium", "Magic Items");
+	const groups = [
+		["magic-items-ii-armor-and-weapons.md", "Magic armor & weapons"],
+		["magic-items-iii-potions-rings-and-rods.md", "Potion, ring, or rod"],
+		["magic-items-iv-scrolls-staffs-and-wands.md", "Scroll, staff, or wand"],
+		["magic-items-v-wondrous-items.md", "Wondrous item"],
+		["magic-items-vi-intelligent-cursed-and-artifacts.md", "Intelligent, cursed, or artifact"],
+	];
+	for (const [file, group] of groups) {
+		const f = join(magicDir, file);
+		if (existsSync(f)) items.push(...parseDnd35MagicItems(readFileSync(f, "utf8"), group));
+	}
+	writeItems("dnd35", items);
+}
+
+buildItems5e2014();
+buildItems5e2024();
+buildItems35();
+// PF1: the cloned Pathfinder-1E SRD repo has no equipment/item files, so PF1 items are paste-only for now.
 
 buildDnd5e2014();
 buildDnd5e2024();

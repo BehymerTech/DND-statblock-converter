@@ -72,6 +72,31 @@ into flavor text) is exactly what every reference conversion guide treats as
 Every conversion that does this prints a note saying so; the site surfaces
 these under "Conversion notes" and the CLI prints them to stderr.
 
+### Items & equipment
+
+The 🎒 **Items & equipment** tab converts weapons, armor & shields, adventuring
+gear, and magic items between the same four systems, by searching the SRD item
+lists or pasting an item's text (`Name`, then labeled lines such as `Cost`,
+`Damage`, `Critical`, `Properties`, `Armor Bonus`, `Rarity`, plus a description).
+
+- `src/itemSchema.js` – canonical item shape; `src/importers/items.js` – 5etools
+  JSON, 5e 2024 SRD markdown, 3.5 SRD markdown (grid tables), and pasted text
+  importers; `src/exporters/items.js` – conversion math; `templates/item.md` – one
+  shared, table-based layout for every system.
+- Recomputed with formulas: cost (gp both ways), weight, weapon damage (a Small
+  die is derived from 5e's single die using 3.5's size steps), 3.5 crit range
+  defaulted/dropped, range increment <-> 5e normal/long range, armor bonus <-> 5e
+  base AC (`10 + bonus`, `9 + bonus` for light), Dex caps, Strength/Stealth vs.
+  check penalty/spell failure defaults, and magic item price <-> 5e rarity
+  (100 / 400 / 4,000 / 40,000 / 200,000 gp).
+- Carried over as text, with a "Conversion notes" warning: magic item effects,
+  save DCs, spell references, and charges. Attunement is dropped going to
+  3.5/PF1 and defaults to "No" coming from them.
+- PF1 has no searchable items (the cloned PF1 SRD repo has no equipment files) —
+  paste PF1 item text instead. Everything else is searchable.
+- CLI: `node tools/convert-cli.mjs --kind item --from dnd35 --to dnd5e2024 --search "Chainmail"`
+  (works with `--file`/stdin/`--list-matches` like monsters).
+
 ### Regenerating `/data`
 
 `/data` is generated, not hand-written, from the SRD repos below plus the

@@ -49,6 +49,19 @@ under "Conversion notes" — **always relay these to the user**, especially:
   are *not* mechanically rewritten; tell the user to sanity-check to-hit bonuses
   and DCs against the new proficiency bonus shown in the note.
 
+## Items and equipment
+
+Weapons, armor/shields, gear, and magic items convert too — add `--kind item`:
+
+```
+node tools/convert-cli.mjs --kind item --from dnd35 --to dnd5e2024 --search "Chainmail"
+node tools/convert-cli.mjs --kind item --from dnd5e2014 --to pf1 --file item.txt
+```
+
+PF1 has no searchable item data (paste the text instead). Cost, weight, damage,
+armor AC/bonus, and rarity/price are recomputed; magic item effects are carried
+over verbatim, so tell the user to review the "Conversion notes".
+
 ## If the data isn't there
 
 `/data` is pre-built from the SRD repos named in the root `README.md`. If a

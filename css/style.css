@@ -345,3 +345,9 @@ textarea:focus, input[type="text"]:focus, button:focus-visible {
 	padding: 1px 5px;
 	border-radius: 4px;
 }
+
+.kind-toggle {
+	display: flex;
+	width: fit-content;
+	margin: 20px auto 0;
+}

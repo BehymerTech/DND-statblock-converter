@@ -1,4 +1,4 @@
-import { SYSTEMS, CONVERTIBLE_SYSTEMS, importPastedText, exportCreature } from "../src/convert.js";
+import { SYSTEMS, CONVERTIBLE_SYSTEMS, importPastedText, exportCreature, importPastedItem, exportItem } from "../src/convert.js";
 import { render } from "../src/templateEngine.js";
 import { createCombobox } from "./combobox.js";
 import { renderMarkdownPreview } from "./markdownPreview.js";
@@ -45,8 +45,12 @@ const toCombo = createCombobox(document.querySelector('[data-combobox="to-system
 });
 toCombo.setValue("dnd5e2014", SYSTEMS.find((s) => s.id === "dnd5e2014").label);
 
-// ---- Monster search ----
+// ---- Monster / item search ----
 
+// "monster" or "item" — items share every piece of UI below, only the data file, importer,
+// exporter, and template differ.
+let kind = "monster";
+const itemCache = new Map();
 let monsterIndex = [];
 let sourceCreature = null;
 const sourceSummary = document.getElementById("source-summary");
@@ -60,13 +64,13 @@ const monsterCombo = createCombobox(document.querySelector('[data-combobox="mons
 		return monsterIndex
 			.filter((m) => m.name.toLowerCase().includes(q))
 			.slice(0, 50)
-			.map((m) => ({ value: m.slug, label: m.name, meta: m.cr != null ? `CR ${m.cr}` : m.type || "" }));
+			.map((m) => ({ value: m.slug, label: m.name, meta: kind === "item" ? m.category : m.cr != null ? `CR ${m.cr}` : m.type || "" }));
 	},
 	onSelect: async (slug, label) => {
 		const system = fromCombo.getValue();
 		try {
-			const res = await fetch(`data/${system}/${slug}.json`);
-			sourceCreature = await res.json();
+			if (kind === "item") sourceCreature = monsterIndex.find((m) => m.slug === slug);
+			else sourceCreature = await (await fetch(`data/${system}/${slug}.json`)).json();
 			sourceSummary.textContent = `Loaded "${label}" — ready to convert.`;
 			await showSource(sourceCreature, system);
 		} catch (err) {
@@ -81,17 +85,47 @@ async function onFromSystemChange(system) {
 	monsterCombo.clear();
 	sourceCreature = null;
 	sourcePreviewEl.innerHTML = "";
-	sourceSummary.textContent = "Loading monster list…";
+	sourceSummary.textContent = `Loading ${kind} list…`;
 	try {
-		const res = await fetch(`data/${system}/index.json`);
-		monsterIndex = await res.json();
-		sourceSummary.textContent = `${monsterIndex.length} monsters available to search.`;
+		if (kind === "item") {
+			if (!itemCache.has(system)) {
+				const res = await fetch(`data/${system}/items.json`);
+				if (!res.ok) throw new Error("no item data");
+				itemCache.set(system, await res.json());
+			}
+			monsterIndex = itemCache.get(system);
+		} else {
+			const res = await fetch(`data/${system}/index.json`);
+			monsterIndex = await res.json();
+		}
+		sourceSummary.textContent = `${monsterIndex.length} ${kind === "item" ? "items" : "monsters"} available to search.`;
 	} catch {
 		monsterIndex = [];
-		sourceSummary.textContent = "No searchable data for this system yet — try pasting a stat block instead.";
+		sourceSummary.textContent = `No searchable ${kind === "item" ? "item" : "monster"} data for this system yet — try pasting instead.`;
 	}
 }
 onFromSystemChange(fromCombo.getValue());
+
+// ---- Kind toggle (monsters vs items) ----
+
+document.querySelectorAll(".mode-tab[data-kind]").forEach((btn) => {
+	btn.addEventListener("click", () => {
+		kind = btn.dataset.kind;
+		document.querySelectorAll(".mode-tab[data-kind]").forEach((b) => {
+			b.classList.toggle("active", b === btn);
+			b.setAttribute("aria-selected", String(b === btn));
+		});
+		document.getElementById("monster-label").textContent = kind === "item" ? "Item" : "Monster";
+		document.getElementById("paste-label").textContent = kind === "item" ? "Pasted item text" : "Pasted stat block text";
+		document.querySelectorAll("[data-kind-label]").forEach((el) => (el.textContent = el.dataset[`${kind}Label`]));
+		sourcePreviewEl.innerHTML = "";
+		previewEl.innerHTML = "";
+		markdownEl.value = "";
+		copyBtn.disabled = true;
+		showWarnings([]);
+		onFromSystemChange(fromCombo.getValue());
+	});
+});
 
 // ---- Mode toggle (search vs paste) ----
 
@@ -156,8 +190,8 @@ async function showSource(creature, fromSystem) {
 		return;
 	}
 	try {
-		const template = await loadTemplate(fromSystem);
-		const { context } = exportCreature(creature, fromSystem);
+		const template = await loadTemplate(kind === "item" ? "item" : fromSystem);
+		const { context } = kind === "item" ? exportItem(creature, fromSystem) : exportCreature(creature, fromSystem);
 		sourcePreviewEl.innerHTML = renderMarkdownPreview(render(template, context));
 	} catch (err) {
 		console.error("Couldn't render source stat block:", err);
@@ -184,14 +218,14 @@ document.getElementById("convert-btn").addEventListener("click", async () => {
 		if (mode === "paste") {
 			const text = document.getElementById("paste-input").value;
 			if (!text.trim()) throw new Error("Paste a stat block first.");
-			creature = importPastedText(text, fromSystem);
+			creature = kind === "item" ? importPastedItem(text, fromSystem) : importPastedText(text, fromSystem);
 		} else {
-			if (!sourceCreature) throw new Error("Search for and select a monster first.");
+			if (!sourceCreature) throw new Error(`Search for and select ${kind === "item" ? "an item" : "a monster"} first.`);
 			creature = sourceCreature;
 		}
 
-		const template = await loadTemplate(toSystem);
-		const { context, warnings } = exportCreature(creature, toSystem);
+		const template = await loadTemplate(kind === "item" ? "item" : toSystem);
+		const { context, warnings } = kind === "item" ? exportItem(creature, toSystem) : exportCreature(creature, toSystem);
 		const markdown = render(template, context);
 		showOutput(markdown);
 		showWarnings(warnings);

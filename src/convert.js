@@ -20,6 +20,8 @@ import { parsePf1PastedText, parsePf2PastedText } from "./importers/pf.js";
 import { toDnd5e } from "./exporters/dnd5e.js";
 import { toDnd35OrPf1 } from "./exporters/dnd35pf1.js";
 import { toPf2 } from "./exporters/pf2.js";
+import { parseItemText } from "./importers/items.js";
+import { toItem } from "./exporters/items.js";
 
 export { SYSTEMS };
 
@@ -53,6 +55,19 @@ export function importPastedText(rawText, fromSystem) {
 	// here so exporters can tell "already 5e" (skip recompute) from "converting into 5e" (recompute).
 	creature.sourceSystem = fromSystem;
 	return creature;
+}
+
+/** Parse a pasted item (weapon, armor, gear, or magic item) into the canonical item schema. */
+export function importPastedItem(rawText, fromSystem) {
+	const item = parseItemText(cleanMarkup(rawText));
+	item.sourceSystem = fromSystem;
+	return item;
+}
+
+/** Compute the render-ready context (and any conversion warnings) for an item in a target system. */
+export function exportItem(item, toSystem) {
+	if (!CONVERTIBLE_TARGETS.includes(toSystem)) throw new Error(`Unknown target system: ${toSystem}`);
+	return toItem(item, toSystem);
 }
 
 /** Compute the render-ready context (and any conversion warnings) for a target system. */
