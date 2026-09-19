@@ -54,7 +54,6 @@ server {
 	index index.html;
 	location ~ /\.git { deny all; }
 	location / { try_files $uri $uri/ =404; add_header Cache-Control "no-cache"; }
-	types { application/javascript mjs; }
 }
 NGINX
 
